@@ -1635,9 +1635,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.degree",
-                  "text": "degree",
-                  "reading": "dɪˈɡriː",
+                  "id": "en.celsius",
+                  "text": "Celsius",
+                  "reading": "ˈsɛlsiəs",
                   "kind": "word"
                 },
                 {
@@ -8789,6 +8789,4923 @@
                   "id": "en.punctuation",
                   "text": "punctuation",
                   "reading": "ˌpʌŋktʃuˈeɪʃən",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "cefr": "B1",
+      "exam": "CEFR B1",
+      "minutes": 10,
+      "readerMinutes": 14,
+      "units": [
+        {
+          "id": "en-E1",
+          "title_th": "สิ่งแวดล้อม",
+          "goal_th": "อธิบายปัญหาสิ่งแวดล้อม บอกสิ่งที่กำลังทำเพื่อแก้ปัญหา และเสนอวิธีช่วยได้",
+          "scenario": "B is a reporter from the campus radio station. Nam must explain an environmental problem in Bangkok, say what is being done about it, and suggest what students can do to help.",
+          "lessons": [
+            {
+              "id": "en-E1-01",
+              "topic": "Where does our plastic go?",
+              "grammar": "present simple passive: is / are + past participle (Millions of bottles are thrown away every day.)",
+              "items": [
+                {
+                  "id": "en.environment",
+                  "text": "environment",
+                  "reading": "ɪnˈvaɪrənmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.plastic",
+                  "text": "plastic",
+                  "reading": "ˈplæstɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.recycle",
+                  "text": "recycle",
+                  "reading": "riːˈsaɪkəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.waste",
+                  "text": "waste",
+                  "reading": "weɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.packaging",
+                  "text": "packaging",
+                  "reading": "ˈpækɪdʒɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dump",
+                  "text": "dump",
+                  "reading": "dʌmp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-02",
+              "topic": "Is it recycled here?",
+              "grammar": "present passive: questions and negatives (Is glass recycled here? / It isn't collected.)",
+              "items": [
+                {
+                  "id": "en.reusable",
+                  "text": "reusable",
+                  "reading": "ˌriːˈjuːzəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.separate",
+                  "text": "separate",
+                  "reading": "ˈsɛpəreɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.recycling-bin",
+                  "text": "recycling bin",
+                  "reading": "riːˈsaɪklɪŋ ˌbɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cardboard",
+                  "text": "cardboard",
+                  "reading": "ˈkɑːrdbɔːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.material",
+                  "text": "material",
+                  "reading": "məˈtɪriəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-03",
+              "topic": "We cycle in order to cut pollution",
+              "grammar": "so that / in order to for purpose",
+              "items": [
+                {
+                  "id": "en.reduce",
+                  "text": "reduce",
+                  "reading": "rɪˈduːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.save-energy",
+                  "text": "save energy",
+                  "reading": "ˌseɪv ˈɛnərdʒi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.solar-power",
+                  "text": "solar power",
+                  "reading": "ˌsoʊlər ˈpaʊər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fuel",
+                  "text": "fuel",
+                  "reading": "ˈfjuːəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.electric-car",
+                  "text": "electric car",
+                  "reading": "ɪˌlɛktrɪk ˈkɑːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-04",
+              "topic": "It's likely to get worse",
+              "grammar": "be likely to / be unlikely to (Floods are likely to get worse.)",
+              "items": [
+                {
+                  "id": "en.climate-change",
+                  "text": "climate change",
+                  "reading": "ˈklaɪmət ˌtʃeɪndʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.global-warming",
+                  "text": "global warming",
+                  "reading": "ˌɡloʊbəl ˈwɔːrmɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sea-level",
+                  "text": "sea level",
+                  "reading": "ˈsiː ˌlɛvəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.drought",
+                  "text": "drought",
+                  "reading": "draʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.melt",
+                  "text": "melt",
+                  "reading": "mɛlt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.extreme",
+                  "text": "extreme",
+                  "reading": "ɪkˈstriːm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-05",
+              "topic": "Fewer cars, less plastic",
+              "grammar": "fewer + plural noun vs less + uncountable noun",
+              "items": [
+                {
+                  "id": "en.fewer",
+                  "text": "fewer",
+                  "reading": "ˈfjuːər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.amount",
+                  "text": "amount",
+                  "reading": "əˈmaʊnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.natural",
+                  "text": "natural",
+                  "reading": "ˈnætʃərəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.resource",
+                  "text": "resource",
+                  "reading": "ˈriːsɔːrs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.run-out-of",
+                  "text": "run out of",
+                  "reading": "ˌrʌn ˈaʊt əv",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-06",
+              "topic": "What will be done?",
+              "grammar": "future passive: will be + past participle (More trees will be planted.)",
+              "items": [
+                {
+                  "id": "en.plant",
+                  "text": "plant",
+                  "reading": "plænt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.government",
+                  "text": "government",
+                  "reading": "ˈɡʌvərnmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ban",
+                  "text": "ban",
+                  "reading": "bæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.campaign",
+                  "text": "campaign",
+                  "reading": "kæmˈpeɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.single-use",
+                  "text": "single-use",
+                  "reading": "ˌsɪŋɡəl ˈjuːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.eco-friendly",
+                  "text": "eco-friendly",
+                  "reading": "ˌiːkoʊ ˈfrɛndli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Bangkok's plastic problem, and the students who are fighting it",
+              "items": [
+                {
+                  "id": "en.beach-clean-up",
+                  "text": "beach clean-up",
+                  "reading": "ˈbiːtʃ ˌkliːn ʌp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ocean",
+                  "text": "ocean",
+                  "reading": "ˈoʊʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.turtle",
+                  "text": "turtle",
+                  "reading": "ˈtɜːrtəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.harm",
+                  "text": "harm",
+                  "reading": "hɑːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.polluted",
+                  "text": "polluted",
+                  "reading": "pəˈluːtɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E1-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "New rule: no more free plastic bags in the campus shops",
+              "items": [
+                {
+                  "id": "en.bring-your-own",
+                  "text": "bring your own",
+                  "reading": "ˌbrɪŋ jər ˈoʊn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cloth",
+                  "text": "cloth",
+                  "reading": "klɔːθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.encourage",
+                  "text": "encourage",
+                  "reading": "ɪnˈkɜːrɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.starting-from",
+                  "text": "starting from",
+                  "reading": "ˈstɑːrtɪŋ frəm",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E2",
+          "title_th": "ข่าวและสื่อ",
+          "goal_th": "เล่าข่าวที่อ่านมา รายงานว่าใครพูดอะไร และประเมินความน่าเชื่อถือของข่าวได้",
+          "scenario": "B is Mr. Brown, who asks the class to discuss the week's news. Nam must report a story she has read, say what people said about it, and give her opinion about whether the source is reliable.",
+          "lessons": [
+            {
+              "id": "en-E2-01",
+              "topic": "The minister said that…",
+              "grammar": "reported speech: said (that) + tense change (present → past)",
+              "items": [
+                {
+                  "id": "en.news",
+                  "text": "news",
+                  "reading": "nuːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.headline",
+                  "text": "headline",
+                  "reading": "ˈhɛdlaɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.journalist",
+                  "text": "journalist",
+                  "reading": "ˈdʒɜːrnəlɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reporter",
+                  "text": "reporter",
+                  "reading": "rɪˈpɔːrtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.interview",
+                  "text": "interview",
+                  "reading": "ˈɪntərvjuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.broadcast",
+                  "text": "broadcast",
+                  "reading": "ˈbrɔːdkæst",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-02",
+              "topic": "She told me that…",
+              "grammar": "tell + object + (that) (She told me that she was leaving.)",
+              "items": [
+                {
+                  "id": "en.rumor",
+                  "text": "rumor",
+                  "reading": "ˈruːmər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gossip",
+                  "text": "gossip",
+                  "reading": "ˈɡɑːsɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spread",
+                  "text": "spread",
+                  "reading": "sprɛd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fake-news",
+                  "text": "fake news",
+                  "reading": "ˌfeɪk ˈnuːz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.source",
+                  "text": "source",
+                  "reading": "sɔːrs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.exaggerate",
+                  "text": "exaggerate",
+                  "reading": "ɪɡˈzædʒəreɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-03",
+              "topic": "He said he would call",
+              "grammar": "reported speech: will → would, can → could",
+              "items": [
+                {
+                  "id": "en.announce",
+                  "text": "announce",
+                  "reading": "əˈnaʊns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.statement",
+                  "text": "statement",
+                  "reading": "ˈsteɪtmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.official",
+                  "text": "official",
+                  "reading": "əˈfɪʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.press-conference",
+                  "text": "press conference",
+                  "reading": "ˈprɛs ˌkɑːnfərəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spokesperson",
+                  "text": "spokesperson",
+                  "reading": "ˈspoʊkspɜːrsən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-04",
+              "topic": "They asked if…",
+              "grammar": "reported yes / no questions: asked if / whether",
+              "items": [
+                {
+                  "id": "en.whether",
+                  "text": "whether",
+                  "reading": "ˈwɛðər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.public",
+                  "text": "public",
+                  "reading": "ˈpʌblɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.opinion",
+                  "text": "opinion",
+                  "reading": "əˈpɪnjən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.majority",
+                  "text": "majority",
+                  "reading": "məˈdʒɔːrəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.poll",
+                  "text": "poll",
+                  "reading": "poʊl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-05",
+              "topic": "According to the report…",
+              "grammar": "according to + noun (According to the report, …)",
+              "items": [
+                {
+                  "id": "en.according-to",
+                  "text": "according to",
+                  "reading": "əˈkɔːrdɪŋ tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.research",
+                  "text": "research",
+                  "reading": "ˈriːsɜːrtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.expert",
+                  "text": "expert",
+                  "reading": "ˈɛkspɜːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.evidence",
+                  "text": "evidence",
+                  "reading": "ˈɛvədəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.data",
+                  "text": "data",
+                  "reading": "ˈdeɪtə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-06",
+              "topic": "Reading headlines",
+              "grammar": "headline language: present simple for past events, to-infinitive for the future (PM to visit Japan)",
+              "items": [
+                {
+                  "id": "en.front-page",
+                  "text": "front page",
+                  "reading": "ˌfrʌnt ˈpeɪdʒ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.newspaper",
+                  "text": "newspaper",
+                  "reading": "ˈnuːzpeɪpər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.issue",
+                  "text": "issue",
+                  "reading": "ˈɪʃuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.breaking-news",
+                  "text": "breaking news",
+                  "reading": "ˌbreɪkɪŋ ˈnuːz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.politics",
+                  "text": "politics",
+                  "reading": "ˈpɑːlətɪks",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "A news story: a lost dog walks 200 kilometers to find its way home",
+              "items": [
+                {
+                  "id": "en.owner",
+                  "text": "owner",
+                  "reading": "ˈoʊnər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kilometer",
+                  "text": "kilometer",
+                  "reading": "kɪˈlɑːmətər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.miracle",
+                  "text": "miracle",
+                  "reading": "ˈmɪrəkəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reward",
+                  "text": "reward",
+                  "reading": "rɪˈwɔːrd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E2-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Emma and Nam discuss whether a story they saw online is true",
+              "items": [
+                {
+                  "id": "en.fact",
+                  "text": "fact",
+                  "reading": "fækt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.screenshot",
+                  "text": "screenshot",
+                  "reading": "ˈskriːnʃɑːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.doubt",
+                  "text": "doubt",
+                  "reading": "daʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.trustworthy",
+                  "text": "trustworthy",
+                  "reading": "ˈtrʌstwɜːrði",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E3",
+          "title_th": "การศึกษา",
+          "goal_th": "เล่าเรื่องการเรียน ถามเรื่องคุณสมบัติและทุนการศึกษา และบอกว่าอยากเรียนอะไรต่อได้",
+          "scenario": "B is an adviser at a study-abroad fair. Nam must explain what she has been studying, ask about entry requirements and scholarships, and say what she wants to study next.",
+          "lessons": [
+            {
+              "id": "en-E3-01",
+              "topic": "I've been studying all morning",
+              "grammar": "present perfect continuous (I've been studying for three hours.)",
+              "items": [
+                {
+                  "id": "en.degree",
+                  "text": "degree",
+                  "reading": "dɪˈɡriː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.major",
+                  "text": "major",
+                  "reading": "ˈmeɪdʒər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.faculty",
+                  "text": "faculty",
+                  "reading": "ˈfækəlti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.campus",
+                  "text": "campus",
+                  "reading": "ˈkæmpəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.midterm",
+                  "text": "midterm",
+                  "reading": "ˈmɪdtɜːrm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-02",
+              "topic": "I've been reading / I've read three chapters",
+              "grammar": "present perfect continuous vs present perfect simple",
+              "items": [
+                {
+                  "id": "en.essay",
+                  "text": "essay",
+                  "reading": "ˈɛseɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.textbook",
+                  "text": "textbook",
+                  "reading": "ˈtɛkstbʊk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.take-notes",
+                  "text": "take notes",
+                  "reading": "ˌteɪk ˈnoʊts",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.highlight",
+                  "text": "highlight",
+                  "reading": "ˈhaɪlaɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.quiz",
+                  "text": "quiz",
+                  "reading": "kwɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-03",
+              "topic": "Are we allowed to use phones?",
+              "grammar": "be allowed to / not be allowed to",
+              "items": [
+                {
+                  "id": "en.be-allowed-to",
+                  "text": "be allowed to",
+                  "reading": "bi əˈlaʊd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cheat",
+                  "text": "cheat",
+                  "reading": "tʃiːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.attendance",
+                  "text": "attendance",
+                  "reading": "əˈtɛndəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.discipline",
+                  "text": "discipline",
+                  "reading": "ˈdɪsəplɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.punishment",
+                  "text": "punishment",
+                  "reading": "ˈpʌnɪʃmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.detention",
+                  "text": "detention",
+                  "reading": "dɪˈtɛnʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-04",
+              "topic": "It's hard for me to speak in class",
+              "grammar": "It's + adjective + for + someone + to-infinitive (It's hard for me to…)",
+              "items": [
+                {
+                  "id": "en.concentrate",
+                  "text": "concentrate",
+                  "reading": "ˈkɑːnsəntreɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.participate",
+                  "text": "participate",
+                  "reading": "pɑːrˈtɪsəpeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pay-attention",
+                  "text": "pay attention",
+                  "reading": "ˌpeɪ əˈtɛnʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.discuss",
+                  "text": "discuss",
+                  "reading": "dɪˈskʌs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.raise-your-hand",
+                  "text": "raise your hand",
+                  "reading": "ˌreɪz jər ˈhænd",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-05",
+              "topic": "Although it's expensive…",
+              "grammar": "although / even though (contrast clauses)",
+              "items": [
+                {
+                  "id": "en.although",
+                  "text": "although",
+                  "reading": "ɔːlˈðoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.even-though",
+                  "text": "even though",
+                  "reading": "ˌiːvən ˈðoʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.tuition",
+                  "text": "tuition",
+                  "reading": "tuˈɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scholarship",
+                  "text": "scholarship",
+                  "reading": "ˈskɑːlərʃɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.apply-for",
+                  "text": "apply for",
+                  "reading": "əˈplaɪ fɔːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-06",
+              "topic": "I don't know what to study",
+              "grammar": "question word + to-infinitive (I don't know what to study / where to go.)",
+              "items": [
+                {
+                  "id": "en.choose",
+                  "text": "choose",
+                  "reading": "tʃuːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.option",
+                  "text": "option",
+                  "reading": "ˈɑːpʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.adviser",
+                  "text": "adviser",
+                  "reading": "ədˈvaɪzər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.requirement",
+                  "text": "requirement",
+                  "reading": "rɪˈkwaɪərmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.field",
+                  "text": "field",
+                  "reading": "fiːld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.graduate-school",
+                  "text": "graduate school",
+                  "reading": "ˈɡrædʒuət ˌskuːl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Going to school in Thailand and in Canada: what is different?",
+              "items": [
+                {
+                  "id": "en.compulsory",
+                  "text": "compulsory",
+                  "reading": "kəmˈpʌlsəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.high-school",
+                  "text": "high school",
+                  "reading": "ˈhaɪ ˌskuːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.entrance-exam",
+                  "text": "entrance exam",
+                  "reading": "ˈɛntrəns ɪɡˌzæm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tutor",
+                  "text": "tutor",
+                  "reading": "ˈtuːtər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E3-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "An email from a Canadian university about Nam's application",
+              "items": [
+                {
+                  "id": "en.application",
+                  "text": "application",
+                  "reading": "ˌæplɪˈkeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.accept",
+                  "text": "accept",
+                  "reading": "əkˈsɛpt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.certificate",
+                  "text": "certificate",
+                  "reading": "sərˈtɪfɪkət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.orientation",
+                  "text": "orientation",
+                  "reading": "ˌɔːriɛnˈteɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.enroll",
+                  "text": "enroll",
+                  "reading": "ɪnˈroʊl",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E4",
+          "title_th": "มารยาทและธรรมเนียม",
+          "goal_th": "อธิบายมารยาทไทย สิ่งที่ควรทำและไม่ควรทำ และเปรียบเทียบกับธรรมเนียมตะวันตกได้",
+          "scenario": "B is Emma, who has been invited to dinner at a Thai family's home and is worried about doing something wrong. Nam must explain what Emma is supposed to do, what is considered rude, and how Thai and Canadian customs differ.",
+          "lessons": [
+            {
+              "id": "en-E4-01",
+              "topic": "You're supposed to take off your shoes",
+              "grammar": "be supposed to / not be supposed to",
+              "items": [
+                {
+                  "id": "en.take-off",
+                  "text": "take off",
+                  "reading": "ˌteɪk ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.custom",
+                  "text": "custom",
+                  "reading": "ˈkʌstəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.manners",
+                  "text": "manners",
+                  "reading": "ˈmænərz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bow",
+                  "text": "bow",
+                  "reading": "baʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.greet",
+                  "text": "greet",
+                  "reading": "ɡriːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.remove",
+                  "text": "remove",
+                  "reading": "rɪˈmuːv",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-02",
+              "topic": "It's considered rude to point",
+              "grammar": "be considered + adjective / It's considered rude to…",
+              "items": [
+                {
+                  "id": "en.impolite",
+                  "text": "impolite",
+                  "reading": "ˌɪmpəˈlaɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.offend",
+                  "text": "offend",
+                  "reading": "əˈfɛnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.point-at",
+                  "text": "point at",
+                  "reading": "ˈpɔɪnt æt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.touch",
+                  "text": "touch",
+                  "reading": "tʌtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whistle",
+                  "text": "whistle",
+                  "reading": "ˈwɪsəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-03",
+              "topic": "You mustn't… / You don't have to…",
+              "grammar": "mustn't vs don't have to (prohibition vs no obligation)",
+              "items": [
+                {
+                  "id": "en.royal",
+                  "text": "royal",
+                  "reading": "ˈrɔɪəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.respectful",
+                  "text": "respectful",
+                  "reading": "rɪˈspɛktfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kneel",
+                  "text": "kneel",
+                  "reading": "niːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.behave",
+                  "text": "behave",
+                  "reading": "bɪˈheɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.behavior",
+                  "text": "behavior",
+                  "reading": "bɪˈheɪvjər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-04",
+              "topic": "Thais tend to avoid conflict",
+              "grammar": "tend to + verb (Thais tend to avoid saying no directly.)",
+              "items": [
+                {
+                  "id": "en.tend-to",
+                  "text": "tend to",
+                  "reading": "ˈtɛnd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.conflict",
+                  "text": "conflict",
+                  "reading": "ˈkɑːnflɪkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.save-face",
+                  "text": "save face",
+                  "reading": "ˌseɪv ˈfeɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.direct",
+                  "text": "direct",
+                  "reading": "dəˈrɛkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.indirect",
+                  "text": "indirect",
+                  "reading": "ˌɪndəˈrɛkt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-05",
+              "topic": "The Thai, the Japanese, the British",
+              "grammar": "the + nationality adjective for a whole people (the Japanese, the British)",
+              "items": [
+                {
+                  "id": "en.culture",
+                  "text": "culture",
+                  "reading": "ˈkʌltʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stereotype",
+                  "text": "stereotype",
+                  "reading": "ˈstɛriətaɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.society",
+                  "text": "society",
+                  "reading": "səˈsaɪəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.values",
+                  "text": "values",
+                  "reading": "ˈvæljuːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.foreigner",
+                  "text": "foreigner",
+                  "reading": "ˈfɔːrənər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-06",
+              "topic": "In Thailand… whereas in Canada…",
+              "grammar": "whereas / while for contrast (Thais wai, whereas Canadians shake hands.)",
+              "items": [
+                {
+                  "id": "en.whereas",
+                  "text": "whereas",
+                  "reading": "ˌwɛrˈæz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hug",
+                  "text": "hug",
+                  "reading": "hʌɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shake-hands",
+                  "text": "shake hands",
+                  "reading": "ˌʃeɪk ˈhændz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.kiss",
+                  "text": "kiss",
+                  "reading": "kɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.eye-contact",
+                  "text": "eye contact",
+                  "reading": "ˈaɪ ˌkɑːntækt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Dos and don'ts for visitors to Thailand",
+              "items": [
+                {
+                  "id": "en.dos-and-donts",
+                  "text": "dos and don'ts",
+                  "reading": "ˌduːz ən ˈdoʊnts",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.appropriate",
+                  "text": "appropriate",
+                  "reading": "əˈproʊpriət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gesture",
+                  "text": "gesture",
+                  "reading": "ˈdʒɛstʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.elderly",
+                  "text": "elderly",
+                  "reading": "ˈɛldərli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.modest",
+                  "text": "modest",
+                  "reading": "ˈmɑːdɪst",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E4-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Emma's email to her mother: dinner with a Thai family",
+              "items": [
+                {
+                  "id": "en.host",
+                  "text": "host",
+                  "reading": "hoʊst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.compliment",
+                  "text": "compliment",
+                  "reading": "ˈkɑːmpləmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.embarrassing",
+                  "text": "embarrassing",
+                  "reading": "ɪmˈbærəsɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.leftovers",
+                  "text": "leftovers",
+                  "reading": "ˈlɛftoʊvərz",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E5",
+          "title_th": "เงินและการใช้จ่าย",
+          "goal_th": "พูดถึงการใช้เงิน การออม การยืมเงิน และสิ่งที่จะทำถ้ามีเงินมากได้",
+          "scenario": "B is Emma, who wants to know how Nam manages her money. Nam must describe how she spends and saves, talk about what they would do if they had more money, and give advice about borrowing and lending.",
+          "lessons": [
+            {
+              "id": "en-E5-01",
+              "topic": "If I had a million baht…",
+              "grammar": "second conditional (If I had more money, I would travel.)",
+              "items": [
+                {
+                  "id": "en.lottery",
+                  "text": "lottery",
+                  "reading": "ˈlɑːtəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.millionaire",
+                  "text": "millionaire",
+                  "reading": "ˌmɪljəˈnɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rich",
+                  "text": "rich",
+                  "reading": "rɪtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.poor",
+                  "text": "poor",
+                  "reading": "pʊr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.luxury",
+                  "text": "luxury",
+                  "reading": "ˈlʌkʃəri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-02",
+              "topic": "What would you do if…?",
+              "grammar": "second conditional questions (What would you do if you found a wallet?)",
+              "items": [
+                {
+                  "id": "en.invest",
+                  "text": "invest",
+                  "reading": "ɪnˈvɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stock-market",
+                  "text": "stock market",
+                  "reading": "ˈstɑːk ˌmɑːrkɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.property",
+                  "text": "property",
+                  "reading": "ˈprɑːpərti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sports-car",
+                  "text": "sports car",
+                  "reading": "ˈspɔːrts ˌkɑːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.retire",
+                  "text": "retire",
+                  "reading": "rɪˈtaɪər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-03",
+              "topic": "If I were you, I'd save more",
+              "grammar": "If I were you, I'd… (advice)",
+              "items": [
+                {
+                  "id": "en.budget",
+                  "text": "budget",
+                  "reading": "ˈbʌdʒɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.savings",
+                  "text": "savings",
+                  "reading": "ˈseɪvɪŋz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.interest-rate",
+                  "text": "interest rate",
+                  "reading": "ˈɪntrəst ˌreɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.income",
+                  "text": "income",
+                  "reading": "ˈɪnkʌm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spending",
+                  "text": "spending",
+                  "reading": "ˈspɛndɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-04",
+              "topic": "I can't afford it",
+              "grammar": "can afford + noun / can afford to + verb",
+              "items": [
+                {
+                  "id": "en.cost-a-fortune",
+                  "text": "cost a fortune",
+                  "reading": "ˌkɔːst ə ˈfɔːrtʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.waste-of-money",
+                  "text": "waste of money",
+                  "reading": "ˌweɪst əv ˈmʌni",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.reasonable",
+                  "text": "reasonable",
+                  "reading": "ˈriːzənəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.overpriced",
+                  "text": "overpriced",
+                  "reading": "ˌoʊvərˈpraɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pricey",
+                  "text": "pricey",
+                  "reading": "ˈpraɪsi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-05",
+              "topic": "Can you lend me some money?",
+              "grammar": "lend vs borrow (lend someone something / borrow something from someone)",
+              "items": [
+                {
+                  "id": "en.owe",
+                  "text": "owe",
+                  "reading": "oʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pay-back",
+                  "text": "pay back",
+                  "reading": "ˌpeɪ ˈbæk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.debt",
+                  "text": "debt",
+                  "reading": "dɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.loan",
+                  "text": "loan",
+                  "reading": "loʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.broke",
+                  "text": "broke",
+                  "reading": "broʊk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-06",
+              "topic": "I have hardly any money left",
+              "grammar": "hardly any / plenty of (quantity)",
+              "items": [
+                {
+                  "id": "en.plenty-of",
+                  "text": "plenty of",
+                  "reading": "ˈplɛnti əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.hardly",
+                  "text": "hardly",
+                  "reading": "ˈhɑːrdli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spare",
+                  "text": "spare",
+                  "reading": "spɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.coin",
+                  "text": "coin",
+                  "reading": "kɔɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.piggy-bank",
+                  "text": "piggy bank",
+                  "reading": "ˈpɪɡi ˌbæŋk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Nam's messages with her mother about her monthly budget",
+              "items": [
+                {
+                  "id": "en.expense",
+                  "text": "expense",
+                  "reading": "ɪkˈspɛns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.groceries",
+                  "text": "groceries",
+                  "reading": "ˈɡroʊsəriz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.subscription",
+                  "text": "subscription",
+                  "reading": "səbˈskrɪpʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.entertainment",
+                  "text": "entertainment",
+                  "reading": "ˌɛntərˈteɪnmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.utilities",
+                  "text": "utilities",
+                  "reading": "juːˈtɪlətiz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E5-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "Mr. Brown finds a wallet on the train and makes an honest choice",
+              "items": [
+                {
+                  "id": "en.tempted",
+                  "text": "tempted",
+                  "reading": "ˈtɛmptɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.honesty",
+                  "text": "honesty",
+                  "reading": "ˈɑːnəsti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.the-right-thing",
+                  "text": "the right thing",
+                  "reading": "ðə ˌraɪt ˈθɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.grateful",
+                  "text": "grateful",
+                  "reading": "ˈɡreɪtfəl",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E6",
+          "title_th": "ความสัมพันธ์",
+          "goal_th": "พูดเรื่องความสัมพันธ์ ปัญหาระหว่างเพื่อนและคนรัก และให้คำแนะนำได้",
+          "scenario": "B is Emma, who has had an argument with her boyfriend. Nam must listen, ask what happened, and give advice, using phrasal verbs about relationships.",
+          "lessons": [
+            {
+              "id": "en-E6-01",
+              "topic": "They broke up last month",
+              "grammar": "phrasal verbs without an object (break up, fall out, make up)",
+              "items": [
+                {
+                  "id": "en.break-up",
+                  "text": "break up",
+                  "reading": "ˌbreɪk ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fall-out",
+                  "text": "fall out",
+                  "reading": "ˌfɔːl ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-up",
+                  "text": "make up",
+                  "reading": "ˌmeɪk ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.argue",
+                  "text": "argue",
+                  "reading": "ˈɑːrɡjuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.relationship",
+                  "text": "relationship",
+                  "reading": "rɪˈleɪʃənʃɪp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-02",
+              "topic": "He asked her out",
+              "grammar": "phrasal verbs with an object (ask someone out, look after someone)",
+              "items": [
+                {
+                  "id": "en.ask-out",
+                  "text": "ask out",
+                  "reading": "ˌæsk ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.look-after",
+                  "text": "look after",
+                  "reading": "ˌlʊk ˈæftər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-on-a-date",
+                  "text": "go on a date",
+                  "reading": "ˌɡoʊ ɑːn ə ˈdeɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fall-in-love",
+                  "text": "fall in love",
+                  "reading": "ˌfɔːl ɪn ˈlʌv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.propose",
+                  "text": "propose",
+                  "reading": "prəˈpoʊz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-03",
+              "topic": "I get along with my sister",
+              "grammar": "three-part phrasal verbs (get along with, look up to, put up with)",
+              "items": [
+                {
+                  "id": "en.get-along-with",
+                  "text": "get along with",
+                  "reading": "ˌɡɛt əˈlɔːŋ wɪð",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.look-up-to",
+                  "text": "look up to",
+                  "reading": "ˌlʊk ˈʌp tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.put-up-with",
+                  "text": "put up with",
+                  "reading": "ˌpʊt ˈʌp wɪð",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.catch-up-with",
+                  "text": "catch up with",
+                  "reading": "ˌkætʃ ˈʌp wɪð",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sibling",
+                  "text": "sibling",
+                  "reading": "ˈsɪblɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-04",
+              "topic": "They help each other",
+              "grammar": "each other / one another",
+              "items": [
+                {
+                  "id": "en.each-other",
+                  "text": "each other",
+                  "reading": "iːtʃ ˈʌðər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.support",
+                  "text": "support",
+                  "reading": "səˈpɔːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.partner",
+                  "text": "partner",
+                  "reading": "ˈpɑːrtnər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.couple",
+                  "text": "couple",
+                  "reading": "ˈkʌpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.communicate",
+                  "text": "communicate",
+                  "reading": "kəˈmjuːnɪkeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.compromise",
+                  "text": "compromise",
+                  "reading": "ˈkɑːmprəmaɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-05",
+              "topic": "We've known each other since 2019 (review)",
+              "grammar": "present perfect vs past simple (review): We've known each other since… / We met in…",
+              "items": [
+                {
+                  "id": "en.get-married",
+                  "text": "get married",
+                  "reading": "ˌɡɛt ˈmærid",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.wedding",
+                  "text": "wedding",
+                  "reading": "ˈwɛdɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.anniversary",
+                  "text": "anniversary",
+                  "reading": "ˌænɪˈvɜːrsəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.divorced",
+                  "text": "divorced",
+                  "reading": "dɪˈvɔːrst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bride",
+                  "text": "bride",
+                  "reading": "braɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-06",
+              "topic": "Married to, engaged to, crazy about",
+              "grammar": "adjective / participle + preposition: married to, engaged to, crazy about",
+              "items": [
+                {
+                  "id": "en.engaged",
+                  "text": "engaged",
+                  "reading": "ɪnˈɡeɪdʒd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fond-of",
+                  "text": "fond of",
+                  "reading": "ˈfɑːnd əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.crazy-about",
+                  "text": "crazy about",
+                  "reading": "ˈkreɪzi əˌbaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.related-to",
+                  "text": "related to",
+                  "reading": "rɪˈleɪtɪd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.attracted-to",
+                  "text": "attracted to",
+                  "reading": "əˈtræktɪd tuː",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-r01",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "An email to an advice column: \"My best friend has stopped talking to me\"",
+              "items": [
+                {
+                  "id": "en.ignore",
+                  "text": "ignore",
+                  "reading": "ɪɡˈnɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.misunderstanding",
+                  "text": "misunderstanding",
+                  "reading": "ˌmɪsʌndərˈstændɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lonely",
+                  "text": "lonely",
+                  "reading": "ˈloʊnli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.talk-things-over",
+                  "text": "talk things over",
+                  "reading": "ˌtɔːk θɪŋz ˈoʊvər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.column",
+                  "text": "column",
+                  "reading": "ˈkɑːləm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E6-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "How Emma's grandparents met in 1965: a love story",
+              "items": [
+                {
+                  "id": "en.love-at-first-sight",
+                  "text": "love at first sight",
+                  "reading": "ˌlʌv ət ˌfɜːrst ˈsaɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.letter",
+                  "text": "letter",
+                  "reading": "ˈlɛtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.forever",
+                  "text": "forever",
+                  "reading": "fərˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.write-back",
+                  "text": "write back",
+                  "reading": "ˌraɪt ˈbæk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.romance",
+                  "text": "romance",
+                  "reading": "roʊˈmæns",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E7",
+          "title_th": "วิทยาศาสตร์และสิ่งประดิษฐ์",
+          "goal_th": "อธิบายว่าใครประดิษฐ์อะไร เมื่อไร และทำงานอย่างไรได้",
+          "scenario": "B is Mr. Brown, who is preparing a class quiz about inventions. Nam must say who invented some everyday things, when they were invented and how they work, and argue which invention is the most important.",
+          "lessons": [
+            {
+              "id": "en-E7-01",
+              "topic": "When was the telephone invented?",
+              "grammar": "past simple passive: was / were + past participle (It was invented in 1876.)",
+              "items": [
+                {
+                  "id": "en.invent",
+                  "text": "invent",
+                  "reading": "ɪnˈvɛnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.invention",
+                  "text": "invention",
+                  "reading": "ɪnˈvɛnʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inventor",
+                  "text": "inventor",
+                  "reading": "ɪnˈvɛntər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.discover",
+                  "text": "discover",
+                  "reading": "dɪˈskʌvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.discovery",
+                  "text": "discovery",
+                  "reading": "dɪˈskʌvəri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-02",
+              "topic": "It was invented by…",
+              "grammar": "past passive + by + agent (The light bulb was invented by Edison.)",
+              "items": [
+                {
+                  "id": "en.light-bulb",
+                  "text": "light bulb",
+                  "reading": "ˈlaɪt ˌbʌlb",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.steam-engine",
+                  "text": "steam engine",
+                  "reading": "ˈstiːm ˌɛndʒɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wheel",
+                  "text": "wheel",
+                  "reading": "wiːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.compass",
+                  "text": "compass",
+                  "reading": "ˈkʌmpəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.microscope",
+                  "text": "microscope",
+                  "reading": "ˈmaɪkrəskoʊp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-03",
+              "topic": "A new planet has been discovered",
+              "grammar": "present perfect passive: has / have been + past participle",
+              "items": [
+                {
+                  "id": "en.planet",
+                  "text": "planet",
+                  "reading": "ˈplænɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.outer-space",
+                  "text": "outer space",
+                  "reading": "ˌaʊtər ˈspeɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.astronaut",
+                  "text": "astronaut",
+                  "reading": "ˈæstrənɔːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.telescope",
+                  "text": "telescope",
+                  "reading": "ˈtɛləskoʊp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.universe",
+                  "text": "universe",
+                  "reading": "ˈjuːnəvɜːrs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.satellite",
+                  "text": "satellite",
+                  "reading": "ˈsætəlaɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-04",
+              "topic": "Unusual, rebuild, invisible",
+              "grammar": "prefixes: un-, re-, in- / im-, dis- (unusual, rebuild, invisible, disagree)",
+              "items": [
+                {
+                  "id": "en.unusual",
+                  "text": "unusual",
+                  "reading": "ʌnˈjuːʒuəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.invisible",
+                  "text": "invisible",
+                  "reading": "ɪnˈvɪzəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rebuild",
+                  "text": "rebuild",
+                  "reading": "ˌriːˈbɪld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.disagree",
+                  "text": "disagree",
+                  "reading": "ˌdɪsəˈɡriː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.impossible",
+                  "text": "impossible",
+                  "reading": "ɪmˈpɑːsəbəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-05",
+              "topic": "Invent → invention",
+              "grammar": "noun suffixes: -tion, -ment, -ity (develop → development, possible → possibility)",
+              "items": [
+                {
+                  "id": "en.development",
+                  "text": "development",
+                  "reading": "dɪˈvɛləpmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.improvement",
+                  "text": "improvement",
+                  "reading": "ɪmˈpruːvmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.possibility",
+                  "text": "possibility",
+                  "reading": "ˌpɑːsəˈbɪləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.experiment",
+                  "text": "experiment",
+                  "reading": "ɪkˈspɛrɪmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.laboratory",
+                  "text": "laboratory",
+                  "reading": "ˈlæbrətɔːri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-06",
+              "topic": "By using the wind…",
+              "grammar": "by + -ing for method (You can make electricity by using the wind.)",
+              "items": [
+                {
+                  "id": "en.produce",
+                  "text": "produce",
+                  "reading": "prəˈduːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.machine",
+                  "text": "machine",
+                  "reading": "məˈʃiːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.system",
+                  "text": "system",
+                  "reading": "ˈsɪstəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.process",
+                  "text": "process",
+                  "reading": "ˈprɑːsɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chemical",
+                  "text": "chemical",
+                  "reading": "ˈkɛmɪkəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.solar-panel",
+                  "text": "solar panel",
+                  "reading": "ˌsoʊlər ˈpænəl",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Five Thai inventions you might not know about",
+              "items": [
+                {
+                  "id": "en.artificial",
+                  "text": "artificial",
+                  "reading": "ˌɑːrtɪˈfɪʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.energy-drink",
+                  "text": "energy drink",
+                  "reading": "ˈɛnərdʒi ˌdrɪŋk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.patent",
+                  "text": "patent",
+                  "reading": "ˈpætənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.global",
+                  "text": "global",
+                  "reading": "ˈɡloʊbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.solution",
+                  "text": "solution",
+                  "reading": "səˈluːʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E7-r02",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Marie Curie: the scientist who changed medicine",
+              "items": [
+                {
+                  "id": "en.prize",
+                  "text": "prize",
+                  "reading": "praɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.female",
+                  "text": "female",
+                  "reading": "ˈfiːmeɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.physics",
+                  "text": "physics",
+                  "reading": "ˈfɪzɪks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.achievement",
+                  "text": "achievement",
+                  "reading": "əˈtʃiːvmənt",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E8",
+          "title_th": "อาชญากรรมและความปลอดภัย",
+          "goal_th": "แจ้งความ เล่าเหตุการณ์ และบรรยายลักษณะคนร้ายได้",
+          "scenario": "B is an officer at a tourist police station. Nam is helping a tourist whose bag has been stolen; she must explain what had happened, describe the thief, and ask what they should do next.",
+          "lessons": [
+            {
+              "id": "en-E8-01",
+              "topic": "The thief had already run away",
+              "grammar": "past perfect: had + past participle (The thief had already escaped.)",
+              "items": [
+                {
+                  "id": "en.crime",
+                  "text": "crime",
+                  "reading": "kraɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.criminal",
+                  "text": "criminal",
+                  "reading": "ˈkrɪmɪnəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.law",
+                  "text": "law",
+                  "reading": "lɔː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.arrest",
+                  "text": "arrest",
+                  "reading": "əˈrɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.escape",
+                  "text": "escape",
+                  "reading": "ɪˈskeɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.illegal",
+                  "text": "illegal",
+                  "reading": "ɪˈliːɡəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-02",
+              "topic": "When the police arrived, he had gone",
+              "grammar": "past perfect vs past simple in a story (When we got home, someone had broken in.)",
+              "items": [
+                {
+                  "id": "en.robbery",
+                  "text": "robbery",
+                  "reading": "ˈrɑːbəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.burglar",
+                  "text": "burglar",
+                  "reading": "ˈbɜːrɡlər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.break-into",
+                  "text": "break into",
+                  "reading": "ˌbreɪk ˈɪntuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.rob",
+                  "text": "rob",
+                  "reading": "rɑːb",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.valuables",
+                  "text": "valuables",
+                  "reading": "ˈvæljuəbəlz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-03",
+              "topic": "They told us not to touch anything",
+              "grammar": "tell / ask + someone + (not) to + verb (reported commands)",
+              "items": [
+                {
+                  "id": "en.investigate",
+                  "text": "investigate",
+                  "reading": "ɪnˈvɛstɪɡeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.detective",
+                  "text": "detective",
+                  "reading": "dɪˈtɛktɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.clue",
+                  "text": "clue",
+                  "reading": "kluː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fingerprint",
+                  "text": "fingerprint",
+                  "reading": "ˈfɪŋɡərprɪnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.suspect",
+                  "text": "suspect",
+                  "reading": "ˈsʌspɛkt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-04",
+              "topic": "I had my bag stolen",
+              "grammar": "have + something + past participle for bad experiences (I had my phone stolen.)",
+              "items": [
+                {
+                  "id": "en.pickpocket",
+                  "text": "pickpocket",
+                  "reading": "ˈpɪkpɑːkɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.victim",
+                  "text": "victim",
+                  "reading": "ˈvɪktɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fraud",
+                  "text": "fraud",
+                  "reading": "frɔːd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.identity",
+                  "text": "identity",
+                  "reading": "aɪˈdɛntəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hack",
+                  "text": "hack",
+                  "reading": "hæk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-05",
+              "topic": "Take a copy in case you lose it",
+              "grammar": "in case + present simple (Take a copy of your passport in case you lose it.)",
+              "items": [
+                {
+                  "id": "en.security",
+                  "text": "security",
+                  "reading": "sɪˈkjʊrəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.guard",
+                  "text": "guard",
+                  "reading": "ɡɑːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cctv",
+                  "text": "CCTV",
+                  "reading": "ˌsiː siː tiː ˈviː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.keep-an-eye-on",
+                  "text": "keep an eye on",
+                  "reading": "ˌkiːp ən ˈaɪ ɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.suspicious",
+                  "text": "suspicious",
+                  "reading": "səˈspɪʃəs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-06",
+              "topic": "The woman whose bag was stolen",
+              "grammar": "relative pronoun whose (the man whose car was stolen)",
+              "items": [
+                {
+                  "id": "en.height",
+                  "text": "height",
+                  "reading": "haɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tattoo",
+                  "text": "tattoo",
+                  "reading": "tæˈtuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.appearance",
+                  "text": "appearance",
+                  "reading": "əˈpɪrəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scar",
+                  "text": "scar",
+                  "reading": "skɑːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hoodie",
+                  "text": "hoodie",
+                  "reading": "ˈhʊdi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Tourist police: how to stay safe in Bangkok",
+              "items": [
+                {
+                  "id": "en.tourist-police",
+                  "text": "tourist police",
+                  "reading": "ˈtʊrɪst pəˌliːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hotline",
+                  "text": "hotline",
+                  "reading": "ˈhɑːtlaɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.be-aware-of",
+                  "text": "be aware of",
+                  "reading": "bi əˈwɛr əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.emergency-number",
+                  "text": "emergency number",
+                  "reading": "ɪˈmɜːrdʒənsi ˌnʌmbər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.meter",
+                  "text": "meter",
+                  "reading": "ˈmiːtər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E8-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "The case of the missing laptop: a short detective story",
+              "items": [
+                {
+                  "id": "en.guilty",
+                  "text": "guilty",
+                  "reading": "ˈɡɪlti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.innocent",
+                  "text": "innocent",
+                  "reading": "ˈɪnəsənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.confess",
+                  "text": "confess",
+                  "reading": "kənˈfɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lie",
+                  "text": "lie",
+                  "reading": "laɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.alibi",
+                  "text": "alibi",
+                  "reading": "ˈæləbaɪ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E9",
+          "title_th": "โซเชียลมีเดีย",
+          "goal_th": "เล่าพฤติกรรมการใช้โซเชียลมีเดีย รายงานสิ่งที่คนอื่นโพสต์ และแสดงความเห็นข้อดีข้อเสียได้",
+          "scenario": "B is a researcher who is interviewing students about social media. Nam must describe her online habits, report what her friends post and say, and give her opinion about the good and bad sides of social media.",
+          "lessons": [
+            {
+              "id": "en-E9-01",
+              "topic": "Apps allow you to share photos",
+              "grammar": "allow / encourage + object + to-infinitive (The app allows you to edit videos.)",
+              "items": [
+                {
+                  "id": "en.social-media",
+                  "text": "social media",
+                  "reading": "ˌsoʊʃəl ˈmiːdiə",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.follower",
+                  "text": "follower",
+                  "reading": "ˈfɑːloʊər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.influencer",
+                  "text": "influencer",
+                  "reading": "ˈɪnfluənsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.content",
+                  "text": "content",
+                  "reading": "ˈkɑːntɛnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.user",
+                  "text": "user",
+                  "reading": "ˈjuːzər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-02",
+              "topic": "He's always posting selfies!",
+              "grammar": "present continuous with always for annoying habits (She's always checking her phone!)",
+              "items": [
+                {
+                  "id": "en.selfie",
+                  "text": "selfie",
+                  "reading": "ˈsɛlfi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.show-off",
+                  "text": "show off",
+                  "reading": "ˌʃoʊ ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.annoying",
+                  "text": "annoying",
+                  "reading": "əˈnɔɪɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scroll",
+                  "text": "scroll",
+                  "reading": "skroʊl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.filter",
+                  "text": "filter",
+                  "reading": "ˈfɪltər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-03",
+              "topic": "She complained that…",
+              "grammar": "reporting verbs: explain / complain / announce + that",
+              "items": [
+                {
+                  "id": "en.mention",
+                  "text": "mention",
+                  "reading": "ˈmɛnʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.claim",
+                  "text": "claim",
+                  "reading": "kleɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reveal",
+                  "text": "reveal",
+                  "reading": "rɪˈviːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.caption",
+                  "text": "caption",
+                  "reading": "ˈkæpʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hashtag",
+                  "text": "hashtag",
+                  "reading": "ˈhæʃtæɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tag",
+                  "text": "tag",
+                  "reading": "tæɡ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-04",
+              "topic": "Don't you think it's too much?",
+              "grammar": "negative questions (Don't you think…? / Haven't you seen…?)",
+              "items": [
+                {
+                  "id": "en.addicted",
+                  "text": "addicted",
+                  "reading": "əˈdɪktɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.screen-time",
+                  "text": "screen time",
+                  "reading": "ˈskriːn ˌtaɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.privacy",
+                  "text": "privacy",
+                  "reading": "ˈpraɪvəsi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.harmful",
+                  "text": "harmful",
+                  "reading": "ˈhɑːrmfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bully",
+                  "text": "bully",
+                  "reading": "ˈbʊli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-05",
+              "topic": "I spend hours watching videos",
+              "grammar": "spend / waste time + -ing (I spend hours watching videos.)",
+              "items": [
+                {
+                  "id": "en.waste-time",
+                  "text": "waste time",
+                  "reading": "ˌweɪst ˈtaɪm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-viral",
+                  "text": "go viral",
+                  "reading": "ˌɡoʊ ˈvaɪrəl",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.trend",
+                  "text": "trend",
+                  "reading": "trɛnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.livestream",
+                  "text": "livestream",
+                  "reading": "ˈlaɪvstriːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.subscribe",
+                  "text": "subscribe",
+                  "reading": "səbˈskraɪb",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-06",
+              "topic": "Actually, honestly, basically",
+              "grammar": "discourse markers: actually, honestly, basically, anyway, by the way",
+              "items": [
+                {
+                  "id": "en.actually",
+                  "text": "actually",
+                  "reading": "ˈæktʃuəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.honestly",
+                  "text": "honestly",
+                  "reading": "ˈɑːnɪstli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.basically",
+                  "text": "basically",
+                  "reading": "ˈbeɪsɪkli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.anyway",
+                  "text": "anyway",
+                  "reading": "ˈɛniweɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.by-the-way",
+                  "text": "by the way",
+                  "reading": "ˌbaɪ ðə ˈweɪ",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "A group chat goes wrong: a joke that some friends didn't find funny",
+              "items": [
+                {
+                  "id": "en.offensive",
+                  "text": "offensive",
+                  "reading": "əˈfɛnsɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.emoji",
+                  "text": "emoji",
+                  "reading": "ɪˈmoʊdʒi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.apology",
+                  "text": "apology",
+                  "reading": "əˈpɑːlədʒi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.group-chat",
+                  "text": "group chat",
+                  "reading": "ˈɡruːp ˌtʃæt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E9-r02",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "A Thai food influencer with a million followers talks about her life",
+              "items": [
+                {
+                  "id": "en.sponsor",
+                  "text": "sponsor",
+                  "reading": "ˈspɑːnsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.behind-the-scenes",
+                  "text": "behind the scenes",
+                  "reading": "bɪˌhaɪnd ðə ˈsiːnz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fame",
+                  "text": "fame",
+                  "reading": "feɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pressure",
+                  "text": "pressure",
+                  "reading": "ˈprɛʃər",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E10",
+          "title_th": "แนะนำเที่ยวเมืองไทย",
+          "goal_th": "แนะนำสถานที่ท่องเที่ยวในไทย บอกว่าแต่ละที่มีชื่อเสียงเรื่องอะไร และช่วยวางแผนเส้นทางได้",
+          "scenario": "B is a tourist from Australia staying at a guesthouse in Bangkok. Nam must recommend places to visit, explain what each place is known for, and help him plan a one-week route around Thailand.",
+          "lessons": [
+            {
+              "id": "en-E10-01",
+              "topic": "Chiang Mai, which is in the north, …",
+              "grammar": "non-defining relative clauses (Chiang Mai, which is in the north, is famous for its temples.)",
+              "items": [
+                {
+                  "id": "en.region",
+                  "text": "region",
+                  "reading": "ˈriːdʒən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.province",
+                  "text": "province",
+                  "reading": "ˈprɑːvɪns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.northern",
+                  "text": "northern",
+                  "reading": "ˈnɔːrðərn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.southern",
+                  "text": "southern",
+                  "reading": "ˈsʌðərn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.northeastern",
+                  "text": "northeastern",
+                  "reading": "ˌnɔːrθˈiːstərn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.central",
+                  "text": "central",
+                  "reading": "ˈsɛntrəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-02",
+              "topic": "It's worth visiting",
+              "grammar": "worth + -ing (It's worth visiting. / It isn't worth the money.)",
+              "items": [
+                {
+                  "id": "en.worth",
+                  "text": "worth",
+                  "reading": "wɜːrθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.must-see",
+                  "text": "must-see",
+                  "reading": "ˈmʌst ˌsiː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hidden-gem",
+                  "text": "hidden gem",
+                  "reading": "ˌhɪdən ˈdʒɛm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.breathtaking",
+                  "text": "breathtaking",
+                  "reading": "ˈbrɛθteɪkɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scenic",
+                  "text": "scenic",
+                  "reading": "ˈsiːnɪk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-03",
+              "topic": "You must try khao soi!",
+              "grammar": "must for strong recommendations (You must try… / You can't miss…)",
+              "items": [
+                {
+                  "id": "en.cant-miss",
+                  "text": "can't miss",
+                  "reading": "ˌkænt ˈmɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cooking-class",
+                  "text": "cooking class",
+                  "reading": "ˈkʊkɪŋ ˌklæs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.boat-trip",
+                  "text": "boat trip",
+                  "reading": "ˈboʊt ˌtrɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.floating-market",
+                  "text": "floating market",
+                  "reading": "ˌfloʊtɪŋ ˈmɑːrkɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.massage",
+                  "text": "massage",
+                  "reading": "məˈsɑːʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-04",
+              "topic": "One of the most beautiful islands",
+              "grammar": "one of the + superlative + plural noun",
+              "items": [
+                {
+                  "id": "en.coast",
+                  "text": "coast",
+                  "reading": "koʊst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bay",
+                  "text": "bay",
+                  "reading": "beɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.coral-reef",
+                  "text": "coral reef",
+                  "reading": "ˈkɔːrəl ˌriːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.snorkeling",
+                  "text": "snorkeling",
+                  "reading": "ˈsnɔːrkəlɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.diving",
+                  "text": "diving",
+                  "reading": "ˈdaɪvɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sand",
+                  "text": "sand",
+                  "reading": "sænd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-05",
+              "topic": "In the north, on the coast",
+              "grammar": "prepositions of location: in the north of, on the coast, by the river, near the border",
+              "items": [
+                {
+                  "id": "en.located",
+                  "text": "located",
+                  "reading": "ˈloʊkeɪtɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inland",
+                  "text": "inland",
+                  "reading": "ˈɪnlænd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.remote",
+                  "text": "remote",
+                  "reading": "rɪˈmoʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.close-to",
+                  "text": "close to",
+                  "reading": "ˈkloʊs tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.on-the-way",
+                  "text": "on the way",
+                  "reading": "ˌɑːn ðə ˈweɪ",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-06",
+              "topic": "It's famous for its temples",
+              "grammar": "be known for / be famous for",
+              "items": [
+                {
+                  "id": "en.be-known-for",
+                  "text": "be known for",
+                  "reading": "bi ˈnoʊn fɔːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.heritage",
+                  "text": "heritage",
+                  "reading": "ˈhɛrɪtɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.historical-park",
+                  "text": "historical park",
+                  "reading": "hɪˌstɔːrɪkəl ˈpɑːrk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.ruins",
+                  "text": "ruins",
+                  "reading": "ˈruːɪnz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.handicraft",
+                  "text": "handicraft",
+                  "reading": "ˈhændikræft",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "A tour guide in Sukhothai explains why she loves her job",
+              "items": [
+                {
+                  "id": "en.passionate",
+                  "text": "passionate",
+                  "reading": "ˈpæʃənət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.brochure",
+                  "text": "brochure",
+                  "reading": "broʊˈʃʊr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.monument",
+                  "text": "monument",
+                  "reading": "ˈmɑːnjəmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.admission",
+                  "text": "admission",
+                  "reading": "ədˈmɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.restore",
+                  "text": "restore",
+                  "reading": "rɪˈstɔːr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E10-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Messages from Emma's cousin: one week in Thailand, day by day",
+              "items": [
+                {
+                  "id": "en.backpacker",
+                  "text": "backpacker",
+                  "reading": "ˈbækpækər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sleeper-train",
+                  "text": "sleeper train",
+                  "reading": "ˈsliːpər ˌtreɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ferry",
+                  "text": "ferry",
+                  "reading": "ˈfɛri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.guesthouse",
+                  "text": "guesthouse",
+                  "reading": "ˈɡɛsthaʊs",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E11",
+          "title_th": "บุคคลที่มีชื่อเสียงและชีวประวัติ",
+          "goal_th": "เล่าชีวประวัติของบุคคลที่ชื่นชมและตอบคำถามเกี่ยวกับชีวิตของเขาได้",
+          "scenario": "B is Mr. Brown, who asks students to present the life of a famous person. Nam must tell the life story of someone she admires, say what that person had done before becoming famous, and answer questions about them.",
+          "lessons": [
+            {
+              "id": "en-E11-01",
+              "topic": "She was born in 1984",
+              "grammar": "be born: was born in / on + place or date",
+              "items": [
+                {
+                  "id": "en.be-born",
+                  "text": "be born",
+                  "reading": "bi ˈbɔːrn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.biography",
+                  "text": "biography",
+                  "reading": "baɪˈɑːɡrəfi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.life-story",
+                  "text": "life story",
+                  "reading": "ˈlaɪf ˌstɔːri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.background",
+                  "text": "background",
+                  "reading": "ˈbækɡraʊnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.raise",
+                  "text": "raise",
+                  "reading": "reɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-02",
+              "topic": "By the time she was twenty, she had…",
+              "grammar": "by the time + past simple, past perfect",
+              "items": [
+                {
+                  "id": "en.celebrity",
+                  "text": "celebrity",
+                  "reading": "səˈlɛbrəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.talented",
+                  "text": "talented",
+                  "reading": "ˈtæləntɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.successful",
+                  "text": "successful",
+                  "reading": "səkˈsɛsfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.career",
+                  "text": "career",
+                  "reading": "kəˈrɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.worldwide",
+                  "text": "worldwide",
+                  "reading": "ˌwɜːrldˈwaɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-03",
+              "topic": "After leaving school, she…",
+              "grammar": "after / before + -ing (After leaving school, she moved to Bangkok.)",
+              "items": [
+                {
+                  "id": "en.start-a-business",
+                  "text": "start a business",
+                  "reading": "ˌstɑːrt ə ˈbɪznəs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.struggle",
+                  "text": "struggle",
+                  "reading": "ˈstrʌɡəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.poverty",
+                  "text": "poverty",
+                  "reading": "ˈpɑːvərti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.determined",
+                  "text": "determined",
+                  "reading": "dɪˈtɜːrmɪnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.talent-show",
+                  "text": "talent show",
+                  "reading": "ˈtælənt ˌʃoʊ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-04",
+              "topic": "Every evening he would practice",
+              "grammar": "would for past habits (Every evening, he would practice for hours.)",
+              "items": [
+                {
+                  "id": "en.dedicated",
+                  "text": "dedicated",
+                  "reading": "ˈdɛdɪkeɪtɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hard-working",
+                  "text": "hard-working",
+                  "reading": "ˌhɑːrdˈwɜːrkɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.humble",
+                  "text": "humble",
+                  "reading": "ˈhʌmbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ambitious",
+                  "text": "ambitious",
+                  "reading": "æmˈbɪʃəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.self-taught",
+                  "text": "self-taught",
+                  "reading": "ˌsɛlf ˈtɔːt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-05",
+              "topic": "She has written five books",
+              "grammar": "present perfect for living people's achievements vs past simple for people who have died",
+              "items": [
+                {
+                  "id": "en.inspire",
+                  "text": "inspire",
+                  "reading": "ɪnˈspaɪər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.influence",
+                  "text": "influence",
+                  "reading": "ˈɪnfluəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.author",
+                  "text": "author",
+                  "reading": "ˈɔːθər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.novel",
+                  "text": "novel",
+                  "reading": "ˈnɑːvəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.publish",
+                  "text": "publish",
+                  "reading": "ˈpʌblɪʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bestseller",
+                  "text": "bestseller",
+                  "reading": "ˌbɛstˈsɛlər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-06",
+              "topic": "At the age of thirty…",
+              "grammar": "time expressions in biographies: at the age of, in her twenties, later on",
+              "items": [
+                {
+                  "id": "en.at-the-age-of",
+                  "text": "at the age of",
+                  "reading": "ət ði ˈeɪdʒ əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.in-her-twenties",
+                  "text": "in her twenties",
+                  "reading": "ɪn hər ˈtwɛntiz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.later-on",
+                  "text": "later on",
+                  "reading": "ˌleɪtər ˈɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.eventually",
+                  "text": "eventually",
+                  "reading": "ɪˈvɛntʃuəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pass-away",
+                  "text": "pass away",
+                  "reading": "ˌpæs əˈweɪ",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Sunthorn Phu: the life of Thailand's most famous poet",
+              "items": [
+                {
+                  "id": "en.poet",
+                  "text": "poet",
+                  "reading": "ˈpoʊɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.poem",
+                  "text": "poem",
+                  "reading": "ˈpoʊəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.palace",
+                  "text": "palace",
+                  "reading": "ˈpæləs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.masterpiece",
+                  "text": "masterpiece",
+                  "reading": "ˈmæstərpiːs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E11-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: the day she met her favorite author at a book fair",
+              "items": [
+                {
+                  "id": "en.autograph",
+                  "text": "autograph",
+                  "reading": "ˈɔːtəɡræf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.book-signing",
+                  "text": "book signing",
+                  "reading": "ˈbʊk ˌsaɪnɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.book-fair",
+                  "text": "book fair",
+                  "reading": "ˈbʊk ˌfɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unbelievable",
+                  "text": "unbelievable",
+                  "reading": "ˌʌnbɪˈliːvəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.signature",
+                  "text": "signature",
+                  "reading": "ˈsɪɡnətʃər",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E12",
+          "title_th": "ความฝันและความปรารถนา",
+          "goal_th": "พูดถึงสิ่งที่อยากให้เป็น ความฝัน และสิ่งที่จะทำในสถานการณ์สมมติได้",
+          "scenario": "B is Emma, who is in a thoughtful mood before she goes back to Canada. Nam must talk about what she wishes were different in her life, her dreams for the future, and what she would do in some imaginary situations.",
+          "lessons": [
+            {
+              "id": "en-E12-01",
+              "topic": "I wish I had more free time",
+              "grammar": "wish + past simple (I wish I had more time.)",
+              "items": [
+                {
+                  "id": "en.wish",
+                  "text": "wish",
+                  "reading": "wɪʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.satisfied",
+                  "text": "satisfied",
+                  "reading": "ˈsætɪsfaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stressed-out",
+                  "text": "stressed out",
+                  "reading": "ˌstrɛst ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.worry",
+                  "text": "worry",
+                  "reading": "ˈwʌri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lucky",
+                  "text": "lucky",
+                  "reading": "ˈlʌki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-02",
+              "topic": "I wish I could fly",
+              "grammar": "wish + could (I wish I could speak five languages.)",
+              "items": [
+                {
+                  "id": "en.superpower",
+                  "text": "superpower",
+                  "reading": "ˈsuːpərpaʊər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.time-machine",
+                  "text": "time machine",
+                  "reading": "ˈtaɪm məˌʃiːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.imagine",
+                  "text": "imagine",
+                  "reading": "ɪˈmædʒɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.imagination",
+                  "text": "imagination",
+                  "reading": "ɪˌmædʒɪˈneɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fantasy",
+                  "text": "fantasy",
+                  "reading": "ˈfæntəsi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-03",
+              "topic": "If I lived abroad… (review)",
+              "grammar": "second conditional (review): If I lived in Canada, I would…",
+              "items": [
+                {
+                  "id": "en.settle-down",
+                  "text": "settle down",
+                  "reading": "ˌsɛtəl ˈdaʊn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.independent",
+                  "text": "independent",
+                  "reading": "ˌɪndɪˈpɛndənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.freedom",
+                  "text": "freedom",
+                  "reading": "ˈfriːdəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.take-a-risk",
+                  "text": "take a risk",
+                  "reading": "ˌteɪk ə ˈrɪsk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.pursue",
+                  "text": "pursue",
+                  "reading": "pərˈsuː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-04",
+              "topic": "I hope you pass / I wish it were Friday",
+              "grammar": "hope vs wish (I hope you pass. / I wish it were Friday.)",
+              "items": [
+                {
+                  "id": "en.come-true",
+                  "text": "come true",
+                  "reading": "ˌkʌm ˈtruː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fingers-crossed",
+                  "text": "fingers crossed",
+                  "reading": "ˌfɪŋɡərz ˈkrɔːst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.optimistic",
+                  "text": "optimistic",
+                  "reading": "ˌɑːptəˈmɪstɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pessimistic",
+                  "text": "pessimistic",
+                  "reading": "ˌpɛsəˈmɪstɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.realistic",
+                  "text": "realistic",
+                  "reading": "ˌriːəˈlɪstɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hopeful",
+                  "text": "hopeful",
+                  "reading": "ˈhoʊpfəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-05",
+              "topic": "My dream is to open a café",
+              "grammar": "noun + to-infinitive (My dream is to… / a chance to… / the opportunity to…)",
+              "items": [
+                {
+                  "id": "en.ambition",
+                  "text": "ambition",
+                  "reading": "æmˈbɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chance",
+                  "text": "chance",
+                  "reading": "tʃæns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.opportunity",
+                  "text": "opportunity",
+                  "reading": "ˌɑːpərˈtuːnəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.aim",
+                  "text": "aim",
+                  "reading": "eɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.purpose",
+                  "text": "purpose",
+                  "reading": "ˈpɜːrpəs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-06",
+              "topic": "I dream of traveling the world",
+              "grammar": "verb + preposition + -ing (dream of / think about / insist on + -ing)",
+              "items": [
+                {
+                  "id": "en.bucket-list",
+                  "text": "bucket list",
+                  "reading": "ˈbʌkɪt ˌlɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.own",
+                  "text": "own",
+                  "reading": "oʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sail",
+                  "text": "sail",
+                  "reading": "seɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.skydiving",
+                  "text": "skydiving",
+                  "reading": "ˈskaɪdaɪvɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hot-air-balloon",
+                  "text": "hot-air balloon",
+                  "reading": "ˌhɑːt ˈɛr bəˌluːn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "What do young Thais dream of? Three students describe their plans",
+              "items": [
+                {
+                  "id": "en.financial",
+                  "text": "financial",
+                  "reading": "faɪˈnænʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stable",
+                  "text": "stable",
+                  "reading": "ˈsteɪbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.freelance",
+                  "text": "freelance",
+                  "reading": "ˈfriːlæns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.generation",
+                  "text": "generation",
+                  "reading": "ˌdʒɛnəˈreɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E12-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Emma's goodbye email to Nam: her hopes for their friendship",
+              "items": [
+                {
+                  "id": "en.farewell",
+                  "text": "farewell",
+                  "reading": "ˌfɛrˈwɛl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unforgettable",
+                  "text": "unforgettable",
+                  "reading": "ˌʌnfərˈɡɛtəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reunion",
+                  "text": "reunion",
+                  "reading": "ˌriːˈjuːnjən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.look-back-on",
+                  "text": "look back on",
+                  "reading": "ˌlʊk ˈbæk ɑːn",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E13",
+          "title_th": "การซื้อของและโฆษณา",
+          "goal_th": "เล่านิสัยการซื้อของ บอกว่าโฆษณาแบบไหนชักจูงให้ซื้อ และเปรียบเทียบการซื้อออนไลน์กับซื้อที่ร้านได้",
+          "scenario": "B is a market researcher doing a survey in a shopping mall. Nam must describe how and where she shops, say which ads persuade her to buy things, and compare shopping online with shopping in stores.",
+          "lessons": [
+            {
+              "id": "en-E13-01",
+              "topic": "The ad persuaded me to buy it",
+              "grammar": "persuade / convince + object + to-infinitive (The ad persuaded me to buy it.)",
+              "items": [
+                {
+                  "id": "en.advertisement",
+                  "text": "advertisement",
+                  "reading": "ˌædvərˈtaɪzmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.advertise",
+                  "text": "advertise",
+                  "reading": "ˈædvərtaɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.persuade",
+                  "text": "persuade",
+                  "reading": "pərˈsweɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.convince",
+                  "text": "convince",
+                  "reading": "kənˈvɪns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.commercial",
+                  "text": "commercial",
+                  "reading": "kəˈmɜːrʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.slogan",
+                  "text": "slogan",
+                  "reading": "ˈsloʊɡən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-02",
+              "topic": "I had it delivered",
+              "grammar": "have / get something done for services (I had it delivered. / I got my phone fixed.)",
+              "items": [
+                {
+                  "id": "en.online-shopping",
+                  "text": "online shopping",
+                  "reading": "ˌɑːnlaɪn ˈʃɑːpɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.shipping",
+                  "text": "shipping",
+                  "reading": "ˈʃɪpɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cart",
+                  "text": "cart",
+                  "reading": "kɑːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.track",
+                  "text": "track",
+                  "reading": "træk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.try-on",
+                  "text": "try on",
+                  "reading": "ˌtraɪ ˈɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.doorstep",
+                  "text": "doorstep",
+                  "reading": "ˈdɔːrstɛp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-03",
+              "topic": "I prefer shopping online to going to the mall",
+              "grammar": "prefer + -ing to + -ing / prefer X to Y",
+              "items": [
+                {
+                  "id": "en.convenience",
+                  "text": "convenience",
+                  "reading": "kənˈviːniəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.browse",
+                  "text": "browse",
+                  "reading": "braʊz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-person",
+                  "text": "in person",
+                  "reading": "ɪn ˈpɜːrsən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.window-shopping",
+                  "text": "window-shopping",
+                  "reading": "ˈwɪndoʊ ˌʃɑːpɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.physical-store",
+                  "text": "physical store",
+                  "reading": "ˌfɪzɪkəl ˈstɔːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-04",
+              "topic": "Despite the price…",
+              "grammar": "despite / in spite of + noun or -ing",
+              "items": [
+                {
+                  "id": "en.despite",
+                  "text": "despite",
+                  "reading": "dɪˈspaɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-spite-of",
+                  "text": "in spite of",
+                  "reading": "ɪn ˈspaɪt əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.brand",
+                  "text": "brand",
+                  "reading": "brænd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.logo",
+                  "text": "logo",
+                  "reading": "ˈloʊɡoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.consumer",
+                  "text": "consumer",
+                  "reading": "kənˈsuːmər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-05",
+              "topic": "Some advice, a piece of information",
+              "grammar": "uncountable nouns that are countable in Thai: advice, information, news, furniture, luggage",
+              "items": [
+                {
+                  "id": "en.information",
+                  "text": "information",
+                  "reading": "ˌɪnfərˈmeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.knowledge",
+                  "text": "knowledge",
+                  "reading": "ˈnɑːlɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.merchandise",
+                  "text": "merchandise",
+                  "reading": "ˈmɜːrtʃəndaɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stuff",
+                  "text": "stuff",
+                  "reading": "stʌf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.clothing",
+                  "text": "clothing",
+                  "reading": "ˈkloʊðɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-06",
+              "topic": "You can return it as long as…",
+              "grammar": "as long as + present simple for conditions (You can return it as long as you have the receipt.)",
+              "items": [
+                {
+                  "id": "en.terms-and-conditions",
+                  "text": "terms and conditions",
+                  "reading": "ˌtɜːrmz ən kənˈdɪʃənz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.membership",
+                  "text": "membership",
+                  "reading": "ˈmɛmbərʃɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.loyalty-card",
+                  "text": "loyalty card",
+                  "reading": "ˈlɔɪəlti ˌkɑːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.valid",
+                  "text": "valid",
+                  "reading": "ˈvælɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.expire",
+                  "text": "expire",
+                  "reading": "ɪkˈspaɪər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-r01",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Emma and Nam argue about buying a phone in a flash sale",
+              "items": [
+                {
+                  "id": "en.flash-sale",
+                  "text": "flash sale",
+                  "reading": "ˈflæʃ ˌseɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.limited",
+                  "text": "limited",
+                  "reading": "ˈlɪmɪtɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sold-out",
+                  "text": "sold out",
+                  "reading": "ˌsoʊld ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.deal",
+                  "text": "deal",
+                  "reading": "diːl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E13-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: one week without buying anything new",
+              "items": [
+                {
+                  "id": "en.unnecessary",
+                  "text": "unnecessary",
+                  "reading": "ʌnˈnɛsəsɛri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.possessions",
+                  "text": "possessions",
+                  "reading": "pəˈzɛʃənz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.save-up",
+                  "text": "save up",
+                  "reading": "ˌseɪv ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.consume",
+                  "text": "consume",
+                  "reading": "kənˈsuːm",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E14",
+          "title_th": "งานอาสาสมัคร",
+          "goal_th": "อธิบายว่าทำไมอยากเป็นอาสาสมัคร เล่าสิ่งที่ทำมา และเสนอตัวช่วยงานได้",
+          "scenario": "B is the coordinator of a volunteer project that teaches English at a rural school. Nam must explain why she wants to volunteer, say what she has been doing, and offer to help with different tasks.",
+          "lessons": [
+            {
+              "id": "en-E14-01",
+              "topic": "I've been volunteering since June (review)",
+              "grammar": "present perfect continuous (review): How long have you been volunteering?",
+              "items": [
+                {
+                  "id": "en.volunteer",
+                  "text": "volunteer",
+                  "reading": "ˌvɑːlənˈtɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.charity",
+                  "text": "charity",
+                  "reading": "ˈtʃærəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.donate",
+                  "text": "donate",
+                  "reading": "ˈdoʊneɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.donation",
+                  "text": "donation",
+                  "reading": "doʊˈneɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.organization",
+                  "text": "organization",
+                  "reading": "ˌɔːrɡənəˈzeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.non-profit",
+                  "text": "non-profit",
+                  "reading": "ˌnɑːnˈprɑːfɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-02",
+              "topic": "It's kind of you to help",
+              "grammar": "It's + adjective + of + person + to-infinitive (It's kind of you to help.)",
+              "items": [
+                {
+                  "id": "en.appreciate",
+                  "text": "appreciate",
+                  "reading": "əˈpriːʃieɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.make-a-difference",
+                  "text": "make a difference",
+                  "reading": "ˌmeɪk ə ˈdɪfrəns",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.community-service",
+                  "text": "community service",
+                  "reading": "kəˈmjuːnəti ˌsɜːrvɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rewarding",
+                  "text": "rewarding",
+                  "reading": "rɪˈwɔːrdɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.caring",
+                  "text": "caring",
+                  "reading": "ˈkɛrɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-03",
+              "topic": "Let me carry that for you",
+              "grammar": "Let me + verb / Do you need a hand? (offering help)",
+              "items": [
+                {
+                  "id": "en.do-you-need-a-hand",
+                  "text": "Do you need a hand?",
+                  "reading": "duː juː ˌniːd ə ˈhænd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.set-up",
+                  "text": "set up",
+                  "reading": "ˌsɛt ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.hand-out",
+                  "text": "hand out",
+                  "reading": "ˌhænd ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.organize",
+                  "text": "organize",
+                  "reading": "ˈɔːrɡənaɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.supplies",
+                  "text": "supplies",
+                  "reading": "səˈplaɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-04",
+              "topic": "To raise money for charity",
+              "grammar": "for + noun vs to + verb for purpose (for charity / to raise money)",
+              "items": [
+                {
+                  "id": "en.raise-money",
+                  "text": "raise money",
+                  "reading": "ˌreɪz ˈmʌni",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fundraising",
+                  "text": "fundraising",
+                  "reading": "ˈfʌndreɪzɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.charity-run",
+                  "text": "charity run",
+                  "reading": "ˈtʃærəti ˌrʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.homeless",
+                  "text": "homeless",
+                  "reading": "ˈhoʊmləs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.orphanage",
+                  "text": "orphanage",
+                  "reading": "ˈɔːrfənɪdʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-05",
+              "topic": "The children I teach",
+              "grammar": "relative clauses with prepositions (the people I work with / the school I volunteer at)",
+              "items": [
+                {
+                  "id": "en.rural",
+                  "text": "rural",
+                  "reading": "ˈrʊrəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-need",
+                  "text": "in need",
+                  "reading": "ɪn ˈniːd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.disabled",
+                  "text": "disabled",
+                  "reading": "dɪsˈeɪbəld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nursing-home",
+                  "text": "nursing home",
+                  "reading": "ˈnɜːrsɪŋ ˌhoʊm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.special-needs",
+                  "text": "special needs",
+                  "reading": "ˌspɛʃəl ˈniːdz",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-06",
+              "topic": "Try to / try doing",
+              "grammar": "try to vs try + -ing; stop to vs stop + -ing",
+              "items": [
+                {
+                  "id": "en.give-it-a-try",
+                  "text": "give it a try",
+                  "reading": "ˌɡɪv ɪt ə ˈtraɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-an-effort",
+                  "text": "make an effort",
+                  "reading": "ˌmeɪk ən ˈɛfərt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.keep-going",
+                  "text": "keep going",
+                  "reading": "ˌkiːp ˈɡoʊɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.do-your-best",
+                  "text": "do your best",
+                  "reading": "ˌduː jər ˈbɛst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.challenging",
+                  "text": "challenging",
+                  "reading": "ˈtʃælɪndʒɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Volunteers needed: a weekend English camp for village children",
+              "items": [
+                {
+                  "id": "en.provide",
+                  "text": "provide",
+                  "reading": "prəˈvaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.accommodation",
+                  "text": "accommodation",
+                  "reading": "əˌkɑːməˈdeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.register",
+                  "text": "register",
+                  "reading": "ˈrɛdʒɪstər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.minimum",
+                  "text": "minimum",
+                  "reading": "ˈmɪnɪməm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E14-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: her first weekend teaching at a village school",
+              "items": [
+                {
+                  "id": "en.smile",
+                  "text": "smile",
+                  "reading": "smaɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.eager",
+                  "text": "eager",
+                  "reading": "ˈiːɡər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.classroom",
+                  "text": "classroom",
+                  "reading": "ˈklæsruːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whiteboard",
+                  "text": "whiteboard",
+                  "reading": "ˈwaɪtbɔːrd",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E15",
+          "title_th": "อนาคต",
+          "goal_th": "คาดการณ์อนาคต บอกความมั่นใจ และพูดถึงแผนที่เปลี่ยนไปได้",
+          "scenario": "B is Mr. Brown, who leads a class discussion about life in 2050. Nam must make predictions about technology, work and cities, say how sure she is, and talk about a plan that has changed.",
+          "lessons": [
+            {
+              "id": "en-E15-01",
+              "topic": "This time next year I'll be working",
+              "grammar": "future continuous: will be + -ing (This time next year, I'll be working in Bangkok.)",
+              "items": [
+                {
+                  "id": "en.prediction",
+                  "text": "prediction",
+                  "reading": "prɪˈdɪkʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.predict",
+                  "text": "predict",
+                  "reading": "prɪˈdɪkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.decade",
+                  "text": "decade",
+                  "reading": "ˈdɛkeɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nowadays",
+                  "text": "nowadays",
+                  "reading": "ˈnaʊədeɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.the-near-future",
+                  "text": "the near future",
+                  "reading": "ðə ˌnɪr ˈfjuːtʃər",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-02",
+              "topic": "Will, going to or present continuous? (review)",
+              "grammar": "future forms (review): will, be going to, present continuous",
+              "items": [
+                {
+                  "id": "en.intend",
+                  "text": "intend",
+                  "reading": "ɪnˈtɛnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.possibly",
+                  "text": "possibly",
+                  "reading": "ˈpɑːsəbli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.certain",
+                  "text": "certain",
+                  "reading": "ˈsɜːrtən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.uncertain",
+                  "text": "uncertain",
+                  "reading": "ʌnˈsɜːrtən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.likely",
+                  "text": "likely",
+                  "reading": "ˈlaɪkli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-03",
+              "topic": "By 2050, we will have…",
+              "grammar": "future perfect: will have + past participle (By 2050, scientists will have found a cure.)",
+              "items": [
+                {
+                  "id": "en.cure",
+                  "text": "cure",
+                  "reading": "kjʊr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.artificial-intelligence",
+                  "text": "artificial intelligence",
+                  "reading": "ˌɑːrtɪfɪʃəl ɪnˈtɛlɪdʒəns",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.self-driving-car",
+                  "text": "self-driving car",
+                  "reading": "ˌsɛlf ˌdraɪvɪŋ ˈkɑːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.virtual-reality",
+                  "text": "virtual reality",
+                  "reading": "ˌvɜːrtʃuəl riˈæləti",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.space-travel",
+                  "text": "space travel",
+                  "reading": "ˈspeɪs ˌtrævəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-04",
+              "topic": "There will be fewer jobs",
+              "grammar": "there will be + more / fewer / less (There will be fewer jobs in factories.)",
+              "items": [
+                {
+                  "id": "en.unemployment",
+                  "text": "unemployment",
+                  "reading": "ˌʌnɪmˈplɔɪmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.automatic",
+                  "text": "automatic",
+                  "reading": "ˌɔːtəˈmætɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.aging",
+                  "text": "aging",
+                  "reading": "ˈeɪdʒɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shortage",
+                  "text": "shortage",
+                  "reading": "ˈʃɔːrtɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.demand",
+                  "text": "demand",
+                  "reading": "dɪˈmænd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-05",
+              "topic": "I'm sure it will… / I doubt it will…",
+              "grammar": "I'm sure / I doubt (that) + will (I doubt that cars will fly.)",
+              "items": [
+                {
+                  "id": "en.certainly",
+                  "text": "certainly",
+                  "reading": "ˈsɜːrtənli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unlikely",
+                  "text": "unlikely",
+                  "reading": "ʌnˈlaɪkli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.no-way",
+                  "text": "no way",
+                  "reading": "ˌnoʊ ˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-bet",
+                  "text": "I bet",
+                  "reading": "aɪ ˈbɛt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.who-knows",
+                  "text": "Who knows?",
+                  "reading": "ˌhuː ˈnoʊz",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-06",
+              "topic": "I was going to study abroad, but…",
+              "grammar": "was / were going to for plans that changed",
+              "items": [
+                {
+                  "id": "en.change-of-plan",
+                  "text": "change of plan",
+                  "reading": "ˌtʃeɪndʒ əv ˈplæn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.unexpected",
+                  "text": "unexpected",
+                  "reading": "ˌʌnɪkˈspɛktɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.situation",
+                  "text": "situation",
+                  "reading": "ˌsɪtʃuˈeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pandemic",
+                  "text": "pandemic",
+                  "reading": "pænˈdɛmɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.call-off",
+                  "text": "call off",
+                  "reading": "ˌkɔːl ˈɔːf",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Bangkok in 2050: floating homes and flying taxis?",
+              "items": [
+                {
+                  "id": "en.underwater",
+                  "text": "underwater",
+                  "reading": "ˌʌndərˈwɔːtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.smart-city",
+                  "text": "smart city",
+                  "reading": "ˌsmɑːrt ˈsɪti",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.drone",
+                  "text": "drone",
+                  "reading": "droʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sustainable",
+                  "text": "sustainable",
+                  "reading": "səˈsteɪnəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.flying-car",
+                  "text": "flying car",
+                  "reading": "ˌflaɪɪŋ ˈkɑːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-E15-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "A short science-fiction story: the robot who wanted to be human",
+              "items": [
+                {
+                  "id": "en.human",
+                  "text": "human",
+                  "reading": "ˈhjuːmən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.emotion",
+                  "text": "emotion",
+                  "reading": "ɪˈmoʊʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.program",
+                  "text": "program",
+                  "reading": "ˈproʊɡræm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.alive",
+                  "text": "alive",
+                  "reading": "əˈlaɪv",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-E16",
+          "title_th": "เรื่องลึกลับ",
+          "goal_th": "สันนิษฐานสาเหตุของเรื่องแปลก ๆ และพูดถึงปริศนาที่ยังไม่มีคำตอบได้",
+          "scenario": "B is Emma, who has been hearing strange noises in her apartment at night. Nam must suggest possible explanations, say what must or can't be true, and talk about famous unexplained mysteries.",
+          "lessons": [
+            {
+              "id": "en-E16-01",
+              "topic": "It must be the neighbors",
+              "grammar": "must + verb for deduction (It must be the wind.)",
+              "items": [
+                {
+                  "id": "en.mystery",
+                  "text": "mystery",
+                  "reading": "ˈmɪstəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.mysterious",
+                  "text": "mysterious",
+                  "reading": "mɪˈstɪriəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.strange",
+                  "text": "strange",
+                  "reading": "streɪndʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.explanation",
+                  "text": "explanation",
+                  "reading": "ˌɛkspləˈneɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.logical",
+                  "text": "logical",
+                  "reading": "ˈlɑːdʒɪkəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-02",
+              "topic": "It might be a cat",
+              "grammar": "might / could + verb for possible explanations (It could be a cat.)",
+              "items": [
+                {
+                  "id": "en.creature",
+                  "text": "creature",
+                  "reading": "ˈkriːtʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.footsteps",
+                  "text": "footsteps",
+                  "reading": "ˈfʊtstɛps",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shadow",
+                  "text": "shadow",
+                  "reading": "ˈʃædoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.creepy",
+                  "text": "creepy",
+                  "reading": "ˈkriːpi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.haunted",
+                  "text": "haunted",
+                  "reading": "ˈhɔːntɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-03",
+              "topic": "It can't be true!",
+              "grammar": "can't + verb for negative deduction (It can't be a ghost.)",
+              "items": [
+                {
+                  "id": "en.ufo",
+                  "text": "UFO",
+                  "reading": "ˌjuː ɛf ˈoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.alien",
+                  "text": "alien",
+                  "reading": "ˈeɪliən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.proof",
+                  "text": "proof",
+                  "reading": "pruːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.prove",
+                  "text": "prove",
+                  "reading": "pruːv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scientific",
+                  "text": "scientific",
+                  "reading": "ˌsaɪənˈtɪfɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spaceship",
+                  "text": "spaceship",
+                  "reading": "ˈspeɪsʃɪp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-04",
+              "topic": "Someone must have taken it",
+              "grammar": "must have / might have / can't have + past participle (past deduction)",
+              "items": [
+                {
+                  "id": "en.vanish",
+                  "text": "vanish",
+                  "reading": "ˈvænɪʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.trace",
+                  "text": "trace",
+                  "reading": "treɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wreck",
+                  "text": "wreck",
+                  "reading": "rɛk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.theory",
+                  "text": "theory",
+                  "reading": "ˈθɪri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unexplained",
+                  "text": "unexplained",
+                  "reading": "ˌʌnɪkˈspleɪnd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-05",
+              "topic": "He seems to know something",
+              "grammar": "seem / appear + to-infinitive (He seems to be nervous.)",
+              "items": [
+                {
+                  "id": "en.seem",
+                  "text": "seem",
+                  "reading": "siːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.appear",
+                  "text": "appear",
+                  "reading": "əˈpɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fortune-teller",
+                  "text": "fortune teller",
+                  "reading": "ˈfɔːrtʃən ˌtɛlər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.coincidence",
+                  "text": "coincidence",
+                  "reading": "koʊˈɪnsɪdəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.superstition",
+                  "text": "superstition",
+                  "reading": "ˌsuːpərˈstɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-06",
+              "topic": "Apparently, obviously, clearly",
+              "grammar": "sentence adverbs of certainty: apparently, obviously, clearly",
+              "items": [
+                {
+                  "id": "en.apparently",
+                  "text": "apparently",
+                  "reading": "əˈpærəntli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.obviously",
+                  "text": "obviously",
+                  "reading": "ˈɑːbviəsli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.clearly",
+                  "text": "clearly",
+                  "reading": "ˈklɪrli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.legend",
+                  "text": "legend",
+                  "reading": "ˈlɛdʒənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.myth",
+                  "text": "myth",
+                  "reading": "mɪθ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-r01",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "The ghost of the old cinema: a Bangkok legend",
+              "items": [
+                {
+                  "id": "en.spirit-house",
+                  "text": "spirit house",
+                  "reading": "ˈspɪrɪt ˌhaʊs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.offering",
+                  "text": "offering",
+                  "reading": "ˈɔːfərɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whisper",
+                  "text": "whisper",
+                  "reading": "ˈwɪspər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.believe-in",
+                  "text": "believe in",
+                  "reading": "bɪˈliːv ɪn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.spooky",
+                  "text": "spooky",
+                  "reading": "ˈspuːki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-E16-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Emma and Nam solve the mystery of the noises in Emma's apartment",
+              "items": [
+                {
+                  "id": "en.pipe",
+                  "text": "pipe",
+                  "reading": "paɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gecko",
+                  "text": "gecko",
+                  "reading": "ˈɡɛkoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.relief",
+                  "text": "relief",
+                  "reading": "rɪˈliːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.solve",
+                  "text": "solve",
+                  "reading": "sɑːlv",
                   "kind": "word"
                 }
               ]
