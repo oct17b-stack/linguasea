@@ -163,7 +163,7 @@ describe('exercises', () => {
 describe('readers', () => {
   function addReader(root: string, gloss: Record<string, unknown> = {}) {
     edit(join(root, 'courses/zh/course.json'), (c) => {
-      c.stages.at(-1).units.at(-1).lessons.push('zh-B1-r01');
+      c.stages.find((s: { id: string }) => s.id === 'B').units.find((u: { id: string }) => u.id === 'zh-B1').lessons.push('zh-B1-r01');
     });
     writeFileSync(
       join(root, 'courses/zh/lessons/zh-B1-r01.json'),
