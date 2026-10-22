@@ -1,4 +1,4 @@
-import { lessonExercises, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
+import { kindGroup, lessonExercises, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
 
 import { coursePool, sameGroup, soundsAlike, type Word } from './pool';
 import { hashString, seededRandom, shuffle } from './rng';
@@ -131,9 +131,25 @@ export function chooseStep(
 const REVIEW_TYPES: ChoiceExercise['type'][] = ['listen-choose', 'choose-meaning', 'choose-text'];
 
 /**
- * One question per due item, rotating question types so review is not always the same drill.
- * Sound items (kana, tones…) are reviewed by ear → text, the way they were learned.
+ * How to ask about an item away from its lesson (review, practice, tests).
+ * Vocabulary rotates through question types. Sounds (kana, tones, hangul…) are asked the way their
+ * lesson asked them: by ear with the lesson's own wrong answers when it had them, and only by sight
+ * when the lesson never asked them by ear (e.g. ㅐ/ㅔ, which sound alike but look different).
  */
+export function recallQuestion(course: CourseBundle, w: Word, i: number): Pick<ChoiceExercise, 'type' | 'options'> {
+  if (kindGroup(w.kind) === 'vocab') return { type: REVIEW_TYPES[i % REVIEW_TYPES.length] };
+  const entry = course.lessons[w.lesson];
+  const asked = entry
+    ? lessonExercises(entry.lesson).filter((e): e is ChoiceExercise => e.item === w.id && e.type !== 'speak')
+    : [];
+  const byEar = asked.find((e) => e.type === 'listen-text');
+  if (byEar) return { type: 'listen-text', options: byEar.options };
+  const bySight = asked.find((e) => e.type === 'choose-meaning');
+  if (bySight) return { type: 'choose-meaning', options: bySight.options };
+  return { type: 'listen-text' };
+}
+
+/** One question per due item, asked as recallQuestion decides. */
 export function reviewSteps(course: CourseBundle, itemIds: string[], seed = Date.now()): Step[] {
   const rand = seededRandom(seed);
   const pool = coursePool(course);
@@ -142,8 +158,7 @@ export function reviewSteps(course: CourseBundle, itemIds: string[], seed = Date
   itemIds.forEach((id, i) => {
     const w = pool.get(id);
     if (!w) return;
-    const type = w.kind === 'letter' || w.kind === 'syllable' ? 'listen-text' : REVIEW_TYPES[i % REVIEW_TYPES.length];
-    steps.push(chooseStep(pool, w, { type }, latest, rand));
+    steps.push(chooseStep(pool, w, recallQuestion(course, w, i), latest, rand));
   });
   return steps;
 }

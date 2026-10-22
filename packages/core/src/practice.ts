@@ -1,19 +1,15 @@
-import { kindGroup, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
+import type { CourseBundle } from '@linguasea/contract';
 
 import { coursePath } from './path';
 import { coursePool, type Word } from './pool';
 import { seededRandom, shuffle } from './rng';
-import { chooseStep, type DialogueLine, type Step } from './steps';
+import { chooseStep, recallQuestion, type DialogueLine, type Step } from './steps';
 
 /** Share of a unit test to get right to pass it. */
 export const UNIT_TEST_PASS = 0.7;
 
-const ROTATION: ChoiceExercise['type'][] = ['listen-choose', 'choose-text', 'choose-meaning'];
-
-/** Words get a rotating question type; sounds (kana, tones…) are always asked by ear. */
-function questionFor(pool: Map<string, Word>, w: Word, i: number, upTo: number, rand: () => number): Step {
-  const type = kindGroup(w.kind) === 'sound' ? 'listen-text' : ROTATION[i % ROTATION.length];
-  return chooseStep(pool, w, { type }, upTo, rand);
+function questionFor(course: CourseBundle, pool: Map<string, Word>, w: Word, i: number, upTo: number, rand: () => number): Step {
+  return chooseStep(pool, w, recallQuestion(course, w, i), upTo, rand);
 }
 
 /** Dialogue lines of some lessons with their translations. */
@@ -58,7 +54,7 @@ export function practiceSteps(course: CourseBundle, id: string, seed = Date.now(
   const latest = Math.max(0, ...fresh.map((w) => w.order));
   const earlier = shuffle([...pool.values()].filter((w) => w.order < Math.min(...fresh.map((f) => f.order))), rand).slice(0, 4);
   const words = shuffle([...fresh, ...earlier], rand);
-  const steps: Step[] = words.map((w, i) => questionFor(pool, w, i, latest, rand));
+  const steps: Step[] = words.map((w, i) => questionFor(course, pool, w, i, latest, rand));
   steps.push(...lineSteps(linesOf(course, node.covers), 2, rand));
   for (const w of shuffle(fresh, rand).slice(0, 2)) steps.push({ kind: 'speak', word: w });
   steps.push({ kind: 'done' });
@@ -72,7 +68,7 @@ export function unitTestSteps(course: CourseBundle, id: string, seed = Date.now(
   const pool = coursePool(course);
   const words = shuffle([...pool.values()].filter((w) => node.covers.includes(w.lesson)), rand).slice(0, 15);
   const latest = Math.max(0, ...words.map((w) => w.order));
-  const steps: Step[] = words.map((w, i) => questionFor(pool, w, i, latest, rand));
+  const steps: Step[] = words.map((w, i) => questionFor(course, pool, w, i, latest, rand));
   steps.push(...lineSteps(linesOf(course, node.covers), 3, rand));
   steps.push({ kind: 'done' });
   return steps;

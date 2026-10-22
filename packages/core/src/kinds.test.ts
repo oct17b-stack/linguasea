@@ -112,3 +112,18 @@ describe('review', () => {
     expect(steps[0].exercise).toBe('listen-text');
   });
 });
+
+describe('recall of sound items', () => {
+  it('reuses the lesson options by ear, and asks by sight when the lesson never asked by ear', () => {
+    const course = fixture();
+    course.lessons['ja-A1-01'].lesson.exercises = [
+      { type: 'listen-text', item: 'ja.a', options: ['ja.i', 'ja.u'] },
+      { type: 'choose-meaning', item: 'ja.e' },
+      { type: 'speak', item: 'ja.a' },
+    ];
+    const [a, e] = chooses(reviewSteps(course, ['ja.a', 'ja.e'], 1));
+    expect(a.exercise).toBe('listen-text');
+    expect(a.choices.map((c) => c.id).sort()).toEqual(['ja.a', 'ja.i', 'ja.u']);
+    expect(e.exercise).toBe('choose-meaning');
+  });
+});
