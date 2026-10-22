@@ -11,7 +11,7 @@
         {
           "id": "ja-C1",
           "title_th": "งานอดิเรก",
-          "goal_th": "เล่าเรื่องงานอดิเรก สิ่งที่ชอบทำ และสิ่งที่ทำได้",
+          "goal_th": "เล่าเรื่องงานอดิเรกและสิ่งที่ชอบทำ และบอกได้ว่าตัวเองทำอะไรได้บ้าง",
           "scenario": "B is Yuki, who is recruiting members for her university club at the club fair. Nam must talk about their hobbies, say what they did last weekend and what they can do, such as cooking Thai food or playing an instrument, and decide whether to join.",
           "lessons": [
             {
@@ -6181,9 +6181,9 @@
         },
         {
           "id": "ja-D8",
-          "title_th": "ข่าวรอบตัว",
+          "title_th": "เรื่องที่ได้ยินมาและการคาดเดา",
           "goal_th": "เล่าเรื่องที่ได้ยินมาพร้อมบอกแหล่งที่มา และคาดเดาสถานการณ์จากสิ่งที่เห็นได้",
-          "scenario": "B is Yuki chatting about campus news. Nam must pass on news they heard and say where they heard it, guess what is happening from what they can see, and react naturally to Yuki's news.",
+          "scenario": "B is Yuki chatting about what is going on around campus. Nam must pass on news they heard and say where they heard it, guess what is happening from what they can see, and react naturally to Yuki's news.",
           "lessons": [
             {
               "id": "ja-D8-01",
@@ -6224,37 +6224,37 @@
             },
             {
               "id": "ja-D8-02",
-              "topic": "According to the news …",
+              "topic": "According to the university website …",
               "grammar": "〜に よると (according to)",
               "items": [
                 {
-                  "id": "ja.kiji",
-                  "text": "きじ",
-                  "reading": "kiji",
+                  "id": "ja.gakuseika",
+                  "text": "がくせいか",
+                  "reading": "gakuseika",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.shinbunsha",
-                  "text": "新聞社",
-                  "reading": "shinbunsha",
+                  "id": "ja.houmupeeji",
+                  "text": "ホームページ",
+                  "reading": "hōmupēji",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.kisha",
-                  "text": "きしゃ",
-                  "reading": "kisha",
+                  "id": "ja.koushiki",
+                  "text": "こうしき",
+                  "reading": "kōshiki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shirase",
+                  "text": "知らせ",
+                  "reading": "shirase",
                   "kind": "word"
                 },
                 {
                   "id": "ja.happyou",
                   "text": "はっぴょう",
                   "reading": "happyō",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.chousa",
-                  "text": "ちょうさ",
-                  "reading": "chōsa",
                   "kind": "word"
                 }
               ]
@@ -8168,7 +8168,7 @@
         {
           "id": "ja-D15",
           "title_th": "ภัยธรรมชาติและความปลอดภัย",
-          "goal_th": "เข้าใจคำเตือนเรื่องภัยพิบัติ และรู้ว่าต้องทำอย่างไรเมื่อเกิดแผ่นดินไหว",
+          "goal_th": "เข้าใจคำเตือนเรื่องภัยพิบัติ และบอกได้ว่าต้องทำอย่างไรเมื่อเกิดแผ่นดินไหว",
           "scenario": "B is a staff member at the city disaster-prevention centre during a drill. Nam must ask what to do if an earthquake happens, check where the evacuation site is, and confirm what to keep ready at home.",
           "lessons": [
             {
@@ -8450,7 +8450,7 @@
         {
           "id": "ja-D16",
           "title_th": "ความฝันและอนาคต",
-          "goal_th": "เล่าความฝันในวัยเด็ก แผนในอนาคต และสิ่งที่ทำได้แล้วเพื่อไปถึงเป้าหมาย",
+          "goal_th": "เล่าความฝันในวัยเด็กและแผนในอนาคต และบอกสิ่งที่ทำไปแล้วเพื่อให้ถึงเป้าหมายได้",
           "scenario": "B is Yamada-sensei in an end-of-year interview. Nam must explain what they wanted to be as a child, what they plan to do after the course, and what they can already do towards that goal.",
           "lessons": [
             {
@@ -9507,6 +9507,12 @@
                   "text": "こんきょ",
                   "reading": "konkyo",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.chousa",
+                  "text": "ちょうさ",
+                  "reading": "chōsa",
+                  "kind": "word"
                 }
               ]
             },
@@ -9543,6 +9549,12 @@
                   "id": "ja.fan",
                   "text": "ファン",
                   "reading": "fan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kisha",
+                  "text": "記者",
+                  "reading": "kisha",
                   "kind": "word"
                 }
               ]
@@ -9581,6 +9593,12 @@
                   "text": "ぶっか",
                   "reading": "bukka",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.shinbunsha",
+                  "text": "新聞社",
+                  "reading": "shinbunsha",
+                  "kind": "word"
                 }
               ]
             },
@@ -9612,6 +9630,12 @@
                   "id": "ja.hyouban",
                   "text": "ひょうばん",
                   "reading": "hyōban",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kiji",
+                  "text": "記事",
+                  "reading": "kiji",
                   "kind": "word"
                 }
               ]
@@ -10400,8 +10424,8 @@
             },
             {
               "id": "ja-E6-05",
-              "topic": "\"Tanaka is out\": no honorifics for your own side",
-              "grammar": "内と外: talking about your own company to outsiders (田中は ただいま 外出して おります)",
+              "topic": "\"My manager is out\": no honorifics for your own side",
+              "grammar": "内と外: talking about your own company to outsiders (課長は ただいま 外出して おります)",
               "items": [
                 {
                   "id": "ja.heisha",
@@ -11122,8 +11146,8 @@
         },
         {
           "id": "ja-E9",
-          "title_th": "เทคโนโลยีในชีวิตประจำวัน",
-          "goal_th": "อธิบายวิธีใช้แอปหรืออุปกรณ์ทีละขั้นตอน และพูดถึงผลของเทคโนโลยีต่อชีวิตได้",
+          "title_th": "เทคโนโลยีกับชีวิตยุคดิจิทัล",
+          "goal_th": "อธิบายขั้นตอนการใช้อุปกรณ์ดิจิทัลให้ผู้สูงอายุเข้าใจ และอภิปรายว่า AI และหุ่นยนต์เปลี่ยนชีวิตอย่างไรได้",
           "scenario": "B is an elderly neighbour who has just bought her first smartphone. Nam must explain step by step how to send a message and make a video call, warn her what not to do, and chat about how technology has changed life.",
           "lessons": [
             {

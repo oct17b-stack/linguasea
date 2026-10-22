@@ -1,0 +1,5572 @@
+{
+  "target": "en",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "exam": "CEFR pre-A1",
+      "minutes": 6,
+      "units": [
+        {
+          "id": "en-A1",
+          "title_th": "ทักทายและคำสุภาพ",
+          "goal_th": "ทักทาย ถามสารทุกข์ ขอบคุณ ขอโทษ บอกลาพร้อมคำอวยพร และขอให้อีกฝ่ายพูดซ้ำได้",
+          "scenario": "B is Emma, Nam's Canadian friend, whom Nam meets on campus in the morning and again later in the day. Nam must greet her for the time of day, ask how she is, thank her and apologize, ask her to repeat something she didn't catch (Pardon?), and say goodbye with a good wish.",
+          "lessons": [
+            {
+              "id": "en-A1-05",
+              "topic": "Saying goodbye with a good wish",
+              "grammar": "Nice to meet you (first time) vs Nice to see you (again); replying with You too.",
+              "items": [
+                {
+                  "id": "en.nice-to-see-you",
+                  "text": "Nice to see you.",
+                  "reading": "ˈnaɪs tə ˈsiː juː.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.have-a-nice-day",
+                  "text": "Have a nice day!",
+                  "reading": "ˈhæv ə ˈnaɪs ˈdeɪ!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.you-too",
+                  "text": "You too.",
+                  "reading": "ˈjuː ˈtuː.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.take-care",
+                  "text": "Take care.",
+                  "reading": "ˈteɪk ˈkɛr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.see-you-tomorrow",
+                  "text": "See you tomorrow.",
+                  "reading": "ˈsiː juː təˈmɑːroʊ.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A1-06",
+              "topic": "Short replies: Pardon? No problem. Me too.",
+              "grammar": "one-word and two-word replies; Pardon? to ask again; Welcome! (ยินดีต้อนรับ) vs You're welcome.",
+              "items": [
+                {
+                  "id": "en.pardon",
+                  "text": "Pardon?",
+                  "reading": "ˈpɑːrdən?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.no-problem",
+                  "text": "No problem.",
+                  "reading": "ˈnoʊ ˈprɑːbləm.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sure",
+                  "text": "Sure.",
+                  "reading": "ˈʃʊr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.me-too",
+                  "text": "Me too.",
+                  "reading": "ˈmiː ˈtuː.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.welcome",
+                  "text": "Welcome!",
+                  "reading": "ˈwɛlkəm!",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A2",
+          "title_th": "เสียงที่คนไทยมักพูดผิด",
+          "goal_th": "ฟังแยกและออกเสียง th, v/w, r/l, s/sh/ch สระสั้น-ยาว และเสียงท้ายคำ (l, z, d, ng) ได้ชัดขึ้น",
+          "scenario": "B is Mr. Brown running a short pronunciation check. He says one word from a pair (think/sink, ship/sheep, tell/ten, bed/bet); Nam must say which word she heard and repeat both words clearly, including the final sounds.",
+          "lessons": [
+            {
+              "id": "en-A2-05",
+              "topic": "Short and long vowels: ship / sheep, live / leave, sit / seat",
+              "grammar": "minimal pairs ɪ / iː; listen-text with the other word of each pair as the option",
+              "items": [
+                {
+                  "id": "en.ship",
+                  "text": "ship",
+                  "reading": "ʃɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sheep",
+                  "text": "sheep",
+                  "reading": "ʃiːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.live",
+                  "text": "live",
+                  "reading": "lɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.leave",
+                  "text": "leave",
+                  "reading": "liːv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sit",
+                  "text": "sit",
+                  "reading": "sɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.seat",
+                  "text": "seat",
+                  "reading": "siːt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A2-06",
+              "topic": "Final sounds: tell / ten, rise / rice, bed / bet, thin / thing",
+              "grammar": "word-final l vs n (tell vs en.ten), z vs s (rise vs en.rice), d vs t, n vs ng; listen-text options as pairs",
+              "items": [
+                {
+                  "id": "en.tell",
+                  "text": "tell",
+                  "reading": "tɛl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rise",
+                  "text": "rise",
+                  "reading": "raɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bed",
+                  "text": "bed",
+                  "reading": "bɛd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bet",
+                  "text": "bet",
+                  "reading": "bɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.thin",
+                  "text": "thin",
+                  "reading": "θɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.thing",
+                  "text": "thing",
+                  "reading": "θɪŋ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A3",
+          "title_th": "แนะนำตัว",
+          "goal_th": "บอกชื่อ ชื่อเล่น ประเทศ เมืองที่อยู่ และว่าเป็นนักศึกษา ถามข้อมูลเดียวกันจากคนอื่น และขอให้พูดช้า ๆ ได้",
+          "scenario": "B is an exchange student at a university welcome party. Nam must say her name and nickname, where she is from and where she lives, that she is a student, ask him the same questions, and ask him to speak slowly when she does not understand.",
+          "lessons": [
+            {
+              "id": "en-A3-05",
+              "topic": "Where do you live?",
+              "grammar": "present simple I / you with live: Where do you live? — I live in Bangkok.",
+              "items": [
+                {
+                  "id": "en.where-do-you-live",
+                  "text": "Where do you live?",
+                  "reading": "ˈwɛr duː juː ˈlɪv?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-live-in",
+                  "text": "I live in …",
+                  "reading": "aɪ ˈlɪv ɪn …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.city",
+                  "text": "city",
+                  "reading": "ˈsɪti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bangkok",
+                  "text": "Bangkok",
+                  "reading": "ˈbæŋkɑːk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A3-06",
+              "topic": "First name, last name and nickname",
+              "grammar": "Mr. / Ms. + last name; Call me + nickname",
+              "items": [
+                {
+                  "id": "en.first-name",
+                  "text": "first name",
+                  "reading": "ˈfɜːrst ˌneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.last-name",
+                  "text": "last name",
+                  "reading": "ˈlæst ˌneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nickname",
+                  "text": "nickname",
+                  "reading": "ˈnɪkneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.call-me",
+                  "text": "Call me …",
+                  "reading": "ˈkɔːl miː …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.mr",
+                  "text": "Mr.",
+                  "reading": "ˈmɪstər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ms",
+                  "text": "Ms.",
+                  "reading": "mɪz",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A4",
+          "title_th": "ตัวเลขและอายุ",
+          "goal_th": "นับเลข 0–20 บอกเบอร์โทรศัพท์ ถามว่ามีกี่คนหรือกี่อัน และถามตอบเรื่องอายุได้",
+          "scenario": "B is a staff member at a university club sign-up table. Nam must say how many people are in her group, give her phone number digit by digit, and say her age and her younger sister's age.",
+          "lessons": [
+            {
+              "id": "en-A4-05",
+              "topic": "How many?",
+              "grammar": "How many + plural noun? (How many people?); number + plural -s; A table for two, please.",
+              "items": [
+                {
+                  "id": "en.how-many",
+                  "text": "How many …?",
+                  "reading": "ˈhaʊ ˈmɛni …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.people",
+                  "text": "people",
+                  "reading": "ˈpiːpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.number",
+                  "text": "number",
+                  "reading": "ˈnʌmbər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.only",
+                  "text": "only",
+                  "reading": "ˈoʊnli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.a-table-for",
+                  "text": "A table for …, please.",
+                  "reading": "ə ˈteɪbəl fər …, ˈpliːz.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A4-06",
+              "topic": "Babies, children and adults",
+              "grammar": "irregular plural child → children; He's young.",
+              "items": [
+                {
+                  "id": "en.age",
+                  "text": "age",
+                  "reading": "eɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.baby",
+                  "text": "baby",
+                  "reading": "ˈbeɪbi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.child",
+                  "text": "child",
+                  "reading": "tʃaɪld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.children",
+                  "text": "children",
+                  "reading": "ˈtʃɪldrən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.adult",
+                  "text": "adult",
+                  "reading": "əˈdʌlt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.young",
+                  "text": "young",
+                  "reading": "jʌŋ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A5",
+          "title_th": "ครอบครัว",
+          "goal_th": "แนะนำคนในครอบครัว บอกว่ามีพี่น้อง สามีภรรยา หรือลูกไหม และพูดถึงญาติด้วย we, our, their ได้",
+          "scenario": "B is Emma looking at family photos on Nam's phone. Nam must say who each person is (her parents, her younger sister Fah, her grandparents, an aunt and her husband and children), and ask about Emma's family.",
+          "lessons": [
+            {
+              "id": "en-A5-05",
+              "topic": "Husband, wife and children",
+              "grammar": "Is he married? / She has a son and a daughter.",
+              "items": [
+                {
+                  "id": "en.husband",
+                  "text": "husband",
+                  "reading": "ˈhʌzbənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wife",
+                  "text": "wife",
+                  "reading": "waɪf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.son",
+                  "text": "son",
+                  "reading": "sʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.daughter",
+                  "text": "daughter",
+                  "reading": "ˈdɔːtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.married",
+                  "text": "married",
+                  "reading": "ˈmærid",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A5-06",
+              "topic": "Our family, their family",
+              "grammar": "we / our, they / their (their = there in sound); niece and nephew (หลาน)",
+              "items": [
+                {
+                  "id": "en.we",
+                  "text": "we",
+                  "reading": "wiː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.our",
+                  "text": "our",
+                  "reading": "ˈaʊər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.their",
+                  "text": "their",
+                  "reading": "ðɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.niece",
+                  "text": "niece",
+                  "reading": "niːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nephew",
+                  "text": "nephew",
+                  "reading": "ˈnɛfjuː",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A6",
+          "title_th": "กินและดื่ม",
+          "goal_th": "สั่งเครื่องดื่มและอาหาร บอกว่ากินอะไรได้หรือไม่ได้ ขอช้อนส้อม บอกว่าอิ่มแล้ว และเรียกเก็บเงินได้",
+          "scenario": "B is a server at a Thai restaurant where Nam is having dinner with Emma. Nam must order food and drinks, say what she does or doesn't eat (I don't eat beef), ask for a spoon and fork, say she is full, and ask for the check.",
+          "lessons": [
+            {
+              "id": "en-A6-05",
+              "topic": "Eat and drink: meat, eggs and vegetables",
+              "grammar": "I eat … / I don't eat …; meat vs meet",
+              "items": [
+                {
+                  "id": "en.eat",
+                  "text": "eat",
+                  "reading": "iːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.drink",
+                  "text": "drink",
+                  "reading": "drɪŋk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.meat",
+                  "text": "meat",
+                  "reading": "miːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.beef",
+                  "text": "beef",
+                  "reading": "biːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.egg",
+                  "text": "egg",
+                  "reading": "ɛɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vegetables",
+                  "text": "vegetables",
+                  "reading": "ˈvɛdʒtəbəlz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A6-06",
+              "topic": "Spoon, fork and chopsticks",
+              "grammar": "Can I have a spoon, please? (review); I'm full.",
+              "items": [
+                {
+                  "id": "en.spoon",
+                  "text": "spoon",
+                  "reading": "spuːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fork",
+                  "text": "fork",
+                  "reading": "fɔːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.knife",
+                  "text": "knife",
+                  "reading": "naɪf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chopsticks",
+                  "text": "chopsticks",
+                  "reading": "ˈtʃɑːpstɪks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.plate",
+                  "text": "plate",
+                  "reading": "pleɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.im-full",
+                  "text": "I'm full.",
+                  "reading": "aɪm ˈfʊl.",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A7",
+          "title_th": "ตัวอักษรและการสะกดคำ",
+          "goal_th": "ออกเสียงชื่อตัวอักษร A–Z แบบอเมริกัน สะกดชื่อตัวเองทีละตัว และถามว่าคำนี้สะกดอย่างไรได้",
+          "scenario": "B is a receptionist at a language school writing down Nam's details. Nam must spell her first name and last name letter by letter, check letters that sound alike (B or V? G or J? M or N?), and ask B how to spell his name.",
+          "lessons": [
+            {
+              "id": "en-A7-01",
+              "topic": "Letters that rhyme with day and my: A H J K I Y",
+              "grammar": "letter names (kind letter); listen-text options among look-alike sounds (J/G, I/E, A/E)",
+              "items": [
+                {
+                  "id": "en.letter-a",
+                  "text": "A",
+                  "reading": "eɪ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-h",
+                  "text": "H",
+                  "reading": "eɪtʃ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-j",
+                  "text": "J",
+                  "reading": "dʒeɪ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-k",
+                  "text": "K",
+                  "reading": "keɪ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-i",
+                  "text": "I",
+                  "reading": "aɪ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-y",
+                  "text": "Y",
+                  "reading": "waɪ",
+                  "kind": "letter"
+                }
+              ]
+            },
+            {
+              "id": "en-A7-02",
+              "topic": "Letters that rhyme with see (1): B C D E G P",
+              "grammar": "letter names ending in -ee; options B/P/D, G/J, E/I",
+              "items": [
+                {
+                  "id": "en.letter-b",
+                  "text": "B",
+                  "reading": "biː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-c",
+                  "text": "C",
+                  "reading": "siː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-d",
+                  "text": "D",
+                  "reading": "diː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-e",
+                  "text": "E",
+                  "reading": "iː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-g",
+                  "text": "G",
+                  "reading": "dʒiː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-p",
+                  "text": "P",
+                  "reading": "piː",
+                  "kind": "letter"
+                }
+              ]
+            },
+            {
+              "id": "en-A7-03",
+              "topic": "Letters that rhyme with see (2) and you: T V Z Q U W",
+              "grammar": "American Z = zee; W = double U; options B/V, T/D, Q/U",
+              "items": [
+                {
+                  "id": "en.letter-t",
+                  "text": "T",
+                  "reading": "tiː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-v",
+                  "text": "V",
+                  "reading": "viː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-z",
+                  "text": "Z",
+                  "reading": "ziː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-q",
+                  "text": "Q",
+                  "reading": "kjuː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-u",
+                  "text": "U",
+                  "reading": "juː",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-w",
+                  "text": "W",
+                  "reading": "ˈdʌbəljuː",
+                  "kind": "letter"
+                }
+              ]
+            },
+            {
+              "id": "en-A7-04",
+              "topic": "Letters that start with e-: F L M N S X",
+              "grammar": "final consonant must be heard (F vs S, M vs N, L not N)",
+              "items": [
+                {
+                  "id": "en.letter-f",
+                  "text": "F",
+                  "reading": "ɛf",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-l",
+                  "text": "L",
+                  "reading": "ɛl",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-m",
+                  "text": "M",
+                  "reading": "ɛm",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-n",
+                  "text": "N",
+                  "reading": "ɛn",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-s",
+                  "text": "S",
+                  "reading": "ɛs",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-x",
+                  "text": "X",
+                  "reading": "ɛks",
+                  "kind": "letter"
+                }
+              ]
+            },
+            {
+              "id": "en-A7-05",
+              "topic": "O, R and the whole alphabet",
+              "grammar": "R = ar (not อาร์ with a rolled r); vowels A E I O U",
+              "items": [
+                {
+                  "id": "en.letter-o",
+                  "text": "O",
+                  "reading": "oʊ",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.letter-r",
+                  "text": "R",
+                  "reading": "ɑːr",
+                  "kind": "letter"
+                },
+                {
+                  "id": "en.alphabet",
+                  "text": "alphabet",
+                  "reading": "ˈælfəbɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vowel",
+                  "text": "vowel",
+                  "reading": "ˈvaʊəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A7-06",
+              "topic": "How do you spell that?",
+              "grammar": "spelling aloud letter by letter; Again, please. to hear it once more; write vs right",
+              "items": [
+                {
+                  "id": "en.how-do-you-spell-that",
+                  "text": "How do you spell that?",
+                  "reading": "ˈhaʊ duː juː ˈspɛl ðæt?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.again-please",
+                  "text": "Again, please.",
+                  "reading": "əˈɡɛn, ˈpliːz.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.write",
+                  "text": "write",
+                  "reading": "raɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.is-it-or",
+                  "text": "Is it … or …?",
+                  "reading": "ɪz ɪt … ɔːr …?",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A8",
+          "title_th": "ของใช้ใกล้ตัว",
+          "goal_th": "ถามว่าสิ่งนี้คืออะไร ใช้ this, that, these, those และ my, your บอกว่าของอยู่ตรงไหน (in, on, under) และชมของของคนอื่นได้",
+          "scenario": "B is Emma after class, when their things are mixed up on a café table. Nam must ask what things are, say which things are hers or Emma's (my / your), find her phone (in, on, under), and say something nice about Emma's new things.",
+          "lessons": [
+            {
+              "id": "en-A8-01",
+              "topic": "What's this?",
+              "grammar": "What's this? — It's a / an …",
+              "items": [
+                {
+                  "id": "en.whats-this",
+                  "text": "What's this?",
+                  "reading": "ˈwʌts ˈðɪs?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.its-a",
+                  "text": "It's a …",
+                  "reading": "ɪts ə …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.phone",
+                  "text": "phone",
+                  "reading": "foʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.watch",
+                  "text": "watch",
+                  "reading": "wɑːtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.umbrella",
+                  "text": "umbrella",
+                  "reading": "ʌmˈbrɛlə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A8-02",
+              "topic": "Is this your hat?",
+              "grammar": "possessive adjectives my / your before a noun",
+              "items": [
+                {
+                  "id": "en.my",
+                  "text": "my",
+                  "reading": "maɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.your",
+                  "text": "your",
+                  "reading": "jʊr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.is-this-your",
+                  "text": "Is this your …?",
+                  "reading": "ɪz ˈðɪs jʊr …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.money",
+                  "text": "money",
+                  "reading": "ˈmʌni",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hat",
+                  "text": "hat",
+                  "reading": "hæt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A8-03",
+              "topic": "This, that, these, those",
+              "grammar": "this / that (one, near / far) and these / those (more than one); plural -s",
+              "items": [
+                {
+                  "id": "en.that",
+                  "text": "that",
+                  "reading": "ðæt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.these",
+                  "text": "these",
+                  "reading": "ðiːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.those",
+                  "text": "those",
+                  "reading": "ðoʊz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.what-are-these",
+                  "text": "What are these?",
+                  "reading": "ˈwʌt ər ˈðiːz?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.socks",
+                  "text": "socks",
+                  "reading": "sɑːks",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A8-04",
+              "topic": "Where's my phone?",
+              "grammar": "prepositions in / on / under + the; Where's my …? — It's on the table.",
+              "items": [
+                {
+                  "id": "en.in",
+                  "text": "in",
+                  "reading": "ɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.on",
+                  "text": "on",
+                  "reading": "ɑːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.under",
+                  "text": "under",
+                  "reading": "ˈʌndər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.table",
+                  "text": "table",
+                  "reading": "ˈteɪbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wheres-my",
+                  "text": "Where's my …?",
+                  "reading": "ˈwɛrz maɪ …?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A8-05",
+              "topic": "New and old",
+              "grammar": "be + adjective (It's new.); adjective before a noun (a new phone); I like your …",
+              "items": [
+                {
+                  "id": "en.new",
+                  "text": "new",
+                  "reading": "nuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.old",
+                  "text": "old",
+                  "reading": "oʊld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nice",
+                  "text": "nice",
+                  "reading": "naɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.i-like-your",
+                  "text": "I like your …",
+                  "reading": "aɪ ˈlaɪk jʊr …",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A8-06",
+              "topic": "What is in my bag?",
+              "grammar": "a / an + noun; I have a … (review of have)",
+              "items": [
+                {
+                  "id": "en.computer",
+                  "text": "computer",
+                  "reading": "kəmˈpjuːtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bottle",
+                  "text": "bottle",
+                  "reading": "ˈbɑːtəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tissue",
+                  "text": "tissue",
+                  "reading": "ˈtɪʃuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.photo",
+                  "text": "photo",
+                  "reading": "ˈfoʊtoʊ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A9",
+          "title_th": "ในห้องเรียน",
+          "goal_th": "เรียกชื่อของในห้องเรียน ทำตามคำสั่งของครู และถามความหมายหรือวิธีพูดคำศัพท์เป็นภาษาอังกฤษได้",
+          "scenario": "B is Mr. Brown in Nam's English class. Nam must follow simple classroom instructions, say what she needs (a pen, a ruler), ask what a word means or how to say a Thai word in English, and say when she doesn't know.",
+          "lessons": [
+            {
+              "id": "en-A9-01",
+              "topic": "Pens and pencils",
+              "grammar": "a / an + school things (an eraser); Can I have a pencil, please? (review)",
+              "items": [
+                {
+                  "id": "en.pen",
+                  "text": "pen",
+                  "reading": "pɛn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pencil",
+                  "text": "pencil",
+                  "reading": "ˈpɛnsəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.eraser",
+                  "text": "eraser",
+                  "reading": "ɪˈreɪsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ruler",
+                  "text": "ruler",
+                  "reading": "ˈruːlər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.notebook",
+                  "text": "notebook",
+                  "reading": "ˈnoʊtbʊk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A9-02",
+              "topic": "Books, desks and chairs",
+              "grammar": "This is my desk. / My book is on the desk. (review of in / on)",
+              "items": [
+                {
+                  "id": "en.school",
+                  "text": "school",
+                  "reading": "skuːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.class",
+                  "text": "class",
+                  "reading": "klæs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.book",
+                  "text": "book",
+                  "reading": "bʊk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.desk",
+                  "text": "desk",
+                  "reading": "dɛsk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chair",
+                  "text": "chair",
+                  "reading": "tʃɛr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A9-03",
+              "topic": "Listen and repeat",
+              "grammar": "imperatives as fixed classroom phrases (no subject, verb first)",
+              "items": [
+                {
+                  "id": "en.listen-and-repeat",
+                  "text": "Listen and repeat.",
+                  "reading": "ˈlɪsən ənd rɪˈpiːt.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.look-at-the-board",
+                  "text": "Look at the board.",
+                  "reading": "ˈlʊk ət ðə ˈbɔːrd.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.open-your-book",
+                  "text": "Open your book.",
+                  "reading": "ˈoʊpən jʊr ˈbʊk.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.close-your-book",
+                  "text": "Close your book.",
+                  "reading": "ˈkloʊz jʊr ˈbʊk.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A9-04",
+              "topic": "Sit down, stand up",
+              "grammar": "imperatives + please (polite); come vs go",
+              "items": [
+                {
+                  "id": "en.sit-down",
+                  "text": "Sit down.",
+                  "reading": "ˈsɪt ˈdaʊn.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.stand-up",
+                  "text": "Stand up.",
+                  "reading": "ˈstænd ˈʌp.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.come-here",
+                  "text": "Come here.",
+                  "reading": "ˈkʌm ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.write-your-name",
+                  "text": "Write your name.",
+                  "reading": "ˈraɪt jʊr ˈneɪm.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A9-05",
+              "topic": "What does it mean?",
+              "grammar": "What does … mean? / How do you say … in English? as fixed questions",
+              "items": [
+                {
+                  "id": "en.what-does-mean",
+                  "text": "What does … mean?",
+                  "reading": "ˈwʌt dʌz … ˈmiːn?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.how-do-you-say-in-english",
+                  "text": "How do you say … in English?",
+                  "reading": "ˈhaʊ duː juː ˈseɪ … ɪn ˈɪŋɡlɪʃ?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.word",
+                  "text": "word",
+                  "reading": "wɜːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.i-dont-know",
+                  "text": "I don't know.",
+                  "reading": "aɪ ˈdoʊnt ˈnoʊ.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A9-06",
+              "topic": "Questions and answers",
+              "grammar": "It's easy. / It's difficult.; page + number (page ten)",
+              "items": [
+                {
+                  "id": "en.question",
+                  "text": "question",
+                  "reading": "ˈkwɛstʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.answer",
+                  "text": "answer",
+                  "reading": "ˈænsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.page",
+                  "text": "page",
+                  "reading": "peɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.easy",
+                  "text": "easy",
+                  "reading": "ˈiːzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.difficult",
+                  "text": "difficult",
+                  "reading": "ˈdɪfɪkəlt",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A10",
+          "title_th": "ประเทศและภาษา",
+          "goal_th": "บอกชื่อประเทศ สัญชาติ และภาษาของเพื่อนจากประเทศต่าง ๆ และถามว่าพูดภาษาอะไรได้บ้าง",
+          "scenario": "B is a student at an international students' party at Nam's university, with guests from Japan, Korea, Vietnam and other countries. Nam must ask where people are from, say their nationality, and ask which languages they speak.",
+          "lessons": [
+            {
+              "id": "en-A10-01",
+              "topic": "Japan and Korea",
+              "grammar": "country vs nationality / language (Japan → Japanese); capital letters",
+              "items": [
+                {
+                  "id": "en.japan",
+                  "text": "Japan",
+                  "reading": "dʒəˈpæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.japanese",
+                  "text": "Japanese",
+                  "reading": "ˌdʒæpəˈniːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.korea",
+                  "text": "Korea",
+                  "reading": "kəˈriːə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.korean",
+                  "text": "Korean",
+                  "reading": "kəˈriːən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.country",
+                  "text": "country",
+                  "reading": "ˈkʌntri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A10-02",
+              "topic": "China and Vietnam",
+              "grammar": "He's Chinese. / She's from Vietnam.; -ese endings are stressed",
+              "items": [
+                {
+                  "id": "en.china",
+                  "text": "China",
+                  "reading": "ˈtʃaɪnə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chinese",
+                  "text": "Chinese",
+                  "reading": "ˌtʃaɪˈniːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vietnam",
+                  "text": "Vietnam",
+                  "reading": "ˌviːɛtˈnɑːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vietnamese",
+                  "text": "Vietnamese",
+                  "reading": "viˌɛtnəˈmiːz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A10-03",
+              "topic": "Our neighbors",
+              "grammar": "Where is …? — It's near Thailand. (review); English names of neighboring countries",
+              "items": [
+                {
+                  "id": "en.laos",
+                  "text": "Laos",
+                  "reading": "laʊs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cambodia",
+                  "text": "Cambodia",
+                  "reading": "kæmˈboʊdiə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.myanmar",
+                  "text": "Myanmar",
+                  "reading": "ˈmjɑːnmɑːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.malaysia",
+                  "text": "Malaysia",
+                  "reading": "məˈleɪʒə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.singapore",
+                  "text": "Singapore",
+                  "reading": "ˈsɪŋəpɔːr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A10-04",
+              "topic": "More of Asia",
+              "grammar": "the + plural country name (the Philippines)",
+              "items": [
+                {
+                  "id": "en.indonesia",
+                  "text": "Indonesia",
+                  "reading": "ˌɪndəˈniːʒə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.the-philippines",
+                  "text": "the Philippines",
+                  "reading": "ðə ˈfɪlɪpiːnz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.india",
+                  "text": "India",
+                  "reading": "ˈɪndiə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.asia",
+                  "text": "Asia",
+                  "reading": "ˈeɪʒə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A10-05",
+              "topic": "America and England",
+              "grammar": "American / British; nationality adjectives with be",
+              "items": [
+                {
+                  "id": "en.america",
+                  "text": "America",
+                  "reading": "əˈmɛrɪkə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.american",
+                  "text": "American",
+                  "reading": "əˈmɛrɪkən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.england",
+                  "text": "England",
+                  "reading": "ˈɪŋɡlənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.british",
+                  "text": "British",
+                  "reading": "ˈbrɪtɪʃ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A10-06",
+              "topic": "What languages do you speak?",
+              "grammar": "Do you speak …? — Yes, I do. / A little.; speak + language (no the)",
+              "items": [
+                {
+                  "id": "en.language",
+                  "text": "language",
+                  "reading": "ˈlæŋɡwɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.do-you-speak",
+                  "text": "Do you speak …?",
+                  "reading": "duː juː ˈspiːk …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.well",
+                  "text": "well",
+                  "reading": "wɛl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.french",
+                  "text": "French",
+                  "reading": "frɛntʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spanish",
+                  "text": "Spanish",
+                  "reading": "ˈspænɪʃ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A11",
+          "title_th": "ร่างกายและหน้าตา",
+          "goal_th": "เรียกชื่อส่วนต่าง ๆ ของร่างกาย และบอกรูปร่างหน้าตาของคนอื่นแบบง่าย ๆ (สูง ผมยาว ผมสีเข้ม) ได้",
+          "scenario": "B is Emma, who is going to meet Nam's cousin at the airport but has never seen him. Nam must describe him simply (a tall man, short dark hair, young, handsome) and answer Emma's questions about how he looks.",
+          "lessons": [
+            {
+              "id": "en-A11-01",
+              "topic": "My face",
+              "grammar": "my / your + body part; eyes and ears take plural -s",
+              "items": [
+                {
+                  "id": "en.face",
+                  "text": "face",
+                  "reading": "feɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nose",
+                  "text": "nose",
+                  "reading": "noʊz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ear",
+                  "text": "ear",
+                  "reading": "ɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lips",
+                  "text": "lips",
+                  "reading": "lɪps",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A11-02",
+              "topic": "Head and hands",
+              "grammar": "one hand, two hands; ten fingers",
+              "items": [
+                {
+                  "id": "en.head",
+                  "text": "head",
+                  "reading": "hɛd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.body",
+                  "text": "body",
+                  "reading": "ˈbɑːdi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.neck",
+                  "text": "neck",
+                  "reading": "nɛk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hand",
+                  "text": "hand",
+                  "reading": "hænd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.finger",
+                  "text": "finger",
+                  "reading": "ˈfɪŋɡər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A11-03",
+              "topic": "Feet and teeth",
+              "grammar": "irregular plurals foot → feet, tooth → teeth",
+              "items": [
+                {
+                  "id": "en.foot",
+                  "text": "foot",
+                  "reading": "fʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.feet",
+                  "text": "feet",
+                  "reading": "fiːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tooth",
+                  "text": "tooth",
+                  "reading": "tuːθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.teeth",
+                  "text": "teeth",
+                  "reading": "tiːθ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A11-04",
+              "topic": "Man, woman, boy, girl",
+              "grammar": "irregular plurals man → men, woman → women (form only); a person / two people",
+              "items": [
+                {
+                  "id": "en.man",
+                  "text": "man",
+                  "reading": "mæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.woman",
+                  "text": "woman",
+                  "reading": "ˈwʊmən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.boy",
+                  "text": "boy",
+                  "reading": "bɔɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.girl",
+                  "text": "girl",
+                  "reading": "ɡɜːrl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.person",
+                  "text": "person",
+                  "reading": "ˈpɜːrsən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A11-05",
+              "topic": "Tall and handsome",
+              "grammar": "He's tall. / She's beautiful. (be + adjective); very + adjective",
+              "items": [
+                {
+                  "id": "en.tall",
+                  "text": "tall",
+                  "reading": "tɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.short",
+                  "text": "short",
+                  "reading": "ʃɔːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.handsome",
+                  "text": "handsome",
+                  "reading": "ˈhænsəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.beautiful",
+                  "text": "beautiful",
+                  "reading": "ˈbjuːtəfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pretty",
+                  "text": "pretty",
+                  "reading": "ˈprɪti",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A11-06",
+              "topic": "Long hair, short hair",
+              "grammar": "have / has (She has long dark hair.); adjective order length + color",
+              "items": [
+                {
+                  "id": "en.hair",
+                  "text": "hair",
+                  "reading": "hɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.has",
+                  "text": "has",
+                  "reading": "hæz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.blond",
+                  "text": "blond",
+                  "reading": "blɑːnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dark",
+                  "text": "dark",
+                  "reading": "dɑːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.straight",
+                  "text": "straight",
+                  "reading": "streɪt",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A12",
+          "title_th": "สัตว์",
+          "goal_th": "เรียกชื่อสัตว์ที่พบบ่อย บอกว่ามีสัตว์เลี้ยงไหมและเป็นอย่างไร และบอกว่าชอบสัตว์อะไรได้",
+          "scenario": "B is Emma at a pet café in Bangkok. Nam must say which animals she likes, say whether she has a pet, and describe it simply (its name, age, color, big or small, cute).",
+          "lessons": [
+            {
+              "id": "en-A12-01",
+              "topic": "Pets",
+              "grammar": "a / an + animal; plural -s (two cats); I like dogs. (plural for things you like)",
+              "items": [
+                {
+                  "id": "en.animal",
+                  "text": "animal",
+                  "reading": "ˈænɪməl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pet",
+                  "text": "pet",
+                  "reading": "pɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dog",
+                  "text": "dog",
+                  "reading": "dɔːɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cat",
+                  "text": "cat",
+                  "reading": "kæt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rabbit",
+                  "text": "rabbit",
+                  "reading": "ˈræbɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A12-02",
+              "topic": "Farm animals",
+              "grammar": "plural -s review; chicken (animal) vs chicken (food)",
+              "items": [
+                {
+                  "id": "en.cow",
+                  "text": "cow",
+                  "reading": "kaʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pig",
+                  "text": "pig",
+                  "reading": "pɪɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.duck",
+                  "text": "duck",
+                  "reading": "dʌk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.goat",
+                  "text": "goat",
+                  "reading": "ɡoʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.horse",
+                  "text": "horse",
+                  "reading": "hɔːrs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A12-03",
+              "topic": "Big animals",
+              "grammar": "It's big. / They're big. (it / they)",
+              "items": [
+                {
+                  "id": "en.lion",
+                  "text": "lion",
+                  "reading": "ˈlaɪən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bear",
+                  "text": "bear",
+                  "reading": "bɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.giraffe",
+                  "text": "giraffe",
+                  "reading": "dʒəˈræf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.zebra",
+                  "text": "zebra",
+                  "reading": "ˈziːbrə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.panda",
+                  "text": "panda",
+                  "reading": "ˈpændə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A12-04",
+              "topic": "In the water",
+              "grammar": "Is it a fish? — No, it isn't. (short answers)",
+              "items": [
+                {
+                  "id": "en.shark",
+                  "text": "shark",
+                  "reading": "ʃɑːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dolphin",
+                  "text": "dolphin",
+                  "reading": "ˈdɑːlfɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.crocodile",
+                  "text": "crocodile",
+                  "reading": "ˈkrɑːkədaɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.penguin",
+                  "text": "penguin",
+                  "reading": "ˈpɛŋɡwɪn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A12-05",
+              "topic": "Small animals",
+              "grammar": "small / very small; I don't like … (review)",
+              "items": [
+                {
+                  "id": "en.ant",
+                  "text": "ant",
+                  "reading": "ænt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bee",
+                  "text": "bee",
+                  "reading": "biː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fly",
+                  "text": "fly",
+                  "reading": "flaɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.butterfly",
+                  "text": "butterfly",
+                  "reading": "ˈbʌtərflaɪ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A12-06",
+              "topic": "My pet",
+              "grammar": "Do you have a …? — Yes, I do. / No, I don't.; its (possessive) vs it's",
+              "items": [
+                {
+                  "id": "en.do-you-have-a",
+                  "text": "Do you have a …?",
+                  "reading": "duː juː ˈhæv ə …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.its",
+                  "text": "its",
+                  "reading": "ɪts",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cute",
+                  "text": "cute",
+                  "reading": "kjuːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.puppy",
+                  "text": "puppy",
+                  "reading": "ˈpʌpi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kitten",
+                  "text": "kitten",
+                  "reading": "ˈkɪtən",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A13",
+          "title_th": "ผลไม้ ขนม และของที่ชอบ",
+          "goal_th": "เรียกชื่อผลไม้และขนม บอกรสชาติ บอกว่าชอบ ไม่ชอบ หรือชอบที่สุด และถามความชอบของคนอื่นได้",
+          "scenario": "B is Emma at a fruit stall in a Bangkok market; she has never tried many Thai fruits. Nam must name the fruits, say which ones she loves or doesn't like and how they taste, and ask Emma about her favorite fruit and sweets.",
+          "lessons": [
+            {
+              "id": "en-A13-01",
+              "topic": "Fruit",
+              "grammar": "a / an + fruit (an apple, an orange); orange is also a color",
+              "items": [
+                {
+                  "id": "en.fruit",
+                  "text": "fruit",
+                  "reading": "fruːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.banana",
+                  "text": "banana",
+                  "reading": "bəˈnænə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.apple",
+                  "text": "apple",
+                  "reading": "ˈæpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.mango",
+                  "text": "mango",
+                  "reading": "ˈmæŋɡoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.orange",
+                  "text": "orange",
+                  "reading": "ˈɔːrɪndʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-02",
+              "topic": "Thai fruits",
+              "grammar": "English names of Thai fruits; durian has no Thai-style tone",
+              "items": [
+                {
+                  "id": "en.durian",
+                  "text": "durian",
+                  "reading": "ˈdʊriən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pineapple",
+                  "text": "pineapple",
+                  "reading": "ˈpaɪnæpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.watermelon",
+                  "text": "watermelon",
+                  "reading": "ˈwɔːtərmɛlən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.papaya",
+                  "text": "papaya",
+                  "reading": "pəˈpaɪə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.coconut",
+                  "text": "coconut",
+                  "reading": "ˈkoʊkənʌt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-03",
+              "topic": "I love it! / I don't like it.",
+              "grammar": "like / love / don't like + plural noun (I love mangoes.); Do you like …? — Yes, I do.",
+              "items": [
+                {
+                  "id": "en.love",
+                  "text": "love",
+                  "reading": "lʌv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.do-you-like",
+                  "text": "Do you like …?",
+                  "reading": "duː juː ˈlaɪk …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-dont-like",
+                  "text": "I don't like …",
+                  "reading": "aɪ ˈdoʊnt ˈlaɪk …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.me-neither",
+                  "text": "Me neither.",
+                  "reading": "ˈmiː ˈniːðər.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-04",
+              "topic": "My favorite",
+              "grammar": "my favorite + noun; What's your favorite …?",
+              "items": [
+                {
+                  "id": "en.favorite",
+                  "text": "favorite",
+                  "reading": "ˈfeɪvərɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whats-your-favorite",
+                  "text": "What's your favorite …?",
+                  "reading": "ˈwʌts jʊr ˈfeɪvərɪt …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.grapes",
+                  "text": "grapes",
+                  "reading": "ɡreɪps",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.strawberry",
+                  "text": "strawberry",
+                  "reading": "ˈstrɔːbɛri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-05",
+              "topic": "Ice cream and cake",
+              "grammar": "uncountable sweets (ice cream, chocolate) vs a cookie",
+              "items": [
+                {
+                  "id": "en.ice-cream",
+                  "text": "ice cream",
+                  "reading": "ˈaɪs ˌkriːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cake",
+                  "text": "cake",
+                  "reading": "keɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chocolate",
+                  "text": "chocolate",
+                  "reading": "ˈtʃɔːklət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cookie",
+                  "text": "cookie",
+                  "reading": "ˈkʊki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-06",
+              "topic": "Sweet, sour or salty?",
+              "grammar": "It's sour. / It's too salty.; taste words after be",
+              "items": [
+                {
+                  "id": "en.sour",
+                  "text": "sour",
+                  "reading": "ˈsaʊər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.salty",
+                  "text": "salty",
+                  "reading": "ˈsɔːlti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bitter",
+                  "text": "bitter",
+                  "reading": "ˈbɪtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fresh",
+                  "text": "fresh",
+                  "reading": "frɛʃ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A14",
+          "title_th": "เพลง หนัง และเวลาว่าง",
+          "goal_th": "พูดถึงเพลง หนัง เกม และกีฬาที่ชอบ บอกความเห็นง่าย ๆ (สนุก น่าสนใจ เฉย ๆ) และชวนเพื่อนไปเที่ยวด้วยกันได้",
+          "scenario": "B is Emma on a free afternoon. Nam must say what music, movies, games and sports she likes, give a short opinion (fun, interesting, so-so), and suggest doing something together.",
+          "lessons": [
+            {
+              "id": "en-A14-01",
+              "topic": "Music and songs",
+              "grammar": "I like music. / I sing. (present simple with I / you)",
+              "items": [
+                {
+                  "id": "en.music",
+                  "text": "music",
+                  "reading": "ˈmjuːzɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.song",
+                  "text": "song",
+                  "reading": "sɔːŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sing",
+                  "text": "sing",
+                  "reading": "sɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dance",
+                  "text": "dance",
+                  "reading": "dæns",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A14-02",
+              "topic": "Movies and TV",
+              "grammar": "Do you like Thai movies? — Yes, I do.",
+              "items": [
+                {
+                  "id": "en.movie",
+                  "text": "movie",
+                  "reading": "ˈmuːvi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tv-show",
+                  "text": "TV show",
+                  "reading": "ˌtiːˈviː ˌʃoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.anime",
+                  "text": "anime",
+                  "reading": "ˈænɪmeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.actor",
+                  "text": "actor",
+                  "reading": "ˈæktər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A14-03",
+              "topic": "Games and sports",
+              "grammar": "play + game / sport (no the): play basketball",
+              "items": [
+                {
+                  "id": "en.game",
+                  "text": "game",
+                  "reading": "ɡeɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.play",
+                  "text": "play",
+                  "reading": "pleɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sport",
+                  "text": "sport",
+                  "reading": "spɔːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.basketball",
+                  "text": "basketball",
+                  "reading": "ˈbæskɪtbɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.volleyball",
+                  "text": "volleyball",
+                  "reading": "ˈvɑːlibɔːl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A14-04",
+              "topic": "Fun or so-so?",
+              "grammar": "It's fun. / It's interesting. (opinions with be)",
+              "items": [
+                {
+                  "id": "en.fun",
+                  "text": "fun",
+                  "reading": "fʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.interesting",
+                  "text": "interesting",
+                  "reading": "ˈɪntrəstɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.great",
+                  "text": "great",
+                  "reading": "ɡreɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.so-so",
+                  "text": "so-so",
+                  "reading": "ˈsoʊsoʊ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A14-05",
+              "topic": "Reading and listening",
+              "grammar": "read + a book / comics; listen to + music (to is needed)",
+              "items": [
+                {
+                  "id": "en.read",
+                  "text": "read",
+                  "reading": "riːd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.comic-book",
+                  "text": "comic book",
+                  "reading": "ˈkɑːmɪk ˌbʊk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.magazine",
+                  "text": "magazine",
+                  "reading": "ˌmæɡəˈziːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.listen-to-music",
+                  "text": "listen to music",
+                  "reading": "ˈlɪsən tə ˈmjuːzɪk",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-A14-06",
+              "topic": "Let's go together!",
+              "grammar": "Let's + verb for suggestions; together at the end",
+              "items": [
+                {
+                  "id": "en.hang-out",
+                  "text": "hang out",
+                  "reading": "ˈhæŋ ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.together",
+                  "text": "together",
+                  "reading": "təˈɡɛðər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.go-shopping",
+                  "text": "go shopping",
+                  "reading": "ˈɡoʊ ˈʃɑːpɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.lets",
+                  "text": "Let's …",
+                  "reading": "ˈlɛts …",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A15",
+          "title_th": "บอกลักษณะสิ่งของ",
+          "goal_th": "บอกลักษณะของสิ่งของด้วยคำคุณศัพท์คู่ตรงข้าม (ดี/แย่ สะอาด/สกปรก เร็ว/ช้า เหมือน/ต่าง) และให้ความเห็นง่าย ๆ ด้วย I think ได้",
+          "scenario": "B is Emma shopping for a used bike and other things at a weekend market. Nam must describe the things they see (good or bad, clean or dirty, fast or slow, the same or different, real or not) and give her opinion with I think.",
+          "lessons": [
+            {
+              "id": "en-A15-01",
+              "topic": "Good or bad?",
+              "grammar": "be + adjective; very / not very",
+              "items": [
+                {
+                  "id": "en.good",
+                  "text": "good",
+                  "reading": "ɡʊd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bad",
+                  "text": "bad",
+                  "reading": "bæd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.terrible",
+                  "text": "terrible",
+                  "reading": "ˈtɛrəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.perfect",
+                  "text": "perfect",
+                  "reading": "ˈpɜːrfɪkt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A15-02",
+              "topic": "Clean or dirty?",
+              "grammar": "Is it clean? — Yes, it is. / No, it isn't.",
+              "items": [
+                {
+                  "id": "en.clean",
+                  "text": "clean",
+                  "reading": "kliːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dirty",
+                  "text": "dirty",
+                  "reading": "ˈdɜːrti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.empty",
+                  "text": "empty",
+                  "reading": "ˈɛmpti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ugly",
+                  "text": "ugly",
+                  "reading": "ˈʌɡli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A15-03",
+              "topic": "Fast or slow?",
+              "grammar": "adjective before a noun (a fast bike); opposites",
+              "items": [
+                {
+                  "id": "en.fast",
+                  "text": "fast",
+                  "reading": "fæst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.slow",
+                  "text": "slow",
+                  "reading": "sloʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hard",
+                  "text": "hard",
+                  "reading": "hɑːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.soft",
+                  "text": "soft",
+                  "reading": "sɔːft",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A15-04",
+              "topic": "The same or different?",
+              "grammar": "the same (with the); They're different.",
+              "items": [
+                {
+                  "id": "en.same",
+                  "text": "same",
+                  "reading": "seɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.different",
+                  "text": "different",
+                  "reading": "ˈdɪfərənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.real",
+                  "text": "real",
+                  "reading": "ˈriːəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.used",
+                  "text": "used",
+                  "reading": "juːzd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A15-05",
+              "topic": "Too big!",
+              "grammar": "too + adjective (a problem) vs very + adjective; It's really nice.",
+              "items": [
+                {
+                  "id": "en.too",
+                  "text": "too",
+                  "reading": "tuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.really",
+                  "text": "really",
+                  "reading": "ˈriːli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.round",
+                  "text": "round",
+                  "reading": "raʊnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.thick",
+                  "text": "thick",
+                  "reading": "θɪk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A15-06",
+              "topic": "What's it like? I think …",
+              "grammar": "What's it like? asks for a description; I think + sentence; I think so.",
+              "items": [
+                {
+                  "id": "en.whats-it-like",
+                  "text": "What's it like?",
+                  "reading": "ˈwʌts ɪt ˈlaɪk?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-think",
+                  "text": "I think …",
+                  "reading": "aɪ ˈθɪŋk …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-think-so",
+                  "text": "I think so.",
+                  "reading": "aɪ ˈθɪŋk ˈsoʊ.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.maybe",
+                  "text": "maybe",
+                  "reading": "ˈmeɪbi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A16",
+          "title_th": "ทำงานอะไร",
+          "goal_th": "ถามและบอกอาชีพของตัวเองและคนอื่น และบอกว่าทำงานที่ไหนแบบง่าย ๆ ได้",
+          "scenario": "B is a friendly taxi driver chatting with Nam on the way home. Nam must say that she is a student and her parents are teachers, ask what the driver does and what his family members do, and ask where they work.",
+          "lessons": [
+            {
+              "id": "en-A16-01",
+              "topic": "What do you do?",
+              "grammar": "What do you do? = what is your job; a / an + job (a doctor, an engineer)",
+              "items": [
+                {
+                  "id": "en.job",
+                  "text": "job",
+                  "reading": "dʒɑːb",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.what-do-you-do",
+                  "text": "What do you do?",
+                  "reading": "ˈwʌt duː juː ˈduː?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.doctor",
+                  "text": "doctor",
+                  "reading": "ˈdɑːktər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nurse",
+                  "text": "nurse",
+                  "reading": "nɜːrs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A16-02",
+              "topic": "Drivers and farmers",
+              "grammar": "He's a police officer. / She's an engineer. (a vs an)",
+              "items": [
+                {
+                  "id": "en.police-officer",
+                  "text": "police officer",
+                  "reading": "pəˈliːs ˌɔːfɪsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.driver",
+                  "text": "driver",
+                  "reading": "ˈdraɪvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.farmer",
+                  "text": "farmer",
+                  "reading": "ˈfɑːrmər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.engineer",
+                  "text": "engineer",
+                  "reading": "ˌɛndʒɪˈnɪr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A16-03",
+              "topic": "In an office",
+              "grammar": "work in an office; -man / -woman job words",
+              "items": [
+                {
+                  "id": "en.office",
+                  "text": "office",
+                  "reading": "ˈɔːfɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.businessman",
+                  "text": "businessman",
+                  "reading": "ˈbɪznəsmæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.businesswoman",
+                  "text": "businesswoman",
+                  "reading": "ˈbɪznəswʊmən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.civil-servant",
+                  "text": "civil servant",
+                  "reading": "ˌsɪvəl ˈsɜːrvənt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A16-04",
+              "topic": "Waiters and cleaners",
+              "grammar": "waiter / waitress; job words ending in -er",
+              "items": [
+                {
+                  "id": "en.waiter",
+                  "text": "waiter",
+                  "reading": "ˈweɪtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.waitress",
+                  "text": "waitress",
+                  "reading": "ˈweɪtrəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cleaner",
+                  "text": "cleaner",
+                  "reading": "ˈkliːnər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.security-guard",
+                  "text": "security guard",
+                  "reading": "sɪˈkjʊrəti ˌɡɑːrd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A16-05",
+              "topic": "Where do you work?",
+              "grammar": "Where do you work? — I work at a hospital.; he / she + verb-s (sells) as a chunk",
+              "items": [
+                {
+                  "id": "en.where-do-you-work",
+                  "text": "Where do you work?",
+                  "reading": "ˈwɛr duː juː ˈwɜːrk?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.shop",
+                  "text": "shop",
+                  "reading": "ʃɑːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sell",
+                  "text": "sell",
+                  "reading": "sɛl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.soldier",
+                  "text": "soldier",
+                  "reading": "ˈsoʊldʒər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A16-06",
+              "topic": "Busy at work",
+              "grammar": "I'm busy. / He's retired. (be + adjective about work)",
+              "items": [
+                {
+                  "id": "en.mechanic",
+                  "text": "mechanic",
+                  "reading": "məˈkænɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.writer",
+                  "text": "writer",
+                  "reading": "ˈraɪtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.retired",
+                  "text": "retired",
+                  "reading": "rɪˈtaɪərd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.busy",
+                  "text": "busy",
+                  "reading": "ˈbɪzi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "exam": "CEFR A1",
+      "minutes": 7,
+      "readerMinutes": 8,
+      "units": [
+        {
+          "id": "en-B1",
+          "title_th": "วัน เดือน และเวลา",
+          "goal_th": "บอกวันในสัปดาห์ เดือน วันที่ และเวลา (ตรง ครึ่ง สิบห้านาที a.m./p.m.) และนัดวันเวลากับเพื่อนได้",
+          "scenario": "B is Emma planning to meet Nam for a movie. Nam must say what day and date it is, tell the time with half past, quarter past / to and a.m. / p.m., and agree on a day, a date and a time.",
+          "lessons": [
+            {
+              "id": "en-B1-05",
+              "topic": "Half past and quarter to",
+              "grammar": "It's half past seven. / It's a quarter to nine. / It's eight fifteen (digital style); a.m. / p.m.",
+              "items": [
+                {
+                  "id": "en.half-past",
+                  "text": "half past",
+                  "reading": "ˈhæf ˈpæst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.quarter-past",
+                  "text": "quarter past",
+                  "reading": "ˈkwɔːrtər ˈpæst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.quarter-to",
+                  "text": "quarter to",
+                  "reading": "ˈkwɔːrtər tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.am",
+                  "text": "a.m.",
+                  "reading": "ˌeɪˈɛm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pm",
+                  "text": "p.m.",
+                  "reading": "ˌpiːˈɛm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.noon",
+                  "text": "noon",
+                  "reading": "nuːn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B1-06",
+              "topic": "What's the date today?",
+              "grammar": "ordinal numbers 1st–5th (and the -th pattern: sixth, twentieth); saying dates: June fifth / on June 5th",
+              "items": [
+                {
+                  "id": "en.first",
+                  "text": "first",
+                  "reading": "fɜːrst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.second",
+                  "text": "second",
+                  "reading": "ˈsɛkənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.third",
+                  "text": "third",
+                  "reading": "θɜːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fourth",
+                  "text": "fourth",
+                  "reading": "fɔːrθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fifth",
+                  "text": "fifth",
+                  "reading": "fɪfθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whats-the-date-today",
+                  "text": "What's the date today?",
+                  "reading": "ˈwʌts ðə ˈdeɪt təˈdeɪ?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B1-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Notice on the classroom door: English class times for the week — class starts at half past eight on Monday and at a quarter past one on Wednesday, no class on Friday (a holiday), and the next class is on Monday the 9th",
+              "items": [
+                {
+                  "id": "en.week",
+                  "text": "week",
+                  "reading": "wiːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.start",
+                  "text": "start",
+                  "reading": "stɑːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.next",
+                  "text": "next",
+                  "reading": "nɛkst",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B2",
+          "title_th": "ซื้อของและราคา",
+          "goal_th": "ถามราคา (ถึงหลักพัน) บอกสีและขนาดที่ต้องการ ขอลองเสื้อ จ่ายเงินสดหรือบัตร และตัดสินใจซื้อของได้",
+          "scenario": "B is a shop assistant at a clothes shop in a Bangkok mall. Nam must ask about prices and colors, ask to try something on, understand prices in the thousands, and pay by card.",
+          "lessons": [
+            {
+              "id": "en-B2-05",
+              "topic": "Pink, purple, brown and gray",
+              "grammar": "color + noun (a pink T-shirt); Do you have it in gray?; Can I try it on?",
+              "items": [
+                {
+                  "id": "en.pink",
+                  "text": "pink",
+                  "reading": "pɪŋk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.purple",
+                  "text": "purple",
+                  "reading": "ˈpɜːrpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.brown",
+                  "text": "brown",
+                  "reading": "braʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gray",
+                  "text": "gray",
+                  "reading": "ɡreɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.can-i-try-it-on",
+                  "text": "Can I try it on?",
+                  "reading": "kən aɪ ˈtraɪ ɪt ˈɑːn?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B2-06",
+              "topic": "Bigger prices",
+              "grammar": "tens 60–90 (-ty stressed first); one thousand two hundred; Can I pay by card?",
+              "items": [
+                {
+                  "id": "en.sixty",
+                  "text": "sixty",
+                  "reading": "ˈsɪksti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.seventy",
+                  "text": "seventy",
+                  "reading": "ˈsɛvənti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.eighty",
+                  "text": "eighty",
+                  "reading": "ˈeɪti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ninety",
+                  "text": "ninety",
+                  "reading": "ˈnaɪnti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.thousand",
+                  "text": "thousand",
+                  "reading": "ˈθaʊzənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.can-i-pay-by-card",
+                  "text": "Can I pay by card?",
+                  "reading": "kən aɪ ˈpeɪ baɪ ˈkɑːrd?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B2-r01",
+              "kind": "reader",
+              "genre": "sign",
+              "topic": "Sign in a shop window: big weekend sale — T-shirts 199 baht, dresses half price, 100 baht off all bags, buy two and get one free",
+              "items": [
+                {
+                  "id": "en.sale",
+                  "text": "sale",
+                  "reading": "seɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.buy",
+                  "text": "buy",
+                  "reading": "baɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.free",
+                  "text": "free",
+                  "reading": "friː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.off",
+                  "text": "off",
+                  "reading": "ɔːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.half-price",
+                  "text": "half price",
+                  "reading": "ˌhæf ˈpraɪs",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B3",
+          "title_th": "สถานที่และการถามทาง",
+          "goal_th": "ถามว่าสถานที่อยู่ที่ไหน บอกตำแหน่ง ถามทางไปที่ต่าง ๆ และบอกทางง่าย ๆ (ข้ามถนน ไฟแดง ช่วงตึก) ได้",
+          "scenario": "B is a passer-by near a BTS station. Nam must ask where places are (the post office, a pharmacy, a temple), understand directions with streets, blocks and traffic lights, and repeat them back to check.",
+          "lessons": [
+            {
+              "id": "en-B3-05",
+              "topic": "More places in town",
+              "grammar": "Is there a … near here? (review) with new places; a / an",
+              "items": [
+                {
+                  "id": "en.post-office",
+                  "text": "post office",
+                  "reading": "ˈpoʊst ˌɔːfɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.market",
+                  "text": "market",
+                  "reading": "ˈmɑːrkɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.temple",
+                  "text": "temple",
+                  "reading": "ˈtɛmpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.museum",
+                  "text": "museum",
+                  "reading": "mjuˈziːəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pharmacy",
+                  "text": "pharmacy",
+                  "reading": "ˈfɑːrməsi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B3-06",
+              "topic": "How do I get to …?",
+              "grammar": "imperatives for directions: Cross the street. Go two blocks. Turn left at the traffic light.",
+              "items": [
+                {
+                  "id": "en.how-do-i-get-to",
+                  "text": "How do I get to …?",
+                  "reading": "ˈhaʊ duː aɪ ˈɡɛt tə …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.street",
+                  "text": "street",
+                  "reading": "striːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.traffic-light",
+                  "text": "traffic light",
+                  "reading": "ˈtræfɪk ˌlaɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.block",
+                  "text": "block",
+                  "reading": "blɑːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.map",
+                  "text": "map",
+                  "reading": "mæp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cross",
+                  "text": "cross",
+                  "reading": "krɔːs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B3-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Emma's message to Nam: how to get from the station to her place — walk past the market, cross at the traffic light, go two blocks; her building is next to the post office",
+              "items": [
+                {
+                  "id": "en.building",
+                  "text": "building",
+                  "reading": "ˈbɪldɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.place",
+                  "text": "place",
+                  "reading": "pleɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.past",
+                  "text": "past",
+                  "reading": "pæst",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B4",
+          "title_th": "กิจวัตรประจำวัน",
+          "goal_th": "เล่ากิจวัตรประจำวันพร้อมเวลา บอกว่าทำบ่อยแค่ไหน และเล่ากิจวัตรของคนอื่น (he / she + -s, doesn't) ได้",
+          "scenario": "B is Emma, who is writing about Thai students' days for a class project. Nam must describe her routine from waking up to going to bed, say how often she does things, and describe her sister Fah's school day (she gets up…, she doesn't…).",
+          "lessons": [
+            {
+              "id": "en-B4-05",
+              "topic": "Getting ready in the morning",
+              "grammar": "present simple routine verbs; wake up vs get up",
+              "items": [
+                {
+                  "id": "en.wake-up",
+                  "text": "wake up",
+                  "reading": "ˈweɪk ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.brush-my-teeth",
+                  "text": "brush my teeth",
+                  "reading": "ˈbrʌʃ maɪ ˈtiːθ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.wash-my-face",
+                  "text": "wash my face",
+                  "reading": "ˈwɑːʃ maɪ ˈfeɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.get-dressed",
+                  "text": "get dressed",
+                  "reading": "ˈɡɛt ˈdrɛst",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B4-06",
+              "topic": "Early or late? Weekdays and weekends",
+              "grammar": "he / she + -s and doesn't + verb (She doesn't get up early on Sunday.); often with always / usually / sometimes / never",
+              "items": [
+                {
+                  "id": "en.weekday",
+                  "text": "weekday",
+                  "reading": "ˈwiːkdeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.early",
+                  "text": "early",
+                  "reading": "ˈɜːrli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.late",
+                  "text": "late",
+                  "reading": "leɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.often",
+                  "text": "often",
+                  "reading": "ˈɔːfən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B4-r01",
+              "kind": "reader",
+              "genre": "short story",
+              "topic": "Short story: Mr. Brown's Monday — he gets up at half past five, takes the bus, teaches two lessons in the morning, has lunch with students and goes home at six",
+              "items": [
+                {
+                  "id": "en.teach",
+                  "text": "teach",
+                  "reading": "tiːtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.after",
+                  "text": "after",
+                  "reading": "ˈæftər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lesson",
+                  "text": "lesson",
+                  "reading": "ˈlɛsən",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B5",
+          "title_th": "อากาศและความรู้สึก",
+          "goal_th": "คุยเรื่องอากาศและฤดูกาล (ลมแรง ฟ้าครึ้ม ฝนตก) บอกความรู้สึกและอาการไม่สบายง่าย ๆ และถามว่าอีกฝ่ายรู้สึกอย่างไรได้",
+          "scenario": "B is Emma calling from Canada during the holidays. Nam must describe the weather in Bangkok, ask about the weather in Canada, say how she feels and why, and ask how Emma feels.",
+          "lessons": [
+            {
+              "id": "en-B5-05",
+              "topic": "Windy and cloudy",
+              "grammar": "It's windy. / There's a lot of rain. (noun rain vs adjective rainy)",
+              "items": [
+                {
+                  "id": "en.windy",
+                  "text": "windy",
+                  "reading": "ˈwɪndi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cloudy",
+                  "text": "cloudy",
+                  "reading": "ˈklaʊdi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rain",
+                  "text": "rain",
+                  "reading": "reɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sun",
+                  "text": "sun",
+                  "reading": "sʌn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B5-06",
+              "topic": "How do you feel?",
+              "grammar": "How do you feel? — I feel sleepy. (feel + adjective)",
+              "items": [
+                {
+                  "id": "en.how-do-you-feel",
+                  "text": "How do you feel?",
+                  "reading": "ˈhaʊ duː juː ˈfiːl?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sleepy",
+                  "text": "sleepy",
+                  "reading": "ˈsliːpi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nervous",
+                  "text": "nervous",
+                  "reading": "ˈnɜːrvəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.surprised",
+                  "text": "surprised",
+                  "reading": "sərˈpraɪzd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B5-r01",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary on a rainy Saturday — it rains all day, she feels bored and sleepy and stays home, then Emma comes over, they watch a movie and Nam is happy again",
+              "items": [
+                {
+                  "id": "en.all-day",
+                  "text": "all day",
+                  "reading": "ˌɔːl ˈdeɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.stay-home",
+                  "text": "stay home",
+                  "reading": "ˈsteɪ ˈhoʊm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.come-over",
+                  "text": "come over",
+                  "reading": "ˈkʌm ˈoʊvər",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B6",
+          "title_th": "การเดินทาง",
+          "goal_th": "บอกว่าเดินทางด้วยอะไร ขึ้นลงรถ ถามหาสถานี ซื้อตั๋ว นั่งแท็กซี่ ถามเวลาเดินทาง และคุยเรื่องไปเที่ยวได้",
+          "scenario": "B is a Bangkok taxi driver (and later a ticket seller at a boat pier). Nam must say where she is going, ask the driver to use the meter, mention the traffic jam, ask how much and how long it is, and say where to get off.",
+          "lessons": [
+            {
+              "id": "en-B6-05",
+              "topic": "Car, bike, boat and subway",
+              "grammar": "by + transport (by boat, no the); get on / get off the bus",
+              "items": [
+                {
+                  "id": "en.car",
+                  "text": "car",
+                  "reading": "kɑːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bike",
+                  "text": "bike",
+                  "reading": "baɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.boat",
+                  "text": "boat",
+                  "reading": "boʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.subway",
+                  "text": "subway",
+                  "reading": "ˈsʌbweɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.get-on",
+                  "text": "get on",
+                  "reading": "ˈɡɛt ˈɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.get-off",
+                  "text": "get off",
+                  "reading": "ˈɡɛt ˈɔːf",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B6-06",
+              "topic": "In a taxi",
+              "grammar": "polite imperatives with please; How much to …?",
+              "items": [
+                {
+                  "id": "en.where-to",
+                  "text": "Where to?",
+                  "reading": "ˈwɛr ˈtuː?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.please-use-the-meter",
+                  "text": "Please use the meter.",
+                  "reading": "ˈpliːz ˈjuːz ðə ˈmiːtər.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.traffic-jam",
+                  "text": "traffic jam",
+                  "reading": "ˈtræfɪk ˌdʒæm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stop-here-please",
+                  "text": "Stop here, please.",
+                  "reading": "ˈstɑːp ˈhɪr, ˈpliːz.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.how-much-to",
+                  "text": "How much to …?",
+                  "reading": "ˈhaʊ ˈmʌtʃ tə …?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B6-r01",
+              "kind": "reader",
+              "genre": "timetable",
+              "topic": "Timetable at Hua Lamphong station: trains to Chiang Mai — the morning train leaves at 8:30 a.m. and arrives at 7:30 p.m.; the night train leaves from platform 5; tickets for children are half price",
+              "items": [
+                {
+                  "id": "en.arrive",
+                  "text": "arrive",
+                  "reading": "əˈraɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.platform",
+                  "text": "platform",
+                  "reading": "ˈplætfɔːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.timetable",
+                  "text": "timetable",
+                  "reading": "ˈtaɪmteɪbəl",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B7",
+          "title_th": "บ้านและห้อง",
+          "goal_th": "บอกว่าบ้านมีห้องอะไรและในห้องมีอะไรบ้างด้วย There is / There are ต้อนรับแขก และขออนุญาตใช้ของในบ้านคนอื่นได้",
+          "scenario": "B is Emma visiting Nam's family house in Bangkok for the first time. Nam must welcome her in, show her the rooms, say what there is in each room and where things are, and answer when Emma asks to use the bathroom.",
+          "lessons": [
+            {
+              "id": "en-B7-01",
+              "topic": "Rooms in my house",
+              "grammar": "This is the kitchen. / My bedroom is upstairs. (review of be + place)",
+              "items": [
+                {
+                  "id": "en.house",
+                  "text": "house",
+                  "reading": "haʊs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.room",
+                  "text": "room",
+                  "reading": "ruːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bedroom",
+                  "text": "bedroom",
+                  "reading": "ˈbɛdruːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bathroom",
+                  "text": "bathroom",
+                  "reading": "ˈbæθruːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kitchen",
+                  "text": "kitchen",
+                  "reading": "ˈkɪtʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-02",
+              "topic": "There's a sofa",
+              "grammar": "There's + a / an + singular noun; There are + plural noun",
+              "items": [
+                {
+                  "id": "en.theres",
+                  "text": "There's …",
+                  "reading": "ðɛrz …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.there-are",
+                  "text": "There are …",
+                  "reading": "ðɛr ər …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.living-room",
+                  "text": "living room",
+                  "reading": "ˈlɪvɪŋ ˌruːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sofa",
+                  "text": "sofa",
+                  "reading": "ˈsoʊfə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.garden",
+                  "text": "garden",
+                  "reading": "ˈɡɑːrdən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-03",
+              "topic": "Doors and windows",
+              "grammar": "There's a big window in my room. (there is + prepositions in / on / next to)",
+              "items": [
+                {
+                  "id": "en.closet",
+                  "text": "closet",
+                  "reading": "ˈklɑːzɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.door",
+                  "text": "door",
+                  "reading": "dɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.window",
+                  "text": "window",
+                  "reading": "ˈwɪndoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.floor",
+                  "text": "floor",
+                  "reading": "flɔːr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-04",
+              "topic": "Upstairs and downstairs",
+              "grammar": "Is there a …? / Are there any …? — Yes, there is. / No, there aren't.; any in questions",
+              "items": [
+                {
+                  "id": "en.upstairs",
+                  "text": "upstairs",
+                  "reading": "ˌʌpˈstɛrz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.downstairs",
+                  "text": "downstairs",
+                  "reading": "ˌdaʊnˈstɛrz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stairs",
+                  "text": "stairs",
+                  "reading": "stɛrz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.toilet",
+                  "text": "toilet",
+                  "reading": "ˈtɔɪlət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.are-there-any",
+                  "text": "Are there any …?",
+                  "reading": "ər ðɛr ˈɛni …?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-05",
+              "topic": "Come in!",
+              "grammar": "imperatives for welcoming guests (Come in! Have a seat.)",
+              "items": [
+                {
+                  "id": "en.come-in",
+                  "text": "Come in!",
+                  "reading": "ˈkʌm ˈɪn!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.have-a-seat",
+                  "text": "Have a seat.",
+                  "reading": "ˈhæv ə ˈsiːt.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-yourself-at-home",
+                  "text": "Make yourself at home.",
+                  "reading": "ˈmeɪk jʊrˈsɛlf ət ˈhoʊm.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.slippers",
+                  "text": "slippers",
+                  "reading": "ˈslɪpərz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-06",
+              "topic": "Can I use the bathroom?",
+              "grammar": "Can I + verb? for permission; answers Of course. / Go ahead. / Sorry, …",
+              "items": [
+                {
+                  "id": "en.can-i-use",
+                  "text": "Can I use …?",
+                  "reading": "kən aɪ ˈjuːz …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.of-course",
+                  "text": "Of course.",
+                  "reading": "əv ˈkɔːrs.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-ahead",
+                  "text": "Go ahead.",
+                  "reading": "ˈɡoʊ əˈhɛd.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.thanks-for-having-me",
+                  "text": "Thanks for having me.",
+                  "reading": "ˈθæŋks fər ˈhævɪŋ miː.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B7-r01",
+              "kind": "reader",
+              "genre": "description",
+              "topic": "Short description: Nam's family house — an old two-floor house with a small garden; there are three bedrooms upstairs, a balcony with flowers, and Nam's favorite place is the roof at night",
+              "items": [
+                {
+                  "id": "en.balcony",
+                  "text": "balcony",
+                  "reading": "ˈbælkəni",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.roof",
+                  "text": "roof",
+                  "reading": "ruːf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.flower",
+                  "text": "flower",
+                  "reading": "ˈflaʊər",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B8",
+          "title_th": "ตอนนี้ทำอะไรอยู่",
+          "goal_th": "บอกว่าตัวเองและคนอื่นกำลังทำอะไรอยู่ (present continuous) และถามตอบว่าทำอะไรได้หรือไม่ได้ (can / can't)",
+          "scenario": "B is Emma on a video call from a park by the sea. Nam must ask what Emma and the people around her are doing, say what she is doing right now, and talk about what she can and can't do (swim, drive, ride a bike).",
+          "lessons": [
+            {
+              "id": "en-B8-01",
+              "topic": "What are you doing?",
+              "grammar": "present continuous I'm / you're + verb-ing for now; spelling -ing (sleep → sleeping)",
+              "items": [
+                {
+                  "id": "en.what-are-you-doing",
+                  "text": "What are you doing?",
+                  "reading": "ˈwʌt ər juː ˈduːɪŋ?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.now",
+                  "text": "now",
+                  "reading": "naʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sleep",
+                  "text": "sleep",
+                  "reading": "sliːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.talk",
+                  "text": "talk",
+                  "reading": "tɔːk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-02",
+              "topic": "At the park",
+              "grammar": "he's / she's / they're + verb-ing; run → running (double letter)",
+              "items": [
+                {
+                  "id": "en.run",
+                  "text": "run",
+                  "reading": "rʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ride-a-bike",
+                  "text": "ride a bike",
+                  "reading": "ˈraɪd ə ˈbaɪk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fly-a-kite",
+                  "text": "fly a kite",
+                  "reading": "ˈflaɪ ə ˈkaɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.walk-the-dog",
+                  "text": "walk the dog",
+                  "reading": "ˈwɔːk ðə ˈdɔːɡ",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-03",
+              "topic": "Come here! Hurry up!",
+              "grammar": "present continuous questions: Are you coming? — Yes, I am. / No, I'm not.; come vs go",
+              "items": [
+                {
+                  "id": "en.come",
+                  "text": "come",
+                  "reading": "kʌm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.go",
+                  "text": "go",
+                  "reading": "ɡoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wait",
+                  "text": "wait",
+                  "reading": "weɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hurry-up",
+                  "text": "Hurry up!",
+                  "reading": "ˈhɜːri ˈʌp!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-04",
+              "topic": "At the beach",
+              "grammar": "present continuous review; swim → swimming; Look at me!",
+              "items": [
+                {
+                  "id": "en.swim",
+                  "text": "swim",
+                  "reading": "swɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sea",
+                  "text": "sea",
+                  "reading": "siː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dive",
+                  "text": "dive",
+                  "reading": "daɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.look-at-me",
+                  "text": "Look at me!",
+                  "reading": "ˈlʊk ət ˈmiː!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-05",
+              "topic": "Can you swim?",
+              "grammar": "can / can't + verb for ability (no to, no -s); Can you …? — Yes, I can. / No, I can't.; can vs can't in sound",
+              "items": [
+                {
+                  "id": "en.can-you",
+                  "text": "Can you …?",
+                  "reading": "kən juː …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.yes-i-can",
+                  "text": "Yes, I can.",
+                  "reading": "ˈjɛs, aɪ ˈkæn.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.no-i-cant",
+                  "text": "No, I can't.",
+                  "reading": "ˈnoʊ, aɪ ˈkænt.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.drive",
+                  "text": "drive",
+                  "reading": "draɪv",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-06",
+              "topic": "Learning new things",
+              "grammar": "I'm learning to … (present continuous for now); praise phrases",
+              "items": [
+                {
+                  "id": "en.learn",
+                  "text": "learn",
+                  "reading": "lɜːrn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.well-done",
+                  "text": "Well done!",
+                  "reading": "ˈwɛl ˈdʌn!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.good-job",
+                  "text": "Good job!",
+                  "reading": "ˈɡʊd ˈdʒɑːb!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.dont-give-up",
+                  "text": "Don't give up!",
+                  "reading": "ˈdoʊnt ɡɪv ˈʌp!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B8-r01",
+              "kind": "reader",
+              "genre": "message (photo post)",
+              "topic": "Emma's photo message from Lumpini Park — a man is running, two girls are sitting on a bench, kids are looking at a big lizard near the pond, and Emma is eating ice cream",
+              "items": [
+                {
+                  "id": "en.pond",
+                  "text": "pond",
+                  "reading": "pɑːnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lizard",
+                  "text": "lizard",
+                  "reading": "ˈlɪzərd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kid",
+                  "text": "kid",
+                  "reading": "kɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bench",
+                  "text": "bench",
+                  "reading": "bɛntʃ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B9",
+          "title_th": "คุยโทรศัพท์",
+          "goal_th": "รับและโทรศัพท์ บอกว่าเป็นใคร ขอสายคนที่ต้องการ บอกว่ากำลังจะไปถึง และจัดการเวลาได้ยินไม่ชัดได้",
+          "scenario": "B is Emma calling Nam to meet up while Nam is on a noisy bus. Nam must answer the phone, say who she is, deal with a bad line (Can you hear me?), say that she is on her way, and arrange to call back later.",
+          "lessons": [
+            {
+              "id": "en-B9-01",
+              "topic": "Hello, this is Nam",
+              "grammar": "on the phone: This is Nam. (not I'm Nam); Can I speak to …?",
+              "items": [
+                {
+                  "id": "en.call",
+                  "text": "call",
+                  "reading": "kɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hello-this-is",
+                  "text": "Hello, this is …",
+                  "reading": "həˈloʊ, ˈðɪs ɪz …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.whos-calling",
+                  "text": "Who's calling?",
+                  "reading": "ˈhuːz ˈkɔːlɪŋ?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-i-speak-to",
+                  "text": "Can I speak to …?",
+                  "reading": "kən aɪ ˈspiːk tə …?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-02",
+              "topic": "Just a moment",
+              "grammar": "polite phone phrases; Can you + verb? for requests (Can you call me back?)",
+              "items": [
+                {
+                  "id": "en.just-a-moment",
+                  "text": "Just a moment.",
+                  "reading": "ˈdʒʌst ə ˈmoʊmənt.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.shes-not-here",
+                  "text": "She's not here.",
+                  "reading": "ʃiːz ˈnɑːt ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sorry-wrong-number",
+                  "text": "Sorry, wrong number.",
+                  "reading": "ˈsɑːri, ˈrɔːŋ ˈnʌmbər.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-you-call-me-back",
+                  "text": "Can you call me back?",
+                  "reading": "kən juː ˈkɔːl miː ˈbæk?",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-03",
+              "topic": "I can't hear you",
+              "grammar": "can / can't with hear; Speak up, please.",
+              "items": [
+                {
+                  "id": "en.can-you-hear-me",
+                  "text": "Can you hear me?",
+                  "reading": "kən juː ˈhɪr miː?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-cant-hear-you",
+                  "text": "I can't hear you.",
+                  "reading": "aɪ ˈkænt ˈhɪr juː.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.speak-up-please",
+                  "text": "Speak up, please.",
+                  "reading": "ˈspiːk ˈʌp, ˈpliːz.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.im-on-the-bus",
+                  "text": "I'm on the bus.",
+                  "reading": "aɪm ɑːn ðə ˈbʌs.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-04",
+              "topic": "I'm on my way",
+              "grammar": "present continuous for what is happening now (I'm coming. I'm on the bus.)",
+              "items": [
+                {
+                  "id": "en.im-on-my-way",
+                  "text": "I'm on my way.",
+                  "reading": "aɪm ɑːn maɪ ˈweɪ.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.im-coming",
+                  "text": "I'm coming.",
+                  "reading": "aɪm ˈkʌmɪŋ.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.see-you-soon",
+                  "text": "See you soon.",
+                  "reading": "ˈsiː juː ˈsuːn.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sorry-im-late",
+                  "text": "Sorry I'm late.",
+                  "reading": "ˈsɑːri aɪm ˈleɪt.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-05",
+              "topic": "Can I call you later?",
+              "grammar": "Can I …? (permission) vs Can you …? (request)",
+              "items": [
+                {
+                  "id": "en.can-i-have-your-number",
+                  "text": "Can I have your number?",
+                  "reading": "kən aɪ ˈhæv jʊr ˈnʌmbər?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-i-call-you-later",
+                  "text": "Can I call you later?",
+                  "reading": "kən aɪ ˈkɔːl juː ˈleɪtər?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.talk-to-you-later",
+                  "text": "Talk to you later.",
+                  "reading": "ˈtɔːk tə juː ˈleɪtər.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.answer-the-phone",
+                  "text": "answer the phone",
+                  "reading": "ˈænsər ðə ˈfoʊn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-06",
+              "topic": "Who is it? It's me!",
+              "grammar": "It's me. (object pronoun after be); the phone is ringing (present continuous)",
+              "items": [
+                {
+                  "id": "en.ring",
+                  "text": "ring",
+                  "reading": "rɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.phone-call",
+                  "text": "phone call",
+                  "reading": "ˈfoʊn ˌkɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.who-is-it",
+                  "text": "Who is it?",
+                  "reading": "ˈhuː ɪz ɪt?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.its-me",
+                  "text": "It's me.",
+                  "reading": "ɪts ˈmiː.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B9-r01",
+              "kind": "reader",
+              "genre": "chat messages",
+              "topic": "Chat messages between Nam and Emma: Emma is already at the café; Nam is on the bus in a traffic jam, she is almost there; Emma: Are you here yet? Nam: Not yet! Five minutes!",
+              "items": [
+                {
+                  "id": "en.already",
+                  "text": "already",
+                  "reading": "ɔːlˈrɛdi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.almost",
+                  "text": "almost",
+                  "reading": "ˈɔːlmoʊst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.not-yet",
+                  "text": "Not yet.",
+                  "reading": "ˌnɑːt ˈjɛt.",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B10",
+          "title_th": "ที่ร้านกาแฟ",
+          "goal_th": "สั่งเครื่องดื่มและของกินที่ร้านกาแฟ เลือกขนาด ร้อนหรือเย็น หวานน้อย ทานที่ร้านหรือกลับบ้าน และจ่ายเงินได้",
+          "scenario": "B is a barista at a café near the university. Nam must order drinks and a snack for herself and Emma, choose the size, hot or iced and less sugar, say for here or to go, and pay in cash or by QR code.",
+          "lessons": [
+            {
+              "id": "en-B10-01",
+              "topic": "Hot or iced?",
+              "grammar": "Can I get …? (casual ordering) vs I'd like … (review); a / an + drink",
+              "items": [
+                {
+                  "id": "en.can-i-get",
+                  "text": "Can I get …?",
+                  "reading": "kən aɪ ˈɡɛt …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.iced",
+                  "text": "iced",
+                  "reading": "aɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.latte",
+                  "text": "latte",
+                  "reading": "ˈlɑːteɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cocoa",
+                  "text": "cocoa",
+                  "reading": "ˈkoʊkoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.smoothie",
+                  "text": "smoothie",
+                  "reading": "ˈsmuːði",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-02",
+              "topic": "What size?",
+              "grammar": "size words before the drink (a large iced latte)",
+              "items": [
+                {
+                  "id": "en.size",
+                  "text": "size",
+                  "reading": "saɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.medium",
+                  "text": "medium",
+                  "reading": "ˈmiːdiəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.large",
+                  "text": "large",
+                  "reading": "lɑːrdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.regular",
+                  "text": "regular",
+                  "reading": "ˈrɛɡjələr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-03",
+              "topic": "Less sugar, please",
+              "grammar": "less / more + uncountable noun (less sugar, more ice)",
+              "items": [
+                {
+                  "id": "en.sugar",
+                  "text": "sugar",
+                  "reading": "ˈʃʊɡər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.less",
+                  "text": "less",
+                  "reading": "lɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.more",
+                  "text": "more",
+                  "reading": "mɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.straw",
+                  "text": "straw",
+                  "reading": "strɔː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-04",
+              "topic": "For here or to go?",
+              "grammar": "short answers: For here, please. / To go.",
+              "items": [
+                {
+                  "id": "en.for-here-or-to-go",
+                  "text": "For here or to go?",
+                  "reading": "fər ˈhɪr ɔːr tə ˈɡoʊ?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cup",
+                  "text": "cup",
+                  "reading": "kʌp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.napkin",
+                  "text": "napkin",
+                  "reading": "ˈnæpkɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lid",
+                  "text": "lid",
+                  "reading": "lɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-05",
+              "topic": "Something to eat",
+              "grammar": "some / something (Do you want something to eat?); a piece of cake (form only)",
+              "items": [
+                {
+                  "id": "en.sandwich",
+                  "text": "sandwich",
+                  "reading": "ˈsænwɪtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bread",
+                  "text": "bread",
+                  "reading": "brɛd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.toast",
+                  "text": "toast",
+                  "reading": "toʊst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.something",
+                  "text": "something",
+                  "reading": "ˈsʌmθɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-06",
+              "topic": "Cash or QR code?",
+              "grammar": "How much is it altogether? (review); bill = banknote in American English",
+              "items": [
+                {
+                  "id": "en.cash",
+                  "text": "cash",
+                  "reading": "kæʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.change",
+                  "text": "change",
+                  "reading": "tʃeɪndʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bill",
+                  "text": "bill",
+                  "reading": "bɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.qr-code",
+                  "text": "QR code",
+                  "reading": "ˌkjuːˈɑːr ˌkoʊd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B10-r01",
+              "kind": "reader",
+              "genre": "menu",
+              "topic": "Café menu board: coffee (espresso, latte, hot or iced), tea and smoothies with prices, honey lemon tea, chocolate brownie and banana cake; large +15 baht, less sugar is free",
+              "items": [
+                {
+                  "id": "en.espresso",
+                  "text": "espresso",
+                  "reading": "ɛˈsprɛsoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.honey",
+                  "text": "honey",
+                  "reading": "ˈhʌni",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lemon",
+                  "text": "lemon",
+                  "reading": "ˈlɛmən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.brownie",
+                  "text": "brownie",
+                  "reading": "ˈbraʊni",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B11",
+          "title_th": "ที่ร้านสะดวกซื้อ",
+          "goal_th": "หาของในร้านสะดวกซื้อ ถามว่ามีของไหม ใช้ some / any และหน่วยนับ (a bottle of, a pack of) และตอบคำถามของพนักงานได้",
+          "scenario": "B is a cashier at a convenience store in Bangkok; Emma is with Nam. Nam must find snacks, drinks and toiletries, ask if they have something, say how many she wants, and answer the cashier (a bag? heat it up?).",
+          "lessons": [
+            {
+              "id": "en-B11-01",
+              "topic": "Snacks and drinks",
+              "grammar": "a bottle of + noun; countable snacks (chips) vs uncountable water",
+              "items": [
+                {
+                  "id": "en.snack",
+                  "text": "snack",
+                  "reading": "snæk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chips",
+                  "text": "chips",
+                  "reading": "tʃɪps",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.soda",
+                  "text": "soda",
+                  "reading": "ˈsoʊdə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.a-bottle-of",
+                  "text": "a bottle of …",
+                  "reading": "ə ˈbɑːtəl əv …",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-02",
+              "topic": "Do you have any …?",
+              "grammar": "some in positive sentences, any in questions and negatives",
+              "items": [
+                {
+                  "id": "en.some",
+                  "text": "some",
+                  "reading": "sʌm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.any",
+                  "text": "any",
+                  "reading": "ˈɛni",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.do-you-have-any",
+                  "text": "Do you have any …?",
+                  "reading": "duː juː ˈhæv ˈɛni …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.over-there",
+                  "text": "over there",
+                  "reading": "ˌoʊvər ˈðɛr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-03",
+              "topic": "A pack of noodles",
+              "grammar": "a can of / a pack of + noun; How many …? (review)",
+              "items": [
+                {
+                  "id": "en.a-can-of",
+                  "text": "a can of …",
+                  "reading": "ə ˈkæn əv …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.a-pack-of",
+                  "text": "a pack of …",
+                  "reading": "ə ˈpæk əv …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.instant-noodles",
+                  "text": "instant noodles",
+                  "reading": "ˌɪnstənt ˈnuːdəlz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sausage",
+                  "text": "sausage",
+                  "reading": "ˈsɔːsɪdʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-04",
+              "topic": "Toothbrush and soap",
+              "grammar": "Where can I find …? / It's over there. (review)",
+              "items": [
+                {
+                  "id": "en.toothbrush",
+                  "text": "toothbrush",
+                  "reading": "ˈtuːθbrʌʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.toothpaste",
+                  "text": "toothpaste",
+                  "reading": "ˈtuːθpeɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.soap",
+                  "text": "soap",
+                  "reading": "soʊp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shampoo",
+                  "text": "shampoo",
+                  "reading": "ʃæmˈpuː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-05",
+              "topic": "Do you need a bag?",
+              "grammar": "Do you need …? — No, thanks. / Yes, please.; Can you + verb? (request)",
+              "items": [
+                {
+                  "id": "en.need",
+                  "text": "need",
+                  "reading": "niːd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.no-thanks",
+                  "text": "No, thanks.",
+                  "reading": "ˈnoʊ, ˈθæŋks.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-you-heat-it-up",
+                  "text": "Can you heat it up?",
+                  "reading": "kən juː ˈhiːt ɪt ˈʌp?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.next-please",
+                  "text": "Next, please.",
+                  "reading": "ˈnɛkst, ˈpliːz.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-06",
+              "topic": "That's all",
+              "grammar": "want + noun; How many do you want? / enough",
+              "items": [
+                {
+                  "id": "en.want",
+                  "text": "want",
+                  "reading": "wɑːnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.enough",
+                  "text": "enough",
+                  "reading": "ɪˈnʌf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.thats-all",
+                  "text": "That's all.",
+                  "reading": "ˈðæts ˈɔːl.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.plastic-bag",
+                  "text": "plastic bag",
+                  "reading": "ˌplæstɪk ˈbæɡ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B11-r01",
+              "kind": "reader",
+              "genre": "note",
+              "topic": "Note from Nam's mom on the fridge: please buy some eggs, two bottles of water, a pack of instant noodles, cereal and some bread at the convenience store; the money is on the table",
+              "items": [
+                {
+                  "id": "en.note",
+                  "text": "note",
+                  "reading": "noʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.list",
+                  "text": "list",
+                  "reading": "lɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cereal",
+                  "text": "cereal",
+                  "reading": "ˈsɪriəl",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B12",
+          "title_th": "ป้ายและคำเตือน",
+          "goal_th": "อ่านป้ายที่พบบ่อย เข้าใจคำสั่งและคำเตือน (Don't…, Please…) และบอกว่าที่นี่ทำอะไรได้หรือไม่ได้",
+          "scenario": "B is a security guard at a temple and later at a swimming pool. Emma does not understand the signs; Nam must read them, explain what people can and can't do there, and ask the guard simple questions.",
+          "lessons": [
+            {
+              "id": "en-B12-01",
+              "topic": "Open and closed",
+              "grammar": "one-word signs; open (adjective and verb) vs closed",
+              "items": [
+                {
+                  "id": "en.open",
+                  "text": "open",
+                  "reading": "ˈoʊpən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.closed",
+                  "text": "closed",
+                  "reading": "kloʊzd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.push",
+                  "text": "push",
+                  "reading": "pʊʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pull",
+                  "text": "pull",
+                  "reading": "pʊl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-02",
+              "topic": "Men and women",
+              "grammar": "irregular plurals men / women; restroom signs",
+              "items": [
+                {
+                  "id": "en.men",
+                  "text": "men",
+                  "reading": "mɛn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.women",
+                  "text": "women",
+                  "reading": "ˈwɪmɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.occupied",
+                  "text": "occupied",
+                  "reading": "ˈɑːkjəpaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vacant",
+                  "text": "vacant",
+                  "reading": "ˈveɪkənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wet-floor",
+                  "text": "Wet floor",
+                  "reading": "ˌwɛt ˈflɔːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-03",
+              "topic": "No parking",
+              "grammar": "No + noun / -ing on signs (No photos. No parking.)",
+              "items": [
+                {
+                  "id": "en.no-parking",
+                  "text": "No parking",
+                  "reading": "ˌnoʊ ˈpɑːrkɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.no-photos",
+                  "text": "No photos",
+                  "reading": "ˌnoʊ ˈfoʊtoʊz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.danger",
+                  "text": "danger",
+                  "reading": "ˈdeɪndʒər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.keep-out",
+                  "text": "Keep out",
+                  "reading": "ˌkiːp ˈaʊt",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-04",
+              "topic": "Be careful! Don't touch!",
+              "grammar": "negative imperatives Don't + verb; Be + adjective",
+              "items": [
+                {
+                  "id": "en.dont",
+                  "text": "Don't …",
+                  "reading": "ˈdoʊnt …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.be-careful",
+                  "text": "Be careful!",
+                  "reading": "bi ˈkɛrfəl!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.watch-out",
+                  "text": "Watch out!",
+                  "reading": "ˈwɑːtʃ ˈaʊt!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.stop",
+                  "text": "Stop!",
+                  "reading": "ˈstɑːp!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-05",
+              "topic": "At the temple",
+              "grammar": "polite imperatives with please; take off (clothes / shoes)",
+              "items": [
+                {
+                  "id": "en.take-off-your-shoes",
+                  "text": "Take off your shoes.",
+                  "reading": "ˈteɪk ˈɔːf jʊr ˈʃuːz.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.line-up",
+                  "text": "line up",
+                  "reading": "ˈlaɪn ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.please-wait-here",
+                  "text": "Please wait here.",
+                  "reading": "ˈpliːz ˈweɪt ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.staff-only",
+                  "text": "Staff only",
+                  "reading": "ˈstæf ˈoʊnli",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-06",
+              "topic": "You can't swim here",
+              "grammar": "can / can't for rules (You can't park here. You can sit here.)",
+              "items": [
+                {
+                  "id": "en.you-cant-here",
+                  "text": "You can't … here.",
+                  "reading": "juː ˈkænt … ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.trash-can",
+                  "text": "trash can",
+                  "reading": "ˈtræʃ ˌkæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.swimming-pool",
+                  "text": "swimming pool",
+                  "reading": "ˈswɪmɪŋ ˌpuːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.keep-off-the-grass",
+                  "text": "Keep off the grass.",
+                  "reading": "ˌkiːp ˈɔːf ðə ˈɡræs.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B12-r01",
+              "kind": "reader",
+              "genre": "sign",
+              "topic": "Sign at a swimming pool: open 6 a.m. to 8 p.m.; please take a shower before you swim; no food or glass; children under 12 come with an adult; the lifeguard is on duty until 7 p.m.",
+              "items": [
+                {
+                  "id": "en.before",
+                  "text": "before",
+                  "reading": "bɪˈfɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lifeguard",
+                  "text": "lifeguard",
+                  "reading": "ˈlaɪfɡɑːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.on-duty",
+                  "text": "on duty",
+                  "reading": "ɑːn ˈduːti",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B13",
+          "title_th": "ขอความช่วยเหลือ",
+          "goal_th": "ขอความช่วยเหลือ บอกว่าหลงทางหรือหาของไม่เจอ ขอให้เรียกตำรวจหรือหมอ และขอบคุณหรือปลอบคนอื่นได้",
+          "scenario": "B is a police officer at a police box near a busy market. Nam is helping Emma, who is lost and can't find her bag. Nam must ask for help, explain the problem simply, describe the bag (color, what is in it) and thank the officer.",
+          "lessons": [
+            {
+              "id": "en-B13-01",
+              "topic": "Can you help me?",
+              "grammar": "Can you + verb? for help; Are you OK? — I'm OK.",
+              "items": [
+                {
+                  "id": "en.help",
+                  "text": "Help!",
+                  "reading": "ˈhɛlp!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-you-help-me",
+                  "text": "Can you help me?",
+                  "reading": "kən juː ˈhɛlp miː?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.are-you-ok",
+                  "text": "Are you OK?",
+                  "reading": "ər juː oʊˈkeɪ?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.im-ok",
+                  "text": "I'm OK.",
+                  "reading": "aɪm oʊˈkeɪ.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-02",
+              "topic": "I'm lost",
+              "grammar": "this way / that way; imperatives Follow me.",
+              "items": [
+                {
+                  "id": "en.im-lost",
+                  "text": "I'm lost.",
+                  "reading": "aɪm ˈlɔːst.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.this-way",
+                  "text": "this way",
+                  "reading": "ˈðɪs ˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.that-way",
+                  "text": "that way",
+                  "reading": "ˈðæt ˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.follow-me",
+                  "text": "Follow me.",
+                  "reading": "ˈfɑːloʊ miː.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-03",
+              "topic": "I can't find my bag",
+              "grammar": "I can't find + my + noun; Call the police!",
+              "items": [
+                {
+                  "id": "en.i-cant-find",
+                  "text": "I can't find …",
+                  "reading": "aɪ ˈkænt ˈfaɪnd …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.police",
+                  "text": "police",
+                  "reading": "pəˈliːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.police-station",
+                  "text": "police station",
+                  "reading": "pəˈliːs ˌsteɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.call-the-police",
+                  "text": "Call the police!",
+                  "reading": "ˈkɔːl ðə pəˈliːs!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-04",
+              "topic": "What's the problem?",
+              "grammar": "I need + a / an + noun; short imperatives (Stay here. Please hurry!)",
+              "items": [
+                {
+                  "id": "en.whats-the-problem",
+                  "text": "What's the problem?",
+                  "reading": "ˈwʌts ðə ˈprɑːbləm?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-need-a-doctor",
+                  "text": "I need a doctor.",
+                  "reading": "aɪ ˈniːd ə ˈdɑːktər.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.stay-here",
+                  "text": "Stay here.",
+                  "reading": "ˈsteɪ ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.please-hurry",
+                  "text": "Please hurry!",
+                  "reading": "ˈpliːz ˈhɜːri!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-05",
+              "topic": "Don't worry",
+              "grammar": "Don't + verb for comfort; thanking someone for help",
+              "items": [
+                {
+                  "id": "en.dont-worry",
+                  "text": "Don't worry.",
+                  "reading": "ˈdoʊnt ˈwɜːri.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.thank-you-for-your-help",
+                  "text": "Thank you for your help.",
+                  "reading": "ˈθæŋk juː fər jʊr ˈhɛlp.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.youre-very-kind",
+                  "text": "You're very kind.",
+                  "reading": "jʊr ˈvɛri ˈkaɪnd.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.take-your-time",
+                  "text": "Take your time.",
+                  "reading": "ˈteɪk jʊr ˈtaɪm.",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-06",
+              "topic": "Here it is!",
+              "grammar": "What color is it? / What's in it? — It's black. There's a phone in it.",
+              "items": [
+                {
+                  "id": "en.what-color-is-it",
+                  "text": "What color is it?",
+                  "reading": "ˈwʌt ˈkʌlər ɪz ɪt?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.whats-in-it",
+                  "text": "What's in it?",
+                  "reading": "ˈwʌts ˈɪn ɪt?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.here-it-is",
+                  "text": "Here it is!",
+                  "reading": "ˈhɪr ɪt ˈɪz!",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.thank-goodness",
+                  "text": "Thank goodness!",
+                  "reading": "ˈθæŋk ˈɡʊdnəs!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B13-r01",
+              "kind": "reader",
+              "genre": "short story",
+              "topic": "Short story: Emma can't find her phone at a big market; Nam calls Emma's number and they hear it ring under a table at a noodle shop; then they tell the officer at the police box that everything is OK",
+              "items": [
+                {
+                  "id": "en.hear",
+                  "text": "hear",
+                  "reading": "hɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.noodle-shop",
+                  "text": "noodle shop",
+                  "reading": "ˈnuːdəl ˌʃɑːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.police-box",
+                  "text": "police box",
+                  "reading": "pəˈliːs ˌbɑːks",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B14",
+          "title_th": "เที่ยวห้าง",
+          "goal_th": "นัดเพื่อนไปห้าง ถามว่าร้านอยู่ชั้นไหน หาที่นั่งในศูนย์อาหาร ซื้อตั๋วหนัง และถามเวลาเปิดปิดได้",
+          "scenario": "B is Emma; on Saturday they meet at a big mall in Bangkok. Nam must agree on a time and a meeting place, find the food court and the movie theater (which floor? the escalator?), find seats, buy two movie tickets and check what time the mall closes.",
+          "lessons": [
+            {
+              "id": "en-B14-01",
+              "topic": "Let's go to the mall",
+              "grammar": "Are you free on + day? — Yes, I am. / Sorry, I'm busy.; Let's + verb (review)",
+              "items": [
+                {
+                  "id": "en.mall",
+                  "text": "mall",
+                  "reading": "mɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.meet",
+                  "text": "meet",
+                  "reading": "miːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.are-you-free-on",
+                  "text": "Are you free on …?",
+                  "reading": "ər juː ˈfriː ɑːn …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.see-you-there",
+                  "text": "See you there!",
+                  "reading": "ˈsiː juː ˈðɛr!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-02",
+              "topic": "Which floor?",
+              "grammar": "on the + ordinal + floor (on the fifth floor); go up / go down",
+              "items": [
+                {
+                  "id": "en.escalator",
+                  "text": "escalator",
+                  "reading": "ˈɛskəleɪtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.basement",
+                  "text": "basement",
+                  "reading": "ˈbeɪsmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.on-the-floor",
+                  "text": "on the … floor",
+                  "reading": "ɑːn ðə … ˈflɔːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-up",
+                  "text": "go up",
+                  "reading": "ˈɡoʊ ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-down",
+                  "text": "go down",
+                  "reading": "ˈɡoʊ ˈdaʊn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-03",
+              "topic": "At the food court",
+              "grammar": "Is this seat taken? — No, go ahead.; Can we share …?",
+              "items": [
+                {
+                  "id": "en.food-court",
+                  "text": "food court",
+                  "reading": "ˈfuːd ˌkɔːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tray",
+                  "text": "tray",
+                  "reading": "treɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.is-this-seat-taken",
+                  "text": "Is this seat taken?",
+                  "reading": "ɪz ðɪs ˈsiːt ˈteɪkən?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.share",
+                  "text": "share",
+                  "reading": "ʃɛr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-04",
+              "topic": "At the movie theater",
+              "grammar": "number + plural noun (two tickets); What time does it start?",
+              "items": [
+                {
+                  "id": "en.see-a-movie",
+                  "text": "see a movie",
+                  "reading": "ˈsiː ə ˈmuːvi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.movie-theater",
+                  "text": "movie theater",
+                  "reading": "ˈmuːvi ˌθiːətər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.two-tickets-please",
+                  "text": "Two tickets, please.",
+                  "reading": "ˈtuː ˈtɪkɪts, ˈpliːz.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.row",
+                  "text": "row",
+                  "reading": "roʊ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-05",
+              "topic": "What time does it close?",
+              "grammar": "What time does it open / close? (does + it); until + time",
+              "items": [
+                {
+                  "id": "en.what-time-does-it-open",
+                  "text": "What time does it open?",
+                  "reading": "ˈwʌt ˈtaɪm dʌz ɪt ˈoʊpən?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.what-time-does-it-close",
+                  "text": "What time does it close?",
+                  "reading": "ˈwʌt ˈtaɪm dʌz ɪt ˈkloʊz?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.until",
+                  "text": "until",
+                  "reading": "ənˈtɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.parking-lot",
+                  "text": "parking lot",
+                  "reading": "ˈpɑːrkɪŋ ˌlɑːt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-06",
+              "topic": "I'm here! Where are you?",
+              "grammar": "Let's meet at + place; I'm here / I can't see you (review of can't)",
+              "items": [
+                {
+                  "id": "en.lets-meet-at",
+                  "text": "Let's meet at …",
+                  "reading": "ˈlɛts ˈmiːt ət …",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.im-here",
+                  "text": "I'm here.",
+                  "reading": "aɪm ˈhɪr.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-cant-see-you",
+                  "text": "I can't see you.",
+                  "reading": "aɪ ˈkænt ˈsiː juː.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.wait-for-me",
+                  "text": "Wait for me!",
+                  "reading": "ˈweɪt fər ˈmiː!",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-B14-r01",
+              "kind": "reader",
+              "genre": "notice (floor guide)",
+              "topic": "Mall floor guide on a poster: supermarket on the ground floor, fashion on floors 1–3, food court on 5, movie theater on 6; open daily 10 a.m.–10 p.m.; parking in the basement",
+              "items": [
+                {
+                  "id": "en.ground-floor",
+                  "text": "ground floor",
+                  "reading": "ˌɡraʊnd ˈflɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.daily",
+                  "text": "daily",
+                  "reading": "ˈdeɪli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fashion",
+                  "text": "fashion",
+                  "reading": "ˈfæʃən",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B15",
+          "title_th": "ข้อมูลส่วนตัว",
+          "goal_th": "ให้ข้อมูลส่วนตัว (ชื่อเต็ม ที่อยู่ อีเมล วันเกิด สัญชาติ) เวลากรอกแบบฟอร์มหรือสมัครเรียน และทวนข้อมูลให้ถูกต้องได้",
+          "scenario": "B is a receptionist at a language school in Bangkok signing Nam up for an evening English course. Nam must give her full name, date and place of birth, nationality, address and email (spelling where needed), and check that the details are correct.",
+          "lessons": [
+            {
+              "id": "en-B15-01",
+              "topic": "What's your address?",
+              "grammar": "Thai addresses in English: house number, road, district, zip code (word order)",
+              "items": [
+                {
+                  "id": "en.address",
+                  "text": "address",
+                  "reading": "ˈædrɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.road",
+                  "text": "road",
+                  "reading": "roʊd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.zip-code",
+                  "text": "zip code",
+                  "reading": "ˈzɪp ˌkoʊd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.district",
+                  "text": "district",
+                  "reading": "ˈdɪstrɪkt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-02",
+              "topic": "My email",
+              "grammar": "reading an email address aloud (at, dot, underscore) and spelling it",
+              "items": [
+                {
+                  "id": "en.email",
+                  "text": "email",
+                  "reading": "ˈiːmeɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.at-sign",
+                  "text": "@",
+                  "reading": "æt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dot",
+                  "text": "dot",
+                  "reading": "dɑːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.underscore",
+                  "text": "underscore",
+                  "reading": "ˈʌndərskɔːr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-03",
+              "topic": "Date of birth",
+              "grammar": "dates on forms (June 5th, 2006 — in English the month usually comes first); titles Mr. / Ms. / Mrs.",
+              "items": [
+                {
+                  "id": "en.date-of-birth",
+                  "text": "date of birth",
+                  "reading": "ˌdeɪt əv ˈbɜːrθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.place-of-birth",
+                  "text": "place of birth",
+                  "reading": "ˌpleɪs əv ˈbɜːrθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nationality",
+                  "text": "nationality",
+                  "reading": "ˌnæʃəˈnæləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.mrs",
+                  "text": "Mrs.",
+                  "reading": "ˈmɪsɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-04",
+              "topic": "Full name, please",
+              "grammar": "name order on forms: first name + middle name + last name",
+              "items": [
+                {
+                  "id": "en.full-name",
+                  "text": "full name",
+                  "reading": "ˌfʊl ˈneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.middle-name",
+                  "text": "middle name",
+                  "reading": "ˈmɪdəl ˌneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.single",
+                  "text": "single",
+                  "reading": "ˈsɪŋɡəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.occupation",
+                  "text": "occupation",
+                  "reading": "ˌɑːkjəˈpeɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-05",
+              "topic": "Is that correct?",
+              "grammar": "checking information: Is that correct? — Yes, that's right. / No, it's …",
+              "items": [
+                {
+                  "id": "en.is-that-correct",
+                  "text": "Is that correct?",
+                  "reading": "ɪz ˈðæt kəˈrɛkt?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.thats-right",
+                  "text": "That's right.",
+                  "reading": "ˈðæts ˈraɪt.",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.can-you-say-that-again",
+                  "text": "Can you say that again?",
+                  "reading": "kən juː ˈseɪ ðæt əˈɡɛn?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.member",
+                  "text": "member",
+                  "reading": "ˈmɛmbər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-06",
+              "topic": "Signing up for a course",
+              "grammar": "When does the course start? (does + it, review); on + day / date",
+              "items": [
+                {
+                  "id": "en.course",
+                  "text": "course",
+                  "reading": "kɔːrs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.placement-test",
+                  "text": "placement test",
+                  "reading": "ˈpleɪsmənt ˌtɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.first-day",
+                  "text": "first day",
+                  "reading": "ˌfɜːrst ˈdeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.language-school",
+                  "text": "language school",
+                  "reading": "ˈlæŋɡwɪdʒ ˌskuːl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B15-r01",
+              "kind": "reader",
+              "genre": "message (email)",
+              "topic": "Welcome email from the language school: Nam's course begins on Monday, June 2nd at 6:30 p.m. in Room 4 on the second floor; please come early on the first day, pay at the front desk and bring a photo",
+              "items": [
+                {
+                  "id": "en.begin",
+                  "text": "begin",
+                  "reading": "bɪˈɡɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.front-desk",
+                  "text": "front desk",
+                  "reading": "ˌfrʌnt ˈdɛsk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pay",
+                  "text": "pay",
+                  "reading": "peɪ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-B16",
+          "title_th": "มหาวิทยาลัยของฉัน",
+          "goal_th": "บอกว่าเรียนที่ไหน เรียนสาขาอะไร อยู่ปีไหน บอกสถานที่ในมหาวิทยาลัย และเล่าชีวิตประจำวันในมหาวิทยาลัยแบบง่าย ๆ ได้",
+          "scenario": "B is a new exchange student from Japan who has just arrived at Nam's university. Nam must say what and where she studies and what year she is in, show him important places on campus (canteen, bookstore, computer lab), and tell him about a normal day at university.",
+          "lessons": [
+            {
+              "id": "en-B16-01",
+              "topic": "What do you study?",
+              "grammar": "present simple questions: What do you study? — I study English.; Where do you study?",
+              "items": [
+                {
+                  "id": "en.where-do-you-study",
+                  "text": "Where do you study?",
+                  "reading": "ˈwɛr duː juː ˈstʌdi?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.what-do-you-study",
+                  "text": "What do you study?",
+                  "reading": "ˈwʌt duː juː ˈstʌdi?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.engineering",
+                  "text": "engineering",
+                  "reading": "ˌɛndʒɪˈnɪrɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.business",
+                  "text": "business",
+                  "reading": "ˈbɪznəs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-02",
+              "topic": "Art, economics and nursing",
+              "grammar": "subjects without a / the (I study art.)",
+              "items": [
+                {
+                  "id": "en.art",
+                  "text": "art",
+                  "reading": "ɑːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.economics",
+                  "text": "economics",
+                  "reading": "ˌɛkəˈnɑːmɪks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nursing",
+                  "text": "nursing",
+                  "reading": "ˈnɜːrsɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.accounting",
+                  "text": "accounting",
+                  "reading": "əˈkaʊntɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-03",
+              "topic": "What year are you in?",
+              "grammar": "I'm in my second year. / I'm a freshman. (ordinals review)",
+              "items": [
+                {
+                  "id": "en.year",
+                  "text": "year",
+                  "reading": "jɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.what-year-are-you-in",
+                  "text": "What year are you in?",
+                  "reading": "ˈwʌt ˈjɪr ər juː ˈɪn?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.freshman",
+                  "text": "freshman",
+                  "reading": "ˈfrɛʃmən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.senior",
+                  "text": "senior",
+                  "reading": "ˈsiːnjər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-04",
+              "topic": "Around campus",
+              "grammar": "There's a canteen in every building. (there is / are review); next to / behind (review)",
+              "items": [
+                {
+                  "id": "en.canteen",
+                  "text": "canteen",
+                  "reading": "kænˈtiːn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bookstore",
+                  "text": "bookstore",
+                  "reading": "ˈbʊkstɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.computer-lab",
+                  "text": "computer lab",
+                  "reading": "kəmˈpjuːtər ˌlæb",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hall",
+                  "text": "hall",
+                  "reading": "hɔːl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-05",
+              "topic": "Professors and friends",
+              "grammar": "my / our / their + noun (review); work in a group",
+              "items": [
+                {
+                  "id": "en.professor",
+                  "text": "professor",
+                  "reading": "prəˈfɛsər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.best-friend",
+                  "text": "best friend",
+                  "reading": "ˌbɛst ˈfrɛnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.group",
+                  "text": "group",
+                  "reading": "ɡruːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.activity",
+                  "text": "activity",
+                  "reading": "ækˈtɪvəti",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-06",
+              "topic": "A day at university",
+              "grammar": "present simple + time expressions (at lunchtime, after class)",
+              "items": [
+                {
+                  "id": "en.lunchtime",
+                  "text": "lunchtime",
+                  "reading": "ˈlʌntʃtaɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.after-class",
+                  "text": "after class",
+                  "reading": "ˌæftər ˈklæs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sports-day",
+                  "text": "sports day",
+                  "reading": "ˈspɔːrts ˌdeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.test",
+                  "text": "test",
+                  "reading": "tɛst",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-B16-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "University newsletter, \"Student of the month\": Nam is a second-year student; she studies English, often reads in the library after class, eats at the canteen with her best friends and plays volleyball on sports day",
+              "items": [
+                {
+                  "id": "en.month",
+                  "text": "month",
+                  "reading": "mʌnθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.newsletter",
+                  "text": "newsletter",
+                  "reading": "ˈnuːzlɛtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.player",
+                  "text": "player",
+                  "reading": "ˈpleɪər",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
