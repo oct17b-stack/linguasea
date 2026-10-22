@@ -14,7 +14,8 @@
     "build": "tsx src/cli/build.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p .",
-    "l10n": "tsx src/cli/l10n.ts"
+    "l10n": "tsx src/cli/l10n.ts",
+    "dupes": "tsx src/cli/dupes.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"

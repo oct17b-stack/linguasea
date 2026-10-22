@@ -2,3 +2,4 @@
 export { buildBundle } from './build';
 export { loadContent, type Loaded, type Problem } from './load';
 export { validate } from './validate';
+export { findDuplicates, type Duplicate } from './dupes';

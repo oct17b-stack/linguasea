@@ -15,7 +15,8 @@
     "typecheck": "npm run typecheck --workspaces --if-present",
     "check": "npm run validate && npm run content && npm run typecheck && npm test",
     "l10n": "npm run l10n --workspace @linguasea/contract --",
-    "hours": "npm run hours --workspace @linguasea/tools --"
+    "hours": "npm run hours --workspace @linguasea/tools --",
+    "dupes": "npm run dupes --workspace @linguasea/contract --"
   },
   "devDependencies": {
     "playwright": "1.56.1"
