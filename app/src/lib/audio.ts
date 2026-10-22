@@ -38,8 +38,9 @@ export function clipFor(course: CourseBundle, voice: AudioVoice, text: string): 
   return path ? audioUrl(path) : undefined;
 }
 
+/** Items are keyed by what is spoken (`say ?? text`), as tools/src/audio generates them. */
 function itemClip(course: CourseBundle, item: Pick<Item, 'text' | 'say'>): string | undefined {
-  return clipFor(course, 'item', spoken(item)) ?? (item.say ? clipFor(course, 'item', item.text) : undefined);
+  return clipFor(course, 'item', spoken(item));
 }
 
 /** A word / phrase / letter: its clip, else TTS of `say ?? text`. */
