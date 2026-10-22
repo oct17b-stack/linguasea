@@ -15,7 +15,8 @@ afterEach(() => temps.splice(0).forEach((d) => rmSync(d, { recursive: true, forc
 function copy(): string {
   const dir = mkdtempSync(join(tmpdir(), 'content-'));
   temps.push(dir);
-  cpSync(contentRoot, dir, { recursive: true });
+  // Generated audio is large and irrelevant to validation.
+  cpSync(contentRoot, dir, { recursive: true, filter: (src) => !src.includes(`${contentRoot}/audio/`) });
   return dir;
 }
 

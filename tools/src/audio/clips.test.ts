@@ -60,11 +60,11 @@ describe('collectClips', () => {
       stage: 'A',
       minutes: 5,
       items: [{ id: 'en.hello', text: 'Hello', reading: 'həˈloʊ' }],
-      dialogue: [{ speaker: 'c', text: 'Hello!', reading: 'x' }],
+      dialogue: [{ speaker: 'd', text: 'Hello!', reading: 'x' }],
     });
     const { clips, warnings } = collectClips(loadContent(root), ['en']);
     expect(clips.map((c) => c.key)).toEqual(['item|Hello']);
-    expect(warnings).toEqual(['en-A1-01 dialogue line 1: no voice for speaker "c" (tools/src/audio/voices.ts has item, a, b)']);
+    expect(warnings).toEqual(['en-A1-01 dialogue line 1: no voice for speaker "d" (tools/src/audio/voices.ts has item, a, b, c)']);
   });
 
   it('lists recorded clips (Item.audio) under their key', () => {

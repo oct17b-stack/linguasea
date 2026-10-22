@@ -12,24 +12,24 @@ export const DIALOGUE_RATE = '0%';
 
 /**
  * Azure neural voices per course. "item" reads words and phrases, "a" is the learner's side of a
- * dialogue (Nam), "b" the person Nam talks to. Female for item and a, male for b, so the two sides of a
- * dialogue are easy to tell apart.
+ * dialogue (Nam), "b" a man Nam talks to and "c" a woman Nam talks to (e.g. Yuki, Emma) — a different
+ * female voice from Nam's, so the two sides of a dialogue are easy to tell apart.
  * Voice list: https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts
  */
-export const VOICES: Record<Target, { lang: string; item: string; a: string; b: string }> = {
-  zh: { lang: 'zh-CN', item: 'zh-CN-XiaoxiaoNeural', a: 'zh-CN-XiaoxiaoNeural', b: 'zh-CN-YunxiNeural' },
-  en: { lang: 'en-US', item: 'en-US-JennyNeural', a: 'en-US-JennyNeural', b: 'en-US-GuyNeural' },
-  ja: { lang: 'ja-JP', item: 'ja-JP-NanamiNeural', a: 'ja-JP-NanamiNeural', b: 'ja-JP-KeitaNeural' },
-  ko: { lang: 'ko-KR', item: 'ko-KR-SunHiNeural', a: 'ko-KR-SunHiNeural', b: 'ko-KR-InJoonNeural' },
+export const VOICES: Record<Target, { lang: string; item: string; a: string; b: string; c: string }> = {
+  zh: { lang: 'zh-CN', item: 'zh-CN-XiaoxiaoNeural', a: 'zh-CN-XiaoxiaoNeural', b: 'zh-CN-YunxiNeural', c: 'zh-CN-XiaoyiNeural' },
+  en: { lang: 'en-US', item: 'en-US-JennyNeural', a: 'en-US-JennyNeural', b: 'en-US-GuyNeural', c: 'en-US-AriaNeural' },
+  ja: { lang: 'ja-JP', item: 'ja-JP-NanamiNeural', a: 'ja-JP-NanamiNeural', b: 'ja-JP-KeitaNeural', c: 'ja-JP-AoiNeural' },
+  ko: { lang: 'ko-KR', item: 'ko-KR-SunHiNeural', a: 'ko-KR-SunHiNeural', b: 'ko-KR-InJoonNeural', c: 'ko-KR-SeoHyeonNeural' },
 };
 
 /** What Azure is asked for: SSML xml:lang, voice name and prosody rate. */
 export type Voice = { lang: string; name: string; rate: string };
 
-/** The Azure voice for a clip voice ("item", "a", "b"); undefined for a speaker the table does not have. */
+/** The Azure voice for a clip voice ("item", "a", "b", "c"); undefined for a speaker the table does not have. */
 export function azureVoice(target: Target, voice: string): Voice | undefined {
   const t = VOICES[target];
   if (voice === 'item') return { lang: t.lang, name: t.item, rate: ITEM_RATE };
-  if (voice === 'a' || voice === 'b') return { lang: t.lang, name: t[voice], rate: DIALOGUE_RATE };
+  if (voice === 'a' || voice === 'b' || voice === 'c') return { lang: t.lang, name: t[voice], rate: DIALOGUE_RATE };
   return undefined;
 }

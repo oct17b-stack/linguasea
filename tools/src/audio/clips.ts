@@ -9,7 +9,7 @@ import { azureVoice, OUTPUT_FORMAT, type Voice } from './voices';
 /** One generated speech file. */
 export type Clip = {
   target: Target;
-  /** "item" for words and phrases, otherwise the dialogue speaker ("a", "b"). */
+  /** "item" for words and phrases, otherwise the dialogue speaker ("a", "b", "c"). */
   voice: string;
   text: string;
   /** audioKey(voice, text): what the app looks the clip up by. */
@@ -63,7 +63,7 @@ export function collectClips(loaded: Loaded, targets: readonly Target[] = TARGET
       seen.add(key);
       const azure = azureVoice(target, voice);
       if (!azure) {
-        warnings.push(`${where}: no voice for speaker "${voice}" (tools/src/audio/voices.ts has item, a, b)`);
+        warnings.push(`${where}: no voice for speaker "${voice}" (tools/src/audio/voices.ts has item, a, b, c)`);
         return;
       }
       const hash = clipHash(azure, text);
