@@ -26,7 +26,7 @@ export const DEFAULT_QUOTAS: Quotas = {
   pronunciationFree: 10,
   pronunciationPremium: 200,
   tutorFree: 6,
-  tutorPremium: 150,
+  tutorPremium: 30,
 };
 
 export type Options = {

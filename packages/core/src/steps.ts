@@ -123,3 +123,36 @@ export function reviewSteps(course: CourseBundle, itemIds: string[], seed = Date
   });
   return steps;
 }
+
+/** Share of placement questions to get right to skip a stage. */
+export const PLACEMENT_PASS = 0.8;
+
+const PLACEMENT_TYPES: ChoiceExercise['type'][] = ['choose-meaning', 'listen-choose', 'choose-text'];
+
+/**
+ * A short quiz on the vocabulary a stage teaches, spread over its units.
+ * Passing it (see placementPassed) lets someone who already knows the basics skip the stage.
+ */
+export function placementSteps(course: CourseBundle, stageId: string, count = 12, seed = Date.now()): Step[] {
+  const rand = seededRandom(seed);
+  const pool = coursePool(course);
+  const stage = course.course.stages.find((s) => s.id === stageId);
+  if (!stage) return [];
+  // Round-robin over units so every topic of the stage is asked about.
+  const perUnit = stage.units.map((u) =>
+    shuffle(
+      [...pool.values()].filter((w) => u.lessons.includes(w.lesson) && (w.kind === 'word' || w.kind === 'phrase')),
+      rand,
+    ),
+  );
+  const picked: Word[] = [];
+  for (let round = 0; picked.length < count && perUnit.some((list) => list.length > round); round++) {
+    for (const list of perUnit) if (list[round] && picked.length < count) picked.push(list[round]);
+  }
+  const latest = Math.max(0, ...picked.map((w) => w.order));
+  return picked.map((w, i) => chooseStep(pool, w, { type: PLACEMENT_TYPES[i % PLACEMENT_TYPES.length] }, latest, rand));
+}
+
+export function placementPassed(correct: number, total: number): boolean {
+  return total > 0 && correct / total >= PLACEMENT_PASS;
+}

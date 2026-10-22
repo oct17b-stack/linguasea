@@ -29,3 +29,8 @@ export function lessonAccess(
   if (i > 0 && !(order[i - 1] in completed)) return 'locked';
   return 'open';
 }
+
+/** Lesson ids of one stage, in order. */
+export function stageLessons(course: Course, stageId: string): string[] {
+  return course.stages.find((s) => s.id === stageId)?.units.flatMap((u) => u.lessons) ?? [];
+}

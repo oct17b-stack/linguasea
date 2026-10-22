@@ -128,3 +128,13 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
   if (a.streak.lastDay !== b.streak.lastDay) streak = later(a.streak.lastDay, b.streak.lastDay) ? a.streak : b.streak;
   return { version: 1, completed, cards, xp: Math.max(a.xp, b.xp), streak };
 }
+
+/**
+ * Marks every lesson of the given stages as done (after a passed placement test), so the course map
+ * opens at the next stage. No review cards are created: the learner showed they know this material.
+ */
+export function skipLessons(p: Progress, lessonIds: string[], now: Date): Progress {
+  const completed = { ...p.completed };
+  for (const id of lessonIds) completed[id] ??= now.toISOString();
+  return { ...p, completed };
+}
