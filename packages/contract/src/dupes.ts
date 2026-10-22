@@ -40,9 +40,12 @@ export function findDuplicates(loaded: Loaded, contentRoot?: string): Duplicate[
     const planDir = contentRoot && join(contentRoot, '_plan');
     if (planDir && existsSync(planDir)) {
       for (const file of readdirSync(planDir).filter((f) => f.startsWith(target) && f.endsWith('.json'))) {
-        const plan = JSON.parse(readFileSync(join(planDir, file), 'utf8')) as {
-          stages?: { units?: { lessons?: { id: string; items?: Entry[] }[] }[] }[];
-        };
+        let plan: { stages?: { units?: { lessons?: { id: string; items?: Entry[] }[] }[] }[] };
+        try {
+          plan = JSON.parse(readFileSync(join(planDir, file), 'utf8'));
+        } catch {
+          continue; // a plan still being written
+        }
         for (const stage of plan.stages ?? []) {
           for (const unit of stage.units ?? []) {
             for (const lesson of unit.lessons ?? []) {

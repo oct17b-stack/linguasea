@@ -21,8 +21,8 @@ it('finds one word under two ids across content and the plan', () => {
     join(root, '_plan/zh-CF.json'),
     JSON.stringify({ target: 'zh', stages: [{ units: [{ lessons: [{ id: 'zh-C1-01', items: [{ ...word, id: `${word.id}-again` }] }] }] }] }),
   );
-  const dupes = findDuplicates(loadContent(root), root);
-  expect(dupes).toHaveLength(1);
-  expect(dupes[0].ids.map((x) => x.id)).toEqual([word.id, `${word.id}-again`]);
-  expect(dupes[0].ids[1].where).toBe('plan zh-C1-01');
+  // Real content and plans may hold other duplicates while they are being written; look for ours.
+  const ours = findDuplicates(loadContent(root), root).find((d) => d.ids.some((x) => x.id === `${word.id}-again`));
+  expect(ours?.ids.map((x) => x.id)).toEqual([word.id, `${word.id}-again`]);
+  expect(ours?.ids[1].where).toBe('plan zh-C1-01');
 });
