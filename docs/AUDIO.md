@@ -37,7 +37,7 @@
 npm run audio -- --dry-run      # 只统计：缺多少段、多少字符、估计多少钱（没有密钥时默认就是这样）
 npm run audio                   # 生成缺少的音频，并更新 manifest
 npm run audio -- --target zh    # 只处理中文课
-npm run audio -- --prune        # 同时删掉不再用到的旧文件（可以和 --dry-run 一起用，先看会删哪些）
+npm run audio -- --prune        # 同时删掉不再用到的旧文件（可以和 --dry-run 一起用，先看会删几个）
 npm run content                 # 把 manifest 打进 App 内容包
 ```
 
@@ -47,7 +47,7 @@ npm run content                 # 把 manifest 打进 App 内容包
 
 ## 费用（估算）
 
-Azure 神经网络语音大约 **US$16 / 100 万字符**。这只是估算，以 Azure 官网价格为准。计费时每个汉字（包括日文汉字）算 2 个字符，SSML 里的 `<prosody>` 标记也算钱，`--dry-run` 显示的"billable"已经把这些算进去了。现在的内容一共 60 段，约 2,100 个计费字符，不到 US$0.01。A、B 两个阶段全部写完大约 2,000 段、十几万计费字符，估计 US$2 左右，在 F0 每月的免费额度之内。
+Azure 神经网络语音大约 **US$16 / 100 万字符**。这只是估算，以 Azure 官网价格为准。计费时每个汉字（包括日文汉字）算 2 个字符，SSML 里的 `<prosody>` 标记也算钱，`--dry-run` 显示的"billable"已经把这些算进去了。A、B 两个阶段全部写完大约 2,000 段、十几万计费字符，估计 US$2 左右，大概在 F0 每月的免费额度（约 50 万字符）之内。
 
 ## 文件放在哪
 
