@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- "LinguaSEA" is a working name. On this page it appears only in <title> and in the header logo text. -->
+  <title>LinguaSEA — เรียนจีน อังกฤษ ญี่ปุ่น เกาหลี ด้วยคำอธิบายภาษาไทย</title>
+  <meta name="description" content="แอปเรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลีสำหรับคนไทย อธิบายเป็นภาษาไทย มีคำอ่านภาษาไทยกำกับทุกคำ ฝึกฟัง อ่าน พูด คุยกับคู่สนทนา AI และตรวจการออกเสียง ระดับเริ่มต้นเรียนฟรี">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fbfaf6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1412" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="alternate" hreflang="th" href="/">
+  <link rel="alternate" hreflang="en" href="/en/">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปที่เนื้อหา</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <path class="mark-back" d="M20 3h11a7 7 0 0 1 7 7v7a7 7 0 0 1-7 7l4.5 6-10.5-6h-5a7 7 0 0 1-7-7v-7a7 7 0 0 1 7-7z"/>
+          <path class="mark-front" d="M9 11h13a7 7 0 0 1 7 7v8a7 7 0 0 1-7 7h-7l-8.5 6 2.5-6a7 7 0 0 1-7-7v-8a7 7 0 0 1 7-7z"/>
+          <circle class="mark-dot" cx="8.6" cy="22" r="1.9"/><circle class="mark-dot" cx="13.2" cy="22" r="1.9"/><circle class="mark-dot" cx="17.8" cy="22" r="1.9"/><circle class="mark-dot" cx="22.4" cy="22" r="1.9"/>
+        </svg>
+        <span class="brand-name">LinguaSEA</span>
+      </a>
+      <nav class="site-nav" aria-label="เมนูหลัก">
+        <ul>
+          <li class="nav-wide"><a href="#languages">ภาษา</a></li>
+          <li class="nav-wide"><a href="#how">บทเรียน</a></li>
+          <li class="nav-wide"><a href="#speaking">ฝึกพูด</a></li>
+          <li class="nav-wide"><a href="#faq">คำถามที่พบบ่อย</a></li>
+          <li><a href="/support.html">ช่วยเหลือ</a></li>
+          <li><a class="lang-switch" href="/en/" hreflang="en" lang="en"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-globe"/></svg>English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">แอปเรียนภาษาสำหรับคนไทย</p>
+          <h1 id="hero-title">เรียนจีน อังกฤษ ญี่ปุ่น เกาหลี <span class="hl">เข้าใจง่ายด้วยภาษาไทย</span></h1>
+          <p class="lead">บทเรียนสั้น ๆ บทละ 5–8 นาที ฝึกครบทั้งฟัง อ่าน และพูด คำศัพท์ทุกคำมีคำอ่านภาษาไทยกำกับ พร้อมคู่สนทนา AI ให้ลองพูดจริง และระบบตรวจการออกเสียงที่บอกได้ว่าต้องแก้ตรงไหน</p>
+          <div class="store-badges">
+            <!-- [TBD: App Store URL] Placeholder until the app is live: add href="https://apps.apple.com/…" and change "เร็ว ๆ นี้บน" to "ดาวน์โหลดบน". -->
+            <a class="store-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-phone"/></svg><span><small>เร็ว ๆ นี้บน</small><strong>App Store</strong></span></a>
+            <!-- [TBD: Google Play URL] Placeholder until the app is live. -->
+            <a class="store-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-phone"/></svg><span><small>เร็ว ๆ นี้บน</small><strong>Google Play</strong></span></a>
+          </div>
+          <ul class="hero-points">
+            <li>ระดับเริ่มต้นเรียนฟรีทุกภาษา</li>
+            <li>Premium ทดลองใช้ฟรี 7 วัน สำหรับแพ็กเกจรายปี</li>
+          </ul>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="ตัวอย่างหน้าจอบทเรียน: คำว่า 你好 อ่านว่า nǐ hǎo (หนี่ห่าว) แปลว่า สวัสดี">
+          <div class="phone">
+            <div class="phone-screen">
+              <span class="mock-progress"><span></span></span>
+              <div class="mock-card">
+                <span class="mock-label">คำใหม่</span>
+                <span class="mock-word" lang="zh-Hans">你好</span>
+                <span class="mock-reading" lang="zh-Latn">nǐ hǎo</span>
+                <span class="mock-translit">(หนี่ห่าว)</span>
+                <span class="mock-meaning">สวัสดี</span>
+                <span class="mock-buttons">
+                  <span class="mock-btn"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-volume"/></svg>ฟัง</span>
+                  <span class="mock-btn"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-volume"/></svg>ฟังช้า ๆ</span>
+                </span>
+              </div>
+              <span class="mock-next">ต่อไป</span>
+            </div>
+          </div>
+          <span class="bubble bubble-zh" lang="zh-Hans">中</span>
+          <span class="bubble bubble-en" lang="en">A</span>
+          <span class="bubble bubble-ja" lang="ja">あ</span>
+          <span class="bubble bubble-ko" lang="ko">한</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="who" aria-labelledby="who-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="who-title">เหมาะกับใคร</h2>
+          <p>ทำมาเพื่อคนไทยที่อยากเริ่มภาษาใหม่ ทั้งวัยเรียนและวัยทำงาน ไม่ต้องเก่งไวยากรณ์มาก่อนก็เรียนได้</p>
+        </div>
+        <ul class="grid grid-4">
+          <li class="card">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-sprout"/></svg></span>
+            <h3>เริ่มจากศูนย์</h3>
+            <p>ไม่ต้องมีพื้นฐาน เริ่มจากคำทักทาย เสียง และตัวอักษร แล้วค่อย ๆ ไปทีละขั้น</p>
+          </li>
+          <li class="card">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-cap"/></svg></span>
+            <h3>นักเรียน นักศึกษา</h3>
+            <p>ปูพื้นฐานให้แน่นตามระดับข้อสอบ HSK, JLPT, TOPIK และ CEFR ก่อนเรียนต่อหรือสอบจริง</p>
+          </li>
+          <li class="card">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-briefcase"/></svg></span>
+            <h3>วัยทำงาน</h3>
+            <p>ทักทาย แนะนำตัว และคุยเรื่องง่าย ๆ กับลูกค้าหรือเพื่อนร่วมงานชาวต่างชาติ</p>
+          </li>
+          <li class="card">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-plane"/></svg></span>
+            <h3>สายเที่ยว สายซีรีส์</h3>
+            <p>สั่งอาหาร ถามราคา ถามทางได้เองตอนไปเที่ยว และเริ่มฟังคำง่าย ๆ ในซีรีส์หรือเพลงที่ชอบออก</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="languages" aria-labelledby="languages-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="languages-title">4 ภาษาในแอปเดียว</h2>
+          <p>เลือกเรียนภาษาไหนก่อนก็ได้ สลับภาษาได้ตลอด และสมัคร Premium ครั้งเดียวใช้ได้ทั้ง 4 ภาษา</p>
+        </div>
+        <ul class="grid grid-4">
+          <li class="card lang-card lang-zh">
+            <span class="lang-glyph" lang="zh-Hans" aria-hidden="true">中</span>
+            <h3>ภาษาจีน <span class="native" lang="zh-Hans">中文</span></h3>
+            <p>เริ่มจากพินอินและเสียงวรรณยุกต์ 4 เสียง โดยเทียบกับวรรณยุกต์ไทยที่เราคุ้นเคยอยู่แล้ว</p>
+            <p class="sample">
+              <span class="sample-label">สวัสดี</span>
+              <span class="sample-word" lang="zh-Hans">你好</span>
+              <span class="sample-reading"><span lang="zh-Latn">nǐ hǎo</span> · หนี่ห่าว</span>
+            </p>
+            <p class="level-tag">เทียบระดับ <strong>HSK 1</strong></p>
+          </li>
+          <li class="card lang-card lang-en">
+            <span class="lang-glyph" lang="en" aria-hidden="true">A</span>
+            <h3>ภาษาอังกฤษ <span class="native" lang="en">English</span></h3>
+            <p>ฝึกเสียงที่คนไทยมักออกไม่ชัด เช่น th, v กับ w, r กับ l และเสียงพยัญชนะท้ายคำ</p>
+            <p class="sample">
+              <span class="sample-label">สวัสดี</span>
+              <span class="sample-word" lang="en">Hello</span>
+              <span class="sample-reading"><span lang="en-fonipa">həˈloʊ</span> · เฮลโล</span>
+            </p>
+            <p class="level-tag">เทียบระดับ <strong>CEFR A1</strong></p>
+          </li>
+          <li class="card lang-card lang-ja">
+            <span class="lang-glyph" lang="ja" aria-hidden="true">あ</span>
+            <h3>ภาษาญี่ปุ่น <span class="native" lang="ja">日本語</span></h3>
+            <p>หัดอ่านฮิรางานะทีละแถว แล้วต่อด้วยคาตากานะ ไปพร้อมกับคำศัพท์ที่ใช้ได้จริง</p>
+            <p class="sample">
+              <span class="sample-label">สวัสดี (ตอนกลางวัน)</span>
+              <span class="sample-word" lang="ja">こんにちは</span>
+              <span class="sample-reading"><span lang="ja-Latn">konnichiwa</span> · คนนิจิวะ</span>
+            </p>
+            <p class="level-tag">เทียบระดับ <strong>JLPT N5</strong></p>
+          </li>
+          <li class="card lang-card lang-ko">
+            <span class="lang-glyph" lang="ko" aria-hidden="true">한</span>
+            <h3>ภาษาเกาหลี <span class="native" lang="ko">한국어</span></h3>
+            <p>อ่านฮันกึลให้คล่อง ตั้งแต่สระ พยัญชนะ ไปจนถึงตัวสะกด (<span lang="ko">받침</span>) และการออกเสียงเชื่อมคำ</p>
+            <p class="sample">
+              <span class="sample-label">สวัสดี</span>
+              <span class="sample-word" lang="ko">안녕하세요</span>
+              <span class="sample-reading"><span lang="ko-Latn">annyeonghaseyo</span> · อันนยองฮาเซโย</span>
+            </p>
+            <p class="level-tag">เทียบระดับ <strong>TOPIK I</strong></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="how-title">1 บทเรียน มีอะไรบ้าง</h2>
+          <p>บทละประมาณ 5–8 นาที เรียนจบได้ระหว่างรอรถหรือช่วงพักกลางวัน</p>
+        </div>
+        <ol class="grid grid-3 steps">
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>คำใหม่</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-book"/></svg></div>
+            <p>ดูคำศัพท์พร้อมคำอ่าน คำอ่านภาษาไทย และความหมาย กดฟังเสียงได้ทั้งแบบปกติและแบบช้า</p>
+          </li>
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>บทสนทนา</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-chat"/></svg></div>
+            <p>เห็นคำที่เพิ่งเรียนในบทสนทนาสั้น ๆ พร้อมคำแปลภาษาไทยทุกประโยค</p>
+          </li>
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>รู้ไว้ใช่ว่า</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-bulb"/></svg></div>
+            <p>เกร็ดไวยากรณ์ การออกเสียง และวัฒนธรรม อธิบายเป็นภาษาไทย และเทียบกับภาษาไทยให้เห็นภาพ</p>
+          </li>
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>ฝึกฟังและอ่าน</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-check"/></svg></div>
+            <p>ฟังแล้วเลือกความหมาย ดูคำแล้วเลือกคำแปล หรือฟังแล้วเลือกคำที่ได้ยิน</p>
+          </li>
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>ฝึกพูด</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-mic"/></svg></div>
+            <p>ฟังแล้วพูดตามออกเสียงดัง ๆ แล้วดูคะแนนการออกเสียงได้ทันที</p>
+          </li>
+          <li class="card step">
+            <div class="step-top"><span class="step-num" aria-hidden="true"></span><h3>เก็บ XP</h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-star"/></svg></div>
+            <p>เรียนจบได้ XP และนับจำนวนวันที่เรียนติดกัน ช่วยให้มีแรงเรียนต่อทุกวัน</p>
+          </li>
+        </ol>
+        <div class="callout">
+          <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-repeat"/></svg></span>
+          <div>
+            <h3>ทบทวนก่อนลืม</h3>
+            <p>คำที่เรียนแล้วจะวนกลับมาให้ทบทวนในวันที่เหมาะสม ด้วยระบบทบทวนแบบเว้นระยะ (spaced repetition) จำได้นานขึ้นโดยไม่ต้องท่องซ้ำทุกวัน</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="speaking" aria-labelledby="speaking-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="speaking-title">ฝึกพูดจริง ไม่ใช่แค่ท่องจำ</h2>
+          <p>สองตัวช่วยที่ทำให้กล้าพูดมากขึ้น ใช้ได้ทั้งภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลี</p>
+        </div>
+        <div class="grid grid-2">
+          <article class="card feature">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-sparkle"/></svg></span>
+            <h3>คู่สนทนา AI</h3>
+            <p>เรียนจบแต่ละหน่วยแล้ว ลองคุยในสถานการณ์ของหน่วยนั้นได้เลย เช่น แนะนำตัว สั่งเครื่องดื่ม หรือถามราคา AI จะเล่นเป็นอีกฝ่ายและเน้นใช้คำที่คุณเรียนมาแล้ว จะพิมพ์หรือพูดตอบก็ได้</p>
+            <ul class="checklist">
+              <li>ทุกประโยคมีคำอ่านและคำแปลภาษาไทย</li>
+              <li>พูดผิดตรงไหน บอกเป็นภาษาไทยอย่างใจดี พร้อมประโยคที่ถูกต้อง</li>
+              <li>นึกไม่ออก มีตัวช่วยบอกว่าควรพูดอะไรต่อ</li>
+            </ul>
+            <figure class="mock">
+              <figcaption class="mock-caption">ตัวอย่าง: หน่วยแนะนำตัว · ภาษาอังกฤษ</figcaption>
+              <div class="msg msg-ai">
+                <p lang="en">Hi! I’m Emma. What’s your name?</p>
+                <p class="tr">สวัสดี! ฉันชื่อเอ็มม่า เธอชื่ออะไร</p>
+              </div>
+              <div class="msg msg-me"><p lang="en">My name Nam.</p></div>
+              <div class="msg-feedback"><p>เกือบถูกแล้ว! ขาด <span lang="en">is</span> ไปนิดเดียว: <strong lang="en">My name is Nam.</strong></p></div>
+              <div class="msg msg-ai">
+                <p lang="en">Nice to meet you, Nam! Where are you from?</p>
+                <p class="tr">ยินดีที่ได้รู้จักนะ น้ำ! เธอมาจากไหน</p>
+              </div>
+              <div class="msg-hint"><p>ตัวช่วย: ลองตอบว่า <span lang="en">I’m from Bangkok.</span></p></div>
+            </figure>
+            <p class="small muted">คู่สนทนาเป็น AI ไม่ใช่คนจริง ไม่ต้องบอกข้อมูลส่วนตัว เช่น ชื่อ-นามสกุลจริง เบอร์โทร หรือที่อยู่</p>
+          </article>
+
+          <article class="card feature">
+            <span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-wave"/></svg></span>
+            <h3>ตรวจการออกเสียง</h3>
+            <p>พูดตามแล้วรู้ผลทันที ได้คะแนน 0–100 พร้อมดูทีละคำว่าคำไหนออกเสียงดีแล้ว และคำไหนควรฝึกเพิ่ม</p>
+            <ul class="checklist">
+              <li>ใช้ได้กับคำและประโยคในบทเรียน</li>
+              <li>เห็นจุดที่ต้องแก้ ไม่ต้องเดาเองว่าพูดถูกหรือยัง</li>
+            </ul>
+            <figure class="mock score">
+              <figcaption class="mock-caption">ตัวอย่างผลการตรวจ</figcaption>
+              <p class="score-target" lang="en">Thank you</p>
+              <p class="muted">แธงก์ คิว</p>
+              <div class="ring" style="--value: 82"><span>82<small>คะแนน</small></span></div>
+              <ul class="word-scores">
+                <li class="warn"><span lang="en">Thank</span> 64<small>ควรฝึกเพิ่ม</small></li>
+                <li class="good"><span lang="en">you</span> 95<small>ดีมาก</small></li>
+              </ul>
+            </figure>
+          </article>
+        </div>
+        <p class="note">ผู้ใช้ฟรีใช้คู่สนทนา AI และการตรวจการออกเสียงได้วันละไม่กี่ครั้ง สมาชิก Premium ใช้ได้มากขึ้นทุกวัน</p>
+      </div>
+    </section>
+
+    <section class="section" id="levels" aria-labelledby="levels-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="levels-title">ระดับที่มีตอนนี้</h2>
+          <p>ทุกภาษามี 2 ระดับ เรียนจบทั้งสองระดับแล้วจะได้พื้นฐานที่สอดคล้องกับข้อสอบระดับแรกของแต่ละภาษา</p>
+        </div>
+        <div class="levels">
+          <div class="card stage">
+            <p class="pill pill-free">ฟรี</p>
+            <h3>ระดับ A · เริ่มต้น</h3>
+            <p class="cefr">ประมาณ CEFR pre-A1</p>
+            <p>ตัวอย่างหัวข้อ: เสียงและตัวอักษร คำทักทาย แนะนำตัว ตัวเลขและอายุ อาหารและเครื่องดื่ม</p>
+          </div>
+          <div class="card stage">
+            <p class="pill pill-premium">Premium</p>
+            <h3>ระดับ B · พื้นฐาน</h3>
+            <p class="cefr">ประมาณ CEFR A1</p>
+            <p>ตัวอย่างหัวข้อ: เวลาและวันที่ ซื้อของและราคา สถานที่และการเดินทาง กิจวัตรประจำวัน (ภาษาญี่ปุ่นเรียนคาตากานะ ภาษาเกาหลีเรียนตัวสะกด)</p>
+          </div>
+          <div class="card">
+            <table class="exam-table">
+              <caption>จบระดับ A และ B แล้ว เทียบได้กับ</caption>
+              <thead>
+                <tr><th scope="col">ภาษา</th><th scope="col">ข้อสอบ / กรอบอ้างอิง</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">ภาษาจีน</th><td>HSK 1</td></tr>
+                <tr><th scope="row">ภาษาญี่ปุ่น</th><td>JLPT N5</td></tr>
+                <tr><th scope="row">ภาษาเกาหลี</th><td>TOPIK I <span>(ระดับ 1)</span></td></tr>
+                <tr><th scope="row">ภาษาอังกฤษ</th><td>CEFR A1</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p class="levels-note small muted">ระดับที่สูงขึ้นจะทยอยเพิ่มในภายหลัง เนื้อหาออกแบบให้สอดคล้องกับระดับของข้อสอบ แต่ไม่ใช่ข้อสอบจริง และไม่ได้มีส่วนเกี่ยวข้องกับหน่วยงานผู้จัดสอบ</p>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="faq-title">คำถามที่พบบ่อย</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>ใช้ฟรีได้ไหม ต่างจาก Premium ยังไง</summary>
+            <div class="faq-body">
+              <p>ใช้ฟรีได้ ระดับ A (เริ่มต้น) ของทั้ง 4 ภาษาเรียนได้ฟรี รวมถึงการทบทวนคำศัพท์ XP และการนับวันที่เรียนติดกัน ส่วนคู่สนทนา AI และการตรวจการออกเสียง ผู้ใช้ฟรีลองได้วันละไม่กี่ครั้ง</p>
+              <p>Premium ปลดล็อกระดับ B (พื้นฐาน) ของทุกภาษา และใช้คู่สนทนา AI กับการตรวจการออกเสียงได้มากขึ้นทุกวัน ราคาจะแสดงในแอปก่อนยืนยันการสมัครเสมอ</p>
+            </div>
+          </details>
+          <details>
+            <summary>มีทดลองใช้ฟรีไหม</summary>
+            <div class="faq-body">
+              <p>มี แพ็กเกจรายปีทดลองใช้ฟรี 7 วัน (สำหรับบัญชีที่ยังไม่เคยใช้สิทธิ์ทดลอง) ถ้าไม่อยากใช้ต่อ ให้ยกเลิกก่อนหมดช่วงทดลองอย่างน้อย 24 ชั่วโมง จะได้ไม่ถูกเรียกเก็บเงิน</p>
+            </div>
+          </details>
+          <details>
+            <summary>ยกเลิกได้ไหม ต้องทำยังไง</summary>
+            <div class="faq-body">
+              <p>ยกเลิกได้ทุกเมื่อ ในการตั้งค่าการสมัครของ App Store หรือ Google Play เพราะการชำระเงินทั้งหมดทำผ่านสโตร์ หลังยกเลิกยังใช้ Premium ได้จนจบรอบที่ชำระไว้แล้ว และการลบแอปไม่ได้เป็นการยกเลิกการสมัคร</p>
+              <p><a href="/support.html#cancel">ดูขั้นตอนการยกเลิกบน iPhone และ Android</a></p>
+            </div>
+          </details>
+          <details>
+            <summary>ตอนนี้มีระดับไหนบ้าง</summary>
+            <div class="faq-body">
+              <p>ทุกภาษามี 2 ระดับ คือ A เริ่มต้น (ฟรี) และ B พื้นฐาน (Premium) เรียนจบทั้งสองระดับแล้วจะได้พื้นฐานที่สอดคล้องกับ HSK 1 (จีน) JLPT N5 (ญี่ปุ่น) TOPIK I ระดับ 1 (เกาหลี) และ CEFR A1 (อังกฤษ) ระดับที่สูงขึ้นจะทยอยเพิ่มในภายหลัง</p>
+            </div>
+          </details>
+          <details>
+            <summary>ไม่มีพื้นฐานเลย เรียนได้ไหม</summary>
+            <div class="faq-body">
+              <p>ได้ ระดับ A เริ่มตั้งแต่คำทักทาย เสียง และตัวอักษร คำศัพท์ทุกคำมีคำอ่านภาษาไทยกำกับ และคำอธิบายทั้งหมดเป็นภาษาไทย</p>
+            </div>
+          </details>
+          <details>
+            <summary>เรียนหลายภาษาพร้อมกันได้ไหม</summary>
+            <div class="faq-body">
+              <p>ได้ สลับภาษาได้ตลอดในแอป บทที่เรียนไปแล้วไม่หาย และสมัคร Premium ครั้งเดียวใช้ได้ทั้ง 4 ภาษา</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-card">
+          <ul class="greetings">
+            <li lang="zh-Hans">你好</li>
+            <li lang="en">Hello</li>
+            <li lang="ja">こんにちは</li>
+            <li lang="ko">안녕하세요</li>
+          </ul>
+          <h2 id="cta-title">เริ่มจากคำว่า “สวัสดี” ในภาษาที่อยากพูด</h2>
+          <p>แอปจะเปิดให้ดาวน์โหลดบน iPhone และ Android เร็ว ๆ นี้</p>
+          <div class="store-badges">
+            <!-- [TBD: App Store URL] -->
+            <a class="store-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-phone"/></svg><span><small>เร็ว ๆ นี้บน</small><strong>App Store</strong></span></a>
+            <!-- [TBD: Google Play URL] -->
+            <a class="store-badge"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-phone"/></svg><span><small>เร็ว ๆ นี้บน</small><strong>Google Play</strong></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav aria-label="ลิงก์ท้ายเว็บ">
+        <ul class="footer-links">
+          <li><a href="/support.html">ช่วยเหลือ</a></li>
+          <li><a href="/legal/privacy-th.html">นโยบายความเป็นส่วนตัว</a></li>
+          <li><a href="/legal/terms-th.html">ข้อกำหนดการใช้งาน</a></li>
+          <li><a href="/legal/delete-account-th.html">ลบบัญชีและข้อมูล</a></li>
+          <li><a href="/en/" hreflang="en" lang="en">English</a></li>
+        </ul>
+      </nav>
+      <p class="fineprint">HSK, JLPT, TOPIK และ CEFR เป็นชื่อข้อสอบและกรอบอ้างอิงของหน่วยงานเจ้าของ แอปนี้ไม่ได้มีส่วนเกี่ยวข้องหรือได้รับการรับรองจากหน่วยงานเหล่านั้น</p>
+      <p class="fineprint">App Store เป็นเครื่องหมายบริการของ Apple Inc. ส่วน Google Play เป็นเครื่องหมายการค้าของ Google LLC</p>
+    </div>
+  </footer>
+</body>
+</html>
