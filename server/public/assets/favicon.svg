@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <style>
+    .back { fill: #e8a33d; }
+    .front { fill: #1f7a5c; stroke: #fbfaf6; stroke-width: 2.5; }
+    .dot { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .back { fill: #f0b65a; }
+      .front { fill: #3dbe8f; stroke: #0e1412; }
+      .dot { fill: #04140e; }
+    }
+  </style>
+  <!-- Two speech bubbles; four dots for the four languages. Same drawing as the header logo. -->
+  <path class="back" d="M20 3h11a7 7 0 0 1 7 7v7a7 7 0 0 1-7 7l4.5 6-10.5-6h-5a7 7 0 0 1-7-7v-7a7 7 0 0 1 7-7z"/>
+  <path class="front" d="M9 11h13a7 7 0 0 1 7 7v8a7 7 0 0 1-7 7h-7l-8.5 6 2.5-6a7 7 0 0 1-7-7v-8a7 7 0 0 1 7-7z"/>
+  <circle class="dot" cx="8.6" cy="22" r="1.9"/>
+  <circle class="dot" cx="13.2" cy="22" r="1.9"/>
+  <circle class="dot" cx="17.8" cy="22" r="1.9"/>
+  <circle class="dot" cx="22.4" cy="22" r="1.9"/>
+</svg>

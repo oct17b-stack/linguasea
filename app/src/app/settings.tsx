@@ -150,7 +150,13 @@ export default function Settings() {
       <Section title={t('settings.subscription')}>
         <ThemedText>{premium ? `👑 ${t('settings.premiumActive')}` : t('settings.free')}</ThemedText>
         {!premium ? <Button label={`👑 ${t('home.premium')}`} onPress={() => router.push('/paywall')} /> : null}
-        <Button variant="secondary" label={t('paywall.restore')} busy={restoring} onPress={() => void onRestore()} />
+        <Button
+          variant="secondary"
+          label={t('paywall.restore')}
+          busy={restoring}
+          onPress={() => void onRestore()}
+          style={{ backgroundColor: c.background }}
+        />
       </Section>
 
       {privacy && terms ? (

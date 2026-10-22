@@ -35,7 +35,7 @@ export function SpeakStep({ step, course }: SpeakProps) {
       <ThemedText type="smallBold">🎙️ {t('step.speak')}</ThemedText>
       <WordFace word={word} />
       <ThemedText style={styles.centerText}>{word.meaning}</ThemedText>
-      <ListenButtons onListen={(slow) => playItem(course, word, slow)} />
+      <ListenButtons onCard onListen={(slow) => playItem(course, word, slow)} />
       {apiEnabled ? (
         <Scorer target={course.course.target} text={spoken(word)} />
       ) : (
@@ -151,8 +151,8 @@ function Scorer({ target, text }: { target: Target; text: string }) {
 
   const busy = phase.kind === 'starting' || phase.kind === 'scoring';
   const isRecording = phase.kind === 'recording';
-  // Scoring is switched off on the server: no point offering the microphone again.
-  const canRecord = !(phase.kind === 'fallback' && phase.reason === 'unavailable');
+  // Scoring is switched off on the server, or today's scorings are used up: no point recording again.
+  const canRecord = phase.kind !== 'limit' && !(phase.kind === 'fallback' && phase.reason === 'unavailable');
   const caption = isRecording
     ? t('speak.tapToStop')
     : phase.kind === 'scoring'
@@ -174,7 +174,12 @@ function Scorer({ target, text }: { target: Target; text: string }) {
               <ThemedText type="small" style={[styles.centerText, { color: c.textSecondary }]}>
                 {t('speak.limitPremium')}
               </ThemedText>
-              <Button variant="secondary" label={`👑 ${t('home.premium')}`} onPress={() => router.push('/paywall')} />
+              <Button
+                variant="secondary"
+                label={`👑 ${t('home.premium')}`}
+                onPress={() => router.push('/paywall')}
+                style={{ backgroundColor: c.background }}
+              />
             </>
           ) : null}
         </View>

@@ -7,13 +7,15 @@ import { Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
 import { useApp } from '@/state/app-state';
 
-/** Listen / listen slowly. */
-export function ListenButtons({ onListen }: { onListen: (slow: boolean) => void }) {
+/** Listen / listen slowly. `onCard`: drawn on a Card, so the buttons take the page colour to stand out. */
+export function ListenButtons({ onListen, onCard = false }: { onListen: (slow: boolean) => void; onCard?: boolean }) {
   const { t } = useApp();
+  const c = useTheme();
+  const style = [styles.flex, onCard ? { backgroundColor: c.background } : null];
   return (
     <View style={styles.row}>
-      <Button variant="secondary" label={`🔊 ${t('common.listen')}`} onPress={() => onListen(false)} style={styles.flex} />
-      <Button variant="secondary" label={`🐢 ${t('common.listenSlow')}`} onPress={() => onListen(true)} style={styles.flex} />
+      <Button variant="secondary" label={`🔊 ${t('common.listen')}`} onPress={() => onListen(false)} style={style} />
+      <Button variant="secondary" label={`🐢 ${t('common.listenSlow')}`} onPress={() => onListen(true)} style={style} />
     </View>
   );
 }

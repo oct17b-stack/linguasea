@@ -37,7 +37,7 @@ export function LearnStep({ step, course }: { step: StepOf<'learn'>; course: Cou
       <ThemedText type="subtitle" style={[styles.centerText, styles.meaning]}>
         {word.meaning}
       </ThemedText>
-      <ListenButtons onListen={(slow) => playItem(course, word, slow)} />
+      <ListenButtons onCard onListen={(slow) => playItem(course, word, slow)} />
     </Card>
   );
 }
