@@ -17,11 +17,13 @@ export const DIALOGUE_RATE = '0%';
  * Voice list: https://learn.microsoft.com/azure/ai-services/speech-service/language-support?tabs=tts
  */
 export const VOICES: Record<Target, { lang: string; item: string; a: string; b: string; c: string }> = {
-  zh: { lang: 'zh-CN', item: 'zh-CN-XiaoxiaoNeural', a: 'zh-CN-XiaoxiaoNeural', b: 'zh-CN-YunxiNeural', c: 'zh-CN-XiaoyiNeural' },
+  zh: { lang: 'zh-CN', item: 'zh-CN-XiaoxiaoNeural', a: 'zh-CN-XiaoxiaoNeural', b: 'zh-CN-YunxiNeural', c: 'zh-CN-XiaohanNeural' },
   en: { lang: 'en-US', item: 'en-US-JennyNeural', a: 'en-US-JennyNeural', b: 'en-US-GuyNeural', c: 'en-US-AriaNeural' },
   ja: { lang: 'ja-JP', item: 'ja-JP-NanamiNeural', a: 'ja-JP-NanamiNeural', b: 'ja-JP-KeitaNeural', c: 'ja-JP-AoiNeural' },
-  ko: { lang: 'ko-KR', item: 'ko-KR-SunHiNeural', a: 'ko-KR-SunHiNeural', b: 'ko-KR-InJoonNeural', c: 'ko-KR-SeoHyeonNeural' },
+  ko: { lang: 'ko-KR', item: 'ko-KR-SunHiNeural', a: 'ko-KR-SunHiNeural', b: 'ko-KR-InJoonNeural', c: 'ko-KR-JiMinNeural' },
 };
+
+// Adult voices only (some Azure voices, e.g. ko-KR-SeoHyeonNeural, are children's voices).
 
 /** What Azure is asked for: SSML xml:lang, voice name and prosody rate. */
 export type Voice = { lang: string; name: string; rate: string };

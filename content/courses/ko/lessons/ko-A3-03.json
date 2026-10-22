@@ -2,7 +2,7 @@
   "id": "ko-A3-03",
   "target": "ko",
   "stage": "A",
-  "minutes": 5,
+  "minutes": 6,
   "items": [
     {
       "id": "ko.hanguk",
@@ -38,23 +38,13 @@
   "dialogue": [
     {
       "speaker": "b",
-      "text": "남 씨, 일본 사람이에요?",
-      "reading": "Nam ssi, Ilbon saramieyo?"
+      "text": "남 씨, 어느 나라 사람이에요? 일본 사람이에요?",
+      "reading": "Nam ssi, eoneu nara saramieyo? Ilbon saramieyo?"
     },
     {
       "speaker": "a",
-      "text": "아니요, 일본 사람이 아니에요.",
-      "reading": "Aniyo, Ilbon sarami anieyo."
-    },
-    {
-      "speaker": "b",
-      "text": "어느 나라 사람이에요?",
-      "reading": "Eoneu nara saramieyo?"
-    },
-    {
-      "speaker": "a",
-      "text": "태국 사람이에요. 민준 씨는요?",
-      "reading": "Taeguk saramieyo. Minjun ssineunyo?"
+      "text": "아니요, 일본 사람이 아니에요. 태국 사람이에요. 민준 씨는요?",
+      "reading": "Aniyo, Ilbon sarami anieyo. Taeguk saramieyo. Minjun ssineunyo?"
     },
     {
       "speaker": "b",

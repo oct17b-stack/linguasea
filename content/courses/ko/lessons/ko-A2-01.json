@@ -61,7 +61,11 @@
   "exercises": [
     {
       "type": "listen-text",
-      "item": "ko.letter-a"
+      "item": "ko.letter-a",
+      "options": [
+        "ko.letter-eo",
+        "ko.letter-o"
+      ]
     },
     {
       "type": "choose-meaning",
@@ -117,7 +121,11 @@
     },
     {
       "type": "listen-text",
-      "item": "ko.letter-i"
+      "item": "ko.letter-i",
+      "options": [
+        "ko.letter-eu",
+        "ko.letter-u"
+      ]
     },
     {
       "type": "choose-meaning",

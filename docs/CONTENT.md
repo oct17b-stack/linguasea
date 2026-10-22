@@ -60,8 +60,10 @@ content/_review/<目标语>.md                        给母语老师的审校�
 | | 中文 | 日语 | 韩语 | 英语 |
 |---|---|---|---|---|
 | 主角（a）：泰国大学生 น้ำ，20 岁，来自曼谷 | 小南 Xiǎonán | ナム Namu | 남 Nam | Nam |
-| 好朋友 | 王明 Wáng Míng（男，北京人） | たなか ゆき Tanaka Yuki（女） | 김민준 Gim Minjun（男） | Emma（女，加拿大人） |
-| 老师 | 李老师 Lǐ lǎoshī | やまだせんせい Yamada sensei | 이 선생님 I seonsaengnim | Mr. Brown |
+| 好朋友 | 王明 Wáng Míng（男，北京人，`b`） | たなか ゆき Tanaka Yuki（女，`c`） | 김민준 Gim Minjun（男，`b`） | Emma（女，加拿大人，`c`） |
+| 老师 | 李老师 Lǐ lǎoshī（女，`c`） | やまだせんせい Yamada sensei（男，`b`） | 이 선생님 I seonsaengnim（女，`c`） | Mr. Brown（男，`b`） |
+
+主角 น้ำ 的固定设定（四门课一致）：四口之家——爸爸、妈妈（都是老师，住在曼谷）、妹妹 ฟ้า（Fah，17 岁，高中生）和自己；生日 6 月 5 日；在曼谷读大学。
 
 店员、司机等路人可以随意设定，但不要再新增固定角色。
 
