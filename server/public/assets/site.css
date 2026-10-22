@@ -42,6 +42,8 @@
   --badge-text: #ffffff;
   --phone: #1d2622;
   --focus: #1f7a5c;
+  --glow-green: #dcf2e8;
+  --glow-amber: #fdf0d9;
 
   --shadow-sm: 0 1px 2px rgb(20 32 26 / 0.06);
   --shadow: 0 1px 2px rgb(20 32 26 / 0.05), 0 12px 32px -12px rgb(20 32 26 / 0.22);
@@ -97,6 +99,8 @@
     --badge-text: #0e1412;
     --phone: #2c3732;
     --focus: #93e2c3;
+    --glow-green: rgb(61 190 143 / 0.13);
+    --glow-amber: rgb(240 182 90 / 0.07);
 
     --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.4);
     --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 32px -12px rgb(0 0 0 / 0.6);
@@ -480,8 +484,8 @@ ol.grid {
 .hero,
 .page-hero {
   background:
-    radial-gradient(55% 60% at 92% 8%, var(--primary-soft), transparent 70%),
-    radial-gradient(45% 50% at 0% 100%, var(--accent-soft), transparent 70%),
+    radial-gradient(55% 60% at 92% 8%, var(--glow-green), transparent 70%),
+    radial-gradient(45% 50% at 0% 100%, var(--glow-amber), transparent 70%),
     var(--bg);
 }
 .hero {
@@ -902,6 +906,9 @@ ol.grid {
 }
 
 /* ---------- Speaking: AI partner + pronunciation ---------- */
+.feature-grid {
+  align-items: start;
+}
 .feature {
   display: flex;
   flex-direction: column;
@@ -998,10 +1005,6 @@ ol.grid {
 .score {
   justify-items: center;
   text-align: center;
-}
-.feature .mock.score {
-  flex: 1;
-  align-content: center;
 }
 .score-target {
   font-size: 1.5rem;
@@ -1218,7 +1221,7 @@ html[lang="en"] .exam-table td span {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   background:
-    radial-gradient(60% 80% at 100% 0%, var(--accent-soft), transparent 70%),
+    radial-gradient(60% 80% at 100% 0%, var(--glow-amber), transparent 70%),
     var(--primary-soft);
   text-align: center;
 }
@@ -1334,8 +1337,10 @@ html[lang="en"] .exam-table td span {
 .support-body {
   display: grid;
   gap: 20px;
-  max-width: 944px;
   padding-block: 8px 64px;
+}
+.support-body > * {
+  max-width: 880px;
 }
 .support-section {
   padding: 24px 18px;
@@ -1430,6 +1435,10 @@ html[lang="en"] .exam-table td span {
 }
 .ui {
   font-weight: 700;
+  white-space: nowrap;
+}
+.ui-long {
+  white-space: normal;
 }
 .ui-en {
   color: var(--text-2);
@@ -1437,6 +1446,7 @@ html[lang="en"] .exam-table td span {
 
 /* Placeholder text still to be filled in before launch. */
 .tbd {
+  white-space: nowrap;
   padding: 1px 6px;
   border: 1px dashed var(--accent);
   border-radius: 6px;
