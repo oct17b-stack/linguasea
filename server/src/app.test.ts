@@ -150,16 +150,19 @@ test('pronunciation: validates input, needs scoring configured, and enforces the
   assert.equal(res.statusCode, 503);
 });
 
-test('serves legal pages and generated audio', async () => {
+test('serves the website, legal pages and generated audio', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'static-'));
-  mkdirSync(join(dir, 'legal'));
+  mkdirSync(join(dir, 'public/legal'), { recursive: true });
   mkdirSync(join(dir, 'audio/zh'), { recursive: true });
-  writeFileSync(join(dir, 'legal/privacy-th.html'), '<h1>นโยบายความเป็นส่วนตัว</h1>');
+  writeFileSync(join(dir, 'public/index.html'), '<h1>LinguaSEA</h1>');
+  writeFileSync(join(dir, 'public/legal/privacy-th.html'), '<h1>นโยบายความเป็นส่วนตัว</h1>');
   writeFileSync(join(dir, 'audio/zh/abc.mp3'), 'ID3');
-  const { app } = await setup({ legalDir: join(dir, 'legal'), audioDir: join(dir, 'audio') });
+  const { app } = await setup({ publicDir: join(dir, 'public'), audioDir: join(dir, 'audio') });
+  assert.match((await app.inject({ url: '/' })).body, /LinguaSEA/);
   const page = await app.inject({ url: '/legal/privacy-th.html' });
   assert.equal(page.statusCode, 200);
   assert.match(page.body, /นโยบาย/);
+  assert.equal((await app.inject({ url: '/health' })).statusCode, 200);
   const clip = await app.inject({ url: '/audio/zh/abc.mp3' });
   assert.equal(clip.statusCode, 200);
   assert.match(String(clip.headers['cache-control']), /immutable/);

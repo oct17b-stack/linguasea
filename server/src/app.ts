@@ -44,8 +44,8 @@ export type Options = {
   quotas?: Quotas;
   /** Generated audio (tools/audio) served at /audio/. */
   audioDir?: string;
-  /** Static pages (privacy policy, terms, account deletion) served at /legal/. */
-  legalDir?: string;
+  /** Public website (landing and support pages, /legal/ policies) served at /. */
+  publicDir?: string;
   now?: () => Date;
   logger?: boolean;
   /** Requests per minute per client IP. */
@@ -101,7 +101,7 @@ export function buildServer({
   bundle,
   quotas = DEFAULT_QUOTAS,
   audioDir,
-  legalDir,
+  publicDir,
   now = () => new Date(),
   logger = false,
   rateLimit: perMinute = 300,
@@ -128,8 +128,8 @@ export function buildServer({
     // File names are content hashes, so clips can be cached forever.
     app.register(fastifyStatic, { root: audioDir, prefix: '/audio/', immutable: true, maxAge: '365d' });
   }
-  if (legalDir && existsSync(legalDir)) {
-    app.register(fastifyStatic, { root: legalDir, prefix: '/legal/', decorateReply: false, maxAge: '1h' });
+  if (publicDir && existsSync(publicDir)) {
+    app.register(fastifyStatic, { root: publicDir, prefix: '/', decorateReply: false, maxAge: '1h' });
   }
 
   async function account(req: FastifyRequest): Promise<Account | undefined> {

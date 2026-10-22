@@ -40,7 +40,7 @@ const app = buildServer({
   bundle,
   quotas: config.quotas,
   audioDir: config.audioDir,
-  legalDir: config.legalDir,
+  publicDir: config.publicDir,
   logger: true,
 });
 

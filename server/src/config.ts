@@ -14,7 +14,7 @@ export type Config = {
   tutor?: { model: string };
   contentDir: string;
   audioDir: string;
-  legalDir: string;
+  publicDir: string;
   quotas: Quotas;
 };
 
@@ -36,7 +36,7 @@ export function readConfig(env: NodeJS.ProcessEnv = process.env): Config {
     tutor: env.ANTHROPIC_API_KEY?.trim() ? { model: env.TUTOR_MODEL?.trim() || DEFAULT_TUTOR_MODEL } : undefined,
     contentDir: env.CONTENT_DIR?.trim() || repoPath('content'),
     audioDir: env.AUDIO_DIR?.trim() || repoPath('content/audio'),
-    legalDir: env.LEGAL_DIR?.trim() || repoPath('server/public/legal'),
+    publicDir: env.PUBLIC_DIR?.trim() || repoPath('server/public'),
     quotas: {
       pronunciationFree: positiveInt(env.PRONUNCIATION_FREE_PER_DAY, DEFAULT_QUOTAS.pronunciationFree),
       pronunciationPremium: positiveInt(env.PRONUNCIATION_PREMIUM_PER_DAY, DEFAULT_QUOTAS.pronunciationPremium),
