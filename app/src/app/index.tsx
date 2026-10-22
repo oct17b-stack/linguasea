@@ -210,9 +210,6 @@ function UnitCard({
           {t('unit.progress', { done, total: unit.lessons.length })}
         </ThemedText>
       </View>
-      {unit.nodes.map((node) => (
-        <NodeRow key={node.id} course={course} node={node} completed={completed} premium={premium} t={t} />
-      ))}
       {tutor ? (
         <Pressable
           accessibilityRole="button"
@@ -228,6 +225,9 @@ function UnitCard({
           <ThemedText style={[styles.state, { color: c.textSecondary }]}>›</ThemedText>
         </Pressable>
       ) : null}
+      {unit.nodes.map((node) => (
+        <NodeRow key={node.id} course={course} node={node} completed={completed} premium={premium} t={t} />
+      ))}
     </Card>
   );
 }

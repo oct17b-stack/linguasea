@@ -233,6 +233,12 @@ function Chat({ course, target, unitId }: { course: CourseBundle; target: Target
     }
   };
 
+  // Keep the newest line (and any status card) in view.
+  useEffect(() => {
+    const id = setTimeout(() => list.current?.scrollToEnd({ animated: true }), 50);
+    return () => clearTimeout(id);
+  }, [entries, status]);
+
   const lastTurn = [...entries].reverse().find((e): e is Extract<Entry, { role: 'tutor' }> => e.role === 'tutor')?.turn;
   const canType = status.kind === 'ready';
 
