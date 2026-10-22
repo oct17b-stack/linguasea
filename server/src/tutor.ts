@@ -37,8 +37,8 @@ export const DEFAULT_TUTOR_MODEL = 'claude-opus-5-5';
 const TARGET_NAMES: Record<Target, { name: string; reading: string }> = {
   zh: { name: 'Mandarin Chinese (simplified characters)', reading: 'Hanyu Pinyin with tone marks' },
   en: { name: 'American English', reading: 'American IPA without slashes' },
-  ja: { name: 'Japanese (polite です/ます style)', reading: 'Hepburn romaji with macrons' },
-  ko: { name: 'Korean (polite 해요체)', reading: 'Revised Romanization' },
+  ja: { name: 'Japanese (polite です/ます style unless the role-play calls for casual or honorific speech)', reading: 'Hepburn romaji with macrons' },
+  ko: { name: 'Korean (polite 해요체 unless the role-play calls for casual or formal speech)', reading: 'Revised Romanization' },
 };
 
 const L1_NAMES: Record<L1, string> = {
@@ -76,7 +76,7 @@ Learner's language: ${L1_NAMES[s.l1]}.
 Level: CEFR ${s.cefr}.
 Unit: ${s.title}
 Goal: ${s.goal}
-
+${s.situation ? `Role-play: ${s.situation}\n` : ''}
 Vocabulary the learner knows (use these; avoid other words where you can):
 ${vocab || '(none yet)'}
 

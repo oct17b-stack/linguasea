@@ -35,7 +35,7 @@ export function fixtureBundle(): Bundle {
         free: true,
         units: [
           { id: 'ja-A1', lessons: ['ja-A1-01'] },
-          { id: 'ja-A2', lessons: ['ja-A2-01'] },
+          { id: 'ja-A2', lessons: ['ja-A2-01'], scenario: 'B is a café clerk. Nam orders water and tea.' },
         ],
       },
     ],

@@ -17,6 +17,7 @@ describe('applyPlan', () => {
               id: 'zh-C1',
               title_th: 'งานอดิเรก',
               goal_th: 'เล่าเรื่องงานอดิเรกได้',
+              scenario: 'B is Wang Ming at the club fair.',
               lessons: [
                 { id: 'zh-C1-01', topic: 'x', items: [] },
                 { id: 'zh-C1-r01', kind: 'reader', topic: 'y', items: [] },
@@ -35,7 +36,7 @@ describe('applyPlan', () => {
       cefr: 'A2',
       exam: 'HSK 2',
       free: false,
-      units: [{ id: 'zh-C1', lessons: ['zh-C1-01', 'zh-C1-r01'] }],
+      units: [{ id: 'zh-C1', lessons: ['zh-C1-01', 'zh-C1-r01'], scenario: 'B is Wang Ming at the club fair.' }],
     });
     expect(out.gloss.units['zh-C1']).toEqual({ title: 'งานอดิเรก', goal: 'เล่าเรื่องงานอดิเรกได้' });
     expect(out.gloss.stages.C.description).toContain('HSK 2');
@@ -57,7 +58,7 @@ describe('applyPlan', () => {
           minutes: 6,
           units: [
             { id: 'zh-A10', title_th: 'สิบ', goal_th: 'g10', lessons: [{ id: 'zh-A10-01', topic: '', items: [] }] },
-            { id: 'zh-A1', title_th: 'ใหม่', goal_th: 'g1', lessons: [{ id: 'zh-A1-03', topic: '', items: [] }] },
+            { id: 'zh-A1', title_th: 'ใหม่', goal_th: 'g1', scenario: 's1', lessons: [{ id: 'zh-A1-03', topic: '', items: [] }] },
             { id: 'zh-A7', title_th: 'เจ็ด', goal_th: 'g7', lessons: [{ id: 'zh-A7-01', topic: '', items: [] }] },
           ],
         },
@@ -68,6 +69,8 @@ describe('applyPlan', () => {
     expect(a.free).toBe(true);
     expect(a.units.map((u: { id: string }) => u.id)).toEqual(['zh-A1', 'zh-A7', 'zh-A10']);
     expect(a.units[0].lessons).toEqual(['zh-A1-01', 'zh-A1-02', 'zh-A1-03']);
+    expect(a.units[0].scenario).toBe('s1');
+    expect(a.units[1]).not.toHaveProperty('scenario');
     expect(out.gloss.units['zh-A1']).toEqual({ title: 'ทักทาย', goal: 'g1' });
     expect(out.gloss.stages.A.description).toBe('เดิม');
   });

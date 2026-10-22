@@ -13,6 +13,7 @@ content/_review/<目标语>.md                        给母语老师的审校�
 ```
 
 - 课号 `zh-A3-02`：语言-阶段+单元号-课序号。单元号 `zh-A3` = A 阶段第 3 单元。
+- 目标语 `course.json` 的每个单元可以带 `scenario`：AI 老师在这个单元扮演的情景（英文，各国共用），写清 B 是谁、学习者（A，ナム／남／Nam／小南）要完成什么，例如 `B is a pharmacist. Nam says where it hurts and asks how often to take the medicine.`。来自大纲（`npm run plan:apply` 会写进去），AI 老师按它开场和收尾。
 - 词条 id `zh.ni-hao`：语言 + 小写拼音/罗马字，连字符分隔；同音不同词加后缀（`zh.ta-he`、`zh.ta-she`）。
 - **id 一旦发布就永远不改**（复习卡片靠它）。同一个词在不同课里重复出现时用同一个 id，文字、读音、kind 必须完全一样；词义只在第一次出现的课里讲。
 - 第一次公开发布前（现在）可以随意调整。

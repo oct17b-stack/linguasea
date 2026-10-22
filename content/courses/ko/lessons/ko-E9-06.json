@@ -1,0 +1,90 @@
+{
+  "id": "ko-E9-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gagyebu",
+      "text": "가계부",
+      "reading": "gagyebu"
+    },
+    {
+      "id": "ko.yesan",
+      "text": "예산",
+      "reading": "yesan"
+    },
+    {
+      "id": "ko.suip",
+      "text": "수입",
+      "reading": "suip"
+    },
+    {
+      "id": "ko.gyehoekjeok",
+      "text": "계획적",
+      "reading": "gyehoekjeok"
+    },
+    {
+      "id": "ko.jeokgeum",
+      "text": "적금",
+      "reading": "jeokgeum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 달 마지막 주에도 돈이 있어요? 저는 매달 월급날 전에 돈이 없어요.",
+      "reading": "Nam ssineun dal majimak juedo doni isseoyo? Jeoneun maedal wolgeumnal jeone doni eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 매달 예산을 세워요. 먼저 수입이 얼마인지 확인해요.",
+      "reading": "Jeoneun maedal yesaneul sewoyo. Meonjeo suibi eolmainji hwaginhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "수입이요? 용돈하고 아르바이트 월급이요?",
+      "reading": "Suibiyo? Yongdonhago areubaiteu wolgeubiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그리고 버는 만큼만 써요. 그게 제 규칙이에요.",
+      "reading": "Ne. Geurigo beoneun mankeumman sseoyo. Geuge je gyuchigieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 정말 계획적이네요. 가계부도 써요?",
+      "reading": "Wa, jeongmal gyehoekjeogineyo. Gagyebudo sseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 앱에 쓴 돈을 다 적어요. 그러면 어디에 많이 썼는지 알 수 있어요.",
+      "reading": "Ne, aebe sseun doneul da jeogeoyo. Geureomyeon eodie mani sseonneunji al su isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도 해 보고 싶은데 귀찮을 것 같아요.",
+      "reading": "Jeodo hae bogo sipeunde gwichaneul geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "처음에만 그래요. 그리고 저는 매달 적금에 돈을 넣어요.",
+      "reading": "Cheoeumeman geuraeyo. Geurigo jeoneun maedal jeokgeume doneul neoeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "적금이요? 얼마씩 넣어요?",
+      "reading": "Jeokgeumiyo? Eolmassik neoeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한 달에 십만 원씩요. 노력한 만큼 돈이 모이니까 기분이 좋아요.",
+      "reading": "Han dare simman wonssigyo. Noryeokan mankeum doni moinikka gibuni joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋네요. 저도 이번 달부터 버는 만큼만 써 볼게요.",
+      "reading": "Jonneyo. Jeodo ibeon dalbuteo beoneun mankeumman sseo bolgeyo."
+    }
+  ]
+}

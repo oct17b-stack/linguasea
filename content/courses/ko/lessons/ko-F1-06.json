@@ -1,0 +1,91 @@
+{
+  "id": "ko-F1-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.joreumunjeon",
+      "text": "졸음운전",
+      "reading": "joreumunjeon"
+    },
+    {
+      "id": "ko.eumju-unjeon",
+      "text": "음주 운전",
+      "reading": "eumju unjeon",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.anjeonbelteu",
+      "text": "안전벨트",
+      "reading": "anjeonbelteu"
+    },
+    {
+      "id": "ko.samang",
+      "text": "사망",
+      "reading": "samang"
+    },
+    {
+      "id": "ko.jungsang",
+      "text": "중상",
+      "reading": "jungsang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 기사 좀 보세요. 어젯밤 고속도로에서 큰 사고가 났대요.",
+      "reading": "Nam ssi, i gisa jom boseyo. Eojetbam gosokdoroeseo keun sagoga natdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 어떻게 난 사고래요?",
+      "reading": "Jeongmaryo? Eotteoke nan sagoraeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "\"버스 운전자가 고속도로를 달리던 중 졸음운전을 해서 앞차와 충돌했다\"고 쓰여 있어요.",
+      "reading": "\"Beoseu unjeonjaga gosokdororeul dallideon jung joreumunjeoneul haeseo apchawa chungdolhaetda\"go sseuyeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "졸음운전은 음주 운전만큼 위험하다고 들었어요.",
+      "reading": "Joreumunjeoneun eumju unjeonmankeum wiheomhadago deureosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 이 사고로 두 명이 사망하고 다섯 명이 중상을 입었대요.",
+      "reading": "Majayo. I sagoro du myeongi samanghago daseot myeongi jungsangeul ibeotdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 슬픈 소식이네요.",
+      "reading": "Jeongmal seulpeun sosigineyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 중상을 입은 사람들은 안전벨트를 매지 않았대요.",
+      "reading": "Geureonde jungsangeul ibeun saramdeureun anjeonbelteureul maeji anatdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 뒷자리에 앉아도 꼭 안전벨트를 매야 하는군요.",
+      "reading": "Geuraeseo dwitjarie anjado kkok anjeonbelteureul maeya haneungunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 저도 지난달에 친구 차를 타고 가던 중에 친구가 너무 졸려 해서 잠깐 차를 세우고 쉬었어요.",
+      "reading": "Ne. Jeodo jinandare chingu chareul tago gadeon junge chinguga neomu jollyeo haeseo jamkkan chareul seugo swieosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘하셨어요. 피곤할 때는 운전하지 않는 게 제일 좋아요.",
+      "reading": "Jalhasyeosseoyo. Pigonhal ttaeneun unjeonhaji anneun ge jeil joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 음주 운전은 말할 것도 없고요.",
+      "reading": "Majayo. Eumju unjeoneun malhal geotdo eopgoyo."
+    }
+  ]
+}

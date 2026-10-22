@@ -1,0 +1,95 @@
+{
+  "id": "ko-F1-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.pogu",
+      "text": "폭우",
+      "reading": "pogu"
+    },
+    {
+      "id": "ko.taepung",
+      "text": "태풍",
+      "reading": "taepung"
+    },
+    {
+      "id": "ko.jijin",
+      "text": "지진",
+      "reading": "jijin"
+    },
+    {
+      "id": "ko.sansatae",
+      "text": "산사태",
+      "reading": "sansatae"
+    },
+    {
+      "id": "ko.ijaemin",
+      "text": "이재민",
+      "reading": "ijaemin"
+    },
+    {
+      "id": "ko.gisangcheong",
+      "text": "기상청",
+      "reading": "gisangcheong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오늘 아침 뉴스 봤어요? 어젯밤 폭우로 인해 산사태가 일어났대요.",
+      "reading": "Nam ssi, oneul achim nyuseu bwasseoyo? Eojetbam poguro inhae sansataega ireonatdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 봤어요. 집을 잃은 이재민이 백 명이 넘는대요.",
+      "reading": "Ne, bwasseoyo. Jibeul ireun ijaemini baek myeongi neomneundaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 그래도 다행히 다친 사람은 많지 않대요.",
+      "reading": "Majayo. Geuraedo dahaenghi dachin sarameun manchi antaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 선생님, 뉴스에서는 왜 '때문에' 대신 '로 인해'를 써요?",
+      "reading": "Geureonde seonsaengnim, nyuseueseoneun wae 'ttaemune' daesin 'ro inhae'reul sseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "'로 인해'는 뉴스나 글에서 많이 쓰는 표현이에요. 말할 때는 보통 '때문에'를 쓰고요.",
+      "reading": "'Ro inhae'neun nyuseuna geureseo mani sseuneun pyohyeonieyo. Malhal ttaeneun botong 'ttaemune'reul sseugoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그렇군요. 그럼 \"태풍으로 인해 비행기가 결항됐다\"도 맞아요?",
+      "reading": "A, geureokunyo. Geureom \"taepungeuro inhae bihaenggiga gyeolhangdwaetda\"do majayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맞아요. 실제로 이번 주말에 태풍이 올 수도 있대요.",
+      "reading": "Ne, majayo. Siljero ibeon jumare taepungi ol sudo itdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 기상청에서 발표했어요?",
+      "reading": "Jeongmaryo? Gisangcheongeseo balpyohaesseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 기상청에 따르면 토요일 오후에 제주도에 도착할 거래요.",
+      "reading": "Ne, gisangcheonge ttareumyeon toyoil ohue Jejudoe dochakal georaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국은 지진은 거의 없지만 비 때문에 홍수가 자주 나요.",
+      "reading": "Taegugeun jijineun geoui eopjiman bi ttaemune hongsuga jaju nayo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국도 지진은 많지 않아요. 하지만 여름마다 태풍과 폭우로 인한 피해가 커요.",
+      "reading": "Hangukdo jijineun manchi anayo. Hajiman yeoreummada taepunggwa poguro inhan pihaega keoyo."
+    }
+  ]
+}

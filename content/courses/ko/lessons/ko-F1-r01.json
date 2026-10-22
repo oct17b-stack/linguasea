@@ -1,0 +1,114 @@
+{
+  "id": "ko-F1-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.inmyeong-pihae",
+      "text": "인명 피해",
+      "reading": "inmyeong pihae",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.balsaeng-hada",
+      "text": "발생하다",
+      "reading": "balsaenghada"
+    },
+    {
+      "id": "ko.jinhwadoeda",
+      "text": "진화되다",
+      "reading": "jinhwadoeda"
+    },
+    {
+      "id": "ko.gyeongwi",
+      "text": "경위",
+      "reading": "gyeongwi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "어젯밤 열한 시쯤 서울의 한 전통 시장에서 화재가 발생했다.",
+        "reading": "Eojetbam yeolhan sijjeum Seourui han jeontong sijangeseo hwajaega balsaenghaetda."
+      },
+      {
+        "text": "불은 시장 안에 있는 작은 옷 가게에서 시작된 것으로 알려졌다.",
+        "reading": "Bureun sijang ane inneun jageun ot gageeseo sijakdoen geoseuro allyeojyeotda."
+      },
+      {
+        "text": "소방관 오십여 명이 현장에 도착해 불을 끄기 시작했다.",
+        "reading": "Sobanggwan osibyeo myeongi hyeonjange dochakae bureul kkeugi sijakaetda."
+      },
+      {
+        "text": "불은 두 시간 만에 모두 진화되었다.",
+        "reading": "Bureun du sigan mane modu jinhwadoeeotda."
+      }
+    ],
+    [
+      {
+        "text": "다행히 이번 화재로 인한 인명 피해는 없었다.",
+        "reading": "Dahaenghi ibeon hwajaero inhan inmyeong pihaeneun eopseotda."
+      },
+      {
+        "text": "불이 난 시간에는 시장이 문을 닫아서 안에 사람이 거의 없었기 때문이다.",
+        "reading": "Buri nan siganeneun sijangi muneul dadaseo ane sarami geoui eopseotgi ttaemunida."
+      },
+      {
+        "text": "근처 건물에 사는 주민 스무 명 정도는 연기 때문에 잠시 대피했다가 두 시간 후에 집으로 돌아갔다.",
+        "reading": "Geuncheo geonmure saneun jumin seumu myeong jeongdoneun yeongi ttaemune jamsi daepihaetdaga du sigan hue jibeuro doragatda."
+      }
+    ],
+    [
+      {
+        "text": "하지만 가게 열다섯 곳이 불에 타서 피해가 컸다.",
+        "reading": "Hajiman gage yeoldaseot gosi bure taseo pihaega keotda."
+      },
+      {
+        "text": "피해는 삼억 원 정도로 집계되었다.",
+        "reading": "Pihaeneun sameok won jeongdoro jipgyedoeeotda."
+      },
+      {
+        "text": "가게 사장님들은 설날에 팔려고 준비해 둔 물건이 모두 타 버렸다며 속상해했다.",
+        "reading": "Gage sajangnimdeureun seollare pallyeogo junbihae dun mulgeoni modu ta beoryeotdamyeo soksanghaehaetda."
+      },
+      {
+        "text": "한 사장님은 \"이십 년 동안 일한 가게가 하루 만에 없어졌다\"고 말했다.",
+        "reading": "Han sajangnimeun \"isip nyeon dongan ilhan gagega haru mane eopseojyeotda\"go malhaetda."
+      }
+    ],
+    [
+      {
+        "text": "경찰은 현재 화재 경위를 조사하고 있다.",
+        "reading": "Gyeongchareun hyeonjae hwajae gyeongwireul josahago itda."
+      },
+      {
+        "text": "한 목격자는 불이 나기 전에 가게 안에서 '펑' 하는 소리가 들렸다고 말했다.",
+        "reading": "Han mokgyeokjaneun buri nagi jeone gage aneseo 'peong' haneun soriga deullyeotdago malhaetda."
+      },
+      {
+        "text": "경찰은 오래된 전기 제품이 원인일 수도 있다고 보고 있다.",
+        "reading": "Gyeongchareun oraedoen jeongi jepumi woninil sudo itdago bogo itda."
+      },
+      {
+        "text": "시장은 피해를 입지 않은 가게부터 다음 주에 다시 문을 열 예정이다.",
+        "reading": "Sijangeun pihaereul ipji aneun gagebuteo daeum jue dasi muneul yeol yejeongida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

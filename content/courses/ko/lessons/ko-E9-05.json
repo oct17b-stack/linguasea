@@ -1,0 +1,95 @@
+{
+  "id": "ko-E9-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.ipjangnyo",
+      "text": "입장료",
+      "reading": "ipjangnyo"
+    },
+    {
+      "id": "ko.boheomnyo",
+      "text": "보험료",
+      "reading": "boheomnyo"
+    },
+    {
+      "id": "ko.gyeyakgeum",
+      "text": "계약금",
+      "reading": "gyeyakgeum"
+    },
+    {
+      "id": "ko.segeum",
+      "text": "세금",
+      "reading": "segeum"
+    },
+    {
+      "id": "ko.sodeuk",
+      "text": "소득",
+      "reading": "sodeuk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이번 달 월급이 생각보다 적어요. 왜 그럴까요?",
+      "reading": "Minjun ssi, ibeon dal wolgeubi saenggakboda jeogeoyo. Wae geureolkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "세금하고 보험료를 빼서 그래요.",
+      "reading": "Segeumhago boheomnyoreul ppaeseo geuraeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 소득이 있으면 세금을 내야 하는군요.",
+      "reading": "A, sodeugi isseumyeon segeumeul naeya haneungunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그게 소득세예요. 세금 이름은 보통 '세'로 끝나요.",
+      "reading": "Ne, geuge sodeukseyeyo. Segeum ireumeun botong 'se'ro kkeunnayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 '보험료'의 '료'는 뭐예요?",
+      "reading": "Geureom 'boheomnyo'ui 'ryo'neun mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "'료'는 무엇을 이용할 때 내는 돈이에요. 박물관 입장료처럼요.",
+      "reading": "'Ryo'neun mueoseul iyonghal ttae naeneun donieyo. Bangmulgwan ipjangnyocheoreomyo."
+    },
+    {
+      "speaker": "a",
+      "text": "'비'도 있잖아요. 교통비, 식비…",
+      "reading": "'Bi'do itjanayo. Gyotongbi, sikbi…"
+    },
+    {
+      "speaker": "b",
+      "text": "'비'는 어떤 일에 드는 돈이에요. 생활비, 관리비도 있어요.",
+      "reading": "'Bi'neun eotteon ire deuneun donieyo. Saenghwalbi, gwallibido isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "지난주에 친구가 새 집 계약금을 냈는데, '금'은요?",
+      "reading": "Jinanjue chinguga sae jip gyeyakgeumeul naenneunde, 'geum'eunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "'금'은 그냥 '돈'이라는 뜻이에요. 등록금, 장학금처럼요.",
+      "reading": "'Geum'eun geunyang 'don'iraneun tteusieyo. Deungnokgeum, janghakgeumcheoreomyo."
+    },
+    {
+      "speaker": "a",
+      "text": "이제 알겠어요. 단어 공부가 재미있어지네요!",
+      "reading": "Ije algesseoyo. Daneo gongbuga jaemiisseojineyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 이렇게 공부하면 새 단어도 쉽게 외울 수 있어요.",
+      "reading": "Majayo. Ireoke gongbuhamyeon sae daneodo swipge oeul su isseoyo."
+    }
+  ]
+}

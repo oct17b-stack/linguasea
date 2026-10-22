@@ -1,0 +1,90 @@
+{
+  "id": "ko-E9-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.budamseureopda",
+      "text": "부담스럽다",
+      "reading": "budamseureopda"
+    },
+    {
+      "id": "ko.sikbi",
+      "text": "식비",
+      "reading": "sikbi"
+    },
+    {
+      "id": "ko.gyotongbi",
+      "text": "교통비",
+      "reading": "gyotongbi"
+    },
+    {
+      "id": "ko.biyong",
+      "text": "비용",
+      "reading": "biyong"
+    },
+    {
+      "id": "ko.gamdang-hada",
+      "text": "감당하다",
+      "reading": "gamdanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 서울 생활은 어때요? 물가가 많이 비싸지요?",
+      "reading": "Nam ssi, Seoul saenghwareun eottaeyo? Mulgaga mani bissajiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 선생님. 처음에는 깜짝 놀랄 정도로 비쌌어요.",
+      "reading": "Ne, seonsaengnim. Cheoeumeneun kkamjjak nollal jeongdoro bissasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어떤 게 제일 부담스러워요?",
+      "reading": "Eotteon ge jeil budamseureowoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "식비요. 밖에서 한 끼만 먹어도 만 원이 넘어요.",
+      "reading": "Sikbiyo. Bakkeseo han kkiman meogeodo man woni neomeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 요즘은 점심 가격도 정말 많이 올랐어요.",
+      "reading": "Majayo. Yojeumeun jeomsim gagyeokdo jeongmal mani ollasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 요즘은 집에서 직접 요리해요. 교통비 같은 비용도 많이 들어서 가까운 곳은 걸어 다녀요.",
+      "reading": "Geuraeseo yojeumeun jibeseo jikjeop yorihaeyo. Gyotongbi gateun biyongdo mani deureoseo gakkaun goseun georeo danyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "월세는 어때요? 혼자 감당할 수 있어요?",
+      "reading": "Wolseneun eottaeyo? Honja gamdanghal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "부모님이 조금 도와주세요. 그래도 너무 비싸서 부모님께 죄송할 정도예요.",
+      "reading": "Bumonimi jogeum dowajuseyo. Geuraedo neomu bissaseo bumonimkke joesonghal jeongdoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "저도 대학생 때 돈이 없어서 라면만 먹을 정도였어요.",
+      "reading": "Jeodo daehaksaeng ttae doni eopseoseo ramyeonman meogeul jeongdoyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 선생님도요?",
+      "reading": "Jeongmaryo? Seonsaengnimdoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요. 그래도 지금은 그때가 그리워요. 남 씨도 힘내요!",
+      "reading": "Geureomyo. Geuraedo jigeumeun geuttaega geuriwoyo. Nam ssido himnaeyo!"
+    }
+  ]
+}

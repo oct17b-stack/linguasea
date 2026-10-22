@@ -20,6 +20,8 @@ const TURN: TutorTurn = {
 test('a scenario holds what the learner has met so far, without sound drills', () => {
   const s = buildScenario(fixtureBundle(), 'th', 'ja', 'ja-A2')!;
   assert.equal(s.goal, 'สั่งน้ำและชาได้');
+  assert.equal(s.situation, 'B is a café clerk. Nam orders water and tea.');
+  assert.equal(buildScenario(fixtureBundle(), 'th', 'ja', 'ja-A1')!.situation, undefined);
   assert.equal(s.cefr, 'pre-A1');
   assert.deepEqual(
     s.vocabulary.map((v) => v.text),
@@ -77,6 +79,7 @@ test('asks Claude for a structured turn with the scenario cached and fallbacks o
   assert.equal(req.system[0].cache_control, undefined);
   assert.deepEqual(req.system[1].cache_control, { type: 'ephemeral' });
   assert.match(req.system[1].text, /สั่งน้ำและชาได้/);
+  assert.match(req.system[1].text, /Role-play: B is a café clerk\. Nam orders water and tea\./);
   assert.match(req.system[1].text, /みず \(mizu\): น้ำ/);
   assert.match(req.messages[0].content, /B: いらっしゃいませ。\nA: みず ください/);
 });

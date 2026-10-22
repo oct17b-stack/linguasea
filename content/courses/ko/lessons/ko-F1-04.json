@@ -1,0 +1,95 @@
+{
+  "id": "ko-F1-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.doduk",
+      "text": "도둑",
+      "reading": "doduk"
+    },
+    {
+      "id": "ko.humchida",
+      "text": "훔치다",
+      "reading": "humchida"
+    },
+    {
+      "id": "ko.jamgeuda",
+      "text": "잠그다",
+      "reading": "jamgeuda"
+    },
+    {
+      "id": "ko.donan",
+      "text": "도난",
+      "reading": "donan"
+    },
+    {
+      "id": "ko.bangsim-hada",
+      "text": "방심하다",
+      "reading": "bangsimhada"
+    },
+    {
+      "id": "ko.susang-hada",
+      "text": "수상하다",
+      "reading": "susanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 얼굴이 안 좋아 보여요. 무슨 일 있어요?",
+      "reading": "Minjun ssi, eolguri an joa boyeoyo. Museun il isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "어제 저희 집에 도둑이 들었어요.",
+      "reading": "Eoje jeohui jibe dodugi deureosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네? 정말요? 뭘 훔쳐 갔어요?",
+      "reading": "Ne? Jeongmaryo? Mwol humchyeo gasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "방에 있던 현금하고 카메라를 가져갔어요.",
+      "reading": "Bange itdeon hyeongeumhago kamerareul gajyeogasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "문을 잠그고 나갔는데도 들어왔어요?",
+      "reading": "Muneul jamgeugo naganneundedo deureowasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 창문을 열어 놓은 채로 나갔어요. 금방 돌아올 거라서 방심했어요.",
+      "reading": "Aniyo, changmuneul yeoreo noeun chaero nagasseoyo. Geumbang doraol georaseo bangsimhaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "경찰에 신고했어요?",
+      "reading": "Gyeongchare singohaesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 바로 도난 신고를 했어요. 요즘 이 동네에 비슷한 일이 많대요.",
+      "reading": "Ne, baro donan singoreul haesseoyo. Yojeum i dongnee biseutan iri mantaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "혹시 수상한 사람은 못 봤어요?",
+      "reading": "Hoksi susanghan sarameun mot bwasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "그러고 보니 어제 오후에 모자를 쓴 채로 우리 집 앞을 왔다 갔다 하던 남자가 있었어요.",
+      "reading": "Geureogo boni eoje ohue mojareul sseun chaero uri jip apeul watda gatda hadeon namjaga isseosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그 사람 정말 수상하네요. 앞으로는 꼭 창문까지 잠그고 나가세요.",
+      "reading": "Geu saram jeongmal susanghaneyo. Apeuroneun kkok changmunkkaji jamgeugo nagaseyo."
+    }
+  ]
+}

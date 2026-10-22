@@ -1,7 +1,8 @@
 // Adds the stages/units/lessons of a syllabus plan (content/_plan/<file>.json) to the course structure:
 //   npm run plan:apply -- zh-CF
 // → content/courses/<t>/course.json gets the plan's stages (units and lesson/reader ids, in order),
-//   content/l1/th/<t>/course.json gets stage titles and each unit's Thai title and goal.
+//   content/l1/th/<t>/course.json gets stage titles and each unit's Thai title and goal;
+//   each unit's AI tutor scenario (English) goes into the target layer's course.json.
 // Lesson files are written separately (by writers); the validator reports the ones still missing.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -37,8 +38,10 @@ export function applyPlan(plan: Plan, course: any, gloss: any) {
     for (const u of p.units) {
       const ids = u.lessons.map((l) => l.id);
       const unit = stage.units.find((x: { id: string }) => x.id === u.id);
-      if (unit) unit.lessons.push(...ids.filter((id) => !unit.lessons.includes(id)));
-      else stage.units.push({ id: u.id, lessons: ids });
+      if (unit) {
+        unit.lessons.push(...ids.filter((id) => !unit.lessons.includes(id)));
+        if (u.scenario) unit.scenario ??= u.scenario;
+      } else stage.units.push({ id: u.id, lessons: ids, ...(u.scenario ? { scenario: u.scenario } : {}) });
       gloss.units[u.id] ??= { title: u.title_th, goal: u.goal_th };
       gloss.units[u.id].goal ??= u.goal_th;
     }

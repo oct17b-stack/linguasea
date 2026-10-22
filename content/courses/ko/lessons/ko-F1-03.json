@@ -1,0 +1,95 @@
+{
+  "id": "ko-F1-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.gyotongsago",
+      "text": "교통사고",
+      "reading": "gyotongsago"
+    },
+    {
+      "id": "ko.budichida",
+      "text": "부딪히다",
+      "reading": "budichida"
+    },
+    {
+      "id": "ko.chungdol-hada",
+      "text": "충돌하다",
+      "reading": "chungdolhada"
+    },
+    {
+      "id": "ko.busang",
+      "text": "부상",
+      "reading": "busang"
+    },
+    {
+      "id": "ko.mokgyeok-hada",
+      "text": "목격하다",
+      "reading": "mokgyeokada"
+    },
+    {
+      "id": "ko.pihaeja",
+      "text": "피해자",
+      "reading": "pihaeja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 어제 학교 앞에서 교통사고가 났다는 이야기 들었어요?",
+      "reading": "Minjun ssi, eoje hakgyo apeseo gyotongsagoga natdaneun iyagi deureosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 저도 아침에 사고가 났다는 소식을 듣고 깜짝 놀랐어요.",
+      "reading": "Ne, jeodo achime sagoga natdaneun sosigeul deutgo kkamjjak nollasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "버스하고 택시가 충돌했대요.",
+      "reading": "Beoseuhago taeksiga chungdolhaetdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다친 사람도 있어요?",
+      "reading": "Dachin saramdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "택시 승객 두 명이 부상을 입었다는 기사를 봤어요.",
+      "reading": "Taeksi seunggaek du myeongi busangeul ibeotdaneun gisareul bwasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "큰 부상이 아니었으면 좋겠네요.",
+      "reading": "Keun busangi anieosseumyeon jokenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행히 크게 다치지는 않았대요. 그런데 경찰이 사고를 목격한 사람을 찾고 있대요.",
+      "reading": "Dahaenghi keuge dachijineun anatdaeyo. Geureonde gyeongchari sagoreul mokgyeokan sarameul chatgo itdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래서 학교 앞에 목격자를 찾는다는 안내문이 붙어 있었군요.",
+      "reading": "A, geuraeseo hakgyo ape mokgyeokjareul channeundaneun annaemuni buteo isseotgunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 사고가 나고 십 분쯤 후에 거기를 지나가서 버스가 택시에 부딪히는 건 못 봤어요.",
+      "reading": "Jeoneun sagoga nago sip bunjjeum hue geogireul jinagaseo beoseuga taeksie budichineun geon mot bwasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "피해자 가족들이 많이 걱정하겠어요.",
+      "reading": "Pihaeja gajokdeuri mani geokjeonghagesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 빨리 나았으면 좋겠어요.",
+      "reading": "Ne, ppalli naasseumyeon jokesseoyo."
+    }
+  ]
+}

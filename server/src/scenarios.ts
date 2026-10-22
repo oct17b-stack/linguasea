@@ -9,6 +9,8 @@ export type Scenario = {
   /** Unit title and can-do goal, in the learner's language. */
   title: string;
   goal: string;
+  /** The unit's role-play (English): who B is and what the learner must get done. */
+  situation?: string;
   /** Words the learner has met up to and including this unit (most recent last). */
   vocabulary: { text: string; reading: string; meaning: string }[];
   /** Model lines from the unit's dialogues: "a" is the learner's role. */
@@ -22,7 +24,8 @@ export function buildScenario(bundle: Bundle, l1: L1, target: Target, unitId: st
   const course = bundle.l1s[l1]?.courses[target];
   if (!course) return undefined;
   const stage = course.course.stages.find((s) => s.units.some((u) => u.id === unitId));
-  if (!stage) return undefined;
+  const unit = stage?.units.find((u) => u.id === unitId);
+  if (!stage || !unit) return undefined;
 
   const vocabulary: Scenario['vocabulary'] = [];
   const seen = new Set<string>();
@@ -57,6 +60,7 @@ export function buildScenario(bundle: Bundle, l1: L1, target: Target, unitId: st
     cefr: stage.cefr,
     title: unitGloss?.title ?? unitId,
     goal: unitGloss?.goal ?? unitGloss?.title ?? unitId,
+    ...(unit.scenario ? { situation: unit.scenario } : {}),
     vocabulary: vocabulary.slice(-MAX_VOCABULARY),
     examples: examples.slice(0, MAX_EXAMPLES),
   };

@@ -1,0 +1,96 @@
+{
+  "id": "ko-F1-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sinhodeung",
+      "text": "신호등",
+      "reading": "sinhodeung"
+    },
+    {
+      "id": "ko.hoengdanbodo",
+      "text": "횡단보도",
+      "reading": "hoengdanbodo"
+    },
+    {
+      "id": "ko.mudan-hoengdan",
+      "text": "무단 횡단",
+      "reading": "mudan hoengdan",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.gwasok",
+      "text": "과속",
+      "reading": "gwasok"
+    },
+    {
+      "id": "ko.unjeonja",
+      "text": "운전자",
+      "reading": "unjeonja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어제 사고를 목격하셨지요? 이쪽에 앉으십시오.",
+      "reading": "Eoje sagoreul mokgyeokasyeotjiyo? Ijjoge anjeusipsio."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 어제 저녁 일곱 시쯤 학교 앞 횡단보도에서 봤습니다.",
+      "reading": "Ne. Eoje jeonyeok ilgop sijjeum hakgyo ap hoengdanbodoeseo bwatseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "본 것을 순서대로 말씀해 주시겠습니까?",
+      "reading": "Bon geoseul sunseodaero malsseumhae jusigetseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "신호등이 빨간불로 바뀌자 차들이 출발했습니다. 그런데 한 남학생이 스마트폰을 보면서 무단 횡단을 하고 있었습니다.",
+      "reading": "Sinhodeungi ppalganbullo bakkwija chadeuri chulbalhaetseumnida. Geureonde han namhaksaengi seumateuponeul bomyeonseo mudan hoengdaneul hago isseotseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "그때 오토바이가 오고 있었습니까?",
+      "reading": "Geuttae otobaiga ogo isseotseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 하얀 오토바이였는데 과속인 것 같았습니다. 다른 차들보다 훨씬 빨랐습니다.",
+      "reading": "Ne, hayan otobaiyeonneunde gwasogin geot gatatseumnida. Dareun chadeulboda hwolssin ppallatseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "그다음에는 어떻게 됐습니까?",
+      "reading": "Geudaeumeneun eotteoke dwaetseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "운전자가 학생을 보자 급하게 멈췄는데, 그 바람에 오토바이가 넘어졌습니다.",
+      "reading": "Unjeonjaga haksaengeul boja geupage meomchwonneunde, geu barame otobaiga neomeojyeotseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "다친 사람은 없었습니까?",
+      "reading": "Dachin sarameun eopseotseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "운전자가 다리를 조금 다쳤습니다. 학생은 다치지 않았습니다.",
+      "reading": "Unjeonjaga darireul jogeum dachyeotseumnida. Haksaengeun dachiji anatseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 이렇게 쓰겠습니다. \"과속하던 오토바이 운전자가 무단 횡단을 하던 학생을 보자 급히 멈추다가 넘어졌다.\" 맞습니까?",
+      "reading": "Geureom ireoke sseugetseumnida. \"Gwasokadeon otobai unjeonjaga mudan hoengdaneul hadeon haksaengeul boja geupi meomchudaga neomeojyeotda.\" Matseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 맞습니다.",
+      "reading": "Ne, matseumnida."
+    }
+  ]
+}

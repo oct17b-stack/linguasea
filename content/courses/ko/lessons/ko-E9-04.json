@@ -1,0 +1,95 @@
+{
+  "id": "ko-E9-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.wolgeumnal",
+      "text": "월급날",
+      "reading": "wolgeumnal"
+    },
+    {
+      "id": "ko.gapda",
+      "text": "갚다",
+      "reading": "gapda"
+    },
+    {
+      "id": "ko.billyeojuda",
+      "text": "빌려주다",
+      "reading": "billyeojuda"
+    },
+    {
+      "id": "ko.bit",
+      "text": "빚",
+      "reading": "bit"
+    },
+    {
+      "id": "ko.ija",
+      "text": "이자",
+      "reading": "ija"
+    },
+    {
+      "id": "ko.kkuda",
+      "text": "꾸다",
+      "reading": "kkuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 정말 미안한데 돈 좀 빌려줄 수 있어요?",
+      "reading": "Nam ssi, jeongmal mianhande don jom billyeojul su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "얼마나 필요해요?",
+      "reading": "Eolmana piryohaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오만 원이요. 이번 주에 교재를 사야 하거든요.",
+      "reading": "Oman woniyo. Ibeon jue gyojaereul saya hageodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 그런데 월급날이 언제예요?",
+      "reading": "Gwaenchanayo. Geureonde wolgeumnari eonjeyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "다음 주 금요일이에요. 월급을 받는 대로 바로 갚을게요.",
+      "reading": "Daeum ju geumyoirieyo. Wolgeubeul banneun daero baro gapeulgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "천천히 갚아도 돼요. 이자도 안 받을게요.",
+      "reading": "Cheoncheonhi gapado dwaeyo. Ijado an badeulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 고마워요. 사실 친구한테 돈을 꾸는 게 좀 부끄러워서요.",
+      "reading": "Haha, gomawoyo. Sasil chinguhante doneul kkuneun ge jom bukkeureowoseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 저도 지난번에 민준 씨한테 빌렸잖아요.",
+      "reading": "Gwaenchanayo. Jeodo jinanbeone Minjun ssihante billyeotjanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래도 빚이 있으면 마음이 편하지 않아요.",
+      "reading": "Geuraedo biji isseumyeon maeumi pyeonhaji anayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 계좌 번호를 보내 주세요. 받는 대로 바로 송금할게요.",
+      "reading": "Geureom gyejwa beonhoreul bonae juseyo. Banneun daero baro songgeumhalgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 지금 바로 보낼게요. 정말 고마워요!",
+      "reading": "Ne, jigeum baro bonaelgeyo. Jeongmal gomawoyo!"
+    }
+  ]
+}

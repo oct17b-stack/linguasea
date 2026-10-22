@@ -1,0 +1,95 @@
+{
+  "id": "ko-F1-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.hwajae",
+      "text": "화재",
+      "reading": "hwajae"
+    },
+    {
+      "id": "ko.sobanggwan",
+      "text": "소방관",
+      "reading": "sobanggwan"
+    },
+    {
+      "id": "ko.gujodoeda",
+      "text": "구조되다",
+      "reading": "gujodoeda"
+    },
+    {
+      "id": "ko.daepi-hada",
+      "text": "대피하다",
+      "reading": "daepihada"
+    },
+    {
+      "id": "ko.yeongi",
+      "text": "연기",
+      "reading": "yeongi"
+    },
+    {
+      "id": "ko.sohwagi",
+      "text": "소화기",
+      "reading": "sohwagi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어젯밤에 기숙사 옆 건물에서 화재가 났다면서요? 괜찮아요?",
+      "reading": "Nam ssi, eojetbame gisuksa yeop geonmureseo hwajaega natdamyeonseoyo? Gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 저는 괜찮아요. 일 층 식당에서 불이 시작됐대요.",
+      "reading": "Ne, jeoneun gwaenchanayo. Il cheung sikdangeseo buri sijakdwaetdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말 놀랐겠네요.",
+      "reading": "Jeongmal nollatgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 창문 밖으로 검은 연기가 올라오는 걸 보고 바로 밖으로 대피했어요.",
+      "reading": "Ne, changmun bakkeuro geomeun yeongiga ollaoneun geol bogo baro bakkeuro daepihaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다친 사람은 없었어요?",
+      "reading": "Dachin sarameun eopseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 층에 계시던 할머니 한 분이 못 나오셨는데, 소방관에 의해 구조되셨어요.",
+      "reading": "I cheunge gyesideon halmeoni han buni mot naosyeonneunde, sobanggwane uihae gujodoesyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다행이네요. 불은 금방 껐어요?",
+      "reading": "Dahaengineyo. Bureun geumbang kkeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "식당 직원이 먼저 소화기로 끄려고 했는데, 연기가 너무 많아서 못 껐대요.",
+      "reading": "Sikdang jigwoni meonjeo sohwagiro kkeuryeogo haenneunde, yeongiga neomu manaseo mot kkeotdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 불은 왜 났대요?",
+      "reading": "Geureom bureun wae natdaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아직 몰라요. 뉴스에서 \"화재 원인은 경찰에 의해 조사되고 있다\"고 하더라고요.",
+      "reading": "Ajik mollayo. Nyuseueseo \"hwajae wonineun gyeongchare uihae josadoego itda\"go hadeoragoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그렇군요. 우리 집에도 소화기가 있는지 확인해 봐야겠어요.",
+      "reading": "Geureokunyo. Uri jibedo sohwagiga inneunji hwaginhae bwayagesseoyo."
+    }
+  ]
+}

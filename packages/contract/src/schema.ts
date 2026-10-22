@@ -27,6 +27,11 @@ export const Unit = z.object({
   /** zh-A1 … zh-A16: stage letter + unit number. */
   id: z.string().regex(/^(zh|en|ja|ko)-[A-F]\d{1,2}$/),
   lessons: z.array(lessonId).min(1),
+  /**
+   * The AI tutor's role-play for this unit, in English (shared by every L1): who B is and what the
+   * learner (A, Nam) must get done, e.g. "B is a pharmacist. Nam says where it hurts and asks …".
+   */
+  scenario: z.string().min(1).optional(),
 });
 
 export const StageDef = z.object({
