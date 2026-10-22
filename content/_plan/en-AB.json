@@ -1633,230 +1633,12 @@
         },
         {
           "id": "en-A12",
-          "title_th": "สัตว์",
-          "goal_th": "เรียกชื่อสัตว์ที่พบบ่อย บอกว่ามีสัตว์เลี้ยงไหมและเป็นอย่างไร และบอกว่าชอบสัตว์อะไรได้",
-          "scenario": "B is Emma at a pet café in Bangkok. Nam must say which animals she likes, say whether she has a pet, and describe it simply (its name, age, color, big or small, cute).",
-          "lessons": [
-            {
-              "id": "en-A12-01",
-              "topic": "Pets",
-              "grammar": "a / an + animal; plural -s (two cats); I like dogs. (plural for things you like)",
-              "items": [
-                {
-                  "id": "en.animal",
-                  "text": "animal",
-                  "reading": "ˈænɪməl",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.pet",
-                  "text": "pet",
-                  "reading": "pɛt",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.dog",
-                  "text": "dog",
-                  "reading": "dɔːɡ",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.cat",
-                  "text": "cat",
-                  "reading": "kæt",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.rabbit",
-                  "text": "rabbit",
-                  "reading": "ˈræbɪt",
-                  "kind": "word"
-                }
-              ]
-            },
-            {
-              "id": "en-A12-02",
-              "topic": "Farm animals",
-              "grammar": "plural -s review; chicken (animal) vs chicken (food)",
-              "items": [
-                {
-                  "id": "en.cow",
-                  "text": "cow",
-                  "reading": "kaʊ",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.pig",
-                  "text": "pig",
-                  "reading": "pɪɡ",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.duck",
-                  "text": "duck",
-                  "reading": "dʌk",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.goat",
-                  "text": "goat",
-                  "reading": "ɡoʊt",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.horse",
-                  "text": "horse",
-                  "reading": "hɔːrs",
-                  "kind": "word"
-                }
-              ]
-            },
-            {
-              "id": "en-A12-03",
-              "topic": "Big animals",
-              "grammar": "It's big. / They're big. (it / they)",
-              "items": [
-                {
-                  "id": "en.lion",
-                  "text": "lion",
-                  "reading": "ˈlaɪən",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.bear",
-                  "text": "bear",
-                  "reading": "bɛr",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.giraffe",
-                  "text": "giraffe",
-                  "reading": "dʒəˈræf",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.zebra",
-                  "text": "zebra",
-                  "reading": "ˈziːbrə",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.panda",
-                  "text": "panda",
-                  "reading": "ˈpændə",
-                  "kind": "word"
-                }
-              ]
-            },
-            {
-              "id": "en-A12-04",
-              "topic": "In the water",
-              "grammar": "Is it a fish? — No, it isn't. (short answers)",
-              "items": [
-                {
-                  "id": "en.shark",
-                  "text": "shark",
-                  "reading": "ʃɑːrk",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.dolphin",
-                  "text": "dolphin",
-                  "reading": "ˈdɑːlfɪn",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.crocodile",
-                  "text": "crocodile",
-                  "reading": "ˈkrɑːkədaɪl",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.penguin",
-                  "text": "penguin",
-                  "reading": "ˈpɛŋɡwɪn",
-                  "kind": "word"
-                }
-              ]
-            },
-            {
-              "id": "en-A12-05",
-              "topic": "Small animals",
-              "grammar": "small / very small; I don't like … (review)",
-              "items": [
-                {
-                  "id": "en.ant",
-                  "text": "ant",
-                  "reading": "ænt",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.bee",
-                  "text": "bee",
-                  "reading": "biː",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.fly",
-                  "text": "fly",
-                  "reading": "flaɪ",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.butterfly",
-                  "text": "butterfly",
-                  "reading": "ˈbʌtərflaɪ",
-                  "kind": "word"
-                }
-              ]
-            },
-            {
-              "id": "en-A12-06",
-              "topic": "My pet",
-              "grammar": "Do you have a …? — Yes, I do. / No, I don't.; its (possessive) vs it's",
-              "items": [
-                {
-                  "id": "en.do-you-have-a",
-                  "text": "Do you have a …?",
-                  "reading": "duː juː ˈhæv ə …?",
-                  "kind": "phrase"
-                },
-                {
-                  "id": "en.its",
-                  "text": "its",
-                  "reading": "ɪts",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.cute",
-                  "text": "cute",
-                  "reading": "kjuːt",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.puppy",
-                  "text": "puppy",
-                  "reading": "ˈpʌpi",
-                  "kind": "word"
-                },
-                {
-                  "id": "en.kitten",
-                  "text": "kitten",
-                  "reading": "ˈkɪtən",
-                  "kind": "word"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "en-A13",
           "title_th": "ผลไม้ ขนม และของที่ชอบ",
           "goal_th": "เรียกชื่อผลไม้และขนม บอกรสชาติ บอกว่าชอบ ไม่ชอบ หรือชอบที่สุด และถามความชอบของคนอื่นได้",
           "scenario": "B is Emma at a fruit stall in a Bangkok market; she has never tried many Thai fruits. Nam must name the fruits, say which ones she loves or doesn't like and how they taste, and ask Emma about her favorite fruit and sweets.",
           "lessons": [
             {
-              "id": "en-A13-01",
+              "id": "en-A12-01",
               "topic": "Fruit",
               "grammar": "a / an + fruit (an apple, an orange); orange is also a color",
               "items": [
@@ -1893,7 +1675,7 @@
               ]
             },
             {
-              "id": "en-A13-02",
+              "id": "en-A12-02",
               "topic": "Thai fruits",
               "grammar": "English names of Thai fruits; durian has no Thai-style tone",
               "items": [
@@ -1930,7 +1712,7 @@
               ]
             },
             {
-              "id": "en-A13-03",
+              "id": "en-A12-03",
               "topic": "I love it! / I don't like it.",
               "grammar": "like / love / don't like + plural noun (I love mangoes.); Do you like …? — Yes, I do.",
               "items": [
@@ -1961,7 +1743,7 @@
               ]
             },
             {
-              "id": "en-A13-04",
+              "id": "en-A12-04",
               "topic": "My favorite",
               "grammar": "my favorite + noun; What's your favorite …?",
               "items": [
@@ -1992,7 +1774,7 @@
               ]
             },
             {
-              "id": "en-A13-05",
+              "id": "en-A12-05",
               "topic": "Ice cream and cake",
               "grammar": "uncountable sweets (ice cream, chocolate) vs a cookie",
               "items": [
@@ -2023,7 +1805,7 @@
               ]
             },
             {
-              "id": "en-A13-06",
+              "id": "en-A12-06",
               "topic": "Sweet, sour or salty?",
               "grammar": "It's sour. / It's too salty.; taste words after be",
               "items": [
@@ -2049,6 +1831,224 @@
                   "id": "en.fresh",
                   "text": "fresh",
                   "reading": "frɛʃ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-A13",
+          "title_th": "สัตว์",
+          "goal_th": "เรียกชื่อสัตว์ที่พบบ่อย บอกว่ามีสัตว์เลี้ยงไหมและเป็นอย่างไร และบอกว่าชอบสัตว์อะไรได้",
+          "scenario": "B is Emma at a pet café in Bangkok. Nam must say which animals she likes, say whether she has a pet, and describe it simply (its name, age, color, big or small, cute).",
+          "lessons": [
+            {
+              "id": "en-A13-01",
+              "topic": "Pets",
+              "grammar": "a / an + animal; plural -s (two cats); I like dogs. (plural for things you like)",
+              "items": [
+                {
+                  "id": "en.animal",
+                  "text": "animal",
+                  "reading": "ˈænɪməl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pet",
+                  "text": "pet",
+                  "reading": "pɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dog",
+                  "text": "dog",
+                  "reading": "dɔːɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cat",
+                  "text": "cat",
+                  "reading": "kæt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rabbit",
+                  "text": "rabbit",
+                  "reading": "ˈræbɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-02",
+              "topic": "Farm animals",
+              "grammar": "plural -s review; chicken (animal) vs chicken (food)",
+              "items": [
+                {
+                  "id": "en.cow",
+                  "text": "cow",
+                  "reading": "kaʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pig",
+                  "text": "pig",
+                  "reading": "pɪɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.duck",
+                  "text": "duck",
+                  "reading": "dʌk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.goat",
+                  "text": "goat",
+                  "reading": "ɡoʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.horse",
+                  "text": "horse",
+                  "reading": "hɔːrs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-03",
+              "topic": "Big animals",
+              "grammar": "It's big. / They're big. (it / they)",
+              "items": [
+                {
+                  "id": "en.lion",
+                  "text": "lion",
+                  "reading": "ˈlaɪən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bear",
+                  "text": "bear",
+                  "reading": "bɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.giraffe",
+                  "text": "giraffe",
+                  "reading": "dʒəˈræf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.zebra",
+                  "text": "zebra",
+                  "reading": "ˈziːbrə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.panda",
+                  "text": "panda",
+                  "reading": "ˈpændə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-04",
+              "topic": "In the water",
+              "grammar": "Is it a fish? — No, it isn't. (short answers)",
+              "items": [
+                {
+                  "id": "en.shark",
+                  "text": "shark",
+                  "reading": "ʃɑːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dolphin",
+                  "text": "dolphin",
+                  "reading": "ˈdɑːlfɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.crocodile",
+                  "text": "crocodile",
+                  "reading": "ˈkrɑːkədaɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.penguin",
+                  "text": "penguin",
+                  "reading": "ˈpɛŋɡwɪn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-05",
+              "topic": "Small animals",
+              "grammar": "small / very small; I don't like + plural (review of A12)",
+              "items": [
+                {
+                  "id": "en.ant",
+                  "text": "ant",
+                  "reading": "ænt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bee",
+                  "text": "bee",
+                  "reading": "biː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fly",
+                  "text": "fly",
+                  "reading": "flaɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.butterfly",
+                  "text": "butterfly",
+                  "reading": "ˈbʌtərflaɪ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-A13-06",
+              "topic": "My pet",
+              "grammar": "Do you have a …? — Yes, I do. / No, I don't.; its (possessive) vs it's",
+              "items": [
+                {
+                  "id": "en.do-you-have-a",
+                  "text": "Do you have a …?",
+                  "reading": "duː juː ˈhæv ə …?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.its",
+                  "text": "its",
+                  "reading": "ɪts",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cute",
+                  "text": "cute",
+                  "reading": "kjuːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.puppy",
+                  "text": "puppy",
+                  "reading": "ˈpʌpi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.kitten",
+                  "text": "kitten",
+                  "reading": "ˈkɪtən",
                   "kind": "word"
                 }
               ]
@@ -2766,6 +2766,12 @@
                   "id": "en.next",
                   "text": "next",
                   "reading": "nɛkst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.holiday",
+                  "text": "holiday",
+                  "reading": "ˈhɑːlədeɪ",
                   "kind": "word"
                 }
               ]
