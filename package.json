@@ -10,8 +10,10 @@
   "scripts": {
     "content": "npm run build --workspace @linguasea/contract",
     "validate": "npm run validate --workspace @linguasea/contract --",
+    "audio": "npm run audio --workspace @linguasea/tools --",
     "test": "npm test --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "check": "npm run validate && npm run content && npm run typecheck && npm test"
+    "check": "npm run validate && npm run content && npm run typecheck && npm test",
+    "l10n": "npm run l10n --workspace @linguasea/contract --"
   }
 }

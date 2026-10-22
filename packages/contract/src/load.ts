@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { basename, join, relative } from 'node:path';
-import type { z } from 'zod';
+import { z } from 'zod';
 
 import {
   Course,
@@ -18,7 +18,11 @@ export type Problem = { file: string; message: string };
 export type LoadedTarget = {
   course: Course;
   lessons: Map<string, Lesson>;
+  /** content/audio/<target>/manifest.json, written by `npm run audio`: audioKey → path under content/audio. */
+  audio?: Record<string, string>;
 };
+
+const AudioManifest = z.record(z.string(), z.string().min(1));
 
 export type LoadedL1 = {
   meta: L1Meta;
@@ -81,7 +85,9 @@ export function loadContent(root: string): Loaded {
       }
       lessons.set(lesson.id, lesson);
     }
-    targets.set(target, { course, lessons });
+    const manifest = join(root, 'audio', target, 'manifest.json');
+    const audio = existsSync(manifest) ? readJson(manifest, AudioManifest, report) : undefined;
+    targets.set(target, audio ? { course, lessons, audio } : { course, lessons });
   }
 
   const l1s = new Map<string, LoadedL1>();

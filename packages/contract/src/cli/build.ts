@@ -19,4 +19,5 @@ const draft = JSON.stringify(buildBundle(loaded, ''));
 const version = createHash('sha256').update(draft).digest('hex').slice(0, 12);
 mkdirSync(dirname(bundleFile), { recursive: true });
 writeFileSync(bundleFile, JSON.stringify(buildBundle(loaded, version)) + '\n');
-console.log(`wrote ${bundleFile} (version ${version})`);
+const audio = [...loaded.targets].flatMap(([target, t]) => (t.audio ? [`${target} ${Object.keys(t.audio).length}`] : []));
+console.log(`wrote ${bundleFile} (version ${version}${audio.length ? `; audio clips: ${audio.join(', ')}` : ''})`);

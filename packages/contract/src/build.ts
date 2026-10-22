@@ -16,7 +16,8 @@ export function buildBundle(loaded: Loaded, version: string): Bundle {
         const gloss = c.lessons.get(id);
         if (gloss) lessons[id] = { lesson, gloss };
       }
-      out.courses[target] = { course: t.course, gloss: c.gloss, lessons };
+      // Generated speech, when `npm run audio` has made a manifest; otherwise the app uses device TTS.
+      out.courses[target] = { course: t.course, gloss: c.gloss, lessons, ...(t.audio && { audio: t.audio }) };
     }
     bundle.l1s[l1 as L1] = out;
   }
