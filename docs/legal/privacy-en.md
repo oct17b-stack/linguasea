@@ -38,7 +38,7 @@ To sync and back up your progress, the app sends it to our server: the lessons y
 
 ### 3.3 Subscription status
 
-If you subscribe, you pay Apple or Google; we never see your payment card details. RevenueCat, the service that manages subscriptions for us, receives your account ID and the purchase details from the store (such as the plan, price, currency, store country, and transaction IDs and dates), together with basic technical information (such as device type, operating system and app version), to validate the purchase. RevenueCat then tells our server whether your subscription is active and when it ends. We store that end date and the time of the latest subscription event with your account ID.
+If you subscribe, you pay Apple or Google; we never see your payment card details. RevenueCat, the service that manages subscriptions for us, receives your account ID and the purchase details from the store (such as the plan, price, currency, store country, and transaction IDs and dates), together with basic technical information (such as device type, operating system, app version and IP address), to validate the purchase. RevenueCat then tells our server whether your subscription is active and when it ends. We store that end date and the time of the latest subscription event with your account ID.
 
 ### 3.4 Recordings for pronunciation scoring
 

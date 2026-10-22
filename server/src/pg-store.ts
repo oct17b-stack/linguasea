@@ -23,7 +23,7 @@ export class PgStore implements Store {
   constructor(private db: Db) {}
 
   async createAccount(a: Account) {
-    await this.db.query('insert into accounts (id, token_hash, created_at) values ($1, $2, $3)', [
+    await this.db.query('insert into accounts (id, token_hash, created_at, last_seen_at) values ($1, $2, $3, $3)', [
       a.id,
       a.tokenHash,
       a.createdAt,
@@ -41,6 +41,18 @@ export class PgStore implements Store {
 
   async deleteAccount(id: string) {
     await this.db.query('delete from accounts where id = $1', [id]);
+  }
+
+  async touchAccount(id: string, now: Date) {
+    await this.db.query(
+      `update accounts set last_seen_at = $2 where id = $1 and last_seen_at < $2::timestamptz - interval '1 day'`,
+      [id, now.toISOString()],
+    );
+  }
+
+  async deleteInactive(before: Date) {
+    const { rows } = await this.db.query('delete from accounts where last_seen_at < $1 returning id', [before.toISOString()]);
+    return rows.length;
   }
 
   async getProgress(id: string) {

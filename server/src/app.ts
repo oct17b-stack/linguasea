@@ -22,6 +22,9 @@ export type Quotas = {
   tutorPremium: number;
 };
 
+/** Accounts unused this long are deleted with everything stored for them (privacy policy). */
+export const INACTIVE_ACCOUNT_DAYS = 730;
+
 export const DEFAULT_QUOTAS: Quotas = {
   pronunciationFree: 10,
   pronunciationPremium: 200,
@@ -134,7 +137,9 @@ export function buildServer({
 
   async function account(req: FastifyRequest): Promise<Account | undefined> {
     const token = /^Bearer (.+)$/.exec(req.headers.authorization ?? '')?.[1];
-    return token ? store.accountByTokenHash(sha256(token)) : undefined;
+    const acc = token ? await store.accountByTokenHash(sha256(token)) : undefined;
+    if (acc) await store.touchAccount(acc.id, now());
+    return acc;
   }
 
   async function isPremium(id: string) {

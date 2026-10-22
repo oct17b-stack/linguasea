@@ -16,8 +16,8 @@ const PAGE = /^(?:(privacy|terms|delete-account)-(th|en)|index)\.md$/;
 const PLACEHOLDER = /\[(?:TBD|รอกรอก): [^\]]*\]/g;
 
 const FOOTER = {
-  th: [['privacy', 'นโยบายความเป็นส่วนตัว'], ['terms', 'ข้อกำหนดการให้บริการ'], ['delete-account', 'การลบข้อมูล'], ['index', 'ช่วยเหลือ']],
-  en: [['privacy', 'Privacy Policy'], ['terms', 'Terms of Service'], ['delete-account', 'Delete your data'], ['index', 'Help']],
+  th: [['privacy', 'นโยบายความเป็นส่วนตัว'], ['terms', 'ข้อกำหนดการใช้งาน'], ['delete-account', 'การลบข้อมูล'], ['index', 'เอกสารทั้งหมด']],
+  en: [['privacy', 'Privacy Policy'], ['terms', 'Terms of Service'], ['delete-account', 'Delete your data'], ['index', 'All documents']],
 };
 
 const escapeHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -53,12 +53,15 @@ for (const file of sources) {
 
   const other = doc ? `${doc}-${lang === 'th' ? 'en' : 'th'}` : undefined;
   const alternate = other ? `\n<link rel="alternate" hreflang="${lang === 'th' ? 'en' : 'th'}" href="${other}.html">` : '';
-  const footer = (doc ? FOOTER[lang] : [...FOOTER.th, ...FOOTER.en])
-    .map(([page, label], i, all) => {
-      const target = page === 'index' ? 'index' : `${page}-${doc ? lang : i < all.length / 2 ? 'th' : 'en'}`;
-      return target === name ? `<span>${label}</span>` : `<a href="${target}.html">${label}</a>`;
-    })
-    .join(' · ');
+  // The index page is itself the list of documents, so only the others get a footer.
+  const footer = doc
+    ? `\n<footer>${FOOTER[lang]
+        .map(([page, label]) => {
+          const target = page === 'index' ? 'index' : `${page}-${lang}`;
+          return target === name ? `<span>${label}</span>` : `<a href="${target}.html">${label}</a>`;
+        })
+        .join(' · ')}</footer>`
+    : '';
 
   const html = `<!doctype html>
 <html lang="${lang}">
@@ -91,8 +94,7 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <body>
 <main>
 <div class="bar"><strong>LinguaSEA</strong>${switcher}</div>
-${body.trim()}
-<footer>${footer}</footer>
+${body.trim()}${footer}
 </main>
 </body>
 </html>

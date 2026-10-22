@@ -1,6 +1,6 @@
 import { buildBundle, loadContent, validate } from '@linguasea/contract/node';
 
-import { buildServer } from './app';
+import { buildServer, INACTIVE_ACCOUNT_DAYS } from './app';
 import { readConfig } from './config';
 import { pgDb } from './pg';
 import { migrate, PgStore } from './pg-store';
@@ -43,5 +43,17 @@ const app = buildServer({
   publicDir: config.publicDir,
   logger: true,
 });
+
+// Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS.
+async function purgeInactive() {
+  try {
+    const removed = await store.deleteInactive(new Date(Date.now() - INACTIVE_ACCOUNT_DAYS * 86_400_000));
+    if (removed) app.log.info({ removed }, 'deleted inactive accounts');
+  } catch (e) {
+    app.log.error(e, 'inactive account clean-up failed');
+  }
+}
+void purgeInactive();
+setInterval(purgeInactive, 86_400_000).unref();
 
 await app.listen({ port: config.port, host: '0.0.0.0' });

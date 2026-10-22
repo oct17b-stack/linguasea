@@ -163,7 +163,7 @@ h4 {
   text-wrap: balance;
 }
 h1 {
-  font-size: clamp(1.85rem, 1.25rem + 3vw, 3.05rem);
+  font-size: clamp(1.85rem, 1.25rem + 3vw, 2.8rem);
 }
 h2 {
   font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2.1rem);
@@ -173,11 +173,15 @@ h3 {
 }
 p {
   margin: 0 0 1em;
+  text-wrap: pretty;
 }
 ul,
 ol {
   margin: 0 0 1em;
   padding-left: 1.4em;
+}
+li {
+  text-wrap: pretty;
 }
 li + li {
   margin-top: 0.35em;
@@ -258,6 +262,10 @@ td {
 }
 .break {
   overflow-wrap: anywhere;
+}
+/* Keeps a loanword or phrase on one line: browsers' Thai dictionaries split words such as แพ็กเกจ or ซีรีส์. */
+.nw {
+  white-space: nowrap;
 }
 .list-plain {
   list-style: none;
@@ -450,7 +458,7 @@ ol.grid {
 .card h3 {
   margin-bottom: 0.35em;
 }
-.card p {
+.card > p {
   color: var(--text-2);
 }
 .icon-chip {
@@ -497,6 +505,7 @@ ol.grid {
   }
 }
 .hero h1 .hl {
+  display: block;
   color: var(--primary);
 }
 .hero-points {
@@ -559,6 +568,7 @@ ol.grid {
   background: var(--badge-bg);
   color: var(--badge-text);
   line-height: 1.25;
+  text-align: left;
   text-decoration: none;
 }
 .store-badge:hover {
@@ -787,6 +797,9 @@ ol.grid {
   font-size: 1rem;
   font-weight: 400;
 }
+.card > .sample {
+  color: var(--text);
+}
 .sample {
   display: grid;
   gap: 2px;
@@ -807,6 +820,10 @@ ol.grid {
 .sample-reading {
   color: var(--text-2);
   font-size: 0.95rem;
+}
+.sample-translit {
+  color: var(--text-2);
+  font-size: 0.88rem;
 }
 .lang-card .level-tag {
   margin-top: auto;
@@ -922,6 +939,9 @@ ol.grid {
   color: var(--text);
   line-height: 1.45;
 }
+.mock p {
+  margin: 0;
+}
 .mock-caption {
   color: var(--text-2);
   font-size: 0.8rem;
@@ -979,13 +999,17 @@ ol.grid {
   justify-items: center;
   text-align: center;
 }
+.feature .mock.score {
+  flex: 1;
+  align-content: center;
+}
 .score-target {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.3;
 }
 .score-target + .muted {
-  margin-top: -8px;
+  margin-top: -6px;
   font-size: 0.9rem;
 }
 .ring {
@@ -1092,11 +1116,11 @@ html[lang="en"] .ring small {
   font-size: 0.85rem;
   font-weight: 700;
 }
-.pill-free {
+.pill.pill-free {
   background: var(--primary-soft);
   color: var(--primary-ink);
 }
-.pill-premium {
+.pill.pill-premium {
   background: var(--accent-soft);
   color: var(--accent-ink);
 }

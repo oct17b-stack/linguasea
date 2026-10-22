@@ -7,6 +7,9 @@ create table if not exists accounts (
   created_at  timestamptz not null default now()
 );
 
+-- Last day the account was used; accounts unused for 24 months are deleted (privacy policy §7).
+alter table accounts add column if not exists last_seen_at timestamptz not null default now();
+
 create table if not exists progress (
   account_id  text primary key references accounts(id) on delete cascade,
   data        jsonb not null,               -- @linguasea/core Progress

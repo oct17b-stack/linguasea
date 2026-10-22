@@ -29,7 +29,7 @@ From our server, immediately:
 - your subscription status record (the end date we received from the store);
 - your daily usage counts (for example, pronunciation checks).
 
-On your device, the app erases your progress and settings, cancels your daily reminder and removes its access token, then starts afresh.
+On your device, the app erases your progress and your learning and reminder settings, cancels the daily reminder and removes its access token, then starts afresh.
 
 ## What is kept, and for how long
 

@@ -58,6 +58,15 @@ for (const [name, make] of stores) {
       assert.equal(await store.useQuota('acc-1', '2026-10-23', 'pronunciation', 3), true);
     });
 
+    test('deletes accounts that have not been used for a long time', async () => {
+      const store = await withAccount();
+      await store.createAccount({ id: 'acc-2', tokenHash: 'hash-2', createdAt: NOW.toISOString() });
+      await store.touchAccount('acc-2', later(400 * 86_400_000));
+      assert.equal(await store.deleteInactive(later(365 * 86_400_000)), 1);
+      assert.equal(await store.accountByTokenHash('hash-1'), undefined);
+      assert.equal((await store.accountByTokenHash('hash-2'))?.id, 'acc-2');
+    });
+
     test('deleting an account removes its data', async () => {
       const store = await withAccount();
       await store.updateProgress('acc-1', () => emptyProgress());

@@ -18,7 +18,8 @@
 | 隐私政策网址 | 泰语：`https://<域名>/legal/privacy-th.html`；英语：`https://<域名>/legal/privacy-en.html` |
 | 服务条款网址 | `https://<域名>/legal/terms-th.html` / `terms-en.html` |
 | 删除数据网址（Google 要求） | `https://<域名>/legal/delete-account-th.html`（页面里有英文版链接） |
-| 支持网址（Apple 必填） | 网站如有支持页就用它；否则用 `https://<域名>/legal/`（帮助页：联系邮箱、取消订阅、恢复购买、删除数据） |
+| 支持网址（Apple 必填） | 网站的帮助页 `https://<域名>/support.html`（网站在 `server/public/`，正在做）；它上线前可临时用 `https://<域名>/legal/`（法律文件列表和联系邮箱） |
+| 营销网址（Apple 可选） | `https://<域名>/` |
 | 联系邮箱（Google 必填，会公开） | [TBD: contact email]（和法律文件里的联系邮箱一致） |
 | 版权（Apple） | `2026 [TBD: operator legal name]` |
 
@@ -105,7 +106,7 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 ไม่มีโฆษณา
 
 นโยบายความเป็นส่วนตัว: https://<โดเมน>/legal/privacy-th.html
-ข้อกำหนดการให้บริการ: https://<โดเมน>/legal/terms-th.html
+ข้อกำหนดการใช้งาน: https://<โดเมน>/legal/terms-th.html
 
 LinguaSEA ไม่มีส่วนเกี่ยวข้องกับองค์กรที่จัดสอบ HSK, JLPT และ TOPIK
 ```
@@ -188,7 +189,7 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 ### 2.4 其他字段
 
 - Store settings → App category：Education；Tags 选和语言学习相关的（最多 5 个）。
-- Store settings → Store listing contact details：邮箱 [TBD: contact email]；网站可填 `https://<域名>/legal/`；电话可不填。
+- Store settings → Store listing contact details：邮箱 [TBD: contact email]；网站填 `https://<域名>/`；电话可不填。
 - Policy → App content → Privacy policy：`https://<域名>/legal/privacy-th.html`。
 
 ## 3. 截图清单
@@ -208,7 +209,7 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 
 尺寸：
 
-- **iPhone 6.9 英寸**（1320×2868 或 1290×2796，竖屏）：必需，3–10 张。
+- **iPhone 6.9 英寸**（1320×2868 或 1290×2796，竖屏）：必需，1–10 张（建议 5–8 张）。
 - **iPad 13 英寸**（2064×2752 或 2048×2732）：`app/app.json` 里 `supportsTablet: true`，所以**必需**。不想做 iPad 版就请开发者改成 `false`。
 - **Google Play 手机截图**：2–8 张，竖屏 9:16，建议 1080×1920 或更高。
 - **Google Play 宣传图（Feature graphic）**：1024×500，必需。
@@ -316,6 +317,6 @@ Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Servic
 - [ ] 文案里的功能和正式版一致：阶段、试用天数、免费 / 付费范围、发音打分的每日次数。
 - [ ] App 内付费墙（`content/l1/th/ui.json` 的 `paywall.feature.*`）现在写了"ฝึกพูดกับครู AI""ข้อสอบจำลอง""ดาวน์โหลดไว้เรียนออฟไลน์"等**还没有的功能**；上架前必须由开发者改成真实功能，否则 Apple 会以宣传不存在的功能拒审。
 - [ ] 付费墙和设置页里有隐私政策、服务条款链接；付费墙写清价格、周期、试用和自动续订（Apple 3.1.2）。
-- [ ] 隐私政策、条款、删除数据页、帮助页的网址都能打开，占位符已填完（`node docs/legal/build-html.mjs --check` 显示 0 个）。
+- [ ] 隐私政策、条款、删除数据页、支持页的网址都能打开，占位符已填完（`node docs/legal/build-html.mjs --check` 显示 0 个）。
 - [ ] 泰语文案请泰语母语审校看过（docs/LAUNCH.md 第 13 步）。
 - [ ] 以后加了 AI 口语老师、数据分析、崩溃监控或第三方登录：先按 `docs/legal/README.md` 更新隐私政策，再改第 5、6 节的问卷答案。

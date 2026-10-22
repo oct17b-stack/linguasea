@@ -13,6 +13,10 @@ export interface Store {
   accountByTokenHash(tokenHash: string): Promise<Account | undefined>;
   /** Removes the account and everything stored for it (progress, subscription state, usage). */
   deleteAccount(accountId: string): Promise<void>;
+  /** Notes that the account was used (at most one write a day per account). */
+  touchAccount(accountId: string, now: Date): Promise<void>;
+  /** Deletes accounts not used since `before`; returns how many. */
+  deleteInactive(before: Date): Promise<number>;
 
   getProgress(accountId: string): Promise<Progress | undefined>;
   /** Read-modify-write without lost updates when two devices sync at once. */
@@ -36,10 +40,20 @@ export class MemoryStore implements Store {
   private progress = new Map<string, Progress>();
   private premium = new Map<string, { until: Date; eventAt: Date }>();
   private usage = new Map<string, number>();
+  private lastSeen = new Map<string, Date>();
 
   async createAccount(a: Account) {
     this.accounts.set(a.id, a);
     this.byToken.set(a.tokenHash, a);
+    this.lastSeen.set(a.id, new Date(a.createdAt));
+  }
+  async touchAccount(id: string, now: Date) {
+    if (this.accounts.has(id)) this.lastSeen.set(id, now);
+  }
+  async deleteInactive(before: Date) {
+    const stale = [...this.lastSeen].filter(([, at]) => at < before).map(([id]) => id);
+    for (const id of stale) await this.deleteAccount(id);
+    return stale.length;
   }
   async accountByTokenHash(tokenHash: string) {
     return this.byToken.get(tokenHash);
@@ -50,6 +64,7 @@ export class MemoryStore implements Store {
     this.accounts.delete(id);
     this.progress.delete(id);
     this.premium.delete(id);
+    this.lastSeen.delete(id);
     for (const key of this.usage.keys()) if (key.startsWith(`${id}|`)) this.usage.delete(key);
   }
   async getProgress(id: string) {
