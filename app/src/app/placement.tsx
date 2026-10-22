@@ -6,12 +6,12 @@ import { Pressable, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { Card } from '@/components/card';
+import { Loading } from '@/components/loading';
 import { StepView, useRunner } from '@/components/lesson/runner';
 import { ProgressBar } from '@/components/progress-bar';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
-import { courseBundle } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
 import { stopAudio } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
@@ -45,15 +45,15 @@ function quiz(course: CourseBundle, stage: Stage): Phase {
  */
 export default function Placement() {
   const { start } = useLocalSearchParams<{ start?: string }>();
-  const { l1, target, progress, skipLessons, markPlaced, t } = useApp();
-  const course = target ? courseBundle(l1, target) : undefined;
+  const { target, course, progress, skipLessons, markPlaced, t } = useApp();
   const [phase, setPhase] = useState<Phase>(() => {
     if (!course || start !== 'test') return { kind: 'ask' };
     const next = testable(course, progress.completed)[0];
     return next ? quiz(course, next) : { kind: 'nothing' };
   });
   useEffect(() => stopAudio, []);
-  if (!course || !target) return null;
+  if (!target) return null;
+  if (!course) return <Loading />;
 
   const finish = () => {
     markPlaced(target);

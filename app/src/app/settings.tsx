@@ -1,4 +1,4 @@
-import type { L1Bundle } from '@linguasea/contract';
+import type { L1Index } from '@linguasea/contract';
 import * as Application from 'expo-application';
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
@@ -11,7 +11,7 @@ import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { FLAG } from '@/constants/flags';
 import { Spacing } from '@/constants/theme';
-import { bundle, courseBundle } from '@/content';
+import { contentIndex, courseIndex } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
 import { legalUrl } from '@/lib/api';
 import { confirm, notify } from '@/lib/dialog';
@@ -28,7 +28,7 @@ const appVersion = (() => {
   return build && build !== version ? `${version} (${build})` : version;
 })();
 
-const interfaceLanguages = Object.values(bundle.l1s).filter((b): b is L1Bundle => !!b);
+const interfaceLanguages = Object.values(contentIndex.l1s).filter((b): b is L1Index => !!b);
 
 export default function Settings() {
   const {
@@ -45,7 +45,7 @@ export default function Settings() {
     t,
   } = useApp();
   const c = useTheme();
-  const course = target ? courseBundle(l1, target) : undefined;
+  const course = target ? courseIndex(l1, target) : undefined;
   const [restoring, setRestoring] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const [reminderDenied, setReminderDenied] = useState(false);
@@ -106,7 +106,7 @@ export default function Settings() {
     <Screen>
       <Section title={t('settings.learning')}>
         <Row
-          label={course && target ? `${FLAG[target]}  ${course.gloss.name}` : '—'}
+          label={course && target ? `${FLAG[target]}  ${course.name}` : '—'}
           action={t('settings.change')}
           onPress={() => router.push('/languages')}
         />

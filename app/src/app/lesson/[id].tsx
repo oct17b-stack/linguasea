@@ -19,7 +19,7 @@ import { StepView, useRunner } from '@/components/lesson/runner';
 import { DoneStep } from '@/components/lesson/steps';
 import { ProgressBar } from '@/components/progress-bar';
 import { Screen } from '@/components/screen';
-import { courseBundle, targetOf } from '@/content';
+import { loadCourse, targetOf } from '@/content';
 import { preloadClips, stopAudio } from '@/lib/audio';
 import { nodeTitle, pathNode, practiceNumber } from '@/lib/course-map';
 import { useApp } from '@/state/app-state';
@@ -52,8 +52,8 @@ function stepsFor(course: CourseBundle, node: PathNode, t: T): Step[] {
 
 export default function LessonScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { l1 } = useApp();
-  const course = courseBundle(l1, targetOf(id));
+  const { l1, course: current } = useApp();
+  const course = current?.course.target === targetOf(id) ? current : loadCourse(l1, targetOf(id));
   const node = course ? pathNode(course.course, id) : undefined;
   // A failed unit test starts over with new questions.
   const [attempt, setAttempt] = useState(0);

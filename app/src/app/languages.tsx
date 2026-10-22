@@ -6,7 +6,7 @@ import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { FLAG } from '@/constants/flags';
 import { Spacing } from '@/constants/theme';
-import { courseBundle } from '@/content';
+import { courseIndex } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
 import { useApp } from '@/state/app-state';
 
@@ -26,7 +26,7 @@ export default function Languages() {
       <ThemedText type="subtitle">{t('languages.title')}</ThemedText>
       <ThemedText style={{ color: c.textSecondary }}>{t('languages.subtitle')}</ThemedText>
       {TARGETS.map((code) => {
-        const course = courseBundle(l1, code);
+        const course = courseIndex(l1, code);
         if (!course) return null;
         return (
           <Pressable
@@ -39,7 +39,7 @@ export default function Languages() {
             ]}>
             <ThemedText style={styles.flag}>{FLAG[code]}</ThemedText>
             <ThemedText type="smallBold" style={styles.name}>
-              {course.gloss.name}
+              {course.name}
             </ThemedText>
           </Pressable>
         );

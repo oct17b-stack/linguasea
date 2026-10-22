@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { L1, Target } from '@linguasea/contract';
+import { courseKey, type CourseBundle, type L1, type Target } from '@linguasea/contract';
 import {
   completeLesson,
   emptyProgress,
@@ -12,7 +12,7 @@ import {
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { AppState as SystemAppState } from 'react-native';
 
-import { bundle, courseBundle, l1Bundle } from '@/content';
+import { contentIndex, courseIndex, isCourseLoaded, l1Index, loadCourse } from '@/content';
 import * as api from '@/lib/api';
 import { translate } from '@/lib/i18n';
 import { deviceL1 } from '@/lib/locale';
@@ -63,6 +63,11 @@ type AppState = {
   ready: boolean;
   l1: L1;
   target?: Target;
+  /**
+   * The chosen course with all its lessons. Undefined when none is chosen, and for the moment
+   * after choosing one while it is read (screens show a spinner then).
+   */
+  course?: CourseBundle;
   progress: Progress;
   reminder: Reminder;
   /** Store entitlement OR server entitlement (OR the development unlock). */
@@ -109,12 +114,12 @@ function revive(raw: string | null): Saved {
   const base = fresh();
   if (!raw) return base;
   const old = JSON.parse(raw) as Partial<Saved> & { premium?: boolean };
-  const l1 = old.l1 && bundle.l1s[old.l1] ? old.l1 : base.l1;
+  const l1 = old.l1 && contentIndex.l1s[old.l1] ? old.l1 : base.l1;
   const ent: Partial<Entitlements> = old.entitlements ?? {};
   const until = typeof ent.serverUntil === 'string' ? ent.serverUntil : null;
   return {
     l1,
-    target: old.target && courseBundle(l1, old.target) ? old.target : undefined,
+    target: old.target && courseIndex(l1, old.target) ? old.target : undefined,
     progress: old.progress?.version === 1 ? old.progress : base.progress,
     reminder: { ...base.reminder, ...old.reminder },
     placed: { ...old.placed },
@@ -252,6 +257,26 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     return () => sub.remove();
   }, [ready, runSync, refreshPremium]);
 
+  // The chosen course is read from its own file (only the index is loaded at startup). A course read
+  // before is ready at once; a new one is read right after the screen that chose it has painted.
+  const [current, setCurrent] = useState<{ key: string; course: CourseBundle }>();
+  const wanted = saved.target ? courseKey(saved.l1, saved.target) : undefined;
+  useEffect(() => {
+    if (!ready || !saved.target || current?.key === wanted) return;
+    const { l1, target } = saved;
+    const read = () => {
+      const course = loadCourse(l1, target);
+      if (course) setCurrent({ key: courseKey(l1, target), course });
+    };
+    if (isCourseLoaded(l1, target)) {
+      read();
+      return;
+    }
+    const timer = setTimeout(read, 0);
+    return () => clearTimeout(timer);
+  }, [ready, saved, current, wanted]);
+  const course = current && current.key === wanted ? current.course : undefined;
+
   // Keep the scheduled reminder in step with its settings and the course it names.
   const { l1, target } = saved;
   const { on, hour, minute } = saved.reminder;
@@ -261,8 +286,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       void cancelReminder();
       return;
     }
-    const ui = l1Bundle(l1).ui;
-    const language = target ? (courseBundle(l1, target)?.gloss.name ?? '') : '';
+    const ui = l1Index(l1).ui;
+    const language = target ? (courseIndex(l1, target)?.name ?? '') : '';
     const text = {
       title: translate(ui, 'reminder.title'),
       body: translate(ui, 'reminder.body', { language }),
@@ -292,18 +317,19 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     return true;
   }, []);
 
-  const ui = l1Bundle(saved.l1).ui;
+  const ui = l1Index(saved.l1).ui;
   const { store, server, dev } = saved.entitlements;
   const value: AppState = {
     ready,
     l1: saved.l1,
     target: saved.target,
+    course,
     progress: saved.progress,
     reminder: saved.reminder,
     premium: store || server || dev,
     t: (key, params) => translate(ui, key, params),
     setL1: (next) =>
-      setSaved((cur) => ({ ...cur, l1: next, target: cur.target && courseBundle(next, cur.target) ? cur.target : undefined })),
+      setSaved((cur) => ({ ...cur, l1: next, target: cur.target && courseIndex(next, cur.target) ? cur.target : undefined })),
     setTarget: (next) => setSaved((cur) => ({ ...cur, target: next })),
     finishLesson: (lessonId, results) => {
       setSaved((cur) => ({ ...cur, progress: completeLesson(cur.progress, lessonId, results, new Date()) }));

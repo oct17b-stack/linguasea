@@ -41,4 +41,5 @@ example
 # generated native folders
 /ios
 /android
-src/content/bundle.generated.json
+# written by `npm run content` (packages/contract/src/cli/build.ts)
+src/content/generated/

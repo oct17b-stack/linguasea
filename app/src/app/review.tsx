@@ -8,7 +8,6 @@ import { ChooseStep } from '@/components/lesson/steps';
 import { ProgressBar } from '@/components/progress-bar';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
-import { courseBundle } from '@/content';
 import { stopAudio } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
 
@@ -16,8 +15,7 @@ import { useApp } from '@/state/app-state';
 const SESSION = 20;
 
 export default function Review() {
-  const { l1, target, progress, reviewed, t } = useApp();
-  const course = target ? courseBundle(l1, target) : undefined;
+  const { target, course, progress, reviewed, t } = useApp();
   // Fixed for the session: grading a card must not reshuffle the remaining questions.
   const [steps] = useState(() =>
     course && target ? reviewSteps(course, dueItems(progress, new Date(), `${target}.`).slice(0, SESSION)) : [],

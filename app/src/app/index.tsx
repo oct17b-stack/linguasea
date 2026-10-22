@@ -7,10 +7,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/button';
 import { Card } from '@/components/card';
+import { Loading } from '@/components/loading';
 import { ProgressBar } from '@/components/progress-bar';
 import { ThemedText } from '@/components/themed-text';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
-import { courseBundle } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
 import { apiEnabled } from '@/lib/api';
 import { courseMap, currentStage, NODE_ICON, nextLesson, nodeTitle, type StageRow, type UnitRow } from '@/lib/course-map';
@@ -28,12 +28,12 @@ function openNode(node: PathNode, access: string) {
  * practice sessions and the unit test. A virtualized list, so ~100 units per course stay fast.
  */
 export default function Home() {
-  const { l1, target, premium, progress, t } = useApp();
+  const { target, course, premium, progress, t } = useApp();
   const c = useTheme();
   // Stages the learner opened or closed; the others follow "current stage open".
   const [expanded, setExpanded] = useState<Partial<Record<Stage, boolean>>>({});
-  const course = target ? courseBundle(l1, target) : undefined;
-  if (!target || !course) return <Redirect href="/languages" />;
+  if (!target) return <Redirect href="/languages" />;
+  if (!course) return <Loading />;
 
   const { completed } = progress;
   const map = courseMap(course.course);

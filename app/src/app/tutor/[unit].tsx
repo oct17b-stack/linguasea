@@ -21,7 +21,6 @@ import { MicButton } from '@/components/mic-button';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
-import { courseBundle } from '@/content';
 import { useRecorder } from '@/hooks/use-recorder';
 import { useTheme } from '@/hooks/use-theme';
 import { legalUrl, transcribe, TUTOR_LINE_MAX, tutorTurn, type TutorLine, type TutorTurn } from '@/lib/api';
@@ -44,8 +43,7 @@ const PRIVACY_SECTION = { th: '35-บทสนทนากับครู-ai', e
  */
 export default function TutorScreen() {
   const { unit } = useLocalSearchParams<{ unit: string }>();
-  const { l1, target, tutorConsent, t } = useApp();
-  const course = target ? courseBundle(l1, target) : undefined;
+  const { target, course, tutorConsent, t } = useApp();
   if (!course || !target || !course.course.stages.some((s) => s.units.some((u) => u.id === unit))) return null;
   const title = course.gloss.units[unit]?.title ?? unit;
   return (
