@@ -1,0 +1,61 @@
+{
+  "id": "en-A5-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.this-is",
+      "kind": "phrase",
+      "text": "This is …",
+      "reading": "ˈðɪs ɪz …"
+    },
+    {
+      "id": "en.family",
+      "text": "family",
+      "reading": "ˈfæməli"
+    },
+    {
+      "id": "en.mother",
+      "text": "mother",
+      "reading": "ˈmʌðər"
+    },
+    {
+      "id": "en.father",
+      "text": "father",
+      "reading": "ˈfɑːðər"
+    },
+    {
+      "id": "en.mom",
+      "text": "mom",
+      "reading": "mɑːm"
+    },
+    {
+      "id": "en.dad",
+      "text": "dad",
+      "reading": "dæd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, this is my mom.",
+      "reading": "ˈɛmə, ðɪs ɪz maɪ ˈmɑːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Hello! Nice to meet you.",
+      "reading": "həˈloʊ! ˈnaɪs tə ˈmiːt juː."
+    },
+    {
+      "speaker": "a",
+      "text": "And this is my dad.",
+      "reading": "ənd ðɪs ɪz maɪ ˈdæd."
+    },
+    {
+      "speaker": "c",
+      "text": "Hello! Nam, your family is very nice!",
+      "reading": "həˈloʊ! ˈnɑːm, jʊr ˈfæməli ɪz ˈvɛri ˈnaɪs!"
+    }
+  ]
+}

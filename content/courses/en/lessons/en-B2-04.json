@@ -1,0 +1,61 @@
+{
+  "id": "en-B2-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.cheap",
+      "text": "cheap",
+      "reading": "tʃiːp"
+    },
+    {
+      "id": "en.expensive",
+      "text": "expensive",
+      "reading": "ɪkˈspɛnsɪv"
+    },
+    {
+      "id": "en.big",
+      "text": "big",
+      "reading": "bɪɡ"
+    },
+    {
+      "id": "en.small",
+      "text": "small",
+      "reading": "smɔːl"
+    },
+    {
+      "id": "en.ill-take-it",
+      "kind": "phrase",
+      "text": "I'll take it.",
+      "reading": "aɪl ˈteɪk ɪt."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. How much is this big bag?",
+      "reading": "ɪkˈskjuːz miː. ˈhaʊ ˈmʌtʃ ɪz ðɪs ˈbɪɡ ˈbæɡ?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's nine hundred baht.",
+      "reading": "ɪts ˈnaɪn ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, that's expensive!",
+      "reading": "ˈoʊ, ðæts ɪkˈspɛnsɪv!"
+    },
+    {
+      "speaker": "b",
+      "text": "This small bag is cheap. Two hundred baht.",
+      "reading": "ðɪs ˈsmɔːl ˈbæɡ ɪz ˈtʃiːp. ˈtuː ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I'll take it!",
+      "reading": "oʊˈkeɪ. aɪl ˈteɪk ɪt!"
+    }
+  ]
+}

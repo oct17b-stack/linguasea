@@ -1,0 +1,146 @@
+{
+  "id": "en-A2-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.vest",
+      "text": "vest",
+      "reading": "vɛst"
+    },
+    {
+      "id": "en.west",
+      "text": "west",
+      "reading": "wɛst"
+    },
+    {
+      "id": "en.very",
+      "text": "very",
+      "reading": "ˈvɛri"
+    },
+    {
+      "id": "en.wary",
+      "text": "wary",
+      "reading": "ˈwɛri"
+    },
+    {
+      "id": "en.vet",
+      "text": "vet",
+      "reading": "vɛt"
+    },
+    {
+      "id": "en.wet",
+      "text": "wet",
+      "reading": "wɛt"
+    },
+    {
+      "id": "en.van",
+      "text": "van",
+      "reading": "væn"
+    },
+    {
+      "id": "en.fan",
+      "text": "fan",
+      "reading": "fæn"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.vest",
+      "options": [
+        "en.west"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.west",
+      "options": [
+        "en.vest"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.very",
+      "options": [
+        "en.wary"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.wary",
+      "options": [
+        "en.very"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.vet",
+      "options": [
+        "en.wet"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.wet",
+      "options": [
+        "en.vet"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.van",
+      "options": [
+        "en.fan"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.fan",
+      "options": [
+        "en.van"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.vest"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.west"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.very"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.wary"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.vet"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.wet"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.van"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.fan"
+    },
+    {
+      "type": "speak",
+      "item": "en.very"
+    },
+    {
+      "type": "speak",
+      "item": "en.van"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "en-B6-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.a-ticket-to",
+      "kind": "phrase",
+      "text": "A ticket to …, please.",
+      "reading": "ə ˈtɪkɪt tə …, ˈpliːz."
+    },
+    {
+      "id": "en.one-way",
+      "text": "one-way",
+      "reading": "ˌwʌnˈweɪ"
+    },
+    {
+      "id": "en.round-trip",
+      "text": "round-trip",
+      "reading": "ˌraʊndˈtrɪp"
+    },
+    {
+      "id": "en.how-long-does-it-take",
+      "kind": "phrase",
+      "text": "How long does it take?",
+      "reading": "ˈhaʊ ˈlɔːŋ dʌz ɪt ˈteɪk?"
+    },
+    {
+      "id": "en.hour",
+      "text": "hour",
+      "reading": "ˈaʊər"
+    },
+    {
+      "id": "en.minute",
+      "text": "minute",
+      "reading": "ˈmɪnɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "A ticket to Chiang Mai, please.",
+      "reading": "ə ˈtɪkɪt tə ˈtʃjɑːŋ ˈmaɪ, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "One-way or round-trip?",
+      "reading": "ˌwʌnˈweɪ ɔːr ˌraʊndˈtrɪp?"
+    },
+    {
+      "speaker": "a",
+      "text": "Round-trip, please. How much is it?",
+      "reading": "ˌraʊndˈtrɪp, ˈpliːz. ˈhaʊ ˈmʌtʃ ɪz ɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's five hundred baht.",
+      "reading": "ɪts ˈfaɪv ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "How long does it take?",
+      "reading": "ˈhaʊ ˈlɔːŋ dʌz ɪt ˈteɪk?"
+    },
+    {
+      "speaker": "b",
+      "text": "About twelve hours.",
+      "reading": "əˈbaʊt ˈtwɛlv ˈaʊərz."
+    }
+  ]
+}

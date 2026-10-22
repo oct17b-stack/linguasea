@@ -1,0 +1,146 @@
+{
+  "id": "en-A2-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.right",
+      "text": "right",
+      "reading": "raɪt"
+    },
+    {
+      "id": "en.light",
+      "text": "light",
+      "reading": "laɪt"
+    },
+    {
+      "id": "en.rice",
+      "text": "rice",
+      "reading": "raɪs"
+    },
+    {
+      "id": "en.lice",
+      "text": "lice",
+      "reading": "laɪs"
+    },
+    {
+      "id": "en.wrong",
+      "text": "wrong",
+      "reading": "rɔːŋ"
+    },
+    {
+      "id": "en.long",
+      "text": "long",
+      "reading": "lɔːŋ"
+    },
+    {
+      "id": "en.grass",
+      "text": "grass",
+      "reading": "ɡræs"
+    },
+    {
+      "id": "en.glass",
+      "text": "glass",
+      "reading": "ɡlæs"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.right",
+      "options": [
+        "en.light"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.light",
+      "options": [
+        "en.right"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.rice",
+      "options": [
+        "en.lice"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.lice",
+      "options": [
+        "en.rice"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.wrong",
+      "options": [
+        "en.long"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.long",
+      "options": [
+        "en.wrong"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.grass",
+      "options": [
+        "en.glass"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.glass",
+      "options": [
+        "en.grass"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.right"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.light"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.rice"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.lice"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.wrong"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.long"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.grass"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.glass"
+    },
+    {
+      "type": "speak",
+      "item": "en.rice"
+    },
+    {
+      "type": "speak",
+      "item": "en.right"
+    }
+  ]
+}

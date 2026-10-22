@@ -1,0 +1,53 @@
+{
+  "lesson": "en-B2-01",
+  "title": "ราคาเท่าไร",
+  "intro": "ถามราคาสินค้า และฟังราคาเป็นภาษาอังกฤษตั้งแต่ 30 ถึง 100 บาท",
+  "items": {
+    "en.how-much-is-it": {
+      "meaning": "ราคาเท่าไร",
+      "translit": "ฮาว มัช อิส อิท"
+    },
+    "en.baht": {
+      "meaning": "บาท (เงินไทย)",
+      "translit": "บาท"
+    },
+    "en.thirty": {
+      "meaning": "สามสิบ (30)",
+      "translit": "เธอร์ตี้"
+    },
+    "en.forty": {
+      "meaning": "สี่สิบ (40)",
+      "translit": "โฟร์ตี้"
+    },
+    "en.fifty": {
+      "meaning": "ห้าสิบ (50)",
+      "translit": "ฟิฟตี้"
+    },
+    "en.hundred": {
+      "meaning": "ร้อย (100)",
+      "translit": "ฮันเดรด"
+    }
+  },
+  "dialogue": [
+    "ขอโทษนะ อันนี้ราคาเท่าไร",
+    "สามสิบบาท",
+    "แล้วอันนี้ล่ะ",
+    "สี่สิบบาท",
+    "โอเค นี่ หนึ่งร้อยบาท",
+    "ขอบคุณ นี่เงินทอนสามสิบบาท"
+  ],
+  "notes": [
+    {
+      "title": "baht ไม่เติม s",
+      "body": "หลังตัวเลข baht ไม่ต้องเติม s เช่น forty baht แต่ dollar ต้องเติม s เช่น forty dollars"
+    },
+    {
+      "title": "-ty เน้นพยางค์แรก",
+      "body": "thirty, forty, fifty เน้นพยางค์แรก (THIR-ty) ต่างจาก thirteen ที่เน้นท้าย และ forty สะกดไม่มี u"
+    },
+    {
+      "title": "60 ถึง 100",
+      "body": "60–90 สร้างแบบเดียวกัน: sixty, seventy, eighty, ninety ส่วน 100 พูดว่า a hundred หรือ one hundred"
+    }
+  ]
+}

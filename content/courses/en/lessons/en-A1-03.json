@@ -1,0 +1,54 @@
+{
+  "id": "en-A1-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.how-are-you",
+      "kind": "phrase",
+      "text": "How are you?",
+      "reading": "ˈhaʊ ər juː?"
+    },
+    {
+      "id": "en.im-fine",
+      "kind": "phrase",
+      "text": "I'm fine.",
+      "reading": "aɪm ˈfaɪn."
+    },
+    {
+      "id": "en.not-bad",
+      "kind": "phrase",
+      "text": "Not bad.",
+      "reading": "ˈnɑːt ˈbæd."
+    },
+    {
+      "id": "en.and-you",
+      "kind": "phrase",
+      "text": "And you?",
+      "reading": "ənd ˈjuː?"
+    },
+    {
+      "id": "en.thanks",
+      "text": "Thanks",
+      "reading": "θæŋks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma! How are you?",
+      "reading": "ˈhaɪ, ˈɛmə! ˈhaʊ ər juː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm fine, thanks. And you?",
+      "reading": "aɪm ˈfaɪn, ˈθæŋks. ənd ˈjuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not bad, thanks.",
+      "reading": "ˈnɑːt ˈbæd, ˈθæŋks."
+    }
+  ]
+}

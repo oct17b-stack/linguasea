@@ -1,0 +1,65 @@
+{
+  "id": "en-B5-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.angry",
+      "text": "angry",
+      "reading": "ˈæŋɡri"
+    },
+    {
+      "id": "en.bored",
+      "text": "bored",
+      "reading": "bɔːrd"
+    },
+    {
+      "id": "en.excited",
+      "text": "excited",
+      "reading": "ɪkˈsaɪtɪd"
+    },
+    {
+      "id": "en.worried",
+      "text": "worried",
+      "reading": "ˈwɜːrid"
+    },
+    {
+      "id": "en.scared",
+      "text": "scared",
+      "reading": "skɛrd"
+    },
+    {
+      "id": "en.because",
+      "text": "because",
+      "reading": "bɪˈkɔːz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, are you angry?",
+      "reading": "ˈɛmə, ər juː ˈæŋɡri?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, I'm not angry. I'm bored.",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt ˈæŋɡri. aɪm ˈbɔːrd."
+    },
+    {
+      "speaker": "a",
+      "text": "Bored? Why?",
+      "reading": "ˈbɔːrd? ˈwaɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Because it's raining.",
+      "reading": "bɪˈkɔːz ɪts ˈreɪnɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "I'm excited because tomorrow is Saturday!",
+      "reading": "aɪm ɪkˈsaɪtɪd bɪˈkɔːz təˈmɑːroʊ ɪz ˈsætərdeɪ!"
+    }
+  ]
+}

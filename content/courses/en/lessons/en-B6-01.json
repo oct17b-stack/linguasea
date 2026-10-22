@@ -1,0 +1,65 @@
+{
+  "id": "en-B6-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.bus",
+      "text": "bus",
+      "reading": "bʌs"
+    },
+    {
+      "id": "en.train",
+      "text": "train",
+      "reading": "treɪn"
+    },
+    {
+      "id": "en.plane",
+      "text": "plane",
+      "reading": "pleɪn"
+    },
+    {
+      "id": "en.taxi",
+      "text": "taxi",
+      "reading": "ˈtæksi"
+    },
+    {
+      "id": "en.motorcycle",
+      "text": "motorcycle",
+      "reading": "ˈmoʊtərsaɪkəl"
+    },
+    {
+      "id": "en.walk",
+      "text": "walk",
+      "reading": "wɔːk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, how do you go to class?",
+      "reading": "ˈnɑːm, ˈhaʊ duː juː ˈɡoʊ tə ˈklæs?"
+    },
+    {
+      "speaker": "a",
+      "text": "By bus. Sometimes by motorcycle taxi.",
+      "reading": "baɪ ˈbʌs. ˈsʌmtaɪmz baɪ ˈmoʊtərsaɪkəl ˌtæksi."
+    },
+    {
+      "speaker": "c",
+      "text": "Motorcycle taxi?",
+      "reading": "ˈmoʊtərsaɪkəl ˌtæksi?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. They're cheap. And you?",
+      "reading": "ˈjɛs. ðɛr ˈtʃiːp. ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I walk, or I go by train.",
+      "reading": "aɪ ˈwɔːk, ɔːr aɪ ˈɡoʊ baɪ ˈtreɪn."
+    }
+  ]
+}

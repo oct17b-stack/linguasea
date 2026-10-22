@@ -1,0 +1,60 @@
+{
+  "id": "en-A6-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.hungry",
+      "text": "hungry",
+      "reading": "ˈhʌŋɡri"
+    },
+    {
+      "id": "en.thirsty",
+      "text": "thirsty",
+      "reading": "ˈθɜːrsti"
+    },
+    {
+      "id": "en.like",
+      "text": "like",
+      "reading": "laɪk"
+    },
+    {
+      "id": "en.spicy",
+      "text": "spicy",
+      "reading": "ˈspaɪsi"
+    },
+    {
+      "id": "en.sweet",
+      "text": "sweet",
+      "reading": "swiːt"
+    },
+    {
+      "id": "en.delicious",
+      "text": "delicious",
+      "reading": "dɪˈlɪʃəs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, are you hungry?",
+      "reading": "ˈɛmə, ər juː ˈhʌŋɡri?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes! I'm hungry and thirsty.",
+      "reading": "ˈjɛs! aɪm ˈhʌŋɡri ənd ˈθɜːrsti."
+    },
+    {
+      "speaker": "a",
+      "text": "Do you like spicy food?",
+      "reading": "duː juː ˈlaɪk ˈspaɪsi ˈfuːd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes! Thai food is delicious.",
+      "reading": "ˈjɛs! ˈtaɪ ˈfuːd ɪz dɪˈlɪʃəs."
+    }
+  ]
+}

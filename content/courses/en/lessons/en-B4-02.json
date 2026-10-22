@@ -1,0 +1,73 @@
+{
+  "id": "en-B4-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.have-lunch",
+      "kind": "phrase",
+      "text": "have lunch",
+      "reading": "ˈhæv ˈlʌntʃ"
+    },
+    {
+      "id": "en.study",
+      "text": "study",
+      "reading": "ˈstʌdi"
+    },
+    {
+      "id": "en.library",
+      "text": "library",
+      "reading": "ˈlaɪbrɛri"
+    },
+    {
+      "id": "en.work",
+      "text": "work",
+      "reading": "wɜːrk"
+    },
+    {
+      "id": "en.go-home",
+      "kind": "phrase",
+      "text": "go home",
+      "reading": "ˈɡoʊ ˈhoʊm"
+    },
+    {
+      "id": "en.in-the-afternoon",
+      "kind": "phrase",
+      "text": "in the afternoon",
+      "reading": "ɪn ði ˌæftərˈnuːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, where do you have lunch?",
+      "reading": "ˈnɑːm, ˈwɛr duː juː ˈhæv ˈlʌntʃ?"
+    },
+    {
+      "speaker": "a",
+      "text": "At the university.",
+      "reading": "ət ðə ˌjuːnɪˈvɜːrsəti."
+    },
+    {
+      "speaker": "b",
+      "text": "And in the afternoon?",
+      "reading": "ənd ɪn ði ˌæftərˈnuːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I study in the library.",
+      "reading": "aɪ ˈstʌdi ɪn ðə ˈlaɪbrɛri."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you work, too?",
+      "reading": "duː juː ˈwɜːrk, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I work at a restaurant on the weekend.",
+      "reading": "ˈjɛs. aɪ ˈwɜːrk ət ə ˈrɛstərɑːnt ɑːn ðə ˈwiːkɛnd."
+    }
+  ]
+}

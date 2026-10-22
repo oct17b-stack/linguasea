@@ -1,0 +1,76 @@
+{
+  "id": "en-B4-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.get-up",
+      "kind": "phrase",
+      "text": "get up",
+      "reading": "ˈɡɛt ˈʌp"
+    },
+    {
+      "id": "en.take-a-shower",
+      "kind": "phrase",
+      "text": "take a shower",
+      "reading": "ˈteɪk ə ˈʃaʊər"
+    },
+    {
+      "id": "en.have-breakfast",
+      "kind": "phrase",
+      "text": "have breakfast",
+      "reading": "ˈhæv ˈbrɛkfəst"
+    },
+    {
+      "id": "en.go-to-class",
+      "kind": "phrase",
+      "text": "go to class",
+      "reading": "ˈɡoʊ tə ˈklæs"
+    },
+    {
+      "id": "en.in-the-morning",
+      "kind": "phrase",
+      "text": "in the morning",
+      "reading": "ɪn ðə ˈmɔːrnɪŋ"
+    },
+    {
+      "id": "en.what-time-do-you-get-up",
+      "kind": "phrase",
+      "text": "What time do you get up?",
+      "reading": "ˈwʌt ˈtaɪm duː juː ˈɡɛt ˈʌp?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "What time do you get up, Nam?",
+      "reading": "ˈwʌt ˈtaɪm duː juː ˈɡɛt ˈʌp, ˈnɑːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "At six o'clock in the morning.",
+      "reading": "ət ˈsɪks əˈklɑːk ɪn ðə ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "Six? And then?",
+      "reading": "ˈsɪks? ənd ˈðɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I take a shower and have breakfast.",
+      "reading": "aɪ ˈteɪk ə ˈʃaʊər ənd ˈhæv ˈbrɛkfəst."
+    },
+    {
+      "speaker": "c",
+      "text": "What time do you go to class?",
+      "reading": "ˈwʌt ˈtaɪm duː juː ˈɡoʊ tə ˈklæs?"
+    },
+    {
+      "speaker": "a",
+      "text": "At eight thirty.",
+      "reading": "ət ˈeɪt ˈθɜːrti."
+    }
+  ]
+}

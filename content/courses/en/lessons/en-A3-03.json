@@ -1,0 +1,62 @@
+{
+  "id": "en-A3-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.student",
+      "text": "student",
+      "reading": "ˈstuːdənt"
+    },
+    {
+      "id": "en.teacher",
+      "text": "teacher",
+      "reading": "ˈtiːtʃər"
+    },
+    {
+      "id": "en.university",
+      "text": "university",
+      "reading": "ˌjuːnɪˈvɜːrsəti"
+    },
+    {
+      "id": "en.friend",
+      "text": "friend",
+      "reading": "frɛnd"
+    },
+    {
+      "id": "en.yes-i-am",
+      "kind": "phrase",
+      "text": "Yes, I am.",
+      "reading": "ˈjɛs, aɪ ˈæm."
+    },
+    {
+      "id": "en.no-im-not",
+      "kind": "phrase",
+      "text": "No, I'm not.",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello! Are you a university student?",
+      "reading": "həˈloʊ! ər juː ə ˌjuːnɪˈvɜːrsəti ˈstuːdənt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I am. Are you a student, too?",
+      "reading": "ˈjɛs, aɪ ˈæm. ər juː ə ˈstuːdənt, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I'm not. I'm the teacher, Mr. Brown.",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt. aɪm ðə ˈtiːtʃər, ˈmɪstər ˈbraʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! My friend Emma is your student!",
+      "reading": "ˈoʊ! maɪ ˈfrɛnd ˈɛmə ɪz jʊr ˈstuːdənt!"
+    }
+  ]
+}

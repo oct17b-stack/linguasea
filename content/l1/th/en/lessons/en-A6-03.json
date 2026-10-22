@@ -1,0 +1,51 @@
+{
+  "lesson": "en-A6-03",
+  "title": "หิวไหม ชอบไหม",
+  "intro": "บอกว่าหิวหรือกระหายน้ำ และบอกรสชาติที่ชอบ",
+  "items": {
+    "en.hungry": {
+      "meaning": "หิว",
+      "translit": "ฮังกรี้"
+    },
+    "en.thirsty": {
+      "meaning": "กระหายน้ำ",
+      "translit": "เธิร์สตี้"
+    },
+    "en.like": {
+      "meaning": "ชอบ",
+      "translit": "ไลค์"
+    },
+    "en.spicy": {
+      "meaning": "เผ็ด",
+      "translit": "สไปซี่"
+    },
+    "en.sweet": {
+      "meaning": "หวาน",
+      "translit": "สวีท"
+    },
+    "en.delicious": {
+      "meaning": "อร่อย",
+      "translit": "ดิลิเชียส"
+    }
+  },
+  "dialogue": [
+    "เอ็มม่า หิวไหม",
+    "หิว! ทั้งหิวทั้งกระหายน้ำเลย",
+    "ชอบอาหารเผ็ดไหม",
+    "ชอบ! อาหารไทยอร่อยมาก"
+  ],
+  "notes": [
+    {
+      "title": "I'm hungry. ไม่ใช่ I hungry.",
+      "body": "ภาษาไทยพูด ฉันหิว ได้เลย แต่ภาษาอังกฤษต้องมี am คั่น: I'm hungry. คำบอกความรู้สึกอื่น ๆ ก็เช่นกัน"
+    },
+    {
+      "title": "ถามว่าชอบไหม",
+      "body": "ถามว่าชอบอะไรไหมใช้ Do you like …? ตอบสั้น ๆ ว่า Yes, I do. หรือ No, I don't."
+    },
+    {
+      "title": "delicious กับ good",
+      "body": "delicious แปลว่าอร่อยมาก ในชีวิตประจำวันคนอเมริกันมักชมง่าย ๆ ว่า It's good! หรือ It's really good!"
+    }
+  ]
+}

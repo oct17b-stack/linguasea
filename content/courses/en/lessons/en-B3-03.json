@@ -1,0 +1,75 @@
+{
+  "id": "en-B3-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.go-straight",
+      "kind": "phrase",
+      "text": "Go straight.",
+      "reading": "ˈɡoʊ ˈstreɪt."
+    },
+    {
+      "id": "en.turn-left",
+      "kind": "phrase",
+      "text": "Turn left.",
+      "reading": "ˈtɜːrn ˈlɛft."
+    },
+    {
+      "id": "en.turn-right",
+      "kind": "phrase",
+      "text": "Turn right.",
+      "reading": "ˈtɜːrn ˈraɪt."
+    },
+    {
+      "id": "en.on-the-left",
+      "kind": "phrase",
+      "text": "on the left",
+      "reading": "ɑːn ðə ˈlɛft"
+    },
+    {
+      "id": "en.on-the-right",
+      "kind": "phrase",
+      "text": "on the right",
+      "reading": "ɑːn ðə ˈraɪt"
+    },
+    {
+      "id": "en.corner",
+      "text": "corner",
+      "reading": "ˈkɔːrnər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Where is the supermarket?",
+      "reading": "ɪkˈskjuːz miː. ˈwɛr ɪz ðə ˈsuːpərmɑːrkɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Go straight. Then turn right at the corner.",
+      "reading": "ˈɡoʊ ˈstreɪt. ˈðɛn ˈtɜːrn ˈraɪt ət ðə ˈkɔːrnər."
+    },
+    {
+      "speaker": "a",
+      "text": "Turn right at the corner?",
+      "reading": "ˈtɜːrn ˈraɪt ət ðə ˈkɔːrnər?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. The supermarket is on the left.",
+      "reading": "ˈjɛs. ðə ˈsuːpərmɑːrkɪt ɪz ɑːn ðə ˈlɛft."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you very much!",
+      "reading": "ˈθæŋk juː ˈvɛri ˈmʌtʃ!"
+    },
+    {
+      "speaker": "c",
+      "text": "You're welcome.",
+      "reading": "jʊr ˈwɛlkəm."
+    }
+  ]
+}

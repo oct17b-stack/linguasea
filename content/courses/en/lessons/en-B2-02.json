@@ -1,0 +1,72 @@
+{
+  "id": "en-B2-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.can-i-help-you",
+      "kind": "phrase",
+      "text": "Can I help you?",
+      "reading": "kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "id": "en.im-just-looking",
+      "kind": "phrase",
+      "text": "I'm just looking.",
+      "reading": "aɪm dʒʌst ˈlʊkɪŋ."
+    },
+    {
+      "id": "en.shirt",
+      "text": "shirt",
+      "reading": "ʃɜːrt"
+    },
+    {
+      "id": "en.t-shirt",
+      "text": "T-shirt",
+      "reading": "ˈtiːʃɜːrt"
+    },
+    {
+      "id": "en.dress",
+      "text": "dress",
+      "reading": "drɛs"
+    },
+    {
+      "id": "en.bag",
+      "text": "bag",
+      "reading": "bæɡ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hi! Can I help you?",
+      "reading": "ˈhaɪ! kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm just looking, thanks.",
+      "reading": "aɪm dʒʌst ˈlʊkɪŋ, ˈθæŋks."
+    },
+    {
+      "speaker": "c",
+      "text": "OK! This T-shirt is two hundred baht.",
+      "reading": "oʊˈkeɪ! ðɪs ˈtiːʃɜːrt ɪz ˈtuː ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "And this bag? How much is it?",
+      "reading": "ənd ðɪs ˈbæɡ? ˈhaʊ ˈmʌtʃ ɪz ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Five hundred baht.",
+      "reading": "ˈfaɪv ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK, thank you.",
+      "reading": "oʊˈkeɪ, ˈθæŋk juː."
+    }
+  ]
+}

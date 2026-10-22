@@ -1,0 +1,62 @@
+{
+  "id": "en-A1-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.yes",
+      "text": "Yes",
+      "reading": "jɛs"
+    },
+    {
+      "id": "en.no",
+      "text": "No",
+      "reading": "noʊ"
+    },
+    {
+      "id": "en.please",
+      "text": "please",
+      "reading": "pliːz"
+    },
+    {
+      "id": "en.sorry",
+      "text": "Sorry",
+      "reading": "ˈsɑːri"
+    },
+    {
+      "id": "en.excuse-me",
+      "kind": "phrase",
+      "text": "Excuse me.",
+      "reading": "ɪkˈskjuːz miː."
+    },
+    {
+      "id": "en.thats-ok",
+      "kind": "phrase",
+      "text": "That's OK.",
+      "reading": "ðæts oʊˈkeɪ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Are you Emma?",
+      "reading": "ɪkˈskjuːz miː. ər juː ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, sorry.",
+      "reading": "ˈnoʊ, ˈsɑːri."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Sorry.",
+      "reading": "ˈoʊ! ˈsɑːri."
+    },
+    {
+      "speaker": "c",
+      "text": "That's OK.",
+      "reading": "ðæts oʊˈkeɪ."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "en-A5-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.brother",
+      "text": "brother",
+      "reading": "ˈbrʌðər"
+    },
+    {
+      "id": "en.sister",
+      "text": "sister",
+      "reading": "ˈsɪstər"
+    },
+    {
+      "id": "en.older",
+      "text": "older",
+      "reading": "ˈoʊldər"
+    },
+    {
+      "id": "en.younger",
+      "text": "younger",
+      "reading": "ˈjʌŋɡər"
+    },
+    {
+      "id": "en.have",
+      "text": "have",
+      "reading": "hæv"
+    },
+    {
+      "id": "en.parents",
+      "text": "parents",
+      "reading": "ˈpɛrənts"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you have any brothers or sisters?",
+      "reading": "ˈnɑːm, duː juː ˈhæv ˈɛni ˈbrʌðərz ɔːr ˈsɪstərz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, a younger sister. And you?",
+      "reading": "ˈjɛs, ə ˈjʌŋɡər ˈsɪstər. ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I have an older brother.",
+      "reading": "aɪ ˈhæv ən ˈoʊldər ˈbrʌðər."
+    }
+  ]
+}

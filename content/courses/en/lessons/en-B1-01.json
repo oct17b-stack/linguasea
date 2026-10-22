@@ -2,75 +2,64 @@
   "id": "en-B1-01",
   "target": "en",
   "stage": "B",
-  "minutes": 5,
+  "minutes": 7,
   "items": [
     {
-      "id": "en.one",
-      "text": "one",
-      "reading": "wʌn"
+      "id": "en.monday",
+      "text": "Monday",
+      "reading": "ˈmʌndeɪ"
     },
     {
-      "id": "en.two",
-      "text": "two",
-      "reading": "tuː"
+      "id": "en.tuesday",
+      "text": "Tuesday",
+      "reading": "ˈtuːzdeɪ"
     },
     {
-      "id": "en.three",
-      "text": "three",
-      "reading": "θriː"
+      "id": "en.wednesday",
+      "text": "Wednesday",
+      "reading": "ˈwɛnzdeɪ"
     },
     {
-      "id": "en.four",
-      "text": "four",
-      "reading": "fɔːr"
+      "id": "en.thursday",
+      "text": "Thursday",
+      "reading": "ˈθɜːrzdeɪ"
     },
     {
-      "id": "en.five",
-      "text": "five",
-      "reading": "faɪv"
+      "id": "en.today",
+      "text": "today",
+      "reading": "təˈdeɪ"
+    },
+    {
+      "id": "en.tomorrow",
+      "text": "tomorrow",
+      "reading": "təˈmɑːroʊ"
     }
   ],
-  "dialogue": [],
-  "exercises": [
+  "dialogue": [
     {
-      "type": "choose-meaning",
-      "item": "en.one"
+      "speaker": "a",
+      "text": "Emma, what day is it today?",
+      "reading": "ˈɛmə, ˈwʌt ˈdeɪ ɪz ɪt təˈdeɪ?"
     },
     {
-      "type": "choose-meaning",
-      "item": "en.two"
+      "speaker": "c",
+      "text": "It's Monday. Why?",
+      "reading": "ɪts ˈmʌndeɪ. ˈwaɪ?"
     },
     {
-      "type": "choose-meaning",
-      "item": "en.three"
+      "speaker": "a",
+      "text": "Is your birthday tomorrow?",
+      "reading": "ɪz jʊr ˈbɜːrθdeɪ təˈmɑːroʊ?"
     },
     {
-      "type": "choose-meaning",
-      "item": "en.four"
+      "speaker": "c",
+      "text": "No, it's on Thursday!",
+      "reading": "ˈnoʊ, ɪts ɑːn ˈθɜːrzdeɪ!"
     },
     {
-      "type": "choose-meaning",
-      "item": "en.five"
-    },
-    {
-      "type": "listen-choose",
-      "item": "en.one"
-    },
-    {
-      "type": "listen-choose",
-      "item": "en.two"
-    },
-    {
-      "type": "choose-text",
-      "item": "en.five"
-    },
-    {
-      "type": "speak",
-      "item": "en.one"
-    },
-    {
-      "type": "speak",
-      "item": "en.two"
+      "speaker": "a",
+      "text": "Tuesday, Wednesday, Thursday… OK!",
+      "reading": "ˈtuːzdeɪ, ˈwɛnzdeɪ, ˈθɜːrzdeɪ… oʊˈkeɪ!"
     }
   ]
 }

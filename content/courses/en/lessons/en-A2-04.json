@@ -1,0 +1,146 @@
+{
+  "id": "en-A2-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.she",
+      "text": "she",
+      "reading": "ʃiː"
+    },
+    {
+      "id": "en.see",
+      "text": "see",
+      "reading": "siː"
+    },
+    {
+      "id": "en.shoes",
+      "text": "shoes",
+      "reading": "ʃuːz"
+    },
+    {
+      "id": "en.choose",
+      "text": "choose",
+      "reading": "tʃuːz"
+    },
+    {
+      "id": "en.eyes",
+      "text": "eyes",
+      "reading": "aɪz"
+    },
+    {
+      "id": "en.ice",
+      "text": "ice",
+      "reading": "aɪs"
+    },
+    {
+      "id": "en.white",
+      "text": "white",
+      "reading": "waɪt"
+    },
+    {
+      "id": "en.wide",
+      "text": "wide",
+      "reading": "waɪd"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.she",
+      "options": [
+        "en.see"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.see",
+      "options": [
+        "en.she"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.shoes",
+      "options": [
+        "en.choose"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.choose",
+      "options": [
+        "en.shoes"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.eyes",
+      "options": [
+        "en.ice"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.ice",
+      "options": [
+        "en.eyes"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.white",
+      "options": [
+        "en.wide"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.wide",
+      "options": [
+        "en.white"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.she"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.see"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.shoes"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.choose"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.eyes"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.ice"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.white"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.wide"
+    },
+    {
+      "type": "speak",
+      "item": "en.she"
+    },
+    {
+      "type": "speak",
+      "item": "en.eyes"
+    }
+  ]
+}

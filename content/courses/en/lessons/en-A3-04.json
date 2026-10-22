@@ -1,0 +1,57 @@
+{
+  "id": "en-A3-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.speak",
+      "text": "speak",
+      "reading": "spiːk"
+    },
+    {
+      "id": "en.english",
+      "text": "English",
+      "reading": "ˈɪŋɡlɪʃ"
+    },
+    {
+      "id": "en.a-little",
+      "kind": "phrase",
+      "text": "a little",
+      "reading": "ə ˈlɪtəl"
+    },
+    {
+      "id": "en.i-dont-understand",
+      "kind": "phrase",
+      "text": "I don't understand.",
+      "reading": "aɪ ˈdoʊnt ˌʌndərˈstænd."
+    },
+    {
+      "id": "en.slowly",
+      "text": "slowly",
+      "reading": "ˈsloʊli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Where are you from?",
+      "reading": "ˈhaɪ! ˈwɛr ər juː ˈfrʌm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I don't understand. Slowly, please.",
+      "reading": "ˈsɑːri, aɪ ˈdoʊnt ˌʌndərˈstænd. ˈsloʊli, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, sorry! Where are you from?",
+      "reading": "ˈoʊ, ˈsɑːri! ˈwɛr ər juː ˈfrʌm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm from Thailand. I speak a little English.",
+      "reading": "aɪm frəm ˈtaɪlænd. aɪ ˈspiːk ə ˈlɪtəl ˈɪŋɡlɪʃ."
+    }
+  ]
+}

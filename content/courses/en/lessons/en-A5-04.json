@@ -1,0 +1,60 @@
+{
+  "id": "en-A5-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.grandmother",
+      "text": "grandmother",
+      "reading": "ˈɡrænmʌðər"
+    },
+    {
+      "id": "en.grandfather",
+      "text": "grandfather",
+      "reading": "ˈɡrænfɑːðər"
+    },
+    {
+      "id": "en.grandparents",
+      "text": "grandparents",
+      "reading": "ˈɡrænpɛrənts"
+    },
+    {
+      "id": "en.aunt",
+      "text": "aunt",
+      "reading": "ænt"
+    },
+    {
+      "id": "en.uncle",
+      "text": "uncle",
+      "reading": "ˈʌŋkəl"
+    },
+    {
+      "id": "en.cousin",
+      "text": "cousin",
+      "reading": "ˈkʌzən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is this your grandfather?",
+      "reading": "ˈnɑːm, ɪz ðɪs jʊr ˈɡrænfɑːðər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. He's my mom's dad.",
+      "reading": "ˈjɛs. hiːz maɪ ˈmɑːmz ˈdæd."
+    },
+    {
+      "speaker": "c",
+      "text": "And who's this?",
+      "reading": "ənd ˈhuːz ˈðɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "My aunt. She's my dad's sister.",
+      "reading": "maɪ ˈænt. ʃiːz maɪ ˈdædz ˈsɪstər."
+    }
+  ]
+}

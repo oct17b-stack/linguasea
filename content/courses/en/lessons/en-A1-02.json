@@ -1,0 +1,60 @@
+{
+  "id": "en-A1-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.good-morning",
+      "kind": "phrase",
+      "text": "Good morning.",
+      "reading": "ɡʊd ˈmɔːrnɪŋ."
+    },
+    {
+      "id": "en.good-afternoon",
+      "kind": "phrase",
+      "text": "Good afternoon.",
+      "reading": "ɡʊd ˌæftərˈnuːn."
+    },
+    {
+      "id": "en.good-evening",
+      "kind": "phrase",
+      "text": "Good evening.",
+      "reading": "ɡʊd ˈiːvnɪŋ."
+    },
+    {
+      "id": "en.good-night",
+      "kind": "phrase",
+      "text": "Good night.",
+      "reading": "ɡʊd ˈnaɪt."
+    },
+    {
+      "id": "en.see-you-later",
+      "kind": "phrase",
+      "text": "See you later.",
+      "reading": "ˈsiː juː ˈleɪtər."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Good morning, Mr. Brown!",
+      "reading": "ɡʊd ˈmɔːrnɪŋ, ˈmɪstər ˈbraʊn!"
+    },
+    {
+      "speaker": "b",
+      "text": "Good morning, Nam!",
+      "reading": "ɡʊd ˈmɔːrnɪŋ, ˈnɑːm!"
+    },
+    {
+      "speaker": "a",
+      "text": "See you later, Mr. Brown!",
+      "reading": "ˈsiː juː ˈleɪtər, ˈmɪstər ˈbraʊn!"
+    },
+    {
+      "speaker": "b",
+      "text": "Bye, Nam!",
+      "reading": "ˈbaɪ, ˈnɑːm!"
+    }
+  ]
+}

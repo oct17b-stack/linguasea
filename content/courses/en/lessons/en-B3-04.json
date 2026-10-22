@@ -1,0 +1,68 @@
+{
+  "id": "en-B3-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.next-to",
+      "kind": "phrase",
+      "text": "next to",
+      "reading": "ˈnɛkst tuː"
+    },
+    {
+      "id": "en.across-from",
+      "kind": "phrase",
+      "text": "across from",
+      "reading": "əˈkrɔːs frʌm"
+    },
+    {
+      "id": "en.between",
+      "text": "between",
+      "reading": "bɪˈtwiːn"
+    },
+    {
+      "id": "en.in-front-of",
+      "kind": "phrase",
+      "text": "in front of",
+      "reading": "ɪn ˈfrʌnt ʌv"
+    },
+    {
+      "id": "en.behind",
+      "text": "behind",
+      "reading": "bɪˈhaɪnd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, where are you?",
+      "reading": "ˈnɑːm, ˈwɛr ər juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm in front of the bank.",
+      "reading": "aɪm ɪn ˈfrʌnt əv ðə ˈbæŋk."
+    },
+    {
+      "speaker": "c",
+      "text": "Which bank?",
+      "reading": "ˈwɪtʃ ˈbæŋk?"
+    },
+    {
+      "speaker": "a",
+      "text": "The bank between the park and the hospital.",
+      "reading": "ðə ˈbæŋk bɪˈtwiːn ðə ˈpɑːrk ənd ðə ˈhɑːspɪtəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! I'm across from the park.",
+      "reading": "ˈoʊ! aɪm əˈkrɔːs frəm ðə ˈpɑːrk."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I see you!",
+      "reading": "oʊˈkeɪ. aɪ ˈsiː juː!"
+    }
+  ]
+}

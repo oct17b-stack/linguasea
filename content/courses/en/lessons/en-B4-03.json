@@ -1,0 +1,75 @@
+{
+  "id": "en-B4-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.have-dinner",
+      "kind": "phrase",
+      "text": "have dinner",
+      "reading": "ˈhæv ˈdɪnər"
+    },
+    {
+      "id": "en.cook",
+      "text": "cook",
+      "reading": "kʊk"
+    },
+    {
+      "id": "en.watch-tv",
+      "kind": "phrase",
+      "text": "watch TV",
+      "reading": "ˈwɑːtʃ ˌtiːˈviː"
+    },
+    {
+      "id": "en.go-to-bed",
+      "kind": "phrase",
+      "text": "go to bed",
+      "reading": "ˈɡoʊ tə ˈbɛd"
+    },
+    {
+      "id": "en.in-the-evening",
+      "kind": "phrase",
+      "text": "in the evening",
+      "reading": "ɪn ði ˈiːvnɪŋ"
+    },
+    {
+      "id": "en.at-night",
+      "kind": "phrase",
+      "text": "at night",
+      "reading": "ət ˈnaɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what do you do in the evening?",
+      "reading": "ˈnɑːm, ˈwʌt duː juː ˈduː ɪn ði ˈiːvnɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I cook and have dinner with my family.",
+      "reading": "aɪ ˈkʊk ənd ˈhæv ˈdɪnər wɪð maɪ ˈfæməli."
+    },
+    {
+      "speaker": "c",
+      "text": "Do you watch TV?",
+      "reading": "duː juː ˈwɑːtʃ ˌtiːˈviː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I watch TV at night.",
+      "reading": "ˈjɛs, aɪ ˈwɑːtʃ ˌtiːˈviː ət ˈnaɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "What time do you go to bed?",
+      "reading": "ˈwʌt ˈtaɪm duː juː ˈɡoʊ tə ˈbɛd?"
+    },
+    {
+      "speaker": "a",
+      "text": "At eleven o'clock. And you?",
+      "reading": "ət ɪˈlɛvən əˈklɑːk. ənd ˈjuː?"
+    }
+  ]
+}

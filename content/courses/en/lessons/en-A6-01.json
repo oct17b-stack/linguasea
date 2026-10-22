@@ -1,0 +1,61 @@
+{
+  "id": "en-A6-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.water",
+      "text": "water",
+      "reading": "ˈwɔːtər"
+    },
+    {
+      "id": "en.coffee",
+      "text": "coffee",
+      "reading": "ˈkɔːfi"
+    },
+    {
+      "id": "en.tea",
+      "text": "tea",
+      "reading": "tiː"
+    },
+    {
+      "id": "en.milk",
+      "text": "milk",
+      "reading": "mɪlk"
+    },
+    {
+      "id": "en.juice",
+      "text": "juice",
+      "reading": "dʒuːs"
+    },
+    {
+      "id": "en.can-i-have",
+      "kind": "phrase",
+      "text": "Can I have …?",
+      "reading": "kən aɪ ˈhæv …?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Coffee, tea, or juice?",
+      "reading": "ˈhaɪ! ˈkɔːfi, ˈtiː, ɔːr ˈdʒuːs?"
+    },
+    {
+      "speaker": "a",
+      "text": "Can I have a coffee with milk, please?",
+      "reading": "kən aɪ ˈhæv ə ˈkɔːfi wɪð ˈmɪlk, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "OK. And water?",
+      "reading": "oʊˈkeɪ. ənd ˈwɔːtər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, please. Thank you!",
+      "reading": "ˈjɛs, ˈpliːz. ˈθæŋk juː!"
+    }
+  ]
+}

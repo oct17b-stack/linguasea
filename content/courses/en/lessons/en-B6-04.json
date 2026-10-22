@@ -1,0 +1,66 @@
+{
+  "id": "en-B6-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.vacation",
+      "text": "vacation",
+      "reading": "veɪˈkeɪʃən"
+    },
+    {
+      "id": "en.travel",
+      "text": "travel",
+      "reading": "ˈtrævəl"
+    },
+    {
+      "id": "en.trip",
+      "text": "trip",
+      "reading": "trɪp"
+    },
+    {
+      "id": "en.beach",
+      "text": "beach",
+      "reading": "biːtʃ"
+    },
+    {
+      "id": "en.have-a-nice-trip",
+      "kind": "phrase",
+      "text": "Have a nice trip!",
+      "reading": "ˈhæv ə ˈnaɪs ˈtrɪp!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, do you travel on vacation?",
+      "reading": "ˈɛmə, duː juː ˈtrævəl ɑːn veɪˈkeɪʃən?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. I go home to Canada every December.",
+      "reading": "ˈjɛs. aɪ ˈɡoʊ ˈhoʊm tə ˈkænədə ˈɛvri dɪˈsɛmbər."
+    },
+    {
+      "speaker": "a",
+      "text": "By plane?",
+      "reading": "baɪ ˈpleɪn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. And you, Nam?",
+      "reading": "ˈjɛs. ənd ˈjuː, ˈnɑːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I go to the beach in April.",
+      "reading": "aɪ ˈɡoʊ tə ðə ˈbiːtʃ ɪn ˈeɪprəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Have a nice trip!",
+      "reading": "ˈoʊ! ˈhæv ə ˈnaɪs ˈtrɪp!"
+    }
+  ]
+}

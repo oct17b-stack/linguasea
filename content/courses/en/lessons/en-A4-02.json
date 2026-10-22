@@ -1,0 +1,61 @@
+{
+  "id": "en-A4-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.seven",
+      "text": "seven",
+      "reading": "ˈsɛvən"
+    },
+    {
+      "id": "en.eight",
+      "text": "eight",
+      "reading": "eɪt"
+    },
+    {
+      "id": "en.nine",
+      "text": "nine",
+      "reading": "naɪn"
+    },
+    {
+      "id": "en.ten",
+      "text": "ten",
+      "reading": "tɛn"
+    },
+    {
+      "id": "en.zero",
+      "text": "zero",
+      "reading": "ˈzɪroʊ"
+    },
+    {
+      "id": "en.whats-your-phone-number",
+      "kind": "phrase",
+      "text": "What's your phone number?",
+      "reading": "ˈwʌts jʊr ˈfoʊn ˌnʌmbər?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's your phone number?",
+      "reading": "ˈnɑːm, ˈwʌts jʊr ˈfoʊn ˌnʌmbər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Zero nine eight, seven six five…",
+      "reading": "ˈzɪroʊ ˈnaɪn ˈeɪt, ˈsɛvən ˈsɪks ˈfaɪv…"
+    },
+    {
+      "speaker": "c",
+      "text": "Seven six five…",
+      "reading": "ˈsɛvən ˈsɪks ˈfaɪv…"
+    },
+    {
+      "speaker": "a",
+      "text": "Four three two one.",
+      "reading": "ˈfɔːr ˈθriː ˈtuː ˈwʌn."
+    }
+  ]
+}

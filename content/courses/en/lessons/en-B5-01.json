@@ -1,0 +1,67 @@
+{
+  "id": "en-B5-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.hows-the-weather",
+      "kind": "phrase",
+      "text": "How's the weather?",
+      "reading": "ˈhaʊz ðə ˈwɛðər?"
+    },
+    {
+      "id": "en.hot",
+      "text": "hot",
+      "reading": "hɑːt"
+    },
+    {
+      "id": "en.cold",
+      "text": "cold",
+      "reading": "koʊld"
+    },
+    {
+      "id": "en.sunny",
+      "text": "sunny",
+      "reading": "ˈsʌni"
+    },
+    {
+      "id": "en.rainy",
+      "text": "rainy",
+      "reading": "ˈreɪni"
+    },
+    {
+      "id": "en.its-raining",
+      "kind": "phrase",
+      "text": "It's raining.",
+      "reading": "ɪts ˈreɪnɪŋ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma! How's the weather in Canada?",
+      "reading": "ˈhaɪ, ˈɛmə! ˈhaʊz ðə ˈwɛðər ɪn ˈkænədə?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's very cold! How's the weather in Bangkok?",
+      "reading": "ɪts ˈvɛri ˈkoʊld! ˈhaʊz ðə ˈwɛðər ɪn ˈbæŋkɑːk?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's hot and sunny.",
+      "reading": "ɪts ˈhɑːt ənd ˈsʌni."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it raining?",
+      "reading": "ɪz ɪt ˈreɪnɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not today. But it's rainy in September.",
+      "reading": "ˈnɑːt təˈdeɪ. bʌt ɪts ˈreɪni ɪn sɛpˈtɛmbər."
+    }
+  ]
+}

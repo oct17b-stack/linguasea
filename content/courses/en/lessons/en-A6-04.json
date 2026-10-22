@@ -1,0 +1,58 @@
+{
+  "id": "en-A6-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.menu",
+      "text": "menu",
+      "reading": "ˈmɛnjuː"
+    },
+    {
+      "id": "en.id-like",
+      "kind": "phrase",
+      "text": "I'd like …",
+      "reading": "aɪd ˈlaɪk …"
+    },
+    {
+      "id": "en.here-you-are",
+      "kind": "phrase",
+      "text": "Here you are.",
+      "reading": "ˈhɪr juː ˈɑːr."
+    },
+    {
+      "id": "en.check-please",
+      "kind": "phrase",
+      "text": "Check, please.",
+      "reading": "ˈtʃɛk, ˈpliːz."
+    },
+    {
+      "id": "en.glass",
+      "text": "glass",
+      "reading": "ɡlæs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Can I have the menu, please?",
+      "reading": "ɪkˈskjuːz miː. kən aɪ ˈhæv ðə ˈmɛnjuː, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Here you are.",
+      "reading": "ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "I'd like chicken and rice, please.",
+      "reading": "aɪd ˈlaɪk ˈtʃɪkən ənd ˈraɪs, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. And a glass of water?",
+      "reading": "oʊˈkeɪ. ənd ə ˈɡlæs əv ˈwɔːtər?"
+    }
+  ]
+}

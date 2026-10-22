@@ -1,0 +1,72 @@
+{
+  "id": "en-B1-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.friday",
+      "text": "Friday",
+      "reading": "ˈfraɪdeɪ"
+    },
+    {
+      "id": "en.saturday",
+      "text": "Saturday",
+      "reading": "ˈsætərdeɪ"
+    },
+    {
+      "id": "en.sunday",
+      "text": "Sunday",
+      "reading": "ˈsʌndeɪ"
+    },
+    {
+      "id": "en.weekend",
+      "text": "weekend",
+      "reading": "ˈwiːkɛnd"
+    },
+    {
+      "id": "en.what-time-is-it",
+      "kind": "phrase",
+      "text": "What time is it?",
+      "reading": "ˈwʌt ˈtaɪm ɪz ɪt?"
+    },
+    {
+      "id": "en.its-oclock",
+      "kind": "phrase",
+      "text": "It's … o'clock.",
+      "reading": "ɪts … əˈklɑːk."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what time is it?",
+      "reading": "ˈɛmə, ˈwʌt ˈtaɪm ɪz ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's five o'clock. It's Friday!",
+      "reading": "ɪts ˈfaɪv əˈklɑːk. ɪts ˈfraɪdeɪ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! The weekend!",
+      "reading": "ˈjɛs! ðə ˈwiːkɛnd!"
+    },
+    {
+      "speaker": "c",
+      "text": "Coffee on Saturday or Sunday?",
+      "reading": "ˈkɔːfi ɑːn ˈsætərdeɪ ɔːr ˈsʌndeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sunday! What time?",
+      "reading": "ˈsʌndeɪ! ˈwʌt ˈtaɪm?"
+    },
+    {
+      "speaker": "c",
+      "text": "Ten o'clock. See you on Sunday!",
+      "reading": "ˈtɛn əˈklɑːk. ˈsiː juː ɑːn ˈsʌndeɪ!"
+    }
+  ]
+}

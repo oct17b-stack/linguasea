@@ -1,0 +1,71 @@
+{
+  "id": "en-B3-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.where-is",
+      "kind": "phrase",
+      "text": "Where is …?",
+      "reading": "ˈwɛr ɪz …?"
+    },
+    {
+      "id": "en.bank",
+      "text": "bank",
+      "reading": "bæŋk"
+    },
+    {
+      "id": "en.hospital",
+      "text": "hospital",
+      "reading": "ˈhɑːspɪtəl"
+    },
+    {
+      "id": "en.restaurant",
+      "text": "restaurant",
+      "reading": "ˈrɛstərɑːnt"
+    },
+    {
+      "id": "en.supermarket",
+      "text": "supermarket",
+      "reading": "ˈsuːpərmɑːrkɪt"
+    },
+    {
+      "id": "en.park",
+      "text": "park",
+      "reading": "pɑːrk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is that a bank?",
+      "reading": "ˈnɑːm, ɪz ðæt ə ˈbæŋk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's a hospital.",
+      "reading": "ˈnoʊ, ɪts ə ˈhɑːspɪtəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Where is the bank?",
+      "reading": "ˈoʊ! ˈwɛr ɪz ðə ˈbæŋk?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's in the supermarket.",
+      "reading": "ɪts ɪn ðə ˈsuːpərmɑːrkɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "And a restaurant? I'm hungry!",
+      "reading": "ənd ə ˈrɛstərɑːnt? aɪm ˈhʌŋɡri!"
+    },
+    {
+      "speaker": "a",
+      "text": "The restaurant is in the supermarket, too!",
+      "reading": "ðə ˈrɛstərɑːnt ɪz ɪn ðə ˈsuːpərmɑːrkɪt, ˈtuː!"
+    }
+  ]
+}

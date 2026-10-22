@@ -1,0 +1,146 @@
+{
+  "id": "en-A2-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.think",
+      "text": "think",
+      "reading": "θɪŋk"
+    },
+    {
+      "id": "en.sink",
+      "text": "sink",
+      "reading": "sɪŋk"
+    },
+    {
+      "id": "en.three",
+      "text": "three",
+      "reading": "θriː"
+    },
+    {
+      "id": "en.tree",
+      "text": "tree",
+      "reading": "triː"
+    },
+    {
+      "id": "en.they",
+      "text": "they",
+      "reading": "ðeɪ"
+    },
+    {
+      "id": "en.day",
+      "text": "day",
+      "reading": "deɪ"
+    },
+    {
+      "id": "en.mouth",
+      "text": "mouth",
+      "reading": "maʊθ"
+    },
+    {
+      "id": "en.mouse",
+      "text": "mouse",
+      "reading": "maʊs"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.think",
+      "options": [
+        "en.sink"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.sink",
+      "options": [
+        "en.think"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.three",
+      "options": [
+        "en.tree"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.tree",
+      "options": [
+        "en.three"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.they",
+      "options": [
+        "en.day"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.day",
+      "options": [
+        "en.they"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.mouth",
+      "options": [
+        "en.mouse"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.mouse",
+      "options": [
+        "en.mouth"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.think"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.sink"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.three"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.tree"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.they"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.day"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.mouth"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.mouse"
+    },
+    {
+      "type": "speak",
+      "item": "en.think"
+    },
+    {
+      "type": "speak",
+      "item": "en.three"
+    }
+  ]
+}

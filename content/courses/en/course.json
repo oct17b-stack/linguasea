@@ -6,12 +6,61 @@
     {
       "id": "A",
       "cefr": "pre-A1",
+      "exam": "CEFR pre-A1",
       "free": true,
       "units": [
         {
           "id": "en-A1",
           "lessons": [
-            "en-A1-01"
+            "en-A1-01",
+            "en-A1-02",
+            "en-A1-03",
+            "en-A1-04"
+          ]
+        },
+        {
+          "id": "en-A2",
+          "lessons": [
+            "en-A2-01",
+            "en-A2-02",
+            "en-A2-03",
+            "en-A2-04"
+          ]
+        },
+        {
+          "id": "en-A3",
+          "lessons": [
+            "en-A3-01",
+            "en-A3-02",
+            "en-A3-03",
+            "en-A3-04"
+          ]
+        },
+        {
+          "id": "en-A4",
+          "lessons": [
+            "en-A4-01",
+            "en-A4-02",
+            "en-A4-03",
+            "en-A4-04"
+          ]
+        },
+        {
+          "id": "en-A5",
+          "lessons": [
+            "en-A5-01",
+            "en-A5-02",
+            "en-A5-03",
+            "en-A5-04"
+          ]
+        },
+        {
+          "id": "en-A6",
+          "lessons": [
+            "en-A6-01",
+            "en-A6-02",
+            "en-A6-03",
+            "en-A6-04"
           ]
         }
       ]
@@ -19,12 +68,61 @@
     {
       "id": "B",
       "cefr": "A1",
+      "exam": "CEFR A1",
       "free": false,
       "units": [
         {
           "id": "en-B1",
           "lessons": [
-            "en-B1-01"
+            "en-B1-01",
+            "en-B1-02",
+            "en-B1-03",
+            "en-B1-04"
+          ]
+        },
+        {
+          "id": "en-B2",
+          "lessons": [
+            "en-B2-01",
+            "en-B2-02",
+            "en-B2-03",
+            "en-B2-04"
+          ]
+        },
+        {
+          "id": "en-B3",
+          "lessons": [
+            "en-B3-01",
+            "en-B3-02",
+            "en-B3-03",
+            "en-B3-04"
+          ]
+        },
+        {
+          "id": "en-B4",
+          "lessons": [
+            "en-B4-01",
+            "en-B4-02",
+            "en-B4-03",
+            "en-B4-04"
+          ]
+        },
+        {
+          "id": "en-B5",
+          "lessons": [
+            "en-B5-01",
+            "en-B5-02",
+            "en-B5-03",
+            "en-B5-04"
+          ]
+        },
+        {
+          "id": "en-B6",
+          "lessons": [
+            "en-B6-01",
+            "en-B6-02",
+            "en-B6-03",
+            "en-B6-04"
           ]
         }
       ]

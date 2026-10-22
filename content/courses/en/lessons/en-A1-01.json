@@ -2,7 +2,7 @@
   "id": "en-A1-01",
   "target": "en",
   "stage": "A",
-  "minutes": 5,
+  "minutes": 6,
   "items": [
     {
       "id": "en.hello",
@@ -10,89 +10,53 @@
       "reading": "həˈloʊ"
     },
     {
+      "id": "en.hi",
+      "text": "Hi",
+      "reading": "haɪ"
+    },
+    {
       "id": "en.thank-you",
-      "text": "Thank you",
-      "reading": "ˈθæŋk juː"
+      "kind": "phrase",
+      "text": "Thank you.",
+      "reading": "ˈθæŋk juː."
     },
     {
       "id": "en.youre-welcome",
-      "text": "You're welcome",
-      "reading": "jʊr ˈwɛlkəm"
+      "kind": "phrase",
+      "text": "You're welcome.",
+      "reading": "jʊr ˈwɛlkəm."
     },
     {
       "id": "en.goodbye",
       "text": "Goodbye",
       "reading": "ɡʊdˈbaɪ"
+    },
+    {
+      "id": "en.bye",
+      "text": "Bye",
+      "reading": "baɪ"
     }
   ],
   "dialogue": [
     {
       "speaker": "a",
-      "text": "Hello!",
-      "reading": "həˈloʊ"
+      "text": "Hello, Emma!",
+      "reading": "həˈloʊ, ˈɛmə!"
     },
     {
-      "speaker": "b",
-      "text": "Hello!",
-      "reading": "həˈloʊ"
-    },
-    {
-      "speaker": "a",
-      "text": "Thank you!",
-      "reading": "ˈθæŋk juː"
-    },
-    {
-      "speaker": "b",
-      "text": "You're welcome.",
-      "reading": "jʊr ˈwɛlkəm"
+      "speaker": "c",
+      "text": "Hi, Nam! Thank you!",
+      "reading": "ˈhaɪ, ˈnɑːm! ˈθæŋk juː!"
     },
     {
       "speaker": "a",
-      "text": "Goodbye!",
-      "reading": "ɡʊdˈbaɪ"
+      "text": "You're welcome. Bye!",
+      "reading": "jʊr ˈwɛlkəm. ˈbaɪ!"
     },
     {
-      "speaker": "b",
-      "text": "Goodbye!",
-      "reading": "ɡʊdˈbaɪ"
-    }
-  ],
-  "exercises": [
-    {
-      "type": "choose-meaning",
-      "item": "en.hello"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "en.thank-you"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "en.youre-welcome"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "en.goodbye"
-    },
-    {
-      "type": "listen-choose",
-      "item": "en.hello"
-    },
-    {
-      "type": "listen-choose",
-      "item": "en.thank-you"
-    },
-    {
-      "type": "choose-text",
-      "item": "en.goodbye"
-    },
-    {
-      "type": "speak",
-      "item": "en.hello"
-    },
-    {
-      "type": "speak",
-      "item": "en.thank-you"
+      "speaker": "c",
+      "text": "Goodbye, Nam!",
+      "reading": "ɡʊdˈbaɪ, ˈnɑːm!"
     }
   ]
 }

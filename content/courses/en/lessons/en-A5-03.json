@@ -1,0 +1,62 @@
+{
+  "id": "en-A5-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.he",
+      "text": "he",
+      "reading": "hiː"
+    },
+    {
+      "id": "en.his",
+      "text": "his",
+      "reading": "hɪz"
+    },
+    {
+      "id": "en.her",
+      "text": "her",
+      "reading": "hɜːr"
+    },
+    {
+      "id": "en.whos-this",
+      "kind": "phrase",
+      "text": "Who's this?",
+      "reading": "ˈhuːz ˈðɪs?"
+    },
+    {
+      "id": "en.birthday",
+      "text": "birthday",
+      "reading": "ˈbɜːrθdeɪ"
+    },
+    {
+      "id": "en.happy-birthday",
+      "kind": "phrase",
+      "text": "Happy birthday!",
+      "reading": "ˈhæpi ˈbɜːrθdeɪ!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, who's this?",
+      "reading": "ˈnɑːm, ˈhuːz ˈðɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "My sister, Fah. It's her birthday!",
+      "reading": "maɪ ˈsɪstər, ˈfɑː. ɪts hɜːr ˈbɜːrθdeɪ!"
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Happy birthday, Fah!",
+      "reading": "ˈoʊ! ˈhæpi ˈbɜːrθdeɪ, ˈfɑː!"
+    },
+    {
+      "speaker": "a",
+      "text": "This is my dad. His name is Somchai.",
+      "reading": "ðɪs ɪz maɪ ˈdæd. hɪz ˈneɪm ɪz ˈsɑːmtʃaɪ."
+    }
+  ]
+}

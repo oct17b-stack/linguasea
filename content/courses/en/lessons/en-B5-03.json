@@ -1,0 +1,72 @@
+{
+  "id": "en-B5-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.happy",
+      "text": "happy",
+      "reading": "ˈhæpi"
+    },
+    {
+      "id": "en.sad",
+      "text": "sad",
+      "reading": "sæd"
+    },
+    {
+      "id": "en.tired",
+      "text": "tired",
+      "reading": "ˈtaɪərd"
+    },
+    {
+      "id": "en.sick",
+      "text": "sick",
+      "reading": "sɪk"
+    },
+    {
+      "id": "en.whats-wrong",
+      "kind": "phrase",
+      "text": "What's wrong?",
+      "reading": "ˈwʌts ˈrɔːŋ?"
+    },
+    {
+      "id": "en.i-have-a-headache",
+      "kind": "phrase",
+      "text": "I have a headache.",
+      "reading": "aɪ ˈhæv ə ˈhɛdeɪk."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what's wrong? Are you sad?",
+      "reading": "ˈnɑːm, ˈwʌts ˈrɔːŋ? ər juː ˈsæd?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I'm tired, Mr. Brown.",
+      "reading": "ˈnoʊ, aɪm ˈtaɪərd, ˈmɪstər ˈbraʊn."
+    },
+    {
+      "speaker": "b",
+      "text": "Are you sick?",
+      "reading": "ər juː ˈsɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, a little. I have a headache.",
+      "reading": "ˈjɛs, ə ˈlɪtəl. aɪ ˈhæv ə ˈhɛdeɪk."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh no! Go home, Nam.",
+      "reading": "ˈoʊ ˈnoʊ! ˈɡoʊ ˈhoʊm, ˈnɑːm."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you, Mr. Brown.",
+      "reading": "ˈθæŋk juː, ˈmɪstər ˈbraʊn."
+    }
+  ]
+}

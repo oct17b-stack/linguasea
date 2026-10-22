@@ -1,0 +1,61 @@
+{
+  "id": "en-A4-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.eleven",
+      "text": "eleven",
+      "reading": "ɪˈlɛvən"
+    },
+    {
+      "id": "en.twelve",
+      "text": "twelve",
+      "reading": "twɛlv"
+    },
+    {
+      "id": "en.thirteen",
+      "text": "thirteen",
+      "reading": "ˌθɜːrˈtiːn"
+    },
+    {
+      "id": "en.fourteen",
+      "text": "fourteen",
+      "reading": "ˌfɔːrˈtiːn"
+    },
+    {
+      "id": "en.fifteen",
+      "text": "fifteen",
+      "reading": "ˌfɪfˈtiːn"
+    },
+    {
+      "id": "en.how-old-are-you",
+      "kind": "phrase",
+      "text": "How old are you?",
+      "reading": "ˈhaʊ ˈoʊld ər juː?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hello! What's your name?",
+      "reading": "həˈloʊ! ˈwʌts jʊr ˈneɪm?"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm Ben.",
+      "reading": "aɪm ˈbɛn."
+    },
+    {
+      "speaker": "a",
+      "text": "How old are you, Ben?",
+      "reading": "ˈhaʊ ˈoʊld ər juː, ˈbɛn?"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm twelve.",
+      "reading": "aɪm ˈtwɛlv."
+    }
+  ]
+}

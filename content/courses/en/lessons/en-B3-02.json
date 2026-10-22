@@ -1,0 +1,71 @@
+{
+  "id": "en-B3-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.is-there-near-here",
+      "kind": "phrase",
+      "text": "Is there … near here?",
+      "reading": "ɪz ðɛr … ˈnɪr ˈhɪr?"
+    },
+    {
+      "id": "en.near",
+      "text": "near",
+      "reading": "nɪr"
+    },
+    {
+      "id": "en.far",
+      "text": "far",
+      "reading": "fɑːr"
+    },
+    {
+      "id": "en.here",
+      "text": "here",
+      "reading": "hɪr"
+    },
+    {
+      "id": "en.there",
+      "text": "there",
+      "reading": "ðɛr"
+    },
+    {
+      "id": "en.restroom",
+      "text": "restroom",
+      "reading": "ˈrɛstruːm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Is there a restroom near here?",
+      "reading": "ɪkˈskjuːz miː. ɪz ðɛr ə ˈrɛstruːm ˈnɪr ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it's there.",
+      "reading": "ˈjɛs, ɪts ˈðɛr."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! And is the hospital near here?",
+      "reading": "ˈθæŋk juː! ənd ɪz ðə ˈhɑːspɪtəl ˈnɪr ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, it's far.",
+      "reading": "ˈnoʊ, ɪts ˈfɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Is the bank far, too?",
+      "reading": "ɪz ðə ˈbæŋk ˈfɑːr, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "No. The bank is here!",
+      "reading": "ˈnoʊ. ðə ˈbæŋk ɪz ˈhɪr!"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "lesson": "en-B3-04",
+  "title": "อยู่ตรงไหน",
+  "intro": "บอกตำแหน่งของสถานที่: ข้าง ๆ ตรงข้าม ระหว่าง ข้างหน้า และข้างหลัง",
+  "items": {
+    "en.next-to": {
+      "meaning": "ข้าง ๆ, ติดกับ",
+      "translit": "เน็กซ์ ทู"
+    },
+    "en.across-from": {
+      "meaning": "ตรงข้าม",
+      "translit": "อะครอส ฟรอม"
+    },
+    "en.between": {
+      "meaning": "ระหว่าง",
+      "translit": "บิทวีน"
+    },
+    "en.in-front-of": {
+      "meaning": "ข้างหน้า",
+      "translit": "อิน ฟรอนท์ ออฟ"
+    },
+    "en.behind": {
+      "meaning": "ข้างหลัง",
+      "translit": "บีไฮนด์"
+    }
+  },
+  "dialogue": [
+    "น้ำ อยู่ไหนแล้ว",
+    "อยู่หน้าธนาคาร",
+    "ธนาคารไหน",
+    "ธนาคารที่อยู่ระหว่างสวนสาธารณะกับโรงพยาบาล",
+    "อ๋อ! ฉันอยู่ตรงข้ามสวนสาธารณะ",
+    "โอเค เห็นแล้ว!"
+  ],
+  "notes": [
+    {
+      "title": "ลำดับเหมือนภาษาไทย",
+      "body": "คำบอกตำแหน่งวางไว้หน้าสถานที่เหมือนภาษาไทย: next to the bank = ข้างธนาคาร, behind the hospital = หลังโรงพยาบาล"
+    },
+    {
+      "title": "between … and …",
+      "body": "between ใช้คู่กับ and เสมอ: between the park and the hospital (ระหว่างสวนสาธารณะกับโรงพยาบาล)"
+    },
+    {
+      "title": "in front of",
+      "body": "in front of มีสามคำ อย่าลืม of ท้ายวลี: in front of the bank (หน้าธนาคาร)"
+    }
+  ]
+}

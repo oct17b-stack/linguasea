@@ -1,0 +1,65 @@
+{
+  "id": "en-B6-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.airport",
+      "text": "airport",
+      "reading": "ˈɛrpɔːrt"
+    },
+    {
+      "id": "en.station",
+      "text": "station",
+      "reading": "ˈsteɪʃən"
+    },
+    {
+      "id": "en.bus-stop",
+      "text": "bus stop",
+      "reading": "ˈbʌs ˌstɑːp"
+    },
+    {
+      "id": "en.ticket",
+      "text": "ticket",
+      "reading": "ˈtɪkɪt"
+    },
+    {
+      "id": "en.hotel",
+      "text": "hotel",
+      "reading": "hoʊˈtɛl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, where is our hotel?",
+      "reading": "ˈnɑːm, ˈwɛr ɪz aʊr hoʊˈtɛl?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's near the station.",
+      "reading": "ɪts ˈnɪr ðə ˈsteɪʃən."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it far from the airport?",
+      "reading": "ɪz ɪt ˈfɑːr frəm ði ˈɛrpɔːrt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. The bus stop is in front of the airport.",
+      "reading": "ˈnoʊ. ðə ˈbʌs ˌstɑːp ɪz ɪn ˈfrʌnt əv ði ˈɛrpɔːrt."
+    },
+    {
+      "speaker": "c",
+      "text": "Do we have bus tickets?",
+      "reading": "duː wiː ˈhæv ˈbʌs ˌtɪkɪts?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Here you are.",
+      "reading": "ˈjɛs. ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

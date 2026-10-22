@@ -1,0 +1,60 @@
+{
+  "id": "en-A6-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.food",
+      "text": "food",
+      "reading": "fuːd"
+    },
+    {
+      "id": "en.rice",
+      "text": "rice",
+      "reading": "raɪs"
+    },
+    {
+      "id": "en.chicken",
+      "text": "chicken",
+      "reading": "ˈtʃɪkən"
+    },
+    {
+      "id": "en.pork",
+      "text": "pork",
+      "reading": "pɔːrk"
+    },
+    {
+      "id": "en.fish",
+      "text": "fish",
+      "reading": "fɪʃ"
+    },
+    {
+      "id": "en.noodles",
+      "text": "noodles",
+      "reading": "ˈnuːdəlz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's this?",
+      "reading": "ˈnɑːm, ˈwʌts ˈðɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's chicken and rice.",
+      "reading": "ɪts ˈtʃɪkən ənd ˈraɪs."
+    },
+    {
+      "speaker": "c",
+      "text": "And this? Is it pork?",
+      "reading": "ənd ˈðɪs? ɪz ɪt ˈpɔːrk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's fish.",
+      "reading": "ˈnoʊ, ɪts ˈfɪʃ."
+    }
+  ]
+}

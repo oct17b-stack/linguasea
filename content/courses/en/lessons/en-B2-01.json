@@ -1,0 +1,71 @@
+{
+  "id": "en-B2-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.how-much-is-it",
+      "kind": "phrase",
+      "text": "How much is it?",
+      "reading": "ˈhaʊ ˈmʌtʃ ɪz ɪt?"
+    },
+    {
+      "id": "en.baht",
+      "text": "baht",
+      "reading": "bɑːt"
+    },
+    {
+      "id": "en.thirty",
+      "text": "thirty",
+      "reading": "ˈθɜːrti"
+    },
+    {
+      "id": "en.forty",
+      "text": "forty",
+      "reading": "ˈfɔːrti"
+    },
+    {
+      "id": "en.fifty",
+      "text": "fifty",
+      "reading": "ˈfɪfti"
+    },
+    {
+      "id": "en.hundred",
+      "text": "hundred",
+      "reading": "ˈhʌndrəd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. How much is it?",
+      "reading": "ɪkˈskjuːz miː. ˈhaʊ ˈmʌtʃ ɪz ɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's thirty baht.",
+      "reading": "ɪts ˈθɜːrti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "And this?",
+      "reading": "ənd ˈðɪs?"
+    },
+    {
+      "speaker": "b",
+      "text": "Forty baht.",
+      "reading": "ˈfɔːrti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Here you are. A hundred baht.",
+      "reading": "oʊˈkeɪ. ˈhɪr juː ˈɑːr. ə ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "b",
+      "text": "Thank you. Here's thirty baht.",
+      "reading": "ˈθæŋk juː. hɪrz ˈθɜːrti ˈbɑːt."
+    }
+  ]
+}

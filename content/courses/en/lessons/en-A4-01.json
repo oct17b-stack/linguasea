@@ -1,0 +1,60 @@
+{
+  "id": "en-A4-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.one",
+      "text": "one",
+      "reading": "wʌn"
+    },
+    {
+      "id": "en.two",
+      "text": "two",
+      "reading": "tuː"
+    },
+    {
+      "id": "en.three",
+      "text": "three",
+      "reading": "θriː"
+    },
+    {
+      "id": "en.four",
+      "text": "four",
+      "reading": "fɔːr"
+    },
+    {
+      "id": "en.five",
+      "text": "five",
+      "reading": "faɪv"
+    },
+    {
+      "id": "en.six",
+      "text": "six",
+      "reading": "sɪks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what's three and two?",
+      "reading": "ˈnɑːm, ˈwʌts ˈθriː ənd ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Five!",
+      "reading": "ˈfaɪv!"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes! And four and two?",
+      "reading": "ˈjɛs! ənd ˈfɔːr ənd ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Six!",
+      "reading": "ˈsɪks!"
+    }
+  ]
+}

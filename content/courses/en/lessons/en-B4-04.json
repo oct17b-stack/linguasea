@@ -1,0 +1,72 @@
+{
+  "id": "en-B4-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.always",
+      "text": "always",
+      "reading": "ˈɔːlweɪz"
+    },
+    {
+      "id": "en.usually",
+      "text": "usually",
+      "reading": "ˈjuːʒuəli"
+    },
+    {
+      "id": "en.sometimes",
+      "text": "sometimes",
+      "reading": "ˈsʌmtaɪmz"
+    },
+    {
+      "id": "en.never",
+      "text": "never",
+      "reading": "ˈnɛvər"
+    },
+    {
+      "id": "en.every-day",
+      "kind": "phrase",
+      "text": "every day",
+      "reading": "ˈɛvri ˈdeɪ"
+    },
+    {
+      "id": "en.on-the-weekend",
+      "kind": "phrase",
+      "text": "on the weekend",
+      "reading": "ɑːn ðə ˈwiːkɛnd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you study every day?",
+      "reading": "ˈnɑːm, duː juː ˈstʌdi ˈɛvri ˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I usually study at night.",
+      "reading": "ˈjɛs. aɪ ˈjuːʒuəli ˈstʌdi ət ˈnaɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "On the weekend, too?",
+      "reading": "ɑːn ðə ˈwiːkɛnd, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I never study on the weekend. I work.",
+      "reading": "ˈnoʊ, aɪ ˈnɛvər ˈstʌdi ɑːn ðə ˈwiːkɛnd. aɪ ˈwɜːrk."
+    },
+    {
+      "speaker": "c",
+      "text": "Mr. Brown always works on Saturday.",
+      "reading": "ˈmɪstər ˈbraʊn ˈɔːlweɪz ˈwɜːrks ɑːn ˈsætərdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, and he sometimes works on Sunday, too.",
+      "reading": "ˈjɛs, ənd hiː ˈsʌmtaɪmz ˈwɜːrks ɑːn ˈsʌndeɪ, ˈtuː."
+    }
+  ]
+}

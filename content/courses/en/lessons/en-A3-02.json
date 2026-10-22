@@ -1,0 +1,57 @@
+{
+  "id": "en-A3-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.where-are-you-from",
+      "kind": "phrase",
+      "text": "Where are you from?",
+      "reading": "ˈwɛr ər juː ˈfrʌm?"
+    },
+    {
+      "id": "en.im-from",
+      "kind": "phrase",
+      "text": "I'm from …",
+      "reading": "aɪm frəm …"
+    },
+    {
+      "id": "en.thailand",
+      "text": "Thailand",
+      "reading": "ˈtaɪlænd"
+    },
+    {
+      "id": "en.thai",
+      "text": "Thai",
+      "reading": "taɪ"
+    },
+    {
+      "id": "en.canada",
+      "text": "Canada",
+      "reading": "ˈkænədə"
+    },
+    {
+      "id": "en.canadian",
+      "text": "Canadian",
+      "reading": "kəˈneɪdiən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Where are you from, Emma?",
+      "reading": "ˈwɛr ər juː ˈfrʌm, ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm from Canada. I'm Canadian. And you?",
+      "reading": "aɪm frəm ˈkænədə. aɪm kəˈneɪdiən. ənd ˈjuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm from Thailand. I'm Thai.",
+      "reading": "aɪm frəm ˈtaɪlænd. aɪm ˈtaɪ."
+    }
+  ]
+}

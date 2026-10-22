@@ -1,0 +1,60 @@
+{
+  "id": "en-A3-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.whats-your-name",
+      "kind": "phrase",
+      "text": "What's your name?",
+      "reading": "ˈwʌts jʊr ˈneɪm?"
+    },
+    {
+      "id": "en.my-name-is",
+      "kind": "phrase",
+      "text": "My name is …",
+      "reading": "maɪ ˈneɪm ɪz …"
+    },
+    {
+      "id": "en.im",
+      "kind": "phrase",
+      "text": "I'm …",
+      "reading": "aɪm …"
+    },
+    {
+      "id": "en.nice-to-meet-you",
+      "kind": "phrase",
+      "text": "Nice to meet you.",
+      "reading": "ˈnaɪs tə ˈmiːt juː."
+    },
+    {
+      "id": "en.nice-to-meet-you-too",
+      "kind": "phrase",
+      "text": "Nice to meet you, too.",
+      "reading": "ˈnaɪs tə ˈmiːt juː, ˈtuː."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi! I'm Nam. What's your name?",
+      "reading": "ˈhaɪ! aɪm ˈnɑːm. ˈwʌts jʊr ˈneɪm?"
+    },
+    {
+      "speaker": "c",
+      "text": "My name is Emma.",
+      "reading": "maɪ ˈneɪm ɪz ˈɛmə."
+    },
+    {
+      "speaker": "a",
+      "text": "Nice to meet you, Emma.",
+      "reading": "ˈnaɪs tə ˈmiːt juː, ˈɛmə."
+    },
+    {
+      "speaker": "c",
+      "text": "Nice to meet you, too.",
+      "reading": "ˈnaɪs tə ˈmiːt juː, ˈtuː."
+    }
+  ]
+}
