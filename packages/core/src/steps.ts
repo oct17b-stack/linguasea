@@ -1,6 +1,6 @@
-import type { CourseBundle, Exercise } from '@linguasea/contract';
+import { lessonExercises, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
 
-import { coursePool, type Word } from './pool';
+import { coursePool, sameGroup, soundsAlike, type Word } from './pool';
 import { hashString, seededRandom, shuffle } from './rng';
 
 export type Choice = { id: string; label: string; correct: boolean };
@@ -12,7 +12,7 @@ export type Step =
   | { kind: 'note'; title: string; body: string }
   | {
       kind: 'choose';
-      exercise: Exercise['type'];
+      exercise: ChoiceExercise['type'];
       word: Word;
       /** What the question shows; empty when it is audio-only. */
       prompt: string;
@@ -23,10 +23,14 @@ export type Step =
 
 const CHOICES = 4;
 
+/** Questions whose answers are target-language text rather than meanings. */
+export function answersWithText(type: ChoiceExercise['type']): boolean {
+  return type === 'choose-text' || type === 'listen-text';
+}
+
 /**
  * Turns a lesson into the screens the learner goes through:
  * intro → learn each word → dialogue → notes → exercises → done.
- * Wrong answers are drawn from the whole course so early lessons still get 4 choices.
  */
 export function buildSteps(course: CourseBundle, lessonId: string, seed = hashString(lessonId)): Step[] {
   const entry = course.lessons[lessonId];
@@ -50,41 +54,72 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
   }
   for (const note of gloss.notes) steps.push({ kind: 'note', ...note });
 
-  for (const ex of lesson.exercises) {
+  const order = word(lesson.items[0].id).order;
+  for (const ex of lessonExercises(lesson)) {
     const w = word(ex.item);
-    steps.push(ex.type === 'speak' ? { kind: 'speak', word: w } : chooseStep(pool, w, ex.type, rand));
+    steps.push(ex.type === 'speak' ? { kind: 'speak', word: w } : chooseStep(pool, w, ex, order, rand));
   }
   steps.push({ kind: 'done' });
   return steps;
 }
 
-type ChoiceType = Exclude<Exercise['type'], 'speak'>;
-
-function chooseStep(pool: Map<string, Word>, w: Word, type: ChoiceType, rand: () => number): Step {
-  const byText = type === 'choose-text';
+/**
+ * A multiple-choice question. Wrong answers are the exercise's own options when given;
+ * otherwise items of the same group, preferring ones already taught (up to `upTo` in course order).
+ */
+function chooseStep(
+  pool: Map<string, Word>,
+  w: Word,
+  ex: Pick<ChoiceExercise, 'type' | 'options'>,
+  upTo: number,
+  rand: () => number,
+): Step {
+  const byText = answersWithText(ex.type);
   const label = (x: Word) => (byText ? x.text : x.meaning);
-  const others = shuffle(
-    [...pool.values()].filter((x) => x.id !== w.id && label(x) !== label(w)),
-    rand,
-  ).slice(0, CHOICES - 1);
+  let wrong: Word[];
+  if (ex.options) {
+    wrong = ex.options.map((id) => pool.get(id)).filter((x): x is Word => !!x);
+  } else {
+    // Heard-only questions must not offer an answer that sounds the same as the right one.
+    const byEar = ex.type === 'listen-choose' || ex.type === 'listen-text';
+    const candidates = [...pool.values()].filter(
+      (x) => x.id !== w.id && sameGroup(x, w) && label(x) !== label(w) && !(byEar && soundsAlike(x, w)),
+    );
+    const known = shuffle(candidates.filter((x) => x.order <= upTo), rand);
+    const later = shuffle(candidates.filter((x) => x.order > upTo), rand);
+    wrong = [];
+    const labels = new Set([label(w)]);
+    for (const x of [...known, ...later]) {
+      if (wrong.length === CHOICES - 1) break;
+      if (labels.has(label(x))) continue;
+      labels.add(label(x));
+      wrong.push(x);
+    }
+  }
   const choices = shuffle(
-    [w, ...others].map((x) => ({ id: x.id, label: label(x), correct: x.id === w.id })),
+    [w, ...wrong].map((x) => ({ id: x.id, label: label(x), correct: x.id === w.id })),
     rand,
   );
-  const prompt = type === 'choose-meaning' ? w.text : type === 'choose-text' ? w.meaning : '';
-  return { kind: 'choose', exercise: type, word: w, prompt, choices };
+  const prompt = ex.type === 'choose-meaning' ? w.text : ex.type === 'choose-text' ? w.meaning : '';
+  return { kind: 'choose', exercise: ex.type, word: w, prompt, choices };
 }
 
-const REVIEW_TYPES: ChoiceType[] = ['listen-choose', 'choose-meaning', 'choose-text'];
+const REVIEW_TYPES: ChoiceExercise['type'][] = ['listen-choose', 'choose-meaning', 'choose-text'];
 
-/** One question per due item, rotating question types so review is not always the same drill. */
+/**
+ * One question per due item, rotating question types so review is not always the same drill.
+ * Sound items (kana, tones…) are reviewed by ear → text, the way they were learned.
+ */
 export function reviewSteps(course: CourseBundle, itemIds: string[], seed = Date.now()): Step[] {
   const rand = seededRandom(seed);
   const pool = coursePool(course);
+  const latest = Math.max(0, ...itemIds.map((id) => pool.get(id)?.order ?? 0));
   const steps: Step[] = [];
   itemIds.forEach((id, i) => {
     const w = pool.get(id);
-    if (w) steps.push(chooseStep(pool, w, REVIEW_TYPES[i % REVIEW_TYPES.length], rand));
+    if (!w) return;
+    const type = w.kind === 'letter' || w.kind === 'syllable' ? 'listen-text' : REVIEW_TYPES[i % REVIEW_TYPES.length];
+    steps.push(chooseStep(pool, w, { type }, latest, rand));
   });
   return steps;
 }

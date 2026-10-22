@@ -47,11 +47,28 @@ export const Course = z.object({
 });
 export type Course = z.infer<typeof Course>;
 
+/**
+ * word / phrase: vocabulary, questions ask what it means.
+ * letter / syllable: script and sound drills (kana, hangul, pinyin, phonics), questions ask how it sounds.
+ * Wrong answers are only drawn from the same group, so a word is never offered as the answer to a sound.
+ */
+export const ITEM_KINDS = ['word', 'phrase', 'letter', 'syllable'] as const;
+export const ItemKind = z.enum(ITEM_KINDS);
+export type ItemKind = z.infer<typeof ItemKind>;
+
+export function kindGroup(kind: ItemKind): 'vocab' | 'sound' {
+  return kind === 'letter' || kind === 'syllable' ? 'sound' : 'vocab';
+}
+
 export const Item = z.object({
   id: itemId,
+  kind: ItemKind.default('word'),
   text: z.string().min(1),
   /** Pinyin / romaji / romanization / IPA. */
   reading: z.string().min(1),
+  /** What TTS reads when `text` cannot be read aloud as written: pinyin "mā" → "妈", ㄱ → "가". */
+  say: z.string().min(1).optional(),
+  /** A recorded clip that overrides generated TTS (path under content/audio). */
   audio: z.string().optional(),
 });
 export type Item = z.infer<typeof Item>;
@@ -62,13 +79,29 @@ export const Line = z.object({
   reading: z.string().min(1),
 });
 
+const choice = {
+  item: itemId,
+  /**
+   * Exact wrong answers (item ids from the same course), e.g. the other tones of a syllable or a
+   * minimal pair. Without it, wrong answers are picked from the course automatically.
+   */
+  options: z.array(itemId).min(1).max(3).optional(),
+};
+
 export const Exercise = z.discriminatedUnion('type', [
-  z.object({ type: z.literal('choose-meaning'), item: itemId }),
-  z.object({ type: z.literal('listen-choose'), item: itemId }),
-  z.object({ type: z.literal('choose-text'), item: itemId }),
+  /** See the text (and hear it), pick the meaning / the sound. */
+  z.object({ type: z.literal('choose-meaning'), ...choice }),
+  /** Only hear it, pick the meaning. */
+  z.object({ type: z.literal('listen-choose'), ...choice }),
+  /** See the meaning, pick the text. */
+  z.object({ type: z.literal('choose-text'), ...choice }),
+  /** Only hear it, pick the text (tones, kana, minimal pairs). */
+  z.object({ type: z.literal('listen-text'), ...choice }),
+  /** Listen and say it; scored when pronunciation assessment is available. */
   z.object({ type: z.literal('speak'), item: itemId }),
 ]);
 export type Exercise = z.infer<typeof Exercise>;
+export type ChoiceExercise = Exclude<Exercise, { type: 'speak' }>;
 
 export const Lesson = z.object({
   id: lessonId,
@@ -77,7 +110,8 @@ export const Lesson = z.object({
   minutes: z.number().int().min(1).max(30),
   items: z.array(Item).min(1),
   dialogue: z.array(Line).default([]),
-  exercises: z.array(Exercise).min(1),
+  /** Leave empty to get the standard set (see lessonExercises). */
+  exercises: z.array(Exercise).default([]),
 });
 export type Lesson = z.infer<typeof Lesson>;
 
@@ -105,8 +139,12 @@ export type LessonGloss = z.infer<typeof LessonGloss>;
 export const CourseGloss = z.object({
   target: Target,
   name: z.string().min(1),
-  stages: z.partialRecord(Stage, z.object({ title: z.string().min(1) })),
-  units: z.record(z.string(), z.object({ title: z.string().min(1) })),
+  stages: z.partialRecord(
+    Stage,
+    z.object({ title: z.string().min(1), description: z.string().min(1).optional() }),
+  ),
+  /** `goal` is the can-do statement shown on the course map ("ทักทายและขอบคุณได้"). */
+  units: z.record(z.string(), z.object({ title: z.string().min(1), goal: z.string().min(1).optional() })),
 });
 export type CourseGloss = z.infer<typeof CourseGloss>;
 

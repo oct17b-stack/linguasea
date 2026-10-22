@@ -1,8 +1,16 @@
+import { lessonExercises, sameReading } from './exercises';
 import type { Loaded, Problem } from './load';
-import type { Item } from './schema';
+import { kindGroup, type Item, type LessonGloss } from './schema';
 
 /** The L1 whose UI keys every other L1 must match. */
 export const REFERENCE_L1 = 'th';
+
+/** Choice questions show the right answer plus up to 3 wrong ones. */
+const CHOICES = 4;
+
+const TEXT_ANSWERS = new Set(['choose-text', 'listen-text']);
+const BY_EAR = new Set(['listen-choose', 'listen-text']);
+
 
 /** Cross-file checks on top of the schema checks done while loading. */
 export function validate(loaded: Loaded): Problem[] {
@@ -37,26 +45,54 @@ export function validate(loaded: Loaded): Problem[] {
     const seen = new Map<string, Item & { lesson: string }>();
     for (const lesson of lessons.values()) {
       const lfile = `courses/${target}/lessons/${lesson.id}.json`;
+      for (const item of lesson.items) {
+        const prev = seen.get(item.id);
+        if (prev && (prev.text !== item.text || prev.reading !== item.reading || prev.kind !== item.kind)) {
+          add(lfile, `item ${item.id} differs from ${prev.lesson} (same id must mean the same text, reading and kind)`);
+        }
+        if (!prev) seen.set(item.id, { ...item, lesson: lesson.id });
+      }
+    }
+
+    const groupTexts = (group: string) =>
+      new Set([...seen.values()].filter((i) => kindGroup(i.kind) === group).map((i) => i.text)).size;
+
+    for (const lesson of lessons.values()) {
+      const lfile = `courses/${target}/lessons/${lesson.id}.json`;
       if (!listed.has(lesson.id)) add(lfile, 'lesson is not listed in course.json');
       if (lesson.target !== target) add(lfile, `target must be "${target}"`);
 
-      const local = new Set<string>();
+      const local = new Map<string, Item>();
       for (const item of lesson.items) {
         if (local.has(item.id)) add(lfile, `item ${item.id} appears twice`);
-        local.add(item.id);
-        const prev = seen.get(item.id);
-        if (prev && (prev.text !== item.text || prev.reading !== item.reading)) {
-          add(lfile, `item ${item.id} differs from ${prev.lesson} (same id must mean the same text and reading)`);
-        }
-        if (!prev) seen.set(item.id, { ...item, lesson: lesson.id });
+        local.set(item.id, item);
         if (!item.id.startsWith(`${target}.`)) add(lfile, `item ${item.id} must start with "${target}."`);
       }
-      for (const ex of lesson.exercises) {
-        if (!local.has(ex.item)) add(lfile, `exercise uses ${ex.item}, which is not taught in this lesson`);
+
+      for (const ex of lessonExercises(lesson)) {
+        const item = local.get(ex.item);
+        if (!item) {
+          add(lfile, `exercise uses ${ex.item}, which is not taught in this lesson`);
+          continue;
+        }
+        if (ex.type === 'speak') continue;
+        const group = kindGroup(item.kind);
+        if (ex.options) {
+          const texts = new Set([item.text]);
+          for (const id of ex.options) {
+            const other = seen.get(id);
+            if (!other) add(lfile, `${ex.type} option ${id} is not an item of this course`);
+            else if (id === item.id) add(lfile, `${ex.type} on ${item.id} lists itself as a wrong answer`);
+            else if (kindGroup(other.kind) !== group) add(lfile, `${ex.type} option ${id} is a ${other.kind}, not like ${item.id}`);
+            else if (TEXT_ANSWERS.has(ex.type) && texts.has(other.text)) add(lfile, `${ex.type} on ${item.id} has two answers reading "${other.text}"`);
+            else if (BY_EAR.has(ex.type) && sameReading(other.reading, item.reading)) add(lfile, `${ex.type} on ${item.id}: option ${id} sounds the same ("${other.reading}")`);
+            if (other) texts.add(other.text);
+          }
+        } else if (TEXT_ANSWERS.has(ex.type) && groupTexts(group) < CHOICES) {
+          add(lfile, `${ex.type} on ${item.id} needs ${CHOICES} different ${group} items in the course (or explicit options)`);
+        }
       }
     }
-    // Choice exercises draw wrong answers from the rest of the course.
-    if (seen.size > 0 && seen.size < 3) add(cfile, 'a course needs at least 3 distinct items for choice exercises');
   }
 
   const refUi = loaded.l1s.get(REFERENCE_L1)?.ui;
@@ -85,6 +121,19 @@ export function validate(loaded: Loaded): Problem[] {
           }
         }
       }
+
+      // Meanings of every item in the course, as this L1 explains them.
+      const meanings = new Map<string, { meaning: string; group: string }>();
+      for (const lesson of t.lessons.values()) {
+        const lg: LessonGloss | undefined = glosses.get(lesson.id);
+        for (const item of lesson.items) {
+          const g = lg?.items[item.id];
+          if (g && !meanings.has(item.id)) meanings.set(item.id, { meaning: g.meaning, group: kindGroup(item.kind) });
+        }
+      }
+      const groupMeanings = (group: string) =>
+        new Set([...meanings.values()].filter((m) => m.group === group).map((m) => m.meaning)).size;
+
       for (const lg of glosses.values()) {
         const lesson = t.lessons.get(lg.lesson);
         const gfile = `${dir}/lessons/${lg.lesson}.json`;
@@ -100,6 +149,21 @@ export function validate(loaded: Loaded): Problem[] {
         }
         if (lg.dialogue.length !== lesson.dialogue.length) {
           add(gfile, `dialogue has ${lg.dialogue.length} translations for ${lesson.dialogue.length} lines`);
+        }
+        for (const ex of lessonExercises(lesson)) {
+          if (ex.type === 'speak' || TEXT_ANSWERS.has(ex.type)) continue;
+          const own = meanings.get(ex.item);
+          if (!own) continue;
+          if (ex.options) {
+            const labels = new Set([own.meaning]);
+            for (const id of ex.options) {
+              const m = meanings.get(id)?.meaning;
+              if (m && labels.has(m)) add(gfile, `${ex.type} on ${ex.item} has two answers meaning "${m}"`);
+              if (m) labels.add(m);
+            }
+          } else if (groupMeanings(own.group) < CHOICES) {
+            add(gfile, `${ex.type} on ${ex.item} needs ${CHOICES} different meanings in the course (or explicit options)`);
+          }
         }
       }
     }

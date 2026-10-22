@@ -101,3 +101,48 @@ describe('validate', () => {
     expect(messages(root).some((m) => m.startsWith('courses/en/lessons/en-A1-01.json: items.0.id'))).toBe(true);
   });
 });
+
+describe('exercises', () => {
+  it('rejects a wrong answer of another kind or one that sounds the same', () => {
+    const root = copy();
+    edit(join(root, 'courses/zh/lessons/zh-A1-01.json'), (l) => {
+      l.items.push({ id: 'zh.ta-he', text: '他', reading: 'tā' }, { id: 'zh.ta-she', text: '她', reading: 'tā' });
+      l.items.push({ id: 'zh.ma1', kind: 'syllable', text: 'mā', reading: 'mā', say: '妈' });
+      l.exercises = [
+        { type: 'listen-text', item: 'zh.ta-he', options: ['zh.ta-she'] },
+        { type: 'choose-meaning', item: 'zh.ni-hao', options: ['zh.ma1'] },
+      ];
+    });
+    edit(join(root, 'l1/th/zh/lessons/zh-A1-01.json'), (g) => {
+      g.items['zh.ta-he'] = { meaning: 'เขา (ผู้ชาย)' };
+      g.items['zh.ta-she'] = { meaning: 'เขา (ผู้หญิง)' };
+      g.items['zh.ma1'] = { meaning: 'เสียง 1' };
+    });
+    const m = messages(root);
+    expect(m).toContain('courses/zh/lessons/zh-A1-01.json: listen-text on zh.ta-he: option zh.ta-she sounds the same ("tā")');
+    expect(m).toContain('courses/zh/lessons/zh-A1-01.json: choose-meaning option zh.ma1 is a syllable, not like zh.ni-hao');
+  });
+
+  it('gives sound items a listening question by default', async () => {
+    const { lessonExercises } = await import('./exercises');
+    const { Lesson } = await import('./schema');
+    const lesson = Lesson.parse({
+      id: 'ko-A2-01',
+      target: 'ko',
+      stage: 'A',
+      minutes: 5,
+      items: [
+        { id: 'ko.ga', kind: 'syllable', text: '가', reading: 'ga' },
+        { id: 'ko.na', kind: 'syllable', text: '나', reading: 'na' },
+      ],
+    });
+    expect(lessonExercises(lesson).map((e) => `${e.type} ${e.item}`)).toEqual([
+      'listen-text ko.ga',
+      'choose-meaning ko.ga',
+      'listen-text ko.na',
+      'choose-meaning ko.na',
+      'speak ko.ga',
+      'speak ko.na',
+    ]);
+  });
+});
