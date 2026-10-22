@@ -13,7 +13,8 @@
     "validate": "tsx src/cli/validate.ts",
     "build": "tsx src/cli/build.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit -p ."
+    "typecheck": "tsc --noEmit -p .",
+    "l10n": "tsx src/cli/l10n.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"
