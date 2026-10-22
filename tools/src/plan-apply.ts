@@ -22,24 +22,40 @@ const STAGE_TH: Record<string, { title: string; can: string }> = {
   F: { title: 'ระดับกลางขั้นสูง', can: 'พูดคุยเรื่องทั่วไปได้คล่อง เล่าประสบการณ์ และเขียนข้อความที่เป็นทางการได้' },
 };
 
+/**
+ * Merges a plan into the course: new stages are added; for stages that already exist (e.g. extending
+ * A–B), new units are appended and existing units get the plan's extra lessons after their own.
+ * Existing titles are kept; applying the same plan twice changes nothing.
+ */
 export function applyPlan(plan: Plan, course: any, gloss: any) {
-  const stages = course.stages.filter((s: { id: string }) => !plan.stages.some((p) => p.id === s.id));
   for (const p of plan.stages) {
-    stages.push({
-      id: p.id,
-      cefr: p.cefr.replace('+', ''),
-      ...(p.exam ? { exam: p.exam } : {}),
-      free: false,
-      units: p.units.map((u) => ({ id: u.id, lessons: u.lessons.map((l) => l.id) })),
-    });
+    let stage = course.stages.find((s: { id: string }) => s.id === p.id);
+    if (!stage) {
+      stage = { id: p.id, cefr: p.cefr.replace('+', ''), ...(p.exam ? { exam: p.exam } : {}), free: false, units: [] };
+      course.stages.push(stage);
+    }
+    for (const u of p.units) {
+      const ids = u.lessons.map((l) => l.id);
+      const unit = stage.units.find((x: { id: string }) => x.id === u.id);
+      if (unit) unit.lessons.push(...ids.filter((id) => !unit.lessons.includes(id)));
+      else stage.units.push({ id: u.id, lessons: ids });
+      gloss.units[u.id] ??= { title: u.title_th, goal: u.goal_th };
+      gloss.units[u.id].goal ??= u.goal_th;
+    }
     const th = STAGE_TH[p.id];
-    gloss.stages[p.id] = { title: th.title, description: `${th.can}${p.exam ? ` (เทียบ ${p.exam})` : ''}` };
-    for (const u of p.units) gloss.units[u.id] = { title: u.title_th, goal: u.goal_th };
+    gloss.stages[p.id] ??= { title: th.title };
+    gloss.stages[p.id].description ??= `${th.can}${p.exam ? ` (เทียบ ${p.exam})` : ''}`;
   }
   const order = 'ABCDEF';
-  course.stages = stages.sort((a: { id: string }, b: { id: string }) => order.indexOf(a.id) - order.indexOf(b.id));
+  course.stages.sort((a: { id: string }, b: { id: string }) => order.indexOf(a.id) - order.indexOf(b.id));
+  for (const stage of course.stages) {
+    // Units in number order (A7 before A10).
+    stage.units.sort((a: { id: string }, b: { id: string }) => unitNumber(a.id) - unitNumber(b.id));
+  }
   return { course, gloss };
 }
+
+const unitNumber = (id: string) => Number(/(\d+)$/.exec(id)?.[1] ?? 0);
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const name = process.argv[2];
