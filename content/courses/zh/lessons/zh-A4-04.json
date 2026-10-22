@@ -1,0 +1,52 @@
+{
+  "id": "zh-A4-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.sui",
+      "text": "岁",
+      "reading": "suì"
+    },
+    {
+      "id": "zh.duo-da",
+      "kind": "phrase",
+      "text": "多大",
+      "reading": "duō dà"
+    },
+    {
+      "id": "zh.ni-ji-sui",
+      "kind": "phrase",
+      "text": "你几岁？",
+      "reading": "nǐ jǐ suì?"
+    },
+    {
+      "id": "zh.jin-nian",
+      "text": "今年",
+      "reading": "jīnnián"
+    },
+    {
+      "id": "zh.er-shi",
+      "text": "二十",
+      "reading": "èrshí"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你今年多大？",
+      "reading": "Xiǎonán, nǐ jīnnián duō dà?"
+    },
+    {
+      "speaker": "a",
+      "text": "我今年二十岁。你呢？",
+      "reading": "Wǒ jīnnián èrshí suì. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也二十岁。",
+      "reading": "Wǒ yě èrshí suì."
+    }
+  ]
+}

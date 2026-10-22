@@ -1,0 +1,66 @@
+{
+  "id": "zh-B2-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.qian",
+      "text": "钱",
+      "reading": "qián"
+    },
+    {
+      "id": "zh.duo-shao",
+      "text": "多少",
+      "reading": "duōshao"
+    },
+    {
+      "id": "zh.duo-shao-qian",
+      "kind": "phrase",
+      "text": "多少钱？",
+      "reading": "duōshao qián?"
+    },
+    {
+      "id": "zh.kuai",
+      "text": "块",
+      "reading": "kuài"
+    },
+    {
+      "id": "zh.mai-buy",
+      "text": "买",
+      "reading": "mǎi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！这个多少钱？",
+      "reading": "Nǐ hǎo! Zhège duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "十块。",
+      "reading": "Shí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "那个呢？",
+      "reading": "Nàge ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "那个八块。",
+      "reading": "Nàge bā kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "我买那个。",
+      "reading": "Wǒ mǎi nàge."
+    },
+    {
+      "speaker": "c",
+      "text": "好的。",
+      "reading": "Hǎo de."
+    }
+  ]
+}

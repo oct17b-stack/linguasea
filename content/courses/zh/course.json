@@ -6,30 +6,126 @@
     {
       "id": "A",
       "cefr": "pre-A1",
+      "exam": "HSK 1",
       "free": true,
       "units": [
         {
           "id": "zh-A1",
           "lessons": [
-            "zh-A1-01"
+            "zh-A1-01",
+            "zh-A1-02",
+            "zh-A1-03",
+            "zh-A1-04"
+          ]
+        },
+        {
+          "id": "zh-A2",
+          "lessons": [
+            "zh-A2-01",
+            "zh-A2-02",
+            "zh-A2-03",
+            "zh-A2-04"
+          ]
+        },
+        {
+          "id": "zh-A3",
+          "lessons": [
+            "zh-A3-01",
+            "zh-A3-02",
+            "zh-A3-03",
+            "zh-A3-04"
+          ]
+        },
+        {
+          "id": "zh-A4",
+          "lessons": [
+            "zh-A4-01",
+            "zh-A4-02",
+            "zh-A4-03",
+            "zh-A4-04"
+          ]
+        },
+        {
+          "id": "zh-A5",
+          "lessons": [
+            "zh-A5-01",
+            "zh-A5-02",
+            "zh-A5-03",
+            "zh-A5-04"
+          ]
+        },
+        {
+          "id": "zh-A6",
+          "lessons": [
+            "zh-A6-01",
+            "zh-A6-02",
+            "zh-A6-03",
+            "zh-A6-04"
           ]
         }
-      ],
-      "exam": "HSK 1"
+      ]
     },
     {
       "id": "B",
       "cefr": "A1",
+      "exam": "HSK 1",
       "free": false,
       "units": [
         {
           "id": "zh-B1",
           "lessons": [
-            "zh-B1-01"
+            "zh-B1-01",
+            "zh-B1-02",
+            "zh-B1-03",
+            "zh-B1-04"
+          ]
+        },
+        {
+          "id": "zh-B2",
+          "lessons": [
+            "zh-B2-01",
+            "zh-B2-02",
+            "zh-B2-03",
+            "zh-B2-04"
+          ]
+        },
+        {
+          "id": "zh-B3",
+          "lessons": [
+            "zh-B3-01",
+            "zh-B3-02",
+            "zh-B3-03",
+            "zh-B3-04"
+          ]
+        },
+        {
+          "id": "zh-B4",
+          "lessons": [
+            "zh-B4-01",
+            "zh-B4-02",
+            "zh-B4-03",
+            "zh-B4-04"
+          ]
+        },
+        {
+          "id": "zh-B5",
+          "lessons": [
+            "zh-B5-01",
+            "zh-B5-02",
+            "zh-B5-03",
+            "zh-B5-04"
+          ]
+        },
+        {
+          "id": "zh-B6",
+          "lessons": [
+            "zh-B6-01",
+            "zh-B6-02",
+            "zh-B6-03",
+            "zh-B6-04"
           ]
         }
-      ],
-      "exam": "HSK 1"
+      ]
     }
   ]
 }

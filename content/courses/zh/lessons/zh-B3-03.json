@@ -1,0 +1,60 @@
+{
+  "id": "zh-B3-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.shang-dian",
+      "text": "商店",
+      "reading": "shāngdiàn"
+    },
+    {
+      "id": "zh.fan-dian",
+      "text": "饭店",
+      "reading": "fàndiàn"
+    },
+    {
+      "id": "zh.yin-hang",
+      "text": "银行",
+      "reading": "yínháng"
+    },
+    {
+      "id": "zh.chao-shi",
+      "text": "超市",
+      "reading": "chāoshì"
+    },
+    {
+      "id": "zh.pang-bian",
+      "text": "旁边",
+      "reading": "pángbiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这儿有超市吗？",
+      "reading": "Wáng Míng, zhèr yǒu chāoshì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，在银行旁边。",
+      "reading": "Yǒu, zài yínháng pángbiān."
+    },
+    {
+      "speaker": "a",
+      "text": "银行在哪儿？",
+      "reading": "Yínháng zài nǎr?"
+    },
+    {
+      "speaker": "b",
+      "text": "在前面，饭店的右边。",
+      "reading": "Zài qiánmian, fàndiàn de yòubian."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢！",
+      "reading": "Hǎo de, xièxie!"
+    }
+  ]
+}

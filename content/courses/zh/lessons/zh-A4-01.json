@@ -1,0 +1,50 @@
+{
+  "id": "zh-A4-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.yi",
+      "text": "一",
+      "reading": "yī"
+    },
+    {
+      "id": "zh.er",
+      "text": "二",
+      "reading": "èr"
+    },
+    {
+      "id": "zh.san",
+      "text": "三",
+      "reading": "sān"
+    },
+    {
+      "id": "zh.si",
+      "text": "四",
+      "reading": "sì"
+    },
+    {
+      "id": "zh.wu",
+      "text": "五",
+      "reading": "wǔ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "一、二、三！",
+      "reading": "Yī, èr, sān!"
+    },
+    {
+      "speaker": "a",
+      "text": "四、五！",
+      "reading": "Sì, wǔ!"
+    },
+    {
+      "speaker": "c",
+      "text": "很好！",
+      "reading": "Hěn hǎo!"
+    }
+  ]
+}

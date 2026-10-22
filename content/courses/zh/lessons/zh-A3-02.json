@@ -1,0 +1,56 @@
+{
+  "id": "zh-A3-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shi",
+      "text": "是",
+      "reading": "shì"
+    },
+    {
+      "id": "zh.ren",
+      "text": "人",
+      "reading": "rén"
+    },
+    {
+      "id": "zh.zhong-guo",
+      "text": "中国",
+      "reading": "Zhōngguó"
+    },
+    {
+      "id": "zh.tai-guo",
+      "text": "泰国",
+      "reading": "Tàiguó"
+    },
+    {
+      "id": "zh.bei-jing",
+      "text": "北京",
+      "reading": "Běijīng"
+    },
+    {
+      "id": "zh.na-guo-ren",
+      "kind": "phrase",
+      "text": "哪国人？",
+      "reading": "nǎ guó rén?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你是哪国人？",
+      "reading": "Xiǎonán, nǐ shì nǎ guó rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "我是泰国人。你呢？",
+      "reading": "Wǒ shì Tàiguó rén. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我是中国北京人。",
+      "reading": "Wǒ shì Zhōngguó Běijīng rén."
+    }
+  ]
+}

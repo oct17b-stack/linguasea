@@ -1,0 +1,50 @@
+{
+  "id": "zh-A4-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.liu",
+      "text": "六",
+      "reading": "liù"
+    },
+    {
+      "id": "zh.qi",
+      "text": "七",
+      "reading": "qī"
+    },
+    {
+      "id": "zh.ba",
+      "text": "八",
+      "reading": "bā"
+    },
+    {
+      "id": "zh.jiu",
+      "text": "九",
+      "reading": "jiǔ"
+    },
+    {
+      "id": "zh.shi-ten",
+      "text": "十",
+      "reading": "shí"
+    },
+    {
+      "id": "zh.ling",
+      "text": "零",
+      "reading": "líng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "六、七、八、九、十！",
+      "reading": "Liù, qī, bā, jiǔ, shí!"
+    },
+    {
+      "speaker": "a",
+      "text": "十、九、八、七、六！",
+      "reading": "Shí, jiǔ, bā, qī, liù!"
+    }
+  ]
+}

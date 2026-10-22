@@ -1,0 +1,60 @@
+{
+  "id": "zh-B5-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xia-yu",
+      "text": "下雨",
+      "reading": "xiàyǔ"
+    },
+    {
+      "id": "zh.xia-xue",
+      "text": "下雪",
+      "reading": "xiàxuě"
+    },
+    {
+      "id": "zh.qing-tian",
+      "text": "晴天",
+      "reading": "qíngtiān"
+    },
+    {
+      "id": "zh.gua-feng",
+      "text": "刮风",
+      "reading": "guāfēng"
+    },
+    {
+      "id": "zh.hui",
+      "text": "会",
+      "reading": "huì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，今天会下雨吗？",
+      "reading": "Wáng Míng, jīntiān huì xiàyǔ ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不会。今天是晴天。",
+      "reading": "Bù huì. Jīntiān shì qíngtiān."
+    },
+    {
+      "speaker": "a",
+      "text": "明天呢？",
+      "reading": "Míngtiān ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "明天会刮风，也会下雨。",
+      "reading": "Míngtiān huì guāfēng, yě huì xiàyǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "那我明天在家休息。",
+      "reading": "Nà wǒ míngtiān zài jiā xiūxi."
+    }
+  ]
+}

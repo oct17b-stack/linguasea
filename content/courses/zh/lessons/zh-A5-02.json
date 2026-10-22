@@ -1,0 +1,55 @@
+{
+  "id": "zh-A5-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ge-ge",
+      "text": "哥哥",
+      "reading": "gēge"
+    },
+    {
+      "id": "zh.jie-jie",
+      "text": "姐姐",
+      "reading": "jiějie"
+    },
+    {
+      "id": "zh.di-di",
+      "text": "弟弟",
+      "reading": "dìdi"
+    },
+    {
+      "id": "zh.mei-mei",
+      "text": "妹妹",
+      "reading": "mèimei"
+    },
+    {
+      "id": "zh.he-and",
+      "text": "和",
+      "reading": "hé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有哥哥吗？",
+      "reading": "Xiǎonán, nǐ yǒu gēge ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有。我有一个妹妹。",
+      "reading": "Méiyǒu. Wǒ yǒu yī ge mèimei."
+    },
+    {
+      "speaker": "b",
+      "text": "你妹妹多大？",
+      "reading": "Nǐ mèimei duō dà?"
+    },
+    {
+      "speaker": "a",
+      "text": "她十七岁。",
+      "reading": "Tā shíqī suì."
+    }
+  ]
+}

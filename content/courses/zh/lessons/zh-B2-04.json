@@ -1,0 +1,67 @@
+{
+  "id": "zh-B2-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.mai-sell",
+      "text": "卖",
+      "reading": "mài"
+    },
+    {
+      "id": "zh.dong-xi",
+      "text": "东西",
+      "reading": "dōngxi"
+    },
+    {
+      "id": "zh.yi-gong",
+      "text": "一共",
+      "reading": "yīgòng"
+    },
+    {
+      "id": "zh.hai-yao-shen-me",
+      "kind": "phrase",
+      "text": "还要什么？",
+      "reading": "hái yào shénme?"
+    },
+    {
+      "id": "zh.gei-ni",
+      "kind": "phrase",
+      "text": "给你",
+      "reading": "gěi nǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！你们卖苹果吗？",
+      "reading": "Nǐ hǎo! Nǐmen mài píngguǒ ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "卖。你要几个？",
+      "reading": "Mài. Nǐ yào jǐ ge?"
+    },
+    {
+      "speaker": "a",
+      "text": "三个。一共多少钱？",
+      "reading": "Sān ge. Yīgòng duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "十五块。还要什么？",
+      "reading": "Shíwǔ kuài. Hái yào shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "不要了。给你。",
+      "reading": "Bù yào le. Gěi nǐ."
+    },
+    {
+      "speaker": "c",
+      "text": "谢谢！",
+      "reading": "Xièxie!"
+    }
+  ]
+}

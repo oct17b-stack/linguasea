@@ -1,0 +1,56 @@
+{
+  "id": "zh-A3-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.bu",
+      "text": "不",
+      "reading": "bù"
+    },
+    {
+      "id": "zh.xue-sheng",
+      "text": "学生",
+      "reading": "xuésheng"
+    },
+    {
+      "id": "zh.ren-shi",
+      "text": "认识",
+      "reading": "rènshi"
+    },
+    {
+      "id": "zh.gao-xing",
+      "text": "高兴",
+      "reading": "gāoxìng"
+    },
+    {
+      "id": "zh.hen-gao-xing-ren-shi-ni",
+      "kind": "phrase",
+      "text": "很高兴认识你",
+      "reading": "hěn gāoxìng rènshi nǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好！你是老师吗？",
+      "reading": "Nǐ hǎo! Nǐ shì lǎoshī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，我是学生。",
+      "reading": "Bù shì, wǒ shì xuésheng."
+    },
+    {
+      "speaker": "b",
+      "text": "很高兴认识你！",
+      "reading": "Hěn gāoxìng rènshi nǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "我也很高兴认识你！",
+      "reading": "Wǒ yě hěn gāoxìng rènshi nǐ!"
+    }
+  ]
+}

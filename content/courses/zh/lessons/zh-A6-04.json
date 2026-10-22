@@ -1,0 +1,56 @@
+{
+  "id": "zh-A6-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.fu-wu-yuan",
+      "text": "服务员",
+      "reading": "fúwùyuán"
+    },
+    {
+      "id": "zh.yao",
+      "text": "要",
+      "reading": "yào"
+    },
+    {
+      "id": "zh.wan",
+      "text": "碗",
+      "reading": "wǎn"
+    },
+    {
+      "id": "zh.bei",
+      "text": "杯",
+      "reading": "bēi"
+    },
+    {
+      "id": "zh.hao-de",
+      "kind": "phrase",
+      "text": "好的",
+      "reading": "hǎo de"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "服务员！",
+      "reading": "Fúwùyuán!"
+    },
+    {
+      "speaker": "c",
+      "text": "你好！你要什么？",
+      "reading": "Nǐ hǎo! Nǐ yào shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我要一碗面条和一杯茶。",
+      "reading": "Wǒ yào yī wǎn miàntiáo hé yī bēi chá."
+    },
+    {
+      "speaker": "c",
+      "text": "好的。",
+      "reading": "Hǎo de."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "zh-A3-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ni",
+      "text": "你",
+      "reading": "nǐ"
+    },
+    {
+      "id": "zh.jiao",
+      "text": "叫",
+      "reading": "jiào"
+    },
+    {
+      "id": "zh.shen-me",
+      "text": "什么",
+      "reading": "shénme"
+    },
+    {
+      "id": "zh.ming-zi",
+      "text": "名字",
+      "reading": "míngzi"
+    },
+    {
+      "id": "zh.wo-jiao",
+      "kind": "phrase",
+      "text": "我叫……",
+      "reading": "wǒ jiào……"
+    },
+    {
+      "id": "zh.ni-jiao-shen-me-ming-zi",
+      "kind": "phrase",
+      "text": "你叫什么名字？",
+      "reading": "nǐ jiào shénme míngzi?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好！你叫什么名字？",
+      "reading": "Nǐ hǎo! Nǐ jiào shénme míngzi?"
+    },
+    {
+      "speaker": "a",
+      "text": "我叫小南。你呢？",
+      "reading": "Wǒ jiào Xiǎonán. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我叫王明。",
+      "reading": "Wǒ jiào Wáng Míng."
+    },
+    {
+      "speaker": "a",
+      "text": "王明，你好！",
+      "reading": "Wáng Míng, nǐ hǎo!"
+    }
+  ]
+}

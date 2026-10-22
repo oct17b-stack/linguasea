@@ -1,0 +1,50 @@
+{
+  "id": "zh-A6-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.he-drink",
+      "text": "喝",
+      "reading": "hē"
+    },
+    {
+      "id": "zh.shui",
+      "text": "水",
+      "reading": "shuǐ"
+    },
+    {
+      "id": "zh.cha",
+      "text": "茶",
+      "reading": "chá"
+    },
+    {
+      "id": "zh.ka-fei",
+      "text": "咖啡",
+      "reading": "kāfēi"
+    },
+    {
+      "id": "zh.xiang",
+      "text": "想",
+      "reading": "xiǎng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你想喝什么？",
+      "reading": "Xiǎonán, nǐ xiǎng hē shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想喝茶。你呢？",
+      "reading": "Wǒ xiǎng hē chá. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我喝咖啡。",
+      "reading": "Wǒ hē kāfēi."
+    }
+  ]
+}

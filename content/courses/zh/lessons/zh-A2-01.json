@@ -1,0 +1,183 @@
+{
+  "id": "zh-A2-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ma1",
+      "kind": "syllable",
+      "text": "mā",
+      "reading": "mā",
+      "say": "妈"
+    },
+    {
+      "id": "zh.ma2",
+      "kind": "syllable",
+      "text": "má",
+      "reading": "má",
+      "say": "麻"
+    },
+    {
+      "id": "zh.ma3",
+      "kind": "syllable",
+      "text": "mǎ",
+      "reading": "mǎ",
+      "say": "马"
+    },
+    {
+      "id": "zh.ma4",
+      "kind": "syllable",
+      "text": "mà",
+      "reading": "mà",
+      "say": "骂"
+    },
+    {
+      "id": "zh.ba1",
+      "kind": "syllable",
+      "text": "bā",
+      "reading": "bā",
+      "say": "八"
+    },
+    {
+      "id": "zh.ba2",
+      "kind": "syllable",
+      "text": "bá",
+      "reading": "bá",
+      "say": "拔"
+    },
+    {
+      "id": "zh.ba3",
+      "kind": "syllable",
+      "text": "bǎ",
+      "reading": "bǎ",
+      "say": "把"
+    },
+    {
+      "id": "zh.ba4",
+      "kind": "syllable",
+      "text": "bà",
+      "reading": "bà",
+      "say": "爸"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.ma1",
+      "options": [
+        "zh.ma2",
+        "zh.ma3",
+        "zh.ma4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ma2",
+      "options": [
+        "zh.ma1",
+        "zh.ma3",
+        "zh.ma4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ma3",
+      "options": [
+        "zh.ma1",
+        "zh.ma2",
+        "zh.ma4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ma4",
+      "options": [
+        "zh.ma1",
+        "zh.ma2",
+        "zh.ma3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ba1",
+      "options": [
+        "zh.ba2",
+        "zh.ba3",
+        "zh.ba4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ba2",
+      "options": [
+        "zh.ba1",
+        "zh.ba3",
+        "zh.ba4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ba3",
+      "options": [
+        "zh.ba1",
+        "zh.ba2",
+        "zh.ba4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ba4",
+      "options": [
+        "zh.ba1",
+        "zh.ba2",
+        "zh.ba3"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ma1",
+      "options": [
+        "zh.ma2",
+        "zh.ma3",
+        "zh.ma4"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ma3",
+      "options": [
+        "zh.ma1",
+        "zh.ma2",
+        "zh.ma4"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ba2",
+      "options": [
+        "zh.ba1",
+        "zh.ba3",
+        "zh.ba4"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ba4",
+      "options": [
+        "zh.ba1",
+        "zh.ba2",
+        "zh.ba3"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.ma3"
+    },
+    {
+      "type": "speak",
+      "item": "zh.ba4"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "zh-B4-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zao-fan",
+      "text": "早饭",
+      "reading": "zǎofàn"
+    },
+    {
+      "id": "zh.wu-fan",
+      "text": "午饭",
+      "reading": "wǔfàn"
+    },
+    {
+      "id": "zh.wan-fan",
+      "text": "晚饭",
+      "reading": "wǎnfàn"
+    },
+    {
+      "id": "zh.zhong-wu",
+      "text": "中午",
+      "reading": "zhōngwǔ"
+    },
+    {
+      "id": "zh.chi-fan",
+      "text": "吃饭",
+      "reading": "chīfàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你吃早饭了吗？",
+      "reading": "Wáng Míng, nǐ chī zǎofàn le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "吃了。你呢？",
+      "reading": "Chī le. Nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我还没吃。我想吃面条。",
+      "reading": "Wǒ hái méi chī. Wǒ xiǎng chī miàntiáo."
+    },
+    {
+      "speaker": "b",
+      "text": "现在十一点半，我们一起吃午饭吧！",
+      "reading": "Xiànzài shíyī diǎn bàn, wǒmen yīqǐ chī wǔfàn ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！",
+      "reading": "Hǎo a!"
+    }
+  ]
+}

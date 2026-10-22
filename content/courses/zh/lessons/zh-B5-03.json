@@ -1,0 +1,65 @@
+{
+  "id": "zh-B5-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.lei",
+      "text": "累",
+      "reading": "lèi"
+    },
+    {
+      "id": "zh.e",
+      "text": "饿",
+      "reading": "è"
+    },
+    {
+      "id": "zh.ke",
+      "text": "渴",
+      "reading": "kě"
+    },
+    {
+      "id": "zh.mang",
+      "text": "忙",
+      "reading": "máng"
+    },
+    {
+      "id": "zh.you-dianr",
+      "text": "有点儿",
+      "reading": "yǒudiǎnr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你累吗？",
+      "reading": "Xiǎonán, nǐ lèi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有点儿累。今天很忙。",
+      "reading": "Yǒudiǎnr lèi. Jīntiān hěn máng."
+    },
+    {
+      "speaker": "b",
+      "text": "你饿吗？",
+      "reading": "Nǐ è ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很饿，也很渴！",
+      "reading": "Hěn è, yě hěn kě!"
+    },
+    {
+      "speaker": "b",
+      "text": "我们去吃饭吧！",
+      "reading": "Wǒmen qù chīfàn ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！",
+      "reading": "Hǎo a!"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "zh-A1-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.lao-shi",
+      "text": "老师",
+      "reading": "lǎoshī"
+    },
+    {
+      "id": "zh.nin-hao",
+      "kind": "phrase",
+      "text": "您好",
+      "reading": "nín hǎo"
+    },
+    {
+      "id": "zh.zao-shang-hao",
+      "kind": "phrase",
+      "text": "早上好",
+      "reading": "zǎoshang hǎo"
+    },
+    {
+      "id": "zh.wan-shang-hao",
+      "kind": "phrase",
+      "text": "晚上好",
+      "reading": "wǎnshang hǎo"
+    },
+    {
+      "id": "zh.wan-an",
+      "kind": "phrase",
+      "text": "晚安",
+      "reading": "wǎn'ān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，早上好！",
+      "reading": "Lǐ lǎoshī, zǎoshang hǎo!"
+    },
+    {
+      "speaker": "c",
+      "text": "早上好，小南！你好吗？",
+      "reading": "Zǎoshang hǎo, Xiǎonán! Nǐ hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我很好，谢谢！您呢？",
+      "reading": "Wǒ hěn hǎo, xièxie! Nín ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "我也很好。",
+      "reading": "Wǒ yě hěn hǎo."
+    }
+  ]
+}

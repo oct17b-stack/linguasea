@@ -1,0 +1,72 @@
+{
+  "id": "zh-B6-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.cong",
+      "text": "从",
+      "reading": "cóng"
+    },
+    {
+      "id": "zh.dao",
+      "text": "到",
+      "reading": "dào"
+    },
+    {
+      "id": "zh.xiao-shi",
+      "text": "小时",
+      "reading": "xiǎoshí"
+    },
+    {
+      "id": "zh.fen-zhong",
+      "text": "分钟",
+      "reading": "fēnzhōng"
+    },
+    {
+      "id": "zh.duo-chang-shi-jian",
+      "kind": "phrase",
+      "text": "多长时间",
+      "reading": "duō cháng shíjiān"
+    },
+    {
+      "id": "zh.yi-lu-ping-an",
+      "kind": "phrase",
+      "text": "一路平安",
+      "reading": "yīlù píng'ān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "从学校到机场要多长时间？",
+      "reading": "Cóng xuéxiào dào jīchǎng yào duō cháng shíjiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "坐地铁要一个小时。",
+      "reading": "Zuò dìtiě yào yī ge xiǎoshí."
+    },
+    {
+      "speaker": "a",
+      "text": "坐出租车呢？",
+      "reading": "Zuò chūzūchē ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "四十分钟。出租车很贵！",
+      "reading": "Sìshí fēnzhōng. Chūzūchē hěn guì!"
+    },
+    {
+      "speaker": "a",
+      "text": "那我坐地铁去。",
+      "reading": "Nà wǒ zuò dìtiě qù."
+    },
+    {
+      "speaker": "b",
+      "text": "好，一路平安！",
+      "reading": "Hǎo, yīlù píng'ān!"
+    }
+  ]
+}

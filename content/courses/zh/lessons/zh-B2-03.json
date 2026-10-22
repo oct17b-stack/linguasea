@@ -1,0 +1,60 @@
+{
+  "id": "zh-B2-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.yi-fu",
+      "text": "衣服",
+      "reading": "yīfu"
+    },
+    {
+      "id": "zh.jian",
+      "text": "件",
+      "reading": "jiàn"
+    },
+    {
+      "id": "zh.da",
+      "text": "大",
+      "reading": "dà"
+    },
+    {
+      "id": "zh.xiao",
+      "text": "小",
+      "reading": "xiǎo"
+    },
+    {
+      "id": "zh.piao-liang",
+      "text": "漂亮",
+      "reading": "piàoliang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "这件衣服很漂亮！多少钱？",
+      "reading": "Zhè jiàn yīfu hěn piàoliang! Duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "九十块。",
+      "reading": "Jiǔshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "有小一点儿的吗？",
+      "reading": "Yǒu xiǎo yīdiǎnr de ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有。这件小一点儿。",
+      "reading": "Yǒu. Zhè jiàn xiǎo yīdiǎnr."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我买这件。",
+      "reading": "Hǎo, wǒ mǎi zhè jiàn."
+    }
+  ]
+}

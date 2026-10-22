@@ -1,0 +1,55 @@
+{
+  "id": "zh-A5-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ba-ba",
+      "text": "爸爸",
+      "reading": "bàba"
+    },
+    {
+      "id": "zh.ma-ma",
+      "text": "妈妈",
+      "reading": "māma"
+    },
+    {
+      "id": "zh.zhe",
+      "text": "这",
+      "reading": "zhè"
+    },
+    {
+      "id": "zh.na",
+      "text": "那",
+      "reading": "nà"
+    },
+    {
+      "id": "zh.jia",
+      "text": "家",
+      "reading": "jiā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这是你爸爸吗？",
+      "reading": "Zhè shì nǐ bàba ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是，这是我爸爸。",
+      "reading": "Shì, zhè shì wǒ bàba."
+    },
+    {
+      "speaker": "b",
+      "text": "那是你妈妈吗？",
+      "reading": "Nà shì nǐ māma ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，那是我的老师。",
+      "reading": "Bù shì, nà shì wǒ de lǎoshī."
+    }
+  ]
+}

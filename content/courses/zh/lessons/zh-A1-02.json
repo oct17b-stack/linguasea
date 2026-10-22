@@ -1,0 +1,58 @@
+{
+  "id": "zh-A1-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.dui-bu-qi",
+      "text": "对不起",
+      "reading": "duìbuqǐ"
+    },
+    {
+      "id": "zh.mei-guan-xi",
+      "kind": "phrase",
+      "text": "没关系",
+      "reading": "méi guānxi"
+    },
+    {
+      "id": "zh.qing",
+      "text": "请",
+      "reading": "qǐng"
+    },
+    {
+      "id": "zh.qing-jin",
+      "kind": "phrase",
+      "text": "请进",
+      "reading": "qǐng jìn"
+    },
+    {
+      "id": "zh.qing-zuo",
+      "kind": "phrase",
+      "text": "请坐",
+      "reading": "qǐng zuò"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "对不起！",
+      "reading": "Duìbuqǐ!"
+    },
+    {
+      "speaker": "c",
+      "text": "没关系。请进！",
+      "reading": "Méi guānxi. Qǐng jìn!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！",
+      "reading": "Xièxie!"
+    },
+    {
+      "speaker": "c",
+      "text": "请坐。",
+      "reading": "Qǐng zuò."
+    }
+  ]
+}

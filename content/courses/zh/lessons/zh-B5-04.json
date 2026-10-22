@@ -1,0 +1,66 @@
+{
+  "id": "zh-B5-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.jue-de",
+      "text": "觉得",
+      "reading": "juéde"
+    },
+    {
+      "id": "zh.shu-fu",
+      "text": "舒服",
+      "reading": "shūfu"
+    },
+    {
+      "id": "zh.sheng-bing",
+      "text": "生病",
+      "reading": "shēngbìng"
+    },
+    {
+      "id": "zh.mei-shi",
+      "kind": "phrase",
+      "text": "没事",
+      "reading": "méi shì"
+    },
+    {
+      "id": "zh.kai-xin",
+      "text": "开心",
+      "reading": "kāixīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你怎么样？",
+      "reading": "Wáng Míng, nǐ zěnmeyàng?"
+    },
+    {
+      "speaker": "b",
+      "text": "我觉得不舒服。",
+      "reading": "Wǒ juéde bù shūfu."
+    },
+    {
+      "speaker": "a",
+      "text": "你生病了吗？去医院吧！",
+      "reading": "Nǐ shēngbìng le ma? Qù yīyuàn ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "没事，我想在家休息。",
+      "reading": "Méi shì, wǒ xiǎng zài jiā xiūxi."
+    },
+    {
+      "speaker": "a",
+      "text": "好，你多喝水！",
+      "reading": "Hǎo, nǐ duō hē shuǐ!"
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢你，小南！",
+      "reading": "Xièxie nǐ, Xiǎonán!"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "zh-B4-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xue-xi",
+      "text": "学习",
+      "reading": "xuéxí"
+    },
+    {
+      "id": "zh.han-yu",
+      "text": "汉语",
+      "reading": "Hànyǔ"
+    },
+    {
+      "id": "zh.shang-ke",
+      "text": "上课",
+      "reading": "shàngkè"
+    },
+    {
+      "id": "zh.xia-ke",
+      "text": "下课",
+      "reading": "xiàkè"
+    },
+    {
+      "id": "zh.da-xue",
+      "text": "大学",
+      "reading": "dàxué"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在大学学习什么？",
+      "reading": "Xiǎonán, nǐ zài dàxué xuéxí shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我学习汉语。",
+      "reading": "Wǒ xuéxí Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "你每天几点上课？",
+      "reading": "Nǐ měitiān jǐ diǎn shàngkè?"
+    },
+    {
+      "speaker": "a",
+      "text": "上午八点上课，下午四点下课。",
+      "reading": "Shàngwǔ bā diǎn shàngkè, xiàwǔ sì diǎn xiàkè."
+    },
+    {
+      "speaker": "b",
+      "text": "你的汉语很好！",
+      "reading": "Nǐ de Hànyǔ hěn hǎo!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！",
+      "reading": "Xièxie!"
+    }
+  ]
+}

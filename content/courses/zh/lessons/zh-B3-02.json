@@ -1,0 +1,65 @@
+{
+  "id": "zh-B3-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.qing-wen",
+      "text": "请问",
+      "reading": "qǐngwèn"
+    },
+    {
+      "id": "zh.qian-mian",
+      "text": "前面",
+      "reading": "qiánmian"
+    },
+    {
+      "id": "zh.hou-mian",
+      "text": "后面",
+      "reading": "hòumian"
+    },
+    {
+      "id": "zh.zuo-bian",
+      "text": "左边",
+      "reading": "zuǒbian"
+    },
+    {
+      "id": "zh.you-bian",
+      "text": "右边",
+      "reading": "yòubian"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！请问，医院在哪儿？",
+      "reading": "Nǐ hǎo! Qǐngwèn, yīyuàn zài nǎr?"
+    },
+    {
+      "speaker": "b",
+      "text": "在前面。",
+      "reading": "Zài qiánmian."
+    },
+    {
+      "speaker": "a",
+      "text": "在学校左边吗？",
+      "reading": "Zài xuéxiào zuǒbian ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不是，在学校右边。",
+      "reading": "Bù shì, zài xuéxiào yòubian."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！",
+      "reading": "Xièxie!"
+    },
+    {
+      "speaker": "b",
+      "text": "不客气！",
+      "reading": "Bù kèqi!"
+    }
+  ]
+}

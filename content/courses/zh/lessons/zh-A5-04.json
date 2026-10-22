@@ -1,0 +1,50 @@
+{
+  "id": "zh-A5-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zuo",
+      "text": "做",
+      "reading": "zuò"
+    },
+    {
+      "id": "zh.gong-zuo",
+      "text": "工作",
+      "reading": "gōngzuò"
+    },
+    {
+      "id": "zh.yi-sheng",
+      "text": "医生",
+      "reading": "yīshēng"
+    },
+    {
+      "id": "zh.wo-men",
+      "text": "我们",
+      "reading": "wǒmen"
+    },
+    {
+      "id": "zh.ta-men",
+      "text": "他们",
+      "reading": "tāmen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你爸爸妈妈做什么工作？",
+      "reading": "Nǐ bàba māma zuò shénme gōngzuò?"
+    },
+    {
+      "speaker": "a",
+      "text": "他们都是老师。你爸爸呢？",
+      "reading": "Tāmen dōu shì lǎoshī. Nǐ bàba ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "他是医生。",
+      "reading": "Tā shì yīshēng."
+    }
+  ]
+}

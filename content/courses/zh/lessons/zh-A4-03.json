@@ -1,0 +1,55 @@
+{
+  "id": "zh-A4-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ji",
+      "text": "几",
+      "reading": "jǐ"
+    },
+    {
+      "id": "zh.ge",
+      "text": "个",
+      "reading": "gè"
+    },
+    {
+      "id": "zh.liang",
+      "text": "两",
+      "reading": "liǎng"
+    },
+    {
+      "id": "zh.you",
+      "text": "有",
+      "reading": "yǒu"
+    },
+    {
+      "id": "zh.mei-you",
+      "text": "没有",
+      "reading": "méiyǒu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你有几个泰国朋友？",
+      "reading": "Wáng Míng, nǐ yǒu jǐ ge Tàiguó péngyou?"
+    },
+    {
+      "speaker": "b",
+      "text": "我有两个。你呢？",
+      "reading": "Wǒ yǒu liǎng ge. Nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我有一个中国朋友。",
+      "reading": "Wǒ yǒu yī ge Zhōngguó péngyou."
+    },
+    {
+      "speaker": "b",
+      "text": "是我吗？",
+      "reading": "Shì wǒ ma?"
+    }
+  ]
+}

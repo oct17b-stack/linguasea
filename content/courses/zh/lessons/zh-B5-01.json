@@ -1,0 +1,65 @@
+{
+  "id": "zh-B5-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.tian-qi",
+      "text": "天气",
+      "reading": "tiānqì"
+    },
+    {
+      "id": "zh.zen-me-yang",
+      "text": "怎么样",
+      "reading": "zěnmeyàng"
+    },
+    {
+      "id": "zh.re",
+      "text": "热",
+      "reading": "rè"
+    },
+    {
+      "id": "zh.leng",
+      "text": "冷",
+      "reading": "lěng"
+    },
+    {
+      "id": "zh.man-gu",
+      "text": "曼谷",
+      "reading": "Màngǔ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，今天天气怎么样？",
+      "reading": "Xiǎonán, jīntiān tiānqì zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "太热了！",
+      "reading": "Tài rè le!"
+    },
+    {
+      "speaker": "b",
+      "text": "曼谷每天都很热！",
+      "reading": "Màngǔ měitiān dōu hěn rè!"
+    },
+    {
+      "speaker": "a",
+      "text": "北京冷吗？",
+      "reading": "Běijīng lěng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "现在很冷。",
+      "reading": "Xiànzài hěn lěng."
+    },
+    {
+      "speaker": "a",
+      "text": "我想去北京！",
+      "reading": "Wǒ xiǎng qù Běijīng!"
+    }
+  ]
+}

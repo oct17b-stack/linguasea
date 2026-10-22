@@ -1,0 +1,60 @@
+{
+  "id": "zh-B3-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zai",
+      "text": "在",
+      "reading": "zài"
+    },
+    {
+      "id": "zh.nar",
+      "text": "哪儿",
+      "reading": "nǎr"
+    },
+    {
+      "id": "zh.zher",
+      "text": "这儿",
+      "reading": "zhèr"
+    },
+    {
+      "id": "zh.xue-xiao",
+      "text": "学校",
+      "reading": "xuéxiào"
+    },
+    {
+      "id": "zh.yi-yuan",
+      "text": "医院",
+      "reading": "yīyuàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在哪儿？",
+      "reading": "Xiǎonán, nǐ zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在家。你在学校吗？",
+      "reading": "Wǒ zài jiā. Nǐ zài xuéxiào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不在，我在医院。",
+      "reading": "Bù zài, wǒ zài yīyuàn."
+    },
+    {
+      "speaker": "a",
+      "text": "医院？你在医院做什么？",
+      "reading": "Yīyuàn? Nǐ zài yīyuàn zuò shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我朋友是医生，他在这儿工作。",
+      "reading": "Wǒ péngyou shì yīshēng, tā zài zhèr gōngzuò."
+    }
+  ]
+}

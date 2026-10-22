@@ -1,0 +1,55 @@
+{
+  "id": "zh-B3-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.qu",
+      "text": "去",
+      "reading": "qù"
+    },
+    {
+      "id": "zh.yuan",
+      "text": "远",
+      "reading": "yuǎn"
+    },
+    {
+      "id": "zh.jin",
+      "text": "近",
+      "reading": "jìn"
+    },
+    {
+      "id": "zh.zou",
+      "text": "走",
+      "reading": "zǒu"
+    },
+    {
+      "id": "zh.yi-qi",
+      "text": "一起",
+      "reading": "yīqǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你去哪儿？",
+      "reading": "Xiǎonán, nǐ qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我去超市。超市远吗？",
+      "reading": "Wǒ qù chāoshì. Chāoshì yuǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不远，很近。我们一起去吧！",
+      "reading": "Bù yuǎn, hěn jìn. Wǒmen yīqǐ qù ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我们走吧！",
+      "reading": "Hǎo a! Wǒmen zǒu ba!"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "zh-B6-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.huo-che",
+      "text": "火车",
+      "reading": "huǒchē"
+    },
+    {
+      "id": "zh.huo-che-zhan",
+      "text": "火车站",
+      "reading": "huǒchēzhàn"
+    },
+    {
+      "id": "zh.ji-chang",
+      "text": "机场",
+      "reading": "jīchǎng"
+    },
+    {
+      "id": "zh.piao",
+      "text": "票",
+      "reading": "piào"
+    },
+    {
+      "id": "zh.zhang",
+      "text": "张",
+      "reading": "zhāng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！我要一张去北京的火车票。",
+      "reading": "Nǐ hǎo! Wǒ yào yī zhāng qù Běijīng de huǒchēpiào."
+    },
+    {
+      "speaker": "c",
+      "text": "明天上午的，可以吗？",
+      "reading": "Míngtiān shàngwǔ de, kěyǐ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "可以。多少钱？",
+      "reading": "Kěyǐ. Duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "五十五块。",
+      "reading": "Wǔshíwǔ kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "给你。谢谢！",
+      "reading": "Gěi nǐ. Xièxie!"
+    },
+    {
+      "speaker": "c",
+      "text": "不客气。",
+      "reading": "Bù kèqi."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "zh-A1-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ni-hao-ma",
+      "kind": "phrase",
+      "text": "你好吗？",
+      "reading": "nǐ hǎo ma?"
+    },
+    {
+      "id": "zh.wo",
+      "text": "我",
+      "reading": "wǒ"
+    },
+    {
+      "id": "zh.hen",
+      "text": "很",
+      "reading": "hěn"
+    },
+    {
+      "id": "zh.hao",
+      "text": "好",
+      "reading": "hǎo"
+    },
+    {
+      "id": "zh.ye",
+      "text": "也",
+      "reading": "yě"
+    },
+    {
+      "id": "zh.ni-ne",
+      "kind": "phrase",
+      "text": "你呢？",
+      "reading": "nǐ ne?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你好吗？",
+      "reading": "Xiǎonán, nǐ hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我很好。你呢？",
+      "reading": "Wǒ hěn hǎo. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也很好。谢谢！",
+      "reading": "Wǒ yě hěn hǎo. Xièxie!"
+    }
+  ]
+}

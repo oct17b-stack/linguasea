@@ -1,0 +1,60 @@
+{
+  "id": "zh-B6-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.kuai-fast",
+      "text": "快",
+      "reading": "kuài"
+    },
+    {
+      "id": "zh.man",
+      "text": "慢",
+      "reading": "màn"
+    },
+    {
+      "id": "zh.kai-che",
+      "text": "开车",
+      "reading": "kāichē"
+    },
+    {
+      "id": "zh.qi-ride",
+      "text": "骑",
+      "reading": "qí"
+    },
+    {
+      "id": "zh.zi-xing-che",
+      "text": "自行车",
+      "reading": "zìxíngchē"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你会开车吗？",
+      "reading": "Wáng Míng, nǐ huì kāichē ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不会。我骑自行车。",
+      "reading": "Bù huì. Wǒ qí zìxíngchē."
+    },
+    {
+      "speaker": "a",
+      "text": "骑自行车慢吗？",
+      "reading": "Qí zìxíngchē màn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不慢，很快！",
+      "reading": "Bù màn, hěn kuài!"
+    },
+    {
+      "speaker": "a",
+      "text": "我也想骑自行车！",
+      "reading": "Wǒ yě xiǎng qí zìxíngchē!"
+    }
+  ]
+}

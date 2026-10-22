@@ -1,0 +1,70 @@
+{
+  "id": "zh-B1-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.jin-tian",
+      "text": "今天",
+      "reading": "jīntiān"
+    },
+    {
+      "id": "zh.ming-tian",
+      "text": "明天",
+      "reading": "míngtiān"
+    },
+    {
+      "id": "zh.zuo-tian",
+      "text": "昨天",
+      "reading": "zuótiān"
+    },
+    {
+      "id": "zh.shang-wu",
+      "text": "上午",
+      "reading": "shàngwǔ"
+    },
+    {
+      "id": "zh.xia-wu",
+      "text": "下午",
+      "reading": "xiàwǔ"
+    },
+    {
+      "id": "zh.shi-jian",
+      "text": "时间",
+      "reading": "shíjiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你明天下午有时间吗？",
+      "reading": "Xiǎonán, nǐ míngtiān xiàwǔ yǒu shíjiān ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "明天下午我没有时间。",
+      "reading": "Míngtiān xiàwǔ wǒ méiyǒu shíjiān."
+    },
+    {
+      "speaker": "b",
+      "text": "今天下午呢？",
+      "reading": "Jīntiān xiàwǔ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "今天下午有时间。",
+      "reading": "Jīntiān xiàwǔ yǒu shíjiān."
+    },
+    {
+      "speaker": "b",
+      "text": "好！我们今天下午喝咖啡吧！",
+      "reading": "Hǎo! Wǒmen jīntiān xiàwǔ hē kāfēi ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好的！",
+      "reading": "Hǎo de!"
+    }
+  ]
+}

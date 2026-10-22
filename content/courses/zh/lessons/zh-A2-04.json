@@ -1,0 +1,153 @@
+{
+  "id": "zh-A2-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhi3",
+      "kind": "syllable",
+      "text": "zhǐ",
+      "reading": "zhǐ",
+      "say": "纸"
+    },
+    {
+      "id": "zh.zi3",
+      "kind": "syllable",
+      "text": "zǐ",
+      "reading": "zǐ",
+      "say": "紫"
+    },
+    {
+      "id": "zh.chu1",
+      "kind": "syllable",
+      "text": "chū",
+      "reading": "chū",
+      "say": "出"
+    },
+    {
+      "id": "zh.cu1",
+      "kind": "syllable",
+      "text": "cū",
+      "reading": "cū",
+      "say": "粗"
+    },
+    {
+      "id": "zh.shi4",
+      "kind": "syllable",
+      "text": "shì",
+      "reading": "shì",
+      "say": "是"
+    },
+    {
+      "id": "zh.si4",
+      "kind": "syllable",
+      "text": "sì",
+      "reading": "sì",
+      "say": "四"
+    },
+    {
+      "id": "zh.ren2",
+      "kind": "syllable",
+      "text": "rén",
+      "reading": "rén",
+      "say": "人"
+    },
+    {
+      "id": "zh.chi1",
+      "kind": "syllable",
+      "text": "chī",
+      "reading": "chī",
+      "say": "吃"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.zhi3",
+      "options": [
+        "zh.zi3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.zi3",
+      "options": [
+        "zh.zhi3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.chu1",
+      "options": [
+        "zh.cu1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.cu1",
+      "options": [
+        "zh.chu1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.shi4",
+      "options": [
+        "zh.si4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.si4",
+      "options": [
+        "zh.shi4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ren2"
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.chi1",
+      "options": [
+        "zh.chu1",
+        "zh.cu1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.zhi3",
+      "options": [
+        "zh.zi3",
+        "zh.chi1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.si4",
+      "options": [
+        "zh.shi4",
+        "zh.cu1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ren2",
+      "options": [
+        "zh.shi4",
+        "zh.chu1"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.shi4"
+    },
+    {
+      "type": "speak",
+      "item": "zh.si4"
+    }
+  ]
+}

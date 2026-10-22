@@ -1,0 +1,72 @@
+{
+  "id": "zh-B1-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.nian",
+      "text": "年",
+      "reading": "nián"
+    },
+    {
+      "id": "zh.yue",
+      "text": "月",
+      "reading": "yuè"
+    },
+    {
+      "id": "zh.hao-date",
+      "text": "号",
+      "reading": "hào"
+    },
+    {
+      "id": "zh.ji-yue-ji-hao",
+      "kind": "phrase",
+      "text": "几月几号？",
+      "reading": "jǐ yuè jǐ hào?"
+    },
+    {
+      "id": "zh.sheng-ri",
+      "text": "生日",
+      "reading": "shēngrì"
+    },
+    {
+      "id": "zh.sheng-ri-kuai-le",
+      "kind": "phrase",
+      "text": "生日快乐",
+      "reading": "shēngrì kuàilè"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，今天几月几号？",
+      "reading": "Xiǎonán, jīntiān jǐ yuè jǐ hào?"
+    },
+    {
+      "speaker": "a",
+      "text": "今天六月五号。",
+      "reading": "Jīntiān liù yuè wǔ hào."
+    },
+    {
+      "speaker": "b",
+      "text": "六月五号？是你的生日吗？",
+      "reading": "Liù yuè wǔ hào? Shì nǐ de shēngrì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是！今天是我的生日。",
+      "reading": "Shì! Jīntiān shì wǒ de shēngrì."
+    },
+    {
+      "speaker": "b",
+      "text": "生日快乐！",
+      "reading": "Shēngrì kuàilè!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！",
+      "reading": "Xièxie!"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "zh-A3-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ta-he",
+      "text": "他",
+      "reading": "tā"
+    },
+    {
+      "id": "zh.ta-she",
+      "text": "她",
+      "reading": "tā"
+    },
+    {
+      "id": "zh.shei",
+      "text": "谁",
+      "reading": "shéi"
+    },
+    {
+      "id": "zh.peng-you",
+      "text": "朋友",
+      "reading": "péngyou"
+    },
+    {
+      "id": "zh.de",
+      "text": "的",
+      "reading": "de"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，他是谁？",
+      "reading": "Xiǎonán, tā shì shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "他是我的朋友，王明。",
+      "reading": "Tā shì wǒ de péngyou, Wáng Míng."
+    },
+    {
+      "speaker": "c",
+      "text": "他是中国人吗？",
+      "reading": "Tā shì Zhōngguó rén ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是，他是北京人。",
+      "reading": "Shì, tā shì Běijīng rén."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "zh-B4-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.kan",
+      "text": "看",
+      "reading": "kàn"
+    },
+    {
+      "id": "zh.shu",
+      "text": "书",
+      "reading": "shū"
+    },
+    {
+      "id": "zh.dian-shi",
+      "text": "电视",
+      "reading": "diànshì"
+    },
+    {
+      "id": "zh.dian-ying",
+      "text": "电影",
+      "reading": "diànyǐng"
+    },
+    {
+      "id": "zh.xiu-xi",
+      "text": "休息",
+      "reading": "xiūxi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，周末你做什么？",
+      "reading": "Xiǎonán, zhōumò nǐ zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在家休息，看书。你呢？",
+      "reading": "Wǒ zài jiā xiūxi, kàn shū. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我想看电影。我们一起去吧？",
+      "reading": "Wǒ xiǎng kàn diànyǐng. Wǒmen yīqǐ qù ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！星期六下午去吧。",
+      "reading": "Hǎo a! Xīngqīliù xiàwǔ qù ba."
+    }
+  ]
+}

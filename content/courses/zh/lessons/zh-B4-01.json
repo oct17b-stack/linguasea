@@ -1,0 +1,65 @@
+{
+  "id": "zh-B4-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.qi-chuang",
+      "text": "起床",
+      "reading": "qǐchuáng"
+    },
+    {
+      "id": "zh.shui-jiao",
+      "text": "睡觉",
+      "reading": "shuìjiào"
+    },
+    {
+      "id": "zh.zao-shang",
+      "text": "早上",
+      "reading": "zǎoshang"
+    },
+    {
+      "id": "zh.wan-shang",
+      "text": "晚上",
+      "reading": "wǎnshang"
+    },
+    {
+      "id": "zh.mei-tian",
+      "text": "每天",
+      "reading": "měitiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你每天几点起床？",
+      "reading": "Xiǎonán, nǐ měitiān jǐ diǎn qǐchuáng?"
+    },
+    {
+      "speaker": "a",
+      "text": "我每天早上七点起床。你呢？",
+      "reading": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我六点半起床。",
+      "reading": "Wǒ liù diǎn bàn qǐchuáng."
+    },
+    {
+      "speaker": "a",
+      "text": "你晚上几点睡觉？",
+      "reading": "Nǐ wǎnshang jǐ diǎn shuìjiào?"
+    },
+    {
+      "speaker": "b",
+      "text": "晚上十点。",
+      "reading": "Wǎnshang shí diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "我十二点睡觉！",
+      "reading": "Wǒ shí'èr diǎn shuìjiào!"
+    }
+  ]
+}

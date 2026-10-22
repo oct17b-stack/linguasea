@@ -1,0 +1,158 @@
+{
+  "id": "zh-A2-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.bai2",
+      "kind": "syllable",
+      "text": "bái",
+      "reading": "bái",
+      "say": "白"
+    },
+    {
+      "id": "zh.pai2",
+      "kind": "syllable",
+      "text": "pái",
+      "reading": "pái",
+      "say": "排"
+    },
+    {
+      "id": "zh.mi3",
+      "kind": "syllable",
+      "text": "mǐ",
+      "reading": "mǐ",
+      "say": "米"
+    },
+    {
+      "id": "zh.fei1",
+      "kind": "syllable",
+      "text": "fēi",
+      "reading": "fēi",
+      "say": "飞"
+    },
+    {
+      "id": "zh.da1",
+      "kind": "syllable",
+      "text": "dā",
+      "reading": "dā",
+      "say": "搭"
+    },
+    {
+      "id": "zh.ta1",
+      "kind": "syllable",
+      "text": "tā",
+      "reading": "tā",
+      "say": "他"
+    },
+    {
+      "id": "zh.ni3",
+      "kind": "syllable",
+      "text": "nǐ",
+      "reading": "nǐ",
+      "say": "你"
+    },
+    {
+      "id": "zh.li3",
+      "kind": "syllable",
+      "text": "lǐ",
+      "reading": "lǐ",
+      "say": "李"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.bai2",
+      "options": [
+        "zh.pai2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.pai2",
+      "options": [
+        "zh.bai2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.mi3",
+      "options": [
+        "zh.ni3",
+        "zh.li3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.fei1"
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.da1",
+      "options": [
+        "zh.ta1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ta1",
+      "options": [
+        "zh.da1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ni3",
+      "options": [
+        "zh.li3",
+        "zh.mi3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.li3",
+      "options": [
+        "zh.ni3",
+        "zh.mi3"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.bai2",
+      "options": [
+        "zh.pai2",
+        "zh.da1",
+        "zh.ta1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ta1",
+      "options": [
+        "zh.da1",
+        "zh.bai2",
+        "zh.pai2"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.ni3",
+      "options": [
+        "zh.li3",
+        "zh.mi3",
+        "zh.fei1"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.pai2"
+    },
+    {
+      "type": "speak",
+      "item": "zh.ta1"
+    }
+  ]
+}

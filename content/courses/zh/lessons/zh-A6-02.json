@@ -1,0 +1,55 @@
+{
+  "id": "zh-A6-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.chi",
+      "text": "吃",
+      "reading": "chī"
+    },
+    {
+      "id": "zh.mi-fan",
+      "text": "米饭",
+      "reading": "mǐfàn"
+    },
+    {
+      "id": "zh.mian-tiao",
+      "text": "面条",
+      "reading": "miàntiáo"
+    },
+    {
+      "id": "zh.cai",
+      "text": "菜",
+      "reading": "cài"
+    },
+    {
+      "id": "zh.hao-chi",
+      "text": "好吃",
+      "reading": "hǎochī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你想吃什么？",
+      "reading": "Wáng Míng, nǐ xiǎng chī shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我想吃面条。你呢？",
+      "reading": "Wǒ xiǎng chī miàntiáo. Nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想吃米饭和中国菜。",
+      "reading": "Wǒ xiǎng chī mǐfàn hé Zhōngguó cài."
+    },
+    {
+      "speaker": "b",
+      "text": "中国菜很好吃！",
+      "reading": "Zhōngguó cài hěn hǎochī!"
+    }
+  ]
+}

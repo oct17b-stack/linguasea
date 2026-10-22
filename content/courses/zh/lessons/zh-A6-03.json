@@ -1,0 +1,56 @@
+{
+  "id": "zh-A6-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.xi-huan",
+      "text": "喜欢",
+      "reading": "xǐhuan"
+    },
+    {
+      "id": "zh.shui-guo",
+      "text": "水果",
+      "reading": "shuǐguǒ"
+    },
+    {
+      "id": "zh.ping-guo",
+      "text": "苹果",
+      "reading": "píngguǒ"
+    },
+    {
+      "id": "zh.niu-nai",
+      "text": "牛奶",
+      "reading": "niúnǎi"
+    },
+    {
+      "id": "zh.tai-hao-le",
+      "kind": "phrase",
+      "text": "太好了",
+      "reading": "tài hǎo le"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你喜欢喝牛奶吗？",
+      "reading": "Xiǎonán, nǐ xǐhuan hē niúnǎi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不喜欢。我喜欢吃水果。",
+      "reading": "Bù xǐhuan. Wǒ xǐhuan chī shuǐguǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "我有苹果。你吃吗？",
+      "reading": "Wǒ yǒu píngguǒ. Nǐ chī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！谢谢！",
+      "reading": "Tài hǎo le! Xièxie!"
+    }
+  ]
+}

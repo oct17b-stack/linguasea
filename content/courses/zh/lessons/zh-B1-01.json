@@ -2,75 +2,55 @@
   "id": "zh-B1-01",
   "target": "zh",
   "stage": "B",
-  "minutes": 5,
+  "minutes": 7,
   "items": [
     {
-      "id": "zh.yi",
-      "text": "一",
-      "reading": "yī"
+      "id": "zh.xian-zai",
+      "text": "现在",
+      "reading": "xiànzài"
     },
     {
-      "id": "zh.er",
-      "text": "二",
-      "reading": "èr"
+      "id": "zh.ji-dian",
+      "kind": "phrase",
+      "text": "几点",
+      "reading": "jǐ diǎn"
     },
     {
-      "id": "zh.san",
-      "text": "三",
-      "reading": "sān"
+      "id": "zh.dian",
+      "text": "点",
+      "reading": "diǎn"
     },
     {
-      "id": "zh.si",
-      "text": "四",
-      "reading": "sì"
+      "id": "zh.ban",
+      "text": "半",
+      "reading": "bàn"
     },
     {
-      "id": "zh.wu",
-      "text": "五",
-      "reading": "wǔ"
+      "id": "zh.fen",
+      "text": "分",
+      "reading": "fēn"
     }
   ],
-  "dialogue": [],
-  "exercises": [
+  "dialogue": [
     {
-      "type": "choose-meaning",
-      "item": "zh.yi"
+      "speaker": "a",
+      "text": "王明，现在几点？",
+      "reading": "Wáng Míng, xiànzài jǐ diǎn?"
     },
     {
-      "type": "choose-meaning",
-      "item": "zh.er"
+      "speaker": "b",
+      "text": "现在十二点半。",
+      "reading": "Xiànzài shí'èr diǎn bàn."
     },
     {
-      "type": "choose-meaning",
-      "item": "zh.san"
+      "speaker": "a",
+      "text": "十二点半？我想吃米饭！",
+      "reading": "Shí'èr diǎn bàn? Wǒ xiǎng chī mǐfàn!"
     },
     {
-      "type": "choose-meaning",
-      "item": "zh.si"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "zh.wu"
-    },
-    {
-      "type": "listen-choose",
-      "item": "zh.yi"
-    },
-    {
-      "type": "listen-choose",
-      "item": "zh.er"
-    },
-    {
-      "type": "choose-text",
-      "item": "zh.wu"
-    },
-    {
-      "type": "speak",
-      "item": "zh.yi"
-    },
-    {
-      "type": "speak",
-      "item": "zh.er"
+      "speaker": "b",
+      "text": "我也想吃。我们吃中国菜吧！",
+      "reading": "Wǒ yě xiǎng chī. Wǒmen chī Zhōngguó cài ba!"
     }
   ]
 }

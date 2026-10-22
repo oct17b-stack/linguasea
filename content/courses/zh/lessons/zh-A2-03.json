@@ -1,0 +1,155 @@
+{
+  "id": "zh-A2-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.gou3",
+      "kind": "syllable",
+      "text": "gǒu",
+      "reading": "gǒu",
+      "say": "狗"
+    },
+    {
+      "id": "zh.kou3",
+      "kind": "syllable",
+      "text": "kǒu",
+      "reading": "kǒu",
+      "say": "口"
+    },
+    {
+      "id": "zh.hei1",
+      "kind": "syllable",
+      "text": "hēi",
+      "reading": "hēi",
+      "say": "黑"
+    },
+    {
+      "id": "zh.ji1",
+      "kind": "syllable",
+      "text": "jī",
+      "reading": "jī",
+      "say": "鸡"
+    },
+    {
+      "id": "zh.qi1",
+      "kind": "syllable",
+      "text": "qī",
+      "reading": "qī",
+      "say": "七"
+    },
+    {
+      "id": "zh.xi1",
+      "kind": "syllable",
+      "text": "xī",
+      "reading": "xī",
+      "say": "西"
+    },
+    {
+      "id": "zh.ju4",
+      "kind": "syllable",
+      "text": "jù",
+      "reading": "jù",
+      "say": "句"
+    },
+    {
+      "id": "zh.qu4",
+      "kind": "syllable",
+      "text": "qù",
+      "reading": "qù",
+      "say": "去"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.gou3",
+      "options": [
+        "zh.kou3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.kou3",
+      "options": [
+        "zh.gou3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.hei1"
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ji1",
+      "options": [
+        "zh.qi1",
+        "zh.xi1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.qi1",
+      "options": [
+        "zh.ji1",
+        "zh.xi1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.xi1",
+      "options": [
+        "zh.ji1",
+        "zh.qi1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.ju4",
+      "options": [
+        "zh.qu4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.qu4",
+      "options": [
+        "zh.ju4"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.gou3",
+      "options": [
+        "zh.kou3",
+        "zh.hei1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.qi1",
+      "options": [
+        "zh.ji1",
+        "zh.xi1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.qu4",
+      "options": [
+        "zh.ju4",
+        "zh.qi1"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.qi1"
+    },
+    {
+      "type": "speak",
+      "item": "zh.qu4"
+    }
+  ]
+}

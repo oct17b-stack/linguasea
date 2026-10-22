@@ -1,0 +1,56 @@
+{
+  "id": "zh-A5-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ye-ye",
+      "text": "爷爷",
+      "reading": "yéye"
+    },
+    {
+      "id": "zh.nai-nai",
+      "text": "奶奶",
+      "reading": "nǎinai"
+    },
+    {
+      "id": "zh.kou",
+      "text": "口",
+      "reading": "kǒu"
+    },
+    {
+      "id": "zh.dou",
+      "text": "都",
+      "reading": "dōu"
+    },
+    {
+      "id": "zh.ni-jia-you-ji-kou-ren",
+      "kind": "phrase",
+      "text": "你家有几口人？",
+      "reading": "nǐ jiā yǒu jǐ kǒu rén?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你家有几口人？",
+      "reading": "Xiǎonán, nǐ jiā yǒu jǐ kǒu rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "我家有四口人。",
+      "reading": "Wǒ jiā yǒu sì kǒu rén."
+    },
+    {
+      "speaker": "b",
+      "text": "都有谁？",
+      "reading": "Dōu yǒu shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "爸爸、妈妈、妹妹和我。",
+      "reading": "Bàba, māma, mèimei hé wǒ."
+    }
+  ]
+}

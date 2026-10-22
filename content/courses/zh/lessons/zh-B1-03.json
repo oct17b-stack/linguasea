@@ -1,0 +1,65 @@
+{
+  "id": "zh-B1-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xing-qi",
+      "text": "星期",
+      "reading": "xīngqī"
+    },
+    {
+      "id": "zh.xing-qi-yi",
+      "text": "星期一",
+      "reading": "xīngqīyī"
+    },
+    {
+      "id": "zh.xing-qi-liu",
+      "text": "星期六",
+      "reading": "xīngqīliù"
+    },
+    {
+      "id": "zh.xing-qi-tian",
+      "text": "星期天",
+      "reading": "xīngqītiān"
+    },
+    {
+      "id": "zh.xing-qi-ji",
+      "text": "星期几",
+      "reading": "xīngqījǐ"
+    },
+    {
+      "id": "zh.zhou-mo",
+      "text": "周末",
+      "reading": "zhōumò"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "今天星期几？",
+      "reading": "Jīntiān xīngqījǐ?"
+    },
+    {
+      "speaker": "b",
+      "text": "今天星期五。",
+      "reading": "Jīntiān xīngqīwǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！明天星期六！",
+      "reading": "Tài hǎo le! Míngtiān xīngqīliù!"
+    },
+    {
+      "speaker": "b",
+      "text": "周末你想做什么？",
+      "reading": "Zhōumò nǐ xiǎng zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想和朋友吃中国菜。",
+      "reading": "Wǒ xiǎng hé péngyou chī Zhōngguó cài."
+    }
+  ]
+}

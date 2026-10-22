@@ -2,10 +2,11 @@
   "id": "zh-A1-01",
   "target": "zh",
   "stage": "A",
-  "minutes": 5,
+  "minutes": 6,
   "items": [
     {
       "id": "zh.ni-hao",
+      "kind": "phrase",
       "text": "你好",
       "reading": "nǐ hǎo"
     },
@@ -16,8 +17,9 @@
     },
     {
       "id": "zh.bu-ke-qi",
+      "kind": "phrase",
       "text": "不客气",
-      "reading": "bú kèqi"
+      "reading": "bù kèqi"
     },
     {
       "id": "zh.zai-jian",
@@ -29,70 +31,22 @@
     {
       "speaker": "a",
       "text": "你好！",
-      "reading": "nǐ hǎo!"
+      "reading": "Nǐ hǎo!"
     },
     {
       "speaker": "b",
       "text": "你好！",
-      "reading": "nǐ hǎo!"
+      "reading": "Nǐ hǎo!"
     },
     {
       "speaker": "a",
-      "text": "谢谢！",
-      "reading": "xièxie!"
+      "text": "谢谢！再见！",
+      "reading": "Xièxie! Zàijiàn!"
     },
     {
       "speaker": "b",
-      "text": "不客气。",
-      "reading": "bú kèqi."
-    },
-    {
-      "speaker": "a",
-      "text": "再见！",
-      "reading": "zàijiàn!"
-    },
-    {
-      "speaker": "b",
-      "text": "再见！",
-      "reading": "zàijiàn!"
-    }
-  ],
-  "exercises": [
-    {
-      "type": "choose-meaning",
-      "item": "zh.ni-hao"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "zh.xie-xie"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "zh.bu-ke-qi"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "zh.zai-jian"
-    },
-    {
-      "type": "listen-choose",
-      "item": "zh.ni-hao"
-    },
-    {
-      "type": "listen-choose",
-      "item": "zh.xie-xie"
-    },
-    {
-      "type": "choose-text",
-      "item": "zh.zai-jian"
-    },
-    {
-      "type": "speak",
-      "item": "zh.ni-hao"
-    },
-    {
-      "type": "speak",
-      "item": "zh.xie-xie"
+      "text": "不客气。再见！",
+      "reading": "Bù kèqi. Zàijiàn!"
     }
   ]
 }
