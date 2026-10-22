@@ -408,6 +408,7 @@ function StatusCard({
   onRestart: () => void;
 }) {
   const { t } = useApp();
+  const c = useTheme();
   if (status.kind === 'waiting' || status.kind === 'ready') return null;
   const message =
     status.kind === 'done'
@@ -436,7 +437,12 @@ function StatusCard({
       ) : null}
       {status.kind === 'offline' || status.kind === 'failed' ? <Button label={t('tutor.retry')} onPress={onRetry} /> : null}
       {status.kind === 'done' ? <Button label={t('tutor.again')} onPress={onRestart} /> : null}
-      <Button variant="secondary" label={t('tutor.back')} onPress={() => router.back()} />
+      <Button
+        variant="secondary"
+        label={t('tutor.back')}
+        onPress={() => router.back()}
+        style={{ backgroundColor: c.background }}
+      />
     </Card>
   );
 }
