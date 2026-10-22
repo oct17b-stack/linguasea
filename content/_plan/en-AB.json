@@ -187,7 +187,7 @@
           "id": "en-A3",
           "title_th": "แนะนำตัว",
           "goal_th": "บอกชื่อ ชื่อเล่น ประเทศ เมืองที่อยู่ และว่าเป็นนักศึกษา ถามข้อมูลเดียวกันจากคนอื่น และขอให้พูดช้า ๆ ได้",
-          "scenario": "B is an exchange student at a university welcome party. Nam must say her name and nickname, where she is from and where she lives, that she is a student, ask him the same questions, and ask him to speak slowly when she does not understand.",
+          "scenario": "B is an exchange student at a university welcome party. Nam must say her first name, last name and nickname, where she is from and where she lives, that she is a student, ask him the same questions, and ask him to speak slowly when she does not understand.",
           "lessons": [
             {
               "id": "en-A3-05",
@@ -223,7 +223,7 @@
             {
               "id": "en-A3-06",
               "topic": "First name, last name and nickname",
-              "grammar": "Mr. / Ms. + last name; Call me + nickname",
+              "grammar": "Mr. / Ms. go with the last name (not the first name as in Thai คุณ); Call me + nickname",
               "items": [
                 {
                   "id": "en.first-name",
@@ -533,7 +533,7 @@
           "id": "en-A7",
           "title_th": "ตัวอักษรและการสะกดคำ",
           "goal_th": "ออกเสียงชื่อตัวอักษร A–Z แบบอเมริกัน สะกดชื่อตัวเองทีละตัว และถามว่าคำนี้สะกดอย่างไรได้",
-          "scenario": "B is a receptionist at a language school writing down Nam's details. Nam must spell her first name and last name letter by letter, check letters that sound alike (B or V? G or J? M or N?), and ask B how to spell his name.",
+          "scenario": "B is Mr. Brown, who is making the class list for a new English course. Nam must spell her first name and last name letter by letter, check letters that sound alike (B or V? G or J? M or N?), and ask how to spell the names of new classmates.",
           "lessons": [
             {
               "id": "en-A7-01",
@@ -2320,6 +2320,12 @@
                   "text": "ugly",
                   "reading": "ˈʌɡli",
                   "kind": "word"
+                },
+                {
+                  "id": "en.smelly",
+                  "text": "smelly",
+                  "reading": "ˈsmɛli",
+                  "kind": "word"
                 }
               ]
             },
@@ -2868,7 +2874,7 @@
               "id": "en-B2-r01",
               "kind": "reader",
               "genre": "sign",
-              "topic": "Sign in a shop window: big weekend sale — T-shirts 199 baht, dresses half price, 100 baht off all bags, buy two and get one free",
+              "topic": "Sign in a shop window: big weekend sale — T-shirts 199 baht, the price of all dresses is 300 baht, 100 baht off all bags, buy two and get one free",
               "items": [
                 {
                   "id": "en.sale",
@@ -2895,9 +2901,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.half-price",
-                  "text": "half price",
-                  "reading": "ˌhæf ˈpraɪs",
+                  "id": "en.price",
+                  "text": "price",
+                  "reading": "praɪs",
                   "kind": "word"
                 }
               ]
@@ -3300,7 +3306,7 @@
               "id": "en-B6-r01",
               "kind": "reader",
               "genre": "timetable",
-              "topic": "Timetable at Hua Lamphong station: trains to Chiang Mai — the morning train leaves at 8:30 a.m. and arrives at 7:30 p.m.; the night train leaves from platform 5; tickets for children are half price",
+              "topic": "Timetable at Hua Lamphong station: trains to Chiang Mai — the morning train leaves at 8:30 a.m. and arrives at 7:30 p.m.; the night train leaves from platform 5; tickets for children are 100 baht",
               "items": [
                 {
                   "id": "en.arrive",
@@ -3410,12 +3416,6 @@
               "grammar": "There's a big window in my room. (there is + prepositions in / on / next to)",
               "items": [
                 {
-                  "id": "en.closet",
-                  "text": "closet",
-                  "reading": "ˈklɑːzɪt",
-                  "kind": "word"
-                },
-                {
                   "id": "en.door",
                   "text": "door",
                   "reading": "dɔːr",
@@ -3431,6 +3431,18 @@
                   "id": "en.floor",
                   "text": "floor",
                   "reading": "flɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.closet",
+                  "text": "closet",
+                  "reading": "ˈklɑːzɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shelf",
+                  "text": "shelf",
+                  "reading": "ʃɛlf",
                   "kind": "word"
                 }
               ]
@@ -4341,8 +4353,8 @@
             },
             {
               "id": "en-B11-04",
-              "topic": "Toothbrush and soap",
-              "grammar": "Where can I find …? / It's over there. (review)",
+              "topic": "Toothbrush, soap and shampoo",
+              "grammar": "Where can I find …? / It's over there. (review); silent b in comb",
               "items": [
                 {
                   "id": "en.toothbrush",
@@ -4366,6 +4378,12 @@
                   "id": "en.shampoo",
                   "text": "shampoo",
                   "reading": "ʃæmˈpuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.comb",
+                  "text": "comb",
+                  "reading": "koʊm",
                   "kind": "word"
                 }
               ]
@@ -5203,7 +5221,7 @@
             {
               "id": "en-B15-03",
               "topic": "Date of birth",
-              "grammar": "dates on forms (June 5th, 2006 — in English the month usually comes first); titles Mr. / Ms. / Mrs.",
+              "grammar": "dates on forms (June 5th, 2006 — in American English the month comes first); title = Mr. / Ms. / Mrs. (Mrs. for a married woman)",
               "items": [
                 {
                   "id": "en.date-of-birth",
@@ -5224,6 +5242,12 @@
                   "kind": "word"
                 },
                 {
+                  "id": "en.title",
+                  "text": "title",
+                  "reading": "ˈtaɪtəl",
+                  "kind": "word"
+                },
+                {
                   "id": "en.mrs",
                   "text": "Mrs.",
                   "reading": "ˈmɪsɪz",
@@ -5234,7 +5258,7 @@
             {
               "id": "en-B15-04",
               "topic": "Full name, please",
-              "grammar": "name order on forms: first name + middle name + last name",
+              "grammar": "name order on forms: first name + middle name + last name; marital status: single / married",
               "items": [
                 {
                   "id": "en.full-name",
@@ -5246,6 +5270,12 @@
                   "id": "en.middle-name",
                   "text": "middle name",
                   "reading": "ˈmɪdəl ˌneɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.marital-status",
+                  "text": "marital status",
+                  "reading": "ˈmærɪtəl ˌsteɪtəs",
                   "kind": "word"
                 },
                 {
@@ -5356,7 +5386,7 @@
           "id": "en-B16",
           "title_th": "มหาวิทยาลัยของฉัน",
           "goal_th": "บอกว่าเรียนที่ไหน เรียนสาขาอะไร อยู่ปีไหน บอกสถานที่ในมหาวิทยาลัย และเล่าชีวิตประจำวันในมหาวิทยาลัยแบบง่าย ๆ ได้",
-          "scenario": "B is a new exchange student from Japan who has just arrived at Nam's university. Nam must say what and where she studies and what year she is in, show him important places on campus (canteen, bookstore, computer lab), and tell him about a normal day at university.",
+          "scenario": "B is a new exchange student from Japan who has just arrived at Nam's university. Nam must say what and where she studies and what year she is in, show him important places on campus (the cafeteria, the bookstore, the computer lab), and tell him about a normal day at university.",
           "lessons": [
             {
               "id": "en-B16-01",
@@ -5454,12 +5484,18 @@
             {
               "id": "en-B16-04",
               "topic": "Around campus",
-              "grammar": "There's a canteen in every building. (there is / are review); next to / behind (review)",
+              "grammar": "There's a cafeteria in every building. (there is / are review); cafeteria (American) = canteen (Thai English)",
               "items": [
                 {
-                  "id": "en.canteen",
-                  "text": "canteen",
-                  "reading": "kænˈtiːn",
+                  "id": "en.cafeteria",
+                  "text": "cafeteria",
+                  "reading": "ˌkæfəˈtɪriə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.student-center",
+                  "text": "student center",
+                  "reading": "ˈstuːdənt ˌsɛntər",
                   "kind": "word"
                 },
                 {
@@ -5548,7 +5584,7 @@
               "id": "en-B16-r01",
               "kind": "reader",
               "genre": "profile",
-              "topic": "University newsletter, \"Student of the month\": Nam is a second-year student; she studies English, often reads in the library after class, eats at the canteen with her best friends and plays volleyball on sports day",
+              "topic": "University newsletter, \"Student of the month\": Nam is a second-year student; she studies English, often reads in the library after class, eats at the cafeteria with her best friends and plays volleyball on sports day",
               "items": [
                 {
                   "id": "en.month",
