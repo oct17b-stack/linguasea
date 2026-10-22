@@ -35,6 +35,28 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "LinguaSEA ใช้ไมโครโฟนเพื่อฟังและให้คะแนนการออกเสียงของคุณตอนฝึกพูด / LinguaSEA uses the microphone to score your pronunciation when you practise speaking.",
+          "recordAudioAndroid": true,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "enableRemoteNotifications": false,
+          "color": "#1F7A5C"
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": false
+        }
       ]
     ],
     "experiments": {

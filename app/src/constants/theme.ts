@@ -18,6 +18,9 @@ export const Colors = {
     successSoft: '#DDF3EA',
     danger: '#B42318',
     dangerSoft: '#FDE7E5',
+    /** "Good, not there yet" (e.g. a pronunciation score of 60–79). */
+    warning: '#A15C07',
+    warningSoft: '#FEF0C7',
     accent: '#E8A33D',
     border: '#D9DBE0',
   },
@@ -33,6 +36,8 @@ export const Colors = {
     successSoft: '#11372A',
     danger: '#F97066',
     dangerSoft: '#3D1512',
+    warning: '#FDB022',
+    warningSoft: '#3A2A0B',
     accent: '#F0B65A',
     border: '#34373C',
   },

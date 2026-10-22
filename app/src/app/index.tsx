@@ -34,9 +34,18 @@ export default function Home() {
         options={{
           title: t('home.title', { language: course.gloss.name }),
           headerRight: () => (
-            <Pressable accessibilityRole="button" onPress={() => router.push('/languages')} hitSlop={12} style={styles.headerAction}>
-              <ThemedText type="linkPrimary">{t('home.changeLanguage')}</ThemedText>
-            </Pressable>
+            <View style={styles.headerActions}>
+              <Pressable accessibilityRole="button" onPress={() => router.push('/languages')} hitSlop={8} style={styles.headerAction}>
+                <ThemedText type="linkPrimary">{t('home.changeLanguage')}</ThemedText>
+              </Pressable>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel={t('settings.title')}
+                onPress={() => router.push('/settings')}
+                style={styles.headerIcon}>
+                <ThemedText style={styles.headerIconText}>⚙️</ThemedText>
+              </Pressable>
+            </View>
           ),
         }}
       />
@@ -122,5 +131,8 @@ const styles = StyleSheet.create({
   },
   icon: { fontSize: 22, lineHeight: 28 },
   flex: { flex: 1 },
-  headerAction: { paddingHorizontal: Spacing.three },
+  headerActions: { flexDirection: 'row', alignItems: 'center', paddingRight: Spacing.two },
+  headerAction: { paddingHorizontal: Spacing.two, minHeight: 44, justifyContent: 'center' },
+  headerIcon: { width: 44, height: 44, alignItems: 'center', justifyContent: 'center' },
+  headerIconText: { fontSize: 22, lineHeight: 28 },
 });

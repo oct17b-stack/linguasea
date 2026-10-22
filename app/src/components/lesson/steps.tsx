@@ -1,46 +1,19 @@
-import { kindGroup } from '@linguasea/contract';
-import { answersWithText, spoken, type Choice, type Step, type Word } from '@linguasea/core';
+import { kindGroup, type CourseBundle } from '@linguasea/contract';
+import { answersWithText, type Choice, type Step } from '@linguasea/core';
 import { useEffect } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { Button } from '@/components/button';
 import { Card } from '@/components/card';
+import { ListenButtons, WordFace } from '@/components/lesson/word';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
-import { say } from '@/lib/speech';
+import { playItem, playLine } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
 
+export { SpeakStep } from '@/components/lesson/speak';
+
 type StepOf<K extends Step['kind']> = Extract<Step, { kind: K }>;
-
-/** Listen / listen slowly. `text` is what TTS reads (item.say when the written form is not speakable). */
-function ListenButtons({ text, voice }: { text: string; voice: string }) {
-  const { t } = useApp();
-  return (
-    <View style={styles.row}>
-      <Button variant="secondary" label={`🔊 ${t('common.listen')}`} onPress={() => say(text, voice)} style={styles.flex} />
-      <Button variant="secondary" label={`🐢 ${t('common.listenSlow')}`} onPress={() => say(text, voice, true)} style={styles.flex} />
-    </View>
-  );
-}
-
-/** Target text with its romanization and the learner-script spelling under it. */
-function WordFace({ word, big = true }: { word: Word; big?: boolean }) {
-  const c = useTheme();
-  return (
-    <View style={styles.center}>
-      <ThemedText type={big ? 'subtitle' : 'default'} style={styles.centerText}>
-        {word.text}
-      </ThemedText>
-      <ThemedText style={[styles.centerText, { color: c.textSecondary }]}>{word.reading}</ThemedText>
-      {word.translit ? (
-        <ThemedText type="small" style={[styles.centerText, { color: c.textSecondary }]}>
-          ({word.translit})
-        </ThemedText>
-      ) : null}
-    </View>
-  );
-}
 
 export function IntroStep({ step }: { step: StepOf<'intro'> }) {
   const { t } = useApp();
@@ -53,23 +26,23 @@ export function IntroStep({ step }: { step: StepOf<'intro'> }) {
   );
 }
 
-export function LearnStep({ step, voice }: { step: StepOf<'learn'>; voice: string }) {
+export function LearnStep({ step, course }: { step: StepOf<'learn'>; course: CourseBundle }) {
   const { t } = useApp();
-  const text = spoken(step.word);
-  useEffect(() => say(text, voice), [text, voice]);
+  const { word } = step;
+  useEffect(() => playItem(course, word), [course, word]);
   return (
     <Card style={styles.gapLarge}>
       <ThemedText type="smallBold">{t('step.learn')}</ThemedText>
-      <WordFace word={step.word} />
+      <WordFace word={word} />
       <ThemedText type="subtitle" style={[styles.centerText, styles.meaning]}>
-        {step.word.meaning}
+        {word.meaning}
       </ThemedText>
-      <ListenButtons text={text} voice={voice} />
+      <ListenButtons onListen={(slow) => playItem(course, word, slow)} />
     </Card>
   );
 }
 
-export function DialogueStep({ step, voice }: { step: StepOf<'dialogue'>; voice: string }) {
+export function DialogueStep({ step, course }: { step: StepOf<'dialogue'>; course: CourseBundle }) {
   const { t } = useApp();
   const c = useTheme();
   return (
@@ -79,7 +52,7 @@ export function DialogueStep({ step, voice }: { step: StepOf<'dialogue'>; voice:
         <Pressable
           key={i}
           accessibilityRole="button"
-          onPress={() => say(line.text, voice)}
+          onPress={() => playLine(course, line)}
           style={[
             styles.bubble,
             line.speaker === 'a' ? styles.left : styles.right,
@@ -124,12 +97,12 @@ function questionKey(step: StepOf<'choose'>): string {
 
 export function ChooseStep({
   step,
-  voice,
+  course,
   picked,
   onPick,
 }: {
   step: StepOf<'choose'>;
-  voice: string;
+  course: CourseBundle;
   picked?: string;
   onPick: (choice: Choice) => void;
 }) {
@@ -137,24 +110,24 @@ export function ChooseStep({
   const c = useTheme();
   const answered = picked !== undefined;
   const right = step.choices.find((x) => x.correct)!;
-  const text = spoken(step.word);
+  const { word } = step;
   const heard = step.exercise !== 'choose-text';
   const textAnswers = answersWithText(step.exercise);
 
   useEffect(() => {
-    if (heard) say(text, voice);
-  }, [heard, text, voice]);
+    if (heard) playItem(course, word);
+  }, [heard, course, word]);
 
   return (
     <View style={styles.gap}>
       <ThemedText type="smallBold">{t(questionKey(step))}</ThemedText>
-      {step.exercise === 'choose-meaning' ? <WordFace word={step.word} /> : null}
+      {step.exercise === 'choose-meaning' ? <WordFace word={word} /> : null}
       {step.exercise === 'choose-text' ? (
         <ThemedText type="subtitle" style={styles.centerText}>
           {step.prompt}
         </ThemedText>
       ) : null}
-      {heard ? <ListenButtons text={text} voice={voice} /> : null}
+      {heard ? <ListenButtons onListen={(slow) => playItem(course, word, slow)} /> : null}
       {step.choices.map((choice) => {
         const state = !answered ? 'idle' : choice.correct ? 'right' : choice.id === picked ? 'wrong' : 'idle';
         return (
@@ -184,23 +157,6 @@ export function ChooseStep({
   );
 }
 
-export function SpeakStep({ step, voice }: { step: StepOf<'speak'>; voice: string }) {
-  const { t } = useApp();
-  const text = spoken(step.word);
-  useEffect(() => say(text, voice), [text, voice]);
-  return (
-    <Card style={styles.gapLarge}>
-      <ThemedText type="smallBold">🎙️ {t('step.speak')}</ThemedText>
-      <WordFace word={step.word} />
-      <ThemedText style={styles.centerText}>{step.word.meaning}</ThemedText>
-      <ListenButtons text={text} voice={voice} />
-      <ThemedText type="small" style={styles.centerText}>
-        {t('step.speakHint')}
-      </ThemedText>
-    </Card>
-  );
-}
-
 export function DoneStep({ correct, total, xp }: { correct: number; total: number; xp: number }) {
   const { t } = useApp();
   const c = useTheme();
@@ -218,8 +174,6 @@ export function DoneStep({ correct, total, xp }: { correct: number; total: numbe
 }
 
 const styles = StyleSheet.create({
-  row: { flexDirection: 'row', gap: Spacing.two },
-  flex: { flex: 1 },
   gap: { gap: Spacing.two },
   gapLarge: { gap: Spacing.three },
   center: { alignItems: 'center' },

@@ -6,7 +6,7 @@ import { Target, TARGETS } from '@linguasea/contract';
 import { loadContent, validate } from '@linguasea/contract/node';
 
 import { billableChars, synthesize, SynthesisError, Throttle, type AzureConfig, type SynthesizeOptions } from './azure';
-import { collectClips, type Clip } from './clips';
+import { collectClips, recordingPath, type Clip } from './clips';
 import { OUTPUT_FORMAT } from './voices';
 
 /** Azure neural TTS price used for the estimate: about US$16 per million characters. */
@@ -55,6 +55,8 @@ export type RunOptions = {
 
 export type CourseReport = {
   target: Target;
+  /** Problems `npm run validate` reports in this course's files. */
+  problems: number;
   /** Distinct clips the course needs, generated or recorded. */
   clips: number;
   /** Clips served by a recording (Item.audio) instead of generated speech. */
@@ -66,8 +68,10 @@ export type CourseReport = {
   chars: number;
   billable: number;
   written: number;
-  /** Generated files nothing uses any more (deleted with --prune outside a dry run). */
+  /** Generated files nothing uses any more. */
   unused: string[];
+  /** Whether --prune deleted `unused` (in a dry run: would delete). */
+  pruned: boolean;
   /** Entries in manifest.json after the run; undefined in a dry run. */
   manifest?: number;
 };
@@ -76,13 +80,10 @@ export type RunReport = {
   dryRun: boolean;
   courses: CourseReport[];
   warnings: string[];
-  failures: string[];
+  /** Clips that could not be made: where they occur, and why. */
+  failures: { clip: string; reason: string }[];
   /** Why synthesis stopped early. */
   aborted?: string;
-  /** Why --prune deleted nothing. */
-  pruneSkipped?: string;
-  /** Content problems (npm run validate) in the courses this run covers. */
-  problems: number;
 };
 
 const isFile = (file: string) => existsSync(file) && statSync(file).isFile();
@@ -93,6 +94,18 @@ async function writeAtomic(file: string, data: Uint8Array | string) {
   const tmp = `${file}.${process.pid}.tmp`;
   await writeFile(tmp, data);
   await rename(tmp, file);
+}
+
+function readManifest(json: string | undefined): [string, string][] {
+  try {
+    const value: unknown = JSON.parse(json ?? '{}');
+    if (value && typeof value === 'object') {
+      return Object.entries(value).filter((e): e is [string, string] => typeof e[1] === 'string');
+    }
+  } catch {
+    // A broken manifest is rebuilt from the files.
+  }
+  return [];
 }
 
 const sum = (clips: Clip[], f: (c: Clip) => number) => clips.reduce((n, c) => n + f(c), 0);
@@ -115,7 +128,8 @@ export async function run(opts: RunOptions): Promise<RunReport> {
   const loaded = loadContent(opts.contentRoot);
   const targets = wanted.filter((t) => loaded.targets.has(t));
   // Only the course files decide which clips exist (explanations and manifests do not).
-  const problems = validate(loaded).filter((p) => wanted.some((t) => p.file.startsWith(`courses/${t}/`))).length;
+  const problems = validate(loaded);
+  const problemsIn = (t: Target) => problems.filter((p) => p.file.startsWith(`courses/${t}/`)).length;
   const { clips, recordings, warnings } = collectClips(loaded, targets);
   for (const t of wanted) if (!loaded.targets.has(t)) warnings.push(`courses/${t}: no course loaded, skipped`);
 
@@ -129,16 +143,18 @@ export async function run(opts: RunOptions): Promise<RunReport> {
     }
     const tts = clips.filter((c) => c.target === target && !recorded.has(c.key));
     const missing = tts.filter((c) => !isFile(join(audioRoot, c.file)));
-    return { target, tts, recorded, missing };
+    return { target, problems: problemsIn(target), tts, recorded, missing };
   });
 
   for (const w of warnings) log(`warning: ${w}`);
-  if (problems) log(`warning: ${problems} content problem(s) in these courses (npm run validate); clips follow what loads`);
+  for (const p of plans) {
+    if (p.problems) log(`warning: courses/${p.target} has ${p.problems} problem(s) (npm run validate); clips follow what loads`);
+  }
 
   // ---- synthesize ----
   const missing = plans.flatMap((p) => p.missing);
   const written = new Set<Clip>();
-  const failures: string[] = [];
+  const failures: RunReport['failures'] = [];
   let aborted: string | undefined;
   if (opts.azure && missing.length) {
     const azure = opts.azure;
@@ -162,7 +178,7 @@ export async function run(opts: RunOptions): Promise<RunReport> {
           written.add(clip);
         } catch (e) {
           const message = e instanceof Error ? e.message : String(e);
-          failures.push(`${clip.where} ${JSON.stringify(clip.text)} (${clip.voice}): ${message}`);
+          failures.push({ clip: `${clip.where} ${JSON.stringify(clip.text)} (${clip.voice})`, reason: message });
           if (!(e instanceof SynthesisError) || e.fatal) aborted ??= message;
           else if (failures.length >= MAX_FAILED) aborted ??= `${failures.length} clips failed`;
         }
@@ -174,22 +190,26 @@ export async function run(opts: RunOptions): Promise<RunReport> {
   }
 
   // ---- manifests and pruning ----
-  const pruneSkipped =
-    opts.prune && problems
-      ? `content has ${problems} problem(s) (npm run validate); pruning now could delete clips of lessons that did not load`
-      : undefined;
   const courses: CourseReport[] = [];
   for (const p of plans) {
     let manifest: number | undefined;
     if (!dryRun) {
-      const entries: [string, string][] = [...p.recorded];
-      for (const c of p.tts) if (isFile(join(audioRoot, c.file))) entries.push([c.key, c.file]);
-      entries.sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
       const file = join(audioRoot, p.target, 'manifest.json');
-      const json = JSON.stringify(Object.fromEntries(entries), null, 2) + '\n';
       const old = existsSync(file) ? readFileSync(file, 'utf8') : undefined;
-      if (json !== old && (entries.length || old !== undefined)) await writeAtomic(file, json);
-      manifest = entries.length;
+      const entries = new Map<string, string>();
+      // While lessons fail to load, keep listing their clips (the files stay: --prune skips this course).
+      if (p.problems) {
+        for (const [key, path] of readManifest(old)) {
+          const clean = recordingPath(path);
+          if (clean && isFile(join(audioRoot, clean))) entries.set(key, clean);
+        }
+      }
+      for (const [key, path] of p.recorded) entries.set(key, path);
+      for (const c of p.tts) if (isFile(join(audioRoot, c.file))) entries.set(c.key, c.file);
+      const sorted = [...entries].sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
+      const json = JSON.stringify(Object.fromEntries(sorted), null, 2) + '\n';
+      if (json !== old && (sorted.length || old !== undefined)) await writeAtomic(file, json);
+      manifest = sorted.length;
     }
 
     const keep = new Set([...p.tts.map((c) => c.file), ...p.recorded.values()]);
@@ -199,10 +219,13 @@ export async function run(opts: RunOptions): Promise<RunReport> {
           .filter((f) => GENERATED.test(f) && !keep.has(`${p.target}/${f}`))
           .sort()
       : [];
-    if (opts.prune && !dryRun && !pruneSkipped) for (const f of unused) rmSync(join(dir, f), { force: true });
+    // A lesson that does not load would look unused: never prune a course with problems.
+    const pruned = !!opts.prune && !p.problems;
+    if (pruned && !dryRun) for (const f of unused) rmSync(join(dir, f), { force: true });
 
     courses.push({
       target: p.target,
+      problems: p.problems,
       clips: p.tts.length + p.recorded.size,
       recorded: p.recorded.size,
       present: p.tts.length - p.missing.length,
@@ -211,11 +234,12 @@ export async function run(opts: RunOptions): Promise<RunReport> {
       billable: sum(p.missing, (c) => billableChars(c.azure, c.text)),
       written: p.missing.filter((c) => written.has(c)).length,
       unused,
+      pruned,
       manifest,
     });
   }
 
-  const report: RunReport = { dryRun, courses, warnings, failures, aborted, pruneSkipped, problems };
+  const report: RunReport = { dryRun, courses, warnings, failures, aborted };
   printReport(report, opts.prune ?? false, log);
   return report;
 }
@@ -224,12 +248,18 @@ function printReport(r: RunReport, prune: boolean, log: (line: string) => void) 
   const total = (f: (c: CourseReport) => number) => r.courses.reduce((n, c) => n + f(c), 0);
   const row = (cells: (string | number)[]) =>
     cells.map((c, i) => (i ? String(typeof c === 'number' ? num(c) : c).padStart(11) : String(c).padEnd(6))).join('');
+  const columns = [
+    (c: CourseReport) => c.clips,
+    (c: CourseReport) => c.recorded,
+    (c: CourseReport) => c.present,
+    (c: CourseReport) => c.missing,
+    (c: CourseReport) => c.chars,
+    (c: CourseReport) => c.unused.length,
+  ];
   log('');
   log(row(['', 'clips', 'recorded', 'present', 'missing', 'characters', 'unused']));
-  for (const c of r.courses) log(row([c.target, c.clips, c.recorded, c.present, c.missing, c.chars, c.unused.length]));
-  if (r.courses.length > 1) {
-    log(row(['total', total((c) => c.clips), total((c) => c.recorded), total((c) => c.present), total((c) => c.missing), total((c) => c.chars), total((c) => c.unused.length)]));
-  }
+  for (const c of r.courses) log(row([c.target, ...columns.map((f) => f(c))]));
+  if (r.courses.length > 1) log(row(['total', ...columns.map(total)]));
   log('');
 
   const missing = total((c) => c.missing);
@@ -246,13 +276,25 @@ function printReport(r: RunReport, prune: boolean, log: (line: string) => void) 
 
   if (!r.dryRun) {
     log(`Wrote ${num(total((c) => c.written))} clip(s)${r.failures.length ? `, ${r.failures.length} failed` : ''}.`);
-    for (const f of r.failures.slice(0, MAX_FAILED)) log(`  failed: ${f}`);
-    if (r.aborted) log(`Stopped early: ${r.aborted}. Finished clips are kept; run again to continue.`);
-    log(`Manifests: ${r.courses.map((c) => `${c.target} ${num(c.manifest ?? 0)}`).join(', ')} entries (content/audio/<course>/manifest.json); run npm run content to bundle them.`);
+    // Workers in flight when a fatal error stops the run fail the same way: show each reason once.
+    const reasons = new Map<string, string[]>();
+    for (const { clip, reason } of r.failures) reasons.set(reason, [...(reasons.get(reason) ?? []), clip]);
+    for (const [reason, clips] of reasons) {
+      log(`  failed: ${reason}`);
+      log(`    ${clips.slice(0, 3).join('; ')}${clips.length > 3 ? `; and ${clips.length - 3} more` : ''}`);
+    }
+    if (r.aborted) log(`Stopped early. Finished clips are kept; run again to continue.`);
+    if (total((c) => c.manifest ?? 0)) {
+      const sizes = r.courses.map((c) => `${c.target} ${num(c.manifest ?? 0)}`).join(', ');
+      log(`Manifests (content/audio/<course>/manifest.json): ${sizes} entries. Run npm run content to bundle them.`);
+    }
   }
 
-  const unused = total((c) => c.unused.length);
-  if (r.pruneSkipped) log(`--prune skipped: ${r.pruneSkipped}.`);
-  else if (unused && prune) log(r.dryRun ? `--prune would delete ${num(unused)} unused file(s).` : `Deleted ${num(unused)} unused file(s).`);
-  else if (unused) log(`${num(unused)} generated file(s) are no longer used; npm run audio -- --prune deletes them.`);
+  const unused = total((c) => (c.pruned ? c.unused.length : 0));
+  const skipped = r.courses.filter((c) => !c.pruned && c.problems && c.unused.length).map((c) => c.target);
+  if (prune && unused) log(r.dryRun ? `--prune would delete ${num(unused)} unused file(s).` : `Deleted ${num(unused)} unused file(s).`);
+  if (prune && skipped.length) log(`--prune skipped ${skipped.join(', ')}: fix the content problems first (a lesson that does not load looks unused).`);
+  if (!prune && total((c) => c.unused.length)) {
+    log(`${num(total((c) => c.unused.length))} generated file(s) are no longer used; npm run audio -- --prune deletes them.`);
+  }
 }

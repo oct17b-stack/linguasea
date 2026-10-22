@@ -4,12 +4,11 @@ import { Pressable, StyleSheet } from 'react-native';
 
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
+import { FLAG } from '@/constants/flags';
 import { Spacing } from '@/constants/theme';
 import { courseBundle } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
 import { useApp } from '@/state/app-state';
-
-const FLAG: Record<Target, string> = { zh: '🇨🇳', en: '🇬🇧', ja: '🇯🇵', ko: '🇰🇷' };
 
 export default function Languages() {
   const { l1, target, setTarget, t } = useApp();

@@ -20,6 +20,7 @@ function Routes() {
       <Stack.Screen name="lesson/[id]" options={{ title: '', gestureEnabled: false }} />
       <Stack.Screen name="review" options={{ title: t('review.title') }} />
       <Stack.Screen name="paywall" options={{ presentation: 'modal', title: '' }} />
+      <Stack.Screen name="settings" options={{ title: t('settings.title') }} />
     </Stack>
   );
 }

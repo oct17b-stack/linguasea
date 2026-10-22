@@ -1,6 +1,6 @@
 import { dueItems, reviewSteps, type Choice } from '@linguasea/core';
 import { router } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/button';
 import { Card } from '@/components/card';
@@ -9,6 +9,7 @@ import { ProgressBar } from '@/components/progress-bar';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { courseBundle } from '@/content';
+import { stopAudio } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
 
 /** At most this many cards per session keeps review short enough to do daily. */
@@ -23,6 +24,7 @@ export default function Review() {
   );
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<string>();
+  useEffect(() => stopAudio, []);
 
   if (!course) return null;
   const step = steps[index];
@@ -56,7 +58,7 @@ export default function Review() {
         />
       }>
       <ProgressBar value={index / steps.length} />
-      <ChooseStep key={index} step={step} voice={course.course.voice} picked={picked} onPick={pick} />
+      <ChooseStep key={index} step={step} course={course} picked={picked} onPick={pick} />
     </Screen>
   );
 }

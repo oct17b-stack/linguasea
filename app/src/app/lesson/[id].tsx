@@ -1,6 +1,6 @@
 import { XP_PER_CORRECT, XP_PER_LESSON, buildSteps, type Choice } from '@linguasea/core';
 import { router, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/button';
 import {
@@ -15,6 +15,7 @@ import {
 import { ProgressBar } from '@/components/progress-bar';
 import { Screen } from '@/components/screen';
 import { courseBundle, targetOf } from '@/content';
+import { preloadClips, stopAudio } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
 
 export default function LessonScreen() {
@@ -27,8 +28,14 @@ export default function LessonScreen() {
   const [picks, setPicks] = useState<Record<number, string>>({});
   const [results, setResults] = useState<Record<string, boolean>>({});
 
+  // Generated clips for this lesson start loading now; nothing keeps talking after leaving it.
+  const entry = course?.lessons[id];
+  useEffect(() => {
+    if (course && entry) preloadClips(course, entry.lesson.items, entry.lesson.dialogue);
+    return stopAudio;
+  }, [course, entry]);
+
   if (!course || !steps.length) return null;
-  const voice = course.course.voice;
   const step = steps[index];
   const asked = Object.keys(results).length;
   const correct = Object.values(results).filter(Boolean).length;
@@ -59,13 +66,13 @@ export default function LessonScreen() {
       }>
       <ProgressBar value={index / (steps.length - 1)} />
       {step.kind === 'intro' ? <IntroStep step={step} /> : null}
-      {step.kind === 'learn' ? <LearnStep key={index} step={step} voice={voice} /> : null}
-      {step.kind === 'dialogue' ? <DialogueStep step={step} voice={voice} /> : null}
+      {step.kind === 'learn' ? <LearnStep key={index} step={step} course={course} /> : null}
+      {step.kind === 'dialogue' ? <DialogueStep step={step} course={course} /> : null}
       {step.kind === 'note' ? <NoteStep step={step} /> : null}
       {step.kind === 'choose' ? (
-        <ChooseStep key={index} step={step} voice={voice} picked={picks[index]} onPick={pick} />
+        <ChooseStep key={index} step={step} course={course} picked={picks[index]} onPick={pick} />
       ) : null}
-      {step.kind === 'speak' ? <SpeakStep key={index} step={step} voice={voice} /> : null}
+      {step.kind === 'speak' ? <SpeakStep key={index} step={step} course={course} /> : null}
       {step.kind === 'done' ? (
         <DoneStep correct={correct} total={asked} xp={XP_PER_LESSON + correct * XP_PER_CORRECT} />
       ) : null}
