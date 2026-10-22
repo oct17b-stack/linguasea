@@ -1,5 +1,12 @@
 {
   "target": "ko",
+  "notes": [
+    "reading: lowercase Revised Romanization of the standard pronunciation, word by word (no sound changes across spaces); tensification is not written; ㅢ is always ui; nouns keep h after ㄱ/ㄷ/ㅂ (식후 sikhu, 역할 yeokhal) while verbs, adjectives and adverbs aspirate (축하하다 chukahada, 급히 geupi). Use the same rules for dialogue and passage readings.",
+    "id: ko. + romanization of each word joined by hyphens; a dictionary-form 하다 word is split before -hada (운동하다 -> ko.undong-hada). Suffixes mark the only real clashes: ko.jeotda-stir, ko.munui-pattern, ko.machida-finish, ko.butda-stick, ko.bullyang-amount, ko.gachi-value.",
+    "register: 해요체 in C-D (반말 only appears as a topic in D8-r02 and is taught in E3); 합니다체 is introduced in E1-01 and the plain written style (-ㄴ/는다) in E8-06; from then on articles, notices, diaries and essays in E-F readers may use the written style.",
+    "homographs kept apart: 눈 (eye) is a word while snow is the phrase 눈이 오다; 절 in C12-04 is 'temple'; 차례 (turn, D4) vs 차례를 지내다 (ancestral rite, C12). Standalone 팔, 공, 반, 사이, 달, 시 were avoided because they collide with A-B number, time and location words.",
+    "grammar: a pattern taught again with a new function is labelled 'second use' or by its function (e.g. -아/어서 sequence D1-05 vs reason D2-01); lessons whose topic says 'Review lesson' recycle earlier patterns on purpose."
+  ],
   "stages": [
     {
       "id": "C",
@@ -254,7 +261,7 @@
               "id": "ko-C1-r02",
               "kind": "reader",
               "genre": "diary",
-              "topic": "Kim Minjun's diary about his first meeting at the university photography club",
+              "topic": "Minjun's diary about his first meeting at the university photography club",
               "items": [
                 {
                   "id": "ko.seonbae",
@@ -432,7 +439,7 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.aryak",
+                  "id": "ko.allyak",
                   "text": "알약",
                   "reading": "allyak",
                   "kind": "word"
@@ -824,9 +831,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.gachi",
-                  "text": "같이",
-                  "reading": "gachi",
+                  "id": "ko.hamkke",
+                  "text": "함께",
+                  "reading": "hamkke",
                   "kind": "word"
                 },
                 {
@@ -1415,9 +1422,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.myeochil",
-                  "text": "며칠",
-                  "reading": "myeochil",
+                  "id": "ko.yeolheul",
+                  "text": "열흘",
+                  "reading": "yeolheul",
                   "kind": "word"
                 },
                 {
@@ -1707,7 +1714,7 @@
             {
               "id": "ko-C7-05",
               "topic": "The weather forecast: it will probably rain",
-              "grammar": "A/V-(으)ㄹ 거예요 (conjecture)",
+              "grammar": "A/V-(으)ㄹ 거예요, second use: conjecture (내일 비가 올 거예요)",
               "items": [
                 {
                   "id": "ko.ilgi-yebo",
@@ -3470,7 +3477,7 @@
             {
               "id": "ko-C14-04",
               "topic": "What shall we watch? Asking for opinions",
-              "grammar": "A/V-(으)ㄹ까요? (asking for opinions: 뭐가 재미있을까요?)",
+              "grammar": "A/V-(으)ㄹ까요?, second use: wondering and asking for opinions (뭐가 재미있을까요?)",
               "items": [
                 {
                   "id": "ko.yemae-hada",
@@ -3989,7 +3996,7 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.daullodeu-hada",
+                  "id": "ko.daunrodeu-hada",
                   "text": "다운로드하다",
                   "reading": "daunrodeuhada",
                   "kind": "word"
@@ -4151,9 +4158,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.wollum",
+                  "id": "ko.wonrum",
                   "text": "원룸",
-                  "reading": "wollum",
+                  "reading": "wonrum",
                   "kind": "word"
                 },
                 {
@@ -4685,7 +4692,7 @@
               "id": "ko-D2-r02",
               "kind": "reader",
               "genre": "article",
-              "topic": "Minjun's online review of a Thai restaurant in Seoul",
+              "topic": "Minjun's online rating and comments on a Thai restaurant in Seoul",
               "items": [
                 {
                   "id": "ko.byeoljeom",
@@ -4982,7 +4989,7 @@
               "topic": "First impressions: Nam thought Minjun was cold, but he was just shy",
               "items": [
                 {
-                  "id": "ko.cheosinsang",
+                  "id": "ko.cheodinsang",
                   "text": "첫인상",
                   "reading": "cheodinsang",
                   "kind": "word"
@@ -5021,7 +5028,7 @@
               "grammar": "V-는 동안 (while)",
               "items": [
                 {
-                  "id": "ko.jibanil",
+                  "id": "ko.jibannil",
                   "text": "집안일",
                   "reading": "jibannil",
                   "kind": "word"
@@ -6479,9 +6486,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.bareum",
-                  "text": "발음",
-                  "reading": "bareum",
+                  "id": "ko.hoehwa",
+                  "text": "회화",
+                  "reading": "hoehwa",
                   "kind": "word"
                 },
                 {
@@ -7617,7 +7624,7 @@
           "id": "ko-D13",
           "title_th": "บ้านเกิดและเมือง",
           "goal_th": "แนะนำบ้านเกิดและกรุงเทพฯ และเปรียบเทียบเมืองไทยกับโซลได้",
-          "scenario": "B is 이 선생님, who is planning a trip to Thailand. Nam must introduce Bangkok and their hometown, compare them with Seoul, and recommend what to see and eat.",
+          "scenario": "B is 이 선생님, who is planning a trip to Thailand. Nam must introduce Bangkok, their hometown, compare it with Seoul, and recommend what to see and eat.",
           "lessons": [
             {
               "id": "ko-D13-01",
@@ -8195,9 +8202,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.bak",
-                  "text": "박",
-                  "reading": "bak",
+                  "id": "ko.sukbak",
+                  "text": "숙박",
+                  "reading": "sukbak",
                   "kind": "word"
                 },
                 {
@@ -8364,7 +8371,7 @@
             },
             {
               "id": "ko-D15-06",
-              "topic": "Writing a review: clean, all right, but…",
+              "topic": "Rating the hotel online: clean, all right, but…",
               "grammar": "A-기는 A-아/어요 (… all right, but)",
               "items": [
                 {
@@ -9090,7 +9097,7 @@
           "id": "ko-E2",
           "title_th": "มารยาทและธรรมเนียมเกาหลี",
           "goal_th": "อธิบายมารยาทในสังคมเกาหลี และเปรียบเทียบกับมารยาทไทยได้",
-          "scenario": "B is 김민준's father, who has invited Nam to a family dinner. Nam must behave and speak politely at the table, ask about Korean customs they are unsure of, and explain a Thai custom when asked.",
+          "scenario": "B is an elderly Korean host who has invited Nam to a family dinner. Nam must behave and speak politely at the table, ask about Korean customs they are unsure of, and explain a Thai custom when asked.",
           "lessons": [
             {
               "id": "ko-E2-01",
@@ -10398,7 +10405,7 @@
             {
               "id": "ko-E6-02",
               "topic": "Made, used and thrown away",
-              "grammar": "V-아/어지다 (passive: 만들어지다, 버려지다)",
+              "grammar": "V-아/어지다, passive use (만들어지다, 버려지다)",
               "items": [
                 {
                   "id": "ko.oyeom",
@@ -11187,8 +11194,8 @@
             },
             {
               "id": "ko-E8-06",
-              "topic": "Reacting to news: I noticed people were angry, so…",
-              "grammar": "A/V-던데요 (soft report of an observation)",
+              "topic": "Reading the news: articles and reactions in plain written style (written -다 style introduced; note: newspapers, diaries, essays)",
+              "grammar": "written plain style -ㄴ/는다, -았/었다, -(으)ㄹ 것이다 (newspaper style)",
               "items": [
                 {
                   "id": "ko.nollan",
@@ -11643,7 +11650,7 @@
               "grammar": "A/V-(으)ㄴ/는 반면(에) (whereas)",
               "items": [
                 {
-                  "id": "ko.hyangsillyo",
+                  "id": "ko.hyangsinnyo",
                   "text": "향신료",
                   "reading": "hyangsinnyo",
                   "kind": "word"
@@ -12708,7 +12715,7 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ko.bullyang",
+                  "id": "ko.bullyang-amount",
                   "text": "분량",
                   "reading": "bullyang",
                   "kind": "word"
@@ -13676,6 +13683,4743 @@
                   "id": "ko.beongeoropda",
                   "text": "번거롭다",
                   "reading": "beongeoropda",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "cefr": "B1+",
+      "exam": "TOPIK II",
+      "minutes": 11,
+      "readerMinutes": 15,
+      "units": [
+        {
+          "id": "ko-F1",
+          "title_th": "เหตุการณ์และอุบัติเหตุ",
+          "goal_th": "เล่าและรายงานเหตุการณ์หรืออุบัติเหตุตามลำดับ และเข้าใจข่าวภัยพิบัติได้",
+          "scenario": "B is a police officer taking a witness statement after a traffic accident Nam saw near campus. Nam must describe what happened in order, where and when, and who was hurt.",
+          "lessons": [
+            {
+              "id": "ko-F1-01",
+              "topic": "Disasters in the news: due to heavy rain",
+              "grammar": "N(으)로 인해(서) (due to; written)",
+              "items": [
+                {
+                  "id": "ko.pogu",
+                  "text": "폭우",
+                  "reading": "pogu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.taepung",
+                  "text": "태풍",
+                  "reading": "taepung",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jijin",
+                  "text": "지진",
+                  "reading": "jijin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sansatae",
+                  "text": "산사태",
+                  "reading": "sansatae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ijaemin",
+                  "text": "이재민",
+                  "reading": "ijaemin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gisangcheong",
+                  "text": "기상청",
+                  "reading": "gisangcheong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-02",
+              "topic": "Rescued by firefighters",
+              "grammar": "N에 의해(서) (by: the agent in passive sentences)",
+              "items": [
+                {
+                  "id": "ko.hwajae",
+                  "text": "화재",
+                  "reading": "hwajae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sobanggwan",
+                  "text": "소방관",
+                  "reading": "sobanggwan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gujodoeda",
+                  "text": "구조되다",
+                  "reading": "gujodoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daepi-hada",
+                  "text": "대피하다",
+                  "reading": "daepihada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeongi",
+                  "text": "연기",
+                  "reading": "yeongi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sohwagi",
+                  "text": "소화기",
+                  "reading": "sohwagi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-03",
+              "topic": "Hearing the news that there was an accident",
+              "grammar": "A/V-다는 N (the N that says …: 사고가 났다는 소식)",
+              "items": [
+                {
+                  "id": "ko.gyotongsago",
+                  "text": "교통사고",
+                  "reading": "gyotongsago",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.budichida",
+                  "text": "부딪히다",
+                  "reading": "budichida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chungdol-hada",
+                  "text": "충돌하다",
+                  "reading": "chungdolhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.busang",
+                  "text": "부상",
+                  "reading": "busang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mokgyeok-hada",
+                  "text": "목격하다",
+                  "reading": "mokgyeokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pihaeja",
+                  "text": "피해자",
+                  "reading": "pihaeja",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-04",
+              "topic": "A break-in: the door was left unlocked",
+              "grammar": "V-(으)ㄴ 채(로) (with … still: 문을 열어 둔 채로)",
+              "items": [
+                {
+                  "id": "ko.doduk",
+                  "text": "도둑",
+                  "reading": "doduk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.humchida",
+                  "text": "훔치다",
+                  "reading": "humchida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jamgeuda",
+                  "text": "잠그다",
+                  "reading": "jamgeuda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.donan",
+                  "text": "도난",
+                  "reading": "donan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bangsim-hada",
+                  "text": "방심하다",
+                  "reading": "bangsimhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.susang-hada",
+                  "text": "수상하다",
+                  "reading": "susanghada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-05",
+              "topic": "A witness statement: as soon as the light turned red",
+              "grammar": "V-자 (as soon as, when; written narration)",
+              "items": [
+                {
+                  "id": "ko.sinhodeung",
+                  "text": "신호등",
+                  "reading": "sinhodeung",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hoengdanbodo",
+                  "text": "횡단보도",
+                  "reading": "hoengdanbodo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mudan-hoengdan",
+                  "text": "무단 횡단",
+                  "reading": "mudan hoengdan",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gwasok",
+                  "text": "과속",
+                  "reading": "gwasok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.unjeonja",
+                  "text": "운전자",
+                  "reading": "unjeonja",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-06",
+              "topic": "Accidents on the road: while he was driving",
+              "grammar": "V-던 중(에) (in the middle of; written)",
+              "items": [
+                {
+                  "id": "ko.joreumunjeon",
+                  "text": "졸음운전",
+                  "reading": "joreumunjeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.eumju-unjeon",
+                  "text": "음주 운전",
+                  "reading": "eumju unjeon",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.anjeonbelteu",
+                  "text": "안전벨트",
+                  "reading": "anjeonbelteu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.samang",
+                  "text": "사망",
+                  "reading": "samang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jungsang",
+                  "text": "중상",
+                  "reading": "jungsang",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "News report: a fire at a traditional market, no casualties",
+              "items": [
+                {
+                  "id": "ko.inmyeong-pihae",
+                  "text": "인명 피해",
+                  "reading": "inmyeong pihae",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.balsaeng-hada",
+                  "text": "발생하다",
+                  "reading": "balsaenghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jinhwadoeda",
+                  "text": "진화되다",
+                  "reading": "jinhwadoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeongwi",
+                  "text": "경위",
+                  "reading": "gyeongwi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F1-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "Nam helps an elderly man who collapsed on an icy street and calls 119",
+              "items": [
+                {
+                  "id": "ko.eunggeupsil",
+                  "text": "응급실",
+                  "reading": "eunggeupsil",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gugeupcha",
+                  "text": "구급차",
+                  "reading": "gugeupcha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uisik",
+                  "text": "의식",
+                  "reading": "uisik",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sseureojida",
+                  "text": "쓰러지다",
+                  "reading": "sseureojida",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F2",
+          "title_th": "สังคมเกาหลีที่เปลี่ยนไป",
+          "goal_th": "อธิบายการเปลี่ยนแปลงของสังคมเกาหลี เช่น สังคมผู้สูงอายุและอัตราการเกิดต่ำ และเปรียบเทียบกับไทยได้",
+          "scenario": "B is 이 선생님, preparing students for a TOPIK writing task on social change. Nam must explain one change in Korean society, its causes and effects, and compare it with Thailand.",
+          "lessons": [
+            {
+              "id": "ko-F2-01",
+              "topic": "An aging society: as the population ages…",
+              "grammar": "V-(으)ㅁ에 따라 (as …; written)",
+              "items": [
+                {
+                  "id": "ko.goryeonghwa",
+                  "text": "고령화",
+                  "reading": "goryeonghwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pyeonggyun-sumyeong",
+                  "text": "평균 수명",
+                  "reading": "pyeonggyun sumyeong",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.nohu",
+                  "text": "노후",
+                  "reading": "nohu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeongeum",
+                  "text": "연금",
+                  "reading": "yeongeum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.buyang-hada",
+                  "text": "부양하다",
+                  "reading": "buyanghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geupjeung-hada",
+                  "text": "급증하다",
+                  "reading": "geupjeunghada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-02",
+              "topic": "Trends: more people live and eat alone",
+              "grammar": "V-는 추세이다 (the trend is that …)",
+              "items": [
+                {
+                  "id": "ko.honbap",
+                  "text": "혼밥",
+                  "reading": "honbap",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.honsul",
+                  "text": "혼술",
+                  "reading": "honsul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bihon",
+                  "text": "비혼",
+                  "reading": "bihon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dongnip-hada",
+                  "text": "독립하다",
+                  "reading": "dongnipada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.neureonada",
+                  "text": "늘어나다",
+                  "reading": "neureonada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeolban",
+                  "text": "절반",
+                  "reading": "jeolban",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-03",
+              "topic": "A low birth rate amid rising costs",
+              "grammar": "A/V-(으)ㄴ/는 가운데 (amid; written)",
+              "items": [
+                {
+                  "id": "ko.chulsannyul",
+                  "text": "출산율",
+                  "reading": "chulsannyul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeochulsan",
+                  "text": "저출산",
+                  "reading": "jeochulsan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yuga",
+                  "text": "육아",
+                  "reading": "yuga",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yangyukbi",
+                  "text": "양육비",
+                  "reading": "yangyukbi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.matbeori",
+                  "text": "맞벌이",
+                  "reading": "matbeori",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeongnyeok-danjeol",
+                  "text": "경력 단절",
+                  "reading": "gyeongnyeok danjeol",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-04",
+              "topic": "Labor shortages: we cannot help but worry",
+              "grammar": "V-지 않을 수 없다 (cannot help but)",
+              "items": [
+                {
+                  "id": "ko.nodongnyeok",
+                  "text": "노동력",
+                  "reading": "nodongnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bujok-hada",
+                  "text": "부족하다",
+                  "reading": "bujokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.simgak-hada",
+                  "text": "심각하다",
+                  "reading": "simgakada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wigi",
+                  "text": "위기",
+                  "reading": "wigi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeongchaek",
+                  "text": "정책",
+                  "reading": "jeongchaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.suchi",
+                  "text": "수치",
+                  "reading": "suchi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-05",
+              "topic": "Raising children: feeding, dressing and putting a baby to sleep",
+              "grammar": "causative suffixes -이/히/리/기/우/추- (먹이다, 입히다, 재우다, 씻기다)",
+              "items": [
+                {
+                  "id": "ko.meogida",
+                  "text": "먹이다",
+                  "reading": "meogida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ipida",
+                  "text": "입히다",
+                  "reading": "ipida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaeuda",
+                  "text": "재우다",
+                  "reading": "jaeuda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ssitgida",
+                  "text": "씻기다",
+                  "reading": "ssitgida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dolboda",
+                  "text": "돌보다",
+                  "reading": "dolboda",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-06",
+              "topic": "Urbanization and globalization: the suffix -화",
+              "grammar": "word formation: -화 (고령화, 도시화, 세계화, 정보화)",
+              "items": [
+                {
+                  "id": "ko.dosihwa",
+                  "text": "도시화",
+                  "reading": "dosihwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.segyehwa",
+                  "text": "세계화",
+                  "reading": "segyehwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeongbohwa",
+                  "text": "정보화",
+                  "reading": "jeongbohwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.saneophwa",
+                  "text": "산업화",
+                  "reading": "saneophwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyeondaehwa",
+                  "text": "현대화",
+                  "reading": "hyeondaehwa",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Single-person households in Korea: causes and the new businesses they create",
+              "items": [
+                {
+                  "id": "ko.sohyeong",
+                  "text": "소형",
+                  "reading": "sohyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.matchumhyeong",
+                  "text": "맞춤형",
+                  "reading": "matchumhyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.suyo",
+                  "text": "수요",
+                  "reading": "suyo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.deungjang-hada",
+                  "text": "등장하다",
+                  "reading": "deungjanghada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F2-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Nam's email to a Thai friend comparing family life in Korea and Thailand",
+              "items": [
+                {
+                  "id": "ko.daegajok",
+                  "text": "대가족",
+                  "reading": "daegajok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haekgajok",
+                  "text": "핵가족",
+                  "reading": "haekgajok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mosigo-salda",
+                  "text": "모시고 살다",
+                  "reading": "mosigo salda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.hyodo",
+                  "text": "효도",
+                  "reading": "hyodo",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F3",
+          "title_th": "ประเพณีและประวัติศาสตร์เกาหลี",
+          "goal_th": "อธิบายประวัติและความหมายของมรดกทางวัฒนธรรมเกาหลี เช่น ฮันกึลและฮันอก ได้",
+          "scenario": "B is a tour guide at Gyeongbokgung Palace. Nam must ask questions about the palace and the history of Hangeul, react to the answers, and explain a similar part of Thai history.",
+          "lessons": [
+            {
+              "id": "ko-F3-01",
+              "topic": "Traditional houses, including hanok",
+              "grammar": "N을/를 비롯해(서) (including, starting with)",
+              "items": [
+                {
+                  "id": "ko.hanok",
+                  "text": "한옥",
+                  "reading": "hanok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ondol",
+                  "text": "온돌",
+                  "reading": "ondol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.giwa",
+                  "text": "기와",
+                  "reading": "giwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chogajip",
+                  "text": "초가집",
+                  "reading": "chogajip",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.madang",
+                  "text": "마당",
+                  "reading": "madang",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-02",
+              "topic": "Legends: it is said that a bear became a woman",
+              "grammar": "A/V-다고 전해지다 (it is said that; legends)",
+              "items": [
+                {
+                  "id": "ko.jeonseol",
+                  "text": "전설",
+                  "reading": "jeonseol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sinhwa",
+                  "text": "신화",
+                  "reading": "sinhwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geonguk",
+                  "text": "건국",
+                  "reading": "geonguk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ssuk",
+                  "text": "쑥",
+                  "reading": "ssuk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.maneul",
+                  "text": "마늘",
+                  "reading": "maneul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gom",
+                  "text": "곰",
+                  "reading": "gom",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-03",
+              "topic": "National symbols: regarded as precious",
+              "grammar": "N을/를 N(으)로 여기다 (regard … as)",
+              "items": [
+                {
+                  "id": "ko.mugunghwa",
+                  "text": "무궁화",
+                  "reading": "mugunghwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.taegeukgi",
+                  "text": "태극기",
+                  "reading": "taegeukgi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.aegukga",
+                  "text": "애국가",
+                  "reading": "aegukga",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uimi-hada",
+                  "text": "의미하다",
+                  "reading": "uimihada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sojunghi",
+                  "text": "소중히",
+                  "reading": "sojunghi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gukgyeongil",
+                  "text": "국경일",
+                  "reading": "gukgyeongil",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-04",
+              "topic": "Over five hundred years: the Joseon dynasty",
+              "grammar": "N에 걸쳐(서) (over, spanning)",
+              "items": [
+                {
+                  "id": "ko.wangjo",
+                  "text": "왕조",
+                  "reading": "wangjo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gunggwol",
+                  "text": "궁궐",
+                  "reading": "gunggwol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.segi",
+                  "text": "세기",
+                  "reading": "segi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.munhwayusan",
+                  "text": "문화유산",
+                  "reading": "munhwayusan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jijeongdoeda",
+                  "text": "지정되다",
+                  "reading": "jijeongdoeda",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-05",
+              "topic": "Why Hangeul was created",
+              "grammar": "V-고자 (in order to; formal written)",
+              "items": [
+                {
+                  "id": "ko.baekseong",
+                  "text": "백성",
+                  "reading": "baekseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.changje-hada",
+                  "text": "창제하다",
+                  "reading": "changjehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geulja",
+                  "text": "글자",
+                  "reading": "geulja",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwahakjeok",
+                  "text": "과학적",
+                  "reading": "gwahakjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hangeullal",
+                  "text": "한글날",
+                  "reading": "hangeullal",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-06",
+              "topic": "The palace where kings once lived",
+              "grammar": "A/V-았/었던 (completed past modifier: 왕이 살았던 궁)",
+              "items": [
+                {
+                  "id": "ko.wang",
+                  "text": "왕",
+                  "reading": "wang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sinha",
+                  "text": "신하",
+                  "reading": "sinha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeoksajeok",
+                  "text": "역사적",
+                  "reading": "yeoksajeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.heunjeok",
+                  "text": "흔적",
+                  "reading": "heunjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bogwon-hada",
+                  "text": "복원하다",
+                  "reading": "bogwonhada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Hanbok today: from tradition to street fashion",
+              "items": [
+                {
+                  "id": "ko.gogung",
+                  "text": "고궁",
+                  "reading": "gogung",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daeyeo",
+                  "text": "대여",
+                  "reading": "daeyeo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gaeryang-hanbok",
+                  "text": "개량 한복",
+                  "reading": "gaeryang hanbok",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.muryoipjang",
+                  "text": "무료입장",
+                  "reading": "muryoipjang",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F3-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Nam explains the history of Ayutthaya to Minjun",
+              "items": [
+                {
+                  "id": "ko.yet-sudo",
+                  "text": "옛 수도",
+                  "reading": "yet sudo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.pyeheo",
+                  "text": "폐허",
+                  "reading": "pyeheo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.beonseong-hada",
+                  "text": "번성하다",
+                  "reading": "beonseonghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.muyeok",
+                  "text": "무역",
+                  "reading": "muyeok",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F4",
+          "title_th": "สมดุลชีวิตกับการทำงาน",
+          "goal_th": "พูดเรื่องเวลาทำงาน ความพึงพอใจในงาน และการแบ่งเวลาให้ชีวิตส่วนตัวได้",
+          "scenario": "B is a Korean office worker, a friend of Minjun, who works late every day. Nam must ask about his working hours and feelings, compare with working life in Thailand, and suggest ways to find a better balance.",
+          "lessons": [
+            {
+              "id": "ko-F4-01",
+              "topic": "Work–life balance: as long as it doesn't hurt my health",
+              "grammar": "V-는 한 (as long as)",
+              "items": [
+                {
+                  "id": "ko.worabael",
+                  "text": "워라밸",
+                  "reading": "worabael",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geunmu-sigan",
+                  "text": "근무 시간",
+                  "reading": "geunmu sigan",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.chogwa-geunmu",
+                  "text": "초과 근무",
+                  "reading": "chogwa geunmu",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.kaltoegeun",
+                  "text": "칼퇴근",
+                  "reading": "kaltoegeun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yuyeon-geunmu",
+                  "text": "유연 근무",
+                  "reading": "yuyeon geunmu",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-02",
+              "topic": "Choosing a job: even if the pay is high…",
+              "grammar": "A/V-더라도 (even if)",
+              "items": [
+                {
+                  "id": "ko.bosu",
+                  "text": "보수",
+                  "reading": "bosu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jigeop-manjokdo",
+                  "text": "직업 만족도",
+                  "reading": "jigeop manjokdo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.anjeongjeok",
+                  "text": "안정적",
+                  "reading": "anjeongjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daegieop",
+                  "text": "대기업",
+                  "reading": "daegieop",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jungsogieop",
+                  "text": "중소기업",
+                  "reading": "jungsogieop",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-03",
+              "topic": "Quitting: no use complaining",
+              "grammar": "A/V-아/어 봤자 (it's no use even if)",
+              "items": [
+                {
+                  "id": "ko.bulman",
+                  "text": "불만",
+                  "reading": "bulman",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sapyoreul-naeda",
+                  "text": "사표를 내다",
+                  "reading": "sapyoreul naeda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ijik-hada",
+                  "text": "이직하다",
+                  "reading": "ijikada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.toesa-hada",
+                  "text": "퇴사하다",
+                  "reading": "toesahada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jikjang-saenghwal",
+                  "text": "직장 생활",
+                  "reading": "jikjang saenghwal",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-04",
+              "topic": "Far from resting, I worked all weekend",
+              "grammar": "V-기는커녕 (far from)",
+              "items": [
+                {
+                  "id": "ko.yeoncha",
+                  "text": "연차",
+                  "reading": "yeoncha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyugareul-naeda",
+                  "text": "휴가를 내다",
+                  "reading": "hyugareul naeda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.jaetaekgeunmu",
+                  "text": "재택근무",
+                  "reading": "jaetaekgeunmu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jumal-chulgeun",
+                  "text": "주말 출근",
+                  "reading": "jumal chulgeun",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-05",
+              "topic": "Burnout: I was tired and all, so I left early",
+              "grammar": "A/V-고 해서 (… and all, so)",
+              "items": [
+                {
+                  "id": "ko.beonaut",
+                  "text": "번아웃",
+                  "reading": "beonaut",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jichida",
+                  "text": "지치다",
+                  "reading": "jichida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaechungjeon-hada",
+                  "text": "재충전하다",
+                  "reading": "jaechungjeonhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chwimi-saenghwal",
+                  "text": "취미 생활",
+                  "reading": "chwimi saenghwal",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.yeoga",
+                  "text": "여가",
+                  "reading": "yeoga",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-06",
+              "topic": "Busy, yet satisfied",
+              "grammar": "A/V-(으)면서도 (even while; although)",
+              "items": [
+                {
+                  "id": "ko.seongchwigam",
+                  "text": "성취감",
+                  "reading": "seongchwigam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.donggi-buyeo",
+                  "text": "동기 부여",
+                  "reading": "donggi buyeo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.uiyok",
+                  "text": "의욕",
+                  "reading": "uiyok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.manjokgam",
+                  "text": "만족감",
+                  "reading": "manjokgam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaasilhyeon",
+                  "text": "자아실현",
+                  "reading": "jaasilhyeon",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Korea's changing work culture: shorter hours and the four-day week debate",
+              "items": [
+                {
+                  "id": "ko.geulloja",
+                  "text": "근로자",
+                  "reading": "geulloja",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.doip-hada",
+                  "text": "도입하다",
+                  "reading": "doipada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.saengsanseong",
+                  "text": "생산성",
+                  "reading": "saengsanseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.danchuk-hada",
+                  "text": "단축하다",
+                  "reading": "danchukada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F4-r02",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Profile of a Thai office worker in Seoul: a typical day",
+              "items": [
+                {
+                  "id": "ko.ilgwa",
+                  "text": "일과",
+                  "reading": "ilgwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tonggeun",
+                  "text": "통근",
+                  "reading": "tonggeun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.toegeungil",
+                  "text": "퇴근길",
+                  "reading": "toegeungil",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chulgeungil",
+                  "text": "출근길",
+                  "reading": "chulgeungil",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F5",
+          "title_th": "สุขภาพจิตและความเครียด",
+          "goal_th": "อธิบายความรู้สึกและสาเหตุของความเครียด และแนะนำวิธีดูแลสุขภาพจิตได้",
+          "scenario": "B is a counselor at the university counseling center. Nam must describe how they have been feeling, explain what causes the stress, and agree on one or two ways to cope.",
+          "lessons": [
+            {
+              "id": "ko-F5-01",
+              "topic": "Because of exam pressure…",
+              "grammar": "A/V-(으)ㄴ/는 탓에 (due to; negative cause)",
+              "items": [
+                {
+                  "id": "ko.jeongsin-geongang",
+                  "text": "정신 건강",
+                  "reading": "jeongsin geongang",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.buran-hada",
+                  "text": "불안하다",
+                  "reading": "buranhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yemin-hada",
+                  "text": "예민하다",
+                  "reading": "yeminhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.apbakgam",
+                  "text": "압박감",
+                  "reading": "apbakgam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.budamgam",
+                  "text": "부담감",
+                  "reading": "budamgam",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-02",
+              "topic": "So tired I can hardly get up",
+              "grammar": "A/V-(으)ㄹ 지경이다 (to the point of)",
+              "items": [
+                {
+                  "id": "ko.mugiryeok-hada",
+                  "text": "무기력하다",
+                  "reading": "mugiryeokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.singyeongi-sseuida",
+                  "text": "신경이 쓰이다",
+                  "reading": "singyeongi sseuida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.hansum",
+                  "text": "한숨",
+                  "reading": "hansum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jameul-seolchida",
+                  "text": "잠을 설치다",
+                  "reading": "jameul seolchida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.neureojida",
+                  "text": "늘어지다",
+                  "reading": "neureojida",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-03",
+              "topic": "Symptoms: it seems the stress has built up",
+              "grammar": "A/V-(으)ㄴ/는 듯하다 (it seems; written)",
+              "items": [
+                {
+                  "id": "ko.jeungsang",
+                  "text": "증상",
+                  "reading": "jeungsang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dutong",
+                  "text": "두통",
+                  "reading": "dutong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sohwa-bullyang",
+                  "text": "소화 불량",
+                  "reading": "sohwa bullyang",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.sigyok",
+                  "text": "식욕",
+                  "reading": "sigyok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uuljeung",
+                  "text": "우울증",
+                  "reading": "uuljeung",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-04",
+              "topic": "If it's hard, talk to a professional",
+              "grammar": "A/V-거든 (if; with suggestions and commands)",
+              "items": [
+                {
+                  "id": "ko.sangdamsa",
+                  "text": "상담사",
+                  "reading": "sangdamsa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chiryo",
+                  "text": "치료",
+                  "reading": "chiryo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.simni",
+                  "text": "심리",
+                  "reading": "simni",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pyeongyeon",
+                  "text": "편견",
+                  "reading": "pyeongyeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mangseorida",
+                  "text": "망설이다",
+                  "reading": "mangseorida",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-05",
+              "topic": "As you know, sleep matters",
+              "grammar": "A/V-다시피 (as you know, as you see)",
+              "items": [
+                {
+                  "id": "ko.sungmyeon",
+                  "text": "숙면",
+                  "reading": "sungmyeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hoheup",
+                  "text": "호흡",
+                  "reading": "hoheup",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.maeumchaenggim",
+                  "text": "마음챙김",
+                  "reading": "maeumchaenggim",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gamjeong",
+                  "text": "감정",
+                  "reading": "gamjeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daseurida",
+                  "text": "다스리다",
+                  "reading": "daseurida",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-06",
+              "topic": "Once you've said it, you feel lighter",
+              "grammar": "V-고 나면 (once you have done)",
+              "items": [
+                {
+                  "id": "ko.holgabun-hada",
+                  "text": "홀가분하다",
+                  "reading": "holgabunhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.huryeon-hada",
+                  "text": "후련하다",
+                  "reading": "huryeonhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.maeumi-gabyeopda",
+                  "text": "마음이 가볍다",
+                  "reading": "maeumi gabyeopda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.hoebok-hada",
+                  "text": "회복하다",
+                  "reading": "hoebokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.eungeori",
+                  "text": "응어리",
+                  "reading": "eungeori",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Counseling center notice: free and confidential sessions for students",
+              "items": [
+                {
+                  "id": "ko.bimil-bojang",
+                  "text": "비밀 보장",
+                  "reading": "bimil bojang",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.sincheong-bangbeop",
+                  "text": "신청 방법",
+                  "reading": "sincheong bangbeop",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.simni-geomsa",
+                  "text": "심리 검사",
+                  "reading": "simni geomsa",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ingmyeong",
+                  "text": "익명",
+                  "reading": "ingmyeong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F5-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: a bad week, and what helped",
+              "items": [
+                {
+                  "id": "ko.nunmuri-nada",
+                  "text": "눈물이 나다",
+                  "reading": "nunmuri nada",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gidaeda",
+                  "text": "기대다",
+                  "reading": "gidaeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dadogida",
+                  "text": "다독이다",
+                  "reading": "dadogida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.peongpeong-ulda",
+                  "text": "펑펑 울다",
+                  "reading": "peongpeong ulda",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F6",
+          "title_th": "ศิลปะและการแสดง",
+          "goal_th": "เล่าและวิจารณ์นิทรรศการหรือการแสดงที่ได้ไปชมมาได้",
+          "scenario": "B is 김민준, who went with Nam to a traditional music performance. Nam must give their impressions, say what they liked or disliked and why, and recommend another show or exhibition.",
+          "lessons": [
+            {
+              "id": "ko-F6-01",
+              "topic": "Exhibitions: interesting, and free on top of that",
+              "grammar": "A/V-(으)ㄴ/는 데다(가) (on top of)",
+              "items": [
+                {
+                  "id": "ko.jeonsihoe",
+                  "text": "전시회",
+                  "reading": "jeonsihoe",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hwaga",
+                  "text": "화가",
+                  "reading": "hwaga",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwallam-hada",
+                  "text": "관람하다",
+                  "reading": "gwallamhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jogak",
+                  "text": "조각",
+                  "reading": "jogak",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.misulgwan",
+                  "text": "미술관",
+                  "reading": "misulgwan",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-02",
+              "topic": "I can't believe the musical sold out!",
+              "grammar": "A/V-다니 (I can't believe that …)",
+              "items": [
+                {
+                  "id": "ko.yeongeuk",
+                  "text": "연극",
+                  "reading": "yeongeuk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.myujikeol",
+                  "text": "뮤지컬",
+                  "reading": "myujikeol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwangaek",
+                  "text": "관객",
+                  "reading": "gwangaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gaekseok",
+                  "text": "객석",
+                  "reading": "gaekseok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.magi-oreuda",
+                  "text": "막이 오르다",
+                  "reading": "magi oreuda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-03",
+              "topic": "Korean traditional music: dull at first, then exciting",
+              "grammar": "A/V-더니 (observed change: 처음에는 …더니)",
+              "items": [
+                {
+                  "id": "ko.gugak",
+                  "text": "국악",
+                  "reading": "gugak",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pansori",
+                  "text": "판소리",
+                  "reading": "pansori",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.talchum",
+                  "text": "탈춤",
+                  "reading": "talchum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jangdan",
+                  "text": "장단",
+                  "reading": "jangdan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.heung",
+                  "text": "흥",
+                  "reading": "heung",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-04",
+              "topic": "Critics' verdicts: it's obvious they will love it",
+              "grammar": "A/V-(으)ㄹ 게 뻔하다 (it's obvious that)",
+              "items": [
+                {
+                  "id": "ko.gamsang-hada",
+                  "text": "감상하다",
+                  "reading": "gamsanghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeonchul",
+                  "text": "연출",
+                  "reading": "yeonchul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeongiryeok",
+                  "text": "연기력",
+                  "reading": "yeongiryeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hopyeong",
+                  "text": "호평",
+                  "reading": "hopyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hokpyeong",
+                  "text": "혹평",
+                  "reading": "hokpyeong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-05",
+              "topic": "The poster looked so unusual that I went in",
+              "grammar": "A/V-길래 (since I saw that …)",
+              "items": [
+                {
+                  "id": "ko.poseuteo",
+                  "text": "포스터",
+                  "reading": "poseuteo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyeondae-misul",
+                  "text": "현대 미술",
+                  "reading": "hyeondae misul",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.dokteuk-hada",
+                  "text": "독특하다",
+                  "reading": "dokteukada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chusangjeok",
+                  "text": "추상적",
+                  "reading": "chusangjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeonggam",
+                  "text": "영감",
+                  "reading": "yeonggam",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-06",
+              "topic": "Curtain call: the actors pulled it off",
+              "grammar": "V-아/어 내다 (manage to; achieve)",
+              "items": [
+                {
+                  "id": "ko.riheoseol",
+                  "text": "리허설",
+                  "reading": "riheoseol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.baksureul-chida",
+                  "text": "박수를 치다",
+                  "reading": "baksureul chida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gamgyeok-hada",
+                  "text": "감격하다",
+                  "reading": "gamgyeokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.keoteunkol",
+                  "text": "커튼콜",
+                  "reading": "keoteunkol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.soreumi-dotda",
+                  "text": "소름이 돋다",
+                  "reading": "soreumi dotda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Museum notice: special exhibition of Thai Buddhist art",
+              "items": [
+                {
+                  "id": "ko.teukbyeoljeon",
+                  "text": "특별전",
+                  "reading": "teukbyeoljeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sojangpum",
+                  "text": "소장품",
+                  "reading": "sojangpum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haeseol",
+                  "text": "해설",
+                  "reading": "haeseol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwallamgaek",
+                  "text": "관람객",
+                  "reading": "gwallamgaek",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F6-r02",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "A critic's column on a Korean musical about a Joseon princess",
+              "items": [
+                {
+                  "id": "ko.morip-hada",
+                  "text": "몰입하다",
+                  "reading": "moripada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeolmal",
+                  "text": "결말",
+                  "reading": "gyeolmal",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeoun",
+                  "text": "여운",
+                  "reading": "yeoun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ungjang-hada",
+                  "text": "웅장하다",
+                  "reading": "ungjanghada",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F7",
+          "title_th": "หนังสือและการอ่าน",
+          "goal_th": "แนะนำหนังสือ เล่าเรื่องย่อ และพูดถึงนิสัยการอ่านของตนเองได้",
+          "scenario": "B is a librarian at a Seoul public library. Nam must say what kinds of books they like, summarize a book they read recently, and ask for a recommendation.",
+          "lessons": [
+            {
+              "id": "ko-F7-01",
+              "topic": "Kinds of books: it's merely a hobby",
+              "grammar": "A/V-(으)ㄹ 뿐이다 (merely, only)",
+              "items": [
+                {
+                  "id": "ko.soseol",
+                  "text": "소설",
+                  "reading": "soseol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sijip",
+                  "text": "시집",
+                  "reading": "sijip",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.supil",
+                  "text": "수필",
+                  "reading": "supil",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jakga",
+                  "text": "작가",
+                  "reading": "jakga",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chulpansa",
+                  "text": "출판사",
+                  "reading": "chulpansa",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-02",
+              "topic": "Just because it's a bestseller…",
+              "grammar": "A/V-ㄴ/는다고 해서 (just because)",
+              "items": [
+                {
+                  "id": "ko.beseuteuselleo",
+                  "text": "베스트셀러",
+                  "reading": "beseuteuselleo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.singan",
+                  "text": "신간",
+                  "reading": "singan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seopyeong",
+                  "text": "서평",
+                  "reading": "seopyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chucheon-doseo",
+                  "text": "추천 도서",
+                  "reading": "chucheon doseo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ipsomun",
+                  "text": "입소문",
+                  "reading": "ipsomun",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-03",
+              "topic": "Summarizing a story (written style)",
+              "grammar": "A/V-기에 (because; written)",
+              "items": [
+                {
+                  "id": "ko.deungjanginmul",
+                  "text": "등장인물",
+                  "reading": "deungjanginmul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.baegyeong",
+                  "text": "배경",
+                  "reading": "baegyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sageon",
+                  "text": "사건",
+                  "reading": "sageon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.banjeon",
+                  "text": "반전",
+                  "reading": "banjeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyohun",
+                  "text": "교훈",
+                  "reading": "gyohun",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-04",
+              "topic": "For a first novel, it's excellent",
+              "grammar": "N치고 (for a …, considering)",
+              "items": [
+                {
+                  "id": "ko.munjang",
+                  "text": "문장",
+                  "reading": "munjang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pyohyeonnyeok",
+                  "text": "표현력",
+                  "reading": "pyohyeonnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.munche",
+                  "text": "문체",
+                  "reading": "munche",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.beonyeokdoeda",
+                  "text": "번역되다",
+                  "reading": "beonyeokdoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wonjak",
+                  "text": "원작",
+                  "reading": "wonjak",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-05",
+              "topic": "Not even one page: e-books and paper books",
+              "grammar": "N마저 / N조차 (even)",
+              "items": [
+                {
+                  "id": "ko.jipjungnyeok",
+                  "text": "집중력",
+                  "reading": "jipjungnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeonjachaek",
+                  "text": "전자책",
+                  "reading": "jeonjachaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jongichaek",
+                  "text": "종이책",
+                  "reading": "jongichaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.neomgida",
+                  "text": "넘기다",
+                  "reading": "neomgida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chaekjang",
+                  "text": "책장",
+                  "reading": "chaekjang",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-06",
+              "topic": "Reading is truly the best investment",
+              "grammar": "N(이)야말로 (indeed, truly)",
+              "items": [
+                {
+                  "id": "ko.jisik",
+                  "text": "지식",
+                  "reading": "jisik",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sangsangnyeok",
+                  "text": "상상력",
+                  "reading": "sangsangnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.siya",
+                  "text": "시야",
+                  "reading": "siya",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.neolpida",
+                  "text": "넓히다",
+                  "reading": "neolpida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tuja",
+                  "text": "투자",
+                  "reading": "tuja",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Library notice: borrowing rules and a book club for foreign residents",
+              "items": [
+                {
+                  "id": "ko.daechul",
+                  "text": "대출",
+                  "reading": "daechul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bannap",
+                  "text": "반납",
+                  "reading": "bannap",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dokseo-moim",
+                  "text": "독서 모임",
+                  "reading": "dokseo moim",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.yeollamsil",
+                  "text": "열람실",
+                  "reading": "yeollamsil",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F7-r02",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Book column: a Korean novel newly translated into Thai",
+              "items": [
+                {
+                  "id": "ko.seomse-hada",
+                  "text": "섬세하다",
+                  "reading": "seomsehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.myosa-hada",
+                  "text": "묘사하다",
+                  "reading": "myosahada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.insang-gipda",
+                  "text": "인상 깊다",
+                  "reading": "insang gipda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.saengsaeng-hada",
+                  "text": "생생하다",
+                  "reading": "saengsaenghada",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F8",
+          "title_th": "สำนวนและสุภาษิต",
+          "goal_th": "เข้าใจและใช้สำนวนและสุภาษิตเกาหลีที่พบบ่อย และเทียบกับสำนวนไทยได้",
+          "scenario": "B is 이 선생님 running an idiom quiz. Nam must guess the meanings of Korean idioms, use two of them in a short story about their own life, and explain a similar Thai saying.",
+          "lessons": [
+            {
+              "id": "ko-F8-01",
+              "topic": "Body-part idioms: wide feet and high eyes",
+              "grammar": "idioms with body parts (발이 넓다, 눈이 높다, 손이 크다)",
+              "items": [
+                {
+                  "id": "ko.bari-neolda",
+                  "text": "발이 넓다",
+                  "reading": "bari neolda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.nuni-nopda",
+                  "text": "눈이 높다",
+                  "reading": "nuni nopda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.soni-keuda",
+                  "text": "손이 크다",
+                  "reading": "soni keuda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ibi-mugeopda",
+                  "text": "입이 무겁다",
+                  "reading": "ibi mugeopda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gwiga-yalda",
+                  "text": "귀가 얇다",
+                  "reading": "gwiga yalda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-02",
+              "topic": "Proverbs about life: it is only natural",
+              "grammar": "A/V-(으)ㄴ/는 법이다 (it is natural; general truths)",
+              "items": [
+                {
+                  "id": "ko.sokdam",
+                  "text": "속담",
+                  "reading": "sokdam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sijagi-banida",
+                  "text": "시작이 반이다",
+                  "reading": "sijagi banida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.tikkeul-moa-taesan",
+                  "text": "티끌 모아 태산",
+                  "reading": "tikkeul moa taesan",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.wonsungido-namueseo-tteoreojinda",
+                  "text": "원숭이도 나무에서 떨어진다",
+                  "reading": "wonsungido namueseo tteoreojinda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ppurin-daero-geodunda",
+                  "text": "뿌린 대로 거둔다",
+                  "reading": "ppurin daero geodunda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-03",
+              "topic": "Easy or impossible: like eating cold porridge",
+              "grammar": "V-듯이 (just as, like)",
+              "items": [
+                {
+                  "id": "ko.mul-sseudeut-hada",
+                  "text": "물 쓰듯 하다",
+                  "reading": "mul sseudeut hada",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.sigeun-juk-meokgi",
+                  "text": "식은 죽 먹기",
+                  "reading": "sigeun juk meokgi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.haneurui-byeol-ttagi",
+                  "text": "하늘의 별 따기",
+                  "reading": "haneurui byeol ttagi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.geurimui-tteok",
+                  "text": "그림의 떡",
+                  "reading": "geurimui tteok",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ttang-jipgo-heeomchigi",
+                  "text": "땅 짚고 헤엄치기",
+                  "reading": "ttang jipgo heeomchigi",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-04",
+              "topic": "Bad luck on top of bad luck: it's like…",
+              "grammar": "V-는 격이다 (it is like; it amounts to)",
+              "items": [
+                {
+                  "id": "ko.eopchin-de-deopchin-gyeok",
+                  "text": "엎친 데 덮친 격",
+                  "reading": "eopchin de deopchin gyeok",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.so-ilko-oeyanggan-gochinda",
+                  "text": "소 잃고 외양간 고친다",
+                  "reading": "so ilko oeyanggan gochinda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.umul-an-gaeguri",
+                  "text": "우물 안 개구리",
+                  "reading": "umul an gaeguri",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.nuwoseo-tteok-meokgi",
+                  "text": "누워서 떡 먹기",
+                  "reading": "nuwoseo tteok meokgi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ganeun-nari-jangnal",
+                  "text": "가는 날이 장날",
+                  "reading": "ganeun nari jangnal",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-05",
+              "topic": "Disbelief: there's no way!",
+              "grammar": "A/V-(으)ㄹ 리(가) 없다 (there is no way that)",
+              "items": [
+                {
+                  "id": "ko.maldo-an-doeda",
+                  "text": "말도 안 되다",
+                  "reading": "maldo an doeda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gwireul-uisim-hada",
+                  "text": "귀를 의심하다",
+                  "reading": "gwireul uisimhada",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ibeul-moeuda",
+                  "text": "입을 모으다",
+                  "reading": "ibeul moeuda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.giga-makida",
+                  "text": "기가 막히다",
+                  "reading": "giga makida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.eocheogunieopda",
+                  "text": "어처구니없다",
+                  "reading": "eocheogunieopda",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-06",
+              "topic": "Warnings: you might get burned",
+              "grammar": "V-는 수가 있다 (it can happen that)",
+              "items": [
+                {
+                  "id": "ko.doldarido-dudeulgyeo-bogo-geonneora",
+                  "text": "돌다리도 두들겨 보고 건너라",
+                  "reading": "doldarido dudeulgyeo bogo geonneora",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.nanmareun-saega-deutgo-bammareun-jwiga-deunneunda",
+                  "text": "낮말은 새가 듣고 밤말은 쥐가 듣는다",
+                  "reading": "nanmareun saega deutgo bammareun jwiga deunneunda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.nunko-tteul-sae-eopda",
+                  "text": "눈코 뜰 새 없다",
+                  "reading": "nunko tteul sae eopda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.baldeunge-buri-tteoreojida",
+                  "text": "발등에 불이 떨어지다",
+                  "reading": "baldeunge buri tteoreojida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.horangido-je-mal-hamyeon-onda",
+                  "text": "호랑이도 제 말 하면 온다",
+                  "reading": "horangido je mal hamyeon onda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Korean and Thai proverbs that mean the same thing",
+              "items": [
+                {
+                  "id": "ko.biyu-hada",
+                  "text": "비유하다",
+                  "reading": "biyuhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jihye",
+                  "text": "지혜",
+                  "reading": "jihye",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.josang",
+                  "text": "조상",
+                  "reading": "josang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.goyangi-moge-bangul-dalgi",
+                  "text": "고양이 목에 방울 달기",
+                  "reading": "goyangi moge bangul dalgi",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F8-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "Minjun's week told in idioms",
+              "items": [
+                {
+                  "id": "ko.gimchitgukbuteo-masida",
+                  "text": "김칫국부터 마시다",
+                  "reading": "gimchitgukbuteo masida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.bagajireul-sseuda",
+                  "text": "바가지를 쓰다",
+                  "reading": "bagajireul sseuda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.haneuri-muneojyeodo-sosanal-gumeongi-itda",
+                  "text": "하늘이 무너져도 솟아날 구멍이 있다",
+                  "reading": "haneuri muneojyeodo sosanal gumeongi itda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.yakbangui-gamcho",
+                  "text": "약방의 감초",
+                  "reading": "yakbangui gamcho",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F9",
+          "title_th": "การบริโภคและโฆษณา",
+          "goal_th": "วิเคราะห์โฆษณาและพูดถึงพฤติกรรมการซื้อของของตนเองได้",
+          "scenario": "B is a market researcher interviewing shoppers at a mall. Nam must describe their shopping habits, say how advertising influences them, and give an opinion on influencer marketing.",
+          "lessons": [
+            {
+              "id": "ko-F9-01",
+              "topic": "Spending: paying in installments amounts to paying more",
+              "grammar": "A/V-(으)ㄴ/는 셈이다 (it amounts to)",
+              "items": [
+                {
+                  "id": "ko.sobija",
+                  "text": "소비자",
+                  "reading": "sobija",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwasobi",
+                  "text": "과소비",
+                  "reading": "gwasobi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.halbu",
+                  "text": "할부",
+                  "reading": "halbu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sinyong-kadeu",
+                  "text": "신용 카드",
+                  "reading": "sinyong kadeu",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gumae-hada",
+                  "text": "구매하다",
+                  "reading": "gumaehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.muryeo",
+                  "text": "무려",
+                  "reading": "muryeo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-02",
+              "topic": "Quality or price: I'd rather not buy it than buy a cheap one",
+              "grammar": "V-느니 (차라리) (would rather … than)",
+              "items": [
+                {
+                  "id": "ko.pumjil",
+                  "text": "품질",
+                  "reading": "pumjil",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.myeongpum",
+                  "text": "명품",
+                  "reading": "myeongpum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.beuraendeu",
+                  "text": "브랜드",
+                  "reading": "beuraendeu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeoryeom-hada",
+                  "text": "저렴하다",
+                  "reading": "jeoryeomhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.junggo",
+                  "text": "중고",
+                  "reading": "junggo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-03",
+              "topic": "Advertising: it depends on how you see it",
+              "grammar": "V-기 나름이다 (depends on how one …)",
+              "items": [
+                {
+                  "id": "ko.gwanggo",
+                  "text": "광고",
+                  "reading": "gwanggo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwajangdoeda",
+                  "text": "과장되다",
+                  "reading": "gwajangdoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mungu",
+                  "text": "문구",
+                  "reading": "mungu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hongbo-hada",
+                  "text": "홍보하다",
+                  "reading": "hongbohada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sobi-simni",
+                  "text": "소비 심리",
+                  "reading": "sobi simni",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-04",
+              "topic": "Influencers: targeting people in their twenties",
+              "grammar": "N을/를 대상으로 (targeting, aimed at)",
+              "items": [
+                {
+                  "id": "ko.inpeullueonseo",
+                  "text": "인플루언서",
+                  "reading": "inpeullueonseo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyeopchan",
+                  "text": "협찬",
+                  "reading": "hyeopchan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tagit",
+                  "text": "타깃",
+                  "reading": "tagit",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeollyeongcheung",
+                  "text": "연령층",
+                  "reading": "yeollyeongcheung",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.maketing",
+                  "text": "마케팅",
+                  "reading": "maketing",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-05",
+              "topic": "Window shopping: just looking",
+              "grammar": "V-기만 하다 (only do (and nothing else))",
+              "items": [
+                {
+                  "id": "ko.aisyoping",
+                  "text": "아이쇼핑",
+                  "reading": "aisyoping",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jjim-hada",
+                  "text": "찜하다",
+                  "reading": "jjimhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jikgu",
+                  "text": "직구",
+                  "reading": "jikgu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haeoe-baesong",
+                  "text": "해외 배송",
+                  "reading": "haeoe baesong",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gagyeokpyo",
+                  "text": "가격표",
+                  "reading": "gagyeokpyo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-06",
+              "topic": "Trends: it seems sales have gone up",
+              "grammar": "A/V-(으)ㄴ/는 모양이다 (it appears that)",
+              "items": [
+                {
+                  "id": "ko.maechul",
+                  "text": "매출",
+                  "reading": "maechul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.teurendeu",
+                  "text": "트렌드",
+                  "reading": "teurendeu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeolpung",
+                  "text": "열풍",
+                  "reading": "yeolpung",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bultinage-pallida",
+                  "text": "불티나게 팔리다",
+                  "reading": "bultinage pallida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.hanjeongpan",
+                  "text": "한정판",
+                  "reading": "hanjeongpan",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Survey: why young consumers buy limited-edition goods",
+              "items": [
+                {
+                  "id": "ko.sojang-hada",
+                  "text": "소장하다",
+                  "reading": "sojanghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.huisoseong",
+                  "text": "희소성",
+                  "reading": "huisoseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gutjeu",
+                  "text": "굿즈",
+                  "reading": "gutjeu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sujip",
+                  "text": "수집",
+                  "reading": "sujip",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F9-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Nam and Minjun argue about a fake customer comment on a shopping site",
+              "items": [
+                {
+                  "id": "ko.heowi",
+                  "text": "허위",
+                  "reading": "heowi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwanggoseong",
+                  "text": "광고성",
+                  "reading": "gwanggoseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sokda",
+                  "text": "속다",
+                  "reading": "sokda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.silloedo",
+                  "text": "신뢰도",
+                  "reading": "silloedo",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F10",
+          "title_th": "กฎระเบียบและสิทธิ",
+          "goal_th": "เข้าใจกฎระเบียบในชีวิตประจำวันในเกาหลี และอธิบายสิทธิของตนเองเมื่อเกิดปัญหาได้",
+          "scenario": "B is a staff member at a support center for foreign workers. Nam calls on behalf of a Thai friend who was not paid for overtime; Nam must explain the situation, ask about the friend's rights, and find out what to do next.",
+          "lessons": [
+            {
+              "id": "ko-F10-01",
+              "topic": "Public rules: you must never…",
+              "grammar": "V-아/어서는 안 되다 (must never)",
+              "items": [
+                {
+                  "id": "ko.wiban-hada",
+                  "text": "위반하다",
+                  "reading": "wibanhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dansok",
+                  "text": "단속",
+                  "reading": "dansok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bulbeop",
+                  "text": "불법",
+                  "reading": "bulbeop",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hapbeop",
+                  "text": "합법",
+                  "reading": "hapbeop",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.cheobeol",
+                  "text": "처벌",
+                  "reading": "cheobeol",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-02",
+              "topic": "Rights and duties at work: employers are required to…",
+              "grammar": "V-도록 되어 있다 (be required to)",
+              "items": [
+                {
+                  "id": "ko.uimu",
+                  "text": "의무",
+                  "reading": "uimu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwolli",
+                  "text": "권리",
+                  "reading": "gwolli",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geullo-gyeyakseo",
+                  "text": "근로 계약서",
+                  "reading": "geullo gyeyakseo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.choejeo-imgeum",
+                  "text": "최저 임금",
+                  "reading": "choejeo imgeum",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.bojang-hada",
+                  "text": "보장하다",
+                  "reading": "bojanghada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-03",
+              "topic": "Benefits limited to residents",
+              "grammar": "N에 한해(서) (limited to)",
+              "items": [
+                {
+                  "id": "ko.geojuja",
+                  "text": "거주자",
+                  "reading": "geojuja",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jiwongeum",
+                  "text": "지원금",
+                  "reading": "jiwongeum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.musang",
+                  "text": "무상",
+                  "reading": "musang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jehandoeda",
+                  "text": "제한되다",
+                  "reading": "jehandoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chwiyak-gyecheung",
+                  "text": "취약 계층",
+                  "reading": "chwiyak gyecheung",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-04",
+              "topic": "Unpaid wages: because it is unlawful (written)",
+              "grammar": "A/V-(으)므로 (because; formal written)",
+              "items": [
+                {
+                  "id": "ko.imgeum",
+                  "text": "임금",
+                  "reading": "imgeum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chebul",
+                  "text": "체불",
+                  "reading": "chebul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.goyongju",
+                  "text": "고용주",
+                  "reading": "goyongju",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nodongcheong",
+                  "text": "노동청",
+                  "reading": "nodongcheong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.budang-hada",
+                  "text": "부당하다",
+                  "reading": "budanghada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-05",
+              "topic": "In case of violation, a fine will be imposed",
+              "grammar": "V-(으)ㄹ 시 (in case of; formal)",
+              "items": [
+                {
+                  "id": "ko.gwataeryo",
+                  "text": "과태료",
+                  "reading": "gwataeryo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bugwadoeda",
+                  "text": "부과되다",
+                  "reading": "bugwadoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeokbaldoeda",
+                  "text": "적발되다",
+                  "reading": "jeokbaldoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeonggo",
+                  "text": "경고",
+                  "reading": "gyeonggo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.beomchikgeum",
+                  "text": "범칙금",
+                  "reading": "beomchikgeum",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-06",
+              "topic": "Review lesson: reading official rules",
+              "grammar": "review of formal written patterns (-아/어지다, -도록 되어 있다, -(으)ㄹ 것, -(으)ㄹ 시)",
+              "items": [
+                {
+                  "id": "ko.johang",
+                  "text": "조항",
+                  "reading": "johang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyujeong",
+                  "text": "규정",
+                  "reading": "gyujeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.junsu-hada",
+                  "text": "준수하다",
+                  "reading": "junsuhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeoe",
+                  "text": "예외",
+                  "reading": "yeoe",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.myeongsidoeda",
+                  "text": "명시되다",
+                  "reading": "myeongsidoeda",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Apartment management rules: noise, pets and smoking",
+              "items": [
+                {
+                  "id": "ko.gongdong-jutaek",
+                  "text": "공동 주택",
+                  "reading": "gongdong jutaek",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.heubyeon",
+                  "text": "흡연",
+                  "reading": "heubyeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ballyeogyeon",
+                  "text": "반려견",
+                  "reading": "ballyeogyeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.eomgyeoki",
+                  "text": "엄격히",
+                  "reading": "eomgyeoki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F10-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "Nam helps a Thai friend get unpaid wages with help from a support center",
+              "items": [
+                {
+                  "id": "ko.eogul-hada",
+                  "text": "억울하다",
+                  "reading": "eogulhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haegyeoldoeda",
+                  "text": "해결되다",
+                  "reading": "haegyeoldoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sangdam-senteo",
+                  "text": "상담 센터",
+                  "reading": "sangdam senteo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.jungjae-hada",
+                  "text": "중재하다",
+                  "reading": "jungjaehada",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F11",
+          "title_th": "ภาษาและการสื่อสาร",
+          "goal_th": "อธิบายความต่างของภาษามาตรฐาน ภาษาถิ่น และคำใหม่ และแก้ความเข้าใจผิดในการสื่อสารได้",
+          "scenario": "B is a Korean high-school student who uses a lot of slang at a language-exchange meeting. Nam must ask what the new words mean, check their understanding by repeating, and explain a Thai slang word.",
+          "lessons": [
+            {
+              "id": "ko-F11-01",
+              "topic": "A word called 'jeong'",
+              "grammar": "N(이)라는 N (called …: '정'이라는 말)",
+              "items": [
+                {
+                  "id": "ko.eohwi",
+                  "text": "어휘",
+                  "reading": "eohwi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nanmal",
+                  "text": "낱말",
+                  "reading": "nanmal",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tteut-hada",
+                  "text": "뜻하다",
+                  "reading": "tteutada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uimi",
+                  "text": "의미",
+                  "reading": "uimi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gaenyeom",
+                  "text": "개념",
+                  "reading": "gaenyeom",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-02",
+              "topic": "Misunderstandings: I'm telling you, I didn't mean it",
+              "grammar": "A/V-ㄴ/는다니까요 (I'm telling you; insisting)",
+              "items": [
+                {
+                  "id": "ko.malsilsu",
+                  "text": "말실수",
+                  "reading": "malsilsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nwiangseu",
+                  "text": "뉘앙스",
+                  "reading": "nwiangseu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.eogam",
+                  "text": "어감",
+                  "reading": "eogam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jikseoljeok",
+                  "text": "직설적",
+                  "reading": "jikseoljeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gibuni-sang-hada",
+                  "text": "기분이 상하다",
+                  "reading": "gibuni sanghada",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-03",
+              "topic": "Slang and new words: you said what?",
+              "grammar": "A/V-다고요?/N(이)라고요? (repeating to check or stress)",
+              "items": [
+                {
+                  "id": "ko.jurimmal",
+                  "text": "줄임말",
+                  "reading": "jurimmal",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sinjoeo",
+                  "text": "신조어",
+                  "reading": "sinjoeo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yuhaengeo",
+                  "text": "유행어",
+                  "reading": "yuhaengeo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.euneo",
+                  "text": "은어",
+                  "reading": "euneo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.oeraeeo",
+                  "text": "외래어",
+                  "reading": "oeraeeo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-04",
+              "topic": "Standard Korean: he hung up, saying he was busy",
+              "grammar": "A/V-다면서 (saying that …; while claiming)",
+              "items": [
+                {
+                  "id": "ko.pyojuneo",
+                  "text": "표준어",
+                  "reading": "pyojuneo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seoulmal",
+                  "text": "서울말",
+                  "reading": "seoulmal",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uisasotong",
+                  "text": "의사소통",
+                  "reading": "uisasotong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sotong-hada",
+                  "text": "소통하다",
+                  "reading": "sotonghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bangeon",
+                  "text": "방언",
+                  "reading": "bangeon",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-05",
+              "topic": "Impossible, indifferent, unofficial: negative prefixes",
+              "grammar": "word formation: negative prefixes 불-, 무-, 비-, 미- (불가능, 무관심, 비공식, 미완성)",
+              "items": [
+                {
+                  "id": "ko.bulganeung-hada",
+                  "text": "불가능하다",
+                  "reading": "bulganeunghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mugwansim",
+                  "text": "무관심",
+                  "reading": "mugwansim",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bigongsik",
+                  "text": "비공식",
+                  "reading": "bigongsik",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.miwanseong",
+                  "text": "미완성",
+                  "reading": "miwanseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bulchinjeol-hada",
+                  "text": "불친절하다",
+                  "reading": "bulchinjeolhada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-06",
+              "topic": "Possibility, stability, understanding: abstract-noun suffixes",
+              "grammar": "word formation: -성, -감, -력 (가능성, 안정감, 이해력)",
+              "items": [
+                {
+                  "id": "ko.ganeungseong",
+                  "text": "가능성",
+                  "reading": "ganeungseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.anjeonggam",
+                  "text": "안정감",
+                  "reading": "anjeonggam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ihaeryeok",
+                  "text": "이해력",
+                  "reading": "ihaeryeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.changuiryeok",
+                  "text": "창의력",
+                  "reading": "changuiryeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jungyoseong",
+                  "text": "중요성",
+                  "reading": "jungyoseong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Why Koreans ask your age: language and hierarchy",
+              "items": [
+                {
+                  "id": "ko.wigye",
+                  "text": "위계",
+                  "reading": "wigye",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seoyeol",
+                  "text": "서열",
+                  "reading": "seoyeol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chinmilgam",
+                  "text": "친밀감",
+                  "reading": "chinmilgam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jonching",
+                  "text": "존칭",
+                  "reading": "jonching",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F11-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Nam explains the Thai polite particles khrap and kha to a Korean friend",
+              "items": [
+                {
+                  "id": "ko.eomi",
+                  "text": "어미",
+                  "reading": "eomi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gongsonham",
+                  "text": "공손함",
+                  "reading": "gongsonham",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daeeung-hada",
+                  "text": "대응하다",
+                  "reading": "daeeunghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.namnyeo",
+                  "text": "남녀",
+                  "reading": "namnyeo",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F12",
+          "title_th": "วิทยาศาสตร์และอนาคต",
+          "goal_th": "พูดถึงความก้าวหน้าทางวิทยาศาสตร์และเทคโนโลยี และคาดการณ์ชีวิตในอนาคตได้",
+          "scenario": "B is a guide at a science museum exhibition about the future. Nam must ask how certain technologies work, give their own predictions about life in 2050, and discuss one benefit and one risk.",
+          "lessons": [
+            {
+              "id": "ko-F12-01",
+              "topic": "Space: it is expected that…",
+              "grammar": "V-(으)ㄹ 것으로 보이다/예상되다 (is expected to; news style)",
+              "items": [
+                {
+                  "id": "ko.gwahakja",
+                  "text": "과학자",
+                  "reading": "gwahakja",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uju",
+                  "text": "우주",
+                  "reading": "uju",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tamsa",
+                  "text": "탐사",
+                  "reading": "tamsa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haengseong",
+                  "text": "행성",
+                  "reading": "haengseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yecheuk-hada",
+                  "text": "예측하다",
+                  "reading": "yecheukada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-02",
+              "topic": "Medicine: if we had had a vaccine…",
+              "grammar": "A/V-았/었더라면 (if … had)",
+              "items": [
+                {
+                  "id": "ko.baeksin",
+                  "text": "백신",
+                  "reading": "baeksin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gaebal-hada",
+                  "text": "개발하다",
+                  "reading": "gaebalhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeonyeombyeong",
+                  "text": "전염병",
+                  "reading": "jeonyeombyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chiryoje",
+                  "text": "치료제",
+                  "reading": "chiryoje",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.uihak",
+                  "text": "의학",
+                  "reading": "uihak",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-03",
+              "topic": "Once no more than science fiction",
+              "grammar": "N에 불과하다 (be no more than)",
+              "items": [
+                {
+                  "id": "ko.gongsang-gwahak",
+                  "text": "공상 과학",
+                  "reading": "gongsang gwahak",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.silhyeondoeda",
+                  "text": "실현되다",
+                  "reading": "silhyeondoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jayul-juhaeng",
+                  "text": "자율 주행",
+                  "reading": "jayul juhaeng",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.deuron",
+                  "text": "드론",
+                  "reading": "deuron",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gasang-hyeonsil",
+                  "text": "가상 현실",
+                  "reading": "gasang hyeonsil",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-04",
+              "topic": "Scientists succeeded in…",
+              "grammar": "V-는 데 성공하다/실패하다 (succeed/fail in doing)",
+              "items": [
+                {
+                  "id": "ko.silheom",
+                  "text": "실험",
+                  "reading": "silheom",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.balgyeon-hada",
+                  "text": "발견하다",
+                  "reading": "balgyeonhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.balmyeong-hada",
+                  "text": "발명하다",
+                  "reading": "balmyeonghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wolli",
+                  "text": "원리",
+                  "reading": "wolli",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seonggongjeok",
+                  "text": "성공적",
+                  "reading": "seonggongjeok",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-05",
+              "topic": "By using data…",
+              "grammar": "V-(으)ㅁ으로써 (by doing; by means of)",
+              "items": [
+                {
+                  "id": "ko.deiteo",
+                  "text": "데이터",
+                  "reading": "deiteo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bunseok-hada",
+                  "text": "분석하다",
+                  "reading": "bunseokada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jadonghwa",
+                  "text": "자동화",
+                  "reading": "jadonghwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daeche-hada",
+                  "text": "대체하다",
+                  "reading": "daechehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ingan",
+                  "text": "인간",
+                  "reading": "ingan",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-06",
+              "topic": "Risks: I suspect we'll need new rules",
+              "grammar": "A/V-지 않을까 싶다 (I suspect that …)",
+              "items": [
+                {
+                  "id": "ko.yulli",
+                  "text": "윤리",
+                  "reading": "yulli",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wiheomseong",
+                  "text": "위험성",
+                  "reading": "wiheomseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tongje-hada",
+                  "text": "통제하다",
+                  "reading": "tongjehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sasaenghwal",
+                  "text": "사생활",
+                  "reading": "sasaenghwal",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bujagyong",
+                  "text": "부작용",
+                  "reading": "bujagyong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Korea's lunar orbiter and the new space race",
+              "items": [
+                {
+                  "id": "ko.balsa-hada",
+                  "text": "발사하다",
+                  "reading": "balsahada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwedo",
+                  "text": "궤도",
+                  "reading": "gwedo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ujuseon",
+                  "text": "우주선",
+                  "reading": "ujuseon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wiseong",
+                  "text": "위성",
+                  "reading": "wiseong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F12-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Nam and Minjun debate: would you ride in a self-driving taxi?",
+              "items": [
+                {
+                  "id": "ko.anjeonseong",
+                  "text": "안전성",
+                  "reading": "anjeonseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chaegim-sojae",
+                  "text": "책임 소재",
+                  "reading": "chaegim sojae",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.silloe-hada",
+                  "text": "신뢰하다",
+                  "reading": "silloehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.unjeondae",
+                  "text": "운전대",
+                  "reading": "unjeondae",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F13",
+          "title_th": "พาเที่ยวเมืองไทย",
+          "goal_th": "แนะนำสถานที่ อาหาร และมารยาทในไทยให้คนเกาหลีได้อย่างละเอียด และรับมือปัญหาระหว่างเที่ยวได้",
+          "scenario": "B is 이 선생님, who has arrived in Bangkok for a week's holiday and asks Nam to be her guide. Nam must plan a one-day route, explain temple etiquette and Thai customs, and handle a small problem such as a sudden downpour or a tuk-tuk scam.",
+          "lessons": [
+            {
+              "id": "ko-F13-01",
+              "topic": "First impressions: I noticed Thai people smile a lot",
+              "grammar": "A/V-더라 (반말 retrospective: I noticed …)",
+              "items": [
+                {
+                  "id": "ko.miso",
+                  "text": "미소",
+                  "reading": "miso",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gwangwanggaek",
+                  "text": "관광객",
+                  "reading": "gwangwanggaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyeonjiin",
+                  "text": "현지인",
+                  "reading": "hyeonjiin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gilgeori-eumsik",
+                  "text": "길거리 음식",
+                  "reading": "gilgeori eumsik",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.chingeun-hada",
+                  "text": "친근하다",
+                  "reading": "chingeunhada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-02",
+              "topic": "Street food: buy mangoes and bring them back",
+              "grammar": "V-아/어다(가) (do something and then take it elsewhere: 사다가)",
+              "items": [
+                {
+                  "id": "ko.manggo",
+                  "text": "망고",
+                  "reading": "manggo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.durian",
+                  "text": "두리안",
+                  "reading": "durian",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.kokoneot",
+                  "text": "코코넛",
+                  "reading": "kokoneot",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.heungjeong-hada",
+                  "text": "흥정하다",
+                  "reading": "heungjeonghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nojeom",
+                  "text": "노점",
+                  "reading": "nojeom",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-03",
+              "topic": "Temple dress code: change first, then go in",
+              "grammar": "V-고서 (after doing, then; emphasis on order)",
+              "items": [
+                {
+                  "id": "ko.bokjang",
+                  "text": "복장",
+                  "reading": "bokjang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.minsomae",
+                  "text": "민소매",
+                  "reading": "minsomae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bulsang",
+                  "text": "불상",
+                  "reading": "bulsang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chambae-hada",
+                  "text": "참배하다",
+                  "reading": "chambaehada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeonggeon-hada",
+                  "text": "경건하다",
+                  "reading": "gyeonggeonhada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-04",
+              "topic": "I was going to take a tuk-tuk, but…",
+              "grammar": "V-(으)려다(가) (was going to …, but)",
+              "items": [
+                {
+                  "id": "ko.tuktuk",
+                  "text": "툭툭",
+                  "reading": "tuktuk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.miteogi",
+                  "text": "미터기",
+                  "reading": "miteogi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sagi",
+                  "text": "사기",
+                  "reading": "sagi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dang-hada",
+                  "text": "당하다",
+                  "reading": "danghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hogaek-haengwi",
+                  "text": "호객 행위",
+                  "reading": "hogaek haengwi",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-05",
+              "topic": "Rainy season: the roads are often flooded",
+              "grammar": "A/V-기 일쑤이다 (often, unfortunately)",
+              "items": [
+                {
+                  "id": "ko.seukol",
+                  "text": "스콜",
+                  "reading": "seukol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sonagi",
+                  "text": "소나기",
+                  "reading": "sonagi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chimsudoeda",
+                  "text": "침수되다",
+                  "reading": "chimsudoeda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeongche",
+                  "text": "정체",
+                  "reading": "jeongche",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ubi",
+                  "text": "우비",
+                  "reading": "ubi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-06",
+              "topic": "Thai taboos: the head is sacred, so…",
+              "grammar": "A/V-(으)니 (since; written/formal)",
+              "items": [
+                {
+                  "id": "ko.sinseong-hada",
+                  "text": "신성하다",
+                  "reading": "sinseonghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hapjang-hada",
+                  "text": "합장하다",
+                  "reading": "hapjanghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.meorireul-manjida",
+                  "text": "머리를 만지다",
+                  "reading": "meorireul manjida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.ballo-garikida",
+                  "text": "발로 가리키다",
+                  "reading": "ballo garikida",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Guidebook page: three must-see temples in Bangkok",
+              "items": [
+                {
+                  "id": "ko.tap",
+                  "text": "탑",
+                  "reading": "tap",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wabul",
+                  "text": "와불",
+                  "reading": "wabul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hwaryeo-hada",
+                  "text": "화려하다",
+                  "reading": "hwaryeohada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geumbit",
+                  "text": "금빛",
+                  "reading": "geumbit",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F13-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Messages from 이 선생님 to Nam during and after her trip",
+              "items": [
+                {
+                  "id": "ko.gosaeng-hada",
+                  "text": "고생하다",
+                  "reading": "gosaenghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sinsereul-jida",
+                  "text": "신세를 지다",
+                  "reading": "sinsereul jida",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.eunhye",
+                  "text": "은혜",
+                  "reading": "eunhye",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.baeung-hada",
+                  "text": "배웅하다",
+                  "reading": "baeunghada",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F14",
+          "title_th": "ความสำเร็จและความล้มเหลว",
+          "goal_th": "เล่าเรื่องความพยายาม ความล้มเหลว และบทเรียนที่ได้จากประสบการณ์ได้",
+          "scenario": "B is a Korean journalist interviewing Nam for a campus magazine about international students' challenges. Nam must describe a failure, explain how they overcame it, and say what success means to them.",
+          "lessons": [
+            {
+              "id": "ko-F14-01",
+              "topic": "After years of effort",
+              "grammar": "V-(으)ㄴ 끝에 (after (long effort))",
+              "items": [
+                {
+                  "id": "ko.kkeungi",
+                  "text": "끈기",
+                  "reading": "kkeungi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.innae",
+                  "text": "인내",
+                  "reading": "innae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeolsil",
+                  "text": "결실",
+                  "reading": "gyeolsil",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.maetda",
+                  "text": "맺다",
+                  "reading": "maetda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sueopsi",
+                  "text": "수없이",
+                  "reading": "sueopsi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-02",
+              "topic": "Determination: I will pass, no matter what",
+              "grammar": "V-고 말겠다 (I will definitely; determination)",
+              "items": [
+                {
+                  "id": "ko.dajim-hada",
+                  "text": "다짐하다",
+                  "reading": "dajimhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gago",
+                  "text": "각오",
+                  "reading": "gago",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ireul-angmulda",
+                  "text": "이를 악물다",
+                  "reading": "ireul angmulda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.uiji",
+                  "text": "의지",
+                  "reading": "uiji",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-03",
+              "topic": "Even if I have to stay up all night",
+              "grammar": "V-아/어서라도 (even by doing)",
+              "items": [
+                {
+                  "id": "ko.huisaeng-hada",
+                  "text": "희생하다",
+                  "reading": "huisaenghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.daega",
+                  "text": "대가",
+                  "reading": "daega",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chireuda",
+                  "text": "치르다",
+                  "reading": "chireuda",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gipilko",
+                  "text": "기필코",
+                  "reading": "gipilko",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-04",
+              "topic": "Thanks to failing once…",
+              "grammar": "V-(으)ㄴ 덕분에 (thanks to having done)",
+              "items": [
+                {
+                  "id": "ko.jwajeol-hada",
+                  "text": "좌절하다",
+                  "reading": "jwajeolhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.kkaedareum",
+                  "text": "깨달음",
+                  "reading": "kkaedareum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mitgeoreum",
+                  "text": "밑거름",
+                  "reading": "mitgeoreum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dasi-ireoseoda",
+                  "text": "다시 일어서다",
+                  "reading": "dasi ireoseoda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-05",
+              "topic": "Without effort, there's no success",
+              "grammar": "V-지 않고서는 (without doing, (cannot))",
+              "items": [
+                {
+                  "id": "ko.bigyeol",
+                  "text": "비결",
+                  "reading": "bigyeol",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seonggongdam",
+                  "text": "성공담",
+                  "reading": "seonggongdam",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.kkujunham",
+                  "text": "꾸준함",
+                  "reading": "kkujunham",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.un",
+                  "text": "운",
+                  "reading": "un",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.tagonada",
+                  "text": "타고나다",
+                  "reading": "tagonada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-06",
+              "topic": "Review lesson: telling causes and results",
+              "grammar": "review of cause-and-result patterns (-아/어서, -기 때문에, -느라고, -는 바람에, -(으)ㄴ 덕분에)",
+              "items": [
+                {
+                  "id": "ko.wondongnyeok",
+                  "text": "원동력",
+                  "reading": "wondongnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeonhwanjeom",
+                  "text": "전환점",
+                  "reading": "jeonhwanjeom",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeolgwajeogeuro",
+                  "text": "결과적으로",
+                  "reading": "gyeolgwajeogeuro",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gachi-value",
+                  "text": "가치",
+                  "reading": "gachi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Profile of a Korean athlete who came back after a serious injury",
+              "items": [
+                {
+                  "id": "ko.jaegi-hada",
+                  "text": "재기하다",
+                  "reading": "jaegihada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.euntoe",
+                  "text": "은퇴",
+                  "reading": "euntoe",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.girok",
+                  "text": "기록",
+                  "reading": "girok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geummedal",
+                  "text": "금메달",
+                  "reading": "geummedal",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F14-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary after failing TOPIK level 4 the first time",
+              "items": [
+                {
+                  "id": "ko.damdam-hada",
+                  "text": "담담하다",
+                  "reading": "damdamhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.badadeurida",
+                  "text": "받아들이다",
+                  "reading": "badadeurida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaedojeon",
+                  "text": "재도전",
+                  "reading": "jaedojeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaman-hada",
+                  "text": "자만하다",
+                  "reading": "jamanhada",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F15",
+          "title_th": "ความเชื่อและโชคลาง",
+          "goal_th": "เล่าความเชื่อและโชคลางของไทยและเกาหลี และแสดงความเห็นต่อความเชื่อเหล่านั้นได้",
+          "scenario": "B is 김민준, who is nervous before an exam and refuses to eat seaweed soup. Nam must ask about Korean superstitions, explain Thai beliefs such as lucky numbers and spirit houses, and share their own view.",
+          "lessons": [
+            {
+              "id": "ko-F15-01",
+              "topic": "Superstitions: people say you shouldn't…",
+              "grammar": "A/V-다고들 하다 (people say that)",
+              "items": [
+                {
+                  "id": "ko.misin",
+                  "text": "미신",
+                  "reading": "misin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mideum",
+                  "text": "믿음",
+                  "reading": "mideum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jingkeuseu",
+                  "text": "징크스",
+                  "reading": "jingkeuseu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haengun",
+                  "text": "행운",
+                  "reading": "haengun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.burun",
+                  "text": "불운",
+                  "reading": "burun",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-02",
+              "topic": "Unlucky numbers: because it sounds like 'death'",
+              "grammar": "A/V-다는 이유로 (for the reason that)",
+              "items": [
+                {
+                  "id": "ko.bulgil-hada",
+                  "text": "불길하다",
+                  "reading": "bulgilhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pi-hada",
+                  "text": "피하다",
+                  "reading": "pihada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.cheungsu",
+                  "text": "층수",
+                  "reading": "cheungsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.haengunui-sutja",
+                  "text": "행운의 숫자",
+                  "reading": "haengunui sutja",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.sangjingjeok",
+                  "text": "상징적",
+                  "reading": "sangjingjeok",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-03",
+              "topic": "Dreams or fortune-telling",
+              "grammar": "N(이)든 N(이)든 (whether … or …)",
+              "items": [
+                {
+                  "id": "ko.haemong",
+                  "text": "해몽",
+                  "reading": "haemong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.unse",
+                  "text": "운세",
+                  "reading": "unse",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeomeul-boda",
+                  "text": "점을 보다",
+                  "reading": "jeomeul boda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.saju",
+                  "text": "사주",
+                  "reading": "saju",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gunghap",
+                  "text": "궁합",
+                  "reading": "gunghap",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-04",
+              "topic": "If a mirror happens to break…",
+              "grammar": "A/V-기라도 하면 (if by any chance)",
+              "items": [
+                {
+                  "id": "ko.geoul",
+                  "text": "거울",
+                  "reading": "geoul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bujeok",
+                  "text": "부적",
+                  "reading": "bujeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jinida",
+                  "text": "지니다",
+                  "reading": "jinida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.aegun",
+                  "text": "액운",
+                  "reading": "aegun",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-05",
+              "topic": "Zodiac signs and blood types: should I believe it or not?",
+              "grammar": "V-(으)ㄹ까 말까 하다 (can't decide whether to)",
+              "items": [
+                {
+                  "id": "ko.tti",
+                  "text": "띠",
+                  "reading": "tti",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.byeoljari",
+                  "text": "별자리",
+                  "reading": "byeoljari",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyeoraekhyeong",
+                  "text": "혈액형",
+                  "reading": "hyeoraekhyeong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaemiro",
+                  "text": "재미로",
+                  "reading": "jaemiro",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seonggyeok-yuhyeong",
+                  "text": "성격 유형",
+                  "reading": "seonggyeok yuhyeong",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-06",
+              "topic": "Offerings: because they say it brings luck",
+              "grammar": "A/V-대서 (because they said …: -다고 해서)",
+              "items": [
+                {
+                  "id": "ko.sadang",
+                  "text": "사당",
+                  "reading": "sadang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jemul",
+                  "text": "제물",
+                  "reading": "jemul",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bogeul-bilda",
+                  "text": "복을 빌다",
+                  "reading": "bogeul bilda",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ko.gongyang",
+                  "text": "공양",
+                  "reading": "gongyang",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hyangeul-piuda",
+                  "text": "향을 피우다",
+                  "reading": "hyangeul piuda",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Seaweed soup and sticky candy: Korean exam superstitions",
+              "items": [
+                {
+                  "id": "ko.miyeokguk",
+                  "text": "미역국",
+                  "reading": "miyeokguk",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yeot",
+                  "text": "엿",
+                  "reading": "yeot",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.chapssaltteok",
+                  "text": "찹쌀떡",
+                  "reading": "chapssaltteok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hapgyeok-giwon",
+                  "text": "합격 기원",
+                  "reading": "hapgyeok giwon",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F15-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Nam's email to 이 선생님 explaining Thai spirit houses",
+              "items": [
+                {
+                  "id": "ko.suhosin",
+                  "text": "수호신",
+                  "reading": "suhosin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jeongseongkkeot",
+                  "text": "정성껏",
+                  "reading": "jeongseongkkeot",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeongui",
+                  "text": "경의",
+                  "reading": "gyeongui",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.hwahwan",
+                  "text": "화환",
+                  "reading": "hwahwan",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ko-F16",
+          "title_th": "การเขียนเรียงความแสดงความคิดเห็น",
+          "goal_th": "เขียนเรียงความแสดงความคิดเห็นแบบข้อสอบ TOPIK ด้วยภาษาเขียน และอธิบายเหตุผลของตนได้",
+          "scenario": "B is 이 선생님 giving feedback on Nam's TOPIK practice essay about studying abroad. Nam must explain their thesis and arguments orally, defend them against her questions, and agree on how to improve the conclusion.",
+          "lessons": [
+            {
+              "id": "ko-F16-01",
+              "topic": "Essay structure: in order to…, we must…",
+              "grammar": "V-기 위해서는 V-아/어야 한다 (essay formula: in order to …, one must)",
+              "items": [
+                {
+                  "id": "ko.seoron",
+                  "text": "서론",
+                  "reading": "seoron",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bollon",
+                  "text": "본론",
+                  "reading": "bollon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeollon",
+                  "text": "결론",
+                  "reading": "gyeollon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.juje",
+                  "text": "주제",
+                  "reading": "juje",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nonsul",
+                  "text": "논술",
+                  "reading": "nonsul",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-02",
+              "topic": "Listing arguments: first, second, also",
+              "grammar": "enumerating arguments (첫째, 둘째, 또한, 마지막으로)",
+              "items": [
+                {
+                  "id": "ko.cheotjjae",
+                  "text": "첫째",
+                  "reading": "cheotjjae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.duljjae",
+                  "text": "둘째",
+                  "reading": "duljjae",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ttohan",
+                  "text": "또한",
+                  "reading": "ttohan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.nongeo",
+                  "text": "논거",
+                  "reading": "nongeo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dwitbatchim-hada",
+                  "text": "뒷받침하다",
+                  "reading": "dwitbatchimhada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-03",
+              "topic": "Despite the costs…",
+              "grammar": "N에도 불구하고 / A/V-(으)ㄴ/는데도 불구하고 (despite)",
+              "items": [
+                {
+                  "id": "ko.haeoe",
+                  "text": "해외",
+                  "reading": "haeoe",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeonmun",
+                  "text": "견문",
+                  "reading": "gyeonmun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.sigak",
+                  "text": "시각",
+                  "reading": "sigak",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dayangseong",
+                  "text": "다양성",
+                  "reading": "dayangseong",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.geullobeol",
+                  "text": "글로벌",
+                  "reading": "geullobeol",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-04",
+              "topic": "Conclusions: it is desirable to…",
+              "grammar": "V-는 것이 바람직하다 (it is desirable to; essay conclusions)",
+              "items": [
+                {
+                  "id": "ko.sinjung-hada",
+                  "text": "신중하다",
+                  "reading": "sinjunghada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pandan-hada",
+                  "text": "판단하다",
+                  "reading": "pandanhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.seontaek",
+                  "text": "선택",
+                  "reading": "seontaek",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.mujogeon",
+                  "text": "무조건",
+                  "reading": "mujogeon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gyeoljeongeul-naerida",
+                  "text": "결정을 내리다",
+                  "reading": "gyeoljeongeul naerida",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-05",
+              "topic": "Balanced arguments: it is not that it is bad",
+              "grammar": "A/V-(으)ㄴ/는 것은 아니다 (it is not that …)",
+              "items": [
+                {
+                  "id": "ko.ilbangjeok",
+                  "text": "일방적",
+                  "reading": "ilbangjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.gaekgwanjeok",
+                  "text": "객관적",
+                  "reading": "gaekgwanjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jugwanjeok",
+                  "text": "주관적",
+                  "reading": "jugwanjeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ballon",
+                  "text": "반론",
+                  "reading": "ballon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.pyeonhyangdoeda",
+                  "text": "편향되다",
+                  "reading": "pyeonhyangdoeda",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-06",
+              "topic": "Review lesson: polishing a TOPIK essay",
+              "grammar": "review of written style and connectors (-ㄴ/는다, -(으)며, -기 때문이다, 따라서, 그러므로)",
+              "items": [
+                {
+                  "id": "ko.geureomeuro",
+                  "text": "그러므로",
+                  "reading": "geureomeuro",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.yoyak-hada",
+                  "text": "요약하다",
+                  "reading": "yoyakada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.wongoji",
+                  "text": "원고지",
+                  "reading": "wongoji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.ttuieosseugi",
+                  "text": "띄어쓰기",
+                  "reading": "ttuieosseugi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.toego-hada",
+                  "text": "퇴고하다",
+                  "reading": "toegohada",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Model essay: the pros and cons of studying abroad",
+              "items": [
+                {
+                  "id": "ko.gyeongjaengnyeok",
+                  "text": "경쟁력",
+                  "reading": "gyeongjaengnyeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.jaripsim",
+                  "text": "자립심",
+                  "reading": "jaripsim",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.oeroum",
+                  "text": "외로움",
+                  "reading": "oeroum",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.dojeon-jeongsin",
+                  "text": "도전 정신",
+                  "reading": "dojeon jeongsin",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "ko-F16-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "이 선생님's written feedback on Nam's essay",
+              "items": [
+                {
+                  "id": "ko.guchejeok",
+                  "text": "구체적",
+                  "reading": "guchejeok",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.bowan-hada",
+                  "text": "보완하다",
+                  "reading": "bowanhada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.myeonghwak-hada",
+                  "text": "명확하다",
+                  "reading": "myeonghwakada",
+                  "kind": "word"
+                },
+                {
+                  "id": "ko.cheomsak",
+                  "text": "첨삭",
+                  "reading": "cheomsak",
                   "kind": "word"
                 }
               ]
