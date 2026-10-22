@@ -29,32 +29,58 @@ function group(target: Target, entries: Entry[]): Duplicate[] {
   return out;
 }
 
-/** Items of the written content, plus planned items from content/_plan/<target>*.json when present. */
-export function findDuplicates(loaded: Loaded, contentRoot?: string): Duplicate[] {
-  const out: Duplicate[] = [];
-  for (const [target, { lessons }] of loaded.targets) {
-    const entries: Entry[] = [];
-    for (const lesson of lessons.values()) {
-      for (const item of lesson.items) entries.push({ ...item, where: lesson.id });
-    }
-    const planDir = contentRoot && join(contentRoot, '_plan');
-    if (planDir && existsSync(planDir)) {
-      for (const file of readdirSync(planDir).filter((f) => f.startsWith(target) && f.endsWith('.json'))) {
-        let plan: { stages?: { units?: { lessons?: { id: string; items?: Entry[] }[] }[] }[] };
-        try {
-          plan = JSON.parse(readFileSync(join(planDir, file), 'utf8'));
-        } catch {
-          continue; // a plan still being written
-        }
-        for (const stage of plan.stages ?? []) {
-          for (const unit of stage.units ?? []) {
-            for (const lesson of unit.lessons ?? []) {
-              for (const item of lesson.items ?? []) entries.push({ ...item, where: `plan ${lesson.id}` });
-            }
+/** An item id taught (listed as an item) in more than one lesson — usually an unintended repeat. */
+export type Retaught = { target: Target; id: string; where: string[] };
+
+function entriesOf(loaded: Loaded, target: Target, contentRoot?: string): Entry[] {
+  const entries: Entry[] = [];
+  const t = loaded.targets.get(target);
+  for (const lesson of t?.lessons.values() ?? []) {
+    for (const item of lesson.items) entries.push({ ...item, where: lesson.id });
+  }
+  const planDir = contentRoot && join(contentRoot, '_plan');
+  if (planDir && existsSync(planDir)) {
+    for (const file of readdirSync(planDir).filter((f) => f.startsWith(target) && f.endsWith('.json'))) {
+      let plan: { stages?: { units?: { lessons?: { id: string; items?: Entry[] }[] }[] }[] };
+      try {
+        plan = JSON.parse(readFileSync(join(planDir, file), 'utf8'));
+      } catch {
+        continue; // a plan still being written
+      }
+      for (const stage of plan.stages ?? []) {
+        for (const unit of stage.units ?? []) {
+          for (const lesson of unit.lessons ?? []) {
+            // A planned lesson that is already written is represented by its file.
+            if (t?.lessons.has(lesson.id)) continue;
+            for (const item of lesson.items ?? []) entries.push({ ...item, where: `plan ${lesson.id}` });
           }
         }
       }
     }
+  }
+  return entries;
+}
+
+/** Item ids listed in more than one lesson (written or planned). */
+export function findRetaught(loaded: Loaded, contentRoot?: string): Retaught[] {
+  const out: Retaught[] = [];
+  for (const target of loaded.targets.keys()) {
+    const byId = new Map<string, string[]>();
+    for (const e of entriesOf(loaded, target, contentRoot)) {
+      const where = byId.get(e.id) ?? [];
+      if (!where.includes(e.where)) where.push(e.where);
+      byId.set(e.id, where);
+    }
+    for (const [id, where] of byId) if (where.length > 1) out.push({ target, id, where });
+  }
+  return out;
+}
+
+/** Items of the written content, plus planned items from content/_plan/<target>*.json when present. */
+export function findDuplicates(loaded: Loaded, contentRoot?: string): Duplicate[] {
+  const out: Duplicate[] = [];
+  for (const target of loaded.targets.keys()) {
+    const entries = entriesOf(loaded, target, contentRoot);
     out.push(...group(target, entries));
   }
   return out;

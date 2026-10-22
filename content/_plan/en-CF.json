@@ -2628,7 +2628,7 @@
             {
               "id": "en-C11-02",
               "topic": "How well do you play?",
-              "grammar": "adverbs of manner (quickly, slowly, carefully, well)",
+              "grammar": "adverbs of manner (quickly, easily, carefully, badly, well)",
               "items": [
                 {
                   "id": "en.quickly",
@@ -2637,9 +2637,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.slowly",
-                  "text": "slowly",
-                  "reading": "ˈsloʊli",
+                  "id": "en.easily",
+                  "text": "easily",
+                  "reading": "ˈiːzəli",
                   "kind": "word"
                 },
                 {
@@ -3993,13 +3993,13 @@
             },
             {
               "id": "en-C16-06",
-              "topic": "I'd love to be a vet",
+              "topic": "I'd love to be a zookeeper",
               "grammar": "would for imagined preferences (I'd love to be… / I wouldn't like to be…)",
               "items": [
                 {
-                  "id": "en.vet",
-                  "text": "vet",
-                  "reading": "vɛt",
+                  "id": "en.zookeeper",
+                  "text": "zookeeper",
+                  "reading": "ˈzuːkiːpər",
                   "kind": "word"
                 },
                 {
@@ -4208,10 +4208,10 @@
               "grammar": "been vs gone (She's been to Japan. / She's gone to Japan.)",
               "items": [
                 {
-                  "id": "en.vacation",
-                  "text": "vacation",
-                  "reading": "veɪˈkeɪʃən",
-                  "kind": "word"
+                  "id": "en.time-off",
+                  "text": "time off",
+                  "reading": "ˌtaɪm ˈɔːf",
+                  "kind": "phrase"
                 },
                 {
                   "id": "en.go-away",
@@ -9631,10 +9631,10 @@
               "grammar": "question word + to-infinitive (I don't know what to study / where to go.)",
               "items": [
                 {
-                  "id": "en.choose",
-                  "text": "choose",
-                  "reading": "tʃuːz",
-                  "kind": "word"
+                  "id": "en.apply-to",
+                  "text": "apply to",
+                  "reading": "əˈplaɪ tuː",
+                  "kind": "phrase"
                 },
                 {
                   "id": "en.option",
