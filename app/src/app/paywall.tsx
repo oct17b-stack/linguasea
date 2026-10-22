@@ -14,7 +14,7 @@ import { loadPlans, PLACEHOLDER_PLANS, purchase, purchasesReady, restore, type P
 import { useApp } from '@/state/app-state';
 
 /** What Premium really includes (keep in step with the store listing). */
-const FEATURES = ['allLevels', 'speaking', 'readers', 'offline'];
+const FEATURES = ['allLevels', 'readers', 'practice', 'speaking'];
 
 export default function Paywall() {
   const { l1, premium, refreshPremium, unlockForTesting, t } = useApp();

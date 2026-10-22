@@ -172,17 +172,21 @@ const PLACEMENT_TYPES: ChoiceExercise['type'][] = ['choose-meaning', 'listen-cho
  * A short quiz on the vocabulary a stage teaches, spread over its units.
  * Passing it (see placementPassed) lets someone who already knows the basics skip the stage.
  */
-export function placementSteps(course: CourseBundle, stageId: string, count = 12, seed = Date.now()): Step[] {
+export function placementSteps(course: CourseBundle, stageId: string, count = 16, seed = Date.now()): Step[] {
   const rand = seededRandom(seed);
   const pool = coursePool(course);
   const stage = course.course.stages.find((s) => s.id === stageId);
   if (!stage) return [];
-  // Round-robin over units so every topic of the stage is asked about.
-  const perUnit = stage.units.map((u) =>
-    shuffle(
-      [...pool.values()].filter((w) => u.lessons.includes(w.lesson) && (w.kind === 'word' || w.kind === 'phrase')),
-      rand,
+  // Round-robin over the units (in random order, so that with more units than questions
+  // every unit can come up) so the whole stage is asked about, not just its first units.
+  const perUnit = shuffle(
+    stage.units.map((u) =>
+      shuffle(
+        [...pool.values()].filter((w) => u.lessons.includes(w.lesson) && (w.kind === 'word' || w.kind === 'phrase')),
+        rand,
+      ),
     ),
+    rand,
   );
   const picked: Word[] = [];
   for (let round = 0; picked.length < count && perUnit.some((list) => list.length > round); round++) {

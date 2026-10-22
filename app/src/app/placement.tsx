@@ -16,10 +16,11 @@ import { useTheme } from '@/hooks/use-theme';
 import { stopAudio } from '@/lib/audio';
 import { useApp } from '@/state/app-state';
 
-/** Stages a placement test can skip (A free, B Premium content). */
-const PLACEMENT_STAGES: Stage[] = ['A', 'B'];
 /** Fewer questions than this cannot tell anything. */
 const MIN_QUESTIONS = 4;
+
+/** Every stage can be tested, in course order; passing one marks its lessons done (paid stages stay Premium). */
+const stagesOf = (course: CourseBundle): Stage[] => course.course.stages.map((s) => s.id);
 
 type Phase =
   | { kind: 'ask' }
@@ -28,7 +29,7 @@ type Phase =
   | { kind: 'nothing' };
 
 function testable(course: CourseBundle, completed: Record<string, string>): Stage[] {
-  return PLACEMENT_STAGES.filter((s) => {
+  return stagesOf(course).filter((s) => {
     const lessons = stageLessons(course.course, s);
     return lessons.length > 0 && lessons.some((id) => !(id in completed));
   });
@@ -41,7 +42,7 @@ function quiz(course: CourseBundle, stage: Stage): Phase {
 
 /**
  * First visit to a course: "studied this before?" → start at A, or a short placement test per stage
- * (A, then B) that marks the stage's lessons done when passed. Also reachable from Settings (`?start=test`).
+ * (A, then B, … up to F) that marks the stage's lessons done when passed. Also reachable from Settings (`?start=test`).
  */
 export default function Placement() {
   const { start } = useLocalSearchParams<{ start?: string }>();
@@ -102,8 +103,9 @@ export default function Placement() {
     );
   }
 
-  // Result: passed A → B can be tested next (if there is a B to test).
-  const nextStage = phase.passed ? PLACEMENT_STAGES[PLACEMENT_STAGES.indexOf(phase.stage) + 1] : undefined;
+  // Result: a passed stage lets the learner test the next one (if there is one to test).
+  const stages = stagesOf(course);
+  const nextStage = phase.passed ? stages[stages.indexOf(phase.stage) + 1] : undefined;
   const canTestNext = !!nextStage && stageLessons(course.course, nextStage).length > 0;
   const startAt = phase.passed ? (nextStage ?? phase.stage) : phase.stage;
   return (

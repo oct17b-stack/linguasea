@@ -1,6 +1,6 @@
 # 商店上架资料（App Store / Google Play）
 
-> 版本 2026-10-22。文案都按 App 现在真实具备的功能写：四门语言（中、英、日、韩）、泰语讲解、A–B 两个阶段（对齐 HSK 1 / JLPT N5 / TOPIK I / CEFR A1）、间隔复习、发音打分、AI 口语老师（ครู AI）、连胜和 XP、每日提醒。
+> 版本 2026-10-22。文案都按 App 现在真实具备的功能写：四门语言（中、英、日、韩）、泰语讲解、A–F 六个阶段（每门约 200 小时；A 免费，B–F 订阅；F 结束时内容对齐 HSK 4 / JLPT N3 / TOPIK II 3 级 / CEFR B1）、分级读物、练习和单元测试、分级测试、间隔复习、发音打分、AI 口语老师（ครู AI）、连胜和 XP、每日提醒。
 > **不要**写还没做的功能：模拟考、离线下载、排行榜、LINE 登录、家庭版。上架前用正式版对照一遍（见第 8 节）。
 > 括号里的数字是"已用字数/上限"，按商店的算法（泰文的声调和元音符号也算字）用脚本数过。改文案后要重新数。
 > 网址里的 `<域名>` / `<domain>` 换成服务器域名（见 docs/LAUNCH.md 第 2、8 步），例如 `https://api.example.com/legal/privacy-th.html`。
@@ -64,12 +64,12 @@ chinese,japanese,korean,english,thai,hsk,jlpt,topik,pinyin,hiragana,hangul,vocab
 
 ### 1.4 描述（Description，≤4000）
 
-泰语（约 1,770/4000）：
+泰语（约 2,000/4000）：
 
 ```
 เรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลีในแอปเดียว พร้อมคำอธิบายเป็นภาษาไทยทุกบท
 
-LinguaSEA ออกแบบมาสำหรับคนไทยที่อยากเริ่มภาษาใหม่อย่างเป็นขั้นตอน บทเรียนสั้นบทละประมาณ 5–8 นาที เรียนได้ทุกวันแม้มีเวลาน้อย
+LinguaSEA ออกแบบมาสำหรับคนไทยที่อยากเริ่มภาษาใหม่อย่างเป็นขั้นตอน บทเรียนสั้นบทละประมาณ 6–11 นาที เรียนได้ทุกวันแม้มีเวลาน้อย
 
 ■ 4 ภาษา สมัครครั้งเดียวเรียนได้ทุกภาษา
 • ภาษาจีน: เริ่มจากพินอินและวรรณยุกต์ 4 เสียง
@@ -97,12 +97,15 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 • นับวันเรียนติดกันและสะสมแต้ม XP
 • ตั้งเวลาแจ้งเตือนให้เรียนทุกวัน
 
-■ ระดับชัดเจน
-• ระดับ A (เริ่มต้น) และระดับ B (พื้นฐาน) เทียบกับ HSK 1, JLPT N5, TOPIK I และ CEFR A1
+■ 6 ระดับ จากศูนย์ถึงระดับกลาง
+• ระดับ A–F ภาษาละ 96 หน่วย รวมเนื้อหาประมาณ 200 ชั่วโมงต่อภาษา
+• จบระดับ F เนื้อหาเทียบได้กับ HSK 4, JLPT N3, TOPIK II (ระดับ 3) และ CEFR B1
+• เรื่องสั้นแบ่งระดับพร้อมคำถาม แบบฝึกรวบยอด และแบบทดสอบท้ายหน่วย
+• เคยเรียนมาแล้ว ทำแบบทดสอบวัดระดับเพื่อข้ามบทที่รู้แล้วได้
 
 ■ ฟรีและ Premium
-• ฟรี: บทเรียนระดับ A ทุกภาษา การทบทวน และการตรวจการออกเสียงกับการคุยกับครู AI วันละจำนวนจำกัด
-• Premium: ปลดล็อกบทเรียนระดับ B ทุกภาษา และใช้การตรวจการออกเสียงกับครู AI ได้มากขึ้นต่อวัน
+• ฟรี: บทเรียนระดับ A ครบทุกบทในทุกภาษา การทบทวน และการตรวจการออกเสียงกับการคุยกับครู AI วันละจำนวนจำกัด
+• Premium: ปลดล็อกระดับ B–F ทุกภาษา รวมเรื่องสั้นแบ่งระดับ และใช้การตรวจการออกเสียงกับครู AI ได้มากขึ้นต่อวัน
 • มีแพ็กเกจรายเดือนและรายปี แพ็กเกจรายปีทดลองใช้ฟรี 7 วันสำหรับผู้สมัครใหม่
 
 การสมัครสมาชิกจะต่ออายุอัตโนมัติ เว้นแต่ยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบันหรือช่วงทดลองใช้ฟรี จัดการหรือยกเลิกได้ในการตั้งค่าบัญชี App Store หรือ Google Play
@@ -115,12 +118,12 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 LinguaSEA ไม่มีส่วนเกี่ยวข้องกับองค์กรที่จัดสอบ HSK, JLPT และ TOPIK
 ```
 
-英语（约 2,030/4000）：
+英语（约 2,300/4000）：
 
 ```
 Learn Chinese, English, Japanese and Korean in one app, with every lesson explained in Thai.
 
-LinguaSEA is made for Thai speakers who want to start a new language step by step. Lessons take about 5–8 minutes, so you can study every day even when you're busy.
+LinguaSEA is made for Thai speakers who want to start a new language step by step. Lessons take about 6–11 minutes, so you can study every day even when you're busy.
 
 ■ 4 languages, one subscription
 • Chinese: start with pinyin and the four tones
@@ -148,12 +151,15 @@ LinguaSEA is made for Thai speakers who want to start a new language step by ste
 • Keep your streak and earn XP
 • Set a daily study reminder
 
-■ Clear levels
-• Stage A (beginner) and Stage B (basic), matched to HSK 1, JLPT N5, TOPIK I and CEFR A1
+■ Six levels, from zero to intermediate
+• Levels A–F: 96 units per language, about 200 hours of study
+• After Level F the content is comparable to HSK 4, JLPT N3, TOPIK II (level 3) and CEFR B1
+• Graded stories with questions, practice sessions and unit tests
+• Studied before? Take the placement test and skip what you already know
 
 ■ Free and Premium
-• Free: Stage A lessons in every language, reviews, and a limited number of pronunciation checks and AI tutor turns per day
-• Premium: unlocks Stage B in every language, with more pronunciation checks and AI tutor turns per day
+• Free: every Level A lesson in every language, reviews, and a limited number of pronunciation checks and AI tutor turns per day
+• Premium: unlocks Levels B–F in every language, including the graded stories, with more pronunciation checks and AI tutor turns per day
 • Monthly and yearly plans; the yearly plan has a 7-day free trial for new subscribers
 
 Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period or free trial. Manage or cancel any time in your App Store or Google Play account settings.
@@ -191,8 +197,8 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 
 ### 2.3 首个版本的版本说明（Release notes）
 
-- 泰语：`เวอร์ชันแรก: เรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลี ระดับ A–B พร้อมคำอธิบายภาษาไทย`
-- 英语：`First release: Chinese, English, Japanese and Korean, Stages A–B, explained in Thai.`
+- 泰语：`เวอร์ชันแรก: เรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลี 6 ระดับ (A–F) ประมาณ 200 ชั่วโมงต่อภาษา พร้อมคำอธิบายภาษาไทย`
+- 英语：`First release: Chinese, English, Japanese and Korean in six levels (A–F), about 200 hours each, explained in Thai.`
 
 ### 2.4 其他字段
 
@@ -207,7 +213,7 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 | # | 画面 | 标题（泰语） | 标题（英语） |
 |---|---|---|---|
 | 1 | 选语言（4 门） | 4 ภาษา สมัครครั้งเดียวเรียนได้ทุกภาษา | 4 languages, one subscription |
-| 2 | 首页：A/B 阶段、连胜、XP | เรียนทีละขั้น ตั้งแต่ระดับเริ่มต้น | Step by step, from beginner |
+| 2 | 首页：A–F 阶段地图、连胜、XP | 6 ระดับ จากศูนย์ถึงระดับกลาง | 6 levels, from zero to intermediate |
 | 3 | 新词：泰语意思 + คำอ่าน + 拼音/罗马字 | ความหมายและคำอ่านภาษาไทยทุกคำ | Thai meaning and reading for every word |
 | 4 | 听音选字（中文四声或英语 th/s 这类对比） | ฝึกฟังวรรณยุกต์และเสียงที่คล้ายกัน | Train your ear for tones and similar sounds |
 | 5 | 跟读后的发音分数 | พูดตาม แล้วดูคะแนนการออกเสียงทันที | Speak and get an instant pronunciation score |
@@ -215,13 +221,14 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 | 7 | "รู้ไว้ใช่ว่า" 讲解卡 | อธิบายสั้น ๆ เป็นภาษาไทย | Short notes in Thai |
 | 8 | 复习 | ทบทวนคำศัพท์ก่อนจะลืม | Review words before you forget |
 | 9 | AI 老师对话（带泰语提示和改正） | ฝึกสนทนากับครู AI | Practise conversation with an AI tutor |
+| 10 | 分级读物（泰语译文开关）或单元测试结果 | อ่านเรื่องสั้นแบ่งระดับ | Read graded stories |
 
-Google Play 手机截图最多 8 张：从上面 9 张里去掉一张（建议去掉第 7 张）。
+Google Play 手机截图最多 8 张：从上面 10 张里去掉两张（建议去掉第 7、8 张）。
 
 尺寸：
 
 - **iPhone 6.9 英寸**（1320×2868 或 1290×2796，竖屏）：必需，1–10 张（建议 5–8 张）。
-- **iPad 13 英寸**（2064×2752 或 2048×2732）：`app/app.json` 里 `supportsTablet: true`，所以**必需**。不想做 iPad 版就请开发者改成 `false`。
+- **iPad 13 英寸**：`app/app.json` 里 `supportsTablet: false`（只做手机版），所以**不需要** iPad 截图。以后要上 iPad 版，改成 `true` 并补 2064×2752 或 2048×2732 的截图。
 - **Google Play 手机截图**：2–8 张，竖屏 9:16，建议 1080×1920 或更高。
 - **Google Play 宣传图（Feature graphic）**：1024×500，必需。
 - **Google Play 图标**：512×512 PNG。
@@ -313,7 +320,7 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 
 ```
 LinguaSEA teaches Chinese, English, Japanese and Korean to Thai speakers. No sign-in is needed: the app creates an anonymous account automatically when it first syncs progress or scores pronunciation.
-Stage A lessons are free. Stage B lessons need the Premium subscription (monthly, or yearly with a 7-day free trial), sold with In-App Purchase. To test: choose a language, finish the first lesson, then open a Stage B lesson to see the subscription screen and buy with a Sandbox account. "Restore purchases" is on the same screen.
+Level A lessons are free. Levels B to F need the Premium subscription (monthly, or yearly with a 7-day free trial), sold with In-App Purchase. The interface is in Thai. To test: choose a language, answer "ยังไม่เคยเรียน" (not studied before), finish the first lesson, then tap any Level B lesson on the course map (or the "สมัครสมาชิก" button on the home screen) to see the subscription screen ("สมัครสมาชิก" = subscribe) and buy with a Sandbox account. "Restore purchases" ("กู้คืนการซื้อ") is on the same screen.
 Pronunciation scoring: in a speaking exercise, allow microphone access and record. The recording is sent to our server and Microsoft Azure for scoring and is not stored.
 AI tutor (conversation practice): before the first conversation, a consent screen explains that the learner's answers are sent to Anthropic (Claude) to generate the tutor's replies; the learner can type or speak. Free users get a few turns per day, Premium users more. Inappropriate replies can be reported from the conversation screen; reports go to our support email.
 Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Service are linked on the subscription screen and in Settings.
@@ -331,7 +338,7 @@ Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Servic
 
 - [ ] 名称定稿，所有文案里的 `LinguaSEA` 已替换，字数重新数过。
 - [ ] 文案里的功能和正式版一致：阶段、试用天数、免费 / 付费范围、发音打分和 AI 老师的每日次数。
-- [ ] App 内付费墙（`content/l1/th/ui.json` 的 `paywall.feature.*`）里的"ข้อสอบจำลอง"（模拟考）和"ดาวน์โหลดไว้เรียนออฟไลน์"（离线下载）是**还没有的功能**；上架前必须由开发者删掉或改成真实功能，否则 Apple 会以宣传不存在的功能拒审。（"ฝึกพูดกับครู AI"现在是真实功能。）
+- [ ] App 内付费墙卖点（`content/l1/th/ui.json` 的 `paywall.feature.*`：A–F 全部课程约 200 小时、100 多篇分级读物、练习和单元测试、更多 AI 老师和发音打分次数）和正式版一致；课程写完后用 `npm run hours` 和读物数量核对一遍，不能宣传还没有的功能（模拟考、离线下载等），否则 Apple 会以宣传不存在的功能拒审。
 - [ ] AI 老师：首次使用前的同意界面写明 Anthropic 和发送的内容；对话里有举报入口（Google Play 的 AI 生成内容政策要求）；同意界面和隐私政策 §3.5 一致。
 - [ ] 付费墙和设置页里有隐私政策、服务条款链接；付费墙写清价格、周期、试用和自动续订（Apple 3.1.2）。
 - [ ] 隐私政策、条款、删除数据页、支持页的网址都能打开，占位符已填完（`node docs/legal/build-html.mjs --check` 显示 0 个）。

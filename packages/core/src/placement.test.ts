@@ -23,6 +23,19 @@ describe('placement', () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
+  it('can ask about every unit of the stage, also when it has more units than questions', () => {
+    const units = course.course.stages.find((s) => s.id === 'A')!.units;
+    const unitOf = (lesson: string) => units.find((u) => u.lessons.includes(lesson))!.id;
+    const asked = new Set<string>();
+    for (let seed = 1; seed <= 60; seed++)
+      for (const s of placementSteps(course, 'A', 4, seed)) if (s.kind === 'choose') asked.add(unitOf(s.word.lesson));
+    const withWords = units.filter((u) =>
+      u.lessons.some((id) => course.lessons[id]?.lesson.items.some((i) => i.kind === 'word' || i.kind === 'phrase')),
+    );
+    expect(withWords.length).toBeGreaterThan(4);
+    expect([...asked].sort()).toEqual(withWords.map((u) => u.id).sort());
+  });
+
   it('passes at 80 %', () => {
     expect(placementPassed(8, 10)).toBe(true);
     expect(placementPassed(7, 10)).toBe(false);
