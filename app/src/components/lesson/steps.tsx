@@ -1,4 +1,5 @@
-import type { Choice, Step, Word } from '@linguasea/core';
+import { kindGroup } from '@linguasea/contract';
+import { answersWithText, spoken, type Choice, type Step, type Word } from '@linguasea/core';
 import { useEffect } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
@@ -12,6 +13,7 @@ import { useApp } from '@/state/app-state';
 
 type StepOf<K extends Step['kind']> = Extract<Step, { kind: K }>;
 
+/** Listen / listen slowly. `text` is what TTS reads (item.say when the written form is not speakable). */
 function ListenButtons({ text, voice }: { text: string; voice: string }) {
   const { t } = useApp();
   return (
@@ -53,7 +55,8 @@ export function IntroStep({ step }: { step: StepOf<'intro'> }) {
 
 export function LearnStep({ step, voice }: { step: StepOf<'learn'>; voice: string }) {
   const { t } = useApp();
-  useEffect(() => say(step.word.text, voice), [step.word.text, voice]);
+  const text = spoken(step.word);
+  useEffect(() => say(text, voice), [text, voice]);
   return (
     <Card style={styles.gapLarge}>
       <ThemedText type="smallBold">{t('step.learn')}</ThemedText>
@@ -61,7 +64,7 @@ export function LearnStep({ step, voice }: { step: StepOf<'learn'>; voice: strin
       <ThemedText type="subtitle" style={[styles.centerText, styles.meaning]}>
         {step.word.meaning}
       </ThemedText>
-      <ListenButtons text={step.word.text} voice={voice} />
+      <ListenButtons text={text} voice={voice} />
     </Card>
   );
 }
@@ -106,12 +109,18 @@ export function NoteStep({ step }: { step: StepOf<'note'> }) {
   );
 }
 
-const QUESTION: Record<StepOf<'choose'>['exercise'], string> = {
-  'choose-meaning': 'step.chooseMeaning',
-  'listen-choose': 'step.listenChoose',
-  'choose-text': 'step.chooseText',
-  speak: 'step.speak',
-};
+function questionKey(step: StepOf<'choose'>): string {
+  switch (step.exercise) {
+    case 'choose-meaning':
+      return kindGroup(step.word.kind) === 'sound' ? 'step.chooseSound' : 'step.chooseMeaning';
+    case 'listen-choose':
+      return 'step.listenChoose';
+    case 'choose-text':
+      return 'step.chooseText';
+    case 'listen-text':
+      return 'step.listenText';
+  }
+}
 
 export function ChooseStep({
   step,
@@ -128,21 +137,24 @@ export function ChooseStep({
   const c = useTheme();
   const answered = picked !== undefined;
   const right = step.choices.find((x) => x.correct)!;
+  const text = spoken(step.word);
+  const heard = step.exercise !== 'choose-text';
+  const textAnswers = answersWithText(step.exercise);
 
   useEffect(() => {
-    if (step.exercise !== 'choose-text') say(step.word.text, voice);
-  }, [step, voice]);
+    if (heard) say(text, voice);
+  }, [heard, text, voice]);
 
   return (
     <View style={styles.gap}>
-      <ThemedText type="smallBold">{t(QUESTION[step.exercise])}</ThemedText>
+      <ThemedText type="smallBold">{t(questionKey(step))}</ThemedText>
       {step.exercise === 'choose-meaning' ? <WordFace word={step.word} /> : null}
       {step.exercise === 'choose-text' ? (
         <ThemedText type="subtitle" style={styles.centerText}>
           {step.prompt}
         </ThemedText>
       ) : null}
-      {step.exercise !== 'choose-text' ? <ListenButtons text={step.word.text} voice={voice} /> : null}
+      {heard ? <ListenButtons text={text} voice={voice} /> : null}
       {step.choices.map((choice) => {
         const state = !answered ? 'idle' : choice.correct ? 'right' : choice.id === picked ? 'wrong' : 'idle';
         return (
@@ -159,7 +171,7 @@ export function ChooseStep({
                   state === 'right' ? c.successSoft : state === 'wrong' ? c.dangerSoft : c.background,
               },
             ]}>
-            <ThemedText style={styles.choiceText}>{choice.label}</ThemedText>
+            <ThemedText style={textAnswers ? styles.choiceTarget : styles.choiceText}>{choice.label}</ThemedText>
           </Pressable>
         );
       })}
@@ -174,13 +186,14 @@ export function ChooseStep({
 
 export function SpeakStep({ step, voice }: { step: StepOf<'speak'>; voice: string }) {
   const { t } = useApp();
-  useEffect(() => say(step.word.text, voice), [step.word.text, voice]);
+  const text = spoken(step.word);
+  useEffect(() => say(text, voice), [text, voice]);
   return (
     <Card style={styles.gapLarge}>
       <ThemedText type="smallBold">🎙️ {t('step.speak')}</ThemedText>
       <WordFace word={step.word} />
       <ThemedText style={styles.centerText}>{step.word.meaning}</ThemedText>
-      <ListenButtons text={step.word.text} voice={voice} />
+      <ListenButtons text={text} voice={voice} />
       <ThemedText type="small" style={styles.centerText}>
         {t('step.speakHint')}
       </ThemedText>
@@ -218,4 +231,5 @@ const styles = StyleSheet.create({
   right: { alignSelf: 'flex-end' },
   choice: { borderWidth: 2, borderRadius: Spacing.three, padding: Spacing.three, minHeight: 56, justifyContent: 'center' },
   choiceText: { fontSize: 18, lineHeight: 26 },
+  choiceTarget: { fontSize: 24, lineHeight: 34, textAlign: 'center' },
 });
