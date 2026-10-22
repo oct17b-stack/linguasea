@@ -159,3 +159,50 @@ describe('exercises', () => {
     ]);
   });
 });
+
+describe('readers', () => {
+  function addReader(root: string, gloss: Record<string, unknown> = {}) {
+    edit(join(root, 'courses/zh/course.json'), (c) => {
+      c.stages.at(-1).units.at(-1).lessons.push('zh-B1-r01');
+    });
+    writeFileSync(
+      join(root, 'courses/zh/lessons/zh-B1-r01.json'),
+      JSON.stringify({
+        id: 'zh-B1-r01',
+        kind: 'reader',
+        target: 'zh',
+        stage: 'B',
+        minutes: 10,
+        items: [{ id: 'zh.test-shi-chang', text: '市场', reading: 'shìchǎng' }],
+        passage: [[{ text: '妈妈去市场。', reading: 'Māma qù shìchǎng.' }]],
+        questions: [{ answer: 2 }],
+      }),
+    );
+    writeFileSync(
+      join(root, 'l1/th/zh/lessons/zh-B1-r01.json'),
+      JSON.stringify({
+        lesson: 'zh-B1-r01',
+        title: 'ไปตลาด',
+        intro: 'อ่านเรื่องสั้น',
+        items: { 'zh.test-shi-chang': { meaning: 'ตลาด (ทดสอบ)' } },
+        passage: [['แม่ไปตลาด']],
+        questions: [{ prompt: 'ใครไปตลาด', options: ['พ่อ', 'แม่'] }],
+        ...gloss,
+      }),
+    );
+  }
+
+  it('checks the passage translation shape and the answer index', () => {
+    const root = copy();
+    addReader(root, { passage: [['แม่ไปตลาด', 'เกิน']] });
+    const m = messages(root);
+    expect(m).toContain('l1/th/zh/lessons/zh-B1-r01.json: passage translations [2] do not match the passage\'s paragraphs/sentences [1]');
+    expect(m).toContain('l1/th/zh/lessons/zh-B1-r01.json: question 1: answer 2 but only 2 options');
+  });
+
+  it('accepts a well-formed reader', () => {
+    const root = copy();
+    addReader(root, { questions: [{ prompt: 'ใครไปตลาด', options: ['พ่อ', 'แม่', 'น้อง'] }] });
+    expect(messages(root).filter((m) => m.includes('zh-B1-r01'))).toEqual([]);
+  });
+});

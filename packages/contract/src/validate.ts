@@ -61,6 +61,14 @@ export function validate(loaded: Loaded): Problem[] {
       const lfile = `courses/${target}/lessons/${lesson.id}.json`;
       if (!listed.has(lesson.id)) add(lfile, 'lesson is not listed in course.json');
       if (lesson.target !== target) add(lfile, `target must be "${target}"`);
+      const isReader = /-r\d{2}$/.test(lesson.id);
+      if (isReader !== (lesson.kind === 'reader')) add(lfile, 'ids with -rNN are readers and need "kind": "reader" (and only those)');
+      if (lesson.kind === 'reader') {
+        if (!lesson.passage.length) add(lfile, 'a reader needs a passage');
+        if (!lesson.questions.length) add(lfile, 'a reader needs comprehension questions');
+      } else if (lesson.passage.length || lesson.questions.length) {
+        add(lfile, 'passage and questions belong to readers');
+      }
 
       const local = new Map<string, Item>();
       for (const item of lesson.items) {
@@ -150,6 +158,18 @@ export function validate(loaded: Loaded): Problem[] {
         if (lg.dialogue.length !== lesson.dialogue.length) {
           add(gfile, `dialogue has ${lg.dialogue.length} translations for ${lesson.dialogue.length} lines`);
         }
+        const shape = (p: unknown[][]) => p.map((para) => para.length).join(',');
+        if (shape(lg.passage) !== shape(lesson.passage)) {
+          add(gfile, `passage translations [${shape(lg.passage)}] do not match the passage's paragraphs/sentences [${shape(lesson.passage)}]`);
+        }
+        if (lg.questions.length !== lesson.questions.length) {
+          add(gfile, `${lg.questions.length} question texts for ${lesson.questions.length} questions`);
+        }
+        lesson.questions.forEach((q, i) => {
+          const g = lg.questions[i];
+          if (g && q.answer >= g.options.length) add(gfile, `question ${i + 1}: answer ${q.answer} but only ${g.options.length} options`);
+          if (g && new Set(g.options).size !== g.options.length) add(gfile, `question ${i + 1}: two options are the same`);
+        });
         for (const ex of lessonExercises(lesson)) {
           if (ex.type === 'speak' || TEXT_ANSWERS.has(ex.type)) continue;
           const own = meanings.get(ex.item);

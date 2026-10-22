@@ -5,11 +5,19 @@ import { hashString, seededRandom, shuffle } from './rng';
 
 export type Choice = { id: string; label: string; correct: boolean };
 
+export type DialogueLine = { speaker: string; text: string; reading: string; meaning: string };
+
 export type Step =
   | { kind: 'intro'; title: string; intro: string; minutes: number }
   | { kind: 'learn'; word: Word }
-  | { kind: 'dialogue'; lines: { speaker: string; text: string; reading: string; meaning: string }[] }
+  | { kind: 'dialogue'; lines: DialogueLine[] }
   | { kind: 'note'; title: string; body: string }
+  /** A reader's text: paragraphs of sentences with reading and translation. */
+  | { kind: 'read'; title: string; paragraphs: { text: string; reading: string; meaning: string }[][] }
+  /** Comprehension question about a reader, in the learner's language. */
+  | { kind: 'question'; prompt: string; choices: Choice[] }
+  /** Hear a whole sentence from a dialogue, pick what it means. */
+  | { kind: 'line'; line: DialogueLine; choices: Choice[] }
   | {
       kind: 'choose';
       exercise: ChoiceExercise['type'];
@@ -45,7 +53,23 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
   };
 
   const steps: Step[] = [{ kind: 'intro', title: gloss.title, intro: gloss.intro, minutes: lesson.minutes }];
+  if (lesson.kind === 'reader') {
+    // Read first, then the glossary words, then comprehension, then the usual word questions.
+    steps.push({
+      kind: 'read',
+      title: gloss.title,
+      paragraphs: lesson.passage.map((para, p) =>
+        para.map((sentence, i) => ({ ...sentence, meaning: gloss.passage[p]?.[i] ?? '' })),
+      ),
+    });
+  }
   for (const item of lesson.items) steps.push({ kind: 'learn', word: word(item.id) });
+  lesson.questions.forEach((q, i) => {
+    const g = gloss.questions[i];
+    if (!g) return;
+    const choices = g.options.map((label, k) => ({ id: `q${i}-${k}`, label, correct: k === q.answer }));
+    steps.push({ kind: 'question', prompt: g.prompt, choices });
+  });
   if (lesson.dialogue.length) {
     steps.push({
       kind: 'dialogue',
@@ -67,7 +91,7 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
  * A multiple-choice question. Wrong answers are the exercise's own options when given;
  * otherwise items of the same group, preferring ones already taught (up to `upTo` in course order).
  */
-function chooseStep(
+export function chooseStep(
   pool: Map<string, Word>,
   w: Word,
   ex: Pick<ChoiceExercise, 'type' | 'options'>,

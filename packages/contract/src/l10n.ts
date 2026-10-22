@@ -72,6 +72,15 @@ export function exportSheet(loaded: Loaded, from: L1, to: L1, { targets, transli
         add(`${target}:note:${id}:${i}:title`, note.title, prev?.notes[i]?.title);
         add(`${target}:note:${id}:${i}:body`, note.body, prev?.notes[i]?.body);
       });
+      lg.passage.forEach((para, p) =>
+        para.forEach((sentence, i) =>
+          add(`${target}:passage:${id}:${p}:${i}`, sentence, prev?.passage[p]?.[i], lesson?.passage[p]?.[i]?.text),
+        ),
+      );
+      lg.questions.forEach((q, i) => {
+        add(`${target}:question:${id}:${i}:prompt`, q.prompt, prev?.questions[i]?.prompt);
+        q.options.forEach((o, k) => add(`${target}:question:${id}:${i}:option:${k}`, o, prev?.questions[i]?.options[k]));
+      });
     }
   }
   return { from, to, name: dst?.meta.name ?? '', entries };
@@ -115,7 +124,7 @@ export function importSheet(sheet: Sheet, loaded: Loaded): Map<string, unknown> 
       const title = t.get(`${target}:lesson:${id}:title`);
       const intro = t.get(`${target}:lesson:${id}:intro`);
       if (!title || !intro) continue;
-      const out: LessonGloss = { lesson: id, title, intro, items: {}, dialogue: [], notes: [] };
+      const out: LessonGloss = { lesson: id, title, intro, items: {}, dialogue: [], notes: [], passage: [], questions: [] };
       for (const itemId of Object.keys(lg.items)) {
         const meaning = t.get(`${target}:item:${id}:${itemId}:meaning`);
         const translit = t.get(`${target}:item:${id}:${itemId}:translit`);
@@ -129,6 +138,15 @@ export function importSheet(sheet: Sheet, loaded: Loaded): Map<string, unknown> 
         const nt = t.get(`${target}:note:${id}:${i}:title`);
         const body = t.get(`${target}:note:${id}:${i}:body`);
         if (nt && body) out.notes.push({ title: nt, body });
+      });
+      out.passage = lg.passage.map((para, p) =>
+        para.map((_, i) => t.get(`${target}:passage:${id}:${p}:${i}`)).filter((x): x is string => !!x),
+      );
+      if (out.passage.every((para) => !para.length)) out.passage = [];
+      lg.questions.forEach((q, i) => {
+        const prompt = t.get(`${target}:question:${id}:${i}:prompt`);
+        const options = q.options.map((_, k) => t.get(`${target}:question:${id}:${i}:option:${k}`));
+        if (prompt && options.every(Boolean)) out.questions.push({ prompt, options: options as string[] });
       });
       files.set(`${dir}/${target}/lessons/${id}.json`, out);
     }

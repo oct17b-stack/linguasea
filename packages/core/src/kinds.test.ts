@@ -42,12 +42,15 @@ function fixture(): CourseBundle {
   for (const [id, rows] of Object.entries(lessons)) {
     const lesson: Lesson = {
       id,
+      kind: 'lesson',
       target: 'ja',
       stage: 'A',
       minutes: 5,
       items: rows.map(([iid, kind, text, reading, , say]) => ({ id: iid, kind: kind as never, text, reading, say })),
       dialogue: [],
       exercises: [],
+      passage: [],
+      questions: [],
     };
     const gloss: LessonGloss = {
       lesson: id,
@@ -56,6 +59,8 @@ function fixture(): CourseBundle {
       items: Object.fromEntries(rows.map(([iid, , , , meaning]) => [iid, { meaning }])),
       dialogue: [],
       notes: [],
+      passage: [],
+      questions: [],
     };
     out[id] = { lesson, gloss };
   }

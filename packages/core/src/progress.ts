@@ -84,6 +84,17 @@ export function completeLesson(
   };
 }
 
+/** Grades answers without finishing anything (e.g. a failed unit test still trains the cards). */
+export function recordAnswers(p: Progress, results: Record<string, boolean>, now: Date): Progress {
+  const cards = { ...p.cards };
+  let correct = 0;
+  for (const [id, ok] of Object.entries(results)) {
+    cards[id] = grade(cards[id], ok, now);
+    if (ok) correct++;
+  }
+  return { ...p, cards, xp: p.xp + correct * XP_PER_CORRECT, streak: touchStreak(p.streak, dayKey(now)) };
+}
+
 export function reviewItem(p: Progress, itemId: string, correct: boolean, now: Date): Progress {
   return {
     ...p,

@@ -6,7 +6,8 @@
   "scripts": {
     "audio": "tsx src/audio/cli.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit -p ."
+    "typecheck": "tsc --noEmit -p .",
+    "hours": "tsx src/hours.ts"
   },
   "dependencies": {
     "@linguasea/contract": "0.1.0",

@@ -45,12 +45,15 @@ export function fixtureBundle(): Bundle {
     lessons[id] = {
       lesson: {
         id,
+        kind: 'lesson',
         target: 'ja',
         stage: 'A',
         minutes: 5,
         items: rows.map(([iid, kind, text, reading]) => ({ id: iid, kind: kind as never, text, reading })),
         dialogue: dialogue.map(([speaker, text, reading]) => ({ speaker, text, reading })),
         exercises: [],
+        passage: [],
+        questions: [],
       },
       gloss: {
         lesson: id,
@@ -59,6 +62,8 @@ export function fixtureBundle(): Bundle {
         items: Object.fromEntries(rows.map(([iid, , , , meaning]) => [iid, { meaning }])),
         dialogue: dialogue.map(([, , , meaning]) => meaning),
         notes: [],
+        passage: [],
+        questions: [],
       },
     };
   }

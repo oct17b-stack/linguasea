@@ -44,7 +44,8 @@ export function recordingPath(path: string): string | undefined {
 
 /**
  * Every clip the courses need, deduplicated per course: each item as voice "item" saying spoken(item),
- * each dialogue line in its speaker's voice. Items with `audio` are also listed as recordings.
+ * each dialogue line in its speaker's voice, each reader sentence in the item voice. Items with `audio`
+ * are also listed as recordings.
  */
 export function collectClips(loaded: Loaded, targets: readonly Target[] = TARGETS): Collected {
   const clips: Clip[] = [];
@@ -86,6 +87,10 @@ export function collectClips(loaded: Loaded, targets: readonly Target[] = TARGET
         }
       }
       lesson.dialogue.forEach((line, i) => add(line.speaker, line.text, `${lesson.id} dialogue line ${i + 1}`));
+      // Reader sentences are narrated in the item voice (a little slower, like the words).
+      lesson.passage.forEach((para, p) =>
+        para.forEach((sentence, i) => add('item', sentence.text, `${lesson.id} passage ${p + 1}.${i + 1}`)),
+      );
     }
     recordings.push(...recorded.values());
   }

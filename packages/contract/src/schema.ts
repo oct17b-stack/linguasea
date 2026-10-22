@@ -16,14 +16,16 @@ export type Stage = z.infer<typeof Stage>;
 
 export const Cefr = z.enum(['pre-A1', 'A1', 'A2', 'B1', 'B2']);
 
-const lessonId = z.string().regex(/^(zh|en|ja|ko)-[A-F]\d-\d{2}$/, 'lesson id looks like zh-A1-01');
+/** zh-A1-01 is a lesson, zh-C1-r01 a graded reader (story / short text) in that unit. */
+const lessonId = z.string().regex(/^(zh|en|ja|ko)-[A-F]\d{1,2}-r?\d{2}$/, 'lesson id looks like zh-A1-01 (reader: zh-C1-r01)');
 /** Item ids are stable forever: review cards and progress are keyed by them. */
 const itemId = z.string().regex(/^(zh|en|ja|ko)\.[a-z0-9-]+$/, 'item id looks like zh.ni-hao');
 
 // ---------- target-language layer: content/courses/<target>/ ----------
 
 export const Unit = z.object({
-  id: z.string().regex(/^(zh|en|ja|ko)-[A-F]\d$/),
+  /** zh-A1 … zh-A16: stage letter + unit number. */
+  id: z.string().regex(/^(zh|en|ja|ko)-[A-F]\d{1,2}$/),
   lessons: z.array(lessonId).min(1),
 });
 
@@ -74,10 +76,17 @@ export const Item = z.object({
 export type Item = z.infer<typeof Item>;
 
 export const Line = z.object({
+  /** "a" = the learner's side (Nam), "b" = a man, "c" = a woman (decides the voice). */
   speaker: z.string().min(1),
   text: z.string().min(1),
   reading: z.string().min(1),
 });
+
+/** A sentence of a graded reader. */
+export const Sentence = z.object({ text: z.string().min(1), reading: z.string().min(1) });
+
+/** Comprehension question of a reader: the right option's position; wording lives in each L1 layer. */
+export const Question = z.object({ answer: z.number().int().min(0).max(3) });
 
 const choice = {
   item: itemId,
@@ -105,11 +114,17 @@ export type ChoiceExercise = Exclude<Exercise, { type: 'speak' }>;
 
 export const Lesson = z.object({
   id: lessonId,
+  /** "reader": a story or short text with comprehension questions; its items are the glossary. */
+  kind: z.enum(['lesson', 'reader']).default('lesson'),
   target: Target,
   stage: Stage,
   minutes: z.number().int().min(1).max(30),
   items: z.array(Item).min(1),
   dialogue: z.array(Line).default([]),
+  /** Readers only: paragraphs of sentences. */
+  passage: z.array(z.array(Sentence).min(1)).default([]),
+  /** Readers only. */
+  questions: z.array(Question).default([]),
   /** Leave empty to get the standard set (see lessonExercises). */
   exercises: z.array(Exercise).default([]),
 });
@@ -125,6 +140,11 @@ export const ItemGloss = z.object({
 
 export const Note = z.object({ title: z.string().min(1), body: z.string().min(1) });
 
+export const QuestionGloss = z.object({
+  prompt: z.string().min(1),
+  options: z.array(z.string().min(1)).min(2).max(4),
+});
+
 export const LessonGloss = z.object({
   lesson: lessonId,
   title: z.string().min(1),
@@ -133,6 +153,10 @@ export const LessonGloss = z.object({
   /** One translation per dialogue line, same order. */
   dialogue: z.array(z.string().min(1)).default([]),
   notes: z.array(Note).default([]),
+  /** Readers: one translation per sentence, same paragraph shape as the passage. */
+  passage: z.array(z.array(z.string().min(1))).default([]),
+  /** Readers: question and options in this language, same order as the lesson's questions. */
+  questions: z.array(QuestionGloss).default([]),
 });
 export type LessonGloss = z.infer<typeof LessonGloss>;
 
