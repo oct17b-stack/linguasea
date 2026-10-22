@@ -1,0 +1,65 @@
+{
+  "id": "ko-B4-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.beoseu",
+      "text": "버스",
+      "reading": "beoseu"
+    },
+    {
+      "id": "ko.jihacheol",
+      "text": "지하철",
+      "reading": "jihacheol"
+    },
+    {
+      "id": "ko.taeksi",
+      "text": "택시",
+      "reading": "taeksi"
+    },
+    {
+      "id": "ko.yeok",
+      "text": "역",
+      "reading": "yeok"
+    },
+    {
+      "id": "ko.tayo",
+      "text": "타요",
+      "reading": "tayo"
+    },
+    {
+      "id": "ko.eotteoke",
+      "text": "어떻게",
+      "reading": "eotteoke"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 학교에 어떻게 가요?",
+      "reading": "Minjun ssi, hakgyoe eotteoke gayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지하철을 타요. 남 씨는요?",
+      "reading": "Jihacheoreul tayo. Nam ssineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 버스를 타요. 택시는 너무 비싸요.",
+      "reading": "Jeoneun beoseureul tayo. Taeksineun neomu bissayo."
+    },
+    {
+      "speaker": "b",
+      "text": "지하철도 싸요. 집 앞에 역 있어요?",
+      "reading": "Jihacheoldo ssayo. Jip ape yeok isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 집 앞에 역 없어요.",
+      "reading": "Aniyo, jip ape yeok eopseoyo."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ko-B3-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ssayo",
+      "text": "싸요",
+      "reading": "ssayo"
+    },
+    {
+      "id": "ko.neomu",
+      "text": "너무",
+      "reading": "neomu"
+    },
+    {
+      "id": "ko.jom",
+      "text": "좀",
+      "reading": "jom"
+    },
+    {
+      "id": "ko.kkakka-juseyo",
+      "kind": "phrase",
+      "text": "깎아 주세요",
+      "reading": "kkakka juseyo"
+    },
+    {
+      "id": "ko.kadeu",
+      "text": "카드",
+      "reading": "kadeu"
+    },
+    {
+      "id": "ko.hyeongeum",
+      "text": "현금",
+      "reading": "hyeongeum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "가방 얼마예요?",
+      "reading": "Gabang eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "삼만 원이에요.",
+      "reading": "Samman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "너무 비싸요. 좀 깎아 주세요.",
+      "reading": "Neomu bissayo. Jom kkakka juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "음… 이만 오천 원이에요.",
+      "reading": "Eum… Iman ocheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 싸요! 카드 괜찮아요?",
+      "reading": "Wa, ssayo! Kadeu gwaenchanayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 현금 주세요.",
+      "reading": "Aniyo, hyeongeum juseyo."
+    }
+  ]
+}

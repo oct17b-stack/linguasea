@@ -1,0 +1,65 @@
+{
+  "id": "ko-B4-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.oenjjok",
+      "text": "왼쪽",
+      "reading": "oenjjok"
+    },
+    {
+      "id": "ko.oreunjjok",
+      "text": "오른쪽",
+      "reading": "oreunjjok"
+    },
+    {
+      "id": "ko.yeop",
+      "text": "옆",
+      "reading": "yeop"
+    },
+    {
+      "id": "ko.dwi",
+      "text": "뒤",
+      "reading": "dwi"
+    },
+    {
+      "id": "ko.gakkawoyo",
+      "text": "가까워요",
+      "reading": "gakkawoyo"
+    },
+    {
+      "id": "ko.meoreoyo",
+      "text": "멀어요",
+      "reading": "meoreoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 은행이 멀어요?",
+      "reading": "Minjun ssi, eunhaengi meoreoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 가까워요. 편의점 옆에 있어요.",
+      "reading": "Aniyo, gakkawoyo. Pyeonuijeom yeope isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "편의점 오른쪽에 있어요?",
+      "reading": "Pyeonuijeom oreunjjoge isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 왼쪽에 있어요. 식당은 은행 뒤에 있어요.",
+      "reading": "Aniyo, oenjjoge isseoyo. Sikdangeun eunhaeng dwie isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 감사합니다!",
+      "reading": "A, gamsahamnida!"
+    }
+  ]
+}

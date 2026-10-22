@@ -1,0 +1,151 @@
+{
+  "id": "ko-A2-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.letter-a",
+      "kind": "letter",
+      "text": "ㅏ",
+      "reading": "a",
+      "say": "아"
+    },
+    {
+      "id": "ko.letter-eo",
+      "kind": "letter",
+      "text": "ㅓ",
+      "reading": "eo",
+      "say": "어"
+    },
+    {
+      "id": "ko.letter-o",
+      "kind": "letter",
+      "text": "ㅗ",
+      "reading": "o",
+      "say": "오"
+    },
+    {
+      "id": "ko.letter-u",
+      "kind": "letter",
+      "text": "ㅜ",
+      "reading": "u",
+      "say": "우"
+    },
+    {
+      "id": "ko.letter-eu",
+      "kind": "letter",
+      "text": "ㅡ",
+      "reading": "eu",
+      "say": "으"
+    },
+    {
+      "id": "ko.letter-i",
+      "kind": "letter",
+      "text": "ㅣ",
+      "reading": "i",
+      "say": "이"
+    },
+    {
+      "id": "ko.ai",
+      "text": "아이",
+      "reading": "ai"
+    },
+    {
+      "id": "ko.oi",
+      "text": "오이",
+      "reading": "oi"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.letter-a"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-a"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-eo",
+      "options": [
+        "ko.letter-o",
+        "ko.letter-u"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-eo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-o",
+      "options": [
+        "ko.letter-eo",
+        "ko.letter-u"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-o"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-u",
+      "options": [
+        "ko.letter-o",
+        "ko.letter-eu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-u"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-eu",
+      "options": [
+        "ko.letter-u",
+        "ko.letter-i"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-eu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-i"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-i"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.ai"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.ai"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.oi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.oi"
+    },
+    {
+      "type": "speak",
+      "item": "ko.letter-eo"
+    },
+    {
+      "type": "speak",
+      "item": "ko.oi"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ko-B6-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gibun",
+      "text": "기분",
+      "reading": "gibun"
+    },
+    {
+      "id": "ko.eottaeyo",
+      "kind": "phrase",
+      "text": "어때요?",
+      "reading": "eottaeyo?"
+    },
+    {
+      "id": "ko.joayo",
+      "text": "좋아요",
+      "reading": "joayo"
+    },
+    {
+      "id": "ko.seulpeoyo",
+      "text": "슬퍼요",
+      "reading": "seulpeoyo"
+    },
+    {
+      "id": "ko.pigonhaeyo",
+      "text": "피곤해요",
+      "reading": "pigonhaeyo"
+    },
+    {
+      "id": "ko.haengbokhaeyo",
+      "text": "행복해요",
+      "reading": "haengbokhaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 기분 어때요?",
+      "reading": "Nam ssi, oneul gibun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좀 피곤해요. 민준 씨는요?",
+      "reading": "Jom pigonhaeyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 기분이 좋아요. 오늘 금요일이에요!",
+      "reading": "Jeoneun gibuni joayo. Oneul geumyoirieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 내일은 토요일이에요!",
+      "reading": "A, naeireun toyoirieyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 주말에 쉬어요. 행복해요!",
+      "reading": "Ne, jumare swieoyo. Haengbokhaeyo!"
+    }
+  ]
+}

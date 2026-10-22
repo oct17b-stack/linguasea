@@ -6,93 +6,48 @@
   "items": [
     {
       "id": "ko.annyeonghaseyo",
+      "kind": "phrase",
       "text": "안녕하세요",
       "reading": "annyeonghaseyo"
     },
     {
       "id": "ko.gamsahamnida",
+      "kind": "phrase",
       "text": "감사합니다",
       "reading": "gamsahamnida"
     },
     {
       "id": "ko.cheonmaneyo",
+      "kind": "phrase",
       "text": "천만에요",
       "reading": "cheonmaneyo"
     },
     {
-      "id": "ko.annyeonghi-gaseyo",
-      "text": "안녕히 가세요",
-      "reading": "annyeonghi gaseyo"
+      "id": "ko.ne",
+      "text": "네",
+      "reading": "ne"
     }
   ],
   "dialogue": [
     {
       "speaker": "a",
       "text": "안녕하세요!",
-      "reading": "annyeonghaseyo!"
+      "reading": "Annyeonghaseyo!"
     },
     {
-      "speaker": "b",
-      "text": "안녕하세요!",
-      "reading": "annyeonghaseyo!"
+      "speaker": "c",
+      "text": "네, 안녕하세요!",
+      "reading": "Ne, annyeonghaseyo!"
     },
     {
       "speaker": "a",
       "text": "감사합니다.",
-      "reading": "gamsahamnida."
+      "reading": "Gamsahamnida."
     },
     {
-      "speaker": "b",
+      "speaker": "c",
       "text": "천만에요.",
-      "reading": "cheonmaneyo."
-    },
-    {
-      "speaker": "a",
-      "text": "안녕히 계세요!",
-      "reading": "annyeonghi gyeseyo!"
-    },
-    {
-      "speaker": "b",
-      "text": "안녕히 가세요!",
-      "reading": "annyeonghi gaseyo!"
-    }
-  ],
-  "exercises": [
-    {
-      "type": "choose-meaning",
-      "item": "ko.annyeonghaseyo"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ko.gamsahamnida"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ko.cheonmaneyo"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ko.annyeonghi-gaseyo"
-    },
-    {
-      "type": "listen-choose",
-      "item": "ko.annyeonghaseyo"
-    },
-    {
-      "type": "listen-choose",
-      "item": "ko.gamsahamnida"
-    },
-    {
-      "type": "choose-text",
-      "item": "ko.annyeonghi-gaseyo"
-    },
-    {
-      "type": "speak",
-      "item": "ko.annyeonghaseyo"
-    },
-    {
-      "type": "speak",
-      "item": "ko.gamsahamnida"
+      "reading": "Cheonmaneyo."
     }
   ]
 }

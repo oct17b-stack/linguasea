@@ -1,0 +1,61 @@
+{
+  "id": "ko-A5-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ilgop",
+      "text": "일곱",
+      "reading": "ilgop"
+    },
+    {
+      "id": "ko.yeodeol",
+      "text": "여덟",
+      "reading": "yeodeol"
+    },
+    {
+      "id": "ko.ahop",
+      "text": "아홉",
+      "reading": "ahop"
+    },
+    {
+      "id": "ko.yeol",
+      "text": "열",
+      "reading": "yeol"
+    },
+    {
+      "id": "ko.seumul",
+      "text": "스물",
+      "reading": "seumul"
+    },
+    {
+      "id": "ko.myeot-sarieyo",
+      "kind": "phrase",
+      "text": "몇 살이에요?",
+      "reading": "myeot sarieyo?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 아이가 몇 살이에요?",
+      "reading": "Seonsaengnim, aiga myeot sarieyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "일곱 살이에요. 남 씨는요?",
+      "reading": "Ilgop sarieyo. Nam ssineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 스무 살이에요.",
+      "reading": "Jeoneun seumu sarieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 스무 살이에요? 민준 씨도 스무 살이에요.",
+      "reading": "A, seumu sarieyo? Minjun ssido seumu sarieyo."
+    }
+  ]
+}

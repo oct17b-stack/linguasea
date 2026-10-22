@@ -1,0 +1,61 @@
+{
+  "id": "ko-B2-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.oneul",
+      "text": "오늘",
+      "reading": "oneul"
+    },
+    {
+      "id": "ko.naeil",
+      "text": "내일",
+      "reading": "naeil"
+    },
+    {
+      "id": "ko.museun-yoirieyo",
+      "kind": "phrase",
+      "text": "무슨 요일이에요?",
+      "reading": "museun yoirieyo?"
+    },
+    {
+      "id": "ko.woryoil",
+      "text": "월요일",
+      "reading": "woryoil"
+    },
+    {
+      "id": "ko.hwayoil",
+      "text": "화요일",
+      "reading": "hwayoil"
+    },
+    {
+      "id": "ko.suyoil",
+      "text": "수요일",
+      "reading": "suyoil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 무슨 요일이에요?",
+      "reading": "Minjun ssi, oneul museun yoirieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "화요일이에요.",
+      "reading": "Hwayoirieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "화요일이에요? 월요일이 아니에요?",
+      "reading": "Hwayoirieyo? Woryoiri anieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니에요. 오늘은 화요일, 내일은 수요일이에요.",
+      "reading": "Anieyo. Oneureun hwayoil, naeireun suyoirieyo."
+    }
+  ]
+}

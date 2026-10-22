@@ -1,0 +1,65 @@
+{
+  "id": "ko-B6-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hyeong",
+      "text": "형",
+      "reading": "hyeong"
+    },
+    {
+      "id": "ko.oppa",
+      "text": "오빠",
+      "reading": "oppa"
+    },
+    {
+      "id": "ko.nuna",
+      "text": "누나",
+      "reading": "nuna"
+    },
+    {
+      "id": "ko.eonni",
+      "text": "언니",
+      "reading": "eonni"
+    },
+    {
+      "id": "ko.namdongsaeng",
+      "text": "남동생",
+      "reading": "namdongsaeng"
+    },
+    {
+      "id": "ko.yeodongsaeng",
+      "text": "여동생",
+      "reading": "yeodongsaeng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 누나 있어요?",
+      "reading": "Minjun ssi, nuna isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 누나 한 명 있어요. 남동생도 있어요.",
+      "reading": "Ne, nuna han myeong isseoyo. Namdongsaengdo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "형은요?",
+      "reading": "Hyeongeunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "형은 없어요. 남 씨는요?",
+      "reading": "Hyeongeun eopseoyo. Nam ssineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 여동생이 있어요. 열일곱 살이에요.",
+      "reading": "Jeoneun yeodongsaengi isseoyo. Yeollilgop sarieyo."
+    }
+  ]
+}

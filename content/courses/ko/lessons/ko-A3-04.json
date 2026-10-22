@@ -1,0 +1,55 @@
+{
+  "id": "ko-A3-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.haksaeng",
+      "text": "학생",
+      "reading": "haksaeng"
+    },
+    {
+      "id": "ko.daehaksaeng",
+      "text": "대학생",
+      "reading": "daehaksaeng"
+    },
+    {
+      "id": "ko.seonsaengnim",
+      "text": "선생님",
+      "reading": "seonsaengnim"
+    },
+    {
+      "id": "ko.hoesawon",
+      "text": "회사원",
+      "reading": "hoesawon"
+    },
+    {
+      "id": "ko.chingu",
+      "text": "친구",
+      "reading": "chingu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 친구 민준 씨예요.",
+      "reading": "Seonsaengnim, chingu Minjun ssiyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "안녕하세요. 학생이에요? 회사원이에요?",
+      "reading": "Annyeonghaseyo. Haksaengieyo? Hoesawonieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "대학생이에요. 반갑습니다.",
+      "reading": "Daehaksaengieyo. Bangapseumnida."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 반가워요.",
+      "reading": "Ne, bangawoyo."
+    }
+  ]
+}

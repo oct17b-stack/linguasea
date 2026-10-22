@@ -1,0 +1,225 @@
+{
+  "id": "ko-A4-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-ba",
+      "kind": "syllable",
+      "text": "바",
+      "reading": "ba"
+    },
+    {
+      "id": "ko.syl-bo",
+      "kind": "syllable",
+      "text": "보",
+      "reading": "bo"
+    },
+    {
+      "id": "ko.syl-sa",
+      "kind": "syllable",
+      "text": "사",
+      "reading": "sa"
+    },
+    {
+      "id": "ko.syl-seo",
+      "kind": "syllable",
+      "text": "서",
+      "reading": "seo"
+    },
+    {
+      "id": "ko.syl-so",
+      "kind": "syllable",
+      "text": "소",
+      "reading": "so"
+    },
+    {
+      "id": "ko.syl-si",
+      "kind": "syllable",
+      "text": "시",
+      "reading": "si"
+    },
+    {
+      "id": "ko.syl-ja",
+      "kind": "syllable",
+      "text": "자",
+      "reading": "ja"
+    },
+    {
+      "id": "ko.syl-jo",
+      "kind": "syllable",
+      "text": "조",
+      "reading": "jo"
+    },
+    {
+      "id": "ko.syl-ha",
+      "kind": "syllable",
+      "text": "하",
+      "reading": "ha"
+    },
+    {
+      "id": "ko.syl-ho",
+      "kind": "syllable",
+      "text": "호",
+      "reading": "ho"
+    },
+    {
+      "id": "ko.baji",
+      "text": "바지",
+      "reading": "baji"
+    },
+    {
+      "id": "ko.abeoji",
+      "text": "아버지",
+      "reading": "abeoji"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ba",
+      "options": [
+        "ko.syl-bo",
+        "ko.syl-ma"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ba"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-bo",
+      "options": [
+        "ko.syl-ba",
+        "ko.syl-mo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-bo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-sa",
+      "options": [
+        "ko.syl-ja",
+        "ko.syl-ha"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-sa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-seo",
+      "options": [
+        "ko.syl-so",
+        "ko.syl-sa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-seo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-so",
+      "options": [
+        "ko.syl-seo",
+        "ko.syl-jo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-so"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-si",
+      "options": [
+        "ko.syl-sa",
+        "ko.syl-mi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-si"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ja",
+      "options": [
+        "ko.syl-sa",
+        "ko.syl-ha"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ja"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-jo",
+      "options": [
+        "ko.syl-so",
+        "ko.syl-ja"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-jo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ha",
+      "options": [
+        "ko.syl-ba",
+        "ko.syl-sa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ho",
+      "options": [
+        "ko.syl-ha",
+        "ko.syl-bo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ho"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.baji"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.baji"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.abeoji"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.abeoji"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-si"
+    },
+    {
+      "type": "speak",
+      "item": "ko.abeoji"
+    }
+  ]
+}

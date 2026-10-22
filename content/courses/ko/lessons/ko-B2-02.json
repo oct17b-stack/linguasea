@@ -1,0 +1,60 @@
+{
+  "id": "ko-B2-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.mogyoil",
+      "text": "목요일",
+      "reading": "mogyoil"
+    },
+    {
+      "id": "ko.geumyoil",
+      "text": "금요일",
+      "reading": "geumyoil"
+    },
+    {
+      "id": "ko.toyoil",
+      "text": "토요일",
+      "reading": "toyoil"
+    },
+    {
+      "id": "ko.iryoil",
+      "text": "일요일",
+      "reading": "iryoil"
+    },
+    {
+      "id": "ko.jumal",
+      "text": "주말",
+      "reading": "jumal"
+    },
+    {
+      "id": "ko.sueop",
+      "text": "수업",
+      "reading": "sueop"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 금요일에 수업 있어요?",
+      "reading": "Seonsaengnim, geumyoire sueop isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 있어요. 목요일하고 금요일에 있어요.",
+      "reading": "Ne, isseoyo. Mogyoilhago geumyoire isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "토요일에도 있어요?",
+      "reading": "Toyoiredo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 토요일하고 일요일은 주말이에요!",
+      "reading": "Aniyo, toyoilhago iryoireun jumarieyo!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-A5-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.hana",
+      "text": "하나",
+      "reading": "hana"
+    },
+    {
+      "id": "ko.dul",
+      "text": "둘",
+      "reading": "dul"
+    },
+    {
+      "id": "ko.set",
+      "text": "셋",
+      "reading": "set"
+    },
+    {
+      "id": "ko.net",
+      "text": "넷",
+      "reading": "net"
+    },
+    {
+      "id": "ko.daseot",
+      "text": "다섯",
+      "reading": "daseot"
+    },
+    {
+      "id": "ko.yeoseot",
+      "text": "여섯",
+      "reading": "yeoseot"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "하나, 둘, 셋, 넷, 다섯… 다섯이에요.",
+      "reading": "Hana, dul, set, net, daseot… Daseosieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 여섯이에요.",
+      "reading": "Aniyo, yeoseosieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "여섯이에요?",
+      "reading": "Yeoseosieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 하나, 둘, 셋, 넷, 다섯, 여섯!",
+      "reading": "Ne. Hana, dul, set, net, daseot, yeoseot!"
+    }
+  ]
+}

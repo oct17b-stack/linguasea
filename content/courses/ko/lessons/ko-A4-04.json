@@ -1,0 +1,257 @@
+{
+  "id": "ko-A4-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.letter-ae",
+      "kind": "letter",
+      "text": "ㅐ",
+      "reading": "ae",
+      "say": "애"
+    },
+    {
+      "id": "ko.letter-e",
+      "kind": "letter",
+      "text": "ㅔ",
+      "reading": "e",
+      "say": "에"
+    },
+    {
+      "id": "ko.letter-ye",
+      "kind": "letter",
+      "text": "ㅖ",
+      "reading": "ye",
+      "say": "예"
+    },
+    {
+      "id": "ko.letter-wa",
+      "kind": "letter",
+      "text": "ㅘ",
+      "reading": "wa",
+      "say": "와"
+    },
+    {
+      "id": "ko.letter-wo",
+      "kind": "letter",
+      "text": "ㅝ",
+      "reading": "wo",
+      "say": "워"
+    },
+    {
+      "id": "ko.letter-oe",
+      "kind": "letter",
+      "text": "ㅚ",
+      "reading": "oe",
+      "say": "외"
+    },
+    {
+      "id": "ko.letter-wae",
+      "kind": "letter",
+      "text": "ㅙ",
+      "reading": "wae",
+      "say": "왜"
+    },
+    {
+      "id": "ko.letter-we",
+      "kind": "letter",
+      "text": "ㅞ",
+      "reading": "we",
+      "say": "웨"
+    },
+    {
+      "id": "ko.letter-wi",
+      "kind": "letter",
+      "text": "ㅟ",
+      "reading": "wi",
+      "say": "위"
+    },
+    {
+      "id": "ko.letter-ui",
+      "kind": "letter",
+      "text": "ㅢ",
+      "reading": "ui",
+      "say": "의"
+    },
+    {
+      "id": "ko.sagwa",
+      "text": "사과",
+      "reading": "sagwa"
+    },
+    {
+      "id": "ko.uija",
+      "text": "의자",
+      "reading": "uija"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-ae",
+      "options": [
+        "ko.letter-e",
+        "ko.letter-ye",
+        "ko.letter-wae"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.letter-ae",
+      "options": [
+        "ko.letter-e",
+        "ko.letter-ye"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-e",
+      "options": [
+        "ko.letter-ae",
+        "ko.letter-ye",
+        "ko.letter-we"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.letter-e",
+      "options": [
+        "ko.letter-ae",
+        "ko.letter-ye"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-ye",
+      "options": [
+        "ko.letter-yeo",
+        "ko.letter-yo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-ye"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-wa",
+      "options": [
+        "ko.letter-wo",
+        "ko.letter-wi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-wa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-wo",
+      "options": [
+        "ko.letter-wa",
+        "ko.letter-eo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-wo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-oe",
+      "options": [
+        "ko.letter-wae",
+        "ko.letter-we"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.letter-oe",
+      "options": [
+        "ko.letter-wae",
+        "ko.letter-we"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-wae",
+      "options": [
+        "ko.letter-oe",
+        "ko.letter-we"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.letter-wae",
+      "options": [
+        "ko.letter-oe",
+        "ko.letter-we"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-we",
+      "options": [
+        "ko.letter-oe",
+        "ko.letter-wae"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.letter-we",
+      "options": [
+        "ko.letter-oe",
+        "ko.letter-wae"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-wi",
+      "options": [
+        "ko.letter-ui",
+        "ko.letter-wa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-wi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-ui",
+      "options": [
+        "ko.letter-wi",
+        "ko.letter-i"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-ui"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.sagwa"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.sagwa"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.uija"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.uija"
+    },
+    {
+      "type": "speak",
+      "item": "ko.letter-ui"
+    },
+    {
+      "type": "speak",
+      "item": "ko.sagwa"
+    }
+  ]
+}

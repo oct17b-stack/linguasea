@@ -1,0 +1,60 @@
+{
+  "id": "ko-A5-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.gong",
+      "text": "공",
+      "reading": "gong"
+    },
+    {
+      "id": "ko.il",
+      "text": "일",
+      "reading": "il"
+    },
+    {
+      "id": "ko.i",
+      "text": "이",
+      "reading": "i"
+    },
+    {
+      "id": "ko.sam",
+      "text": "삼",
+      "reading": "sam"
+    },
+    {
+      "id": "ko.sa",
+      "text": "사",
+      "reading": "sa"
+    },
+    {
+      "id": "ko.o",
+      "text": "오",
+      "reading": "o"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "공, 일, 이, 삼이에요.",
+      "reading": "Gong, il, i, samieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "공, 일, 이, 사예요?",
+      "reading": "Gong, il, i, sayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 삼이에요, 삼!",
+      "reading": "Aniyo, samieyo, sam!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 삼! 감사합니다.",
+      "reading": "A, sam! Gamsahamnida."
+    }
+  ]
+}

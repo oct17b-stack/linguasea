@@ -1,0 +1,72 @@
+{
+  "id": "ko-A6-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jeogiyo",
+      "kind": "phrase",
+      "text": "저기요",
+      "reading": "jeogiyo"
+    },
+    {
+      "id": "ko.menyu",
+      "text": "메뉴",
+      "reading": "menyu"
+    },
+    {
+      "id": "ko.yeogiyo",
+      "kind": "phrase",
+      "text": "여기요",
+      "reading": "yeogiyo"
+    },
+    {
+      "id": "ko.sutgarak",
+      "text": "숟가락",
+      "reading": "sutgarak"
+    },
+    {
+      "id": "ko.jeotgarak",
+      "text": "젓가락",
+      "reading": "jeotgarak"
+    },
+    {
+      "id": "ko.deo",
+      "text": "더",
+      "reading": "deo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요! 메뉴 주세요.",
+      "reading": "Jeogiyo! Menyu juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    },
+    {
+      "speaker": "a",
+      "text": "라면 하나 주세요. 숟가락도 주세요.",
+      "reading": "Ramyeon hana juseyo. Sutgarakdo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 숟가락하고 젓가락 여기요.",
+      "reading": "Ne, sutgarakhago jeotgarak yeogiyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저기요, 물 더 주세요.",
+      "reading": "Jeogiyo, mul deo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요!",
+      "reading": "Ne, yeogiyo!"
+    }
+  ]
+}

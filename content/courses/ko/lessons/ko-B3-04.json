@@ -1,0 +1,71 @@
+{
+  "id": "ko-B3-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sinbal",
+      "text": "신발",
+      "reading": "sinbal"
+    },
+    {
+      "id": "ko.chima",
+      "text": "치마",
+      "reading": "chima"
+    },
+    {
+      "id": "ko.keoyo",
+      "text": "커요",
+      "reading": "keoyo"
+    },
+    {
+      "id": "ko.jagayo",
+      "text": "작아요",
+      "reading": "jagayo"
+    },
+    {
+      "id": "ko.yeppeoyo",
+      "text": "예뻐요",
+      "reading": "yeppeoyo"
+    },
+    {
+      "id": "ko.dareun-geo",
+      "kind": "phrase",
+      "text": "다른 거",
+      "reading": "dareun geo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 신발 예뻐요! 얼마예요?",
+      "reading": "Jeogiyo, sinbal yeppeoyo! Eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "사만 원이에요.",
+      "reading": "Saman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "음… 좀 작아요. 다른 거 있어요?",
+      "reading": "Eum… Jom jagayo. Dareun geo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 이거는 좀 커요.",
+      "reading": "Ne, igeoneun jom keoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 이거 괜찮아요! 이거 주세요.",
+      "reading": "A, igeo gwaenchanayo! Igeo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 감사합니다!",
+      "reading": "Ne, gamsahamnida!"
+    }
+  ]
+}

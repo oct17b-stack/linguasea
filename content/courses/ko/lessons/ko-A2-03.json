@@ -1,0 +1,225 @@
+{
+  "id": "ko-A2-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-ga",
+      "kind": "syllable",
+      "text": "가",
+      "reading": "ga"
+    },
+    {
+      "id": "ko.syl-geo",
+      "kind": "syllable",
+      "text": "거",
+      "reading": "geo"
+    },
+    {
+      "id": "ko.syl-go",
+      "kind": "syllable",
+      "text": "고",
+      "reading": "go"
+    },
+    {
+      "id": "ko.syl-gu",
+      "kind": "syllable",
+      "text": "구",
+      "reading": "gu"
+    },
+    {
+      "id": "ko.syl-na",
+      "kind": "syllable",
+      "text": "나",
+      "reading": "na"
+    },
+    {
+      "id": "ko.syl-neo",
+      "kind": "syllable",
+      "text": "너",
+      "reading": "neo"
+    },
+    {
+      "id": "ko.syl-no",
+      "kind": "syllable",
+      "text": "노",
+      "reading": "no"
+    },
+    {
+      "id": "ko.syl-da",
+      "kind": "syllable",
+      "text": "다",
+      "reading": "da"
+    },
+    {
+      "id": "ko.syl-deo",
+      "kind": "syllable",
+      "text": "더",
+      "reading": "deo"
+    },
+    {
+      "id": "ko.syl-do",
+      "kind": "syllable",
+      "text": "도",
+      "reading": "do"
+    },
+    {
+      "id": "ko.agi",
+      "text": "아기",
+      "reading": "agi"
+    },
+    {
+      "id": "ko.gogi",
+      "text": "고기",
+      "reading": "gogi"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ga",
+      "options": [
+        "ko.syl-na",
+        "ko.syl-da"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ga"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-geo",
+      "options": [
+        "ko.syl-go",
+        "ko.syl-gu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-geo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-go",
+      "options": [
+        "ko.syl-geo",
+        "ko.syl-gu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-go"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gu",
+      "options": [
+        "ko.syl-go",
+        "ko.syl-geo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-na",
+      "options": [
+        "ko.syl-da",
+        "ko.syl-ga"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-na"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-neo",
+      "options": [
+        "ko.syl-no",
+        "ko.syl-na"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-neo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-no",
+      "options": [
+        "ko.syl-neo",
+        "ko.syl-do"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-no"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-da",
+      "options": [
+        "ko.syl-na",
+        "ko.syl-ga"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-da"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-deo",
+      "options": [
+        "ko.syl-do",
+        "ko.syl-neo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-deo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-do",
+      "options": [
+        "ko.syl-deo",
+        "ko.syl-no"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-do"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.agi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.agi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.gogi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.gogi"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-geo"
+    },
+    {
+      "type": "speak",
+      "item": "ko.gogi"
+    }
+  ]
+}

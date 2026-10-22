@@ -1,0 +1,71 @@
+{
+  "id": "ko-B3-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.eolmayeyo",
+      "kind": "phrase",
+      "text": "얼마예요?",
+      "reading": "eolmayeyo?"
+    },
+    {
+      "id": "ko.won",
+      "text": "원",
+      "reading": "won"
+    },
+    {
+      "id": "ko.baek",
+      "text": "백",
+      "reading": "baek"
+    },
+    {
+      "id": "ko.cheon",
+      "text": "천",
+      "reading": "cheon"
+    },
+    {
+      "id": "ko.man",
+      "text": "만",
+      "reading": "man"
+    },
+    {
+      "id": "ko.igeo",
+      "text": "이거",
+      "reading": "igeo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 이거 얼마예요?",
+      "reading": "Jeogiyo, igeo eolmayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "칠천 원이에요.",
+      "reading": "Chilcheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "이거는요?",
+      "reading": "Igeoneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이거는 만 이천 원이에요.",
+      "reading": "Igeoneun man icheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 비싸요. 이거 주세요.",
+      "reading": "A, bissayo. Igeo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 칠천 원이에요. 감사합니다!",
+      "reading": "Ne, chilcheon wonieyo. Gamsahamnida!"
+    }
+  ]
+}

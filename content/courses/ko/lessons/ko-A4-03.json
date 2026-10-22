@@ -1,0 +1,225 @@
+{
+  "id": "ko-A4-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-kka",
+      "kind": "syllable",
+      "text": "까",
+      "reading": "kka"
+    },
+    {
+      "id": "ko.syl-kko",
+      "kind": "syllable",
+      "text": "꼬",
+      "reading": "kko"
+    },
+    {
+      "id": "ko.syl-tta",
+      "kind": "syllable",
+      "text": "따",
+      "reading": "tta"
+    },
+    {
+      "id": "ko.syl-tto",
+      "kind": "syllable",
+      "text": "또",
+      "reading": "tto"
+    },
+    {
+      "id": "ko.syl-ppa",
+      "kind": "syllable",
+      "text": "빠",
+      "reading": "ppa"
+    },
+    {
+      "id": "ko.syl-ppo",
+      "kind": "syllable",
+      "text": "뽀",
+      "reading": "ppo"
+    },
+    {
+      "id": "ko.syl-ssa",
+      "kind": "syllable",
+      "text": "싸",
+      "reading": "ssa"
+    },
+    {
+      "id": "ko.syl-sso",
+      "kind": "syllable",
+      "text": "쏘",
+      "reading": "sso"
+    },
+    {
+      "id": "ko.syl-jja",
+      "kind": "syllable",
+      "text": "짜",
+      "reading": "jja"
+    },
+    {
+      "id": "ko.syl-jjo",
+      "kind": "syllable",
+      "text": "쪼",
+      "reading": "jjo"
+    },
+    {
+      "id": "ko.appa",
+      "text": "아빠",
+      "reading": "appa"
+    },
+    {
+      "id": "ko.bissayo",
+      "text": "비싸요",
+      "reading": "bissayo"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-kka",
+      "options": [
+        "ko.syl-ga",
+        "ko.syl-ka"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-kka"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-kko",
+      "options": [
+        "ko.syl-go",
+        "ko.syl-ko"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-kko"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-tta",
+      "options": [
+        "ko.syl-da",
+        "ko.syl-ta"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-tta"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-tto",
+      "options": [
+        "ko.syl-do",
+        "ko.syl-to"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-tto"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ppa",
+      "options": [
+        "ko.syl-ba",
+        "ko.syl-pa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ppa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ppo",
+      "options": [
+        "ko.syl-bo",
+        "ko.syl-po"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ppo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ssa",
+      "options": [
+        "ko.syl-sa",
+        "ko.syl-ja"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ssa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-sso",
+      "options": [
+        "ko.syl-so",
+        "ko.syl-jo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-sso"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-jja",
+      "options": [
+        "ko.syl-ja",
+        "ko.syl-cha"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-jja"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-jjo",
+      "options": [
+        "ko.syl-jo",
+        "ko.syl-cho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-jjo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.appa"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.appa"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.bissayo"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.bissayo"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-kka"
+    },
+    {
+      "type": "speak",
+      "item": "ko.bissayo"
+    }
+  ]
+}

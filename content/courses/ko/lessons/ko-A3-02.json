@@ -1,0 +1,54 @@
+{
+  "id": "ko-A3-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.cheoeum-boepgetseumnida",
+      "kind": "phrase",
+      "text": "처음 뵙겠습니다",
+      "reading": "cheoeum boepgetseumnida"
+    },
+    {
+      "id": "ko.bangapseumnida",
+      "kind": "phrase",
+      "text": "반갑습니다",
+      "reading": "bangapseumnida"
+    },
+    {
+      "id": "ko.mannaseo-bangawoyo",
+      "kind": "phrase",
+      "text": "만나서 반가워요",
+      "reading": "mannaseo bangawoyo"
+    },
+    {
+      "id": "ko.jal-butakdeurimnida",
+      "kind": "phrase",
+      "text": "잘 부탁드립니다",
+      "reading": "jal butakdeurimnida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "처음 뵙겠습니다. 저는 남이에요.",
+      "reading": "Cheoeum boepgetseumnida. Jeoneun Namieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 반갑습니다.",
+      "reading": "Ne, bangapseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "잘 부탁드립니다!",
+      "reading": "Jal butakdeurimnida!"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 만나서 반가워요.",
+      "reading": "Ne, mannaseo bangawoyo."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ko-A3-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.hanguk",
+      "text": "한국",
+      "reading": "Hanguk"
+    },
+    {
+      "id": "ko.taeguk",
+      "text": "태국",
+      "reading": "Taeguk"
+    },
+    {
+      "id": "ko.ilbon",
+      "text": "일본",
+      "reading": "Ilbon"
+    },
+    {
+      "id": "ko.saram",
+      "text": "사람",
+      "reading": "saram"
+    },
+    {
+      "id": "ko.eoneu",
+      "text": "어느",
+      "reading": "eoneu"
+    },
+    {
+      "id": "ko.anieyo",
+      "text": "아니에요",
+      "reading": "anieyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 일본 사람이에요?",
+      "reading": "Nam ssi, Ilbon saramieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 일본 사람이 아니에요.",
+      "reading": "Aniyo, Ilbon sarami anieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어느 나라 사람이에요?",
+      "reading": "Eoneu nara saramieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국 사람이에요. 민준 씨는요?",
+      "reading": "Taeguk saramieyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 한국 사람이에요.",
+      "reading": "Jeoneun Hanguk saramieyo."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "ko-A2-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-ra",
+      "kind": "syllable",
+      "text": "라",
+      "reading": "ra"
+    },
+    {
+      "id": "ko.syl-reo",
+      "kind": "syllable",
+      "text": "러",
+      "reading": "reo"
+    },
+    {
+      "id": "ko.syl-ro",
+      "kind": "syllable",
+      "text": "로",
+      "reading": "ro"
+    },
+    {
+      "id": "ko.syl-ru",
+      "kind": "syllable",
+      "text": "루",
+      "reading": "ru"
+    },
+    {
+      "id": "ko.syl-ri",
+      "kind": "syllable",
+      "text": "리",
+      "reading": "ri"
+    },
+    {
+      "id": "ko.syl-ma",
+      "kind": "syllable",
+      "text": "마",
+      "reading": "ma"
+    },
+    {
+      "id": "ko.syl-meo",
+      "kind": "syllable",
+      "text": "머",
+      "reading": "meo"
+    },
+    {
+      "id": "ko.syl-mo",
+      "kind": "syllable",
+      "text": "모",
+      "reading": "mo"
+    },
+    {
+      "id": "ko.syl-mu",
+      "kind": "syllable",
+      "text": "무",
+      "reading": "mu"
+    },
+    {
+      "id": "ko.syl-mi",
+      "kind": "syllable",
+      "text": "미",
+      "reading": "mi"
+    },
+    {
+      "id": "ko.nara",
+      "text": "나라",
+      "reading": "nara"
+    },
+    {
+      "id": "ko.uri",
+      "text": "우리",
+      "reading": "uri"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ra",
+      "options": [
+        "ko.syl-na",
+        "ko.syl-da"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ra"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-reo",
+      "options": [
+        "ko.syl-ro",
+        "ko.syl-ru"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-reo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ro",
+      "options": [
+        "ko.syl-reo",
+        "ko.syl-ru"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ro"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ru",
+      "options": [
+        "ko.syl-ro",
+        "ko.syl-ri"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ru"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ri",
+      "options": [
+        "ko.syl-ra",
+        "ko.syl-mi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ri"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ma",
+      "options": [
+        "ko.syl-na",
+        "ko.syl-ra"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ma"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-meo",
+      "options": [
+        "ko.syl-mo",
+        "ko.syl-mu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-meo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-mo",
+      "options": [
+        "ko.syl-meo",
+        "ko.syl-mu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-mo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-mu",
+      "options": [
+        "ko.syl-mo",
+        "ko.syl-mi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-mu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-mi",
+      "options": [
+        "ko.syl-ri",
+        "ko.syl-ma"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-mi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.nara"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.nara"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.uri"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.uri"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-ro"
+    },
+    {
+      "type": "speak",
+      "item": "ko.uri"
+    }
+  ]
+}

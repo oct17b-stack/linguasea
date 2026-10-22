@@ -1,0 +1,60 @@
+{
+  "id": "ko-B1-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hangugeo",
+      "text": "한국어",
+      "reading": "hangugeo"
+    },
+    {
+      "id": "ko.eumak",
+      "text": "음악",
+      "reading": "eumak"
+    },
+    {
+      "id": "ko.isseoyo",
+      "text": "있어요",
+      "reading": "isseoyo"
+    },
+    {
+      "id": "ko.eopseoyo",
+      "text": "없어요",
+      "reading": "eopseoyo"
+    },
+    {
+      "id": "ko.daneo",
+      "text": "단어",
+      "reading": "daneo"
+    },
+    {
+      "id": "ko.bareum",
+      "text": "발음",
+      "reading": "bareum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 한국어 책 있어요?",
+      "reading": "Nam ssi, hangugeo chaek isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 있어요.",
+      "reading": "Ne, isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "단어 책도 있어요?",
+      "reading": "Daneo chaekdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 없어요.",
+      "reading": "Aniyo, eopseoyo."
+    }
+  ]
+}

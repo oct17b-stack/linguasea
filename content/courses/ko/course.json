@@ -6,30 +6,126 @@
     {
       "id": "A",
       "cefr": "pre-A1",
+      "exam": "TOPIK I",
       "free": true,
       "units": [
         {
           "id": "ko-A1",
           "lessons": [
-            "ko-A1-01"
+            "ko-A1-01",
+            "ko-A1-02",
+            "ko-A1-03",
+            "ko-A1-04"
+          ]
+        },
+        {
+          "id": "ko-A2",
+          "lessons": [
+            "ko-A2-01",
+            "ko-A2-02",
+            "ko-A2-03",
+            "ko-A2-04"
+          ]
+        },
+        {
+          "id": "ko-A3",
+          "lessons": [
+            "ko-A3-01",
+            "ko-A3-02",
+            "ko-A3-03",
+            "ko-A3-04"
+          ]
+        },
+        {
+          "id": "ko-A4",
+          "lessons": [
+            "ko-A4-01",
+            "ko-A4-02",
+            "ko-A4-03",
+            "ko-A4-04"
+          ]
+        },
+        {
+          "id": "ko-A5",
+          "lessons": [
+            "ko-A5-01",
+            "ko-A5-02",
+            "ko-A5-03",
+            "ko-A5-04"
+          ]
+        },
+        {
+          "id": "ko-A6",
+          "lessons": [
+            "ko-A6-01",
+            "ko-A6-02",
+            "ko-A6-03",
+            "ko-A6-04"
           ]
         }
-      ],
-      "exam": "TOPIK I"
+      ]
     },
     {
       "id": "B",
       "cefr": "A1",
+      "exam": "TOPIK I",
       "free": false,
       "units": [
         {
           "id": "ko-B1",
           "lessons": [
-            "ko-B1-01"
+            "ko-B1-01",
+            "ko-B1-02",
+            "ko-B1-03",
+            "ko-B1-04"
+          ]
+        },
+        {
+          "id": "ko-B2",
+          "lessons": [
+            "ko-B2-01",
+            "ko-B2-02",
+            "ko-B2-03",
+            "ko-B2-04"
+          ]
+        },
+        {
+          "id": "ko-B3",
+          "lessons": [
+            "ko-B3-01",
+            "ko-B3-02",
+            "ko-B3-03",
+            "ko-B3-04"
+          ]
+        },
+        {
+          "id": "ko-B4",
+          "lessons": [
+            "ko-B4-01",
+            "ko-B4-02",
+            "ko-B4-03",
+            "ko-B4-04"
+          ]
+        },
+        {
+          "id": "ko-B5",
+          "lessons": [
+            "ko-B5-01",
+            "ko-B5-02",
+            "ko-B5-03",
+            "ko-B5-04"
+          ]
+        },
+        {
+          "id": "ko-B6",
+          "lessons": [
+            "ko-B6-01",
+            "ko-B6-02",
+            "ko-B6-03",
+            "ko-B6-04"
           ]
         }
-      ],
-      "exam": "TOPIK I"
+      ]
     }
   ]
 }

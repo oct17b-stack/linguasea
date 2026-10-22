@@ -1,0 +1,70 @@
+{
+  "id": "ko-B2-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.wol",
+      "text": "월",
+      "reading": "wol"
+    },
+    {
+      "id": "ko.myeochil",
+      "text": "며칠",
+      "reading": "myeochil"
+    },
+    {
+      "id": "ko.saengil",
+      "text": "생일",
+      "reading": "saengil"
+    },
+    {
+      "id": "ko.eonje",
+      "text": "언제",
+      "reading": "eonje"
+    },
+    {
+      "id": "ko.yuwol",
+      "text": "유월",
+      "reading": "yuwol"
+    },
+    {
+      "id": "ko.siwol",
+      "text": "시월",
+      "reading": "siwol"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 생일이 언제예요?",
+      "reading": "Nam ssi, saengiri eonjeyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "유월 오일이에요. 민준 씨는요?",
+      "reading": "Yuwol oirieyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 시월 구일이에요.",
+      "reading": "Jeoneun siwol guirieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘이 며칠이에요?",
+      "reading": "Oneuri myeochirieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오늘은 시월 칠일이에요.",
+      "reading": "Oneureun siwol chiririeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와! 민준 씨 생일이 목요일이에요!",
+      "reading": "Wa! Minjun ssi saengiri mogyoirieyo!"
+    }
+  ]
+}

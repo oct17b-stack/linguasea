@@ -1,0 +1,55 @@
+{
+  "id": "ko-A6-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.mul",
+      "text": "물",
+      "reading": "mul"
+    },
+    {
+      "id": "ko.cha",
+      "text": "차",
+      "reading": "cha"
+    },
+    {
+      "id": "ko.juseu",
+      "text": "주스",
+      "reading": "juseu"
+    },
+    {
+      "id": "ko.masyeoyo",
+      "text": "마셔요",
+      "reading": "masyeoyo"
+    },
+    {
+      "id": "ko.juseyo",
+      "text": "주세요",
+      "reading": "juseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 커피 마셔요?",
+      "reading": "Nam ssi, keopi masyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 차 주세요.",
+      "reading": "Aniyo, cha juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 물도 마셔요?",
+      "reading": "Ne. Muldo masyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 물도 주세요. 감사합니다!",
+      "reading": "Ne, muldo juseyo. Gamsahamnida!"
+    }
+  ]
+}

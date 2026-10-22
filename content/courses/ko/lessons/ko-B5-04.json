@@ -1,0 +1,60 @@
+{
+  "id": "ko-B5-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.botong",
+      "text": "보통",
+      "reading": "botong"
+    },
+    {
+      "id": "ko.jaju",
+      "text": "자주",
+      "reading": "jaju"
+    },
+    {
+      "id": "ko.gakkeum",
+      "text": "가끔",
+      "reading": "gakkeum"
+    },
+    {
+      "id": "ko.honja",
+      "text": "혼자",
+      "reading": "honja"
+    },
+    {
+      "id": "ko.geurigo",
+      "text": "그리고",
+      "reading": "geurigo"
+    },
+    {
+      "id": "ko.yorihaeyo",
+      "text": "요리해요",
+      "reading": "yorihaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨는 보통 혼자 밥 먹어요?",
+      "reading": "Nam ssineun botong honja bap meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 보통 혼자 먹어요. 가끔 요리해요.",
+      "reading": "Ne, botong honja meogeoyo. Gakkeum yorihaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "민준 씨는 자주 만나요?",
+      "reading": "Minjun ssineun jaju mannayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 자주 만나요. 그리고 같이 운동해요.",
+      "reading": "Ne, jaju mannayo. Geurigo gachi undonghaeyo."
+    }
+  ]
+}

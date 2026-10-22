@@ -1,0 +1,65 @@
+{
+  "id": "ko-B5-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.haeyo",
+      "text": "해요",
+      "reading": "haeyo"
+    },
+    {
+      "id": "ko.gongbuhaeyo",
+      "text": "공부해요",
+      "reading": "gongbuhaeyo"
+    },
+    {
+      "id": "ko.ilhaeyo",
+      "text": "일해요",
+      "reading": "ilhaeyo"
+    },
+    {
+      "id": "ko.undonghaeyo",
+      "text": "운동해요",
+      "reading": "undonghaeyo"
+    },
+    {
+      "id": "ko.ojeon",
+      "text": "오전",
+      "reading": "ojeon"
+    },
+    {
+      "id": "ko.ohu",
+      "text": "오후",
+      "reading": "ohu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오전에 뭐 해요?",
+      "reading": "Nam ssi, ojeone mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교에서 공부해요. 민준 씨는요?",
+      "reading": "Hakgyoeseo gongbuhaeyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 오전에 편의점에서 일해요.",
+      "reading": "Jeoneun ojeone pyeonuijeomeseo ilhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오후에는요?",
+      "reading": "Ohueneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오후에는 운동해요.",
+      "reading": "Ohueneun undonghaeyo."
+    }
+  ]
+}

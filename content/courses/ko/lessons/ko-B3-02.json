@@ -1,0 +1,71 @@
+{
+  "id": "ko-B3-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.eoseo-oseyo",
+      "kind": "phrase",
+      "text": "어서 오세요",
+      "reading": "eoseo oseyo"
+    },
+    {
+      "id": "ko.gwail",
+      "text": "과일",
+      "reading": "gwail"
+    },
+    {
+      "id": "ko.banana",
+      "text": "바나나",
+      "reading": "banana"
+    },
+    {
+      "id": "ko.gae",
+      "text": "개",
+      "reading": "gae"
+    },
+    {
+      "id": "ko.modu",
+      "text": "모두",
+      "reading": "modu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요!",
+      "reading": "Eoseo oseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "과일 있어요?",
+      "reading": "Gwail isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 사과하고 바나나 있어요.",
+      "reading": "Ne, sagwahago banana isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "사과 세 개 주세요.",
+      "reading": "Sagwa se gae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 바나나는요?",
+      "reading": "Ne. Banananeunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "바나나는 괜찮아요. 모두 얼마예요?",
+      "reading": "Banananeun gwaenchanayo. Modu eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "모두 사천오백 원이에요.",
+      "reading": "Modu sacheonobaek wonieyo."
+    }
+  ]
+}

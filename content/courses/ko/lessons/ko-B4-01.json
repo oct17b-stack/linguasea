@@ -1,0 +1,60 @@
+{
+  "id": "ko-B4-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.eodi",
+      "text": "어디",
+      "reading": "eodi"
+    },
+    {
+      "id": "ko.yeogi",
+      "text": "여기",
+      "reading": "yeogi"
+    },
+    {
+      "id": "ko.geogi",
+      "text": "거기",
+      "reading": "geogi"
+    },
+    {
+      "id": "ko.jeogi",
+      "text": "저기",
+      "reading": "jeogi"
+    },
+    {
+      "id": "ko.hwajangsil",
+      "text": "화장실",
+      "reading": "hwajangsil"
+    },
+    {
+      "id": "ko.pyeonuijeom",
+      "text": "편의점",
+      "reading": "pyeonuijeom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 화장실이 어디에 있어요?",
+      "reading": "Jeogiyo, hwajangsiri eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "화장실은 저기에 있어요.",
+      "reading": "Hwajangsireun jeogie isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 편의점도 있어요?",
+      "reading": "Gamsahamnida. Pyeonuijeomdo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 편의점은 여기 있어요.",
+      "reading": "Ne, pyeonuijeomeun yeogi isseoyo."
+    }
+  ]
+}

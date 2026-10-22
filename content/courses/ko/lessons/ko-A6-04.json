@@ -1,0 +1,72 @@
+{
+  "id": "ko-A6-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.baegopayo",
+      "text": "배고파요",
+      "reading": "baegopayo"
+    },
+    {
+      "id": "ko.jal-meokgetseumnida",
+      "kind": "phrase",
+      "text": "잘 먹겠습니다",
+      "reading": "jal meokgetseumnida"
+    },
+    {
+      "id": "ko.jal-meogeotseumnida",
+      "kind": "phrase",
+      "text": "잘 먹었습니다",
+      "reading": "jal meogeotseumnida"
+    },
+    {
+      "id": "ko.masisseoyo",
+      "text": "맛있어요",
+      "reading": "masisseoyo"
+    },
+    {
+      "id": "ko.madeopseoyo",
+      "text": "맛없어요",
+      "reading": "madeopseoyo"
+    },
+    {
+      "id": "ko.maewoyo",
+      "text": "매워요",
+      "reading": "maewoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 배고파요?",
+      "reading": "Nam ssi, baegopayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 배고파요! 잘 먹겠습니다!",
+      "reading": "Ne, baegopayo! Jal meokgetseumnida!"
+    },
+    {
+      "speaker": "b",
+      "text": "김치 매워요?",
+      "reading": "Gimchi maewoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 매워요. 맛있어요!",
+      "reading": "Ne, maewoyo. Masisseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "라면도 맛있어요?",
+      "reading": "Ramyeondo masisseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 라면은 맛없어요.",
+      "reading": "Aniyo, ramyeoneun madeopseoyo."
+    }
+  ]
+}

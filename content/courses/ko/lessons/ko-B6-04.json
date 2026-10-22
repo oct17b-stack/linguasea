@@ -1,0 +1,71 @@
+{
+  "id": "ko-B6-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.joahaeyo",
+      "text": "좋아해요",
+      "reading": "joahaeyo"
+    },
+    {
+      "id": "ko.sireohaeyo",
+      "text": "싫어해요",
+      "reading": "sireohaeyo"
+    },
+    {
+      "id": "ko.saranghaeyo",
+      "text": "사랑해요",
+      "reading": "saranghaeyo"
+    },
+    {
+      "id": "ko.bogo-sipeoyo",
+      "kind": "phrase",
+      "text": "보고 싶어요",
+      "reading": "bogo sipeoyo"
+    },
+    {
+      "id": "ko.jeongmal",
+      "text": "정말",
+      "reading": "jeongmal"
+    },
+    {
+      "id": "ko.mani",
+      "text": "많이",
+      "reading": "mani"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 김치 좋아해요?",
+      "reading": "Nam ssi, gimchi joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 좋아해요!",
+      "reading": "Ne, jeongmal joahaeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "라면도 좋아해요?",
+      "reading": "Ramyeondo joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 라면은 싫어해요.",
+      "reading": "Aniyo, ramyeoneun sireohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 가족 보고 싶어요?",
+      "reading": "Nam ssi, gajok bogo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 많이 보고 싶어요. 가족을 정말 사랑해요.",
+      "reading": "Ne, mani bogo sipeoyo. Gajogeul jeongmal saranghaeyo."
+    }
+  ]
+}

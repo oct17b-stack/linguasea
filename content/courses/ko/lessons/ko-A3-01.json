@@ -1,0 +1,56 @@
+{
+  "id": "ko-A3-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.jeo",
+      "text": "저",
+      "reading": "jeo"
+    },
+    {
+      "id": "ko.ireum",
+      "text": "이름",
+      "reading": "ireum"
+    },
+    {
+      "id": "ko.ieyo",
+      "text": "이에요",
+      "reading": "ieyo"
+    },
+    {
+      "id": "ko.ireumi-mwoyeyo",
+      "kind": "phrase",
+      "text": "이름이 뭐예요?",
+      "reading": "ireumi mwoyeyo?"
+    },
+    {
+      "id": "ko.ssi",
+      "text": "씨",
+      "reading": "ssi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "안녕하세요! 이름이 뭐예요?",
+      "reading": "Annyeonghaseyo! Ireumi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 남이에요.",
+      "reading": "Jeoneun Namieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 남 씨! 저는 김민준이에요.",
+      "reading": "A, Nam ssi! Jeoneun Gim Minjunieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨, 안녕하세요!",
+      "reading": "Minjun ssi, annyeonghaseyo!"
+    }
+  ]
+}

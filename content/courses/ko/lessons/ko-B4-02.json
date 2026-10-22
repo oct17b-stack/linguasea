@@ -1,0 +1,70 @@
+{
+  "id": "ko-B4-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gayo",
+      "text": "가요",
+      "reading": "gayo"
+    },
+    {
+      "id": "ko.wayo",
+      "text": "와요",
+      "reading": "wayo"
+    },
+    {
+      "id": "ko.hakgyo",
+      "text": "학교",
+      "reading": "hakgyo"
+    },
+    {
+      "id": "ko.eunhaeng",
+      "text": "은행",
+      "reading": "eunhaeng"
+    },
+    {
+      "id": "ko.sikdang",
+      "text": "식당",
+      "reading": "sikdang"
+    },
+    {
+      "id": "ko.gachi",
+      "text": "같이",
+      "reading": "gachi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어디 가요?",
+      "reading": "Nam ssi, eodi gayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "은행에 가요. 민준 씨는요?",
+      "reading": "Eunhaenge gayo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 식당에 가요. 배고파요!",
+      "reading": "Jeoneun sikdange gayo. Baegopayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "저도 배고파요. 같이 가요!",
+      "reading": "Jeodo baegopayo. Gachi gayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 같이 가요! 내일 학교에 와요?",
+      "reading": "Ne, gachi gayo! Naeil hakgyoe wayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 와요.",
+      "reading": "Ne, wayo."
+    }
+  ]
+}

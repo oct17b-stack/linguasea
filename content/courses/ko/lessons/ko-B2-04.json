@@ -1,0 +1,66 @@
+{
+  "id": "ko-B2-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jigeum",
+      "text": "지금",
+      "reading": "jigeum"
+    },
+    {
+      "id": "ko.myeot-siyeyo",
+      "kind": "phrase",
+      "text": "몇 시예요?",
+      "reading": "myeot siyeyo?"
+    },
+    {
+      "id": "ko.si",
+      "text": "시",
+      "reading": "si"
+    },
+    {
+      "id": "ko.bun",
+      "text": "분",
+      "reading": "bun"
+    },
+    {
+      "id": "ko.ban",
+      "text": "반",
+      "reading": "ban"
+    },
+    {
+      "id": "ko.sigan",
+      "text": "시간",
+      "reading": "sigan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 지금 몇 시예요?",
+      "reading": "Minjun ssi, jigeum myeot siyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "세 시 반이에요.",
+      "reading": "Se si banieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 한국어 수업은 네 시 이십 분이에요.",
+      "reading": "A, hangugeo sueobeun ne si isip bunieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "시간 있어요. 커피 마셔요?",
+      "reading": "Sigan isseoyo. Keopi masyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 커피 마셔요!",
+      "reading": "Ne, keopi masyeoyo!"
+    }
+  ]
+}

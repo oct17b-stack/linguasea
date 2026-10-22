@@ -1,0 +1,189 @@
+{
+  "id": "ko-B1-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-ak",
+      "kind": "syllable",
+      "text": "악",
+      "reading": "ak"
+    },
+    {
+      "id": "ko.syl-at",
+      "kind": "syllable",
+      "text": "앋",
+      "reading": "at"
+    },
+    {
+      "id": "ko.syl-ap",
+      "kind": "syllable",
+      "text": "압",
+      "reading": "ap"
+    },
+    {
+      "id": "ko.syl-al",
+      "kind": "syllable",
+      "text": "알",
+      "reading": "al"
+    },
+    {
+      "id": "ko.syl-gak",
+      "kind": "syllable",
+      "text": "각",
+      "reading": "gak"
+    },
+    {
+      "id": "ko.syl-gat",
+      "kind": "syllable",
+      "text": "갇",
+      "reading": "gat"
+    },
+    {
+      "id": "ko.syl-gap",
+      "kind": "syllable",
+      "text": "갑",
+      "reading": "gap"
+    },
+    {
+      "id": "ko.syl-gal",
+      "kind": "syllable",
+      "text": "갈",
+      "reading": "gal"
+    },
+    {
+      "id": "ko.chaek",
+      "text": "책",
+      "reading": "chaek"
+    },
+    {
+      "id": "ko.jip",
+      "text": "집",
+      "reading": "jip"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ak",
+      "options": [
+        "ko.syl-at",
+        "ko.syl-ap"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ak"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-at",
+      "options": [
+        "ko.syl-ak",
+        "ko.syl-ap"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-at"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ap",
+      "options": [
+        "ko.syl-ak",
+        "ko.syl-at"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ap"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-al",
+      "options": [
+        "ko.syl-an",
+        "ko.syl-at"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-al"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gak",
+      "options": [
+        "ko.syl-gat",
+        "ko.syl-gap"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gak"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gat",
+      "options": [
+        "ko.syl-gak",
+        "ko.syl-gap"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gat"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gap",
+      "options": [
+        "ko.syl-gak",
+        "ko.syl-gat"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gap"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gal",
+      "options": [
+        "ko.syl-gan",
+        "ko.syl-gat"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gal"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.chaek"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.chaek"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.jip"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.jip"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-al"
+    },
+    {
+      "type": "speak",
+      "item": "ko.jip"
+    }
+  ]
+}

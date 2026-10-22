@@ -1,0 +1,225 @@
+{
+  "id": "ko-A4-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.syl-ka",
+      "kind": "syllable",
+      "text": "카",
+      "reading": "ka"
+    },
+    {
+      "id": "ko.syl-keo",
+      "kind": "syllable",
+      "text": "커",
+      "reading": "keo"
+    },
+    {
+      "id": "ko.syl-ko",
+      "kind": "syllable",
+      "text": "코",
+      "reading": "ko"
+    },
+    {
+      "id": "ko.syl-ta",
+      "kind": "syllable",
+      "text": "타",
+      "reading": "ta"
+    },
+    {
+      "id": "ko.syl-teo",
+      "kind": "syllable",
+      "text": "터",
+      "reading": "teo"
+    },
+    {
+      "id": "ko.syl-to",
+      "kind": "syllable",
+      "text": "토",
+      "reading": "to"
+    },
+    {
+      "id": "ko.syl-pa",
+      "kind": "syllable",
+      "text": "파",
+      "reading": "pa"
+    },
+    {
+      "id": "ko.syl-po",
+      "kind": "syllable",
+      "text": "포",
+      "reading": "po"
+    },
+    {
+      "id": "ko.syl-cha",
+      "kind": "syllable",
+      "text": "차",
+      "reading": "cha"
+    },
+    {
+      "id": "ko.syl-cho",
+      "kind": "syllable",
+      "text": "초",
+      "reading": "cho"
+    },
+    {
+      "id": "ko.keopi",
+      "text": "커피",
+      "reading": "keopi"
+    },
+    {
+      "id": "ko.gicha",
+      "text": "기차",
+      "reading": "gicha"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ka",
+      "options": [
+        "ko.syl-ga",
+        "ko.syl-ta"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ka"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-keo",
+      "options": [
+        "ko.syl-geo",
+        "ko.syl-teo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-keo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ko",
+      "options": [
+        "ko.syl-go",
+        "ko.syl-to"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ko"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ta",
+      "options": [
+        "ko.syl-da",
+        "ko.syl-pa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ta"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-teo",
+      "options": [
+        "ko.syl-deo",
+        "ko.syl-keo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-teo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-to",
+      "options": [
+        "ko.syl-do",
+        "ko.syl-po"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-to"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-pa",
+      "options": [
+        "ko.syl-ba",
+        "ko.syl-ka"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-pa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-po",
+      "options": [
+        "ko.syl-bo",
+        "ko.syl-ko"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-po"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-cha",
+      "options": [
+        "ko.syl-ja",
+        "ko.syl-sa"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-cha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-cho",
+      "options": [
+        "ko.syl-jo",
+        "ko.syl-so"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-cho"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.keopi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.keopi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.gicha"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.gicha"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-ka"
+    },
+    {
+      "type": "speak",
+      "item": "ko.keopi"
+    }
+  ]
+}

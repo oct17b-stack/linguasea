@@ -1,0 +1,65 @@
+{
+  "id": "ko-B5-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.swieoyo",
+      "text": "쉬어요",
+      "reading": "swieoyo"
+    },
+    {
+      "id": "ko.bwayo",
+      "text": "봐요",
+      "reading": "bwayo"
+    },
+    {
+      "id": "ko.yeonghwa",
+      "text": "영화",
+      "reading": "yeonghwa"
+    },
+    {
+      "id": "ko.deureoyo",
+      "text": "들어요",
+      "reading": "deureoyo"
+    },
+    {
+      "id": "ko.ilgeoyo",
+      "text": "읽어요",
+      "reading": "ilgeoyo"
+    },
+    {
+      "id": "ko.mannayo",
+      "text": "만나요",
+      "reading": "mannayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 주말에 뭐 해요?",
+      "reading": "Nam ssi, jumare mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "집에서 쉬어요. 한국 영화를 봐요.",
+      "reading": "Jibeseo swieoyo. Hanguk yeonghwareul bwayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 음악을 들어요. 책도 읽어요.",
+      "reading": "Jeoneun eumageul deureoyo. Chaekdo ilgeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "일요일에 같이 영화 봐요!",
+      "reading": "Iryoire gachi yeonghwa bwayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네! 일요일에 만나요.",
+      "reading": "Ne! Iryoire mannayo."
+    }
+  ]
+}

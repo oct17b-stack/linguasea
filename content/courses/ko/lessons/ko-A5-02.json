@@ -1,0 +1,60 @@
+{
+  "id": "ko-A5-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.yuk",
+      "text": "육",
+      "reading": "yuk"
+    },
+    {
+      "id": "ko.chil",
+      "text": "칠",
+      "reading": "chil"
+    },
+    {
+      "id": "ko.pal",
+      "text": "팔",
+      "reading": "pal"
+    },
+    {
+      "id": "ko.gu",
+      "text": "구",
+      "reading": "gu"
+    },
+    {
+      "id": "ko.sip",
+      "text": "십",
+      "reading": "sip"
+    },
+    {
+      "id": "ko.jeonhwabeonho",
+      "text": "전화번호",
+      "reading": "jeonhwabeonho"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 전화번호가 뭐예요?",
+      "reading": "Nam ssi, jeonhwabeonhoga mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공일공, 이삼사오, 육칠팔구예요.",
+      "reading": "Gongilgong, isamsao, yukchilpalguyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "공일공, 이삼사오, 육칠팔구요?",
+      "reading": "Gongilgong, isamsao, yukchilpalguyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 육칠팔구예요.",
+      "reading": "Ne, yukchilpalguyeyo."
+    }
+  ]
+}

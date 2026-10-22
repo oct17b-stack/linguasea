@@ -1,0 +1,53 @@
+{
+  "id": "ko-A1-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.joesonghamnida",
+      "kind": "phrase",
+      "text": "죄송합니다",
+      "reading": "joesonghamnida"
+    },
+    {
+      "id": "ko.mianhaeyo",
+      "kind": "phrase",
+      "text": "미안해요",
+      "reading": "mianhaeyo"
+    },
+    {
+      "id": "ko.gwaenchanayo",
+      "kind": "phrase",
+      "text": "괜찮아요",
+      "reading": "gwaenchanayo"
+    },
+    {
+      "id": "ko.aniyo",
+      "text": "아니요",
+      "reading": "aniyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아, 죄송합니다!",
+      "reading": "A, joesonghamnida!"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 괜찮아요.",
+      "reading": "Aniyo, gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요?",
+      "reading": "Gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 괜찮아요.",
+      "reading": "Ne, gwaenchanayo."
+    }
+  ]
+}

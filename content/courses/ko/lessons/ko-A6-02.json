@@ -1,0 +1,65 @@
+{
+  "id": "ko-A6-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.bap",
+      "text": "밥",
+      "reading": "bap"
+    },
+    {
+      "id": "ko.gimchi",
+      "text": "김치",
+      "reading": "gimchi"
+    },
+    {
+      "id": "ko.bibimbap",
+      "text": "비빔밥",
+      "reading": "bibimbap"
+    },
+    {
+      "id": "ko.bulgogi",
+      "text": "불고기",
+      "reading": "bulgogi"
+    },
+    {
+      "id": "ko.ramyeon",
+      "text": "라면",
+      "reading": "ramyeon"
+    },
+    {
+      "id": "ko.meogeoyo",
+      "text": "먹어요",
+      "reading": "meogeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 먹어요?",
+      "reading": "Nam ssi, mwo meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 비빔밥 먹어요. 민준 씨는요?",
+      "reading": "Jeoneun bibimbap meogeoyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 불고기 먹어요.",
+      "reading": "Jeoneun bulgogi meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "김치도 먹어요?",
+      "reading": "Gimchido meogeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 김치는 밥하고 먹어요.",
+      "reading": "Ne, gimchineun baphago meogeoyo."
+    }
+  ]
+}

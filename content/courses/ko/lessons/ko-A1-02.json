@@ -1,0 +1,54 @@
+{
+  "id": "ko-A1-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.annyeonghi-gaseyo",
+      "kind": "phrase",
+      "text": "안녕히 가세요",
+      "reading": "annyeonghi gaseyo"
+    },
+    {
+      "id": "ko.annyeonghi-gyeseyo",
+      "kind": "phrase",
+      "text": "안녕히 계세요",
+      "reading": "annyeonghi gyeseyo"
+    },
+    {
+      "id": "ko.tto-mannayo",
+      "kind": "phrase",
+      "text": "또 만나요",
+      "reading": "tto mannayo"
+    },
+    {
+      "id": "ko.jal-gayo",
+      "kind": "phrase",
+      "text": "잘 가요",
+      "reading": "jal gayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "감사합니다. 안녕히 계세요!",
+      "reading": "Gamsahamnida. Annyeonghi gyeseyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 안녕히 가세요.",
+      "reading": "Ne, annyeonghi gaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "또 만나요!",
+      "reading": "Tto mannayo!"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 또 만나요!",
+      "reading": "Ne, tto mannayo!"
+    }
+  ]
+}

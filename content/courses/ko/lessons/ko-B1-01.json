@@ -2,75 +2,206 @@
   "id": "ko-B1-01",
   "target": "ko",
   "stage": "B",
-  "minutes": 5,
+  "minutes": 7,
   "items": [
     {
-      "id": "ko.hana",
-      "text": "하나",
-      "reading": "hana"
+      "id": "ko.syl-an",
+      "kind": "syllable",
+      "text": "안",
+      "reading": "an"
     },
     {
-      "id": "ko.dul",
-      "text": "둘",
-      "reading": "dul"
+      "id": "ko.syl-am",
+      "kind": "syllable",
+      "text": "암",
+      "reading": "am"
     },
     {
-      "id": "ko.set",
-      "text": "셋",
-      "reading": "set"
+      "id": "ko.syl-ang",
+      "kind": "syllable",
+      "text": "앙",
+      "reading": "ang"
     },
     {
-      "id": "ko.net",
-      "text": "넷",
-      "reading": "net"
+      "id": "ko.syl-gan",
+      "kind": "syllable",
+      "text": "간",
+      "reading": "gan"
     },
     {
-      "id": "ko.daseot",
-      "text": "다섯",
-      "reading": "daseot"
+      "id": "ko.syl-gam",
+      "kind": "syllable",
+      "text": "감",
+      "reading": "gam"
+    },
+    {
+      "id": "ko.syl-gang",
+      "kind": "syllable",
+      "text": "강",
+      "reading": "gang"
+    },
+    {
+      "id": "ko.syl-dan",
+      "kind": "syllable",
+      "text": "단",
+      "reading": "dan"
+    },
+    {
+      "id": "ko.syl-dam",
+      "kind": "syllable",
+      "text": "담",
+      "reading": "dam"
+    },
+    {
+      "id": "ko.syl-dang",
+      "kind": "syllable",
+      "text": "당",
+      "reading": "dang"
+    },
+    {
+      "id": "ko.gabang",
+      "text": "가방",
+      "reading": "gabang"
+    },
+    {
+      "id": "ko.sarang",
+      "text": "사랑",
+      "reading": "sarang"
     }
   ],
   "dialogue": [],
   "exercises": [
     {
-      "type": "choose-meaning",
-      "item": "ko.hana"
+      "type": "listen-text",
+      "item": "ko.syl-an",
+      "options": [
+        "ko.syl-am",
+        "ko.syl-ang"
+      ]
     },
     {
       "type": "choose-meaning",
-      "item": "ko.dul"
+      "item": "ko.syl-an"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-am",
+      "options": [
+        "ko.syl-an",
+        "ko.syl-ang"
+      ]
     },
     {
       "type": "choose-meaning",
-      "item": "ko.set"
+      "item": "ko.syl-am"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ang",
+      "options": [
+        "ko.syl-an",
+        "ko.syl-am"
+      ]
     },
     {
       "type": "choose-meaning",
-      "item": "ko.net"
+      "item": "ko.syl-ang"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gan",
+      "options": [
+        "ko.syl-gam",
+        "ko.syl-gang"
+      ]
     },
     {
       "type": "choose-meaning",
-      "item": "ko.daseot"
+      "item": "ko.syl-gan"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gam",
+      "options": [
+        "ko.syl-gan",
+        "ko.syl-gang"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gam"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gang",
+      "options": [
+        "ko.syl-gan",
+        "ko.syl-gam"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gang"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-dan",
+      "options": [
+        "ko.syl-dam",
+        "ko.syl-dang"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-dan"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-dam",
+      "options": [
+        "ko.syl-dan",
+        "ko.syl-dang"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-dam"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-dang",
+      "options": [
+        "ko.syl-dan",
+        "ko.syl-dam"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-dang"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.gabang"
     },
     {
       "type": "listen-choose",
-      "item": "ko.hana"
+      "item": "ko.gabang"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.sarang"
     },
     {
       "type": "listen-choose",
-      "item": "ko.dul"
-    },
-    {
-      "type": "choose-text",
-      "item": "ko.daseot"
+      "item": "ko.sarang"
     },
     {
       "type": "speak",
-      "item": "ko.hana"
+      "item": "ko.syl-gam"
     },
     {
       "type": "speak",
-      "item": "ko.dul"
+      "item": "ko.sarang"
     }
   ]
 }

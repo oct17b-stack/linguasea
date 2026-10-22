@@ -1,0 +1,60 @@
+{
+  "id": "ko-A1-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jamkkanmanyo",
+      "kind": "phrase",
+      "text": "잠깐만요",
+      "reading": "jamkkanmanyo"
+    },
+    {
+      "id": "ko.mollayo",
+      "kind": "phrase",
+      "text": "몰라요",
+      "reading": "mollayo"
+    },
+    {
+      "id": "ko.algesseoyo",
+      "kind": "phrase",
+      "text": "알겠어요",
+      "reading": "algesseoyo"
+    },
+    {
+      "id": "ko.dasi-hanbeon-malhae-juseyo",
+      "kind": "phrase",
+      "text": "다시 한번 말해 주세요",
+      "reading": "dasi hanbeon malhae juseyo"
+    },
+    {
+      "id": "ko.cheoncheonhi-malhae-juseyo",
+      "kind": "phrase",
+      "text": "천천히 말해 주세요",
+      "reading": "cheoncheonhi malhae juseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "알겠어요?",
+      "reading": "Algesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요. 다시 한번 말해 주세요.",
+      "reading": "Aniyo. Dasi hanbeon malhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 알겠어요.",
+      "reading": "Ne, algesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다! 천천히 말해 주세요.",
+      "reading": "Gamsahamnida! Cheoncheonhi malhae juseyo."
+    }
+  ]
+}

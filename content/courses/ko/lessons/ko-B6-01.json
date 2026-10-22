@@ -1,0 +1,70 @@
+{
+  "id": "ko-B6-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gajok",
+      "text": "가족",
+      "reading": "gajok"
+    },
+    {
+      "id": "ko.eomeoni",
+      "text": "어머니",
+      "reading": "eomeoni"
+    },
+    {
+      "id": "ko.bumonim",
+      "text": "부모님",
+      "reading": "bumonim"
+    },
+    {
+      "id": "ko.dongsaeng",
+      "text": "동생",
+      "reading": "dongsaeng"
+    },
+    {
+      "id": "ko.myeong",
+      "text": "명",
+      "reading": "myeong"
+    },
+    {
+      "id": "ko.gyeseyo",
+      "text": "계세요",
+      "reading": "gyeseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 가족이 몇 명이에요?",
+      "reading": "Nam ssi, gajogi myeot myeongieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네 명이에요. 아버지, 어머니, 동생, 그리고 저요.",
+      "reading": "Ne myeongieyo. Abeoji, eomeoni, dongsaeng, geurigo jeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "부모님은 방콕에 계세요?",
+      "reading": "Bumonimeun Bangkoge gyeseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 방콕에 계세요. 동생도 방콕에 있어요.",
+      "reading": "Ne, Bangkoge gyeseyo. Dongsaengdo Bangkoge isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "동생은 몇 살이에요?",
+      "reading": "Dongsaengeun myeot sarieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열일곱 살이에요. 학생이에요.",
+      "reading": "Yeollilgop sarieyo. Haksaengieyo."
+    }
+  ]
+}

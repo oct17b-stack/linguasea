@@ -1,0 +1,70 @@
+{
+  "id": "ko-B5-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.achim",
+      "text": "아침",
+      "reading": "achim"
+    },
+    {
+      "id": "ko.jeomsim",
+      "text": "점심",
+      "reading": "jeomsim"
+    },
+    {
+      "id": "ko.jeonyeok",
+      "text": "저녁",
+      "reading": "jeonyeok"
+    },
+    {
+      "id": "ko.ireonayo",
+      "text": "일어나요",
+      "reading": "ireonayo"
+    },
+    {
+      "id": "ko.jayo",
+      "text": "자요",
+      "reading": "jayo"
+    },
+    {
+      "id": "ko.maeil",
+      "text": "매일",
+      "reading": "maeil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 매일 몇 시에 일어나요?",
+      "reading": "Nam ssi, maeil myeot sie ireonayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일곱 시에 일어나요.",
+      "reading": "Ilgop sie ireonayo."
+    },
+    {
+      "speaker": "c",
+      "text": "아침 먹어요?",
+      "reading": "Achim meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 아침에 밥 먹어요.",
+      "reading": "Ne, achime bap meogeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "몇 시에 자요?",
+      "reading": "Myeot sie jayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열두 시에 자요.",
+      "reading": "Yeoldu sie jayo."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ko-A2-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.letter-ya",
+      "kind": "letter",
+      "text": "ㅑ",
+      "reading": "ya",
+      "say": "야"
+    },
+    {
+      "id": "ko.letter-yeo",
+      "kind": "letter",
+      "text": "ㅕ",
+      "reading": "yeo",
+      "say": "여"
+    },
+    {
+      "id": "ko.letter-yo",
+      "kind": "letter",
+      "text": "ㅛ",
+      "reading": "yo",
+      "say": "요"
+    },
+    {
+      "id": "ko.letter-yu",
+      "kind": "letter",
+      "text": "ㅠ",
+      "reading": "yu",
+      "say": "유"
+    },
+    {
+      "id": "ko.uyu",
+      "text": "우유",
+      "reading": "uyu"
+    },
+    {
+      "id": "ko.yeou",
+      "text": "여우",
+      "reading": "yeou"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.letter-ya",
+      "options": [
+        "ko.letter-a",
+        "ko.letter-yeo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-ya"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-yeo",
+      "options": [
+        "ko.letter-yo",
+        "ko.letter-eo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-yeo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-yo",
+      "options": [
+        "ko.letter-yeo",
+        "ko.letter-o"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-yo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.letter-yu",
+      "options": [
+        "ko.letter-u",
+        "ko.letter-yo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.letter-yu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.uyu"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.uyu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.yeou"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.yeou"
+    },
+    {
+      "type": "speak",
+      "item": "ko.letter-yeo"
+    },
+    {
+      "type": "speak",
+      "item": "ko.uyu"
+    }
+  ]
+}
