@@ -3306,7 +3306,7 @@
               "id": "en-B6-r01",
               "kind": "reader",
               "genre": "timetable",
-              "topic": "Timetable at Hua Lamphong station: trains to Chiang Mai — the morning train leaves at 8:30 a.m. and arrives at 7:30 p.m.; the night train leaves from platform 5; tickets for children are 100 baht",
+              "topic": "Timetable at a Bangkok train station: trains to Chiang Mai — the morning train leaves at 8:30 a.m. and arrives at 7:30 p.m.; the night train leaves from platform 5; tickets for children are 100 baht",
               "items": [
                 {
                   "id": "en.arrive",
@@ -3550,7 +3550,7 @@
               "id": "en-B7-r01",
               "kind": "reader",
               "genre": "description",
-              "topic": "Short description: Nam's family house — an old two-floor house with a small garden; there are three bedrooms upstairs, a balcony with flowers, and Nam's favorite place is the roof at night",
+              "topic": "Short description: Nam's family house — an old house with two floors and a small garden; there are three bedrooms upstairs, a balcony with flowers, and Nam's favorite place is the roof at night",
               "items": [
                 {
                   "id": "en.balcony",
@@ -3996,7 +3996,7 @@
               "id": "en-B9-r01",
               "kind": "reader",
               "genre": "chat messages",
-              "topic": "Chat messages between Nam and Emma: Emma is already at the café; Nam is on the bus in a traffic jam, she is almost there; Emma: Are you here yet? Nam: Not yet! Five minutes!",
+              "topic": "Chat messages between Nam and Emma: Emma is already at the coffee shop; Nam is on the bus in a traffic jam, she is almost there; Emma: Are you here yet? Nam: Not yet! Five minutes!",
               "items": [
                 {
                   "id": "en.already",
@@ -4031,6 +4031,12 @@
               "topic": "Hot or iced?",
               "grammar": "Can I get …? (casual ordering) vs I'd like … (review); a / an + drink",
               "items": [
+                {
+                  "id": "en.cafe",
+                  "text": "café",
+                  "reading": "kæˈfeɪ",
+                  "kind": "word"
+                },
                 {
                   "id": "en.can-i-get",
                   "text": "Can I get …?",
@@ -4264,6 +4270,12 @@
               "grammar": "a bottle of + noun; countable snacks (chips) vs uncountable water",
               "items": [
                 {
+                  "id": "en.convenience-store",
+                  "text": "convenience store",
+                  "reading": "kənˈviːniəns ˌstɔːr",
+                  "kind": "word"
+                },
+                {
                   "id": "en.snack",
                   "text": "snack",
                   "reading": "snæk",
@@ -4454,7 +4466,7 @@
               "id": "en-B11-r01",
               "kind": "reader",
               "genre": "note",
-              "topic": "Note from Nam's mom on the fridge: please buy some eggs, two bottles of water, a pack of instant noodles, cereal and some bread at the convenience store; the money is on the table",
+              "topic": "Note from Nam's mom on the kitchen table: please buy some eggs, two bottles of water, a pack of instant noodles, cereal and some bread at the convenience store; the money is on the table",
               "items": [
                 {
                   "id": "en.note",
@@ -4680,7 +4692,7 @@
               "id": "en-B12-r01",
               "kind": "reader",
               "genre": "sign",
-              "topic": "Sign at a swimming pool: open 6 a.m. to 8 p.m.; please take a shower before you swim; no food or glass; children under 12 come with an adult; the lifeguard is on duty until 7 p.m.",
+              "topic": "Sign at a swimming pool: open 6 a.m. to 8 p.m.; please take a shower before you swim; no food or glass; children under 12 come with an adult; the lifeguard is on duty from 7 a.m. to 7 p.m.",
               "items": [
                 {
                   "id": "en.before",
@@ -4900,7 +4912,7 @@
               "id": "en-B13-r01",
               "kind": "reader",
               "genre": "short story",
-              "topic": "Short story: Emma can't find her phone at a big market; Nam calls Emma's number and they hear it ring under a table at a noodle shop; then they tell the officer at the police box that everything is OK",
+              "topic": "Short story: Emma can't find her phone at a big market; Nam calls Emma's number and they hear it ring under a table at a noodle shop; then they thank the officer at the police box",
               "items": [
                 {
                   "id": "en.hear",
@@ -5358,7 +5370,7 @@
               "id": "en-B15-r01",
               "kind": "reader",
               "genre": "message (email)",
-              "topic": "Welcome email from the language school: Nam's course begins on Monday, June 2nd at 6:30 p.m. in Room 4 on the second floor; please come early on the first day, pay at the front desk and bring a photo",
+              "topic": "Welcome email from the language school: Nam's course begins on Monday, June 2nd at 6:30 p.m. in Room 4 on the second floor; please come early on the first day, pay at the front desk; you need one photo",
               "items": [
                 {
                   "id": "en.begin",

@@ -16,8 +16,8 @@
           "lessons": [
             {
               "id": "ja-C1-01",
-              "topic": "What Nam did in their free time last weekend",
-              "grammar": "〜ました／〜ませんでした (polite past of verbs)",
+              "topic": "Hobbies people have: karaoke, games, drives",
+              "grammar": "N や N など (listing examples)",
               "items": [
                 {
                   "id": "ja.shumi",
@@ -280,8 +280,8 @@
           "lessons": [
             {
               "id": "ja-C2-01",
-              "topic": "Body parts and saying where it hurts",
-              "grammar": "N1 は N2 が 痛いです (body part + が + adjective)",
+              "topic": "Saying where it hurts and explaining the problem",
+              "grammar": "〜んです (explaining a problem: 頭が 痛いんです・せきが 出るんです)",
               "items": [
                 {
                   "id": "ja.kubi",
@@ -317,8 +317,8 @@
             },
             {
               "id": "ja-C2-02",
-              "topic": "Describing symptoms",
-              "grammar": "〜が あります／〜が 出ます (熱が ある, せきが 出る)",
+              "topic": "Describing symptoms politely",
+              "grammar": "〜ので (giving a reason politely: 熱が ありますので)",
               "items": [
                 {
                   "id": "ja.netsu",
@@ -354,8 +354,8 @@
             },
             {
               "id": "ja-C2-03",
-              "topic": "Telling the school office you are sick",
-              "grammar": "〜から (giving a reason)",
+              "topic": "Telling the school office how long you have been sick",
+              "grammar": "〜前から・〜日前 (since … ago: 三日前から 熱が あります)",
               "items": [
                 {
                   "id": "ja.kesseki",
@@ -392,14 +392,8 @@
             {
               "id": "ja-C2-04",
               "topic": "Getting better or worse",
-              "grammar": "い-adj → 〜く なります／な-adj・N → 〜に なります (change)",
+              "grammar": "い-adjective + く なりました (よく なりました・ひどく なりました)",
               "items": [
-                {
-                  "id": "ja.naoru",
-                  "text": "なおる",
-                  "reading": "naoru",
-                  "kind": "word"
-                },
                 {
                   "id": "ja.shinpai",
                   "text": "しんぱい",
@@ -459,8 +453,8 @@
             },
             {
               "id": "ja-C2-06",
-              "topic": "At the pharmacy: how much and how often",
-              "grammar": "〜に 〜回・〜ずつ (frequency and amount)",
+              "topic": "Review: at the pharmacy, how much and how often",
+              "grammar": "Review: 〜に 〜回・〜ずつ (frequency and amount)",
               "items": [
                 {
                   "id": "ja.yakkyoku",
@@ -556,8 +550,8 @@
           "lessons": [
             {
               "id": "ja-C3-01",
-              "topic": "What you want to do after graduation",
-              "grammar": "〜たいです／〜たくないです (want to do)",
+              "topic": "Review: what you want to do and to become after graduation",
+              "grammar": "Review: 〜たいです／N に なりたいです (wishes for the future)",
               "items": [
                 {
                   "id": "ja.sotsugyou",
@@ -593,8 +587,8 @@
             },
             {
               "id": "ja-C3-02",
-              "topic": "Things you want for your studies",
-              "grammar": "N が ほしいです (want something)",
+              "topic": "Things you need for your studies",
+              "grammar": "N が 必要です／N が いります (what you need)",
               "items": [
                 {
                   "id": "ja.kyoukasho",
@@ -624,8 +618,8 @@
             },
             {
               "id": "ja-C3-03",
-              "topic": "Going to the lab or the office to do something",
-              "grammar": "V(ます-stem) に 行きます／来ます (go/come to do)",
+              "topic": "Lectures and the lab: what I do and what I don't",
+              "grammar": "Contrastive は (予習は しますが、復習は しません)",
               "items": [
                 {
                   "id": "ja.kenkyuushitsu",
@@ -938,7 +932,7 @@
             {
               "id": "ja-C4-04",
               "topic": "Choosing a day and a meeting place",
-              "grammar": "N か N (or)・〜は どうですか (suggesting)",
+              "grammar": "N か N (or)・N でも N でも いい (either is fine)",
               "items": [
                 {
                   "id": "ja.yotei",
@@ -990,9 +984,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.maniau",
-                  "text": "まにあう",
-                  "reading": "maniau",
+                  "id": "ja.hinichi",
+                  "text": "日にち",
+                  "reading": "hinichi",
                   "kind": "word"
                 }
               ]
@@ -1000,7 +994,7 @@
             {
               "id": "ja-C4-06",
               "topic": "Agreeing on a time and how long it takes",
-              "grammar": "〜ごろ／〜くらい (approximately)",
+              "grammar": "〜くらい／〜ぐらい (about: amounts and durations)",
               "items": [
                 {
                   "id": "ja.yakusoku",
@@ -1149,15 +1143,15 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.isogu",
-                  "text": "急ぐ",
-                  "reading": "isogu",
+                  "id": "ja.mochiageru",
+                  "text": "持ち上げる",
+                  "reading": "mochiageru",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.naosu",
-                  "text": "なおす",
-                  "reading": "naosu",
+                  "id": "ja.osaeru",
+                  "text": "おさえる",
+                  "reading": "osaeru",
                   "kind": "word"
                 }
               ]
@@ -1337,15 +1331,21 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.azukaru",
-                  "text": "あずかる",
-                  "reading": "azukaru",
+                  "id": "ja.mizuyari",
+                  "text": "水やり",
+                  "reading": "mizuyari",
                   "kind": "word"
                 },
                 {
                   "id": "ja.kareru",
                   "text": "かれる",
                   "reading": "kareru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yuubinbutsu",
+                  "text": "ゆうびんぶつ",
+                  "reading": "yūbinbutsu",
                   "kind": "word"
                 }
               ]
@@ -1360,8 +1360,8 @@
           "lessons": [
             {
               "id": "ja-C6-01",
-              "topic": "How the trip was",
-              "grammar": "い-adj past: 〜かったです／〜くなかったです",
+              "topic": "How the trip was: describing places",
+              "grammar": "Connecting adjectives: い-adj 〜くて／な-adj・N 〜で (静かで きれい)",
               "items": [
                 {
                   "id": "ja.keshiki",
@@ -1397,8 +1397,8 @@
             },
             {
               "id": "ja-C6-02",
-              "topic": "Places you visited and what they were like",
-              "grammar": "な-adj・N past: 〜でした／〜じゃありませんでした",
+              "topic": "Review: places you visited and what they were like",
+              "grammar": "Review: past forms of nouns and adjectives (〜でした・〜かったです・〜じゃありませんでした)",
               "items": [
                 {
                   "id": "ja.ryokan",
@@ -1518,9 +1518,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.tomaru-stay",
-                  "text": "泊まる",
-                  "reading": "tomaru",
+                  "id": "ja.yado",
+                  "text": "やど",
+                  "reading": "yado",
                   "kind": "word"
                 },
                 {
@@ -1778,8 +1778,8 @@
             },
             {
               "id": "ja-C7-05",
-              "topic": "Explaining a problem politely",
-              "grammar": "〜んです (どうしたんですか・〜んです)",
+              "topic": "Review: explaining a problem in plain form",
+              "grammar": "Review: 〜んです with plain past and negative (落としたんです・ないんです)",
               "items": [
                 {
                   "id": "ja.wasuremono",
@@ -2043,7 +2043,7 @@
             {
               "id": "ja-C8-05",
               "topic": "Describing how it rains and changes",
-              "grammar": "Adjective → adverb: 〜く／〜に + verb (強く 降る, 静かに 降る)",
+              "grammar": "い-adjective → adverb 〜く (早く・強く・よく)",
               "items": [
                 {
                   "id": "ja.hageshii",
@@ -2285,9 +2285,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.niau",
-                  "text": "にあう",
-                  "reading": "niau",
+                  "id": "ja.awaseru",
+                  "text": "あわせる",
+                  "reading": "awaseru",
                   "kind": "word"
                 },
                 {
@@ -2306,8 +2306,8 @@
             },
             {
               "id": "ja-C9-05",
-              "topic": "The red one, please",
-              "grammar": "Adjective + の (the … one: 赤いの・大きいの)",
+              "topic": "The person wearing glasses / the clothes I bought yesterday",
+              "grammar": "Noun-modifying clauses (きのう 買った 服・めがねを かけて いる 人)",
               "items": [
                 {
                   "id": "ja.gara",
@@ -2644,12 +2644,6 @@
                   "id": "ja.oyu",
                   "text": "おゆ",
                   "reading": "oyu",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.atatameru",
-                  "text": "あたためる",
-                  "reading": "atatameru",
                   "kind": "word"
                 }
               ]
@@ -3040,9 +3034,9 @@
               "grammar": "〜てくださいませんか (polite request)",
               "items": [
                 {
-                  "id": "ja.todokeru",
-                  "text": "とどける",
-                  "reading": "todokeru",
+                  "id": "ja.waremono",
+                  "text": "われもの",
+                  "reading": "waremono",
                   "kind": "word"
                 },
                 {
@@ -3067,8 +3061,8 @@
             },
             {
               "id": "ja-C12-04",
-              "topic": "Choosing how to send it",
-              "grammar": "〜に します (choosing: 航空便に します)",
+              "topic": "Choosing how to send it: time and cost",
+              "grammar": "〜で 〜日／〜円 かかります (how long / how much it takes)",
               "items": [
                 {
                   "id": "ja.koukuubin",
@@ -3129,8 +3123,8 @@
             },
             {
               "id": "ja-C12-06",
-              "topic": "At the bank: taking out and changing money",
-              "grammar": "〜ので (because: a polite reason)",
+              "topic": "At the bank: limits for withdrawals and transfers",
+              "grammar": "〜以上／〜以下／〜以内 (more than / less than / within)",
               "items": [
                 {
                   "id": "ja.hikidasu",
@@ -3550,12 +3544,6 @@
               "grammar": "N について (about: 〜について 調べる／話す)",
               "items": [
                 {
-                  "id": "ja.shougatsu",
-                  "text": "正月",
-                  "reading": "shōgatsu",
-                  "kind": "word"
-                },
-                {
                   "id": "ja.hatsumoude",
                   "text": "はつもうで",
                   "reading": "hatsumōde",
@@ -3933,9 +3921,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.daiji-ni",
-                  "text": "大事に",
-                  "reading": "daiji ni",
+                  "id": "ja.takaramono",
+                  "text": "たからもの",
+                  "reading": "takaramono",
                   "kind": "word"
                 },
                 {
@@ -4719,12 +4707,6 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.erabu",
-                  "text": "えらぶ",
-                  "reading": "erabu",
-                  "kind": "word"
-                },
-                {
                   "id": "ja.kuraberu",
                   "text": "くらべる",
                   "reading": "kuraberu",
@@ -5035,12 +5017,6 @@
                   "id": "ja.nagame",
                   "text": "ながめ",
                   "reading": "nagame",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.mieru",
-                  "text": "見える",
-                  "reading": "mieru",
                   "kind": "word"
                 },
                 {
@@ -7171,8 +7147,8 @@
           "lessons": [
             {
               "id": "ja-D11-01",
-              "topic": "Water is fine; I'll have the set meal",
-              "grammar": "N が いい／N で いい (choosing: 水で いいです)",
+              "topic": "I'd rather have the set meal",
+              "grammar": "〜より 〜の ほうが いい (I'd rather have …)",
               "items": [
                 {
                   "id": "ja.teishoku",
@@ -7372,12 +7348,6 @@
               "grammar": "〜とも (both / all: 二人とも・三人とも)",
               "items": [
                 {
-                  "id": "ja.kaikei",
-                  "text": "会計",
-                  "reading": "kaikei",
-                  "kind": "word"
-                },
-                {
                   "id": "ja.warikan",
                   "text": "わりかん",
                   "reading": "warikan",
@@ -7515,12 +7485,6 @@
                   "id": "ja.toiawase",
                   "text": "といあわせ",
                   "reading": "toiawase",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.tsunagaru",
-                  "text": "つながる",
-                  "reading": "tsunagaru",
                   "kind": "word"
                 },
                 {
@@ -8851,12 +8815,6 @@
                   "id": "ja.kanau",
                   "text": "かなう",
                   "reading": "kanau",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.ganbaru",
-                  "text": "がんばる",
-                  "reading": "ganbaru",
                   "kind": "word"
                 },
                 {
