@@ -283,7 +283,10 @@ function printReport(r: RunReport, prune: boolean, log: (line: string) => void) 
       log(`  failed: ${reason}`);
       log(`    ${clips.slice(0, 3).join('; ')}${clips.length > 3 ? `; and ${clips.length - 3} more` : ''}`);
     }
-    if (r.aborted) log(`Stopped early. Finished clips are kept; run again to continue.`);
+    if (r.aborted) {
+      const why = reasons.has(r.aborted) ? '' : ` (${r.aborted})`;
+      log(`Stopped early${why}. Finished clips are kept; run again to continue.`);
+    }
     if (total((c) => c.manifest ?? 0)) {
       const sizes = r.courses.map((c) => `${c.target} ${num(c.manifest ?? 0)}`).join(', ');
       log(`Manifests (content/audio/<course>/manifest.json): ${sizes} entries. Run npm run content to bundle them.`);

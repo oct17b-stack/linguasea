@@ -122,6 +122,16 @@ describe('run', () => {
     expect(Object.keys(manifestOf(audio, 'en'))).toEqual(["a|Hi, I'm Nam.", 'item|Hello', 'item|rock & roll']);
   });
 
+  it('stops after 10 failed clips, as something is wrong with every request', async () => {
+    const { root } = content();
+    const azure = fakeAzure(() => new Response('Unsupported voice', { status: 400 }));
+    const lines: string[] = [];
+    const report = await runWith(root, { fetch: azure.fetch, concurrency: 1, log: (l) => lines.push(l) });
+    expect(azure.requests).toHaveLength(10);
+    expect(report.aborted).toBe('10 clips failed');
+    expect(lines).toContain('Stopped early (10 clips failed). Finished clips are kept; run again to continue.');
+  });
+
   it('stops at once when the key is rejected and writes nothing', async () => {
     const { root, audio } = content();
     const azure = fakeAzure(() => new Response('', { status: 401 }));
