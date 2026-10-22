@@ -18,11 +18,12 @@ These Terms of Service ("Terms") are an agreement between you and [TBD: operator
 - Your progress is saved on your device and, when you are online, synced to our server. Until sign-in is available, your progress is tied to the app on your device: if you delete the app or move to a new device, you may not be able to get it back.
 - Your subscription is linked to your Apple ID or Google account, not to your progress. On a new device or after reinstalling, use **Restore purchases** in the app.
 - You can delete your data at any time: **Settings → Delete my data**. Deletion cannot be undone and does not cancel your subscription.
+- If the app is not used for 24 months, your account and its data on our server are deleted automatically (see the [Privacy Policy](privacy-en.md)). This does not affect your subscription.
 
 ## 3. Free and Premium
 
-- **Free:** the Stage A (beginner) lessons of every language, reviews, and a limited number of pronunciation checks per day.
-- **Premium (subscription):** unlocks the lessons of every paid stage in every language (currently Stage B) and a higher daily limit for pronunciation checks.
+- **Free:** the Stage A (beginner) lessons of every language, reviews, and a limited number of pronunciation checks and AI tutor turns per day.
+- **Premium (subscription):** unlocks the lessons of every paid stage in every language (currently Stage B) and higher daily limits for pronunciation checks and the AI tutor.
 - Some features have daily limits so that the Service stays fair and affordable. The current limits and what each plan includes are shown in the app.
 - We may add, change or remove features and content. If we significantly reduce what Premium includes, we will tell you in advance so you can cancel.
 
@@ -47,12 +48,16 @@ Deleting the app or deleting your data does not cancel a subscription. After you
 
 **4.7 Restoring purchases.** If you reinstall the app or use another device signed in with the same Apple ID or Google account, tap **Restore purchases** on the subscription screen.
 
-## 5. Learning content and scores
+## 5. Learning content, scores and the AI tutor
 
 - Our lessons, translations, Thai explanations, Thai-script readings, audio and exercises are for learning languages. We work to keep them accurate, but they may contain mistakes or simplifications. Thai-script readings only approximate the real pronunciation. If you find a mistake, please tell us at [TBD: contact email].
 - We match our stages to HSK 1, JLPT N5, TOPIK I and CEFR A1 to help you choose what to study. This is our own guidance: we are not connected with or endorsed by the organisations that run these exams, and we do not promise any exam result. The names of these exams and frameworks belong to their owners.
 - Pronunciation scores are produced automatically by speech-recognition technology. They are estimates to help you practise, can be wrong (for example because of background noise or your microphone), and do not certify your level.
 - Streaks and XP are there to motivate you and have no monetary value.
+- The **AI tutor** is a computer program, not a human teacher. It uses Anthropic's Claude to role-play situations from the unit you are studying. Its replies, corrections and hints are generated automatically and may be wrong, unnatural or, occasionally, inappropriate, so check anything important with other sources.
+- Before your first conversation, the app explains what is sent to Anthropic and asks you to agree. If you don't agree, you can still use the rest of the app.
+- Don't share personal information (such as your full name, address, phone number, school or account details) in conversations. We mask email addresses and phone numbers, but we cannot catch everything. Our [Privacy Policy](privacy-en.md) explains what is sent and kept.
+- If a reply is inappropriate, report it with the report option in the conversation; reports come to us by email.
 
 ## 6. Acceptable use
 
@@ -63,6 +68,7 @@ You agree not to:
 - reverse-engineer, decompile or modify the app, except where the law allows this despite this restriction;
 - disrupt the Service or try to access other people's data or our systems;
 - record or upload other people's voices without their permission, or use the speaking features for anything other than your own practice;
+- try to make the AI tutor produce harmful, unlawful, sexual, hateful or otherwise inappropriate content, try to get around its safeguards, or use it for anything other than practising the language;
 - use the Service for anything unlawful or that infringes other people's rights.
 
 ## 7. Our rights in the Service
@@ -71,11 +77,11 @@ The app, our content, audio, design, trademarks and software belong to us or our
 
 ## 8. Third-party services
 
-Parts of the Service rely on others: the App Store and Google Play (downloads and purchases), your device's text-to-speech, Microsoft Azure (pronunciation scoring) and RevenueCat (subscription management). Your purchases are also governed by Apple's or Google's terms. We choose these providers carefully but are not responsible for services we do not control.
+Parts of the Service rely on others: the App Store and Google Play (downloads and purchases), your device's text-to-speech, Microsoft Azure (pronunciation scoring and speech recognition), Anthropic (the AI tutor) and RevenueCat (subscription management). Your purchases are also governed by Apple's or Google's terms. We choose these providers carefully but are not responsible for services we do not control.
 
 ## 9. Availability and changes
 
-We aim to keep the Service available but cannot promise it will always be uninterrupted or free of errors — for example during maintenance or network problems, or when one of our providers has an outage. Syncing, pronunciation scoring and downloading lesson audio need an internet connection. If we decide to stop providing the Service, we will tell you in the app at least 30 days in advance where possible, stop selling new subscriptions, and explain how to cancel and how to ask Apple or Google for a refund for any unused period where their rules allow.
+We aim to keep the Service available but cannot promise it will always be uninterrupted or free of errors — for example during maintenance or network problems, or when one of our providers has an outage. Syncing, pronunciation scoring, the AI tutor and downloading lesson audio need an internet connection. If we decide to stop providing the Service, we will tell you in the app at least 30 days in advance where possible, stop selling new subscriptions, and explain how to cancel and how to ask Apple or Google for a refund for any unused period where their rules allow.
 
 ## 10. Disclaimer
 

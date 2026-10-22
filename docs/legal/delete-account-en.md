@@ -18,16 +18,20 @@ The app needs an internet connection for this. If it cannot reach our server, no
 
 If you can't use the app (for example, you have already deleted it), email [TBD: contact email] with the subject "Delete my data".
 
-The app has no sign-in, so your data is linked only to a random account ID, not to your name, email address or phone number. To help us find it, tell us the order number on your Apple or Google receipt if you ever subscribed. If you deleted the app without deleting your data first and never subscribed, we may not be able to tell which data is yours; it stays linked only to that random ID. We reply within 30 days and confirm when your data has been deleted, or tell you if we couldn't find any.
+The app has no sign-in, so your data is linked only to a random account ID, not to your name, email address or phone number. To help us find it, tell us the order number on your Apple or Google receipt if you ever subscribed. If you deleted the app without deleting your data first and never subscribed, we may not be able to tell which data is yours; it stays linked only to that random ID until it is deleted automatically after 24 months without use (see below). We reply within 30 days and confirm when your data has been deleted, or tell you if we couldn't find any.
+
+## Automatic deletion after 24 months
+
+If the app has not been used for 24 months, we delete your account and all its data on our server automatically. This does not cancel a subscription: cancel it in your store settings if you no longer want it, or use **Restore purchases** in the app when you come back.
 
 ## What is deleted
 
 From our server, immediately:
 
-- your random account ID and the hash of your access token;
+- your random account ID, the hash of your access token and the date the account was last used;
 - your learning progress (finished lessons, review schedule, XP and streak);
 - your subscription status record (the end date we received from the store);
-- your daily usage counts (for example, pronunciation checks).
+- your daily usage counts (pronunciation checks and AI tutor turns).
 
 On your device, the app erases your progress and your learning and reminder settings, cancels the daily reminder and removes its access token, then starts afresh.
 
@@ -36,8 +40,9 @@ On your device, the app erases your progress and your learning and reminder sett
 - **Server logs** (IP address, time and address of requests): up to 90 days, then deleted.
 - **Backups:** copies of deleted data disappear from our backups within 30 days.
 - **Purchase records:** Apple or Google keep your purchase and payment records under their own policies. RevenueCat, which manages subscriptions for us, keeps your purchase history (linked to a random ID, not to your name) so that purchases can be restored. To have it deleted too, email us with the order number from your receipt.
-- **Emails you send us:** up to 2 years after we have handled your request.
-- **Recordings:** nothing to delete — pronunciation recordings are never stored.
+- **Emails you send us, including reports of AI tutor replies:** up to 2 years after we have handled them.
+- **Recordings:** nothing to delete — pronunciation recordings and spoken answers are never stored.
+- **AI tutor conversations:** nothing to delete on our server — we never store them. Anthropic, which writes the tutor's replies, keeps the text it received only for a limited period under its terms, without your account ID, and then deletes it.
 
 ## Cancel your subscription
 

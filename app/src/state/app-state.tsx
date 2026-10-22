@@ -1,6 +1,14 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { L1, Target } from '@linguasea/contract';
-import { completeLesson, emptyProgress, mergeProgress, reviewItem, type Progress } from '@linguasea/core';
+import {
+  completeLesson,
+  emptyProgress,
+  mergeProgress,
+  recordAnswers,
+  reviewItem,
+  skipLessons,
+  type Progress,
+} from '@linguasea/core';
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import { AppState as SystemAppState } from 'react-native';
 
@@ -37,12 +45,18 @@ type Entitlements = {
   dev: boolean;
 };
 
+/** The learner's answer on the AI tutor consent screen (Apple 5.1.2(i)): data goes to Anthropic / Azure only after "agreed". */
+export type TutorConsent = 'agreed' | 'declined';
+
 type Saved = {
   l1: L1;
   target?: Target;
   progress: Progress;
   reminder: Reminder;
   entitlements: Entitlements;
+  /** Courses whose placement question ("studied this before?") was answered. */
+  placed: Partial<Record<Target, true>>;
+  tutorConsent?: TutorConsent;
 };
 
 type AppState = {
@@ -56,8 +70,17 @@ type AppState = {
   t: (key: string, params?: Record<string, string | number>) => string;
   setL1: (l1: L1) => void;
   setTarget: (target: Target) => void;
+  /** A finished lesson, reader, practice session or passed unit test (`results`: item id → answered right). */
   finishLesson: (lessonId: string, results: Record<string, boolean>) => void;
+  /** A failed unit test: the answers still train the review cards, nothing is marked done. */
+  recordTest: (results: Record<string, boolean>) => void;
+  /** Placement passed: these lessons count as done. */
+  skipLessons: (lessonIds: string[]) => void;
   reviewed: (itemId: string, correct: boolean) => void;
+  placed: Partial<Record<Target, true>>;
+  markPlaced: (target: Target) => void;
+  tutorConsent?: TutorConsent;
+  setTutorConsent: (consent: TutorConsent | undefined) => void;
   /** Turns the daily reminder on / off or moves it; "denied" when notifications are not allowed. */
   setReminder: (reminder: Reminder) => Promise<'ok' | 'denied'>;
   /** Re-reads the server's subscription state (after a restore). */
@@ -77,6 +100,7 @@ function fresh(l1: L1 = deviceL1()): Saved {
     progress: emptyProgress(),
     reminder: { on: false, hour: 20, minute: 0 },
     entitlements: { store: false, server: false, serverUntil: null, dev: false },
+    placed: {},
   };
 }
 
@@ -93,6 +117,8 @@ function revive(raw: string | null): Saved {
     target: old.target && courseBundle(l1, old.target) ? old.target : undefined,
     progress: old.progress?.version === 1 ? old.progress : base.progress,
     reminder: { ...base.reminder, ...old.reminder },
+    placed: { ...old.placed },
+    tutorConsent: old.tutorConsent === 'agreed' || old.tutorConsent === 'declined' ? old.tutorConsent : undefined,
     entitlements: {
       store: ent.store === true,
       server: ent.server === true && !!until && Date.parse(until) > Date.now(),
@@ -283,6 +309,18 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       setSaved((cur) => ({ ...cur, progress: completeLesson(cur.progress, lessonId, results, new Date()) }));
       scheduleSync(SYNC_AFTER_LESSON_MS);
     },
+    recordTest: (results) => {
+      setSaved((cur) => ({ ...cur, progress: recordAnswers(cur.progress, results, new Date()) }));
+      scheduleSync(SYNC_AFTER_LESSON_MS);
+    },
+    skipLessons: (lessonIds) => {
+      setSaved((cur) => ({ ...cur, progress: skipLessons(cur.progress, lessonIds, new Date()) }));
+      scheduleSync(SYNC_AFTER_LESSON_MS);
+    },
+    placed: saved.placed,
+    markPlaced: (t) => setSaved((cur) => (cur.placed[t] ? cur : { ...cur, placed: { ...cur.placed, [t]: true } })),
+    tutorConsent: saved.tutorConsent,
+    setTutorConsent: (tutorConsent) => setSaved((cur) => ({ ...cur, tutorConsent })),
     reviewed: (itemId, correct) => {
       setSaved((cur) => ({ ...cur, progress: reviewItem(cur.progress, itemId, correct, new Date()) }));
       scheduleSync(SYNC_AFTER_REVIEW_MS);

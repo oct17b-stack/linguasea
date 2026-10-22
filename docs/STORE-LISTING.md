@@ -1,7 +1,7 @@
 # 商店上架资料（App Store / Google Play）
 
-> 版本 2026-10-22。文案都按 App 现在真实具备的功能写：四门语言（中、英、日、韩）、泰语讲解、A–B 两个阶段（对齐 HSK 1 / JLPT N5 / TOPIK I / CEFR A1）、间隔复习、发音打分、连胜和 XP、每日提醒。
-> **不要**写还没做的功能：AI 口语老师、模拟考、离线下载、排行榜、LINE 登录、家庭版。上架前用正式版对照一遍（见第 8 节）。
+> 版本 2026-10-22。文案都按 App 现在真实具备的功能写：四门语言（中、英、日、韩）、泰语讲解、A–B 两个阶段（对齐 HSK 1 / JLPT N5 / TOPIK I / CEFR A1）、间隔复习、发音打分、AI 口语老师（ครู AI）、连胜和 XP、每日提醒。
+> **不要**写还没做的功能：模拟考、离线下载、排行榜、LINE 登录、家庭版。上架前用正式版对照一遍（见第 8 节）。
 > 括号里的数字是"已用字数/上限"，按商店的算法（泰文的声调和元音符号也算字）用脚本数过。改文案后要重新数。
 > 网址里的 `<域名>` / `<domain>` 换成服务器域名（见 docs/LAUNCH.md 第 2、8 步），例如 `https://api.example.com/legal/privacy-th.html`。
 
@@ -36,35 +36,35 @@
 
 ### 1.2 推广文本（Promotional Text，≤170，可随时改，不用重新审核）
 
-泰语（135/170）：
+泰语（143/170）：
 
 ```
-เริ่มเรียนจีน อังกฤษ ญี่ปุ่น หรือเกาหลีได้ฟรี บทเรียนสั้น ๆ อธิบายเป็นภาษาไทย มีคำอ่านภาษาไทยทุกคำ ฝึกพูดแล้วดูคะแนนการออกเสียงได้ทันที
+เริ่มเรียนจีน อังกฤษ ญี่ปุ่น หรือเกาหลีได้ฟรี บทเรียนสั้น ๆ อธิบายเป็นภาษาไทย มีคำอ่านภาษาไทยทุกคำ ดูคะแนนการออกเสียงทันที และฝึกสนทนากับครู AI
 ```
 
-英语（156/170）：
+英语（166/170）：
 
 ```
-Start Chinese, English, Japanese or Korean for free: short lessons explained in Thai, Thai-script readings for every word, and instant pronunciation scores.
+Start Chinese, English, Japanese or Korean for free: short lessons explained in Thai, Thai-script readings, instant pronunciation scores and an AI tutor to talk with.
 ```
 
 ### 1.3 关键词（Keywords，≤100，英文逗号分隔，逗号后不加空格）
 
-泰语（92/100）：
+泰语（95/100）：
 
 ```
-เรียนภาษาจีน,ภาษาญี่ปุ่น,ภาษาเกาหลี,ภาษาอังกฤษ,HSK,JLPT,TOPIK,คำศัพท์,พินอิน,ฮิรางานะ,ฮันกึล
+เรียนภาษาจีน,ภาษาญี่ปุ่น,ภาษาเกาหลี,ภาษาอังกฤษ,HSK,JLPT,TOPIK,คำศัพท์,พินอิน,ฮิรางานะ,ฮันกึล,AI
 ```
 
-英语（94/100）：
+英语（97/100）：
 
 ```
-chinese,japanese,korean,english,thai,hsk,jlpt,topik,pinyin,hiragana,hangul,vocabulary,speaking
+chinese,japanese,korean,english,thai,hsk,jlpt,topik,pinyin,hiragana,hangul,vocabulary,speaking,ai
 ```
 
 ### 1.4 描述（Description，≤4000）
 
-泰语（约 1,600/4000）：
+泰语（约 1,770/4000）：
 
 ```
 เรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลีในแอปเดียว พร้อมคำอธิบายเป็นภาษาไทยทุกบท
@@ -86,6 +86,10 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 • ฟังเสียงได้ทั้งความเร็วปกติและแบบช้า
 • ฝึกพูดตาม แล้วดูคะแนนการออกเสียงได้ทันที
 
+■ ฝึกสนทนากับครู AI
+• คุยกับครู AI ตามสถานการณ์ในบทที่เรียน พิมพ์หรือพูดตอบก็ได้
+• ได้คำแนะนำและคำใบ้เป็นภาษาไทย พร้อมประโยคที่แก้ให้ถูกต้อง
+
 ■ ทบทวนแบบเว้นระยะ
 • ระบบจัดคำศัพท์ให้ทบทวนในเวลาที่เหมาะสม ก่อนที่คุณจะลืม
 
@@ -97,8 +101,8 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 • ระดับ A (เริ่มต้น) และระดับ B (พื้นฐาน) เทียบกับ HSK 1, JLPT N5, TOPIK I และ CEFR A1
 
 ■ ฟรีและ Premium
-• ฟรี: บทเรียนระดับ A ทุกภาษา การทบทวน และการตรวจการออกเสียงวันละจำนวนจำกัด
-• Premium: ปลดล็อกบทเรียนระดับ B ทุกภาษา และตรวจการออกเสียงได้มากขึ้นต่อวัน
+• ฟรี: บทเรียนระดับ A ทุกภาษา การทบทวน และการตรวจการออกเสียงกับการคุยกับครู AI วันละจำนวนจำกัด
+• Premium: ปลดล็อกบทเรียนระดับ B ทุกภาษา และใช้การตรวจการออกเสียงกับครู AI ได้มากขึ้นต่อวัน
 • มีแพ็กเกจรายเดือนและรายปี แพ็กเกจรายปีทดลองใช้ฟรี 7 วันสำหรับผู้สมัครใหม่
 
 การสมัครสมาชิกจะต่ออายุอัตโนมัติ เว้นแต่ยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบันหรือช่วงทดลองใช้ฟรี จัดการหรือยกเลิกได้ในการตั้งค่าบัญชี App Store หรือ Google Play
@@ -111,7 +115,7 @@ LinguaSEA ออกแบบมาสำหรับคนไทยที่อ�
 LinguaSEA ไม่มีส่วนเกี่ยวข้องกับองค์กรที่จัดสอบ HSK, JLPT และ TOPIK
 ```
 
-英语（约 1,800/4000）：
+英语（约 2,030/4000）：
 
 ```
 Learn Chinese, English, Japanese and Korean in one app, with every lesson explained in Thai.
@@ -133,6 +137,10 @@ LinguaSEA is made for Thai speakers who want to start a new language step by ste
 • Listen at normal or slow speed
 • Repeat after the audio and get an instant pronunciation score
 
+■ Practise conversation with the AI tutor
+• Talk through situations from your unit, typing or speaking your answers
+• Get feedback and hints in Thai, with corrected sentences
+
 ■ Spaced-repetition review
 • Words come back for review at the right time, before you forget them
 
@@ -144,8 +152,8 @@ LinguaSEA is made for Thai speakers who want to start a new language step by ste
 • Stage A (beginner) and Stage B (basic), matched to HSK 1, JLPT N5, TOPIK I and CEFR A1
 
 ■ Free and Premium
-• Free: Stage A lessons in every language, reviews, and a limited number of pronunciation checks per day
-• Premium: unlocks Stage B in every language and more pronunciation checks per day
+• Free: Stage A lessons in every language, reviews, and a limited number of pronunciation checks and AI tutor turns per day
+• Premium: unlocks Stage B in every language, with more pronunciation checks and AI tutor turns per day
 • Monthly and yearly plans; the yearly plan has a 7-day free trial for new subscribers
 
 Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period or free trial. Manage or cancel any time in your App Store or Google Play account settings.
@@ -206,6 +214,9 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 | 6 | 对话 + 泰语译文 | บทสนทนาพร้อมคำแปลภาษาไทย | Dialogues with Thai translations |
 | 7 | "รู้ไว้ใช่ว่า" 讲解卡 | อธิบายสั้น ๆ เป็นภาษาไทย | Short notes in Thai |
 | 8 | 复习 | ทบทวนคำศัพท์ก่อนจะลืม | Review words before you forget |
+| 9 | AI 老师对话（带泰语提示和改正） | ฝึกสนทนากับครู AI | Practise conversation with an AI tutor |
+
+Google Play 手机截图最多 8 张：从上面 9 张里去掉一张（建议去掉第 7 张）。
 
 尺寸：
 
@@ -232,13 +243,15 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 | 酒精、烟草、药物（Alcohol, Tobacco, or Drug Use or References） | None；如果课文里教了"啤酒、清酒、烧酒"之类的词，选 Infrequent |
 | Made for Kids（儿童类别） | No |
 
+AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Generated Content"答 No；如果问卷里有专门针对 AI 聊天或 AI 生成内容的问题，如实答 Yes（AI 老师按规则只谈适合青少年的话题，可以举报不当回复）。
+
 问卷算出来的结果大概是 4+。**建议**在同一页把分级手动调高到 **13+**，和服务条款"13 岁以上"一致（这是建议，你可以决定保留 4+）。
 
 ### 4.2 Google Play 内容分级（Policy → App content → Content rating，IARC 问卷）
 
 - 类别：Reference, News, or Educational（参考、新闻或教育）
 - 暴力、性、粗口、受管制物品、赌博、恐怖：全部 No
-- 用户之间能否互动或交换内容：No
+- 用户之间能否互动或交换内容：No（AI 老师不是其他用户）；如果问到 AI 生成内容，如实答 Yes
 - 是否分享用户的实际位置：No
 - 是否可以购买数字商品：**Yes**（订阅）
 - 预计结果：Everyone / PEGI 3 / IARC 3+
@@ -250,7 +263,7 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 
 ## 5. Apple App Privacy（App Store Connect → App Privacy）
 
-依据：App 本身、服务器（`server/src/app.ts`、`server/db/schema.sql`）和 RevenueCat 的官方建议。"关联到用户"按保守口径填"是"（数据都挂在随机账号 ID 上）。
+依据：App 本身、服务器（`server/src/app.ts`、`server/src/tutor.ts`、`server/db/schema.sql`）和 RevenueCat 的官方建议。存在服务器上的数据都挂在随机账号 ID 上，"关联到用户"按保守口径填"是"。
 
 **Do you or your third-party partners collect data from this app?** → Yes
 
@@ -259,10 +272,11 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 | Identifiers → **User ID** | App Functionality | Yes | No | 每次安装随机生成的账号 ID（RevenueCat 也用它作 App User ID） |
 | Purchases → **Purchase History** | App Functionality, Analytics | Yes | No | RevenueCat 订阅记录（RevenueCat 要求所有使用者都勾这两个用途）；服务器保存订阅到期日 |
 | Usage Data → **Product Interaction** | App Functionality | Yes | No | 学习进度：完成的课、复习记录、XP、连胜 |
+| User Content → **Other User Content** | App Functionality | No | No | AI 老师对话里学习者的回答：服务器打码后转给 Anthropic 生成回复，服务器不保存，Anthropic 只保留有限时间；发给 Anthropic 的内容不带账号 ID 或设备信息，所以填"不关联"（想更保守也可以填 Yes） |
 
 **不勾**的类型和原因：
 
-- User Content → Audio Data：发音录音只做实时打分，服务器和 Microsoft 都不保存。Apple 的定义里"只为实时处理请求、不超过必要时间保存"的数据不算"收集"。如果你想更保守，也可以勾上：Audio Data → App Functionality → 不关联 → 不追踪。
+- User Content → Audio Data：发音录音和给 AI 老师的语音回答只做实时处理（打分或转成文字），服务器和 Microsoft 都不保存。Apple 的定义里"只为实时处理请求、不超过必要时间保存"的数据不算"收集"。如果你想更保守，也可以勾上：Audio Data → App Functionality → 不关联 → 不追踪。
 - Contact Info（姓名、邮箱、电话）、Location、Contacts、Photos、Health、Financial Info（卡号）、Browsing / Search History、Diagnostics（没有崩溃监控 SDK）、Device ID（没有用 IDFA）：都不收集。
 - 服务器日志里的 IP 只用于安全和限流，不推算位置，不需要单独申报。
 
@@ -272,18 +286,19 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 
 **Does your app collect or share any of the required user data types?** → Yes
 **Is all of the user data collected by your app encrypted in transit?** → Yes（全部走 HTTPS；`EXPO_PUBLIC_API_URL` 必须是 `https://`）
-**Account creation** → 选允许创建账号，方式选 **Other**（说明：首次需要同步或打分时自动创建匿名账号，没有用户名和密码）；删除账号网址填 `https://<域名>/legal/delete-account-th.html`
+**Account creation** → 选允许创建账号，方式选 **Other**（说明：首次需要同步、打分或使用 AI 老师时自动创建匿名账号，没有用户名和密码）；删除账号网址填 `https://<域名>/legal/delete-account-th.html`
 **Do you provide a way for users to request that their data be deleted?** → Yes（App 内 + 上面的网址）
 
 | Play 数据类型 | 收集 | 分享 | 临时处理（ephemeral） | 必需 / 可选 | 用途 | 说明 |
 |---|---|---|---|---|---|---|
 | Financial info → **Purchase history** | Yes | No | No | Required | App functionality, Analytics | RevenueCat 订阅记录、服务器保存的订阅到期日 |
 | App activity → **Other actions** | Yes | No | No | Required | App functionality | 学习进度（完成的课、复习记录、XP、连胜） |
-| Audio → **Voice or sound recordings** | Yes | No | **Yes** | Optional | App functionality | 发音打分录音：Azure 实时打分，不保存；不用麦克风也能上课 |
+| Audio → **Voice or sound recordings** | Yes | No | **Yes** | Optional | App functionality | 发音打分录音和给 AI 老师的语音回答：Azure 实时打分或转文字，不保存；不用麦克风也能上课 |
+| App activity → **Other user-generated content** | Yes | No | No | Optional | App functionality | AI 老师对话里学习者的回答：服务器打码后转给 Anthropic 生成回复，服务器不保存；Anthropic 会保留有限时间，所以"临时处理"填 No。如果审核认为这算聊天内容，改选 Messages → Other in-app messages，其他答案不变 |
 | Device or other IDs | Yes | No | No | Required | App functionality, Account management | 每次安装随机生成的账号 ID |
 
-- "分享"填 No：Microsoft Azure、RevenueCat、托管商都是替我们处理数据的服务商，按 Google 的定义不算分享。
-- 不收集：Location、Personal info（姓名、邮箱、电话等）、Messages、Photos and videos、Files and docs、Calendar、Contacts、Web browsing、App info and performance（没有崩溃 / 诊断 SDK）。
+- "分享"填 No：Microsoft Azure、Anthropic、RevenueCat、托管商都是替我们处理数据的服务商，按 Google 的定义不算分享。
+- 不收集：Location、Personal info（姓名、邮箱、电话等）、Messages（除非按上表改选）、Photos and videos、Files and docs、Calendar、Contacts、Web browsing、App info and performance（没有崩溃 / 诊断 SDK）。
 - Committed to follow the Play Families Policy：No（不是儿童 App）。
 - Independent security review：No。
 
@@ -300,6 +315,7 @@ LinguaSEA is not affiliated with the organisations that run the HSK, JLPT or TOP
 LinguaSEA teaches Chinese, English, Japanese and Korean to Thai speakers. No sign-in is needed: the app creates an anonymous account automatically when it first syncs progress or scores pronunciation.
 Stage A lessons are free. Stage B lessons need the Premium subscription (monthly, or yearly with a 7-day free trial), sold with In-App Purchase. To test: choose a language, finish the first lesson, then open a Stage B lesson to see the subscription screen and buy with a Sandbox account. "Restore purchases" is on the same screen.
 Pronunciation scoring: in a speaking exercise, allow microphone access and record. The recording is sent to our server and Microsoft Azure for scoring and is not stored.
+AI tutor (conversation practice): before the first conversation, a consent screen explains that the learner's answers are sent to Anthropic (Claude) to generate the tutor's replies; the learner can type or speak. Free users get a few turns per day, Premium users more. Inappropriate replies can be reported from the conversation screen; reports go to our support email.
 Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Service are linked on the subscription screen and in Settings.
 ```
 
@@ -314,9 +330,10 @@ Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Servic
 ## 8. 上架前核对
 
 - [ ] 名称定稿，所有文案里的 `LinguaSEA` 已替换，字数重新数过。
-- [ ] 文案里的功能和正式版一致：阶段、试用天数、免费 / 付费范围、发音打分的每日次数。
-- [ ] App 内付费墙（`content/l1/th/ui.json` 的 `paywall.feature.*`）现在写了"ฝึกพูดกับครู AI""ข้อสอบจำลอง""ดาวน์โหลดไว้เรียนออฟไลน์"等**还没有的功能**；上架前必须由开发者改成真实功能，否则 Apple 会以宣传不存在的功能拒审。
+- [ ] 文案里的功能和正式版一致：阶段、试用天数、免费 / 付费范围、发音打分和 AI 老师的每日次数。
+- [ ] App 内付费墙（`content/l1/th/ui.json` 的 `paywall.feature.*`）里的"ข้อสอบจำลอง"（模拟考）和"ดาวน์โหลดไว้เรียนออฟไลน์"（离线下载）是**还没有的功能**；上架前必须由开发者删掉或改成真实功能，否则 Apple 会以宣传不存在的功能拒审。（"ฝึกพูดกับครู AI"现在是真实功能。）
+- [ ] AI 老师：首次使用前的同意界面写明 Anthropic 和发送的内容；对话里有举报入口（Google Play 的 AI 生成内容政策要求）；同意界面和隐私政策 §3.5 一致。
 - [ ] 付费墙和设置页里有隐私政策、服务条款链接；付费墙写清价格、周期、试用和自动续订（Apple 3.1.2）。
 - [ ] 隐私政策、条款、删除数据页、支持页的网址都能打开，占位符已填完（`node docs/legal/build-html.mjs --check` 显示 0 个）。
-- [ ] 泰语文案请泰语母语审校看过（docs/LAUNCH.md 第 13 步）。
-- [ ] 以后加了 AI 口语老师、数据分析、崩溃监控或第三方登录：先按 `docs/legal/README.md` 更新隐私政策，再改第 5、6 节的问卷答案。
+- [ ] 泰语文案请泰语母语审校看过（docs/LAUNCH.md 第 5 步）。
+- [ ] 以后加了数据分析、崩溃监控或第三方登录，或者 AI 老师的做法变了：先按 `docs/legal/README.md` 更新隐私政策，再改第 5、6 节的问卷答案。

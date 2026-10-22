@@ -31,15 +31,15 @@
 
 - **在哪里**：Cloudflare Registrar、Namecheap 等域名注册商。
 - **做什么**：
-  1. 买一个域名（.com 约 US$10–15/年，估算）。
-  2. 建联系邮箱，例如 `support@<域名>`、`privacy@<域名>`。只需要收信的话可用 Cloudflare Email Routing 免费转发到你的邮箱；要用域名发信可用 Google Workspace 等（约 US$7 起/人/月，估算）。
+  1. 买一个域名（.com 约 10–15 美元/年，估算）。
+  2. 建联系邮箱，例如 `support@<域名>`、`privacy@<域名>`。只需要收信的话可用 Cloudflare Email Routing 免费转发到你的邮箱；要用域名发信可用 Google Workspace 等（约 7 美元起/人/月，估算）。
   3. 预留子域名 `api.<域名>` 给服务器（第 7 步指向它）。
 - **交给开发者**：域名、联系邮箱。
 
 ## 3. Apple Developer Program ⏳
 
 - **在哪里**：developer.apple.com/programs/enroll（网页或 Apple Developer App）。
-- **费用**：US$99/年。
+- **费用**：99 美元/年。
 - **做什么**：
   1. 用开了双重认证的 Apple ID 报名，选个人（Individual）或组织（Organization：要 D-U-N-S、公司网站、你有权代表公司签约）。
   2. 通过后进 App Store Connect → **Agreements, Tax, and Banking**：签 **Paid Apps** 协议，填银行账户和税表（非美国个人一般是 W-8BEN，公司是 W-8BEN-E）。协议生效前，订阅商品连沙盒都测不了。
@@ -55,7 +55,7 @@
 ## 4. Google Play Console ⏳
 
 - **在哪里**：play.google.com/console/signup。
-- **费用**：US$25，一次性。
+- **费用**：25 美元，一次性。
 - **做什么**：
   1. 注册个人或组织账号（组织要 D-U-N-S），完成身份验证；新的个人账号可能还要用 Play Console App 在一台安卓手机上验证。
   2. **设置付款资料（Payments profile / 商家账号）**：没有它不能建订阅。
@@ -76,7 +76,9 @@
 - **费用**：请老师报价，按小时或按课（估算 ฿300–1,000/小时）。
 - 泰语讲解是 AI 初稿，**没审完的课不能上架**。
 
-## 6. Microsoft Azure 语音服务
+## 6. Microsoft Azure 语音服务和 Anthropic（AI 口语老师）
+
+### 6.1 Microsoft Azure 语音服务
 
 - **在哪里**：portal.azure.com（先注册 Azure 账号，要绑信用卡）。
 - **做什么**：
@@ -84,11 +86,24 @@
   2. 打开 **Keys and Endpoint**，复制 **KEY 1** 和区域名。
   3. KEY 1 只填到托管平台的 `AZURE_SPEECH_KEY`（第 7 步）；要开发者生成配音，按第 0 节放进 Claude Code 环境变量（详细见 `docs/AUDIO.md`）。
   4. **不要**打开任何"音频日志 / audio logging"之类的设置：隐私政策承诺录音不被保存。
-  5. **Cost Management → Budgets**：设一个月度预算提醒（例如 US$50）。
+  5. **Cost Management → Budgets**：设一个月度预算提醒（例如 50 美元）。
   6. 确认一下 Microsoft 关于语音合成输出（生成的配音）商业使用的条款。
-- **用途**：发音打分（服务器）和生成课程配音（`npm run audio`）。
-- **费用（估算）**：发音评估按实时语音识别计费，约 US$1/音频小时起（可能另有发音评估附加费，以 Azure 价格页为准），一次打分 3–8 秒约 0.1–0.2 美分。默认每天免费用户 10 次、付费用户 200 次；一个付费用户每天都用满 200 次，一个月约 US$8–13，所以要看实际用量，必要时调低 `PRONUNCIATION_PREMIUM_PER_DAY`。生成配音约 US$16/百万字符，A–B 全部约 US$2。
+- **用途**：发音打分、把给 AI 老师的语音回答转成文字（服务器），以及生成课程配音（`npm run audio`）。
+- **费用（估算）**：发音评估按实时语音识别计费，约 1 美元/音频小时起（可能另有发音评估附加费，以 Azure 价格页为准），一次打分 3–8 秒约 0.1–0.2 美分。默认每天免费用户 10 次、付费用户 200 次；一个付费用户每天都用满 200 次，一个月约 8–13 美元，所以要看实际用量，必要时调低 `PRONUNCIATION_PREMIUM_PER_DAY`。生成配音约 16 美元/百万字符，A–B 全部约 2 美元。
 - **交给开发者**：区域名 `southeastasia`、"Key 已填到服务器"。
+
+### 6.2 Anthropic（AI 口语老师）
+
+- **在哪里**：Anthropic 控制台（platform.claude.com 或 console.anthropic.com）。
+- **做什么**：
+  1. 用个人或公司身份注册组织，在 Billing 里绑卡或预充值。
+  2. 在用量 / Limits 设置里设**每月花费上限**和提醒（先保守，例如 50–100 美元，看实际用量再调）。
+  3. 新建一个 API key，只填到托管平台的 `ANTHROPIC_API_KEY`（第 7 步）。它是机密：不要发到聊天里，也不能放进 App（不能加 `EXPO_PUBLIC_` 前缀）。
+  4. **核对 Anthropic 当前的数据保留条款**：API 的输入和输出保存多久、是否用于训练。隐私政策写的是"不用于训练，只保留有限时间"；如果条款和这句话不一致，告诉开发者改隐私政策。
+  5. 可选的服务器变量：`TUTOR_MODEL`（默认 `claude-opus-5-5`）、`TUTOR_FREE_PER_DAY`、`TUTOR_PREMIUM_PER_DAY`（每天的对话轮数，默认值见 `server/.env.example`，现在是 6 和 30）。
+- **用途**：AI 口语老师。学习者的回答（服务器先把邮箱和电话打码）、老师之前的回复和单元场景发给 Anthropic 生成下一轮回复；服务器不保存对话。
+- **费用（估算，2026-10 的价格）**：默认模型 Claude Opus 5.5 每百万 token 输入 4 美元、输出 20 美元，缓存读取 0.20 美元。一轮大约 3,000 个输入 token（大部分是可缓存的单元场景）和 500–1,000 个输出 token，约 0.01–0.03 美元。免费用户每天最多 6 轮，约 0.06–0.18 美元/天；付费用户每天最多 30 轮，约 0.3–0.9 美元/天，天天用满的话一个月约 9–27 美元，可能超过月费。所以要设花费上限、上线后看实际平均用量；要降成本可以调低 `TUTOR_*_PER_DAY`，或者由你决定用 `TUTOR_MODEL` 换更便宜的模型（每百万 token：Claude Sonnet 5.5 输入 2 美元 / 输出 10 美元，Claude Haiku 5.5 输入 0.10 美元 / 输出 0.50 美元），换之前请开发者先比较对话质量。
+- **交给开发者**："Anthropic 已配好"、花费上限是多少、保留条款已核对。
 
 ## 7. 数据库和 API 服务器（新加坡）
 
@@ -99,7 +114,7 @@
   1. 建数据库，区域选新加坡。
   2. 打开**自动每日备份，备份保留不超过 30 天**（隐私政策写了"删除的数据 30 天内从备份中消失"）；确认有静态加密（encryption at rest）。
   3. 复制连接串，例如 `postgres://用户:密码@主机:5432/linguasea?sslmode=require`，只填到托管平台的 `DATABASE_URL`。服务器启动时会自己建表，不用手动建。
-- **费用**：小规模约 US$0–25/月（估算；生产环境建议用带自动备份的付费档）。
+- **费用**：小规模约 0–25 美元/月（估算；生产环境建议用带自动备份的付费档）。
 
 ### 7.2 API 服务器（Docker）
 
@@ -110,7 +125,7 @@
   3. 绑定自定义域名 `api.<域名>`，开启 HTTPS（平台一般自动签证书）；健康检查路径 `/health`。
   4. **日志保存不超过 90 天**（隐私政策写的是"最多 90 天"）。
   5. 部署后检查：`https://api.<域名>/health` 返回 `{"ok":true}`；`https://api.<域名>/legal/privacy-th.html` 能打开。
-- **费用**：约 US$5–25/月起（估算）。
+- **费用**：约 5–25 美元/月起（估算）。
 - **交给开发者**：托管平台和数据库供应商的名称（要写进隐私政策）、API 网址 `https://api.<域名>`。
 
 ## 8. 法律文件：填占位符 + 律师审阅 ⏳
@@ -121,6 +136,7 @@
      - PDPA：法律依据、跨境传输（新加坡、美国）、是否需要任命 DPO；
      - 未满 20 岁用户（泰国法律的未成年人）购买订阅需要监护人同意的写法；
      - 责任限制是否符合《不公平合同条款法》；管辖法院怎么写；
+     - AI 老师：把学习者的回答发给 Anthropic（美国）的告知方式和法律依据（合同履行，加上 App 内的同意界面）；
      - 《计算机犯罪法》第 26 条（保存通信记录至少 90 天）是否适用于我们；如果适用，服务器日志要保存满 90 天，政策里"最多 90 天"也要改。
   3. 律师意见交给开发者修改。
 - **费用**：请律师报价。
@@ -129,7 +145,7 @@
 ## 9. RevenueCat（订阅管理）
 
 - **在哪里**：app.revenuecat.com。
-- **费用**：每月追踪收入 US$2,500 以下免费，超过后按收入的 1% 收费（估算）。
+- **费用**：每月追踪收入 2,500 美元以下免费，超过后按收入的 1% 收费（估算）。
 - **做什么**：
   1. 新建 Project（例如 LinguaSEA）。
   2. **加 App Store App**：Bundle ID `com.linguasea.app`；上传第 3 步的 In-App Purchase 密钥（`.p8`、Key ID、Issuer ID）。把 RevenueCat 给的 **Apple Server Notification URL** 填到 App Store Connect → 你的 App → App Information → **App Store Server Notifications**（Production 和 Sandbox 都填，选 Version 2）。
@@ -148,7 +164,7 @@
 ## 10. Expo / EAS（打包）
 
 - **在哪里**：expo.dev。
-- **费用**：免费版每月 15 次 iOS + 15 次安卓构建（排队较慢）；Starter 约 US$19/月（估算）。
+- **费用**：免费版每月 15 次 iOS + 15 次安卓构建（排队较慢）；Starter 约 19 美元/月（估算）。
 - **做什么**：
   1. 注册账号（可建一个组织）。让开发者能打包：把开发者的 Expo 账号加为组织成员，或在 Account settings → **Access tokens** 生成一个 token，按第 0 节作为 `EXPO_TOKEN` 放进 Claude Code 环境变量（或 GitHub Actions 的 secrets）。
   2. 项目 → **Environment variables**，环境选 production（和 preview），添加：
@@ -156,7 +172,7 @@
      - `EXPO_PUBLIC_REVENUECAT_IOS_KEY` = RevenueCat 的 `appl_…`
      - `EXPO_PUBLIC_REVENUECAT_ANDROID_KEY` = RevenueCat 的 `goog_…`
 
-     可见性选 Plain text 或 Sensitive。**`EXPO_PUBLIC_` 开头的变量会被编进安装包，任何人都能读出来**，所以只能放这种本来就公开的值；Azure Key、数据库连接串等机密绝不能加 `EXPO_PUBLIC_` 前缀。
+     可见性选 Plain text 或 Sensitive。**`EXPO_PUBLIC_` 开头的变量会被编进安装包，任何人都能读出来**，所以只能放这种本来就公开的值；Azure Key、Anthropic API key、数据库连接串等机密绝不能加 `EXPO_PUBLIC_` 前缀。
   3. 项目 → **Credentials**：iOS 上传第 3 步的 App Store Connect API 密钥，让 EAS 自动管理证书；安卓签名密钥由第一次构建时 EAS 生成并保管（建议下载一份备份存进密码管理器）。
   4. 开发者打出第一个安卓包（`.aab`）后，**第一次要你在 Play Console 手动上传**到 Internal testing（Google 的限制），之后可以用 EAS Submit 自动提交。
 - **交给开发者**：Expo 账号或组织名、"环境变量已填"。
@@ -208,6 +224,7 @@
   - 每日提醒能按时出现；
   - 沙盒 / 测试账号购买 → 解锁 B 阶段；取消后到期失效；年付有 7 天试用；
   - 设置 → 删除我的数据：成功后再打开 App 是全新状态；
+  - AI 老师：第一次使用前出现同意界面（写明 Anthropic 和发送的内容）；不同意时其他功能照常；打字和说话都能回答；免费账号每天用到上限后有提示；举报不当回复能发到客服邮箱；
   - 断网时还能继续学；
   - 付费墙和设置页的隐私政策、服务条款链接都能打开；付费墙只写已经上线的功能。
 
@@ -232,7 +249,8 @@
 | `AUDIO_DIR` | 一般不用填 | 默认用镜像里的 `content/audio`；音频放在别处（例如挂载的磁盘）时才填路径 | 否 |
 | `PRONUNCIATION_FREE_PER_DAY`、`PRONUNCIATION_PREMIUM_PER_DAY` | 可选 | 每天的发音打分次数（默认 10 / 200） | 否 |
 | `CONTENT_DIR`、`PUBLIC_DIR` | 不用填 | 用默认值 | 否 |
-| `ANTHROPIC_API_KEY`、`TUTOR_*` | **先不要填** | 见下面"以后：AI 口语老师" | 是 |
+| `ANTHROPIC_API_KEY` | 是 | 第 6.2 步的 API key（不填则 AI 老师关闭） | 是 |
+| `TUTOR_MODEL`、`TUTOR_FREE_PER_DAY`、`TUTOR_PREMIUM_PER_DAY` | 可选 | AI 老师的模型（默认 `claude-opus-5-5`）和每天的对话轮数（默认 6 / 30） | 否 |
 
 **App**（expo.dev → 项目 → Environment variables，production 和 preview）
 
@@ -246,27 +264,23 @@
 
 | 项目 | 费用 |
 |---|---|
-| Apple Developer Program | US$99/年 |
-| Google Play Console | US$25，一次性 |
+| Apple Developer Program | 99 美元/年 |
+| Google Play Console | 25 美元，一次性 |
 | D-U-N-S（公司账号） | 免费 |
-| 域名 | 约 US$10–15/年 |
-| 邮箱 | 转发免费；Google Workspace 约 US$7 起/人/月 |
-| Expo EAS | 免费版可起步；Starter 约 US$19/月 |
-| API 服务器 | 约 US$5–25/月 |
-| PostgreSQL | 约 US$0–25/月 |
-| Azure 语音 | 发音打分约 US$1/音频小时；配音一次性约 US$2；先设预算提醒 |
-| RevenueCat | 月收入 US$2,500 以下免费，超过收 1% |
+| 域名 | 约 10–15 美元/年 |
+| 邮箱 | 转发免费；Google Workspace 约 7 美元起/人/月 |
+| Expo EAS | 免费版可起步；Starter 约 19 美元/月 |
+| API 服务器 | 约 5–25 美元/月 |
+| PostgreSQL | 约 0–25 美元/月 |
+| Azure 语音 | 发音打分约 1 美元/音频小时；配音一次性约 2 美元；先设预算提醒 |
+| Anthropic（AI 老师） | 默认模型每轮约 0.01–0.03 美元；先设每月花费上限 |
+| RevenueCat | 月收入 2,500 美元以下免费，超过收 1% |
 | 商店佣金 | Apple 小企业计划 15%；Google 订阅 15% |
 | 泰语审校、泰国律师 | 按报价 |
-
-## 以后：AI 口语老师（隐私政策更新前不要开启）
-
-- 服务器里的 AI 口语老师（`server/src/tutor.ts`，用 Anthropic 的 Claude）只有在设置了 `ANTHROPIC_API_KEY` 时才会开启。
-- 开启前要先做完：按 `docs/legal/README.md`"加 AI 口语老师"一节更新隐私政策、服务条款和商店隐私问卷；App 里在第一次使用前征得用户同意（Apple 审核指南 5.1.2(i) 要求把个人数据发给第三方 AI 前明确告知并取得许可）。
-- 然后：在 console.anthropic.com 建组织和 API key，设每月花费上限；key 只填到托管平台的 `ANTHROPIC_API_KEY`。可选 `TUTOR_MODEL`、`TUTOR_FREE_PER_DAY`、`TUTOR_PREMIUM_PER_DAY`（默认值见 `server/.env.example`）。
 
 ## 上线以后
 
 - 收到隐私请求（删除、查看、导出数据）：按 `docs/legal/README.md`"收到隐私请求怎么办"处理，30 天内回复。
-- 每月看一次 Azure、托管、数据库的账单和 RevenueCat 收入。
+- 每月看一次 Azure、Anthropic、托管、数据库的账单和 RevenueCat 收入；AI 老师的花费和用户数一起看。
+- 收到 AI 回复的举报邮件：按 `docs/legal/README.md`"收到隐私请求怎么办"第 6 条处理。
 - 加新功能、换服务商或服务器地区之前，先看 `docs/legal/README.md` 的"什么时候要更新"。
