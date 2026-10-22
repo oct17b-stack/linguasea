@@ -2,7 +2,6 @@
  * Public website: home (/ and /en/) and support (/support.html, /en/support.html).
  * One shared stylesheet. No web fonts, no scripts. Light and dark follow the system setting.
  * Colours match the app (app/src/constants/theme.ts): green primary, amber accent.
- * The generic element styles and .prose also work for plain document pages such as /legal/.
  */
 
 /* ---------- Tokens ---------- */
@@ -270,14 +269,6 @@ td {
 /* Keeps a loanword or phrase on one line: browsers' Thai dictionaries split words such as แพ็กเกจ or ซีรีส์. */
 .nw {
   white-space: nowrap;
-}
-.list-plain {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.list-plain > li + li {
-  margin-top: 0;
 }
 
 .skip-link {
@@ -1453,22 +1444,6 @@ html[lang="en"] .exam-table td span {
   background: var(--accent-soft);
   color: var(--accent-ink);
   font-weight: 700;
-}
-
-/* ---------- Plain document pages (optional, e.g. /legal/) ---------- */
-.prose {
-  max-width: 46rem;
-  padding-block: 40px 64px;
-}
-.prose h2 {
-  margin-top: 1.8em;
-  font-size: 1.4rem;
-}
-.prose h3 {
-  margin-top: 1.4em;
-}
-.prose table {
-  margin: 0 0 1em;
 }
 
 @media (forced-colors: active) {

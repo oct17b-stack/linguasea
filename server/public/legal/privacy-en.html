@@ -37,8 +37,9 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <p><strong>In short</strong></p>
 <ul>
 <li>You don't need to give us your name, email address or phone number to use LinguaSEA. The app identifies itself to our server with a random account ID.</li>
-<li>We keep your learning progress and subscription status on our server so they can be synced and restored.</li>
-<li>Recordings for pronunciation scoring are sent to Microsoft Azure to be scored and are not kept by us or by Microsoft.</li>
+<li>We keep your learning progress and subscription status on our server so they can be synced and restored. Accounts that are not used for 24 months are deleted automatically.</li>
+<li>Recordings for pronunciation scoring and spoken answers to the AI tutor are processed by Microsoft Azure and are not kept by us or by Microsoft.</li>
+<li>If you use the AI tutor, your answers (with email addresses and phone numbers masked) are sent to Anthropic to write the tutor's replies. We don't store the conversation, and Anthropic does not use it to train its models.</li>
 <li>No ads, no advertising or analytics SDKs, no tracking across other companies' apps and websites, and we don't sell personal data.</li>
 <li>You can delete your data at any time in the app: <strong>Settings → Delete my data</strong>.</li>
 </ul>
@@ -52,70 +53,83 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <h2 id="2-what-this-policy-covers">2. What this policy covers</h2>
 <p>This policy covers the LinguaSEA mobile apps, the server they connect to (together, the "Service") and these web pages. The App Store, Google Play and your device's operating system are run by Apple and Google under their own privacy policies.</p>
 <h2 id="3-the-personal-data-we-process">3. The personal data we process</h2>
-<h3 id="31-account-id-and-access-token">3.1 Account ID and access token</h3>
-<p>The first time the app needs to save your progress online or score your pronunciation, our server creates an anonymous account for the app on your device: a random account ID and a random access token. The app keeps both in your device's secure storage (iOS Keychain or Android Keystore). Our server stores the account ID, the time the account was created and a one-way hash of the token — never the token itself. The account is not linked to your name, email address or phone number.</p>
+<h3 id="31-account-id-access-token-and-last-use">3.1 Account ID, access token and last use</h3>
+<p>The first time the app needs to save your progress online, score your pronunciation or use the AI tutor, our server creates an anonymous account for the app on your device: a random account ID and a random access token. The app keeps both in your device's secure storage (iOS Keychain or Android Keystore). Our server stores the account ID, the time the account was created, the day it was last used (updated at most once a day) and a one-way hash of the token — never the token itself. The account is not linked to your name, email address or phone number. If an account is not used for 24 months, we delete it automatically (section 7).</p>
 <h3 id="32-learning-progress">3.2 Learning progress</h3>
 <p>To sync and back up your progress, the app sends it to our server: the lessons you finished and when you first finished them; the review schedule of each word or phrase you studied (when it is next due, when you last reviewed it, how many times you reviewed or forgot it, and the other values the spaced-repetition method uses); your XP; and your streak (days in a row and the last day you studied). We store it with your account ID.</p>
 <h3 id="33-subscription-status">3.3 Subscription status</h3>
 <p>If you subscribe, you pay Apple or Google; we never see your payment card details. RevenueCat, the service that manages subscriptions for us, receives your account ID and the purchase details from the store (such as the plan, price, currency, store country, and transaction IDs and dates), together with basic technical information (such as device type, operating system, app version and IP address), to validate the purchase. RevenueCat then tells our server whether your subscription is active and when it ends. We store that end date and the time of the latest subscription event with your account ID.</p>
-<h3 id="34-recordings-for-pronunciation-scoring">3.4 Recordings for pronunciation scoring</h3>
-<p>When you use pronunciation scoring, the app records your voice only while you record a speaking exercise (a few seconds at a time) and sends the recording to our server, together with the sentence you were asked to say and the language you are learning. Our server converts the recording to the audio format the scoring service needs and sends it to Microsoft Azure AI Speech, which returns scores (overall, accuracy, fluency, completeness and a score for each word) and the text it recognised. We send the result back to the app to show you.</p>
+<h3 id="34-recordings-pronunciation-scoring-and-spoken-answers">3.4 Recordings: pronunciation scoring and spoken answers</h3>
+<p>When you use pronunciation scoring, or answer the AI tutor by voice, the app records your voice only while you are recording (a few seconds at a time) and sends the recording to our server, together with the language you are learning and, for pronunciation scoring, the sentence you were asked to say. Our server converts the recording to the audio format the speech service needs and sends it to Microsoft Azure AI Speech. For pronunciation scoring, Azure returns scores (overall, accuracy, fluency, completeness and a score for each word) and the text it recognised; for an answer to the AI tutor, it returns the text of what you said, which the app then uses as your answer (section 3.5). We send the result back to the app.</p>
 <ul>
-<li>Our server does not keep the recording or the result. The recording is held in memory and in a temporary file only for the few seconds needed to score it, and is then deleted.</li>
-<li>We have not turned on Azure's optional audio logging. According to Microsoft's documentation, audio sent for real-time pronunciation assessment is then processed in memory and not stored.</li>
-<li>The app deletes the recording from your device once it has been scored.</li>
+<li>Our server does not keep the recording or the result. The recording is held in memory and in a temporary file only for the few seconds needed to process it, and is then deleted.</li>
+<li>We have not turned on Azure's optional audio logging. According to Microsoft's documentation, audio sent for real-time speech recognition and pronunciation assessment is then processed in memory and not stored.</li>
+<li>The app deletes the recording from your device once it has been processed.</li>
 <li>We do not use recordings to identify you or to create a voiceprint.</li>
 </ul>
-<h3 id="35-daily-usage-counts">3.5 Daily usage counts</h3>
-<p>To apply the daily limits of the free and Premium plans, we count how many times each day your account uses features that have a limit (currently pronunciation scoring).</p>
-<h3 id="36-technical-data-and-server-logs">3.6 Technical data and server logs</h3>
+<h3 id="35-ai-tutor-conversations">3.5 AI tutor conversations</h3>
+<p>The AI tutor is a conversation partner that role-plays situations from the unit you are studying. Before your first conversation, the app explains what will be sent to Anthropic and asks you to agree.</p>
+<ul>
+<li>For each turn, the app sends our server the conversation so far in that session — your answers (typed, or converted from speech as described in section 3.4) and the tutor's earlier replies — together with the unit you are practising, the language you are learning and the app's interface language.</li>
+<li>Our server masks email addresses and phone numbers in your answers. It then sends the most recent lines of the conversation (up to 24), the unit's scenario (words and example dialogue from our lessons) and our instructions to Anthropic's Claude API, which writes the tutor's next turn: a reply with its reading and translation, and, where useful, feedback, a corrected sentence and a hint.</li>
+<li>Anthropic does not receive your account ID, your IP address or information about your device.</li>
+<li>Our server does not store the conversation. The app keeps it on your device only for that session.</li>
+<li>Under Anthropic's commercial terms, inputs and outputs sent through its API are not used to train its models, and Anthropic keeps them only for a limited period (for example, to detect and prevent misuse) before deleting them.</li>
+<li>The tutor is instructed not to ask for personal details and to remind you not to share them. Please don't type or say names, addresses, phone numbers, account details or other personal information: our masking cannot catch everything.</li>
+<li>If a reply is inappropriate, you can report it from the conversation screen. Reports come to us by email (section 3.8).</li>
+</ul>
+<h3 id="36-daily-usage-counts">3.6 Daily usage counts</h3>
+<p>To apply the daily limits of the free and Premium plans, we count how many times each day your account uses features that have a limit (pronunciation scoring and AI tutor turns).</p>
+<h3 id="37-technical-data-and-server-logs">3.7 Technical data and server logs</h3>
 <p>Like any online service, our server receives your device's IP address and the time and address (URL) of each request — for example when the app syncs your progress or downloads lesson audio.</p>
 <ul>
 <li>We use the IP address to limit how many requests one address can make (rate limiting). These counters stay in memory for at most one hour.</li>
-<li>Our server keeps logs with the IP address, the time, the request method and URL, the response status and time, and error details (for some errors, the account ID concerned). The logs do not contain your recordings or your access token.</li>
+<li>Our server keeps logs with the IP address, the time, the request method and URL, the response status and time, and error details (for some errors, the account ID concerned). The logs do not contain your recordings, your AI tutor conversations or your access token.</li>
 <li>We do not use IP addresses to work out where you are.</li>
 </ul>
-<h3 id="37-when-you-contact-us">3.7 When you contact us</h3>
-<p>If you email us, we receive your email address, your message and anything you include. We use it only to answer you and to keep a record of the requests we have handled.</p>
-<h3 id="38-data-that-stays-on-your-device">3.8 Data that stays on your device</h3>
-<p>Some data is stored only in the app on your device: a copy of your progress, the language you are learning, the app's interface language, your reminder settings and the subscription status the app last saw.</p>
+<h3 id="38-when-you-contact-us">3.8 When you contact us</h3>
+<p>If you email us — including when you report an AI tutor reply — we receive your email address, your message and anything you include (a report includes the reply you are reporting and anything you add). We use it only to answer you, to review reported replies and keep the tutor safe, and to keep a record of the requests we have handled.</p>
+<h3 id="39-data-that-stays-on-your-device">3.9 Data that stays on your device</h3>
+<p>Some data is stored only in the app on your device: a copy of your progress, the language you are learning, the app's interface language, your reminder settings, the subscription status the app last saw, and your answer on the AI tutor's consent screen. The current AI tutor conversation is kept only for that session.</p>
 <ul>
 <li>The app reads your device's language setting to choose its interface language. This is not sent to us.</li>
 <li>Daily study reminders are scheduled on your device. We don't use a push notification service and receive no notification token.</li>
 <li>When there is no audio clip for a piece of text, the app reads lesson text aloud with your device's built-in text-to-speech voice. That text is lesson content, not information about you.</li>
 </ul>
-<h3 id="39-what-we-dont-collect">3.9 What we don't collect</h3>
+<h3 id="310-what-we-dont-collect">3.10 What we don't collect</h3>
 <p>We don't collect your name, email address (unless you email us), phone number, contacts, photos, location or advertising ID. The app contains no ads, no advertising SDKs and no analytics or crash-reporting SDKs, and we don't track you across other companies' apps and websites.</p>
 <h2 id="4-why-we-use-your-data-and-our-legal-bases">4. Why we use your data, and our legal bases</h2>
 <p>The PDPA lets us use personal data only when we have a legal basis:</p>
 <ul>
-<li><strong>To provide the Service</strong> — creating your anonymous account, syncing and restoring your progress, unlocking Premium when you subscribe, scoring your pronunciation and applying daily limits. Legal basis: necessary to perform our contract with you, the <a href="terms-en.html">Terms of Service</a> (section 24(3) PDPA).</li>
+<li><strong>To provide the Service</strong> — creating your anonymous account, syncing and restoring your progress, unlocking Premium when you subscribe, scoring your pronunciation, converting spoken answers to text, running AI tutor conversations and applying daily limits. Legal basis: necessary to perform our contract with you, the <a href="terms-en.html">Terms of Service</a> (section 24(3) PDPA). You decide whether to use the AI tutor: the consent screen before your first conversation is there so you know what will be sent to Anthropic before anything is sent.</li>
 <li><strong>To keep the Service secure and working</strong> — rate limiting, detecting and preventing abuse and fraud, investigating errors and keeping backups. Legal basis: our legitimate interest in running a secure and reliable service (section 24(5)); where the law requires us to keep certain records, compliance with a legal obligation (section 24(6)).</li>
-<li><strong>To answer your messages and requests</strong>, including requests to exercise your rights. Legal basis: legitimate interest (section 24(5)) and legal obligation (section 24(6)).</li>
+<li><strong>To answer your messages and requests</strong>, including reports about AI tutor replies and requests to exercise your rights. Legal basis: legitimate interest (section 24(5)) and legal obligation (section 24(6)).</li>
 <li><strong>To comply with the law</strong>, for example to respond to lawful requests from authorities. Legal basis: legal obligation (section 24(6)).</li>
 </ul>
-<p>We don't use your data for advertising, we don't sell it, and we don't make decisions about you based solely on automated processing that have legal or similarly significant effects. Pronunciation scores are produced automatically only to give you feedback.</p>
-<p>If the app cannot send this data to our server (for example, when you are offline), you can still study on your device, but syncing and pronunciation scoring won't work.</p>
+<p>We don't use your data for advertising, we don't sell it, and we don't make decisions about you based solely on automated processing that have legal or similarly significant effects. Pronunciation scores and AI tutor replies are produced automatically only to help you practise.</p>
+<p>If the app cannot send this data to our server (for example, when you are offline), you can still study on your device, but syncing, pronunciation scoring and the AI tutor won't work.</p>
 <h2 id="5-who-receives-your-data">5. Who receives your data</h2>
 <p>We share personal data only with service providers that process it for us under contract (data processors), and with the other recipients described here:</p>
 <ul>
-<li><strong>Cloud hosting and database provider</strong> — <mark class="tbd">[TBD: hosting and database provider]</mark>, servers in Singapore. Runs our server and stores the data described in sections 3.1–3.6.</li>
-<li><strong>Microsoft Azure AI Speech</strong> (Microsoft Corporation), Southeast Asia region (Singapore). Scores pronunciation recordings (section 3.4). We also use Azure to generate lesson audio from lesson text, which involves no personal data.</li>
+<li><strong>Cloud hosting and database provider</strong> — <mark class="tbd">[TBD: hosting and database provider]</mark>, servers in Singapore. Runs our server, which handles the data described in section 3, and stores the data described in sections 3.1–3.3, 3.6 and 3.7.</li>
+<li><strong>Microsoft Azure AI Speech</strong> (Microsoft Corporation), Southeast Asia region (Singapore). Scores pronunciation recordings and converts spoken answers to text (section 3.4). We also use Azure to generate lesson audio from lesson text, which involves no personal data.</li>
+<li><strong>Anthropic, PBC</strong> (United States). Writes the AI tutor's replies from the conversation text (section 3.5).</li>
 <li><strong>RevenueCat, Inc.</strong> (United States). Manages subscriptions and validates purchases (section 3.3).</li>
-<li><strong>Our email provider</strong>, to receive and answer your emails (section 3.7).</li>
+<li><strong>Our email provider</strong>, to receive and answer your emails and reports (section 3.8).</li>
 </ul>
 <p>Apple (App Store) and Google (Google Play) process your purchases, payments and refunds as independent controllers, under their own terms and privacy policies.</p>
 <p>We may disclose personal data when required by law, a court order or a competent authority, or to protect the rights, safety and security of our users, the public or us. If LinguaSEA is sold, merged or otherwise transferred, personal data may pass to the new operator; we will tell you in advance and make sure your data stays protected as described in this policy.</p>
 <h2 id="6-international-transfers">6. International transfers</h2>
-<p>Our server and Azure Speech run in Singapore, and RevenueCat processes data in the United States. Apple, Google and our providers may also process data in other countries where they or their sub-processors operate. We make these transfers because they are necessary to provide the Service you asked for (section 28 PDPA), and we rely on our providers' data protection terms, which include safeguards for international transfers such as standard contractual clauses (section 29). You can ask us for more information about these safeguards.</p>
+<p>Our server and Azure Speech run in Singapore, and RevenueCat and Anthropic process data in the United States. Apple, Google and our providers may also process data in other countries where they or their sub-processors operate. We make these transfers because they are necessary to provide the Service you asked for (section 28 PDPA), and we rely on our providers' data protection terms, which include safeguards for international transfers such as standard contractual clauses (section 29). You can ask us for more information about these safeguards.</p>
 <h2 id="7-how-long-we-keep-data">7. How long we keep data</h2>
 <ul>
-<li><strong>Account, progress, subscription status and daily usage counts:</strong> until you delete your data (section 9) or we stop providing the Service. If you delete the app without deleting your data first, the data stays on our server, linked only to the random account ID.</li>
-<li><strong>Recordings:</strong> not kept; deleted within seconds after scoring.</li>
+<li><strong>Account, progress, subscription status and daily usage counts:</strong> until you delete your data (section 9) or until the account has not been used for 24 months, when we delete the account and all its data on our server automatically; and in any case when we stop providing the Service. If you delete the app without deleting your data first, the data stays on our server, linked only to the random account ID, until it is deleted after 24 months without use.</li>
+<li><strong>Recordings:</strong> not kept; deleted within seconds after processing.</li>
+<li><strong>AI tutor conversations:</strong> not stored on our server; the app keeps them only for that session. Anthropic keeps what it receives only for a limited period under its commercial terms.</li>
 <li><strong>Rate-limiting counters:</strong> in memory for at most one hour.</li>
 <li><strong>Server logs:</strong> up to 90 days.</li>
 <li><strong>Backups:</strong> deleted data disappears from our live database immediately and from our backups within 30 days.</li>
-<li><strong>Emails:</strong> up to 2 years after we finish handling your request.</li>
+<li><strong>Emails, including reports of AI tutor replies:</strong> up to 2 years after we finish handling them.</li>
 <li><strong>Data on your device:</strong> until you delete your data in the app or delete the app.</li>
 <li><strong>RevenueCat</strong> keeps purchase history for as long as we use its service, unless we ask it to delete it. Apple and Google keep their records under their own policies.</li>
 </ul>
@@ -123,9 +137,10 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <ul>
 <li>All connections between the app and our server are encrypted with HTTPS (TLS).</li>
 <li>Access tokens are long random values, and our server stores only a one-way hash of them.</li>
-<li>Secret keys (database, Azure, RevenueCat) are kept in our hosting environment, never in the app or in our source code.</li>
+<li>Secret keys (database, Azure, Anthropic, RevenueCat) are kept in our hosting environment, never in the app or in our source code.</li>
+<li>Before AI tutor answers leave our server, we mask email addresses and phone numbers, and we send Anthropic no account ID or device information.</li>
 <li>We choose providers that encrypt stored data, and we limit access to our systems to the people who need it.</li>
-<li>We collect as little data as we can.</li>
+<li>We collect as little data as we can, and we delete accounts that have not been used for 24 months.</li>
 </ul>
 <p>If a personal data breach is likely to put your rights and freedoms at risk, we will notify the Office of the Personal Data Protection Committee within 72 hours of becoming aware of it and, if the risk is high, tell you without undue delay, as the PDPA requires.</p>
 <h2 id="9-your-rights">9. Your rights</h2>
@@ -138,7 +153,7 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <li>have your data deleted, destroyed or made anonymous;</li>
 <li>have the use of your data restricted;</li>
 <li>have inaccurate data corrected;</li>
-<li>withdraw consent where we rely on consent (we currently don't rely on consent for the processing on our server; you can switch off microphone and notification permissions at any time in your device settings);</li>
+<li>withdraw consent where we rely on consent (the processing on our server does not rely on consent; the AI tutor's consent screen lets you decide before your answers go to Anthropic, and you can stop using the tutor at any time; you can switch off microphone and notification permissions at any time in your device settings);</li>
 <li>complain to the Personal Data Protection Committee through the Office of the Personal Data Protection Committee (<a href="http://www.pdpc.or.th">www.pdpc.or.th</a>).</li>
 </ul>
 <p><strong>How to exercise your rights</strong></p>
