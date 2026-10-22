@@ -1,4 +1,4 @@
-import { Alert } from 'react-native';
+import { Alert, Platform } from 'react-native';
 
 export type ConfirmOptions = {
   title: string;
@@ -10,7 +10,9 @@ export type ConfirmOptions = {
 
 /** A short notice in a system alert. (Web: dialog.web.ts — React Native Web has no Alert.) */
 export function notify(message: string) {
-  Alert.alert(message);
+  // Android shows a title-only dialog in a large font that cuts long text; there it goes in the body.
+  if (Platform.OS === 'android') Alert.alert('', message);
+  else Alert.alert(message);
 }
 
 /** Asks before doing something; resolves true when the learner confirms. */

@@ -21,6 +21,9 @@ import { useApp } from '@/state/app-state';
 
 type SpeakProps = { step: Extract<Step, { kind: 'speak' }>; course: CourseBundle };
 
+/** The server said scoring is not configured (503): later speaking steps skip the microphone this session. */
+let scoringOff = false;
+
 /**
  * Listen, then say it. With a server the learner records (tap to start / tap to stop, at most
  * MAX_RECORDING_SECONDS) and gets a pronunciation score; without one, or when scoring is not
@@ -36,7 +39,7 @@ export function SpeakStep({ step, course }: SpeakProps) {
       <WordFace word={word} />
       <ThemedText style={styles.centerText}>{word.meaning}</ThemedText>
       <ListenButtons onCard onListen={(slow) => playItem(course, word, slow)} />
-      {apiEnabled ? (
+      {apiEnabled && !scoringOff ? (
         <Scorer target={course.course.target} text={spoken(word)} />
       ) : (
         <ThemedText type="small" style={styles.centerText}>
@@ -75,6 +78,8 @@ function Scorer({ target, text }: { target: Target; text: string }) {
   const [elapsed, setElapsed] = useState(0);
   const alive = useRef(true);
   const recording = useRef(false);
+  /** The audio session is in record mode (iOS); switched back as soon as it is not needed. */
+  const micMode = useRef(false);
   const timers = useRef<{ stop?: ReturnType<typeof setTimeout>; tick?: ReturnType<typeof setInterval> }>({});
 
   useEffect(() => {
@@ -91,9 +96,18 @@ function Scorer({ target, text }: { target: Target; text: string }) {
           recorder.stop().catch(() => {});
         } catch {}
       }
-      void setRecordingMode(false);
+      if (micMode.current) {
+        micMode.current = false;
+        void setRecordingMode(false);
+      }
     };
   }, [recorder]);
+
+  const leaveMicMode = () => {
+    if (!micMode.current) return;
+    micMode.current = false;
+    void setRecordingMode(false);
+  };
 
   const finish = async () => {
     if (!recording.current) return;
@@ -107,7 +121,7 @@ function Scorer({ target, text }: { target: Target; text: string }) {
       await recorder.stop();
       uri = recorder.uri;
     } catch {}
-    void setRecordingMode(false);
+    leaveMicMode();
     let result: ScoreResult = { kind: 'failed' };
     if (uri) {
       try {
@@ -115,6 +129,7 @@ function Scorer({ target, text }: { target: Target; text: string }) {
       } catch {}
       discardRecording(uri);
     }
+    if (result.kind === 'unavailable') scoringOff = true;
     if (!alive.current) return;
     if (result.kind === 'scored') setPhase({ kind: 'scored', score: result.score });
     else if (result.kind === 'limit') setPhase({ kind: 'limit', limit: result.limit });
@@ -131,12 +146,13 @@ function Scorer({ target, text }: { target: Target; text: string }) {
         setPhase({ kind: 'fallback', reason: 'permission' });
         return;
       }
+      micMode.current = true;
       await setRecordingMode(true);
       await recorder.prepareToRecordAsync();
       if (!alive.current) return;
       recorder.record();
     } catch {
-      void setRecordingMode(false);
+      leaveMicMode();
       if (alive.current) setPhase({ kind: 'fallback', reason: 'failed' });
       return;
     }

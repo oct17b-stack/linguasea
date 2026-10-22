@@ -18,12 +18,14 @@ const SLOW_RATE = 0.7;
 const MAX_PLAYERS = 24;
 /** A clip that has not loaded by then (bad connection) gives way to TTS for this play. */
 const LOAD_TIMEOUT_MS = 5000;
+/** A clip that failed to load is not tried again for this long (TTS meanwhile), e.g. while offline. */
+const RETRY_BROKEN_MS = 60_000;
 
 type Request = { url: string; text: string; locale: string; slow: boolean };
 
 const players = new Map<string, AudioPlayer>();
-/** Clips that failed to load this session go straight to TTS. */
-const broken = new Set<string>();
+/** Clips that failed to load → when; they go straight to TTS for a while. */
+const broken = new Map<string, number>();
 let pending: Request | undefined;
 let playing: AudioPlayer | undefined;
 let loadTimer: ReturnType<typeof setTimeout> | undefined;
@@ -53,7 +55,7 @@ export function playLine(course: CourseBundle, line: { speaker: string; text: st
 /** Starts loading a lesson's clips so they play without delay. */
 export function preloadClips(course: CourseBundle, items: Pick<Item, 'text' | 'say'>[], lines: { speaker: string; text: string }[] = []) {
   const urls = [...items.map((i) => itemClip(course, i)), ...lines.map((l) => clipFor(course, l.speaker, l.text))];
-  for (const url of urls) if (url && !broken.has(url)) playerFor(url);
+  for (const url of urls) if (url && !isBroken(url)) playerFor(url);
 }
 
 export function stopAudio() {
@@ -75,7 +77,7 @@ export async function setRecordingMode(recording: boolean) {
 
 function play(url: string | undefined, text: string, locale: string, slow: boolean) {
   stopAudio();
-  const player = url && !broken.has(url) ? playerFor(url) : undefined;
+  const player = url && !isBroken(url) ? playerFor(url) : undefined;
   if (!url || !player || !setRate(player, slow)) {
     say(text, locale, slow);
     return;
@@ -127,7 +129,7 @@ function playerFor(url: string): AudioPlayer | undefined {
     if (!status.error) return;
     // Not loaded = the clip itself is unusable (missing, offline); otherwise only this play was refused.
     if (!status.isLoaded) {
-      broken.add(url);
+      broken.set(url, Date.now());
       release(url, player);
     }
     if (pending?.url === url) fallBack(pending);
@@ -138,6 +140,11 @@ function playerFor(url: string): AudioPlayer | undefined {
     if (old !== playing) release(oldUrl, old);
   }
   return player;
+}
+
+function isBroken(url: string): boolean {
+  const at = broken.get(url);
+  return at !== undefined && Date.now() - at < RETRY_BROKEN_MS;
 }
 
 function release(url: string, player: AudioPlayer) {

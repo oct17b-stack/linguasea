@@ -20,6 +20,8 @@ import { restore } from '@/lib/purchases';
 import { remindersSupported } from '@/lib/reminders';
 import { useApp } from '@/state/app-state';
 
+const appName = Application.applicationName ?? Constants.expoConfig?.name ?? '';
+
 const appVersion = (() => {
   const version = Application.nativeApplicationVersion ?? Constants.expoConfig?.version ?? '';
   const build = Application.nativeBuildVersion;
@@ -174,7 +176,8 @@ export default function Settings() {
       </Section>
 
       <ThemedText type="small" style={[styles.version, { color: c.textSecondary }]}>
-        LinguaSEA · {t('settings.version', { version: appVersion })}
+        {appName ? `${appName} · ` : ''}
+        {t('settings.version', { version: appVersion })}
       </ThemedText>
     </Screen>
   );

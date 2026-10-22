@@ -192,13 +192,16 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       if (account) void identify(account.id);
       else void forgetPurchaser();
     });
-    void api.currentAccount().then((account) => {
+    void api.currentAccount().then(async (account) => {
       if (closed) return;
       stopPurchases = startPurchases(account?.id, (store) =>
         setSaved((cur) => (cur.entitlements.store === store ? cur : { ...cur, entitlements: { ...cur.entitlements, store } })),
       );
+      // An account made while RevenueCat was still being configured.
+      const latestAccount = await api.currentAccount();
+      if (latestAccount && latestAccount.id !== account?.id) void identify(latestAccount.id);
       // The account is made lazily: only once there is progress to keep.
-      if (api.apiEnabled && (account || hasProgress(latest.current.progress))) {
+      if (api.apiEnabled && (latestAccount || hasProgress(latest.current.progress))) {
         void runSync().then(refreshPremium);
       }
     });

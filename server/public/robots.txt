@@ -1,0 +1,9 @@
+# Public website: home, support and legal pages may be indexed.
+# The API (/v1/), generated lesson audio (/audio/) and the health check are not web pages.
+User-agent: *
+Disallow: /v1/
+Disallow: /audio/
+Disallow: /health
+
+# Add once the production domain is known (must be an absolute URL):
+# Sitemap: https://<domain>/sitemap.xml
