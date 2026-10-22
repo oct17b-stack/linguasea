@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.amari",
+      "text": "あまり",
+      "reading": "amari"
+    },
+    {
+      "id": "ja.sonna-ni",
+      "text": "そんなに",
+      "reading": "sonna ni"
+    },
+    {
+      "id": "ja.mattaku",
+      "text": "まったく",
+      "reading": "mattaku"
+    },
+    {
+      "id": "ja.demo",
+      "text": "でも",
+      "reading": "demo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ねこは すきですか。",
+      "reading": "Namu-san, neko wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "そんなに すきじゃ ありません。いぬが すきです。",
+      "reading": "Sonna ni suki ja arimasen. Inu ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは いぬが あまり すきじゃ ありません。",
+      "reading": "Watashi wa inu ga amari suki ja arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、いぬは かわいいですよ！",
+      "reading": "Demo, inu wa kawaii desu yo!"
+    }
+  ]
+}

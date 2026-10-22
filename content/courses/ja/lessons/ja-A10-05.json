@@ -1,0 +1,50 @@
+{
+  "id": "ja-A10-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.akachan",
+      "text": "あかちゃん",
+      "reading": "akachan"
+    },
+    {
+      "id": "ja.otoshiyori",
+      "text": "おとしより",
+      "reading": "otoshiyori"
+    },
+    {
+      "id": "ja.toshi",
+      "text": "とし",
+      "reading": "toshi"
+    },
+    {
+      "id": "ja.onaidoshi",
+      "text": "おないどし",
+      "reading": "onaidoshi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、おとしは？",
+      "reading": "Sumimasen, otoshi wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "はたちです。",
+      "reading": "Hatachi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしも はたちです。おないどしですね。",
+      "reading": "Watashi mo hatachi desu. Onaidoshi desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。よろしく おねがいします。",
+      "reading": "Sō desu ka. Yoroshiku onegaishimasu."
+    }
+  ]
+}

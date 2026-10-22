@@ -1,0 +1,55 @@
+{
+  "id": "ja-A13-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.umi",
+      "text": "うみ",
+      "reading": "umi"
+    },
+    {
+      "id": "ja.kawa",
+      "text": "かわ",
+      "reading": "kawa"
+    },
+    {
+      "id": "ja.shima",
+      "text": "しま",
+      "reading": "shima"
+    },
+    {
+      "id": "ja.ike",
+      "text": "いけ",
+      "reading": "ike"
+    },
+    {
+      "id": "ja.taki",
+      "text": "たき",
+      "reading": "taki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは うみが すきですか。",
+      "reading": "Namu-san wa umi ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、だいすきです。タイの しまは とても きれいですよ。",
+      "reading": "Hai, daisuki desu. Tai no shima wa totemo kirei desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしは かわと たきが すきです。",
+      "reading": "Ii desu ne. Watashi wa kawa to taki ga suki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "たきも きれいですね。",
+      "reading": "Taki mo kirei desu ne."
+    }
+  ]
+}

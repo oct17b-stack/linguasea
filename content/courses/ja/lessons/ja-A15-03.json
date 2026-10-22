@@ -1,0 +1,50 @@
+{
+  "id": "ja-A15-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.matsuri",
+      "text": "まつり",
+      "reading": "matsuri"
+    },
+    {
+      "id": "ja.taiko",
+      "text": "たいこ",
+      "reading": "taiko"
+    },
+    {
+      "id": "ja.mikoshi",
+      "text": "みこし",
+      "reading": "mikoshi"
+    },
+    {
+      "id": "ja.tanabata",
+      "text": "たなばた",
+      "reading": "tanabata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんの なつは まつりですよ。",
+      "reading": "Namu-san, Nihon no natsu wa matsuri desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね！たいこが だいすきです。",
+      "reading": "Ii desu ne! Taiko ga daisuki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "みこしも おもしろいですよ。",
+      "reading": "Mikoshi mo omoshiroi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "たなばたも なつの まつりですね。",
+      "reading": "Tanabata mo natsu no matsuri desu ne."
+    }
+  ]
+}

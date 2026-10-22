@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.doushite",
+      "text": "どうして",
+      "reading": "dōshite"
+    },
+    {
+      "id": "ja.ichiban",
+      "text": "いちばん",
+      "reading": "ichiban"
+    },
+    {
+      "id": "ja.doremo",
+      "text": "どれも",
+      "reading": "doremo"
+    },
+    {
+      "id": "ja.zenbu",
+      "text": "ぜんぶ",
+      "reading": "zenbu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは どうして にほんごが すきですか。",
+      "reading": "Namu-san wa dōshite Nihongo ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんの えいがが すきですから。",
+      "reading": "Nihon no eiga ga suki desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "いちばん すきな えいがは なんですか。",
+      "reading": "Ichiban suki na eiga wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "どれも すきです。ぜんぶ おもしろいです！",
+      "reading": "Doremo suki desu. Zenbu omoshiroi desu!"
+    }
+  ]
+}

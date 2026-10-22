@@ -1,0 +1,52 @@
+{
+  "id": "ja-A16-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.omedetou",
+      "kind": "phrase",
+      "text": "おめでとう",
+      "reading": "omedetō"
+    },
+    {
+      "id": "ja.omedetou-gozaimasu",
+      "kind": "phrase",
+      "text": "おめでとうございます",
+      "reading": "omedetō gozaimasu"
+    },
+    {
+      "id": "ja.kekkon",
+      "text": "けっこん",
+      "reading": "kekkon"
+    },
+    {
+      "id": "ja.nyuugaku",
+      "text": "にゅうがく",
+      "reading": "nyūgaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、にゅうがく おめでとう！",
+      "reading": "Yuki-san, nyūgaku omedetō!"
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう！",
+      "reading": "Arigatō!"
+    },
+    {
+      "speaker": "a",
+      "text": "たなかさん、にゅうがく おめでとうございます。",
+      "reading": "Tanaka-san, nyūgaku omedetō gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

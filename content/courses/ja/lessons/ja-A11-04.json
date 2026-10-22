@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.yakyuu",
+      "text": "やきゅう",
+      "reading": "yakyū"
+    },
+    {
+      "id": "ja.karate",
+      "text": "からて",
+      "reading": "karate"
+    },
+    {
+      "id": "ja.kendou",
+      "text": "けんどう",
+      "reading": "kendō"
+    },
+    {
+      "id": "ja.shougi",
+      "text": "しょうぎ",
+      "reading": "shōgi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、やきゅうは すきですか。",
+      "reading": "Namu-san, yakyū wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あまり すきじゃ ありません。からてと けんどうが すきです。",
+      "reading": "Amari suki ja arimasen. Karate to kendō ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。しょうぎは？",
+      "reading": "Ii desu ne. Shōgi wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "しょうぎも だいすきです！",
+      "reading": "Shōgi mo daisuki desu!"
+    }
+  ]
+}

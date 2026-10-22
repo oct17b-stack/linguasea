@@ -1,0 +1,55 @@
+{
+  "id": "ja-A5-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.yottsu",
+      "text": "よっつ",
+      "reading": "yottsu"
+    },
+    {
+      "id": "ja.itsutsu",
+      "text": "いつつ",
+      "reading": "itsutsu"
+    },
+    {
+      "id": "ja.muttsu",
+      "text": "むっつ",
+      "reading": "muttsu"
+    },
+    {
+      "id": "ja.nanatsu",
+      "text": "ななつ",
+      "reading": "nanatsu"
+    },
+    {
+      "id": "ja.yattsu",
+      "text": "やっつ",
+      "reading": "yattsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、みかんを やっつ ください。",
+      "reading": "Sumimasen, mikan o yattsu kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ…",
+      "reading": "Hai. Hitotsu, futatsu, mittsu, yottsu, itsutsu, muttsu…"
+    },
+    {
+      "speaker": "a",
+      "text": "ななつ、やっつ！",
+      "reading": "Nanatsu, yattsu!"
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.iruka",
+      "text": "いるか",
+      "reading": "iruka"
+    },
+    {
+      "id": "ja.kujira",
+      "text": "くじら",
+      "reading": "kujira"
+    },
+    {
+      "id": "ja.same",
+      "text": "さめ",
+      "reading": "same"
+    },
+    {
+      "id": "ja.oyogimasu",
+      "text": "およぎます",
+      "reading": "oyogimasu"
+    },
+    {
+      "id": "ja.tobimasu",
+      "text": "とびます",
+      "reading": "tobimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "いるかは さかなですか。",
+      "reading": "Iruka wa sakana desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、さかなじゃ ありません。くじらも さかなじゃ ありません。",
+      "reading": "Iie, sakana ja arimasen. Kujira mo sakana ja arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。さめは？",
+      "reading": "Sō desu ka. Same wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "さめは さかなです。",
+      "reading": "Same wa sakana desu."
+    }
+  ]
+}

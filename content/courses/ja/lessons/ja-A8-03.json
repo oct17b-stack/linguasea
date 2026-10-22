@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.saru",
+      "text": "さる",
+      "reading": "saru"
+    },
+    {
+      "id": "ja.kuma",
+      "text": "くま",
+      "reading": "kuma"
+    },
+    {
+      "id": "ja.tora",
+      "text": "とら",
+      "reading": "tora"
+    },
+    {
+      "id": "ja.kirin",
+      "text": "きりん",
+      "reading": "kirin"
+    },
+    {
+      "id": "ja.kaba",
+      "text": "かば",
+      "reading": "kaba"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どうぶつは なにが すきですか。",
+      "reading": "Namu-san, dōbutsu wa nani ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "とらと かばが すきです。",
+      "reading": "Tora to kaba ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "かばですか。",
+      "reading": "Kaba desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイの かばは かわいいですよ。",
+      "reading": "Hai. Tai no kaba wa kawaii desu yo."
+    }
+  ]
+}

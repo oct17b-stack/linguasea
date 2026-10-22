@@ -1,0 +1,60 @@
+{
+  "id": "ja-A10-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.wakai",
+      "text": "わかい",
+      "reading": "wakai"
+    },
+    {
+      "id": "ja.hosoi",
+      "text": "ほそい",
+      "reading": "hosoi"
+    },
+    {
+      "id": "ja.kami",
+      "text": "かみ",
+      "reading": "kami"
+    },
+    {
+      "id": "ja.nagai",
+      "text": "ながい",
+      "reading": "nagai"
+    },
+    {
+      "id": "ja.mijikai",
+      "text": "みじかい",
+      "reading": "mijikai"
+    },
+    {
+      "id": "ja.megane",
+      "text": "めがね",
+      "reading": "megane"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさんの せんせいは わかいですか。",
+      "reading": "Yuki-san no sensei wa wakai desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、わかいです。ほそい ひとです。",
+      "reading": "Hai, wakai desu. Hosoi hito desu."
+    },
+    {
+      "speaker": "a",
+      "text": "かみは ながいですか。",
+      "reading": "Kami wa nagai desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ。せんせいは かみが みじかいです。",
+      "reading": "Iie. Sensei wa kami ga mijikai desu."
+    }
+  ]
+}

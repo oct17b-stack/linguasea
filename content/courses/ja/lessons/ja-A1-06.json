@@ -1,0 +1,60 @@
+{
+  "id": "ja-A1-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ittekimasu",
+      "kind": "phrase",
+      "text": "いってきます",
+      "reading": "ittekimasu"
+    },
+    {
+      "id": "ja.itterasshai",
+      "kind": "phrase",
+      "text": "いってらっしゃい",
+      "reading": "itterasshai"
+    },
+    {
+      "id": "ja.oyasumi",
+      "kind": "phrase",
+      "text": "おやすみ",
+      "reading": "oyasumi"
+    },
+    {
+      "id": "ja.otsukaresama-desu",
+      "kind": "phrase",
+      "text": "おつかれさまです",
+      "reading": "otsukaresama desu"
+    },
+    {
+      "id": "ja.osaki-ni-shitsurei-shimasu",
+      "kind": "phrase",
+      "text": "おさきに しつれいします",
+      "reading": "osaki ni shitsurei shimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "おさきに しつれいします。",
+      "reading": "Osaki ni shitsurei shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おつかれさまです。",
+      "reading": "Otsukaresama desu."
+    },
+    {
+      "speaker": "a",
+      "text": "おつかれさまです。おやすみなさい。",
+      "reading": "Otsukaresama desu. Oyasuminasai."
+    },
+    {
+      "speaker": "b",
+      "text": "おやすみ。",
+      "reading": "Oyasumi."
+    }
+  ]
+}

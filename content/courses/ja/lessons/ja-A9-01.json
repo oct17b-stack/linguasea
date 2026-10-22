@@ -1,0 +1,55 @@
+{
+  "id": "ja-A9-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tenki",
+      "text": "てんき",
+      "reading": "tenki"
+    },
+    {
+      "id": "ja.hare",
+      "text": "はれ",
+      "reading": "hare"
+    },
+    {
+      "id": "ja.ame",
+      "text": "あめ",
+      "reading": "ame"
+    },
+    {
+      "id": "ja.kumori",
+      "text": "くもり",
+      "reading": "kumori"
+    },
+    {
+      "id": "ja.ii",
+      "text": "いい",
+      "reading": "ii"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "いい てんきですね。",
+      "reading": "Ii tenki desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あしたも はれですか。",
+      "reading": "Hai. Ashita mo hare desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、あしたは あめです。",
+      "reading": "Iie, ashita wa ame desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。",
+      "reading": "Sō desu ka."
+    }
+  ]
+}

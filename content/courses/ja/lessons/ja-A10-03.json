@@ -1,0 +1,50 @@
+{
+  "id": "ja-A10-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.shizuka",
+      "text": "しずか",
+      "reading": "shizuka"
+    },
+    {
+      "id": "ja.nigiyaka",
+      "text": "にぎやか",
+      "reading": "nigiyaka"
+    },
+    {
+      "id": "ja.urusai",
+      "text": "うるさい",
+      "reading": "urusai"
+    },
+    {
+      "id": "ja.sekkachi",
+      "text": "せっかち",
+      "reading": "sekkachi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさんは しずかな ひとが すきですか。",
+      "reading": "Yuki-san wa shizuka na hito ga suki desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。うるさい ひとは すきじゃ ありません。",
+      "reading": "Hai. Urusai hito wa suki ja arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは にぎやかな ひとが すきです。",
+      "reading": "Watashi wa nigiyaka na hito ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさんは しずかじゃ ありませんね。",
+      "reading": "Namu-san wa shizuka ja arimasen ne."
+    }
+  ]
+}

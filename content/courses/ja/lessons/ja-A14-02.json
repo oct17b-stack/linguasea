@@ -1,0 +1,51 @@
+{
+  "id": "ja-A14-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.mou-ichido",
+      "kind": "phrase",
+      "text": "もういちど",
+      "reading": "mō ichido"
+    },
+    {
+      "id": "ja.yukkuri",
+      "text": "ゆっくり",
+      "reading": "yukkuri"
+    },
+    {
+      "id": "ja.imi",
+      "text": "いみ",
+      "reading": "imi"
+    },
+    {
+      "id": "ja.kotoba",
+      "text": "ことば",
+      "reading": "kotoba"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、「ナム」は タイごで どんな いみですか。",
+      "reading": "Namu-san, “Namu” wa Taigo de donna imi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、もういちど ゆっくり おねがいします。",
+      "reading": "Sumimasen, mō ichido yukkuri onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "「ナム」の いみは？",
+      "reading": "“Namu” no imi wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "ああ、「みず」です。",
+      "reading": "Ā, “mizu” desu."
+    }
+  ]
+}

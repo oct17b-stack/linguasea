@@ -1,0 +1,59 @@
+{
+  "id": "ja-A1-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ohisashiburi-desu",
+      "kind": "phrase",
+      "text": "おひさしぶりです",
+      "reading": "ohisashiburi desu"
+    },
+    {
+      "id": "ja.ogenki-desu-ka",
+      "kind": "phrase",
+      "text": "おげんきですか",
+      "reading": "ogenki desu ka"
+    },
+    {
+      "id": "ja.genki",
+      "text": "げんき",
+      "reading": "genki"
+    },
+    {
+      "id": "ja.okagesama-de",
+      "kind": "phrase",
+      "text": "おかげさまで",
+      "reading": "okagesama de"
+    },
+    {
+      "id": "ja.jaa-ne",
+      "kind": "phrase",
+      "text": "じゃあね",
+      "reading": "jā ne"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまだせんせい、おひさしぶりです。",
+      "reading": "Yamada-sensei, ohisashiburi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "おひさしぶりです。おげんきですか。",
+      "reading": "Ohisashiburi desu. Ogenki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おかげさまで。せんせい、おげんきですか。",
+      "reading": "Hai, okagesama de. Sensei, ogenki desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、げんきです。ありがとう。",
+      "reading": "Hai, genki desu. Arigatō."
+    }
+  ]
+}

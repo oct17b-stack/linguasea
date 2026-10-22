@@ -1,0 +1,50 @@
+{
+  "id": "ja-A9-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nando",
+      "text": "なんど",
+      "reading": "nando"
+    },
+    {
+      "id": "ja.uchiwa",
+      "text": "うちわ",
+      "reading": "uchiwa"
+    },
+    {
+      "id": "ja.kotatsu",
+      "text": "こたつ",
+      "reading": "kotatsu"
+    },
+    {
+      "id": "ja.yukidaruma",
+      "text": "ゆきだるま",
+      "reading": "yukidaruma"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "にほんの ふゆは なんどですか。",
+      "reading": "Nihon no fuyu wa nando desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ごどです。とても さむいです。",
+      "reading": "Godo desu. Totemo samui desu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの ふゆは にじゅうごどです。",
+      "reading": "Tai no fuyu wa nijūgodo desu."
+    },
+    {
+      "speaker": "c",
+      "text": "あたたかいですね。にほんの ふゆは こたつです。",
+      "reading": "Atatakai desu ne. Nihon no fuyu wa kotatsu desu."
+    }
+  ]
+}

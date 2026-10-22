@@ -1,0 +1,50 @@
+{
+  "id": "ja-A9-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.haru",
+      "text": "はる",
+      "reading": "haru"
+    },
+    {
+      "id": "ja.natsu",
+      "text": "なつ",
+      "reading": "natsu"
+    },
+    {
+      "id": "ja.aki",
+      "text": "あき",
+      "reading": "aki"
+    },
+    {
+      "id": "ja.fuyu",
+      "text": "ふゆ",
+      "reading": "fuyu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "にほんの はるは あたたかいですか。",
+      "reading": "Nihon no haru wa atatakai desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、あたたかいです。ふゆは とても さむいです。",
+      "reading": "Hai, atatakai desu. Fuyu wa totemo samui desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは はるが すきです。ゆきさんは？",
+      "reading": "Watashi wa haru ga suki desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは なつと あきが すきです。",
+      "reading": "Watashi wa natsu to aki ga suki desu."
+    }
+  ]
+}

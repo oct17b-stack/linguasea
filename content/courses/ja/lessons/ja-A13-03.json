@@ -1,0 +1,50 @@
+{
+  "id": "ja-A13-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kusa",
+      "text": "くさ",
+      "reading": "kusa"
+    },
+    {
+      "id": "ja.kinoko",
+      "text": "きのこ",
+      "reading": "kinoko"
+    },
+    {
+      "id": "ja.ishi",
+      "text": "いし",
+      "reading": "ishi"
+    },
+    {
+      "id": "ja.takusan",
+      "text": "たくさん",
+      "reading": "takusan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまは きれいですね。はなも くさも きれいです。",
+      "reading": "Yama wa kirei desu ne. Hana mo kusa mo kirei desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。あ、きのこが たくさん！",
+      "reading": "Ē. A, kinoko ga takusan!"
+    },
+    {
+      "speaker": "a",
+      "text": "やまの きのこは おいしいですか。",
+      "reading": "Yama no kinoko wa oishii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。でも、あかい きのこは あぶないですよ。",
+      "reading": "Hai. Demo, akai kinoko wa abunai desu yo."
+    }
+  ]
+}

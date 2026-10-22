@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nattou",
+      "text": "なっとう",
+      "reading": "nattō"
+    },
+    {
+      "id": "ja.wasabi",
+      "text": "わさび",
+      "reading": "wasabi"
+    },
+    {
+      "id": "ja.negi",
+      "text": "ねぎ",
+      "reading": "negi"
+    },
+    {
+      "id": "ja.tamago",
+      "text": "たまご",
+      "reading": "tamago"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、たべものは なにが きらいですか。",
+      "reading": "Namu-san, tabemono wa nani ga kirai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "なっとうが だいきらいです。わさびも あまり すきじゃ ありません。",
+      "reading": "Nattō ga daikirai desu. Wasabi mo amari suki ja arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "ねぎと たまごは？",
+      "reading": "Negi to tamago wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "だいすきです！",
+      "reading": "Daisuki desu!"
+    }
+  ]
+}

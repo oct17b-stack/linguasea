@@ -1,0 +1,50 @@
+{
+  "id": "ja-A15-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ofuro",
+      "text": "おふろ",
+      "reading": "ofuro"
+    },
+    {
+      "id": "ja.sentou",
+      "text": "せんとう",
+      "reading": "sentō"
+    },
+    {
+      "id": "ja.yubune",
+      "text": "ゆぶね",
+      "reading": "yubune"
+    },
+    {
+      "id": "ja.hairimasu",
+      "text": "はいります",
+      "reading": "hairimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんの おふろは すきですか。",
+      "reading": "Namu-san, Nihon no ofuro wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。せんとうが だいすきです。",
+      "reading": "Hai. Sentō ga daisuki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ゆぶねは とても あついですよ。だいじょうぶですか。",
+      "reading": "Yubune wa totemo atsui desu yo. Daijōbu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、はいります！タイも あついですから。",
+      "reading": "Hai, hairimasu! Tai mo atsui desu kara."
+    }
+  ]
+}

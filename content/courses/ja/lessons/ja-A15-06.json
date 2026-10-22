@@ -1,0 +1,50 @@
+{
+  "id": "ja-A15-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nugimasu",
+      "text": "ぬぎます",
+      "reading": "nugimasu"
+    },
+    {
+      "id": "ja.suwarimasu",
+      "text": "すわります",
+      "reading": "suwarimasu"
+    },
+    {
+      "id": "ja.narabimasu",
+      "text": "ならびます",
+      "reading": "narabimasu"
+    },
+    {
+      "id": "ja.shizuka-ni",
+      "text": "しずかに",
+      "reading": "shizuka ni"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんの いえでは くつを ぬぎます。",
+      "reading": "Namu-san, Nihon no ie de wa kutsu o nugimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイも おなじですよ。",
+      "reading": "Tai mo onaji desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。タイの えきで ならびますか。",
+      "reading": "Sō desu ka. Tai no eki de narabimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、しずかに ならびます。",
+      "reading": "Hai, shizuka ni narabimasu."
+    }
+  ]
+}

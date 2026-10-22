@@ -1,0 +1,60 @@
+{
+  "id": "ja-A3-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kochira",
+      "text": "こちら",
+      "reading": "kochira"
+    },
+    {
+      "id": "ja.anata",
+      "text": "あなた",
+      "reading": "anata"
+    },
+    {
+      "id": "ja.shigoto",
+      "text": "しごと",
+      "reading": "shigoto"
+    },
+    {
+      "id": "ja.isha",
+      "text": "いしゃ",
+      "reading": "isha"
+    },
+    {
+      "id": "ja.ginkouin",
+      "text": "ぎんこういん",
+      "reading": "ginkōin"
+    },
+    {
+      "id": "ja.shufu",
+      "text": "しゅふ",
+      "reading": "shufu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "こちらは たなか ゆきさんです。",
+      "reading": "Kochira wa Tanaka Yuki-san desu."
+    },
+    {
+      "speaker": "b",
+      "text": "はじめまして。よろしく おねがいします。",
+      "reading": "Hajimemashite. Yoroshiku onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "よろしく おねがいします。おしごとは なんですか。",
+      "reading": "Yoroshiku onegaishimasu. Oshigoto wa nan desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いしゃです。",
+      "reading": "Isha desu."
+    }
+  ]
+}

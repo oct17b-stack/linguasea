@@ -1,0 +1,50 @@
+{
+  "id": "ja-A14-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.gakkou",
+      "text": "がっこう",
+      "reading": "gakkō"
+    },
+    {
+      "id": "ja.kyoushitsu",
+      "text": "きょうしつ",
+      "reading": "kyōshitsu"
+    },
+    {
+      "id": "ja.renshuu",
+      "text": "れんしゅう",
+      "reading": "renshū"
+    },
+    {
+      "id": "ja.kotae",
+      "text": "こたえ",
+      "reading": "kotae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんごの きょうしつは どうですか。",
+      "reading": "Namu-san, Nihongo no kyōshitsu wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "とても たのしいです。がっこうも きれいですよ。",
+      "reading": "Totemo tanoshii desu. Gakkō mo kirei desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "れんしゅうは たいへんですか。",
+      "reading": "Renshū wa taihen desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。れんしゅうが だいすきです！",
+      "reading": "Iie. Renshū ga daisuki desu!"
+    }
+  ]
+}

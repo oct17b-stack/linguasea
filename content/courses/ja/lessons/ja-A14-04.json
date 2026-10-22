@@ -1,0 +1,50 @@
+{
+  "id": "ja-A14-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.shukudai",
+      "text": "しゅくだい",
+      "reading": "shukudai"
+    },
+    {
+      "id": "ja.mondai",
+      "text": "もんだい",
+      "reading": "mondai"
+    },
+    {
+      "id": "ja.kantan",
+      "text": "かんたん",
+      "reading": "kantan"
+    },
+    {
+      "id": "ja.muzukashii",
+      "text": "むずかしい",
+      "reading": "muzukashii"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、しゅくだいは かんたんですか。",
+      "reading": "Namu-san, shukudai wa kantan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、とても むずかしいです。",
+      "reading": "Iie, totemo muzukashii desu."
+    },
+    {
+      "speaker": "b",
+      "text": "なんばんの もんだいですか。",
+      "reading": "Nanban no mondai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "さんばんと ななばんです。",
+      "reading": "Sanban to nanaban desu."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ja-A12-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.warui",
+      "text": "わるい",
+      "reading": "warui"
+    },
+    {
+      "id": "ja.saiaku",
+      "text": "さいあく",
+      "reading": "saiaku"
+    },
+    {
+      "id": "ja.raku",
+      "text": "らく",
+      "reading": "raku"
+    },
+    {
+      "id": "ja.yokatta",
+      "kind": "phrase",
+      "text": "よかった",
+      "reading": "yokatta"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あしたは てんきが わるいですよ。",
+      "reading": "Namu-san, ashita wa tenki ga warui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "さいあくです。あめですか。",
+      "reading": "Saiaku desu. Ame desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、くもりです。あめは よるです。",
+      "reading": "Iie, kumori desu. Ame wa yoru desu."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった！",
+      "reading": "Yokatta!"
+    }
+  ]
+}

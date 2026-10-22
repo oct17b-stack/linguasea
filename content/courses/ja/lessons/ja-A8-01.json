@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.doubutsu",
+      "text": "どうぶつ",
+      "reading": "dōbutsu"
+    },
+    {
+      "id": "ja.tori",
+      "text": "とり",
+      "reading": "tori"
+    },
+    {
+      "id": "ja.usagi",
+      "text": "うさぎ",
+      "reading": "usagi"
+    },
+    {
+      "id": "ja.kingyo",
+      "text": "きんぎょ",
+      "reading": "kingyo"
+    },
+    {
+      "id": "ja.kawaii",
+      "text": "かわいい",
+      "reading": "kawaii"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは どうぶつが すきですか。",
+      "reading": "Namu-san wa dōbutsu ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。いぬと うさぎが すきです。",
+      "reading": "Hai. Inu to usagi ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "うさぎは かわいいですね。",
+      "reading": "Usagi wa kawaii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、かわいいです。",
+      "reading": "Hai, kawaii desu."
+    }
+  ]
+}

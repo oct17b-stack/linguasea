@@ -1,0 +1,54 @@
+{
+  "id": "ja-A16-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kekkou-desu",
+      "kind": "phrase",
+      "text": "けっこうです",
+      "reading": "kekkō desu"
+    },
+    {
+      "id": "ja.osaki-ni-douzo",
+      "kind": "phrase",
+      "text": "おさきに どうぞ",
+      "reading": "osaki ni dōzo"
+    },
+    {
+      "id": "ja.omachi-kudasai",
+      "kind": "phrase",
+      "text": "おまちください",
+      "reading": "omachi kudasai"
+    },
+    {
+      "id": "ja.okamainaku",
+      "kind": "phrase",
+      "text": "おかまいなく",
+      "reading": "okamainaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、おちゃは どうですか。",
+      "reading": "Namu-san, ocha wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、どうぞ おかまいなく。",
+      "reading": "A, dōzo okamainaku."
+    },
+    {
+      "speaker": "c",
+      "text": "だいじょうぶですよ。おかしも どうぞ。",
+      "reading": "Daijōbu desu yo. Okashi mo dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。でも、おかしは けっこうです。",
+      "reading": "Arigatō gozaimasu. Demo, okashi wa kekkō desu."
+    }
+  ]
+}

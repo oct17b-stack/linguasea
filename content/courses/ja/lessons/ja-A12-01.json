@@ -1,0 +1,55 @@
+{
+  "id": "ja-A12-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tanoshii",
+      "text": "たのしい",
+      "reading": "tanoshii"
+    },
+    {
+      "id": "ja.tsumaranai",
+      "text": "つまらない",
+      "reading": "tsumaranai"
+    },
+    {
+      "id": "ja.isogashii",
+      "text": "いそがしい",
+      "reading": "isogashii"
+    },
+    {
+      "id": "ja.hima",
+      "text": "ひま",
+      "reading": "hima"
+    },
+    {
+      "id": "ja.taihen",
+      "text": "たいへん",
+      "reading": "taihen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、あしたは ひまですか。",
+      "reading": "Yuki-san, ashita wa hima desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、いそがしいです。あさから しごとです。",
+      "reading": "Iie, isogashii desu. Asa kara shigoto desu."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへんですね。しごとは つまらないですか。",
+      "reading": "Taihen desu ne. Shigoto wa tsumaranai desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、とても たのしいですよ！",
+      "reading": "Iie, totemo tanoshii desu yo!"
+    }
+  ]
+}

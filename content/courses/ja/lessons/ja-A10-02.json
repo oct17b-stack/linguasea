@@ -1,0 +1,55 @@
+{
+  "id": "ja-A10-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.donna",
+      "text": "どんな",
+      "reading": "donna"
+    },
+    {
+      "id": "ja.yasashii",
+      "text": "やさしい",
+      "reading": "yasashii"
+    },
+    {
+      "id": "ja.omoshiroi",
+      "text": "おもしろい",
+      "reading": "omoshiroi"
+    },
+    {
+      "id": "ja.majime",
+      "text": "まじめ",
+      "reading": "majime"
+    },
+    {
+      "id": "ja.oshaberi",
+      "text": "おしゃべり",
+      "reading": "oshaberi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "やまだせんせいは どんな ひとですか。",
+      "reading": "Yamada-sensei wa donna hito desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "やさしい ひとです。おもしろいです。",
+      "reading": "Yasashii hito desu. Omoshiroi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。まじめな ひとですか。",
+      "reading": "Sō desu ka. Majime na hito desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、まじめです。すこし おしゃべりです。",
+      "reading": "Hai, majime desu. Sukoshi oshaberi desu."
+    }
+  ]
+}

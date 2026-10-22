@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.shika",
+      "text": "しか",
+      "reading": "shika"
+    },
+    {
+      "id": "ja.tanuki",
+      "text": "たぬき",
+      "reading": "tanuki"
+    },
+    {
+      "id": "ja.kame",
+      "text": "かめ",
+      "reading": "kame"
+    },
+    {
+      "id": "ja.karasu",
+      "text": "からす",
+      "reading": "karasu"
+    },
+    {
+      "id": "ja.suzume",
+      "text": "すずめ",
+      "reading": "suzume"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、たぬきは にほんの どうぶつですか。",
+      "reading": "Yuki-san, tanuki wa Nihon no dōbutsu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。たぬきも しかも にほんの どうぶつです。",
+      "reading": "Hai. Tanuki mo shika mo Nihon no dōbutsu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "しかは かわいいですね。",
+      "reading": "Shika wa kawaii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、かわいいです。",
+      "reading": "Hai, kawaii desu."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ja-A15-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.origami",
+      "text": "おりがみ",
+      "reading": "origami"
+    },
+    {
+      "id": "ja.geta",
+      "text": "げた",
+      "reading": "geta"
+    },
+    {
+      "id": "ja.sensu",
+      "text": "せんす",
+      "reading": "sensu"
+    },
+    {
+      "id": "ja.kendama",
+      "text": "けんだま",
+      "reading": "kendama"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、げたは にほんの くつです。",
+      "reading": "Namu-san, geta wa Nihon no kutsu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、かわいいですね。せんすも きれいです。",
+      "reading": "Hē, kawaii desu ne. Sensu mo kirei desu."
+    },
+    {
+      "speaker": "c",
+      "text": "おりがみと けんだまは すきですか。",
+      "reading": "Origami to kendama wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "おりがみは すきです。けんだまは むずかしいです！",
+      "reading": "Origami wa suki desu. Kendama wa muzukashii desu!"
+    }
+  ]
+}

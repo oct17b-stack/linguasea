@@ -1,0 +1,55 @@
+{
+  "id": "ja-A3-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nihongo",
+      "text": "にほんご",
+      "reading": "Nihongo"
+    },
+    {
+      "id": "ja.eigo",
+      "text": "えいご",
+      "reading": "eigo"
+    },
+    {
+      "id": "ja.taigo",
+      "text": "タイご",
+      "reading": "Taigo"
+    },
+    {
+      "id": "ja.hanashimasu",
+      "text": "はなします",
+      "reading": "hanashimasu"
+    },
+    {
+      "id": "ja.sukoshi",
+      "text": "すこし",
+      "reading": "sukoshi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさんは えいごを はなしますか。",
+      "reading": "Yuki-san wa eigo o hanashimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、はなします。",
+      "reading": "Hai, hanashimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイごは？",
+      "reading": "Taigo wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "タイごは すこし はなします。",
+      "reading": "Taigo wa sukoshi hanashimasu."
+    }
+  ]
+}

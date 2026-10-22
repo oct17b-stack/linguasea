@@ -1,0 +1,54 @@
+{
+  "id": "ja-A16-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.gomen-kudasai",
+      "kind": "phrase",
+      "text": "ごめんください",
+      "reading": "gomen kudasai"
+    },
+    {
+      "id": "ja.irasshai",
+      "kind": "phrase",
+      "text": "いらっしゃい",
+      "reading": "irasshai"
+    },
+    {
+      "id": "ja.ojama-shimasu",
+      "kind": "phrase",
+      "text": "おじゃまします",
+      "reading": "ojama shimasu"
+    },
+    {
+      "id": "ja.ojama-shimashita",
+      "kind": "phrase",
+      "text": "おじゃましました",
+      "reading": "ojama shimashita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ごめんください。",
+      "reading": "Gomen kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。あ、ナムさん、いらっしゃい！",
+      "reading": "Hai. A, Namu-san, irasshai!"
+    },
+    {
+      "speaker": "a",
+      "text": "こんにちは。おじゃまします。",
+      "reading": "Konnichiwa. Ojama shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "どうぞ、こちらです。",
+      "reading": "Dōzo, kochira desu."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ja-A7-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.shingou",
+      "text": "しんごう",
+      "reading": "shingō"
+    },
+    {
+      "id": "ja.abunai",
+      "text": "あぶない",
+      "reading": "abunai"
+    },
+    {
+      "id": "ja.watarimasu",
+      "text": "わたります",
+      "reading": "watarimasu"
+    },
+    {
+      "id": "ja.machimasu",
+      "text": "まちます",
+      "reading": "machimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あぶない！ しんごうは あかです。",
+      "reading": "Namu-san, abunai! Shingō wa aka desu."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。まちます。",
+      "reading": "Sumimasen. Machimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "あおです。わたりますよ。",
+      "reading": "Ao desu. Watarimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あおですか？ みどりですよ。",
+      "reading": "Ao desu ka? Midori desu yo."
+    }
+  ]
+}

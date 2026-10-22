@@ -1,0 +1,55 @@
+{
+  "id": "ja-A5-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kokonotsu",
+      "text": "ここのつ",
+      "reading": "kokonotsu"
+    },
+    {
+      "id": "ja.too",
+      "text": "とお",
+      "reading": "tō"
+    },
+    {
+      "id": "ja.bangou",
+      "text": "ばんごう",
+      "reading": "bangō"
+    },
+    {
+      "id": "ja.nanban",
+      "text": "なんばん",
+      "reading": "nanban"
+    },
+    {
+      "id": "ja.nannensei",
+      "text": "なんねんせい",
+      "reading": "nannensei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさんは なんねんせいですか。",
+      "reading": "Namu-san wa nannensei desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にねんせいです。",
+      "reading": "Ninensei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ばんごうは なんばんですか。",
+      "reading": "Bangō wa nanban desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きゅうばんです。",
+      "reading": "Kyūban desu."
+    }
+  ]
+}

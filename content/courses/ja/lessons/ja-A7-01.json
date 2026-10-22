@@ -1,0 +1,60 @@
+{
+  "id": "ja-A7-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.iro",
+      "text": "いろ",
+      "reading": "iro"
+    },
+    {
+      "id": "ja.naniiro",
+      "text": "なにいろ",
+      "reading": "naniiro"
+    },
+    {
+      "id": "ja.aka",
+      "text": "あか",
+      "reading": "aka"
+    },
+    {
+      "id": "ja.ao",
+      "text": "あお",
+      "reading": "ao"
+    },
+    {
+      "id": "ja.shiro",
+      "text": "しろ",
+      "reading": "shiro"
+    },
+    {
+      "id": "ja.kuro",
+      "text": "くろ",
+      "reading": "kuro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの くつは なにいろですか。",
+      "reading": "Namu-san no kutsu wa naniiro desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "くろと しろです。",
+      "reading": "Kuro to shiro desu."
+    },
+    {
+      "speaker": "c",
+      "text": "くろと しろ… はい、どうぞ。",
+      "reading": "Kuro to shiro… Hai, dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。",
+      "reading": "Arigatō."
+    }
+  ]
+}

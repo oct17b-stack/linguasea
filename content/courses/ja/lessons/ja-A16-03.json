@@ -1,0 +1,53 @@
+{
+  "id": "ja-A16-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ganbatte",
+      "kind": "phrase",
+      "text": "がんばって",
+      "reading": "ganbatte"
+    },
+    {
+      "id": "ja.ganbarimasu",
+      "text": "がんばります",
+      "reading": "ganbarimasu"
+    },
+    {
+      "id": "ja.odaiji-ni",
+      "kind": "phrase",
+      "text": "おだいじに",
+      "reading": "odaiji ni"
+    },
+    {
+      "id": "ja.ki-o-tsukete",
+      "kind": "phrase",
+      "text": "きを つけて",
+      "reading": "ki o tsukete"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "あしたは ふじさんに のぼります。",
+      "reading": "Ashita wa Fujisan ni noborimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね！がんばって！",
+      "reading": "Ii desu ne! Ganbatte!"
+    },
+    {
+      "speaker": "c",
+      "text": "はい、がんばります！",
+      "reading": "Hai, ganbarimasu!"
+    },
+    {
+      "speaker": "a",
+      "text": "やまは さむいですよ。きを つけて！",
+      "reading": "Yama wa samui desu yo. Ki o tsukete!"
+    }
+  ]
+}

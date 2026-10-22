@@ -1,0 +1,55 @@
+{
+  "id": "ja-A7-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kuni",
+      "text": "くに",
+      "reading": "kuni"
+    },
+    {
+      "id": "ja.hata",
+      "text": "はた",
+      "reading": "hata"
+    },
+    {
+      "id": "ja.maru",
+      "text": "まる",
+      "reading": "maru"
+    },
+    {
+      "id": "ja.mannaka",
+      "text": "まんなか",
+      "reading": "mannaka"
+    },
+    {
+      "id": "ja.onaji",
+      "text": "おなじ",
+      "reading": "onaji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの くにの はたは なにいろですか。",
+      "reading": "Namu-san no kuni no hata wa naniiro desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あかと しろと あおです。にほんの はたは？",
+      "reading": "Aka to shiro to ao desu. Nihon no hata wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "しろです。まんなかは あかい まるです。",
+      "reading": "Shiro desu. Mannaka wa akai maru desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あかと しろ… おなじです！",
+      "reading": "Aka to shiro… onaji desu!"
+    }
+  ]
+}

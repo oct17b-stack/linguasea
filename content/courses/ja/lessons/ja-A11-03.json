@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ongaku",
+      "text": "おんがく",
+      "reading": "ongaku"
+    },
+    {
+      "id": "ja.uta",
+      "text": "うた",
+      "reading": "uta"
+    },
+    {
+      "id": "ja.eiga",
+      "text": "えいが",
+      "reading": "eiga"
+    },
+    {
+      "id": "ja.odori",
+      "text": "おどり",
+      "reading": "odori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どんな おんがくが すきですか。",
+      "reading": "Namu-san, donna ongaku ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "えいがの うたが すきです。ゆきさんは？",
+      "reading": "Eiga no uta ga suki desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "にぎやかな おんがくが すきです。おどりも だいすきです！",
+      "reading": "Nigiyaka na ongaku ga suki desu. Odori mo daisuki desu!"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは おどりは あまり すきじゃ ありません。",
+      "reading": "Watashi wa odori wa amari suki ja arimasen."
+    }
+  ]
+}

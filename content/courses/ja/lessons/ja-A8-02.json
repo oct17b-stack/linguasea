@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ushi",
+      "text": "うし",
+      "reading": "ushi"
+    },
+    {
+      "id": "ja.uma",
+      "text": "うま",
+      "reading": "uma"
+    },
+    {
+      "id": "ja.buta",
+      "text": "ぶた",
+      "reading": "buta"
+    },
+    {
+      "id": "ja.niwatori",
+      "text": "にわとり",
+      "reading": "niwatori"
+    },
+    {
+      "id": "ja.hitsuji",
+      "text": "ひつじ",
+      "reading": "hitsuji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "うまは りんごを たべますか。",
+      "reading": "Uma wa ringo o tabemasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。うまと ひつじは りんごを たべます。",
+      "reading": "Hai. Uma to hitsuji wa ringo o tabemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ぶたは？",
+      "reading": "Buta wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ぶたも たべます。",
+      "reading": "Buta mo tabemasu."
+    }
+  ]
+}

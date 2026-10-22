@@ -1,0 +1,55 @@
+{
+  "id": "ja-A2-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tako",
+      "text": "たこ",
+      "reading": "tako"
+    },
+    {
+      "id": "ja.ika",
+      "text": "いか",
+      "reading": "ika"
+    },
+    {
+      "id": "ja.kani",
+      "text": "かに",
+      "reading": "kani"
+    },
+    {
+      "id": "ja.suika",
+      "text": "すいか",
+      "reading": "suika"
+    },
+    {
+      "id": "ja.okashi",
+      "text": "おかし",
+      "reading": "okashi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。たこ、おねがいします。",
+      "reading": "Sumimasen. Tako, onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。かに、おねがいします。",
+      "reading": "Arigatō gozaimasu. Kani, onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい！",
+      "reading": "Hai!"
+    }
+  ]
+}

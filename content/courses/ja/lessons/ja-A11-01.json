@@ -1,0 +1,50 @@
+{
+  "id": "ja-A11-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kirai",
+      "text": "きらい",
+      "reading": "kirai"
+    },
+    {
+      "id": "ja.daisuki",
+      "text": "だいすき",
+      "reading": "daisuki"
+    },
+    {
+      "id": "ja.daikirai",
+      "text": "だいきらい",
+      "reading": "daikirai"
+    },
+    {
+      "id": "ja.nandemo",
+      "text": "なんでも",
+      "reading": "nandemo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは どうぶつが すきですか。",
+      "reading": "Namu-san wa dōbutsu ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、だいすきです！なんでも すきです。",
+      "reading": "Hai, daisuki desu! Nandemo suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "へびも すきですか。",
+      "reading": "Hebi mo suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "へびは… きらいです。だいきらいです！",
+      "reading": "Hebi wa… kirai desu. Daikirai desu!"
+    }
+  ]
+}

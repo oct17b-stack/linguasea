@@ -1,0 +1,55 @@
+{
+  "id": "ja-A7-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.akai",
+      "text": "あかい",
+      "reading": "akai"
+    },
+    {
+      "id": "ja.aoi",
+      "text": "あおい",
+      "reading": "aoi"
+    },
+    {
+      "id": "ja.shiroi",
+      "text": "しろい",
+      "reading": "shiroi"
+    },
+    {
+      "id": "ja.kuroi",
+      "text": "くろい",
+      "reading": "kuroi"
+    },
+    {
+      "id": "ja.kiiroi",
+      "text": "きいろい",
+      "reading": "kiiroi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、あかい りんごを みっつ ください。",
+      "reading": "Sumimasen, akai ringo o mittsu kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。きいろい りんごも おいしいですよ。",
+      "reading": "Hai. Kiiroi ringo mo oishii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。きいろい りんごも ふたつ ください。",
+      "reading": "Sō desu ka. Kiiroi ringo mo futatsu kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    }
+  ]
+}

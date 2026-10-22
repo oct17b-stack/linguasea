@@ -1,0 +1,50 @@
+{
+  "id": "ja-A15-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.sumou",
+      "text": "すもう",
+      "reading": "sumō"
+    },
+    {
+      "id": "ja.kabuki",
+      "text": "かぶき",
+      "reading": "kabuki"
+    },
+    {
+      "id": "ja.ninja",
+      "text": "にんじゃ",
+      "reading": "ninja"
+    },
+    {
+      "id": "ja.samurai",
+      "text": "さむらい",
+      "reading": "samurai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、かぶきは すきですか。",
+      "reading": "Namu-san, kabuki wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "かぶき？ゆうめいですね。でも、わたしは すもうが すきです。",
+      "reading": "Kabuki? Yūmei desu ne. Demo, watashi wa sumō ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。にんじゃと さむらいは？",
+      "reading": "Sō desu ka. Ninja to samurai wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "だいすきです！タイの こどもは みんな すきですよ。",
+      "reading": "Daisuki desu! Tai no kodomo wa minna suki desu yo."
+    }
+  ]
+}

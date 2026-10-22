@@ -1,0 +1,55 @@
+{
+  "id": "ja-A7-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kiiro",
+      "text": "きいろ",
+      "reading": "kiiro"
+    },
+    {
+      "id": "ja.midori",
+      "text": "みどり",
+      "reading": "midori"
+    },
+    {
+      "id": "ja.chairo",
+      "text": "ちゃいろ",
+      "reading": "chairo"
+    },
+    {
+      "id": "ja.murasaki",
+      "text": "むらさき",
+      "reading": "murasaki"
+    },
+    {
+      "id": "ja.haiiro",
+      "text": "はいいろ",
+      "reading": "haiiro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "タイの みかんは なにいろですか。",
+      "reading": "Tai no mikan wa naniiro desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "みどりと きいろです。",
+      "reading": "Midori to kiiro desu."
+    },
+    {
+      "speaker": "c",
+      "text": "みどりですか！",
+      "reading": "Midori desu ka!"
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あまいですよ。",
+      "reading": "Hai. Amai desu yo."
+    }
+  ]
+}

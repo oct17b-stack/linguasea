@@ -1,0 +1,50 @@
+{
+  "id": "ja-A9-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ume",
+      "text": "うめ",
+      "reading": "ume"
+    },
+    {
+      "id": "ja.ajisai",
+      "text": "あじさい",
+      "reading": "ajisai"
+    },
+    {
+      "id": "ja.himawari",
+      "text": "ひまわり",
+      "reading": "himawari"
+    },
+    {
+      "id": "ja.momiji",
+      "text": "もみじ",
+      "reading": "momiji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、にほんの はるの はなは なんですか。",
+      "reading": "Yuki-san, Nihon no haru no hana wa nan desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "うめです。なつは あじさいと ひまわりです。",
+      "reading": "Ume desu. Natsu wa ajisai to himawari desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あきは？",
+      "reading": "Aki wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "あきは もみじです。とても きれいです。",
+      "reading": "Aki wa momiji desu. Totemo kirei desu."
+    }
+  ]
+}

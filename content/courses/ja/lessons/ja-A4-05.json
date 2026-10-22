@@ -1,0 +1,55 @@
+{
+  "id": "ja-A4-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.sashimi",
+      "text": "さしみ",
+      "reading": "sashimi"
+    },
+    {
+      "id": "ja.yakitori",
+      "text": "やきとり",
+      "reading": "yakitori"
+    },
+    {
+      "id": "ja.sukiyaki",
+      "text": "すきやき",
+      "reading": "sukiyaki"
+    },
+    {
+      "id": "ja.mochi",
+      "text": "もち",
+      "reading": "mochi"
+    },
+    {
+      "id": "ja.nori",
+      "text": "のり",
+      "reading": "nori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "さしみ、やきとり、すきやき…",
+      "reading": "Sashimi, yakitori, sukiyaki…"
+    },
+    {
+      "speaker": "c",
+      "text": "はい、そうです。",
+      "reading": "Hai, sō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "もちは なんですか。",
+      "reading": "Mochi wa nan desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんの おかしです。",
+      "reading": "Nihon no okashi desu."
+    }
+  ]
+}

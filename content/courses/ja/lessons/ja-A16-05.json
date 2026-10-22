@@ -1,0 +1,53 @@
+{
+  "id": "ja-A16-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.doumo",
+      "kind": "phrase",
+      "text": "どうも",
+      "reading": "dōmo"
+    },
+    {
+      "id": "ja.tsumaranai-mono-desu-ga",
+      "kind": "phrase",
+      "text": "つまらない ものですが",
+      "reading": "tsumaranai mono desu ga"
+    },
+    {
+      "id": "ja.mono",
+      "text": "もの",
+      "reading": "mono"
+    },
+    {
+      "id": "ja.ii-n-desu-ka",
+      "kind": "phrase",
+      "text": "いいんですか",
+      "reading": "ii n desu ka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "あのう、つまらない ものですが…",
+      "reading": "Anō, tsumaranai mono desu ga…"
+    },
+    {
+      "speaker": "c",
+      "text": "いいんですか。",
+      "reading": "Ii n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、どうぞ。タイの おかしです。",
+      "reading": "Hai, dōzo. Tai no okashi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "どうも ありがとう。",
+      "reading": "Dōmo arigatō."
+    }
+  ]
+}

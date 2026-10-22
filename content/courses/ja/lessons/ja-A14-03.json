@@ -1,0 +1,50 @@
+{
+  "id": "ja-A14-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.enpitsu",
+      "text": "えんぴつ",
+      "reading": "enpitsu"
+    },
+    {
+      "id": "ja.fudebako",
+      "text": "ふでばこ",
+      "reading": "fudebako"
+    },
+    {
+      "id": "ja.jougi",
+      "text": "じょうぎ",
+      "reading": "jōgi"
+    },
+    {
+      "id": "ja.hasami",
+      "text": "はさみ",
+      "reading": "hasami"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、すみません。えんぴつを ください。",
+      "reading": "Sensei, sumimasen. Enpitsu o kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。ふでばこは？",
+      "reading": "Hai, dōzo. Fudebako wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしの ふでばこは いえです。",
+      "reading": "Watashi no fudebako wa ie desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。はさみと じょうぎも どうぞ。",
+      "reading": "Sō desu ka. Hasami to jōgi mo dōzo."
+    }
+  ]
+}

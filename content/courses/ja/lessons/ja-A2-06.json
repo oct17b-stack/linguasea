@@ -1,0 +1,55 @@
+{
+  "id": "ja-A2-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.kasa",
+      "text": "かさ",
+      "reading": "kasa"
+    },
+    {
+      "id": "ja.isu",
+      "text": "いす",
+      "reading": "isu"
+    },
+    {
+      "id": "ja.okane",
+      "text": "おかね",
+      "reading": "okane"
+    },
+    {
+      "id": "ja.chikatetsu",
+      "text": "ちかてつ",
+      "reading": "chikatetsu"
+    },
+    {
+      "id": "ja.koe",
+      "text": "こえ",
+      "reading": "koe"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "かさ、どうぞ。",
+      "reading": "Kasa, dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう！",
+      "reading": "Arigatō!"
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあね、また あした。",
+      "reading": "Jā ne, mata ashita."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあね！",
+      "reading": "Jā ne!"
+    }
+  ]
+}

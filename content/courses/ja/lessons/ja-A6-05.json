@@ -1,0 +1,55 @@
+{
+  "id": "ja-A6-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nomimono",
+      "text": "のみもの",
+      "reading": "nomimono"
+    },
+    {
+      "id": "ja.koucha",
+      "text": "こうちゃ",
+      "reading": "kōcha"
+    },
+    {
+      "id": "ja.osake",
+      "text": "おさけ",
+      "reading": "osake"
+    },
+    {
+      "id": "ja.koori",
+      "text": "こおり",
+      "reading": "kōri"
+    },
+    {
+      "id": "ja.tsumetai",
+      "text": "つめたい",
+      "reading": "tsumetai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、のみものは なにが すきですか。",
+      "reading": "Namu-san, nomimono wa nani ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "こうちゃが すきです。ゆきさんは？",
+      "reading": "Kōcha ga suki desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも こうちゃが すきです。",
+      "reading": "Watashi mo kōcha ga suki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、つめたい こうちゃを ふたつ ください。",
+      "reading": "Sumimasen, tsumetai kōcha o futatsu kudasai."
+    }
+  ]
+}

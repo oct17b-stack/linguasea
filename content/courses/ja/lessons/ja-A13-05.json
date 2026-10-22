@@ -1,0 +1,50 @@
+{
+  "id": "ja-A13-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tsuri",
+      "text": "つり",
+      "reading": "tsuri"
+    },
+    {
+      "id": "ja.mizugi",
+      "text": "みずぎ",
+      "reading": "mizugi"
+    },
+    {
+      "id": "ja.hamabe",
+      "text": "はまべ",
+      "reading": "hamabe"
+    },
+    {
+      "id": "ja.kai",
+      "text": "かい",
+      "reading": "kai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "タイの はまべは きれいですか。",
+      "reading": "Tai no hamabe wa kirei desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、とても きれいです。うみで およぎます。",
+      "reading": "Hai, totemo kirei desu. Umi de oyogimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいな。わたしは つりが すきです。",
+      "reading": "Ii na. Watashi wa tsuri ga suki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの うみは さかなも かいも おいしいですよ。",
+      "reading": "Tai no umi wa sakana mo kai mo oishii desu yo."
+    }
+  ]
+}

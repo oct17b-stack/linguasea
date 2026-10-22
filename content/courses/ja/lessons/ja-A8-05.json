@@ -1,0 +1,55 @@
+{
+  "id": "ja-A8-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hebi",
+      "text": "へび",
+      "reading": "hebi"
+    },
+    {
+      "id": "ja.chou",
+      "text": "ちょう",
+      "reading": "chō"
+    },
+    {
+      "id": "ja.semi",
+      "text": "せみ",
+      "reading": "semi"
+    },
+    {
+      "id": "ja.tsuyoi",
+      "text": "つよい",
+      "reading": "tsuyoi"
+    },
+    {
+      "id": "ja.yowai",
+      "text": "よわい",
+      "reading": "yowai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは へびが すきですか。",
+      "reading": "Namu-san wa hebi ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すきです。",
+      "reading": "Hai, suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさんは つよいですね。わたしは すきじゃ ありません。",
+      "reading": "Namu-san wa tsuyoi desu ne. Watashi wa suki ja arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは せみが すきじゃ ありません。",
+      "reading": "Watashi wa semi ga suki ja arimasen."
+    }
+  ]
+}

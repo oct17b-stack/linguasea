@@ -1,0 +1,50 @@
+{
+  "id": "ja-A9-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.furimasu",
+      "text": "ふります",
+      "reading": "furimasu"
+    },
+    {
+      "id": "ja.ooame",
+      "text": "おおあめ",
+      "reading": "ōame"
+    },
+    {
+      "id": "ja.arashi",
+      "text": "あらし",
+      "reading": "arashi"
+    },
+    {
+      "id": "ja.kiri",
+      "text": "きり",
+      "reading": "kiri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あしたは おおあめですよ。",
+      "reading": "Namu-san, ashita wa ōame desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あらしですか。",
+      "reading": "Arashi desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。あさから あめが ふります。",
+      "reading": "Hai. Asa kara ame ga furimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイと おなじですね。",
+      "reading": "Tai to onaji desu ne."
+    }
+  ]
+}

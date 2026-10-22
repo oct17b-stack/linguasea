@@ -1,0 +1,55 @@
+{
+  "id": "ja-A7-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.usui",
+      "text": "うすい",
+      "reading": "usui"
+    },
+    {
+      "id": "ja.akarui",
+      "text": "あかるい",
+      "reading": "akarui"
+    },
+    {
+      "id": "ja.kurai",
+      "text": "くらい",
+      "reading": "kurai"
+    },
+    {
+      "id": "ja.mizuiro",
+      "text": "みずいろ",
+      "reading": "mizuiro"
+    },
+    {
+      "id": "ja.kirei",
+      "text": "きれい",
+      "reading": "kirei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは くらい いろが すきですか。",
+      "reading": "Namu-san wa kurai iro ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、あかるい いろが すきです。",
+      "reading": "Iie, akarui iro ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "みずいろは すきですか。",
+      "reading": "Mizuiro wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すきです。きれいな いろです。",
+      "reading": "Hai, suki desu. Kirei na iro desu."
+    }
+  ]
+}

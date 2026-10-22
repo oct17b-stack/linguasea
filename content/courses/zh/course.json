@@ -126,6 +126,934 @@
           ]
         }
       ]
+    },
+    {
+      "id": "C",
+      "cefr": "A2",
+      "exam": "HSK 2",
+      "free": false,
+      "units": [
+        {
+          "id": "zh-C1",
+          "lessons": [
+            "zh-C1-01",
+            "zh-C1-02",
+            "zh-C1-03",
+            "zh-C1-04",
+            "zh-C1-05",
+            "zh-C1-06",
+            "zh-C1-r01",
+            "zh-C1-r02"
+          ],
+          "scenario": "B is Wang Ming chatting with Nam about free time. Nam must name two of her hobbies, say what she can and cannot do, and agree with him on an activity for Saturday."
+        },
+        {
+          "id": "zh-C2",
+          "lessons": [
+            "zh-C2-01",
+            "zh-C2-02",
+            "zh-C2-03",
+            "zh-C2-04",
+            "zh-C2-05",
+            "zh-C2-06",
+            "zh-C2-r01",
+            "zh-C2-r02"
+          ],
+          "scenario": "B is a doctor at a Beijing clinic. Nam has a cold: she must say where it hurts and since when, answer the doctor's questions and repeat back how to take the medicine."
+        },
+        {
+          "id": "zh-C3",
+          "lessons": [
+            "zh-C3-01",
+            "zh-C3-02",
+            "zh-C3-03",
+            "zh-C3-04",
+            "zh-C3-05",
+            "zh-C3-06",
+            "zh-C3-r01",
+            "zh-C3-r02"
+          ],
+          "scenario": "B is Wang Ming asking Nam about her Chinese course in Beijing and telling her about his office internship. Nam must describe her timetable, her teacher and classmates, and ask him about his work."
+        },
+        {
+          "id": "zh-C4",
+          "lessons": [
+            "zh-C4-01",
+            "zh-C4-02",
+            "zh-C4-03",
+            "zh-C4-04",
+            "zh-C4-05",
+            "zh-C4-06",
+            "zh-C4-r01",
+            "zh-C4-r02"
+          ],
+          "scenario": "B is Wang Ming on the phone. Nam must invite him to a museum, suggest a day, time and meeting place, and deal with his request to change the time."
+        },
+        {
+          "id": "zh-C5",
+          "lessons": [
+            "zh-C5-01",
+            "zh-C5-02",
+            "zh-C5-03",
+            "zh-C5-04",
+            "zh-C5-05",
+            "zh-C5-06",
+            "zh-C5-r01",
+            "zh-C5-r02"
+          ],
+          "scenario": "B is Wang Ming, who cannot decide between visiting Bangkok or Chiang Mai. Nam must compare the two cities (weather, prices, food, transport) with 比, 没有, 一样 and 最, and recommend one."
+        },
+        {
+          "id": "zh-C6",
+          "lessons": [
+            "zh-C6-01",
+            "zh-C6-02",
+            "zh-C6-03",
+            "zh-C6-04",
+            "zh-C6-05",
+            "zh-C6-06",
+            "zh-C6-r01",
+            "zh-C6-r02"
+          ],
+          "scenario": "B is Li Laoshi asking Nam about her first months in China. Nam must say what she did last weekend, which places she has and hasn't been to and how many times, and which Chinese food she has tried."
+        },
+        {
+          "id": "zh-C7",
+          "lessons": [
+            "zh-C7-01",
+            "zh-C7-02",
+            "zh-C7-03",
+            "zh-C7-04",
+            "zh-C7-05",
+            "zh-C7-06",
+            "zh-C7-r01",
+            "zh-C7-r02"
+          ],
+          "scenario": "B is Wang Ming, who plans to visit Thailand. Nam must explain Thailand's seasons and Bangkok's temperatures, compare them with Beijing's four seasons, and advise him when to come and what to bring."
+        },
+        {
+          "id": "zh-C8",
+          "lessons": [
+            "zh-C8-01",
+            "zh-C8-02",
+            "zh-C8-03",
+            "zh-C8-04",
+            "zh-C8-05",
+            "zh-C8-06",
+            "zh-C8-r01",
+            "zh-C8-r02"
+          ],
+          "scenario": "B is a shop assistant (female) in a Beijing clothes shop. Nam needs a warm coat: she must say what she wants (type, colour, size), ask to try it on, say whether it fits and decide."
+        },
+        {
+          "id": "zh-C9",
+          "lessons": [
+            "zh-C9-01",
+            "zh-C9-02",
+            "zh-C9-03",
+            "zh-C9-04",
+            "zh-C9-05",
+            "zh-C9-06",
+            "zh-C9-r01",
+            "zh-C9-r02"
+          ],
+          "scenario": "B is a landlord showing Nam a flat near her university. Nam must ask about the rooms, furniture, rent, deposit and house rules, then say whether she will take it."
+        },
+        {
+          "id": "zh-C10",
+          "lessons": [
+            "zh-C10-01",
+            "zh-C10-02",
+            "zh-C10-03",
+            "zh-C10-04",
+            "zh-C10-05",
+            "zh-C10-06",
+            "zh-C10-r01",
+            "zh-C10-r02"
+          ],
+          "scenario": "B is a bank clerk. Nam wants to open an account and change Thai baht into renminbi: she must say what she needs, answer the clerk's questions (passport, phone number, PIN) and ask about the exchange rate."
+        },
+        {
+          "id": "zh-C11",
+          "lessons": [
+            "zh-C11-01",
+            "zh-C11-02",
+            "zh-C11-03",
+            "zh-C11-04",
+            "zh-C11-05",
+            "zh-C11-06",
+            "zh-C11-r01",
+            "zh-C11-r02"
+          ],
+          "scenario": "B is Wang Ming, a basketball fan, inviting Nam to a match. Nam must say which sports she plays and how often, explain Muay Thai to him, and arrange to exercise together."
+        },
+        {
+          "id": "zh-C12",
+          "lessons": [
+            "zh-C12-01",
+            "zh-C12-02",
+            "zh-C12-03",
+            "zh-C12-04",
+            "zh-C12-05",
+            "zh-C12-06",
+            "zh-C12-r01",
+            "zh-C12-r02"
+          ],
+          "scenario": "B is Li Laoshi, who asks how Thai people celebrate Songkran and invites Nam to make dumplings for the Spring Festival. Nam must describe Songkran customs and use suitable festival greetings."
+        },
+        {
+          "id": "zh-C13",
+          "lessons": [
+            "zh-C13-01",
+            "zh-C13-02",
+            "zh-C13-03",
+            "zh-C13-04",
+            "zh-C13-05",
+            "zh-C13-06",
+            "zh-C13-r01",
+            "zh-C13-r02"
+          ],
+          "scenario": "B is Wang Ming. Nam is having a small birthday party: she must invite him, give the time and address, answer his questions about what to bring, and react politely when he says he will be late."
+        },
+        {
+          "id": "zh-C14",
+          "lessons": [
+            "zh-C14-01",
+            "zh-C14-02",
+            "zh-C14-03",
+            "zh-C14-04",
+            "zh-C14-05",
+            "zh-C14-06",
+            "zh-C14-r01",
+            "zh-C14-r02"
+          ],
+          "scenario": "B is a passer-by near a Beijing subway exit. Nam is looking for the National Museum: she must ask the way, follow turn-by-turn directions and how long it takes, and check that she has understood."
+        },
+        {
+          "id": "zh-C15",
+          "lessons": [
+            "zh-C15-01",
+            "zh-C15-02",
+            "zh-C15-03",
+            "zh-C15-04",
+            "zh-C15-05",
+            "zh-C15-06",
+            "zh-C15-r01",
+            "zh-C15-r02"
+          ],
+          "scenario": "B is Wang Ming, who wants to learn a Thai dish. Nam must name the ingredients, explain the steps with 先…再…然后…最后…, and answer his questions about the taste."
+        },
+        {
+          "id": "zh-C16",
+          "lessons": [
+            "zh-C16-01",
+            "zh-C16-02",
+            "zh-C16-03",
+            "zh-C16-04",
+            "zh-C16-05",
+            "zh-C16-06",
+            "zh-C16-r01",
+            "zh-C16-r02"
+          ],
+          "scenario": "B is Wang Ming helping Nam set up WeChat and mobile payment on her new phone. Nam must say what she wants to do (add friends, pay, send photos), describe a problem with the phone and ask how to fix it."
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "cefr": "A2",
+      "exam": "HSK 3",
+      "free": false,
+      "units": [
+        {
+          "id": "zh-D1",
+          "lessons": [
+            "zh-D1-01",
+            "zh-D1-02",
+            "zh-D1-03",
+            "zh-D1-04",
+            "zh-D1-05",
+            "zh-D1-06",
+            "zh-D1-r01",
+            "zh-D1-r02"
+          ],
+          "scenario": "B is Wang Ming planning a one-week trip to Xi'an with Nam. Nam must agree on how to get there, book tickets, sort out the itinerary and budget, and say what she will pack."
+        },
+        {
+          "id": "zh-D2",
+          "lessons": [
+            "zh-D2-01",
+            "zh-D2-02",
+            "zh-D2-03",
+            "zh-D2-04",
+            "zh-D2-05",
+            "zh-D2-06",
+            "zh-D2-r01",
+            "zh-D2-r02"
+          ],
+          "scenario": "B is a receptionist at a hotel in Xi'an. Nam must check in, ask about breakfast and facilities, report that the air conditioner and the door card don't work, and check out."
+        },
+        {
+          "id": "zh-D3",
+          "lessons": [
+            "zh-D3-01",
+            "zh-D3-02",
+            "zh-D3-03",
+            "zh-D3-04",
+            "zh-D3-05",
+            "zh-D3-06",
+            "zh-D3-r01",
+            "zh-D3-r02"
+          ],
+          "scenario": "B is a police officer at a station in Xi'an. Nam's wallet has been stolen: she must explain what happened, describe the wallet and what was in it, and ask what to do about her missing ID card and train ticket."
+        },
+        {
+          "id": "zh-D4",
+          "lessons": [
+            "zh-D4-01",
+            "zh-D4-02",
+            "zh-D4-03",
+            "zh-D4-04",
+            "zh-D4-05",
+            "zh-D4-06",
+            "zh-D4-r01",
+            "zh-D4-r02"
+          ],
+          "scenario": "B is Wang Ming, whose parents are visiting. Nam must help him plan the cleaning: say who does which chore and give instructions with 把 (put things away, wash, throw out)."
+        },
+        {
+          "id": "zh-D5",
+          "lessons": [
+            "zh-D5-01",
+            "zh-D5-02",
+            "zh-D5-03",
+            "zh-D5-04",
+            "zh-D5-05",
+            "zh-D5-06",
+            "zh-D5-r01",
+            "zh-D5-r02"
+          ],
+          "scenario": "B is a new neighbour knocking on Nam's door on moving day. Nam must introduce herself, explain where the movers should carry things, and politely deal with his complaint about noise."
+        },
+        {
+          "id": "zh-D6",
+          "lessons": [
+            "zh-D6-01",
+            "zh-D6-02",
+            "zh-D6-03",
+            "zh-D6-04",
+            "zh-D6-05",
+            "zh-D6-06",
+            "zh-D6-r01",
+            "zh-D6-r02"
+          ],
+          "scenario": "B is Wang Ming, who has to pick up Nam's cousin at the airport but has never seen her. Nam must describe her cousin's looks, clothes and personality so he can recognise her."
+        },
+        {
+          "id": "zh-D7",
+          "lessons": [
+            "zh-D7-01",
+            "zh-D7-02",
+            "zh-D7-03",
+            "zh-D7-04",
+            "zh-D7-05",
+            "zh-D7-06",
+            "zh-D7-r01",
+            "zh-D7-r02"
+          ],
+          "scenario": "B is Wang Ming, who is thinking of getting a pet. Nam must talk about the pets she has had, explain how to look after one, and tell him about elephants in Thailand."
+        },
+        {
+          "id": "zh-D8",
+          "lessons": [
+            "zh-D8-01",
+            "zh-D8-02",
+            "zh-D8-03",
+            "zh-D8-04",
+            "zh-D8-05",
+            "zh-D8-06",
+            "zh-D8-r01",
+            "zh-D8-r02"
+          ],
+          "scenario": "B is Wang Ming, who sleeps late and eats badly during exams. Nam must describe her own habits, compare them with his, and give him advice using 最好, 越来越 and 再也不."
+        },
+        {
+          "id": "zh-D9",
+          "lessons": [
+            "zh-D9-01",
+            "zh-D9-02",
+            "zh-D9-03",
+            "zh-D9-04",
+            "zh-D9-05",
+            "zh-D9-06",
+            "zh-D9-r01",
+            "zh-D9-r02"
+          ],
+          "scenario": "B is a waiter at a Sichuan restaurant. Nam is taking Wang Ming's parents to dinner: she must book a table, order dishes that are not too spicy, complain politely about a wrong dish, and pay."
+        },
+        {
+          "id": "zh-D10",
+          "lessons": [
+            "zh-D10-01",
+            "zh-D10-02",
+            "zh-D10-03",
+            "zh-D10-04",
+            "zh-D10-05",
+            "zh-D10-06",
+            "zh-D10-r01",
+            "zh-D10-r02"
+          ],
+          "scenario": "B is an online shop's customer service agent. Nam received a jacket in the wrong size and colour: she must explain the problem, ask for an exchange or refund, and agree on how to send it back."
+        },
+        {
+          "id": "zh-D11",
+          "lessons": [
+            "zh-D11-01",
+            "zh-D11-02",
+            "zh-D11-03",
+            "zh-D11-04",
+            "zh-D11-05",
+            "zh-D11-06",
+            "zh-D11-r01",
+            "zh-D11-r02"
+          ],
+          "scenario": "B is Li Laoshi in office hours. Nam must say which skills she finds hard, describe how she studies, ask for advice about the HSK 3 exam and promise a study plan."
+        },
+        {
+          "id": "zh-D12",
+          "lessons": [
+            "zh-D12-01",
+            "zh-D12-02",
+            "zh-D12-03",
+            "zh-D12-04",
+            "zh-D12-05",
+            "zh-D12-06",
+            "zh-D12-r01",
+            "zh-D12-r02"
+          ],
+          "scenario": "B is the manager of a café near the university. Nam must answer interview questions about her experience, availability and why she wants the job, and ask about pay, hours and duties."
+        },
+        {
+          "id": "zh-D13",
+          "lessons": [
+            "zh-D13-01",
+            "zh-D13-02",
+            "zh-D13-03",
+            "zh-D13-04",
+            "zh-D13-05",
+            "zh-D13-06",
+            "zh-D13-r01",
+            "zh-D13-r02"
+          ],
+          "scenario": "B is Li Laoshi, who asks Nam about her hometown for a class project. Nam must say where it is and how big it is, what it is famous for, how it has changed and what she misses about it."
+        },
+        {
+          "id": "zh-D14",
+          "lessons": [
+            "zh-D14-01",
+            "zh-D14-02",
+            "zh-D14-03",
+            "zh-D14-04",
+            "zh-D14-05",
+            "zh-D14-06",
+            "zh-D14-r01",
+            "zh-D14-r02"
+          ],
+          "scenario": "B is Wang Ming deciding what to watch this weekend. Nam must suggest a film or concert, tell the story of a film she has seen without spoiling the ending, and give her opinion of it."
+        },
+        {
+          "id": "zh-D15",
+          "lessons": [
+            "zh-D15-01",
+            "zh-D15-02",
+            "zh-D15-03",
+            "zh-D15-04",
+            "zh-D15-05",
+            "zh-D15-06",
+            "zh-D15-r01",
+            "zh-D15-r02"
+          ],
+          "scenario": "B is Wang Ming looking at old photos with Nam. Nam must tell him what she was like as a child, what games she played, a funny thing that happened at school and a family memory that moved her."
+        },
+        {
+          "id": "zh-D16",
+          "lessons": [
+            "zh-D16-01",
+            "zh-D16-02",
+            "zh-D16-03",
+            "zh-D16-04",
+            "zh-D16-05",
+            "zh-D16-06",
+            "zh-D16-r01",
+            "zh-D16-r02"
+          ],
+          "scenario": "B is Li Laoshi, who asks the class about their plans. Nam must say what job she wants, what she will do after graduating and why, how her plans have changed, and encourage a classmate who wants to give up."
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "cefr": "B1",
+      "exam": "HSK 3–4",
+      "free": false,
+      "units": [
+        {
+          "id": "zh-E1",
+          "lessons": [
+            "zh-E1-01",
+            "zh-E1-02",
+            "zh-E1-03",
+            "zh-E1-04",
+            "zh-E1-05",
+            "zh-E1-06",
+            "zh-E1-r01",
+            "zh-E1-r02"
+          ],
+          "scenario": "B is Wang Ming, who invites Nam to his grandparents' home for dinner. Nam must ask what to bring and how to behave, react appropriately at the table, and explain a Thai custom (the wai) when his grandmother asks about it."
+        },
+        {
+          "id": "zh-E2",
+          "lessons": [
+            "zh-E2-01",
+            "zh-E2-02",
+            "zh-E2-03",
+            "zh-E2-04",
+            "zh-E2-05",
+            "zh-E2-06",
+            "zh-E2-r01",
+            "zh-E2-r02"
+          ],
+          "scenario": "B is Li Laoshi preparing a class discussion. Nam must describe two similarities and two differences between Thai and Chinese daily life, festivals or beliefs, and explain why they differ."
+        },
+        {
+          "id": "zh-E3",
+          "lessons": [
+            "zh-E3-01",
+            "zh-E3-02",
+            "zh-E3-03",
+            "zh-E3-04",
+            "zh-E3-05",
+            "zh-E3-06",
+            "zh-E3-r01",
+            "zh-E3-r02"
+          ],
+          "scenario": "B is Wang Ming, who thinks young people use their phones too much. Nam must describe how she uses technology every day, give two advantages and two disadvantages, and say what rules she sets for herself."
+        },
+        {
+          "id": "zh-E4",
+          "lessons": [
+            "zh-E4-01",
+            "zh-E4-02",
+            "zh-E4-03",
+            "zh-E4-04",
+            "zh-E4-05",
+            "zh-E4-06",
+            "zh-E4-r01",
+            "zh-E4-r02"
+          ],
+          "scenario": "B is Li Laoshi organising a class campaign. Nam must describe one environmental problem in Bangkok or Beijing, explain its causes and effects, and propose two things students can do."
+        },
+        {
+          "id": "zh-E5",
+          "lessons": [
+            "zh-E5-01",
+            "zh-E5-02",
+            "zh-E5-03",
+            "zh-E5-04",
+            "zh-E5-05",
+            "zh-E5-06",
+            "zh-E5-r01",
+            "zh-E5-r02"
+          ],
+          "scenario": "B is Wang Ming, who is helping his cousin prepare for the gaokao. Nam must compare the gaokao with Thai university entrance, talk about after-school classes, and give her opinion on whether exams are fair."
+        },
+        {
+          "id": "zh-E6",
+          "lessons": [
+            "zh-E6-01",
+            "zh-E6-02",
+            "zh-E6-03",
+            "zh-E6-04",
+            "zh-E6-05",
+            "zh-E6-06",
+            "zh-E6-r01",
+            "zh-E6-r02"
+          ],
+          "scenario": "B is Wang Ming, who is tired of his job and thinking of changing it. Nam must ask about his work, compare two jobs, and give advice about work–life balance."
+        },
+        {
+          "id": "zh-E7",
+          "lessons": [
+            "zh-E7-01",
+            "zh-E7-02",
+            "zh-E7-03",
+            "zh-E7-04",
+            "zh-E7-05",
+            "zh-E7-06",
+            "zh-E7-r01",
+            "zh-E7-r02"
+          ],
+          "scenario": "B is Wang Ming, who has had an argument with his girlfriend. Nam must listen, ask what happened, share her view of what makes a good relationship, and suggest how he can make up."
+        },
+        {
+          "id": "zh-E8",
+          "lessons": [
+            "zh-E8-01",
+            "zh-E8-02",
+            "zh-E8-03",
+            "zh-E8-04",
+            "zh-E8-05",
+            "zh-E8-06",
+            "zh-E8-r01",
+            "zh-E8-r02"
+          ],
+          "scenario": "B is Wang Ming, who shared a news story that turns out to be fake. Nam must discuss where they get news, point out why the story may be untrue, and talk about the good and bad sides of social media."
+        },
+        {
+          "id": "zh-E9",
+          "lessons": [
+            "zh-E9-01",
+            "zh-E9-02",
+            "zh-E9-03",
+            "zh-E9-04",
+            "zh-E9-05",
+            "zh-E9-06",
+            "zh-E9-r01",
+            "zh-E9-r02"
+          ],
+          "scenario": "B is a doctor of traditional Chinese medicine. Nam has had trouble sleeping and stomach aches for weeks: she must describe her symptoms in detail, ask how the treatment works and how long it takes, and say what she is worried about."
+        },
+        {
+          "id": "zh-E10",
+          "lessons": [
+            "zh-E10-01",
+            "zh-E10-02",
+            "zh-E10-03",
+            "zh-E10-04",
+            "zh-E10-05",
+            "zh-E10-06",
+            "zh-E10-r01",
+            "zh-E10-r02"
+          ],
+          "scenario": "B is a new Thai exchange student who has just arrived in Beijing and feels homesick. Nam must tell him about her own first months, suggest ways to make Chinese friends and cope with problems, and encourage him."
+        },
+        {
+          "id": "zh-E11",
+          "lessons": [
+            "zh-E11-01",
+            "zh-E11-02",
+            "zh-E11-03",
+            "zh-E11-04",
+            "zh-E11-05",
+            "zh-E11-06",
+            "zh-E11-r01",
+            "zh-E11-r02"
+          ],
+          "scenario": "B is Wang Ming, whose cousin is getting married. Nam must ask about Chinese wedding customs, compare them with a Thai wedding (the water-pouring ceremony), and ask what she should give and wear."
+        },
+        {
+          "id": "zh-E12",
+          "lessons": [
+            "zh-E12-01",
+            "zh-E12-02",
+            "zh-E12-03",
+            "zh-E12-04",
+            "zh-E12-05",
+            "zh-E12-06",
+            "zh-E12-r01",
+            "zh-E12-r02"
+          ],
+          "scenario": "B is a Chinese tourist in a group Nam is guiding in Bangkok. Nam must welcome the group, explain the temple dress code and rules, introduce the Grand Palace briefly, and answer his questions about souvenirs and bargaining."
+        },
+        {
+          "id": "zh-E13",
+          "lessons": [
+            "zh-E13-01",
+            "zh-E13-02",
+            "zh-E13-03",
+            "zh-E13-04",
+            "zh-E13-05",
+            "zh-E13-06",
+            "zh-E13-r01",
+            "zh-E13-r02"
+          ],
+          "scenario": "B is Li Laoshi, who asks Nam which Chinese regional cuisines she has tried. Nam must compare northern and southern Chinese food with Thai food and discuss healthy eating."
+        },
+        {
+          "id": "zh-E14",
+          "lessons": [
+            "zh-E14-01",
+            "zh-E14-02",
+            "zh-E14-03",
+            "zh-E14-04",
+            "zh-E14-05",
+            "zh-E14-06",
+            "zh-E14-r01",
+            "zh-E14-r02"
+          ],
+          "scenario": "B is Wang Ming, whose parents want him to take a safe government job while he wants to start a business. Nam must listen, compare with Thai families, and help him plan how to talk to his parents."
+        },
+        {
+          "id": "zh-E15",
+          "lessons": [
+            "zh-E15-01",
+            "zh-E15-02",
+            "zh-E15-03",
+            "zh-E15-04",
+            "zh-E15-05",
+            "zh-E15-06",
+            "zh-E15-r01",
+            "zh-E15-r02"
+          ],
+          "scenario": "B is Wang Ming, who has three deadlines and can't sleep. Nam must ask what is causing the stress, help him prioritise and plan his week, and suggest ways to relax."
+        },
+        {
+          "id": "zh-E16",
+          "lessons": [
+            "zh-E16-01",
+            "zh-E16-02",
+            "zh-E16-03",
+            "zh-E16-04",
+            "zh-E16-05",
+            "zh-E16-06",
+            "zh-E16-r01",
+            "zh-E16-r02"
+          ],
+          "scenario": "B is a volunteer organiser recruiting students for a summer teaching project in a mountain village. Nam must ask about the project, explain her experience and motivation, and ask practical questions about time, place and costs."
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "cefr": "B1",
+      "exam": "HSK 4",
+      "free": false,
+      "units": [
+        {
+          "id": "zh-F1",
+          "lessons": [
+            "zh-F1-01",
+            "zh-F1-02",
+            "zh-F1-03",
+            "zh-F1-04",
+            "zh-F1-05",
+            "zh-F1-06",
+            "zh-F1-r01",
+            "zh-F1-r02"
+          ],
+          "scenario": "B is Li Laoshi chairing a class debate on \"Should university students work part-time?\" Nam must state her position, give two reasons with examples, answer a counter-argument politely, and sum up."
+        },
+        {
+          "id": "zh-F2",
+          "lessons": [
+            "zh-F2-01",
+            "zh-F2-02",
+            "zh-F2-03",
+            "zh-F2-04",
+            "zh-F2-05",
+            "zh-F2-06",
+            "zh-F2-r01",
+            "zh-F2-r02"
+          ],
+          "scenario": "B is Wang Ming discussing the day's news over breakfast. Nam must summarise a news story she read (who, what, where, when), say what she thinks about it, and react to a story he tells."
+        },
+        {
+          "id": "zh-F3",
+          "lessons": [
+            "zh-F3-01",
+            "zh-F3-02",
+            "zh-F3-03",
+            "zh-F3-04",
+            "zh-F3-05",
+            "zh-F3-06",
+            "zh-F3-r01",
+            "zh-F3-r02"
+          ],
+          "scenario": "B is an administrator in a Chinese university's admissions office (phone, then email). Nam must make a formal enquiry about a summer programme, ask about documents and deadlines, and politely complain that she has had no reply."
+        },
+        {
+          "id": "zh-F4",
+          "lessons": [
+            "zh-F4-01",
+            "zh-F4-02",
+            "zh-F4-03",
+            "zh-F4-04",
+            "zh-F4-05",
+            "zh-F4-06",
+            "zh-F4-r01",
+            "zh-F4-r02"
+          ],
+          "scenario": "B is an HR manager at a Chinese company in Bangkok interviewing Nam for a translator-assistant job. Nam must introduce her education and experience, answer questions about her strengths and weaknesses, explain why she wants the job and ask about the position."
+        },
+        {
+          "id": "zh-F5",
+          "lessons": [
+            "zh-F5-01",
+            "zh-F5-02",
+            "zh-F5-03",
+            "zh-F5-04",
+            "zh-F5-05",
+            "zh-F5-06",
+            "zh-F5-r01",
+            "zh-F5-r02"
+          ],
+          "scenario": "B is a Chinese business partner visiting Nam's company in Bangkok. Nam must welcome him, present her company's product briefly, negotiate price and delivery time, and confirm what was agreed."
+        },
+        {
+          "id": "zh-F6",
+          "lessons": [
+            "zh-F6-01",
+            "zh-F6-02",
+            "zh-F6-03",
+            "zh-F6-04",
+            "zh-F6-05",
+            "zh-F6-06",
+            "zh-F6-r01",
+            "zh-F6-r02"
+          ],
+          "scenario": "B is Wang Ming, who has run out of money before the end of the month. Nam must ask how he spends his money, suggest a budget and ways to save, and warn him about a too-good-to-be-true investment offer."
+        },
+        {
+          "id": "zh-F7",
+          "lessons": [
+            "zh-F7-01",
+            "zh-F7-02",
+            "zh-F7-03",
+            "zh-F7-04",
+            "zh-F7-05",
+            "zh-F7-06",
+            "zh-F7-r01",
+            "zh-F7-r02"
+          ],
+          "scenario": "B is a traffic police officer in Beijing; Nam's Thai friend has been stopped for riding an e-bike the wrong way. Nam must explain what happened, ask which rule was broken and what the fine is, and promise it won't happen again."
+        },
+        {
+          "id": "zh-F8",
+          "lessons": [
+            "zh-F8-01",
+            "zh-F8-02",
+            "zh-F8-03",
+            "zh-F8-04",
+            "zh-F8-05",
+            "zh-F8-06",
+            "zh-F8-r01",
+            "zh-F8-r02"
+          ],
+          "scenario": "B is Wang Ming at a dinner party, telling funny stories. Nam must tell a story of something embarrassing or surprising that happened to her (setting, events in order, the twist, how she felt) and react to his story."
+        },
+        {
+          "id": "zh-F9",
+          "lessons": [
+            "zh-F9-01",
+            "zh-F9-02",
+            "zh-F9-03",
+            "zh-F9-04",
+            "zh-F9-05",
+            "zh-F9-06",
+            "zh-F9-r01",
+            "zh-F9-r02"
+          ],
+          "scenario": "B is Li Laoshi, who asks Nam to reflect on her studies before graduation. Nam must describe a goal she reached, a failure and what she learned from it, and her next goal."
+        },
+        {
+          "id": "zh-F10",
+          "lessons": [
+            "zh-F10-01",
+            "zh-F10-02",
+            "zh-F10-03",
+            "zh-F10-04",
+            "zh-F10-05",
+            "zh-F10-06",
+            "zh-F10-r01",
+            "zh-F10-r02"
+          ],
+          "scenario": "B is a Chinese tour guide at the Forbidden City. Nam must ask about its history (when it was built, by whom, what it was used for), compare it with Ayutthaya or the Grand Palace, and share what impressed her."
+        },
+        {
+          "id": "zh-F11",
+          "lessons": [
+            "zh-F11-01",
+            "zh-F11-02",
+            "zh-F11-03",
+            "zh-F11-04",
+            "zh-F11-05",
+            "zh-F11-06",
+            "zh-F11-r01",
+            "zh-F11-r02"
+          ],
+          "scenario": "B is Li Laoshi at a calligraphy exhibition. Nam must say what she likes about calligraphy or painting, explain the meaning and story of one chengyu she knows, and compare it with a Thai saying."
+        },
+        {
+          "id": "zh-F12",
+          "lessons": [
+            "zh-F12-01",
+            "zh-F12-02",
+            "zh-F12-03",
+            "zh-F12-04",
+            "zh-F12-05",
+            "zh-F12-06",
+            "zh-F12-r01",
+            "zh-F12-r02"
+          ],
+          "scenario": "B is Wang Ming's grandfather, who complains that young people forget traditions. Nam must respectfully share her view, give examples of how Thai traditions are changing, and suggest how traditions can be kept alive."
+        },
+        {
+          "id": "zh-F13",
+          "lessons": [
+            "zh-F13-01",
+            "zh-F13-02",
+            "zh-F13-03",
+            "zh-F13-04",
+            "zh-F13-05",
+            "zh-F13-06",
+            "zh-F13-r01",
+            "zh-F13-r02"
+          ],
+          "scenario": "B is Li Laoshi leading a seminar on social change. Nam must describe one social problem shared by Thailand and China (e.g. an ageing population), explain its causes and effects, and propose a solution."
+        },
+        {
+          "id": "zh-F14",
+          "lessons": [
+            "zh-F14-01",
+            "zh-F14-02",
+            "zh-F14-03",
+            "zh-F14-04",
+            "zh-F14-05",
+            "zh-F14-06",
+            "zh-F14-r01",
+            "zh-F14-r02"
+          ],
+          "scenario": "B is Wang Ming, who has just watched a documentary about climate change and space. Nam must explain a natural phenomenon (the monsoon) or a disaster, discuss what science can do about climate change, and give her view on space exploration."
+        },
+        {
+          "id": "zh-F15",
+          "lessons": [
+            "zh-F15-01",
+            "zh-F15-02",
+            "zh-F15-03",
+            "zh-F15-04",
+            "zh-F15-05",
+            "zh-F15-06",
+            "zh-F15-r01",
+            "zh-F15-r02"
+          ],
+          "scenario": "B is a Chinese journalist interviewing Nam at a Thai–Chinese business fair. Nam must explain what the two countries trade, how tourism and education link them, and what opportunities she sees for young Thais who speak Chinese."
+        },
+        {
+          "id": "zh-F16",
+          "lessons": [
+            "zh-F16-01",
+            "zh-F16-02",
+            "zh-F16-03",
+            "zh-F16-04",
+            "zh-F16-05",
+            "zh-F16-06",
+            "zh-F16-r01",
+            "zh-F16-r02"
+          ],
+          "scenario": "B is Wang Ming on the night before Nam leaves Beijing to go home to Thailand. Nam must say what happiness means to her, what she values most and what she has learned in China, and say goodbye warmly."
+        }
+      ]
     }
   ]
 }

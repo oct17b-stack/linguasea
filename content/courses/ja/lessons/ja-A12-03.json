@@ -1,0 +1,55 @@
+{
+  "id": "ja-A12-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.onaka",
+      "text": "おなか",
+      "reading": "onaka"
+    },
+    {
+      "id": "ja.pekopeko",
+      "text": "ぺこぺこ",
+      "reading": "pekopeko"
+    },
+    {
+      "id": "ja.kutakuta",
+      "text": "くたくた",
+      "reading": "kutakuta"
+    },
+    {
+      "id": "ja.perapera",
+      "text": "ぺらぺら",
+      "reading": "perapera"
+    },
+    {
+      "id": "ja.nikoniko",
+      "text": "にこにこ",
+      "reading": "nikoniko"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、だいじょうぶですか。",
+      "reading": "Namu-san, daijōbu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "くたくたです。おなかも ぺこぺこです。",
+      "reading": "Kutakuta desu. Onaka mo pekopeko desu."
+    },
+    {
+      "speaker": "c",
+      "text": "やきとりを たべますか。",
+      "reading": "Yakitori o tabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、たべます！",
+      "reading": "Hai, tabemasu!"
+    }
+  ]
+}

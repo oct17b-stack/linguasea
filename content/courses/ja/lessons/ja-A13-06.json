@@ -1,0 +1,50 @@
+{
+  "id": "ja-A13-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.shashin",
+      "text": "しゃしん",
+      "reading": "shashin"
+    },
+    {
+      "id": "ja.torimasu",
+      "text": "とります",
+      "reading": "torimasu"
+    },
+    {
+      "id": "ja.miemasu",
+      "text": "みえます",
+      "reading": "miemasu"
+    },
+    {
+      "id": "ja.fujisan",
+      "text": "ふじさん",
+      "reading": "Fujisan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ふじさんが みえますよ！",
+      "reading": "Namu-san, Fujisan ga miemasu yo!"
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですね。とても きれいです。",
+      "reading": "Hontō desu ne. Totemo kirei desu."
+    },
+    {
+      "speaker": "c",
+      "text": "しゃしんを とりますか。",
+      "reading": "Shashin o torimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします！",
+      "reading": "Hai, onegaishimasu!"
+    }
+  ]
+}

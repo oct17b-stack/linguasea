@@ -1,0 +1,50 @@
+{
+  "id": "ja-A13-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.sanpo",
+      "text": "さんぽ",
+      "reading": "sanpo"
+    },
+    {
+      "id": "ja.noborimasu",
+      "text": "のぼります",
+      "reading": "noborimasu"
+    },
+    {
+      "id": "ja.arukimasu",
+      "text": "あるきます",
+      "reading": "arukimasu"
+    },
+    {
+      "id": "ja.soto",
+      "text": "そと",
+      "reading": "soto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは さんぽが すきですか。",
+      "reading": "Namu-san wa sanpo ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。よるは そとを あるきます。タイは あついですから。",
+      "reading": "Hai. Yoru wa soto o arukimasu. Tai wa atsui desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "なるほど。わたしは ふゆも やまに のぼります。",
+      "reading": "Naruhodo. Watashi wa fuyu mo yama ni noborimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、ふゆもですか。",
+      "reading": "Hē, fuyu mo desu ka."
+    }
+  ]
+}

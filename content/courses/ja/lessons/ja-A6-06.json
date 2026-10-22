@@ -1,0 +1,55 @@
+{
+  "id": "ja-A6-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tabemono",
+      "text": "たべもの",
+      "reading": "tabemono"
+    },
+    {
+      "id": "ja.kudamono",
+      "text": "くだもの",
+      "reading": "kudamono"
+    },
+    {
+      "id": "ja.ringo",
+      "text": "りんご",
+      "reading": "ringo"
+    },
+    {
+      "id": "ja.ichigo",
+      "text": "いちご",
+      "reading": "ichigo"
+    },
+    {
+      "id": "ja.shoppai",
+      "text": "しょっぱい",
+      "reading": "shoppai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "にほんの たべものは すこし しょっぱいです。",
+      "reading": "Nihon no tabemono wa sukoshi shoppai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。くだものは なにが すきですか。",
+      "reading": "Sō desu ka. Kudamono wa nani ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いちごが すきです。ゆきさんは？",
+      "reading": "Ichigo ga suki desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは りんごが すきです。",
+      "reading": "Watashi wa ringo ga suki desu."
+    }
+  ]
+}

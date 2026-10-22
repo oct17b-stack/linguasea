@@ -1,0 +1,55 @@
+{
+  "id": "ja-A9-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.atsui",
+      "text": "あつい",
+      "reading": "atsui"
+    },
+    {
+      "id": "ja.samui",
+      "text": "さむい",
+      "reading": "samui"
+    },
+    {
+      "id": "ja.atatakai",
+      "text": "あたたかい",
+      "reading": "atatakai"
+    },
+    {
+      "id": "ja.suzushii",
+      "text": "すずしい",
+      "reading": "suzushii"
+    },
+    {
+      "id": "ja.totemo",
+      "text": "とても",
+      "reading": "totemo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あついですね。",
+      "reading": "Namu-san, atsui desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、とても あついです。",
+      "reading": "Hai, totemo atsui desu."
+    },
+    {
+      "speaker": "c",
+      "text": "あしたは すずしいですよ。",
+      "reading": "Ashita wa suzushii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。",
+      "reading": "Ii desu ne."
+    }
+  ]
+}

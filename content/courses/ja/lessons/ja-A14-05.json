@@ -1,0 +1,55 @@
+{
+  "id": "ja-A14-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hiragana",
+      "text": "ひらがな",
+      "reading": "hiragana"
+    },
+    {
+      "id": "ja.katakana",
+      "text": "かたかな",
+      "reading": "katakana"
+    },
+    {
+      "id": "ja.kanji",
+      "text": "かんじ",
+      "reading": "kanji"
+    },
+    {
+      "id": "ja.yomimasu",
+      "text": "よみます",
+      "reading": "yomimasu"
+    },
+    {
+      "id": "ja.kakimasu",
+      "text": "かきます",
+      "reading": "kakimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんごの ほんを よみますか。",
+      "reading": "Namu-san, Nihongo no hon o yomimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ひらがなの ほんを よみます。",
+      "reading": "Hai. Hiragana no hon o yomimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "かたかなと かんじは？",
+      "reading": "Katakana to kanji wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "かたかなは すこし わかります。かんじは まったく わかりません。",
+      "reading": "Katakana wa sukoshi wakarimasu. Kanji wa mattaku wakarimasen."
+    }
+  ]
+}

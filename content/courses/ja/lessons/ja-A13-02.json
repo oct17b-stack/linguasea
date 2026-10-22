@@ -1,0 +1,50 @@
+{
+  "id": "ja-A13-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.sora",
+      "text": "そら",
+      "reading": "sora"
+    },
+    {
+      "id": "ja.tsuki",
+      "text": "つき",
+      "reading": "tsuki"
+    },
+    {
+      "id": "ja.asahi",
+      "text": "あさひ",
+      "reading": "asahi"
+    },
+    {
+      "id": "ja.yuuhi",
+      "text": "ゆうひ",
+      "reading": "yūhi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あさひです！",
+      "reading": "Namu-san, asahi desu!"
+    },
+    {
+      "speaker": "a",
+      "text": "きれいですね。そらが あかいです。",
+      "reading": "Kirei desu ne. Sora ga akai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。よるの そらも きれいですよ。",
+      "reading": "Ē. Yoru no sora mo kirei desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは ゆうひが いちばん すきです。",
+      "reading": "Watashi wa yūhi ga ichiban suki desu."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ja-A10-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.yuumei",
+      "text": "ゆうめい",
+      "reading": "yūmei"
+    },
+    {
+      "id": "ja.minna",
+      "text": "みんな",
+      "reading": "minna"
+    },
+    {
+      "id": "ja.mangaka",
+      "text": "まんがか",
+      "reading": "mangaka"
+    },
+    {
+      "id": "ja.gaka",
+      "text": "がか",
+      "reading": "gaka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、にほんの ゆうめいな まんがかは だれですか。",
+      "reading": "Yuki-san, Nihon no yūmei na mangaka wa dare desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "てづか おさむです。みんな すきです。",
+      "reading": "Tezuka Osamu desu. Minna suki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆうめいな がかは？",
+      "reading": "Yūmei na gaka wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ほくさいです。",
+      "reading": "Hokusai desu."
+    }
+  ]
+}

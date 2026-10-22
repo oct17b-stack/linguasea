@@ -1,0 +1,53 @@
+{
+  "id": "ja-A16-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.akemashite-omedetou-gozaimasu",
+      "kind": "phrase",
+      "text": "あけまして おめでとう ございます",
+      "reading": "akemashite omedetō gozaimasu"
+    },
+    {
+      "id": "ja.kotoshi-mo-yoroshiku-onegaishimasu",
+      "kind": "phrase",
+      "text": "ことしも よろしく おねがいします",
+      "reading": "kotoshi mo yoroshiku onegaishimasu"
+    },
+    {
+      "id": "ja.yoi-otoshi-o",
+      "kind": "phrase",
+      "text": "よい おとしを",
+      "reading": "yoi otoshi o"
+    },
+    {
+      "id": "ja.oshougatsu",
+      "text": "おしょうがつ",
+      "reading": "oshōgatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あけまして おめでとう ございます。",
+      "reading": "Namu-san, akemashite omedetō gozaimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "あけまして おめでとう ございます。ことしも よろしく おねがいします。",
+      "reading": "Akemashite omedetō gozaimasu. Kotoshi mo yoroshiku onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "こちらこそ。にほんの おしょうがつは どうですか。",
+      "reading": "Kochira koso. Nihon no oshōgatsu wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしいです！もちも おいしいです。",
+      "reading": "Tanoshii desu! Mochi mo oishii desu."
+    }
+  ]
+}

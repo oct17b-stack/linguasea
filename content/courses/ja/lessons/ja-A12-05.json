@@ -1,0 +1,56 @@
+{
+  "id": "ja-A12-05",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.etto",
+      "text": "えっと",
+      "reading": "etto"
+    },
+    {
+      "id": "ja.anou",
+      "text": "あのう",
+      "reading": "anō"
+    },
+    {
+      "id": "ja.sou-desu-ne",
+      "kind": "phrase",
+      "text": "そうですね",
+      "reading": "sō desu ne"
+    },
+    {
+      "id": "ja.maamaa",
+      "text": "まあまあ",
+      "reading": "māmā"
+    },
+    {
+      "id": "ja.dou",
+      "text": "どう",
+      "reading": "dō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、にほんの たべものは どうですか。",
+      "reading": "Namu-san, Nihon no tabemono wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね… すしが だいすきです。",
+      "reading": "Sō desu ne… sushi ga daisuki desu."
+    },
+    {
+      "speaker": "b",
+      "text": "なっとうは どうですか。",
+      "reading": "Nattō wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "えっと… まあまあです。",
+      "reading": "Etto… māmā desu."
+    }
+  ]
+}

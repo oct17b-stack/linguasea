@@ -1,0 +1,46 @@
+{
+  "id": "ja-A14-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.wakarimasu",
+      "text": "わかります",
+      "reading": "wakarimasu"
+    },
+    {
+      "id": "ja.wakarimasen",
+      "text": "わかりません",
+      "reading": "wakarimasen"
+    },
+    {
+      "id": "ja.shitsumon",
+      "text": "しつもん",
+      "reading": "shitsumon"
+    },
+    {
+      "id": "ja.ii-desu-ka",
+      "kind": "phrase",
+      "text": "いいですか",
+      "reading": "ii desu ka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、わかりますか。",
+      "reading": "Namu-san, wakarimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、わかりません。せんせい、しつもん、いいですか。",
+      "reading": "Iie, wakarimasen. Sensei, shitsumon, ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ja-A15-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.oshiro",
+      "text": "おしろ",
+      "reading": "oshiro"
+    },
+    {
+      "id": "ja.torii",
+      "text": "とりい",
+      "reading": "torii"
+    },
+    {
+      "id": "ja.furui",
+      "text": "ふるい",
+      "reading": "furui"
+    },
+    {
+      "id": "ja.daruma",
+      "text": "だるま",
+      "reading": "daruma"
+    },
+    {
+      "id": "ja.manekineko",
+      "text": "まねきねこ",
+      "reading": "manekineko"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、おしろは ふるいですか。",
+      "reading": "Yuki-san, oshiro wa furui desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、とても ふるいです。とりいも ふるいですよ。",
+      "reading": "Hai, totemo furui desu. Torii mo furui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、まねきねこです！かわいいですね。",
+      "reading": "A, manekineko desu! Kawaii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "だるまも かわいいですよ。",
+      "reading": "Daruma mo kawaii desu yo."
+    }
+  ]
+}

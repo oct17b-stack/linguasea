@@ -1,0 +1,55 @@
+{
+  "id": "ja-A12-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hontou",
+      "text": "ほんとう",
+      "reading": "hontō"
+    },
+    {
+      "id": "ja.hee",
+      "text": "へえ",
+      "reading": "hē"
+    },
+    {
+      "id": "ja.naruhodo",
+      "text": "なるほど",
+      "reading": "naruhodo"
+    },
+    {
+      "id": "ja.ee",
+      "text": "ええ",
+      "reading": "ē"
+    },
+    {
+      "id": "ja.masaka",
+      "text": "まさか",
+      "reading": "masaka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、わたしは タイごを すこし はなします。",
+      "reading": "Namu-san, watashi wa Taigo o sukoshi hanashimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "まさか！ほんとうですか。",
+      "reading": "Masaka! Hontō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。タイの えいがが だいすきですから。",
+      "reading": "Ē. Tai no eiga ga daisuki desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、なるほど。",
+      "reading": "Hē, naruhodo."
+    }
+  ]
+}

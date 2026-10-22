@@ -1,0 +1,57 @@
+{
+  "id": "ja-A10-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.otoko-no-hito",
+      "kind": "phrase",
+      "text": "おとこの ひと",
+      "reading": "otoko no hito"
+    },
+    {
+      "id": "ja.onna-no-hito",
+      "kind": "phrase",
+      "text": "おんなの ひと",
+      "reading": "onna no hito"
+    },
+    {
+      "id": "ja.kodomo",
+      "text": "こども",
+      "reading": "kodomo"
+    },
+    {
+      "id": "ja.otona",
+      "text": "おとな",
+      "reading": "otona"
+    },
+    {
+      "id": "ja.dare",
+      "text": "だれ",
+      "reading": "dare"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、おとこの ひとは だれですか。",
+      "reading": "Namu-san, otoko no hito wa dare desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "やまだせんせいです。",
+      "reading": "Yamada-sensei desu."
+    },
+    {
+      "speaker": "c",
+      "text": "こどもは？",
+      "reading": "Kodomo wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "せんせいの こどもです。",
+      "reading": "Sensei no kodomo desu."
+    }
+  ]
+}

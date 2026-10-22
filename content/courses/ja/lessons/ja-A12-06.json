@@ -1,0 +1,52 @@
+{
+  "id": "ja-A12-06",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.jouzu",
+      "text": "じょうず",
+      "reading": "jōzu"
+    },
+    {
+      "id": "ja.madamada-desu",
+      "kind": "phrase",
+      "text": "まだまだです",
+      "reading": "madamada desu"
+    },
+    {
+      "id": "ja.erai",
+      "text": "えらい",
+      "reading": "erai"
+    },
+    {
+      "id": "ja.ii-na",
+      "kind": "phrase",
+      "text": "いいな",
+      "reading": "ii na"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、にほんごが じょうずですね。",
+      "reading": "Namu-san, Nihongo ga jōzu desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、まだまだです。",
+      "reading": "Iie, madamada desu."
+    },
+    {
+      "speaker": "c",
+      "text": "えいごも はなしますね。いいな。",
+      "reading": "Eigo mo hanashimasu ne. Ii na."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきさんも タイごを すこし はなしますよ。",
+      "reading": "Yuki-san mo Taigo o sukoshi hanashimasu yo."
+    }
+  ]
+}
