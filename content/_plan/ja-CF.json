@@ -1900,8 +1900,8 @@
         },
         {
           "id": "ja-C8",
-          "title_th": "ฤดูกาลและสภาพอากาศ",
-          "goal_th": "พูดถึงฤดูกาลและพยากรณ์อากาศ และวางแผนตามสภาพอากาศได้",
+          "title_th": "พยากรณ์อากาศและการวางแผน",
+          "goal_th": "เข้าใจพยากรณ์อากาศ บอกเหตุผลที่ชอบฤดูกาลต่าง ๆ และวางแผนกิจกรรมตามสภาพอากาศได้",
           "scenario": "B is Yuki planning a weekend outing with Nam. Nam must check the weather forecast with her, say what the weather may be like and suggest a plan for both rain and sunshine.",
           "lessons": [
             {
@@ -2158,9 +2158,9 @@
         },
         {
           "id": "ja-C9",
-          "title_th": "เสื้อผ้าและการแต่งตัว",
-          "goal_th": "บอกการแต่งตัวและรูปร่างหน้าตาของคน และเลือกซื้อเสื้อผ้าได้",
-          "scenario": "B is a shop assistant in a clothing store. Nam must say what they are looking for, ask to try things on, say what is too big, too small or too flashy, and choose one.",
+          "title_th": "แฟชั่นและการบรรยายรูปลักษณ์",
+          "goal_th": "บรรยายการแต่งตัวและรูปลักษณ์ของคน และคุยเรื่องแฟชั่นที่ชอบได้",
+          "scenario": "B is Yuki, who is waiting with Nam for a friend at a busy station and then helps Nam pick an outfit for a party. Nam must describe what people are wearing and what they look like, and say what is too flashy, too plain or too tight.",
           "lessons": [
             {
               "id": "ja-C9-01",
@@ -2275,13 +2275,13 @@
             },
             {
               "id": "ja-C9-04",
-              "topic": "Trying clothes on",
+              "topic": "Trying a new look: hair and style",
               "grammar": "〜てみます (try doing)",
               "items": [
                 {
-                  "id": "ja.shichaku",
-                  "text": "試着",
-                  "reading": "shichaku",
+                  "id": "ja.biyouin",
+                  "text": "びよういん",
+                  "reading": "biyōin",
                   "kind": "word"
                 },
                 {
@@ -4450,9 +4450,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.mataha",
+                  "id": "ja.matawa",
                   "text": "または",
-                  "reading": "mataha",
+                  "reading": "matawa",
                   "kind": "word"
                 }
               ]
@@ -4813,8 +4813,8 @@
         },
         {
           "id": "ja-D3",
-          "title_th": "ที่พักระหว่างเดินทาง",
-          "goal_th": "เช็กอิน สอบถามบริการ และแจ้งปัญหาที่โรงแรมหรือเรียวกังได้",
+          "title_th": "พักเรียวกังแบบญี่ปุ่น",
+          "goal_th": "เช็กอินที่เรียวกัง สอบถามเรื่องอาหาร ออนเซ็น และกฎของที่พัก และแจ้งปัญหาได้",
           "scenario": "B is the receptionist at a ryokan. Nam must check in, ask about meals, the baths and check-out time, and ask what to do about a problem in the room.",
           "lessons": [
             {
@@ -5095,9 +5095,9 @@
         },
         {
           "id": "ja-D4",
-          "title_th": "ปัญหาระหว่างเดินทาง",
-          "goal_th": "อธิบายปัญหาระหว่างเดินทาง เช่น ของหายหรือตกรถไฟ และขอความช่วยเหลือได้",
-          "scenario": "B is a station attendant. Nam has left a bag on the train and missed a connection; Nam must explain what happened, describe the bag and ask what to do next.",
+          "title_th": "เดินทางด้วยรถไฟและรถบัส",
+          "goal_th": "ซื้อตั๋ว เลือกขบวนและที่นั่ง รับมือกับรถไฟล่าช้า และขอความช่วยเหลือที่สถานีได้",
+          "scenario": "B is a station attendant at a ticket office. Nam has missed a connection because of a delay and must ask about refunds, the next express or local train and seat options, and decide what to do.",
           "lessons": [
             {
               "id": "ja-D4-01",
@@ -5181,37 +5181,37 @@
             },
             {
               "id": "ja-D4-03",
-              "topic": "If it's lost property, ask over there",
+              "topic": "If you're going to Kyoto, take the express",
               "grammar": "〜なら (if it is …, then …: advice on a topic)",
               "items": [
                 {
-                  "id": "ja.otoshimono",
-                  "text": "おとしもの",
-                  "reading": "otoshimono",
+                  "id": "ja.kakuekiteisha",
+                  "text": "かくえきていしゃ",
+                  "reading": "kakuekiteisha",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.keisatsu",
-                  "text": "けいさつ",
-                  "reading": "keisatsu",
+                  "id": "ja.kaisoku",
+                  "text": "かいそく",
+                  "reading": "kaisoku",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.nusumu",
-                  "text": "ぬすむ",
-                  "reading": "nusumu",
+                  "id": "ja.kyuukou-express",
+                  "text": "急行",
+                  "reading": "kyūkō",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.dorobou",
-                  "text": "どろぼう",
-                  "reading": "dorobō",
+                  "id": "ja.kousokubasu",
+                  "text": "こうそくバス",
+                  "reading": "kōsokubasu",
                   "kind": "word"
                 },
                 {
-                  "id": "ja.suri",
-                  "text": "すり",
-                  "reading": "suri",
+                  "id": "ja.joushaken",
+                  "text": "じょうしゃけん",
+                  "reading": "jōshaken",
                   "kind": "word"
                 }
               ]
@@ -5331,7 +5331,7 @@
               "id": "ja-D4-r01",
               "kind": "reader",
               "genre": "story",
-              "topic": "Nam leaves a bag on the Shinkansen and gets it back the next day",
+              "topic": "A pickpocket on the night bus to Chiang Mai, and how the driver helped Nam",
               "items": [
                 {
                   "id": "ja.tokuchou",
@@ -5340,27 +5340,27 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.hokan",
-                  "text": "ほかん",
-                  "reading": "hokan",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.uketoru",
-                  "text": "うけとる",
-                  "reading": "uketoru",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.honnin",
-                  "text": "本人",
-                  "reading": "honnin",
-                  "kind": "word"
-                },
-                {
                   "id": "ja.yatto",
                   "text": "やっと",
                   "reading": "yatto",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.suri",
+                  "text": "すり",
+                  "reading": "suri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nusumu",
+                  "text": "ぬすむ",
+                  "reading": "nusumu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dorobou",
+                  "text": "どろぼう",
+                  "reading": "dorobō",
                   "kind": "word"
                 }
               ]
@@ -5369,7 +5369,7 @@
               "id": "ja-D4-r02",
               "kind": "reader",
               "genre": "notice",
-              "topic": "A station notice: trains stopped because of heavy rain",
+              "topic": "A station notice: trains stopped because of strong winds",
               "items": [
                 {
                   "id": "ja.kyoufuu",
@@ -5995,8 +5995,8 @@
         },
         {
           "id": "ja-D7",
-          "title_th": "อารมณ์และความรู้สึก",
-          "goal_th": "บอกความรู้สึกของตัวเอง และคาดเดาความรู้สึกของคนอื่นจากท่าทางได้",
+          "title_th": "อ่านความรู้สึกของคนอื่น",
+          "goal_th": "บอกความรู้สึกของตัวเอง และคาดเดาความรู้สึกหรือความต้องการของคนอื่นจากท่าทางได้",
           "scenario": "B is Yuki, who looks tired and worried before a job interview. Nam must notice how she seems, ask what is wrong, share how they feel themselves and cheer her up.",
           "lessons": [
             {
@@ -6431,6 +6431,12 @@
                   "id": "ja.keganin",
                   "text": "けが人",
                   "reading": "keganin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.keisatsu",
+                  "text": "けいさつ",
+                  "reading": "keisatsu",
                   "kind": "word"
                 }
               ]
@@ -7141,8 +7147,8 @@
         },
         {
           "id": "ja-D11",
-          "title_th": "กินข้าวนอกบ้าน",
-          "goal_th": "สั่งอาหารตามที่ต้องการ ขอปรับรสชาติ และจ่ายเงินร่วมกับเพื่อนได้",
+          "title_th": "ไปร้านอิซากายะกับเพื่อน",
+          "goal_th": "สั่งอาหารให้ทั้งกลุ่ม ขอปรับรสชาติ และแบ่งจ่ายเงินกับเพื่อนได้",
           "scenario": "B is a waiter at a busy izakaya. Nam is ordering for a group and must ask for recommendations, order the right quantities, ask for a dish to be made less spicy, and sort out the bill.",
           "lessons": [
             {
@@ -7717,8 +7723,8 @@
         },
         {
           "id": "ja-D13",
-          "title_th": "สัตว์เลี้ยงและธรรมชาติ",
-          "goal_th": "พูดถึงสัตว์เลี้ยงและธรรมชาติรอบตัว และบอกการเปลี่ยนแปลงที่เกิดขึ้นได้",
+          "title_th": "สัตว์เลี้ยงและธรรมชาติที่เปลี่ยนไป",
+          "goal_th": "พูดเรื่องการเลี้ยงสัตว์และนิสัยของสัตว์ และบอกว่าธรรมชาติรอบตัวเปลี่ยนไปอย่างไรได้",
           "scenario": "B is Yuki, whose family has a dog and who wants to adopt a cat. Nam must describe animals and how they behave, talk about nature in Thailand, and explain how things have changed over the years.",
           "lessons": [
             {
