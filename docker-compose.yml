@@ -1,0 +1,21 @@
+# Local stack: API + PostgreSQL. `docker compose up --build`, then the API is on http://localhost:8080
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: linguasea
+      POSTGRES_PASSWORD: linguasea
+      POSTGRES_DB: linguasea
+    volumes:
+      - db:/var/lib/postgresql/data
+  api:
+    build: .
+    depends_on: [db]
+    ports: ['8080:8080']
+    env_file:
+      - path: server/.env
+        required: false
+    environment:
+      DATABASE_URL: postgres://linguasea:linguasea@db:5432/linguasea
+volumes:
+  db:

@@ -1,0 +1,7 @@
+**/node_modules
+.git
+app/dist
+app/.expo
+**/*.test.ts
+.env
+.env.*

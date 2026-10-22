@@ -17,4 +17,16 @@ export type CourseBundle = {
   course: Course;
   gloss: CourseGloss;
   lessons: Record<string, { lesson: Lesson; gloss: LessonGloss }>;
+  /**
+   * Generated speech clips: audioKey(...) → path under the server's /audio/ (e.g. "zh/3f2a9c1e.mp3").
+   * Missing keys fall back to the device's TTS.
+   */
+  audio?: Record<string, string>;
 };
+
+/** Who speaks a clip: "item" for words and phrases, otherwise the dialogue speaker ("a", "b"). */
+export type AudioVoice = 'item' | string;
+
+export function audioKey(voice: AudioVoice, text: string): string {
+  return `${voice}|${text}`;
+}

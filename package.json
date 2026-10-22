@@ -4,7 +4,8 @@
   "workspaces": [
     "app",
     "packages/*",
-    "server"
+    "server",
+    "tools"
   ],
   "scripts": {
     "content": "npm run build --workspace @linguasea/contract",
