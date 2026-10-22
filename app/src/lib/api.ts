@@ -1,4 +1,4 @@
-import type { Target } from '@linguasea/contract';
+import type { L1, Target } from '@linguasea/contract';
 import type { Progress } from '@linguasea/core';
 
 import { API_URL } from '@/lib/config';
@@ -42,9 +42,32 @@ export type ScoreResult =
 /** A recording to upload: a Blob on web, a file on disk ({ uri, name, type }) in the apps. */
 export type RecordingFile = { blob: Blob; name: string } | { uri: string; name: string; type: string };
 
+/** Result of a call to a feature with a daily allowance that may also be switched off on the server. */
+export type Outcome<T> =
+  | { kind: 'ok'; value: T }
+  | { kind: 'limit'; limit?: number }
+  | { kind: 'unavailable' }
+  | { kind: 'offline' }
+  | { kind: 'failed' };
+
+export type TutorLine = { role: 'tutor' | 'learner'; text: string };
+
+/** One AI tutor turn (server/src/tutor.ts). Empty strings mean "nothing to show". */
+export type TutorTurn = {
+  reply: string;
+  reading: string;
+  translation: string;
+  feedback: string;
+  correction: string;
+  hint: string;
+  done: boolean;
+};
+
 const ACCOUNT_KEY = 'linguasea.account';
 const TIMEOUT_MS = 15_000;
 const UPLOAD_TIMEOUT_MS = 30_000;
+/** A tutor turn is a model call (with a fallback model on a decline). */
+const TUTOR_TIMEOUT_MS = 45_000;
 
 export class HttpError extends Error {
   constructor(readonly status: number) {
@@ -222,31 +245,93 @@ function parseScore(x: unknown): PronunciationScore | undefined {
   };
 }
 
-/** Pronunciation scoring of one recording against the text the learner was asked to say. */
-export async function scorePronunciation(input: { target: Target; text: string; audio: RecordingFile }): Promise<ScoreResult> {
+/**
+ * A call to a metered feature (scoring, tutor, transcription): creates the account if needed and
+ * sorts the answer into what the screens show. 503 = switched off (or busy, which is worth a retry).
+ */
+async function feature<T>(path: string, init: RequestInit, parse: (body: unknown) => T | undefined, timeout: number): Promise<Outcome<T>> {
   if (!apiEnabled) return { kind: 'unavailable' };
-  const form = new FormData();
-  form.append('target', input.target);
-  form.append('text', input.text);
-  if ('blob' in input.audio) form.append('audio', input.audio.blob, input.audio.name);
-  // React Native streams { uri, name, type } parts straight from the file.
-  else form.append('audio', input.audio as unknown as Blob);
-
   let res: Response | undefined;
   try {
-    res = await authed('/v1/pronunciation', { method: 'POST', body: form }, { create: true, timeout: UPLOAD_TIMEOUT_MS });
+    res = await authed(path, init, { create: true, timeout });
   } catch (e) {
     return e instanceof HttpError ? { kind: 'failed' } : { kind: 'offline' };
   }
   if (!res) return { kind: 'failed' };
-  if (res.status === 503) return { kind: 'unavailable' };
-  if (res.status === 429) {
-    const body = (await res.json().catch(() => null)) as { limit?: unknown } | null;
-    return { kind: 'limit', limit: typeof body?.limit === 'number' ? body.limit : undefined };
-  }
+  const body = (await res.json().catch(() => null)) as Record<string, unknown> | null;
+  if (res.status === 503) return /busy/i.test(String(body?.error ?? '')) ? { kind: 'failed' } : { kind: 'unavailable' };
+  if (res.status === 429) return { kind: 'limit', limit: typeof body?.limit === 'number' ? body.limit : undefined };
   if (!res.ok) return { kind: 'failed' };
-  const score = parseScore(await res.json().catch(() => null));
-  return score ? { kind: 'scored', score } : { kind: 'failed' };
+  const value = parse(body);
+  return value === undefined ? { kind: 'failed' } : { kind: 'ok', value };
+}
+
+function audioForm(fields: Record<string, string>, audio: RecordingFile): FormData {
+  const form = new FormData();
+  for (const [k, v] of Object.entries(fields)) form.append(k, v);
+  if ('blob' in audio) form.append('audio', audio.blob, audio.name);
+  // React Native streams { uri, name, type } parts straight from the file.
+  else form.append('audio', audio as unknown as Blob);
+  return form;
+}
+
+/** Pronunciation scoring of one recording against the text the learner was asked to say. */
+export async function scorePronunciation(input: { target: Target; text: string; audio: RecordingFile }): Promise<ScoreResult> {
+  const out = await feature(
+    '/v1/pronunciation',
+    { method: 'POST', body: audioForm({ target: input.target, text: input.text }, input.audio) },
+    parseScore,
+    UPLOAD_TIMEOUT_MS,
+  );
+  return out.kind === 'ok' ? { kind: 'scored', score: out.value } : out;
+}
+
+const str = (v: unknown) => (typeof v === 'string' ? v : '');
+
+function parseTurn(x: unknown): TutorTurn | undefined {
+  const b = x as Record<string, unknown> | null;
+  if (!b || typeof b.reply !== 'string') return undefined;
+  return {
+    reply: b.reply,
+    reading: str(b.reading),
+    translation: str(b.translation),
+    feedback: str(b.feedback),
+    correction: str(b.correction),
+    hint: str(b.hint),
+    done: b.done === true,
+  };
+}
+
+/** Longest line and conversation the server accepts (server/src/app.ts TutorBody). */
+export const TUTOR_LINE_MAX = 300;
+const TUTOR_HISTORY_MAX = 40;
+
+/** The AI tutor's next turn for a unit's role-play. The conversation lives only in the app's memory. */
+export function tutorTurn(input: { target: Target; l1: L1; unitId: string; history: TutorLine[] }): Promise<Outcome<TutorTurn>> {
+  const history = input.history.slice(-TUTOR_HISTORY_MAX).map((l) => ({ role: l.role, text: l.text.slice(0, TUTOR_LINE_MAX) }));
+  return feature(
+    '/v1/tutor/turn',
+    {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ target: input.target, l1: input.l1, unitId: input.unitId, history }),
+    },
+    parseTurn,
+    TUTOR_TIMEOUT_MS,
+  );
+}
+
+/** A spoken answer for the tutor, as text. */
+export function transcribe(input: { target: Target; audio: RecordingFile }): Promise<Outcome<string>> {
+  return feature(
+    '/v1/transcribe',
+    { method: 'POST', body: audioForm({ target: input.target }, input.audio) },
+    (b) => {
+      const text = (b as { text?: unknown } | null)?.text;
+      return typeof text === 'string' ? text : undefined;
+    },
+    UPLOAD_TIMEOUT_MS,
+  );
 }
 
 // ---------- static files ----------

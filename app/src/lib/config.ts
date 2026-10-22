@@ -15,3 +15,9 @@ function clean(value: string | undefined): string | undefined {
   const v = value?.trim();
   return v ? v : undefined;
 }
+
+/**
+ * Where learners report problems, e.g. an AI tutor reply (Google Play AI-generated content policy).
+ * TODO: replace with the real support address before launch (same as the store listing).
+ */
+export const SUPPORT_EMAIL = 'support@example.com';
