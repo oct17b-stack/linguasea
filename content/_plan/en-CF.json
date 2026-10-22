@@ -1,0 +1,1580 @@
+{
+  "target": "en",
+  "stages": [
+    {
+      "id": "C",
+      "cefr": "A2",
+      "exam": "CEFR A2",
+      "minutes": 8,
+      "readerMinutes": 10,
+      "units": [
+        {
+          "id": "en-C1",
+          "title_th": "งานอดิเรก",
+          "goal_th": "เล่าเรื่องงานอดิเรกและบอกสิ่งที่ทำได้",
+          "scenario": "B is a senior student at a university club fair. Nam must talk about the hobbies she enjoys, say what she can and can't do, and choose a club to join.",
+          "lessons": [
+            {
+              "id": "en-C1-01",
+              "topic": "Free-time activities you enjoy",
+              "grammar": "like / love / enjoy + -ing (I love taking photos.)",
+              "items": [
+                {
+                  "id": "en.hobby",
+                  "text": "hobby",
+                  "reading": "ˈhɑːbi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.free-time",
+                  "text": "free time",
+                  "reading": "ˌfriː ˈtaɪm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.enjoy",
+                  "text": "enjoy",
+                  "reading": "ɪnˈdʒɔɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.take-photos",
+                  "text": "take photos",
+                  "reading": "ˌteɪk ˈfoʊtoʊz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.draw",
+                  "text": "draw",
+                  "reading": "drɔː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-02",
+              "topic": "Things you don't like doing",
+              "grammar": "don't like / hate / don't mind + -ing",
+              "items": [
+                {
+                  "id": "en.hate",
+                  "text": "hate",
+                  "reading": "heɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dont-mind",
+                  "text": "don't mind",
+                  "reading": "ˌdoʊnt ˈmaɪnd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.paint",
+                  "text": "paint",
+                  "reading": "peɪnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.video-game",
+                  "text": "video game",
+                  "reading": "ˈvɪdioʊ ˌɡeɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.board-game",
+                  "text": "board game",
+                  "reading": "ˈbɔːrd ˌɡeɪm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-03",
+              "topic": "Music and other skills",
+              "grammar": "can / can't for ability (I can play the guitar.)",
+              "items": [
+                {
+                  "id": "en.play-the-guitar",
+                  "text": "play the guitar",
+                  "reading": "ˌpleɪ ðə ɡɪˈtɑːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.piano",
+                  "text": "piano",
+                  "reading": "piˈænoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.instrument",
+                  "text": "instrument",
+                  "reading": "ˈɪnstrəmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chess",
+                  "text": "chess",
+                  "reading": "tʃɛs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-04",
+              "topic": "Asking what people can do",
+              "grammar": "Can you…? questions and short answers (Yes, I can. / No, I can't.)",
+              "items": [
+                {
+                  "id": "en.knit",
+                  "text": "knit",
+                  "reading": "nɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sew",
+                  "text": "sew",
+                  "reading": "soʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.skateboard",
+                  "text": "skateboard",
+                  "reading": "ˈskeɪtbɔːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.not-at-all",
+                  "text": "not at all",
+                  "reading": "ˌnɑːt ət ˈɔːl",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-05",
+              "topic": "Interests and talents",
+              "grammar": "be good at / be interested in + noun or -ing",
+              "items": [
+                {
+                  "id": "en.be-good-at",
+                  "text": "be good at",
+                  "reading": "bi ˈɡʊd æt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.be-interested-in",
+                  "text": "be interested in",
+                  "reading": "bi ˈɪntrəstɪd ɪn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.talent",
+                  "text": "talent",
+                  "reading": "ˈtælənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.photography",
+                  "text": "photography",
+                  "reading": "fəˈtɑːɡrəfi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-06",
+              "topic": "How often you do your hobbies",
+              "grammar": "How often…? + once / twice / three times a week",
+              "items": [
+                {
+                  "id": "en.once",
+                  "text": "once",
+                  "reading": "wʌns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.twice",
+                  "text": "twice",
+                  "reading": "twaɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.practice",
+                  "text": "practice",
+                  "reading": "ˈpræktɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.join",
+                  "text": "join",
+                  "reading": "dʒɔɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.club",
+                  "text": "club",
+                  "reading": "klʌb",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Club fair poster: the photo club, the music club and the board game club introduce themselves",
+              "items": [
+                {
+                  "id": "en.beginner",
+                  "text": "beginner",
+                  "reading": "bɪˈɡɪnər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.weekly",
+                  "text": "weekly",
+                  "reading": "ˈwiːkli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.camera",
+                  "text": "camera",
+                  "reading": "ˈkæmərə",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C1-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: her first afternoon with the photo club at a lake in the park",
+              "items": [
+                {
+                  "id": "en.nature",
+                  "text": "nature",
+                  "reading": "ˈneɪtʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sunset",
+                  "text": "sunset",
+                  "reading": "ˈsʌnsɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lake",
+                  "text": "lake",
+                  "reading": "leɪk",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-C2",
+          "title_th": "ร่างกายและการไปหาหมอ",
+          "goal_th": "บอกอาการป่วยและเข้าใจคำแนะนำของหมอได้",
+          "scenario": "B is a doctor at the university clinic. Nam must describe her symptoms, say when they started, and understand the doctor's advice about rest and medicine.",
+          "lessons": [
+            {
+              "id": "en-C2-01",
+              "topic": "Common illnesses",
+              "grammar": "have a + illness (I have a headache. / I have a cold.)",
+              "items": [
+                {
+                  "id": "en.headache",
+                  "text": "headache",
+                  "reading": "ˈhɛdeɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fever",
+                  "text": "fever",
+                  "reading": "ˈfiːvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.have-a-cold",
+                  "text": "have a cold",
+                  "reading": "ˌhæv ə ˈkoʊld",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sore-throat",
+                  "text": "sore throat",
+                  "reading": "ˌsɔːr ˈθroʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cough",
+                  "text": "cough",
+                  "reading": "kɔːf",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-02",
+              "topic": "Parts of the body",
+              "grammar": "my + body part + hurts (My back hurts.)",
+              "items": [
+                {
+                  "id": "en.hurt",
+                  "text": "hurt",
+                  "reading": "hɜːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.arm",
+                  "text": "arm",
+                  "reading": "ɑːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.leg",
+                  "text": "leg",
+                  "reading": "lɛɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.back",
+                  "text": "back",
+                  "reading": "bæk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stomach",
+                  "text": "stomach",
+                  "reading": "ˈstʌmək",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.knee",
+                  "text": "knee",
+                  "reading": "niː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-03",
+              "topic": "Saying how you feel",
+              "grammar": "What's the matter? + I feel + adjective",
+              "items": [
+                {
+                  "id": "en.whats-the-matter",
+                  "text": "What's the matter?",
+                  "reading": "wʌts ðə ˈmætər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.dizzy",
+                  "text": "dizzy",
+                  "reading": "ˈdɪzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ill",
+                  "text": "ill",
+                  "reading": "ɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.weak",
+                  "text": "weak",
+                  "reading": "wiːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.throw-up",
+                  "text": "throw up",
+                  "reading": "ˌθroʊ ˈʌp",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-04",
+              "topic": "The doctor's advice",
+              "grammar": "should / shouldn't for advice",
+              "items": [
+                {
+                  "id": "en.rest",
+                  "text": "rest",
+                  "reading": "rɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.medicine",
+                  "text": "medicine",
+                  "reading": "ˈmɛdəsən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stay-in-bed",
+                  "text": "stay in bed",
+                  "reading": "ˌsteɪ ɪn ˈbɛd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.advice",
+                  "text": "advice",
+                  "reading": "ədˈvaɪs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-05",
+              "topic": "Taking medicine",
+              "grammar": "imperatives for instructions (Take two pills. / Don't drive.)",
+              "items": [
+                {
+                  "id": "en.pill",
+                  "text": "pill",
+                  "reading": "pɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.three-times-a-day",
+                  "text": "three times a day",
+                  "reading": "ˌθriː taɪmz ə ˈdeɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.after-meals",
+                  "text": "after meals",
+                  "reading": "ˌæftər ˈmiːlz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.allergic",
+                  "text": "allergic",
+                  "reading": "əˈlɜːrdʒɪk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-06",
+              "topic": "Getting better",
+              "grammar": "well vs good (I don't feel well. / This medicine is good.)",
+              "items": [
+                {
+                  "id": "en.get-better",
+                  "text": "get better",
+                  "reading": "ˌɡɛt ˈbɛtər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.pain",
+                  "text": "pain",
+                  "reading": "peɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.flu",
+                  "text": "flu",
+                  "reading": "fluː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.get-well-soon",
+                  "text": "Get well soon!",
+                  "reading": "ˌɡɛt wɛl ˈsuːn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-r01",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "At the university clinic: Nam explains her symptoms to a nurse",
+              "items": [
+                {
+                  "id": "en.symptom",
+                  "text": "symptom",
+                  "reading": "ˈsɪmptəm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sneeze",
+                  "text": "sneeze",
+                  "reading": "sniːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.runny-nose",
+                  "text": "runny nose",
+                  "reading": "ˌrʌni ˈnoʊz",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C2-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Health center notice: how to avoid catching the flu",
+              "items": [
+                {
+                  "id": "en.catch",
+                  "text": "catch",
+                  "reading": "kætʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.mask",
+                  "text": "mask",
+                  "reading": "mæsk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cover-your-mouth",
+                  "text": "cover your mouth",
+                  "reading": "ˌkʌvər jər ˈmaʊθ",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-C3",
+          "title_th": "การเรียนและงานพิเศษ",
+          "goal_th": "เล่าเรื่องการเรียนและงานพิเศษ และบอกสิ่งที่ต้องทำได้",
+          "scenario": "B is Mr. Brown, Nam's English teacher. Nam must explain her weekly timetable and her part-time job, say what she has to do, and ask what she doesn't have to do for the course.",
+          "lessons": [
+            {
+              "id": "en-C3-01",
+              "topic": "University subjects",
+              "grammar": "have to / has to for obligation (I have to study math.)",
+              "items": [
+                {
+                  "id": "en.subject",
+                  "text": "subject",
+                  "reading": "ˈsʌbdʒɪkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.math",
+                  "text": "math",
+                  "reading": "mæθ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.history",
+                  "text": "history",
+                  "reading": "ˈhɪstəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.science",
+                  "text": "science",
+                  "reading": "ˈsaɪəns",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-02",
+              "topic": "Homework and exams",
+              "grammar": "don't have to / doesn't have to (no obligation)",
+              "items": [
+                {
+                  "id": "en.homework",
+                  "text": "homework",
+                  "reading": "ˈhoʊmwɜːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.exam",
+                  "text": "exam",
+                  "reading": "ɪɡˈzæm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pass",
+                  "text": "pass",
+                  "reading": "pæs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fail",
+                  "text": "fail",
+                  "reading": "feɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.grade",
+                  "text": "grade",
+                  "reading": "ɡreɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-03",
+              "topic": "Asking about the course",
+              "grammar": "Do I have to…? / Does she have to…? (questions)",
+              "items": [
+                {
+                  "id": "en.on-time",
+                  "text": "on time",
+                  "reading": "ɑːn ˈtaɪm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.absent",
+                  "text": "absent",
+                  "reading": "ˈæbsənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.attend",
+                  "text": "attend",
+                  "reading": "əˈtɛnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.assignment",
+                  "text": "assignment",
+                  "reading": "əˈsaɪnmənt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-04",
+              "topic": "Library rules",
+              "grammar": "must / mustn't for rules",
+              "items": [
+                {
+                  "id": "en.borrow",
+                  "text": "borrow",
+                  "reading": "ˈbɑːroʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.return",
+                  "text": "return",
+                  "reading": "rɪˈtɜːrn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rule",
+                  "text": "rule",
+                  "reading": "ruːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.noise",
+                  "text": "noise",
+                  "reading": "nɔɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-05",
+              "topic": "A part-time job",
+              "grammar": "present simple vs present continuous (I usually… / Today I'm…)",
+              "items": [
+                {
+                  "id": "en.part-time-job",
+                  "text": "part-time job",
+                  "reading": "ˌpɑːrt taɪm ˈdʒɑːb",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.customer",
+                  "text": "customer",
+                  "reading": "ˈkʌstəmər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.earn",
+                  "text": "earn",
+                  "reading": "ɜːrn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shift",
+                  "text": "shift",
+                  "reading": "ʃɪft",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.serve",
+                  "text": "serve",
+                  "reading": "sɜːrv",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-06",
+              "topic": "Your weekly timetable",
+              "grammar": "from … to / until for time ranges (I work from six until ten.)",
+              "items": [
+                {
+                  "id": "en.schedule",
+                  "text": "schedule",
+                  "reading": "ˈskɛdʒuːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.semester",
+                  "text": "semester",
+                  "reading": "səˈmɛstər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.break",
+                  "text": "break",
+                  "reading": "breɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lecture",
+                  "text": "lecture",
+                  "reading": "ˈlɛktʃər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-r01",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "An email from Mr. Brown about next week's exam",
+              "items": [
+                {
+                  "id": "en.prepare",
+                  "text": "prepare",
+                  "reading": "prɪˈpɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.chapter",
+                  "text": "chapter",
+                  "reading": "ˈtʃæptər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dictionary",
+                  "text": "dictionary",
+                  "reading": "ˈdɪkʃənɛri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C3-r02",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "A student who studies in the day and works at a café in the evening",
+              "items": [
+                {
+                  "id": "en.uniform",
+                  "text": "uniform",
+                  "reading": "ˈjuːnəfɔːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.save-money",
+                  "text": "save money",
+                  "reading": "ˌseɪv ˈmʌni",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.manager",
+                  "text": "manager",
+                  "reading": "ˈmænɪdʒər",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-C4",
+          "title_th": "แผนการ",
+          "goal_th": "บอกแผนการ ตัดสินใจ และให้สัญญาได้",
+          "scenario": "B is Emma, who is visiting Bangkok next month. Nam must find out Emma's plans, say what they are going to do together, and promise to help her.",
+          "lessons": [
+            {
+              "id": "en-C4-01",
+              "topic": "Plans for the weekend",
+              "grammar": "be going to for plans (I'm going to visit my aunt.)",
+              "items": [
+                {
+                  "id": "en.plan",
+                  "text": "plan",
+                  "reading": "plæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.relax",
+                  "text": "relax",
+                  "reading": "rɪˈlæks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.go-out",
+                  "text": "go out",
+                  "reading": "ˌɡoʊ ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sleep-in",
+                  "text": "sleep in",
+                  "reading": "ˌsliːp ˈɪn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-02",
+              "topic": "Asking about plans",
+              "grammar": "be going to: questions and negatives (Are you going to…? / I'm not going to…)",
+              "items": [
+                {
+                  "id": "en.trip",
+                  "text": "trip",
+                  "reading": "trɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.abroad",
+                  "text": "abroad",
+                  "reading": "əˈbrɔːd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.graduate",
+                  "text": "graduate",
+                  "reading": "ˈɡrædʒueɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pack",
+                  "text": "pack",
+                  "reading": "pæk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.suitcase",
+                  "text": "suitcase",
+                  "reading": "ˈsuːtkeɪs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-03",
+              "topic": "When will it happen?",
+              "grammar": "future time expressions (next month, in two weeks, the day after tomorrow)",
+              "items": [
+                {
+                  "id": "en.the-day-after-tomorrow",
+                  "text": "the day after tomorrow",
+                  "reading": "ðə ˌdeɪ ˌæftər təˈmɑːroʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.future",
+                  "text": "future",
+                  "reading": "ˈfjuːtʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.someday",
+                  "text": "someday",
+                  "reading": "ˈsʌmdeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.this-time-next-year",
+                  "text": "this time next year",
+                  "reading": "ˌðɪs ˌtaɪm nɛkst ˈjɪr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-04",
+              "topic": "Deciding and offering on the spot",
+              "grammar": "will for decisions made now and offers (I'll carry it for you.)",
+              "items": [
+                {
+                  "id": "en.decide",
+                  "text": "decide",
+                  "reading": "dɪˈsaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.carry",
+                  "text": "carry",
+                  "reading": "ˈkæri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.heavy",
+                  "text": "heavy",
+                  "reading": "ˈhɛvi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pick-up",
+                  "text": "pick up",
+                  "reading": "ˌpɪk ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.offer",
+                  "text": "offer",
+                  "reading": "ˈɔːfər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-05",
+              "topic": "Making promises",
+              "grammar": "will / won't for promises (I'll call you. / I won't forget.)",
+              "items": [
+                {
+                  "id": "en.promise",
+                  "text": "promise",
+                  "reading": "ˈprɑːmɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.forget",
+                  "text": "forget",
+                  "reading": "fərˈɡɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.remind",
+                  "text": "remind",
+                  "reading": "rɪˈmaɪnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.text",
+                  "text": "text",
+                  "reading": "tɛkst",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-06",
+              "topic": "Life after university",
+              "grammar": "time clauses: when / after / before + present simple for the future",
+              "items": [
+                {
+                  "id": "en.get-a-job",
+                  "text": "get a job",
+                  "reading": "ˌɡɛt ə ˈdʒɑːb",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.dream",
+                  "text": "dream",
+                  "reading": "driːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hope",
+                  "text": "hope",
+                  "reading": "hoʊp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.become",
+                  "text": "become",
+                  "reading": "bɪˈkʌm",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Emma's text messages about her flight and her plans in Bangkok",
+              "items": [
+                {
+                  "id": "en.cant-wait",
+                  "text": "can't wait",
+                  "reading": "ˌkænt ˈweɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.flight",
+                  "text": "flight",
+                  "reading": "flaɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.land",
+                  "text": "land",
+                  "reading": "lænd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C4-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's to-do list and diary for the week before Emma arrives",
+              "items": [
+                {
+                  "id": "en.to-do-list",
+                  "text": "to-do list",
+                  "reading": "təˈduː lɪst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.guest",
+                  "text": "guest",
+                  "reading": "ɡɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tidy",
+                  "text": "tidy",
+                  "reading": "ˈtaɪdi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-C5",
+          "title_th": "เรื่องที่ผ่านมา",
+          "goal_th": "เล่าเรื่องที่เกิดขึ้นแล้วและถามว่าคนอื่นทำอะไรมาได้",
+          "scenario": "B is Emma, who has just come back from a trip to the south of Thailand. Nam must ask what Emma did and tell her about her own weekend using the past simple.",
+          "lessons": [
+            {
+              "id": "en-C5-01",
+              "topic": "Where were you?",
+              "grammar": "was / were (Where were you? / It was amazing.)",
+              "items": [
+                {
+                  "id": "en.concert",
+                  "text": "concert",
+                  "reading": "ˈkɑːnsərt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.crowded",
+                  "text": "crowded",
+                  "reading": "ˈkraʊdɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.amazing",
+                  "text": "amazing",
+                  "reading": "əˈmeɪzɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.awful",
+                  "text": "awful",
+                  "reading": "ˈɔːfəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-02",
+              "topic": "An evening at home",
+              "grammar": "past simple regular verbs (-ed) and the three -ed sounds",
+              "items": [
+                {
+                  "id": "en.chat",
+                  "text": "chat",
+                  "reading": "tʃæt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.laugh",
+                  "text": "laugh",
+                  "reading": "læf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cry",
+                  "text": "cry",
+                  "reading": "kraɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.stay-up-late",
+                  "text": "stay up late",
+                  "reading": "ˌsteɪ ʌp ˈleɪt",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-03",
+              "topic": "A day out",
+              "grammar": "past simple irregular verbs (went, saw, had, took, bought)",
+              "items": [
+                {
+                  "id": "en.day-trip",
+                  "text": "day trip",
+                  "reading": "ˈdeɪ ˌtrɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.beach",
+                  "text": "beach",
+                  "reading": "biːtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.island",
+                  "text": "island",
+                  "reading": "ˈaɪlənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.souvenir",
+                  "text": "souvenir",
+                  "reading": "ˌsuːvəˈnɪr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spend",
+                  "text": "spend",
+                  "reading": "spɛnd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-04",
+              "topic": "Things that went wrong",
+              "grammar": "past simple negative: didn't + verb",
+              "items": [
+                {
+                  "id": "en.miss",
+                  "text": "miss",
+                  "reading": "mɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lose",
+                  "text": "lose",
+                  "reading": "luːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wallet",
+                  "text": "wallet",
+                  "reading": "ˈwɑːlɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.key",
+                  "text": "key",
+                  "reading": "kiː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-05",
+              "topic": "Asking about the weekend",
+              "grammar": "past simple questions: Did you…? / What did you do?",
+              "items": [
+                {
+                  "id": "en.have-fun",
+                  "text": "have fun",
+                  "reading": "ˌhæv ˈfʌn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.meet-up",
+                  "text": "meet up",
+                  "reading": "ˌmiːt ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.show",
+                  "text": "show",
+                  "reading": "ʃoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.zoo",
+                  "text": "zoo",
+                  "reading": "zuː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-06",
+              "topic": "When did it happen?",
+              "grammar": "past time expressions: ago, last…, in + year",
+              "items": [
+                {
+                  "id": "en.ago",
+                  "text": "ago",
+                  "reading": "əˈɡoʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.the-other-day",
+                  "text": "the other day",
+                  "reading": "ði ˈʌðər ˌdeɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.recently",
+                  "text": "recently",
+                  "reading": "ˈriːsəntli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.century",
+                  "text": "century",
+                  "reading": "ˈsɛntʃəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-the-past",
+                  "text": "in the past",
+                  "reading": "ɪn ðə ˈpæst",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-r01",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: a day trip to the old city of Ayutthaya",
+              "items": [
+                {
+                  "id": "en.ancient",
+                  "text": "ancient",
+                  "reading": "ˈeɪnʃənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.king",
+                  "text": "king",
+                  "reading": "kɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.capital",
+                  "text": "capital",
+                  "reading": "ˈkæpɪtəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C5-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "The day Emma lost her phone in a taxi, and how she got it back",
+              "items": [
+                {
+                  "id": "en.suddenly",
+                  "text": "suddenly",
+                  "reading": "ˈsʌdənli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.honest",
+                  "text": "honest",
+                  "reading": "ˈɑːnɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.give-back",
+                  "text": "give back",
+                  "reading": "ˌɡɪv ˈbæk",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-C6",
+          "title_th": "การเปรียบเทียบ",
+          "goal_th": "เปรียบเทียบสถานที่และสิ่งของ แล้วเลือกสิ่งที่ดีที่สุดได้",
+          "scenario": "B is Emma, who can't decide where to go on her next trip in Thailand. Nam must compare Bangkok, Chiang Mai and Phuket and recommend the best place for her.",
+          "lessons": [
+            {
+              "id": "en-C6-01",
+              "topic": "Comparing two cities",
+              "grammar": "comparative adjectives with -er + than (Chiang Mai is quieter than Bangkok.)",
+              "items": [
+                {
+                  "id": "en.quiet",
+                  "text": "quiet",
+                  "reading": "ˈkwaɪət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.noisy",
+                  "text": "noisy",
+                  "reading": "ˈnɔɪzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.safe",
+                  "text": "safe",
+                  "reading": "seɪf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.narrow",
+                  "text": "narrow",
+                  "reading": "ˈnæroʊ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-02",
+              "topic": "Comparing places to visit",
+              "grammar": "more + adjective + than; better / worse",
+              "items": [
+                {
+                  "id": "en.modern",
+                  "text": "modern",
+                  "reading": "ˈmɑːdərn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dangerous",
+                  "text": "dangerous",
+                  "reading": "ˈdeɪndʒərəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.comfortable",
+                  "text": "comfortable",
+                  "reading": "ˈkʌmftərbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.popular",
+                  "text": "popular",
+                  "reading": "ˈpɑːpjələr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.worse",
+                  "text": "worse",
+                  "reading": "wɜːrs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-03",
+              "topic": "The biggest and the highest",
+              "grammar": "superlative adjectives with -est (the biggest, the highest)",
+              "items": [
+                {
+                  "id": "en.mountain",
+                  "text": "mountain",
+                  "reading": "ˈmaʊntən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.river",
+                  "text": "river",
+                  "reading": "ˈrɪvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.high",
+                  "text": "high",
+                  "reading": "haɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.deep",
+                  "text": "deep",
+                  "reading": "diːp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-04",
+              "topic": "The most famous places",
+              "grammar": "the most / the least + adjective; the best / the worst",
+              "items": [
+                {
+                  "id": "en.famous",
+                  "text": "famous",
+                  "reading": "ˈfeɪməs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.attractive",
+                  "text": "attractive",
+                  "reading": "əˈtræktɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.worst",
+                  "text": "worst",
+                  "reading": "wɜːrst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.least",
+                  "text": "least",
+                  "reading": "liːst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-the-world",
+                  "text": "in the world",
+                  "reading": "ɪn ðə ˈwɜːrld",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-05",
+              "topic": "Just as good?",
+              "grammar": "as … as / not as … as",
+              "items": [
+                {
+                  "id": "en.quality",
+                  "text": "quality",
+                  "reading": "ˈkwɑːləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.strong",
+                  "text": "strong",
+                  "reading": "strɔːŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.weight",
+                  "text": "weight",
+                  "reading": "weɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.useful",
+                  "text": "useful",
+                  "reading": "ˈjuːsfəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-06",
+              "topic": "Same or different?",
+              "grammar": "the same as / different from / similar to",
+              "items": [
+                {
+                  "id": "en.similar",
+                  "text": "similar",
+                  "reading": "ˈsɪmələr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.compare",
+                  "text": "compare",
+                  "reading": "kəmˈpɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.difference",
+                  "text": "difference",
+                  "reading": "ˈdɪfrəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-common",
+                  "text": "in common",
+                  "reading": "ɪn ˈkɑːmən",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Bangkok, Chiang Mai or Phuket? A short travel article compares three places",
+              "items": [
+                {
+                  "id": "en.nightlife",
+                  "text": "nightlife",
+                  "reading": "ˈnaɪtlaɪf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.peaceful",
+                  "text": "peaceful",
+                  "reading": "ˈpiːsfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.scenery",
+                  "text": "scenery",
+                  "reading": "ˈsiːnəri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-C6-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Emma asks Nam to help her choose between two hostels",
+              "items": [
+                {
+                  "id": "en.hostel",
+                  "text": "hostel",
+                  "reading": "ˈhɑːstəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.location",
+                  "text": "location",
+                  "reading": "loʊˈkeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.review",
+                  "text": "review",
+                  "reading": "rɪˈvjuː",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

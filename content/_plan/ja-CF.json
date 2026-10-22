@@ -1,0 +1,2132 @@
+{
+  "target": "ja",
+  "stages": [
+    {
+      "id": "C",
+      "cefr": "A2",
+      "exam": "JLPT N4 (first half)",
+      "minutes": 8,
+      "readerMinutes": 10,
+      "units": [
+        {
+          "id": "ja-C1",
+          "title_th": "งานอดิเรก",
+          "goal_th": "เล่าเรื่องงานอดิเรก สิ่งที่ชอบทำ และสิ่งที่ทำได้",
+          "scenario": "B is Yuki, who is recruiting members for her university club at the club fair. Nam must talk about their hobbies, say what they did last weekend and what they can do (e.g. cook Thai food, play an instrument), then decide whether to join.",
+          "lessons": [
+            {
+              "id": "ja-C1-01",
+              "topic": "What Nam did in their free time last weekend",
+              "grammar": "〜ました／〜ませんでした (polite past of verbs)",
+              "items": [
+                {
+                  "id": "ja.shumi",
+                  "text": "しゅみ",
+                  "reading": "shumi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.karaoke",
+                  "text": "カラオケ",
+                  "reading": "karaoke",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.geemu",
+                  "text": "ゲーム",
+                  "reading": "gēmu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.doraibu",
+                  "text": "ドライブ",
+                  "reading": "doraibu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.asobi",
+                  "text": "あそび",
+                  "reading": "asobi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-02",
+              "topic": "Saying what you are good or not good at",
+              "grammar": "N が 得意です／苦手です (good at / weak at)",
+              "items": [
+                {
+                  "id": "ja.tokui",
+                  "text": "とくい",
+                  "reading": "tokui",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nigate",
+                  "text": "にがて",
+                  "reading": "nigate",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dansu",
+                  "text": "ダンス",
+                  "reading": "dansu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gakki",
+                  "text": "がっき",
+                  "reading": "gakki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-03",
+              "topic": "Hobby verbs in the dictionary form",
+              "grammar": "辞書形 (dictionary form) from the ます-form: groups 1, 2, 3",
+              "items": [
+                {
+                  "id": "ja.atsumeru",
+                  "text": "集める",
+                  "reading": "atsumeru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tanoshimu",
+                  "text": "楽しむ",
+                  "reading": "tanoshimu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sodateru",
+                  "text": "そだてる",
+                  "reading": "sodateru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.odoru",
+                  "text": "おどる",
+                  "reading": "odoru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.douga",
+                  "text": "動画",
+                  "reading": "dōga",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-04",
+              "topic": "Saying what you like doing",
+              "grammar": "V(辞書形) のが 好きです (nominaliser の)",
+              "items": [
+                {
+                  "id": "ja.shousetsu",
+                  "text": "しょうせつ",
+                  "reading": "shōsetsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.manga",
+                  "text": "マンガ",
+                  "reading": "manga",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.anime",
+                  "text": "アニメ",
+                  "reading": "anime",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dorama",
+                  "text": "ドラマ",
+                  "reading": "dorama",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dokusho",
+                  "text": "読書",
+                  "reading": "dokusho",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-05",
+              "topic": "Saying what you can do",
+              "grammar": "V(辞書形) ことが できます (can do)",
+              "items": [
+                {
+                  "id": "ja.suiei",
+                  "text": "すいえい",
+                  "reading": "suiei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.unten",
+                  "text": "運転",
+                  "reading": "unten",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sukii",
+                  "text": "スキー",
+                  "reading": "sukī",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.muetai",
+                  "text": "ムエタイ",
+                  "reading": "muetai",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-06",
+              "topic": "Introducing your hobby at a club",
+              "grammar": "趣味は V(辞書形) ことです (my hobby is …ing)",
+              "items": [
+                {
+                  "id": "ja.kyoumi",
+                  "text": "きょうみ",
+                  "reading": "kyōmi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.saakuru",
+                  "text": "サークル",
+                  "reading": "sākuru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.menbaa",
+                  "text": "メンバー",
+                  "reading": "menbā",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nakama",
+                  "text": "なかま",
+                  "reading": "nakama",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "A club recruitment poster: what the club does, practice days, beginners welcome",
+              "items": [
+                {
+                  "id": "ja.shoshinsha",
+                  "text": "しょしんしゃ",
+                  "reading": "shoshinsha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.katsudou",
+                  "text": "かつどう",
+                  "reading": "katsudō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sanka",
+                  "text": "さんか",
+                  "reading": "sanka",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C1-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary about the first practice at the dance club",
+              "items": [
+                {
+                  "id": "ja.senpai",
+                  "text": "せんぱい",
+                  "reading": "senpai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.isshoukenmei",
+                  "text": "いっしょうけんめい",
+                  "reading": "isshōkenmei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kinchou",
+                  "text": "きんちょう",
+                  "reading": "kinchō",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C2",
+          "title_th": "ร่างกายและการไปหาหมอ",
+          "goal_th": "บอกอาการป่วยกับหมอและเข้าใจวิธีกินยาได้",
+          "scenario": "B is a doctor at a clinic near the university. Nam must say where it hurts and since when, describe the symptoms, and check how and when to take the medicine.",
+          "lessons": [
+            {
+              "id": "ja-C2-01",
+              "topic": "Body parts and saying where it hurts",
+              "grammar": "N1 は N2 が 痛いです (body part + が + adjective)",
+              "items": [
+                {
+                  "id": "ja.kubi",
+                  "text": "くび",
+                  "reading": "kubi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ude",
+                  "text": "うで",
+                  "reading": "ude",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yubi",
+                  "text": "ゆび",
+                  "reading": "yubi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.senaka",
+                  "text": "せなか",
+                  "reading": "senaka",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nodo",
+                  "text": "のど",
+                  "reading": "nodo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-02",
+              "topic": "Describing symptoms",
+              "grammar": "〜が あります／〜が 出ます (熱が ある, せきが 出る)",
+              "items": [
+                {
+                  "id": "ja.netsu",
+                  "text": "ねつ",
+                  "reading": "netsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.seki",
+                  "text": "せき",
+                  "reading": "seki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hanamizu",
+                  "text": "はなみず",
+                  "reading": "hanamizu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.guai",
+                  "text": "ぐあい",
+                  "reading": "guai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kibun",
+                  "text": "きぶん",
+                  "reading": "kibun",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-03",
+              "topic": "Telling the school office you are sick",
+              "grammar": "〜から (giving a reason)",
+              "items": [
+                {
+                  "id": "ja.kesseki",
+                  "text": "けっせき",
+                  "reading": "kesseki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.chikoku",
+                  "text": "ちこく",
+                  "reading": "chikoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.renraku",
+                  "text": "れんらく",
+                  "reading": "renraku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.muri",
+                  "text": "むり",
+                  "reading": "muri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-04",
+              "topic": "Getting better or worse",
+              "grammar": "い-adj → 〜く なります／な-adj・N → 〜に なります (change)",
+              "items": [
+                {
+                  "id": "ja.naoru",
+                  "text": "なおる",
+                  "reading": "naoru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shinpai",
+                  "text": "しんぱい",
+                  "reading": "shinpai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.anshin",
+                  "text": "安心",
+                  "reading": "anshin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kega",
+                  "text": "けが",
+                  "reading": "kega",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.taoreru",
+                  "text": "たおれる",
+                  "reading": "taoreru",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-05",
+              "topic": "When to take the medicine",
+              "grammar": "N の 前に／N の 後で・V(辞書形) 前に",
+              "items": [
+                {
+                  "id": "ja.shokuji",
+                  "text": "食事",
+                  "reading": "shokuji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.chuusha",
+                  "text": "ちゅうしゃ",
+                  "reading": "chūsha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nyuuin",
+                  "text": "入院",
+                  "reading": "nyūin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.taiin",
+                  "text": "たいいん",
+                  "reading": "taiin",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-06",
+              "topic": "At the pharmacy: how much and how often",
+              "grammar": "〜に 〜回・〜ずつ (frequency and amount)",
+              "items": [
+                {
+                  "id": "ja.yakkyoku",
+                  "text": "やっきょく",
+                  "reading": "yakkyoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hokenshou",
+                  "text": "ほけんしょう",
+                  "reading": "hokenshō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sagaru",
+                  "text": "下がる",
+                  "reading": "sagaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nemui",
+                  "text": "ねむい",
+                  "reading": "nemui",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "A clinic's notice board: opening hours, what to bring, how to book",
+              "items": [
+                {
+                  "id": "ja.uketsuke",
+                  "text": "うけつけ",
+                  "reading": "uketsuke",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shinsatsu",
+                  "text": "しんさつ",
+                  "reading": "shinsatsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yoyaku",
+                  "text": "よやく",
+                  "reading": "yoyaku",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C2-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: catching a cold during exam week and getting better",
+              "items": [
+                {
+                  "id": "ja.kazegusuri",
+                  "text": "かぜぐすり",
+                  "reading": "kazegusuri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gussuri",
+                  "text": "ぐっすり",
+                  "reading": "gussuri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gaman",
+                  "text": "がまん",
+                  "reading": "gaman",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C3",
+          "title_th": "การเรียนและการทำงาน",
+          "goal_th": "เล่าเรื่องวิชาที่เรียน วิชาที่ชอบ และงานที่อยากทำในอนาคตได้",
+          "scenario": "B is Yamada-sensei in an advising session. Nam must talk about their major, compare their favourite and most difficult subjects, and say what job they want after graduating.",
+          "lessons": [
+            {
+              "id": "ja-C3-01",
+              "topic": "What you want to do after graduation",
+              "grammar": "〜たいです／〜たくないです (want to do)",
+              "items": [
+                {
+                  "id": "ja.sotsugyou",
+                  "text": "そつぎょう",
+                  "reading": "sotsugyō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shourai",
+                  "text": "しょうらい",
+                  "reading": "shōrai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shuushoku",
+                  "text": "しゅうしょく",
+                  "reading": "shūshoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shingaku",
+                  "text": "しんがく",
+                  "reading": "shingaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yume",
+                  "text": "ゆめ",
+                  "reading": "yume",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-02",
+              "topic": "Things you want for your studies",
+              "grammar": "N が ほしいです (want something)",
+              "items": [
+                {
+                  "id": "ja.kyoukasho",
+                  "text": "きょうかしょ",
+                  "reading": "kyōkasho",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.jiten",
+                  "text": "じてん",
+                  "reading": "jiten",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.keshigomu",
+                  "text": "けしゴム",
+                  "reading": "keshigomu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shougakukin",
+                  "text": "しょうがくきん",
+                  "reading": "shōgakukin",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-03",
+              "topic": "Going to the lab or the office to do something",
+              "grammar": "V(ます-stem) に 行きます／来ます (go/come to do)",
+              "items": [
+                {
+                  "id": "ja.kenkyuushitsu",
+                  "text": "研究室",
+                  "reading": "kenkyūshitsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.jimusho",
+                  "text": "じむしょ",
+                  "reading": "jimusho",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kougi",
+                  "text": "こうぎ",
+                  "reading": "kōgi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shiraberu",
+                  "text": "しらべる",
+                  "reading": "shiraberu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-04",
+              "topic": "Comparing school subjects",
+              "grammar": "A と B と どちらが 〜ですか・B の ほうが 〜です (comparison)",
+              "items": [
+                {
+                  "id": "ja.suugaku",
+                  "text": "すうがく",
+                  "reading": "sūgaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.rekishi",
+                  "text": "れきし",
+                  "reading": "rekishi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kagaku",
+                  "text": "かがく",
+                  "reading": "kagaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.chiri",
+                  "text": "地理",
+                  "reading": "chiri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.bungaku",
+                  "text": "文学",
+                  "reading": "bungaku",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-05",
+              "topic": "Your best subject and your grades",
+              "grammar": "〜の 中で 〜が いちばん 〜 (superlative)",
+              "items": [
+                {
+                  "id": "ja.senmon",
+                  "text": "せんもん",
+                  "reading": "senmon",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.seiseki",
+                  "text": "せいせき",
+                  "reading": "seiseki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ten",
+                  "text": "てん",
+                  "reading": "ten",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.goukaku",
+                  "text": "ごうかく",
+                  "reading": "gōkaku",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-06",
+              "topic": "Busy office workers: only one day off",
+              "grammar": "〜しか 〜ません (only, with a negative verb)",
+              "items": [
+                {
+                  "id": "ja.kaishain",
+                  "text": "会社員",
+                  "reading": "kaishain",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.koumuin",
+                  "text": "こうむいん",
+                  "reading": "kōmuin",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shachou",
+                  "text": "社長",
+                  "reading": "shachō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaigi",
+                  "text": "かいぎ",
+                  "reading": "kaigi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kyuuryou",
+                  "text": "きゅうりょう",
+                  "reading": "kyūryō",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Profiles of three students in Yamada-sensei's class: faculty, major and future dream",
+              "items": [
+                {
+                  "id": "ja.gakubu",
+                  "text": "がくぶ",
+                  "reading": "gakubu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ryuugaku",
+                  "text": "りゅうがく",
+                  "reading": "ryūgaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.keizai",
+                  "text": "けいざい",
+                  "reading": "keizai",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C3-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Nam and Yuki talk about the jobs they want: interpreter, tour guide, engineer",
+              "items": [
+                {
+                  "id": "ja.tsuuyaku",
+                  "text": "つうやく",
+                  "reading": "tsūyaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gaido",
+                  "text": "ガイド",
+                  "reading": "gaido",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.enjinia",
+                  "text": "エンジニア",
+                  "reading": "enjinia",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gijutsu",
+                  "text": "ぎじゅつ",
+                  "reading": "gijutsu",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C4",
+          "title_th": "ชวนและนัดหมาย",
+          "goal_th": "ชวนเพื่อนไปเที่ยว ตอบรับหรือปฏิเสธอย่างสุภาพ และนัดวันเวลาได้",
+          "scenario": "B is Yuki on the phone. Nam must invite Yuki to an event, agree on the day, time and meeting place, and politely turn down one of Yuki's suggestions.",
+          "lessons": [
+            {
+              "id": "ja-C4-01",
+              "topic": "Inviting a friend to a concert or an exhibition",
+              "grammar": "V-ませんか (inviting)",
+              "items": [
+                {
+                  "id": "ja.konsaato",
+                  "text": "コンサート",
+                  "reading": "konsāto",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sasou",
+                  "text": "さそう",
+                  "reading": "sasou",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.chiketto",
+                  "text": "チケット",
+                  "reading": "chiketto",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tenrankai",
+                  "text": "てんらんかい",
+                  "reading": "tenrankai",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-02",
+              "topic": "Suggesting what to do together",
+              "grammar": "V-ましょう／V-ましょうか (let's / shall we)",
+              "items": [
+                {
+                  "id": "ja.doubutsuen",
+                  "text": "どうぶつえん",
+                  "reading": "dōbutsuen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.bijutsukan",
+                  "text": "びじゅつかん",
+                  "reading": "bijutsukan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yuuenchi",
+                  "text": "ゆうえんち",
+                  "reading": "yūenchi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kenbutsu",
+                  "text": "見物",
+                  "reading": "kenbutsu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-03",
+              "topic": "Turning down an invitation politely",
+              "grammar": "〜が、〜 (but: softening a refusal)",
+              "items": [
+                {
+                  "id": "ja.youji",
+                  "text": "用事",
+                  "reading": "yōji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.zannen",
+                  "text": "ざんねん",
+                  "reading": "zannen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tsugou",
+                  "text": "つごう",
+                  "reading": "tsugō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mata-kondo",
+                  "text": "また今度",
+                  "reading": "mata kondo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "ja.kotowaru",
+                  "text": "ことわる",
+                  "reading": "kotowaru",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-04",
+              "topic": "Choosing a day and a meeting place",
+              "grammar": "N か N (or)・〜は どうですか (suggesting)",
+              "items": [
+                {
+                  "id": "ja.yotei",
+                  "text": "よてい",
+                  "reading": "yotei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.aku-vacant",
+                  "text": "空く",
+                  "reading": "aku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.machiawase",
+                  "text": "まちあわせ",
+                  "reading": "machiawase",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaisatsu",
+                  "text": "かいさつ",
+                  "reading": "kaisatsu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-05",
+              "topic": "Deadlines: answering by Friday",
+              "grammar": "〜までに (by) と 〜まで (until)",
+              "items": [
+                {
+                  "id": "ja.henji",
+                  "text": "へんじ",
+                  "reading": "henji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shimekiri",
+                  "text": "しめきり",
+                  "reading": "shimekiri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.okureru",
+                  "text": "おくれる",
+                  "reading": "okureru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.maniau",
+                  "text": "まにあう",
+                  "reading": "maniau",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-06",
+              "topic": "Agreeing on a time and how long it takes",
+              "grammar": "〜ごろ／〜くらい (approximately)",
+              "items": [
+                {
+                  "id": "ja.yakusoku",
+                  "text": "やくそく",
+                  "reading": "yakusoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sorosoro",
+                  "text": "そろそろ",
+                  "reading": "sorosoro",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.daitai",
+                  "text": "大体",
+                  "reading": "daitai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.konya",
+                  "text": "今夜",
+                  "reading": "kon'ya",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Chat messages: Nam and Yuki change their meeting place at the last minute",
+              "items": [
+                {
+                  "id": "ja.henkou",
+                  "text": "へんこう",
+                  "reading": "henkō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.higashiguchi",
+                  "text": "東口",
+                  "reading": "higashiguchi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mejirushi",
+                  "text": "めじるし",
+                  "reading": "mejirushi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C4-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "An email from Yamada-sensei inviting the class to a welcome party",
+              "items": [
+                {
+                  "id": "ja.shoutai",
+                  "text": "しょうたい",
+                  "reading": "shōtai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kangeikai",
+                  "text": "かんげいかい",
+                  "reading": "kangeikai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shusseki",
+                  "text": "しゅっせき",
+                  "reading": "shusseki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaijou",
+                  "text": "会場",
+                  "reading": "kaijō",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C5",
+          "title_th": "ขอร้องและขออนุญาต",
+          "goal_th": "ขอให้คนอื่นช่วย ขออนุญาต และเข้าใจกฎข้อห้ามในหอพักได้",
+          "scenario": "B is the manager of Nam's student dormitory on moving-in day. Nam must ask for help and information, ask permission (cooking late, having a guest) and check which dormitory rules must be followed.",
+          "lessons": [
+            {
+              "id": "ja-C5-01",
+              "topic": "Asking someone to do something (group 2 and 3 verbs)",
+              "grammar": "て-form of group 2 and 3 verbs + 〜てください",
+              "items": [
+                {
+                  "id": "ja.ryou",
+                  "text": "りょう",
+                  "reading": "ryō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.annai",
+                  "text": "あんない",
+                  "reading": "annai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.setsumei",
+                  "text": "せつめい",
+                  "reading": "setsumei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kinyuu",
+                  "text": "きにゅう",
+                  "reading": "kinyū",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-02",
+              "topic": "Asking for help (group 1 verbs)",
+              "grammar": "て-form of group 1 verbs (〜って・〜んで・〜いて・〜いで・〜して) + 〜てください",
+              "items": [
+                {
+                  "id": "ja.hakobu",
+                  "text": "運ぶ",
+                  "reading": "hakobu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tetsudau",
+                  "text": "てつだう",
+                  "reading": "tetsudau",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.katazukeru",
+                  "text": "かたづける",
+                  "reading": "katazukeru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.isogu",
+                  "text": "急ぐ",
+                  "reading": "isogu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.naosu",
+                  "text": "なおす",
+                  "reading": "naosu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-03",
+              "topic": "Asking permission in the dormitory",
+              "grammar": "〜ても いいですか (asking permission)",
+              "items": [
+                {
+                  "id": "ja.denshirenji",
+                  "text": "電子レンジ",
+                  "reading": "denshirenji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sentakuki",
+                  "text": "せんたくき",
+                  "reading": "sentakuki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.reibou",
+                  "text": "れいぼう",
+                  "reading": "reibō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.danbou",
+                  "text": "だんぼう",
+                  "reading": "danbō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.konsento",
+                  "text": "コンセント",
+                  "reading": "konsento",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-04",
+              "topic": "Things you must not do",
+              "grammar": "〜ては いけません (prohibition)",
+              "items": [
+                {
+                  "id": "ja.kisoku",
+                  "text": "きそく",
+                  "reading": "kisoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kinen",
+                  "text": "きんえん",
+                  "reading": "kin'en",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sawagu",
+                  "text": "さわぐ",
+                  "reading": "sawagu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.suteru",
+                  "text": "すてる",
+                  "reading": "suteru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.jama",
+                  "text": "じゃま",
+                  "reading": "jama",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-05",
+              "topic": "Asking people not to do something",
+              "grammar": "ない-form + 〜ないでください",
+              "items": [
+                {
+                  "id": "ja.sawaru",
+                  "text": "さわる",
+                  "reading": "sawaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.enryo",
+                  "text": "えんりょ",
+                  "reading": "enryo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.meiwaku",
+                  "text": "めいわく",
+                  "reading": "meiwaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kiken",
+                  "text": "きけん",
+                  "reading": "kiken",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.chuui",
+                  "text": "注意",
+                  "reading": "chūi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-06",
+              "topic": "Rules you must follow and things you need not do",
+              "grammar": "〜なければ なりません／〜なくても いいです",
+              "items": [
+                {
+                  "id": "ja.mongen",
+                  "text": "もんげん",
+                  "reading": "mongen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.touban",
+                  "text": "とうばん",
+                  "reading": "tōban",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hitsuyou",
+                  "text": "ひつよう",
+                  "reading": "hitsuyō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mamoru",
+                  "text": "まもる",
+                  "reading": "mamoru",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-r01",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "The dormitory rules sheet: rubbish, guests, curfew and quiet hours",
+              "items": [
+                {
+                  "id": "ja.kinshi",
+                  "text": "きんし",
+                  "reading": "kinshi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yonaka",
+                  "text": "夜中",
+                  "reading": "yonaka",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kyouyou",
+                  "text": "きょうよう",
+                  "reading": "kyōyō",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C5-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "A note from Yuki asking Nam to look after her plants and mail while she is away",
+              "items": [
+                {
+                  "id": "ja.rusu",
+                  "text": "るす",
+                  "reading": "rusu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.azukaru",
+                  "text": "あずかる",
+                  "reading": "azukaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kareru",
+                  "text": "かれる",
+                  "reading": "kareru",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C6",
+          "title_th": "เรื่องที่ผ่านมาและประสบการณ์",
+          "goal_th": "เล่าเรื่องการเที่ยวที่ผ่านมาและถามตอบเรื่องประสบการณ์ได้",
+          "scenario": "B is Yuki at a café after the holidays. Nam must describe a trip (what it was like and what they did) and ask and answer questions about experiences, such as whether Yuki has ever been to Thailand.",
+          "lessons": [
+            {
+              "id": "ja-C6-01",
+              "topic": "How the trip was",
+              "grammar": "い-adj past: 〜かったです／〜くなかったです",
+              "items": [
+                {
+                  "id": "ja.keshiki",
+                  "text": "けしき",
+                  "reading": "keshiki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.utsukushii",
+                  "text": "うつくしい",
+                  "reading": "utsukushii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.subarashii",
+                  "text": "すばらしい",
+                  "reading": "subarashii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mezurashii",
+                  "text": "めずらしい",
+                  "reading": "mezurashii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hidoi",
+                  "text": "ひどい",
+                  "reading": "hidoi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-02",
+              "topic": "Places you visited and what they were like",
+              "grammar": "な-adj・N past: 〜でした／〜じゃありませんでした",
+              "items": [
+                {
+                  "id": "ja.ryokan",
+                  "text": "旅館",
+                  "reading": "ryokan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.onsen",
+                  "text": "おんせん",
+                  "reading": "onsen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.jinja",
+                  "text": "じんじゃ",
+                  "reading": "jinja",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.otera",
+                  "text": "おてら",
+                  "reading": "otera",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-03",
+              "topic": "Writing about yesterday in the plain past",
+              "grammar": "た-form (plain past): 行った・食べた・した",
+              "items": [
+                {
+                  "id": "ja.nikki",
+                  "text": "にっき",
+                  "reading": "nikki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.omoide",
+                  "text": "思い出",
+                  "reading": "omoide",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mukashi",
+                  "text": "むかし",
+                  "reading": "mukashi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.utsusu",
+                  "text": "写す",
+                  "reading": "utsusu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hisashiburi",
+                  "text": "ひさしぶり",
+                  "reading": "hisashiburi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-04",
+              "topic": "Have you ever …?",
+              "grammar": "〜たことが あります (experience)",
+              "items": [
+                {
+                  "id": "ja.keiken",
+                  "text": "けいけん",
+                  "reading": "keiken",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ichido",
+                  "text": "一度",
+                  "reading": "ichido",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kimono",
+                  "text": "着物",
+                  "reading": "kimono",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shinkansen",
+                  "text": "しんかんせん",
+                  "reading": "shinkansen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nandomo",
+                  "text": "何度も",
+                  "reading": "nandomo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-05",
+              "topic": "Things you did on holiday",
+              "grammar": "〜たり 〜たり します (listing actions)",
+              "items": [
+                {
+                  "id": "ja.omiyage",
+                  "text": "おみやげ",
+                  "reading": "omiyage",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tomaru",
+                  "text": "とまる",
+                  "reading": "tomaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaigan",
+                  "text": "かいがん",
+                  "reading": "kaigan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kankou",
+                  "text": "かんこう",
+                  "reading": "kankō",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-06",
+              "topic": "In what order things happened",
+              "grammar": "〜た 後で／〜てから (after doing)",
+              "items": [
+                {
+                  "id": "ja.touchaku",
+                  "text": "とうちゃく",
+                  "reading": "tōchaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shuppatsu",
+                  "text": "出発",
+                  "reading": "shuppatsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kuukou",
+                  "text": "くうこう",
+                  "reading": "kūkō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tochuu",
+                  "text": "とちゅう",
+                  "reading": "tochū",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-r01",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's travel diary: two autumn days in Kyoto with Yuki",
+              "items": [
+                {
+                  "id": "ja.kouyou",
+                  "text": "こうよう",
+                  "reading": "kōyō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sekaiisan",
+                  "text": "せかいいさん",
+                  "reading": "sekaiisan",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gyouretsu",
+                  "text": "ぎょうれつ",
+                  "reading": "gyōretsu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C6-r02",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "A childhood memory: the day Nam got lost at a market in Bangkok",
+              "items": [
+                {
+                  "id": "ja.maigo",
+                  "text": "まいご",
+                  "reading": "maigo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.naku",
+                  "text": "なく",
+                  "reading": "naku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mitsukeru",
+                  "text": "見つける",
+                  "reading": "mitsukeru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ichiba",
+                  "text": "いちば",
+                  "reading": "ichiba",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C7",
+          "title_th": "คุยกับเพื่อนแบบกันเอง",
+          "goal_th": "คุยกับเพื่อนด้วยภาษาแบบกันเอง (รูปธรรมดา) ได้อย่างเป็นธรรมชาติ",
+          "scenario": "B is Yuki chatting with Nam over lunch. Nam must switch to plain (casual) forms to talk about plans and yesterday, ask questions with 〜の？ and explain things with 〜んだ.",
+          "lessons": [
+            {
+              "id": "ja-C7-01",
+              "topic": "Casual yes/no questions with friends",
+              "grammar": "Plain non-past of verbs in casual speech (行く？― うん、行く／ううん、行かない)",
+              "items": [
+                {
+                  "id": "ja.un",
+                  "text": "うん",
+                  "reading": "un",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.uun",
+                  "text": "ううん",
+                  "reading": "ūn",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.boku",
+                  "text": "ぼく",
+                  "reading": "boku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kimi",
+                  "text": "きみ",
+                  "reading": "kimi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yappari",
+                  "text": "やっぱり",
+                  "reading": "yappari",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-02",
+              "topic": "What did you do yesterday? (casual)",
+              "grammar": "Plain past in casual speech: 〜た／〜なかった",
+              "items": [
+                {
+                  "id": "ja.kare",
+                  "text": "かれ",
+                  "reading": "kare",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kanojo",
+                  "text": "かのじょ",
+                  "reading": "kanojo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sakki",
+                  "text": "さっき",
+                  "reading": "sakki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.konoaida",
+                  "text": "この間",
+                  "reading": "konoaida",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nebou",
+                  "text": "ねぼう",
+                  "reading": "nebō",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-03",
+              "topic": "Describing things casually",
+              "grammar": "Plain forms of adjectives and nouns (高い・高くない・高かった／静かだ・静かじゃない・静かだった)",
+              "items": [
+                {
+                  "id": "ja.sugoi",
+                  "text": "すごい",
+                  "reading": "sugoi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kakkoii",
+                  "text": "かっこいい",
+                  "reading": "kakkoii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.zuibun",
+                  "text": "ずいぶん",
+                  "reading": "zuibun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.okashii",
+                  "text": "おかしい",
+                  "reading": "okashii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hen",
+                  "text": "へん",
+                  "reading": "hen",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-04",
+              "topic": "Asking and explaining casually",
+              "grammar": "Casual 〜の？／〜んだ (asking for and giving explanations)",
+              "items": [
+                {
+                  "id": "ja.jitsuha",
+                  "text": "じつは",
+                  "reading": "jitsuha",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.riyuu",
+                  "text": "りゆう",
+                  "reading": "riyū",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.datte",
+                  "text": "だって",
+                  "reading": "datte",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.betsuni",
+                  "text": "別に",
+                  "reading": "betsuni",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-05",
+              "topic": "Explaining a problem politely",
+              "grammar": "〜んです (どうしたんですか・〜んです)",
+              "items": [
+                {
+                  "id": "ja.wasuremono",
+                  "text": "わすれもの",
+                  "reading": "wasuremono",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.otosu",
+                  "text": "おとす",
+                  "reading": "otosu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nakunaru",
+                  "text": "なくなる",
+                  "reading": "nakunaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shippai",
+                  "text": "しっぱい",
+                  "reading": "shippai",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-06",
+              "topic": "Asking a friend for small favours",
+              "grammar": "Casual requests: 〜て／〜ないで",
+              "items": [
+                {
+                  "id": "ja.choudai",
+                  "text": "ちょうだい",
+                  "reading": "chōdai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.okosu",
+                  "text": "起こす",
+                  "reading": "okosu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tsureru",
+                  "text": "つれる",
+                  "reading": "tsureru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mochiron",
+                  "text": "もちろん",
+                  "reading": "mochiron",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "A casual chat between Nam and Yuki planning to see a film",
+              "items": [
+                {
+                  "id": "ja.ryoukai",
+                  "text": "りょうかい",
+                  "reading": "ryōkai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kidoku",
+                  "text": "きどく",
+                  "reading": "kidoku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sutanpu",
+                  "text": "スタンプ",
+                  "reading": "sutanpu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C7-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Overheard on campus: two students talk casually about a test and a part-time job",
+              "items": [
+                {
+                  "id": "ja.tetsuya",
+                  "text": "てつや",
+                  "reading": "tetsuya",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.zenzen",
+                  "text": "ぜんぜん",
+                  "reading": "zenzen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kekkyoku",
+                  "text": "けっきょく",
+                  "reading": "kekkyoku",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ja-C8",
+          "title_th": "ฤดูกาลและสภาพอากาศ",
+          "goal_th": "พูดถึงฤดูกาลและพยากรณ์อากาศ และวางแผนตามสภาพอากาศได้",
+          "scenario": "B is Yuki planning a weekend outing with Nam. Nam must check the weather forecast with her, say what the weather may be like and suggest a plan for both rain and sunshine.",
+          "lessons": [
+            {
+              "id": "ja-C8-01",
+              "topic": "Understanding the weather forecast",
+              "grammar": "〜でしょう (probably: forecasts)",
+              "items": [
+                {
+                  "id": "ja.tenkiyohou",
+                  "text": "てんきよほう",
+                  "reading": "tenkiyohō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kisetsu",
+                  "text": "きせつ",
+                  "reading": "kisetsu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.taifuu",
+                  "text": "台風",
+                  "reading": "taifū",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaminari",
+                  "text": "かみなり",
+                  "reading": "kaminari",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kion",
+                  "text": "きおん",
+                  "reading": "kion",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-02",
+              "topic": "Maybe it will rain",
+              "grammar": "〜かもしれません (maybe)",
+              "items": [
+                {
+                  "id": "ja.tsuyu",
+                  "text": "つゆ",
+                  "reading": "tsuyu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shikke",
+                  "text": "しっけ",
+                  "reading": "shikke",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mushiatsui",
+                  "text": "むしあつい",
+                  "reading": "mushiatsui",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.yamu",
+                  "text": "止む",
+                  "reading": "yamu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-03",
+              "topic": "What is happening outside right now",
+              "grammar": "〜ています (action in progress: 雨が 降っています)",
+              "items": [
+                {
+                  "id": "ja.kumo",
+                  "text": "くも",
+                  "reading": "kumo",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hikaru",
+                  "text": "ひかる",
+                  "reading": "hikaru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tsumoru",
+                  "text": "つもる",
+                  "reading": "tsumoru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.nureru",
+                  "text": "ぬれる",
+                  "reading": "nureru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.niji",
+                  "text": "にじ",
+                  "reading": "niji",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-04",
+              "topic": "What you do when it is hot or cold",
+              "grammar": "〜とき (when)",
+              "items": [
+                {
+                  "id": "ja.hieru",
+                  "text": "ひえる",
+                  "reading": "hieru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ase",
+                  "text": "あせ",
+                  "reading": "ase",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hiyake",
+                  "text": "ひやけ",
+                  "reading": "hiyake",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.senpuuki",
+                  "text": "せんぷうき",
+                  "reading": "senpūki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-05",
+              "topic": "Describing how it rains and changes",
+              "grammar": "Adjective → adverb: 〜く／〜に + verb (強く 降る, 静かに 降る)",
+              "items": [
+                {
+                  "id": "ja.hageshii",
+                  "text": "はげしい",
+                  "reading": "hageshii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kyuuni",
+                  "text": "急に",
+                  "reading": "kyūni",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.totsuzen",
+                  "text": "とつぜん",
+                  "reading": "totsuzen",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sukkari",
+                  "text": "すっかり",
+                  "reading": "sukkari",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-06",
+              "topic": "Why you like a season",
+              "grammar": "〜し、〜し (listing reasons)",
+              "items": [
+                {
+                  "id": "ja.sakura",
+                  "text": "さくら",
+                  "reading": "sakura",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hanami",
+                  "text": "花見",
+                  "reading": "hanami",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shiki",
+                  "text": "しき",
+                  "reading": "shiki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sugosu",
+                  "text": "すごす",
+                  "reading": "sugosu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Seasons in Japan and in Thailand: what people do in each",
+              "items": [
+                {
+                  "id": "ja.kikou",
+                  "text": "きこう",
+                  "reading": "kikō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.uki",
+                  "text": "うき",
+                  "reading": "uki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kanki",
+                  "text": "かんき",
+                  "reading": "kanki",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "ja-C8-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "A university notice: classes cancelled because a typhoon is coming",
+              "items": [
+                {
+                  "id": "ja.kyuukou",
+                  "text": "きゅうこう",
+                  "reading": "kyūkō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.keihou",
+                  "text": "けいほう",
+                  "reading": "keihō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.gaishutsu",
+                  "text": "外出",
+                  "reading": "gaishutsu",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
