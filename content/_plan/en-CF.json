@@ -247,8 +247,8 @@
             {
               "id": "en-C1-r02",
               "kind": "reader",
-              "genre": "diary",
-              "topic": "Nam's diary: her first afternoon with the photo club at a lake in the park",
+              "genre": "message",
+              "topic": "Nam's messages to Emma during her first afternoon with the photo club at a lake",
               "items": [
                 {
                   "id": "en.nature",
@@ -276,7 +276,7 @@
           "id": "en-C2",
           "title_th": "ร่างกายและการไปหาหมอ",
           "goal_th": "บอกอาการป่วยและเข้าใจคำแนะนำของหมอได้",
-          "scenario": "B is a doctor at the university clinic. Nam must describe her symptoms, say when they started, and understand the doctor's advice about rest and medicine.",
+          "scenario": "B is a doctor at the university clinic. Nam must describe her symptoms, answer the doctor's questions, and understand the advice about rest and medicine.",
           "lessons": [
             {
               "id": "en-C2-01",
@@ -1169,10 +1169,10 @@
               "grammar": "past simple negative: didn't + verb",
               "items": [
                 {
-                  "id": "en.miss",
-                  "text": "miss",
-                  "reading": "mɪs",
-                  "kind": "word"
+                  "id": "en.miss-the-bus",
+                  "text": "miss the bus",
+                  "reading": "ˌmɪs ðə ˈbʌs",
+                  "kind": "phrase"
                 },
                 {
                   "id": "en.lose",
@@ -1212,15 +1212,15 @@
                   "kind": "phrase"
                 },
                 {
-                  "id": "en.show",
-                  "text": "show",
-                  "reading": "ʃoʊ",
+                  "id": "en.musical",
+                  "text": "musical",
+                  "reading": "ˈmjuːzɪkəl",
                   "kind": "word"
                 },
                 {
-                  "id": "en.zoo",
-                  "text": "zoo",
-                  "reading": "zuː",
+                  "id": "en.theme-park",
+                  "text": "theme park",
+                  "reading": "ˈθiːm ˌpɑːrk",
                   "kind": "word"
                 }
               ]
@@ -1549,7 +1549,7 @@
             {
               "id": "en-C6-r02",
               "kind": "reader",
-              "genre": "message",
+              "genre": "dialogue-text",
               "topic": "Emma asks Nam to help her choose between two hostels",
               "items": [
                 {
@@ -2789,8 +2789,8 @@
             {
               "id": "en-C11-r01",
               "kind": "reader",
-              "genre": "profile",
-              "topic": "A young Thai badminton player who trains every morning before school",
+              "genre": "diary",
+              "topic": "A week from the training diary of a young Thai badminton player",
               "items": [
                 {
                   "id": "en.champion",
@@ -3019,9 +3019,9 @@
                   "kind": "phrase"
                 },
                 {
-                  "id": "en.card",
-                  "text": "card",
-                  "reading": "kɑːrd",
+                  "id": "en.greeting-card",
+                  "text": "greeting card",
+                  "reading": "ˈɡriːtɪŋ ˌkɑːrd",
                   "kind": "word"
                 },
                 {
@@ -6247,9 +6247,9 @@
                   "kind": "phrase"
                 },
                 {
-                  "id": "en.talkative",
-                  "text": "talkative",
-                  "reading": "ˈtɔːkətɪv",
+                  "id": "en.clever",
+                  "text": "clever",
+                  "reading": "ˈklɛvər",
                   "kind": "word"
                 },
                 {
@@ -6333,9 +6333,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.sensitive",
-                  "text": "sensitive",
-                  "reading": "ˈsɛnsətɪv",
+                  "id": "en.brave",
+                  "text": "brave",
+                  "reading": "breɪv",
                   "kind": "word"
                 }
               ]
@@ -7172,9 +7172,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.catchy",
-                  "text": "catchy",
-                  "reading": "ˈkætʃi",
+                  "id": "en.singer",
+                  "text": "singer",
+                  "reading": "ˈsɪŋər",
                   "kind": "word"
                 },
                 {
@@ -7986,9 +7986,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.bluetooth",
-                  "text": "Bluetooth",
-                  "reading": "ˈbluːtuːθ",
+                  "id": "en.wireless",
+                  "text": "wireless",
+                  "reading": "ˈwaɪərləs",
                   "kind": "word"
                 }
               ]
@@ -9544,10 +9544,10 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.detention",
-                  "text": "detention",
-                  "reading": "dɪˈtɛnʃən",
-                  "kind": "word"
+                  "id": "en.skip-class",
+                  "text": "skip class",
+                  "reading": "ˌskɪp ˈklæs",
+                  "kind": "phrase"
                 }
               ]
             },
@@ -10917,9 +10917,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.patent",
-                  "text": "patent",
-                  "reading": "ˈpætənt",
+                  "id": "en.design",
+                  "text": "design",
+                  "reading": "dɪˈzaɪn",
                   "kind": "word"
                 },
                 {
@@ -11197,9 +11197,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.hoodie",
-                  "text": "hoodie",
-                  "reading": "ˈhʊdi",
+                  "id": "en.cap",
+                  "text": "cap",
+                  "reading": "kæp",
                   "kind": "word"
                 }
               ]
@@ -11273,9 +11273,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.alibi",
-                  "text": "alibi",
-                  "reading": "ˈæləbaɪ",
+                  "id": "en.truth",
+                  "text": "truth",
+                  "reading": "truːθ",
                   "kind": "word"
                 }
               ]
@@ -11290,8 +11290,8 @@
           "lessons": [
             {
               "id": "en-E9-01",
-              "topic": "Apps allow you to share photos",
-              "grammar": "allow / encourage + object + to-infinitive (The app allows you to edit videos.)",
+              "topic": "Because of social media…",
+              "grammar": "because of / due to + noun (Because of social media, many people sleep less.)",
               "items": [
                 {
                   "id": "en.social-media",
@@ -11649,10 +11649,10 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.hidden-gem",
-                  "text": "hidden gem",
-                  "reading": "ˌhɪdən ˈdʒɛm",
-                  "kind": "phrase"
+                  "id": "en.landmark",
+                  "text": "landmark",
+                  "reading": "ˈlændmɑːrk",
+                  "kind": "word"
                 },
                 {
                   "id": "en.breathtaking",
@@ -11760,10 +11760,10 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.inland",
-                  "text": "inland",
-                  "reading": "ˈɪnlænd",
-                  "kind": "word"
+                  "id": "en.in-the-middle-of",
+                  "text": "in the middle of",
+                  "reading": "ɪn ðə ˈmɪdəl əv",
+                  "kind": "phrase"
                 },
                 {
                   "id": "en.remote",
@@ -12041,9 +12041,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.self-taught",
-                  "text": "self-taught",
-                  "reading": "ˌsɛlf ˈtɔːt",
+                  "id": "en.competitive",
+                  "text": "competitive",
+                  "reading": "kəmˈpɛtətɪv",
                   "kind": "word"
                 }
               ]
@@ -12232,7 +12232,7 @@
                 {
                   "id": "en.worry",
                   "text": "worry",
-                  "reading": "ˈwʌri",
+                  "reading": "ˈwɜːri",
                   "kind": "word"
                 },
                 {
@@ -12508,8 +12508,8 @@
           "lessons": [
             {
               "id": "en-E13-01",
-              "topic": "The ad persuaded me to buy it",
-              "grammar": "persuade / convince + object + to-infinitive (The ad persuaded me to buy it.)",
+              "topic": "The ad persuaded me to buy it (review)",
+              "grammar": "verb + object + to-infinitive (review with new verbs): persuade, convince, remind, warn someone to…",
               "items": [
                 {
                   "id": "en.advertisement",
@@ -12684,9 +12684,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.merchandise",
-                  "text": "merchandise",
-                  "reading": "ˈmɜːrtʃəndaɪs",
+                  "id": "en.goods",
+                  "text": "goods",
+                  "reading": "ɡʊdz",
                   "kind": "word"
                 },
                 {
@@ -13671,9 +13671,9 @@
                   "kind": "phrase"
                 },
                 {
-                  "id": "en.spooky",
-                  "text": "spooky",
-                  "reading": "ˈspuːki",
+                  "id": "en.ghost-story",
+                  "text": "ghost story",
+                  "reading": "ˈɡoʊst ˌstɔːri",
                   "kind": "word"
                 }
               ]
@@ -13707,6 +13707,4719 @@
                   "text": "solve",
                   "reading": "sɑːlv",
                   "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "cefr": "B1",
+      "exam": "CEFR B1+",
+      "minutes": 11,
+      "readerMinutes": 15,
+      "units": [
+        {
+          "id": "en-F1",
+          "title_th": "การสมัครงานและสัมภาษณ์งาน",
+          "goal_th": "ตอบคำถามสัมภาษณ์งาน อธิบายประสบการณ์และทักษะ และถามเกี่ยวกับตำแหน่งงานได้",
+          "scenario": "B is an HR manager interviewing Nam for a graduate trainee position at an international company. Nam must describe her education, skills and experience, explain why she wants the job, and ask questions about the position.",
+          "lessons": [
+            {
+              "id": "en-F1-01",
+              "topic": "They asked me why I wanted the job",
+              "grammar": "reported wh-questions (They asked me why I wanted the job.)",
+              "items": [
+                {
+                  "id": "en.candidate",
+                  "text": "candidate",
+                  "reading": "ˈkændɪdət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.position",
+                  "text": "position",
+                  "reading": "pəˈzɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vacancy",
+                  "text": "vacancy",
+                  "reading": "ˈveɪkənsi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.applicant",
+                  "text": "applicant",
+                  "reading": "ˈæplɪkənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.interviewer",
+                  "text": "interviewer",
+                  "reading": "ˈɪntərvjuːər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-02",
+              "topic": "Could you tell me what the job involves?",
+              "grammar": "indirect questions (Could you tell me what…? / I'd like to know whether…)",
+              "items": [
+                {
+                  "id": "en.involve",
+                  "text": "involve",
+                  "reading": "ɪnˈvɑːlv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.duty",
+                  "text": "duty",
+                  "reading": "ˈduːti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.responsibility",
+                  "text": "responsibility",
+                  "reading": "rɪˌspɑːnsəˈbɪləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.working-hours",
+                  "text": "working hours",
+                  "reading": "ˈwɜːrkɪŋ ˌaʊərz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.trainee",
+                  "text": "trainee",
+                  "reading": "ˌtreɪˈniː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-03",
+              "topic": "I managed to increase sales",
+              "grammar": "manage to / succeed in + -ing (I managed to… / I succeeded in increasing sales.)",
+              "items": [
+                {
+                  "id": "en.achieve",
+                  "text": "achieve",
+                  "reading": "əˈtʃiːv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.target",
+                  "text": "target",
+                  "reading": "ˈtɑːrɡɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.increase",
+                  "text": "increase",
+                  "reading": "ɪnˈkriːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.result",
+                  "text": "result",
+                  "reading": "rɪˈzʌlt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.succeed",
+                  "text": "succeed",
+                  "reading": "səkˈsiːd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-04",
+              "topic": "I was in charge of training new staff",
+              "grammar": "be responsible for / be in charge of + noun or -ing",
+              "items": [
+                {
+                  "id": "en.responsible-for",
+                  "text": "responsible for",
+                  "reading": "rɪˈspɑːnsəbəl fɔːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.in-charge-of",
+                  "text": "in charge of",
+                  "reading": "ɪn ˈtʃɑːrdʒ əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.supervise",
+                  "text": "supervise",
+                  "reading": "ˈsuːpərvaɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.manage",
+                  "text": "manage",
+                  "reading": "ˈmænɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.handle",
+                  "text": "handle",
+                  "reading": "ˈhændəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-05",
+              "topic": "I've worked on three projects so far",
+              "grammar": "so far / up to now with the present perfect",
+              "items": [
+                {
+                  "id": "en.so-far",
+                  "text": "so far",
+                  "reading": "ˌsoʊ ˈfɑːr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.qualification",
+                  "text": "qualification",
+                  "reading": "ˌkwɑːlɪfɪˈkeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.qualified",
+                  "text": "qualified",
+                  "reading": "ˈkwɑːlɪfaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.skilled",
+                  "text": "skilled",
+                  "reading": "skɪld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.work-experience",
+                  "text": "work experience",
+                  "reading": "ˈwɜːrk ɪkˌspɪriəns",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-06",
+              "topic": "Your résumé in English (review)",
+              "grammar": "past simple vs present perfect for work history (review)",
+              "items": [
+                {
+                  "id": "en.resume",
+                  "text": "résumé",
+                  "reading": "ˈrɛzəmeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cover-letter",
+                  "text": "cover letter",
+                  "reading": "ˈkʌvər ˌlɛtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reference",
+                  "text": "reference",
+                  "reading": "ˈrɛfərəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.employer",
+                  "text": "employer",
+                  "reading": "ɪmˈplɔɪər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.employee",
+                  "text": "employee",
+                  "reading": "ɪmˈplɔɪiː",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-r01",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "An email inviting Nam to a job interview",
+              "items": [
+                {
+                  "id": "en.select",
+                  "text": "select",
+                  "reading": "sɪˈlɛkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.panel",
+                  "text": "panel",
+                  "reading": "ˈpænəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.copy",
+                  "text": "copy",
+                  "reading": "ˈkɑːpi",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dress-smartly",
+                  "text": "dress smartly",
+                  "reading": "ˌdrɛs ˈsmɑːrtli",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F1-r02",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Ten common mistakes people make in job interviews",
+              "items": [
+                {
+                  "id": "en.handshake",
+                  "text": "handshake",
+                  "reading": "ˈhændʃeɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.body-language",
+                  "text": "body language",
+                  "reading": "ˈbɑːdi ˌlæŋɡwɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.weakness",
+                  "text": "weakness",
+                  "reading": "ˈwiːknəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.strength",
+                  "text": "strength",
+                  "reading": "strɛŋθ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F2",
+          "title_th": "จดหมายทางการและการร้องเรียน",
+          "goal_th": "เขียนและพูดร้องเรียนอย่างเป็นทางการ อ้างอิงรายละเอียด และขอการชดเชยได้",
+          "scenario": "B is a customer relations manager at an online travel company. The hotel Nam booked was not as described; she must explain the problem formally, refer to her booking details, and ask for compensation.",
+          "lessons": [
+            {
+              "id": "en-F2-01",
+              "topic": "I would be grateful if you could…",
+              "grammar": "formal requests: I would be grateful if you could… / I would appreciate it if…",
+              "items": [
+                {
+                  "id": "en.formal",
+                  "text": "formal",
+                  "reading": "ˈfɔːrməl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.informal",
+                  "text": "informal",
+                  "reading": "ɪnˈfɔːrməl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.request",
+                  "text": "request",
+                  "reading": "rɪˈkwɛst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inquiry",
+                  "text": "inquiry",
+                  "reading": "ˈɪnkwəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dear-sir-or-madam",
+                  "text": "Dear Sir or Madam",
+                  "reading": "ˌdɪr ˌsɜːr ər ˈmædəm",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-02",
+              "topic": "I was told that the room had a sea view",
+              "grammar": "passive with reporting verbs: I was told that… / I was promised that…",
+              "items": [
+                {
+                  "id": "en.description",
+                  "text": "description",
+                  "reading": "dɪˈskrɪpʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.misleading",
+                  "text": "misleading",
+                  "reading": "ˌmɪsˈliːdɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inaccurate",
+                  "text": "inaccurate",
+                  "reading": "ɪnˈækjərət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.false",
+                  "text": "false",
+                  "reading": "fɔːls",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.state",
+                  "text": "state",
+                  "reading": "steɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-03",
+              "topic": "Furthermore, the staff were rude",
+              "grammar": "adding linkers: furthermore, in addition, moreover",
+              "items": [
+                {
+                  "id": "en.furthermore",
+                  "text": "furthermore",
+                  "reading": "ˈfɜːrðərmɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-addition",
+                  "text": "in addition",
+                  "reading": "ɪn əˈdɪʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.moreover",
+                  "text": "moreover",
+                  "reading": "mɔːrˈoʊvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unacceptable",
+                  "text": "unacceptable",
+                  "reading": "ˌʌnəkˈsɛptəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dissatisfied",
+                  "text": "dissatisfied",
+                  "reading": "dɪsˈsætɪsfaɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-04",
+              "topic": "As a result, I had to pay extra",
+              "grammar": "result linkers: therefore, as a result, consequently",
+              "items": [
+                {
+                  "id": "en.therefore",
+                  "text": "therefore",
+                  "reading": "ˈðɛrfɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.as-a-result",
+                  "text": "as a result",
+                  "reading": "æz ə rɪˈzʌlt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.consequently",
+                  "text": "consequently",
+                  "reading": "ˈkɑːnsəkwɛntli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inconvenience",
+                  "text": "inconvenience",
+                  "reading": "ˌɪnkənˈviːniəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.compensation",
+                  "text": "compensation",
+                  "reading": "ˌkɑːmpɛnˈseɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-05",
+              "topic": "With regard to my booking…",
+              "grammar": "prepositional phrases in formal writing: with regard to, regarding, in response to",
+              "items": [
+                {
+                  "id": "en.regarding",
+                  "text": "regarding",
+                  "reading": "rɪˈɡɑːrdɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.with-regard-to",
+                  "text": "with regard to",
+                  "reading": "wɪð rɪˈɡɑːrd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.in-response-to",
+                  "text": "in response to",
+                  "reading": "ɪn rɪˈspɑːns tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.booking-reference",
+                  "text": "booking reference",
+                  "reading": "ˈbʊkɪŋ ˌrɛfərəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.enclose",
+                  "text": "enclose",
+                  "reading": "ɪnˈkloʊz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-06",
+              "topic": "Receive, not get; purchase, not buy",
+              "grammar": "formal vs informal word choice (receive / get, purchase / buy, request / ask for)",
+              "items": [
+                {
+                  "id": "en.purchase",
+                  "text": "purchase",
+                  "reading": "ˈpɜːrtʃəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.obtain",
+                  "text": "obtain",
+                  "reading": "əbˈteɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.assist",
+                  "text": "assist",
+                  "reading": "əˈsɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inform",
+                  "text": "inform",
+                  "reading": "ɪnˈfɔːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.require",
+                  "text": "require",
+                  "reading": "rɪˈkwaɪər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-r01",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Nam's formal complaint email to the travel company",
+              "items": [
+                {
+                  "id": "en.sincerely",
+                  "text": "Sincerely",
+                  "reading": "sɪnˈsɪrli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.resolve",
+                  "text": "resolve",
+                  "reading": "rɪˈzɑːlv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.prompt",
+                  "text": "prompt",
+                  "reading": "prɑːmpt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.matter",
+                  "text": "matter",
+                  "reading": "ˈmætər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F2-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "The company's reply: an apology and an offer",
+              "items": [
+                {
+                  "id": "en.credit",
+                  "text": "credit",
+                  "reading": "ˈkrɛdɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.valued-customer",
+                  "text": "valued customer",
+                  "reading": "ˌvæljuːd ˈkʌstəmər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.ensure",
+                  "text": "ensure",
+                  "reading": "ɪnˈʃʊr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.occur",
+                  "text": "occur",
+                  "reading": "əˈkɜːr",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F3",
+          "title_th": "แสดงความคิดเห็นและโต้แย้ง",
+          "goal_th": "แสดงความคิดเห็นพร้อมเหตุผล โต้แย้งอย่างสุภาพ และสรุปจุดยืนได้",
+          "scenario": "B is Mr. Brown, who chairs a class debate: \"Should university education be free?\" Nam must give her opinion, support it with reasons, respond politely to the other side, and sum up her position.",
+          "lessons": [
+            {
+              "id": "en-F3-01",
+              "topic": "As far as I'm concerned…",
+              "grammar": "giving opinions: In my opinion / As far as I'm concerned / I'd say that…",
+              "items": [
+                {
+                  "id": "en.as-far-as-im-concerned",
+                  "text": "as far as I'm concerned",
+                  "reading": "æz ˌfɑːr æz aɪm kənˈsɜːrnd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.point-of-view",
+                  "text": "point of view",
+                  "reading": "ˌpɔɪnt əv ˈvjuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.debate",
+                  "text": "debate",
+                  "reading": "dɪˈbeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.topic",
+                  "text": "topic",
+                  "reading": "ˈtɑːpɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.personally",
+                  "text": "personally",
+                  "reading": "ˈpɜːrsənəli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-02",
+              "topic": "I see your point, but…",
+              "grammar": "agreeing and disagreeing politely: I see your point, but… / I'm not sure I agree.",
+              "items": [
+                {
+                  "id": "en.i-see-your-point",
+                  "text": "I see your point",
+                  "reading": "aɪ ˈsiː jər ˌpɔɪnt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.exactly",
+                  "text": "exactly",
+                  "reading": "ɪɡˈzæktli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.absolutely",
+                  "text": "absolutely",
+                  "reading": "ˌæbsəˈluːtli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.partly",
+                  "text": "partly",
+                  "reading": "ˈpɑːrtli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.i-couldnt-agree-more",
+                  "text": "I couldn't agree more",
+                  "reading": "aɪ ˌkʊdənt əˌɡriː ˈmɔːr",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-03",
+              "topic": "However, there's another side",
+              "grammar": "contrast linkers: however, nevertheless, even so",
+              "items": [
+                {
+                  "id": "en.however",
+                  "text": "however",
+                  "reading": "haʊˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nevertheless",
+                  "text": "nevertheless",
+                  "reading": "ˌnɛvərðəˈlɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.even-so",
+                  "text": "even so",
+                  "reading": "ˈiːvən ˌsoʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.drawback",
+                  "text": "drawback",
+                  "reading": "ˈdrɔːbæk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.downside",
+                  "text": "downside",
+                  "reading": "ˈdaʊnsaɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-04",
+              "topic": "Firstly…, secondly…, lastly…",
+              "grammar": "ordering arguments: firstly, secondly, finally, lastly",
+              "items": [
+                {
+                  "id": "en.firstly",
+                  "text": "firstly",
+                  "reading": "ˈfɜːrstli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.secondly",
+                  "text": "secondly",
+                  "reading": "ˈsɛkəndli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lastly",
+                  "text": "lastly",
+                  "reading": "ˈlæstli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.argument",
+                  "text": "argument",
+                  "reading": "ˈɑːrɡjəmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.consider",
+                  "text": "consider",
+                  "reading": "kənˈsɪdər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-05",
+              "topic": "It is often said that…",
+              "grammar": "impersonal passive: It is often said that… / It is believed that…",
+              "items": [
+                {
+                  "id": "en.widely",
+                  "text": "widely",
+                  "reading": "ˈwaɪdli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.generally",
+                  "text": "generally",
+                  "reading": "ˈdʒɛnərəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.commonly",
+                  "text": "commonly",
+                  "reading": "ˈkɑːmənli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.assume",
+                  "text": "assume",
+                  "reading": "əˈsuːm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.belief",
+                  "text": "belief",
+                  "reading": "bɪˈliːf",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-06",
+              "topic": "What I mean is…",
+              "grammar": "what-clauses for emphasis: What I mean is… / What worries me is…",
+              "items": [
+                {
+                  "id": "en.in-other-words",
+                  "text": "in other words",
+                  "reading": "ɪn ˌʌðər ˈwɜːrdz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.to-put-it-simply",
+                  "text": "to put it simply",
+                  "reading": "tə ˌpʊt ɪt ˈsɪmpli",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.clarify",
+                  "text": "clarify",
+                  "reading": "ˈklærəfaɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.the-point-is",
+                  "text": "the point is",
+                  "reading": "ðə ˈpɔɪnt ɪz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.concern",
+                  "text": "concern",
+                  "reading": "kənˈsɜːrn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Should university education be free? Two students give their views",
+              "items": [
+                {
+                  "id": "en.tax",
+                  "text": "tax",
+                  "reading": "tæks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.equal",
+                  "text": "equal",
+                  "reading": "ˈiːkwəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.access",
+                  "text": "access",
+                  "reading": "ˈæksɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fairness",
+                  "text": "fairness",
+                  "reading": "ˈfɛrnəs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F3-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "A discussion in the student cafeteria: should university students still wear uniforms?",
+              "items": [
+                {
+                  "id": "en.outdated",
+                  "text": "outdated",
+                  "reading": "ˌaʊtˈdeɪtɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pointless",
+                  "text": "pointless",
+                  "reading": "ˈpɔɪntləs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.neat",
+                  "text": "neat",
+                  "reading": "niːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.individual",
+                  "text": "individual",
+                  "reading": "ˌɪndɪˈvɪdʒuəl",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F4",
+          "title_th": "เล่าเรื่องประสบการณ์",
+          "goal_th": "เล่าเรื่องที่เกิดขึ้นกับตัวเองอย่างมีลำดับ ปูเรื่อง และทำให้เรื่องน่าติดตามได้",
+          "scenario": "B is Emma, who asks Nam to tell her about the most embarrassing day of her life. Nam must tell the story in order, set the scene, build up to the key moment, and answer Emma's questions.",
+          "lessons": [
+            {
+              "id": "en-F4-01",
+              "topic": "I was walking home when…",
+              "grammar": "narrative tenses together: past simple, past continuous, past perfect",
+              "items": [
+                {
+                  "id": "en.anecdote",
+                  "text": "anecdote",
+                  "reading": "ˈænɪkdoʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.incident",
+                  "text": "incident",
+                  "reading": "ˈɪnsɪdənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.awkward",
+                  "text": "awkward",
+                  "reading": "ˈɔːkwərd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.moment",
+                  "text": "moment",
+                  "reading": "ˈmoʊmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hilarious",
+                  "text": "hilarious",
+                  "reading": "hɪˈlɛriəs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-02",
+              "topic": "I had been waiting for an hour when…",
+              "grammar": "past perfect continuous (I had been waiting for an hour when he called.)",
+              "items": [
+                {
+                  "id": "en.patiently",
+                  "text": "patiently",
+                  "reading": "ˈpeɪʃəntli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fed-up",
+                  "text": "fed up",
+                  "reading": "ˌfɛd ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.turn-up",
+                  "text": "turn up",
+                  "reading": "ˌtɜːrn ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.furious",
+                  "text": "furious",
+                  "reading": "ˈfjʊriəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.annoyed",
+                  "text": "annoyed",
+                  "reading": "əˈnɔɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-03",
+              "topic": "Just as I was leaving…",
+              "grammar": "as soon as / the moment / just as in past narratives",
+              "items": [
+                {
+                  "id": "en.slip",
+                  "text": "slip",
+                  "reading": "slɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fall-over",
+                  "text": "fall over",
+                  "reading": "ˌfɔːl ˈoʊvər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.trip-over",
+                  "text": "trip over",
+                  "reading": "ˌtrɪp ˈoʊvər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.stare",
+                  "text": "stare",
+                  "reading": "stɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.laugh-out-loud",
+                  "text": "laugh out loud",
+                  "reading": "ˌlæf aʊt ˈlaʊd",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-04",
+              "topic": "To my surprise…",
+              "grammar": "attitude phrases: to my surprise, to my horror, to my relief",
+              "items": [
+                {
+                  "id": "en.to-my-surprise",
+                  "text": "to my surprise",
+                  "reading": "tə maɪ sərˈpraɪz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.horror",
+                  "text": "horror",
+                  "reading": "ˈhɔːrər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shocked",
+                  "text": "shocked",
+                  "reading": "ʃɑːkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.amazed",
+                  "text": "amazed",
+                  "reading": "əˈmeɪzd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.terrified",
+                  "text": "terrified",
+                  "reading": "ˈtɛrəfaɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-05",
+              "topic": "\"Help!\" she screamed",
+              "grammar": "reporting verbs for how people speak: shout, whisper, scream, mutter",
+              "items": [
+                {
+                  "id": "en.shout",
+                  "text": "shout",
+                  "reading": "ʃaʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.call-out",
+                  "text": "call out",
+                  "reading": "ˌkɔːl ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.yell",
+                  "text": "yell",
+                  "reading": "jɛl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sigh",
+                  "text": "sigh",
+                  "reading": "saɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.beg",
+                  "text": "beg",
+                  "reading": "bɛɡ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-06",
+              "topic": "At first… but at last…",
+              "grammar": "at first vs at last vs finally",
+              "items": [
+                {
+                  "id": "en.at-first",
+                  "text": "at first",
+                  "reading": "ət ˈfɜːrst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.at-last",
+                  "text": "at last",
+                  "reading": "ət ˈlæst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.finally",
+                  "text": "finally",
+                  "reading": "ˈfaɪnəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.turn-out",
+                  "text": "turn out",
+                  "reading": "ˌtɜːrn ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.after-all",
+                  "text": "after all",
+                  "reading": "ˌæftər ˈɔːl",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-r01",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "The wrong wedding: Mr. Brown's most embarrassing story",
+              "items": [
+                {
+                  "id": "en.speech",
+                  "text": "speech",
+                  "reading": "spiːtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.go-red",
+                  "text": "go red",
+                  "reading": "ˌɡoʊ ˈrɛd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sneak-out",
+                  "text": "sneak out",
+                  "reading": "ˌsniːk ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.invitation",
+                  "text": "invitation",
+                  "reading": "ˌɪnvɪˈteɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F4-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Emma's voice message: lost in the Bangkok subway at midnight",
+              "items": [
+                {
+                  "id": "en.last-train",
+                  "text": "last train",
+                  "reading": "ˌlæst ˈtreɪn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.kindness",
+                  "text": "kindness",
+                  "reading": "ˈkaɪndnəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.give-someone-a-ride",
+                  "text": "give someone a ride",
+                  "reading": "ˌɡɪv ˌsʌmwʌn ə ˈraɪd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.kind-hearted",
+                  "text": "kind-hearted",
+                  "reading": "ˌkaɪndˈhɑːrtɪd",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F5",
+          "title_th": "ใช้ชีวิตในต่างแดน",
+          "goal_th": "เปรียบเทียบชีวิตในไทยกับประเทศที่พูดภาษาอังกฤษ และเล่าเรื่องการปรับตัวได้",
+          "scenario": "B is a student adviser at a university in Toronto, where Nam has just started an exchange semester. Nam must compare life in Thailand and Canada, describe what she is getting used to, and ask for advice about the things she finds difficult.",
+          "lessons": [
+            {
+              "id": "en-F5-01",
+              "topic": "I'm getting used to the cold",
+              "grammar": "be used to / get used to + noun or -ing",
+              "items": [
+                {
+                  "id": "en.culture-shock",
+                  "text": "culture shock",
+                  "reading": "ˈkʌltʃər ˌʃɑːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.homesick",
+                  "text": "homesick",
+                  "reading": "ˈhoʊmsɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.adapt",
+                  "text": "adapt",
+                  "reading": "əˈdæpt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.adjust",
+                  "text": "adjust",
+                  "reading": "əˈdʒʌst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.exchange-student",
+                  "text": "exchange student",
+                  "reading": "ɪksˈtʃeɪndʒ ˌstuːdənt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-02",
+              "topic": "Compared to Bangkok, Toronto is…",
+              "grammar": "comparison phrases: compared to / with, unlike, in contrast to",
+              "items": [
+                {
+                  "id": "en.compared-to",
+                  "text": "compared to",
+                  "reading": "kəmˈpɛrd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.unlike",
+                  "text": "unlike",
+                  "reading": "ʌnˈlaɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-contrast",
+                  "text": "in contrast",
+                  "reading": "ɪn ˈkɑːntræst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.climate",
+                  "text": "climate",
+                  "reading": "ˈklaɪmət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pace-of-life",
+                  "text": "pace of life",
+                  "reading": "ˌpeɪs əv ˈlaɪf",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-03",
+              "topic": "In Canada, you have to tip",
+              "grammar": "generic you / they / people for general statements (In Canada, you have to…)",
+              "items": [
+                {
+                  "id": "en.sales-tax",
+                  "text": "sales tax",
+                  "reading": "ˈseɪlz ˌtæks",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.healthcare",
+                  "text": "healthcare",
+                  "reading": "ˈhɛlθkɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.insurance",
+                  "text": "insurance",
+                  "reading": "ɪnˈʃʊrəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.permit",
+                  "text": "permit",
+                  "reading": "ˈpɜːrmɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.paperwork",
+                  "text": "paperwork",
+                  "reading": "ˈpeɪpərwɜːrk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-04",
+              "topic": "The US, the UK, Canada",
+              "grammar": "articles with countries: the United States, the United Kingdom vs Canada, Thailand",
+              "items": [
+                {
+                  "id": "en.the-united-states",
+                  "text": "the United States",
+                  "reading": "ðə juˌnaɪtɪd ˈsteɪts",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.the-united-kingdom",
+                  "text": "the United Kingdom",
+                  "reading": "ðə juˌnaɪtɪd ˈkɪŋdəm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.australia",
+                  "text": "Australia",
+                  "reading": "ɔːˈstreɪljə",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.new-zealand",
+                  "text": "New Zealand",
+                  "reading": "ˌnuː ˈziːlənd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.english-speaking",
+                  "text": "English-speaking",
+                  "reading": "ˈɪŋɡlɪʃ ˌspiːkɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-05",
+              "topic": "I was surprised how friendly people were",
+              "grammar": "I was surprised (by) how + adjective… / It surprised me that…",
+              "items": [
+                {
+                  "id": "en.straightforward",
+                  "text": "straightforward",
+                  "reading": "ˌstreɪtˈfɔːrwərd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.reserved",
+                  "text": "reserved",
+                  "reading": "rɪˈzɜːrvd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.welcoming",
+                  "text": "welcoming",
+                  "reading": "ˈwɛlkəmɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.multicultural",
+                  "text": "multicultural",
+                  "reading": "ˌmʌltiˈkʌltʃərəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.diverse",
+                  "text": "diverse",
+                  "reading": "daɪˈvɜːrs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-06",
+              "topic": "It's even colder than I expected",
+              "grammar": "even for emphasis (It's even colder than I expected. / Even the buses are on time.)",
+              "items": [
+                {
+                  "id": "en.expect",
+                  "text": "expect",
+                  "reading": "ɪkˈspɛkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.snowstorm",
+                  "text": "snowstorm",
+                  "reading": "ˈsnoʊstɔːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.below-zero",
+                  "text": "below zero",
+                  "reading": "bɪˌloʊ ˈzɪroʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.heating",
+                  "text": "heating",
+                  "reading": "ˈhiːtɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.layer",
+                  "text": "layer",
+                  "reading": "ˈleɪər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "Three Thais who live abroad, in London, Sydney and Vancouver",
+              "items": [
+                {
+                  "id": "en.immigrant",
+                  "text": "immigrant",
+                  "reading": "ˈɪmɪɡrənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.make-a-living",
+                  "text": "make a living",
+                  "reading": "ˌmeɪk ə ˈlɪvɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.citizen",
+                  "text": "citizen",
+                  "reading": "ˈsɪtɪzən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.permanent",
+                  "text": "permanent",
+                  "reading": "ˈpɜːrmənənt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F5-r02",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Nam's email home after her first month in Canada",
+              "items": [
+                {
+                  "id": "en.host-family",
+                  "text": "host family",
+                  "reading": "ˌhoʊst ˈfæmli",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.maple-syrup",
+                  "text": "maple syrup",
+                  "reading": "ˌmeɪpəl ˈsɪrəp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.grocery-store",
+                  "text": "grocery store",
+                  "reading": "ˈɡroʊsəri ˌstɔːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.time-difference",
+                  "text": "time difference",
+                  "reading": "ˈtaɪm ˌdɪfrəns",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F6",
+          "title_th": "ศิลปะและความคิดสร้างสรรค์",
+          "goal_th": "บรรยายงานศิลปะ บอกความรู้สึกต่อผลงาน และถกเรื่องความคิดสร้างสรรค์ได้",
+          "scenario": "B is a guide at an art gallery in Bangkok. Nam must describe the paintings and photographs she likes, say how they make her feel, and discuss whether creativity can be taught.",
+          "lessons": [
+            {
+              "id": "en-F6-01",
+              "topic": "A beautiful old Japanese painting",
+              "grammar": "full adjective order: opinion, size, age, color, origin, material",
+              "items": [
+                {
+                  "id": "en.painting",
+                  "text": "painting",
+                  "reading": "ˈpeɪntɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.portrait",
+                  "text": "portrait",
+                  "reading": "ˈpɔːrtrət",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.landscape",
+                  "text": "landscape",
+                  "reading": "ˈlændskeɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sculpture",
+                  "text": "sculpture",
+                  "reading": "ˈskʌlptʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gallery",
+                  "text": "gallery",
+                  "reading": "ˈɡæləri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-02",
+              "topic": "It looks as if it's moving",
+              "grammar": "look / seem as if / as though + clause (It looks as if the river is moving.)",
+              "items": [
+                {
+                  "id": "en.abstract",
+                  "text": "abstract",
+                  "reading": "ˈæbstrækt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.colorful",
+                  "text": "colorful",
+                  "reading": "ˈkʌlərfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.bright",
+                  "text": "bright",
+                  "reading": "braɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dull",
+                  "text": "dull",
+                  "reading": "dʌl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.shade",
+                  "text": "shade",
+                  "reading": "ʃeɪd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-03",
+              "topic": "A world-famous, handmade bowl",
+              "grammar": "compound adjectives: well-known, handmade, world-famous, eye-catching",
+              "items": [
+                {
+                  "id": "en.well-known",
+                  "text": "well-known",
+                  "reading": "ˌwɛlˈnoʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.handmade",
+                  "text": "handmade",
+                  "reading": "ˌhændˈmeɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.world-famous",
+                  "text": "world-famous",
+                  "reading": "ˌwɜːrld ˈfeɪməs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.old-fashioned",
+                  "text": "old-fashioned",
+                  "reading": "ˌoʊld ˈfæʃənd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pottery",
+                  "text": "pottery",
+                  "reading": "ˈpɑːtəri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-04",
+              "topic": "It was the colors that I loved",
+              "grammar": "it-cleft for emphasis (It was the colors that I loved most.)",
+              "items": [
+                {
+                  "id": "en.artwork",
+                  "text": "artwork",
+                  "reading": "ˈɑːrtwɜːrk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.creativity",
+                  "text": "creativity",
+                  "reading": "ˌkriːeɪˈtɪvəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inspiration",
+                  "text": "inspiration",
+                  "reading": "ˌɪnspəˈreɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.technique",
+                  "text": "technique",
+                  "reading": "tɛkˈniːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unique",
+                  "text": "unique",
+                  "reading": "juˈniːk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-05",
+              "topic": "Absolutely stunning!",
+              "grammar": "extreme adjectives with absolutely / really (absolutely stunning, not very stunning)",
+              "items": [
+                {
+                  "id": "en.stunning",
+                  "text": "stunning",
+                  "reading": "ˈstʌnɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.magnificent",
+                  "text": "magnificent",
+                  "reading": "mæɡˈnɪfɪsənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gorgeous",
+                  "text": "gorgeous",
+                  "reading": "ˈɡɔːrdʒəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dreadful",
+                  "text": "dreadful",
+                  "reading": "ˈdrɛdfəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.brilliant",
+                  "text": "brilliant",
+                  "reading": "ˈbrɪljənt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-06",
+              "topic": "A woman holding a lotus",
+              "grammar": "-ing participle clauses to describe pictures (a woman holding a lotus)",
+              "items": [
+                {
+                  "id": "en.lotus",
+                  "text": "lotus",
+                  "reading": "ˈloʊtəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pose",
+                  "text": "pose",
+                  "reading": "poʊz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.frame",
+                  "text": "frame",
+                  "reading": "freɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sketch",
+                  "text": "sketch",
+                  "reading": "skɛtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.image",
+                  "text": "image",
+                  "reading": "ˈɪmɪdʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "A young Thai street artist who paints murals in Bangkok",
+              "items": [
+                {
+                  "id": "en.graffiti",
+                  "text": "graffiti",
+                  "reading": "ɡrəˈfiːti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.spray",
+                  "text": "spray",
+                  "reading": "spreɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.recognition",
+                  "text": "recognition",
+                  "reading": "ˌrɛkəɡˈnɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.artistic",
+                  "text": "artistic",
+                  "reading": "ɑːrˈtɪstɪk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F6-r02",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Can creativity be taught? What scientists say",
+              "items": [
+                {
+                  "id": "en.brain",
+                  "text": "brain",
+                  "reading": "breɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.curious",
+                  "text": "curious",
+                  "reading": "ˈkjʊriəs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.problem-solving",
+                  "text": "problem-solving",
+                  "reading": "ˈprɑːbləm ˌsɑːlvɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.genius",
+                  "text": "genius",
+                  "reading": "ˈdʒiːniəs",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F7",
+          "title_th": "สมดุลชีวิตกับการทำงาน",
+          "goal_th": "อธิบายสาเหตุของความเครียดจากงาน บอกสิ่งที่อยากให้เปลี่ยน และหาวิธีพักผ่อนได้",
+          "scenario": "B is a colleague who notices that Nam looks exhausted. Nam must describe what is causing her stress, say what she would rather her manager did, and agree on practical ways to switch off after work.",
+          "lessons": [
+            {
+              "id": "en-F7-01",
+              "topic": "I'd rather you didn't email me at night",
+              "grammar": "would rather + someone + past simple (I'd rather you didn't call me after work.)",
+              "items": [
+                {
+                  "id": "en.work-life-balance",
+                  "text": "work-life balance",
+                  "reading": "ˌwɜːrk ˈlaɪf ˌbæləns",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.boundary",
+                  "text": "boundary",
+                  "reading": "ˈbaʊndəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.workload",
+                  "text": "workload",
+                  "reading": "ˈwɜːrkloʊd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.overworked",
+                  "text": "overworked",
+                  "reading": "ˌoʊvərˈwɜːrkt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.demanding",
+                  "text": "demanding",
+                  "reading": "dɪˈmændɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-02",
+              "topic": "Stress can lead to health problems",
+              "grammar": "cause and effect verbs: cause, lead to, result in",
+              "items": [
+                {
+                  "id": "en.lead-to",
+                  "text": "lead to",
+                  "reading": "ˈliːd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.result-in",
+                  "text": "result in",
+                  "reading": "rɪˈzʌlt ɪn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.anxiety",
+                  "text": "anxiety",
+                  "reading": "æŋˈzaɪəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.burnout",
+                  "text": "burnout",
+                  "reading": "ˈbɜːrnaʊt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.physical",
+                  "text": "physical",
+                  "reading": "ˈfɪzɪkəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-03",
+              "topic": "I wish my boss would stop…",
+              "grammar": "wish + would for annoying behavior (I wish my boss would stop calling me.)",
+              "items": [
+                {
+                  "id": "en.interrupt",
+                  "text": "interrupt",
+                  "reading": "ˌɪntəˈrʌpt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.expectation",
+                  "text": "expectation",
+                  "reading": "ˌɛkspɛkˈteɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.unrealistic",
+                  "text": "unrealistic",
+                  "reading": "ˌʌnriːəˈlɪstɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.constantly",
+                  "text": "constantly",
+                  "reading": "ˈkɑːnstəntli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.workaholic",
+                  "text": "workaholic",
+                  "reading": "ˌwɜːrkəˈhɔːlɪk",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-04",
+              "topic": "Slow down and switch off",
+              "grammar": "phrasal verbs with down and off: slow down, calm down, switch off, take time off",
+              "items": [
+                {
+                  "id": "en.slow-down",
+                  "text": "slow down",
+                  "reading": "ˌsloʊ ˈdaʊn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.calm-down",
+                  "text": "calm down",
+                  "reading": "ˌkɑːm ˈdaʊn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.switch-off",
+                  "text": "switch off",
+                  "reading": "ˌswɪtʃ ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.take-time-off",
+                  "text": "take time off",
+                  "reading": "ˌteɪk ˌtaɪm ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.chill-out",
+                  "text": "chill out",
+                  "reading": "ˌtʃɪl ˈaʊt",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-05",
+              "topic": "It's time I took a break",
+              "grammar": "It's time + past simple / It's time to + verb (It's time I took a vacation.)",
+              "items": [
+                {
+                  "id": "en.recharge",
+                  "text": "recharge",
+                  "reading": "ˌriːˈtʃɑːrdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.meditation",
+                  "text": "meditation",
+                  "reading": "ˌmɛdɪˈteɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.get-away",
+                  "text": "get away",
+                  "reading": "ˌɡɛt əˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.deep-breath",
+                  "text": "deep breath",
+                  "reading": "ˌdiːp ˈbrɛθ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.well-being",
+                  "text": "well-being",
+                  "reading": "ˌwɛlˈbiːɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-06",
+              "topic": "We were made to stay late",
+              "grammar": "make + object + infinitive vs be made to + infinitive (They made us stay. / We were made to stay.)",
+              "items": [
+                {
+                  "id": "en.work-from-home",
+                  "text": "work from home",
+                  "reading": "ˌwɜːrk frəm ˈhoʊm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.flexible",
+                  "text": "flexible",
+                  "reading": "ˈflɛksəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.commute",
+                  "text": "commute",
+                  "reading": "kəˈmjuːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.office-hours",
+                  "text": "office hours",
+                  "reading": "ˈɔːfɪs ˌaʊərz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.online-meeting",
+                  "text": "online meeting",
+                  "reading": "ˌɑːnlaɪn ˈmiːtɪŋ",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "The four-day work week: could it work in Thailand?",
+              "items": [
+                {
+                  "id": "en.productivity",
+                  "text": "productivity",
+                  "reading": "ˌproʊdʌkˈtɪvəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.trial",
+                  "text": "trial",
+                  "reading": "ˈtraɪəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.efficient",
+                  "text": "efficient",
+                  "reading": "ɪˈfɪʃənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.satisfaction",
+                  "text": "satisfaction",
+                  "reading": "ˌsætɪsˈfækʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F7-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary: one week of switching off her phone after 8 p.m.",
+              "items": [
+                {
+                  "id": "en.notification",
+                  "text": "notification",
+                  "reading": "ˌnoʊtəfɪˈkeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.addictive",
+                  "text": "addictive",
+                  "reading": "əˈdɪktɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.screen-free",
+                  "text": "screen-free",
+                  "reading": "ˌskriːn ˈfriː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.rested",
+                  "text": "rested",
+                  "reading": "ˈrɛstɪd",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F8",
+          "title_th": "ความผิดพลาดและความเสียใจ",
+          "goal_th": "พูดถึงความผิดพลาด สิ่งที่ควรทำหรือไม่ควรทำ และบทเรียนที่ได้ได้",
+          "scenario": "B is Emma, who has just made a big mistake at work. Nam must ask what happened, say what Emma should or shouldn't have done, talk about a mistake of her own, and help Emma see what she can learn from it.",
+          "lessons": [
+            {
+              "id": "en-F8-01",
+              "topic": "If I had known, I would have…",
+              "grammar": "third conditional (If I had known, I would have told you.)",
+              "items": [
+                {
+                  "id": "en.regret",
+                  "text": "regret",
+                  "reading": "rɪˈɡrɛt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.consequence",
+                  "text": "consequence",
+                  "reading": "ˈkɑːnsəkwɛns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.outcome",
+                  "text": "outcome",
+                  "reading": "ˈaʊtkʌm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.blame",
+                  "text": "blame",
+                  "reading": "bleɪm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fault",
+                  "text": "fault",
+                  "reading": "fɔːlt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-02",
+              "topic": "What would you have done?",
+              "grammar": "third conditional: negatives and questions (If I hadn't overslept, I wouldn't have missed it.)",
+              "items": [
+                {
+                  "id": "en.oversleep",
+                  "text": "oversleep",
+                  "reading": "ˌoʊvərˈsliːp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.turn-down",
+                  "text": "turn down",
+                  "reading": "ˌtɜːrn ˈdaʊn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.risky",
+                  "text": "risky",
+                  "reading": "ˈrɪski",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.lose-your-temper",
+                  "text": "lose your temper",
+                  "reading": "ˌluːz jər ˈtɛmpər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.react",
+                  "text": "react",
+                  "reading": "riˈækt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-03",
+              "topic": "You should have checked first",
+              "grammar": "should have / shouldn't have + past participle",
+              "items": [
+                {
+                  "id": "en.double-check",
+                  "text": "double-check",
+                  "reading": "ˌdʌbəl ˈtʃɛk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.read-through",
+                  "text": "read through",
+                  "reading": "ˌriːd ˈθruː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.on-purpose",
+                  "text": "on purpose",
+                  "reading": "ɑːn ˈpɜːrpəs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.by-accident",
+                  "text": "by accident",
+                  "reading": "baɪ ˈæksɪdənt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.learn-a-lesson",
+                  "text": "learn a lesson",
+                  "reading": "ˌlɜːrn ə ˈlɛsən",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-04",
+              "topic": "You could have asked me!",
+              "grammar": "could have / might have + past participle for missed possibilities",
+              "items": [
+                {
+                  "id": "en.help-out",
+                  "text": "help out",
+                  "reading": "ˌhɛlp ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.warn",
+                  "text": "warn",
+                  "reading": "wɔːrn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.point-out",
+                  "text": "point out",
+                  "reading": "ˌpɔɪnt ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.embarrassment",
+                  "text": "embarrassment",
+                  "reading": "ɪmˈbærəsmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.save-time",
+                  "text": "save time",
+                  "reading": "ˌseɪv ˈtaɪm",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-05",
+              "topic": "I wish I hadn't said that",
+              "grammar": "wish + past perfect / if only (I wish I hadn't said that. / If only I'd listened!)",
+              "items": [
+                {
+                  "id": "en.if-only",
+                  "text": "if only",
+                  "reading": "ˈɪf ˌoʊnli",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.hurt-someones-feelings",
+                  "text": "hurt someone's feelings",
+                  "reading": "ˌhɜːrt ˌsʌmwʌnz ˈfiːlɪŋz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.forgive",
+                  "text": "forgive",
+                  "reading": "fərˈɡɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.feel-bad-about",
+                  "text": "feel bad about",
+                  "reading": "ˌfiːl ˈbæd əˌbaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.ashamed",
+                  "text": "ashamed",
+                  "reading": "əˈʃeɪmd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-06",
+              "topic": "I regret not studying harder",
+              "grammar": "regret + -ing / regret not + -ing (I regret not learning to swim.)",
+              "items": [
+                {
+                  "id": "en.learn-from",
+                  "text": "learn from",
+                  "reading": "ˈlɜːrn frəm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.move-on",
+                  "text": "move on",
+                  "reading": "ˌmuːv ˈɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.second-chance",
+                  "text": "second chance",
+                  "reading": "ˌsɛkənd ˈtʃæns",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.grow",
+                  "text": "grow",
+                  "reading": "ɡroʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.mature",
+                  "text": "mature",
+                  "reading": "məˈtʃʊr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-r01",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "The email Nam's cousin sent to the whole company by mistake",
+              "items": [
+                {
+                  "id": "en.reply-all",
+                  "text": "reply all",
+                  "reading": "rɪˌplaɪ ˈɔːl",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.forward",
+                  "text": "forward",
+                  "reading": "ˈfɔːrwərd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.by-mistake",
+                  "text": "by mistake",
+                  "reading": "baɪ mɪˈsteɪk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.laugh-about-it",
+                  "text": "laugh about it",
+                  "reading": "ˈlæf əˌbaʊt ɪt",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F8-r02",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Famous mistakes that changed the world",
+              "items": [
+                {
+                  "id": "en.accidental",
+                  "text": "accidental",
+                  "reading": "ˌæksɪˈdɛntəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.error",
+                  "text": "error",
+                  "reading": "ˈɛrər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.turn-into",
+                  "text": "turn into",
+                  "reading": "ˌtɜːrn ˈɪntuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fortunate",
+                  "text": "fortunate",
+                  "reading": "ˈfɔːrtʃənət",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F9",
+          "title_th": "กฎหมายและสิทธิ",
+          "goal_th": "อธิบายกฎหมายและกฎระเบียบ แสดงความเห็นด้วยหรือไม่เห็นด้วย และพูดถึงสิทธิของคนได้",
+          "scenario": "B is a law student who leads a discussion group. Nam must explain some Thai laws and rules, say which ones she agrees or disagrees with, and talk about people's rights at work and online.",
+          "lessons": [
+            {
+              "id": "en-F9-01",
+              "topic": "Phones must be switched off",
+              "grammar": "modal passive: must / should / can + be + past participle (Phones must be switched off.)",
+              "items": [
+                {
+                  "id": "en.legal",
+                  "text": "legal",
+                  "reading": "ˈliːɡəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.regulation",
+                  "text": "regulation",
+                  "reading": "ˌrɛɡjəˈleɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.obey",
+                  "text": "obey",
+                  "reading": "oʊˈbeɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.break-the-law",
+                  "text": "break the law",
+                  "reading": "ˌbreɪk ðə ˈlɔː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.penalty",
+                  "text": "penalty",
+                  "reading": "ˈpɛnəlti",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-02",
+              "topic": "The law prevents people from smoking indoors",
+              "grammar": "ban / prevent / stop someone from + -ing",
+              "items": [
+                {
+                  "id": "en.prevent",
+                  "text": "prevent",
+                  "reading": "prɪˈvɛnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.forbid",
+                  "text": "forbid",
+                  "reading": "fərˈbɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.allow",
+                  "text": "allow",
+                  "reading": "əˈlaʊ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.restriction",
+                  "text": "restriction",
+                  "reading": "rɪˈstrɪkʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.age-limit",
+                  "text": "age limit",
+                  "reading": "ˈeɪdʒ ˌlɪmɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-03",
+              "topic": "Even if you disagree…",
+              "grammar": "even if vs if (Even if you disagree, you have to follow the law.)",
+              "items": [
+                {
+                  "id": "en.human-rights",
+                  "text": "human rights",
+                  "reading": "ˌhjuːmən ˈraɪts",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.freedom-of-speech",
+                  "text": "freedom of speech",
+                  "reading": "ˌfriːdəm əv ˈspiːtʃ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.equality",
+                  "text": "equality",
+                  "reading": "iˈkwɑːləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.discrimination",
+                  "text": "discrimination",
+                  "reading": "dɪˌskrɪmɪˈneɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.justice",
+                  "text": "justice",
+                  "reading": "ˈdʒʌstɪs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-04",
+              "topic": "Women earn less, which is unfair",
+              "grammar": "which referring to a whole clause (Women earn less, which is unfair.)",
+              "items": [
+                {
+                  "id": "en.unfair",
+                  "text": "unfair",
+                  "reading": "ʌnˈfɛr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.minimum-wage",
+                  "text": "minimum wage",
+                  "reading": "ˌmɪnɪməm ˈweɪdʒ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.gender",
+                  "text": "gender",
+                  "reading": "ˈdʒɛndər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pay-gap",
+                  "text": "pay gap",
+                  "reading": "ˈpeɪ ˌɡæp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.worker",
+                  "text": "worker",
+                  "reading": "ˈwɜːrkər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-05",
+              "topic": "I'm in favor of lowering the voting age",
+              "grammar": "be in favor of / be against + -ing",
+              "items": [
+                {
+                  "id": "en.in-favor-of",
+                  "text": "in favor of",
+                  "reading": "ɪn ˈfeɪvər əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.against",
+                  "text": "against",
+                  "reading": "əˈɡɛnst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.election",
+                  "text": "election",
+                  "reading": "ɪˈlɛkʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.voting-age",
+                  "text": "voting age",
+                  "reading": "ˈvoʊtɪŋ ˌeɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.politician",
+                  "text": "politician",
+                  "reading": "ˌpɑːləˈtɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-06",
+              "topic": "He denied taking the money",
+              "grammar": "deny / admit + -ing (He denied taking the money.)",
+              "items": [
+                {
+                  "id": "en.deny",
+                  "text": "deny",
+                  "reading": "dɪˈnaɪ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.admit",
+                  "text": "admit",
+                  "reading": "ədˈmɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.accuse",
+                  "text": "accuse",
+                  "reading": "əˈkjuːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.court",
+                  "text": "court",
+                  "reading": "kɔːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.judge",
+                  "text": "judge",
+                  "reading": "dʒʌdʒ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-r01",
+              "kind": "reader",
+              "genre": "article",
+              "topic": "Strange laws from around the world",
+              "items": [
+                {
+                  "id": "en.chewing-gum",
+                  "text": "chewing gum",
+                  "reading": "ˈtʃuːɪŋ ˌɡʌm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.jail",
+                  "text": "jail",
+                  "reading": "dʒeɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ridiculous",
+                  "text": "ridiculous",
+                  "reading": "rɪˈdɪkjələs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.seatbelt",
+                  "text": "seatbelt",
+                  "reading": "ˈsiːtbɛlt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F9-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Your rights as an employee: a poster from the Department of Labor",
+              "items": [
+                {
+                  "id": "en.sick-leave",
+                  "text": "sick leave",
+                  "reading": "ˈsɪk ˌliːv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.workplace",
+                  "text": "workplace",
+                  "reading": "ˈwɜːrkpleɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.annual-leave",
+                  "text": "annual leave",
+                  "reading": "ˌænjuəl ˈliːv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.overtime",
+                  "text": "overtime",
+                  "reading": "ˈoʊvərtaɪm",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F10",
+          "title_th": "การเริ่มต้นธุรกิจ",
+          "goal_th": "นำเสนอไอเดียธุรกิจ อธิบายแนวโน้มยอดขาย และตอบคำถามเรื่องต้นทุนและความเสี่ยงได้",
+          "scenario": "B is a possible investor at a student start-up competition. Nam must present her idea for a small business, describe the market and sales trends, and answer questions about costs and risks.",
+          "lessons": [
+            {
+              "id": "en-F10-01",
+              "topic": "Sales rose by 20%",
+              "grammar": "describing trends: rise / fall / increase / decrease + by / to (Sales rose by 20% to 5,000.)",
+              "items": [
+                {
+                  "id": "en.profit",
+                  "text": "profit",
+                  "reading": "ˈprɑːfɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.loss",
+                  "text": "loss",
+                  "reading": "lɔːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.earnings",
+                  "text": "earnings",
+                  "reading": "ˈɜːrnɪŋz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.decrease",
+                  "text": "decrease",
+                  "reading": "dɪˈkriːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.double",
+                  "text": "double",
+                  "reading": "ˈdʌbəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-02",
+              "topic": "A sharp rise / rose sharply",
+              "grammar": "adjectives and adverbs for trends: a sharp rise / rose sharply / a slight fall",
+              "items": [
+                {
+                  "id": "en.sharply",
+                  "text": "sharply",
+                  "reading": "ˈʃɑːrpli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.slightly",
+                  "text": "slightly",
+                  "reading": "ˈslaɪtli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.steadily",
+                  "text": "steadily",
+                  "reading": "ˈstɛdəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.gradually",
+                  "text": "gradually",
+                  "reading": "ˈɡrædʒuəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dramatically",
+                  "text": "dramatically",
+                  "reading": "drəˈmætɪkli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-03",
+              "topic": "I suggest that we lower the price",
+              "grammar": "suggest / recommend + that + (should) + verb (I suggest that we lower the price.)",
+              "items": [
+                {
+                  "id": "en.entrepreneur",
+                  "text": "entrepreneur",
+                  "reading": "ˌɑːntrəprəˈnɜːr",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.start-up",
+                  "text": "start-up",
+                  "reading": "ˈstɑːrtʌp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.investor",
+                  "text": "investor",
+                  "reading": "ɪnˈvɛstər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.business-plan",
+                  "text": "business plan",
+                  "reading": "ˈbɪznəs ˌplæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.market-research",
+                  "text": "market research",
+                  "reading": "ˈmɑːrkɪt rɪˌsɜːrtʃ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-04",
+              "topic": "What if we opened a second branch?",
+              "grammar": "What if…? / Suppose… for hypothetical ideas (What if we sold online?)",
+              "items": [
+                {
+                  "id": "en.branch",
+                  "text": "branch",
+                  "reading": "bræntʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.competitor",
+                  "text": "competitor",
+                  "reading": "kəmˈpɛtɪtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.competition",
+                  "text": "competition",
+                  "reading": "ˌkɑːmpəˈtɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.launch",
+                  "text": "launch",
+                  "reading": "lɔːntʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.partnership",
+                  "text": "partnership",
+                  "reading": "ˈpɑːrtnərʃɪp",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-05",
+              "topic": "The advantage of selling online is…",
+              "grammar": "the advantage / disadvantage of + -ing is…",
+              "items": [
+                {
+                  "id": "en.advantage",
+                  "text": "advantage",
+                  "reading": "ədˈvæntɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.disadvantage",
+                  "text": "disadvantage",
+                  "reading": "ˌdɪsədˈvæntɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.running-costs",
+                  "text": "running costs",
+                  "reading": "ˈrʌnɪŋ ˌkɔːsts",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.risk",
+                  "text": "risk",
+                  "reading": "rɪsk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.profitable",
+                  "text": "profitable",
+                  "reading": "ˈprɑːfɪtəbəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-06",
+              "topic": "Make money, do business (review)",
+              "grammar": "make vs do (review): business collocations (make money, do business, make a deal)",
+              "items": [
+                {
+                  "id": "en.do-business",
+                  "text": "do business",
+                  "reading": "ˌduː ˈbɪznəs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-a-deal",
+                  "text": "make a deal",
+                  "reading": "ˌmeɪk ə ˈdiːl",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.do-a-good-job",
+                  "text": "do a good job",
+                  "reading": "ˌduː ə ˌɡʊd ˈdʒɑːb",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-money",
+                  "text": "make money",
+                  "reading": "ˌmeɪk ˈmʌni",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-an-offer",
+                  "text": "make an offer",
+                  "reading": "ˌmeɪk ən ˈɔːfər",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "From street stall to restaurant chain: a Thai success story",
+              "items": [
+                {
+                  "id": "en.chain",
+                  "text": "chain",
+                  "reading": "tʃeɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.founder",
+                  "text": "founder",
+                  "reading": "ˈfaʊndər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.word-of-mouth",
+                  "text": "word of mouth",
+                  "reading": "ˌwɜːrd əv ˈmaʊθ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.employ",
+                  "text": "employ",
+                  "reading": "ɪmˈplɔɪ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F10-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Messages from a friend who had to close his café after one year",
+              "items": [
+                {
+                  "id": "en.go-bankrupt",
+                  "text": "go bankrupt",
+                  "reading": "ˌɡoʊ ˈbæŋkrʌpt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.lose-money",
+                  "text": "lose money",
+                  "reading": "ˌluːz ˈmʌni",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.in-debt",
+                  "text": "in debt",
+                  "reading": "ɪn ˈdɛt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.survive",
+                  "text": "survive",
+                  "reading": "sərˈvaɪv",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F11",
+          "title_th": "การนำเสนองาน",
+          "goal_th": "เปิดการนำเสนอ อธิบายกราฟและข้อมูล สรุปประเด็น และตอบคำถามผู้ฟังได้",
+          "scenario": "B is Mr. Brown, who watches Nam rehearse a five-minute presentation about her research project. Nam must introduce her topic, guide the audience through her slides and data, sum up, and handle questions.",
+          "lessons": [
+            {
+              "id": "en-F11-01",
+              "topic": "First of all, I'd like to…",
+              "grammar": "signposting: First of all, I'd like to… / Let's move on to… / Moving on to…",
+              "items": [
+                {
+                  "id": "en.presentation",
+                  "text": "presentation",
+                  "reading": "ˌprɛzənˈteɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.slide",
+                  "text": "slide",
+                  "reading": "slaɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.outline",
+                  "text": "outline",
+                  "reading": "ˈaʊtlaɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.introduction",
+                  "text": "introduction",
+                  "reading": "ˌɪntrəˈdʌkʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.section",
+                  "text": "section",
+                  "reading": "ˈsɛkʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-02",
+              "topic": "As you can see…",
+              "grammar": "as + clause for references: As you can see… / As I mentioned…",
+              "items": [
+                {
+                  "id": "en.chart",
+                  "text": "chart",
+                  "reading": "tʃɑːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.graph",
+                  "text": "graph",
+                  "reading": "ɡræf",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.figure",
+                  "text": "figure",
+                  "reading": "ˈfɪɡjər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.diagram",
+                  "text": "diagram",
+                  "reading": "ˈdaɪəɡræm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.statistics",
+                  "text": "statistics",
+                  "reading": "stəˈtɪstɪks",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-03",
+              "topic": "We do need more time",
+              "grammar": "emphatic do / does / did (We do need more data. / I did check it.)",
+              "items": [
+                {
+                  "id": "en.emphasize",
+                  "text": "emphasize",
+                  "reading": "ˈɛmfəsaɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.key-point",
+                  "text": "key point",
+                  "reading": "ˌkiː ˈpɔɪnt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.significant",
+                  "text": "significant",
+                  "reading": "sɪɡˈnɪfɪkənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.crucial",
+                  "text": "crucial",
+                  "reading": "ˈkruːʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.essential",
+                  "text": "essential",
+                  "reading": "ɪˈsɛnʃəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-04",
+              "topic": "To sum up…",
+              "grammar": "summarizing: In conclusion, To sum up, Overall",
+              "items": [
+                {
+                  "id": "en.in-conclusion",
+                  "text": "in conclusion",
+                  "reading": "ɪn kənˈkluːʒən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.to-sum-up",
+                  "text": "to sum up",
+                  "reading": "tə ˌsʌm ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.overall",
+                  "text": "overall",
+                  "reading": "ˌoʊvərˈɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.summary",
+                  "text": "summary",
+                  "reading": "ˈsʌməri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.recommendation",
+                  "text": "recommendation",
+                  "reading": "ˌrɛkəmɛnˈdeɪʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-05",
+              "topic": "Twice as many as last year",
+              "grammar": "multiples for comparison: twice as … as / three times more than / half as … as",
+              "items": [
+                {
+                  "id": "en.triple",
+                  "text": "triple",
+                  "reading": "ˈtrɪpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.minority",
+                  "text": "minority",
+                  "reading": "maɪˈnɔːrəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.average",
+                  "text": "average",
+                  "reading": "ˈævərɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.percentage",
+                  "text": "percentage",
+                  "reading": "pərˈsɛntɪdʒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.estimate",
+                  "text": "estimate",
+                  "reading": "ˈɛstəmeɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-06",
+              "topic": "The graph shows…",
+              "grammar": "present simple to describe charts and data (The graph shows… / Sales peak in December.)",
+              "items": [
+                {
+                  "id": "en.illustrate",
+                  "text": "illustrate",
+                  "reading": "ˈɪləstreɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.peak",
+                  "text": "peak",
+                  "reading": "piːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.represent",
+                  "text": "represent",
+                  "reading": "ˌrɛprɪˈzɛnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.indicate",
+                  "text": "indicate",
+                  "reading": "ˈɪndɪkeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vertical",
+                  "text": "vertical",
+                  "reading": "ˈvɜːrtɪkəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-r01",
+              "kind": "reader",
+              "genre": "email",
+              "topic": "Mr. Brown's email: five tips for giving a great presentation",
+              "items": [
+                {
+                  "id": "en.go-over",
+                  "text": "go over",
+                  "reading": "ˌɡoʊ ˈoʊvər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.nerves",
+                  "text": "nerves",
+                  "reading": "nɜːrvz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pause",
+                  "text": "pause",
+                  "reading": "pɔːz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.notes",
+                  "text": "notes",
+                  "reading": "noʊts",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F11-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Questions from the audience: Nam answers three difficult questions",
+              "items": [
+                {
+                  "id": "en.thats-a-good-question",
+                  "text": "That's a good question",
+                  "reading": "ˌðæts ə ˌɡʊd ˈkwɛstʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.follow-up",
+                  "text": "follow up",
+                  "reading": "ˌfɑːloʊ ˈʌp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.sample",
+                  "text": "sample",
+                  "reading": "ˈsæmpəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.accurate",
+                  "text": "accurate",
+                  "reading": "ˈækjərət",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F12",
+          "title_th": "บริการลูกค้าทางโทรศัพท์",
+          "goal_th": "แจ้งปัญหาทางโทรศัพท์ ทำตามคำแนะนำ และนัดช่างได้",
+          "scenario": "B is a customer service agent for an internet company. Nam's home internet has been down for two days; she must explain the problem on the phone, follow the agent's instructions, and arrange a visit from a technician.",
+          "lessons": [
+            {
+              "id": "en-F12-01",
+              "topic": "Do you mind if I record this call?",
+              "grammar": "Do you mind if I…? / Would you mind if I…? (asking permission politely)",
+              "items": [
+                {
+                  "id": "en.customer-service",
+                  "text": "customer service",
+                  "reading": "ˌkʌstəmər ˈsɜːrvɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.agent",
+                  "text": "agent",
+                  "reading": "ˈeɪdʒənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.account-number",
+                  "text": "account number",
+                  "reading": "əˈkaʊnt ˌnʌmbər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.security-question",
+                  "text": "security question",
+                  "reading": "sɪˈkjʊrəti ˌkwɛstʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.line",
+                  "text": "line",
+                  "reading": "laɪn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-02",
+              "topic": "I'm afraid the system is down",
+              "grammar": "softening bad news: I'm afraid… / Unfortunately… / I'm sorry, but…",
+              "items": [
+                {
+                  "id": "en.unavailable",
+                  "text": "unavailable",
+                  "reading": "ˌʌnəˈveɪləbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.technical",
+                  "text": "technical",
+                  "reading": "ˈtɛknɪkəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.router",
+                  "text": "router",
+                  "reading": "ˈraʊtər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.signal",
+                  "text": "signal",
+                  "reading": "ˈsɪɡnəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.connection",
+                  "text": "connection",
+                  "reading": "kəˈnɛkʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-03",
+              "topic": "Will you be needing anything else?",
+              "grammar": "future continuous for polite questions (Will you be paying by card?)",
+              "items": [
+                {
+                  "id": "en.home-visit",
+                  "text": "home visit",
+                  "reading": "ˌhoʊm ˈvɪzɪt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.reschedule",
+                  "text": "reschedule",
+                  "reading": "ˌriːˈskɛdʒuːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.preferred",
+                  "text": "preferred",
+                  "reading": "prɪˈfɜːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-the-meantime",
+                  "text": "in the meantime",
+                  "reading": "ɪn ðə ˈmiːntaɪm",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.automatically",
+                  "text": "automatically",
+                  "reading": "ˌɔːtəˈmætɪkli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-04",
+              "topic": "I'll make sure it's fixed today (review)",
+              "grammar": "will for promises and offers (review): I'll make sure… / I'll look into it.",
+              "items": [
+                {
+                  "id": "en.look-into",
+                  "text": "look into",
+                  "reading": "ˌlʊk ˈɪntuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.make-sure",
+                  "text": "make sure",
+                  "reading": "ˌmeɪk ˈʃʊr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.priority",
+                  "text": "priority",
+                  "reading": "praɪˈɔːrəti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.case-number",
+                  "text": "case number",
+                  "reading": "ˈkeɪs ˌnʌmbər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.as-soon-as-possible",
+                  "text": "as soon as possible",
+                  "reading": "æz ˌsuːn æz ˈpɑːsəbəl",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-05",
+              "topic": "Hold on, I'll put you through",
+              "grammar": "phrasal verbs for phone calls: hold on, put through, get through, cut off",
+              "items": [
+                {
+                  "id": "en.hold-on",
+                  "text": "hold on",
+                  "reading": "ˌhoʊld ˈɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.put-through",
+                  "text": "put through",
+                  "reading": "ˌpʊt ˈθruː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.get-through",
+                  "text": "get through",
+                  "reading": "ˌɡɛt ˈθruː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.cut-off",
+                  "text": "cut off",
+                  "reading": "ˌkʌt ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.on-hold",
+                  "text": "on hold",
+                  "reading": "ɑːn ˈhoʊld",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-06",
+              "topic": "I was wondering if you could…",
+              "grammar": "I was wondering if… (very polite requests)",
+              "items": [
+                {
+                  "id": "en.data-plan",
+                  "text": "data plan",
+                  "reading": "ˈdeɪtə ˌplæn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.monthly-fee",
+                  "text": "monthly fee",
+                  "reading": "ˌmʌnθli ˈfiː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.renew",
+                  "text": "renew",
+                  "reading": "rɪˈnuː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.switch",
+                  "text": "switch",
+                  "reading": "swɪtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.provider",
+                  "text": "provider",
+                  "reading": "prəˈvaɪdər",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-r01",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "A difficult call: Nam tries to cancel her gym membership",
+              "items": [
+                {
+                  "id": "en.cancellation",
+                  "text": "cancellation",
+                  "reading": "ˌkænsəˈleɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.in-writing",
+                  "text": "in writing",
+                  "reading": "ɪn ˈraɪtɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.politely",
+                  "text": "politely",
+                  "reading": "pəˈlaɪtli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.firmly",
+                  "text": "firmly",
+                  "reading": "ˈfɜːrmli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F12-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "A poster for new call-center staff: how to deal with angry callers",
+              "items": [
+                {
+                  "id": "en.script",
+                  "text": "script",
+                  "reading": "skrɪpt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.supervisor",
+                  "text": "supervisor",
+                  "reading": "ˈsuːpərvaɪzər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.calmly",
+                  "text": "calmly",
+                  "reading": "ˈkɑːmli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.keep-a-record-of",
+                  "text": "keep a record of",
+                  "reading": "ˌkiːp ə ˈrɛkərd əv",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F13",
+          "title_th": "ปัญหาระดับโลก",
+          "goal_th": "อธิบายปัญหาระดับโลก บอกแนวโน้ม และเสนอทางแก้ได้",
+          "scenario": "B is a student from another country at a Model United Nations meeting. Nam must explain a global problem, describe whether it is getting better or worse, and propose what countries should do about it.",
+          "lessons": [
+            {
+              "id": "en-F13-01",
+              "topic": "More and more people are moving to cities",
+              "grammar": "comparative + and + comparative (more and more / bigger and bigger)",
+              "items": [
+                {
+                  "id": "en.migration",
+                  "text": "migration",
+                  "reading": "maɪˈɡreɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.refugee",
+                  "text": "refugee",
+                  "reading": "ˌrɛfjuˈdʒiː",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.urban",
+                  "text": "urban",
+                  "reading": "ˈɜːrbən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inequality",
+                  "text": "inequality",
+                  "reading": "ˌɪnɪˈkwɑːləti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.crisis",
+                  "text": "crisis",
+                  "reading": "ˈkraɪsɪs",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-02",
+              "topic": "There's no point arguing about it",
+              "grammar": "There's no point + -ing / It's no use + -ing",
+              "items": [
+                {
+                  "id": "en.hunger",
+                  "text": "hunger",
+                  "reading": "ˈhʌŋɡər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.aid",
+                  "text": "aid",
+                  "reading": "eɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.food-waste",
+                  "text": "food waste",
+                  "reading": "ˈfuːd ˌweɪst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.developing-country",
+                  "text": "developing country",
+                  "reading": "dɪˌvɛləpɪŋ ˈkʌntri",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.basic-needs",
+                  "text": "basic needs",
+                  "reading": "ˌbeɪsɪk ˈniːdz",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-03",
+              "topic": "If they had acted earlier…",
+              "grammar": "mixed conditionals (If they had acted earlier, the problem wouldn't be so bad now.)",
+              "items": [
+                {
+                  "id": "en.take-action",
+                  "text": "take action",
+                  "reading": "ˌteɪk ˈækʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.response",
+                  "text": "response",
+                  "reading": "rɪˈspɑːns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.effective",
+                  "text": "effective",
+                  "reading": "ɪˈfɛktɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.get-worse",
+                  "text": "get worse",
+                  "reading": "ˌɡɛt ˈwɜːrs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.prevention",
+                  "text": "prevention",
+                  "reading": "prɪˈvɛnʃən",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-04",
+              "topic": "The system needs changing",
+              "grammar": "need + -ing / need to be + past participle (The system needs changing.)",
+              "items": [
+                {
+                  "id": "en.public-services",
+                  "text": "public services",
+                  "reading": "ˌpʌblɪk ˈsɜːrvɪsɪz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.corruption",
+                  "text": "corruption",
+                  "reading": "kəˈrʌpʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.investment",
+                  "text": "investment",
+                  "reading": "ɪnˈvɛstmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fund",
+                  "text": "fund",
+                  "reading": "fʌnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.housing",
+                  "text": "housing",
+                  "reading": "ˈhaʊzɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-05",
+              "topic": "The number of refugees is rising",
+              "grammar": "the number of + plural noun + singular verb / the amount of + uncountable noun",
+              "items": [
+                {
+                  "id": "en.rate",
+                  "text": "rate",
+                  "reading": "reɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.billion",
+                  "text": "billion",
+                  "reading": "ˈbɪljən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.decline",
+                  "text": "decline",
+                  "reading": "dɪˈklaɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.approximately",
+                  "text": "approximately",
+                  "reading": "əˈprɑːksɪmətli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.birth-rate",
+                  "text": "birth rate",
+                  "reading": "ˈbɜːrθ ˌreɪt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-06",
+              "topic": "I'd like to see poverty reduced",
+              "grammar": "would like to see + object + past participle / -ing (I'd like to see more trees planted.)",
+              "items": [
+                {
+                  "id": "en.fair-trade",
+                  "text": "fair trade",
+                  "reading": "ˌfɛr ˈtreɪd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.international",
+                  "text": "international",
+                  "reading": "ˌɪntərˈnæʃənəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.cooperation",
+                  "text": "cooperation",
+                  "reading": "koʊˌɑːpəˈreɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.peace",
+                  "text": "peace",
+                  "reading": "piːs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.war",
+                  "text": "war",
+                  "reading": "wɔːr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "A message from a friend who is volunteering in a refugee camp",
+              "items": [
+                {
+                  "id": "en.shelter",
+                  "text": "shelter",
+                  "reading": "ˈʃɛltər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.helpless",
+                  "text": "helpless",
+                  "reading": "ˈhɛlpləs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.survivor",
+                  "text": "survivor",
+                  "reading": "sərˈvaɪvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.harsh",
+                  "text": "harsh",
+                  "reading": "hɑːrʃ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F13-r02",
+              "kind": "reader",
+              "genre": "diary",
+              "topic": "Nam's diary from her first Model United Nations conference",
+              "items": [
+                {
+                  "id": "en.representative",
+                  "text": "representative",
+                  "reading": "ˌrɛprɪˈzɛntətɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.conference",
+                  "text": "conference",
+                  "reading": "ˈkɑːnfərəns",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.proposal",
+                  "text": "proposal",
+                  "reading": "prəˈpoʊzəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nation",
+                  "text": "nation",
+                  "reading": "ˈneɪʃən",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F14",
+          "title_th": "เป้าหมายและความสำเร็จ",
+          "goal_th": "อธิบายเป้าหมายระยะยาว สิ่งที่ทำไปแล้ว และความหมายของความสำเร็จได้",
+          "scenario": "B is a career coach. Nam must describe her long-term goals, explain what she has already done to reach them, say what success means to her, and agree on her next steps.",
+          "lessons": [
+            {
+              "id": "en-F14-01",
+              "topic": "I knew I would get there one day",
+              "grammar": "future in the past: would / was going to (I knew I would succeed.)",
+              "items": [
+                {
+                  "id": "en.reach",
+                  "text": "reach",
+                  "reading": "riːtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.long-term",
+                  "text": "long-term",
+                  "reading": "ˌlɔːŋ ˈtɜːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.short-term",
+                  "text": "short-term",
+                  "reading": "ˌʃɔːrt ˈtɜːrm",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.vision",
+                  "text": "vision",
+                  "reading": "ˈvɪʒən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.turning-point",
+                  "text": "turning point",
+                  "reading": "ˈtɜːrnɪŋ ˌpɔɪnt",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-02",
+              "topic": "You're bound to succeed",
+              "grammar": "be bound to / be sure to for confident predictions (You're bound to get the job.)",
+              "items": [
+                {
+                  "id": "en.be-bound-to",
+                  "text": "be bound to",
+                  "reading": "bi ˈbaʊnd tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.potential",
+                  "text": "potential",
+                  "reading": "pəˈtɛnʃəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.capable",
+                  "text": "capable",
+                  "reading": "ˈkeɪpəbəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.determination",
+                  "text": "determination",
+                  "reading": "dɪˌtɜːrmɪˈneɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.hard-work",
+                  "text": "hard work",
+                  "reading": "ˌhɑːrd ˈwɜːrk",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-03",
+              "topic": "The key to success is…",
+              "grammar": "noun + preposition + -ing (the key to succeeding / the secret of staying motivated)",
+              "items": [
+                {
+                  "id": "en.the-key-to",
+                  "text": "the key to",
+                  "reading": "ðə ˈkiː tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.success",
+                  "text": "success",
+                  "reading": "səkˈsɛs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.failure",
+                  "text": "failure",
+                  "reading": "ˈfeɪljər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.positive-thinking",
+                  "text": "positive thinking",
+                  "reading": "ˌpɑːzətɪv ˈθɪŋkɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.attitude",
+                  "text": "attitude",
+                  "reading": "ˈætɪtuːd",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-04",
+              "topic": "Stay focused and keep calm",
+              "grammar": "stay / keep / remain + adjective (stay motivated, keep calm, remain positive)",
+              "items": [
+                {
+                  "id": "en.motivated",
+                  "text": "motivated",
+                  "reading": "ˈmoʊtəveɪtɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.focused",
+                  "text": "focused",
+                  "reading": "ˈfoʊkəst",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.remain",
+                  "text": "remain",
+                  "reading": "rɪˈmeɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.organized",
+                  "text": "organized",
+                  "reading": "ˈɔːrɡənaɪzd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.productive",
+                  "text": "productive",
+                  "reading": "prəˈdʌktɪv",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-05",
+              "topic": "She was the first woman to…",
+              "grammar": "the first / the only / the best + to-infinitive (She was the first woman to win.)",
+              "items": [
+                {
+                  "id": "en.world-record",
+                  "text": "world record",
+                  "reading": "ˌwɜːrld ˈrɛkərd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.gold-medal",
+                  "text": "gold medal",
+                  "reading": "ˌɡoʊld ˈmɛdəl",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.winner",
+                  "text": "winner",
+                  "reading": "ˈwɪnər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.victory",
+                  "text": "victory",
+                  "reading": "ˈvɪktəri",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.inspiring",
+                  "text": "inspiring",
+                  "reading": "ɪnˈspaɪərɪŋ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-06",
+              "topic": "Once I've saved enough, I'll…",
+              "grammar": "once / when / after + present perfect for the future (Once I've finished my degree, I'll…)",
+              "items": [
+                {
+                  "id": "en.step-by-step",
+                  "text": "step by step",
+                  "reading": "ˌstɛp baɪ ˈstɛp",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.plan-ahead",
+                  "text": "plan ahead",
+                  "reading": "ˌplæn əˈhɛd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.set-a-goal",
+                  "text": "set a goal",
+                  "reading": "ˌsɛt ə ˈɡoʊl",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.work-toward",
+                  "text": "work toward",
+                  "reading": "ˈwɜːrk təˌwɔːrd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.achievable",
+                  "text": "achievable",
+                  "reading": "əˈtʃiːvəbəl",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-r01",
+              "kind": "reader",
+              "genre": "profile",
+              "topic": "A Thai athlete's long journey to the Olympic Games",
+              "items": [
+                {
+                  "id": "en.athlete",
+                  "text": "athlete",
+                  "reading": "ˈæθliːt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.sacrifice",
+                  "text": "sacrifice",
+                  "reading": "ˈsækrəfaɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.difficulty",
+                  "text": "difficulty",
+                  "reading": "ˈdɪfɪkəlti",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.injury",
+                  "text": "injury",
+                  "reading": "ˈɪndʒəri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F14-r02",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Nam's message to Emma: \"I got the job!\"",
+              "items": [
+                {
+                  "id": "en.thrilled",
+                  "text": "thrilled",
+                  "reading": "θrɪld",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.pay-off",
+                  "text": "pay off",
+                  "reading": "ˌpeɪ ˈɔːf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.start-date",
+                  "text": "start date",
+                  "reading": "ˈstɑːrt ˌdeɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.relieved",
+                  "text": "relieved",
+                  "reading": "rɪˈliːvd",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F15",
+          "title_th": "การตัดสินใจและการต่อรอง",
+          "goal_th": "ชั่งข้อดีข้อเสีย เสนอเงื่อนไข ต่อรอง และหาข้อตกลงร่วมกันได้",
+          "scenario": "B is Nam's landlord, who wants to raise the rent on her apartment. Nam must negotiate: compare her options, make offers with conditions, find a compromise, and reach an agreement.",
+          "lessons": [
+            {
+              "id": "en-F15-01",
+              "topic": "Provided that you fix the air conditioner…",
+              "grammar": "provided (that) / on condition that (I'll sign, provided that you fix the air conditioner.)",
+              "items": [
+                {
+                  "id": "en.negotiate",
+                  "text": "negotiate",
+                  "reading": "nɪˈɡoʊʃieɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.negotiation",
+                  "text": "negotiation",
+                  "reading": "nɪˌɡoʊʃiˈeɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.agreement",
+                  "text": "agreement",
+                  "reading": "əˈɡriːmənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.provided-that",
+                  "text": "provided that",
+                  "reading": "prəˈvaɪdɪd ðæt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.agree-on",
+                  "text": "agree on",
+                  "reading": "əˈɡriː ɑːn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-02",
+              "topic": "Would you consider lowering the rent?",
+              "grammar": "Would you consider + -ing? / How about if we…? (making proposals)",
+              "items": [
+                {
+                  "id": "en.meet-halfway",
+                  "text": "meet halfway",
+                  "reading": "ˌmiːt ˌhæfˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.lower",
+                  "text": "lower",
+                  "reading": "ˈloʊər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.willing",
+                  "text": "willing",
+                  "reading": "ˈwɪlɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.haggle",
+                  "text": "haggle",
+                  "reading": "ˈhæɡəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.final-offer",
+                  "text": "final offer",
+                  "reading": "ˌfaɪnəl ˈɔːfər",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-03",
+              "topic": "On the one hand… on the other hand…",
+              "grammar": "on the one hand… on the other hand… (weighing two sides)",
+              "items": [
+                {
+                  "id": "en.on-the-one-hand",
+                  "text": "on the one hand",
+                  "reading": "ɑːn ðə ˈwʌn ˌhænd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.on-the-other-hand",
+                  "text": "on the other hand",
+                  "reading": "ɑːn ði ˈʌðər ˌhænd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.pros-and-cons",
+                  "text": "pros and cons",
+                  "reading": "ˌproʊz ən ˈkɑːnz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.alternative",
+                  "text": "alternative",
+                  "reading": "ɔːlˈtɜːrnətɪv",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.tough-decision",
+                  "text": "tough decision",
+                  "reading": "ˌtʌf dɪˈsɪʒən",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-04",
+              "topic": "Perhaps we could meet halfway",
+              "grammar": "tentative language: It might be better to… / Perhaps we could… / I was hoping that…",
+              "items": [
+                {
+                  "id": "en.perhaps",
+                  "text": "perhaps",
+                  "reading": "pərˈhæps",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.suggestion",
+                  "text": "suggestion",
+                  "reading": "səɡˈdʒɛstʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.win-win",
+                  "text": "win-win",
+                  "reading": "ˌwɪn ˈwɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.both-sides",
+                  "text": "both sides",
+                  "reading": "ˌboʊθ ˈsaɪdz",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.decide-on",
+                  "text": "decide on",
+                  "reading": "dɪˈsaɪd ɑːn",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-05",
+              "topic": "Either we sign now or…",
+              "grammar": "either … or / neither … nor (correlative conjunctions)",
+              "items": [
+                {
+                  "id": "en.commit",
+                  "text": "commit",
+                  "reading": "kəˈmɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.make-a-choice",
+                  "text": "make a choice",
+                  "reading": "ˌmeɪk ə ˈtʃɔɪs",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.hesitate",
+                  "text": "hesitate",
+                  "reading": "ˈhɛzɪteɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.make-up-your-mind",
+                  "text": "make up your mind",
+                  "reading": "ˌmeɪk ʌp jər ˈmaɪnd",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.think-it-over",
+                  "text": "think it over",
+                  "reading": "ˌθɪŋk ɪt ˈoʊvər",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-06",
+              "topic": "Choose whichever you like",
+              "grammar": "whatever / whichever / whenever / wherever (Choose whichever one you like.)",
+              "items": [
+                {
+                  "id": "en.whatever",
+                  "text": "whatever",
+                  "reading": "wətˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whichever",
+                  "text": "whichever",
+                  "reading": "wɪtʃˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.whenever",
+                  "text": "whenever",
+                  "reading": "wɛnˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.wherever",
+                  "text": "wherever",
+                  "reading": "wɛrˈɛvər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.up-to-you",
+                  "text": "up to you",
+                  "reading": "ˌʌp tə ˈjuː",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-r01",
+              "kind": "reader",
+              "genre": "story",
+              "topic": "Bargaining at Chatuchak Market: Emma learns the rules",
+              "items": [
+                {
+                  "id": "en.starting-price",
+                  "text": "starting price",
+                  "reading": "ˈstɑːrtɪŋ ˌpraɪs",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.walk-away",
+                  "text": "walk away",
+                  "reading": "ˌwɔːk əˈweɪ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.shopkeeper",
+                  "text": "shopkeeper",
+                  "reading": "ˈʃɑːpkiːpər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.fixed-price",
+                  "text": "fixed price",
+                  "reading": "ˌfɪkst ˈpraɪs",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F15-r02",
+              "kind": "reader",
+              "genre": "dialogue-text",
+              "topic": "Four students try to agree on a topic for their group project",
+              "items": [
+                {
+                  "id": "en.agree-with",
+                  "text": "agree with",
+                  "reading": "əˈɡriː wɪð",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.go-along-with",
+                  "text": "go along with",
+                  "reading": "ˌɡoʊ əˈlɔːŋ wɪð",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.fair-enough",
+                  "text": "fair enough",
+                  "reading": "ˌfɛr ɪˈnʌf",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.disagreement",
+                  "text": "disagreement",
+                  "reading": "ˌdɪsəˈɡriːmənt",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en-F16",
+          "title_th": "การสนทนาทั่วไปและการสร้างเครือข่าย",
+          "goal_th": "เริ่มบทสนทนากับคนแปลกหน้า ทำให้คุยต่อได้ แลกช่องทางติดต่อ และจบบทสนทนาอย่างสุภาพได้",
+          "scenario": "B is a guest at an international networking event in Bangkok. Nam must start a conversation with a stranger, keep it going by showing interest, exchange contact details, and end the conversation politely.",
+          "lessons": [
+            {
+              "id": "en-F16-01",
+              "topic": "Oh, did you? / Have you really?",
+              "grammar": "echo questions for showing interest (Oh, did you? / Have you really?)",
+              "items": [
+                {
+                  "id": "en.small-talk",
+                  "text": "small talk",
+                  "reading": "ˈsmɔːl ˌtɔːk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.networking",
+                  "text": "networking",
+                  "reading": "ˈnɛtwɜːrkɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.first-impression",
+                  "text": "first impression",
+                  "reading": "ˌfɜːrst ɪmˈprɛʃən",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.event",
+                  "text": "event",
+                  "reading": "ɪˈvɛnt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.socialize",
+                  "text": "socialize",
+                  "reading": "ˈsoʊʃəlaɪz",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-02",
+              "topic": "How come you're in Bangkok?",
+              "grammar": "informal questions: How come…? / What … for? / What brings you here?",
+              "items": [
+                {
+                  "id": "en.what-brings-you-here",
+                  "text": "What brings you here?",
+                  "reading": "ˌwʌt ˌbrɪŋz juː ˈhɪr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.originally",
+                  "text": "originally",
+                  "reading": "əˈrɪdʒənəli",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.based-in",
+                  "text": "based in",
+                  "reading": "ˈbeɪst ɪn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.line-of-work",
+                  "text": "line of work",
+                  "reading": "ˌlaɪn əv ˈwɜːrk",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.industry",
+                  "text": "industry",
+                  "reading": "ˈɪndəstri",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-03",
+              "topic": "It's sort of a tech company",
+              "grammar": "vague language: sort of, kind of, or so, and so on",
+              "items": [
+                {
+                  "id": "en.sort-of",
+                  "text": "sort of",
+                  "reading": "ˈsɔːrt əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.kind-of",
+                  "text": "kind of",
+                  "reading": "ˈkaɪnd əv",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.or-so",
+                  "text": "or so",
+                  "reading": "ˌɔːr ˈsoʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.and-so-on",
+                  "text": "and so on",
+                  "reading": "ənd ˈsoʊ ˌɑːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.roughly",
+                  "text": "roughly",
+                  "reading": "ˈrʌfli",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-04",
+              "topic": "Well, you know, I mean…",
+              "grammar": "conversation fillers: well, you know, I mean, let me see",
+              "items": [
+                {
+                  "id": "en.you-know",
+                  "text": "you know",
+                  "reading": "juː ˈnoʊ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.i-mean",
+                  "text": "I mean",
+                  "reading": "aɪ ˈmiːn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.let-me-see",
+                  "text": "let me see",
+                  "reading": "ˌlɛt mi ˈsiː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.to-be-honest",
+                  "text": "to be honest",
+                  "reading": "tə bi ˈɑːnɪst",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.as-i-said",
+                  "text": "as I said",
+                  "reading": "æz aɪ ˈsɛd",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-05",
+              "topic": "I'd better get going",
+              "grammar": "closing a conversation: I'd better get going / I'll let you go / It was nice talking to you",
+              "items": [
+                {
+                  "id": "en.id-better-get-going",
+                  "text": "I'd better get going",
+                  "reading": "aɪd ˌbɛtər ɡɛt ˈɡoʊɪŋ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.it-was-nice-talking-to-you",
+                  "text": "It was nice talking to you",
+                  "reading": "ɪt wəz ˌnaɪs ˈtɔːkɪŋ tə juː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.business-card",
+                  "text": "business card",
+                  "reading": "ˈbɪznəs ˌkɑːrd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.contact-details",
+                  "text": "contact details",
+                  "reading": "ˈkɑːntækt ˌdiːteɪlz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.see-you-around",
+                  "text": "See you around",
+                  "reading": "ˌsiː juː əˈraʊnd",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-06",
+              "topic": "Feel free to contact me",
+              "grammar": "feel free to / don't hesitate to + verb (Feel free to call me any time.)",
+              "items": [
+                {
+                  "id": "en.feel-free-to",
+                  "text": "feel free to",
+                  "reading": "ˌfiːl ˈfriː tuː",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.reach-out",
+                  "text": "reach out",
+                  "reading": "ˌriːtʃ ˈaʊt",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.get-in-touch",
+                  "text": "get in touch",
+                  "reading": "ˌɡɛt ɪn ˈtʌtʃ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.work-together",
+                  "text": "work together",
+                  "reading": "ˌwɜːrk təˈɡɛðər",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "en.acquaintance",
+                  "text": "acquaintance",
+                  "reading": "əˈkweɪntəns",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-r01",
+              "kind": "reader",
+              "genre": "message",
+              "topic": "Nam's messages to Emma after her first networking event",
+              "items": [
+                {
+                  "id": "en.introvert",
+                  "text": "introvert",
+                  "reading": "ˈɪntrəvɜːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.extrovert",
+                  "text": "extrovert",
+                  "reading": "ˈɛkstrəvɜːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.comfort-zone",
+                  "text": "comfort zone",
+                  "reading": "ˈkʌmfərt ˌzoʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.small-world",
+                  "text": "small world",
+                  "reading": "ˌsmɔːl ˈwɜːrld",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "en-F16-r02",
+              "kind": "reader",
+              "genre": "notice",
+              "topic": "Welcome to Young Professionals Night: the event program and some tips",
+              "items": [
+                {
+                  "id": "en.name-tag",
+                  "text": "name tag",
+                  "reading": "ˈneɪm ˌtæɡ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.registration",
+                  "text": "registration",
+                  "reading": "ˌrɛdʒɪˈstreɪʃən",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.welcome-drink",
+                  "text": "welcome drink",
+                  "reading": "ˈwɛlkəm ˌdrɪŋk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.guest-speaker",
+                  "text": "guest speaker",
+                  "reading": "ˌɡɛst ˈspiːkər",
+                  "kind": "phrase"
                 }
               ]
             }
