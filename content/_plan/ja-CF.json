@@ -978,9 +978,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.okureru",
-                  "text": "おくれる",
-                  "reading": "okureru",
+                  "id": "ja.sukejuuru",
+                  "text": "スケジュール",
+                  "reading": "sukejūru",
                   "kind": "word"
                 },
                 {
@@ -1788,12 +1788,6 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.otosu",
-                  "text": "おとす",
-                  "reading": "otosu",
-                  "kind": "word"
-                },
-                {
                   "id": "ja.nakunaru",
                   "text": "なくなる",
                   "reading": "nakunaru",
@@ -1806,9 +1800,15 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.mitsukaru",
-                  "text": "見つかる",
-                  "reading": "mitsukaru",
+                  "id": "ja.okiwasureru",
+                  "text": "おきわすれる",
+                  "reading": "okiwasureru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sagashimono",
+                  "text": "さがしもの",
+                  "reading": "sagashimono",
                   "kind": "word"
                 }
               ]
@@ -3046,9 +3046,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.kowareru",
-                  "text": "こわれる",
-                  "reading": "kowareru",
+                  "id": "ja.omosa",
+                  "text": "重さ",
+                  "reading": "omosa",
                   "kind": "word"
                 },
                 {
@@ -3895,9 +3895,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "ja.mayou",
-                  "text": "まよう",
-                  "reading": "mayou",
+                  "id": "ja.teiban",
+                  "text": "ていばん",
+                  "reading": "teiban",
                   "kind": "word"
                 },
                 {
@@ -5745,12 +5745,6 @@
                   "text": "親切",
                   "reading": "shinsetsu",
                   "kind": "word"
-                },
-                {
-                  "id": "ja.tasukeru",
-                  "text": "たすける",
-                  "reading": "tasukeru",
-                  "kind": "word"
                 }
               ]
             },
@@ -5972,12 +5966,6 @@
               "topic": "Thank-you messages after Nam helped Yuki move house",
               "items": [
                 {
-                  "id": "ja.otsukaresama",
-                  "text": "おつかれさま",
-                  "reading": "otsukaresama",
-                  "kind": "phrase"
-                },
-                {
                   "id": "ja.kinnikutsuu",
                   "text": "きんにくつう",
                   "reading": "kinnikutsū",
@@ -5987,6 +5975,18 @@
                   "id": "ja.ogoru",
                   "text": "おごる",
                   "reading": "ogoru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hikkoshiiwai",
+                  "text": "ひっこしいわい",
+                  "reading": "hikkoshiiwai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.uchiage",
+                  "text": "うちあげ",
+                  "reading": "uchiage",
                   "kind": "word"
                 }
               ]
@@ -8459,12 +8459,6 @@
                   "id": "ja.kyuujo",
                   "text": "きゅうじょ",
                   "reading": "kyūjo",
-                  "kind": "word"
-                },
-                {
-                  "id": "ja.ugoku",
-                  "text": "動く",
-                  "reading": "ugoku",
                   "kind": "word"
                 }
               ]
