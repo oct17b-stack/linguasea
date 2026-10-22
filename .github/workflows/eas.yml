@@ -1,0 +1,43 @@
+# Cloud builds of the mobile app with Expo Application Services.
+# Needs the repository secret EXPO_TOKEN (expo.dev → Account settings → Access tokens).
+# App environment variables (EXPO_PUBLIC_API_URL, RevenueCat keys) live in the EAS project's environment, not here.
+name: EAS build
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: Build profile from app/eas.json
+        type: choice
+        options: [preview, production]
+        default: preview
+      platform:
+        type: choice
+        options: [all, android, ios]
+        default: all
+      submit:
+        description: Submit the production build to the stores
+        type: boolean
+        default: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Build
+        working-directory: app
+        run: >
+          eas build --non-interactive --no-wait
+          --profile ${{ inputs.profile }} --platform ${{ inputs.platform }}
+          ${{ inputs.submit && inputs.profile == 'production' && '--auto-submit' || '' }}

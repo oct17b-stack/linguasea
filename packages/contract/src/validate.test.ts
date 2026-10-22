@@ -27,6 +27,13 @@ function edit(file: string, change: (json: any) => void) {
 
 const messages = (root: string) => validate(loadContent(root)).map((p) => `${p.file}: ${p.message}`);
 
+const read = (file: string) => JSON.parse(readFileSync(file, 'utf8'));
+/** First vocabulary item of a real lesson, so tests do not depend on the exact words. */
+const firstWord = (root: string, target: string, lesson: string) =>
+  read(join(root, `courses/${target}/lessons/${lesson}.json`)).items.find(
+    (i: { kind?: string }) => !i.kind || i.kind === 'word' || i.kind === 'phrase',
+  );
+
 describe('content', () => {
   it('the real content has no problems', () => {
     expect(messages(contentRoot)).toEqual([]);
@@ -47,31 +54,35 @@ describe('validate', () => {
 
   it('catches an item id reused with a different text', () => {
     const root = copy();
+    const word = firstWord(root, 'zh', 'zh-A1-01');
     edit(join(root, 'courses/zh/lessons/zh-B1-01.json'), (l) => {
-      l.items.push({ id: 'zh.ni-hao', text: '您好', reading: 'nín hǎo' });
+      l.items.push({ ...word, text: `${word.text}吗` });
     });
-    expect(messages(root).some((m) => m.includes('zh.ni-hao differs from zh-A1-01'))).toBe(true);
+    expect(messages(root).some((m) => m.includes(`${word.id} differs from zh-A1-01`))).toBe(true);
   });
 
   it('catches an exercise on a word the lesson does not teach', () => {
     const root = copy();
+    const other = firstWord(root, 'ja', 'ja-B1-01');
     edit(join(root, 'courses/ja/lessons/ja-A1-01.json'), (l) => {
-      l.exercises.push({ type: 'speak', item: 'ja.ichi' });
+      l.exercises = [...(l.exercises ?? []), { type: 'speak', item: other.id }];
     });
     expect(messages(root)).toContain(
-      'courses/ja/lessons/ja-A1-01.json: exercise uses ja.ichi, which is not taught in this lesson',
+      `courses/ja/lessons/ja-A1-01.json: exercise uses ${other.id}, which is not taught in this lesson`,
     );
   });
 
   it('catches a missing explanation in a released course', () => {
     const root = copy();
+    const word = firstWord(root, 'ko', 'ko-A1-01');
+    const lines = read(join(root, 'courses/ko/lessons/ko-A1-01.json')).dialogue.length;
     edit(join(root, 'l1/th/ko/lessons/ko-A1-01.json'), (g) => {
-      delete g.items['ko.gamsahamnida'];
-      g.dialogue.pop();
+      delete g.items[word.id];
+      g.dialogue.push('เกิน');
     });
     const m = messages(root);
-    expect(m).toContain('l1/th/ko/lessons/ko-A1-01.json: missing gloss for ko.gamsahamnida');
-    expect(m).toContain('l1/th/ko/lessons/ko-A1-01.json: dialogue has 5 translations for 6 lines');
+    expect(m).toContain(`l1/th/ko/lessons/ko-A1-01.json: missing gloss for ${word.id}`);
+    expect(m).toContain(`l1/th/ko/lessons/ko-A1-01.json: dialogue has ${lines + 1} translations for ${lines} lines`);
   });
 
   it('catches a lesson without explanation in a released course', () => {
@@ -105,22 +116,23 @@ describe('validate', () => {
 describe('exercises', () => {
   it('rejects a wrong answer of another kind or one that sounds the same', () => {
     const root = copy();
+    const word = firstWord(root, 'zh', 'zh-A1-01');
     edit(join(root, 'courses/zh/lessons/zh-A1-01.json'), (l) => {
-      l.items.push({ id: 'zh.ta-he', text: '他', reading: 'tā' }, { id: 'zh.ta-she', text: '她', reading: 'tā' });
-      l.items.push({ id: 'zh.ma1', kind: 'syllable', text: 'mā', reading: 'mā', say: '妈' });
+      l.items.push({ id: 'zh.test-he', text: '他测', reading: 'tā cè' }, { id: 'zh.test-she', text: '她测', reading: 'tā cè' });
+      l.items.push({ id: 'zh.test-ma1', kind: 'syllable', text: 'mā测', reading: 'mā cè', say: '妈' });
       l.exercises = [
-        { type: 'listen-text', item: 'zh.ta-he', options: ['zh.ta-she'] },
-        { type: 'choose-meaning', item: 'zh.ni-hao', options: ['zh.ma1'] },
+        { type: 'listen-text', item: 'zh.test-he', options: ['zh.test-she'] },
+        { type: 'choose-meaning', item: word.id, options: ['zh.test-ma1'] },
       ];
     });
     edit(join(root, 'l1/th/zh/lessons/zh-A1-01.json'), (g) => {
-      g.items['zh.ta-he'] = { meaning: 'เขา (ผู้ชาย)' };
-      g.items['zh.ta-she'] = { meaning: 'เขา (ผู้หญิง)' };
-      g.items['zh.ma1'] = { meaning: 'เสียง 1' };
+      g.items['zh.test-he'] = { meaning: 'เขา (ผู้ชาย) ทดสอบ' };
+      g.items['zh.test-she'] = { meaning: 'เขา (ผู้หญิง) ทดสอบ' };
+      g.items['zh.test-ma1'] = { meaning: 'เสียง 1 ทดสอบ' };
     });
     const m = messages(root);
-    expect(m).toContain('courses/zh/lessons/zh-A1-01.json: listen-text on zh.ta-he: option zh.ta-she sounds the same ("tā")');
-    expect(m).toContain('courses/zh/lessons/zh-A1-01.json: choose-meaning option zh.ma1 is a syllable, not like zh.ni-hao');
+    expect(m).toContain('courses/zh/lessons/zh-A1-01.json: listen-text on zh.test-he: option zh.test-she sounds the same ("tā cè")');
+    expect(m).toContain(`courses/zh/lessons/zh-A1-01.json: choose-meaning option zh.test-ma1 is a syllable, not like ${word.id}`);
   });
 
   it('gives sound items a listening question by default', async () => {

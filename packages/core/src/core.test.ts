@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { lessonAccess } from './access';
+import { lessonAccess, lessonOrder } from './access';
 import {
   completeLesson,
   currentStreak,
@@ -16,21 +16,26 @@ import { th } from './test-bundle';
 
 describe('buildSteps', () => {
   it('walks a lesson from intro to done', () => {
+    const { lesson, gloss } = th.courses.zh!.lessons['zh-A1-01'];
     const steps = buildSteps(th.courses.zh!, 'zh-A1-01');
-    expect(steps[0]).toMatchObject({ kind: 'intro', title: 'ทักทายเป็นภาษาจีน' });
-    expect(steps.filter((s) => s.kind === 'learn')).toHaveLength(4);
-    expect(steps.some((s) => s.kind === 'dialogue')).toBe(true);
+    expect(steps[0]).toMatchObject({ kind: 'intro', title: gloss.title });
+    expect(steps.filter((s) => s.kind === 'learn')).toHaveLength(lesson.items.length);
+    expect(steps.some((s) => s.kind === 'dialogue')).toBe(lesson.dialogue.length > 0);
     expect(steps.at(-1)).toEqual({ kind: 'done' });
   });
 
-  it('gives every choice question 4 distinct answers with exactly one right', () => {
+  it('gives every choice question distinct answers with exactly one right (4 unless the lesson lists its own)', () => {
     for (const [target, course] of Object.entries(th.courses)) {
       for (const id of Object.keys(course!.lessons)) {
+        const listed = new Set(
+          course!.lessons[id].lesson.exercises.filter((e) => 'options' in e && e.options).map((e) => `${e.type} ${e.item}`),
+        );
         for (const s of buildSteps(course!, id)) {
           if (s.kind !== 'choose') continue;
-          expect(s.choices, `${target} ${id}`).toHaveLength(4);
-          expect(new Set(s.choices.map((c) => c.label)).size).toBe(4);
-          expect(s.choices.filter((c) => c.correct)).toHaveLength(1);
+          const where = `${target} ${id} ${s.exercise} ${s.word.id}`;
+          if (!listed.has(`${s.exercise} ${s.word.id}`)) expect(s.choices, where).toHaveLength(4);
+          expect(new Set(s.choices.map((c) => c.label)).size, where).toBe(s.choices.length);
+          expect(s.choices.filter((c) => c.correct), where).toHaveLength(1);
         }
       }
     }
@@ -44,22 +49,34 @@ describe('buildSteps', () => {
 
 describe('reviewSteps', () => {
   it('asks one question per known item and skips unknown ids', () => {
-    const steps = reviewSteps(th.courses.zh!, ['zh.ni-hao', 'zh.wu', 'zh.nope'], 1);
-    expect(steps.map((s) => s.kind === 'choose' && s.word.id)).toEqual(['zh.ni-hao', 'zh.wu']);
+    const course = th.courses.zh!;
+    const words = Object.values(course.lessons)
+      .flatMap((e) => e.lesson.items)
+      .filter((i) => i.kind === 'word' || i.kind === 'phrase')
+      .map((i) => i.id);
+    const ids = [words[0], words[words.length - 1]];
+    const steps = reviewSteps(course, [...ids, 'zh.nope'], 1);
+    expect(steps.map((s) => s.kind === 'choose' && s.word.id)).toEqual(ids);
     expect(steps.map((s) => s.kind === 'choose' && s.exercise)).toEqual(['listen-choose', 'choose-meaning']);
   });
 });
 
 describe('lessonAccess', () => {
   const course = th.courses.ja!.course;
+  const order = lessonOrder(course);
+  const firstPaid = course.stages.find((s) => !s.free)!.units[0].lessons[0];
+  const beforePaid = order[order.indexOf(firstPaid) - 1];
+  const allBefore = Object.fromEntries(order.slice(0, order.indexOf(firstPaid)).map((id) => [id, 'done']));
+
   it('opens the first lesson and locks later ones in order', () => {
-    expect(lessonAccess(course, 'ja-A1-01', {}, false)).toBe('open');
-    expect(lessonAccess(course, 'ja-B1-01', {}, true)).toBe('locked');
+    expect(lessonAccess(course, order[0], {}, false)).toBe('open');
+    expect(lessonAccess(course, order[1], {}, true)).toBe('locked');
+    expect(lessonAccess(course, order[1], { [order[0]]: 'done' }, true)).toBe('open');
+    expect(lessonAccess(course, firstPaid, {}, true)).toBe(beforePaid ? 'locked' : 'open');
   });
   it('asks for the subscription on paid stages', () => {
-    const done = { 'ja-A1-01': '2026-10-22' };
-    expect(lessonAccess(course, 'ja-B1-01', done, false)).toBe('premium');
-    expect(lessonAccess(course, 'ja-B1-01', done, true)).toBe('open');
+    expect(lessonAccess(course, firstPaid, allBefore, false)).toBe('premium');
+    expect(lessonAccess(course, firstPaid, allBefore, true)).toBe('open');
   });
 });
 
