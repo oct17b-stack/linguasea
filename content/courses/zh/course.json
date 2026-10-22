@@ -1,0 +1,35 @@
+{
+  "target": "zh",
+  "voice": "zh-CN",
+  "reading": "pinyin",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "free": true,
+      "units": [
+        {
+          "id": "zh-A1",
+          "lessons": [
+            "zh-A1-01"
+          ]
+        }
+      ],
+      "exam": "HSK 1"
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "free": false,
+      "units": [
+        {
+          "id": "zh-B1",
+          "lessons": [
+            "zh-B1-01"
+          ]
+        }
+      ],
+      "exam": "HSK 1"
+    }
+  ]
+}

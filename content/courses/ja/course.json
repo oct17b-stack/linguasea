@@ -1,0 +1,35 @@
+{
+  "target": "ja",
+  "voice": "ja-JP",
+  "reading": "romaji",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "free": true,
+      "units": [
+        {
+          "id": "ja-A1",
+          "lessons": [
+            "ja-A1-01"
+          ]
+        }
+      ],
+      "exam": "JLPT N5"
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "free": false,
+      "units": [
+        {
+          "id": "ja-B1",
+          "lessons": [
+            "ja-B1-01"
+          ]
+        }
+      ],
+      "exam": "JLPT N5"
+    }
+  ]
+}

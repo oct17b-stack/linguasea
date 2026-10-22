@@ -1,0 +1,98 @@
+{
+  "id": "en-A1-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "en.hello",
+      "text": "Hello",
+      "reading": "həˈloʊ"
+    },
+    {
+      "id": "en.thank-you",
+      "text": "Thank you",
+      "reading": "ˈθæŋk juː"
+    },
+    {
+      "id": "en.youre-welcome",
+      "text": "You're welcome",
+      "reading": "jʊr ˈwɛlkəm"
+    },
+    {
+      "id": "en.goodbye",
+      "text": "Goodbye",
+      "reading": "ɡʊdˈbaɪ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hello!",
+      "reading": "həˈloʊ"
+    },
+    {
+      "speaker": "b",
+      "text": "Hello!",
+      "reading": "həˈloʊ"
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you!",
+      "reading": "ˈθæŋk juː"
+    },
+    {
+      "speaker": "b",
+      "text": "You're welcome.",
+      "reading": "jʊr ˈwɛlkəm"
+    },
+    {
+      "speaker": "a",
+      "text": "Goodbye!",
+      "reading": "ɡʊdˈbaɪ"
+    },
+    {
+      "speaker": "b",
+      "text": "Goodbye!",
+      "reading": "ɡʊdˈbaɪ"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "en.hello"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.thank-you"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.youre-welcome"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.goodbye"
+    },
+    {
+      "type": "listen-choose",
+      "item": "en.hello"
+    },
+    {
+      "type": "listen-choose",
+      "item": "en.thank-you"
+    },
+    {
+      "type": "choose-text",
+      "item": "en.goodbye"
+    },
+    {
+      "type": "speak",
+      "item": "en.hello"
+    },
+    {
+      "type": "speak",
+      "item": "en.thank-you"
+    }
+  ]
+}

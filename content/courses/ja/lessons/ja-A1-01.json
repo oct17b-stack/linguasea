@@ -1,0 +1,98 @@
+{
+  "id": "ja-A1-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ja.konnichiwa",
+      "text": "こんにちは",
+      "reading": "konnichiwa"
+    },
+    {
+      "id": "ja.arigatou",
+      "text": "ありがとう",
+      "reading": "arigatō"
+    },
+    {
+      "id": "ja.douitashimashite",
+      "text": "どういたしまして",
+      "reading": "dōitashimashite"
+    },
+    {
+      "id": "ja.sayounara",
+      "text": "さようなら",
+      "reading": "sayōnara"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "こんにちは！",
+      "reading": "konnichiwa!"
+    },
+    {
+      "speaker": "b",
+      "text": "こんにちは！",
+      "reading": "konnichiwa!"
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう！",
+      "reading": "arigatō!"
+    },
+    {
+      "speaker": "b",
+      "text": "どういたしまして。",
+      "reading": "dōitashimashite."
+    },
+    {
+      "speaker": "a",
+      "text": "さようなら！",
+      "reading": "sayōnara!"
+    },
+    {
+      "speaker": "b",
+      "text": "さようなら！",
+      "reading": "sayōnara!"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "ja.konnichiwa"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.arigatou"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.douitashimashite"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.sayounara"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.konnichiwa"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.arigatou"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.sayounara"
+    },
+    {
+      "type": "speak",
+      "item": "ja.konnichiwa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.arigatou"
+    }
+  ]
+}

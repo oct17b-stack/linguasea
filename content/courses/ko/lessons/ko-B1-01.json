@@ -1,0 +1,76 @@
+{
+  "id": "ko-B1-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ko.hana",
+      "text": "하나",
+      "reading": "hana"
+    },
+    {
+      "id": "ko.dul",
+      "text": "둘",
+      "reading": "dul"
+    },
+    {
+      "id": "ko.set",
+      "text": "셋",
+      "reading": "set"
+    },
+    {
+      "id": "ko.net",
+      "text": "넷",
+      "reading": "net"
+    },
+    {
+      "id": "ko.daseot",
+      "text": "다섯",
+      "reading": "daseot"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "ko.hana"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.dul"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.set"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.net"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.daseot"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.hana"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.dul"
+    },
+    {
+      "type": "choose-text",
+      "item": "ko.daseot"
+    },
+    {
+      "type": "speak",
+      "item": "ko.hana"
+    },
+    {
+      "type": "speak",
+      "item": "ko.dul"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "en-B1-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "en.one",
+      "text": "one",
+      "reading": "wʌn"
+    },
+    {
+      "id": "en.two",
+      "text": "two",
+      "reading": "tuː"
+    },
+    {
+      "id": "en.three",
+      "text": "three",
+      "reading": "θriː"
+    },
+    {
+      "id": "en.four",
+      "text": "four",
+      "reading": "fɔːr"
+    },
+    {
+      "id": "en.five",
+      "text": "five",
+      "reading": "faɪv"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "en.one"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.two"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.three"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.four"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.five"
+    },
+    {
+      "type": "listen-choose",
+      "item": "en.one"
+    },
+    {
+      "type": "listen-choose",
+      "item": "en.two"
+    },
+    {
+      "type": "choose-text",
+      "item": "en.five"
+    },
+    {
+      "type": "speak",
+      "item": "en.one"
+    },
+    {
+      "type": "speak",
+      "item": "en.two"
+    }
+  ]
+}

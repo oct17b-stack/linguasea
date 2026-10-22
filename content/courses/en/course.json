@@ -1,0 +1,33 @@
+{
+  "target": "en",
+  "voice": "en-US",
+  "reading": "IPA",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "free": true,
+      "units": [
+        {
+          "id": "en-A1",
+          "lessons": [
+            "en-A1-01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "free": false,
+      "units": [
+        {
+          "id": "en-B1",
+          "lessons": [
+            "en-B1-01"
+          ]
+        }
+      ]
+    }
+  ]
+}

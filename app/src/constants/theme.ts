@@ -1,0 +1,79 @@
+/**
+ * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
+ * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://unistyl.es/), etc.
+ */
+
+import { Platform } from 'react-native';
+
+export const Colors = {
+  light: {
+    text: '#000000',
+    background: '#ffffff',
+    backgroundElement: '#F0F0F3',
+    backgroundSelected: '#E0E1E6',
+    textSecondary: '#60646C',
+    primary: '#1F7A5C',
+    onPrimary: '#ffffff',
+    success: '#1F7A5C',
+    successSoft: '#DDF3EA',
+    danger: '#B42318',
+    dangerSoft: '#FDE7E5',
+    accent: '#E8A33D',
+    border: '#D9DBE0',
+  },
+  dark: {
+    text: '#ffffff',
+    background: '#000000',
+    backgroundElement: '#212225',
+    backgroundSelected: '#2E3135',
+    textSecondary: '#B0B4BA',
+    primary: '#3DBE8F',
+    onPrimary: '#04140E',
+    success: '#3DBE8F',
+    successSoft: '#11372A',
+    danger: '#F97066',
+    dangerSoft: '#3D1512',
+    accent: '#F0B65A',
+    border: '#34373C',
+  },
+} as const;
+
+export type ThemeColor = keyof typeof Colors.light & keyof typeof Colors.dark;
+
+export const Fonts = Platform.select({
+  ios: {
+    /** iOS `UIFontDescriptorSystemDesignDefault` */
+    sans: 'system-ui',
+    /** iOS `UIFontDescriptorSystemDesignSerif` */
+    serif: 'ui-serif',
+    /** iOS `UIFontDescriptorSystemDesignRounded` */
+    rounded: 'ui-rounded',
+    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
+    mono: 'ui-monospace',
+  },
+  default: {
+    sans: 'normal',
+    serif: 'serif',
+    rounded: 'normal',
+    mono: 'monospace',
+  },
+  web: {
+    sans: 'Inter, ui-sans-serif, system-ui, sans-serif',
+    serif: "Georgia, 'Times New Roman', serif",
+    rounded: "'SF Pro Rounded', ui-rounded, sans-serif",
+    mono: 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace',
+  },
+});
+
+export const Spacing = {
+  half: 2,
+  one: 4,
+  two: 8,
+  three: 16,
+  four: 24,
+  five: 32,
+  six: 64,
+} as const;
+
+export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
+export const MaxContentWidth = 800;

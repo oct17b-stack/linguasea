@@ -1,0 +1,35 @@
+{
+  "target": "ko",
+  "voice": "ko-KR",
+  "reading": "revised romanization",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "free": true,
+      "units": [
+        {
+          "id": "ko-A1",
+          "lessons": [
+            "ko-A1-01"
+          ]
+        }
+      ],
+      "exam": "TOPIK I"
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "free": false,
+      "units": [
+        {
+          "id": "ko-B1",
+          "lessons": [
+            "ko-B1-01"
+          ]
+        }
+      ],
+      "exam": "TOPIK I"
+    }
+  ]
+}

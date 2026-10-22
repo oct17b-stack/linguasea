@@ -1,0 +1,76 @@
+{
+  "id": "zh-B1-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "zh.yi",
+      "text": "一",
+      "reading": "yī"
+    },
+    {
+      "id": "zh.er",
+      "text": "二",
+      "reading": "èr"
+    },
+    {
+      "id": "zh.san",
+      "text": "三",
+      "reading": "sān"
+    },
+    {
+      "id": "zh.si",
+      "text": "四",
+      "reading": "sì"
+    },
+    {
+      "id": "zh.wu",
+      "text": "五",
+      "reading": "wǔ"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "zh.yi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.er"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.san"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.si"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.wu"
+    },
+    {
+      "type": "listen-choose",
+      "item": "zh.yi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "zh.er"
+    },
+    {
+      "type": "choose-text",
+      "item": "zh.wu"
+    },
+    {
+      "type": "speak",
+      "item": "zh.yi"
+    },
+    {
+      "type": "speak",
+      "item": "zh.er"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ja-B1-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 5,
+  "items": [
+    {
+      "id": "ja.ichi",
+      "text": "いち",
+      "reading": "ichi"
+    },
+    {
+      "id": "ja.ni",
+      "text": "に",
+      "reading": "ni"
+    },
+    {
+      "id": "ja.san",
+      "text": "さん",
+      "reading": "san"
+    },
+    {
+      "id": "ja.yon",
+      "text": "よん",
+      "reading": "yon"
+    },
+    {
+      "id": "ja.go",
+      "text": "ご",
+      "reading": "go"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "choose-meaning",
+      "item": "ja.ichi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.ni"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.san"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.yon"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.go"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.ichi"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.ni"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.go"
+    },
+    {
+      "type": "speak",
+      "item": "ja.ichi"
+    },
+    {
+      "type": "speak",
+      "item": "ja.ni"
+    }
+  ]
+}
