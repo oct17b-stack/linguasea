@@ -31,7 +31,19 @@ const appVersion = (() => {
 const interfaceLanguages = Object.values(bundle.l1s).filter((b): b is L1Bundle => !!b);
 
 export default function Settings() {
-  const { l1, target, setL1, premium, reminder, setReminder, refreshPremium, deleteMyData, t } = useApp();
+  const {
+    l1,
+    target,
+    setL1,
+    premium,
+    reminder,
+    setReminder,
+    refreshPremium,
+    deleteMyData,
+    tutorConsent,
+    setTutorConsent,
+    t,
+  } = useApp();
   const c = useTheme();
   const course = target ? courseBundle(l1, target) : undefined;
   const [restoring, setRestoring] = useState(false);
@@ -98,6 +110,13 @@ export default function Settings() {
           action={t('settings.change')}
           onPress={() => router.push('/languages')}
         />
+        {course ? (
+          <Row
+            label={t('settings.placement')}
+            action="›"
+            onPress={() => router.push({ pathname: '/placement', params: { start: 'test' } })}
+          />
+        ) : null}
       </Section>
 
       {interfaceLanguages.length > 1 ? (
@@ -169,6 +188,16 @@ export default function Settings() {
       ) : null}
 
       <Section title={t('settings.data')}>
+        {tutorConsent === 'agreed' ? (
+          <Row
+            label={t('settings.tutorConsent')}
+            action={t('settings.tutorWithdraw')}
+            onPress={() => {
+              setTutorConsent(undefined);
+              notify(t('settings.tutorWithdrawn'));
+            }}
+          />
+        ) : null}
         <ThemedText type="small" style={{ color: c.textSecondary }}>
           {t('settings.deleteHint')}
         </ThemedText>

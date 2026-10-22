@@ -1,0 +1,65 @@
+{
+  "id": "ja-B4-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.sore",
+      "text": "それ",
+      "reading": "sore"
+    },
+    {
+      "id": "ja.are",
+      "text": "あれ",
+      "reading": "are"
+    },
+    {
+      "id": "ja.dore",
+      "text": "どれ",
+      "reading": "dore"
+    },
+    {
+      "id": "ja.tokei",
+      "text": "とけい",
+      "reading": "tokei"
+    },
+    {
+      "id": "ja.kaban",
+      "text": "かばん",
+      "reading": "kaban"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、それは なんですか。",
+      "reading": "Sumimasen, sore wa nan desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "これですか。とけいです。",
+      "reading": "Kore desu ka. Tokei desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いくらですか。",
+      "reading": "Ikura desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "3,000円です。",
+      "reading": "Sanzen en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あれは？",
+      "reading": "Are wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "あれは かばんです。2,000円です。",
+      "reading": "Are wa kaban desu. Nisen en desu."
+    }
+  ]
+}

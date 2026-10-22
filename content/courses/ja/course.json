@@ -6,30 +6,126 @@
     {
       "id": "A",
       "cefr": "pre-A1",
+      "exam": "JLPT N5",
       "free": true,
       "units": [
         {
           "id": "ja-A1",
           "lessons": [
-            "ja-A1-01"
+            "ja-A1-01",
+            "ja-A1-02",
+            "ja-A1-03",
+            "ja-A1-04"
+          ]
+        },
+        {
+          "id": "ja-A2",
+          "lessons": [
+            "ja-A2-01",
+            "ja-A2-02",
+            "ja-A2-03",
+            "ja-A2-04"
+          ]
+        },
+        {
+          "id": "ja-A3",
+          "lessons": [
+            "ja-A3-01",
+            "ja-A3-02",
+            "ja-A3-03",
+            "ja-A3-04"
+          ]
+        },
+        {
+          "id": "ja-A4",
+          "lessons": [
+            "ja-A4-01",
+            "ja-A4-02",
+            "ja-A4-03",
+            "ja-A4-04"
+          ]
+        },
+        {
+          "id": "ja-A5",
+          "lessons": [
+            "ja-A5-01",
+            "ja-A5-02",
+            "ja-A5-03",
+            "ja-A5-04"
+          ]
+        },
+        {
+          "id": "ja-A6",
+          "lessons": [
+            "ja-A6-01",
+            "ja-A6-02",
+            "ja-A6-03",
+            "ja-A6-04"
           ]
         }
-      ],
-      "exam": "JLPT N5"
+      ]
     },
     {
       "id": "B",
       "cefr": "A1",
+      "exam": "JLPT N5",
       "free": false,
       "units": [
         {
           "id": "ja-B1",
           "lessons": [
-            "ja-B1-01"
+            "ja-B1-01",
+            "ja-B1-02",
+            "ja-B1-03",
+            "ja-B1-04"
+          ]
+        },
+        {
+          "id": "ja-B2",
+          "lessons": [
+            "ja-B2-01",
+            "ja-B2-02",
+            "ja-B2-03",
+            "ja-B2-04"
+          ]
+        },
+        {
+          "id": "ja-B3",
+          "lessons": [
+            "ja-B3-01",
+            "ja-B3-02",
+            "ja-B3-03",
+            "ja-B3-04"
+          ]
+        },
+        {
+          "id": "ja-B4",
+          "lessons": [
+            "ja-B4-01",
+            "ja-B4-02",
+            "ja-B4-03",
+            "ja-B4-04"
+          ]
+        },
+        {
+          "id": "ja-B5",
+          "lessons": [
+            "ja-B5-01",
+            "ja-B5-02",
+            "ja-B5-03",
+            "ja-B5-04"
+          ]
+        },
+        {
+          "id": "ja-B6",
+          "lessons": [
+            "ja-B6-01",
+            "ja-B6-02",
+            "ja-B6-03",
+            "ja-B6-04"
           ]
         }
-      ],
-      "exam": "JLPT N5"
+      ]
     }
   ]
 }

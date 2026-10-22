@@ -2,25 +2,29 @@
   "id": "ja-A1-01",
   "target": "ja",
   "stage": "A",
-  "minutes": 5,
+  "minutes": 6,
   "items": [
     {
       "id": "ja.konnichiwa",
+      "kind": "phrase",
       "text": "こんにちは",
       "reading": "konnichiwa"
     },
     {
       "id": "ja.arigatou",
+      "kind": "phrase",
       "text": "ありがとう",
       "reading": "arigatō"
     },
     {
       "id": "ja.douitashimashite",
+      "kind": "phrase",
       "text": "どういたしまして",
       "reading": "dōitashimashite"
     },
     {
       "id": "ja.sayounara",
+      "kind": "phrase",
       "text": "さようなら",
       "reading": "sayōnara"
     }
@@ -28,71 +32,23 @@
   "dialogue": [
     {
       "speaker": "a",
-      "text": "こんにちは！",
-      "reading": "konnichiwa!"
-    },
-    {
-      "speaker": "b",
-      "text": "こんにちは！",
-      "reading": "konnichiwa!"
-    },
-    {
-      "speaker": "a",
       "text": "ありがとう！",
-      "reading": "arigatō!"
+      "reading": "Arigatō!"
     },
     {
-      "speaker": "b",
+      "speaker": "c",
       "text": "どういたしまして。",
-      "reading": "dōitashimashite."
+      "reading": "Dōitashimashite."
     },
     {
       "speaker": "a",
       "text": "さようなら！",
-      "reading": "sayōnara!"
+      "reading": "Sayōnara!"
     },
     {
-      "speaker": "b",
+      "speaker": "c",
       "text": "さようなら！",
-      "reading": "sayōnara!"
-    }
-  ],
-  "exercises": [
-    {
-      "type": "choose-meaning",
-      "item": "ja.konnichiwa"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ja.arigatou"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ja.douitashimashite"
-    },
-    {
-      "type": "choose-meaning",
-      "item": "ja.sayounara"
-    },
-    {
-      "type": "listen-choose",
-      "item": "ja.konnichiwa"
-    },
-    {
-      "type": "listen-choose",
-      "item": "ja.arigatou"
-    },
-    {
-      "type": "choose-text",
-      "item": "ja.sayounara"
-    },
-    {
-      "type": "speak",
-      "item": "ja.konnichiwa"
-    },
-    {
-      "type": "speak",
-      "item": "ja.arigatou"
+      "reading": "Sayōnara!"
     }
   ]
 }

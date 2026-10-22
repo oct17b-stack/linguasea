@@ -1,0 +1,62 @@
+{
+  "id": "ja-B3-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ima",
+      "text": "いま",
+      "reading": "ima"
+    },
+    {
+      "id": "ja.nanji",
+      "text": "なんじ",
+      "reading": "nanji"
+    },
+    {
+      "id": "ja.ji",
+      "text": "時",
+      "reading": "ji",
+      "say": "じ"
+    },
+    {
+      "id": "ja.han",
+      "text": "半",
+      "reading": "han",
+      "say": "はん"
+    },
+    {
+      "id": "ja.gozen",
+      "text": "ごぜん",
+      "reading": "gozen"
+    },
+    {
+      "id": "ja.gogo",
+      "text": "ごご",
+      "reading": "gogo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。いま なんじですか。",
+      "reading": "Sumimasen. Ima nanji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ごご 3時半です。",
+      "reading": "Gogo sanji han desu."
+    },
+    {
+      "speaker": "a",
+      "text": "3時半ですか。ありがとうございます。",
+      "reading": "Sanji han desu ka. Arigatō gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ。",
+      "reading": "Iie."
+    }
+  ]
+}

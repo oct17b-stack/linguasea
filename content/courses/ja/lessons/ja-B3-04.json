@@ -1,0 +1,62 @@
+{
+  "id": "ja-B3-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.doyoubi",
+      "text": "どようび",
+      "reading": "doyōbi"
+    },
+    {
+      "id": "ja.nichiyoubi",
+      "text": "にちようび",
+      "reading": "nichiyōbi"
+    },
+    {
+      "id": "ja.itsu",
+      "text": "いつ",
+      "reading": "itsu"
+    },
+    {
+      "id": "ja.tanjoubi",
+      "text": "たんじょうび",
+      "reading": "tanjōbi"
+    },
+    {
+      "id": "ja.gatsu",
+      "text": "月",
+      "reading": "gatsu",
+      "say": "がつ"
+    },
+    {
+      "id": "ja.nichi",
+      "text": "日",
+      "reading": "nichi",
+      "say": "にち"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、たんじょうびは いつですか。",
+      "reading": "Namu-san, tanjōbi wa itsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "4月13日です。",
+      "reading": "Shigatsu jūsan-nichi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "どようびですか。",
+      "reading": "Doyōbi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、にちようびです。",
+      "reading": "Iie, nichiyōbi desu."
+    }
+  ]
+}

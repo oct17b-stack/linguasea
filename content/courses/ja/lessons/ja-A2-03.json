@@ -1,0 +1,162 @@
+{
+  "id": "ja-A2-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hira-ta",
+      "kind": "letter",
+      "text": "た",
+      "reading": "ta"
+    },
+    {
+      "id": "ja.hira-chi",
+      "kind": "letter",
+      "text": "ち",
+      "reading": "chi"
+    },
+    {
+      "id": "ja.hira-tsu",
+      "kind": "letter",
+      "text": "つ",
+      "reading": "tsu"
+    },
+    {
+      "id": "ja.hira-te",
+      "kind": "letter",
+      "text": "て",
+      "reading": "te"
+    },
+    {
+      "id": "ja.hira-to",
+      "kind": "letter",
+      "text": "と",
+      "reading": "to"
+    },
+    {
+      "id": "ja.hira-sa",
+      "kind": "letter",
+      "text": "さ",
+      "reading": "sa"
+    },
+    {
+      "id": "ja.hira-u",
+      "kind": "letter",
+      "text": "う",
+      "reading": "u"
+    },
+    {
+      "id": "ja.kutsu",
+      "text": "くつ",
+      "reading": "kutsu"
+    },
+    {
+      "id": "ja.ashita",
+      "text": "あした",
+      "reading": "ashita"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ta"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ta"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-chi",
+      "options": [
+        "ja.hira-sa",
+        "ja.hira-ki",
+        "ja.hira-ta"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-chi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-tsu",
+      "options": [
+        "ja.hira-u",
+        "ja.hira-shi",
+        "ja.hira-te"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-tsu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-te"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-te"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-to"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-to"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-sa",
+      "options": [
+        "ja.hira-chi",
+        "ja.hira-ki",
+        "ja.hira-so"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-sa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-u"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-u"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kutsu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.ashita"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.ashita"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.kutsu"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.ashita"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-ta"
+    },
+    {
+      "type": "speak",
+      "item": "ja.ashita"
+    }
+  ]
+}

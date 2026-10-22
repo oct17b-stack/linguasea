@@ -1,0 +1,50 @@
+{
+  "id": "ja-A6-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.nani",
+      "text": "なに",
+      "reading": "nani"
+    },
+    {
+      "id": "ja.nomimasu",
+      "text": "のみます",
+      "reading": "nomimasu"
+    },
+    {
+      "id": "ja.mizu",
+      "text": "みず",
+      "reading": "mizu"
+    },
+    {
+      "id": "ja.ocha",
+      "text": "おちゃ",
+      "reading": "ocha"
+    },
+    {
+      "id": "ja.gyuunyuu",
+      "text": "ぎゅうにゅう",
+      "reading": "gyūnyū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、なにを のみますか。",
+      "reading": "Namu-san, nani o nomimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "おちゃを のみます。ゆきさんは？",
+      "reading": "Ocha o nomimasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは みずを のみます。",
+      "reading": "Watashi wa mizu o nomimasu."
+    }
+  ]
+}

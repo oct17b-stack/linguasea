@@ -1,0 +1,199 @@
+{
+  "id": "ja-A2-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hira-a",
+      "kind": "letter",
+      "text": "あ",
+      "reading": "a"
+    },
+    {
+      "id": "ja.hira-i",
+      "kind": "letter",
+      "text": "い",
+      "reading": "i"
+    },
+    {
+      "id": "ja.hira-u",
+      "kind": "letter",
+      "text": "う",
+      "reading": "u"
+    },
+    {
+      "id": "ja.hira-e",
+      "kind": "letter",
+      "text": "え",
+      "reading": "e"
+    },
+    {
+      "id": "ja.hira-o",
+      "kind": "letter",
+      "text": "お",
+      "reading": "o"
+    },
+    {
+      "id": "ja.hira-ka",
+      "kind": "letter",
+      "text": "か",
+      "reading": "ka"
+    },
+    {
+      "id": "ja.hira-ki",
+      "kind": "letter",
+      "text": "き",
+      "reading": "ki"
+    },
+    {
+      "id": "ja.hira-ku",
+      "kind": "letter",
+      "text": "く",
+      "reading": "ku"
+    },
+    {
+      "id": "ja.hira-ke",
+      "kind": "letter",
+      "text": "け",
+      "reading": "ke"
+    },
+    {
+      "id": "ja.hira-ko",
+      "kind": "letter",
+      "text": "こ",
+      "reading": "ko"
+    },
+    {
+      "id": "ja.ie",
+      "text": "いえ",
+      "reading": "ie"
+    },
+    {
+      "id": "ja.eki",
+      "text": "えき",
+      "reading": "eki"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-a",
+      "options": [
+        "ja.hira-o",
+        "ja.hira-ke",
+        "ja.hira-ki"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-a"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-i"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-i"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-u"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-u"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-e"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-e"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-o",
+      "options": [
+        "ja.hira-a",
+        "ja.hira-ko",
+        "ja.hira-ku"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-o"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ka"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ka"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ki"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ki"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ku"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ku"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ke"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ke"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ko"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ko"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.ie"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.eki"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.eki"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.ie"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.eki"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-a"
+    },
+    {
+      "type": "speak",
+      "item": "ja.eki"
+    }
+  ]
+}

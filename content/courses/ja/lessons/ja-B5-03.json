@@ -1,0 +1,61 @@
+{
+  "id": "ja-B5-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ikimasu",
+      "text": "いきます",
+      "reading": "ikimasu"
+    },
+    {
+      "id": "ja.daigaku",
+      "text": "だいがく",
+      "reading": "daigaku"
+    },
+    {
+      "id": "ja.basu",
+      "text": "バス",
+      "reading": "basu"
+    },
+    {
+      "id": "ja.aruite",
+      "text": "あるいて",
+      "reading": "aruite"
+    },
+    {
+      "id": "ja.nande",
+      "kind": "phrase",
+      "text": "なんで",
+      "reading": "nan de"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは なんで だいがくへ いきますか。",
+      "reading": "Namu-san wa nan de daigaku e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "でんしゃで いきます。ゆきさんは？",
+      "reading": "Densha de ikimasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは バスで いきます。",
+      "reading": "Watashi wa basu de ikimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "やまだせんせいは？",
+      "reading": "Yamada-sensei wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "せんせいは あるいて いきます。",
+      "reading": "Sensei wa aruite ikimasu."
+    }
+  ]
+}

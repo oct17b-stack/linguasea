@@ -21,6 +21,8 @@ function Routes() {
       <Stack.Screen name="review" options={{ title: t('review.title') }} />
       <Stack.Screen name="paywall" options={{ presentation: 'modal', title: '' }} />
       <Stack.Screen name="settings" options={{ title: t('settings.title') }} />
+      <Stack.Screen name="placement" options={{ title: t('placement.title') }} />
+      <Stack.Screen name="tutor/[unit]" options={{ title: t('tutor.title') }} />
     </Stack>
   );
 }

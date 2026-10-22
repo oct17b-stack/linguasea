@@ -1,0 +1,65 @@
+{
+  "id": "ja-B6-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.shimasu",
+      "text": "します",
+      "reading": "shimasu"
+    },
+    {
+      "id": "ja.benkyou",
+      "text": "べんきょう",
+      "reading": "benkyō"
+    },
+    {
+      "id": "ja.arubaito",
+      "text": "アルバイト",
+      "reading": "arubaito"
+    },
+    {
+      "id": "ja.uchi",
+      "text": "うち",
+      "reading": "uchi"
+    },
+    {
+      "id": "ja.kaerimasu",
+      "text": "かえります",
+      "reading": "kaerimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは ごご なにを しますか。",
+      "reading": "Namu-san wa gogo nani o shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "だいがくで べんきょうします。",
+      "reading": "Daigaku de benkyō shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "よるは？",
+      "reading": "Yoru wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "コンビニで アルバイトを します。",
+      "reading": "Konbini de arubaito o shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "なんじに うちへ かえりますか。",
+      "reading": "Nanji ni uchi e kaerimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "11時に かえります。",
+      "reading": "Jūichiji ni kaerimasu."
+    }
+  ]
+}

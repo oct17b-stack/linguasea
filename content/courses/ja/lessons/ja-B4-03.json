@@ -1,0 +1,70 @@
+{
+  "id": "ja-B4-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kono",
+      "text": "この",
+      "reading": "kono"
+    },
+    {
+      "id": "ja.takai",
+      "text": "たかい",
+      "reading": "takai"
+    },
+    {
+      "id": "ja.yasui",
+      "text": "やすい",
+      "reading": "yasui"
+    },
+    {
+      "id": "ja.ookii",
+      "text": "おおきい",
+      "reading": "ōkii"
+    },
+    {
+      "id": "ja.chiisai",
+      "text": "ちいさい",
+      "reading": "chiisai"
+    },
+    {
+      "id": "ja.chotto",
+      "text": "ちょっと",
+      "reading": "chotto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、この とけいは いくらですか。",
+      "reading": "Sumimasen, kono tokei wa ikura desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "8,000円です。",
+      "reading": "Hassen en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと たかいですね。",
+      "reading": "Chotto takai desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "これは ちいさいですが、やすいですよ。3,000円です。",
+      "reading": "Kore wa chiisai desu ga, yasui desu yo. Sanzen en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "これを ください。",
+      "reading": "Kore o kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

@@ -11,11 +11,14 @@ import { useTheme } from '@/hooks/use-theme';
 import { useApp } from '@/state/app-state';
 
 export default function Languages() {
-  const { l1, target, setTarget, t } = useApp();
+  const { l1, target, setTarget, placed, progress, t } = useApp();
   const c = useTheme();
   const choose = (next: Target) => {
     setTarget(next);
-    if (router.canGoBack()) router.back();
+    // First time in this course: ask whether they studied it before (placement).
+    const started = Object.keys(progress.completed).some((id) => id.startsWith(`${next}-`));
+    if (!placed[next] && !started) router.replace('/placement');
+    else if (router.canGoBack()) router.back();
     else router.replace('/');
   };
   return (

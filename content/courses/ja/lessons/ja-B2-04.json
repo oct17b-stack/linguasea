@@ -1,0 +1,257 @@
+{
+  "id": "ja-B2-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kata-ma",
+      "kind": "letter",
+      "text": "マ",
+      "reading": "ma"
+    },
+    {
+      "id": "ja.kata-mi",
+      "kind": "letter",
+      "text": "ミ",
+      "reading": "mi"
+    },
+    {
+      "id": "ja.kata-mu",
+      "kind": "letter",
+      "text": "ム",
+      "reading": "mu"
+    },
+    {
+      "id": "ja.kata-me",
+      "kind": "letter",
+      "text": "メ",
+      "reading": "me"
+    },
+    {
+      "id": "ja.kata-mo",
+      "kind": "letter",
+      "text": "モ",
+      "reading": "mo"
+    },
+    {
+      "id": "ja.kata-ra",
+      "kind": "letter",
+      "text": "ラ",
+      "reading": "ra"
+    },
+    {
+      "id": "ja.kata-ri",
+      "kind": "letter",
+      "text": "リ",
+      "reading": "ri"
+    },
+    {
+      "id": "ja.kata-ru",
+      "kind": "letter",
+      "text": "ル",
+      "reading": "ru"
+    },
+    {
+      "id": "ja.kata-re",
+      "kind": "letter",
+      "text": "レ",
+      "reading": "re"
+    },
+    {
+      "id": "ja.kata-ro",
+      "kind": "letter",
+      "text": "ロ",
+      "reading": "ro"
+    },
+    {
+      "id": "ja.kata-yo",
+      "kind": "letter",
+      "text": "ヨ",
+      "reading": "yo"
+    },
+    {
+      "id": "ja.kata-wo",
+      "kind": "letter",
+      "text": "ヲ",
+      "reading": "o"
+    },
+    {
+      "id": "ja.hoteru",
+      "text": "ホテル",
+      "reading": "hoteru"
+    },
+    {
+      "id": "ja.resutoran",
+      "text": "レストラン",
+      "reading": "resutoran"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ma",
+      "options": [
+        "ja.kata-a",
+        "ja.kata-mu",
+        "ja.kata-ya"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ma"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-mi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-mi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-mu",
+      "options": [
+        "ja.kata-ma",
+        "ja.kata-a",
+        "ja.kata-nu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-mu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-me",
+      "options": [
+        "ja.kata-nu",
+        "ja.kata-na",
+        "ja.kata-no"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-me"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-mo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-mo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ra",
+      "options": [
+        "ja.kata-fu",
+        "ja.kata-wo",
+        "ja.kata-u"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ra"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ri"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ri"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ru",
+      "options": [
+        "ja.kata-re",
+        "ja.kata-ha",
+        "ja.kata-ri"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ru"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-re"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-re"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ro",
+      "options": [
+        "ja.kata-ko",
+        "ja.kata-yo",
+        "ja.kata-yu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ro"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-yo",
+      "options": [
+        "ja.kata-ko",
+        "ja.kata-yu",
+        "ja.kata-ro"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-yo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-wo",
+      "options": [
+        "ja.kata-ra",
+        "ja.kata-fu",
+        "ja.kata-yo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-wo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hoteru"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.resutoran"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.resutoran"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.hoteru"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.resutoran"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kata-ma"
+    },
+    {
+      "type": "speak",
+      "item": "ja.resutoran"
+    }
+  ]
+}

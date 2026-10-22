@@ -1,0 +1,247 @@
+{
+  "id": "ja-B2-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kata-na",
+      "kind": "letter",
+      "text": "ナ",
+      "reading": "na"
+    },
+    {
+      "id": "ja.kata-ni",
+      "kind": "letter",
+      "text": "ニ",
+      "reading": "ni"
+    },
+    {
+      "id": "ja.kata-nu",
+      "kind": "letter",
+      "text": "ヌ",
+      "reading": "nu"
+    },
+    {
+      "id": "ja.kata-ne",
+      "kind": "letter",
+      "text": "ネ",
+      "reading": "ne"
+    },
+    {
+      "id": "ja.kata-no",
+      "kind": "letter",
+      "text": "ノ",
+      "reading": "no"
+    },
+    {
+      "id": "ja.kata-ha",
+      "kind": "letter",
+      "text": "ハ",
+      "reading": "ha"
+    },
+    {
+      "id": "ja.kata-hi",
+      "kind": "letter",
+      "text": "ヒ",
+      "reading": "hi"
+    },
+    {
+      "id": "ja.kata-fu",
+      "kind": "letter",
+      "text": "フ",
+      "reading": "fu"
+    },
+    {
+      "id": "ja.kata-he",
+      "kind": "letter",
+      "text": "ヘ",
+      "reading": "he"
+    },
+    {
+      "id": "ja.kata-ho",
+      "kind": "letter",
+      "text": "ホ",
+      "reading": "ho"
+    },
+    {
+      "id": "ja.kata-ya",
+      "kind": "letter",
+      "text": "ヤ",
+      "reading": "ya"
+    },
+    {
+      "id": "ja.kata-yu",
+      "kind": "letter",
+      "text": "ユ",
+      "reading": "yu"
+    },
+    {
+      "id": "ja.nooto",
+      "text": "ノート",
+      "reading": "nōto"
+    },
+    {
+      "id": "ja.nekutai",
+      "text": "ネクタイ",
+      "reading": "nekutai"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.kata-na"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-na"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ni"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ni"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-nu",
+      "options": [
+        "ja.kata-su",
+        "ja.kata-ne",
+        "ja.kata-fu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-nu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ne",
+      "options": [
+        "ja.kata-ho",
+        "ja.kata-nu",
+        "ja.kata-na"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ne"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-no",
+      "options": [
+        "ja.kata-so",
+        "ja.kata-n",
+        "ja.kata-nu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-no"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ha"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-hi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-hi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-fu",
+      "options": [
+        "ja.kata-wa",
+        "ja.kata-u",
+        "ja.kata-nu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-fu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-he"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-he"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ho",
+      "options": [
+        "ja.kata-ne",
+        "ja.kata-ha",
+        "ja.kata-na"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ho"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ya"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ya"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-yu",
+      "options": [
+        "ja.kata-ko",
+        "ja.kata-e",
+        "ja.kata-ni"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-yu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.nooto"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.nekutai"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.nekutai"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.nooto"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.nekutai"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kata-na"
+    },
+    {
+      "type": "speak",
+      "item": "ja.nekutai"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "ja-B1-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hira-pa",
+      "kind": "letter",
+      "text": "ぱ",
+      "reading": "pa"
+    },
+    {
+      "id": "ja.hira-pi",
+      "kind": "letter",
+      "text": "ぴ",
+      "reading": "pi"
+    },
+    {
+      "id": "ja.hira-pu",
+      "kind": "letter",
+      "text": "ぷ",
+      "reading": "pu"
+    },
+    {
+      "id": "ja.hira-pe",
+      "kind": "letter",
+      "text": "ぺ",
+      "reading": "pe"
+    },
+    {
+      "id": "ja.hira-po",
+      "kind": "letter",
+      "text": "ぽ",
+      "reading": "po"
+    },
+    {
+      "id": "ja.kitte",
+      "text": "きって",
+      "reading": "kitte"
+    },
+    {
+      "id": "ja.kippu",
+      "text": "きっぷ",
+      "reading": "kippu"
+    },
+    {
+      "id": "ja.obaasan",
+      "text": "おばあさん",
+      "reading": "obāsan"
+    },
+    {
+      "id": "ja.obasan",
+      "text": "おばさん",
+      "reading": "obasan"
+    },
+    {
+      "id": "ja.ojiisan",
+      "text": "おじいさん",
+      "reading": "ojiisan"
+    },
+    {
+      "id": "ja.ojisan",
+      "text": "おじさん",
+      "reading": "ojisan"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-pa",
+      "options": [
+        "ja.hira-ba",
+        "ja.hira-ha",
+        "ja.hira-po"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-pa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-pi",
+      "options": [
+        "ja.hira-bi",
+        "ja.hira-hi",
+        "ja.hira-pu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-pi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-pu",
+      "options": [
+        "ja.hira-bu",
+        "ja.hira-fu",
+        "ja.hira-po"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-pu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-pe"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-pe"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-po"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-po"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kitte"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kippu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.obaasan"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.obasan"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.ojiisan"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.ojisan"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.kippu"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.obaasan",
+      "options": [
+        "ja.obasan",
+        "ja.ojiisan",
+        "ja.ojisan"
+      ]
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.obasan"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.ojisan",
+      "options": [
+        "ja.ojiisan",
+        "ja.obasan",
+        "ja.obaasan"
+      ]
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.ojiisan"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.ojisan"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.obasan",
+      "options": [
+        "ja.obaasan",
+        "ja.ojisan",
+        "ja.ojiisan"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.ojiisan",
+      "options": [
+        "ja.ojisan",
+        "ja.obaasan",
+        "ja.obasan"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-pa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.ojisan"
+    }
+  ]
+}

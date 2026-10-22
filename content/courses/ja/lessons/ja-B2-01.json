@@ -1,0 +1,218 @@
+{
+  "id": "ja-B2-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kata-a",
+      "kind": "letter",
+      "text": "ア",
+      "reading": "a"
+    },
+    {
+      "id": "ja.kata-i",
+      "kind": "letter",
+      "text": "イ",
+      "reading": "i"
+    },
+    {
+      "id": "ja.kata-u",
+      "kind": "letter",
+      "text": "ウ",
+      "reading": "u"
+    },
+    {
+      "id": "ja.kata-e",
+      "kind": "letter",
+      "text": "エ",
+      "reading": "e"
+    },
+    {
+      "id": "ja.kata-o",
+      "kind": "letter",
+      "text": "オ",
+      "reading": "o"
+    },
+    {
+      "id": "ja.kata-ka",
+      "kind": "letter",
+      "text": "カ",
+      "reading": "ka"
+    },
+    {
+      "id": "ja.kata-ki",
+      "kind": "letter",
+      "text": "キ",
+      "reading": "ki"
+    },
+    {
+      "id": "ja.kata-ku",
+      "kind": "letter",
+      "text": "ク",
+      "reading": "ku"
+    },
+    {
+      "id": "ja.kata-ke",
+      "kind": "letter",
+      "text": "ケ",
+      "reading": "ke"
+    },
+    {
+      "id": "ja.kata-ko",
+      "kind": "letter",
+      "text": "コ",
+      "reading": "ko"
+    },
+    {
+      "id": "ja.kata-wa",
+      "kind": "letter",
+      "text": "ワ",
+      "reading": "wa"
+    },
+    {
+      "id": "ja.keeki",
+      "text": "ケーキ",
+      "reading": "kēki"
+    },
+    {
+      "id": "ja.kokoa",
+      "text": "ココア",
+      "reading": "kokoa"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.kata-a"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-a"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-i"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-i"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-u",
+      "options": [
+        "ja.kata-wa",
+        "ja.kata-ku",
+        "ja.kata-ke"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-u"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-e"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-e"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-o"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-o"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ka"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ka"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ki"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ki"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ku",
+      "options": [
+        "ja.kata-wa",
+        "ja.kata-ke",
+        "ja.kata-u"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ku"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ke"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ke"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ko"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ko"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-wa",
+      "options": [
+        "ja.kata-u",
+        "ja.kata-ku",
+        "ja.kata-ka"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-wa"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.keeki"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kokoa"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.kokoa"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.keeki"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.kokoa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kata-a"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kokoa"
+    }
+  ]
+}

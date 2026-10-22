@@ -1,0 +1,65 @@
+{
+  "id": "ja-B5-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ginkou",
+      "text": "ぎんこう",
+      "reading": "ginkō"
+    },
+    {
+      "id": "ja.yuubinkyoku",
+      "text": "ゆうびんきょく",
+      "reading": "yūbinkyoku"
+    },
+    {
+      "id": "ja.byouin",
+      "text": "びょういん",
+      "reading": "byōin"
+    },
+    {
+      "id": "ja.mae",
+      "text": "まえ",
+      "reading": "mae"
+    },
+    {
+      "id": "ja.tonari",
+      "text": "となり",
+      "reading": "tonari"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ぎんこうは どこですか。",
+      "reading": "Yuki-san, ginkō wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "駅の まえです。",
+      "reading": "Eki no mae desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆうびんきょくも 駅の まえですか。",
+      "reading": "Yūbinkyoku mo eki no mae desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、ゆうびんきょくは コンビニの となりです。",
+      "reading": "Iie, yūbinkyoku wa konbini no tonari desu."
+    },
+    {
+      "speaker": "a",
+      "text": "びょういんは？",
+      "reading": "Byōin wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ぎんこうの となりです。",
+      "reading": "Ginkō no tonari desu."
+    }
+  ]
+}

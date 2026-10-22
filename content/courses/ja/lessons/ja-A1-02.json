@@ -1,0 +1,49 @@
+{
+  "id": "ja-A1-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ohayou-gozaimasu",
+      "kind": "phrase",
+      "text": "おはようございます",
+      "reading": "ohayō gozaimasu"
+    },
+    {
+      "id": "ja.ohayou",
+      "kind": "phrase",
+      "text": "おはよう",
+      "reading": "ohayō"
+    },
+    {
+      "id": "ja.konbanwa",
+      "kind": "phrase",
+      "text": "こんばんは",
+      "reading": "konbanwa"
+    },
+    {
+      "id": "ja.oyasuminasai",
+      "kind": "phrase",
+      "text": "おやすみなさい",
+      "reading": "oyasuminasai"
+    },
+    {
+      "id": "ja.sensei",
+      "text": "せんせい",
+      "reading": "sensei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、おはようございます。",
+      "reading": "Sensei, ohayō gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おはよう。",
+      "reading": "Ohayō."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ja-A3-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.taijin",
+      "text": "タイじん",
+      "reading": "Taijin"
+    },
+    {
+      "id": "ja.nihonjin",
+      "text": "にほんじん",
+      "reading": "Nihonjin"
+    },
+    {
+      "id": "ja.gakusei",
+      "text": "がくせい",
+      "reading": "gakusei"
+    },
+    {
+      "id": "ja.daigakusei",
+      "text": "だいがくせい",
+      "reading": "daigakusei"
+    },
+    {
+      "id": "ja.ja-arimasen",
+      "kind": "phrase",
+      "text": "じゃ ありません",
+      "reading": "ja arimasen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "すみません、にほんじんですか。",
+      "reading": "Sumimasen, Nihonjin desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、にほんじんじゃ ありません。タイじんです。",
+      "reading": "Iie, Nihonjin ja arimasen. Taijin desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。がくせいですか。",
+      "reading": "Sō desu ka. Gakusei desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、だいがくせいです。",
+      "reading": "Hai, daigakusei desu."
+    }
+  ]
+}

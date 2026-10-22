@@ -1,0 +1,233 @@
+{
+  "id": "ja-B2-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kata-sa",
+      "kind": "letter",
+      "text": "サ",
+      "reading": "sa"
+    },
+    {
+      "id": "ja.kata-shi",
+      "kind": "letter",
+      "text": "シ",
+      "reading": "shi"
+    },
+    {
+      "id": "ja.kata-su",
+      "kind": "letter",
+      "text": "ス",
+      "reading": "su"
+    },
+    {
+      "id": "ja.kata-se",
+      "kind": "letter",
+      "text": "セ",
+      "reading": "se"
+    },
+    {
+      "id": "ja.kata-so",
+      "kind": "letter",
+      "text": "ソ",
+      "reading": "so"
+    },
+    {
+      "id": "ja.kata-ta",
+      "kind": "letter",
+      "text": "タ",
+      "reading": "ta"
+    },
+    {
+      "id": "ja.kata-chi",
+      "kind": "letter",
+      "text": "チ",
+      "reading": "chi"
+    },
+    {
+      "id": "ja.kata-tsu",
+      "kind": "letter",
+      "text": "ツ",
+      "reading": "tsu"
+    },
+    {
+      "id": "ja.kata-te",
+      "kind": "letter",
+      "text": "テ",
+      "reading": "te"
+    },
+    {
+      "id": "ja.kata-to",
+      "kind": "letter",
+      "text": "ト",
+      "reading": "to"
+    },
+    {
+      "id": "ja.kata-n",
+      "kind": "letter",
+      "text": "ン",
+      "reading": "n"
+    },
+    {
+      "id": "ja.tesuto",
+      "text": "テスト",
+      "reading": "tesuto"
+    },
+    {
+      "id": "ja.takushii",
+      "text": "タクシー",
+      "reading": "takushī"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.kata-sa"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-sa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-shi",
+      "options": [
+        "ja.kata-tsu",
+        "ja.kata-so",
+        "ja.kata-n"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-shi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-su"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-su"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-se"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-se"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-so",
+      "options": [
+        "ja.kata-n",
+        "ja.kata-shi",
+        "ja.kata-tsu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-so"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-ta"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-ta"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-chi",
+      "options": [
+        "ja.kata-te",
+        "ja.kata-sa",
+        "ja.kata-ta"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-chi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-tsu",
+      "options": [
+        "ja.kata-shi",
+        "ja.kata-so",
+        "ja.kata-n"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-tsu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-te",
+      "options": [
+        "ja.kata-chi",
+        "ja.kata-to",
+        "ja.kata-e"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-te"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-to"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-to"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.kata-n",
+      "options": [
+        "ja.kata-so",
+        "ja.kata-shi",
+        "ja.kata-tsu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kata-n"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.tesuto"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.takushii"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.takushii"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.tesuto"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.takushii"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kata-sa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.takushii"
+    }
+  ]
+}

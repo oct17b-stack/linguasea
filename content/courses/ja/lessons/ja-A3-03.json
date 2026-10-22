@@ -1,0 +1,61 @@
+{
+  "id": "ja-A3-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.doko",
+      "text": "どこ",
+      "reading": "doko"
+    },
+    {
+      "id": "ja.kara",
+      "text": "から",
+      "reading": "kara"
+    },
+    {
+      "id": "ja.kimashita",
+      "text": "きました",
+      "reading": "kimashita"
+    },
+    {
+      "id": "ja.tai",
+      "text": "タイ",
+      "reading": "Tai"
+    },
+    {
+      "id": "ja.nihon",
+      "text": "にほん",
+      "reading": "Nihon"
+    },
+    {
+      "id": "ja.sou-desu-ka",
+      "kind": "phrase",
+      "text": "そうですか",
+      "reading": "sō desu ka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どこから きましたか。",
+      "reading": "Namu-san, doko kara kimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "タイから きました。",
+      "reading": "Tai kara kimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。タイの どこですか。",
+      "reading": "Sō desu ka. Tai no doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "バンコクです。",
+      "reading": "Bankoku desu."
+    }
+  ]
+}

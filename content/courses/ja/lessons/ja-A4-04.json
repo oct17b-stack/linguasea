@@ -1,0 +1,148 @@
+{
+  "id": "ja-A4-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hira-wa",
+      "kind": "letter",
+      "text": "わ",
+      "reading": "wa"
+    },
+    {
+      "id": "ja.hira-wo",
+      "kind": "letter",
+      "text": "を",
+      "reading": "o"
+    },
+    {
+      "id": "ja.hira-n",
+      "kind": "letter",
+      "text": "ん",
+      "reading": "n"
+    },
+    {
+      "id": "ja.hira-re",
+      "kind": "letter",
+      "text": "れ",
+      "reading": "re"
+    },
+    {
+      "id": "ja.hira-ne",
+      "kind": "letter",
+      "text": "ね",
+      "reading": "ne"
+    },
+    {
+      "id": "ja.hira-o",
+      "kind": "letter",
+      "text": "お",
+      "reading": "o"
+    },
+    {
+      "id": "ja.hon",
+      "text": "ほん",
+      "reading": "hon"
+    },
+    {
+      "id": "ja.mikan",
+      "text": "みかん",
+      "reading": "mikan"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-wa",
+      "options": [
+        "ja.hira-re",
+        "ja.hira-ne",
+        "ja.hira-nu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-wa"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-wo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-wo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-n"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-n"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-re",
+      "options": [
+        "ja.hira-wa",
+        "ja.hira-ne",
+        "ja.hira-ru"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-re"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ne",
+      "options": [
+        "ja.hira-wa",
+        "ja.hira-re",
+        "ja.hira-nu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ne"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-o"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-o"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hon"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.mikan"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.mikan"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.hon"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.mikan"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-wa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.mikan"
+    }
+  ]
+}

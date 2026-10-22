@@ -1,0 +1,55 @@
+{
+  "id": "ja-B6-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.otousan",
+      "text": "おとうさん",
+      "reading": "otōsan"
+    },
+    {
+      "id": "ja.okaasan",
+      "text": "おかあさん",
+      "reading": "okāsan"
+    },
+    {
+      "id": "ja.oniisan",
+      "text": "おにいさん",
+      "reading": "oniisan"
+    },
+    {
+      "id": "ja.oneesan",
+      "text": "おねえさん",
+      "reading": "onēsan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの おとうさんと おかあさんは どこですか。",
+      "reading": "Namu-san no otōsan to okāsan wa doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "バンコクです。ちちも ははも せんせいです。",
+      "reading": "Bankoku desu. Chichi mo haha mo sensei desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。おにいさんは？",
+      "reading": "Sō desu ka. Oniisan wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "あには だいがくせいです。ゆきさんの おねえさんは？",
+      "reading": "Ani wa daigakusei desu. Yuki-san no onēsan wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "あねも せんせいです。",
+      "reading": "Ane mo sensei desu."
+    }
+  ]
+}

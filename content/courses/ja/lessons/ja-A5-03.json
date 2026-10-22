@@ -1,0 +1,55 @@
+{
+  "id": "ja-A5-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.juuichi",
+      "text": "じゅういち",
+      "reading": "jūichi"
+    },
+    {
+      "id": "ja.nijuu",
+      "text": "にじゅう",
+      "reading": "nijū"
+    },
+    {
+      "id": "ja.sai",
+      "text": "さい",
+      "reading": "sai"
+    },
+    {
+      "id": "ja.nansai",
+      "text": "なんさい",
+      "reading": "nansai"
+    },
+    {
+      "id": "ja.hatachi",
+      "text": "はたち",
+      "reading": "hatachi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは なんさいですか。",
+      "reading": "Namu-san wa nansai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はたちです。ゆきさんは？",
+      "reading": "Hatachi desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "じゅうきゅうさいです。",
+      "reading": "Jūkyū-sai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。",
+      "reading": "Sō desu ka."
+    }
+  ]
+}

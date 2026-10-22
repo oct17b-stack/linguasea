@@ -1,0 +1,60 @@
+{
+  "id": "ja-B5-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.migi",
+      "text": "みぎ",
+      "reading": "migi"
+    },
+    {
+      "id": "ja.hidari",
+      "text": "ひだり",
+      "reading": "hidari"
+    },
+    {
+      "id": "ja.massugu",
+      "text": "まっすぐ",
+      "reading": "massugu"
+    },
+    {
+      "id": "ja.chikai",
+      "text": "ちかい",
+      "reading": "chikai"
+    },
+    {
+      "id": "ja.tooi",
+      "text": "とおい",
+      "reading": "tōi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、ホテルは どこですか。",
+      "reading": "Sumimasen, hoteru wa doko desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ホテルですか。まっすぐです。",
+      "reading": "Hoteru desu ka. Massugu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ちかいですか。",
+      "reading": "Chikai desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ちかいですよ。ぎんこうの みぎです。",
+      "reading": "Hai, chikai desu yo. Ginkō no migi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

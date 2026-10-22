@@ -1,0 +1,60 @@
+{
+  "id": "ja-B3-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.nanyoubi",
+      "text": "なんようび",
+      "reading": "nan'yōbi"
+    },
+    {
+      "id": "ja.getsuyoubi",
+      "text": "げつようび",
+      "reading": "getsuyōbi"
+    },
+    {
+      "id": "ja.kayoubi",
+      "text": "かようび",
+      "reading": "kayōbi"
+    },
+    {
+      "id": "ja.suiyoubi",
+      "text": "すいようび",
+      "reading": "suiyōbi"
+    },
+    {
+      "id": "ja.mokuyoubi",
+      "text": "もくようび",
+      "reading": "mokuyōbi"
+    },
+    {
+      "id": "ja.kinyoubi",
+      "text": "きんようび",
+      "reading": "kin'yōbi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "きょうは なんようびですか。",
+      "reading": "Kyō wa nan'yōbi desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "もくようびです。",
+      "reading": "Mokuyōbi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あしたは きんようびですか。",
+      "reading": "Ashita wa kin'yōbi desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。げつようびから きんようびまで じゅぎょうです。",
+      "reading": "Hai. Getsuyōbi kara kin'yōbi made jugyō desu."
+    }
+  ]
+}

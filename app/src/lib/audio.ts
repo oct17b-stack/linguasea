@@ -53,6 +53,11 @@ export function playLine(course: CourseBundle, line: { speaker: string; text: st
   play(clipFor(course, line.speaker, line.text), line.text, course.course.voice, slow);
 }
 
+/** A reader sentence: generated in the item voice (tools/src/audio), else TTS. */
+export function playSentence(course: CourseBundle, text: string, slow = false) {
+  play(clipFor(course, 'item', text), text, course.course.voice, slow);
+}
+
 /** Starts loading a lesson's clips so they play without delay. */
 export function preloadClips(course: CourseBundle, items: Pick<Item, 'text' | 'say'>[], lines: { speaker: string; text: string }[] = []) {
   const urls = [...items.map((i) => itemClip(course, i)), ...lines.map((l) => clipFor(course, l.speaker, l.text))];

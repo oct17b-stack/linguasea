@@ -1,0 +1,49 @@
+{
+  "id": "ja-A1-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.arigatou-gozaimasu",
+      "kind": "phrase",
+      "text": "ありがとうございます",
+      "reading": "arigatō gozaimasu"
+    },
+    {
+      "id": "ja.sumimasen",
+      "kind": "phrase",
+      "text": "すみません",
+      "reading": "sumimasen"
+    },
+    {
+      "id": "ja.gomennasai",
+      "kind": "phrase",
+      "text": "ごめんなさい",
+      "reading": "gomennasai"
+    },
+    {
+      "id": "ja.iie",
+      "text": "いいえ",
+      "reading": "iie"
+    },
+    {
+      "id": "ja.daijoubu-desu",
+      "kind": "phrase",
+      "text": "だいじょうぶです",
+      "reading": "daijōbu desu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません！",
+      "reading": "Sumimasen!"
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ、だいじょうぶです。",
+      "reading": "Iie, daijōbu desu."
+    }
+  ]
+}

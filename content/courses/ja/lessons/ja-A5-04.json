@@ -1,0 +1,56 @@
+{
+  "id": "ja-A5-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hitotsu",
+      "text": "ひとつ",
+      "reading": "hitotsu"
+    },
+    {
+      "id": "ja.futatsu",
+      "text": "ふたつ",
+      "reading": "futatsu"
+    },
+    {
+      "id": "ja.mittsu",
+      "text": "みっつ",
+      "reading": "mittsu"
+    },
+    {
+      "id": "ja.ikutsu",
+      "text": "いくつ",
+      "reading": "ikutsu"
+    },
+    {
+      "id": "ja.kudasai",
+      "kind": "phrase",
+      "text": "ください",
+      "reading": "kudasai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、みかんを ください。",
+      "reading": "Sumimasen, mikan o kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。いくつですか。",
+      "reading": "Hai. Ikutsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "みっつ ください。",
+      "reading": "Mittsu kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    }
+  ]
+}

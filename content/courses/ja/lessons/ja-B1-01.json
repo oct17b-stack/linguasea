@@ -2,75 +2,213 @@
   "id": "ja-B1-01",
   "target": "ja",
   "stage": "B",
-  "minutes": 5,
+  "minutes": 7,
   "items": [
     {
-      "id": "ja.ichi",
-      "text": "いち",
-      "reading": "ichi"
+      "id": "ja.hira-ga",
+      "kind": "letter",
+      "text": "が",
+      "reading": "ga"
     },
     {
-      "id": "ja.ni",
-      "text": "に",
-      "reading": "ni"
+      "id": "ja.hira-gi",
+      "kind": "letter",
+      "text": "ぎ",
+      "reading": "gi"
     },
     {
-      "id": "ja.san",
-      "text": "さん",
-      "reading": "san"
+      "id": "ja.hira-gu",
+      "kind": "letter",
+      "text": "ぐ",
+      "reading": "gu"
     },
     {
-      "id": "ja.yon",
-      "text": "よん",
-      "reading": "yon"
+      "id": "ja.hira-ge",
+      "kind": "letter",
+      "text": "げ",
+      "reading": "ge"
     },
     {
-      "id": "ja.go",
+      "id": "ja.hira-go",
+      "kind": "letter",
       "text": "ご",
       "reading": "go"
+    },
+    {
+      "id": "ja.hira-za",
+      "kind": "letter",
+      "text": "ざ",
+      "reading": "za"
+    },
+    {
+      "id": "ja.hira-ji",
+      "kind": "letter",
+      "text": "じ",
+      "reading": "ji"
+    },
+    {
+      "id": "ja.hira-zu",
+      "kind": "letter",
+      "text": "ず",
+      "reading": "zu"
+    },
+    {
+      "id": "ja.hira-ze",
+      "kind": "letter",
+      "text": "ぜ",
+      "reading": "ze"
+    },
+    {
+      "id": "ja.hira-zo",
+      "kind": "letter",
+      "text": "ぞ",
+      "reading": "zo"
+    },
+    {
+      "id": "ja.kagi",
+      "text": "かぎ",
+      "reading": "kagi"
+    },
+    {
+      "id": "ja.chizu",
+      "text": "ちず",
+      "reading": "chizu"
     }
   ],
   "dialogue": [],
   "exercises": [
     {
-      "type": "choose-meaning",
-      "item": "ja.ichi"
+      "type": "listen-text",
+      "item": "ja.hira-ga",
+      "options": [
+        "ja.hira-ka",
+        "ja.hira-go",
+        "ja.hira-gi"
+      ]
     },
     {
       "type": "choose-meaning",
-      "item": "ja.ni"
+      "item": "ja.hira-ga"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-gi"
     },
     {
       "type": "choose-meaning",
-      "item": "ja.san"
+      "item": "ja.hira-gi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-gu"
     },
     {
       "type": "choose-meaning",
-      "item": "ja.yon"
+      "item": "ja.hira-gu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ge"
     },
     {
       "type": "choose-meaning",
-      "item": "ja.go"
+      "item": "ja.hira-ge"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-go"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-go"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-za",
+      "options": [
+        "ja.hira-sa",
+        "ja.hira-zo",
+        "ja.hira-zu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-za"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ji",
+      "options": [
+        "ja.hira-shi",
+        "ja.hira-chi",
+        "ja.hira-gi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ji"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-zu",
+      "options": [
+        "ja.hira-su",
+        "ja.hira-zo",
+        "ja.hira-tsu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-zu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ze"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ze"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-zo",
+      "options": [
+        "ja.hira-so",
+        "ja.hira-za",
+        "ja.hira-go"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-zo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kagi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.chizu"
     },
     {
       "type": "listen-choose",
-      "item": "ja.ichi"
-    },
-    {
-      "type": "listen-choose",
-      "item": "ja.ni"
+      "item": "ja.chizu"
     },
     {
       "type": "choose-text",
-      "item": "ja.go"
+      "item": "ja.kagi"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.chizu"
     },
     {
       "type": "speak",
-      "item": "ja.ichi"
+      "item": "ja.hira-ga"
     },
     {
       "type": "speak",
-      "item": "ja.ni"
+      "item": "ja.chizu"
     }
   ]
 }

@@ -13,7 +13,8 @@ import { openPage } from '@/lib/open-page';
 import { loadPlans, PLACEHOLDER_PLANS, purchase, purchasesReady, restore, type Plan } from '@/lib/purchases';
 import { useApp } from '@/state/app-state';
 
-const FEATURES = ['allLevels', 'speaking', 'exams', 'offline'];
+/** What Premium really includes (keep in step with the store listing). */
+const FEATURES = ['allLevels', 'speaking', 'readers', 'offline'];
 
 export default function Paywall() {
   const { l1, premium, refreshPremium, unlockForTesting, t } = useApp();

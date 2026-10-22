@@ -1,0 +1,58 @@
+{
+  "id": "ja-A3-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hajimemashite",
+      "kind": "phrase",
+      "text": "はじめまして",
+      "reading": "hajimemashite"
+    },
+    {
+      "id": "ja.watashi",
+      "text": "わたし",
+      "reading": "watashi"
+    },
+    {
+      "id": "ja.desu",
+      "text": "です",
+      "reading": "desu"
+    },
+    {
+      "id": "ja.yoroshiku-onegaishimasu",
+      "kind": "phrase",
+      "text": "よろしく おねがいします",
+      "reading": "yoroshiku onegaishimasu"
+    },
+    {
+      "id": "ja.kochira-koso",
+      "kind": "phrase",
+      "text": "こちらこそ",
+      "reading": "kochira koso"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "はじめまして。わたしは ナムです。",
+      "reading": "Hajimemashite. Watashi wa Namu desu."
+    },
+    {
+      "speaker": "c",
+      "text": "はじめまして。たなか ゆきです。",
+      "reading": "Hajimemashite. Tanaka Yuki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "よろしく おねがいします。",
+      "reading": "Yoroshiku onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "こちらこそ、よろしく おねがいします。",
+      "reading": "Kochira koso, yoroshiku onegaishimasu."
+    }
+  ]
+}

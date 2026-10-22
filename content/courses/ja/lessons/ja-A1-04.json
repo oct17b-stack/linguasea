@@ -1,0 +1,59 @@
+{
+  "id": "ja-A1-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hai",
+      "text": "はい",
+      "reading": "hai"
+    },
+    {
+      "id": "ja.douzo",
+      "kind": "phrase",
+      "text": "どうぞ",
+      "reading": "dōzo"
+    },
+    {
+      "id": "ja.onegaishimasu",
+      "kind": "phrase",
+      "text": "おねがいします",
+      "reading": "onegaishimasu"
+    },
+    {
+      "id": "ja.shitsurei-shimasu",
+      "kind": "phrase",
+      "text": "しつれいします",
+      "reading": "shitsurei shimasu"
+    },
+    {
+      "id": "ja.mata-ashita",
+      "kind": "phrase",
+      "text": "また あした",
+      "reading": "mata ashita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "しつれいします。",
+      "reading": "Shitsurei shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせい、おねがいします。",
+      "reading": "Sensei, onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ありがとう。",
+      "reading": "Hai. Arigatō."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "ja-B1-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hira-da",
+      "kind": "letter",
+      "text": "だ",
+      "reading": "da"
+    },
+    {
+      "id": "ja.hira-di",
+      "kind": "letter",
+      "text": "ぢ",
+      "reading": "ji"
+    },
+    {
+      "id": "ja.hira-du",
+      "kind": "letter",
+      "text": "づ",
+      "reading": "zu"
+    },
+    {
+      "id": "ja.hira-de",
+      "kind": "letter",
+      "text": "で",
+      "reading": "de"
+    },
+    {
+      "id": "ja.hira-do",
+      "kind": "letter",
+      "text": "ど",
+      "reading": "do"
+    },
+    {
+      "id": "ja.hira-ba",
+      "kind": "letter",
+      "text": "ば",
+      "reading": "ba"
+    },
+    {
+      "id": "ja.hira-bi",
+      "kind": "letter",
+      "text": "び",
+      "reading": "bi"
+    },
+    {
+      "id": "ja.hira-bu",
+      "kind": "letter",
+      "text": "ぶ",
+      "reading": "bu"
+    },
+    {
+      "id": "ja.hira-be",
+      "kind": "letter",
+      "text": "べ",
+      "reading": "be"
+    },
+    {
+      "id": "ja.hira-bo",
+      "kind": "letter",
+      "text": "ぼ",
+      "reading": "bo"
+    },
+    {
+      "id": "ja.tomodachi",
+      "text": "ともだち",
+      "reading": "tomodachi"
+    },
+    {
+      "id": "ja.denwa",
+      "text": "でんわ",
+      "reading": "denwa"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-da",
+      "options": [
+        "ja.hira-ta",
+        "ja.hira-do",
+        "ja.hira-za"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-da"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-di"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-di"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-du"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-du"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-de"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-de"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-do",
+      "options": [
+        "ja.hira-to",
+        "ja.hira-da",
+        "ja.hira-de"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-do"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ba",
+      "options": [
+        "ja.hira-ha",
+        "ja.hira-bo",
+        "ja.hira-ma"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ba"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-bi",
+      "options": [
+        "ja.hira-hi",
+        "ja.hira-bu",
+        "ja.hira-mi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-bi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-bu",
+      "options": [
+        "ja.hira-fu",
+        "ja.hira-bo",
+        "ja.hira-mu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-bu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-be"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-be"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-bo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-bo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.tomodachi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.denwa"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.denwa"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.tomodachi"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.denwa"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-da"
+    },
+    {
+      "type": "speak",
+      "item": "ja.denwa"
+    }
+  ]
+}

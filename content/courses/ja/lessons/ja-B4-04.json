@@ -1,0 +1,61 @@
+{
+  "id": "ja-B4-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.irasshaimase",
+      "kind": "phrase",
+      "text": "いらっしゃいませ",
+      "reading": "irasshaimase"
+    },
+    {
+      "id": "ja.arimasu",
+      "text": "あります",
+      "reading": "arimasu"
+    },
+    {
+      "id": "ja.arimasen",
+      "text": "ありません",
+      "reading": "arimasen"
+    },
+    {
+      "id": "ja.sorekara",
+      "text": "それから",
+      "reading": "sorekara"
+    },
+    {
+      "id": "ja.konbini",
+      "text": "コンビニ",
+      "reading": "konbini"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。",
+      "reading": "Irasshaimase."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、きっては ありますか。",
+      "reading": "Sumimasen, kitte wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、あります。いくつですか。",
+      "reading": "Hai, arimasu. Ikutsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ふたつ ください。それから、ちずは ありますか。",
+      "reading": "Futatsu kudasai. Sorekara, chizu wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "すみません、ちずは ありません。",
+      "reading": "Sumimasen, chizu wa arimasen."
+    }
+  ]
+}

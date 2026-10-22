@@ -1,0 +1,70 @@
+{
+  "id": "ja-B3-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.yoji",
+      "text": "4時",
+      "reading": "yoji"
+    },
+    {
+      "id": "ja.kuji",
+      "text": "9時",
+      "reading": "kuji"
+    },
+    {
+      "id": "ja.fun",
+      "text": "ふん",
+      "reading": "fun"
+    },
+    {
+      "id": "ja.made",
+      "text": "まで",
+      "reading": "made"
+    },
+    {
+      "id": "ja.jugyou",
+      "text": "じゅぎょう",
+      "reading": "jugyō"
+    },
+    {
+      "id": "ja.yasumi",
+      "text": "やすみ",
+      "reading": "yasumi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、じゅぎょうは なんじからですか。",
+      "reading": "Yuki-san, jugyō wa nanji kara desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "9時からです。",
+      "reading": "Kuji kara desu."
+    },
+    {
+      "speaker": "a",
+      "text": "なんじまでですか。",
+      "reading": "Nanji made desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "4時までです。",
+      "reading": "Yoji made desu."
+    },
+    {
+      "speaker": "a",
+      "text": "やすみは なんぷんですか。",
+      "reading": "Yasumi wa nanpun desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "じゅっぷんです。",
+      "reading": "Juppun desu."
+    }
+  ]
+}

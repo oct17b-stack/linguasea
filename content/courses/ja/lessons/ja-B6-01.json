@@ -1,0 +1,60 @@
+{
+  "id": "ja-B6-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.mainichi",
+      "text": "まいにち",
+      "reading": "mainichi"
+    },
+    {
+      "id": "ja.okimasu",
+      "text": "おきます",
+      "reading": "okimasu"
+    },
+    {
+      "id": "ja.nemasu",
+      "text": "ねます",
+      "reading": "nemasu"
+    },
+    {
+      "id": "ja.goro",
+      "text": "ごろ",
+      "reading": "goro"
+    },
+    {
+      "id": "ja.hayai",
+      "text": "はやい",
+      "reading": "hayai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは まいにち なんじに おきますか。",
+      "reading": "Namu-san wa mainichi nanji ni okimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "6時ごろ おきます。",
+      "reading": "Rokuji goro okimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "はやいですね。",
+      "reading": "Hayai desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "よる 10時に ねます。ゆきさんは？",
+      "reading": "Yoru jūji ni nemasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは 12時ごろ ねます。",
+      "reading": "Watashi wa jūniji goro nemasu."
+    }
+  ]
+}

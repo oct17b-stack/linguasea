@@ -1,0 +1,55 @@
+{
+  "id": "ja-A6-03",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.oishii",
+      "text": "おいしい",
+      "reading": "oishii"
+    },
+    {
+      "id": "ja.suki",
+      "text": "すき",
+      "reading": "suki"
+    },
+    {
+      "id": "ja.karai",
+      "text": "からい",
+      "reading": "karai"
+    },
+    {
+      "id": "ja.amai",
+      "text": "あまい",
+      "reading": "amai"
+    },
+    {
+      "id": "ja.ryouri",
+      "text": "りょうり",
+      "reading": "ryōri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "にほんの りょうりは すきですか。",
+      "reading": "Nihon no ryōri wa suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すきです。すしが すきです。",
+      "reading": "Hai, suki desu. Sushi ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "タイの りょうりは からいですか。",
+      "reading": "Tai no ryōri wa karai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、からいです。おいしいですよ。",
+      "reading": "Hai, karai desu. Oishii desu yo."
+    }
+  ]
+}

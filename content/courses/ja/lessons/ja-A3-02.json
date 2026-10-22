@@ -1,0 +1,56 @@
+{
+  "id": "ja-A3-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.namae",
+      "text": "なまえ",
+      "reading": "namae"
+    },
+    {
+      "id": "ja.onamae",
+      "text": "おなまえ",
+      "reading": "onamae"
+    },
+    {
+      "id": "ja.nan",
+      "text": "なん",
+      "reading": "nan"
+    },
+    {
+      "id": "ja.san-honorific",
+      "text": "さん",
+      "reading": "san"
+    },
+    {
+      "id": "ja.sou-desu",
+      "kind": "phrase",
+      "text": "そうです",
+      "reading": "sō desu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "おなまえは なんですか。",
+      "reading": "Onamae wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ナムです。",
+      "reading": "Namu desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ナムさんですか。",
+      "reading": "Namu-san desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、そうです。",
+      "reading": "Hai, sō desu."
+    }
+  ]
+}

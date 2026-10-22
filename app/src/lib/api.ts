@@ -341,7 +341,8 @@ export function audioUrl(path: string): string | undefined {
   return API_URL ? `${API_URL}/audio/${path.split('/').map(encodeURIComponent).join('/')}` : undefined;
 }
 
-/** Privacy policy / terms page, in Thai or English. Undefined without a server. */
-export function legalUrl(page: 'privacy' | 'terms', lang: 'th' | 'en'): string | undefined {
-  return API_URL ? `${API_URL}/legal/${page}-${lang}.html` : undefined;
+/** Privacy policy / terms page (optionally a section of it), in Thai or English. Undefined without a server. */
+export function legalUrl(page: 'privacy' | 'terms', lang: 'th' | 'en', section?: string): string | undefined {
+  if (!API_URL) return undefined;
+  return `${API_URL}/legal/${page}-${lang}.html${section ? `#${encodeURIComponent(section)}` : ''}`;
 }

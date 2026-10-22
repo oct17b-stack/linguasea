@@ -1,0 +1,57 @@
+{
+  "id": "ja-A6-04",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.itadakimasu",
+      "kind": "phrase",
+      "text": "いただきます",
+      "reading": "itadakimasu"
+    },
+    {
+      "id": "ja.gochisousama-deshita",
+      "kind": "phrase",
+      "text": "ごちそうさまでした",
+      "reading": "gochisōsama deshita"
+    },
+    {
+      "id": "ja.asagohan",
+      "text": "あさごはん",
+      "reading": "asagohan"
+    },
+    {
+      "id": "ja.hirugohan",
+      "text": "ひるごはん",
+      "reading": "hirugohan"
+    },
+    {
+      "id": "ja.bangohan",
+      "text": "ばんごはん",
+      "reading": "bangohan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ばんごはんです。どうぞ。",
+      "reading": "Bangohan desu. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "いただきます。",
+      "reading": "Itadakimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "おいしいですか。",
+      "reading": "Oishii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おいしいです。ごちそうさまでした。",
+      "reading": "Hai, oishii desu. Gochisōsama deshita."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ja-B4-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kore",
+      "text": "これ",
+      "reading": "kore"
+    },
+    {
+      "id": "ja.ikura",
+      "text": "いくら",
+      "reading": "ikura"
+    },
+    {
+      "id": "ja.en",
+      "text": "円",
+      "reading": "en"
+    },
+    {
+      "id": "ja.hyaku",
+      "text": "ひゃく",
+      "reading": "hyaku"
+    },
+    {
+      "id": "ja.sen",
+      "text": "せん",
+      "reading": "sen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、これは いくらですか。",
+      "reading": "Sumimasen, kore wa ikura desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "500円です。",
+      "reading": "Gohyaku en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "これを ください。",
+      "reading": "Kore o kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ありがとうございます。",
+      "reading": "Hai, arigatō gozaimasu."
+    }
+  ]
+}

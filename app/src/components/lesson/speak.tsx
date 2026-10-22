@@ -1,21 +1,21 @@
 import type { CourseBundle, Target } from '@linguasea/contract';
 import { spoken, type Step } from '@linguasea/core';
-import { requestRecordingPermissionsAsync, useAudioRecorder } from 'expo-audio';
-import * as Haptics from 'expo-haptics';
 import { router } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
-import { ActivityIndicator, Platform, Pressable, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { Card } from '@/components/card';
 import { ListenButtons, WordFace } from '@/components/lesson/word';
+import { MicButton } from '@/components/mic-button';
 import { ProgressBar } from '@/components/progress-bar';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
+import { useRecorder } from '@/hooks/use-recorder';
 import { useTheme } from '@/hooks/use-theme';
 import { apiEnabled, scorePronunciation, type PronunciationScore, type ScoreResult, type WordScore } from '@/lib/api';
-import { playItem, setRecordingMode, stopAudio } from '@/lib/audio';
-import { MAX_RECORDING_SECONDS, RECORDING_OPTIONS } from '@/lib/recording';
+import { playItem } from '@/lib/audio';
+import { MAX_RECORDING_SECONDS } from '@/lib/recording';
 import { discardRecording, recordingFile } from '@/lib/recording-file';
 import { useApp } from '@/state/app-state';
 
@@ -66,62 +66,20 @@ const FALLBACK_TEXT = {
   failed: 'speak.failed',
 } as const;
 
-function haptic() {
-  if (Platform.OS !== 'web') Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
-}
-
 function Scorer({ target, text }: { target: Target; text: string }) {
   const { t, premium } = useApp();
   const c = useTheme();
-  const recorder = useAudioRecorder(RECORDING_OPTIONS);
   const [phase, setPhase] = useState<Phase>({ kind: 'idle' });
-  const [elapsed, setElapsed] = useState(0);
   const alive = useRef(true);
-  const recording = useRef(false);
-  /** The audio session is in record mode (iOS); switched back as soon as it is not needed. */
-  const micMode = useRef(false);
-  const timers = useRef<{ stop?: ReturnType<typeof setTimeout>; tick?: ReturnType<typeof setInterval> }>({});
-
   useEffect(() => {
     alive.current = true;
-    const pending = timers.current;
     return () => {
       alive.current = false;
-      clearTimeout(pending.stop);
-      clearInterval(pending.tick);
-      if (recording.current) {
-        recording.current = false;
-        // Leaving mid-take: stop so the browser / OS releases the microphone.
-        try {
-          recorder.stop().catch(() => {});
-        } catch {}
-      }
-      if (micMode.current) {
-        micMode.current = false;
-        void setRecordingMode(false);
-      }
     };
-  }, [recorder]);
+  }, []);
 
-  const leaveMicMode = () => {
-    if (!micMode.current) return;
-    micMode.current = false;
-    void setRecordingMode(false);
-  };
-
-  const finish = async () => {
-    if (!recording.current) return;
-    recording.current = false;
-    clearTimeout(timers.current.stop);
-    clearInterval(timers.current.tick);
-    haptic();
+  const score = async (uri: string | null) => {
     setPhase({ kind: 'scoring' });
-    let uri: string | null = null;
-    try {
-      await recorder.stop();
-      uri = recorder.uri;
-    } catch {}
-    leaveMicMode();
     let result: ScoreResult = { kind: 'failed' };
     if (uri) {
       try {
@@ -136,33 +94,20 @@ function Scorer({ target, text }: { target: Target; text: string }) {
     else setPhase({ kind: 'fallback', reason: result.kind });
   };
 
-  const start = async () => {
-    stopAudio();
-    setPhase({ kind: 'starting' });
-    try {
-      const permission = await requestRecordingPermissionsAsync();
-      if (!alive.current) return;
-      if (!permission.granted) {
-        setPhase({ kind: 'fallback', reason: 'permission' });
-        return;
-      }
-      micMode.current = true;
-      await setRecordingMode(true);
-      await recorder.prepareToRecordAsync();
-      if (!alive.current) return;
-      recorder.record();
-    } catch {
-      leaveMicMode();
-      if (alive.current) setPhase({ kind: 'fallback', reason: 'failed' });
+  const recorder = useRecorder(MAX_RECORDING_SECONDS, (uri) => void score(uri));
+
+  const press = async () => {
+    if (phase.kind === 'recording') {
+      setPhase({ kind: 'scoring' });
+      await recorder.stop();
       return;
     }
-    recording.current = true;
-    haptic();
-    const startedAt = Date.now();
-    setElapsed(0);
-    setPhase({ kind: 'recording' });
-    timers.current.tick = setInterval(() => setElapsed(Date.now() - startedAt), 100);
-    timers.current.stop = setTimeout(() => void finish(), MAX_RECORDING_SECONDS * 1000);
+    setPhase({ kind: 'starting' });
+    const started = await recorder.start();
+    if (!alive.current) return;
+    if (started === 'denied') setPhase({ kind: 'fallback', reason: 'permission' });
+    else if (started === 'failed') setPhase({ kind: 'fallback', reason: 'failed' });
+    else setPhase({ kind: 'recording' });
   };
 
   const busy = phase.kind === 'starting' || phase.kind === 'scoring';
@@ -208,28 +153,13 @@ function Scorer({ target, text }: { target: Target; text: string }) {
 
       {canRecord ? (
         <View style={styles.micArea}>
-          <Pressable
-            accessibilityRole="button"
-            accessibilityLabel={caption}
-            accessibilityState={{ busy, disabled: busy }}
-            disabled={busy}
-            onPress={() => void (isRecording ? finish() : start())}
-            style={({ pressed }) => [
-              styles.mic,
-              { backgroundColor: isRecording ? c.danger : c.primary, opacity: busy ? 0.5 : pressed ? 0.85 : 1 },
-            ]}>
-            {busy ? (
-              <ActivityIndicator color={c.onPrimary} />
-            ) : (
-              <ThemedText style={[styles.micIcon, { color: c.onPrimary }]}>{isRecording ? '■' : '🎙️'}</ThemedText>
-            )}
-          </Pressable>
+          <MicButton state={busy ? 'busy' : isRecording ? 'recording' : 'idle'} label={caption} onPress={() => void press()} />
           <ThemedText type="smallBold" style={styles.centerText}>
             {caption}
           </ThemedText>
           {isRecording ? (
             <View style={styles.meter}>
-              <ProgressBar value={Math.min(1, elapsed / (MAX_RECORDING_SECONDS * 1000))} />
+              <ProgressBar value={Math.min(1, recorder.elapsed / (MAX_RECORDING_SECONDS * 1000))} />
             </View>
           ) : null}
         </View>
@@ -331,8 +261,6 @@ const styles = StyleSheet.create({
   scorer: { gap: Spacing.three },
   notice: { borderRadius: Spacing.two, padding: Spacing.three, overflow: 'hidden' },
   micArea: { alignItems: 'center', gap: Spacing.two },
-  mic: { width: 88, height: 88, borderRadius: 44, alignItems: 'center', justifyContent: 'center' },
-  micIcon: { fontSize: 36, lineHeight: 44 },
   meter: { alignSelf: 'stretch' },
   result: { gap: Spacing.two },
   scoreRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.three },

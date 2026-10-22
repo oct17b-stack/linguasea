@@ -1,0 +1,45 @@
+{
+  "id": "ja-A5-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.roku",
+      "text": "ろく",
+      "reading": "roku"
+    },
+    {
+      "id": "ja.nana",
+      "text": "なな",
+      "reading": "nana"
+    },
+    {
+      "id": "ja.hachi",
+      "text": "はち",
+      "reading": "hachi"
+    },
+    {
+      "id": "ja.kyuu",
+      "text": "きゅう",
+      "reading": "kyū"
+    },
+    {
+      "id": "ja.juu",
+      "text": "じゅう",
+      "reading": "jū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ろく、なな、はち、きゅう、じゅう！",
+      "reading": "Roku, nana, hachi, kyū, jū!"
+    },
+    {
+      "speaker": "c",
+      "text": "はい、そうです！",
+      "reading": "Hai, sō desu!"
+    }
+  ]
+}

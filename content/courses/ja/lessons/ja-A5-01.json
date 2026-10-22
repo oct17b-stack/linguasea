@@ -1,0 +1,45 @@
+{
+  "id": "ja-A5-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.ichi",
+      "text": "いち",
+      "reading": "ichi"
+    },
+    {
+      "id": "ja.ni",
+      "text": "に",
+      "reading": "ni"
+    },
+    {
+      "id": "ja.san",
+      "text": "さん",
+      "reading": "san"
+    },
+    {
+      "id": "ja.yon",
+      "text": "よん",
+      "reading": "yon"
+    },
+    {
+      "id": "ja.go",
+      "text": "ご",
+      "reading": "go"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "いち、に、さん！",
+      "reading": "Ichi, ni, san!"
+    },
+    {
+      "speaker": "a",
+      "text": "よん、ご！",
+      "reading": "Yon, go!"
+    }
+  ]
+}

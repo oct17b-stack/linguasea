@@ -1,0 +1,162 @@
+{
+  "id": "ja-A4-01",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.hira-ha",
+      "kind": "letter",
+      "text": "は",
+      "reading": "ha"
+    },
+    {
+      "id": "ja.hira-hi",
+      "kind": "letter",
+      "text": "ひ",
+      "reading": "hi"
+    },
+    {
+      "id": "ja.hira-fu",
+      "kind": "letter",
+      "text": "ふ",
+      "reading": "fu"
+    },
+    {
+      "id": "ja.hira-he",
+      "kind": "letter",
+      "text": "へ",
+      "reading": "he"
+    },
+    {
+      "id": "ja.hira-ho",
+      "kind": "letter",
+      "text": "ほ",
+      "reading": "ho"
+    },
+    {
+      "id": "ja.hira-ke",
+      "kind": "letter",
+      "text": "け",
+      "reading": "ke"
+    },
+    {
+      "id": "ja.hira-ku",
+      "kind": "letter",
+      "text": "く",
+      "reading": "ku"
+    },
+    {
+      "id": "ja.hana",
+      "text": "はな",
+      "reading": "hana"
+    },
+    {
+      "id": "ja.hito",
+      "text": "ひと",
+      "reading": "hito"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ha",
+      "options": [
+        "ja.hira-ke",
+        "ja.hira-ho",
+        "ja.hira-ni"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-hi"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-hi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-fu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-fu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-he",
+      "options": [
+        "ja.hira-ku",
+        "ja.hira-te",
+        "ja.hira-so"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-he"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ho",
+      "options": [
+        "ja.hira-ha",
+        "ja.hira-ke",
+        "ja.hira-ko"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ho"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ke"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ke"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-ku"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-ku"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hana"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hito"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.hito"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.hana"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.hito"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-ha"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hito"
+    }
+  ]
+}

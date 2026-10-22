@@ -1,0 +1,210 @@
+{
+  "id": "ja-B1-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hira-kya",
+      "kind": "syllable",
+      "text": "きゃ",
+      "reading": "kya"
+    },
+    {
+      "id": "ja.hira-kyu",
+      "kind": "syllable",
+      "text": "きゅ",
+      "reading": "kyu"
+    },
+    {
+      "id": "ja.hira-kyo",
+      "kind": "syllable",
+      "text": "きょ",
+      "reading": "kyo"
+    },
+    {
+      "id": "ja.hira-sha",
+      "kind": "syllable",
+      "text": "しゃ",
+      "reading": "sha"
+    },
+    {
+      "id": "ja.hira-shu",
+      "kind": "syllable",
+      "text": "しゅ",
+      "reading": "shu"
+    },
+    {
+      "id": "ja.hira-sho",
+      "kind": "syllable",
+      "text": "しょ",
+      "reading": "sho"
+    },
+    {
+      "id": "ja.hira-cha",
+      "kind": "syllable",
+      "text": "ちゃ",
+      "reading": "cha"
+    },
+    {
+      "id": "ja.hira-chu",
+      "kind": "syllable",
+      "text": "ちゅ",
+      "reading": "chu"
+    },
+    {
+      "id": "ja.hira-cho",
+      "kind": "syllable",
+      "text": "ちょ",
+      "reading": "cho"
+    },
+    {
+      "id": "ja.densha",
+      "text": "でんしゃ",
+      "reading": "densha"
+    },
+    {
+      "id": "ja.kyou",
+      "text": "きょう",
+      "reading": "kyō"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ja.hira-kya"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-kya"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-kyu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-kyu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-kyo",
+      "options": [
+        "ja.hira-kyu",
+        "ja.hira-kya",
+        "ja.hira-cho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-kyo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-sha",
+      "options": [
+        "ja.hira-cha",
+        "ja.hira-shu",
+        "ja.hira-sho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-sha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-shu",
+      "options": [
+        "ja.hira-chu",
+        "ja.hira-sha",
+        "ja.hira-sho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-shu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-sho",
+      "options": [
+        "ja.hira-cho",
+        "ja.hira-sha",
+        "ja.hira-shu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-sho"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-cha",
+      "options": [
+        "ja.hira-sha",
+        "ja.hira-chu",
+        "ja.hira-cho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-cha"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-chu",
+      "options": [
+        "ja.hira-shu",
+        "ja.hira-cha",
+        "ja.hira-cho"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-chu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ja.hira-cho",
+      "options": [
+        "ja.hira-sho",
+        "ja.hira-cha",
+        "ja.hira-chu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.hira-cho"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.densha"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ja.kyou"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ja.kyou"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.densha"
+    },
+    {
+      "type": "choose-text",
+      "item": "ja.kyou"
+    },
+    {
+      "type": "speak",
+      "item": "ja.hira-kya"
+    },
+    {
+      "type": "speak",
+      "item": "ja.kyou"
+    }
+  ]
+}

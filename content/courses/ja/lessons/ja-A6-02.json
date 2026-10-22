@@ -1,0 +1,55 @@
+{
+  "id": "ja-A6-02",
+  "target": "ja",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ja.tabemasu",
+      "text": "たべます",
+      "reading": "tabemasu"
+    },
+    {
+      "id": "ja.gohan",
+      "text": "ごはん",
+      "reading": "gohan"
+    },
+    {
+      "id": "ja.sakana",
+      "text": "さかな",
+      "reading": "sakana"
+    },
+    {
+      "id": "ja.niku",
+      "text": "にく",
+      "reading": "niku"
+    },
+    {
+      "id": "ja.yasai",
+      "text": "やさい",
+      "reading": "yasai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "なにを たべますか。",
+      "reading": "Nani o tabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "さかなと ごはんを たべます。",
+      "reading": "Sakana to gohan o tabemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "やさいも たべますか。",
+      "reading": "Yasai mo tabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、たべます。",
+      "reading": "Hai, tabemasu."
+    }
+  ]
+}
