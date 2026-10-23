@@ -1,0 +1,70 @@
+{
+  "id": "ko-B16-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.pyeongjeom",
+      "text": "평점",
+      "reading": "pyeongjeom"
+    },
+    {
+      "id": "ko.gaebong",
+      "text": "개봉",
+      "reading": "gaebong"
+    },
+    {
+      "id": "ko.ending",
+      "text": "엔딩",
+      "reading": "ending"
+    },
+    {
+      "id": "ko.gangchu",
+      "text": "강추",
+      "reading": "gangchu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "이번 주 개봉 영화예요.",
+        "reading": "Ibeon ju gaebong yeonghwayeyo."
+      },
+      {
+        "text": "영화가 정말 재미있어요.",
+        "reading": "Yeonghwaga jeongmal jaemiisseoyo."
+      },
+      {
+        "text": "엔딩이 너무 아름다워요.",
+        "reading": "Endingi neomu areumdawoyo."
+      }
+    ],
+    [
+      {
+        "text": "정말 감동이에요!",
+        "reading": "Jeongmal gamdongieyo!"
+      },
+      {
+        "text": "제 평점은 별 다섯 개, 강추예요!",
+        "reading": "Je pyeongjeomeun byeol daseot gae, gangchuyeyo!"
+      },
+      {
+        "text": "또 보고 싶어요!",
+        "reading": "Tto bogo sipeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

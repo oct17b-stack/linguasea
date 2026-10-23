@@ -1,0 +1,62 @@
+{
+  "id": "ko-B16-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gamdok",
+      "text": "감독",
+      "reading": "gamdok"
+    },
+    {
+      "id": "ko.seupoilleo",
+      "text": "스포일러",
+      "reading": "seupoilleo"
+    },
+    {
+      "id": "ko.myeot-si-yeonghwayeyo",
+      "kind": "phrase",
+      "text": "몇 시 영화예요?",
+      "reading": "myeot si yeonghwayeyo?"
+    },
+    {
+      "id": "ko.boreo-gayo",
+      "kind": "phrase",
+      "text": "보러 가요",
+      "reading": "boreo gayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 내일 영화 보러 가요!",
+      "reading": "Minjun ssi, naeil yeonghwa boreo gayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요! 몇 시 영화예요?",
+      "reading": "Joayo! Myeot si yeonghwayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저녁 여덟 시예요. 한국 영화예요. 감독이 정말 좋아요.",
+      "reading": "Jeonyeok yeodeol siyeyo. Hanguk yeonghwayeyo. Gamdogi jeongmal joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그 영화! 그 남자가 경찰이에요!",
+      "reading": "A, geu yeonghwa! Geu namjaga gyeongcharieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 민준 씨! 스포일러 안 돼요!",
+      "reading": "A, Minjun ssi! Seupoilleo an dwaeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "미안해요! 내일 같이 보러 가요.",
+      "reading": "Mianhaeyo! Naeil gachi boreo gayo."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-B16-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.papkon",
+      "text": "팝콘",
+      "reading": "papkon"
+    },
+    {
+      "id": "ko.nacho",
+      "text": "나초",
+      "reading": "nacho"
+    },
+    {
+      "id": "ko.ojingeo",
+      "text": "오징어",
+      "reading": "ojingeo"
+    },
+    {
+      "id": "ko.seteu",
+      "text": "세트",
+      "reading": "seteu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요!",
+      "reading": "Eoseo oseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "팝콘 하나하고 콜라 두 잔 주세요.",
+      "reading": "Papkon hanahago kolla du jan juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "팝콘 세트가 더 싸요. 팝콘 하나, 콜라 두 잔이에요.",
+      "reading": "Papkon seteuga deo ssayo. Papkon hana, kolla du janieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "세트 주세요. 그리고 오징어도 주세요.",
+      "reading": "Seteu juseyo. Geurigo ojingeodo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오징어요? 영화관에서 오징어를 먹어요?",
+      "reading": "Ojingeoyo? Yeonghwagwaneseo ojingeoreul meogeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네! 한국에서는 영화관에서 오징어 많이 먹어요. 나초도 맛있어요.",
+      "reading": "Ne! Hangugeseoneun yeonghwagwaneseo ojingeo mani meogeoyo. Nachodo masisseoyo."
+    }
+  ]
+}

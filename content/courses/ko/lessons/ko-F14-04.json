@@ -1,0 +1,91 @@
+{
+  "id": "ko-F14-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jwajeol-hada",
+      "text": "좌절하다",
+      "reading": "jwajeolhada"
+    },
+    {
+      "id": "ko.kkaedareum",
+      "text": "깨달음",
+      "reading": "kkaedareum"
+    },
+    {
+      "id": "ko.mitgeoreum",
+      "text": "밑거름",
+      "reading": "mitgeoreum"
+    },
+    {
+      "id": "ko.dasi-ireoseoda",
+      "kind": "phrase",
+      "text": "다시 일어서다",
+      "reading": "dasi ireoseoda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "실패했을 때 좌절하지 않았어요?",
+      "reading": "Silpaehaesseul ttae jwajeolhaji anasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "물론 좌절했어요. 제 실력이 부족하다는 생각에 많이 속상했어요.",
+      "reading": "Mullon jwajeolhaesseoyo. Je sillyeogi bujokadaneun saenggage mani soksanghaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 어떻게 다시 일어설 수 있었어요?",
+      "reading": "Geureonde eotteoke dasi ireoseol su isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "같은 반 친구가 자기도 세 번 떨어졌다고 이야기해 준 덕분에 용기를 얻었어요.",
+      "reading": "Gateun ban chinguga jagido se beon tteoreojyeotdago iyagihae jun deokbune yonggireul eodeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 친구가 있었네요.",
+      "reading": "Joeun chinguga isseonneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그리고 한 번 떨어진 덕분에 큰 깨달음을 얻었어요.",
+      "reading": "Ne, geurigo han beon tteoreojin deokbune keun kkaedareumeul eodeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어떤 깨달음이요?",
+      "reading": "Eotteon kkaedareumiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 시험 점수만 생각했는데, 사실 중요한 건 한국어로 제 생각을 표현하는 힘이었어요.",
+      "reading": "Jeoneun siheom jeomsuman saenggakaenneunde, sasil jungyohan geon hangugeoro je saenggageul pyohyeonhaneun himieosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "실패가 오히려 공부 방향을 바꿔 준 거네요.",
+      "reading": "Silpaega ohiryeo gongbu banghyangeul bakkwo jun geoneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 그때 글쓰기를 열심히 연습한 덕분에 지금은 한국어로 보고서도 잘 써요.",
+      "reading": "Majayo. Geuttae geulsseugireul yeolsimhi yeonseupan deokbune jigeumeun hangugeoro bogoseodo jal sseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "실패의 경험이 좋은 밑거름이 됐군요.",
+      "reading": "Silpaeui gyeongheomi joeun mitgeoreumi dwaetgunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 지금은 그때 떨어진 게 오히려 고마워요.",
+      "reading": "Ne, jigeumeun geuttae tteoreojin ge ohiryeo gomawoyo."
+    }
+  ]
+}

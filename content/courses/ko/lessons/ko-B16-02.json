@@ -1,0 +1,60 @@
+{
+  "id": "ko-B16-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yemae",
+      "text": "예매",
+      "reading": "yemae"
+    },
+    {
+      "id": "ko.maejin",
+      "text": "매진",
+      "reading": "maejin"
+    },
+    {
+      "id": "ko.jwaseok",
+      "text": "좌석",
+      "reading": "jwaseok"
+    },
+    {
+      "id": "ko.sangyeong",
+      "text": "상영",
+      "reading": "sangyeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 영화 예매해요?",
+      "reading": "Nam ssi, yeonghwa yemaehaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 일곱 시 상영 있어요?",
+      "reading": "Ne! Ilgop si sangyeong isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "일곱 시는 매진이에요. 아홉 시 상영은 좌석이 있어요.",
+      "reading": "Ilgop sineun maejinieyo. Ahop si sangyeongeun jwaseogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아홉 시는 좀 늦어요…",
+      "reading": "Ahop sineun jom neujeoyo…"
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 내일은 주말이에요.",
+      "reading": "Gwaenchanayo. Naeireun jumarieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 아홉 시 영화 두 장 예매해요.",
+      "reading": "Joayo! Ahop si yeonghwa du jang yemaehaeyo."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-B16-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gamdong",
+      "text": "감동",
+      "reading": "gamdong"
+    },
+    {
+      "id": "ko.museowoyo",
+      "text": "무서워요",
+      "reading": "museowoyo"
+    },
+    {
+      "id": "ko.jiruhaeyo",
+      "text": "지루해요",
+      "reading": "jiruhaeyo"
+    },
+    {
+      "id": "ko.nunmul",
+      "text": "눈물",
+      "reading": "nunmul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 영화 어때요?",
+      "reading": "Nam ssi, yeonghwa eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "정말 감동이에요! 눈물이 나요.",
+      "reading": "Jeongmal gamdongieyo! Nunmuri nayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도요. 그런데 처음에는 좀 지루해요.",
+      "reading": "Jeodoyo. Geureonde cheoeumeneun jom jiruhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 그리고 그 남자가 좀 무서워요.",
+      "reading": "Majayo. Geurigo geu namjaga jom museowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 정말 무서워요! 하지만 정말 재미있어요.",
+      "reading": "Ne, jeongmal museowoyo! Hajiman jeongmal jaemiisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 또 보고 싶어요!",
+      "reading": "Ne, tto bogo sipeoyo!"
+    }
+  ]
+}

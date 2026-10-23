@@ -1,0 +1,67 @@
+{
+  "id": "ko-B16-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yeonghwagwan",
+      "text": "영화관",
+      "reading": "yeonghwagwan"
+    },
+    {
+      "id": "ko.gongpo-yeonghwa",
+      "kind": "phrase",
+      "text": "공포 영화",
+      "reading": "gongpo yeonghwa"
+    },
+    {
+      "id": "ko.komidi",
+      "text": "코미디",
+      "reading": "komidi"
+    },
+    {
+      "id": "ko.aeksyeon-yeonghwa",
+      "kind": "phrase",
+      "text": "액션 영화",
+      "reading": "aeksyeon yeonghwa"
+    },
+    {
+      "id": "ko.aenimeisyeon",
+      "text": "애니메이션",
+      "reading": "aenimeisyeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 영화관에 가요! 무슨 영화 보고 싶어요?",
+      "reading": "Nam ssi, oneul yeonghwagwane gayo! Museun yeonghwa bogo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 코미디 좋아해요. 민준 씨는요?",
+      "reading": "Jeoneun komidi joahaeyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 액션 영화 좋아해요. 공포 영화는 어때요?",
+      "reading": "Jeoneun aeksyeon yeonghwa joahaeyo. Gongpo yeonghwaneun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 공포 영화는 싫어요!",
+      "reading": "Aniyo, gongpo yeonghwaneun sireoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "애니메이션은 어때요? 재미있어요.",
+      "reading": "Aenimeisyeoneun eottaeyo? Jaemiisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 애니메이션 봐요.",
+      "reading": "Joayo! Aenimeisyeon bwayo."
+    }
+  ]
+}

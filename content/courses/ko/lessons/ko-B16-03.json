@@ -1,0 +1,62 @@
+{
+  "id": "ko-B16-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jari",
+      "text": "자리",
+      "reading": "jari"
+    },
+    {
+      "id": "ko.gaunde",
+      "text": "가운데",
+      "reading": "gaunde"
+    },
+    {
+      "id": "ko.maen-ap",
+      "kind": "phrase",
+      "text": "맨 앞",
+      "reading": "maen ap"
+    },
+    {
+      "id": "ko.maen-dwi",
+      "kind": "phrase",
+      "text": "맨 뒤",
+      "reading": "maen dwi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 자리는 어디가 좋아요?",
+      "reading": "Eoseo oseyo. Jarineun eodiga joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "가운데 자리 있어요?",
+      "reading": "Gaunde jari isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "가운데는 없어요. 맨 앞하고 맨 뒤 자리가 있어요.",
+      "reading": "Gaundeneun eopseoyo. Maen aphago maen dwi jariga isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨, 맨 앞 괜찮아요?",
+      "reading": "Minjun ssi, maen ap gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "맨 앞은 싫어요. 맨 뒤 자리 주세요.",
+      "reading": "Maen apeun sireoyo. Maen dwi jari juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맨 뒤 두 자리예요.",
+      "reading": "Ne, maen dwi du jariyeyo."
+    }
+  ]
+}
