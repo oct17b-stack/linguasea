@@ -1,0 +1,96 @@
+{
+  "id": "ko-E3-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.heeojida",
+      "text": "헤어지다",
+      "reading": "heeojida"
+    },
+    {
+      "id": "ko.ibyeol",
+      "text": "이별",
+      "reading": "ibyeol"
+    },
+    {
+      "id": "ko.datuda",
+      "text": "다투다",
+      "reading": "datuda"
+    },
+    {
+      "id": "ko.hwahae-hada",
+      "text": "화해하다",
+      "reading": "hwahaehada"
+    },
+    {
+      "id": "ko.yeollagi-kkeunkida",
+      "kind": "phrase",
+      "text": "연락이 끊기다",
+      "reading": "yeollagi kkeunkida"
+    },
+    {
+      "id": "ko.jaehoe-hada",
+      "text": "재회하다",
+      "reading": "jaehoehada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준아, 얼굴이 왜 그래? 무슨 일 있어?",
+      "reading": "Minjuna, eolguri wae geurae? Museun il isseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "어제 여자 친구랑 크게 다퉜어.",
+      "reading": "Eoje yeoja chingurang keuge datwosseo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜 다퉜는데?",
+      "reading": "Wae datwonneunde?"
+    },
+    {
+      "speaker": "b",
+      "text": "내가 약속에 한 시간이나 늦었거든. 여자 친구가 화가 나서 집에 갔다가 다시 왔어.",
+      "reading": "Naega yaksoge han siganina neujeotgeodeun. Yeoja chinguga hwaga naseo jibe gatdaga dasi wasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "다시 왔으면 다행이네. 그래서 화해했어?",
+      "reading": "Dasi wasseumyeon dahaengine. Geuraeseo hwahaehaesseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니. 밤에 전화를 했다가 그냥 끊었어. 무슨 말을 해야 할지 몰라서.",
+      "reading": "Ani. Bame jeonhwareul haetdaga geunyang kkeuneosseo. Museun mareul haeya halji mollaseo."
+    },
+    {
+      "speaker": "a",
+      "text": "그러다가 연락이 끊기면 어떡해?",
+      "reading": "Geureodaga yeollagi kkeunkimyeon eotteokae?"
+    },
+    {
+      "speaker": "b",
+      "text": "그러니까 걱정이야. 이별은 생각하고 싶지 않아.",
+      "reading": "Geureonikka geokjeongiya. Ibyeoreun saenggakago sipji ana."
+    },
+    {
+      "speaker": "a",
+      "text": "드라마에서는 헤어졌다가 재회하는 커플이 많지만, 그건 드라마야.",
+      "reading": "Deuramaeseoneun heeojyeotdaga jaehoehaneun keopeuri manchiman, geugeon deuramaya."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아. 오늘 직접 만나서 이야기해 볼게.",
+      "reading": "Maja. Oneul jikjeop mannaseo iyagihae bolge."
+    },
+    {
+      "speaker": "a",
+      "text": "그래. 꽃이라도 사 가. 빨리 화해해!",
+      "reading": "Geurae. Kkochirado sa ga. Ppalli hwahaehae!"
+    }
+  ]
+}

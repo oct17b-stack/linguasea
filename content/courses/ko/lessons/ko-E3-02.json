@@ -1,0 +1,91 @@
+{
+  "id": "ko-E3-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sudareul-tteolda",
+      "kind": "phrase",
+      "text": "수다를 떨다",
+      "reading": "sudareul tteolda"
+    },
+    {
+      "id": "ko.danjjak",
+      "text": "단짝",
+      "reading": "danjjak"
+    },
+    {
+      "id": "ko.ujeong",
+      "text": "우정",
+      "reading": "ujeong"
+    },
+    {
+      "id": "ko.jangnanchida",
+      "text": "장난치다",
+      "reading": "jangnanchida"
+    },
+    {
+      "id": "ko.nollida",
+      "text": "놀리다",
+      "reading": "nollida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 수업 끝나고 시간 있어? 카페에서 수다를 떨자.",
+      "reading": "Nama, sueop kkeunnago sigan isseo? Kapeeseo sudareul tteolja."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아! 지수도 부르자. 너하고 지수는 단짝이잖아.",
+      "reading": "Joa! Jisudo bureuja. Neohago Jisuneun danjjagijana."
+    },
+    {
+      "speaker": "b",
+      "text": "응, 지수는 초등학교 때부터 내 단짝이야.",
+      "reading": "Eung, Jisuneun chodeunghakgyo ttaebuteo nae danjjagiya."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 둘의 우정이 정말 오래됐네.",
+      "reading": "Wa, durui ujeongi jeongmal oraedwaenne."
+    },
+    {
+      "speaker": "b",
+      "text": "근데 지수는 장난치는 걸 너무 좋아해. 오늘도 나를 놀릴 거야.",
+      "reading": "Geunde Jisuneun jangnanchineun geol neomu joahae. Oneuldo nareul nollil geoya."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 놀리면 그냥 같이 웃어.",
+      "reading": "Haha, nollimyeon geunyang gachi useo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 지수가 내 옛날 사진을 보여 주면 웃지 마.",
+      "reading": "Geurigo Jisuga nae yennal sajineul boyeo jumyeon utji ma."
+    },
+    {
+      "speaker": "a",
+      "text": "왜? 무슨 사진인데?",
+      "reading": "Wae? Museun sajininde?"
+    },
+    {
+      "speaker": "b",
+      "text": "묻지 마. 보면 알 거야.",
+      "reading": "Mutji ma. Bomyeon al geoya."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 알았어. 그럼 수업 끝나면 바로 전화해라!",
+      "reading": "Haha, arasseo. Geureom sueop kkeunnamyeon baro jeonhwahaera!"
+    },
+    {
+      "speaker": "b",
+      "text": "응, 이따가 만나자!",
+      "reading": "Eung, ittaga mannaja!"
+    }
+  ]
+}

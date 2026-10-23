@@ -1,0 +1,79 @@
+{
+  "id": "ko-C11-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.muetai",
+      "text": "무에타이",
+      "reading": "muetai"
+    },
+    {
+      "id": "ko.taegwondo",
+      "text": "태권도",
+      "reading": "taegwondo"
+    },
+    {
+      "id": "ko.balchagi",
+      "text": "발차기",
+      "reading": "balchagi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "무에타이는 태국에서 아주 오래된 운동이에요.",
+        "reading": "Muetaineun Taegugeseo aju oraedoen undongieyo."
+      },
+      {
+        "text": "태권도는 한국 사람들이 만든 운동이에요.",
+        "reading": "Taegwondoneun Hanguk saramdeuri mandeun undongieyo."
+      },
+      {
+        "text": "두 운동 모두 발차기를 많이 해요.",
+        "reading": "Du undong modu balchagireul mani haeyo."
+      }
+    ],
+    [
+      {
+        "text": "하지만 두 운동은 조금 달라요.",
+        "reading": "Hajiman du undongeun jogeum dallayo."
+      },
+      {
+        "text": "무에타이에서는 발하고 무릎을 많이 써요.",
+        "reading": "Muetaieseoneun balhago mureupeul mani sseoyo."
+      },
+      {
+        "text": "태권도에서는 발차기를 더 많이 해요.",
+        "reading": "Taegwondoeseoneun balchagireul deo mani haeyo."
+      }
+    ],
+    [
+      {
+        "text": "지금 한국에서도 무에타이를 배우는 사람이 많아요.",
+        "reading": "Jigeum Hangugeseodo muetaireul baeuneun sarami manayo."
+      },
+      {
+        "text": "태국에서도 태권도를 배우는 어린이가 많아요.",
+        "reading": "Taegugeseodo taegwondoreul baeuneun eoriniga manayo."
+      },
+      {
+        "text": "남 씨도 태권도를 한번 배워 보고 싶어요.",
+        "reading": "Nam ssido taegwondoreul hanbeon baewo bogo sipeoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

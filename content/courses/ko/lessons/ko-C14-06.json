@@ -1,0 +1,70 @@
+{
+  "id": "ko-C14-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.konseoteu",
+      "text": "콘서트",
+      "reading": "konseoteu"
+    },
+    {
+      "id": "ko.mudae",
+      "text": "무대",
+      "reading": "mudae"
+    },
+    {
+      "id": "ko.gongyeon",
+      "text": "공연",
+      "reading": "gongyeon"
+    },
+    {
+      "id": "ko.maejindoeda",
+      "text": "매진되다",
+      "reading": "maejindoeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 다음 달에 블루문 콘서트가 있어요!",
+      "reading": "Minjun ssi, daeum dare Beullumun konseoteuga isseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "와, 표를 예매했어요?",
+      "reading": "Wa, pyoreul yemaehaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요. 벌써 매진됐어요. 너무 슬퍼요.",
+      "reading": "Aniyo. Beolsseo maejindwaesseoyo. Neomu seulpeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고. 남 씨가 콘서트에서 제일 보고 싶은 건 뭐예요?",
+      "reading": "Aigo. Nam ssiga konseoteueseo jeil bogo sipeun geon mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제가 제일 좋아하는 건 블루문의 무대예요. 춤이 정말 멋있어요.",
+      "reading": "Jega jeil joahaneun geon Beullumunui mudaeyeyo. Chumi jeongmal meosisseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 다른 공연은 어때요? 다음 주에 학교 축제에서 작은 공연이 있어요.",
+      "reading": "Geureom dareun gongyeoneun eottaeyo? Daeum jue hakgyo chukjeeseo jageun gongyeoni isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 거기에서 하는 건 뭐예요?",
+      "reading": "Geuraeyo? Geogieseo haneun geon mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "우리 학교 동아리 학생들이 노래하고 춤을 춰요. 같이 가요!",
+      "reading": "Uri hakgyo dongari haksaengdeuri noraehago chumeul chwoyo. Gachi gayo!"
+    }
+  ]
+}

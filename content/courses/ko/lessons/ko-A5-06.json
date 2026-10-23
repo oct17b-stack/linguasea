@@ -1,0 +1,56 @@
+{
+  "id": "ko-A5-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.myeot",
+      "text": "몇",
+      "reading": "myeot"
+    },
+    {
+      "id": "ko.beon",
+      "text": "번",
+      "reading": "beon"
+    },
+    {
+      "id": "ko.cheung",
+      "text": "층",
+      "reading": "cheung"
+    },
+    {
+      "id": "ko.jiha",
+      "text": "지하",
+      "reading": "jiha"
+    },
+    {
+      "id": "ko.myeot-hoyeyo",
+      "kind": "phrase",
+      "text": "몇 호예요?",
+      "reading": "myeot hoyeyo?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 전화번호가 몇 번이에요?",
+      "reading": "Nam ssi, jeonhwabeonhoga myeot beonieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공일공, 이삼사오, 육칠팔구예요. 몇 호예요?",
+      "reading": "Gongilgong, isamsao, yukchilpalguyeyo. Myeot hoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "칠 호예요. 삼 층이에요.",
+      "reading": "Chil hoyeyo. Sam cheungieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "삼 층 칠 호… 감사합니다!",
+      "reading": "Sam cheung chil ho… Gamsahamnida!"
+    }
+  ]
+}

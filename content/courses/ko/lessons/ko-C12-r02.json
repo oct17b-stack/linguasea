@@ -1,0 +1,79 @@
+{
+  "id": "ko-C12-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.chukje",
+      "text": "축제",
+      "reading": "chukje"
+    },
+    {
+      "id": "ko.mulchong",
+      "text": "물총",
+      "reading": "mulchong"
+    },
+    {
+      "id": "ko.jeotda",
+      "text": "젖다",
+      "reading": "jeotda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준 씨, 잘 지내요?",
+        "reading": "Minjun ssi, jal jinaeyo?"
+      },
+      {
+        "text": "저는 송끄란 연휴에 방콕에 왔어요.",
+        "reading": "Jeoneun songkkeuran yeonhyue Bangkoge wasseoyo."
+      },
+      {
+        "text": "사월은 태국에서 제일 더운 때예요.",
+        "reading": "Saworeun Taegugeseo jeil deoun ttaeyeyo."
+      }
+    ],
+    [
+      {
+        "text": "송끄란 축제 때는 모두 밖에서 서로 물을 뿌려요.",
+        "reading": "Songkkeuran chukje ttaeneun modu bakkeseo seoro mureul ppuryeoyo."
+      },
+      {
+        "text": "저도 동생하고 물총을 사고 밖에 나갔어요.",
+        "reading": "Jeodo dongsaenghago mulchongeul sago bakke nagasseoyo."
+      },
+      {
+        "text": "그런데 오 분 만에 옷이 다 젖었어요!",
+        "reading": "Geureonde o bun mane osi da jeojeosseoyo!"
+      }
+    ],
+    [
+      {
+        "text": "그래도 정말 시원하고 재미있었어요.",
+        "reading": "Geuraedo jeongmal siwonhago jaemiisseosseoyo."
+      },
+      {
+        "text": "다음 송끄란에는 민준 씨도 같이 와요!",
+        "reading": "Daeum songkkeuraneneun Minjun ssido gachi wayo!"
+      },
+      {
+        "text": "그럼 또 연락할게요.",
+        "reading": "Geureom tto yeollakalgeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

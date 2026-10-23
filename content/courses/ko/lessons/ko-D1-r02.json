@@ -1,0 +1,97 @@
+{
+  "id": "ko-D1-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.iut",
+      "text": "이웃",
+      "reading": "iut"
+    },
+    {
+      "id": "ko.sikkeureopda",
+      "text": "시끄럽다",
+      "reading": "sikkeureopda"
+    },
+    {
+      "id": "ko.cheunggan-soeum",
+      "text": "층간 소음",
+      "reading": "cheunggan soeum",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.chamda",
+      "text": "참다",
+      "reading": "chamda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘 학교 앞 원룸으로 이사했어요.",
+        "reading": "Oneul hakgyo ap wonrumeuro isahaesseoyo."
+      },
+      {
+        "text": "민준 씨가 와서 같이 이삿짐을 날라 줬어요.",
+        "reading": "Minjun ssiga waseo gachi isatjimeul nalla jwosseoyo."
+      },
+      {
+        "text": "짐을 정리하고 나서 같이 저녁을 먹었어요.",
+        "reading": "Jimeul jeongnihago naseo gachi jeonyeogeul meogeosseoyo."
+      },
+      {
+        "text": "방은 작지만 정말 마음에 들어요.",
+        "reading": "Bangeun jakjiman jeongmal maeume deureoyo."
+      }
+    ],
+    [
+      {
+        "text": "그런데 밤에 위층 이웃이 너무 시끄러웠어요.",
+        "reading": "Geureonde bame wicheung iusi neomu sikkeureowosseoyo."
+      },
+      {
+        "text": "열두 시가 넘었지만 한 시까지 시끄러웠어요.",
+        "reading": "Yeoldu siga neomeotjiman han sikkaji sikkeureowosseoyo."
+      },
+      {
+        "text": "한국에서는 이것을 ‘층간 소음’이라고 해요.",
+        "reading": "Hangugeseoneun igeoseul ‘cheunggan soeum’irago haeyo."
+      },
+      {
+        "text": "저는 한 시간 동안 참았어요.",
+        "reading": "Jeoneun han sigan dongan chamasseoyo."
+      },
+      {
+        "text": "그래서 잘 못 잤어요.",
+        "reading": "Geuraeseo jal mot jasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "내일 집주인에게 말하려고 해요.",
+        "reading": "Naeil jipjuinege malharyeogo haeyo."
+      },
+      {
+        "text": "한국 사람들은 이사하면 이웃에게 떡을 줘요.",
+        "reading": "Hanguk saramdeureun isahamyeon iusege tteogeul jwoyo."
+      },
+      {
+        "text": "저도 떡을 준비해서 위층 이웃을 만나러 갈 거예요.",
+        "reading": "Jeodo tteogeul junbihaeseo wicheung iuseul mannareo gal geoyeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "ko-E1-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.peurogeuraem",
+      "text": "프로그램",
+      "reading": "peurogeuraem"
+    },
+    {
+      "id": "ko.pilsu",
+      "text": "필수",
+      "reading": "pilsu"
+    },
+    {
+      "id": "ko.chamyeo-hada",
+      "text": "참여하다",
+      "reading": "chamyeohada"
+    },
+    {
+      "id": "ko.annaemun",
+      "text": "안내문",
+      "reading": "annaemun"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "신입 유학생 오리엔테이션 안내",
+        "reading": "Sinip yuhaksaeng orienteisyeon annae"
+      },
+      {
+        "text": "새로 입학한 유학생 여러분, 환영합니다.",
+        "reading": "Saero ipakan yuhaksaeng yeoreobun, hwanyeonghamnida."
+      },
+      {
+        "text": "유학생 센터에서는 여러분의 학교생활을 돕기 위해 오리엔테이션 프로그램을 준비했습니다.",
+        "reading": "Yuhaksaeng senteoeseoneun yeoreobunui hakgyosaenghwareul dopgi wihae orienteisyeon peurogeuraemeul junbihaetseumnida."
+      },
+      {
+        "text": "이 프로그램은 모든 신입 유학생의 필수 프로그램입니다.",
+        "reading": "I peurogeuraemeun modeun sinip yuhaksaengui pilsu peurogeuraemimnida."
+      }
+    ],
+    [
+      {
+        "text": "일시는 3월 2일 월요일 오전 10시이고, 장소는 학생회관 2층 회의실입니다.",
+        "reading": "Ilsineun samwol i il woryoil ojeon yeol siigo, jangsoneun haksaenghoegwan i cheung hoeuisirimnida."
+      },
+      {
+        "text": "오전에는 기숙사 규칙과 학교 시설 이용 방법을 안내합니다.",
+        "reading": "Ojeoneneun gisuksa gyuchikgwa hakgyo siseol iyong bangbeobeul annaehamnida."
+      },
+      {
+        "text": "오후에는 선배 유학생들과 함께 학교 안을 구경하는 프로그램이 있습니다.",
+        "reading": "Ohueneun seonbae yuhaksaengdeulgwa hamkke hakgyo aneul gugyeonghaneun peurogeuraemi itseumnida."
+      },
+      {
+        "text": "점심 식사는 무료입니다.",
+        "reading": "Jeomsim siksaneun muryoimnida."
+      }
+    ],
+    [
+      {
+        "text": "신입 유학생은 모두 이 프로그램에 꼭 참여해야 합니다.",
+        "reading": "Sinip yuhaksaengeun modu i peurogeuraeme kkok chamyeohaeya hamnida."
+      },
+      {
+        "text": "참여하지 않으면 기숙사에 들어갈 수 없습니다.",
+        "reading": "Chamyeohaji aneumyeon gisuksae deureogal su eopseumnida."
+      },
+      {
+        "text": "오실 때 여권과 학생증을 꼭 가지고 오십시오.",
+        "reading": "Osil ttae yeogwongwa haksaengjeungeul kkok gajigo osipsio."
+      },
+      {
+        "text": "이 안내문에 대한 질문은 유학생 센터로 문의하시기 바랍니다.",
+        "reading": "I annaemune daehan jilmuneun yuhaksaeng senteoro munuihasigi baramnida."
+      },
+      {
+        "text": "여러분의 즐거운 한국 생활을 응원합니다.",
+        "reading": "Yeoreobunui jeulgeoun Hanguk saenghwareul eungwonhamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

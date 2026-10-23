@@ -1,0 +1,56 @@
+{
+  "id": "ko-A8-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.teibeul",
+      "text": "테이블",
+      "reading": "teibeul"
+    },
+    {
+      "id": "ko.keop",
+      "text": "컵",
+      "reading": "keop"
+    },
+    {
+      "id": "ko.sajin",
+      "text": "사진",
+      "reading": "sajin"
+    },
+    {
+      "id": "ko.sonsugeon",
+      "text": "손수건",
+      "reading": "sonsugeon"
+    },
+    {
+      "id": "ko.billyeojuseyo",
+      "kind": "phrase",
+      "text": "빌려주세요",
+      "reading": "billyeojuseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "아, 남 씨! 컵!",
+      "reading": "A, Nam ssi! Keop!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 미안해요! 민준 씨, 손수건 빌려주세요.",
+      "reading": "A, mianhaeyo! Minjun ssi, sonsugeon billyeojuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요. 테이블은 괜찮아요.",
+      "reading": "Ne, yeogiyo. Teibeureun gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요! 휴지도 주세요.",
+      "reading": "Gomawoyo! Hyujido juseyo."
+    }
+  ]
+}

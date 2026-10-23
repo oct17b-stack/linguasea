@@ -1,0 +1,71 @@
+{
+  "id": "ko-C13-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.chukha-hada",
+      "text": "축하하다",
+      "reading": "chukahada"
+    },
+    {
+      "id": "ko.ginyeomil",
+      "text": "기념일",
+      "reading": "ginyeomil"
+    },
+    {
+      "id": "ko.gamdong-hada",
+      "text": "감동하다",
+      "reading": "gamdonghada"
+    },
+    {
+      "id": "ko.maeume-deulda",
+      "kind": "phrase",
+      "text": "마음에 들다",
+      "reading": "maeume deulda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "선생님, 와 주셔서 감사해요.",
+      "reading": "Seonsaengnim, wa jusyeoseo gamsahaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "초대해 줘서 고마워요. 집들이 축하해요! 이건 작은 선물이에요.",
+      "reading": "Chodaehae jwoseo gomawoyo. Jipdeuri chukahaeyo! Igeon jageun seonmurieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 시계네요! 정말 마음에 들어요.",
+      "reading": "Wa, sigyeneyo! Jeongmal maeume deureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님, 그리고 오늘은 제 기념일이에요. 한국에 온 지 일 년이 됐어요.",
+      "reading": "Seonsaengnim, geurigo oneureun je ginyeomirieyo. Hanguge on ji il nyeoni dwaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 축하해요!",
+      "reading": "Wa, chukahaeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 케이크도 있으니까 같이 축하해요!",
+      "reading": "Geureom keikeudo isseunikka gachi chukahaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "모두 축하해 주셔서 감사해요. 정말 감동했어요.",
+      "reading": "Modu chukahae jusyeoseo gamsahaeyo. Jeongmal gamdonghaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨, 일 년 동안 정말 수고했어요.",
+      "reading": "Nam ssi, il nyeon dongan jeongmal sugohaesseoyo."
+    }
+  ]
+}

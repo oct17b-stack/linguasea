@@ -1,0 +1,87 @@
+{
+  "id": "ko-E3-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.chinhaejida",
+      "text": "친해지다",
+      "reading": "chinhaejida"
+    },
+    {
+      "id": "ko.mareul-nota",
+      "kind": "phrase",
+      "text": "말을 놓다",
+      "reading": "mareul nota"
+    },
+    {
+      "id": "ko.donggap",
+      "text": "동갑",
+      "reading": "donggap"
+    },
+    {
+      "id": "ko.chinhan-sai",
+      "kind": "phrase",
+      "text": "친한 사이",
+      "reading": "chinhan sai"
+    },
+    {
+      "id": "ko.seomeok-hada",
+      "text": "서먹하다",
+      "reading": "seomeokada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 우리 이제 친한 사이니까 말 놓을까요?",
+      "reading": "Nam ssi, uri ije chinhan sainikka mal noeulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 우리는 동갑이니까 말을 놓아도 괜찮을 것 같아요.",
+      "reading": "Joayo! Urineun donggabinikka mareul noado gwaenchaneul geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아. 그럼 지금부터 반말이야. 남아, 오늘 뭐 해?",
+      "reading": "Joa. Geureom jigeumbuteo banmariya. Nama, oneul mwo hae?"
+    },
+    {
+      "speaker": "a",
+      "text": "오늘? 수업 끝나고 도서관에 가. 너는?",
+      "reading": "Oneul? Sueop kkeunnago doseogwane ga. Neoneun?"
+    },
+    {
+      "speaker": "b",
+      "text": "나는 아르바이트가 있어. 그런데 반말을 하니까 좀 어색하지 않니?",
+      "reading": "Naneun areubaiteuga isseo. Geureonde banmareul hanikka jom eosaekaji anni?"
+    },
+    {
+      "speaker": "a",
+      "text": "응, 아직 좀 서먹해. 하지만 곧 익숙해질 거야.",
+      "reading": "Eung, ajik jom seomeokae. Hajiman got iksukaejil geoya."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아. 반말로 이야기하면 더 빨리 친해질 거야.",
+      "reading": "Maja. Banmallo iyagihamyeon deo ppalli chinhaejil geoya."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 우리 처음 만났을 때 기억나? 그때는 정말 서먹했지.",
+      "reading": "Geureonde uri cheoeum mannasseul ttae gieongna? Geuttaeneun jeongmal seomeokaetji."
+    },
+    {
+      "speaker": "b",
+      "text": "기억나. 너는 '감사합니다'만 계속 말했어.",
+      "reading": "Gieongna. Neoneun 'gamsahamnida'man gyesok malhaesseo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 지금은 아니야. 이제 너하고 나는 정말 친한 친구야.",
+      "reading": "Haha, jigeumeun aniya. Ije neohago naneun jeongmal chinhan chinguya."
+    }
+  ]
+}

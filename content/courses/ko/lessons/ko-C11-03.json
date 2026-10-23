@@ -1,0 +1,72 @@
+{
+  "id": "ko-C11-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.helseujang",
+      "text": "헬스장",
+      "reading": "helseujang"
+    },
+    {
+      "id": "ko.geunyuk",
+      "text": "근육",
+      "reading": "geunyuk"
+    },
+    {
+      "id": "ko.sareul-ppaeda",
+      "kind": "phrase",
+      "text": "살을 빼다",
+      "reading": "sareul ppaeda"
+    },
+    {
+      "id": "ko.sari-jjida",
+      "kind": "phrase",
+      "text": "살이 찌다",
+      "reading": "sari jjida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "헬스장에 처음 왔어요?",
+      "reading": "Helseujange cheoeum wasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘 회원이 됐어요. 한국에 온 후에 살이 쪘어요.",
+      "reading": "Ne, oneul hoewoni dwaesseoyo. Hanguge on hue sari jjyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 무슨 운동을 하고 싶어요?",
+      "reading": "Geuraeyo? Museun undongeul hago sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "살을 빼고 싶어요. 그리고 근육도 만들고 싶어요.",
+      "reading": "Sareul ppaego sipeoyo. Geurigo geunyukdo mandeulgo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 매일 한 시간씩 운동하세요.",
+      "reading": "Joayo. Maeil han siganssik undonghaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 건강한 사람이 될 수 있어요?",
+      "reading": "Jeodo geonganghan sarami doel su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "물론이죠! 삼 개월 후에는 다른 사람이 될 거예요.",
+      "reading": "Mullonijyo! Sam gaewol hueneun dareun sarami doel geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말이에요? 매일 올게요!",
+      "reading": "Wa, jeongmarieyo? Maeil olgeyo!"
+    }
+  ]
+}

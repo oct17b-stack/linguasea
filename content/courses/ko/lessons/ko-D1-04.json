@@ -1,0 +1,85 @@
+{
+  "id": "ko-D1-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gyeyak-hada",
+      "text": "계약하다",
+      "reading": "gyeyakada"
+    },
+    {
+      "id": "ko.gyeyakseo",
+      "text": "계약서",
+      "reading": "gyeyakseo"
+    },
+    {
+      "id": "ko.jipjuin",
+      "text": "집주인",
+      "reading": "jipjuin"
+    },
+    {
+      "id": "ko.gyuchik",
+      "text": "규칙",
+      "reading": "gyuchik"
+    },
+    {
+      "id": "ko.naeda",
+      "text": "내다",
+      "reading": "naeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 방으로 계약할 거예요?",
+      "reading": "Nam ssi, i bangeuro gyeyakal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘 계약하려고 해요. 뭘 준비해야 돼요?",
+      "reading": "Ne, oneul gyeyakaryeogo haeyo. Mwol junbihaeya dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "여권이 있어야 해요. 그리고 오늘 보증금을 조금 내야 돼요.",
+      "reading": "Yeogwoni isseoya haeyo. Geurigo oneul bojeunggeumeul jogeum naeya dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "보증금을 오늘 다 내야 해요?",
+      "reading": "Bojeunggeumeul oneul da naeya haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 오늘은 오십만 원만 내세요. 이사하는 날 다 내야 해요. 아, 이분이 집주인이에요.",
+      "reading": "Aniyo, oneureun osimman wonman naeseyo. Isahaneun nal da naeya haeyo. A, ibuni jipjuinieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "안녕하세요. 우리 집은 규칙이 있어요. 월세는 오 일에 내야 해요.",
+      "reading": "Annyeonghaseyo. Uri jibeun gyuchigi isseoyo. Wolseneun o ire naeya haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그리고 밤 열 시부터 아침 일곱 시까지는 세탁기를 쓰지 마세요.",
+      "reading": "Geurigo bam yeol sibuteo achim ilgop sikkajineun setakgireul sseuji maseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠어요. 규칙을 잘 기억할게요.",
+      "reading": "Ne, algesseoyo. Gyuchigeul jal gieokalgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 계약서를 읽고 여기에 서명하세요.",
+      "reading": "Geureom gyeyakseoreul ilgo yeogie seomyeonghaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 와, 정말 이사하네요!",
+      "reading": "Ne. Wa, jeongmal isahaneyo!"
+    }
+  ]
+}

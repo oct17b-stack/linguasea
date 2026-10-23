@@ -1,0 +1,70 @@
+{
+  "id": "ko-C9-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.areubaiteu",
+      "text": "아르바이트",
+      "reading": "areubaiteu"
+    },
+    {
+      "id": "ko.gu-hada",
+      "text": "구하다",
+      "reading": "guhada"
+    },
+    {
+      "id": "ko.iljari",
+      "text": "일자리",
+      "reading": "iljari"
+    },
+    {
+      "id": "ko.gyeongheom",
+      "text": "경험",
+      "reading": "gyeongheom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 해요?",
+      "reading": "Nam ssi, mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아르바이트를 구해요. 평일 일자리가 필요해요.",
+      "reading": "Areubaiteureul guhaeyo. Pyeongil iljariga piryohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "주말에는 식당에서 일하지 않아요?",
+      "reading": "Jumareneun sikdangeseo ilhaji anayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일해요. 하지만 평일에는 일하지 않아요.",
+      "reading": "Ilhaeyo. Hajiman pyeongireneun ilhaji anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "학교 앞 카페가 사람을 구해요. 학교에서 멀지 않아요.",
+      "reading": "Hakgyo ap kapega sarameul guhaeyo. Hakgyoeseo meolji anayo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말이에요? 그런데 저는 카페 경험이 없어요.",
+      "reading": "Jeongmarieyo? Geureonde jeoneun kape gyeongheomi eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 카페 일은 어렵지 않아요.",
+      "reading": "Gwaenchanayo. Kape ireun eoryeopji anayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 그럼 오늘 전화할게요!",
+      "reading": "Geuraeyo? Geureom oneul jeonhwahalgeyo!"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ko-E12-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.hwangdang-hada",
+      "text": "황당하다",
+      "reading": "hwangdanghada"
+    },
+    {
+      "id": "ko.eoieopda",
+      "text": "어이없다",
+      "reading": "eoieopda"
+    },
+    {
+      "id": "ko.useumi-nada",
+      "text": "웃음이 나다",
+      "reading": "useumi nada",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.episodeu",
+      "text": "에피소드",
+      "reading": "episodeu"
+    },
+    {
+      "id": "ko.silhwa",
+      "text": "실화",
+      "reading": "silhwa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 재미있는 에피소드 하나 얘기해 줘요.",
+      "reading": "Nam ssi, jaemiinneun episodeu hana yaegihae jwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 이건 실화예요. 지난주에 너무 배가 고파 가지고 치킨을 시켰어요.",
+      "reading": "Joayo. Igeon silhwayeyo. Jinanjue neomu baega gopa gajigo chikineul sikyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그런데요?",
+      "reading": "Ne, geureondeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 배달 기사님이 옆집에 치킨을 갖다줬어요.",
+      "reading": "Geureonde baedal gisanimi yeopjibe chikineul gatdajwosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 황당했겠네요.",
+      "reading": "Haha, hwangdanghaetgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그래 가지고 옆집에 가서 벨을 눌렀어요.",
+      "reading": "Ne, geurae gajigo yeopjibe gaseo bereul nulleosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래서요?",
+      "reading": "Geuraeseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 옆집 사람이 벌써 반이나 먹었더라고요!",
+      "reading": "Geureonde yeopjip sarami beolsseo banina meogeotdeoragoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "정말 어이없네요!",
+      "reading": "Jeongmal eoieomneyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "그 사람도 너무 미안해 가지고 돈을 반 내 줬어요.",
+      "reading": "Geu saramdo neomu mianhae gajigo doneul ban nae jwosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 들으니까 저도 웃음이 나요.",
+      "reading": "Haha, deureunikka jeodo useumi nayo."
+    }
+  ]
+}

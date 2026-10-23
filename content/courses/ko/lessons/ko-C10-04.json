@@ -1,0 +1,70 @@
+{
+  "id": "ko-C10-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.tongjang",
+      "text": "통장",
+      "reading": "tongjang"
+    },
+    {
+      "id": "ko.gyejwa",
+      "text": "계좌",
+      "reading": "gyejwa"
+    },
+    {
+      "id": "ko.bimilbeonho",
+      "text": "비밀번호",
+      "reading": "bimilbeonho"
+    },
+    {
+      "id": "ko.seomyeong-hada",
+      "text": "서명하다",
+      "reading": "seomyeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 뭘 도와드릴까요?",
+      "reading": "Eoseo oseyo. Mwol dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "계좌를 만들고 싶어요. 외국인도 만들 수 있어요?",
+      "reading": "Gyejwareul mandeulgo sipeoyo. Oegugindo mandeul su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 만들 수 있어요. 여권 좀 주시겠어요?",
+      "reading": "Ne, mandeul su isseoyo. Yeogwon jom jusigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여기 있어요.",
+      "reading": "Ne, yeogi isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "이 종이에 이름하고 주소를 써 주시겠어요? 그리고 여기에 서명해 주세요.",
+      "reading": "I jongie ireumhago jusoreul sseo jusigesseoyo? Geurigo yeogie seomyeonghae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다 썼어요. 통장도 오늘 받을 수 있어요?",
+      "reading": "Da sseosseoyo. Tongjangdo oneul badeul su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 먼저 비밀번호를 정해 주시겠어요? 그다음에 통장을 드릴게요.",
+      "reading": "Ne. Meonjeo bimilbeonhoreul jeonghae jusigesseoyo? Geudaeume tongjangeul deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다.",
+      "reading": "Ne, gamsahamnida."
+    }
+  ]
+}

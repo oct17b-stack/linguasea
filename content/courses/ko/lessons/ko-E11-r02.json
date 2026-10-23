@@ -1,0 +1,105 @@
+{
+  "id": "ko-E11-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.chanban",
+      "text": "찬반",
+      "reading": "chanban"
+    },
+    {
+      "id": "ko.gyuje-hada",
+      "text": "규제하다",
+      "reading": "gyujehada"
+    },
+    {
+      "id": "ko.jayul",
+      "text": "자율",
+      "reading": "jayul"
+    },
+    {
+      "id": "ko.banghaedoeda",
+      "text": "방해되다",
+      "reading": "banghaedoeda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "진행자: 오늘은 '수업 시간에 스마트폰을 사용해도 될까?'에 대해 찬반 토론을 하겠습니다.",
+        "reading": "Jinhaengja: Oneureun 'sueop sigane seumateuponeul sayonghaedo doelkka?'e daehae chanban toroneul hagetseumnida."
+      },
+      {
+        "text": "먼저 찬성하는 쪽의 의견을 들어 보겠습니다.",
+        "reading": "Meonjeo chanseonghaneun jjogui uigyeoneul deureo bogetseumnida."
+      }
+    ],
+    [
+      {
+        "text": "남: 저는 스마트폰 사용에 찬성합니다.",
+        "reading": "Nam: Jeoneun seumateupon sayonge chanseonghamnida."
+      },
+      {
+        "text": "수업 중에 모르는 단어나 정보를 바로 찾을 수 있기 때문입니다.",
+        "reading": "Sueop junge moreuneun daneona jeongboreul baro chajeul su itgi ttaemunimnida."
+      },
+      {
+        "text": "게다가 대학생은 어른이니까 사용 여부를 자율에 맡겨야 합니다.",
+        "reading": "Gedaga daehaksaengeun eoreuninikka sayong yeobureul jayure matgyeoya hamnida."
+      },
+      {
+        "text": "학교가 학생들의 스마트폰 사용을 규제하는 것은 바람직하지 않다고 생각합니다.",
+        "reading": "Hakgyoga haksaengdeurui seumateupon sayongeul gyujehaneun geoseun baramjikaji antago saenggakamnida."
+      }
+    ],
+    [
+      {
+        "text": "민준: 저는 반대합니다.",
+        "reading": "Minjun: Jeoneun bandaehamnida."
+      },
+      {
+        "text": "물론 스마트폰이 공부에 도움이 될 때도 있지만, 많은 학생들이 수업 시간에 게임을 하거나 영상을 봅니다.",
+        "reading": "Mullon seumateuponi gongbue doumi doel ttaedo itjiman, maneun haksaengdeuri sueop sigane geimeul hageona yeongsangeul bomnida."
+      },
+      {
+        "text": "그리고 알림 소리는 다른 학생들에게 방해됩니다.",
+        "reading": "Geurigo allim sorineun dareun haksaengdeurege banghaedoemnida."
+      },
+      {
+        "text": "따라서 수업 시간에는 스마트폰을 꺼 두어야 합니다.",
+        "reading": "Ttaraseo sueop siganeneun seumateuponeul kkeo dueoya hamnida."
+      }
+    ],
+    [
+      {
+        "text": "진행자: 두 분 모두 일리가 있는 의견이네요.",
+        "reading": "Jinhaengja: Du bun modu illiga inneun uigyeonineyo."
+      },
+      {
+        "text": "즉, 스마트폰을 어떻게 사용하는지가 중요하다는 말씀이군요.",
+        "reading": "Jeuk, seumateuponeul eotteoke sayonghaneunjiga jungyohadaneun malsseumigunyo."
+      },
+      {
+        "text": "다음 시간에는 학생들의 질문을 받겠습니다.",
+        "reading": "Daeum siganeneun haksaengdeurui jilmuneul batgetseumnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

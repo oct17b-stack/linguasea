@@ -1,0 +1,76 @@
+{
+  "id": "ko-C12-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.songkkeuran",
+      "text": "송끄란",
+      "reading": "songkkeuran"
+    },
+    {
+      "id": "ko.saehae",
+      "text": "새해",
+      "reading": "saehae"
+    },
+    {
+      "id": "ko.mureul-ppurida",
+      "kind": "phrase",
+      "text": "물을 뿌리다",
+      "reading": "mureul ppurida"
+    },
+    {
+      "id": "ko.jeol",
+      "text": "절",
+      "reading": "jeol"
+    },
+    {
+      "id": "ko.seunim",
+      "text": "스님",
+      "reading": "seunim"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 태국의 새해는 언제예요?",
+      "reading": "Nam ssi, Taegugui saehaeneun eonjeyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "사월이에요. 태국에서는 새해를 송끄란이라고 해요.",
+      "reading": "Saworieyo. Taegugeseoneun saehaereul songkkeuranirago haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "송끄란 때 뭐 해요?",
+      "reading": "Songkkeuran ttae mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아침에 절에 가요. 스님께 음식을 드려요. 그리고 사람들이 서로 물을 뿌려요.",
+      "reading": "Achime jeore gayo. Seunimkke eumsigeul deuryeoyo. Geurigo saramdeuri seoro mureul ppuryeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 재미있겠어요. 남 씨는 태국에 있었을 때 송끄란에 뭐 했어요?",
+      "reading": "Wa, jaemiitgesseoyo. Nam ssineun Taeguge isseosseul ttae songkkeurane mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "동생하고 같이 밖에서 친구들한테 물을 뿌렸어요. 정말 재미있었어요.",
+      "reading": "Dongsaenghago gachi bakkeseo chingudeulhante mureul ppuryeosseoyo. Jeongmal jaemiisseosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국에 처음 왔을 때는 어땠어요?",
+      "reading": "Hanguge cheoeum wasseul ttaeneun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "처음 왔을 때 가족이 많이 보고 싶었어요.",
+      "reading": "Cheoeum wasseul ttae gajogi mani bogo sipeosseoyo."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "ko-A2-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.syl-geu",
+      "kind": "syllable",
+      "text": "그",
+      "reading": "geu"
+    },
+    {
+      "id": "ko.syl-gi",
+      "kind": "syllable",
+      "text": "기",
+      "reading": "gi"
+    },
+    {
+      "id": "ko.syl-ni",
+      "kind": "syllable",
+      "text": "니",
+      "reading": "ni"
+    },
+    {
+      "id": "ko.namu",
+      "text": "나무",
+      "reading": "namu"
+    },
+    {
+      "id": "ko.nugu",
+      "text": "누구",
+      "reading": "nugu"
+    },
+    {
+      "id": "ko.ori",
+      "text": "오리",
+      "reading": "ori"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-geu",
+      "options": [
+        "ko.syl-gu",
+        "ko.syl-geo"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-geu"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gi",
+      "options": [
+        "ko.syl-geu",
+        "ko.syl-ni"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gi"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-ni",
+      "options": [
+        "ko.syl-na",
+        "ko.syl-mi"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-ni"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.namu"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.namu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.nugu"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.nugu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.ori"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.ori"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-geu"
+    },
+    {
+      "type": "speak",
+      "item": "ko.nugu"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ko-E4-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jiwonja",
+      "text": "지원자",
+      "reading": "jiwonja"
+    },
+    {
+      "id": "ko.jeonmunga",
+      "text": "전문가",
+      "reading": "jeonmunga"
+    },
+    {
+      "id": "ko.hoegyesa",
+      "text": "회계사",
+      "reading": "hoegyesa"
+    },
+    {
+      "id": "ko.yeonguwon",
+      "text": "연구원",
+      "reading": "yeonguwon"
+    },
+    {
+      "id": "ko.gongmuwon",
+      "text": "공무원",
+      "reading": "gongmuwon"
+    },
+    {
+      "id": "ko.gisulja",
+      "text": "기술자",
+      "reading": "gisulja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 여행사 면접은 어떻게 됐어요?",
+      "reading": "Nam ssi, yeohaengsa myeonjeobeun eotteoke dwaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아직 몰라요. 그런데 지원자가 백 명이 넘었다고 해요.",
+      "reading": "Ajik mollayo. Geureonde jiwonjaga baek myeongi neomeotdago haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 지원자가 정말 많네요.",
+      "reading": "Wa, jiwonjaga jeongmal manneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 회계사도 있고 공무원도 있었어요. 다 저보다 경력이 많았어요.",
+      "reading": "Ne. Hoegyesado itgo gongmuwondo isseosseoyo. Da jeoboda gyeongnyeogi manasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "걱정하지 마세요. 그런데 '회계사', '공무원'처럼 직업 이름은 '-사', '-원', '-자', '-가'로 끝나는 것이 많아요.",
+      "reading": "Geokjeonghaji maseyo. Geureonde 'hoegyesa', 'gongmuwon'cheoreom jigeop ireumeun '-sa', '-won', '-ja', '-ga'ro kkeunnaneun geosi manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, '연구원'도 '-원'으로 끝나네요. 연구원은 연구하는 사람이지요?",
+      "reading": "A, 'yeonguwon'do '-won'euro kkeunnaneyo. Yeonguwoneun yeonguhaneun saramijiyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 그리고 '기술자'는 물건을 만들거나 고치는 사람이에요.",
+      "reading": "Majayo. Geurigo 'gisulja'neun mulgeoneul mandeulgeona gochineun saramieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "'전문가'는요?",
+      "reading": "'Jeonmunga'neunyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "한 분야를 아주 잘 아는 사람이에요. 남 씨도 나중에 태국 여행 전문가가 될 수 있어요.",
+      "reading": "Han bunyareul aju jal aneun saramieyo. Nam ssido najunge Taeguk yeohaeng jeonmungaga doel su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 그러면 좋겠어요. 저는 공무원보다 여행 전문가가 더 좋아요.",
+      "reading": "Haha, geureomyeon jokesseoyo. Jeoneun gongmuwonboda yeohaeng jeonmungaga deo joayo."
+    }
+  ]
+}

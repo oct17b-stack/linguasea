@@ -1,0 +1,90 @@
+{
+  "id": "ko-E10-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bigyo-hada",
+      "text": "비교하다",
+      "reading": "bigyohada"
+    },
+    {
+      "id": "ko.gongtongjeom",
+      "text": "공통점",
+      "reading": "gongtongjeom"
+    },
+    {
+      "id": "ko.chaijeom",
+      "text": "차이점",
+      "reading": "chaijeom"
+    },
+    {
+      "id": "ko.gihu",
+      "text": "기후",
+      "reading": "gihu"
+    },
+    {
+      "id": "ko.yeoldae",
+      "text": "열대",
+      "reading": "yeoldae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "오늘은 태국에서 온 유학생 남 씨와 이야기를 나누겠습니다. 안녕하세요?",
+      "reading": "Oneureun Taegugeseo on yuhaksaeng Nam ssiwa iyagireul nanugetseumnida. Annyeonghaseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 태국에서 온 남이라고 합니다.",
+      "reading": "Annyeonghaseyo. Taegugeseo on Namirago hamnida."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘은 한국과 태국을 비교해 볼까요? 먼저 날씨는 어때요?",
+      "reading": "Oneureun Hangukgwa Taegugeul bigyohae bolkkayo? Meonjeo nalssineun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국은 열대 기후라서 일 년 내내 더워요.",
+      "reading": "Taegugeun yeoldae gihuraseo il nyeon naenae deowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 한국에 비해 많이 덥겠네요.",
+      "reading": "Geureom Hanguge bihae mani deopgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 한국에 비해서 여름이 길고 겨울이 없어요. 대신 비가 많이 오는 우기가 있어요.",
+      "reading": "Ne, Hanguge bihaeseo yeoreumi gilgo gyeouri eopseoyo. Daesin biga mani oneun ugiga isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "두 나라의 공통점도 있어요?",
+      "reading": "Du naraui gongtongjeomdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 두 나라 다 밥을 많이 먹고 가족을 중요하게 생각해요.",
+      "reading": "Ne, du nara da babeul mani meokgo gajogeul jungyohage saenggakaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 가장 큰 차이점은 뭐예요?",
+      "reading": "Geureom gajang keun chaijeomeun mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국 사람들은 태국 사람들에 비해 걷는 것도 먹는 것도 빨라요.",
+      "reading": "Hanguk saramdeureun Taeguk saramdeure bihae geonneun geotdo meongneun geotdo ppallayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 맞아요. 한국 사람들은 좀 급하지요.",
+      "reading": "Haha, majayo. Hanguk saramdeureun jom geupajiyo."
+    }
+  ]
+}

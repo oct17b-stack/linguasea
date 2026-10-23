@@ -1,0 +1,56 @@
+{
+  "id": "ko-A7-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.saek",
+      "text": "색",
+      "reading": "saek"
+    },
+    {
+      "id": "ko.ppalgansaek",
+      "text": "빨간색",
+      "reading": "ppalgansaek"
+    },
+    {
+      "id": "ko.paransaek",
+      "text": "파란색",
+      "reading": "paransaek"
+    },
+    {
+      "id": "ko.noransaek",
+      "text": "노란색",
+      "reading": "noransaek"
+    },
+    {
+      "id": "ko.museun-saegieyo",
+      "kind": "phrase",
+      "text": "무슨 색이에요?",
+      "reading": "museun saegieyo?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 시계 무슨 색이에요?",
+      "reading": "Jeogiyo, sigye museun saegieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "빨간색, 파란색, 노란색이에요.",
+      "reading": "Ppalgansaek, paransaek, noransaegieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "파란색 주세요.",
+      "reading": "Paransaek juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    }
+  ]
+}

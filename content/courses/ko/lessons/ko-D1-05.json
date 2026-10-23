@@ -1,0 +1,85 @@
+{
+  "id": "ko-D1-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.isatjim",
+      "text": "이삿짐",
+      "reading": "isatjim"
+    },
+    {
+      "id": "ko.isatjimsenteo",
+      "text": "이삿짐센터",
+      "reading": "isatjimsenteo"
+    },
+    {
+      "id": "ko.nareuda",
+      "text": "나르다",
+      "reading": "nareuda"
+    },
+    {
+      "id": "ko.beorida",
+      "text": "버리다",
+      "reading": "beorida"
+    },
+    {
+      "id": "ko.saero",
+      "text": "새로",
+      "reading": "saero"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이삿짐 다 쌌어요?",
+      "reading": "Nam ssi, isatjim da ssasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 어제 짐을 싸서 상자에 넣었어요.",
+      "reading": "Ne, eoje jimeul ssaseo sangjae neoeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "이삿짐센터는 안 불렀어요?",
+      "reading": "Isatjimsenteoneun an bulleosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 이삿짐센터는 비싸요. 짐이 많지 않으니까 우리가 직접 날라요.",
+      "reading": "Ne, isatjimsenteoneun bissayo. Jimi manchi aneunikka uriga jikjeop nallayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 그럼 제가 택시를 불러서 같이 옮겨요.",
+      "reading": "Joayo. Geureom jega taeksireul bulleoseo gachi omgyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요, 민준 씨. 아, 이 의자는 버리려고 해요.",
+      "reading": "Gomawoyo, Minjun ssi. A, i uijaneun beoriryeogo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "버려요? 그럼 저 주세요. 제가 쓸게요!",
+      "reading": "Beoryeoyo? Geureom jeo juseyo. Jega sseulgeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 저는 이사 가서 새로 하나 구할 거예요.",
+      "reading": "Joayo! Jeoneun isa gaseo saero hana guhal geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "자, 그럼 상자를 날라서 택시에 넣어요.",
+      "reading": "Ja, geureom sangjareul nallaseo taeksie neoeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 집에 도착해서 같이 밥 먹어요.",
+      "reading": "Ne! Jibe dochakaeseo gachi bap meogeoyo."
+    }
+  ]
+}

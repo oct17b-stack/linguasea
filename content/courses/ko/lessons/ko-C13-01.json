@@ -1,0 +1,70 @@
+{
+  "id": "ko-C13-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.chodae-hada",
+      "text": "초대하다",
+      "reading": "chodaehada"
+    },
+    {
+      "id": "ko.pati",
+      "text": "파티",
+      "reading": "pati"
+    },
+    {
+      "id": "ko.jipdeuri",
+      "text": "집들이",
+      "reading": "jipdeuri"
+    },
+    {
+      "id": "ko.chodaejang",
+      "text": "초대장",
+      "reading": "chodaejang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 주 토요일 저녁에 시간 있어요?",
+      "reading": "Nam ssi, ibeon ju toyoil jeonyeoge sigan isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 저녁에는 시간 있어요. 낮에는 식당에서 일해요.",
+      "reading": "Ne, jeonyeogeneun sigan isseoyo. Najeneun sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 토요일 저녁에 제 집들이에 오지 않을래요?",
+      "reading": "Geureom toyoil jeonyeoge je jipdeurie oji aneullaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "와, 집들이요? 좋아요! 누가 와요?",
+      "reading": "Wa, jipdeuriyo? Joayo! Nuga wayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 친구들을 초대했어요. 같이 파티해요!",
+      "reading": "Hakgyo chingudeureul chodaehaesseoyo. Gachi patihaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "이 선생님도 초대하지 않을래요?",
+      "reading": "I seonsaengnimdo chodaehaji aneullaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 생각이에요! 초대장은 오늘 카톡으로 보낼게요.",
+      "reading": "Joeun saenggagieyo! Chodaejangeun oneul katogeuro bonaelgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 토요일에 일 끝나고 갈게요.",
+      "reading": "Ne! Toyoire il kkeunnago galgeyo."
+    }
+  ]
+}

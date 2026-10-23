@@ -1,0 +1,91 @@
+{
+  "id": "ko-E10-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.ppallippalli",
+      "text": "빨리빨리",
+      "reading": "ppallippalli"
+    },
+    {
+      "id": "ko.yeoyu",
+      "text": "여유",
+      "reading": "yeoyu"
+    },
+    {
+      "id": "ko.seodureuda",
+      "text": "서두르다",
+      "reading": "seodureuda"
+    },
+    {
+      "id": "ko.taedo",
+      "text": "태도",
+      "reading": "taedo"
+    },
+    {
+      "id": "ko.seonggyeogi-geup-hada",
+      "text": "성격이 급하다",
+      "reading": "seonggyeogi geupada",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 왜 이렇게 천천히 걸어요? 빨리 가요!",
+      "reading": "Nam ssi, wae ireoke cheoncheonhi georeoyo? Ppalli gayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨, 수업까지 아직 삼십 분이나 남았어요.",
+      "reading": "Minjun ssi, sueopkkaji ajik samsip bunina namasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 저도 모르게 서둘렀네요.",
+      "reading": "A, geuraeyo? Jeodo moreuge seodulleonneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한국 사람들은 정말 '빨리빨리'를 좋아하는 것 같아요.",
+      "reading": "Hanguk saramdeureun jeongmal 'ppallippalli'reul joahaneun geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 한국 사람들은 성격이 급한 편이에요. 엘리베이터 문도 바로 닫아요.",
+      "reading": "Majayo. Hanguk saramdeureun seonggyeogi geupan pyeonieyo. Ellibeiteo mundo baro dadayo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서는 서두르기보다는 여유 있게 사는 사람이 많아요.",
+      "reading": "Taegugeseoneun seodureugibodaneun yeoyu itge saneun sarami manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그게 태국의 좋은 점이네요.",
+      "reading": "Geuge Taegugui joeun jeomineyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 한국의 빨리빨리 문화에도 좋은 점이 있어요. 배달도 빠르고 일도 금방 끝나요.",
+      "reading": "Geuraedo Hangugui ppallippalli munhwaedo joeun jeomi isseoyo. Baedaldo ppareugo ildo geumbang kkeunnayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 하지만 너무 서두르면 실수도 많아요.",
+      "reading": "Majayo. Hajiman neomu seodureumyeon silsudo manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그러니까 빨리 하기보다는 꼼꼼하게 하는 태도가 중요한 것 같아요.",
+      "reading": "Geureonikka ppalli hagibodaneun kkomkkomhage haneun taedoga jungyohan geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 말이네요. 오늘은 우리도 여유 있게 걸어 갈까요?",
+      "reading": "Joeun marineyo. Oneureun urido yeoyu itge georeo galkkayo?"
+    }
+  ]
+}

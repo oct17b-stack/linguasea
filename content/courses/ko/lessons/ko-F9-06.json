@@ -1,0 +1,91 @@
+{
+  "id": "ko-F9-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.maechul",
+      "text": "매출",
+      "reading": "maechul"
+    },
+    {
+      "id": "ko.teurendeu",
+      "text": "트렌드",
+      "reading": "teurendeu"
+    },
+    {
+      "id": "ko.yeolpung",
+      "text": "열풍",
+      "reading": "yeolpung"
+    },
+    {
+      "id": "ko.bultinage-pallida",
+      "kind": "phrase",
+      "text": "불티나게 팔리다",
+      "reading": "bultinage pallida"
+    },
+    {
+      "id": "ko.hanjeongpan",
+      "text": "한정판",
+      "reading": "hanjeongpan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 저 가게 앞에 줄이 엄청 길어요. 무슨 일이 있는 모양이에요.",
+      "reading": "Minjun ssi, jeo gage ape juri eomcheong gireoyo. Museun iri inneun moyangieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘부터 한정판 텀블러를 판대요. 그걸 사려고 줄을 선 모양이에요.",
+      "reading": "Oneulbuteo hanjeongpan teombeulleoreul pandaeyo. Geugeol saryeogo jureul seon moyangieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "텀블러 하나 사려고 저렇게 오래 기다려요?",
+      "reading": "Teombeulleo hana saryeogo jeoreoke orae gidaryeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "요즘 한정판 열풍이잖아요. 지난번에도 한 시간 만에 다 팔렸대요.",
+      "reading": "Yojeum hanjeongpan yeolpungijanayo. Jinanbeonedo han sigan mane da pallyeotdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 불티나게 팔리는 모양이네요. 그럼 가게 매출도 많이 올랐겠어요.",
+      "reading": "Jeongmal bultinage pallineun moyangineyo. Geureom gage maechuldo mani ollatgesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 뉴스를 보니까 이번 달 매출이 지난달보다 두 배나 늘었대요.",
+      "reading": "Ne, nyuseureul bonikka ibeon dal maechuri jinandalboda du baena neureotdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "사람들이 한정판을 좋아하는 이유가 뭘까요?",
+      "reading": "Saramdeuri hanjeongpaneul joahaneun iyuga mwolkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지금 안 사면 다시는 못 산다는 생각 때문인 것 같아요. 그게 요즘 소비 트렌드예요.",
+      "reading": "Jigeum an samyeon dasineun mot sandaneun saenggak ttaemunin geot gatayo. Geuge yojeum sobi teurendeuyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 저 사람들은 기다리면서도 즐거운 모양이에요. 다들 웃고 있어요.",
+      "reading": "Geuraedo jeo saramdeureun gidarimyeonseodo jeulgeoun moyangieyo. Dadeul utgo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "우리도 줄 서 볼까요? 혹시 아직 남아 있을지도 몰라요.",
+      "reading": "Urido jul seo bolkkayo? Hoksi ajik nama isseuljido mollayo."
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 저는 아이쇼핑만 할래요. 줄 끝이 안 보이잖아요!",
+      "reading": "Aniyo, jeoneun aisyopingman hallaeyo. Jul kkeuchi an boijanayo!"
+    }
+  ]
+}

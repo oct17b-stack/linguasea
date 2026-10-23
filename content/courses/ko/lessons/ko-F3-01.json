@@ -1,0 +1,95 @@
+{
+  "id": "ko-F3-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.hanok",
+      "text": "한옥",
+      "reading": "hanok"
+    },
+    {
+      "id": "ko.ondol",
+      "text": "온돌",
+      "reading": "ondol"
+    },
+    {
+      "id": "ko.giwa",
+      "text": "기와",
+      "reading": "giwa"
+    },
+    {
+      "id": "ko.chogajip",
+      "text": "초가집",
+      "reading": "chogajip"
+    },
+    {
+      "id": "ko.madang",
+      "text": "마당",
+      "reading": "madang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여기가 북촌 한옥 마을이에요. 옛날 집들이 아직 많이 남아 있어요.",
+      "reading": "Yeogiga Bukchon hanok maeurieyo. Yennal jipdeuri ajik mani nama isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 예쁘네요. 집 위에 있는 까만 건 뭐예요?",
+      "reading": "Wa, jeongmal yeppeuneyo. Jip wie inneun kkaman geon mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "기와예요. 옛날에는 돈이 많은 사람들만 기와집에서 살았어요.",
+      "reading": "Giwayeyo. Yennareneun doni maneun saramdeulman giwajibeseo sarasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 돈이 없는 사람들은 어디에서 살았어요?",
+      "reading": "Geureom doni eomneun saramdeureun eodieseo sarasseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "보통 초가집에서 살았어요. 지금은 시골에 가도 거의 볼 수 없어요.",
+      "reading": "Botong chogajibeseo sarasseoyo. Jigeumeun sigore gado geoui bol su eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한옥 안에도 들어가 볼 수 있어요?",
+      "reading": "Hanok anedo deureoga bol su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 이 집에 들어가 보세요. 가운데에 넓은 마당이 있지요?",
+      "reading": "Ne, i jibe deureoga boseyo. Gaundee neolbeun madangi itjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 마당이 있어서 집이 밝고 시원하네요.",
+      "reading": "Ne, madangi isseoseo jibi balgo siwonhaneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그리고 한옥을 비롯한 한국의 전통 집에는 온돌이 있어서 겨울에 따뜻해요.",
+      "reading": "Geurigo hanogeul birotan Hangugui jeontong jibeneun ondori isseoseo gyeoure ttatteutaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "온돌이 뭐예요?",
+      "reading": "Ondori mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "바닥을 따뜻하게 해 주는 거예요. 지금도 아파트를 비롯해 거의 모든 집의 바닥이 따뜻해요.",
+      "reading": "Badageul ttatteutage hae juneun geoyeyo. Jigeumdo apateureul birotae geoui modeun jibui badagi ttatteutaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 한국 사람들이 바닥에 앉는 걸 좋아하는군요. 태국 전통 집은 시원하도록 바닥이 높은데, 정말 다르네요.",
+      "reading": "Geuraeseo Hanguk saramdeuri badage anneun geol joahaneungunyo. Taeguk jeontong jibeun siwonhadorok badagi nopeunde, jeongmal dareuneyo."
+    }
+  ]
+}

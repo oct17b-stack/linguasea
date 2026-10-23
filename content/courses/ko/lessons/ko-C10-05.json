@@ -1,0 +1,75 @@
+{
+  "id": "ko-C10-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hwanjeon-hada",
+      "text": "환전하다",
+      "reading": "hwanjeonhada"
+    },
+    {
+      "id": "ko.hwanyul",
+      "text": "환율",
+      "reading": "hwanyul"
+    },
+    {
+      "id": "ko.dalleo",
+      "text": "달러",
+      "reading": "dalleo"
+    },
+    {
+      "id": "ko.bateu",
+      "text": "바트",
+      "reading": "bateu"
+    },
+    {
+      "id": "ko.dongjeon",
+      "text": "동전",
+      "reading": "dongjeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 방학에 저도 방콕에 가요! 오늘 환전하고 싶어요.",
+      "reading": "Nam ssi, ibeon banghage jeodo Bangkoge gayo! Oneul hwanjeonhago sipeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 같이 은행에 가요. 저도 바트가 조금 필요해요.",
+      "reading": "Geureom gachi eunhaenge gayo. Jeodo bateuga jogeum piryohaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 무슨 돈으로 환전해 드릴까요?",
+      "reading": "Eoseo oseyo. Museun doneuro hwanjeonhae deurilkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "원을 바트로 바꿔 주세요. 두 사람 모두 오천 바트씩 바꾸고 싶어요.",
+      "reading": "Woneul bateuro bakkwo juseyo. Du saram modu ocheon bateussik bakkugo sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 오늘 환율은 일 바트에 사십삼 원이에요.",
+      "reading": "Ne. Oneul hwanyureun il bateue sasipsam wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 이 달러하고 동전도 바꿀 수 있어요?",
+      "reading": "Geurigo i dalleohago dongjeondo bakkul su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "달러 지폐는 바꿀 수 있어요. 하지만 동전은 바꿀 수 없어요.",
+      "reading": "Dalleo jipyeneun bakkul su isseoyo. Hajiman dongjeoneun bakkul su eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 그럼 지폐를 바꿀게요.",
+      "reading": "A, geuraeyo? Geureom jipyereul bakkulgeyo."
+    }
+  ]
+}

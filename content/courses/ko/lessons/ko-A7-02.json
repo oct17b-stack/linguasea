@@ -1,0 +1,55 @@
+{
+  "id": "ko-A7-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hayansaek",
+      "text": "하얀색",
+      "reading": "hayansaek"
+    },
+    {
+      "id": "ko.kkamansaek",
+      "text": "까만색",
+      "reading": "kkamansaek"
+    },
+    {
+      "id": "ko.noksaek",
+      "text": "녹색",
+      "reading": "noksaek"
+    },
+    {
+      "id": "ko.borasaek",
+      "text": "보라색",
+      "reading": "borasaek"
+    },
+    {
+      "id": "ko.pingkeusaek",
+      "text": "핑크색",
+      "reading": "pingkeusaek"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 바지는 까만색이에요?",
+      "reading": "Nam ssi, bajineun kkamansaegieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 까만색이 아니에요. 보라색이에요.",
+      "reading": "Aniyo, kkamansaegi anieyo. Borasaegieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 보라색이에요? 의자는요?",
+      "reading": "A, borasaegieyo? Uijaneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "의자는 하얀색하고 핑크색이에요.",
+      "reading": "Uijaneun hayansaekhago pingkeusaegieyo."
+    }
+  ]
+}

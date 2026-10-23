@@ -1,0 +1,55 @@
+{
+  "id": "ko-A10-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.neolbeoyo",
+      "text": "넓어요",
+      "reading": "neolbeoyo"
+    },
+    {
+      "id": "ko.jobayo",
+      "text": "좁아요",
+      "reading": "jobayo"
+    },
+    {
+      "id": "ko.kkaekkeutaeyo",
+      "text": "깨끗해요",
+      "reading": "kkaekkeutaeyo"
+    },
+    {
+      "id": "ko.deoreowoyo",
+      "text": "더러워요",
+      "reading": "deoreowoyo"
+    },
+    {
+      "id": "ko.joyonghaeyo",
+      "text": "조용해요",
+      "reading": "joyonghaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 방이 깨끗해요!",
+      "reading": "Nam ssi, bangi kkaekkeutaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아니에요. 거실은 조금 더러워요.",
+      "reading": "Anieyo. Geosireun jogeum deoreowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "방은 넓어요?",
+      "reading": "Bangeun neolbeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 좁아요. 조용해요.",
+      "reading": "Aniyo, jobayo. Joyonghaeyo."
+    }
+  ]
+}

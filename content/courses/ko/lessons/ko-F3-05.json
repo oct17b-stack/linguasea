@@ -1,0 +1,95 @@
+{
+  "id": "ko-F3-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.baekseong",
+      "text": "백성",
+      "reading": "baekseong"
+    },
+    {
+      "id": "ko.changje-hada",
+      "text": "창제하다",
+      "reading": "changjehada"
+    },
+    {
+      "id": "ko.geulja",
+      "text": "글자",
+      "reading": "geulja"
+    },
+    {
+      "id": "ko.gwahakjeok",
+      "text": "과학적",
+      "reading": "gwahakjeok"
+    },
+    {
+      "id": "ko.hangeullal",
+      "text": "한글날",
+      "reading": "hangeullal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오늘이 무슨 날인지 알아요?",
+      "reading": "Nam ssi, oneuri museun narinji arayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 시월 구일, 한글날이에요!",
+      "reading": "Ne, siwol guil, hangeullarieyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 세종대왕이 한글을 창제한 것을 기념하는 날이에요.",
+      "reading": "Majayo. Sejongdaewangi hangeureul changjehan geoseul ginyeomhaneun narieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "세종대왕은 왜 한글을 만들었어요?",
+      "reading": "Sejongdaewangeun wae hangeureul mandeureosseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그때는 백성들이 한자를 몰라서 글을 읽고 쓸 수 없었어요. 세종대왕은 백성들이 쉽게 배우고 쓰게 하고자 한글을 만들었어요.",
+      "reading": "Geuttaeneun baekseongdeuri hanjareul mollaseo geureul ilgo sseul su eopseosseoyo. Sejongdaewangeun baekseongdeuri swipge baeugo sseuge hagoja hangeureul mandeureosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "백성들을 정말 생각한 분이었네요.",
+      "reading": "Baekseongdeureul jeongmal saenggakan bunieonneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 훈민정음 책에는 이렇게 쓰여 있어요. \"사람마다 쉽게 배워서 날마다 편하게 쓰게 하고자 한다.\"",
+      "reading": "Ne. Hunminjeongeum chaegeneun ireoke sseuyeo isseoyo. \"Sarammada swipge baewoseo nalmada pyeonhage sseuge hagoja handa.\""
+    },
+    {
+      "speaker": "a",
+      "text": "한글은 글자 모양도 과학적이라고 들었어요.",
+      "reading": "Hangeureun geulja moyangdo gwahakjeogirago deureosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 기역, 니은, 미음 같은 글자는 소리를 낼 때의 입과 혀 모양을 보고 만들었어요. 그래서 아주 과학적인 글자예요.",
+      "reading": "Majayo. Giyeok, nieun, mieum gateun geuljaneun sorireul nael ttaeui ipgwa hyeo moyangeul bogo mandeureosseoyo. Geuraeseo aju gwahakjeogin geuljayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 저도 한글을 하루 만에 읽을 수 있었군요!",
+      "reading": "Geuraeseo jeodo hangeureul haru mane ilgeul su isseotgunyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "하하, 맞아요. 세종대왕이 바라셨던 대로 외국인도 쉽게 배울 수 있는 글자예요.",
+      "reading": "Haha, majayo. Sejongdaewangi barasyeotdeon daero oegugindo swipge baeul su inneun geuljayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 오늘은 한글로 부모님께 편지를 써 볼게요.",
+      "reading": "Geureom oneureun hangeullo bumonimkke pyeonjireul sseo bolgeyo."
+    }
+  ]
+}

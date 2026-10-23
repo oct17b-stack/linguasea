@@ -1,0 +1,100 @@
+{
+  "id": "ko-E2-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gwanseup",
+      "text": "관습",
+      "reading": "gwanseup"
+    },
+    {
+      "id": "ko.geumgi",
+      "text": "금기",
+      "reading": "geumgi"
+    },
+    {
+      "id": "ko.jiyeok",
+      "text": "지역",
+      "reading": "jiyeok"
+    },
+    {
+      "id": "ko.sedae",
+      "text": "세대",
+      "reading": "sedae"
+    },
+    {
+      "id": "ko.dayang-hada",
+      "text": "다양하다",
+      "reading": "dayanghada"
+    },
+    {
+      "id": "ko.eogida",
+      "text": "어기다",
+      "reading": "eogida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "오늘은 나라마다 다른 관습에 대해 이야기해 봅시다.",
+      "reading": "Oneureun naramada dareun gwanseube daehae iyagihae bopsida."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨, 태국에는 어떤 금기가 있어요?",
+      "reading": "Nam ssi, Taegugeneun eotteon geumgiga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서는 여자가 스님에게 직접 물건을 드리면 안 돼요.",
+      "reading": "Taegugeseoneun yeojaga seunimege jikjeop mulgeoneul deurimyeon an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇군요. 한국에서는 빨간색으로 이름을 쓰면 안 돼요.",
+      "reading": "Geureokunyo. Hangugeseoneun ppalgansaegeuro ireumeul sseumyeon an dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜요?",
+      "reading": "Waeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "옛날에는 돌아가신 분의 이름을 빨간색으로 썼거든요.",
+      "reading": "Yennareneun doragasin bunui ireumeul ppalgansaegeuro sseotgeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "요즘 젊은 사람들도 그 금기를 지켜요?",
+      "reading": "Yojeum jeolmeun saramdeuldo geu geumgireul jikyeoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "세대에 따라 달라요. 젊은 사람들은 가끔 어기기도 해요.",
+      "reading": "Sedaee ttara dallayo. Jeolmeun saramdeureun gakkeum eogigido haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국도 그래요. 그리고 지역에 따라서 관습이 조금씩 달라요.",
+      "reading": "Taegukdo geuraeyo. Geurigo jiyeoge ttaraseo gwanseubi jogeumssik dallayo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 한국도 지역에 따라 음식이나 말이 다양해요.",
+      "reading": "Majayo. Hangukdo jiyeoge ttara eumsigina mari dayanghaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다른 나라에 가면 그 나라의 금기를 먼저 알아 두는 게 좋겠어요.",
+      "reading": "Dareun narae gamyeon geu naraui geumgireul meonjeo ara duneun ge jokesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋은 생각이에요. 관습을 존중하면 사람들도 남 씨를 더 좋아할 거예요.",
+      "reading": "Joeun saenggagieyo. Gwanseubeul jonjunghamyeon saramdeuldo Nam ssireul deo joahal geoyeyo."
+    }
+  ]
+}

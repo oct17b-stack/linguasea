@@ -1,0 +1,55 @@
+{
+  "id": "ko-A3-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jungguk",
+      "text": "중국",
+      "reading": "Jungguk"
+    },
+    {
+      "id": "ko.miguk",
+      "text": "미국",
+      "reading": "Miguk"
+    },
+    {
+      "id": "ko.beteunam",
+      "text": "베트남",
+      "reading": "Beteunam"
+    },
+    {
+      "id": "ko.yeongguk",
+      "text": "영국",
+      "reading": "Yeongguk"
+    },
+    {
+      "id": "ko.oegugin",
+      "text": "외국인",
+      "reading": "oegugin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨 친구는 한국 사람이에요?",
+      "reading": "Nam ssi chinguneun Hanguk saramieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 외국인이에요. 미국 사람이에요.",
+      "reading": "Aniyo, oeguginieyo. Miguk saramieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 영국 사람이 아니에요?",
+      "reading": "A, Yeongguk sarami anieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 미국 사람이에요.",
+      "reading": "Ne, Miguk saramieyo."
+    }
+  ]
+}

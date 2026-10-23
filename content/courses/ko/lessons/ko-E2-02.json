@@ -1,0 +1,94 @@
+{
+  "id": "ko-E2-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.suljari",
+      "text": "술자리",
+      "reading": "suljari"
+    },
+    {
+      "id": "ko.sureul-ttareuda",
+      "kind": "phrase",
+      "text": "술을 따르다",
+      "reading": "sureul ttareuda"
+    },
+    {
+      "id": "ko.gogaereul-dollida",
+      "kind": "phrase",
+      "text": "고개를 돌리다",
+      "reading": "gogaereul dollida"
+    },
+    {
+      "id": "ko.du-soneuro",
+      "kind": "phrase",
+      "text": "두 손으로",
+      "reading": "du soneuro"
+    },
+    {
+      "id": "ko.yeui-bareuda",
+      "kind": "phrase",
+      "text": "예의 바르다",
+      "reading": "yeui bareuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 저녁에 인턴 회식이 있어요. 첫 술자리라서 좀 긴장돼요.",
+      "reading": "Minjun ssi, oneul jeonyeoge inteon hoesigi isseoyo. Cheot suljariraseo jom ginjangdwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "팀장님도 오세요?",
+      "reading": "Timjangnimdo oseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 술자리 예절을 잘 몰라서 실수할 것 같아요.",
+      "reading": "Ne. Geureonde suljari yejeoreul jal mollaseo silsuhal geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "어렵지 않아요. 팀장님이 술을 따라 주시면 두 손으로 잔을 받으세요.",
+      "reading": "Eoryeopji anayo. Timjangnimi sureul ttara jusimyeon du soneuro janeul badeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "마실 때는요?",
+      "reading": "Masil ttaeneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "마실 때는 고개를 옆으로 돌리고 마시는 게 좋아요.",
+      "reading": "Masil ttaeneun gogaereul yeopeuro dolligo masineun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "팀장님 앞에서 고개를 돌리면 좀 이상할 것 같은데요.",
+      "reading": "Timjangnim apeseo gogaereul dollimyeon jom isanghal geot gateundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아니에요. 그렇게 하면 예의 바른 사람으로 보일 거예요.",
+      "reading": "Anieyo. Geureoke hamyeon yeui bareun sarameuro boil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 제가 팀장님께 술을 따라 드릴 때는요?",
+      "reading": "Geureom jega timjangnimkke sureul ttara deuril ttaeneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "그때도 두 손으로 따라 드리면 돼요. 오늘 회식은 재미있을 것 같아요!",
+      "reading": "Geuttaedo du soneuro ttara deurimyeon dwaeyo. Oneul hoesigeun jaemiisseul geot gatayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 덕분에 실수하지 않을 것 같아요.",
+      "reading": "Gomawoyo. Deokbune silsuhaji aneul geot gatayo."
+    }
+  ]
+}

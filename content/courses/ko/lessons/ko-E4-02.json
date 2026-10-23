@@ -1,0 +1,101 @@
+{
+  "id": "ko-E4-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.myeonjeop",
+      "text": "면접",
+      "reading": "myeonjeop"
+    },
+    {
+      "id": "ko.myeonjeopgwan",
+      "text": "면접관",
+      "reading": "myeonjeopgwan"
+    },
+    {
+      "id": "ko.jiwon-donggi",
+      "kind": "phrase",
+      "text": "지원 동기",
+      "reading": "jiwon donggi"
+    },
+    {
+      "id": "ko.gangjeom",
+      "text": "강점",
+      "reading": "gangjeom"
+    },
+    {
+      "id": "ko.yakjeom",
+      "text": "약점",
+      "reading": "yakjeom"
+    },
+    {
+      "id": "ko.pobu",
+      "text": "포부",
+      "reading": "pobu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 다음 주에 여행사 면접이 있어요.",
+      "reading": "Seonsaengnim, daeum jue yeohaengsa myeonjeobi isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "축하해요! 면접 준비는 하고 있어요?",
+      "reading": "Chukahaeyo! Myeonjeop junbineun hago isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그런데 면접관들이 뭘 물어볼지 몰라서 걱정이에요.",
+      "reading": "Ne, geureonde myeonjeopgwandeuri mwol mureobolji mollaseo geokjeongieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "보통 처음에는 지원 동기가 뭐냐고 물어봐요.",
+      "reading": "Botong cheoeumeneun jiwon donggiga mwonyago mureobwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜 그 회사에 지원했냐고 묻는 거지요?",
+      "reading": "Wae geu hoesae jiwonhaennyago munneun geojiyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 그리고 강점과 약점이 뭐냐고도 물어볼 거예요.",
+      "reading": "Majayo. Geurigo gangjeomgwa yakjeomi mwonyagodo mureobol geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "제 강점은 태국어와 한국어를 둘 다 할 수 있는 거예요. 약점은... 너무 긴장하는 거예요.",
+      "reading": "Je gangjeomeun taegugeowa hangugeoreul dul da hal su inneun geoyeyo. Yakjeomeun... Neomu ginjanghaneun geoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요. 약점을 말할 때는 그 약점을 고치려고 어떻게 노력하는지도 말하세요.",
+      "reading": "Joayo. Yakjeomeul malhal ttaeneun geu yakjeomeul gochiryeogo eotteoke noryeokaneunjido malhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠습니다. 또 뭘 물어봐요?",
+      "reading": "Ne, algetseumnida. Tto mwol mureobwayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "마지막으로 앞으로의 포부가 뭐냐고 물어볼 수도 있어요.",
+      "reading": "Majimageuro apeuroui pobuga mwonyago mureobol sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "포부요? 태국 사람들에게 한국을 소개하는 일을 하고 싶다고 말하면 돼요?",
+      "reading": "Pobuyo? Taeguk saramdeurege Hangugeul sogaehaneun ireul hago sipdago malhamyeon dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아주 좋아요. 자신감 있게 말하면 될 거예요.",
+      "reading": "Aju joayo. Jasingam itge malhamyeon doel geoyeyo."
+    }
+  ]
+}

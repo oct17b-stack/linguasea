@@ -1,0 +1,86 @@
+{
+  "id": "ko-E2-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.hoching",
+      "text": "호칭",
+      "reading": "hoching"
+    },
+    {
+      "id": "ko.nai-chai",
+      "kind": "phrase",
+      "text": "나이 차이",
+      "reading": "nai chai"
+    },
+    {
+      "id": "ko.jonjung-hada",
+      "text": "존중하다",
+      "reading": "jonjunghada"
+    },
+    {
+      "id": "ko.wiarae",
+      "text": "위아래",
+      "reading": "wiarae"
+    },
+    {
+      "id": "ko.ttajida",
+      "text": "따지다",
+      "reading": "ttajida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 제가 오늘 실수를 한 것 같아요.",
+      "reading": "Seonsaengnim, jega oneul silsureul han geot gatayo."
+    },
+    {
+      "speaker": "c",
+      "text": "왜요? 무슨 일이 있었어요?",
+      "reading": "Waeyo? Museun iri isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "동아리 선배를 '민수 씨'라고 불렀어요. 그런데 선배가 좀 놀란 것 같았어요.",
+      "reading": "Dongari seonbaereul 'Minsu ssi'rago bulleosseoyo. Geureonde seonbaega jom nollan geot gatasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 호칭을 실수한 것 같네요. 그 선배는 몇 살이에요?",
+      "reading": "A, hochingeul silsuhan geot ganneyo. Geu seonbaeneun myeot sarieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저보다 두 살 많아요. 나이 차이가 많지 않아서 괜찮을 것 같았어요.",
+      "reading": "Jeoboda du sal manayo. Nai chaiga manchi anaseo gwaenchaneul geot gatasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국에서는 나이 차이가 한 살만 있어도 호칭이 달라져요.",
+      "reading": "Hangugeseoneun nai chaiga han salman isseodo hochingi dallajyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서도 나이를 따지기는 하지만, 한국만큼은 아니에요.",
+      "reading": "Taegugeseodo naireul ttajigineun hajiman, Hangungmankeumeun anieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국 사람들은 위아래를 중요하게 생각하거든요. '선배님'이라고 부르는 게 좋아요.",
+      "reading": "Hanguk saramdeureun wiaraereul jungyohage saenggakageodeunyo. 'Seonbaenim'irago bureuneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇군요. 제가 너무 편하게 말한 것 같아요. 내일은 '선배님'이라고 부르면서 인사해야겠어요.",
+      "reading": "Geureokunyo. Jega neomu pyeonhage malhan geot gatayo. Naeireun 'seonbaenim'irago bureumyeonseo insahaeyagesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요. 그게 선배를 존중하는 방법이에요. 선배도 남 씨가 외국인이라서 이해했을 거예요.",
+      "reading": "Joayo. Geuge seonbaereul jonjunghaneun bangbeobieyo. Seonbaedo Nam ssiga oeguginiraseo ihaehaesseul geoyeyo."
+    }
+  ]
+}

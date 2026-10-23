@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sseoyo",
+      "text": "써요",
+      "reading": "sseoyo"
+    },
+    {
+      "id": "ko.baewoyo",
+      "text": "배워요",
+      "reading": "baewoyo"
+    },
+    {
+      "id": "ko.gareuchyeoyo",
+      "text": "가르쳐요",
+      "reading": "gareuchyeoyo"
+    },
+    {
+      "id": "ko.yeonseupaeyo",
+      "text": "연습해요",
+      "reading": "yeonseupaeyo"
+    },
+    {
+      "id": "ko.mureobwayo",
+      "text": "물어봐요",
+      "reading": "mureobwayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국어 배워요?",
+      "reading": "Nam ssi, hangugeo baewoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 배워요. 한글도 써요!",
+      "reading": "Ne, baewoyo. Hangeuldo sseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "와! 저도 태국어 배워요. 질문 있어요!",
+      "reading": "Wa! Jeodo taegugeo baewoyo. Jilmun isseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 물어봐요!",
+      "reading": "Ne, mureobwayo!"
+    }
+  ]
+}

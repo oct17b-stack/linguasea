@@ -1,0 +1,70 @@
+{
+  "id": "ko-C9-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sigeup",
+      "text": "시급",
+      "reading": "sigeup"
+    },
+    {
+      "id": "ko.geunmu-hada",
+      "text": "근무하다",
+      "reading": "geunmuhada"
+    },
+    {
+      "id": "ko.gyodae",
+      "text": "교대",
+      "reading": "gyodae"
+    },
+    {
+      "id": "ko.hyuil",
+      "text": "휴일",
+      "reading": "hyuil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 언제 근무할 수 있어요?",
+      "reading": "Nam ssi, eonje geunmuhal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "평일 오후에 근무할 수 있어요. 주말마다 식당에서 일해요.",
+      "reading": "Pyeongil ohue geunmuhal su isseoyo. Jumalmada sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 월요일부터 금요일까지 일할 수 있어요?",
+      "reading": "Geureom woryoilbuteo geumyoilkkaji ilhal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 화요일마다 수업이 늦게 끝나요.",
+      "reading": "Ne. Geureonde hwayoilmada sueobi neutge kkeunnayo."
+    },
+    {
+      "speaker": "c",
+      "text": "괜찮아요. 화요일에는 다섯 시부터 일하세요. 교대 시간이 다섯 시예요.",
+      "reading": "Gwaenchanayo. Hwayoireneun daseot sibuteo ilhaseyo. Gyodae sigani daseot siyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 휴일은 언제예요?",
+      "reading": "Gamsahamnida. Hyuireun eonjeyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "우리 카페는 일요일마다 쉬어요. 시급은 만 오백 원이에요.",
+      "reading": "Uri kapeneun iryoilmada swieoyo. Sigeubeun man obaek wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 잘 부탁드립니다.",
+      "reading": "Joayo! Jal butakdeurimnida."
+    }
+  ]
+}

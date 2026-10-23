@@ -1,0 +1,90 @@
+{
+  "id": "ko-E1-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.daepyo",
+      "text": "대표",
+      "reading": "daepyo"
+    },
+    {
+      "id": "ko.yuhaksaeng",
+      "text": "유학생",
+      "reading": "yuhaksaeng"
+    },
+    {
+      "id": "ko.ipjang",
+      "text": "입장",
+      "reading": "ipjang"
+    },
+    {
+      "id": "ko.chaegimgam",
+      "text": "책임감",
+      "reading": "chaegimgam"
+    },
+    {
+      "id": "ko.yeokhal",
+      "text": "역할",
+      "reading": "yeokhal"
+    },
+    {
+      "id": "ko.jabusim",
+      "text": "자부심",
+      "reading": "jabusim"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 다음 주 환영 파티에서 유학생 대표로 인사해 줄 수 있어요?",
+      "reading": "Nam ssi, daeum ju hwanyeong patieseo yuhaksaeng daepyoro insahae jul su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제가요? 저보다 한국어를 잘하는 친구가 많은데요.",
+      "reading": "Jegayo? Jeoboda hangugeoreul jalhaneun chinguga maneundeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨는 유학생 모임에서 여러 가지 역할을 맡았잖아요.",
+      "reading": "Nam ssineun yuhaksaeng moimeseo yeoreo gaji yeokhareul matatjanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 유학생 대표로서 열심히 준비하겠습니다.",
+      "reading": "Geureom yuhaksaeng daepyoroseo yeolsimhi junbihagetseumnida."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요. 유학생들의 입장에서 이야기해 주세요.",
+      "reading": "Joayo. Yuhaksaengdeurui ipjangeseo iyagihae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "유학생으로서 힘든 점도 이야기해도 될까요?",
+      "reading": "Yuhaksaengeuroseo himdeun jeomdo iyagihaedo doelkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "물론이에요. 그리고 한국 생활의 좋은 점도 이야기하면 좋겠어요.",
+      "reading": "Mullonieyo. Geurigo Hanguk saenghwarui joeun jeomdo iyagihamyeon jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "대표가 되니까 책임감이 생겨요.",
+      "reading": "Daepyoga doenikka chaegimgami saenggyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그 마음이면 충분해요. 태국 사람으로서 자부심을 가지고 말하세요.",
+      "reading": "Geu maeumimyeon chungbunhaeyo. Taeguk sarameuroseo jabusimeul gajigo malhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다. 대표로서 부끄럽지 않게 잘하겠습니다.",
+      "reading": "Ne, gamsahamnida. Daepyoroseo bukkeureopji anke jalhagetseumnida."
+    }
+  ]
+}

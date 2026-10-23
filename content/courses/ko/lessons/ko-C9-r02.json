@@ -1,0 +1,80 @@
+{
+  "id": "ko-C9-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jumuneul-batda",
+      "kind": "phrase",
+      "text": "주문을 받다",
+      "reading": "jumuneul batda"
+    },
+    {
+      "id": "ko.ssotda",
+      "text": "쏟다",
+      "reading": "ssotda"
+    },
+    {
+      "id": "ko.iksuk-hada",
+      "text": "익숙하다",
+      "reading": "iksukada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 씨는 이번 주 월요일부터 하늘 카페에서 일하기 시작했어요.",
+        "reading": "Nam ssineun ibeon ju woryoilbuteo Haneul kapeeseo ilhagi sijakaesseoyo."
+      },
+      {
+        "text": "처음에는 메뉴가 너무 많고 어려웠어요.",
+        "reading": "Cheoeumeneun menyuga neomu manko eoryeowosseoyo."
+      },
+      {
+        "text": "그래서 주문을 받을 때 실수를 많이 했어요.",
+        "reading": "Geuraeseo jumuneul badeul ttae silsureul mani haesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "수요일에는 손님 옷에 커피를 쏟았어요.",
+        "reading": "Suyoireneun sonnim ose keopireul ssodasseoyo."
+      },
+      {
+        "text": "남 씨는 손님한테 정말 미안했어요.",
+        "reading": "Nam ssineun sonnimhante jeongmal mianhaesseoyo."
+      },
+      {
+        "text": "하지만 사장님은 웃으면서 커피를 다시 만들었어요.",
+        "reading": "Hajiman sajangnimeun useumyeonseo keopireul dasi mandeureosseoyo."
+      },
+      {
+        "text": "그리고 남 씨는 사장님한테 혼나지 않았어요.",
+        "reading": "Geurigo Nam ssineun sajangnimhante honnaji anasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "금요일에는 카페 일이 조금 익숙해졌어요.",
+        "reading": "Geumyoireneun kape iri jogeum iksukaejyeosseoyo."
+      },
+      {
+        "text": "지금은 주문도 빨리 받아요.",
+        "reading": "Jigeumeun jumundo ppalli badayo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

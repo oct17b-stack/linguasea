@@ -1,0 +1,96 @@
+{
+  "id": "ko-E1-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.annae-sahang",
+      "kind": "phrase",
+      "text": "안내 사항",
+      "reading": "annae sahang"
+    },
+    {
+      "id": "ko.juui-hada",
+      "text": "주의하다",
+      "reading": "juuihada"
+    },
+    {
+      "id": "ko.hyeopjo",
+      "text": "협조",
+      "reading": "hyeopjo"
+    },
+    {
+      "id": "ko.kkeuda",
+      "text": "끄다",
+      "reading": "kkeuda"
+    },
+    {
+      "id": "ko.samgada",
+      "text": "삼가다",
+      "reading": "samgada"
+    },
+    {
+      "id": "ko.chwaryeong",
+      "text": "촬영",
+      "reading": "chwaryeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여러분, 잠시 안내 사항을 말씀드리겠습니다.",
+      "reading": "Yeoreobun, jamsi annae sahangeul malsseumdeurigetseumnida."
+    },
+    {
+      "speaker": "c",
+      "text": "공연이 곧 시작되니까 휴대폰은 꺼 주십시오.",
+      "reading": "Gongyeoni got sijakdoenikka hyudaeponeun kkeo jusipsio."
+    },
+    {
+      "speaker": "c",
+      "text": "그리고 공연 중에는 사진 촬영을 삼가 주시기 바랍니다.",
+      "reading": "Geurigo gongyeon jungeneun sajin chwaryeongeul samga jusigi baramnida."
+    },
+    {
+      "speaker": "a",
+      "text": "저기요, 공연이 끝난 후에는 사진을 찍어도 됩니까?",
+      "reading": "Jeogiyo, gongyeoni kkeunnan hueneun sajineul jjigeodo doemnikka?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 공연이 끝난 후에는 무대 사진을 찍으셔도 됩니다.",
+      "reading": "Ne, gongyeoni kkeunnan hueneun mudae sajineul jjigeusyeodo doemnida."
+    },
+    {
+      "speaker": "c",
+      "text": "하지만 다른 분들의 얼굴은 찍지 마십시오.",
+      "reading": "Hajiman dareun bundeurui eolgureun jjikji masipsio."
+    },
+    {
+      "speaker": "c",
+      "text": "또 계단이 미끄러우니까 내려가실 때 주의하십시오.",
+      "reading": "Tto gyedani mikkeureounikka naeryeogasil ttae juuihasipsio."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠습니다.",
+      "reading": "Ne, algetseumnida."
+    },
+    {
+      "speaker": "c",
+      "text": "여러분의 협조 부탁드립니다. 즐거운 시간 보내십시오.",
+      "reading": "Yeoreobunui hyeopjo butakdeurimnida. Jeulgeoun sigan bonaesipsio."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 휴대폰 껐어요?",
+      "reading": "Nam ssi, hyudaepon kkeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 껐어요. 민준 씨도 빨리 끄세요!",
+      "reading": "Ne, kkeosseoyo. Minjun ssido ppalli kkeuseyo!"
+    }
+  ]
+}

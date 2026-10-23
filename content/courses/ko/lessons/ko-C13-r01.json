@@ -1,0 +1,75 @@
+{
+  "id": "ko-C13-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jikjeop",
+      "text": "직접",
+      "reading": "jikjeop"
+    },
+    {
+      "id": "ko.somssi",
+      "text": "솜씨",
+      "reading": "somssi"
+    },
+    {
+      "id": "ko.silkeot",
+      "text": "실컷",
+      "reading": "silkeot"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "여러분, 안녕하세요!",
+        "reading": "Yeoreobun, annyeonghaseyo!"
+      },
+      {
+        "text": "이번 주 금요일 저녁 일곱 시에 기숙사 일 층에서 태국 음식 파티를 해요.",
+        "reading": "Ibeon ju geumyoil jeonyeok ilgop sie gisuksa il cheungeseo Taeguk eumsik patireul haeyo."
+      },
+      {
+        "text": "제가 태국 음식을 직접 만들 거예요.",
+        "reading": "Jega Taeguk eumsigeul jikjeop mandeul geoyeyo."
+      }
+    ],
+    [
+      {
+        "text": "똠얌꿍하고 팟타이를 만들 거예요.",
+        "reading": "Ttomyamkkunghago pattaireul mandeul geoyeyo."
+      },
+      {
+        "text": "제 요리 솜씨는 엄마한테 배웠어요.",
+        "reading": "Je yori somssineun eommahante baewosseoyo."
+      },
+      {
+        "text": "음식은 많이 준비할게요. 실컷 드세요!",
+        "reading": "Eumsigeun mani junbihalgeyo. Silkeot deuseyo!"
+      }
+    ],
+    [
+      {
+        "text": "음료수는 하나씩 사 오세요.",
+        "reading": "Eumnyosuneun hanassik sa oseyo."
+      },
+      {
+        "text": "오고 싶은 사람은 목요일까지 저한테 문자 주세요.",
+        "reading": "Ogo sipeun sarameun mogyoilkkaji jeohante munja juseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

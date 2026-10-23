@@ -1,0 +1,85 @@
+{
+  "id": "ko-D1-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.wolse",
+      "text": "월세",
+      "reading": "wolse"
+    },
+    {
+      "id": "ko.bojeunggeum",
+      "text": "보증금",
+      "reading": "bojeunggeum"
+    },
+    {
+      "id": "ko.gwallibi",
+      "text": "관리비",
+      "reading": "gwallibi"
+    },
+    {
+      "id": "ko.jeonse",
+      "text": "전세",
+      "reading": "jeonse"
+    },
+    {
+      "id": "ko.jogeon",
+      "text": "조건",
+      "reading": "jogeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 어떤 방을 찾으세요?",
+      "reading": "Eoseo oseyo. Eotteon bangeul chajeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교 앞 원룸을 구하려고 해요. 월세가 보통 얼마예요?",
+      "reading": "Hakgyo ap wonrumeul guharyeogo haeyo. Wolsega botong eolmayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "보통 오십만 원 정도예요. 보증금은 오백만 원이에요.",
+      "reading": "Botong osimman won jeongdoyeyo. Bojeunggeumeun obaengman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좀 비싸네요. 전세는 어때요?",
+      "reading": "Jom bissaneyo. Jeonseneun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "전세는 월세가 없어요. 그런데 보증금이 아주 비싸요.",
+      "reading": "Jeonseneun wolsega eopseoyo. Geureonde bojeunggeumi aju bissayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 저는 월세 원룸을 찾을게요. 월세가 사십만 원이 넘으면 너무 비싸요.",
+      "reading": "Geureom jeoneun wolse wonrumeul chajeulgeyo. Wolsega sasimman woni neomeumyeon neomu bissayo."
+    },
+    {
+      "speaker": "b",
+      "text": "다른 조건도 있으세요?",
+      "reading": "Dareun jogeondo isseuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 역에서 가까우면 좋아요. 그리고 관리비가 싸면 더 좋아요.",
+      "reading": "Ne, yeogeseo gakkaumyeon joayo. Geurigo gwallibiga ssamyeon deo joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 이 방은 어때요? 역에서 가깝고 월세가 사십만 원이에요. 관리비는 오만 원이에요.",
+      "reading": "Geureom i bangeun eottaeyo? Yeogeseo gakkapgo wolsega sasimman wonieyo. Gwallibineun oman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 조건이 좋네요! 오늘 볼 수 있어요?",
+      "reading": "Wa, jogeoni jonneyo! Oneul bol su isseoyo?"
+    }
+  ]
+}

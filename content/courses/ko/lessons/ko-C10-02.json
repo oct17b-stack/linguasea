@@ -1,0 +1,73 @@
+{
+  "id": "ko-C10-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.juso",
+      "text": "주소",
+      "reading": "juso"
+    },
+    {
+      "id": "ko.upyeon-beonho",
+      "kind": "phrase",
+      "text": "우편 번호",
+      "reading": "upyeon beonho"
+    },
+    {
+      "id": "ko.banneun-saram",
+      "kind": "phrase",
+      "text": "받는 사람",
+      "reading": "banneun saram"
+    },
+    {
+      "id": "ko.bonaeneun-saram",
+      "kind": "phrase",
+      "text": "보내는 사람",
+      "reading": "bonaeneun saram"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 무슨 좋은 일 있어요?",
+      "reading": "Nam ssi, museun joeun il isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 오늘 부모님에게서 소포를 받았어요.",
+      "reading": "Ne! Oneul bumonimegeseo soporeul badasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 소포 안에 뭐가 있었어요?",
+      "reading": "Wa, sopo ane mwoga isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국 음식하고 편지가 있었어요.",
+      "reading": "Taeguk eumsikhago pyeonjiga isseosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋겠어요. 저도 가끔 아이한테서 편지를 받아요.",
+      "reading": "Jokesseoyo. Jeodo gakkeum aihanteseo pyeonjireul badayo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님, 저도 답장을 보내고 싶어요. 받는 사람 주소는 어디에 써요?",
+      "reading": "Seonsaengnim, jeodo dapjangeul bonaego sipeoyo. Banneun saram jusoneun eodie sseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "보내는 사람 주소는 위에, 받는 사람 주소는 아래에 쓰세요. 우편 번호도 잊어버리지 마세요.",
+      "reading": "Bonaeneun saram jusoneun wie, banneun saram jusoneun araee sseuseyo. Upyeon beonhodo ijeobeoriji maseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠어요. 감사합니다!",
+      "reading": "Ne, algesseoyo. Gamsahamnida!"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ko-F9-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.aisyoping",
+      "text": "아이쇼핑",
+      "reading": "aisyoping"
+    },
+    {
+      "id": "ko.jjim-hada",
+      "text": "찜하다",
+      "reading": "jjimhada"
+    },
+    {
+      "id": "ko.jikgu",
+      "text": "직구",
+      "reading": "jikgu"
+    },
+    {
+      "id": "ko.haeoe-baesong",
+      "kind": "phrase",
+      "text": "해외 배송",
+      "reading": "haeoe baesong"
+    },
+    {
+      "id": "ko.gagyeokpyo",
+      "text": "가격표",
+      "reading": "gagyeokpyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 아까부터 계속 보기만 하고 아무것도 안 사네요.",
+      "reading": "Nam ssi, akkabuteo gyesok bogiman hago amugeotdo an saneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘은 그냥 아이쇼핑하러 왔어요. 가격표만 봐도 재미있거든요.",
+      "reading": "Oneureun geunyang aisyopinghareo wasseoyo. Gagyeokpyoman bwado jaemiitgeodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 마음에 드는 게 있으면 바로 사야 돼요. 보기만 하는 건 못 참겠어요.",
+      "reading": "Jeoneun maeume deuneun ge isseumyeon baro saya dwaeyo. Bogiman haneun geon mot chamgesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 마음에 드는 건 앱에 찜해 두고 나중에 세일할 때 사요.",
+      "reading": "Jeoneun maeume deuneun geon aebe jjimhae dugo najunge seilhal ttae sayo."
+    },
+    {
+      "speaker": "b",
+      "text": "찜하기만 하고 안 사는 것도 많지 않아요?",
+      "reading": "Jjimhagiman hago an saneun geotdo manchi anayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 사실 찜하기만 하고 잊어버린 게 더 많아요.",
+      "reading": "Majayo. Sasil jjimhagiman hago ijeobeorin ge deo manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 요즘 직구를 자주 해요. 한국에 없는 브랜드도 살 수 있거든요.",
+      "reading": "Jeoneun yojeum jikgureul jaju haeyo. Hanguge eomneun beuraendeudo sal su itgeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "해외 배송은 오래 걸리지 않아요?",
+      "reading": "Haeoe baesongeun orae geolliji anayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "보통 이 주쯤 걸려요. 그래도 기다리기만 하면 되니까 괜찮아요.",
+      "reading": "Botong i jujjeum geollyeoyo. Geuraedo gidarigiman hamyeon doenikka gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 한번 해 볼래요. 그런데 오늘은 정말 구경하기만 할 거예요!",
+      "reading": "Jeodo hanbeon hae bollaeyo. Geureonde oneureun jeongmal gugyeonghagiman hal geoyeyo!"
+    }
+  ]
+}

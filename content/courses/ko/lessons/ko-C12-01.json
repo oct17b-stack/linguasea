@@ -1,0 +1,76 @@
+{
+  "id": "ko-C12-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.myeongjeol",
+      "text": "명절",
+      "reading": "myeongjeol"
+    },
+    {
+      "id": "ko.chuseok",
+      "text": "추석",
+      "reading": "chuseok"
+    },
+    {
+      "id": "ko.seollal",
+      "text": "설날",
+      "reading": "seollal"
+    },
+    {
+      "id": "ko.yeonhyu",
+      "text": "연휴",
+      "reading": "yeonhyu"
+    },
+    {
+      "id": "ko.charyereul-jinaeda",
+      "kind": "phrase",
+      "text": "차례를 지내다",
+      "reading": "charyereul jinaeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 다음 주가 추석이에요.",
+      "reading": "Nam ssi, daeum juga chuseogieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "추석은 한국의 큰 명절이지요?",
+      "reading": "Chuseogeun Hangugui keun myeongjeorijiyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맞아요. 설날하고 추석이 한국의 제일 큰 명절이에요.",
+      "reading": "Ne, majayo. Seollalhago chuseogi Hangugui jeil keun myeongjeorieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "추석 때 한국 사람들은 뭐 해요?",
+      "reading": "Chuseok ttae Hanguk saramdeureun mwo haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "가족들이 모두 만나요. 그리고 추석 아침에 차례를 지내요.",
+      "reading": "Gajokdeuri modu mannayo. Geurigo chuseok achime charyereul jinaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "설날 때도 차례를 지내요?",
+      "reading": "Seollal ttaedo charyereul jinaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 설날 때도 지내요. 이번 추석은 연휴가 길어요. 남 씨는 뭐 할 거예요?",
+      "reading": "Ne, seollal ttaedo jinaeyo. Ibeon chuseogeun yeonhyuga gireoyo. Nam ssineun mwo hal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "추석 연휴를 민준 씨 가족하고 같이 지낼 거예요.",
+      "reading": "Chuseok yeonhyureul Minjun ssi gajokhago gachi jinael geoyeyo."
+    }
+  ]
+}

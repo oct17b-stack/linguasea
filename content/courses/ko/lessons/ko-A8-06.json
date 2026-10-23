@@ -1,0 +1,55 @@
+{
+  "id": "ko-A8-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.binu",
+      "text": "비누",
+      "reading": "binu"
+    },
+    {
+      "id": "ko.chitsol",
+      "text": "칫솔",
+      "reading": "chitsol"
+    },
+    {
+      "id": "ko.chiyak",
+      "text": "치약",
+      "reading": "chiyak"
+    },
+    {
+      "id": "ko.syampu",
+      "text": "샴푸",
+      "reading": "syampu"
+    },
+    {
+      "id": "ko.myeondogi",
+      "text": "면도기",
+      "reading": "myeondogi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 샴푸예요?",
+      "reading": "Nam ssi, ige syampuyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그거 비누예요. 샴푸는 저거예요.",
+      "reading": "Aniyo, geugeo binuyeyo. Syampuneun jeogeoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 고마워요. 면도기는요?",
+      "reading": "A, gomawoyo. Myeondogineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "면도기는 칫솔하고 치약 사이예요.",
+      "reading": "Myeondogineun chitsolhago chiyak saiyeyo."
+    }
+  ]
+}

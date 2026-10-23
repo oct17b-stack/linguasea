@@ -1,0 +1,79 @@
+{
+  "id": "ko-C11-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.choboja",
+      "text": "초보자",
+      "reading": "choboja"
+    },
+    {
+      "id": "ko.hwanyeong-hada",
+      "text": "환영하다",
+      "reading": "hwanyeonghada"
+    },
+    {
+      "id": "ko.cheyukgwan",
+      "text": "체육관",
+      "reading": "cheyukgwan"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "배드민턴 동아리에서 회원을 모집해요!",
+        "reading": "Baedeuminteon dongarieseo hoewoneul mojipaeyo!"
+      },
+      {
+        "text": "우리 동아리는 매주 화요일하고 목요일 저녁에 운동해요.",
+        "reading": "Uri dongarineun maeju hwayoilhago mogyoil jeonyeoge undonghaeyo."
+      },
+      {
+        "text": "장소는 학생회관 옆 체육관이에요.",
+        "reading": "Jangsoneun haksaenghoegwan yeop cheyukgwanieyo."
+      }
+    ],
+    [
+      {
+        "text": "초보자도 환영해요.",
+        "reading": "Chobojado hwanyeonghaeyo."
+      },
+      {
+        "text": "선배들이 처음부터 가르쳐 줘요.",
+        "reading": "Seonbaedeuri cheoeumbuteo gareuchyeo jwoyo."
+      },
+      {
+        "text": "라켓이 없는 사람은 동아리 라켓을 쓰세요.",
+        "reading": "Rakesi eomneun sarameun dongari rakeseul sseuseyo."
+      }
+    ],
+    [
+      {
+        "text": "외국인 학생도 환영해요.",
+        "reading": "Oegugin haksaengdo hwanyeonghaeyo."
+      },
+      {
+        "text": "신청은 동아리 방에서 해 주세요.",
+        "reading": "Sincheongeun dongari bangeseo hae juseyo."
+      },
+      {
+        "text": "우리 같이 배드민턴 쳐요!",
+        "reading": "Uri gachi baedeuminteon chyeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

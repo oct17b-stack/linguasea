@@ -1,0 +1,71 @@
+{
+  "id": "ko-C9-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.silsu-hada",
+      "text": "실수하다",
+      "reading": "silsuhada"
+    },
+    {
+      "id": "ko.honnada",
+      "text": "혼나다",
+      "reading": "honnada"
+    },
+    {
+      "id": "ko.chingchan-hada",
+      "text": "칭찬하다",
+      "reading": "chingchanhada"
+    },
+    {
+      "id": "ko.borami-itda",
+      "kind": "phrase",
+      "text": "보람이 있다",
+      "reading": "borami itda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 카페 일은 어때요?",
+      "reading": "Nam ssi, kape ireun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "재미있어요. 그런데 오늘 실수했어요. 손님한테 다른 커피를 줬어요.",
+      "reading": "Jaemiisseoyo. Geureonde oneul silsuhaesseoyo. Sonnimhante dareun keopireul jwosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 많이 놀랐겠어요. 사장님한테 혼났어요?",
+      "reading": "Aigo, mani nollatgesseoyo. Sajangnimhante honnasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 혼나지 않았어요. 사장님은 정말 좋으세요.",
+      "reading": "Aniyo, honnaji anasseoyo. Sajangnimeun jeongmal joeuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다행이네요.",
+      "reading": "Dahaengineyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 사장님이 저를 자주 칭찬하세요.",
+      "reading": "Geurigo sajangnimi jeoreul jaju chingchanhaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 기분이 좋겠어요. 일도 보람이 있겠어요.",
+      "reading": "Wa, gibuni jokesseoyo. Ildo borami itgesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 피곤하지만 보람이 있어요.",
+      "reading": "Ne, pigonhajiman borami isseoyo."
+    }
+  ]
+}

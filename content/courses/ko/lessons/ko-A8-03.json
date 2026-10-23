@@ -1,0 +1,55 @@
+{
+  "id": "ko-A8-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.usan",
+      "text": "우산",
+      "reading": "usan"
+    },
+    {
+      "id": "ko.angyeong",
+      "text": "안경",
+      "reading": "angyeong"
+    },
+    {
+      "id": "ko.hyuji",
+      "text": "휴지",
+      "reading": "hyuji"
+    },
+    {
+      "id": "ko.mulbyeong",
+      "text": "물병",
+      "reading": "mulbyeong"
+    },
+    {
+      "id": "ko.yeolsoe",
+      "text": "열쇠",
+      "reading": "yeolsoe"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 남 씨 우산이에요?",
+      "reading": "Nam ssi, ige Nam ssi usanieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 제 거예요. 물병도 제 거예요.",
+      "reading": "Ne, je geoyeyo. Mulbyeongdo je geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "열쇠하고 안경은요?",
+      "reading": "Yeolsoehago angyeongeunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열쇠는 제 거예요. 안경은 아니에요.",
+      "reading": "Yeolsoeneun je geoyeyo. Angyeongeun anieyo."
+    }
+  ]
+}

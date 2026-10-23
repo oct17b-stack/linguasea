@@ -1,0 +1,60 @@
+{
+  "id": "ko-A1-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.annyeong",
+      "kind": "phrase",
+      "text": "안녕",
+      "reading": "annyeong"
+    },
+    {
+      "id": "ko.gomawoyo",
+      "kind": "phrase",
+      "text": "고마워요",
+      "reading": "gomawoyo"
+    },
+    {
+      "id": "ko.jal-jinaeyo",
+      "kind": "phrase",
+      "text": "잘 지내요",
+      "reading": "jal jinaeyo"
+    },
+    {
+      "id": "ko.jal-jayo",
+      "kind": "phrase",
+      "text": "잘 자요",
+      "reading": "jal jayo"
+    },
+    {
+      "id": "ko.sugohaseyo",
+      "kind": "phrase",
+      "text": "수고하세요",
+      "reading": "sugohaseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕! 잘 지내요?",
+      "reading": "Annyeong! Jal jinaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 잘 지내요. 잠깐만요!",
+      "reading": "Ne, jal jinaeyo. Jamkkanmanyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 수고하세요!",
+      "reading": "A, sugohaseyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 잘 자요!",
+      "reading": "Gomawoyo. Jal jayo!"
+    }
+  ]
+}

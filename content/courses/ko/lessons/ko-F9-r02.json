@@ -1,0 +1,117 @@
+{
+  "id": "ko-F9-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.heowi",
+      "text": "허위",
+      "reading": "heowi"
+    },
+    {
+      "id": "ko.gwanggoseong",
+      "text": "광고성",
+      "reading": "gwanggoseong"
+    },
+    {
+      "id": "ko.sokda",
+      "text": "속다",
+      "reading": "sokda"
+    },
+    {
+      "id": "ko.silloedo",
+      "text": "신뢰도",
+      "reading": "silloedo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 남 씨, 이 밥솥 좀 봐요. 후기가 천 개나 있는데 거의 다 별점 다섯 개예요.",
+        "reading": "Minjun: Nam ssi, i bapsot jom bwayo. Hugiga cheon gaena inneunde geoui da byeoljeom daseot gaeyeyo."
+      },
+      {
+        "text": "남: 정말 그렇네요. 그런데 후기를 몇 개 읽어 보니까 좀 이상해요.",
+        "reading": "Nam: Jeongmal geureonneyo. Geureonde hugireul myeot gae ilgeo bonikka jom isanghaeyo."
+      },
+      {
+        "text": "민준: 뭐가 이상해요? 다들 밥맛이 좋다고 칭찬하잖아요.",
+        "reading": "Minjun: Mwoga isanghaeyo? Dadeul bammasi jotago chingchanhajanayo."
+      },
+      {
+        "text": "남: 문장이 거의 똑같고, 날짜도 모두 같은 날이에요.",
+        "reading": "Nam: Munjangi geoui ttokgatgo, naljjado modu gateun narieyo."
+      }
+    ],
+    [
+      {
+        "text": "남: 아무래도 가게에서 직접 쓴 허위 후기인 것 같아요.",
+        "reading": "Nam: Amuraedo gageeseo jikjeop sseun heowi hugiin geot gatayo."
+      },
+      {
+        "text": "민준: 에이, 그럴 리가 없어요. 그렇게까지 하는 가게가 정말 있어요?",
+        "reading": "Minjun: Ei, geureol riga eopseoyo. Geureokekkaji haneun gagega jeongmal isseoyo?"
+      },
+      {
+        "text": "남: 생각보다 많대요. 돈을 받고 좋은 후기를 써 주는 광고성 후기도 많고요.",
+        "reading": "Nam: Saenggakboda mantaeyo. Doneul batgo joeun hugireul sseo juneun gwanggoseong hugido mankoyo."
+      },
+      {
+        "text": "민준: 그래도 후기가 이렇게 많으면 믿을 만하지 않아요?",
+        "reading": "Minjun: Geuraedo hugiga ireoke maneumyeon mideul manhaji anayo?"
+      },
+      {
+        "text": "남: 후기 숫자보다 내용이 더 중요해요. 사진이 있는 후기랑 별점이 낮은 후기도 꼭 읽어 봐야 해요.",
+        "reading": "Nam: Hugi sutjaboda naeyongi deo jungyohaeyo. Sajini inneun hugirang byeoljeomi najeun hugido kkok ilgeo bwaya haeyo."
+      }
+    ],
+    [
+      {
+        "text": "민준: 아, 별점 한 개짜리 후기를 보니까 일주일 만에 고장 났다는 사람이 많네요.",
+        "reading": "Minjun: A, byeoljeom han gaejjari hugireul bonikka iljuil mane gojang natdaneun sarami manneyo."
+      },
+      {
+        "text": "남: 거봐요. 좋은 후기만 보고 샀으면 속을 뻔했잖아요.",
+        "reading": "Nam: Geobwayo. Joeun hugiman bogo sasseumyeon sogeul ppeonhaetjanayo."
+      },
+      {
+        "text": "민준: 정말 그러네요. 허위 후기 때문에 속는 소비자가 많겠어요.",
+        "reading": "Minjun: Jeongmal geureoneyo. Heowi hugi ttaemune songneun sobijaga mankesseoyo."
+      },
+      {
+        "text": "남: 이런 후기가 많아지면 결국 그 쇼핑몰의 신뢰도도 떨어지게 될 거예요.",
+        "reading": "Nam: Ireon hugiga manajimyeon gyeolguk geu syopingmorui silloedodo tteoreojige doel geoyeyo."
+      }
+    ],
+    [
+      {
+        "text": "민준: 맞아요. 이 밥솥은 사지 말고 고객 센터에 허위 후기를 신고해야겠어요.",
+        "reading": "Minjun: Majayo. I bapsoteun saji malgo gogaek senteoe heowi hugireul singohaeyagesseoyo."
+      },
+      {
+        "text": "남: 좋은 생각이에요. 다음부터는 같이 꼼꼼하게 비교해 보고 사요.",
+        "reading": "Nam: Joeun saenggagieyo. Daeumbuteoneun gachi kkomkkomhage bigyohae bogo sayo."
+      },
+      {
+        "text": "민준: 남 씨 덕분에 돈을 아꼈네요. 고마워요.",
+        "reading": "Minjun: Nam ssi deokbune doneul akkyeonneyo. Gomawoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

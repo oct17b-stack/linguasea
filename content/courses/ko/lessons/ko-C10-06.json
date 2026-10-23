@@ -1,0 +1,77 @@
+{
+  "id": "ko-C10-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.songgeum-hada",
+      "text": "송금하다",
+      "reading": "songgeumhada"
+    },
+    {
+      "id": "ko.ipgeum-hada",
+      "text": "입금하다",
+      "reading": "ipgeumhada"
+    },
+    {
+      "id": "ko.doneul-chatda",
+      "kind": "phrase",
+      "text": "돈을 찾다",
+      "reading": "doneul chatda"
+    },
+    {
+      "id": "ko.hyeongeum-inchulgi",
+      "kind": "phrase",
+      "text": "현금 인출기",
+      "reading": "hyeongeum inchulgi"
+    },
+    {
+      "id": "ko.susuryo",
+      "text": "수수료",
+      "reading": "susuryo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 현금 인출기에서 뭐 해요?",
+      "reading": "Nam ssi, hyeongeum inchulgieseo mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "카페에서 받은 현금을 통장에 입금해요.",
+      "reading": "Kapeeseo badeun hyeongeumeul tongjange ipgeumhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "수수료는 없어요?",
+      "reading": "Susuryoneun eopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 은행 카드는 수수료가 없어요. 그리고 돈도 좀 찾아요.",
+      "reading": "I eunhaeng kadeuneun susuryoga eopseoyo. Geurigo dondo jom chajayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 월요일에 동생한테 송금한 돈은 받았어요?",
+      "reading": "A, woryoire dongsaenghante songgeumhan doneun badasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 받았어요. 동생이 제가 보낸 돈으로 책을 샀어요.",
+      "reading": "Ne, badasseoyo. Dongsaengi jega bonaen doneuro chaegeul sasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 동생이 정말 기뻤겠어요!",
+      "reading": "Wa, dongsaengi jeongmal gippeotgesseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 생일 선물이었어요.",
+      "reading": "Ne, saengil seonmurieosseoyo."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ko-C11-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.undong-hada",
+      "text": "운동하다",
+      "reading": "undonghada"
+    },
+    {
+      "id": "ko.chukgu",
+      "text": "축구",
+      "reading": "chukgu"
+    },
+    {
+      "id": "ko.yagu",
+      "text": "야구",
+      "reading": "yagu"
+    },
+    {
+      "id": "ko.nonggu",
+      "text": "농구",
+      "reading": "nonggu"
+    },
+    {
+      "id": "ko.baegu",
+      "text": "배구",
+      "reading": "baegu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 무슨 운동을 좋아해요?",
+      "reading": "Nam ssineun museun undongeul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "축구를 좋아해요. 하지만 축구를 잘 못해요.",
+      "reading": "Chukgureul joahaeyo. Hajiman chukgureul jal motaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 농구는요?",
+      "reading": "Geureom nongguneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "농구도 못해요. 저는 배구를 잘해요.",
+      "reading": "Nonggudo motaeyo. Jeoneun baegureul jalhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 배구를 잘해요?",
+      "reading": "Wa, baegureul jalhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 태국 사람들은 배구를 정말 좋아해요. 민준 씨는 무슨 운동을 잘해요?",
+      "reading": "Ne! Taeguk saramdeureun baegureul jeongmal joahaeyo. Minjun ssineun museun undongeul jalhaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 야구를 잘해요. 주말마다 친구들하고 야구를 해요.",
+      "reading": "Jeoneun yagureul jalhaeyo. Jumalmada chingudeulhago yagureul haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 야구를 안 해 봤어요. 다음에 같이 운동해요!",
+      "reading": "Jeoneun yagureul an hae bwasseoyo. Daeume gachi undonghaeyo!"
+    }
+  ]
+}

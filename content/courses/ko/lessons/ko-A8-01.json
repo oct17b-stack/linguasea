@@ -1,0 +1,56 @@
+{
+  "id": "ko-A8-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ige-mwoyeyo",
+      "kind": "phrase",
+      "text": "이게 뭐예요?",
+      "reading": "ige mwoyeyo?"
+    },
+    {
+      "id": "ko.mwo",
+      "text": "뭐",
+      "reading": "mwo"
+    },
+    {
+      "id": "ko.geugeo",
+      "text": "그거",
+      "reading": "geugeo"
+    },
+    {
+      "id": "ko.jeogeo",
+      "text": "저거",
+      "reading": "jeogeo"
+    },
+    {
+      "id": "ko.mulgeon",
+      "text": "물건",
+      "reading": "mulgeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 뭐예요? 태국 물건이에요?",
+      "reading": "Nam ssi, ige mwoyeyo? Taeguk mulgeonieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그거 태국 커피예요.",
+      "reading": "Ne, geugeo Taeguk keopiyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저거는요?",
+      "reading": "Jeogeoneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저거는 태국 차예요. 맛있어요!",
+      "reading": "Jeogeoneun Taeguk chayeyo. Masisseoyo!"
+    }
+  ]
+}

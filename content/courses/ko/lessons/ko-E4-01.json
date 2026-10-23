@@ -1,0 +1,95 @@
+{
+  "id": "ko-E4-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.chaeyong",
+      "text": "채용",
+      "reading": "chaeyong"
+    },
+    {
+      "id": "ko.gonggo",
+      "text": "공고",
+      "reading": "gonggo"
+    },
+    {
+      "id": "ko.jiwon-hada",
+      "text": "지원하다",
+      "reading": "jiwonhada"
+    },
+    {
+      "id": "ko.magam",
+      "text": "마감",
+      "reading": "magam"
+    },
+    {
+      "id": "ko.jeonggyujik",
+      "text": "정규직",
+      "reading": "jeonggyujik"
+    },
+    {
+      "id": "ko.chwieop",
+      "text": "취업",
+      "reading": "chwieop"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 여행사에서 태국어를 할 수 있는 직원을 채용한다고 해.",
+      "reading": "Nama, yeohaengsaeseo taegugeoreul hal su inneun jigwoneul chaeyonghandago hae."
+    },
+    {
+      "speaker": "a",
+      "text": "정말? 어디에서 봤어?",
+      "reading": "Jeongmal? Eodieseo bwasseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 취업 센터 앱에 채용 공고가 올라왔어.",
+      "reading": "Hakgyo chwieop senteo aebe chaeyong gonggoga ollawasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "정규직이야? 아르바이트야?",
+      "reading": "Jeonggyujigiya? Areubaiteuya?"
+    },
+    {
+      "speaker": "b",
+      "text": "정규직이라고 해. 그리고 외국인도 지원할 수 있다고 해.",
+      "reading": "Jeonggyujigirago hae. Geurigo oegugindo jiwonhal su itdago hae."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 좋다! 마감은 언제야?",
+      "reading": "Wa, jota! Magameun eonjeya?"
+    },
+    {
+      "speaker": "b",
+      "text": "이번 주 금요일이 마감이라고 해. 시간이 별로 없어.",
+      "reading": "Ibeon ju geumyoiri magamirago hae. Sigani byeollo eopseo."
+    },
+    {
+      "speaker": "a",
+      "text": "나도 졸업하고 한국에서 취업하고 싶은데, 한번 지원해 볼까?",
+      "reading": "Nado joreopago Hangugeseo chwieopago sipeunde, hanbeon jiwonhae bolkka?"
+    },
+    {
+      "speaker": "b",
+      "text": "응, 해 봐. 월급도 괜찮다고 해.",
+      "reading": "Eung, hae bwa. Wolgeupdo gwaenchantago hae."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 경력이 없어도 된다고 했어?",
+      "reading": "Geureonde gyeongnyeogi eopseodo doendago haesseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "응, 신입도 괜찮다고 했어. 오늘 같이 공고를 읽어 보자.",
+      "reading": "Eung, sinipdo gwaenchantago haesseo. Oneul gachi gonggoreul ilgeo boja."
+    }
+  ]
+}

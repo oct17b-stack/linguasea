@@ -1,0 +1,71 @@
+{
+  "id": "ko-C14-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.noraebang",
+      "text": "노래방",
+      "reading": "noraebang"
+    },
+    {
+      "id": "ko.noraereul-bureuda",
+      "kind": "phrase",
+      "text": "노래를 부르다",
+      "reading": "noraereul bureuda"
+    },
+    {
+      "id": "ko.gasa",
+      "text": "가사",
+      "reading": "gasa"
+    },
+    {
+      "id": "ko.sinnada",
+      "text": "신나다",
+      "reading": "sinnada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 저녁에 노래방에 갈래요?",
+      "reading": "Nam ssi, oneul jeonyeoge noraebange gallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 저는 노래방을 정말 좋아해요.",
+      "reading": "Joayo! Jeoneun noraebangeul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨는 무슨 노래를 불러요?",
+      "reading": "Nam ssineun museun noraereul bulleoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국 노래를 부르고 싶어요. 그런데 가사를 잘 몰라요.",
+      "reading": "Hanguk noraereul bureugo sipeoyo. Geureonde gasareul jal mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 노래방에서는 가사를 보면서 불러요.",
+      "reading": "Gwaenchanayo. Noraebangeseoneun gasareul bomyeonseo bulleoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 그럼 이 노래를 부를게요.",
+      "reading": "A, geuraeyo? Geureom i noraereul bureulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 남 씨 정말 잘 불렀어요! 저도 신나는 노래를 부를게요.",
+      "reading": "Wa, Nam ssi jeongmal jal bulleosseoyo! Jeodo sinnaneun noraereul bureulgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 같이 불러요!",
+      "reading": "Joayo! Gachi bulleoyo!"
+    }
+  ]
+}

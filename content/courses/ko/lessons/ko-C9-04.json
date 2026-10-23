@@ -1,0 +1,70 @@
+{
+  "id": "ko-C9-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sajangnim",
+      "text": "사장님",
+      "reading": "sajangnim"
+    },
+    {
+      "id": "ko.gyesandae",
+      "text": "계산대",
+      "reading": "gyesandae"
+    },
+    {
+      "id": "ko.jeongni-hada",
+      "text": "정리하다",
+      "reading": "jeongnihada"
+    },
+    {
+      "id": "ko.yunipom",
+      "text": "유니폼",
+      "reading": "yunipom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 카페 일은 어땠어요?",
+      "reading": "Nam ssi, oneul kape ireun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "오늘부터 일하기 시작했어요. 유니폼도 받았어요.",
+      "reading": "Oneulbuteo ilhagi sijakaesseoyo. Yunipomdo badasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "사장님은 어때요?",
+      "reading": "Sajangnimeun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋으세요. 처음에는 사장님하고 같이 컵을 정리했어요.",
+      "reading": "Joeuseyo. Cheoeumeneun sajangnimhago gachi keobeul jeongnihaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "계산대에서도 일했어요?",
+      "reading": "Gyesandaeeseodo ilhaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 네 시부터 손님이 많아지기 시작했어요.",
+      "reading": "Ne. Geureonde ne sibuteo sonnimi manajigi sijakaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 피곤하지 않았어요?",
+      "reading": "Wa, pigonhaji anasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "조금 피곤했어요. 일곱 시부터 다리가 아프기 시작했어요.",
+      "reading": "Jogeum pigonhaesseoyo. Ilgop sibuteo dariga apeugi sijakaesseoyo."
+    }
+  ]
+}

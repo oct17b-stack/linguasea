@@ -1,0 +1,95 @@
+{
+  "id": "ko-E10-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.munhwajeok",
+      "text": "문화적",
+      "reading": "munhwajeok"
+    },
+    {
+      "id": "ko.gyeongjejeok",
+      "text": "경제적",
+      "reading": "gyeongjejeok"
+    },
+    {
+      "id": "ko.ilbanjeok",
+      "text": "일반적",
+      "reading": "ilbanjeok"
+    },
+    {
+      "id": "ko.jeontongjeok",
+      "text": "전통적",
+      "reading": "jeontongjeok"
+    },
+    {
+      "id": "ko.gaeinjeok",
+      "text": "개인적",
+      "reading": "gaeinjeok"
+    },
+    {
+      "id": "ko.hyeondaejeok",
+      "text": "현대적",
+      "reading": "hyeondaejeok"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 발표 준비는 잘 돼 가요?",
+      "reading": "Nam ssi, balpyo junbineun jal dwae gayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 선생님. 태국과 한국의 결혼식을 비교하고 있어요.",
+      "reading": "Ne, seonsaengnim. Taegukgwa Hangugui gyeolhonsigeul bigyohago isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "재미있겠네요. 문화적인 차이가 많지요?",
+      "reading": "Jaemiitgenneyo. Munhwajeogin chaiga manchiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 태국에서는 아침에 집에서 전통적인 결혼식을 하고, 저녁에 호텔에서 파티를 해요.",
+      "reading": "Ne. Taegugeseoneun achime jibeseo jeontongjeogin gyeolhonsigeul hago, jeonyeoge hotereseo patireul haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국은 보통 결혼식장에서 해요. 요즘은 현대적인 결혼식이 일반적이에요.",
+      "reading": "Hangugeun botong gyeolhonsikjangeseo haeyo. Yojeumeun hyeondaejeogin gyeolhonsigi ilbanjeogieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "결혼식 비용은 어때요?",
+      "reading": "Gyeolhonsik biyongeun eottaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "경제적으로 부담이 커서 작은 결혼식을 하는 사람도 많아요.",
+      "reading": "Gyeongjejeogeuro budami keoseo jageun gyeolhonsigeul haneun saramdo manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님은 개인적으로 어떤 결혼식이 좋으세요?",
+      "reading": "Seonsaengnimeun gaeinjeogeuro eotteon gyeolhonsigi joeuseyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "저는 개인적으로 가족만 모이는 작은 결혼식이 좋아요.",
+      "reading": "Jeoneun gaeinjeogeuro gajongman moineun jageun gyeolhonsigi joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 저는 발표에서 두 나라를 문화적, 경제적으로 비교해 볼게요.",
+      "reading": "Geureom jeoneun balpyoeseo du narareul munhwajeok, gyeongjejeogeuro bigyohae bolgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요. 일반적인 이야기보다 남 씨의 경험도 넣어 보세요.",
+      "reading": "Joayo. Ilbanjeogin iyagiboda Nam ssiui gyeongheomdo neoeo boseyo."
+    }
+  ]
+}

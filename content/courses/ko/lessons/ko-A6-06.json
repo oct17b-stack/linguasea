@@ -1,0 +1,51 @@
+{
+  "id": "ko-A6-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.darayo",
+      "text": "달아요",
+      "reading": "darayo"
+    },
+    {
+      "id": "ko.gosohaeyo",
+      "text": "고소해요",
+      "reading": "gosohaeyo"
+    },
+    {
+      "id": "ko.baebulleoyo",
+      "text": "배불러요",
+      "reading": "baebulleoyo"
+    },
+    {
+      "id": "ko.masitge-deuseyo",
+      "kind": "phrase",
+      "text": "맛있게 드세요",
+      "reading": "masitge deuseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여기요, 떡볶이하고 김밥이에요. 맛있게 드세요!",
+      "reading": "Yeogiyo, tteokbokkihago gimbabieyo. Masitge deuseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다, 이모! 잘 먹겠습니다!",
+      "reading": "Gamsahamnida, imo! Jal meokgetseumnida!"
+    },
+    {
+      "speaker": "c",
+      "text": "맛있어요?",
+      "reading": "Masisseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 떡볶이는 달아요. 김밥은 고소해요. 아, 배불러요!",
+      "reading": "Ne! Tteokbokkineun darayo. Gimbabeun gosohaeyo. A, baebulleoyo!"
+    }
+  ]
+}

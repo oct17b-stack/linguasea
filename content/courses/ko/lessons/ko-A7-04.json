@@ -1,0 +1,50 @@
+{
+  "id": "ko-A7-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gireoyo",
+      "text": "길어요",
+      "reading": "gireoyo"
+    },
+    {
+      "id": "ko.jjalbayo",
+      "text": "짧아요",
+      "reading": "jjalbayo"
+    },
+    {
+      "id": "ko.mugeowoyo",
+      "text": "무거워요",
+      "reading": "mugeowoyo"
+    },
+    {
+      "id": "ko.gabyeowoyo",
+      "text": "가벼워요",
+      "reading": "gabyeowoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 태국 사람은 이름이 길어요?",
+      "reading": "Nam ssi, Taeguk sarameun ireumi gireoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 길어요! 남은 짧아요.",
+      "reading": "Ne, gireoyo! Nameun jjalbayo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국 사람은 이름이 짧아요. 김민준!",
+      "reading": "Hanguk sarameun ireumi jjalbayo. Gim Minjun!"
+    },
+    {
+      "speaker": "a",
+      "text": "와, 짧아요!",
+      "reading": "Wa, jjalbayo!"
+    }
+  ]
+}

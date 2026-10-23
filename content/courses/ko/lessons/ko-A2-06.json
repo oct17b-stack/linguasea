@@ -1,0 +1,107 @@
+{
+  "id": "ko-A2-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.syl-gyo",
+      "kind": "syllable",
+      "text": "교",
+      "reading": "gyo"
+    },
+    {
+      "id": "ko.syl-nyu",
+      "kind": "syllable",
+      "text": "뉴",
+      "reading": "nyu"
+    },
+    {
+      "id": "ko.nai",
+      "text": "나이",
+      "reading": "nai"
+    },
+    {
+      "id": "ko.imo",
+      "text": "이모",
+      "reading": "imo"
+    },
+    {
+      "id": "ko.goguma",
+      "text": "고구마",
+      "reading": "goguma"
+    },
+    {
+      "id": "ko.ama",
+      "text": "아마",
+      "reading": "ama"
+    }
+  ],
+  "dialogue": [],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "ko.syl-gyo",
+      "options": [
+        "ko.syl-go",
+        "ko.syl-gu"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-gyo"
+    },
+    {
+      "type": "listen-text",
+      "item": "ko.syl-nyu",
+      "options": [
+        "ko.syl-no",
+        "ko.syl-ru"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.syl-nyu"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.nai"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.nai"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.imo"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.imo"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.goguma"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.goguma"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "ko.ama"
+    },
+    {
+      "type": "listen-choose",
+      "item": "ko.ama"
+    },
+    {
+      "type": "speak",
+      "item": "ko.syl-gyo"
+    },
+    {
+      "type": "speak",
+      "item": "ko.goguma"
+    }
+  ]
+}

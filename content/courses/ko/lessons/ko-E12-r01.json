@@ -1,0 +1,106 @@
+{
+  "id": "ko-E12-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.jongjeom",
+      "text": "종점",
+      "reading": "jongjeom"
+    },
+    {
+      "id": "ko.bandae-banghyang",
+      "text": "반대 방향",
+      "reading": "bandae banghyang",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jami-kkaeda",
+      "text": "잠이 깨다",
+      "reading": "jami kkaeda",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "지난 금요일, 남은 친구를 만나러 대전에 가는 고속버스를 탔다.",
+        "reading": "Jinan geumyoil, Nameun chingureul mannareo Daejeone ganeun gosokbeoseureul tatda."
+      },
+      {
+        "text": "일주일 동안 시험 때문에 잠을 잘 못 자서 너무 피곤했다.",
+        "reading": "Iljuil dongan siheom ttaemune jameul jal mot jaseo neomu pigonhaetda."
+      },
+      {
+        "text": "그래서 버스가 출발하자마자 잠이 들었다.",
+        "reading": "Geuraeseo beoseuga chulbalhajamaja jami deureotda."
+      }
+    ],
+    [
+      {
+        "text": "얼마나 잤을까?",
+        "reading": "Eolmana jasseulkka?"
+      },
+      {
+        "text": "기사님의 목소리에 남은 잠이 깼다.",
+        "reading": "Gisanimui moksorie Nameun jami kkaetda."
+      },
+      {
+        "text": "\"손님, 종점이에요. 내리셔야 돼요.\"",
+        "reading": "\"Sonnim, jongjeomieyo. Naerisyeoya dwaeyo.\""
+      },
+      {
+        "text": "창문 밖을 보니 처음 보는 도시였다.",
+        "reading": "Changmun bakkeul boni cheoeum boneun dosiyeotda."
+      },
+      {
+        "text": "남이 탄 버스는 대전이 아니라 광주에 가는 버스였다!",
+        "reading": "Nami tan beoseuneun Daejeoni anira Gwangjue ganeun beoseuyeotda!"
+      }
+    ],
+    [
+      {
+        "text": "터미널에서 버스를 잘못 탄 것이었다.",
+        "reading": "Teomineoreseo beoseureul jalmot tan geosieotda."
+      },
+      {
+        "text": "남은 너무 당황해서 친구에게 전화를 걸었다.",
+        "reading": "Nameun neomu danghwanghaeseo chinguege jeonhwareul georeotda."
+      },
+      {
+        "text": "친구는 처음에는 걱정했지만 이야기를 다 듣고 웃음을 참지 못했다.",
+        "reading": "Chinguneun cheoeumeneun geokjeonghaetjiman iyagireul da deutgo useumeul chamji motaetda."
+      }
+    ],
+    [
+      {
+        "text": "남은 반대 방향으로 가는 버스를 다시 타야 했다.",
+        "reading": "Nameun bandae banghyangeuro ganeun beoseureul dasi taya haetda."
+      },
+      {
+        "text": "결국 대전에는 밤 열한 시에 도착했다.",
+        "reading": "Gyeolguk Daejeoneneun bam yeolhan sie dochakaetda."
+      },
+      {
+        "text": "그날부터 남은 버스를 타기 전에 꼭 두 번 확인한다.",
+        "reading": "Geunalbuteo Nameun beoseureul tagi jeone kkok du beon hwaginhanda."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

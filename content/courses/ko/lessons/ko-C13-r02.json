@@ -1,0 +1,81 @@
+{
+  "id": "ko-C13-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.kkamjjak-pati",
+      "kind": "phrase",
+      "text": "깜짝 파티",
+      "reading": "kkamjjak pati"
+    },
+    {
+      "id": "ko.mollae",
+      "text": "몰래",
+      "reading": "mollae"
+    },
+    {
+      "id": "ko.chotbureul-kkeuda",
+      "kind": "phrase",
+      "text": "촛불을 끄다",
+      "reading": "chotbureul kkeuda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "시월 구일은 민준 씨 생일이에요.",
+        "reading": "Siwol guireun Minjun ssi saengirieyo."
+      },
+      {
+        "text": "남 씨는 민준 씨 친구들이랑 깜짝 파티를 준비했어요.",
+        "reading": "Nam ssineun Minjun ssi chingudeurirang kkamjjak patireul junbihaesseoyo."
+      },
+      {
+        "text": "친구들은 민준 씨 몰래 케이크하고 선물을 샀어요.",
+        "reading": "Chingudeureun Minjun ssi mollae keikeuhago seonmureul sasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "저녁에 남 씨가 민준 씨한테 전화했어요.",
+        "reading": "Jeonyeoge Nam ssiga Minjun ssihante jeonhwahaesseoyo."
+      },
+      {
+        "text": "\"민준 씨, 기숙사 앞으로 잠깐 와 줄래요?\"",
+        "reading": "\"Minjun ssi, gisuksa apeuro jamkkan wa jullaeyo?\""
+      },
+      {
+        "text": "민준 씨가 왔을 때 모두 \"생일 축하해요!\"라고 했어요.",
+        "reading": "Minjun ssiga wasseul ttae modu \"Saengil chukahaeyo!\"rago haesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준 씨는 깜짝 놀랐어요.",
+        "reading": "Minjun ssineun kkamjjak nollasseoyo."
+      },
+      {
+        "text": "그리고 소원을 빌고 촛불을 껐어요.",
+        "reading": "Geurigo sowoneul bilgo chotbureul kkeosseoyo."
+      },
+      {
+        "text": "민준 씨는 정말 감동했어요.",
+        "reading": "Minjun ssineun jeongmal gamdonghaesseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ko-F2-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.meogida",
+      "text": "먹이다",
+      "reading": "meogida"
+    },
+    {
+      "id": "ko.ipida",
+      "text": "입히다",
+      "reading": "ipida"
+    },
+    {
+      "id": "ko.jaeuda",
+      "text": "재우다",
+      "reading": "jaeuda"
+    },
+    {
+      "id": "ko.ssitgida",
+      "text": "씻기다",
+      "reading": "ssitgida"
+    },
+    {
+      "id": "ko.dolboda",
+      "text": "돌보다",
+      "reading": "dolboda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 주말에 뭐 했어요?",
+      "reading": "Minjun ssi, jumare mwo haesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "누나가 일이 있어서 제가 하루 종일 누나 아기를 돌봤어요.",
+      "reading": "Nunaga iri isseoseo jega haru jongil nuna agireul dolbwasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 힘들었겠어요. 아기가 몇 살이에요?",
+      "reading": "Wa, himdeureotgesseoyo. Agiga myeot sarieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이제 두 살이에요. 아침에 밥을 먹이는 것부터 쉽지 않았어요.",
+      "reading": "Ije du sarieyo. Achime babeul meogineun geotbuteo swipji anasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아기들은 잘 안 먹으려고 하지요?",
+      "reading": "Agideureun jal an meogeuryeogo hajiyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그래서 노래를 불러 주면서 겨우 먹였어요. 그다음에는 옷을 입히고 공원에 데려갔어요.",
+      "reading": "Ne, geuraeseo noraereul bulleo jumyeonseo gyeou meogyeosseoyo. Geudaeumeneun oseul ipigo gongwone deryeogasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "공원에서 놀고 나서 옷이 엉망이 됐겠네요.",
+      "reading": "Gongwoneseo nolgo naseo osi eongmangi dwaetgenneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 그래서 집에 와서 목욕을 시키고 손발도 깨끗하게 씻겼어요.",
+      "reading": "Majayo. Geuraeseo jibe waseo mogyogeul sikigo sonbaldo kkaekkeutage ssitgyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "낮잠도 재웠어요?",
+      "reading": "Natjamdo jaewosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "재우려고 했는데 안 자고 계속 울어서 저도 같이 울고 싶었어요.",
+      "reading": "Jaeuryeogo haenneunde an jago gyesok ureoseo jeodo gachi ulgo sipeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아기를 돌보는 건 정말 힘든 일이네요.",
+      "reading": "Agireul dolboneun geon jeongmal himdeun irineyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래도 아기가 저를 보고 웃을 때는 정말 행복했어요.",
+      "reading": "Geuraedo agiga jeoreul bogo useul ttaeneun jeongmal haengbokaesseoyo."
+    }
+  ]
+}

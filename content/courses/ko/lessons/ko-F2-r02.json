@@ -1,0 +1,128 @@
+{
+  "id": "ko-F2-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.daegajok",
+      "text": "대가족",
+      "reading": "daegajok"
+    },
+    {
+      "id": "ko.haekgajok",
+      "text": "핵가족",
+      "reading": "haekgajok"
+    },
+    {
+      "id": "ko.mosigo-salda",
+      "text": "모시고 살다",
+      "reading": "mosigo salda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.hyodo",
+      "text": "효도",
+      "reading": "hyodo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민트 씨, 잘 지내고 있지요?",
+        "reading": "Minteu ssi, jal jinaego itjiyo?"
+      },
+      {
+        "text": "저는 한국에 온 지 벌써 일 년이 넘었어요.",
+        "reading": "Jeoneun Hanguge on ji beolsseo il nyeoni neomeosseoyo."
+      },
+      {
+        "text": "지난 주말에는 민준 씨 집에 초대받아서 가족들과 함께 저녁을 먹었어요.",
+        "reading": "Jinan jumareneun Minjun ssi jibe chodaebadaseo gajokdeulgwa hamkke jeonyeogeul meogeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준 씨는 부모님, 누나와 함께 할머니를 모시고 살아요.",
+        "reading": "Minjun ssineun bumonim, nunawa hamkke halmeonireul mosigo sarayo."
+      },
+      {
+        "text": "할머니까지 세 세대가 같이 사는 집은 요즘 한국에서 많지 않대요.",
+        "reading": "Halmeonikkaji se sedaega gachi saneun jibeun yojeum Hangugeseo manchi antaeyo."
+      },
+      {
+        "text": "옛날에는 대가족이 많았지만, 지금은 대부분 핵가족이래요.",
+        "reading": "Yennareneun daegajogi manatjiman, jigeumeun daebubun haekgajogiraeyo."
+      },
+      {
+        "text": "민준 씨 부모님은 할머니께 효도하는 것을 아주 중요하게 생각하세요.",
+        "reading": "Minjun ssi bumonimeun halmeonikke hyodohaneun geoseul aju jungyohage saenggakaseyo."
+      },
+      {
+        "text": "밥을 먹을 때도 할머니께서 먼저 드신 후에 다른 가족들이 먹기 시작했어요.",
+        "reading": "Babeul meogeul ttaedo halmeonikkeseo meonjeo deusin hue dareun gajokdeuri meokgi sijakaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "태국은 어때요?",
+        "reading": "Taegugeun eottaeyo?"
+      },
+      {
+        "text": "우리 집은 네 명이 사는 핵가족이지만, 태국에 있을 때는 외할머니 댁에 주말마다 갔잖아요.",
+        "reading": "Uri jibeun ne myeongi saneun haekgajogijiman, Taeguge isseul ttaeneun oehalmeoni daege jumalmada gatjanayo."
+      },
+      {
+        "text": "태국에서도 방콕 같은 큰 도시에서는 핵가족이 늘어나고 있어요.",
+        "reading": "Taegugeseodo Bangkok gateun keun dosieseoneun haekgajogi neureonago isseoyo."
+      },
+      {
+        "text": "그래도 시골에는 아직 대가족이 함께 사는 집이 많지요.",
+        "reading": "Geuraedo sigoreneun ajik daegajogi hamkke saneun jibi manchiyo."
+      }
+    ],
+    [
+      {
+        "text": "한국에서는 결혼 전까지 부모님과 같이 사는 사람도 많지만, 대학에 가면서 독립하는 사람도 많아요.",
+        "reading": "Hangugeseoneun gyeolhon jeonkkaji bumonimgwa gachi saneun saramdo manchiman, daehage gamyeonseo dongnipaneun saramdo manayo."
+      },
+      {
+        "text": "그래도 부모님께 자주 연락하고 용돈을 드리는 것을 효도라고 생각해요.",
+        "reading": "Geuraedo bumonimkke jaju yeollakago yongdoneul deurineun geoseul hyodorago saenggakaeyo."
+      },
+      {
+        "text": "저도 방콕에 계신 부모님께 더 자주 전화해야겠다고 생각했어요.",
+        "reading": "Jeodo Bangkoge gyesin bumonimkke deo jaju jeonhwahaeyagetdago saenggakaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민트 씨 가족은 다들 잘 지내지요?",
+        "reading": "Minteu ssi gajogeun dadeul jal jinaejiyo?"
+      },
+      {
+        "text": "다음 방학에 태국에 가면 꼭 만나요.",
+        "reading": "Daeum banghage Taeguge gamyeon kkok mannayo."
+      },
+      {
+        "text": "답장 기다릴게요.",
+        "reading": "Dapjang gidarilgeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

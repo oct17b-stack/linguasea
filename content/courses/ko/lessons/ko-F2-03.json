@@ -1,0 +1,96 @@
+{
+  "id": "ko-F2-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.chulsannyul",
+      "text": "출산율",
+      "reading": "chulsannyul"
+    },
+    {
+      "id": "ko.jeochulsan",
+      "text": "저출산",
+      "reading": "jeochulsan"
+    },
+    {
+      "id": "ko.yuga",
+      "text": "육아",
+      "reading": "yuga"
+    },
+    {
+      "id": "ko.yangyukbi",
+      "text": "양육비",
+      "reading": "yangyukbi"
+    },
+    {
+      "id": "ko.matbeori",
+      "text": "맞벌이",
+      "reading": "matbeori"
+    },
+    {
+      "id": "ko.gyeongnyeok-danjeol",
+      "text": "경력 단절",
+      "reading": "gyeongnyeok danjeol",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 이 기사 첫 줄 좀 읽어 볼래요?",
+      "reading": "Nam ssi, i gisa cheot jul jom ilgeo bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"물가가 계속 오르는 가운데 출산율이 또 낮아졌다.\"",
+      "reading": "\"Mulgaga gyesok oreuneun gaunde chulsannyuri tto najajyeotda.\""
+    },
+    {
+      "speaker": "c",
+      "text": "잘 읽었어요. '-는 가운데'는 어떤 상황이 계속되고 있을 때 쓰는 표현이에요.",
+      "reading": "Jal ilgeosseoyo. '-neun gaunde'neun eotteon sanghwangi gyesokdoego isseul ttae sseuneun pyohyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 물가가 오르는 상황에서 출산율이 낮아졌다는 거군요.",
+      "reading": "A, mulgaga oreuneun sanghwangeseo chulsannyuri najajyeotdaneun geogunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 한국에서는 저출산이 큰 사회 문제예요.",
+      "reading": "Majayo. Hangugeseoneun jeochulsani keun sahoe munjeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜 아이를 적게 낳아요?",
+      "reading": "Wae aireul jeokge naayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "여러 이유가 있지만, 양육비가 너무 많이 드는 게 가장 큰 이유예요.",
+      "reading": "Yeoreo iyuga itjiman, yangyukbiga neomu mani deuneun ge gajang keun iyuyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "육아도 힘들지요. 요즘은 맞벌이를 하는 집이 많잖아요.",
+      "reading": "Yugado himdeuljiyo. Yojeumeun matbeorireul haneun jibi manchanayo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 엄마 아빠가 모두 일하는 가운데 아이를 봐 줄 사람이 없는 경우가 많아요.",
+      "reading": "Ne, eomma appaga modu ilhaneun gaunde aireul bwa jul sarami eomneun gyeonguga manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 일을 그만두는 엄마들도 있다고 들었어요.",
+      "reading": "Geuraeseo ireul geumanduneun eommadeuldo itdago deureosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 그걸 경력 단절이라고 해요. 요즘은 아빠들도 육아에 많이 참여하는 가운데 상황이 조금씩 나아지고 있어요.",
+      "reading": "Majayo. Geugeol gyeongnyeok danjeorirago haeyo. Yojeumeun appadeuldo yugae mani chamyeohaneun gaunde sanghwangi jogeumssik naajigo isseoyo."
+    }
+  ]
+}

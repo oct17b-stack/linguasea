@@ -1,0 +1,76 @@
+{
+  "id": "ko-C14-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.gwansim",
+      "text": "관심",
+      "reading": "gwansim"
+    },
+    {
+      "id": "ko.aidol",
+      "text": "아이돌",
+      "reading": "aidol"
+    },
+    {
+      "id": "ko.paen",
+      "text": "팬",
+      "reading": "paen"
+    },
+    {
+      "id": "ko.ingiga-manta",
+      "kind": "phrase",
+      "text": "인기가 많다",
+      "reading": "ingiga manta"
+    },
+    {
+      "id": "ko.gasu",
+      "text": "가수",
+      "reading": "gasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 한국 노래에 관심이 많아요?",
+      "reading": "Nam ssineun Hanguk noraee gwansimi manayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 많아요. 저는 한국 아이돌 팬이에요.",
+      "reading": "Ne, jeongmal manayo. Jeoneun Hanguk aidol paenieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 누구를 좋아해요?",
+      "reading": "Wa, nugureul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "블루문이요. 태국에서도 인기가 정말 많아요.",
+      "reading": "Beullumuniyo. Taegugeseodo ingiga jeongmal manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 저도 알아요. 그 가수들은 노래도 잘하고 춤도 잘 춰요.",
+      "reading": "A, jeodo arayo. Geu gasudeureun noraedo jalhago chumdo jal chwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요! 민준 씨는 아이돌에 관심이 없어요?",
+      "reading": "Majayo! Minjun ssineun aidore gwansimi eopseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 아이돌보다 영화에 관심이 많아요.",
+      "reading": "Jeoneun aidolboda yeonghwae gwansimi manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 다음에 같이 한국 영화 봐요!",
+      "reading": "Geureom daeume gachi Hanguk yeonghwa bwayo!"
+    }
+  ]
+}

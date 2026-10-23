@@ -1,0 +1,71 @@
+{
+  "id": "ko-C12-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.naeryeogada",
+      "text": "내려가다",
+      "reading": "naeryeogada"
+    },
+    {
+      "id": "ko.ollaoda",
+      "text": "올라오다",
+      "reading": "ollaoda"
+    },
+    {
+      "id": "ko.giri-makida",
+      "kind": "phrase",
+      "text": "길이 막히다",
+      "reading": "giri makida"
+    },
+    {
+      "id": "ko.seongmyo",
+      "text": "성묘",
+      "reading": "seongmyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 우리 부산에 언제 내려가요?",
+      "reading": "Minjun ssi, uri Busane eonje naeryeogayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "목요일 아침에 내려가요. 고속버스로 다섯 시간쯤 걸려요.",
+      "reading": "Mogyoil achime naeryeogayo. Gosokbeoseuro daseot siganjjeum geollyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "명절에는 길이 많이 막히지요?",
+      "reading": "Myeongjeoreneun giri mani makijiyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 많이 막혀요. 그래서 아침을 먹고 일찍 가요.",
+      "reading": "Ne, mani makyeoyo. Geuraeseo achimeul meokgo iljjik gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "부산에서는 뭐 해요?",
+      "reading": "Busaneseoneun mwo haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "추석 아침에 차례를 지내고 성묘를 가요.",
+      "reading": "Chuseok achime charyereul jinaego seongmyoreul gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "성묘요? 저도 같이 가도 돼요?",
+      "reading": "Seongmyoyo? Jeodo gachi gado dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "물론이죠. 그리고 일요일에 점심을 먹고 서울로 올라와요.",
+      "reading": "Mullonijyo. Geurigo iryoire jeomsimeul meokgo Seoullo ollawayo."
+    }
+  ]
+}

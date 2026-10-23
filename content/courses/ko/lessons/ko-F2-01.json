@@ -1,0 +1,96 @@
+{
+  "id": "ko-F2-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.goryeonghwa",
+      "text": "고령화",
+      "reading": "goryeonghwa"
+    },
+    {
+      "id": "ko.pyeonggyun-sumyeong",
+      "text": "평균 수명",
+      "reading": "pyeonggyun sumyeong",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.nohu",
+      "text": "노후",
+      "reading": "nohu"
+    },
+    {
+      "id": "ko.yeongeum",
+      "text": "연금",
+      "reading": "yeongeum"
+    },
+    {
+      "id": "ko.buyang-hada",
+      "text": "부양하다",
+      "reading": "buyanghada"
+    },
+    {
+      "id": "ko.geupjeung-hada",
+      "text": "급증하다",
+      "reading": "geupjeunghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "오늘은 고령화에 대해 글을 써 볼 거예요. 남 씨, 고령화가 무슨 뜻인지 알아요?",
+      "reading": "Oneureun goryeonghwae daehae geureul sseo bol geoyeyo. Nam ssi, goryeonghwaga museun tteusinji arayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 노인 인구가 많아지는 거지요?",
+      "reading": "Ne, noin inguga manajineun geojiyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 한국은 평균 수명이 길어짐에 따라 노인 인구가 빠르게 늘고 있어요.",
+      "reading": "Majayo. Hangugeun pyeonggyun sumyeongi gireojime ttara noin inguga ppareuge neulgo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국도 비슷해요. 기술이 발달함에 따라 오래 사는 사람이 많아졌어요.",
+      "reading": "Taegukdo biseutaeyo. Gisuri baldalhame ttara orae saneun sarami manajyeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 노인 인구가 많아지면 어떤 문제가 생길까요?",
+      "reading": "Geureom noin inguga manajimyeon eotteon munjega saenggilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "연금을 받을 사람은 많아지는데 연금을 낼 사람은 적어져요.",
+      "reading": "Yeongeumeul badeul sarameun manajineunde yeongeumeul nael sarameun jeogeojyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋은 생각이에요. 그래서 노후 준비가 더 중요해졌어요.",
+      "reading": "Joeun saenggagieyo. Geuraeseo nohu junbiga deo jungyohaejyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한국에서는 나이 드신 부모님을 보통 아들딸이 부양해요?",
+      "reading": "Hangugeseoneun nai deusin bumonimeul botong adeulttari buyanghaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "옛날에는 그랬지만, 요즘은 직접 노후를 준비하는 사람이 많아요.",
+      "reading": "Yennareneun geuraetjiman, yojeumeun jikjeop nohureul junbihaneun sarami manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 이렇게 써도 돼요? \"고령화가 진행됨에 따라 노후를 미리 준비하는 사람이 급증하고 있다.\"",
+      "reading": "Geureom ireoke sseodo dwaeyo? \"Goryeonghwaga jinhaengdoeme ttara nohureul miri junbihaneun sarami geupjeunghago itda.\""
+    },
+    {
+      "speaker": "c",
+      "text": "아주 좋아요. 거기에 연금 이야기도 넣어 보세요.",
+      "reading": "Aju joayo. Geogie yeongeum iyagido neoeo boseyo."
+    }
+  ]
+}

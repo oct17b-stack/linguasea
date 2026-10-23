@@ -1,0 +1,60 @@
+{
+  "id": "ko-A3-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.taegugeo",
+      "text": "태국어",
+      "reading": "taegugeo"
+    },
+    {
+      "id": "ko.yeongeo",
+      "text": "영어",
+      "reading": "yeongeo"
+    },
+    {
+      "id": "ko.junggugeo",
+      "text": "중국어",
+      "reading": "junggugeo"
+    },
+    {
+      "id": "ko.malhaeyo",
+      "text": "말해요",
+      "reading": "malhaeyo"
+    },
+    {
+      "id": "ko.jogeum",
+      "text": "조금",
+      "reading": "jogeum"
+    },
+    {
+      "id": "ko.jalhaeyo",
+      "text": "잘해요",
+      "reading": "jalhaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국어 잘해요!",
+      "reading": "Nam ssi, hangugeo jalhaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아니에요. 조금 말해요.",
+      "reading": "Anieyo. Jogeum malhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "영어도 말해요?",
+      "reading": "Yeongeodo malhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국어, 영어 말해요. 중국어도 조금 말해요.",
+      "reading": "Ne, taegugeo, yeongeo malhaeyo. Junggugeodo jogeum malhaeyo."
+    }
+  ]
+}

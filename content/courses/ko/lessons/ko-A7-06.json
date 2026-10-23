@@ -1,0 +1,55 @@
+{
+  "id": "ko-A7-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.donggeurami",
+      "text": "동그라미",
+      "reading": "donggeurami"
+    },
+    {
+      "id": "ko.nemo",
+      "text": "네모",
+      "reading": "nemo"
+    },
+    {
+      "id": "ko.semo",
+      "text": "세모",
+      "reading": "semo"
+    },
+    {
+      "id": "ko.hateu",
+      "text": "하트",
+      "reading": "hateu"
+    },
+    {
+      "id": "ko.byeol",
+      "text": "별",
+      "reading": "byeol"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 빨간색 하트 하나 주세요.",
+      "reading": "Jeogiyo, ppalgansaek hateu hana juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어? 하트가 아니에요. 동그라미예요!",
+      "reading": "Eo? Hateuga anieyo. Donggeuramiyeyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "아, 죄송합니다! 여기요, 하트예요.",
+      "reading": "A, joesonghamnida! Yeogiyo, hateuyeyo."
+    }
+  ]
+}

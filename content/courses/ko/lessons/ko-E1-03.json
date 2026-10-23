@@ -1,0 +1,91 @@
+{
+  "id": "ko-E1-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.eommu",
+      "text": "업무",
+      "reading": "eommu"
+    },
+    {
+      "id": "ko.seonggwa",
+      "text": "성과",
+      "reading": "seonggwa"
+    },
+    {
+      "id": "ko.apeuro",
+      "text": "앞으로",
+      "reading": "apeuro"
+    },
+    {
+      "id": "ko.choeseoneul-da-hada",
+      "kind": "phrase",
+      "text": "최선을 다하다",
+      "reading": "choeseoneul dahada"
+    },
+    {
+      "id": "ko.yeoljeong",
+      "text": "열정",
+      "reading": "yeoljeong"
+    },
+    {
+      "id": "ko.bogoseo",
+      "text": "보고서",
+      "reading": "bogoseo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 주 업무를 보고해 주세요.",
+      "reading": "Nam ssi, ibeon ju eommureul bogohae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 팀장님. 이번 주에는 태국 고객들의 이메일에 답장을 했습니다.",
+      "reading": "Ne, timjangnim. Ibeon jueneun Taeguk gogaekdeurui imeire dapjangeul haetseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 금요일에 회의 보고서를 다 썼습니다.",
+      "reading": "Geurigo geumyoire hoeui bogoseoreul da sseotseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "보고서는 저도 읽었어요. 아주 잘 썼어요.",
+      "reading": "Bogoseoneun jeodo ilgeosseoyo. Aju jal sseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "인턴이지만 이번 주 성과가 정말 좋아요.",
+      "reading": "Inteonijiman ibeon ju seonggwaga jeongmal joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 다음 주에는 태국 고객과의 회의를 준비하겠습니다.",
+      "reading": "Gamsahamnida. Daeum jueneun Taeguk gogaekgwaui hoeuireul junbihagetseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 앞으로 업무가 더 많아질 거예요.",
+      "reading": "Joayo. Apeuro eommuga deo manajil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 앞으로도 최선을 다하겠습니다.",
+      "reading": "Ne, apeurodo choeseoneul dahagetseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨는 열정이 정말 많아요.",
+      "reading": "Nam ssineun yeoljeongi jeongmal manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 회의가 끝나면 다시 보고드리겠습니다.",
+      "reading": "Gamsahamnida. Hoeuiga kkeunnamyeon dasi bogodeurigetseumnida."
+    }
+  ]
+}

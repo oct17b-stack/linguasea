@@ -1,0 +1,71 @@
+{
+  "id": "ko-C12-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.saehae-bok-mani-badeuseyo",
+      "kind": "phrase",
+      "text": "새해 복 많이 받으세요",
+      "reading": "saehae bok mani badeuseyo"
+    },
+    {
+      "id": "ko.jeulgeopda",
+      "text": "즐겁다",
+      "reading": "jeulgeopda"
+    },
+    {
+      "id": "ko.pungseup",
+      "text": "풍습",
+      "reading": "pungseup"
+    },
+    {
+      "id": "ko.moida",
+      "text": "모이다",
+      "reading": "moida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 내일부터 추석 연휴지요?",
+      "reading": "Seonsaengnim, naeilbuteo chuseok yeonhyujiyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 가족들이 모두 모이는 날이에요. 남 씨는 어디에 가요?",
+      "reading": "Ne, gajokdeuri modu moineun narieyo. Nam ssineun eodie gayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨 가족하고 부산에 가요. 한국의 추석 풍습을 보고 싶어요.",
+      "reading": "Minjun ssi gajokhago Busane gayo. Hangugui chuseok pungseubeul bogo sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋네요. 송편도 많이 먹고 오세요.",
+      "reading": "Jonneyo. Songpyeondo mani meokgo oseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 선생님, 즐거운 추석 보내세요.",
+      "reading": "Ne! Seonsaengnim, jeulgeoun chuseok bonaeseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "고마워요. 남 씨도 즐거운 추석 보내세요.",
+      "reading": "Gomawoyo. Nam ssido jeulgeoun chuseok bonaeseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 설날에는 뭐라고 인사해요?",
+      "reading": "Geureonde seollareneun mworago insahaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "설날에는 \"새해 복 많이 받으세요.\"라고 해요.",
+      "reading": "Seollareneun \"Saehae bok mani badeuseyo.\"rago haeyo."
+    }
+  ]
+}

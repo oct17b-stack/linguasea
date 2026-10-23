@@ -1,0 +1,50 @@
+{
+  "id": "ko-A10-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.bang",
+      "text": "방",
+      "reading": "bang"
+    },
+    {
+      "id": "ko.geosil",
+      "text": "거실",
+      "reading": "geosil"
+    },
+    {
+      "id": "ko.chimsil",
+      "text": "침실",
+      "reading": "chimsil"
+    },
+    {
+      "id": "ko.yoksil",
+      "text": "욕실",
+      "reading": "yoksil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 남 씨 방이에요?",
+      "reading": "Nam ssi, ige Nam ssi bangieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 거실이에요.",
+      "reading": "Aniyo, geosirieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 거실이에요? 침실은요?",
+      "reading": "A, geosirieyo? Chimsireunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "잠깐만요… 침실이에요! 욕실은 침실 안이에요.",
+      "reading": "Jamkkanmanyo… Chimsirieyo! Yoksireun chimsil anieyo."
+    }
+  ]
+}

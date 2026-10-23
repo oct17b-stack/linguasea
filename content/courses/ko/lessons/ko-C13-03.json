@@ -1,0 +1,70 @@
+{
+  "id": "ko-C13-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.kkumida",
+      "text": "꾸미다",
+      "reading": "kkumida"
+    },
+    {
+      "id": "ko.pungseon",
+      "text": "풍선",
+      "reading": "pungseon"
+    },
+    {
+      "id": "ko.billida",
+      "text": "빌리다",
+      "reading": "billida"
+    },
+    {
+      "id": "ko.omgida",
+      "text": "옮기다",
+      "reading": "omgida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 일찍 왔네요! 좀 도와줄래요?",
+      "reading": "Nam ssi, iljjik wanneyo! Jom dowajullaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "물론이죠. 뭐 할까요?",
+      "reading": "Mullonijyo. Mwo halkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이 풍선으로 거실을 꾸며 줄래요?",
+      "reading": "I pungseoneuro geosireul kkumyeo jullaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 와, 풍선이 정말 많네요!",
+      "reading": "Ne. Wa, pungseoni jeongmal manneyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 이 테이블을 창문 옆으로 옮겨 줄래요?",
+      "reading": "Geurigo i teibeureul changmun yeopeuro omgyeo jullaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좀 무거워요. 같이 옮겨요. 그런데 의자가 좀 모자라요.",
+      "reading": "Jom mugeowoyo. Gachi omgyeoyo. Geureonde uijaga jom mojarayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 옆집에서 의자를 빌렸어요.",
+      "reading": "Gwaenchanayo. Yeopjibeseo uijareul billyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 준비가 다 됐네요!",
+      "reading": "Geureom junbiga da dwaenneyo!"
+    }
+  ]
+}

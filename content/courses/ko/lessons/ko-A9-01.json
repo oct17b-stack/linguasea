@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.yeonpil",
+      "text": "연필",
+      "reading": "yeonpil"
+    },
+    {
+      "id": "ko.bolpen",
+      "text": "볼펜",
+      "reading": "bolpen"
+    },
+    {
+      "id": "ko.gongchaek",
+      "text": "공책",
+      "reading": "gongchaek"
+    },
+    {
+      "id": "ko.jiugae",
+      "text": "지우개",
+      "reading": "jiugae"
+    },
+    {
+      "id": "ko.piltong",
+      "text": "필통",
+      "reading": "piltong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 볼펜 빌려주세요.",
+      "reading": "Nam ssi, bolpen billyeojuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "볼펜이요? 연필 괜찮아요?",
+      "reading": "Bolpeniyo? Yeonpil gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 괜찮아요. 지우개도 빌려주세요.",
+      "reading": "Ne, gwaenchanayo. Jiugaedo billyeojuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "지우개는 필통 안이에요.",
+      "reading": "Jiugaeneun piltong anieyo."
+    }
+  ]
+}

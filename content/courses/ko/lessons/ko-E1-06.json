@@ -1,0 +1,95 @@
+{
+  "id": "ko-E1-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.haengsa",
+      "text": "행사",
+      "reading": "haengsa"
+    },
+    {
+      "id": "ko.gaechoe-hada",
+      "text": "개최하다",
+      "reading": "gaechoehada"
+    },
+    {
+      "id": "ko.ilsi",
+      "text": "일시",
+      "reading": "ilsi"
+    },
+    {
+      "id": "ko.machida-finish",
+      "text": "마치다",
+      "reading": "machida"
+    },
+    {
+      "id": "ko.yeongidoeda",
+      "text": "연기되다",
+      "reading": "yeongidoeda"
+    },
+    {
+      "id": "ko.ginyeomsik",
+      "text": "기념식",
+      "reading": "ginyeomsik"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "실례합니다. 다음 달에 유학생 행사가 있습니까?",
+      "reading": "Sillyehamnida. Daeum dare yuhaksaeng haengsaga itseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 국제 문화 축제를 개최할 예정입니다.",
+      "reading": "Ne, gukje munhwa chukjereul gaechoehal yejeongimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "일시가 어떻게 됩니까?",
+      "reading": "Ilsiga eotteoke doemnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "다음 달 십오 일 오후 두 시에 시작할 예정입니다.",
+      "reading": "Daeum dal sibo il ohu du sie sijakal yejeongimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 유학생 센터가 생긴 지 십 년이 돼서 기념식도 할 예정입니다.",
+      "reading": "Geurigo yuhaksaeng senteoga saenggin ji sip nyeoni dwaeseo ginyeomsikdo hal yejeongimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 시에 마칠 예정입니까?",
+      "reading": "Myeot sie machil yejeongimnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "다섯 시쯤 마칠 예정입니다.",
+      "reading": "Daseot sijjeum machil yejeongimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 비가 많이 오면 행사가 다음 주로 연기될 수도 있습니다.",
+      "reading": "Geureonde biga mani omyeon haengsaga daeum juro yeongidoel sudo itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 연기되면 어떻게 알 수 있습니까?",
+      "reading": "Geureom yeongidoemyeon eotteoke al su itseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 앱으로 알려 드릴 예정입니다.",
+      "reading": "Hakgyo aebeuro allyeo deuril yejeongimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠습니다. 감사합니다.",
+      "reading": "Ne, algetseumnida. Gamsahamnida."
+    }
+  ]
+}

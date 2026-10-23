@@ -1,0 +1,110 @@
+{
+  "id": "ko-E11-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.hageop",
+      "text": "학업",
+      "reading": "hageop"
+    },
+    {
+      "id": "ko.byeonghaeng-hada",
+      "text": "병행하다",
+      "reading": "byeonghaenghada"
+    },
+    {
+      "id": "ko.jijang",
+      "text": "지장",
+      "reading": "jijang"
+    },
+    {
+      "id": "ko.sahoe-gyeongheom",
+      "text": "사회 경험",
+      "reading": "sahoe gyeongheom",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "요즘 아르바이트를 하는 대학생이 많다.",
+        "reading": "Yojeum areubaiteureul haneun daehaksaengi manta."
+      },
+      {
+        "text": "한 조사에 따르면 대학생 두 명 중 한 명이 학업과 아르바이트를 병행하고 있다.",
+        "reading": "Han josae ttareumyeon daehaksaeng du myeong jung han myeongi hageopgwa areubaiteureul byeonghaenghago itda."
+      },
+      {
+        "text": "그렇다면 대학생 아르바이트는 바람직할까?",
+        "reading": "Geureotamyeon daehaksaeng areubaiteuneun baramjikalkka?"
+      }
+    ],
+    [
+      {
+        "text": "먼저 아르바이트의 장점을 생각해 보자.",
+        "reading": "Meonjeo areubaiteuui jangjeomeul saenggakae boja."
+      },
+      {
+        "text": "아르바이트를 하면 생활비를 직접 벌 수 있다.",
+        "reading": "Areubaiteureul hamyeon saenghwalbireul jikjeop beol su itda."
+      },
+      {
+        "text": "게다가 학교에서는 배울 수 없는 사회 경험을 쌓을 수 있다.",
+        "reading": "Gedaga hakgyoeseoneun baeul su eomneun sahoe gyeongheomeul ssaeul su itda."
+      },
+      {
+        "text": "예를 들면 손님에게 말하는 방법이나 동료와 협력하는 방법을 배우게 된다.",
+        "reading": "Yereul deulmyeon sonnimege malhaneun bangbeobina dongnyowa hyeomnyeokaneun bangbeobeul baeuge doenda."
+      }
+    ],
+    [
+      {
+        "text": "한편 아르바이트가 학업에 지장을 준다는 의견도 있다.",
+        "reading": "Hanpyeon areubaiteuga hageobe jijangeul jundaneun uigyeondo itda."
+      },
+      {
+        "text": "밤늦게까지 일하면 다음 날 수업에 집중하기 어렵기 때문이다.",
+        "reading": "Bamneutgekkaji ilhamyeon daeum nal sueobe jipjunghagi eoryeopgi ttaemunida."
+      },
+      {
+        "text": "실제로 일주일에 20시간 넘게 일하는 학생들은 성적이 낮은 편이었다.",
+        "reading": "Siljero iljuire isip sigan neomge ilhaneun haksaengdeureun seongjeogi najeun pyeonieotda."
+      }
+    ],
+    [
+      {
+        "text": "나는 대학생 아르바이트에 찬성한다.",
+        "reading": "Naneun daehaksaeng areubaiteue chanseonghanda."
+      },
+      {
+        "text": "그러나 학업에 지장을 주지 않을 만큼만 해야 한다고 생각한다.",
+        "reading": "Geureona hageobe jijangeul juji aneul mankeumman haeya handago saenggakanda."
+      },
+      {
+        "text": "즉, 시간을 정해서 계획적으로 일하는 것이 중요하다.",
+        "reading": "Jeuk, siganeul jeonghaeseo gyehoekjeogeuro ilhaneun geosi jungyohada."
+      },
+      {
+        "text": "따라서 학교도 학생들이 학교 안에서 일할 수 있는 기회를 더 만들어야 한다.",
+        "reading": "Ttaraseo hakgyodo haksaengdeuri hakgyo aneseo ilhal su inneun gihoereul deo mandeureoya handa."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ko-C12-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sebae-hada",
+      "text": "세배하다",
+      "reading": "sebaehada"
+    },
+    {
+      "id": "ko.sebaetdon",
+      "text": "세뱃돈",
+      "reading": "sebaetdon"
+    },
+    {
+      "id": "ko.eoreun",
+      "text": "어른",
+      "reading": "eoreun"
+    },
+    {
+      "id": "ko.hanbok",
+      "text": "한복",
+      "reading": "hanbok"
+    },
+    {
+      "id": "ko.ipda",
+      "text": "입다",
+      "reading": "ipda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 설날에는 뭐 해요?",
+      "reading": "Minjun ssi, seollareneun mwo haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아침에 한복을 입고 할아버지, 할머니께 세배를 드려요.",
+      "reading": "Achime hanbogeul ipgo harabeoji, halmeonikke sebaereul deuryeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "세배요? 그게 뭐예요?",
+      "reading": "Sebaeyo? Geuge mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "어른께 하는 설날 인사예요.",
+      "reading": "Eoreunkke haneun seollal insayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그럼 어른들은 뭘 주세요?",
+      "reading": "A, geureom eoreundeureun mwol juseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "세뱃돈을 주세요. 아이들은 세뱃돈을 정말 좋아해요.",
+      "reading": "Sebaetdoneul juseyo. Aideureun sebaetdoneul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 이번 설날에 민준 씨 할머니께 선물을 드리고 싶어요.",
+      "reading": "Jeodo ibeon seollare Minjun ssi halmeonikke seonmureul deurigo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요! 그럼 남 씨도 한복을 입고 같이 세배해요.",
+      "reading": "Joayo! Geureom Nam ssido hanbogeul ipgo gachi sebaehaeyo."
+    }
+  ]
+}

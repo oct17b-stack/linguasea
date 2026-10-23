@@ -1,0 +1,91 @@
+{
+  "id": "ko-F9-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sobija",
+      "text": "소비자",
+      "reading": "sobija"
+    },
+    {
+      "id": "ko.gwasobi",
+      "text": "과소비",
+      "reading": "gwasobi"
+    },
+    {
+      "id": "ko.halbu",
+      "text": "할부",
+      "reading": "halbu"
+    },
+    {
+      "id": "ko.sinyong-kadeu",
+      "kind": "phrase",
+      "text": "신용 카드",
+      "reading": "sinyong kadeu"
+    },
+    {
+      "id": "ko.gumae-hada",
+      "text": "구매하다",
+      "reading": "gumaehada"
+    },
+    {
+      "id": "ko.muryeo",
+      "text": "무려",
+      "reading": "muryeo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 스마트폰 새로 샀네요! 그거 꽤 비싸지 않아요?",
+      "reading": "Nam ssi, seumateupon saero sanneyo! Geugeo kkwae bissaji anayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좀 비싸서 신용 카드 12개월 할부로 구매했어요.",
+      "reading": "Ne, jom bissaseo sinyong kadeu sibigaewol halburo gumaehaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "할부면 이자도 내야 하잖아요. 이자는 얼마예요?",
+      "reading": "Halbumyeon ijado naeya hajanayo. Ijaneun eolmayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일 년 동안 이자만 무려 십오만 원이에요.",
+      "reading": "Il nyeon dongan ijaman muryeo siboman wonieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 그럼 스마트폰을 십오만 원 더 주고 산 셈이네요.",
+      "reading": "Wa, geureom seumateuponeul siboman won deo jugo san semineyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇죠. 계산해 보니까 좀 후회가 되더라고요.",
+      "reading": "Geureochyo. Gyesanhae bonikka jom huhoega doedeoragoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도 작년에 신용 카드를 너무 많이 써서 용돈이 하나도 안 남았어요. 그것도 과소비를 한 셈이죠.",
+      "reading": "Jeodo jangnyeone sinyong kadeureul neomu mani sseoseo yongdoni hanado an namasseoyo. Geugeotdo gwasobireul han semijyo."
+    },
+    {
+      "speaker": "a",
+      "text": "카드로 사면 돈을 쓰고 있다는 생각이 잘 안 들잖아요.",
+      "reading": "Kadeuro samyeon doneul sseugo itdaneun saenggagi jal an deuljanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 할부는 결국 미래의 돈을 미리 쓰는 셈이에요.",
+      "reading": "Majayo. Halbuneun gyeolguk miraeui doneul miri sseuneun semieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그러게요. 앞으로는 꼭 필요한 것만 사는 소비자가 돼야겠어요.",
+      "reading": "Geureogeyo. Apeuroneun kkok piryohan geonman saneun sobijaga dwaeyagesseoyo."
+    }
+  ]
+}

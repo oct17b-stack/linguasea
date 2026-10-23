@@ -1,0 +1,80 @@
+{
+  "id": "ko-C12-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.boreumdal",
+      "text": "보름달",
+      "reading": "boreumdal"
+    },
+    {
+      "id": "ko.sowoneul-bilda",
+      "kind": "phrase",
+      "text": "소원을 빌다",
+      "reading": "sowoneul bilda"
+    },
+    {
+      "id": "ko.suhwak",
+      "text": "수확",
+      "reading": "suhwak"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "추석은 한국의 큰 명절이에요.",
+        "reading": "Chuseogeun Hangugui keun myeongjeorieyo."
+      },
+      {
+        "text": "추석은 보통 구월이나 시월에 있어요.",
+        "reading": "Chuseogeun botong guworina siwore isseoyo."
+      },
+      {
+        "text": "추석은 가을의 수확에 감사하는 날이에요.",
+        "reading": "Chuseogeun gaeurui suhwage gamsahaneun narieyo."
+      }
+    ],
+    [
+      {
+        "text": "추석에는 가족들이 모두 모여요.",
+        "reading": "Chuseogeneun gajokdeuri modu moyeoyo."
+      },
+      {
+        "text": "같이 송편을 빚고 차례를 지내요.",
+        "reading": "Gachi songpyeoneul bitgo charyereul jinaeyo."
+      }
+    ],
+    [
+      {
+        "text": "추석 밤에는 크고 밝은 보름달을 볼 수 있어요.",
+        "reading": "Chuseok bameneun keugo balgeun boreumdareul bol su isseoyo."
+      },
+      {
+        "text": "사람들은 보름달을 보면서 소원을 빌어요.",
+        "reading": "Saramdeureun boreumdareul bomyeonseo sowoneul bireoyo."
+      },
+      {
+        "text": "남 씨도 이번 추석에 보름달을 보고 소원을 빌었어요.",
+        "reading": "Nam ssido ibeon chuseoge boreumdareul bogo sowoneul bireosseoyo."
+      },
+      {
+        "text": "남 씨의 소원은 가족의 건강이에요.",
+        "reading": "Nam ssiui sowoneun gajogui geongangieyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

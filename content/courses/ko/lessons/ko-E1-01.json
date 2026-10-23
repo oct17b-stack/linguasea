@@ -1,0 +1,95 @@
+{
+  "id": "ko-E1-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sogae-hada",
+      "text": "소개하다",
+      "reading": "sogaehada"
+    },
+    {
+      "id": "ko.sosok",
+      "text": "소속",
+      "reading": "sosok"
+    },
+    {
+      "id": "ko.chulsin",
+      "text": "출신",
+      "reading": "chulsin"
+    },
+    {
+      "id": "ko.hakgwa",
+      "text": "학과",
+      "reading": "hakgwa"
+    },
+    {
+      "id": "ko.matda",
+      "text": "맡다",
+      "reading": "matda"
+    },
+    {
+      "id": "ko.insadeurida",
+      "text": "인사드리다",
+      "reading": "insadeurida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "지금부터 새로 온 교환 학생들을 소개합니다. 먼저 남 씨입니다.",
+      "reading": "Jigeumbuteo saero on gyohwan haksaengdeureul sogaehamnida. Meonjeo Nam ssiimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하십니까? 여러분께 처음 인사드립니다. 저는 남입니다.",
+      "reading": "Annyeonghasimnikka? Yeoreobunkke cheoeum insadeurimnida. Jeoneun Namimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "방콕 출신이고, 경영학과 소속 교환 학생입니다.",
+      "reading": "Bangkok chulsinigo, gyeongyeonghakgwa sosok gyohwan haksaengimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "한국어를 정말 잘하십니다.",
+      "reading": "Hangugeoreul jeongmal jalhasimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "아닙니다. 아직 잘 못합니다.",
+      "reading": "Animnida. Ajik jal motamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "주말에는 태국 식당에서 아르바이트를 합니다. 거기에서 주방 일을 맡고 있습니다.",
+      "reading": "Jumareneun Taeguk sikdangeseo areubaiteureul hamnida. Geogieseo jubang ireul matgo itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "잘 부탁드립니다. 감사합니다.",
+      "reading": "Jal butakdeurimnida. Gamsahamnida."
+    },
+    {
+      "speaker": "b",
+      "text": "감사합니다. 다음은 베트남에서 온 린 씨를 소개합니다.",
+      "reading": "Gamsahamnida. Daeumeun Beteunameseo on Rin ssireul sogaehamnida."
+    },
+    {
+      "speaker": "c",
+      "text": "안녕하십니까? 저는 하노이 출신 린입니다. 저도 남 씨와 같은 학과 학생입니다.",
+      "reading": "Annyeonghasimnikka? Jeoneun Hanoi chulsin Rinimnida. Jeodo Nam ssiwa gateun hakgwa haksaengimnida."
+    },
+    {
+      "speaker": "c",
+      "text": "저는 한국 문화에 관심이 많습니다. 잘 부탁드립니다.",
+      "reading": "Jeoneun Hanguk munhwae gwansimi manseumnida. Jal butakdeurimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "두 분 모두 환영합니다.",
+      "reading": "Du bun modu hwanyeonghamnida."
+    }
+  ]
+}

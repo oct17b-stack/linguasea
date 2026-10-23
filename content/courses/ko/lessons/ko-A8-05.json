@@ -1,0 +1,50 @@
+{
+  "id": "ko-A8-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.arae",
+      "text": "아래",
+      "reading": "arae"
+    },
+    {
+      "id": "ko.an",
+      "text": "안",
+      "reading": "an"
+    },
+    {
+      "id": "ko.sai",
+      "text": "사이",
+      "reading": "sai"
+    },
+    {
+      "id": "ko.chajayo",
+      "text": "찾아요",
+      "reading": "chajayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 제 핸드폰 찾아요!",
+      "reading": "Minjun ssi, je haendeupon chajayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "핸드폰은 테이블 아래예요.",
+      "reading": "Haendeuponeun teibeul araeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 고마워요! 열쇠는요?",
+      "reading": "A, gomawoyo! Yeolsoeneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "열쇠는 컵하고 지갑 사이예요.",
+      "reading": "Yeolsoeneun keophago jigap saiyeyo."
+    }
+  ]
+}

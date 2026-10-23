@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gawi",
+      "text": "가위",
+      "reading": "gawi"
+    },
+    {
+      "id": "ko.pul",
+      "text": "풀",
+      "reading": "pul"
+    },
+    {
+      "id": "ko.ja",
+      "text": "자",
+      "reading": "ja"
+    },
+    {
+      "id": "ko.saengnyeonpil",
+      "text": "색연필",
+      "reading": "saengnyeonpil"
+    },
+    {
+      "id": "ko.jongi",
+      "text": "종이",
+      "reading": "jongi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 종이 주세요.",
+      "reading": "Nam ssi, jongi juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여기요. 가위 빌려주세요.",
+      "reading": "Ne, yeogiyo. Gawi billyeojuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "가위는 풀하고 자 사이예요.",
+      "reading": "Gawineun pulhago ja saiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요! 색연필도 빌려주세요.",
+      "reading": "Gomawoyo! Saengnyeonpildo billyeojuseyo."
+    }
+  ]
+}

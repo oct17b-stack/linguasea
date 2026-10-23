@@ -1,0 +1,80 @@
+{
+  "id": "ko-C10-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sopo",
+      "text": "소포",
+      "reading": "sopo"
+    },
+    {
+      "id": "ko.taekbae",
+      "text": "택배",
+      "reading": "taekbae"
+    },
+    {
+      "id": "ko.pyeonji",
+      "text": "편지",
+      "reading": "pyeonji"
+    },
+    {
+      "id": "ko.upyo",
+      "text": "우표",
+      "reading": "upyo"
+    },
+    {
+      "id": "ko.buchida",
+      "text": "부치다",
+      "reading": "buchida"
+    },
+    {
+      "id": "ko.ucheguk",
+      "text": "우체국",
+      "reading": "ucheguk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 그거 뭐예요?",
+      "reading": "Nam ssi, geugeo mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국에 있는 가족에게 보내는 소포예요.",
+      "reading": "Taeguge inneun gajogege bonaeneun sopoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 누구에게 뭘 보내요?",
+      "reading": "Wa, nuguege mwol bonaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여동생한테 생일 선물을 보내요. 부모님한테는 편지를 썼어요.",
+      "reading": "Yeodongsaenghante saengil seonmureul bonaeyo. Bumonimhanteneun pyeonjireul sseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘 우체국에서 부쳐요?",
+      "reading": "Oneul uchegugeseo buchyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 수업 후에 우체국에 가요. 민준 씨도 같이 가요?",
+      "reading": "Ne, sueop hue ucheguge gayo. Minjun ssido gachi gayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 저도 부산에 있는 친구한테 택배를 보내요. 우표도 사고 싶어요.",
+      "reading": "Ne, jeodo Busane inneun chinguhante taekbaereul bonaeyo. Upyodo sago sipeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 그럼 세 시에 같이 가요!",
+      "reading": "Joayo. Geureom se sie gachi gayo!"
+    }
+  ]
+}

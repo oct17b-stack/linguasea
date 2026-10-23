@@ -1,0 +1,90 @@
+{
+  "id": "ko-E4-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.iryeokseo",
+      "text": "이력서",
+      "reading": "iryeokseo"
+    },
+    {
+      "id": "ko.jagisogaeseo",
+      "text": "자기소개서",
+      "reading": "jagisogaeseo"
+    },
+    {
+      "id": "ko.seoryu",
+      "text": "서류",
+      "reading": "seoryu"
+    },
+    {
+      "id": "ko.jechul-hada",
+      "text": "제출하다",
+      "reading": "jechulhada"
+    },
+    {
+      "id": "ko.jeungmyeongseo",
+      "text": "증명서",
+      "reading": "jeungmyeongseo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 여행사에서 연락 왔어?",
+      "reading": "Nama, yeohaengsaeseo yeollak wasseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "응, 어제 회사에서 전화가 왔어. 서류를 다음 주 월요일까지 제출하라고 했어.",
+      "reading": "Eung, eoje hoesaeseo jeonhwaga wasseo. Seoryureul daeum ju woryoilkkaji jechulharago haesseo."
+    },
+    {
+      "speaker": "b",
+      "text": "무슨 서류?",
+      "reading": "Museun seoryu?"
+    },
+    {
+      "speaker": "a",
+      "text": "이력서하고 자기소개서를 내라고 했어. 그리고 졸업 예정 증명서도 준비하라고 했어.",
+      "reading": "Iryeokseohago jagisogaeseoreul naerago haesseo. Geurigo joreop yejeong jeungmyeongseodo junbiharago haesseo."
+    },
+    {
+      "speaker": "b",
+      "text": "자기소개서는 다 썼어?",
+      "reading": "Jagisogaeseoneun da sseosseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아직. 한국어로 한 장 이내로 쓰라고 해서 좀 어려워.",
+      "reading": "Ajik. Hangugeoro han jang inaero sseurago haeseo jom eoryeowo."
+    },
+    {
+      "speaker": "b",
+      "text": "내가 한번 읽어 줄게. 다 쓰면 보내.",
+      "reading": "Naega hanbeon ilgeo julge. Da sseumyeon bonae."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워. 그리고 이력서에 사진도 넣으라고 했어.",
+      "reading": "Gomawo. Geurigo iryeokseoe sajindo neoeurago haesseo."
+    },
+    {
+      "speaker": "b",
+      "text": "사진은 학교 앞 사진관에서 찍으면 돼.",
+      "reading": "Sajineun hakgyo ap sajingwaneseo jjigeumyeon dwae."
+    },
+    {
+      "speaker": "a",
+      "text": "그래. 내일 사진을 찍고, 서류는 이메일로 제출할게.",
+      "reading": "Geurae. Naeil sajineul jjikgo, seoryuneun imeillo jechulhalge."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아. 마감 시간 꼭 기억해!",
+      "reading": "Joa. Magam sigan kkok gieokae!"
+    }
+  ]
+}

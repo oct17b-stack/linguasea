@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sukje",
+      "text": "숙제",
+      "reading": "sukje"
+    },
+    {
+      "id": "ko.siheom",
+      "text": "시험",
+      "reading": "siheom"
+    },
+    {
+      "id": "ko.munje",
+      "text": "문제",
+      "reading": "munje"
+    },
+    {
+      "id": "ko.sijakaeyo",
+      "text": "시작해요",
+      "reading": "sijakaeyo"
+    },
+    {
+      "id": "ko.kkeunnayo",
+      "text": "끝나요",
+      "reading": "kkeunnayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "시험이 시작해요.",
+      "reading": "Siheomi sijakaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아… 삼 번 문제가 어려워요.",
+      "reading": "A… Sam beon munjega eoryeowoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "시험이 끝나요!",
+      "reading": "Siheomi kkeunnayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네? 잠깐만요!",
+      "reading": "Ne? Jamkkanmanyo!"
+    }
+  ]
+}

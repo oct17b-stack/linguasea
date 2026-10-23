@@ -1,0 +1,55 @@
+{
+  "id": "ko-A10-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sarayo",
+      "text": "살아요",
+      "reading": "sarayo"
+    },
+    {
+      "id": "ko.apateu",
+      "text": "아파트",
+      "reading": "apateu"
+    },
+    {
+      "id": "ko.sinbaljang",
+      "text": "신발장",
+      "reading": "sinbaljang"
+    },
+    {
+      "id": "ko.upyeonham",
+      "text": "우편함",
+      "reading": "upyeonham"
+    },
+    {
+      "id": "ko.gwallisil",
+      "text": "관리실",
+      "reading": "gwallisil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 아파트에 살아요?",
+      "reading": "Nam ssineun apateue sarayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 아파트에 살아요. 이게 신발장이에요.",
+      "reading": "Ne, apateue sarayo. Ige sinbaljangieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 몇 층이에요?",
+      "reading": "A, myeot cheungieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "칠 층이에요. 우편함하고 관리실은 일 층이에요.",
+      "reading": "Chil cheungieyo. Upyeonhamhago gwallisireun il cheungieyo."
+    }
+  ]
+}

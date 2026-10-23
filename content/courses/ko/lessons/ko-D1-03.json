@@ -1,0 +1,90 @@
+{
+  "id": "ko-D1-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gagu",
+      "text": "가구",
+      "reading": "gagu"
+    },
+    {
+      "id": "ko.otjang",
+      "text": "옷장",
+      "reading": "otjang"
+    },
+    {
+      "id": "ko.naengjanggo",
+      "text": "냉장고",
+      "reading": "naengjanggo"
+    },
+    {
+      "id": "ko.setakgi",
+      "text": "세탁기",
+      "reading": "setakgi"
+    },
+    {
+      "id": "ko.eeokeon",
+      "text": "에어컨",
+      "reading": "eeokeon"
+    },
+    {
+      "id": "ko.noida",
+      "text": "놓이다",
+      "reading": "noida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "이 방이에요. 한번 보세요.",
+      "reading": "I bangieyo. Hanbeon boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 방이 예쁘네요! 가구도 다 있어요?",
+      "reading": "Wa, bangi yeppeuneyo! Gagudo da isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 가구가 다 있어요. 침대하고 옷장이 놓여 있어요.",
+      "reading": "Ne, gaguga da isseoyo. Chimdaehago otjangi noyeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "옷장이 정말 크네요. 냉장고는 어디에 있어요?",
+      "reading": "Otjangi jeongmal keuneyo. Naengjanggoneun eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "냉장고는 부엌에 놓여 있어요. 세탁기는 화장실 안에 있어요.",
+      "reading": "Naengjanggoneun bueoke noyeo isseoyo. Setakgineun hwajangsil ane isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "에어컨도 있어요? 여름에 더우면 공부할 수 없어요.",
+      "reading": "Eeokeondo isseoyo? Yeoreume deoumyeon gongbuhal su eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼요. 에어컨도 있고 인터넷도 연결되어 있어요.",
+      "reading": "Geureomyo. Eeokeondo itgo inteonetdo yeongyeoldoeeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋네요! 관리비에 인터넷도 포함되어 있어요?",
+      "reading": "Jonneyo! Gwallibie inteonetdo pohamdoeeo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 포함되어 있어요. 관리비는 오만 원이에요.",
+      "reading": "Ne, pohamdoeeo isseoyo. Gwallibineun oman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다 좋네요. 이 방이 정말 마음에 들어요!",
+      "reading": "Da jonneyo. I bangi jeongmal maeume deureoyo!"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ko-A5-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.seoreun",
+      "text": "서른",
+      "reading": "seoreun"
+    },
+    {
+      "id": "ko.maheun",
+      "text": "마흔",
+      "reading": "maheun"
+    },
+    {
+      "id": "ko.swin",
+      "text": "쉰",
+      "reading": "swin"
+    },
+    {
+      "id": "ko.yesun",
+      "text": "예순",
+      "reading": "yesun"
+    },
+    {
+      "id": "ko.naiga-eotteoke-doeseyo",
+      "kind": "phrase",
+      "text": "나이가 어떻게 되세요?",
+      "reading": "naiga eotteoke doeseyo?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아저씨, 나이가 어떻게 되세요?",
+      "reading": "Ajeossi, naiga eotteoke doeseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저요? 마흔다섯 살이에요. 남 씨는요?",
+      "reading": "Jeoyo? Maheundaseot sarieyo. Nam ssineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 스무 살이에요.",
+      "reading": "Jeoneun seumu sarieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 우리 아이도 스무 살이에요!",
+      "reading": "A, uri aido seumu sarieyo!"
+    }
+  ]
+}

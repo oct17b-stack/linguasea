@@ -1,0 +1,55 @@
+{
+  "id": "ko-A10-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.mun",
+      "text": "문",
+      "reading": "mun"
+    },
+    {
+      "id": "ko.changmun",
+      "text": "창문",
+      "reading": "changmun"
+    },
+    {
+      "id": "ko.byeok",
+      "text": "벽",
+      "reading": "byeok"
+    },
+    {
+      "id": "ko.badak",
+      "text": "바닥",
+      "reading": "badak"
+    },
+    {
+      "id": "ko.bul",
+      "text": "불",
+      "reading": "bul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "와, 벽이 하늘색이에요!",
+      "reading": "Wa, byeogi haneulsaegieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 문도 하늘색이에요.",
+      "reading": "Ne, mundo haneulsaegieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "방이 조금 어두워요.",
+      "reading": "Bangi jogeum eoduwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 불! 잠깐만요.",
+      "reading": "A, bul! Jamkkanmanyo."
+    }
+  ]
+}

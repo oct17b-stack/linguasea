@@ -1,0 +1,70 @@
+{
+  "id": "ko-C11-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.teniseu",
+      "text": "테니스",
+      "reading": "teniseu"
+    },
+    {
+      "id": "ko.baedeuminteon",
+      "text": "배드민턴",
+      "reading": "baedeuminteon"
+    },
+    {
+      "id": "ko.takgu",
+      "text": "탁구",
+      "reading": "takgu"
+    },
+    {
+      "id": "ko.raket",
+      "text": "라켓",
+      "reading": "raket"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 그건 테니스 라켓이에요?",
+      "reading": "Nam ssi, geugeon teniseu rakesieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 배드민턴 라켓이에요. 오늘 이 년 만에 배드민턴을 쳐요!",
+      "reading": "Aniyo, baedeuminteon rakesieyo. Oneul i nyeon mane baedeuminteoneul chyeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "이 년 만에요? 태국에서는 자주 쳤어요?",
+      "reading": "I nyeon maneyo? Taegugeseoneun jaju chyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 주말마다 쳤어요. 태국 사람들은 배드민턴을 정말 좋아해요.",
+      "reading": "Ne, jumalmada chyeosseoyo. Taeguk saramdeureun baedeuminteoneul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 테니스하고 탁구를 자주 쳐요. 배드민턴은 저도 일 년 만이에요.",
+      "reading": "Jeoneun teniseuhago takgureul jaju chyeoyo. Baedeuminteoneun jeodo il nyeon manieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 오늘 같이 쳐요!",
+      "reading": "Geureom oneul gachi chyeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "와, 남 씨는 정말 잘하네요!",
+      "reading": "Wa, Nam ssineun jeongmal jalhaneyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 오랜만에 치니까 정말 재미있어요!",
+      "reading": "Gomawoyo. Oraenmane chinikka jeongmal jaemiisseoyo!"
+    }
+  ]
+}

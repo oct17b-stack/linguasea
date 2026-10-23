@@ -1,0 +1,77 @@
+{
+  "id": "ko-C10-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gyeongbisil",
+      "text": "경비실",
+      "reading": "gyeongbisil"
+    },
+    {
+      "id": "ko.taekbae-gisa",
+      "kind": "phrase",
+      "text": "택배 기사",
+      "reading": "taekbae gisa"
+    },
+    {
+      "id": "ko.mun-ap",
+      "kind": "phrase",
+      "text": "문 앞",
+      "reading": "mun ap"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 씨, 안녕하세요. 택배 기사예요.",
+        "reading": "Nam ssi, annyeonghaseyo. Taekbae gisayeyo."
+      },
+      {
+        "text": "태국에서 온 소포가 있어요.",
+        "reading": "Taegugeseo on sopoga isseoyo."
+      },
+      {
+        "text": "지금 집에 계세요?",
+        "reading": "Jigeum jibe gyeseyo?"
+      }
+    ],
+    [
+      {
+        "text": "죄송해요, 지금 학교에 있어요.",
+        "reading": "Joesonghaeyo, jigeum hakgyoe isseoyo."
+      },
+      {
+        "text": "문 앞에 놓아 주시겠어요?",
+        "reading": "Mun ape noa jusigesseoyo?"
+      }
+    ],
+    [
+      {
+        "text": "상자가 크고 무거워요.",
+        "reading": "Sangjaga keugo mugeowoyo."
+      },
+      {
+        "text": "그래서 경비실에 놓을게요.",
+        "reading": "Geuraeseo gyeongbisire noeulgeyo."
+      },
+      {
+        "text": "저녁에 경비실에서 받으세요.",
+        "reading": "Jeonyeoge gyeongbisireseo badeuseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

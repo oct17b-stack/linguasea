@@ -1,0 +1,75 @@
+{
+  "id": "ko-C10-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geumji",
+      "text": "금지",
+      "reading": "geumji"
+    },
+    {
+      "id": "ko.gukje",
+      "text": "국제",
+      "reading": "gukje"
+    },
+    {
+      "id": "ko.baesong",
+      "text": "배송",
+      "reading": "baesong"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "국제 소포를 보내기 전에 꼭 읽어 주세요.",
+        "reading": "Gukje soporeul bonaegi jeone kkok ilgeo juseyo."
+      },
+      {
+        "text": "현금, 고기, 과일은 외국에 보낼 수 없어요.",
+        "reading": "Hyeongeum, gogi, gwaireun oeguge bonael su eopseoyo."
+      },
+      {
+        "text": "이 물건들은 국제 배송 금지 물건이에요.",
+        "reading": "I mulgeondeureun gukje baesong geumji mulgeonieyo."
+      }
+    ],
+    [
+      {
+        "text": "항공편 배송은 보통 일주일쯤 걸려요.",
+        "reading": "Hanggongpyeon baesongeun botong iljuiljjeum geollyeoyo."
+      },
+      {
+        "text": "배편 배송은 한 달쯤 걸려요.",
+        "reading": "Baepyeon baesongeun han daljjeum geollyeoyo."
+      },
+      {
+        "text": "그런데 태국이나 베트남은 항공편으로 오 일쯤 걸려요.",
+        "reading": "Geureonde Taegugina Beteunameun hanggongpyeoneuro o iljjeum geollyeoyo."
+      }
+    ],
+    [
+      {
+        "text": "토요일하고 일요일에는 배송하지 않아요.",
+        "reading": "Toyoilhago iryoireneun baesonghaji anayo."
+      },
+      {
+        "text": "문의는 우체국 창구에서 해 주세요.",
+        "reading": "Munuineun ucheguk changgueseo hae juseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

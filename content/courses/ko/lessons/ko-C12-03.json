@@ -1,0 +1,70 @@
+{
+  "id": "ko-C12-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.songpyeon",
+      "text": "송편",
+      "reading": "songpyeon"
+    },
+    {
+      "id": "ko.tteok",
+      "text": "떡",
+      "reading": "tteok"
+    },
+    {
+      "id": "ko.tteokguk",
+      "text": "떡국",
+      "reading": "tteokguk"
+    },
+    {
+      "id": "ko.bitda",
+      "text": "빚다",
+      "reading": "bitda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 이 떡은 이름이 뭐예요?",
+      "reading": "Seonsaengnim, i tteogeun ireumi mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "송편이라고 해요. 추석 때 먹는 떡이에요.",
+      "reading": "Songpyeonirago haeyo. Chuseok ttae meongneun tteogieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "설날에도 송편을 먹어요?",
+      "reading": "Seollaredo songpyeoneul meogeoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 설날에는 떡국을 먹어요. 떡국은 설날에 먹는 음식이에요.",
+      "reading": "Aniyo, seollareneun tteokgugeul meogeoyo. Tteokgugeun seollare meongneun eumsigieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "송편은 어떻게 만들어요?",
+      "reading": "Songpyeoneun eotteoke mandeureoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "가족들이 모두 같이 빚어요. 남 씨도 같이 빚어 볼래요?",
+      "reading": "Gajokdeuri modu gachi bijeoyo. Nam ssido gachi bijeo bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요! 태국에서는 떡을 '카놈'이라고 해요.",
+      "reading": "Ne, joayo! Taegugeseoneun tteogeul 'kanom'irago haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 그래요? 저도 카놈을 먹어 보고 싶어요!",
+      "reading": "A, geuraeyo? Jeodo kanomeul meogeo bogo sipeoyo!"
+    }
+  ]
+}

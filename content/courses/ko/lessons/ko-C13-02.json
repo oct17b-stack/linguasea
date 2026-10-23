@@ -1,0 +1,71 @@
+{
+  "id": "ko-C13-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.eumnyosu",
+      "text": "음료수",
+      "reading": "eumnyosu"
+    },
+    {
+      "id": "ko.gwaja",
+      "text": "과자",
+      "reading": "gwaja"
+    },
+    {
+      "id": "ko.keikeu",
+      "text": "케이크",
+      "reading": "keikeu"
+    },
+    {
+      "id": "ko.jangeul-boda",
+      "kind": "phrase",
+      "text": "장을 보다",
+      "reading": "jangeul boda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 집들이 준비는 다 했어요?",
+      "reading": "Minjun ssi, jipdeuri junbineun da haesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 오늘 장을 볼 거예요. 같이 갈래요?",
+      "reading": "Aniyo, oneul jangeul bol geoyeyo. Gachi gallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요. 살 게 많아요?",
+      "reading": "Ne, joayo. Sal ge manayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 파티에서 먹을 음식하고 마실 음료수를 살 거예요.",
+      "reading": "Ne, patieseo meogeul eumsikhago masil eumnyosureul sal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "과자도 사요. 친구들이 좋아할 과자요.",
+      "reading": "Gwajado sayo. Chingudeuri joahal gwajayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 그리고 케이크는 남 씨가 골라 주세요.",
+      "reading": "Joayo. Geurigo keikeuneun Nam ssiga golla juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 모두 같이 먹을 큰 케이크를 살게요.",
+      "reading": "Ne! Modu gachi meogeul keun keikeureul salgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 그럼 마트에 가요!",
+      "reading": "Gomawoyo. Geureom mateue gayo!"
+    }
+  ]
+}

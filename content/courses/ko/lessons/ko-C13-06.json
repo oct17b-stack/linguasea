@@ -1,0 +1,71 @@
+{
+  "id": "ko-C13-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.chamseok-hada",
+      "text": "참석하다",
+      "reading": "chamseokada"
+    },
+    {
+      "id": "ko.da-gachi",
+      "kind": "phrase",
+      "text": "다 같이",
+      "reading": "da gachi"
+    },
+    {
+      "id": "ko.bunwigi",
+      "text": "분위기",
+      "reading": "bunwigi"
+    },
+    {
+      "id": "ko.jeulgida",
+      "text": "즐기다",
+      "reading": "jeulgida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오늘 몇 명이 참석했어요?",
+      "reading": "Nam ssi, oneul myeot myeongi chamseokaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열 명쯤 왔어요. 민준 씨 친구들이랑 학교 선배들이에요.",
+      "reading": "Yeol myeongjjeum wasseoyo. Minjun ssi chingudeurirang hakgyo seonbaedeurieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "저 학생은 누구랑 왔어요?",
+      "reading": "Jeo haksaengeun nugurang wasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "수진 씨요? 남자 친구랑 왔어요.",
+      "reading": "Sujin ssiyo? Namja chingurang wasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래요? 분위기가 정말 좋네요.",
+      "reading": "Geuraeyo? Bunwigiga jeongmal jonneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 다 같이 노래하고 춤도 췄어요.",
+      "reading": "Ne, da gachi noraehago chumdo chwosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨도 파티를 즐기고 있어요?",
+      "reading": "Nam ssido patireul jeulgigo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 즐거워요! 선생님, 저랑 같이 사진 찍어요!",
+      "reading": "Ne, jeongmal jeulgeowoyo! Seonsaengnim, jeorang gachi sajin jjigeoyo!"
+    }
+  ]
+}

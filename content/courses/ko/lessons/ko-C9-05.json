@@ -1,0 +1,70 @@
+{
+  "id": "ko-C9-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.seobing-hada",
+      "text": "서빙하다",
+      "reading": "seobinghada"
+    },
+    {
+      "id": "ko.jubang",
+      "text": "주방",
+      "reading": "jubang"
+    },
+    {
+      "id": "ko.baedal-hada",
+      "text": "배달하다",
+      "reading": "baedalhada"
+    },
+    {
+      "id": "ko.gwaoe",
+      "text": "과외",
+      "reading": "gwaoe"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 식당에서 무슨 일을 해요?",
+      "reading": "Nam ssineun sikdangeseo museun ireul haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "서빙해요. 바쁜 날에는 주방에서도 일해요.",
+      "reading": "Seobinghaeyo. Bappeun nareneun jubangeseodo ilhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 주방 일도 해 봤어요? 저는 주방 일은 안 해 봤어요.",
+      "reading": "Wa, jubang ildo hae bwasseoyo? Jeoneun jubang ireun an hae bwasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨는 무슨 아르바이트를 해 봤어요?",
+      "reading": "Minjun ssineun museun areubaiteureul hae bwasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지금은 편의점에서 일해요. 음식도 배달해 봤어요.",
+      "reading": "Jigeumeun pyeonuijeomeseo ilhaeyo. Eumsikdo baedalhae bwasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 태국에서 영어 과외를 해 봤어요.",
+      "reading": "Jeoneun Taegugeseo yeongeo gwaoereul hae bwasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "과외는 어땠어요?",
+      "reading": "Gwaoeneun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "재미있었어요. 민준 씨도 한국어 과외를 해 보세요!",
+      "reading": "Jaemiisseosseoyo. Minjun ssido hangugeo gwaoereul hae boseyo!"
+    }
+  ]
+}

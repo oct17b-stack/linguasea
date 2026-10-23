@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gyosil",
+      "text": "교실",
+      "reading": "gyosil"
+    },
+    {
+      "id": "ko.chaeksang",
+      "text": "책상",
+      "reading": "chaeksang"
+    },
+    {
+      "id": "ko.chilpan",
+      "text": "칠판",
+      "reading": "chilpan"
+    },
+    {
+      "id": "ko.gyogwaseo",
+      "text": "교과서",
+      "reading": "gyogwaseo"
+    },
+    {
+      "id": "ko.sajeon",
+      "text": "사전",
+      "reading": "sajeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "제 교과서 찾아요.",
+      "reading": "Je gyogwaseo chajayo."
+    },
+    {
+      "speaker": "b",
+      "text": "교과서요? 책상 위예요.",
+      "reading": "Gyogwaseoyo? Chaeksang wiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그거 사전이에요. 교과서가 아니에요.",
+      "reading": "Aniyo, geugeo sajeonieyo. Gyogwaseoga anieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 교과서는 칠판 아래예요!",
+      "reading": "A, gyogwaseoneun chilpan araeyeyo!"
+    }
+  ]
+}

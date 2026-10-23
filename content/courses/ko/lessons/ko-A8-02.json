@@ -1,0 +1,57 @@
+{
+  "id": "ko-A8-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.nugu-geoyeyo",
+      "kind": "phrase",
+      "text": "누구 거예요?",
+      "reading": "nugu geoyeyo?"
+    },
+    {
+      "id": "ko.je",
+      "text": "제",
+      "reading": "je"
+    },
+    {
+      "id": "ko.je-geoyeyo",
+      "kind": "phrase",
+      "text": "제 거예요",
+      "reading": "je geoyeyo"
+    },
+    {
+      "id": "ko.haendeupon",
+      "text": "핸드폰",
+      "reading": "haendeupon"
+    },
+    {
+      "id": "ko.jigap",
+      "text": "지갑",
+      "reading": "jigap"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 누구 거예요?",
+      "reading": "Nam ssi, ige nugu geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 제 거예요. 제 핸드폰이에요.",
+      "reading": "A, je geoyeyo. Je haendeuponieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지갑도 남 씨 거예요?",
+      "reading": "Jigapdo Nam ssi geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그거 민준 씨 지갑이에요!",
+      "reading": "Aniyo, geugeo Minjun ssi jigabieyo!"
+    }
+  ]
+}

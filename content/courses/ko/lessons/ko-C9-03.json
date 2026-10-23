@@ -1,0 +1,75 @@
+{
+  "id": "ko-C9-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.wolgeup",
+      "text": "월급",
+      "reading": "wolgeup"
+    },
+    {
+      "id": "ko.yongdon",
+      "text": "용돈",
+      "reading": "yongdon"
+    },
+    {
+      "id": "ko.moeuda",
+      "text": "모으다",
+      "reading": "moeuda"
+    },
+    {
+      "id": "ko.saenghwalbi",
+      "text": "생활비",
+      "reading": "saenghwalbi"
+    },
+    {
+      "id": "ko.don",
+      "text": "돈",
+      "reading": "don"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 식당 월급 받았어요?",
+      "reading": "Nam ssi, sikdang wolgeup badasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 받았어요. 그런데 사십만 원밖에 못 받았어요.",
+      "reading": "Ne, badasseoyo. Geureonde sasimman wonbakke mot badasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "왜요?",
+      "reading": "Waeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "토요일하고 일요일밖에 일하지 않아요.",
+      "reading": "Toyoilhago iryoilbakke ilhaji anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래서 카페 아르바이트를 시작해요?",
+      "reading": "A, geuraeseo kape areubaiteureul sijakaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 용돈도 조금 받아요. 하지만 서울은 생활비가 많이 필요해요.",
+      "reading": "Ne. Yongdondo jogeum badayo. Hajiman Seoureun saenghwalbiga mani piryohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 돈은 못 모아요?",
+      "reading": "Geureom doneun mot moayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "조금 모아요. 방학에 태국에 가고 싶어요.",
+      "reading": "Jogeum moayo. Banghage Taeguge gago sipeoyo."
+    }
+  ]
+}

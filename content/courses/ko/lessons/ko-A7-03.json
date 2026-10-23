@@ -1,0 +1,50 @@
+{
+  "id": "ko-A7-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.galsaek",
+      "text": "갈색",
+      "reading": "galsaek"
+    },
+    {
+      "id": "ko.juhwangsaek",
+      "text": "주황색",
+      "reading": "juhwangsaek"
+    },
+    {
+      "id": "ko.haneulsaek",
+      "text": "하늘색",
+      "reading": "haneulsaek"
+    },
+    {
+      "id": "ko.namsaek",
+      "text": "남색",
+      "reading": "namsaek"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 시계 파란색이에요?",
+      "reading": "Jeogiyo, sigye paransaegieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 하늘색이에요.",
+      "reading": "Aniyo, haneulsaegieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 하늘색이에요? 남색은요?",
+      "reading": "A, haneulsaegieyo? Namsaegeunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "남색도 여기요.",
+      "reading": "Namsaekdo yeogiyo."
+    }
+  ]
+}

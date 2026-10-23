@@ -1,0 +1,96 @@
+{
+  "id": "ko-E2-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.yejeol",
+      "text": "예절",
+      "reading": "yejeol"
+    },
+    {
+      "id": "ko.sujeo",
+      "text": "수저",
+      "reading": "sujeo"
+    },
+    {
+      "id": "ko.murye-hada",
+      "text": "무례하다",
+      "reading": "muryehada"
+    },
+    {
+      "id": "ko.sang",
+      "text": "상",
+      "reading": "sang"
+    },
+    {
+      "id": "ko.charida",
+      "text": "차리다",
+      "reading": "charida"
+    },
+    {
+      "id": "ko.sorireul-naeda",
+      "kind": "phrase",
+      "text": "소리를 내다",
+      "reading": "sorireul naeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어머니가 상을 다 차리셨어요. 여기 앉으세요.",
+      "reading": "Nam ssi, eomeoniga sangeul da charisyeosseoyo. Yeogi anjeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 음식이 정말 많네요. 그런데 한국 식사 예절을 잘 몰라서 걱정이에요.",
+      "reading": "Wa, eumsigi jeongmal manneyo. Geureonde Hanguk siksa yejeoreul jal mollaseo geokjeongieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어른보다 먼저 먹으면 무례한 것 같아요. 아버지가 수저를 드신 후에 드세요.",
+      "reading": "Eoreunboda meonjeo meogeumyeon muryehan geot gatayo. Abeojiga sujeoreul deusin hue deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서도 비슷한 것 같아요. 다른 건요?",
+      "reading": "Taegugeseodo biseutan geot gatayo. Dareun geonyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 음식을 먹을 때는 소리를 내지 않는 게 좋아요.",
+      "reading": "Geurigo eumsigeul meogeul ttaeneun sorireul naeji anneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그건 태국도 똑같아요.",
+      "reading": "Geugeon Taegukdo ttokgatayo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨, 많이 먹어요. 입에 맞는지 모르겠네요.",
+      "reading": "Nam ssi, mani meogeoyo. Ibe manneunji moreugenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘 먹겠습니다. 이 국이 정말 맛있는 것 같아요.",
+      "reading": "Jal meokgetseumnida. I gugi jeongmal masinneun geot gatayo."
+    },
+    {
+      "speaker": "c",
+      "text": "다행이네요. 그런데 왜 숟가락만 써요? 젓가락이 어려워요?",
+      "reading": "Dahaengineyo. Geureonde wae sutgarangman sseoyo? Jeotgaragi eoryeowoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 아직 젓가락은 좀 어려운 것 같아요. 태국에서는 숟가락하고 포크로 먹거든요.",
+      "reading": "Ne, ajik jeotgarageun jom eoryeoun geot gatayo. Taegugeseoneun sutgarakhago pokeuro meokgeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "괜찮아요. 편하게 먹어요. 다음에는 포크도 준비할게요.",
+      "reading": "Gwaenchanayo. Pyeonhage meogeoyo. Daeumeneun pokeudo junbihalgeyo."
+    }
+  ]
+}

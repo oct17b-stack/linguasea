@@ -1,0 +1,96 @@
+{
+  "id": "ko-E11-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geungeo",
+      "text": "근거",
+      "reading": "geungeo"
+    },
+    {
+      "id": "ko.yereul-deulmyeon",
+      "text": "예를 들면",
+      "reading": "yereul deulmyeon",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.waenyahamyeon",
+      "text": "왜냐하면",
+      "reading": "waenyahamyeon"
+    },
+    {
+      "id": "ko.seoldeuk-hada",
+      "text": "설득하다",
+      "reading": "seoldeukada"
+    },
+    {
+      "id": "ko.nollijeok",
+      "text": "논리적",
+      "reading": "nollijeok"
+    },
+    {
+      "id": "ko.sarye",
+      "text": "사례",
+      "reading": "sarye"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 아르바이트에 찬성하는 근거가 뭐예요?",
+      "reading": "Nam ssi, areubaiteue chanseonghaneun geungeoga mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "부모님께 용돈을 받지 않아도 되기 때문이에요.",
+      "reading": "Bumonimkke yongdoneul batji anado doegi ttaemunieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "예를 들면요?",
+      "reading": "Yereul deulmyeonyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "예를 들면 저는 주말마다 식당에서 일해서 생활비를 벌어요. 그래서 부모님께 부담을 덜 드려요.",
+      "reading": "Yereul deulmyeon jeoneun jumalmada sikdangeseo ilhaeseo saenghwalbireul beoreoyo. Geuraeseo bumonimkke budameul deol deuryeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그건 남 씨 한 사람의 사례일 뿐이에요.",
+      "reading": "Geugeon Nam ssi han saramui saryeil ppunieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 다른 근거도 있어요. 왜냐하면 일을 하면 시간을 계획적으로 쓰게 되기 때문이에요.",
+      "reading": "Geureom dareun geungeodo isseoyo. Waenyahamyeon ireul hamyeon siganeul gyehoekjeogeuro sseuge doegi ttaemunieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하지만 피곤해서 수업 시간에 조는 학생도 있어요.",
+      "reading": "Hajiman pigonhaeseo sueop sigane joneun haksaengdo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "민준 씨, 좀 더 논리적으로 설명해 볼까요?",
+      "reading": "Minjun ssi, jom deo nollijeogeuro seolmyeonghae bolkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 조사 결과를 보면 아르바이트를 많이 하는 학생일수록 성적이 낮았어요.",
+      "reading": "Ne. Josa gyeolgwareul bomyeon areubaiteureul mani haneun haksaengilsurok seongjeogi najasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그건 일하는 시간이 너무 길기 때문이에요. 시간을 정하면 문제가 없어요.",
+      "reading": "Geugeon ilhaneun sigani neomu gilgi ttaemunieyo. Siganeul jeonghamyeon munjega eopseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "두 사람 모두 서로를 설득하려고 열심히 노력하네요.",
+      "reading": "Du saram modu seororeul seoldeukaryeogo yeolsimhi noryeokaneyo."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ko-D1-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gochida",
+      "text": "고치다",
+      "reading": "gochida"
+    },
+    {
+      "id": "ko.suri-gisa",
+      "text": "수리 기사",
+      "reading": "suri gisa",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.muri-saeda",
+      "text": "물이 새다",
+      "reading": "muri saeda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.boilleo",
+      "text": "보일러",
+      "reading": "boilleo"
+    },
+    {
+      "id": "ko.gompangi",
+      "text": "곰팡이",
+      "reading": "gompangi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 저 남이에요.",
+      "reading": "Annyeonghaseyo. Jeo Namieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 남 씨. 무슨 일 있어요?",
+      "reading": "A, Nam ssi. Museun il isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "보일러가 고장 났는데 좀 봐 주세요.",
+      "reading": "Boilleoga gojang nanneunde jom bwa juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래요? 따뜻한 물도 안 나와요?",
+      "reading": "Geuraeyo? Ttatteutan muldo an nawayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 따뜻한 물이 안 나오는데 오늘 고칠 수 있어요?",
+      "reading": "Ne, ttatteutan muri an naoneunde oneul gochil su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "알겠어요. 오후에 수리 기사를 보낼게요.",
+      "reading": "Algesseoyo. Ohue suri gisareul bonaelgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그리고 화장실에 곰팡이가 많은데 어떻게 해야 돼요?",
+      "reading": "Gamsahamnida. Geurigo hwajangsire gompangiga maneunde eotteoke haeya dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "곰팡이요? 화장실에서 물이 새요?",
+      "reading": "Gompangiyo? Hwajangsireseo muri saeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 조금 새요.",
+      "reading": "Ne, jogeum saeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 수리 기사가 그것도 같이 고칠 거예요.",
+      "reading": "Geureom suri gisaga geugeotdo gachi gochil geoyeyo."
+    }
+  ]
+}

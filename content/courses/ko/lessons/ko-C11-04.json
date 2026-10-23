@@ -1,0 +1,71 @@
+{
+  "id": "ko-C11-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.yoga",
+      "text": "요가",
+      "reading": "yoga"
+    },
+    {
+      "id": "ko.dalligi",
+      "text": "달리기",
+      "reading": "dalligi"
+    },
+    {
+      "id": "ko.julleomgi",
+      "text": "줄넘기",
+      "reading": "julleomgi"
+    },
+    {
+      "id": "ko.ttameul-heullida",
+      "kind": "phrase",
+      "text": "땀을 흘리다",
+      "reading": "ttameul heullida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "여보세요? 남 씨, 지금 전화 괜찮아요?",
+      "reading": "Yeoboseyo? Nam ssi, jigeum jeonhwa gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "미안해요. 지금 헬스장에서 운동하는 중이에요.",
+      "reading": "Mianhaeyo. Jigeum helseujangeseo undonghaneun jungieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 무슨 운동을 해요?",
+      "reading": "A, museun undongeul haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "요가를 하는 중이에요. 땀을 많이 흘렸어요.",
+      "reading": "Yogareul haneun jungieyo. Ttameul mani heullyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 요가 좋아요. 저는 아침마다 달리기를 해요.",
+      "reading": "Wa, yoga joayo. Jeoneun achimmada dalligireul haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 달리기는 잘 못해요. 그래서 요가하고 줄넘기를 해요.",
+      "reading": "Jeoneun dalligineun jal motaeyo. Geuraeseo yogahago julleomgireul haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 저는 지금 학교에 가는 중이에요. 이따가 같이 저녁 먹어요.",
+      "reading": "Geuraeyo? Jeoneun jigeum hakgyoe ganeun jungieyo. Ittaga gachi jeonyeok meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 운동이 끝나고 전화할게요.",
+      "reading": "Joayo! Undongi kkeunnago jeonhwahalgeyo."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ko-E10-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.wangsil",
+      "text": "왕실",
+      "reading": "wangsil"
+    },
+    {
+      "id": "ko.gugwang",
+      "text": "국왕",
+      "reading": "gugwang"
+    },
+    {
+      "id": "ko.jonggyo",
+      "text": "종교",
+      "reading": "jonggyo"
+    },
+    {
+      "id": "ko.jongyeongbatda",
+      "text": "존경받다",
+      "reading": "jongyeongbatda"
+    },
+    {
+      "id": "ko.sinang",
+      "text": "신앙",
+      "reading": "sinang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 태국에는 지금도 국왕이 있지요?",
+      "reading": "Nam ssi, Taegugeneun jigeumdo gugwangi itjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 한국과 달리 태국에는 국왕이 있어요.",
+      "reading": "Ne, Hangukgwa dalli Taegugeneun gugwangi isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국에도 옛날에는 왕실이 있었지만 지금은 없어요.",
+      "reading": "Hangugedo yennareneun wangsiri isseotjiman jigeumeun eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국 사람들은 왕실을 아주 소중하게 생각해요. 국왕은 많은 사람들에게 존경받아요.",
+      "reading": "Taeguk saramdeureun wangsireul aju sojunghage saenggakaeyo. Gugwangeun maneun saramdeurege jongyeongbadayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그렇군요. 종교는 어때요?",
+      "reading": "Geureokunyo. Jonggyoneun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국 사람은 열 명 중 아홉 명 이상이 불교를 믿어요.",
+      "reading": "Taeguk sarameun yeol myeong jung ahop myeong isangi bulgyoreul mideoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국과 달리 종교가 생활에 큰 영향을 주는군요.",
+      "reading": "Hangukgwa dalli jonggyoga saenghware keun yeonghyangeul juneungunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 매일 아침 스님께 음식을 드리는 사람도 많아요.",
+      "reading": "Ne, maeil achim seunimkke eumsigeul deurineun saramdo manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "태국과 달리 한국에는 종교가 없는 사람도 많아요.",
+      "reading": "Taegukgwa dalli Hangugeneun jonggyoga eomneun saramdo manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 그게 신기했어요. 태국에서는 신앙이 생활에서 아주 중요하거든요.",
+      "reading": "Jeoneun geuge singihaesseoyo. Taegugeseoneun sinangi saenghwareseo aju jungyohageodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "두 나라는 비슷한 점도 많지만 이렇게 다른 점도 많네요.",
+      "reading": "Du naraneun biseutan jeomdo manchiman ireoke dareun jeomdo manneyo."
+    }
+  ]
+}

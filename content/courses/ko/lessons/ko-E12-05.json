@@ -1,0 +1,86 @@
+{
+  "id": "ko-E12-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jeongsini-eopda",
+      "text": "정신이 없다",
+      "reading": "jeongsini eopda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.kkamppak-hada",
+      "text": "깜빡하다",
+      "reading": "kkamppakada"
+    },
+    {
+      "id": "ko.meong-hada",
+      "text": "멍하다",
+      "reading": "meonghada"
+    },
+    {
+      "id": "ko.jollida",
+      "text": "졸리다",
+      "reading": "jollida"
+    },
+    {
+      "id": "ko.geonmangjeung",
+      "text": "건망증",
+      "reading": "geonmangjeung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 좀 멍해 보여요. 괜찮아요?",
+      "reading": "Minjun ssi, oneul jom meonghae boyeoyo. Gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "어젯밤에 시험 공부를 해서 그런지 너무 졸려요.",
+      "reading": "Eojetbame siheom gongbureul haeseo geureonji neomu jollyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 시간 잤어요?",
+      "reading": "Myeot sigan jasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "세 시간밖에 못 잤어요. 그래서 그런지 아침부터 정신이 없어요.",
+      "reading": "Se siganbakke mot jasseoyo. Geuraeseo geureonji achimbuteo jeongsini eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아침에 지갑도 놓고 왔다면서요?",
+      "reading": "Achime jigapdo noko watdamyeonseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 깜빡했어요. 요즘 피곤해서 그런지 자주 잊어버려요.",
+      "reading": "Ne, kkamppakaesseoyo. Yojeum pigonhaeseo geureonji jaju ijeobeoryeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 요즘 건망증이 생겼어요. 어제는 우산을 지하철에 두고 내렸어요.",
+      "reading": "Jeodo yojeum geonmangjeungi saenggyeosseoyo. Eojeneun usaneul jihacheore dugo naeryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "날씨가 추워서 그런지 다들 정신이 없는 것 같아요.",
+      "reading": "Nalssiga chuwoseo geureonji dadeul jeongsini eomneun geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘은 일찍 자는 게 어때요?",
+      "reading": "Oneureun iljjik janeun ge eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그래야겠어요.",
+      "reading": "Ne, geuraeyagesseoyo."
+    }
+  ]
+}

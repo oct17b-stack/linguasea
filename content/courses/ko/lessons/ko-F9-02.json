@@ -1,0 +1,85 @@
+{
+  "id": "ko-F9-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.pumjil",
+      "text": "품질",
+      "reading": "pumjil"
+    },
+    {
+      "id": "ko.myeongpum",
+      "text": "명품",
+      "reading": "myeongpum"
+    },
+    {
+      "id": "ko.beuraendeu",
+      "text": "브랜드",
+      "reading": "beuraendeu"
+    },
+    {
+      "id": "ko.jeoryeom-hada",
+      "text": "저렴하다",
+      "reading": "jeoryeomhada"
+    },
+    {
+      "id": "ko.junggo",
+      "text": "중고",
+      "reading": "junggo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 신발 어때요? 유명한 브랜드인데 지금 세일 중이에요.",
+      "reading": "Nam ssi, i sinbal eottaeyo? Yumyeonghan beuraendeuinde jigeum seil jungieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "예쁘네요. 그런데 세일해도 삼십만 원이에요? 너무 비싸요.",
+      "reading": "Yeppeuneyo. Geureonde seilhaedo samsimman wonieyo? Neomu bissayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 싼 신발을 여러 번 사느니 차라리 품질이 좋은 걸 하나 사서 오래 신을래요.",
+      "reading": "Jeoneun ssan sinbareul yeoreo beon saneuni charari pumjiri joeun geol hana saseo orae sineullaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그 말도 맞아요. 하지만 저는 명품이나 비싼 브랜드에는 별로 관심이 없어요.",
+      "reading": "Geu maldo majayo. Hajiman jeoneun myeongpumina bissan beuraendeueneun byeollo gwansimi eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 남 씨는 주로 어디서 사요?",
+      "reading": "Geureom Nam ssineun juro eodiseo sayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 보통 앱에서 중고로 사요. 상태도 괜찮고 가격도 저렴하거든요.",
+      "reading": "Jeoneun botong aebeseo junggoro sayo. Sangtaedo gwaenchanko gagyeokdo jeoryeomhageodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "중고요? 저는 다른 사람이 쓰던 물건을 쓰느니 차라리 돈을 더 모아서 새 걸 살래요.",
+      "reading": "Junggoyo? Jeoneun dareun sarami sseudeon mulgeoneul sseuneuni charari doneul deo moaseo sae geol sallaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그것도 방법이죠. 그래도 중고는 저렴하고 환경에도 좋잖아요.",
+      "reading": "Geugeotdo bangbeobijyo. Geuraedo junggoneun jeoryeomhago hwangyeongedo jochanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하긴 그렇네요. 그럼 이 신발은 다음에 다시 생각해 볼게요.",
+      "reading": "Hagin geureonneyo. Geureom i sinbareun daeume dasi saenggakae bolgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 급하게 사서 후회하느니 오늘은 그냥 구경만 해요.",
+      "reading": "Joayo. Geupage saseo huhoehaneuni oneureun geunyang gugyeongman haeyo."
+    }
+  ]
+}

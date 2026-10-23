@@ -1,0 +1,55 @@
+{
+  "id": "ko-A9-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hangeul",
+      "text": "한글",
+      "reading": "hangeul"
+    },
+    {
+      "id": "ko.swiwoyo",
+      "text": "쉬워요",
+      "reading": "swiwoyo"
+    },
+    {
+      "id": "ko.eoryeowoyo",
+      "text": "어려워요",
+      "reading": "eoryeowoyo"
+    },
+    {
+      "id": "ko.jaemiisseoyo",
+      "text": "재미있어요",
+      "reading": "jaemiisseoyo"
+    },
+    {
+      "id": "ko.jaemieopseoyo",
+      "text": "재미없어요",
+      "reading": "jaemieopseoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국어 어려워요?",
+      "reading": "Nam ssi, hangugeo eoryeowoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한글은 쉬워요. 한국어는 조금 어려워요.",
+      "reading": "Hangeureun swiwoyo. Hangugeoneun jogeum eoryeowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "재미있어요? 재미없어요?",
+      "reading": "Jaemiisseoyo? Jaemieopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "재미있어요!",
+      "reading": "Jaemiisseoyo!"
+    }
+  ]
+}

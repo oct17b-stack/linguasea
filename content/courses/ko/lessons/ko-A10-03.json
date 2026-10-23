@@ -1,0 +1,55 @@
+{
+  "id": "ko-A10-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ibul",
+      "text": "이불",
+      "reading": "ibul"
+    },
+    {
+      "id": "ko.begae",
+      "text": "베개",
+      "reading": "begae"
+    },
+    {
+      "id": "ko.keoteun",
+      "text": "커튼",
+      "reading": "keoteun"
+    },
+    {
+      "id": "ko.tellebijeon",
+      "text": "텔레비전",
+      "reading": "tellebijeon"
+    },
+    {
+      "id": "ko.seonpunggi",
+      "text": "선풍기",
+      "reading": "seonpunggi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 그거 텔레비전이에요?",
+      "reading": "Nam ssi, geugeo tellebijeonieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 텔레비전이 아니에요. 사진이에요.",
+      "reading": "Aniyo, tellebijeoni anieyo. Sajinieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 사진이에요? 이불하고 베개는 핑크색이에요!",
+      "reading": "A, sajinieyo? Ibulhago begaeneun pingkeusaegieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 커튼도 핑크색이에요.",
+      "reading": "Ne, keoteundo pingkeusaegieyo."
+    }
+  ]
+}

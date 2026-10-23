@@ -1,0 +1,50 @@
+{
+  "id": "ko-A10-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.chimdae",
+      "text": "침대",
+      "reading": "chimdae"
+    },
+    {
+      "id": "ko.sopa",
+      "text": "소파",
+      "reading": "sopa"
+    },
+    {
+      "id": "ko.seorap",
+      "text": "서랍",
+      "reading": "seorap"
+    },
+    {
+      "id": "ko.hwajangdae",
+      "text": "화장대",
+      "reading": "hwajangdae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "와, 침대가 하얀색이에요!",
+      "reading": "Wa, chimdaega hayansaegieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 소파도 하얀색이에요.",
+      "reading": "Ne, sopado hayansaegieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "화장대는요?",
+      "reading": "Hwajangdaeneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "화장대는 침대하고 소파 사이예요. 서랍은 화장대 아래예요.",
+      "reading": "Hwajangdaeneun chimdaehago sopa saiyeyo. Seorabeun hwajangdae araeyeyo."
+    }
+  ]
+}

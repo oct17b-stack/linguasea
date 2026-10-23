@@ -1,0 +1,75 @@
+{
+  "id": "ko-C11-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.seonsu",
+      "text": "선수",
+      "reading": "seonsu"
+    },
+    {
+      "id": "ko.gyeonggi",
+      "text": "경기",
+      "reading": "gyeonggi"
+    },
+    {
+      "id": "ko.eungwon-hada",
+      "text": "응원하다",
+      "reading": "eungwonhada"
+    },
+    {
+      "id": "ko.igida",
+      "text": "이기다",
+      "reading": "igida"
+    },
+    {
+      "id": "ko.jida",
+      "text": "지다",
+      "reading": "jida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 경기 정말 멋있었어요! 선수처럼 축구를 잘하네요!",
+      "reading": "Minjun ssi, oneul gyeonggi jeongmal meosisseosseoyo! Seonsucheoreom chukgureul jalhaneyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 그런데 우리 학교가 졌어요.",
+      "reading": "Gomawoyo. Geureonde uri hakgyoga jyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 다음 경기에서는 꼭 이길 거예요.",
+      "reading": "Gwaenchanayo. Daeum gyeonggieseoneun kkok igil geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨 응원 소리가 정말 컸어요. 정말 고마워요.",
+      "reading": "Nam ssi eungwon soriga jeongmal keosseoyo. Jeongmal gomawoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 민준 씨를 응원했어요. 그런데 다른 학교 선수들도 잘했어요.",
+      "reading": "Jeoneun Minjun ssireul eungwonhaesseoyo. Geureonde dareun hakgyo seonsudeuldo jalhaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그 학교 선수들은 연습을 많이 해요.",
+      "reading": "Ne, geu hakgyo seonsudeureun yeonseubeul mani haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 민준 씨처럼 축구를 잘하고 싶어요.",
+      "reading": "Jeodo Minjun ssicheoreom chukgureul jalhago sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 다음 주에 같이 연습해요!",
+      "reading": "Geureom daeum jue gachi yeonseupaeyo!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-A6-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.eumsik",
+      "text": "음식",
+      "reading": "eumsik"
+    },
+    {
+      "id": "ko.gimbap",
+      "text": "김밥",
+      "reading": "gimbap"
+    },
+    {
+      "id": "ko.tteokbokki",
+      "text": "떡볶이",
+      "reading": "tteokbokki"
+    },
+    {
+      "id": "ko.samgyeopsal",
+      "text": "삼겹살",
+      "reading": "samgyeopsal"
+    },
+    {
+      "id": "ko.chikin",
+      "text": "치킨",
+      "reading": "chikin"
+    },
+    {
+      "id": "ko.naengmyeon",
+      "text": "냉면",
+      "reading": "naengmyeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국 음식 잘 먹어요?",
+      "reading": "Nam ssi, Hanguk eumsik jal meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 치킨, 삼겹살, 떡볶이… 맛있어요!",
+      "reading": "Ne! Chikin, samgyeopsal, tteokbokki… Masisseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "저기요! 떡볶이 하나, 김밥 하나 주세요.",
+      "reading": "Jeogiyo! Tteokbokki hana, gimbap hana juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "냉면도 하나 주세요!",
+      "reading": "Naengmyeondo hana juseyo!"
+    }
+  ]
+}

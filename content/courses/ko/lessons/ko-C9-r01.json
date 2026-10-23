@@ -1,0 +1,75 @@
+{
+  "id": "ko-C9-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.mojip",
+      "text": "모집",
+      "reading": "mojip"
+    },
+    {
+      "id": "ko.udae",
+      "text": "우대",
+      "reading": "udae"
+    },
+    {
+      "id": "ko.munui",
+      "text": "문의",
+      "reading": "munui"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "하늘 카페에서 아르바이트생을 모집해요.",
+        "reading": "Haneul kapeeseo areubaiteusaengeul mojipaeyo."
+      },
+      {
+        "text": "월요일부터 금요일까지 오후 두 시부터 여섯 시까지 일해요.",
+        "reading": "Woryoilbuteo geumyoilkkaji ohu du sibuteo yeoseot sikkaji ilhaeyo."
+      },
+      {
+        "text": "시급은 만 오백 원이에요.",
+        "reading": "Sigeubeun man obaek wonieyo."
+      }
+    ],
+    [
+      {
+        "text": "카페 경험이 있는 사람을 우대해요.",
+        "reading": "Kape gyeongheomi inneun sarameul udaehaeyo."
+      },
+      {
+        "text": "외국어를 잘하는 사람도 우대해요.",
+        "reading": "Oegugeoreul jalhaneun saramdo udaehaeyo."
+      },
+      {
+        "text": "외국인 학생도 신청할 수 있어요.",
+        "reading": "Oegugin haksaengdo sincheonghal su isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "문의는 카페 계산대에서 해 주세요.",
+        "reading": "Munuineun kape gyesandaeeseo hae juseyo."
+      },
+      {
+        "text": "많이 연락해 주세요!",
+        "reading": "Mani yeollakae juseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

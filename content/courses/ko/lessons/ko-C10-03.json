@@ -1,0 +1,75 @@
+{
+  "id": "ko-C10-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hanggongpyeon",
+      "text": "항공편",
+      "reading": "hanggongpyeon"
+    },
+    {
+      "id": "ko.baepyeon",
+      "text": "배편",
+      "reading": "baepyeon"
+    },
+    {
+      "id": "ko.muge",
+      "text": "무게",
+      "reading": "muge"
+    },
+    {
+      "id": "ko.sangja",
+      "text": "상자",
+      "reading": "sangja"
+    },
+    {
+      "id": "ko.killo",
+      "text": "킬로",
+      "reading": "killo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "이 상자를 태국으로 보내요?",
+      "reading": "I sangjareul Taegugeuro bonaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 항공편하고 배편 중에서 뭐가 더 싸요?",
+      "reading": "Ne. Hanggongpyeonhago baepyeon jungeseo mwoga deo ssayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "배편이 더 싸요. 하지만 한 달쯤 걸려요.",
+      "reading": "Baepyeoni deo ssayo. Hajiman han daljjeum geollyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "항공편은요?",
+      "reading": "Hanggongpyeoneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "항공편은 일주일쯤 걸려요. 상자 무게는 삼 킬로예요.",
+      "reading": "Hanggongpyeoneun iljuiljjeum geollyeoyo. Sangja mugeneun sam killoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 항공편으로 얼마예요?",
+      "reading": "Geureom hanggongpyeoneuro eolmayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "항공편으로 오만 원이에요. 배편으로는 이만 원이에요.",
+      "reading": "Hanggongpyeoneuro oman wonieyo. Baepyeoneuroneun iman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "동생 생일이 다음 주예요. 항공편으로 보낼게요.",
+      "reading": "Dongsaeng saengiri daeum juyeyo. Hanggongpyeoneuro bonaelgeyo."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ko-E3-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jjaksarang",
+      "text": "짝사랑",
+      "reading": "jjaksarang"
+    },
+    {
+      "id": "ko.seolleda",
+      "text": "설레다",
+      "reading": "seolleda"
+    },
+    {
+      "id": "ko.jiltu-hada",
+      "text": "질투하다",
+      "reading": "jiltuhada"
+    },
+    {
+      "id": "ko.geojeoldang-hada",
+      "text": "거절당하다",
+      "reading": "geojeoldanghada"
+    },
+    {
+      "id": "ko.maeumeul-jeon-hada",
+      "kind": "phrase",
+      "text": "마음을 전하다",
+      "reading": "maeumeul jeonhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 요즘 왜 그렇게 휴대폰만 봐?",
+      "reading": "Nama, yojeum wae geureoke hyudaeponman bwa?"
+    },
+    {
+      "speaker": "a",
+      "text": "아무것도 아니야.",
+      "reading": "Amugeotdo aniya."
+    },
+    {
+      "speaker": "b",
+      "text": "혹시 좋아하는 사람 생겼어?",
+      "reading": "Hoksi joahaneun saram saenggyeosseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "응... 같은 동아리 선배를 짝사랑하고 있어.",
+      "reading": "Eung... Gateun dongari seonbaereul jjaksaranghago isseo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 짝사랑! 그 선배를 보면 설레?",
+      "reading": "Wa, jjaksarang! Geu seonbaereul bomyeon seolle?"
+    },
+    {
+      "speaker": "a",
+      "text": "응, 너무 설레. 그런데 그 선배가 다른 사람이랑 웃으면서 이야기하면 질투하게 돼.",
+      "reading": "Eung, neomu seolle. Geureonde geu seonbaega dareun saramirang useumyeonseo iyagihamyeon jiltuhage dwae."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 마음을 전해 봐. 고백해!",
+      "reading": "Geureom maeumeul jeonhae bwa. Gobaekae!"
+    },
+    {
+      "speaker": "a",
+      "text": "거절당할까 봐 무서워.",
+      "reading": "Geojeoldanghalkka bwa museowo."
+    },
+    {
+      "speaker": "b",
+      "text": "거절당해도 괜찮아. 말 안 하면 계속 후회할 거야.",
+      "reading": "Geojeoldanghaedo gwaenchana. Mal an hamyeon gyesok huhoehal geoya."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 고백했다가 사이가 어색해질까 봐 걱정돼.",
+      "reading": "Geuraedo gobaekaetdaga saiga eosaekaejilkka bwa geokjeongdwae."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 먼저 같이 밥이라도 먹어 봐. 천천히 친해지면 돼.",
+      "reading": "Geureom meonjeo gachi babirado meogeo bwa. Cheoncheonhi chinhaejimyeon dwae."
+    },
+    {
+      "speaker": "a",
+      "text": "좋은 생각이다. 내일 용기를 내 볼게!",
+      "reading": "Joeun saenggagida. Naeil yonggireul nae bolge!"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ko-E12-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.tteoreotteurida",
+      "text": "떨어뜨리다",
+      "reading": "tteoreotteurida"
+    },
+    {
+      "id": "ko.kkaetteurida",
+      "text": "깨뜨리다",
+      "reading": "kkaetteurida"
+    },
+    {
+      "id": "ko.mikkeureojida",
+      "text": "미끄러지다",
+      "reading": "mikkeureojida"
+    },
+    {
+      "id": "ko.neomeojida",
+      "text": "넘어지다",
+      "reading": "neomeojida"
+    },
+    {
+      "id": "ko.dachida",
+      "text": "다치다",
+      "reading": "dachida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 손이 왜 그래요?",
+      "reading": "Nam ssi, soni wae geuraeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어제 눈이 와서 길이 미끄러웠는데, 결국 미끄러지고 말았어요.",
+      "reading": "Eoje nuni waseo giri mikkeureowonneunde, gyeolguk mikkeureojigo marasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 넘어졌어요? 많이 다쳤어요?",
+      "reading": "Aigo, neomeojyeosseoyo? Mani dachyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "넘어지면서 손을 조금 다쳤어요. 그런데 더 큰 문제가 있었어요.",
+      "reading": "Neomeojimyeonseo soneul jogeum dachyeosseoyo. Geureonde deo keun munjega isseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "뭔데요?",
+      "reading": "Mwondeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그때 휴대폰을 떨어뜨려서 화면이 깨지고 말았어요.",
+      "reading": "Geuttae hyudaeponeul tteoreotteuryeoseo hwamyeoni kkaejigo marasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저런, 수리비가 많이 나오겠네요.",
+      "reading": "Jeoreon, suribiga mani naogenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 게다가 집에 와서 컵까지 깨뜨리고 말았어요.",
+      "reading": "Ne. Gedaga jibe waseo keopkkaji kkaetteurigo marasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말 힘든 하루였네요.",
+      "reading": "Jeongmal himdeun haruyeonneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그래서 오늘은 조심조심 걸어 왔어요.",
+      "reading": "Ne, geuraeseo oneureun josimjosim georeo wasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "얼음이 다 녹을 때까지 조심하세요.",
+      "reading": "Eoreumi da nogeul ttaekkaji josimhaseyo."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ko-E2-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bongtu",
+      "text": "봉투",
+      "reading": "bongtu"
+    },
+    {
+      "id": "ko.chuguigeum",
+      "text": "축의금",
+      "reading": "chuguigeum"
+    },
+    {
+      "id": "ko.gyeolhonsik",
+      "text": "결혼식",
+      "reading": "gyeolhonsik"
+    },
+    {
+      "id": "ko.jangnyesik",
+      "text": "장례식",
+      "reading": "jangnyesik"
+    },
+    {
+      "id": "ko.gyeongjosa",
+      "text": "경조사",
+      "reading": "gyeongjosa"
+    },
+    {
+      "id": "ko.jomun-hada",
+      "text": "조문하다",
+      "reading": "jomunhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 다음 주에 동아리 선배 결혼식에 가요.",
+      "reading": "Seonsaengnim, daeum jue dongari seonbae gyeolhonsige gayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래요? 축하할 일이네요. 축의금은 준비했어요?",
+      "reading": "Geuraeyo? Chukahal irineyo. Chuguigeumeun junbihaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "축의금이요? 선물을 사 가면 안 돼요?",
+      "reading": "Chuguigeumiyo? Seonmureul sa gamyeon an dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "한국에서는 보통 돈을 봉투에 넣어서 내요. 그걸 축의금이라고 해요.",
+      "reading": "Hangugeseoneun botong doneul bongtue neoeoseo naeyo. Geugeol chuguigeumirago haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 저도 축의금을 내야겠네요. 얼마 정도 내요?",
+      "reading": "Geureom jeodo chuguigeumeul naeyagenneyo. Eolma jeongdo naeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "학생이니까 삼만 원이나 오만 원 정도 내면 돼요.",
+      "reading": "Haksaenginikka samman wonina oman won jeongdo naemyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "봉투에 이름도 써요?",
+      "reading": "Bongtue ireumdo sseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요, 이름을 써야지요. 누가 냈는지 알아야 하니까요.",
+      "reading": "Geureomyo, ireumeul sseoyajiyo. Nuga naenneunji araya hanikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 장례식에도 돈을 내요?",
+      "reading": "Geureonde jangnyesigedo doneul naeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 장례식에 갈 때도 봉투를 준비해요. 그리고 검은색 옷을 입어야지요.",
+      "reading": "Ne, jangnyesige gal ttaedo bongtureul junbihaeyo. Geurigo geomeunsaek oseul ibeoyajiyo."
+    },
+    {
+      "speaker": "a",
+      "text": "결혼식이나 장례식 같은 경조사가 한국에서는 정말 중요하네요.",
+      "reading": "Gyeolhonsigina jangnyesik gateun gyeongjosaga Hangugeseoneun jeongmal jungyohaneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 조문하는 방법은 다음에 알려 줄게요.",
+      "reading": "Majayo. Jomunhaneun bangbeobeun daeume allyeo julgeyo."
+    }
+  ]
+}

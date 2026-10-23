@@ -1,0 +1,70 @@
+{
+  "id": "ko-C14-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.yemae-hada",
+      "text": "예매하다",
+      "reading": "yemaehada"
+    },
+    {
+      "id": "ko.jamak",
+      "text": "자막",
+      "reading": "jamak"
+    },
+    {
+      "id": "ko.jangneu",
+      "text": "장르",
+      "reading": "jangneu"
+    },
+    {
+      "id": "ko.julgeori",
+      "text": "줄거리",
+      "reading": "julgeori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이번 주말에 무슨 영화가 재미있을까요?",
+      "reading": "Minjun ssi, ibeon jumare museun yeonghwaga jaemiisseulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "글쎄요. 무슨 장르를 좋아해요?",
+      "reading": "Geulsseyo. Museun jangneureul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 코미디를 좋아해요.",
+      "reading": "Jeoneun komidireul joahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "이 영화는 어떨까요? 줄거리가 재미있어요.",
+      "reading": "I yeonghwaneun eotteolkkayo? Julgeoriga jaemiisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 그런데 영어 자막이 있을까요?",
+      "reading": "Joayo. Geureonde yeongeo jamagi isseulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "한국 영화는 보통 자막이 없어요. 하지만 남 씨는 한국어를 잘하니까 괜찮을 거예요.",
+      "reading": "Hanguk yeonghwaneun botong jamagi eopseoyo. Hajiman Nam ssineun hangugeoreul jalhanikka gwaenchaneul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 그럼 지금 표를 예매할까요?",
+      "reading": "Geuraeyo? Geureom jigeum pyoreul yemaehalkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 제가 지금 핸드폰으로 예매할게요.",
+      "reading": "Ne, jega jigeum haendeuponeuro yemaehalgeyo."
+    }
+  ]
+}

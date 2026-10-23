@@ -1,0 +1,60 @@
+{
+  "id": "ko-A1-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jilmun-isseoyo",
+      "kind": "phrase",
+      "text": "질문 있어요",
+      "reading": "jilmun isseoyo"
+    },
+    {
+      "id": "ko.hangugeoro-mwoyeyo",
+      "kind": "phrase",
+      "text": "한국어로 뭐예요?",
+      "reading": "hangugeoro mwoyeyo?"
+    },
+    {
+      "id": "ko.ttara-haseyo",
+      "kind": "phrase",
+      "text": "따라 하세요",
+      "reading": "ttara haseyo"
+    },
+    {
+      "id": "ko.majayo",
+      "kind": "phrase",
+      "text": "맞아요",
+      "reading": "majayo"
+    },
+    {
+      "id": "ko.arayo",
+      "kind": "phrase",
+      "text": "알아요",
+      "reading": "arayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "질문 있어요! '마이펜라이' 한국어로 뭐예요?",
+      "reading": "Jilmun isseoyo! 'Maipenrai' hangugeoro mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "'괜찮아요'예요. 따라 하세요. 괜찮아요.",
+      "reading": "'Gwaenchanayo'yeyo. Ttara haseyo. Gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 맞아요?",
+      "reading": "Gwaenchanayo. Majayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맞아요!",
+      "reading": "Ne, majayo!"
+    }
+  ]
+}

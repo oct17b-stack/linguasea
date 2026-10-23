@@ -1,0 +1,50 @@
+{
+  "id": "ko-A7-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gatayo",
+      "text": "같아요",
+      "reading": "gatayo"
+    },
+    {
+      "id": "ko.dallayo",
+      "text": "달라요",
+      "reading": "dallayo"
+    },
+    {
+      "id": "ko.balgayo",
+      "text": "밝아요",
+      "reading": "balgayo"
+    },
+    {
+      "id": "ko.eoduwoyo",
+      "text": "어두워요",
+      "reading": "eoduwoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 남색하고 까만색이 같아요?",
+      "reading": "Jeogiyo, namsaekhago kkamansaegi gatayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 달라요. 까만색이 어두워요.",
+      "reading": "Aniyo, dallayo. Kkamansaegi eoduwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 남색은 조금 밝아요.",
+      "reading": "A, namsaegeun jogeum balgayo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맞아요!",
+      "reading": "Ne, majayo!"
+    }
+  ]
+}

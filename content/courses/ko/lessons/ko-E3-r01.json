@@ -1,0 +1,104 @@
+{
+  "id": "ko-E3-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.gakja",
+      "text": "각자",
+      "reading": "gakja"
+    },
+    {
+      "id": "ko.jeongsan-hada",
+      "text": "정산하다",
+      "reading": "jeongsanhada"
+    },
+    {
+      "id": "ko.iljeongeul-matchuda",
+      "kind": "phrase",
+      "text": "일정을 맞추다",
+      "reading": "iljeongeul matchuda"
+    },
+    {
+      "id": "ko.tupyo-hada",
+      "text": "투표하다",
+      "reading": "tupyohada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 얘들아, 이번 여름 방학에 다 같이 부산 갈래?",
+        "reading": "Minjun: Yaedeura, ibeon yeoreum banghage da gachi Busan gallae?"
+      },
+      {
+        "text": "지수: 좋아! 그런데 다들 일정을 맞출 수 있을까?",
+        "reading": "Jisu: Joa! Geureonde dadeul iljeongeul matchul su isseulkka?"
+      },
+      {
+        "text": "태호: 나는 7월 5일까지 아르바이트가 있어.",
+        "reading": "Taeho: Naneun chirwol o ilkkaji areubaiteuga isseo."
+      },
+      {
+        "text": "남: 나는 팔월은 다 괜찮아.",
+        "reading": "Nam: Naneun parworeun da gwaenchana."
+      },
+      {
+        "text": "민준: 그럼 날짜는 투표로 정하자. 지금 투표 올릴게!",
+        "reading": "Minjun: Geureom naljjaneun tupyoro jeonghaja. Jigeum tupyo ollilge!"
+      }
+    ],
+    [
+      {
+        "text": "지수: 투표 끝났어! 8월 10일부터 12일까지 가자.",
+        "reading": "Jisu: Tupyo kkeunnasseo! Parwol sip ilbuteo sibi ilkkaji gaja."
+      },
+      {
+        "text": "태호: 숙소는 내가 예약할게. 돈은 각자 내는 게 어때?",
+        "reading": "Taeho: Suksoneun naega yeyakalge. Doneun gakja naeneun ge eottae?"
+      },
+      {
+        "text": "민준: 각자 내면 복잡하니까 내가 먼저 다 내고 나중에 정산할게.",
+        "reading": "Minjun: Gakja naemyeon bokjapanikka naega meonjeo da naego najunge jeongsanhalge."
+      },
+      {
+        "text": "남: 좋아. 여행 끝나고 계좌로 보낼게.",
+        "reading": "Nam: Joa. Yeohaeng kkeunnago gyejwaro bonaelge."
+      }
+    ],
+    [
+      {
+        "text": "지수: 기차표는 각자 예매해. 표가 빨리 매진될 수도 있어!",
+        "reading": "Jisu: Gichapyoneun gakja yemaehae. Pyoga ppalli maejindoel sudo isseo!"
+      },
+      {
+        "text": "남: 알았어. 오늘 밤에 바로 예매할게.",
+        "reading": "Nam: Arasseo. Oneul bame baro yemaehalge."
+      },
+      {
+        "text": "태호: 부산에서 뭐 먹을지도 투표하자!",
+        "reading": "Taeho: Busaneseo mwo meogeuljido tupyohaja!"
+      },
+      {
+        "text": "민준: 좋아. 다들 고마워. 이번 여행 진짜 재미있겠다!",
+        "reading": "Minjun: Joa. Dadeul gomawo. Ibeon yeohaeng jinjja jaemiitgetda!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

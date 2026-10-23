@@ -1,0 +1,79 @@
+{
+  "id": "ko-C14-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.debwi-hada",
+      "text": "데뷔하다",
+      "reading": "debwihada"
+    },
+    {
+      "id": "ko.membeo",
+      "text": "멤버",
+      "reading": "membeo"
+    },
+    {
+      "id": "ko.aelbeom",
+      "text": "앨범",
+      "reading": "aelbeom"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "블루문은 한국의 남자 아이돌이에요.",
+        "reading": "Beullumuneun Hangugui namja aidorieyo."
+      },
+      {
+        "text": "멤버는 모두 다섯 명이에요.",
+        "reading": "Membeoneun modu daseot myeongieyo."
+      },
+      {
+        "text": "블루문은 이천이십삼 년에 데뷔했어요.",
+        "reading": "Beullumuneun icheonisipsam nyeone debwihaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "데뷔 앨범의 노래 '달빛'은 인기가 정말 많았어요.",
+        "reading": "Debwi aelbeomui norae 'Dalbit'eun ingiga jeongmal manasseoyo."
+      },
+      {
+        "text": "지금까지 블루문의 앨범은 모두 세 장이에요.",
+        "reading": "Jigeumkkaji Beullumunui aelbeomeun modu se jangieyo."
+      },
+      {
+        "text": "멤버들은 노래도 잘하고 춤도 잘 춰요.",
+        "reading": "Membeodeureun noraedo jalhago chumdo jal chwoyo."
+      }
+    ],
+    [
+      {
+        "text": "블루문은 태국에서도 인기가 많아요.",
+        "reading": "Beullumuneun Taegugeseodo ingiga manayo."
+      },
+      {
+        "text": "방콕에서도 콘서트를 했어요.",
+        "reading": "Bangkogeseodo konseoteureul haesseoyo."
+      },
+      {
+        "text": "방콕 콘서트 표는 오 분 만에 매진됐어요.",
+        "reading": "Bangkok konseoteu pyoneun o bun mane maejindwaesseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

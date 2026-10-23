@@ -1,0 +1,70 @@
+{
+  "id": "ko-C11-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.kkujunhi",
+      "text": "꾸준히",
+      "reading": "kkujunhi"
+    },
+    {
+      "id": "ko.gyuchikjeogeuro",
+      "text": "규칙적으로",
+      "reading": "gyuchikjeogeuro"
+    },
+    {
+      "id": "ko.maeju",
+      "text": "매주",
+      "reading": "maeju"
+    },
+    {
+      "id": "ko.seuteureching",
+      "text": "스트레칭",
+      "reading": "seuteureching"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 일주일에 몇 번 운동해요?",
+      "reading": "Nam ssineun iljuire myeot beon undonghaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일주일에 두 번쯤 해요. 매주 화요일하고 목요일에 헬스장에 와요.",
+      "reading": "Iljuire du beonjjeum haeyo. Maeju hwayoilhago mogyoire helseujange wayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 그런데 일주일에 세 번 운동하는 게 어때요?",
+      "reading": "Joayo. Geureonde iljuire se beon undonghaneun ge eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "세 번요? 시간이 많지 않아요.",
+      "reading": "Se beonyo? Sigani manchi anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 집에서 하루에 십 분씩 스트레칭을 하세요.",
+      "reading": "Geureom jibeseo harue sip bunssik seuteurechingeul haseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하루에 십 분요? 그건 할 수 있어요!",
+      "reading": "Harue sip bunyo? Geugeon hal su isseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "운동은 꾸준히 하세요. 그리고 밥도 규칙적으로 드세요.",
+      "reading": "Undongeun kkujunhi haseyo. Geurigo bapdo gyuchikjeogeuro deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 꾸준히 할게요!",
+      "reading": "Ne, kkujunhi halgeyo!"
+    }
+  ]
+}

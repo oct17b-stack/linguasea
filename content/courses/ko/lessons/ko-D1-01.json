@@ -1,0 +1,90 @@
+{
+  "id": "ko-D1-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.isa-hada",
+      "text": "이사하다",
+      "reading": "isahada"
+    },
+    {
+      "id": "ko.wonrum",
+      "text": "원룸",
+      "reading": "wonrum"
+    },
+    {
+      "id": "ko.hasukjip",
+      "text": "하숙집",
+      "reading": "hasukjip"
+    },
+    {
+      "id": "ko.budongsan",
+      "text": "부동산",
+      "reading": "budongsan"
+    },
+    {
+      "id": "ko.dongne",
+      "text": "동네",
+      "reading": "dongne"
+    },
+    {
+      "id": "ko.bang",
+      "text": "방",
+      "reading": "bang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 방학에 뭐 할 거예요?",
+      "reading": "Nam ssi, banghage mwo hal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이사하려고 해요. 기숙사에서는 요리할 수 없어요.",
+      "reading": "Isaharyeogo haeyo. Gisuksaeseoneun yorihal su eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 어디로 이사하려고 해요?",
+      "reading": "A, geuraeyo? Eodiro isaharyeogo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교 앞 동네에서 원룸을 구하려고 해요.",
+      "reading": "Hakgyo ap dongneeseo wonrumeul guharyeogo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "원룸은 좀 비싸요. 하숙집은 어때요? 하숙집은 아침하고 저녁을 주니까 편해요.",
+      "reading": "Wonrumeun jom bissayo. Hasukjibeun eottaeyo? Hasukjibeun achimhago jeonyeogeul junikka pyeonhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 요리하는 것을 좋아해요. 그래서 원룸이 좋아요.",
+      "reading": "Jeoneun yorihaneun geoseul joahaeyo. Geuraeseo wonrumi joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 오늘 같이 부동산에 가 볼까요? 이 동네에 부동산이 많아요.",
+      "reading": "Geureom oneul gachi budongsane ga bolkkayo? I dongnee budongsani manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 오늘 방을 몇 개 보려고 해요.",
+      "reading": "Joayo! Oneul bangeul myeot gae boryeogo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 방을 찾을 수 있을 거예요.",
+      "reading": "Joeun bangeul chajeul su isseul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 감사해요, 민준 씨!",
+      "reading": "Jeongmal gamsahaeyo, Minjun ssi!"
+    }
+  ]
+}

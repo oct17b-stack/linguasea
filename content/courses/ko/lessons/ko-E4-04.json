@@ -1,0 +1,95 @@
+{
+  "id": "ko-E4-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.hyeomnyeok-hada",
+      "text": "협력하다",
+      "reading": "hyeomnyeokada"
+    },
+    {
+      "id": "ko.toron-hada",
+      "text": "토론하다",
+      "reading": "toronhada"
+    },
+    {
+      "id": "ko.jowon",
+      "text": "조원",
+      "reading": "jowon"
+    },
+    {
+      "id": "ko.timwokeu",
+      "text": "팀워크",
+      "reading": "timwokeu"
+    },
+    {
+      "id": "ko.galdeung",
+      "text": "갈등",
+      "reading": "galdeung"
+    },
+    {
+      "id": "ko.rideosip",
+      "text": "리더십",
+      "reading": "rideosip"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오늘 면접은 어땠어요?",
+      "reading": "Nam ssi, oneul myeonjeobeun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다른 사람 세 명하고 한 조가 돼서 토론했어요.",
+      "reading": "Dareun saram se myeonghago han joga dwaeseo toronhaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "무엇에 대해서 토론했어요?",
+      "reading": "Mueose daehaeseo toronhaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "외국 사람들에게 한국 여행을 소개하는 방법에 대해서 토론했어요.",
+      "reading": "Oeguk saramdeurege Hanguk yeohaengeul sogaehaneun bangbeobe daehaeseo toronhaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래서 어떻게 됐어요?",
+      "reading": "Geuraeseo eotteoke dwaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "처음에 한 조원이 자기 생각만 계속 말해서 갈등이 생겼어요. 그래서 제가 한 명씩 돌아가면서 말하자고 했어요.",
+      "reading": "Cheoeume han jowoni jagi saenggangman gyesok malhaeseo galdeungi saenggyeosseoyo. Geuraeseo jega han myeongssik doragamyeonseo malhajago haesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋은 방법이네요. 다른 조원들은요?",
+      "reading": "Joeun bangbeobineyo. Dareun jowondeureunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다른 조원은 서로 협력해서 좋은 방법 하나를 정하자고 했어요.",
+      "reading": "Dareun jowoneun seoro hyeomnyeokaeseo joeun bangbeop hanareul jeonghajago haesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "잘했네요. 면접관들은 팀워크를 중요하게 보거든요.",
+      "reading": "Jalhaenneyo. Myeonjeopgwandeureun timwokeureul jungyohage bogeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "마지막에 면접관이 저한테 리더십이 있다고 했어요.",
+      "reading": "Majimage myeonjeopgwani jeohante rideosibi itdago haesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 정말 잘했어요! 꼭 합격할 거예요.",
+      "reading": "Wa, jeongmal jalhaesseoyo! Kkok hapgyeokal geoyeyo."
+    }
+  ]
+}
