@@ -1,0 +1,85 @@
+{
+  "id": "zh-D5-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.lin-ju",
+      "text": "邻居",
+      "reading": "línjū"
+    },
+    {
+      "id": "zh.you-hao",
+      "text": "友好",
+      "reading": "yǒuhǎo"
+    },
+    {
+      "id": "zh.da-zhao-hu",
+      "text": "打招呼",
+      "reading": "dǎ zhāohu"
+    },
+    {
+      "id": "zh.li-mao",
+      "text": "礼貌",
+      "reading": "lǐmào"
+    },
+    {
+      "id": "zh.wo-shou",
+      "text": "握手",
+      "reading": "wòshǒu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好！我是你的邻居，住在你家对面。",
+      "reading": "Nǐ hǎo! Wǒ shì nǐ de línjū, zhù zài nǐ jiā duìmiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "阿姨好！我叫小南，是泰国人，今天刚搬来。",
+      "reading": "Āyí hǎo! Wǒ jiào Xiǎonán, shì Tàiguó rén, jīntiān gāng bānlai."
+    },
+    {
+      "speaker": "c",
+      "text": "欢迎欢迎！这是一些水果，送给你。",
+      "reading": "Huānyíng huānyíng! Zhè shì yīxiē shuǐguǒ, sònggěi nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "太谢谢您了！请进来坐吧。",
+      "reading": "Tài xièxie nín le! Qǐng jìnlai zuò ba."
+    },
+    {
+      "speaker": "c",
+      "text": "不了，你们忙吧。有事就来找我。",
+      "reading": "Bù le, nǐmen máng ba. Yǒu shì jiù lái zhǎo wǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "你的邻居看起来很友好。",
+      "reading": "Nǐ de línjū kàn qilai hěn yǒuhǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "对，而且很有礼貌。我也应该去跟别的邻居打招呼。",
+      "reading": "Duì, érqiě hěn yǒu lǐmào. Wǒ yě yīnggāi qù gēn biéde línjū dǎ zhāohu."
+    },
+    {
+      "speaker": "b",
+      "text": "好主意。在中国，第一次见面，大家常常握手。",
+      "reading": "Hǎo zhǔyi. Zài Zhōngguó, dì-yī cì jiànmiàn, dàjiā chángcháng wòshǒu."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国人见面的时候一般不握手。",
+      "reading": "Tàiguó rén jiànmiàn de shíhou yībān bù wòshǒu."
+    },
+    {
+      "speaker": "b",
+      "text": "是吗？听起来很有意思！",
+      "reading": "Shì ma? Tīng qilai hěn yǒu yìsi!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "zh-A6-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.rou",
+      "text": "肉",
+      "reading": "ròu"
+    },
+    {
+      "id": "zh.ji-rou-chicken",
+      "text": "鸡肉",
+      "reading": "jīròu"
+    },
+    {
+      "id": "zh.zhu-rou",
+      "text": "猪肉",
+      "reading": "zhūròu"
+    },
+    {
+      "id": "zh.niu-rou",
+      "text": "牛肉",
+      "reading": "niúròu"
+    },
+    {
+      "id": "zh.yang-rou",
+      "text": "羊肉",
+      "reading": "yángròu"
+    },
+    {
+      "id": "zh.yu",
+      "text": "鱼",
+      "reading": "yú"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你吃牛肉吗？",
+      "reading": "Xiǎonán, nǐ chī niúròu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "吃！我不吃羊肉。",
+      "reading": "Chī! Wǒ bù chī yángròu."
+    },
+    {
+      "speaker": "c",
+      "text": "好的。猪肉、鸡肉和鱼呢？",
+      "reading": "Hǎo de. Zhūròu, jīròu hé yú ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "都吃！我很喜欢吃鱼。",
+      "reading": "Dōu chī! Wǒ hěn xǐhuan chī yú."
+    }
+  ]
+}

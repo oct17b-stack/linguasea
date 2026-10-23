@@ -1,0 +1,79 @@
+{
+  "id": "ja-C6-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kouyou",
+      "text": "こうよう",
+      "reading": "kōyō"
+    },
+    {
+      "id": "ja.sekaiisan",
+      "text": "せかいいさん",
+      "reading": "sekaiisan"
+    },
+    {
+      "id": "ja.gyouretsu",
+      "text": "ぎょうれつ",
+      "reading": "gyōretsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "11月に ゆきさんと きょうとへ いきました。",
+        "reading": "Jūichigatsu ni Yuki-san to Kyōto e ikimashita."
+      },
+      {
+        "text": "あきの きょうとは こうようが とても うつくしかったです。",
+        "reading": "Aki no Kyōto wa kōyō ga totemo utsukushikatta desu."
+      }
+    ],
+    [
+      {
+        "text": "23日は ふるい おてらへ いきました。",
+        "reading": "Nijūsannichi wa furui otera e ikimashita."
+      },
+      {
+        "text": "その おてらは せかいいさんです。",
+        "reading": "Sono otera wa sekaiisan desu."
+      },
+      {
+        "text": "ひとが おおくて、ぎょうれつが ながかったです。",
+        "reading": "Hito ga ōkute, gyōretsu ga nagakatta desu."
+      },
+      {
+        "text": "1じかんぐらい ならびました。",
+        "reading": "Ichijikan gurai narabimashita."
+      }
+    ],
+    [
+      {
+        "text": "24日は 着物を きました。",
+        "reading": "Nijūyokka wa kimono o kimashita."
+      },
+      {
+        "text": "着物で じんじゃを あるいたり、しゃしんを とったり しました。",
+        "reading": "Kimono de jinja o aruitari, shashin o tottari shimashita."
+      },
+      {
+        "text": "つかれましたが、いい 思い出に なりました。",
+        "reading": "Tsukaremashita ga, ii omoide ni narimashita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

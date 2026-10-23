@@ -1,0 +1,70 @@
+{
+  "id": "en-C14-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.ingredient",
+      "text": "ingredient",
+      "reading": "ɪnˈɡriːdiənt"
+    },
+    {
+      "id": "en.onion",
+      "text": "onion",
+      "reading": "ˈʌnjən"
+    },
+    {
+      "id": "en.garlic",
+      "text": "garlic",
+      "reading": "ˈɡɑːrlɪk"
+    },
+    {
+      "id": "en.butter",
+      "text": "butter",
+      "reading": "ˈbʌtər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I want to cook Thai food. What ingredients do we need?",
+      "reading": "ˈnɑːm, aɪ ˈwɑːnt tə ˈkʊk ˈtaɪ ˈfuːd. ˈwʌt ɪnˈɡriːdiənts duː wiː ˈniːd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Let's look in your fridge. Do you have an onion?",
+      "reading": "ˈlɛts ˈlʊk ɪn jʊr ˈfrɪdʒ. duː juː ˈhæv ən ˈʌnjən?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, there's an onion. And there's some butter.",
+      "reading": "ˈjɛs, ðɛrz ən ˈʌnjən. ənd ðɛrz sʌm ˈbʌtər."
+    },
+    {
+      "speaker": "a",
+      "text": "We don't need butter for Thai food.",
+      "reading": "wiː ˈdoʊnt ˈniːd ˈbʌtər fər ˈtaɪ ˈfuːd."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. There's some garlic, too, and there are three eggs.",
+      "reading": "oʊˈkeɪ. ðɛrz sʌm ˈɡɑːrlɪk, ˈtuː, ənd ðɛr ər ˈθriː ˈɛɡz."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Is there any meat?",
+      "reading": "ˈɡreɪt! ɪz ðɛr ˈɛni ˈmiːt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, there's some chicken.",
+      "reading": "ˈjɛs, ðɛrz sʌm ˈtʃɪkən."
+    },
+    {
+      "speaker": "a",
+      "text": "Perfect! Let's make garlic chicken with rice.",
+      "reading": "ˈpɜːrfɪkt! ˈlɛts ˈmeɪk ˈɡɑːrlɪk ˈtʃɪkən wɪð ˈraɪs."
+    }
+  ]
+}

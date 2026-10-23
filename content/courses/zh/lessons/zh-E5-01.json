@@ -1,0 +1,101 @@
+{
+  "id": "zh-E5-01",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.jiao-yu",
+      "text": "教育",
+      "reading": "jiàoyù"
+    },
+    {
+      "id": "zh.zhi-du",
+      "text": "制度",
+      "reading": "zhìdù"
+    },
+    {
+      "id": "zh.gao-zhong",
+      "text": "高中",
+      "reading": "gāozhōng"
+    },
+    {
+      "id": "zh.jie-duan",
+      "text": "阶段",
+      "reading": "jiēduàn"
+    },
+    {
+      "id": "zh.yi-wu-jiao-yu",
+      "kind": "phrase",
+      "text": "义务教育",
+      "reading": "yìwù jiàoyù"
+    },
+    {
+      "id": "zh.er-tong",
+      "text": "儿童",
+      "reading": "értóng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，泰国的孩子几岁开始上小学？",
+      "reading": "Xiǎonán, Tàiguó de háizi jǐ suì kāishǐ shàng xiǎoxué?"
+    },
+    {
+      "speaker": "a",
+      "text": "跟中国差不多，从六岁开始上小学。",
+      "reading": "Gēn Zhōngguó chàbuduō, cóng liù suì kāishǐ shàng xiǎoxué."
+    },
+    {
+      "speaker": "b",
+      "text": "中国的小学六年，初中三年，这九年是义务教育。",
+      "reading": "Zhōngguó de xiǎoxué liù nián, chūzhōng sān nián, zhè jiǔ nián shì yìwù jiàoyù."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国也有义务教育，从小学一年级到初中三年级，也是九年。",
+      "reading": "Tàiguó yě yǒu yìwù jiàoyù, cóng xiǎoxué yī niánjí dào chūzhōng sān niánjí, yě shì jiǔ nián."
+    },
+    {
+      "speaker": "b",
+      "text": "那高中呢？",
+      "reading": "Nà gāozhōng ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "高中也是三年。我妹妹今年读高中三年级，明年就要考大学了。",
+      "reading": "Gāozhōng yě shì sān nián. Wǒ mèimei jīnnián dú gāozhōng sān niánjí, míngnián jiù yào kǎo dàxué le."
+    },
+    {
+      "speaker": "b",
+      "text": "这个阶段的学生压力都很大吧？",
+      "reading": "Zhège jiēduàn de xuésheng yālì dōu hěn dà ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，她从上高中起就开始准备考试了。",
+      "reading": "Duì, tā cóng shàng gāozhōng qǐ jiù kāishǐ zhǔnbèi kǎoshì le."
+    },
+    {
+      "speaker": "b",
+      "text": "我觉得中国的教育制度把考试看得太重要了。",
+      "reading": "Wǒ juéde Zhōngguó de jiàoyù zhìdù bǎ kǎoshì kàn de tài zhòngyào le."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国也一样。很多儿童从小就要学很多东西，周末也不休息。",
+      "reading": "Tàiguó yě yīyàng. Hěn duō értóng cóngxiǎo jiù yào xué hěn duō dōngxi, zhōumò yě bù xiūxi."
+    },
+    {
+      "speaker": "b",
+      "text": "孩子们太累了。我希望教育能让他们更快乐。",
+      "reading": "Háizimen tài lèi le. Wǒ xīwàng jiàoyù néng ràng tāmen gèng kuàilè."
+    },
+    {
+      "speaker": "a",
+      "text": "我也这么想。学习应该是一件快乐的事。",
+      "reading": "Wǒ yě zhème xiǎng. Xuéxí yīnggāi shì yī jiàn kuàilè de shì."
+    }
+  ]
+}

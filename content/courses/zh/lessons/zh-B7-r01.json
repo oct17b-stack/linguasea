@@ -1,0 +1,70 @@
+{
+  "id": "zh-B7-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.lv-cha",
+      "text": "绿茶",
+      "reading": "lǜchá"
+    },
+    {
+      "id": "zh.hong-cha",
+      "text": "红茶",
+      "reading": "hóngchá"
+    },
+    {
+      "id": "zh.cao-mei",
+      "text": "草莓",
+      "reading": "cǎoméi"
+    },
+    {
+      "id": "zh.kuai-zi",
+      "text": "筷子",
+      "reading": "kuàizi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "绿茶、红茶：一杯八元。",
+        "reading": "Lǜchá, hóngchá: yī bēi bā yuán."
+      },
+      {
+        "text": "奶茶：中杯十元，大杯十二元。",
+        "reading": "Nǎichá: zhōngbēi shí yuán, dàbēi shí'èr yuán."
+      },
+      {
+        "text": "果汁（草莓、西瓜）：一杯十五元。",
+        "reading": "Guǒzhī (cǎoméi, xīguā): yī bēi shíwǔ yuán."
+      },
+      {
+        "text": "饼干一盒六元，面包一个五元。",
+        "reading": "Bǐnggān yī hé liù yuán, miànbāo yī ge wǔ yuán."
+      }
+    ],
+    [
+      {
+        "text": "筷子和吸管在门旁边。",
+        "reading": "Kuàizi hé xīguǎn zài mén pángbiān."
+      },
+      {
+        "text": "欢迎再来！",
+        "reading": "Huānyíng zài lái!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

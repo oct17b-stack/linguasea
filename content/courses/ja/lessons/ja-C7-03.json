@@ -1,0 +1,75 @@
+{
+  "id": "ja-C7-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.sugoi",
+      "text": "すごい",
+      "reading": "sugoi"
+    },
+    {
+      "id": "ja.kakkoii",
+      "text": "かっこいい",
+      "reading": "kakkoii"
+    },
+    {
+      "id": "ja.zuibun",
+      "text": "ずいぶん",
+      "reading": "zuibun"
+    },
+    {
+      "id": "ja.okashii",
+      "text": "おかしい",
+      "reading": "okashii"
+    },
+    {
+      "id": "ja.hen-strange",
+      "text": "変",
+      "reading": "hen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、その くつ、あたらしい？ かっこいい！",
+      "reading": "Namu, sono kutsu, atarashii? Kakkoii!"
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。でも、たかかった。",
+      "reading": "Arigatō. Demo, takakatta."
+    },
+    {
+      "speaker": "c",
+      "text": "いくら？",
+      "reading": "Ikura?"
+    },
+    {
+      "speaker": "a",
+      "text": "20,000円。",
+      "reading": "Niman en."
+    },
+    {
+      "speaker": "c",
+      "text": "え、すごい。ずいぶん たかいね。",
+      "reading": "E, sugoi. Zuibun takai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、この いろ、ちょっと 変じゃない？",
+      "reading": "Un. Demo, kono iro, chotto hen ja nai?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、おかしくないよ。きれいだよ。",
+      "reading": "Uun, okashikunai yo. Kirei da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。きのう みせで ずっと しんぱいだった。",
+      "reading": "Yokatta. Kinō mise de zutto shinpai datta."
+    }
+  ]
+}

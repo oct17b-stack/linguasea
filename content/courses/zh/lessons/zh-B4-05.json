@@ -1,0 +1,65 @@
+{
+  "id": "zh-B4-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xi-wash",
+      "text": "洗",
+      "reading": "xǐ"
+    },
+    {
+      "id": "zh.xi-zao",
+      "text": "洗澡",
+      "reading": "xǐzǎo"
+    },
+    {
+      "id": "zh.shua-ya",
+      "text": "刷牙",
+      "reading": "shuāyá"
+    },
+    {
+      "id": "zh.hui-return",
+      "text": "回",
+      "reading": "huí"
+    },
+    {
+      "id": "zh.mei",
+      "text": "每",
+      "reading": "měi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你每天早上做什么？",
+      "reading": "Xiǎonán, nǐ měitiān zǎoshang zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "起床，洗澡，刷牙，吃早饭。",
+      "reading": "Qǐchuáng, xǐzǎo, shuāyá, chī zǎofàn."
+    },
+    {
+      "speaker": "b",
+      "text": "早上洗澡？我晚上洗澡。",
+      "reading": "Zǎoshang xǐzǎo? Wǒ wǎnshang xǐzǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "我晚上回家也洗澡！",
+      "reading": "Wǒ wǎnshang huí jiā yě xǐzǎo!"
+    },
+    {
+      "speaker": "b",
+      "text": "早上洗，晚上也洗？",
+      "reading": "Zǎoshang xǐ, wǎnshang yě xǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！泰国人早上晚上都洗。",
+      "reading": "Duì! Tàiguó rén zǎoshang wǎnshang dōu xǐ."
+    }
+  ]
+}

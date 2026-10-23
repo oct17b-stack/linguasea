@@ -1,0 +1,62 @@
+{
+  "id": "zh-B15-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.lv-xing",
+      "text": "旅行",
+      "reading": "lǚxíng"
+    },
+    {
+      "id": "zh.yi-lu-shun-feng",
+      "kind": "phrase",
+      "text": "一路顺风",
+      "reading": "yīlù shùnfēng"
+    },
+    {
+      "id": "zh.yi-wan",
+      "kind": "phrase",
+      "text": "一晚",
+      "reading": "yī wǎn"
+    },
+    {
+      "id": "zh.kong-fang",
+      "text": "空房",
+      "reading": "kōngfáng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "妈妈，这个周末我和王明去旅行。",
+      "reading": "Māma, zhège zhōumò wǒ hé Wáng Míng qù lǚxíng."
+    },
+    {
+      "speaker": "c",
+      "text": "去哪儿？",
+      "reading": "Qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "去看海，住一晚。",
+      "reading": "Qù kàn hǎi, zhù yī wǎn."
+    },
+    {
+      "speaker": "c",
+      "text": "那里有空房吗？",
+      "reading": "Nàlǐ yǒu kōngfáng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，还有两个空房。",
+      "reading": "Yǒu, hái yǒu liǎng ge kōngfáng."
+    },
+    {
+      "speaker": "c",
+      "text": "好，一路顺风！",
+      "reading": "Hǎo, yīlù shùnfēng!"
+    }
+  ]
+}

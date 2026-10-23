@@ -1,0 +1,70 @@
+{
+  "id": "ja-C7-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.choudai",
+      "text": "ちょうだい",
+      "reading": "chōdai"
+    },
+    {
+      "id": "ja.okosu",
+      "text": "起こす",
+      "reading": "okosu"
+    },
+    {
+      "id": "ja.tsureru",
+      "text": "つれる",
+      "reading": "tsureru"
+    },
+    {
+      "id": "ja.mochiron",
+      "text": "もちろん",
+      "reading": "mochiron"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、あしたの あさ、でんわで 起こして。",
+      "reading": "Namu, ashita no asa, denwa de okoshite."
+    },
+    {
+      "speaker": "a",
+      "text": "いいよ。なんじ？",
+      "reading": "Ii yo. Nanji?"
+    },
+    {
+      "speaker": "c",
+      "text": "7時。また ねぼうしたくない。",
+      "reading": "Shichiji. Mata nebō shitakunai."
+    },
+    {
+      "speaker": "a",
+      "text": "もちろん。じゃあ、わたしも おねがい。こんど ドライブに つれて いって。",
+      "reading": "Mochiron. Jā, watashi mo onegai. Kondo doraibu ni tsurete itte."
+    },
+    {
+      "speaker": "c",
+      "text": "いいよ。うみは どう？",
+      "reading": "Ii yo. Umi wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "いいね！ あ、その おかし、ひとつ ちょうだい。",
+      "reading": "Ii ne! A, sono okashi, hitotsu chōdai."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、どうぞ。でも、ぜんぶ たべないでね。",
+      "reading": "Hai, dōzo. Demo, zenbu tabenaide ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わかった。あしたの でんわも わすれないよ。",
+      "reading": "Wakatta. Ashita no denwa mo wasurenai yo."
+    }
+  ]
+}

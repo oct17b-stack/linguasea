@@ -1,0 +1,74 @@
+{
+  "id": "en-C13-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.sounds-good",
+      "kind": "phrase",
+      "text": "Sounds good!",
+      "reading": "ˌsaʊndz ˈɡʊd"
+    },
+    {
+      "id": "en.why-not",
+      "kind": "phrase",
+      "text": "Why not?",
+      "reading": "ˌwaɪ ˈnɑːt"
+    },
+    {
+      "id": "en.never-mind",
+      "kind": "phrase",
+      "text": "Never mind",
+      "reading": "ˌnɛvər ˈmaɪnd"
+    },
+    {
+      "id": "en.maybe-next-time",
+      "kind": "phrase",
+      "text": "Maybe next time",
+      "reading": "ˌmeɪbi nɛkst ˈtaɪm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm taking a Thai cooking class on Wednesday evening. Come with me!",
+      "reading": "ˈnɑːm, aɪm ˈteɪkɪŋ ə ˈtaɪ ˈkʊkɪŋ ˌklæs ɑːn ˈwɛnzdeɪ ˈiːvnɪŋ. ˈkʌm wɪð miː!"
+    },
+    {
+      "speaker": "a",
+      "text": "That sounds fun! What time is it?",
+      "reading": "ðæt ˈsaʊndz ˈfʌn! ˈwʌt ˈtaɪm ɪz ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "From six to eight.",
+      "reading": "frəm ˈsɪks tu ˈeɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, I'm meeting Ploy on Wednesday evening. Maybe next time.",
+      "reading": "ˈoʊ, aɪm ˈmiːtɪŋ ˈplɔɪ ɑːn ˈwɛnzdeɪ ˈiːvnɪŋ. ˌmeɪbi nɛkst ˈtaɪm."
+    },
+    {
+      "speaker": "c",
+      "text": "Never mind. Then why don't you come to my place on Friday? We can cook together.",
+      "reading": "ˌnɛvər ˈmaɪnd. ˈðɛn ˈwaɪ ˈdoʊnt juː ˈkʌm tə maɪ ˈpleɪs ɑːn ˈfraɪdeɪ? wiː kən ˈkʊk təˈɡɛðər."
+    },
+    {
+      "speaker": "a",
+      "text": "Why not? That sounds like a good plan.",
+      "reading": "ˌwaɪ ˈnɑːt? ðæt ˈsaʊndz ˈlaɪk ə ˈɡʊd ˈplæn."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! I'll buy the food.",
+      "reading": "ˈɡreɪt! aɪl ˈbaɪ ðə ˈfuːd."
+    },
+    {
+      "speaker": "a",
+      "text": "Sounds good! And I'll make Thai iced tea.",
+      "reading": "ˌsaʊndz ˈɡʊd! ənd aɪl ˈmeɪk ˈtaɪ ˈaɪst ˈtiː."
+    }
+  ]
+}

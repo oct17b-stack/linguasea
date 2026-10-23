@@ -1,0 +1,75 @@
+{
+  "id": "en-C14-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.pan",
+      "text": "pan",
+      "reading": "pæn"
+    },
+    {
+      "id": "en.taste",
+      "text": "taste",
+      "reading": "teɪst"
+    },
+    {
+      "id": "en.burn",
+      "text": "burn",
+      "reading": "bɜːrn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Nam and Emma are cooking pad kra pao in Emma's kitchen.",
+        "reading": "ˈnɑːm ənd ˈɛmə ər ˈkʊkɪŋ ˌpɑːd krə ˈpaʊ ɪn ˈɛməz ˈkɪtʃən."
+      },
+      {
+        "text": "First, Nam heats some oil in a pan.",
+        "reading": "ˈfɜːrst, ˈnɑːm ˈhiːts sʌm ˈɔɪl ɪn ə ˈpæn."
+      },
+      {
+        "text": "\"Now add the garlic and the chilies, and stir quickly,\" she says.",
+        "reading": "\"ˈnaʊ ˈæd ðə ˈɡɑːrlɪk ənd ðə ˈtʃɪliz, ənd ˈstɜːr ˈkwɪkli,\" ʃiː ˈsɛz."
+      }
+    ],
+    [
+      {
+        "text": "Emma stirs, but a minute later, she says, \"Oh no! I think I burned the garlic!\"",
+        "reading": "ˈɛmə ˈstɜːrz, bʌt ə ˈmɪnɪt ˈleɪtər, ʃiː ˈsɛz, \"ˈoʊ ˈnoʊ! aɪ ˈθɪŋk aɪ ˈbɜːrnd ðə ˈɡɑːrlɪk!\""
+      },
+      {
+        "text": "Nam laughs and says, \"It's OK. Only a little is black.\"",
+        "reading": "ˈnɑːm ˈlæfs ənd ˈsɛz, \"ɪts oʊˈkeɪ. ˈoʊnli ə ˈlɪtəl ɪz ˈblæk.\""
+      },
+      {
+        "text": "Then they add the chicken, some fish sauce and a little sugar.",
+        "reading": "ˈðɛn ðeɪ ˈæd ðə ˈtʃɪkən, sʌm ˈfɪʃ ˌsɔːs ənd ə ˈlɪtəl ˈʃʊɡər."
+      }
+    ],
+    [
+      {
+        "text": "Emma tastes it and says, \"It's spicy, but it's delicious!\"",
+        "reading": "ˈɛmə ˈteɪsts ɪt ənd ˈsɛz, \"ɪts ˈspaɪsi, bʌt ɪts dɪˈlɪʃəs!\""
+      },
+      {
+        "text": "Finally, Nam adds the basil, and they eat it with rice and an egg.",
+        "reading": "ˈfaɪnəli, ˈnɑːm ˈædz ðə ˈbeɪzəl, ənd ðeɪ ˈiːt ɪt wɪð ˈraɪs ənd ən ˈɛɡ."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

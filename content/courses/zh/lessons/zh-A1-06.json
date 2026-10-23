@@ -1,0 +1,53 @@
+{
+  "id": "zh-A1-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.bu-hao-yi-si",
+      "kind": "phrase",
+      "text": "不好意思",
+      "reading": "bù hǎoyìsi"
+    },
+    {
+      "id": "zh.huan-ying",
+      "text": "欢迎",
+      "reading": "huānyíng"
+    },
+    {
+      "id": "zh.mei-shen-me",
+      "kind": "phrase",
+      "text": "没什么",
+      "reading": "méi shénme"
+    },
+    {
+      "id": "zh.deng-yi-xia",
+      "kind": "phrase",
+      "text": "等一下",
+      "reading": "děng yīxià"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，等一下！",
+      "reading": "Wáng Míng, děng yīxià!"
+    },
+    {
+      "speaker": "b",
+      "text": "好。",
+      "reading": "Hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "不好意思！欢迎，请进！",
+      "reading": "Bù hǎoyìsi! Huānyíng, qǐng jìn!"
+    },
+    {
+      "speaker": "b",
+      "text": "没什么。谢谢！",
+      "reading": "Méi shénme. Xièxie!"
+    }
+  ]
+}

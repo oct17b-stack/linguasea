@@ -1,0 +1,83 @@
+{
+  "id": "ja-C7-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ryoukai",
+      "text": "りょうかい",
+      "reading": "ryōkai"
+    },
+    {
+      "id": "ja.kidoku",
+      "text": "きどく",
+      "reading": "kidoku"
+    },
+    {
+      "id": "ja.sutanpu",
+      "text": "スタンプ",
+      "reading": "sutanpu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゆき：ナム、こんどの きんようび、えいが みない？",
+        "reading": "Yuki: Namu, kondo no kin'yōbi, eiga minai?"
+      },
+      {
+        "text": "ナム：いいね！ なんの えいが？",
+        "reading": "Namu: Ii ne! Nan no eiga?"
+      },
+      {
+        "text": "ゆき：タイの えいが。",
+        "reading": "Yuki: Tai no eiga."
+      },
+      {
+        "text": "ナム：ほんとう？ みたい！",
+        "reading": "Namu: Hontō? Mitai!"
+      }
+    ],
+    [
+      {
+        "text": "ゆき：6時半に えいがかんの まえは どう？",
+        "reading": "Yuki: Rokuji han ni eigakan no mae wa dō?"
+      },
+      {
+        "text": "ナム：りょうかい！",
+        "reading": "Namu: Ryōkai!"
+      }
+    ],
+    [
+      {
+        "text": "ゆき：ナム、いま どこ？ えいがかんの まえに いるよ。",
+        "reading": "Yuki: Namu, ima doko? Eigakan no mae ni iru yo."
+      },
+      {
+        "text": "ゆき：あ、きどく。へんじ ちょうだい！",
+        "reading": "Yuki: A, kidoku. Henji chōdai!"
+      },
+      {
+        "text": "ナム：ごめん！ いま 駅。でんしゃが おくれた。",
+        "reading": "Namu: Gomen! Ima eki. Densha ga okureta."
+      },
+      {
+        "text": "ゆき：オーケー。スタンプ、かわいいね。",
+        "reading": "Yuki: Ōkē. Sutanpu, kawaii ne."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

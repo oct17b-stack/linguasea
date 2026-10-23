@@ -1,0 +1,65 @@
+{
+  "id": "zh-B9-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.she-tuan",
+      "text": "社团",
+      "reading": "shètuán"
+    },
+    {
+      "id": "zh.tiao-jump",
+      "text": "跳",
+      "reading": "tiào"
+    },
+    {
+      "id": "zh.yue-dui",
+      "text": "乐队",
+      "reading": "yuèduì"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "欢迎大家来乒乓球社团打球！",
+        "reading": "Huānyíng dàjiā lái pīngpāngqiú shètuán dǎqiú!"
+      },
+      {
+        "text": "每个星期三下午四点，在八号楼。",
+        "reading": "Měi ge xīngqīsān xiàwǔ sì diǎn, zài bā hào lóu."
+      }
+    ],
+    [
+      {
+        "text": "乐队也欢迎新朋友！",
+        "reading": "Yuèduì yě huānyíng xīn péngyou!"
+      },
+      {
+        "text": "你会唱歌、会吉他吗？",
+        "reading": "Nǐ huì chànggē, huì jítā ma?"
+      },
+      {
+        "text": "星期五晚上，大家一起唱，一起跳！",
+        "reading": "Xīngqīwǔ wǎnshang, dàjiā yīqǐ chàng, yīqǐ tiào!"
+      },
+      {
+        "text": "不会也没关系，欢迎来玩！",
+        "reading": "Bù huì yě méi guānxi, huānyíng lái wán!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

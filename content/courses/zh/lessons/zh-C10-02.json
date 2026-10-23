@@ -1,0 +1,75 @@
+{
+  "id": "zh-C10-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.tian-fill",
+      "text": "填",
+      "reading": "tián"
+    },
+    {
+      "id": "zh.biao",
+      "text": "表",
+      "reading": "biǎo"
+    },
+    {
+      "id": "zh.pai-dui",
+      "text": "排队",
+      "reading": "páiduì"
+    },
+    {
+      "id": "zh.gang-cai",
+      "text": "刚才",
+      "reading": "gāngcái"
+    },
+    {
+      "id": "zh.gang",
+      "text": "刚",
+      "reading": "gāng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好，我要寄这个包裹。",
+      "reading": "Nǐ hǎo, wǒ yào jì zhège bāoguǒ."
+    },
+    {
+      "speaker": "c",
+      "text": "你填表了吗？",
+      "reading": "Nǐ tián biǎo le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我刚填了。你看，是这张表吗？",
+      "reading": "Wǒ gāng tián le. Nǐ kàn, shì zhè zhāng biǎo ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "对。可是你得先排队。",
+      "reading": "Duì. Kěshì nǐ děi xiān páiduì."
+    },
+    {
+      "speaker": "a",
+      "text": "对不起！我刚才没看见。",
+      "reading": "Duìbuqǐ! Wǒ gāngcái méi kànjiàn."
+    },
+    {
+      "speaker": "c",
+      "text": "没关系。刚才排队的人很多，现在少了。",
+      "reading": "Méi guānxi. Gāngcái páiduì de rén hěn duō, xiànzài shǎo le."
+    },
+    {
+      "speaker": "a",
+      "text": "我要等多长时间？",
+      "reading": "Wǒ yào děng duō cháng shíjiān?"
+    },
+    {
+      "speaker": "c",
+      "text": "不长，等五分钟就到你了。",
+      "reading": "Bù cháng, děng wǔ fēnzhōng jiù dào nǐ le."
+    }
+  ]
+}

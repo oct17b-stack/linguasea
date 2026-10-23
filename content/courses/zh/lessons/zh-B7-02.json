@@ -1,0 +1,65 @@
+{
+  "id": "zh-B7-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.guo-zhi",
+      "text": "果汁",
+      "reading": "guǒzhī"
+    },
+    {
+      "id": "zh.kuang-quan-shui",
+      "text": "矿泉水",
+      "reading": "kuàngquánshuǐ"
+    },
+    {
+      "id": "zh.ke-le",
+      "text": "可乐",
+      "reading": "kělè"
+    },
+    {
+      "id": "zh.pi-jiu",
+      "text": "啤酒",
+      "reading": "píjiǔ"
+    },
+    {
+      "id": "zh.hao-he",
+      "text": "好喝",
+      "reading": "hǎohē"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你们好！喝什么？",
+      "reading": "Nǐmen hǎo! Hē shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我要一杯啤酒。小南，你呢？",
+      "reading": "Wǒ yào yī bēi píjiǔ. Xiǎonán, nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "有果汁吗？",
+      "reading": "Yǒu guǒzhī ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "没有果汁。有可乐，也有矿泉水。",
+      "reading": "Méiyǒu guǒzhī. Yǒu kělè, yě yǒu kuàngquánshuǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "可乐太甜了。我要矿泉水。",
+      "reading": "Kělè tài tián le. Wǒ yào kuàngquánshuǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "这儿的啤酒很好喝！",
+      "reading": "Zhèr de píjiǔ hěn hǎohē!"
+    }
+  ]
+}

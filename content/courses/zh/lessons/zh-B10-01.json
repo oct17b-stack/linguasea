@@ -1,0 +1,60 @@
+{
+  "id": "zh-B10-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xiao-yuan",
+      "text": "校园",
+      "reading": "xiàoyuán"
+    },
+    {
+      "id": "zh.da-men",
+      "text": "大门",
+      "reading": "dàmén"
+    },
+    {
+      "id": "zh.jiao-xue-lou",
+      "text": "教学楼",
+      "reading": "jiàoxuélóu"
+    },
+    {
+      "id": "zh.shi-tang",
+      "text": "食堂",
+      "reading": "shítáng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，欢迎来我们学校！这是大门。",
+      "reading": "Xiǎonán, huānyíng lái wǒmen xuéxiào! Zhè shì dàmén."
+    },
+    {
+      "speaker": "a",
+      "text": "你们的校园真大！",
+      "reading": "Nǐmen de xiàoyuán zhēn dà!"
+    },
+    {
+      "speaker": "b",
+      "text": "前面是教学楼，我们在那儿上课。",
+      "reading": "Qiánmian shì jiàoxuélóu, wǒmen zài nàr shàngkè."
+    },
+    {
+      "speaker": "a",
+      "text": "你们在哪儿吃饭？",
+      "reading": "Nǐmen zài nǎr chīfàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "在食堂吃饭。食堂在教学楼旁边。",
+      "reading": "Zài shítáng chīfàn. Shítáng zài jiàoxuélóu pángbiān."
+    },
+    {
+      "speaker": "a",
+      "text": "我们去食堂吧！我很饿！",
+      "reading": "Wǒmen qù shítáng ba! Wǒ hěn è!"
+    }
+  ]
+}

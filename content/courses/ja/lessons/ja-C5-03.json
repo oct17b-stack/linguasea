@@ -1,0 +1,70 @@
+{
+  "id": "ja-C5-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.denshirenji",
+      "text": "電子レンジ",
+      "reading": "denshirenji"
+    },
+    {
+      "id": "ja.sentakuki",
+      "text": "せんたくき",
+      "reading": "sentakuki"
+    },
+    {
+      "id": "ja.reibou",
+      "text": "れいぼう",
+      "reading": "reibō"
+    },
+    {
+      "id": "ja.danbou",
+      "text": "だんぼう",
+      "reading": "danbō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、よる 10時に 電子レンジを つかっても いいですか。",
+      "reading": "Sumimasen, yoru jūji ni denshirenji o tsukatte mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、いいですよ。だいどころは 11時まで だいじょうぶです。",
+      "reading": "Hai, ii desu yo. Daidokoro wa jūichiji made daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "せんたくきは よる つかっても いいですか。",
+      "reading": "Sentakuki wa yoru tsukatte mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "せんたくきは 10時までです。うるさいですから。",
+      "reading": "Sentakuki wa jūji made desu. Urusai desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。へやで れいぼうを つかっても いいですか。",
+      "reading": "Wakarimashita. Heya de reibō o tsukatte mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ふゆは だんぼうも つかえますよ。",
+      "reading": "Hai. Fuyu wa danbō mo tsukaemasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、しゅうまつに ともだちが へやに きても いいですか。",
+      "reading": "Sorekara, shūmatsu ni tomodachi ga heya ni kite mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ごごは いいですよ。でも、よるは ちょっと…。",
+      "reading": "Gogo wa ii desu yo. Demo, yoru wa chotto…."
+    }
+  ]
+}

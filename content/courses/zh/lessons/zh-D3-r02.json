@@ -1,0 +1,85 @@
+{
+  "id": "zh-D3-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.shi-wu-zhao-ling",
+      "text": "失物招领",
+      "reading": "shīwù zhāolǐng",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.ren-ling",
+      "text": "认领",
+      "reading": "rènlǐng"
+    },
+    {
+      "id": "zh.bao-guan",
+      "text": "保管",
+      "reading": "bǎoguǎn"
+    },
+    {
+      "id": "zh.yi-shi-lost",
+      "text": "遗失",
+      "reading": "yíshī"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "失物招领",
+        "reading": "Shīwù zhāolǐng"
+      },
+      {
+        "text": "十月六号下午，车站的服务员在二楼发现了一个黑色的包。",
+        "reading": "Shí yuè liù hào xiàwǔ, chēzhàn de fúwùyuán zài èr lóu fāxiàn le yī ge hēisè de bāo."
+      },
+      {
+        "text": "包里有一些衣服、一个笔记本和一张学生证。",
+        "reading": "Bāo li yǒu yīxiē yīfu, yī ge bǐjìběn hé yī zhāng xuéshēngzhèng."
+      }
+    ],
+    [
+      {
+        "text": "现在车站帮您保管这个包。",
+        "reading": "Xiànzài chēzhàn bāng nín bǎoguǎn zhège bāo."
+      },
+      {
+        "text": "遗失这个包的旅客，请带好身份证，到一楼东边的办公室认领。",
+        "reading": "Yíshī zhège bāo de lǚkè, qǐng dàihǎo shēnfènzhèng, dào yī lóu dōngbian de bàngōngshì rènlǐng."
+      },
+      {
+        "text": "认领的时候，请说一下包里有什么东西。",
+        "reading": "Rènlǐng de shíhou, qǐng shuō yīxià bāo li yǒu shénme dōngxi."
+      },
+      {
+        "text": "车站只保管三十天，请您早一点儿来。",
+        "reading": "Chēzhàn zhǐ bǎoguǎn sānshí tiān, qǐng nín zǎo yīdiǎnr lái."
+      }
+    ],
+    [
+      {
+        "text": "有问题，请给车站打电话。",
+        "reading": "Yǒu wèntí, qǐng gěi chēzhàn dǎ diànhuà."
+      },
+      {
+        "text": "西安北站，十月七号",
+        "reading": "Xī'ān Běizhàn, shí yuè qī hào"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

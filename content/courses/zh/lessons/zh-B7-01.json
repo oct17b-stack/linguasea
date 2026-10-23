@@ -1,0 +1,66 @@
+{
+  "id": "zh-B7-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.nai-cha",
+      "text": "奶茶",
+      "reading": "nǎichá"
+    },
+    {
+      "id": "zh.zhong-bei",
+      "text": "中杯",
+      "reading": "zhōngbēi"
+    },
+    {
+      "id": "zh.da-bei",
+      "text": "大杯",
+      "reading": "dàbēi"
+    },
+    {
+      "id": "zh.tian-sweet",
+      "text": "甜",
+      "reading": "tián"
+    },
+    {
+      "id": "zh.bu-tai",
+      "kind": "phrase",
+      "text": "不太",
+      "reading": "bù tài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好！要什么？",
+      "reading": "Nǐ hǎo! Yào shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我要一杯奶茶。",
+      "reading": "Wǒ yào yī bēi nǎichá."
+    },
+    {
+      "speaker": "c",
+      "text": "中杯还是大杯？",
+      "reading": "Zhōngbēi háishi dàbēi?"
+    },
+    {
+      "speaker": "a",
+      "text": "中杯。我不喜欢太甜的。",
+      "reading": "Zhōngbēi. Wǒ bù xǐhuan tài tián de."
+    },
+    {
+      "speaker": "c",
+      "text": "好，不太甜的中杯奶茶，十二块。",
+      "reading": "Hǎo, bù tài tián de zhōngbēi nǎichá, shí'èr kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我用手机。",
+      "reading": "Hǎo de, wǒ yòng shǒujī."
+    }
+  ]
+}

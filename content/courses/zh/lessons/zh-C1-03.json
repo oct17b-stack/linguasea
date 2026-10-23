@@ -1,0 +1,75 @@
+{
+  "id": "zh-C1-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.pa-shan",
+      "text": "爬山",
+      "reading": "páshān"
+    },
+    {
+      "id": "zh.san-bu",
+      "text": "散步",
+      "reading": "sànbù"
+    },
+    {
+      "id": "zh.huo-dong",
+      "text": "活动",
+      "reading": "huódòng"
+    },
+    {
+      "id": "zh.can-jia",
+      "text": "参加",
+      "reading": "cānjiā"
+    },
+    {
+      "id": "zh.neng-gou",
+      "text": "能够",
+      "reading": "nénggòu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，星期六我们学校有爬山活动，你想参加吗？",
+      "reading": "Xiǎonán, xīngqīliù wǒmen xuéxiào yǒu páshān huódòng, nǐ xiǎng cānjiā ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我是外国学生，也能参加吗？",
+      "reading": "Wǒ shì wàiguó xuésheng, yě néng cānjiā ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "能！外国学生也能够参加。",
+      "reading": "Néng! Wàiguó xuésheng yě nénggòu cānjiā."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！可是星期六上午我有考试，不能去。",
+      "reading": "Tài hǎo le! Kěshì xīngqīliù shàngwǔ wǒ yǒu kǎoshì, bù néng qù."
+    },
+    {
+      "speaker": "b",
+      "text": "没关系。星期天下午我们去公园散步，你能去吗？",
+      "reading": "Méi guānxi. Xīngqītiān xiàwǔ wǒmen qù gōngyuán sànbù, nǐ néng qù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "星期天能去。几点？",
+      "reading": "Xīngqītiān néng qù. Jǐ diǎn?"
+    },
+    {
+      "speaker": "b",
+      "text": "下午四点，在学校门口见。",
+      "reading": "Xiàwǔ sì diǎn, zài xuéxiào ménkǒu jiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "好，星期天见！",
+      "reading": "Hǎo, xīngqītiān jiàn!"
+    }
+  ]
+}

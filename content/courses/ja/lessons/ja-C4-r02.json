@@ -1,0 +1,84 @@
+{
+  "id": "ja-C4-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shoutai",
+      "text": "しょうたい",
+      "reading": "shōtai"
+    },
+    {
+      "id": "ja.kangeikai",
+      "text": "かんげいかい",
+      "reading": "kangeikai"
+    },
+    {
+      "id": "ja.shusseki",
+      "text": "しゅっせき",
+      "reading": "shusseki"
+    },
+    {
+      "id": "ja.kaijou",
+      "text": "会場",
+      "reading": "kaijō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "みなさん、こんにちは。やまだです。",
+        "reading": "Minasan, konnichiwa. Yamada desu."
+      },
+      {
+        "text": "来週の きんようびに、あたらしい がくせいの かんげいかいが あります。",
+        "reading": "Raishū no kin'yōbi ni, atarashii gakusei no kangeikai ga arimasu."
+      },
+      {
+        "text": "みなさんを しょうたいします。",
+        "reading": "Minasan o shōtai shimasu."
+      }
+    ],
+    [
+      {
+        "text": "じかんは ごご 6時から 8時までです。",
+        "reading": "Jikan wa gogo rokuji kara hachiji made desu."
+      },
+      {
+        "text": "会場は だいがくの となりの レストランです。",
+        "reading": "Kaijō wa daigaku no tonari no resutoran desu."
+      },
+      {
+        "text": "おかねは ひとり 1,000円です。",
+        "reading": "Okane wa hitori sen en desu."
+      }
+    ],
+    [
+      {
+        "text": "しゅっせきしますか。",
+        "reading": "Shusseki shimasu ka."
+      },
+      {
+        "text": "すいようびまでに メールで へんじを ください。",
+        "reading": "Suiyōbi made ni mēru de henji o kudasai."
+      },
+      {
+        "text": "みなさん、いっしょに 楽しみましょう！",
+        "reading": "Minasan, issho ni tanoshimimashō!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

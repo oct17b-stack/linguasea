@@ -1,0 +1,91 @@
+{
+  "id": "zh-D12-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.gan-xing-qu",
+      "text": "感兴趣",
+      "reading": "gǎn xìngqù"
+    },
+    {
+      "id": "zh.mian-shi",
+      "text": "面试",
+      "reading": "miànshì"
+    },
+    {
+      "id": "zh.jing-yan",
+      "text": "经验",
+      "reading": "jīngyàn"
+    },
+    {
+      "id": "zh.jian-li",
+      "text": "简历",
+      "reading": "jiǎnlì"
+    },
+    {
+      "id": "zh.zi-wo-jie-shao",
+      "kind": "phrase",
+      "text": "自我介绍",
+      "reading": "zìwǒ jièshào"
+    },
+    {
+      "id": "zh.xing-bie",
+      "text": "性别",
+      "reading": "xìngbié"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，请坐。你是来面试的吧？",
+      "reading": "Nǐ hǎo, qǐng zuò. Nǐ shì lái miànshì de ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "是的，我叫小南，这是我的简历。",
+      "reading": "Shì de, wǒ jiào Xiǎonán, zhè shì wǒ de jiǎnlì."
+    },
+    {
+      "speaker": "b",
+      "text": "好。请你先做一下自我介绍。",
+      "reading": "Hǎo. Qǐng nǐ xiān zuò yīxià zìwǒ jièshào."
+    },
+    {
+      "speaker": "a",
+      "text": "我是泰国留学生，在这儿学汉语。",
+      "reading": "Wǒ shì Tàiguó liúxuéshēng, zài zhèr xué Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "你为什么对这个工作感兴趣？",
+      "reading": "Nǐ wèi shénme duì zhège gōngzuò gǎn xìngqù?"
+    },
+    {
+      "speaker": "a",
+      "text": "我对咖啡很感兴趣，也想多跟中国人说汉语。",
+      "reading": "Wǒ duì kāfēi hěn gǎn xìngqù, yě xiǎng duō gēn Zhōngguó rén shuō Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "你有工作经验吗？",
+      "reading": "Nǐ yǒu gōngzuò jīngyàn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，我在曼谷的一家饭馆打过工，周末做服务员。",
+      "reading": "Yǒu, wǒ zài Màngǔ de yī jiā fànguǎn dǎ guo gōng, zhōumò zuò fúwùyuán."
+    },
+    {
+      "speaker": "b",
+      "text": "很好。请你把这张表填一下：名字、性别和电话。",
+      "reading": "Hěn hǎo. Qǐng nǐ bǎ zhè zhāng biǎo tián yīxià: míngzi, xìngbié hé diànhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我现在就填。",
+      "reading": "Hǎo de, wǒ xiànzài jiù tián."
+    }
+  ]
+}

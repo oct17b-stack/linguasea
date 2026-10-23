@@ -1,0 +1,70 @@
+{
+  "id": "en-C16-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.zookeeper",
+      "text": "zookeeper",
+      "reading": "ˈzuːkiːpər"
+    },
+    {
+      "id": "en.firefighter",
+      "text": "firefighter",
+      "reading": "ˈfaɪərfaɪtər"
+    },
+    {
+      "id": "en.hairdresser",
+      "text": "hairdresser",
+      "reading": "ˈhɛrdrɛsər"
+    },
+    {
+      "id": "en.programmer",
+      "text": "programmer",
+      "reading": "ˈproʊɡræmər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Look at these four jobs. Which one would you like, Nam?",
+      "reading": "ˈlʊk ət ðiːz ˈfɔːr ˈdʒɑːbz. ˈwɪtʃ ˈwʌn wʊd juː ˈlaɪk, ˈnɑːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'd love to be a zookeeper. I love animals!",
+      "reading": "aɪd ˈlʌv tə bi ə ˈzuːkiːpər. aɪ ˈlʌv ˈænɪməlz!"
+    },
+    {
+      "speaker": "b",
+      "text": "Would you like to be a firefighter?",
+      "reading": "wʊd juː ˈlaɪk tə bi ə ˈfaɪərfaɪtər?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I wouldn't. It's very dangerous.",
+      "reading": "ˈnoʊ, aɪ ˈwʊdənt. ɪts ˈvɛri ˈdeɪndʒərəs."
+    },
+    {
+      "speaker": "b",
+      "text": "And a hairdresser?",
+      "reading": "ənd ə ˈhɛrdrɛsər?"
+    },
+    {
+      "speaker": "a",
+      "text": "I wouldn't like to be a hairdresser. My hair always looks terrible!",
+      "reading": "aɪ ˈwʊdənt ˈlaɪk tə bi ə ˈhɛrdrɛsər. maɪ ˈhɛr ˈɔːlweɪz ˈlʊks ˈtɛrəbəl!"
+    },
+    {
+      "speaker": "b",
+      "text": "And you, Emma?",
+      "reading": "ənd ˈjuː, ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'd love to be a programmer. I'd make apps for students!",
+      "reading": "aɪd ˈlʌv tə bi ə ˈproʊɡræmər. aɪd ˈmeɪk ˈæps fər ˈstuːdənts!"
+    }
+  ]
+}

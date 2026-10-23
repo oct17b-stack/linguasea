@@ -1,0 +1,75 @@
+{
+  "id": "en-C14-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.recipe",
+      "text": "recipe",
+      "reading": "ˈrɛsəpi"
+    },
+    {
+      "id": "en.boil",
+      "text": "boil",
+      "reading": "bɔɪl"
+    },
+    {
+      "id": "en.chop",
+      "text": "chop",
+      "reading": "tʃɑːp"
+    },
+    {
+      "id": "en.stir",
+      "text": "stir",
+      "reading": "stɜːr"
+    },
+    {
+      "id": "en.add",
+      "text": "add",
+      "reading": "æd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you teach me a recipe for tom yum?",
+      "reading": "ˈnɑːm, kən juː ˈtiːtʃ miː ə ˈrɛsəpi fər ˌtɑːm ˈjʌm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure! It's easy. First, boil some water.",
+      "reading": "ˈʃʊr! ɪts ˈiːzi. ˈfɜːrst, ˈbɔɪl sʌm ˈwɔːtər."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. What do I do next?",
+      "reading": "oʊˈkeɪ. ˈwʌt duː aɪ ˈduː ˈnɛkst?"
+    },
+    {
+      "speaker": "a",
+      "text": "Next, add the herbs. Then chop the mushrooms and add them, too.",
+      "reading": "ˈnɛkst, ˈæd ði ˈɜːrbz. ˈðɛn ˈtʃɑːp ðə ˈmʌʃruːmz ənd ˈæd ðɛm, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Should I add the chilies now?",
+      "reading": "ʃʊd aɪ ˈæd ðə ˈtʃɪliz ˈnaʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. After that, add some fish sauce and stir it.",
+      "reading": "ˈjɛs. ˈæftər ˈðæt, ˈæd sʌm ˈfɪʃ ˌsɔːs ənd ˈstɜːr ɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "And finally?",
+      "reading": "ənd ˈfaɪnəli?"
+    },
+    {
+      "speaker": "a",
+      "text": "Finally, add some lime juice. Now we can eat!",
+      "reading": "ˈfaɪnəli, ˈæd sʌm ˈlaɪm ˌdʒuːs. ˈnaʊ wiː kən ˈiːt!"
+    }
+  ]
+}

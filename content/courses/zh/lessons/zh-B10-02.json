@@ -1,0 +1,60 @@
+{
+  "id": "zh-B10-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ke-lesson",
+      "text": "课",
+      "reading": "kè"
+    },
+    {
+      "id": "zh.kao-shi",
+      "text": "考试",
+      "reading": "kǎoshì"
+    },
+    {
+      "id": "zh.ban-class",
+      "text": "班",
+      "reading": "bān"
+    },
+    {
+      "id": "zh.tong-xue",
+      "text": "同学",
+      "reading": "tóngxué"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你们班有多少同学？",
+      "reading": "Wáng Míng, nǐmen bān yǒu duōshao tóngxué?"
+    },
+    {
+      "speaker": "b",
+      "text": "我们班有三十个同学。",
+      "reading": "Wǒmen bān yǒu sānshí ge tóngxué."
+    },
+    {
+      "speaker": "a",
+      "text": "你们每天都有课吗？",
+      "reading": "Nǐmen měitiān dōu yǒu kè ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，星期一到星期五都有课。",
+      "reading": "Duì, xīngqīyī dào xīngqīwǔ dōu yǒu kè."
+    },
+    {
+      "speaker": "a",
+      "text": "什么时候考试？",
+      "reading": "Shénme shíhou kǎoshì?"
+    },
+    {
+      "speaker": "b",
+      "text": "六月考试。考试以前，我们都很忙！",
+      "reading": "Liù yuè kǎoshì. Kǎoshì yǐqián, wǒmen dōu hěn máng!"
+    }
+  ]
+}

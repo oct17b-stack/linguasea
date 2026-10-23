@@ -1,0 +1,83 @@
+{
+  "id": "ja-C8-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kikou",
+      "text": "きこう",
+      "reading": "kikō"
+    },
+    {
+      "id": "ja.uki",
+      "text": "うき",
+      "reading": "uki"
+    },
+    {
+      "id": "ja.kanki",
+      "text": "かんき",
+      "reading": "kanki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "にほんと タイの きこうは おなじじゃ ありません。",
+        "reading": "Nihon to Tai no kikō wa onaji ja arimasen."
+      },
+      {
+        "text": "にほんには しきが あります。",
+        "reading": "Nihon ni wa shiki ga arimasu."
+      },
+      {
+        "text": "はるは 花見を したり、あきは こうようを みたり します。",
+        "reading": "Haru wa hanami o shitari, aki wa kōyō o mitari shimasu."
+      },
+      {
+        "text": "ふゆは ゆきが ふりますから、スキーが できます。",
+        "reading": "Fuyu wa yuki ga furimasu kara, sukī ga dekimasu."
+      }
+    ],
+    [
+      {
+        "text": "タイは ふゆも あたたかいです。",
+        "reading": "Tai wa fuyu mo atatakai desu."
+      },
+      {
+        "text": "タイには かんきと うきが あります。",
+        "reading": "Tai ni wa kanki to uki ga arimasu."
+      },
+      {
+        "text": "かんきの 4月は いちばん あつくて、ソンクラーンが あります。",
+        "reading": "Kanki no shigatsu wa ichiban atsukute, Sonkurān ga arimasu."
+      },
+      {
+        "text": "ソンクラーンでは、みんなで みずを かけます。",
+        "reading": "Sonkurān de wa, minna de mizu o kakemasu."
+      }
+    ],
+    [
+      {
+        "text": "うきは 5月から 10月ごろまでです。",
+        "reading": "Uki wa gogatsu kara jūgatsu goro made desu."
+      },
+      {
+        "text": "ゆうがたに よく あめが ふりますが、1じかんぐらいで 止みます。",
+        "reading": "Yūgata ni yoku ame ga furimasu ga, ichijikan gurai de yamimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

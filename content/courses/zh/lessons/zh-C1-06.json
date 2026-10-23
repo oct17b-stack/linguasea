@@ -1,0 +1,70 @@
+{
+  "id": "zh-C1-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.lv-you",
+      "text": "旅游",
+      "reading": "lǚyóu"
+    },
+    {
+      "id": "zh.zhao-pian",
+      "text": "照片",
+      "reading": "zhàopiàn"
+    },
+    {
+      "id": "zh.pai",
+      "text": "拍",
+      "reading": "pāi"
+    },
+    {
+      "id": "zh.hai-bian",
+      "text": "海边",
+      "reading": "hǎibiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你每个周末都做什么？",
+      "reading": "Xiǎonán, nǐ měi ge zhōumò dōu zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我每个周末都去一个公园拍照片。北京的公园太多了！",
+      "reading": "Wǒ měi ge zhōumò dōu qù yī ge gōngyuán pāi zhàopiàn. Běijīng de gōngyuán tài duō le!"
+    },
+    {
+      "speaker": "b",
+      "text": "给我看一下你的照片，好吗？",
+      "reading": "Gěi wǒ kàn yīxià nǐ de zhàopiàn, hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "你看，这张是北海公园，很漂亮！",
+      "reading": "Nǐ kàn, zhè zhāng shì Běihǎi Gōngyuán, hěn piàoliang!"
+    },
+    {
+      "speaker": "b",
+      "text": "真漂亮！在泰国，你周末也经常照相吗？",
+      "reading": "Zhēn piàoliang! Zài Tàiguó, nǐ zhōumò yě jīngcháng zhàoxiàng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对。我们家每年都去海边旅游，我每次都拍很多照片。",
+      "reading": "Duì. Wǒmen jiā měi nián dōu qù hǎibiān lǚyóu, wǒ měi cì dōu pāi hěn duō zhàopiàn."
+    },
+    {
+      "speaker": "b",
+      "text": "海边！我很少去海边，北京没有海。",
+      "reading": "Hǎibiān! Wǒ hěn shǎo qù hǎibiān, Běijīng méiyǒu hǎi."
+    },
+    {
+      "speaker": "a",
+      "text": "那你来泰国旅游吧！我们一起去海边！",
+      "reading": "Nà nǐ lái Tàiguó lǚyóu ba! Wǒmen yīqǐ qù hǎibiān!"
+    }
+  ]
+}

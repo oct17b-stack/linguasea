@@ -1,0 +1,60 @@
+{
+  "id": "zh-B9-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.wan-play",
+      "text": "玩",
+      "reading": "wán"
+    },
+    {
+      "id": "zh.hao-wan",
+      "text": "好玩",
+      "reading": "hǎowán"
+    },
+    {
+      "id": "zh.da-qiu",
+      "text": "打球",
+      "reading": "dǎqiú"
+    },
+    {
+      "id": "zh.ping-pang-qiu",
+      "text": "乒乓球",
+      "reading": "pīngpāngqiú"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，周末我们去公园玩儿吧！",
+      "reading": "Xiǎonán, zhōumò wǒmen qù gōngyuán wánr ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！公园好玩吗？",
+      "reading": "Hǎo a! Gōngyuán hǎowán ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很好玩！那儿可以打球。",
+      "reading": "Hěn hǎowán! Nàr kěyǐ dǎqiú."
+    },
+    {
+      "speaker": "a",
+      "text": "打什么球？",
+      "reading": "Dǎ shénme qiú?"
+    },
+    {
+      "speaker": "b",
+      "text": "乒乓球！你会打乒乓球吗？",
+      "reading": "Pīngpāngqiú! Nǐ huì dǎ pīngpāngqiú ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "会一点儿！",
+      "reading": "Huì yīdiǎnr!"
+    }
+  ]
+}

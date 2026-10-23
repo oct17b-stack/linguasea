@@ -1,0 +1,77 @@
+{
+  "id": "en-C11-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.towel",
+      "text": "towel",
+      "reading": "ˈtaʊəl"
+    },
+    {
+      "id": "en.locker",
+      "text": "locker",
+      "reading": "ˈlɑːkər"
+    },
+    {
+      "id": "en.equipment",
+      "text": "equipment",
+      "reading": "ɪˈkwɪpmənt"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Welcome to the university gym!",
+        "reading": "ˈwɛlkəm tə ðə ˌjuːnɪˈvɜːrsəti ˈdʒɪm!"
+      },
+      {
+        "text": "Please always use a towel on the equipment.",
+        "reading": "ˈpliːz ˈɔːlweɪz ˈjuːz ə ˈtaʊəl ɑːn ði ɪˈkwɪpmənt."
+      },
+      {
+        "text": "Keep your bag in a locker, and don't forget your key.",
+        "reading": "ˈkiːp jʊr ˈbæɡ ɪn ə ˈlɑːkər, ənd ˈdoʊnt fərˈɡɛt jʊr ˈkiː."
+      },
+      {
+        "text": "Clean the equipment after you use it.",
+        "reading": "ˈkliːn ði ɪˈkwɪpmənt ˈæftər juː ˈjuːz ɪt."
+      },
+      {
+        "text": "You can drink water, but please don't eat in the gym.",
+        "reading": "juː kən ˈdrɪŋk ˈwɔːtər, bʌt ˈpliːz ˈdoʊnt ˈiːt ɪn ðə ˈdʒɪm."
+      }
+    ],
+    [
+      {
+        "text": "We have new class times this semester.",
+        "reading": "wiː ˈhæv ˈnuː ˈklæs ˌtaɪmz ðɪs səˈmɛstər."
+      },
+      {
+        "text": "Yoga classes are on Monday and Wednesday from 6 to 7 p.m.",
+        "reading": "ˈjoʊɡə ˌklæsɪz ər ɑːn ˈmʌndeɪ ənd ˈwɛnzdeɪ frəm ˈsɪks tə ˈsɛvən ˌpiːˈɛm."
+      },
+      {
+        "text": "Badminton classes are on Tuesday and Thursday from 5 to 6 p.m.",
+        "reading": "ˈbædmɪntən ˌklæsɪz ər ɑːn ˈtuːzdeɪ ənd ˈθɜːrzdeɪ frəm ˈfaɪv tə ˈsɪks ˌpiːˈɛm."
+      },
+      {
+        "text": "All classes are free for students.",
+        "reading": "ˈɔːl ˈklæsɪz ər ˈfriː fər ˈstuːdənts."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

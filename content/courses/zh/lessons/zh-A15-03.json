@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.dong-bei",
+      "text": "东北",
+      "reading": "dōngběi"
+    },
+    {
+      "id": "zh.xi-bei",
+      "text": "西北",
+      "reading": "xīběi"
+    },
+    {
+      "id": "zh.xi-nan",
+      "text": "西南",
+      "reading": "xīnán"
+    },
+    {
+      "id": "zh.dong-nan-ya",
+      "text": "东南亚",
+      "reading": "Dōngnányà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "泰国东北有什么好吃的？",
+      "reading": "Tàiguó dōngběi yǒu shénme hǎochī de?"
+    },
+    {
+      "speaker": "a",
+      "text": "很多！我很喜欢泰国东北菜。",
+      "reading": "Hěn duō! Wǒ hěn xǐhuan Tàiguó dōngběi cài."
+    },
+    {
+      "speaker": "b",
+      "text": "中国东北菜也很好吃！",
+      "reading": "Zhōngguó dōngběi cài yě hěn hǎochī!"
+    },
+    {
+      "speaker": "a",
+      "text": "我也要吃！",
+      "reading": "Wǒ yě yào chī!"
+    }
+  ]
+}

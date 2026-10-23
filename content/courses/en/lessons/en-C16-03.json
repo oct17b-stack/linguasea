@@ -1,0 +1,70 @@
+{
+  "id": "en-C16-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.cashier",
+      "text": "cashier",
+      "reading": "kæˈʃɪr"
+    },
+    {
+      "id": "en.receptionist",
+      "text": "receptionist",
+      "reading": "rɪˈsɛpʃənɪst"
+    },
+    {
+      "id": "en.experience",
+      "text": "experience",
+      "reading": "ɪkˈspɪriəns"
+    },
+    {
+      "id": "en.salary",
+      "text": "salary",
+      "reading": "ˈsæləri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, do you have any work experience?",
+      "reading": "ˈnɑːm, duː juː ˈhæv ˈɛni ˈwɜːrk ɪkˌspɪriəns?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Last year, I worked as a cashier at a supermarket for two months.",
+      "reading": "ˈjɛs. ˈlæst ˈjɪr, aɪ ˈwɜːrkt əz ə kæˈʃɪr ət ə ˈsuːpərmɑːrkɪt fər ˈtuː ˈmʌnθs."
+    },
+    {
+      "speaker": "b",
+      "text": "Did you like it?",
+      "reading": "dɪd juː ˈlaɪk ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really. The salary wasn't very good, and I stood for eight hours a day. What was your first job, Mr. Brown?",
+      "reading": "ˈnɑːt ˈriːli. ðə ˈsæləri ˈwʌzənt ˈvɛri ˈɡʊd, ənd aɪ ˈstʊd fər ˈeɪt ˈaʊərz ə ˈdeɪ. ˈwʌt wʌz jʊr ˈfɜːrst ˈdʒɑːb, ˈmɪstər ˈbraʊn?"
+    },
+    {
+      "speaker": "b",
+      "text": "I was a receptionist at a hotel in Canada. I worked there for three years.",
+      "reading": "aɪ wʌz ə rɪˈsɛpʃənɪst ət ə hoʊˈtɛl ɪn ˈkænədə. aɪ ˈwɜːrkt ˈðɛr fər ˈθriː ˈjɪrz."
+    },
+    {
+      "speaker": "a",
+      "text": "Three years! Did you enjoy it?",
+      "reading": "ˈθriː ˈjɪrz! dɪd juː ɪnˈdʒɔɪ ɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, I did. I met people from all over the world.",
+      "reading": "ˈjɛs, aɪ ˈdɪd. aɪ ˈmɛt ˈpiːpəl frəm ˈɔːl ˈoʊvər ðə ˈwɜːrld."
+    },
+    {
+      "speaker": "a",
+      "text": "That sounds interesting!",
+      "reading": "ðæt ˈsaʊndz ˈɪntrəstɪŋ!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "zh-C11-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yun-dong",
+      "text": "运动",
+      "reading": "yùndòng"
+    },
+    {
+      "id": "zh.pao-bu",
+      "text": "跑步",
+      "reading": "pǎobù"
+    },
+    {
+      "id": "zh.duan-lian",
+      "text": "锻炼",
+      "reading": "duànliàn"
+    },
+    {
+      "id": "zh.gong-li",
+      "text": "公里",
+      "reading": "gōnglǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你常常运动吗？",
+      "reading": "Xiǎonán, nǐ chángcháng yùndòng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "常常。我每天早上去公园跑步。",
+      "reading": "Chángcháng. Wǒ měitiān zǎoshang qù gōngyuán pǎobù."
+    },
+    {
+      "speaker": "b",
+      "text": "你每天跑多长时间？",
+      "reading": "Nǐ měitiān pǎo duō cháng shíjiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "跑半个小时。我能跑五公里！",
+      "reading": "Pǎo bàn ge xiǎoshí. Wǒ néng pǎo wǔ gōnglǐ!"
+    },
+    {
+      "speaker": "b",
+      "text": "太棒了！我很少锻炼，一个星期打一次篮球。",
+      "reading": "Tài bàng le! Wǒ hěn shǎo duànliàn, yī ge xīngqī dǎ yī cì lánqiú."
+    },
+    {
+      "speaker": "a",
+      "text": "每次打多长时间？",
+      "reading": "Měi cì dǎ duō cháng shíjiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "打两个小时，很累！",
+      "reading": "Dǎ liǎng ge xiǎoshí, hěn lèi!"
+    },
+    {
+      "speaker": "a",
+      "text": "那明天早上跟我一起跑步吧！跑二十分钟就行。",
+      "reading": "Nà míngtiān zǎoshang gēn wǒ yīqǐ pǎobù ba! Pǎo èrshí fēnzhōng jiù xíng."
+    }
+  ]
+}

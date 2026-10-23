@@ -1,0 +1,55 @@
+{
+  "id": "zh-B12-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.neng",
+      "text": "能",
+      "reading": "néng"
+    },
+    {
+      "id": "zh.jin-qu",
+      "text": "进去",
+      "reading": "jìnqù"
+    },
+    {
+      "id": "zh.chu-lai",
+      "text": "出来",
+      "reading": "chūlái"
+    },
+    {
+      "id": "zh.shuo-hua",
+      "text": "说话",
+      "reading": "shuōhuà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这里能进去吗？",
+      "reading": "Wáng Míng, zhèlǐ néng jìnqù ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "可以。进去以后，请小声说话。",
+      "reading": "Kěyǐ. Jìnqù yǐhòu, qǐng xiǎoshēng shuōhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "你不进去吗？",
+      "reading": "Nǐ bù jìnqù ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "我不进去，我在这里等你。",
+      "reading": "Wǒ bù jìnqù, wǒ zài zhèlǐ děng nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我四点出来。",
+      "reading": "Hǎo, wǒ sì diǎn chūlái."
+    }
+  ]
+}

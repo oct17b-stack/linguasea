@@ -1,0 +1,80 @@
+{
+  "id": "ja-C3-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kenkyuushitsu",
+      "text": "研究室",
+      "reading": "kenkyūshitsu"
+    },
+    {
+      "id": "ja.jimusho",
+      "text": "じむしょ",
+      "reading": "jimusho"
+    },
+    {
+      "id": "ja.kougi",
+      "text": "こうぎ",
+      "reading": "kōgi"
+    },
+    {
+      "id": "ja.shiraberu",
+      "text": "しらべる",
+      "reading": "shiraberu"
+    },
+    {
+      "id": "ja.yoshuu",
+      "text": "よしゅう",
+      "reading": "yoshū"
+    },
+    {
+      "id": "ja.fukushuu",
+      "text": "ふくしゅう",
+      "reading": "fukushū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、こうぎは どうですか。",
+      "reading": "Namu-san, kōgi wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしいですが、ちょっと むずかしいです。",
+      "reading": "Tanoshii desu ga, chotto muzukashii desu."
+    },
+    {
+      "speaker": "b",
+      "text": "よしゅうと ふくしゅうは しますか。",
+      "reading": "Yoshū to fukushū wa shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "よしゅうは しますが、ふくしゅうは あまり しません。",
+      "reading": "Yoshū wa shimasu ga, fukushū wa amari shimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "ふくしゅうも ひつようですよ。ことばは じしょで しらべますか。",
+      "reading": "Fukushū mo hitsuyō desu yo. Kotoba wa jisho de shirabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ことばは しらべますが、かんじは… ちょっと。",
+      "reading": "Kotoba wa shirabemasu ga, kanji wa… chotto."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、かんじの しつもんは わたしの 研究室へ どうぞ。じむしょの となりです。",
+      "reading": "Jā, kanji no shitsumon wa watashi no kenkyūshitsu e dōzo. Jimusho no tonari desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。あした いきます。",
+      "reading": "Arigatō gozaimasu. Ashita ikimasu."
+    }
+  ]
+}

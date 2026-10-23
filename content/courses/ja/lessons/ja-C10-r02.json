@@ -1,0 +1,79 @@
+{
+  "id": "ja-C10-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tezukuri",
+      "text": "手作り",
+      "reading": "tezukuri"
+    },
+    {
+      "id": "ja.saraarai",
+      "text": "さらあらい",
+      "reading": "saraarai"
+    },
+    {
+      "id": "ja.okawari",
+      "text": "お代わり",
+      "reading": "okawari"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きょうは ゆきの アパートで りょうりパーティーを した。",
+        "reading": "Kyō wa Yuki no apāto de ryōri pātī o shita."
+      },
+      {
+        "text": "わたしは カイジアオと グリーンカレーを 作った。",
+        "reading": "Watashi wa kaijiao to gurīn karē o tsukutta."
+      },
+      {
+        "text": "ゆきは 手作りの ケーキを 用意して いた。",
+        "reading": "Yuki wa tezukuri no kēki o yōi shite ita."
+      }
+    ],
+    [
+      {
+        "text": "ゆきの ともだちも 3にん きた。",
+        "reading": "Yuki no tomodachi mo sannin kita."
+      },
+      {
+        "text": "みんな カレーを 何度も お代わりした。",
+        "reading": "Minna karē o nando mo okawari shita."
+      },
+      {
+        "text": "わたしの りょうりは ぜんぶ なくなった。",
+        "reading": "Watashi no ryōri wa zenbu nakunatta."
+      }
+    ],
+    [
+      {
+        "text": "パーティーの あとで、みんなで さらあらいを した。",
+        "reading": "Pātī no ato de, minna de saraarai o shita."
+      },
+      {
+        "text": "たのしい 1日だった。",
+        "reading": "Tanoshii ichinichi datta."
+      },
+      {
+        "text": "こんど また、みんなに タイりょうりを 作りたい。",
+        "reading": "Kondo mata, minna ni Tai ryōri o tsukuritai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C11-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.juku",
+      "text": "じゅく",
+      "reading": "juku"
+    },
+    {
+      "id": "ja.kateikyoushi",
+      "text": "かていきょうし",
+      "reading": "kateikyōshi"
+    },
+    {
+      "id": "ja.izakaya",
+      "text": "いざかや",
+      "reading": "izakaya"
+    },
+    {
+      "id": "ja.haitatsu",
+      "text": "はいたつ",
+      "reading": "haitatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、コンビニの アルバイトは どう？",
+      "reading": "Namu, konbini no arubaito wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "たのしいよ。ゆきは どんな アルバイトを して いるの？",
+      "reading": "Tanoshii yo. Yuki wa donna arubaito o shite iru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "じゅくで こどもに すうがくを おしえて いる。かていきょうしも して いるよ。",
+      "reading": "Juku de kodomo ni sūgaku o oshiete iru. Kateikyōshi mo shite iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！ ほかの ともだちは？",
+      "reading": "Sugoi! Hoka no tomodachi wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "いざかやとか、はいたつとか、いろいろ。",
+      "reading": "Izakaya toka, haitatsu toka, iroiro."
+    },
+    {
+      "speaker": "a",
+      "text": "はいたつは じてんしゃで するの？",
+      "reading": "Haitatsu wa jitensha de suru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。ラーメンとか おべんとうとかを、じてんしゃで 運ぶの。",
+      "reading": "Un. Rāmen toka obentō toka o, jitensha de hakobu no."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへんだね。でも、じてんしゃが すきな ひとには いいね。",
+      "reading": "Taihen da ne. Demo, jitensha ga suki na hito ni wa ii ne."
+    }
+  ]
+}

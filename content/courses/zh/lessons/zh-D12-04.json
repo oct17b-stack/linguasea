@@ -1,0 +1,85 @@
+{
+  "id": "zh-D12-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.bi-xu",
+      "text": "必须",
+      "reading": "bìxū"
+    },
+    {
+      "id": "zh.fu-ze",
+      "text": "负责",
+      "reading": "fùzé"
+    },
+    {
+      "id": "zh.gui-ding",
+      "text": "规定",
+      "reading": "guīdìng"
+    },
+    {
+      "id": "zh.gong-zuo-fu",
+      "text": "工作服",
+      "reading": "gōngzuòfú"
+    },
+    {
+      "id": "zh.ren-wu",
+      "text": "任务",
+      "reading": "rènwu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，我给你介绍一下我们咖啡馆的规定。",
+      "reading": "Xiǎonán, wǒ gěi nǐ jièshào yīxià wǒmen kāfēiguǎn de guīdìng."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我认真听。",
+      "reading": "Hǎo de, wǒ rènzhēn tīng."
+    },
+    {
+      "speaker": "c",
+      "text": "第一，上班的时候必须穿工作服。",
+      "reading": "Dì-yī, shàngbān de shíhou bìxū chuān gōngzuòfú."
+    },
+    {
+      "speaker": "a",
+      "text": "工作服在哪儿拿？",
+      "reading": "Gōngzuòfú zài nǎr ná?"
+    },
+    {
+      "speaker": "c",
+      "text": "在后面的房间里。第二，每个人都必须负责一个任务。",
+      "reading": "Zài hòumian de fángjiān li. Dì-èr, měi ge rén dōu bìxū fùzé yī ge rènwu."
+    },
+    {
+      "speaker": "a",
+      "text": "那我负责什么？",
+      "reading": "Nà wǒ fùzé shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "你负责收钱和收拾桌子。",
+      "reading": "Nǐ fùzé shōu qián hé shōushi zhuōzi."
+    },
+    {
+      "speaker": "a",
+      "text": "上班的时候可以用手机吗？",
+      "reading": "Shàngbān de shíhou kěyǐ yòng shǒujī ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "不可以，这是老板的规定。休息的时候才能用。",
+      "reading": "Bù kěyǐ, zhè shì lǎobǎn de guīdìng. Xiūxi de shíhou cái néng yòng."
+    },
+    {
+      "speaker": "a",
+      "text": "明白了，我一定注意。",
+      "reading": "Míngbai le, wǒ yīdìng zhùyì."
+    }
+  ]
+}

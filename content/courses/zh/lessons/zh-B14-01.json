@@ -1,0 +1,60 @@
+{
+  "id": "zh-B14-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.you-ming",
+      "text": "有名",
+      "reading": "yǒumíng"
+    },
+    {
+      "id": "zh.jing-dian-sight",
+      "text": "景点",
+      "reading": "jǐngdiǎn"
+    },
+    {
+      "id": "zh.si-temple",
+      "text": "寺",
+      "reading": "sì"
+    },
+    {
+      "id": "zh.gong-palace",
+      "text": "宫",
+      "reading": "gōng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，曼谷有什么有名的景点？",
+      "reading": "Xiǎonán, Màngǔ yǒu shénme yǒumíng de jǐngdiǎn?"
+    },
+    {
+      "speaker": "a",
+      "text": "很多！大王宫和卧佛寺都很有名。",
+      "reading": "Hěn duō! Dàwáng Gōng hé Wòfó Sì dōu hěn yǒumíng."
+    },
+    {
+      "speaker": "b",
+      "text": "卧佛寺在哪儿？",
+      "reading": "Wòfó Sì zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "在大王宫旁边，是一个很大的寺。",
+      "reading": "Zài Dàwáng Gōng pángbiān, shì yī ge hěn dà de sì."
+    },
+    {
+      "speaker": "b",
+      "text": "宫和寺我都想去！",
+      "reading": "Gōng hé sì wǒ dōu xiǎng qù!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，明天我们一起去！",
+      "reading": "Hǎo, míngtiān wǒmen yīqǐ qù!"
+    }
+  ]
+}

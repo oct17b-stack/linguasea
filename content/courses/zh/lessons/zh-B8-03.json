@@ -1,0 +1,61 @@
+{
+  "id": "zh-B8-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.deng",
+      "text": "等",
+      "reading": "děng"
+    },
+    {
+      "id": "zh.ma-shang",
+      "text": "马上",
+      "reading": "mǎshàng"
+    },
+    {
+      "id": "zh.kuai-dianr",
+      "kind": "phrase",
+      "text": "快点儿",
+      "reading": "kuài diǎnr"
+    },
+    {
+      "id": "zh.jiu-then",
+      "text": "就",
+      "reading": "jiù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "喂，小南，你在哪儿？我在饭馆门口。",
+      "reading": "Wéi, Xiǎonán, nǐ zài nǎr? Wǒ zài fànguǎn ménkǒu."
+    },
+    {
+      "speaker": "a",
+      "text": "等我一下！我马上来！",
+      "reading": "Děng wǒ yīxià! Wǒ mǎshàng lái!"
+    },
+    {
+      "speaker": "b",
+      "text": "快点儿！我很饿！",
+      "reading": "Kuài diǎnr! Wǒ hěn è!"
+    },
+    {
+      "speaker": "a",
+      "text": "我就在银行旁边。",
+      "reading": "Wǒ jiù zài yínháng pángbiān."
+    },
+    {
+      "speaker": "b",
+      "text": "银行？那很近！",
+      "reading": "Yínháng? Nà hěn jìn!"
+    },
+    {
+      "speaker": "a",
+      "text": "对，我五分钟就到！",
+      "reading": "Duì, wǒ wǔ fēnzhōng jiù dào!"
+    }
+  ]
+}

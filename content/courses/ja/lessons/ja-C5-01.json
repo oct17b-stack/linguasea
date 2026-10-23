@@ -1,0 +1,70 @@
+{
+  "id": "ja-C5-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ryou",
+      "text": "りょう",
+      "reading": "ryō"
+    },
+    {
+      "id": "ja.annai",
+      "text": "あんない",
+      "reading": "annai"
+    },
+    {
+      "id": "ja.setsumei",
+      "text": "せつめい",
+      "reading": "setsumei"
+    },
+    {
+      "id": "ja.kinyuu",
+      "text": "きにゅう",
+      "reading": "kinyū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、きょうから この りょうに はいります。ナムです。",
+      "reading": "Sumimasen, kyō kara kono ryō ni hairimasu. Namu desu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ナムさんですね。ここに なまえと でんわばんごうを きにゅうして ください。",
+      "reading": "Hai, Namu-san desu ne. Koko ni namae to denwa bangō o kinyū shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。これで いいですか。",
+      "reading": "Hai. Kore de ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。じゃあ、りょうの 中を あんないします。",
+      "reading": "Hai. Jā, ryō no naka o annai shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。あのう、ゆっくり せつめいして ください。",
+      "reading": "Arigatō gozaimasu. Anō, yukkuri setsumei shite kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。ここが だいどころです。よる 11時まで つかえます。",
+      "reading": "Wakarimashita. Koko ga daidokoro desu. Yoru jūichiji made tsukaemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。それから、ちかくの スーパーも おしえて ください。",
+      "reading": "Hai. Sorekara, chikaku no sūpā mo oshiete kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "スーパーは 駅の まえに あります。この ちずを みて ください。",
+      "reading": "Sūpā wa eki no mae ni arimasu. Kono chizu o mite kudasai."
+    }
+  ]
+}

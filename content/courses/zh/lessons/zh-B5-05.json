@@ -1,0 +1,60 @@
+{
+  "id": "zh-B5-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.yin-tian",
+      "text": "阴天",
+      "reading": "yīntiān"
+    },
+    {
+      "id": "zh.duo-yun",
+      "text": "多云",
+      "reading": "duōyún"
+    },
+    {
+      "id": "zh.yu-rain",
+      "text": "雨",
+      "reading": "yǔ"
+    },
+    {
+      "id": "zh.feng",
+      "text": "风",
+      "reading": "fēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我们明天去公园吧！",
+      "reading": "Wáng Míng, wǒmen míngtiān qù gōngyuán ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "明天天气怎么样？",
+      "reading": "Míngtiān tiānqì zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "明天多云，不会下雨。",
+      "reading": "Míngtiān duōyún, bù huì xiàyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "后天呢？",
+      "reading": "Hòutiān ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "后天阴天，雨很大，风也很大。",
+      "reading": "Hòutiān yīntiān, yǔ hěn dà, fēng yě hěn dà."
+    },
+    {
+      "speaker": "b",
+      "text": "那我们明天去吧！",
+      "reading": "Nà wǒmen míngtiān qù ba!"
+    }
+  ]
+}

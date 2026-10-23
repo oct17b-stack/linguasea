@@ -1,0 +1,60 @@
+{
+  "id": "zh-B8-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.shou-ji-ka",
+      "text": "手机卡",
+      "reading": "shǒujīkǎ"
+    },
+    {
+      "id": "zh.chong-zhi",
+      "text": "充值",
+      "reading": "chōngzhí"
+    },
+    {
+      "id": "zh.liu-liang",
+      "text": "流量",
+      "reading": "liúliàng"
+    },
+    {
+      "id": "zh.shang-wang",
+      "text": "上网",
+      "reading": "shàngwǎng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！我要一张手机卡。",
+      "reading": "Nǐ hǎo! Wǒ yào yī zhāng shǒujīkǎ."
+    },
+    {
+      "speaker": "c",
+      "text": "好的。你要多少流量？",
+      "reading": "Hǎo de. Nǐ yào duōshao liúliàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "我每天都上网，要很多流量。",
+      "reading": "Wǒ měitiān dōu shàngwǎng, yào hěn duō liúliàng."
+    },
+    {
+      "speaker": "c",
+      "text": "这张卡一个月一百块，流量很多。",
+      "reading": "Zhè zhāng kǎ yī ge yuè yībǎi kuài, liúliàng hěn duō."
+    },
+    {
+      "speaker": "a",
+      "text": "好。我怎么充值？",
+      "reading": "Hǎo. Wǒ zěnme chōngzhí?"
+    },
+    {
+      "speaker": "c",
+      "text": "用手机就可以充值。",
+      "reading": "Yòng shǒujī jiù kěyǐ chōngzhí."
+    }
+  ]
+}

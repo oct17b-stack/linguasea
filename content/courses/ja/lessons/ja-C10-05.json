@@ -1,0 +1,80 @@
+{
+  "id": "ja-C10-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.aji",
+      "text": "味",
+      "reading": "aji"
+    },
+    {
+      "id": "ja.ajimi",
+      "text": "味見",
+      "reading": "ajimi"
+    },
+    {
+      "id": "ja.nigai",
+      "text": "にがい",
+      "reading": "nigai"
+    },
+    {
+      "id": "ja.suppai",
+      "text": "すっぱい",
+      "reading": "suppai"
+    },
+    {
+      "id": "ja.koi",
+      "text": "こい",
+      "reading": "koi"
+    },
+    {
+      "id": "ja.ireru",
+      "text": "いれる",
+      "reading": "ireru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、ちょっと 味見して みて。",
+      "reading": "Yuki, chotto ajimi shite mite."
+    },
+    {
+      "speaker": "c",
+      "text": "…すっぱい！ でも、おいしい。",
+      "reading": "…Suppai! Demo, oishii."
+    },
+    {
+      "speaker": "a",
+      "text": "タイりょうりは、すっぱくて、からくて、あまい 味が おおいよ。",
+      "reading": "Tai ryōri wa, suppakute, karakute, amai aji ga ōi yo."
+    },
+    {
+      "speaker": "c",
+      "text": "あまい 味は ちょっと…。わたしのは さとうを いれないで 作って。",
+      "reading": "Amai aji wa chotto…. Watashi no wa satō o irenaide tsukutte."
+    },
+    {
+      "speaker": "a",
+      "text": "いいよ。じゃあ、ゆきのは さとうを いれないで 作るね。",
+      "reading": "Ii yo. Jā, Yuki no wa satō o irenaide tsukuru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。わたしは コーヒーも さとうを いれないで のむの。",
+      "reading": "Arigatō. Watashi wa kōhī mo satō o irenaide nomu no."
+    },
+    {
+      "speaker": "a",
+      "text": "え、にがくない？ わたしは コーヒーに さとうを たくさん いれるよ。",
+      "reading": "E, nigakunai? Watashi wa kōhī ni satō o takusan ireru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムは こい 味が すきなんだね。",
+      "reading": "Namu wa koi aji ga suki na n da ne."
+    }
+  ]
+}

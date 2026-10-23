@@ -1,0 +1,70 @@
+{
+  "id": "zh-C10-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.hu-zhao",
+      "text": "护照",
+      "reading": "hùzhào"
+    },
+    {
+      "id": "zh.ban-handle",
+      "text": "办",
+      "reading": "bàn"
+    },
+    {
+      "id": "zh.yin-hang-ka",
+      "text": "银行卡",
+      "reading": "yínhángkǎ"
+    },
+    {
+      "id": "zh.mi-ma",
+      "text": "密码",
+      "reading": "mìmǎ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，你要办什么？",
+      "reading": "Nǐ hǎo, nǐ yào bàn shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "你好，我想办一张银行卡。",
+      "reading": "Nǐ hǎo, wǒ xiǎng bàn yī zhāng yínhángkǎ."
+    },
+    {
+      "speaker": "b",
+      "text": "请给我看一下你的护照。",
+      "reading": "Qǐng gěi wǒ kàn yīxià nǐ de hùzhào."
+    },
+    {
+      "speaker": "a",
+      "text": "给您。还要别的吗？",
+      "reading": "Gěi nín. Hái yào biéde ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "请填一下这张表，写一下你的手机号码。",
+      "reading": "Qǐng tián yīxià zhè zhāng biǎo, xiě yīxià nǐ de shǒujī hàomǎ."
+    },
+    {
+      "speaker": "a",
+      "text": "好了。还要做什么？",
+      "reading": "Hǎo le. Hái yào zuò shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "最后，请想一个密码。最好别用你的生日。",
+      "reading": "Zuìhòu, qǐng xiǎng yī ge mìmǎ. Zuìhǎo bié yòng nǐ de shēngrì."
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，我刚想用我的生日呢！",
+      "reading": "Hāhā, wǒ gāng xiǎng yòng wǒ de shēngrì ne!"
+    }
+  ]
+}

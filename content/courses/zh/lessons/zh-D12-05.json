@@ -1,0 +1,85 @@
+{
+  "id": "zh-D12-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.an-zhao",
+      "text": "按照",
+      "reading": "ànzhào"
+    },
+    {
+      "id": "zh.gong-zi",
+      "text": "工资",
+      "reading": "gōngzī"
+    },
+    {
+      "id": "zh.shou-ru",
+      "text": "收入",
+      "reading": "shōurù"
+    },
+    {
+      "id": "zh.jia-ban",
+      "text": "加班",
+      "reading": "jiābān"
+    },
+    {
+      "id": "zh.suan-count",
+      "text": "算",
+      "reading": "suàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "老板，我想问一下工资的事。",
+      "reading": "Lǎobǎn, wǒ xiǎng wèn yīxià gōngzī de shì."
+    },
+    {
+      "speaker": "b",
+      "text": "好。我们按小时算工资，一个小时二十五块。",
+      "reading": "Hǎo. Wǒmen àn xiǎoshí suàn gōngzī, yī ge xiǎoshí èrshíwǔ kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "周末也是二十五块吗？",
+      "reading": "Zhōumò yě shì èrshíwǔ kuài ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对。加班的话，按照规定，一个小时三十块。",
+      "reading": "Duì. Jiābān dehuà, ànzhào guīdìng, yī ge xiǎoshí sānshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "工资什么时候给？按月给还是按星期给？",
+      "reading": "Gōngzī shénme shíhou gěi? Àn yuè gěi háishi àn xīngqī gěi?"
+    },
+    {
+      "speaker": "b",
+      "text": "按月给，每个月十号。",
+      "reading": "Àn yuè gěi, měi ge yuè shí hào."
+    },
+    {
+      "speaker": "a",
+      "text": "我一个月能工作四十个小时左右，收入是一千块。",
+      "reading": "Wǒ yī ge yuè néng gōngzuò sìshí ge xiǎoshí zuǒyòu, shōurù shì yīqiān kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "你算得真快啊！",
+      "reading": "Nǐ suàn de zhēn kuài a!"
+    },
+    {
+      "speaker": "a",
+      "text": "这样，我每个月吃饭的钱就有了。",
+      "reading": "Zhèyàng, wǒ měi ge yuè chīfàn de qián jiù yǒu le."
+    },
+    {
+      "speaker": "b",
+      "text": "好好工作，以后还可以给你加工资。",
+      "reading": "Hǎohǎo gōngzuò, yǐhòu hái kěyǐ gěi nǐ jiā gōngzī."
+    }
+  ]
+}

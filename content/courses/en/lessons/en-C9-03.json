@@ -1,0 +1,70 @@
+{
+  "id": "en-C9-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.wi-fi",
+      "text": "Wi-Fi",
+      "reading": "ˈwaɪfaɪ"
+    },
+    {
+      "id": "en.pillow",
+      "text": "pillow",
+      "reading": "ˈpɪloʊ"
+    },
+    {
+      "id": "en.blanket",
+      "text": "blanket",
+      "reading": "ˈblæŋkɪt"
+    },
+    {
+      "id": "en.mirror",
+      "text": "mirror",
+      "reading": "ˈmɪrər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "This is the bedroom. What do you think?",
+      "reading": "ˈðɪs ɪz ðə ˈbɛdruːm. ˈwʌt duː juː ˈθɪŋk?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's nice, but there's no mirror.",
+      "reading": "ɪts ˈnaɪs, bʌt ðɛrz ˈnoʊ ˈmɪrər."
+    },
+    {
+      "speaker": "b",
+      "text": "That's OK. I'll buy a mirror for you.",
+      "reading": "ðæts oʊˈkeɪ. aɪl ˈbaɪ ə ˈmɪrər fər juː."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. And there aren't any pillows or blankets.",
+      "reading": "ˈθæŋk juː. ənd ðɛr ˈɑːrnt ˈɛni ˈpɪloʊz ɔːr ˈblæŋkɪts."
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, you have to buy pillows and blankets.",
+      "reading": "ˈsɑːri, juː ˈhæf tə ˈbaɪ ˈpɪloʊz ənd ˈblæŋkɪts."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Is there Wi-Fi in the room?",
+      "reading": "oʊˈkeɪ. ɪz ðɛr ˈwaɪfaɪ ɪn ðə ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, there isn't any Wi-Fi in the rooms. It's only downstairs.",
+      "reading": "ˈnoʊ, ðɛr ˈɪzənt ˈɛni ˈwaɪfaɪ ɪn ðə ˈruːmz. ɪts ˈoʊnli ˌdaʊnˈstɛrz."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! I need Wi-Fi for my homework.",
+      "reading": "ˈoʊ ˈnoʊ! aɪ ˈniːd ˈwaɪfaɪ fər maɪ ˈhoʊmwɜːrk."
+    }
+  ]
+}

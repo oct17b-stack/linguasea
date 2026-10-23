@@ -1,0 +1,71 @@
+{
+  "id": "zh-C4-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.da-suan",
+      "text": "打算",
+      "reading": "dǎsuàn"
+    },
+    {
+      "id": "zh.ji-hua",
+      "text": "计划",
+      "reading": "jìhuà"
+    },
+    {
+      "id": "zh.an-pai",
+      "text": "安排",
+      "reading": "ānpái"
+    },
+    {
+      "id": "zh.you-shi-busy",
+      "text": "有事",
+      "reading": "yǒu shì",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个周末你有什么安排？",
+      "reading": "Xiǎonán, zhège zhōumò nǐ yǒu shénme ānpái?"
+    },
+    {
+      "speaker": "a",
+      "text": "我的计划很多！星期六我要复习，下星期一有考试。",
+      "reading": "Wǒ de jìhuà hěn duō! Xīngqīliù wǒ yào fùxí, xià xīngqīyī yǒu kǎoshì."
+    },
+    {
+      "speaker": "b",
+      "text": "星期天呢？我打算去爬山，你想去吗？",
+      "reading": "Xīngqītiān ne? Wǒ dǎsuàn qù páshān, nǐ xiǎng qù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我很想去，可是星期天上午我有事。",
+      "reading": "Wǒ hěn xiǎng qù, kěshì xīngqītiān shàngwǔ wǒ yǒu shì."
+    },
+    {
+      "speaker": "b",
+      "text": "什么事？",
+      "reading": "Shénme shì?"
+    },
+    {
+      "speaker": "a",
+      "text": "我要跟同学一起准备晚会的节目。",
+      "reading": "Wǒ yào gēn tóngxué yīqǐ zhǔnbèi wǎnhuì de jiémù."
+    },
+    {
+      "speaker": "b",
+      "text": "那我们下午去，好吗？",
+      "reading": "Nà wǒmen xiàwǔ qù, hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "好！下午我没有事。",
+      "reading": "Hǎo! Xiàwǔ wǒ méiyǒu shì."
+    }
+  ]
+}

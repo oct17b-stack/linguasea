@@ -1,0 +1,60 @@
+{
+  "id": "zh-B8-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zheng-zai",
+      "text": "正在",
+      "reading": "zhèngzài"
+    },
+    {
+      "id": "zh.shi-matter",
+      "text": "事",
+      "reading": "shì"
+    },
+    {
+      "id": "zh.yi-huir",
+      "text": "一会儿",
+      "reading": "yīhuìr"
+    },
+    {
+      "id": "zh.hui-lai",
+      "text": "回来",
+      "reading": "huílái"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "喂，王明！你正在做什么呢？",
+      "reading": "Wéi, Wáng Míng! Nǐ zhèngzài zuò shénme ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我正在超市买东西呢。你有事吗？",
+      "reading": "Wǒ zhèngzài chāoshì mǎi dōngxi ne. Nǐ yǒu shì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没什么事。我想和你一起吃晚饭。",
+      "reading": "Méi shénme shì. Wǒ xiǎng hé nǐ yīqǐ chī wǎnfàn."
+    },
+    {
+      "speaker": "b",
+      "text": "好啊！我一会儿回来。",
+      "reading": "Hǎo a! Wǒ yīhuìr huílái."
+    },
+    {
+      "speaker": "a",
+      "text": "好，回来给我打电话！",
+      "reading": "Hǎo, huílái gěi wǒ dǎ diànhuà!"
+    },
+    {
+      "speaker": "b",
+      "text": "好的！",
+      "reading": "Hǎo de!"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ja-C5-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kinshi",
+      "text": "きんし",
+      "reading": "kinshi"
+    },
+    {
+      "id": "ja.yonaka",
+      "text": "夜中",
+      "reading": "yonaka"
+    },
+    {
+      "id": "ja.kyouyou",
+      "text": "きょうよう",
+      "reading": "kyōyō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "りょうの きそくです。",
+        "reading": "Ryō no kisoku desu."
+      },
+      {
+        "text": "みんなで まもりましょう。",
+        "reading": "Minna de mamorimashō."
+      }
+    ],
+    [
+      {
+        "text": "だいどころと せんたくきは きょうようです。",
+        "reading": "Daidokoro to sentakuki wa kyōyō desu."
+      },
+      {
+        "text": "だいどころは きれいに つかって ください。",
+        "reading": "Daidokoro wa kirei ni tsukatte kudasai."
+      },
+      {
+        "text": "たべものは へやに すてないで ください。",
+        "reading": "Tabemono wa heya ni sutenaide kudasai."
+      },
+      {
+        "text": "夜中に せんたくきを つかっては いけません。",
+        "reading": "Yonaka ni sentakuki o tsukatte wa ikemasen."
+      }
+    ],
+    [
+      {
+        "text": "もんげんは よる 11時です。",
+        "reading": "Mongen wa yoru jūichiji desu."
+      },
+      {
+        "text": "ともだちは ごご 6時まで へやに きても いいです。",
+        "reading": "Tomodachi wa gogo rokuji made heya ni kite mo ii desu."
+      },
+      {
+        "text": "ともだちが へやに とまるのは きんしです。",
+        "reading": "Tomodachi ga heya ni tomaru no wa kinshi desu."
+      },
+      {
+        "text": "夜中は しずかに して ください。",
+        "reading": "Yonaka wa shizuka ni shite kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

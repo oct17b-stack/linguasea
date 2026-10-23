@@ -1,0 +1,70 @@
+{
+  "id": "en-C15-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.password",
+      "text": "password",
+      "reading": "ˈpæswɜːrd"
+    },
+    {
+      "id": "en.click",
+      "text": "click",
+      "reading": "klɪk"
+    },
+    {
+      "id": "en.type",
+      "text": "type",
+      "reading": "taɪp"
+    },
+    {
+      "id": "en.username",
+      "text": "username",
+      "reading": "ˈjuːzərneɪm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. How do I change my password?",
+      "reading": "ɪkˈskjuːz miː. ˈhaʊ duː aɪ ˈtʃeɪndʒ maɪ ˈpæswɜːrd?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's easy. First, open the app. Then click here, on your name.",
+      "reading": "ɪts ˈiːzi. ˈfɜːrst, ˈoʊpən ði ˈæp. ˈðɛn ˈklɪk ˈhɪr, ɑːn jʊr ˈneɪm."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. What do I do next?",
+      "reading": "oʊˈkeɪ. ˈwʌt duː aɪ ˈduː ˈnɛkst?"
+    },
+    {
+      "speaker": "b",
+      "text": "Type your username and your old password.",
+      "reading": "ˈtaɪp jʊr ˈjuːzərneɪm ənd jʊr ˈoʊld ˈpæswɜːrd."
+    },
+    {
+      "speaker": "a",
+      "text": "Is my username my email address?",
+      "reading": "ɪz maɪ ˈjuːzərneɪm maɪ ˈiːmeɪl ˌædrɛs?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it is. Now type your new password. Don't use your birthday!",
+      "reading": "ˈjɛs, ɪt ˈɪz. ˈnaʊ ˈtaɪp jʊr ˈnuː ˈpæswɜːrd. ˈdoʊnt ˈjuːz jʊr ˈbɜːrθdeɪ!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Is this right?",
+      "reading": "oʊˈkeɪ. ɪz ˈðɪs ˈraɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Now click \"Save,\" and that's it!",
+      "reading": "ˈjɛs. ˈnaʊ ˈklɪk \"ˈseɪv,\" ənd ðæts ɪt!"
+    }
+  ]
+}

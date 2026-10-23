@@ -1,0 +1,47 @@
+{
+  "lesson": "en-C15-01",
+  "title": "มีอะไรเสียหรือเปล่า",
+  "intro": "น้ำเอาโทรศัพท์ไปให้พนักงานร้านมือถือดู ฝึกใช้ something, anything, nothing, everything",
+  "items": {
+    "en.screen": {
+      "meaning": "หน้าจอ",
+      "translit": "สกรีน"
+    },
+    "en.battery": {
+      "meaning": "แบตเตอรี่",
+      "translit": "แบตเตอรี"
+    },
+    "en.charger": {
+      "meaning": "ที่ชาร์จ, สายชาร์จ",
+      "translit": "ชาร์จเจอร์"
+    },
+    "en.anything": {
+      "meaning": "อะไร (ในคำถามและประโยคปฏิเสธ), อะไรก็ได้",
+      "translit": "เอนีธิง"
+    }
+  },
+  "dialogue": [
+    "สวัสดี มีอะไรให้ช่วยไหม",
+    "ใช่ โทรศัพท์ฉันมีปัญหานิดหน่อย",
+    "หน้าจอมีปัญหาอะไรไหม",
+    "ไม่มี หน้าจอไม่มีปัญหาอะไรเลย แต่แบตเตอรี่หมดภายในสองชั่วโมงทุกที",
+    "อืม ที่ชาร์จยังใช้ได้ดีไหม",
+    "ไม่ค่อยดี มันเก่ามากแล้ว",
+    "ผมเช็กทุกอย่างแล้ว แค่ต้องเปลี่ยนที่ชาร์จใหม่",
+    "ดีเลย! มีอันถูก ๆ บ้างไหม"
+  ],
+  "notes": [
+    {
+      "title": "something / anything / nothing / everything",
+      "body": "something = บางอย่าง (ประโยคบอกเล่า): Something is wrong. anything = อะไร (คำถามและปฏิเสธ): Is anything wrong? nothing = ไม่มีอะไร: There's nothing wrong. everything = ทุกอย่าง: I checked everything. ทั้งหมดใช้กริยาเอกพจน์ เช่น is"
+    },
+    {
+      "title": "nothing ไม่ต้องมี not",
+      "body": "nothing มีความหมายปฏิเสธอยู่แล้ว พูดว่า There's nothing wrong. หรือ There isn't anything wrong. ห้ามพูด There isn't nothing wrong. ซึ่งต่างจากภาษาไทยที่พูด ไม่มีอะไร ได้เลย"
+    },
+    {
+      "title": "battery / charger",
+      "body": "แบตหมดภาษาอังกฤษพูดว่า The battery is empty. ส่วนที่ชาร์จคือ charger และแบตเตอรี่ไม่ย่อว่า แบต แบบภาษาไทย"
+    }
+  ]
+}

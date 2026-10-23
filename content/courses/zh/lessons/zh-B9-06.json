@@ -1,0 +1,61 @@
+{
+  "id": "zh-B9-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xia-ci",
+      "text": "下次",
+      "reading": "xiàcì"
+    },
+    {
+      "id": "zh.shang-ci",
+      "text": "上次",
+      "reading": "shàngcì"
+    },
+    {
+      "id": "zh.gan-shen-me",
+      "kind": "phrase",
+      "text": "干什么",
+      "reading": "gàn shénme"
+    },
+    {
+      "id": "zh.bi-compare",
+      "text": "比",
+      "reading": "bǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，明天你干什么？",
+      "reading": "Xiǎonán, míngtiān nǐ gàn shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想打乒乓球。你呢？",
+      "reading": "Wǒ xiǎng dǎ pīngpāngqiú. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也想打！上次你比我好，下次我会比你好！",
+      "reading": "Wǒ yě xiǎng dǎ! Shàngcì nǐ bǐ wǒ hǎo, xiàcì wǒ huì bǐ nǐ hǎo!"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，明天就是“下次”！",
+      "reading": "Hāhā, míngtiān jiù shì \"xiàcì\"!"
+    },
+    {
+      "speaker": "b",
+      "text": "对！明天下午，学校门口见面！",
+      "reading": "Duì! Míngtiān xiàwǔ, xuéxiào ménkǒu jiànmiàn!"
+    },
+    {
+      "speaker": "a",
+      "text": "好！",
+      "reading": "Hǎo!"
+    }
+  ]
+}

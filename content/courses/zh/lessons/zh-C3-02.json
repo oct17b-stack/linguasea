@@ -1,0 +1,75 @@
+{
+  "id": "zh-C3-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jie-section",
+      "text": "节",
+      "reading": "jié"
+    },
+    {
+      "id": "zh.xue-qi",
+      "text": "学期",
+      "reading": "xuéqī"
+    },
+    {
+      "id": "zh.nian-ji",
+      "text": "年级",
+      "reading": "niánjí"
+    },
+    {
+      "id": "zh.ke-cheng",
+      "text": "课程",
+      "reading": "kèchéng"
+    },
+    {
+      "id": "zh.zhou-week",
+      "text": "周",
+      "reading": "zhōu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个学期你的课多吗？",
+      "reading": "Xiǎonán, zhège xuéqī nǐ de kè duō ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很多！我从星期一到星期五都有课。",
+      "reading": "Hěn duō! Wǒ cóng xīngqīyī dào xīngqīwǔ dōu yǒu kè."
+    },
+    {
+      "speaker": "b",
+      "text": "每天几节课？",
+      "reading": "Měitiān jǐ jié kè?"
+    },
+    {
+      "speaker": "a",
+      "text": "每天四节。我从八点到十二点上课。",
+      "reading": "Měitiān sì jié. Wǒ cóng bā diǎn dào shí'èr diǎn shàngkè."
+    },
+    {
+      "speaker": "b",
+      "text": "下午呢？",
+      "reading": "Xiàwǔ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "下午没有课，我在图书馆学习。你们三年级的课程难吗？",
+      "reading": "Xiàwǔ méiyǒu kè, wǒ zài túshūguǎn xuéxí. Nǐmen sān niánjí de kèchéng nán ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不太难。我们一周有十节课。",
+      "reading": "Bù tài nán. Wǒmen yī zhōu yǒu shí jié kè."
+    },
+    {
+      "speaker": "a",
+      "text": "十节？太少了！我们一周有二十节！",
+      "reading": "Shí jié? Tài shǎo le! Wǒmen yī zhōu yǒu èrshí jié!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "en-C15-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.online",
+      "text": "online",
+      "reading": "ˌɑːnˈlaɪn"
+    },
+    {
+      "id": "en.app",
+      "text": "app",
+      "reading": "æp"
+    },
+    {
+      "id": "en.message",
+      "text": "message",
+      "reading": "ˈmɛsɪdʒ"
+    },
+    {
+      "id": "en.no-one",
+      "kind": "phrase",
+      "text": "no one",
+      "reading": "ˈnoʊ ˌwʌn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, I need help with my homework. Is anyone online?",
+      "reading": "ˈɛmə, aɪ ˈniːd ˈhɛlp wɪð maɪ ˈhoʊmwɜːrk. ɪz ˈɛniwʌn ˌɑːnˈlaɪn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Let me check our class chat. No one is online now. It's late!",
+      "reading": "ˈlɛt miː ˈtʃɛk aʊr ˈklæs ˌtʃæt. ˈnoʊ ˌwʌn ɪz ˌɑːnˈlaɪn ˈnaʊ. ɪts ˈleɪt!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! I have to give it to Mr. Brown tomorrow morning.",
+      "reading": "ˈoʊ ˈnoʊ! aɪ ˈhæf tə ˈɡɪv ɪt tə ˈmɪstər ˈbraʊn təˈmɑːroʊ ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "Send a message to the group. Someone can help you in the morning.",
+      "reading": "ˈsɛnd ə ˈmɛsɪdʒ tə ðə ˈɡruːp. ˈsʌmwʌn kən ˈhɛlp juː ɪn ðə ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "Good idea. Which app does everyone use?",
+      "reading": "ˌɡʊd aɪˈdiːə. ˈwɪtʃ ˈæp dʌz ˈɛvriwʌn ˈjuːz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Everyone in our class uses this app. I'll add you to the group.",
+      "reading": "ˈɛvriwʌn ɪn aʊr ˈklæs ˈjuːzɪz ðɪs ˈæp. aɪl ˈæd juː tə ðə ˈɡruːp."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Oh, look! Someone is online now!",
+      "reading": "ˈθæŋks! ˈoʊ, ˈlʊk! ˈsʌmwʌn ɪz ˌɑːnˈlaɪn ˈnaʊ!"
+    },
+    {
+      "speaker": "c",
+      "text": "It's Ploy. She never sleeps!",
+      "reading": "ɪts ˈplɔɪ. ʃiː ˈnɛvər ˈsliːps!"
+    }
+  ]
+}

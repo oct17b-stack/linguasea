@@ -1,0 +1,70 @@
+{
+  "id": "en-C9-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.rent",
+      "text": "rent",
+      "reading": "rɛnt"
+    },
+    {
+      "id": "en.landlord",
+      "text": "landlord",
+      "reading": "ˈlændlɔːrd"
+    },
+    {
+      "id": "en.apartment",
+      "text": "apartment",
+      "reading": "əˈpɑːrtmənt"
+    },
+    {
+      "id": "en.smoke",
+      "text": "smoke",
+      "reading": "smoʊk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi, I'm the landlord. Come in! This is the apartment.",
+      "reading": "ˈhaɪ, aɪm ðə ˈlændlɔːrd. ˈkʌm ˈɪn! ˈðɪs ɪz ði əˈpɑːrtmənt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, it's really nice. How much is the rent?",
+      "reading": "ˈoʊ, ɪts ˈriːli ˈnaɪs. ˈhaʊ ˈmʌtʃ ɪz ðə ˈrɛnt?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's five thousand baht a month.",
+      "reading": "ɪts ˈfaɪv ˈθaʊzənd ˈbɑːt ə ˈmʌnθ."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Can I have a cat here? I love cats.",
+      "reading": "oʊˈkeɪ. kən aɪ ˈhæv ə ˈkæt ˈhɪr? aɪ ˈlʌv ˈkæts."
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, you can't have pets in the apartment.",
+      "reading": "ˈsɑːri, juː ˈkænt ˈhæv ˈpɛts ɪn ði əˈpɑːrtmənt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh. Can my friends visit me?",
+      "reading": "ˈoʊ. kən maɪ ˈfrɛndz ˈvɪzɪt miː?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, they can. But you can't smoke in the room.",
+      "reading": "ˈjɛs, ðeɪ ˈkæn. bʌt juː ˈkænt ˈsmoʊk ɪn ðə ˈruːm."
+    },
+    {
+      "speaker": "a",
+      "text": "No problem. I don't smoke.",
+      "reading": "ˈnoʊ ˈprɑːbləm. aɪ ˈdoʊnt ˈsmoʊk."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.guang-zhou",
+      "text": "广州",
+      "reading": "Guǎngzhōu"
+    },
+    {
+      "id": "zh.xi-an",
+      "text": "西安",
+      "reading": "Xī'ān"
+    },
+    {
+      "id": "zh.yun-nan",
+      "text": "云南",
+      "reading": "Yúnnán"
+    },
+    {
+      "id": "zh.shi-city",
+      "text": "市",
+      "reading": "shì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是西安。",
+      "reading": "Xiǎonán, zhè shì Xī'ān."
+    },
+    {
+      "speaker": "a",
+      "text": "西安的“西”是西边的“西”吗？",
+      "reading": "Xī'ān de “xī” shì xībian de “xī” ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对！这是广州，那是云南。",
+      "reading": "Duì! Zhè shì Guǎngzhōu, nà shì Yúnnán."
+    },
+    {
+      "speaker": "a",
+      "text": "云南的南边是老挝！",
+      "reading": "Yúnnán de nánbian shì Lǎowō!"
+    }
+  ]
+}

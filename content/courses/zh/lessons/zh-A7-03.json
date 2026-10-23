@@ -1,0 +1,51 @@
+{
+  "id": "zh-A7-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shi-bu-shi",
+      "kind": "phrase",
+      "text": "是不是",
+      "reading": "shì bù shì"
+    },
+    {
+      "id": "zh.zi-ji",
+      "text": "自己",
+      "reading": "zìjǐ"
+    },
+    {
+      "id": "zh.zhi-jin-tissue",
+      "text": "纸巾",
+      "reading": "zhǐjīn"
+    },
+    {
+      "id": "zh.chong-dian-bao",
+      "text": "充电宝",
+      "reading": "chōngdiànbǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这是不是你的充电宝？",
+      "reading": "Zhè shì bù shì nǐ de chōngdiànbǎo?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是我的。我有自己的。",
+      "reading": "Bù shì wǒ de. Wǒ yǒu zìjǐ de."
+    },
+    {
+      "speaker": "b",
+      "text": "这些纸巾是不是你的？",
+      "reading": "Zhèxiē zhǐjīn shì bù shì nǐ de?"
+    },
+    {
+      "speaker": "a",
+      "text": "是我的。你要吗？",
+      "reading": "Shì wǒ de. Nǐ yào ma?"
+    }
+  ]
+}

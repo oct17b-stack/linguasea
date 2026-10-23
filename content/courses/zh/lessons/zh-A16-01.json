@@ -1,0 +1,52 @@
+{
+  "id": "zh-A16-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.xing-ok",
+      "text": "行",
+      "reading": "xíng"
+    },
+    {
+      "id": "zh.bu-xing-no",
+      "text": "不行",
+      "reading": "bùxíng"
+    },
+    {
+      "id": "zh.hao-a",
+      "kind": "phrase",
+      "text": "好啊",
+      "reading": "hǎo a"
+    },
+    {
+      "id": "zh.hao-ba",
+      "kind": "phrase",
+      "text": "好吧",
+      "reading": "hǎo ba"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我们喝咖啡吧？",
+      "reading": "Xiǎonán, wǒmen hē kāfēi ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我请你！",
+      "reading": "Hǎo a! Wǒ qǐng nǐ!"
+    },
+    {
+      "speaker": "b",
+      "text": "不行，我请你！",
+      "reading": "Bùxíng, wǒ qǐng nǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "好吧……",
+      "reading": "Hǎo ba……"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "en-C11-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.badminton",
+      "text": "badminton",
+      "reading": "ˈbædmɪntən"
+    },
+    {
+      "id": "en.go-jogging",
+      "kind": "phrase",
+      "text": "go jogging",
+      "reading": "ˌɡoʊ ˈdʒɑːɡɪŋ"
+    },
+    {
+      "id": "en.yoga",
+      "text": "yoga",
+      "reading": "ˈjoʊɡə"
+    },
+    {
+      "id": "en.soccer",
+      "text": "soccer",
+      "reading": "ˈsɑːkər"
+    },
+    {
+      "id": "en.go-swimming",
+      "kind": "phrase",
+      "text": "go swimming",
+      "reading": "ˌɡoʊ ˈswɪmɪŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi, Nam! What sports do you play?",
+      "reading": "ˈhaɪ, ˈnɑːm! ˈwʌt ˈspɔːrts duː juː ˈpleɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I play volleyball and badminton.",
+      "reading": "aɪ ˈpleɪ ˈvɑːlibɔːl ənd ˈbædmɪntən."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you play soccer, too?",
+      "reading": "duː juː ˈpleɪ ˈsɑːkər, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I don't. But I go jogging after class.",
+      "reading": "ˈnoʊ, aɪ ˈdoʊnt. bʌt aɪ ˌɡoʊ ˈdʒɑːɡɪŋ ˈæftər ˈklæs."
+    },
+    {
+      "speaker": "b",
+      "text": "Nice! Do you go swimming?",
+      "reading": "ˈnaɪs! duː juː ˌɡoʊ ˈswɪmɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sometimes. And I want to do yoga, too.",
+      "reading": "ˈsʌmtaɪmz. ənd aɪ ˈwɑːnt tə ˈduː ˈjoʊɡə, ˈtuː."
+    },
+    {
+      "speaker": "b",
+      "text": "Great! There's a yoga class here on Monday evenings.",
+      "reading": "ˈɡreɪt! ðɛrz ə ˈjoʊɡə ˌklæs ˈhɪr ɑːn ˈmʌndeɪ ˈiːvnɪŋz."
+    },
+    {
+      "speaker": "a",
+      "text": "Then I'll join it!",
+      "reading": "ˈðɛn aɪl ˈdʒɔɪn ɪt!"
+    }
+  ]
+}

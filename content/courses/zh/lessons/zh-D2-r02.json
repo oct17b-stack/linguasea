@@ -1,0 +1,84 @@
+{
+  "id": "zh-D2-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.shi-wang",
+      "text": "失望",
+      "reading": "shīwàng"
+    },
+    {
+      "id": "zh.zhi-de",
+      "text": "值得",
+      "reading": "zhíde"
+    },
+    {
+      "id": "zh.tui-jian",
+      "text": "推荐",
+      "reading": "tuījiàn"
+    },
+    {
+      "id": "zh.xing-jia-bi",
+      "text": "性价比",
+      "reading": "xìngjiàbǐ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南：这家宾馆的位置很好，离西安北站很近。",
+        "reading": "Xiǎonán: Zhè jiā bīnguǎn de wèizhi hěn hǎo, lí Xī'ān Běizhàn hěn jìn."
+      },
+      {
+        "text": "房间的空调有毛病，可是服务员立刻帮我换了房间。",
+        "reading": "Fángjiān de kōngtiáo yǒu máobing, kěshì fúwùyuán lìkè bāng wǒ huàn le fángjiān."
+      },
+      {
+        "text": "一个晚上三百块，性价比很高，我推荐大家来住。",
+        "reading": "Yī ge wǎnshang sānbǎi kuài, xìngjiàbǐ hěn gāo, wǒ tuījiàn dàjiā lái zhù."
+      }
+    ],
+    [
+      {
+        "text": "张先生：我来西安工作，在这儿住了三个晚上。",
+        "reading": "Zhāng xiānsheng: Wǒ lái Xī'ān gōngzuò, zài zhèr zhù le sān ge wǎnshang."
+      },
+      {
+        "text": "房间很干净，早饭也不错。",
+        "reading": "Fángjiān hěn gānjìng, zǎofàn yě bùcuò."
+      },
+      {
+        "text": "价钱比旁边的高级酒店便宜多了，很值得。",
+        "reading": "Jiàqian bǐ pángbiān de gāojí jiǔdiàn piányi duō le, hěn zhíde."
+      }
+    ],
+    [
+      {
+        "text": "一位妈妈：国庆节我们一家人来西安旅游，住在这家宾馆。",
+        "reading": "Yī wèi māma: Guóqìngjié wǒmen yījiārén lái Xī'ān lǚyóu, zhù zài zhè jiā bīnguǎn."
+      },
+      {
+        "text": "房间太小了，而且外面很吵，孩子晚上睡不好觉。",
+        "reading": "Fángjiān tài xiǎo le, érqiě wàimiàn hěn chǎo, háizi wǎnshang shuì bu hǎo jiào."
+      },
+      {
+        "text": "我们很失望，觉得不太值得。",
+        "reading": "Wǒmen hěn shīwàng, juéde bù tài zhíde."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

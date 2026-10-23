@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.kou-zhao",
+      "text": "口罩",
+      "reading": "kǒuzhào"
+    },
+    {
+      "id": "zh.mo-jing",
+      "text": "墨镜",
+      "reading": "mòjìng"
+    },
+    {
+      "id": "zh.yong-yi",
+      "text": "泳衣",
+      "reading": "yǒngyī"
+    },
+    {
+      "id": "zh.jie-zhi-ring",
+      "text": "戒指",
+      "reading": "jièzhi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有口罩吗？",
+      "reading": "Xiǎonán, nǐ yǒu kǒuzhào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。我也有墨镜和泳衣！",
+      "reading": "Yǒu. Wǒ yě yǒu mòjìng hé yǒngyī!"
+    },
+    {
+      "speaker": "b",
+      "text": "泳衣？那里没有海！",
+      "reading": "Yǒngyī? Nàlǐ méiyǒu hǎi!"
+    },
+    {
+      "speaker": "a",
+      "text": "对……",
+      "reading": "Duì……"
+    }
+  ]
+}

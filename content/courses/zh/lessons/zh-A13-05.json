@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.yu-rong-fu",
+      "text": "羽绒服",
+      "reading": "yǔróngfú"
+    },
+    {
+      "id": "zh.qiu-ku",
+      "text": "秋裤",
+      "reading": "qiūkù"
+    },
+    {
+      "id": "zh.wei-jin",
+      "text": "围巾",
+      "reading": "wéijīn"
+    },
+    {
+      "id": "zh.yu-yi",
+      "text": "雨衣",
+      "reading": "yǔyī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有羽绒服吗？",
+      "reading": "Xiǎonán, nǐ yǒu yǔróngfú ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有，我有雨衣！",
+      "reading": "Méiyǒu, wǒ yǒu yǔyī!"
+    },
+    {
+      "speaker": "b",
+      "text": "你要穿羽绒服。也要穿秋裤！",
+      "reading": "Nǐ yào chuān yǔróngfú. Yě yào chuān qiūkù!"
+    },
+    {
+      "speaker": "a",
+      "text": "秋裤？那是什么？",
+      "reading": "Qiūkù? Nà shì shénme?"
+    }
+  ]
+}

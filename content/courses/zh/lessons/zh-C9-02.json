@@ -1,0 +1,75 @@
+{
+  "id": "zh-C9-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.sha-fa",
+      "text": "沙发",
+      "reading": "shāfā"
+    },
+    {
+      "id": "zh.deng-lamp",
+      "text": "灯",
+      "reading": "dēng"
+    },
+    {
+      "id": "zh.bing-xiang",
+      "text": "冰箱",
+      "reading": "bīngxiāng"
+    },
+    {
+      "id": "zh.kong-tiao",
+      "text": "空调",
+      "reading": "kōngtiáo"
+    },
+    {
+      "id": "zh.gua-hang",
+      "text": "挂",
+      "reading": "guà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "阿姨，客厅里有沙发吗？",
+      "reading": "Āyí, kètīng lǐ yǒu shāfā ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有啊。你看，电视对面放着一个大沙发。",
+      "reading": "Yǒu a. Nǐ kàn, diànshì duìmiàn fàng zhe yī ge dà shāfā."
+    },
+    {
+      "speaker": "a",
+      "text": "沙发上边还挂着一张画儿，真漂亮！",
+      "reading": "Shāfā shàngbian hái guà zhe yī zhāng huàr, zhēn piàoliang!"
+    },
+    {
+      "speaker": "c",
+      "text": "我也很喜欢那张画儿。两个房间里都有空调。",
+      "reading": "Wǒ yě hěn xǐhuan nà zhāng huàr. Liǎng ge fángjiān lǐ dōu yǒu kōngtiáo."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！北京的夏天跟曼谷一样热。",
+      "reading": "Tài hǎo le! Běijīng de xiàtiān gēn Màngǔ yīyàng rè."
+    },
+    {
+      "speaker": "c",
+      "text": "对。厨房里还放着一个新冰箱。",
+      "reading": "Duì. Chúfáng lǐ hái fàng zhe yī ge xīn bīngxiāng."
+    },
+    {
+      "speaker": "a",
+      "text": "我晚上常常在房间里学习。",
+      "reading": "Wǒ wǎnshang chángcháng zài fángjiān lǐ xuéxí."
+    },
+    {
+      "speaker": "c",
+      "text": "没问题，桌子上放着一个小灯。",
+      "reading": "Méi wèntí, zhuōzi shang fàng zhe yī ge xiǎo dēng."
+    }
+  ]
+}

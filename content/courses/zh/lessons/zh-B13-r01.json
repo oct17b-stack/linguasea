@@ -1,0 +1,61 @@
+{
+  "id": "zh-B13-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.pi-bao",
+      "text": "皮包",
+      "reading": "píbāo"
+    },
+    {
+      "id": "zh.ying-bi",
+      "text": "硬币",
+      "reading": "yìngbì"
+    },
+    {
+      "id": "zh.li-mian",
+      "text": "里面",
+      "reading": "lǐmiàn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "今天中午，有人在食堂找到一个皮包。",
+        "reading": "Jīntiān zhōngwǔ, yǒu rén zài shítáng zhǎodào yī ge píbāo."
+      },
+      {
+        "text": "皮包里面有一些硬币和一张学生卡。",
+        "reading": "Píbāo lǐmiàn yǒu yīxiē yìngbì hé yī zhāng xuésheng kǎ."
+      }
+    ],
+    [
+      {
+        "text": "这是谁的皮包？",
+        "reading": "Zhè shì shéi de píbāo?"
+      },
+      {
+        "text": "请来食堂一楼拿。",
+        "reading": "Qǐng lái shítáng yī lóu ná."
+      },
+      {
+        "text": "请说说里面有什么，谢谢！",
+        "reading": "Qǐng shuōshuo lǐmiàn yǒu shénme, xièxie!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

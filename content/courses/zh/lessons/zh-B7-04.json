@@ -1,0 +1,65 @@
+{
+  "id": "zh-B7-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zao-can",
+      "text": "早餐",
+      "reading": "zǎocān"
+    },
+    {
+      "id": "zh.bao-zi",
+      "text": "包子",
+      "reading": "bāozi"
+    },
+    {
+      "id": "zh.jiao-zi",
+      "text": "饺子",
+      "reading": "jiǎozi"
+    },
+    {
+      "id": "zh.ji-dan",
+      "text": "鸡蛋",
+      "reading": "jīdàn"
+    },
+    {
+      "id": "zh.bai-cai",
+      "text": "白菜",
+      "reading": "báicài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，“早餐”是什么意思？",
+      "reading": "Wáng Míng, \"zǎocān\" shì shénme yìsi?"
+    },
+    {
+      "speaker": "b",
+      "text": "早餐是早饭。我们吃包子吧！",
+      "reading": "Zǎocān shì zǎofàn. Wǒmen chī bāozi ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好！包子里有什么？",
+      "reading": "Hǎo! Bāozi lǐ yǒu shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "有猪肉的，也有白菜的。",
+      "reading": "Yǒu zhūròu de, yě yǒu báicài de."
+    },
+    {
+      "speaker": "a",
+      "text": "我要两个白菜包子和一个鸡蛋。",
+      "reading": "Wǒ yào liǎng ge báicài bāozi hé yī ge jīdàn."
+    },
+    {
+      "speaker": "b",
+      "text": "我要白菜猪肉饺子！",
+      "reading": "Wǒ yào báicài zhūròu jiǎozi!"
+    }
+  ]
+}

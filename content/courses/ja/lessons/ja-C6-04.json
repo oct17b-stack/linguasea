@@ -1,0 +1,75 @@
+{
+  "id": "ja-C6-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.keiken",
+      "text": "けいけん",
+      "reading": "keiken"
+    },
+    {
+      "id": "ja.ichido",
+      "text": "一度",
+      "reading": "ichido"
+    },
+    {
+      "id": "ja.kimono",
+      "text": "着物",
+      "reading": "kimono"
+    },
+    {
+      "id": "ja.shinkansen",
+      "text": "しんかんせん",
+      "reading": "shinkansen"
+    },
+    {
+      "id": "ja.nando-mo",
+      "text": "何度も",
+      "reading": "nando mo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは しんかんせんに のった ことが ありますか。",
+      "reading": "Namu-san wa shinkansen ni notta koto ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、一度 あります。きょうとへ いきました。",
+      "reading": "Hai, ichido arimasu. Kyōto e ikimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "着物を きた ことは ありますか。",
+      "reading": "Kimono o kita koto wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、ありません。一度 きたいです。",
+      "reading": "Iie, arimasen. Ichido kitai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、こんど いっしょに 着物を きましょう。",
+      "reading": "Jā, kondo issho ni kimono o kimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい！ ゆきさんは タイへ いった ことが ありますか。",
+      "reading": "Hai! Yuki-san wa Tai e itta koto ga arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、ありません。でも、タイりょうりは 何度も たべた ことが ありますよ。",
+      "reading": "Iie, arimasen. Demo, Tai ryōri wa nando mo tabeta koto ga arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、こんどは タイへ いきましょう！ いい けいけんですよ。",
+      "reading": "Jā, kondo wa Tai e ikimashō! Ii keiken desu yo."
+    }
+  ]
+}

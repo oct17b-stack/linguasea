@@ -1,0 +1,71 @@
+{
+  "id": "zh-C4-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.duan-xin",
+      "text": "短信",
+      "reading": "duǎnxìn"
+    },
+    {
+      "id": "zh.fa",
+      "text": "发",
+      "reading": "fā"
+    },
+    {
+      "id": "zh.jie-pick-up",
+      "text": "接",
+      "reading": "jiē"
+    },
+    {
+      "id": "zh.da-cuo-le",
+      "text": "打错了",
+      "reading": "dǎcuò le",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "喂？……不是，你打错了。",
+      "reading": "Wéi? …… Bù shì, nǐ dǎcuò le."
+    },
+    {
+      "speaker": "a",
+      "text": "谁给你打电话？",
+      "reading": "Shéi gěi nǐ dǎ diànhuà?"
+    },
+    {
+      "speaker": "b",
+      "text": "不知道，打错了。小南，你有我的新号码吗？",
+      "reading": "Bù zhīdào, dǎcuò le. Xiǎonán, nǐ yǒu wǒ de xīn hàomǎ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有。你给我发一个短信吧。",
+      "reading": "Méiyǒu. Nǐ gěi wǒ fā yī ge duǎnxìn ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我现在就发。",
+      "reading": "Hǎo, wǒ xiànzài jiù fā."
+    },
+    {
+      "speaker": "a",
+      "text": "有了！晚上我给你打电话。",
+      "reading": "Yǒu le! Wǎnshang wǒ gěi nǐ dǎ diànhuà."
+    },
+    {
+      "speaker": "b",
+      "text": "晚上八点以前我有课，不能接电话。",
+      "reading": "Wǎnshang bā diǎn yǐqián wǒ yǒu kè, bù néng jiē diànhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "那我九点给你打。",
+      "reading": "Nà wǒ jiǔ diǎn gěi nǐ dǎ."
+    }
+  ]
+}

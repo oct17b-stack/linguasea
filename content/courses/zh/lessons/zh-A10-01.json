@@ -1,0 +1,55 @@
+{
+  "id": "zh-A10-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.guo-jia",
+      "text": "国家",
+      "reading": "guójiā"
+    },
+    {
+      "id": "zh.lao-wo",
+      "text": "老挝",
+      "reading": "Lǎowō"
+    },
+    {
+      "id": "zh.jian-pu-zhai",
+      "text": "柬埔寨",
+      "reading": "Jiǎnpǔzhài"
+    },
+    {
+      "id": "zh.mian-dian",
+      "text": "缅甸",
+      "reading": "Miǎndiàn"
+    },
+    {
+      "id": "zh.ma-lai-xi-ya",
+      "text": "马来西亚",
+      "reading": "Mǎláixīyà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这些学生是哪个国家的？",
+      "reading": "Zhèxiē xuésheng shì nǎge guójiā de?"
+    },
+    {
+      "speaker": "a",
+      "text": "老挝、缅甸和柬埔寨。",
+      "reading": "Lǎowō, Miǎndiàn hé Jiǎnpǔzhài."
+    },
+    {
+      "speaker": "b",
+      "text": "有马来西亚学生吗？",
+      "reading": "Yǒu Mǎláixīyà xuésheng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，他是马来西亚人。",
+      "reading": "Yǒu, tā shì Mǎláixīyà rén."
+    }
+  ]
+}

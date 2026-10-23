@@ -1,0 +1,60 @@
+{
+  "id": "zh-B12-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zhan",
+      "text": "站",
+      "reading": "zhàn"
+    },
+    {
+      "id": "zh.zuo-xia",
+      "text": "坐下",
+      "reading": "zuòxia"
+    },
+    {
+      "id": "zh.ju-shou",
+      "text": "举手",
+      "reading": "jǔshǒu"
+    },
+    {
+      "id": "zh.jing",
+      "text": "静",
+      "reading": "jìng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，别站在门口，请坐下。",
+      "reading": "Xiǎonán, bié zhàn zài ménkǒu, qǐng zuòxia."
+    },
+    {
+      "speaker": "a",
+      "text": "好的。李老师，今天有听写吗？",
+      "reading": "Hǎo de. Lǐ lǎoshī, jīntiān yǒu tīngxiě ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有问题请举手！",
+      "reading": "Yǒu wèntí qǐng jǔshǒu!"
+    },
+    {
+      "speaker": "a",
+      "text": "对不起！李老师，今天有听写吗？",
+      "reading": "Duìbuqǐ! Lǐ lǎoshī, jīntiān yǒu tīngxiě ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有。你看，大家都在准备。",
+      "reading": "Yǒu. Nǐ kàn, dàjiā dōu zài zhǔnbèi."
+    },
+    {
+      "speaker": "a",
+      "text": "好。今天这里真静！",
+      "reading": "Hǎo. Jīntiān zhèlǐ zhēn jìng!"
+    }
+  ]
+}

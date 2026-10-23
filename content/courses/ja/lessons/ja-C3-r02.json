@@ -1,0 +1,88 @@
+{
+  "id": "ja-C3-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tsuuyaku",
+      "text": "つうやく",
+      "reading": "tsūyaku"
+    },
+    {
+      "id": "ja.gaido",
+      "text": "ガイド",
+      "reading": "gaido"
+    },
+    {
+      "id": "ja.enjinia",
+      "text": "エンジニア",
+      "reading": "enjinia"
+    },
+    {
+      "id": "ja.gijutsu",
+      "text": "ぎじゅつ",
+      "reading": "gijutsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゆき：ナムさんは しょうらい どんな しごとが したいですか。",
+        "reading": "Yuki: Namu-san wa shōrai donna shigoto ga shitai desu ka."
+      },
+      {
+        "text": "ナム：にほんごの せんせいです。でも、つうやくにも きょうみが あります。",
+        "reading": "Namu: Nihongo no sensei desu. Demo, tsūyaku ni mo kyōmi ga arimasu."
+      },
+      {
+        "text": "ゆき：いいですね。ガイドは どうですか。",
+        "reading": "Yuki: Ii desu ne. Gaido wa dō desu ka."
+      }
+    ],
+    [
+      {
+        "text": "ナム：ガイドも いいですね。タイの ひとと にほんの いろいろな まちへ いきたいです。",
+        "reading": "Namu: Gaido mo ii desu ne. Tai no hito to Nihon no iroiro na machi e ikitai desu."
+      },
+      {
+        "text": "ナム：ゆきさんの ゆめは なんですか。",
+        "reading": "Namu: Yuki-san no yume wa nan desu ka."
+      },
+      {
+        "text": "ゆき：わたしは エンジニアに なりたいです。",
+        "reading": "Yuki: Watashi wa enjinia ni naritai desu."
+      },
+      {
+        "text": "ゆき：にほんの ぎじゅつを タイや ベトナムで つかいたいです。",
+        "reading": "Yuki: Nihon no gijutsu o Tai ya Betonamu de tsukaitai desu."
+      }
+    ],
+    [
+      {
+        "text": "ナム：いい ゆめですね！",
+        "reading": "Namu: Ii yume desu ne!"
+      },
+      {
+        "text": "ゆき：じゃあ、しょうらい ナムさんは わたしの つうやくですね。",
+        "reading": "Yuki: Jā, shōrai Namu-san wa watashi no tsūyaku desu ne."
+      },
+      {
+        "text": "ナム：はい！ がんばります。",
+        "reading": "Namu: Hai! Ganbarimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

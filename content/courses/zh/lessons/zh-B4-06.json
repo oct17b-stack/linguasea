@@ -1,0 +1,70 @@
+{
+  "id": "zh-B4-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xian",
+      "text": "先",
+      "reading": "xiān"
+    },
+    {
+      "id": "zh.zai-again",
+      "text": "再",
+      "reading": "zài"
+    },
+    {
+      "id": "zh.yi-qian",
+      "text": "以前",
+      "reading": "yǐqián"
+    },
+    {
+      "id": "zh.yi-hou",
+      "text": "以后",
+      "reading": "yǐhòu"
+    },
+    {
+      "id": "zh.shang-ban",
+      "text": "上班",
+      "reading": "shàngbān"
+    },
+    {
+      "id": "zh.xia-ban",
+      "text": "下班",
+      "reading": "xiàbān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你爸爸妈妈几点上班？",
+      "reading": "Xiǎonán, nǐ bàba māma jǐ diǎn shàngbān?"
+    },
+    {
+      "speaker": "a",
+      "text": "早上七点。上班以前，他们先吃早饭。",
+      "reading": "Zǎoshang qī diǎn. Shàngbān yǐqián, tāmen xiān chī zǎofàn."
+    },
+    {
+      "speaker": "b",
+      "text": "几点下班？",
+      "reading": "Jǐ diǎn xiàbān?"
+    },
+    {
+      "speaker": "a",
+      "text": "下午五点。下班以后先回家，再做晚饭。",
+      "reading": "Xiàwǔ wǔ diǎn. Xiàbān yǐhòu xiān huí jiā, zài zuò wǎnfàn."
+    },
+    {
+      "speaker": "b",
+      "text": "你呢？你下课以后做什么？",
+      "reading": "Nǐ ne? Nǐ xiàkè yǐhòu zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我先洗澡，再吃晚饭！",
+      "reading": "Wǒ xiān xǐzǎo, zài chī wǎnfàn!"
+    }
+  ]
+}

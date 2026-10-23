@@ -1,0 +1,50 @@
+{
+  "id": "zh-A14-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.mu-qin-jie",
+      "text": "母亲节",
+      "reading": "Mǔqīnjié"
+    },
+    {
+      "id": "zh.fu-qin-jie",
+      "text": "父亲节",
+      "reading": "Fùqīnjié"
+    },
+    {
+      "id": "zh.er-tong-jie",
+      "text": "儿童节",
+      "reading": "Értóngjié"
+    },
+    {
+      "id": "zh.jiao-shi-jie",
+      "text": "教师节",
+      "reading": "Jiàoshījié"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "母亲节你送妈妈什么？",
+      "reading": "Mǔqīnjié nǐ sòng māma shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我送她花。你呢？",
+      "reading": "Wǒ sòng tā huā. Nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我也送花。教师节也送！",
+      "reading": "Wǒ yě sòng huā. Jiàoshījié yě sòng!"
+    },
+    {
+      "speaker": "b",
+      "text": "对，你妈妈是老师！",
+      "reading": "Duì, nǐ māma shì lǎoshī!"
+    }
+  ]
+}

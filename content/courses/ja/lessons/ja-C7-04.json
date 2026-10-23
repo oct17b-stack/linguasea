@@ -1,0 +1,71 @@
+{
+  "id": "ja-C7-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.jitsu-wa",
+      "kind": "phrase",
+      "text": "じつは",
+      "reading": "jitsu wa"
+    },
+    {
+      "id": "ja.riyuu",
+      "text": "りゆう",
+      "reading": "riyū"
+    },
+    {
+      "id": "ja.datte",
+      "text": "だって",
+      "reading": "datte"
+    },
+    {
+      "id": "ja.betsu-ni",
+      "text": "別に",
+      "reading": "betsu ni"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、たべないの？",
+      "reading": "Namu, tabenai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん…。じつは、きょう テストが あるんだ。",
+      "reading": "Un…. Jitsu wa, kyō tesuto ga aru n da."
+    },
+    {
+      "speaker": "c",
+      "text": "テスト？ それが りゆう？",
+      "reading": "Tesuto? Sore ga riyū?"
+    },
+    {
+      "speaker": "a",
+      "text": "だって、きんちょうするんだ。",
+      "reading": "Datte, kinchō suru n da."
+    },
+    {
+      "speaker": "c",
+      "text": "だいじょうぶだよ。ナムは いっしょうけんめい べんきょうしたよね。",
+      "reading": "Daijōbu da yo. Namu wa isshōkenmei benkyō shita yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ゆきは どうして ごはんを たべないの？",
+      "reading": "Un. Yuki wa dōshite gohan o tabenai no?"
+    },
+    {
+      "speaker": "c",
+      "text": "別に。あさ たくさん たべたんだ。",
+      "reading": "Betsu ni. Asa takusan tabeta n da."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。",
+      "reading": "Sō na n da."
+    }
+  ]
+}

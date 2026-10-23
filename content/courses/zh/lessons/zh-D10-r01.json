@@ -1,0 +1,88 @@
+{
+  "id": "zh-D10-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.ding-dan",
+      "text": "订单",
+      "reading": "dìngdān"
+    },
+    {
+      "id": "zh.chu-li",
+      "text": "处理",
+      "reading": "chǔlǐ"
+    },
+    {
+      "id": "zh.nai-xin",
+      "text": "耐心",
+      "reading": "nàixīn"
+    },
+    {
+      "id": "zh.tui-huan",
+      "text": "退换",
+      "reading": "tuìhuàn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南：你好，我的订单有问题。",
+        "reading": "Xiǎonán: Nǐ hǎo, wǒ de dìngdān yǒu wèntí."
+      },
+      {
+        "text": "小南：我买的是蓝色的书包，可是你们寄来的是黑色的。",
+        "reading": "Xiǎonán: Wǒ mǎi de shì lánsè de shūbāo, kěshì nǐmen jìlai de shì hēisè de."
+      },
+      {
+        "text": "客服：真对不起！请您把订单号和照片发给我，我马上帮您处理。",
+        "reading": "Kèfú: Zhēn duìbuqǐ! Qǐng nín bǎ dìngdān hào hé zhàopiàn fā gěi wǒ, wǒ mǎshàng bāng nín chǔlǐ."
+      }
+    ],
+    [
+      {
+        "text": "小南：照片发过去了。这个书包是给我妹妹的生日礼物，她下个星期过生日。",
+        "reading": "Xiǎonán: Zhàopiàn fā guoqu le. Zhège shūbāo shì gěi wǒ mèimei de shēngrì lǐwù, tā xià ge xīngqī guò shēngrì."
+      },
+      {
+        "text": "客服：我看到了，是我们寄错了。",
+        "reading": "Kèfú: Wǒ kàndào le, shì wǒmen jìcuò le."
+      },
+      {
+        "text": "客服：您可以申请退换，我们今天就给您寄一个蓝色的。",
+        "reading": "Kèfú: Nín kěyǐ shēnqǐng tuìhuàn, wǒmen jīntiān jiù gěi nín jì yī ge lánsè de."
+      },
+      {
+        "text": "小南：太好了！那这个黑色的书包怎么办？",
+        "reading": "Xiǎonán: Tài hǎo le! Nà zhège hēisè de shūbāo zěnme bàn?"
+      },
+      {
+        "text": "客服：快递员明天会去拿，运费我们付。",
+        "reading": "Kèfú: Kuàidìyuán míngtiān huì qù ná, yùnfèi wǒmen fù."
+      }
+    ],
+    [
+      {
+        "text": "小南：谢谢你这么耐心！",
+        "reading": "Xiǎonán: Xièxie nǐ zhème nàixīn!"
+      },
+      {
+        "text": "客服：不客气，这是我们应该做的。祝您妹妹生日快乐！",
+        "reading": "Kèfú: Bù kèqi, zhè shì wǒmen yīnggāi zuò de. Zhù nín mèimei shēngrì kuàilè!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-C5-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.mongen",
+      "text": "もんげん",
+      "reading": "mongen"
+    },
+    {
+      "id": "ja.touban",
+      "text": "とうばん",
+      "reading": "tōban"
+    },
+    {
+      "id": "ja.mamoru",
+      "text": "まもる",
+      "reading": "mamoru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、りょうは どうですか。",
+      "reading": "Namu-san, ryō wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしいです。でも、きそくを まもらなければ なりません。",
+      "reading": "Tanoshii desu. Demo, kisoku o mamoranakereba narimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "どんな きそくですか。",
+      "reading": "Donna kisoku desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "もんげんは 11時です。11時までに かえらなければ なりません。",
+      "reading": "Mongen wa jūichiji desu. Jūichiji made ni kaeranakereba narimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんですね。そうじも しなければ なりませんか。",
+      "reading": "Taihen desu ne. Sōji mo shinakereba narimasen ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。だいどころの そうじは とうばんで します。今週は わたしの とうばんです。",
+      "reading": "Hai. Daidokoro no sōji wa tōban de shimasu. Konshū wa watashi no tōban desu."
+    },
+    {
+      "speaker": "c",
+      "text": "へやの そうじは？",
+      "reading": "Heya no sōji wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "へやは まいにち しなくても いいです。すいようびに します。",
+      "reading": "Heya wa mainichi shinakute mo ii desu. Suiyōbi ni shimasu."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C11-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kawari",
+      "text": "代わり",
+      "reading": "kawari"
+    },
+    {
+      "id": "ja.shiken",
+      "text": "試験",
+      "reading": "shiken"
+    },
+    {
+      "id": "ja.chousei",
+      "text": "ちょうせい",
+      "reading": "chōsei"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きむら店長、おつかれさまです。",
+        "reading": "Kimura-tenchō, otsukaresama desu."
+      },
+      {
+        "text": "ナムです。",
+        "reading": "Namu desu."
+      }
+    ],
+    [
+      {
+        "text": "来週の きんようびは だいがくの 試験が ありますので、シフトに はいる ことが できません。",
+        "reading": "Raishū no kin'yōbi wa daigaku no shiken ga arimasu node, shifuto ni hairu koto ga dekimasen."
+      },
+      {
+        "text": "すみませんが、シフトの ちょうせいを おねがい できますか。",
+        "reading": "Sumimasen ga, shifuto no chōsei o onegai dekimasu ka."
+      },
+      {
+        "text": "すずきさんが、わたしの 代わりに はいります。",
+        "reading": "Suzuki-san ga, watashi no kawari ni hairimasu."
+      },
+      {
+        "text": "わたしは、すずきさんの どようびの シフトに はいります。",
+        "reading": "Watashi wa, Suzuki-san no doyōbi no shifuto ni hairimasu."
+      }
+    ],
+    [
+      {
+        "text": "めいわくを かけて すみません。",
+        "reading": "Meiwaku o kakete sumimasen."
+      },
+      {
+        "text": "よろしく おねがいします。",
+        "reading": "Yoroshiku onegaishimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

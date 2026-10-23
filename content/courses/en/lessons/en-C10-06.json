@@ -1,0 +1,70 @@
+{
+  "id": "en-C10-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.airmail",
+      "text": "airmail",
+      "reading": "ˈɛrmeɪl"
+    },
+    {
+      "id": "en.weigh",
+      "text": "weigh",
+      "reading": "weɪ"
+    },
+    {
+      "id": "en.fee",
+      "text": "fee",
+      "reading": "fiː"
+    },
+    {
+      "id": "en.tracking-number",
+      "text": "tracking number",
+      "reading": "ˈtrækɪŋ ˌnʌmbər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How long does it take to send a package to Canada?",
+      "reading": "ˈhaʊ ˈlɔːŋ dʌz ɪt ˈteɪk tə ˈsɛnd ə ˈpækɪdʒ tə ˈkænədə?"
+    },
+    {
+      "speaker": "b",
+      "text": "By airmail, it takes about ten days.",
+      "reading": "baɪ ˈɛrmeɪl, ɪt ˈteɪks əˈbaʊt ˈtɛn ˈdeɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. How much is the fee?",
+      "reading": "oʊˈkeɪ. ˈhaʊ ˈmʌtʃ ɪz ðə ˈfiː?"
+    },
+    {
+      "speaker": "b",
+      "text": "I need to weigh it first. OK, the fee is nine hundred baht.",
+      "reading": "aɪ ˈniːd tə ˈweɪ ɪt ˈfɜːrst. oʊˈkeɪ, ðə ˈfiː ɪz ˈnaɪn ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Hmm. Is there a cheaper way?",
+      "reading": "ˈhm. ɪz ðɛr ə ˈtʃiːpər ˈweɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "By ship, it's four hundred baht, but it takes two months.",
+      "reading": "baɪ ˈʃɪp, ɪts ˈfɔːr ˈhʌndrəd ˈbɑːt, bʌt ɪt ˈteɪks ˈtuː ˈmʌnθs."
+    },
+    {
+      "speaker": "a",
+      "text": "That takes too long. I'll send it by airmail.",
+      "reading": "ˈðæt ˈteɪks ˈtuː ˈlɔːŋ. aɪl ˈsɛnd ɪt baɪ ˈɛrmeɪl."
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. Here's your tracking number. Please keep it.",
+      "reading": "ˈʃʊr. hɪrz jʊr ˈtrækɪŋ ˌnʌmbər. ˈpliːz ˈkiːp ɪt."
+    }
+  ]
+}

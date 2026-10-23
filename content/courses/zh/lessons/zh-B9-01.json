@@ -1,0 +1,60 @@
+{
+  "id": "zh-B9-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ai-hao",
+      "text": "爱好",
+      "reading": "àihào"
+    },
+    {
+      "id": "zh.chang-ge",
+      "text": "唱歌",
+      "reading": "chànggē"
+    },
+    {
+      "id": "zh.ge-song",
+      "text": "歌",
+      "reading": "gē"
+    },
+    {
+      "id": "zh.hao-ting",
+      "text": "好听",
+      "reading": "hǎotīng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你的爱好是什么？",
+      "reading": "Xiǎonán, nǐ de àihào shì shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我爱唱歌！你呢？",
+      "reading": "Wǒ ài chànggē! Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也喜欢唱歌。你唱个中国歌吧！",
+      "reading": "Wǒ yě xǐhuan chànggē. Nǐ chàng ge Zhōngguó gē ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好！我唱个中国歌。",
+      "reading": "Hǎo! Wǒ chàng ge Zhōngguó gē."
+    },
+    {
+      "speaker": "b",
+      "text": "真好听！",
+      "reading": "Zhēn hǎotīng!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！你也唱一个吧！",
+      "reading": "Xièxie! Nǐ yě chàng yī ge ba!"
+    }
+  ]
+}

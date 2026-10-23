@@ -1,0 +1,75 @@
+{
+  "id": "ja-C2-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kubi",
+      "text": "くび",
+      "reading": "kubi"
+    },
+    {
+      "id": "ja.ude",
+      "text": "うで",
+      "reading": "ude"
+    },
+    {
+      "id": "ja.yubi",
+      "text": "ゆび",
+      "reading": "yubi"
+    },
+    {
+      "id": "ja.senaka",
+      "text": "せなか",
+      "reading": "senaka"
+    },
+    {
+      "id": "ja.nodo",
+      "text": "のど",
+      "reading": "nodo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "きょうは どう しましたか。",
+      "reading": "Kyō wa dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "のどが いたいんです。",
+      "reading": "Nodo ga itai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。ほかには？",
+      "reading": "Sō desu ka. Hoka ni wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "くびと せなかも いたいんです。",
+      "reading": "Kubi to senaka mo itai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "うでや ゆびは どうですか。",
+      "reading": "Ude ya yubi wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶです。でも、からだが とても あついんです。",
+      "reading": "Daijōbu desu. Demo, karada ga totemo atsui n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "かぜですね。きょうは うちで やすむのが いちばんです。",
+      "reading": "Kaze desu ne. Kyō wa uchi de yasumu no ga ichiban desu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、わかりました。",
+      "reading": "Hai, wakarimashita."
+    }
+  ]
+}

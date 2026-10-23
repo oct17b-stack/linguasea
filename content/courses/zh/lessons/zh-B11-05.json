@@ -1,0 +1,60 @@
+{
+  "id": "zh-B11-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.kou-yu",
+      "text": "口语",
+      "reading": "kǒuyǔ"
+    },
+    {
+      "id": "zh.zuo-wen",
+      "text": "作文",
+      "reading": "zuòwén"
+    },
+    {
+      "id": "zh.yue-du",
+      "text": "阅读",
+      "reading": "yuèdú"
+    },
+    {
+      "id": "zh.ji-zhu",
+      "text": "记住",
+      "reading": "jìzhù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有什么中文课？",
+      "reading": "Xiǎonán, nǐ yǒu shénme Zhōngwén kè?"
+    },
+    {
+      "speaker": "a",
+      "text": "口语课、阅读课和作文课。",
+      "reading": "Kǒuyǔ kè, yuèdú kè hé zuòwén kè."
+    },
+    {
+      "speaker": "b",
+      "text": "你最喜欢什么课？",
+      "reading": "Nǐ zuì xǐhuan shénme kè?"
+    },
+    {
+      "speaker": "a",
+      "text": "口语课！作文有点儿难，我写字很慢。",
+      "reading": "Kǒuyǔ kè! Zuòwén yǒudiǎnr nán, wǒ xiě zì hěn màn."
+    },
+    {
+      "speaker": "b",
+      "text": "你要记住：每天写一点儿！",
+      "reading": "Nǐ yào jìzhù: měitiān xiě yīdiǎnr!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，我会记住的。谢谢你！",
+      "reading": "Hǎo, wǒ huì jìzhù de. Xièxie nǐ!"
+    }
+  ]
+}

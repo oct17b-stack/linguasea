@@ -1,0 +1,75 @@
+{
+  "id": "zh-C3-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ban-gong-shi",
+      "text": "办公室",
+      "reading": "bàngōngshì"
+    },
+    {
+      "id": "zh.tong-shi",
+      "text": "同事",
+      "reading": "tóngshì"
+    },
+    {
+      "id": "zh.jing-li",
+      "text": "经理",
+      "reading": "jīnglǐ"
+    },
+    {
+      "id": "zh.gong-si",
+      "text": "公司",
+      "reading": "gōngsī"
+    },
+    {
+      "id": "zh.kai-hui",
+      "text": "开会",
+      "reading": "kāihuì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你在公司忙吗？",
+      "reading": "Wáng Míng, nǐ zài gōngsī máng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很忙。我一个星期去三天，从九点到五点。",
+      "reading": "Hěn máng. Wǒ yī ge xīngqī qù sān tiān, cóng jiǔ diǎn dào wǔ diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "你的办公室大吗？",
+      "reading": "Nǐ de bàngōngshì dà ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不大，我跟三个同事一起用一个办公室。",
+      "reading": "Bù dà, wǒ gēn sān ge tóngshì yīqǐ yòng yī ge bàngōngshì."
+    },
+    {
+      "speaker": "a",
+      "text": "你们的经理怎么样？",
+      "reading": "Nǐmen de jīnglǐ zěnmeyàng?"
+    },
+    {
+      "speaker": "b",
+      "text": "经理对我们很好。每个星期一，我们都跟经理一起开会。",
+      "reading": "Jīnglǐ duì wǒmen hěn hǎo. Měi ge xīngqīyī, wǒmen dōu gēn jīnglǐ yīqǐ kāihuì."
+    },
+    {
+      "speaker": "a",
+      "text": "中午你跟同事一起吃饭吗？",
+      "reading": "Zhōngwǔ nǐ gēn tóngshì yīqǐ chīfàn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，公司旁边有一个饭馆，很便宜。",
+      "reading": "Duì, gōngsī pángbiān yǒu yī ge fànguǎn, hěn piányi."
+    }
+  ]
+}

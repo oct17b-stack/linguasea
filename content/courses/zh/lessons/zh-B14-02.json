@@ -1,0 +1,60 @@
+{
+  "id": "zh-B14-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.men-piao",
+      "text": "门票",
+      "reading": "ménpiào"
+    },
+    {
+      "id": "zh.shou-piao-chu",
+      "text": "售票处",
+      "reading": "shòupiàochù"
+    },
+    {
+      "id": "zh.yi-ban",
+      "text": "一半",
+      "reading": "yībàn"
+    },
+    {
+      "id": "zh.gu",
+      "text": "古",
+      "reading": "gǔ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，门票多少钱？",
+      "reading": "Xiǎonán, ménpiào duōshao qián?"
+    },
+    {
+      "speaker": "a",
+      "text": "两百泰铢。售票处在门口。",
+      "reading": "Liǎng bǎi tàizhū. Shòupiàochù zài ménkǒu."
+    },
+    {
+      "speaker": "b",
+      "text": "我是学生。学生票多少钱？",
+      "reading": "Wǒ shì xuésheng. Xuésheng piào duōshao qián?"
+    },
+    {
+      "speaker": "a",
+      "text": "学生票便宜一半，一百泰铢。",
+      "reading": "Xuésheng piào piányi yībàn, yī bǎi tàizhū."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！这是一个古寺吗？",
+      "reading": "Tài hǎo le! Zhè shì yī ge gǔsì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，是一个很有名的古寺。",
+      "reading": "Duì, shì yī ge hěn yǒumíng de gǔsì."
+    }
+  ]
+}

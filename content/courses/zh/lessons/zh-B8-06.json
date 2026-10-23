@@ -1,0 +1,60 @@
+{
+  "id": "zh-B8-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.wang-shang",
+      "text": "网上",
+      "reading": "wǎngshang"
+    },
+    {
+      "id": "zh.wang-you",
+      "text": "网友",
+      "reading": "wǎngyǒu"
+    },
+    {
+      "id": "zh.da-zi",
+      "text": "打字",
+      "reading": "dǎzì"
+    },
+    {
+      "id": "zh.you-jian",
+      "text": "邮件",
+      "reading": "yóujiàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，她是谁？",
+      "reading": "Xiǎonán, tā shì shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "她是我的网友，我在网上认识的。",
+      "reading": "Tā shì wǒ de wǎngyǒu, wǒ zài wǎngshang rènshi de."
+    },
+    {
+      "speaker": "b",
+      "text": "你们写邮件吗？",
+      "reading": "Nǐmen xiě yóujiàn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不写邮件。我们用手机打字。",
+      "reading": "Bù xiě yóujiàn. Wǒmen yòng shǒujī dǎzì."
+    },
+    {
+      "speaker": "b",
+      "text": "她是哪国人？",
+      "reading": "Tā shì nǎ guó rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "中国人！我用中文打字，她用泰语打字！",
+      "reading": "Zhōngguó rén! Wǒ yòng Zhōngwén dǎzì, tā yòng Tàiyǔ dǎzì!"
+    }
+  ]
+}

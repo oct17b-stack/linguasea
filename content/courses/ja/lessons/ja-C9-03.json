@@ -1,0 +1,75 @@
+{
+  "id": "ja-C9-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.saizu",
+      "text": "サイズ",
+      "reading": "saizu"
+    },
+    {
+      "id": "ja.hade",
+      "text": "はで",
+      "reading": "hade"
+    },
+    {
+      "id": "ja.jimi",
+      "text": "地味",
+      "reading": "jimi"
+    },
+    {
+      "id": "ja.yurui",
+      "text": "ゆるい",
+      "reading": "yurui"
+    },
+    {
+      "id": "ja.kitsui",
+      "text": "きつい",
+      "reading": "kitsui"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "サイズは いかがですか。",
+      "reading": "Saizu wa ikaga desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "この グレーの スカート、Lは ちょっと ゆるいです。おおきすぎます。",
+      "reading": "Kono gurē no sukāto, eru wa chotto yurui desu. Ōkisugimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "では、こちらの Sは いかがですか。",
+      "reading": "Dewa, kochira no esu wa ikaga desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "Sは きついです。ちいさすぎます。Mは ありますか。",
+      "reading": "Esu wa kitsui desu. Chiisasugimasu. Emu wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "すみません、Mは ピンクしか ありません。",
+      "reading": "Sumimasen, emu wa pinku shika arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "ピンクは ちょっと はですぎない？",
+      "reading": "Pinku wa chotto hadesuginai?"
+    },
+    {
+      "speaker": "a",
+      "text": "うーん。でも、グレーは 地味すぎるし…。",
+      "reading": "Ūn. Demo, gurē wa jimisugiru shi…"
+    },
+    {
+      "speaker": "c",
+      "text": "パーティーだから、ピンクも いいかもしれないね。",
+      "reading": "Pātī da kara, pinku mo ii kamoshirenai ne."
+    }
+  ]
+}

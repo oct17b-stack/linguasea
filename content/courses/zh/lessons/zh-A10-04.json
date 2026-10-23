@@ -1,0 +1,50 @@
+{
+  "id": "zh-A10-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhong-wen",
+      "text": "中文",
+      "reading": "Zhōngwén"
+    },
+    {
+      "id": "zh.tai-yu",
+      "text": "泰语",
+      "reading": "Tàiyǔ"
+    },
+    {
+      "id": "zh.ying-yu",
+      "text": "英语",
+      "reading": "Yīngyǔ"
+    },
+    {
+      "id": "zh.ying-wen",
+      "text": "英文",
+      "reading": "Yīngwén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你说英语吗？",
+      "reading": "Nǐ shuō Yīngyǔ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "说。我也说中文！",
+      "reading": "Shuō. Wǒ yě shuō Zhōngwén!"
+    },
+    {
+      "speaker": "c",
+      "text": "太好了！我不说泰语。",
+      "reading": "Tài hǎo le! Wǒ bù shuō Tàiyǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "我教你泰语！",
+      "reading": "Wǒ jiāo nǐ Tàiyǔ!"
+    }
+  ]
+}

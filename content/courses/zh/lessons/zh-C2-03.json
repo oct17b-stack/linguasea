@@ -1,0 +1,75 @@
+{
+  "id": "zh-C2-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jian-cha",
+      "text": "检查",
+      "reading": "jiǎnchá"
+    },
+    {
+      "id": "zh.ya",
+      "text": "牙",
+      "reading": "yá"
+    },
+    {
+      "id": "zh.zui-mouth",
+      "text": "嘴",
+      "reading": "zuǐ"
+    },
+    {
+      "id": "zh.bi-zi",
+      "text": "鼻子",
+      "reading": "bízi"
+    },
+    {
+      "id": "zh.er-duo",
+      "text": "耳朵",
+      "reading": "ěrduo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，请坐。你怎么了？",
+      "reading": "Nǐ hǎo, qǐng zuò. Nǐ zěnme le?"
+    },
+    {
+      "speaker": "a",
+      "text": "大夫，我有点儿发烧，还咳嗽。",
+      "reading": "Dàifu, wǒ yǒudiǎnr fāshāo, hái késou."
+    },
+    {
+      "speaker": "b",
+      "text": "还有哪儿不舒服？",
+      "reading": "Hái yǒu nǎr bù shūfu?"
+    },
+    {
+      "speaker": "a",
+      "text": "鼻子很不舒服，耳朵也有点儿疼。",
+      "reading": "Bízi hěn bù shūfu, ěrduo yě yǒudiǎnr téng."
+    },
+    {
+      "speaker": "b",
+      "text": "牙疼吗？嘴里疼不疼？",
+      "reading": "Yá téng ma? Zuǐ lǐ téng bù téng?"
+    },
+    {
+      "speaker": "a",
+      "text": "牙不疼，嘴里有点儿疼。",
+      "reading": "Yá bù téng, zuǐ lǐ yǒudiǎnr téng."
+    },
+    {
+      "speaker": "b",
+      "text": "我给你检查一下。……是感冒，问题不大。",
+      "reading": "Wǒ gěi nǐ jiǎnchá yīxià. …… Shì gǎnmào, wèntí bù dà."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了，谢谢大夫！",
+      "reading": "Tài hǎo le, xièxie dàifu!"
+    }
+  ]
+}

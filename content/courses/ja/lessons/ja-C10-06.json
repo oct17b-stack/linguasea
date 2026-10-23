@@ -1,0 +1,70 @@
+{
+  "id": "ja-C10-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.wakasu",
+      "text": "わかす",
+      "reading": "wakasu"
+    },
+    {
+      "id": "ja.waku",
+      "text": "わく",
+      "reading": "waku"
+    },
+    {
+      "id": "ja.yakeru",
+      "text": "やける",
+      "reading": "yakeru"
+    },
+    {
+      "id": "ja.oyu",
+      "text": "おゆ",
+      "reading": "oyu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、おゆを わかして。おちゃを いれるから。",
+      "reading": "Namu, oyu o wakashite. Ocha o ireru kara."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。…あ、おゆが わいたよ。",
+      "reading": "Un. …A, oyu ga waita yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。パンは いま やいて いるよ。",
+      "reading": "Arigatō. Pan wa ima yaite iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、パンが やけた！",
+      "reading": "A, pan ga yaketa!"
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、おちゃに さとうを いれる？",
+      "reading": "Namu, ocha ni satō o ireru?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、すこし いれて。",
+      "reading": "Un, sukoshi irete."
+    },
+    {
+      "speaker": "c",
+      "text": "あれ？ この おちゃには さとうが はいって いるよ。",
+      "reading": "Are? Kono ocha ni wa satō ga haitte iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ごめん。さっき わたしが いれた。",
+      "reading": "A, gomen. Sakki watashi ga ireta."
+    }
+  ]
+}

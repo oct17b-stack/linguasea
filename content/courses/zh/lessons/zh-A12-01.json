@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.gou",
+      "text": "狗",
+      "reading": "gǒu"
+    },
+    {
+      "id": "zh.mao",
+      "text": "猫",
+      "reading": "māo"
+    },
+    {
+      "id": "zh.ji-chicken",
+      "text": "鸡",
+      "reading": "jī"
+    },
+    {
+      "id": "zh.ya-zi",
+      "text": "鸭子",
+      "reading": "yāzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "这里鸡和鸭子很多！",
+      "reading": "Zhèlǐ jī hé yāzi hěn duō!"
+    },
+    {
+      "speaker": "b",
+      "text": "对。小南，你家有狗吗？",
+      "reading": "Duì. Xiǎonán, nǐ jiā yǒu gǒu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有，我家有猫。你呢？",
+      "reading": "Méiyǒu, wǒ jiā yǒu māo. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我家有狗。我不喜欢猫！",
+      "reading": "Wǒ jiā yǒu gǒu. Wǒ bù xǐhuan māo!"
+    }
+  ]
+}

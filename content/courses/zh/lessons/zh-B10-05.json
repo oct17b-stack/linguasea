@@ -1,0 +1,60 @@
+{
+  "id": "zh-B10-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.da-yin",
+      "text": "打印",
+      "reading": "dǎyìn"
+    },
+    {
+      "id": "zh.yu-xi",
+      "text": "预习",
+      "reading": "yùxí"
+    },
+    {
+      "id": "zh.ti-wen",
+      "text": "提问",
+      "reading": "tíwèn"
+    },
+    {
+      "id": "zh.gong-ke",
+      "text": "功课",
+      "reading": "gōngkè"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你正在做什么？",
+      "reading": "Wáng Míng, nǐ zhèngzài zuò shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我正在预习明天的课。",
+      "reading": "Wǒ zhèngzài yùxí míngtiān de kè."
+    },
+    {
+      "speaker": "a",
+      "text": "你每天都预习吗？",
+      "reading": "Nǐ měitiān dōu yùxí ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对。我们老师上课常常提问。",
+      "reading": "Duì. Wǒmen lǎoshī shàngkè chángcháng tíwèn."
+    },
+    {
+      "speaker": "a",
+      "text": "我想打印我的功课。这儿可以打印吗？",
+      "reading": "Wǒ xiǎng dǎyìn wǒ de gōngkè. Zhèr kěyǐ dǎyìn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "可以，在图书馆打印吧。",
+      "reading": "Kěyǐ, zài túshūguǎn dǎyìn ba."
+    }
+  ]
+}

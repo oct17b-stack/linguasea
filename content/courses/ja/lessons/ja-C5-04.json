@@ -1,0 +1,75 @@
+{
+  "id": "ja-C5-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kisoku",
+      "text": "きそく",
+      "reading": "kisoku"
+    },
+    {
+      "id": "ja.kinen",
+      "text": "きんえん",
+      "reading": "kin'en"
+    },
+    {
+      "id": "ja.sawagu",
+      "text": "さわぐ",
+      "reading": "sawagu"
+    },
+    {
+      "id": "ja.suteru",
+      "text": "すてる",
+      "reading": "suteru"
+    },
+    {
+      "id": "ja.jama",
+      "text": "じゃま",
+      "reading": "jama"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、りょうの きそくを せつめいします。",
+      "reading": "Namu-san, ryō no kisoku o setsumei shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。",
+      "reading": "Hai, onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "りょうは ぜんぶ きんえんです。それから、よるは へやで さわいでは いけません。",
+      "reading": "Ryō wa zenbu kin'en desu. Sorekara, yoru wa heya de sawaide wa ikemasen."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。たべものは どこに すてますか。",
+      "reading": "Wakarimashita. Tabemono wa doko ni sutemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "だいどころです。へやに すてては いけません。",
+      "reading": "Daidokoro desu. Heya ni sutete wa ikemasen."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。じてんしゃは げんかんの まえで いいですか。",
+      "reading": "Hai. Jitensha wa genkan no mae de ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "げんかんの まえは じゃまですから、いけません。うしろに おねがいします。",
+      "reading": "Genkan no mae wa jama desu kara, ikemasen. Ushiro ni onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。きそくが たくさん ありますね。",
+      "reading": "Wakarimashita. Kisoku ga takusan arimasu ne."
+    }
+  ]
+}

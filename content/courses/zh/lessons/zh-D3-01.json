@@ -1,0 +1,85 @@
+{
+  "id": "zh-D3-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.bei-passive",
+      "text": "被",
+      "reading": "bèi"
+    },
+    {
+      "id": "zh.tou-steal",
+      "text": "偷",
+      "reading": "tōu"
+    },
+    {
+      "id": "zh.xiao-tou",
+      "text": "小偷",
+      "reading": "xiǎotōu"
+    },
+    {
+      "id": "zh.fa-xian",
+      "text": "发现",
+      "reading": "fāxiàn"
+    },
+    {
+      "id": "zh.shi-qu",
+      "text": "失去",
+      "reading": "shīqù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南！你去哪儿了？我给你打了很多次电话。",
+      "reading": "Xiǎonán! Nǐ qù nǎr le? Wǒ gěi nǐ dǎ le hěn duō cì diànhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "我的手机没电了。而且……我的钱包被偷了！",
+      "reading": "Wǒ de shǒujī méi diàn le. Érqiě…… wǒ de qiánbāo bèi tōu le!"
+    },
+    {
+      "speaker": "b",
+      "text": "什么？什么时候？",
+      "reading": "Shénme? Shénme shíhou?"
+    },
+    {
+      "speaker": "a",
+      "text": "在那条街上。人太多了，我想买水的时候，发现钱包没有了。",
+      "reading": "Zài nà tiáo jiē shang. Rén tài duō le, wǒ xiǎng mǎi shuǐ de shíhou, fāxiàn qiánbāo méiyǒu le."
+    },
+    {
+      "speaker": "b",
+      "text": "一定是被小偷偷了。那儿小偷很多。",
+      "reading": "Yīdìng shì bèi xiǎotōu tōu le. Nàr xiǎotōu hěn duō."
+    },
+    {
+      "speaker": "a",
+      "text": "我们失去了联系，我特别着急。",
+      "reading": "Wǒmen shīqù le liánxì, wǒ tèbié zháojí."
+    },
+    {
+      "speaker": "b",
+      "text": "对不起，我应该一直跟着你。钱包里有什么？",
+      "reading": "Duìbuqǐ, wǒ yīnggāi yīzhí gēn zhe nǐ. Qiánbāo li yǒu shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "三百块钱、一张银行卡，还有我的学生证。",
+      "reading": "Sānbǎi kuài qián, yī zhāng yínhángkǎ, hái yǒu wǒ de xuéshēngzhèng."
+    },
+    {
+      "speaker": "b",
+      "text": "别着急，我们先给银行打电话吧。",
+      "reading": "Bié zháojí, wǒmen xiān gěi yínháng dǎ diànhuà ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好。还好护照没被偷，在宾馆里。",
+      "reading": "Hǎo. Hái hǎo hùzhào méi bèi tōu, zài bīnguǎn li."
+    }
+  ]
+}

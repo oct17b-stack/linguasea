@@ -1,0 +1,95 @@
+{
+  "id": "ja-E2-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.risaikuru",
+      "text": "リサイクル",
+      "reading": "risaikuru"
+    },
+    {
+      "id": "ja.sairiyou",
+      "text": "さいりよう",
+      "reading": "sairiyō"
+    },
+    {
+      "id": "ja.shori",
+      "text": "処理",
+      "reading": "shori"
+    },
+    {
+      "id": "ja.umetate",
+      "text": "うめたて",
+      "reading": "umetate"
+    },
+    {
+      "id": "ja.shoukyaku",
+      "text": "しょうきゃく",
+      "reading": "shōkyaku"
+    },
+    {
+      "id": "ja.wakeru",
+      "text": "分ける",
+      "reading": "wakeru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、ひっこしてから、ゴミの分け方がかわって、たいへんなんだ。",
+      "reading": "Yuki, hikkoshite kara, gomi no wakekata ga kawatte, taihen na n da."
+    },
+    {
+      "speaker": "c",
+      "text": "ゴミのルールは、まちによってちがうからね。",
+      "reading": "Gomi no rūru wa, machi ni yotte chigau kara ne."
+    },
+    {
+      "speaker": "a",
+      "text": "まえのまちでは、ペットボトルもかんも、おなじふくろでよかったの。",
+      "reading": "Mae no machi de wa, pettobotoru mo kan mo, onaji fukuro de yokatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "いまのまちでは、分けないといけないの？",
+      "reading": "Ima no machi de wa, wakenai to ikenai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ペットボトルとかんとびんは、べつべつにしないといけない。",
+      "reading": "Un. Pettobotoru to kan to bin wa, betsubetsu ni shinai to ikenai."
+    },
+    {
+      "speaker": "c",
+      "text": "それは、リサイクルのためだよ。分けたほうが、さいりようしやすいから。",
+      "reading": "Sore wa, risaikuru no tame da yo. Waketa hō ga, sairiyō shiyasui kara."
+    },
+    {
+      "speaker": "a",
+      "text": "もえるゴミは、どう処理しているの？",
+      "reading": "Moeru gomi wa, dō shori shite iru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "このまちでは、しょうきゃくしているよ。でも、まちによっては、うめたてもしているみたい。",
+      "reading": "Kono machi de wa, shōkyaku shite iru yo. Demo, machi ni yotte wa, umetate mo shite iru mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "タイでは、うめたてがおおいんだ。まだ分別しないまちもおおいし。",
+      "reading": "Tai de wa, umetate ga ōi n da. Mada bunbetsu shinai machi mo ōi shi."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。処理の仕方も、くにによってちがうんだね。",
+      "reading": "Sō na n da. Shori no shikata mo, kuni ni yotte chigau n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。はっぴょうで、そのちがいもはなそう。",
+      "reading": "Un. Happyō de, sono chigai mo hanasō."
+    }
+  ]
+}

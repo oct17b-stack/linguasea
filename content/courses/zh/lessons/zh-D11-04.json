@@ -1,0 +1,90 @@
+{
+  "id": "zh-D11-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jin-zhang",
+      "text": "紧张",
+      "reading": "jǐnzhāng"
+    },
+    {
+      "id": "zh.ti-question",
+      "text": "题",
+      "reading": "tí"
+    },
+    {
+      "id": "zh.ji-ge",
+      "text": "及格",
+      "reading": "jígé"
+    },
+    {
+      "id": "zh.fen-shu",
+      "text": "分数",
+      "reading": "fēnshù"
+    },
+    {
+      "id": "zh.jie-guo",
+      "text": "结果",
+      "reading": "jiéguǒ"
+    },
+    {
+      "id": "zh.qiang-diao",
+      "text": "强调",
+      "reading": "qiángdiào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，离HSK考试还有多长时间？",
+      "reading": "Xiǎonán, lí HSK kǎoshì hái yǒu duō cháng shíjiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "离考试还有两个星期，我现在特别紧张。",
+      "reading": "Lí kǎoshì hái yǒu liǎng ge xīngqī, wǒ xiànzài tèbié jǐnzhāng."
+    },
+    {
+      "speaker": "c",
+      "text": "别紧张。你每天都在复习，一定能及格。",
+      "reading": "Bié jǐnzhāng. Nǐ měitiān dōu zài fùxí, yīdìng néng jígé."
+    },
+    {
+      "speaker": "a",
+      "text": "及格不难，可是我想考一个高一点儿的分数。",
+      "reading": "Jígé bù nán, kěshì wǒ xiǎng kǎo yī ge gāo yīdiǎnr de fēnshù."
+    },
+    {
+      "speaker": "c",
+      "text": "那你要多做题。你觉得什么题最难？",
+      "reading": "Nà nǐ yào duō zuò tí. Nǐ juéde shénme tí zuì nán?"
+    },
+    {
+      "speaker": "a",
+      "text": "听的题最难。他们说得太快，我常常听不懂。",
+      "reading": "Tīng de tí zuì nán. Tāmen shuō de tài kuài, wǒ chángcháng tīng bu dǒng."
+    },
+    {
+      "speaker": "c",
+      "text": "我上课的时候强调过：听，要每天练。",
+      "reading": "Wǒ shàngkè de shíhou qiángdiào guo: tīng, yào měitiān liàn."
+    },
+    {
+      "speaker": "a",
+      "text": "我记住了。离考试还有十四天，我每天都练半个小时。",
+      "reading": "Wǒ jìzhù le. Lí kǎoshì hái yǒu shísì tiān, wǒ měitiān dōu liàn bàn ge xiǎoshí."
+    },
+    {
+      "speaker": "c",
+      "text": "很好。考完以后告诉我结果。",
+      "reading": "Hěn hǎo. Kǎowán yǐhòu gàosu wǒ jiéguǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "好的！结果出来，我第一个告诉您！",
+      "reading": "Hǎo de! Jiéguǒ chūlái, wǒ dì-yī ge gàosu nín!"
+    }
+  ]
+}

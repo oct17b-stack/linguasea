@@ -1,0 +1,52 @@
+{
+  "id": "zh-A1-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.hao-jiu-bu-jian",
+      "kind": "phrase",
+      "text": "好久不见",
+      "reading": "hǎojiǔ bù jiàn"
+    },
+    {
+      "id": "zh.zui-jin",
+      "text": "最近",
+      "reading": "zuìjìn"
+    },
+    {
+      "id": "zh.bu-cuo",
+      "text": "不错",
+      "reading": "bùcuò"
+    },
+    {
+      "id": "zh.hai-hao",
+      "kind": "phrase",
+      "text": "还好",
+      "reading": "hái hǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，好久不见！",
+      "reading": "Wáng Míng, hǎojiǔ bù jiàn!"
+    },
+    {
+      "speaker": "b",
+      "text": "好久不见！你最近好吗？",
+      "reading": "Hǎojiǔ bù jiàn! Nǐ zuìjìn hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不错！你呢？",
+      "reading": "Bùcuò! Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我还好。",
+      "reading": "Wǒ hái hǎo."
+    }
+  ]
+}

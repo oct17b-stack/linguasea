@@ -1,0 +1,60 @@
+{
+  "id": "zh-B10-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.xiao-xue",
+      "text": "小学",
+      "reading": "xiǎoxué"
+    },
+    {
+      "id": "zh.zhong-xue",
+      "text": "中学",
+      "reading": "zhōngxué"
+    },
+    {
+      "id": "zh.chu-zhong",
+      "text": "初中",
+      "reading": "chūzhōng"
+    },
+    {
+      "id": "zh.xue-yuan",
+      "text": "学院",
+      "reading": "xuéyuàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你看，这是汉语学院。外国学生在这儿学汉语。",
+      "reading": "Xiǎonán, nǐ kàn, zhè shì Hànyǔ xuéyuàn. Wàiguó xuésheng zài zhèr xué Hànyǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "真好！我从初中开始学汉语。",
+      "reading": "Zhēn hǎo! Wǒ cóng chūzhōng kāishǐ xué Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "泰国的中学有汉语课吗？",
+      "reading": "Tàiguó de zhōngxué yǒu Hànyǔ kè ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有！很多小学和中学都有汉语课。",
+      "reading": "Yǒu! Hěn duō xiǎoxué hé zhōngxué dōu yǒu Hànyǔ kè."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！你以后也来汉语学院吧！",
+      "reading": "Tài hǎo le! Nǐ yǐhòu yě lái Hànyǔ xuéyuàn ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！",
+      "reading": "Hǎo a!"
+    }
+  ]
+}

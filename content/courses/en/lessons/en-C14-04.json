@@ -1,0 +1,71 @@
+{
+  "id": "en-C14-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.herb",
+      "text": "herb",
+      "reading": "ɜːrb"
+    },
+    {
+      "id": "en.basil",
+      "text": "basil",
+      "reading": "ˈbeɪzəl"
+    },
+    {
+      "id": "en.fish-sauce",
+      "text": "fish sauce",
+      "reading": "ˈfɪʃ ˌsɔːs"
+    },
+    {
+      "id": "en.coconut-milk",
+      "kind": "phrase",
+      "text": "coconut milk",
+      "reading": "ˌkoʊkənʌt ˈmɪlk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what are these green herbs?",
+      "reading": "ˈnɑːm, ˈwʌt ər ðiːz ˈɡriːn ˈɜːrbz?"
+    },
+    {
+      "speaker": "a",
+      "text": "This is basil. We use a lot of herbs in Thai food.",
+      "reading": "ˈðɪs ɪz ˈbeɪzəl. wiː ˈjuːz ə ˈlɑːt əv ˈɜːrbz ɪn ˈtaɪ ˈfuːd."
+    },
+    {
+      "speaker": "c",
+      "text": "And how much fish sauce do we need?",
+      "reading": "ənd ˈhaʊ ˈmʌtʃ ˈfɪʃ ˌsɔːs duː wiː ˈniːd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Only a little. Fish sauce is very salty.",
+      "reading": "ˈoʊnli ə ˈlɪtəl. ˈfɪʃ ˌsɔːs ɪz ˈvɛri ˈsɔːlti."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. And how much coconut milk?",
+      "reading": "oʊˈkeɪ. ənd ˈhaʊ ˈmʌtʃ ˌkoʊkənʌt ˈmɪlk?"
+    },
+    {
+      "speaker": "a",
+      "text": "A lot! Two cans. And a few chilies, too.",
+      "reading": "ə ˈlɑːt! ˈtuː ˈkænz. ənd ə ˈfjuː ˈtʃɪliz, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Only a few? Great! I can't eat a lot of chilies.",
+      "reading": "ˈoʊnli ə ˈfjuː? ˈɡreɪt! aɪ ˈkænt ˈiːt ə ˈlɑːt əv ˈtʃɪliz."
+    },
+    {
+      "speaker": "a",
+      "text": "Don't worry. Coconut milk is sweet, so the food isn't very spicy.",
+      "reading": "ˈdoʊnt ˈwɜːri. ˌkoʊkənʌt ˈmɪlk ɪz ˈswiːt, soʊ ðə ˈfuːd ˈɪzənt ˈvɛri ˈspaɪsi."
+    }
+  ]
+}

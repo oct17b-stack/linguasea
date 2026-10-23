@@ -1,0 +1,72 @@
+{
+  "id": "zh-C4-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.fang-bian",
+      "text": "方便",
+      "reading": "fāngbiàn"
+    },
+    {
+      "id": "zh.mei-wen-ti",
+      "text": "没问题",
+      "reading": "méi wèntí",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.bu-jian-bu-san",
+      "text": "不见不散",
+      "reading": "bù jiàn bù sàn",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.tong-yi",
+      "text": "同意",
+      "reading": "tóngyì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，星期六晚上我们去泰国饭馆吃饭，怎么样？",
+      "reading": "Wáng Míng, xīngqīliù wǎnshang wǒmen qù Tàiguó fànguǎn chīfàn, zěnmeyàng?"
+    },
+    {
+      "speaker": "b",
+      "text": "星期六晚上我不太方便，星期五晚上好吗？",
+      "reading": "Xīngqīliù wǎnshang wǒ bù tài fāngbiàn, xīngqīwǔ wǎnshang hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没问题。七点在饭馆门口见，好吗？",
+      "reading": "Méi wèntí. Qī diǎn zài fànguǎn ménkǒu jiàn, hǎo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "好。那个饭馆在哪儿？",
+      "reading": "Hǎo. Nàge fànguǎn zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "在地铁站附近，很方便。我还想请李老师一起去，你同意吗？",
+      "reading": "Zài dìtiězhàn fùjìn, hěn fāngbiàn. Wǒ hái xiǎng qǐng Lǐ lǎoshī yīqǐ qù, nǐ tóngyì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "好啊，我同意！",
+      "reading": "Hǎo a, wǒ tóngyì!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，星期五晚上七点，不见不散！",
+      "reading": "Hǎo, xīngqīwǔ wǎnshang qī diǎn, bù jiàn bù sàn!"
+    },
+    {
+      "speaker": "b",
+      "text": "不见不散！",
+      "reading": "Bù jiàn bù sàn!"
+    }
+  ]
+}

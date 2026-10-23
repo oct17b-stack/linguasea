@@ -1,0 +1,85 @@
+{
+  "id": "zh-D3-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.zhi-hao",
+      "text": "只好",
+      "reading": "zhǐhǎo"
+    },
+    {
+      "id": "zh.tui-chi",
+      "text": "推迟",
+      "reading": "tuīchí"
+    },
+    {
+      "id": "zh.yuan-yin",
+      "text": "原因",
+      "reading": "yuányīn"
+    },
+    {
+      "id": "zh.qi-fei",
+      "text": "起飞",
+      "reading": "qǐfēi"
+    },
+    {
+      "id": "zh.ting-zhi",
+      "text": "停止",
+      "reading": "tíngzhǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我还在北京机场，飞机还没起飞。",
+      "reading": "Xiǎonán, wǒ hái zài Běijīng jīchǎng, fēijī hái méi qǐfēi."
+    },
+    {
+      "speaker": "a",
+      "text": "怎么了？你的航班几点起飞？",
+      "reading": "Zěnme le? Nǐ de hángbān jǐ diǎn qǐfēi?"
+    },
+    {
+      "speaker": "b",
+      "text": "应该十点起飞，可是推迟到十二点了。",
+      "reading": "Yīnggāi shí diǎn qǐfēi, kěshì tuīchí dào shí'èr diǎn le."
+    },
+    {
+      "speaker": "a",
+      "text": "推迟的原因是什么？",
+      "reading": "Tuīchí de yuányīn shì shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "北京下大雪，机场的飞机都停止起飞了。",
+      "reading": "Běijīng xià dà xuě, jīchǎng de fēijī dōu tíngzhǐ qǐfēi le."
+    },
+    {
+      "speaker": "a",
+      "text": "那怎么办？今天晚上我爸爸妈妈要去曼谷机场接你。",
+      "reading": "Nà zěnme bàn? Jīntiān wǎnshang wǒ bàba māma yào qù Màngǔ jīchǎng jiē nǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "刚才通知说，今天的航班取消了。我只好明天再走。",
+      "reading": "Gāngcái tōngzhī shuō, jīntiān de hángbān qǔxiāo le. Wǒ zhǐhǎo míngtiān zài zǒu."
+    },
+    {
+      "speaker": "a",
+      "text": "那你今天晚上住在哪儿？",
+      "reading": "Nà nǐ jīntiān wǎnshang zhù zài nǎr?"
+    },
+    {
+      "speaker": "b",
+      "text": "机场附近的宾馆都没有房间了，我只好回家住。",
+      "reading": "Jīchǎng fùjìn de bīnguǎn dōu méiyǒu fángjiān le, wǒ zhǐhǎo huí jiā zhù."
+    },
+    {
+      "speaker": "a",
+      "text": "好吧。我告诉爸爸妈妈，让他们明天再去接你。",
+      "reading": "Hǎo ba. Wǒ gàosu bàba māma, ràng tāmen míngtiān zài qù jiē nǐ."
+    }
+  ]
+}

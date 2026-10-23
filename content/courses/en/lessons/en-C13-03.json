@@ -1,0 +1,71 @@
+{
+  "id": "en-C13-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.suggest",
+      "text": "suggest",
+      "reading": "səɡˈdʒɛst"
+    },
+    {
+      "id": "en.good-idea",
+      "kind": "phrase",
+      "text": "Good idea!",
+      "reading": "ˌɡʊd aɪˈdiːə"
+    },
+    {
+      "id": "en.karaoke",
+      "text": "karaoke",
+      "reading": "ˌkɛriˈoʊki"
+    },
+    {
+      "id": "en.picnic",
+      "text": "picnic",
+      "reading": "ˈpɪknɪk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "It's a holiday on Friday. Let's do something fun!",
+      "reading": "ɪts ə ˈhɑːlədeɪ ɑːn ˈfraɪdeɪ. ˈlɛts ˈduː ˈsʌmθɪŋ ˈfʌn!"
+    },
+    {
+      "speaker": "a",
+      "text": "How about having a picnic in the park?",
+      "reading": "ˈhaʊ əˈbaʊt ˈhævɪŋ ə ˈpɪknɪk ɪn ðə ˈpɑːrk?"
+    },
+    {
+      "speaker": "c",
+      "text": "Good idea! But it might rain on Friday.",
+      "reading": "ˌɡʊd aɪˈdiːə! bʌt ɪt maɪt ˈreɪn ɑːn ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Then why don't we sing karaoke at the mall?",
+      "reading": "ˈðɛn ˈwaɪ ˈdoʊnt wiː ˈsɪŋ ˌkɛriˈoʊki ət ðə ˈmɔːl?"
+    },
+    {
+      "speaker": "c",
+      "text": "Karaoke? But I can't sing!",
+      "reading": "ˌkɛriˈoʊki? bʌt aɪ ˈkænt ˈsɪŋ!"
+    },
+    {
+      "speaker": "a",
+      "text": "That's OK. I sing badly, too!",
+      "reading": "ðæts oʊˈkeɪ. aɪ ˈsɪŋ ˈbædli, ˈtuː!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK! Let's invite Ploy, too. She always suggests fun places.",
+      "reading": "oʊˈkeɪ! ˈlɛts ɪnˈvaɪt ˈplɔɪ, ˈtuː. ʃiː ˈɔːlweɪz səɡˈdʒɛsts ˈfʌn ˈpleɪsɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "Good idea! I'll call her now.",
+      "reading": "ˌɡʊd aɪˈdiːə! aɪl ˈkɔːl hɜːr ˈnaʊ."
+    }
+  ]
+}

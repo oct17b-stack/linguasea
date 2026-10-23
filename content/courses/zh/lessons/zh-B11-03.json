@@ -1,0 +1,60 @@
+{
+  "id": "zh-B11-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zi-dian",
+      "text": "字典",
+      "reading": "zìdiǎn"
+    },
+    {
+      "id": "zh.wai-wen",
+      "text": "外文",
+      "reading": "wàiwén"
+    },
+    {
+      "id": "zh.qing-chu",
+      "text": "清楚",
+      "reading": "qīngchu"
+    },
+    {
+      "id": "zh.ren-de",
+      "text": "认得",
+      "reading": "rènde"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个字你认得吗？",
+      "reading": "Xiǎonán, zhège zì nǐ rènde ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不认得。是什么意思？",
+      "reading": "Bù rènde. Shì shénme yìsi?"
+    },
+    {
+      "speaker": "b",
+      "text": "意思是……我不会用泰语说清楚。",
+      "reading": "Yìsi shì…… wǒ bù huì yòng Tàiyǔ shuō qīngchu."
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，我看一下字典。",
+      "reading": "Méi guānxi, wǒ kàn yīxià zìdiǎn."
+    },
+    {
+      "speaker": "b",
+      "text": "图书馆有中文字典，在外文书那里。",
+      "reading": "Túshūguǎn yǒu Zhōngwén zìdiǎn, zài wàiwén shū nàlǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我们去看看！",
+      "reading": "Hǎo, wǒmen qù kànkan!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C11-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.jikantai",
+      "text": "じかんたい",
+      "reading": "jikantai"
+    },
+    {
+      "id": "ja.donichi",
+      "text": "土日",
+      "reading": "donichi"
+    },
+    {
+      "id": "ja.shoukyuu",
+      "text": "しょうきゅう",
+      "reading": "shōkyū"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "カフェ「さくら」で アルバイトを ぼしゅうして います。",
+        "reading": "Kafe “Sakura” de arubaito o boshū shite imasu."
+      },
+      {
+        "text": "みけいけんの ひとも だいじょうぶです。",
+        "reading": "Mikeiken no hito mo daijōbu desu."
+      }
+    ],
+    [
+      {
+        "text": "じかんたいは、ごぜん 7時から ごご 1時までと、ごご 1時から 7時までです。",
+        "reading": "Jikantai wa, gozen shichiji kara gogo ichiji made to, gogo ichiji kara shichiji made desu."
+      },
+      {
+        "text": "土日も シフトに はいる ことが できる ひとを さがして います。",
+        "reading": "Donichi mo shifuto ni hairu koto ga dekiru hito o sagashite imasu."
+      },
+      {
+        "text": "じきゅうは 1,100円です。",
+        "reading": "Jikyū wa sen hyaku en desu."
+      },
+      {
+        "text": "しょうきゅうは 1ねんに 1かい あります。",
+        "reading": "Shōkyū wa ichinen ni ikkai arimasu."
+      }
+    ],
+    [
+      {
+        "text": "こうつうひも でます。",
+        "reading": "Kōtsūhi mo demasu."
+      },
+      {
+        "text": "おうぼは、でんわか メールで おねがいします。",
+        "reading": "Ōbo wa, denwa ka mēru de onegaishimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

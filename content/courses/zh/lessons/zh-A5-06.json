@@ -1,0 +1,55 @@
+{
+  "id": "zh-A5-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.wai-gong",
+      "text": "外公",
+      "reading": "wàigōng"
+    },
+    {
+      "id": "zh.wai-po",
+      "text": "外婆",
+      "reading": "wàipó"
+    },
+    {
+      "id": "zh.shu-shu",
+      "text": "叔叔",
+      "reading": "shūshu"
+    },
+    {
+      "id": "zh.a-yi",
+      "text": "阿姨",
+      "reading": "āyí"
+    },
+    {
+      "id": "zh.jia-ren",
+      "text": "家人",
+      "reading": "jiārén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这是你爷爷奶奶吗？",
+      "reading": "Zhè shì nǐ yéye nǎinai ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，是我外公外婆。",
+      "reading": "Bù shì, shì wǒ wàigōng wàipó."
+    },
+    {
+      "speaker": "b",
+      "text": "叔叔阿姨好吗？",
+      "reading": "Shūshu āyí hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我的家人都很好，谢谢！",
+      "reading": "Wǒ de jiārén dōu hěn hǎo, xièxie!"
+    }
+  ]
+}

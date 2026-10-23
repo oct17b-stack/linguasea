@@ -1,0 +1,61 @@
+{
+  "id": "zh-B14-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.mei-nan-he",
+      "text": "湄南河",
+      "reading": "Méinán Hé"
+    },
+    {
+      "id": "zh.hua-chuan",
+      "text": "划船",
+      "reading": "huáchuán"
+    },
+    {
+      "id": "zh.zhao-photo",
+      "text": "照",
+      "reading": "zhào"
+    },
+    {
+      "id": "zh.ren-duo",
+      "kind": "phrase",
+      "text": "人多",
+      "reading": "rén duō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是湄南河吗？",
+      "reading": "Xiǎonán, zhè shì Méinán Hé ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！我们坐船吧！",
+      "reading": "Duì! Wǒmen zuò chuán ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好！我们可以划船吗？",
+      "reading": "Hǎo! Wǒmen kěyǐ huáchuán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不行，这里人多，船也多。",
+      "reading": "Bùxíng, zhèlǐ rén duō, chuán yě duō."
+    },
+    {
+      "speaker": "b",
+      "text": "那你给我照一下吧！",
+      "reading": "Nà nǐ gěi wǒ zhào yīxià ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，看这里！",
+      "reading": "Hǎo, kàn zhèlǐ!"
+    }
+  ]
+}

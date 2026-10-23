@@ -1,0 +1,79 @@
+{
+  "id": "en-C9-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.dormitory",
+      "text": "dormitory",
+      "reading": "ˈdɔːrmətɔːri"
+    },
+    {
+      "id": "en.available",
+      "text": "available",
+      "reading": "əˈveɪləbəl"
+    },
+    {
+      "id": "en.roommate",
+      "text": "roommate",
+      "reading": "ˈruːmmeɪt"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "A room in the university dormitory is available from June 1st.",
+        "reading": "ə ˈruːm ɪn ðə ˌjuːnɪˈvɜːrsəti ˈdɔːrmətɔːri ɪz əˈveɪləbəl frəm ˈdʒuːn ˈfɜːrst."
+      },
+      {
+        "text": "It's a two-person room, so you will share it with a roommate.",
+        "reading": "ɪts ə ˌtuː ˈpɜːrsən ˈruːm, soʊ juː wɪl ˈʃɛr ɪt wɪð ə ˈruːmmeɪt."
+      },
+      {
+        "text": "Your roommate is a second-year student, and she studies economics.",
+        "reading": "jʊr ˈruːmmeɪt ɪz ə ˌsɛkənd ˈjɪr ˈstuːdənt, ənd ʃiː ˈstʌdiz ˌɛkəˈnɑːmɪks."
+      }
+    ],
+    [
+      {
+        "text": "The rent is three thousand baht per month, and it includes water and electricity.",
+        "reading": "ðə ˈrɛnt ɪz ˈθriː ˈθaʊzənd ˈbɑːt pər ˈmʌnθ, ənd ɪt ɪnˈkluːdz ˈwɔːtər ənd ɪˌlɛkˈtrɪsəti."
+      },
+      {
+        "text": "You can't cook in the room, but there's a kitchen on every floor.",
+        "reading": "juː ˈkænt ˈkʊk ɪn ðə ˈruːm, bʌt ðɛrz ə ˈkɪtʃən ɑːn ˈɛvri ˈflɔːr."
+      },
+      {
+        "text": "Guests can visit until nine o'clock at night.",
+        "reading": "ˈɡɛsts kən ˈvɪzɪt ənˈtɪl ˈnaɪn əˈklɑːk ət ˈnaɪt."
+      },
+      {
+        "text": "You must not smoke in the dormitory, and please be quiet after ten o'clock.",
+        "reading": "juː mʌst ˈnɑːt ˈsmoʊk ɪn ðə ˈdɔːrmətɔːri, ənd ˈpliːz bi ˈkwaɪət ˈæftər ˈtɛn əˈklɑːk."
+      }
+    ],
+    [
+      {
+        "text": "Are you interested?",
+        "reading": "ər juː ˈɪntrəstɪd?"
+      },
+      {
+        "text": "Please come to the dormitory office before May 25th.",
+        "reading": "ˈpliːz ˈkʌm tə ðə ˈdɔːrmətɔːri ˌɔːfɪs bɪˈfɔːr ˈmeɪ ˌtwɛnti ˈfɪfθ."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

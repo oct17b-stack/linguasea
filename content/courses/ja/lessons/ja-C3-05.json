@@ -1,0 +1,70 @@
+{
+  "id": "ja-C3-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.senmon",
+      "text": "せんもん",
+      "reading": "senmon"
+    },
+    {
+      "id": "ja.seiseki",
+      "text": "せいせき",
+      "reading": "seiseki"
+    },
+    {
+      "id": "ja.ten",
+      "text": "てん",
+      "reading": "ten"
+    },
+    {
+      "id": "ja.goukaku",
+      "text": "ごうかく",
+      "reading": "gōkaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、せいせきは どうですか。",
+      "reading": "Namu-san, seiseki wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "まあまあです。かんじの テストは 80てんでした。",
+      "reading": "Māmā desu. Kanji no tesuto wa hachijutten deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。じゅぎょうの 中で なにが いちばん すきですか。",
+      "reading": "Ii desu ne. Jugyō no naka de nani ga ichiban suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんの れきしが いちばん すきです。",
+      "reading": "Nihon no rekishi ga ichiban suki desu."
+    },
+    {
+      "speaker": "b",
+      "text": "せいせきが いいですから、12月の テストも ごうかくしますよ。",
+      "reading": "Seiseki ga ii desu kara, jūnigatsu no tesuto mo gōkaku shimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですか。でも、がくせいの 中で わたしが いちばん かんじが へたです。",
+      "reading": "Hontō desu ka. Demo, gakusei no naka de watashi ga ichiban kanji ga heta desu."
+    },
+    {
+      "speaker": "b",
+      "text": "だいじょうぶ。80てんは いい てんですよ。",
+      "reading": "Daijōbu. Hachijutten wa ii ten desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。にほんごは わたしの せんもんですから、がんばります。",
+      "reading": "Arigatō gozaimasu. Nihongo wa watashi no senmon desu kara, ganbarimasu."
+    }
+  ]
+}

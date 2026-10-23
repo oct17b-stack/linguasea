@@ -1,0 +1,75 @@
+{
+  "id": "ja-C8-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tenkiyohou",
+      "text": "てんきよほう",
+      "reading": "tenkiyohō"
+    },
+    {
+      "id": "ja.kisetsu",
+      "text": "きせつ",
+      "reading": "kisetsu"
+    },
+    {
+      "id": "ja.taifuu",
+      "text": "台風",
+      "reading": "taifū"
+    },
+    {
+      "id": "ja.kaminari",
+      "text": "かみなり",
+      "reading": "kaminari"
+    },
+    {
+      "id": "ja.kion",
+      "text": "きおん",
+      "reading": "kion"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、てんきよほう みた？",
+      "reading": "Namu, tenkiyohō mita?"
+    },
+    {
+      "speaker": "a",
+      "text": "ううん。いま みる。",
+      "reading": "Uun. Ima miru."
+    },
+    {
+      "speaker": "b",
+      "text": "あしたは 台風です。あめが たくさん ふるでしょう。",
+      "reading": "Ashita wa taifū desu. Ame ga takusan furu deshō."
+    },
+    {
+      "speaker": "b",
+      "text": "かみなりも あるでしょう。きおんは 25どぐらいでしょう。",
+      "reading": "Kaminari mo aru deshō. Kion wa nijūgodo gurai deshō."
+    },
+    {
+      "speaker": "a",
+      "text": "台風！ タイには 台風が あまり こない。",
+      "reading": "Taifū! Tai ni wa taifū ga amari konai."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんは いまが 台風の きせつだよ。",
+      "reading": "Nihon wa ima ga taifū no kisetsu da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、あしたの ドライブは？",
+      "reading": "Jā, ashita no doraibu wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ざんねん。また今度だね。",
+      "reading": "Zannen. Mata kondo da ne."
+    }
+  ]
+}

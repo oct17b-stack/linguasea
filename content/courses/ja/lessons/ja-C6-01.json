@@ -1,0 +1,75 @@
+{
+  "id": "ja-C6-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.keshiki",
+      "text": "けしき",
+      "reading": "keshiki"
+    },
+    {
+      "id": "ja.utsukushii",
+      "text": "うつくしい",
+      "reading": "utsukushii"
+    },
+    {
+      "id": "ja.subarashii",
+      "text": "すばらしい",
+      "reading": "subarashii"
+    },
+    {
+      "id": "ja.mezurashii",
+      "text": "めずらしい",
+      "reading": "mezurashii"
+    },
+    {
+      "id": "ja.hidoi",
+      "text": "ひどい",
+      "reading": "hidoi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ふゆやすみは どうでしたか。",
+      "reading": "Namu-san, fuyuyasumi wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ほっかいどうへ いきました。さむくて、ゆきが たくさん ふりました。",
+      "reading": "Hokkaidō e ikimashita. Samukute, yuki ga takusan furimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "けしきは どうでしたか。",
+      "reading": "Keshiki wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "しろくて、すばらしかったです。まちも しずかで、うつくしかったです。",
+      "reading": "Shirokute, subarashikatta desu. Machi mo shizuka de, utsukushikatta desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。めずらしい たべものは ありましたか。",
+      "reading": "Ii desu ne. Mezurashii tabemono wa arimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。かにが おおきくて、おいしかったです。",
+      "reading": "Hai. Kani ga ōkikute, oishikatta desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしの ふゆやすみは ひどかったです。かぜで、ずっと うちに いました。",
+      "reading": "Watashi no fuyuyasumi wa hidokatta desu. Kaze de, zutto uchi ni imashita."
+    },
+    {
+      "speaker": "a",
+      "text": "え、たいへんでしたね。いまは げんきですか。",
+      "reading": "E, taihen deshita ne. Ima wa genki desu ka."
+    }
+  ]
+}

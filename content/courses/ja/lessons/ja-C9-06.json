@@ -1,0 +1,75 @@
+{
+  "id": "ja-C9-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ryuukou",
+      "text": "りゅうこう",
+      "reading": "ryūkō"
+    },
+    {
+      "id": "ja.seifuku",
+      "text": "せいふく",
+      "reading": "seifuku"
+    },
+    {
+      "id": "ja.dezain",
+      "text": "デザイン",
+      "reading": "dezain"
+    },
+    {
+      "id": "ja.fudangi",
+      "text": "ふだんぎ",
+      "reading": "fudangi"
+    },
+    {
+      "id": "ja.tokubetsu",
+      "text": "特別",
+      "reading": "tokubetsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、タイの だいがくせいは せいふくを きるんですか。",
+      "reading": "Namu-san, Tai no daigakusei wa seifuku o kiru n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイの だいがくは、にほんの だいがくと ちがいます。せいふくが あります。",
+      "reading": "Hai. Tai no daigaku wa, Nihon no daigaku to chigaimasu. Seifuku ga arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。せいふくの デザインは、どの だいがくも おなじですか。",
+      "reading": "Sō desu ka. Seifuku no dezain wa, dono daigaku mo onaji desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "大体 おなじです。しろい シャツと くろい スカートです。",
+      "reading": "Daitai onaji desu. Shiroi shatsu to kuroi sukāto desu."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんの だいがくせいは ふだんぎですから、りゅうこうの ふくを きる ひとが おおいですね。",
+      "reading": "Nihon no daigakusei wa fudangi desu kara, ryūkō no fuku o kiru hito ga ōi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、わたしは せいふくも すきです。まいあさ ふくを えらばなくても いいですから。",
+      "reading": "Hai. Demo, watashi wa seifuku mo suki desu. Maiasa fuku o erabanakute mo ii desu kara."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。にほんでも、にゅうがくの ときは 特別な ふくを きますよ。",
+      "reading": "Naruhodo. Nihon de mo, nyūgaku no toki wa tokubetsu na fuku o kimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの そつぎょうの ときと おなじですね。",
+      "reading": "Tai no sotsugyō no toki to onaji desu ne."
+    }
+  ]
+}

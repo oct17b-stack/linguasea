@@ -1,0 +1,84 @@
+{
+  "id": "ja-C5-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.rusu",
+      "text": "るす",
+      "reading": "rusu"
+    },
+    {
+      "id": "ja.mizuyari",
+      "text": "水やり",
+      "reading": "mizuyari"
+    },
+    {
+      "id": "ja.kareru",
+      "text": "かれる",
+      "reading": "kareru"
+    },
+    {
+      "id": "ja.yuubinbutsu",
+      "text": "ゆうびんぶつ",
+      "reading": "yūbinbutsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさんへ",
+        "reading": "Namu-san e"
+      },
+      {
+        "text": "来週の げつようびから きんようびまで、おおさかへ いきます。",
+        "reading": "Raishū no getsuyōbi kara kin'yōbi made, Ōsaka e ikimasu."
+      },
+      {
+        "text": "わたしは るすですから、おねがいが あります。",
+        "reading": "Watashi wa rusu desu kara, onegai ga arimasu."
+      }
+    ],
+    [
+      {
+        "text": "ベランダの はなに 水やりを おねがいします。",
+        "reading": "Beranda no hana ni mizuyari o onegaishimasu."
+      },
+      {
+        "text": "水やりは 2日に 1かいで いいです。",
+        "reading": "Mizuyari wa futsuka ni ikkai de ii desu."
+      },
+      {
+        "text": "はなが かれますから、水やりを わすれないで ください。",
+        "reading": "Hana ga karemasu kara, mizuyari o wasurenaide kudasai."
+      }
+    ],
+    [
+      {
+        "text": "それから、ゆうびんぶつを あずかって ください。",
+        "reading": "Sorekara, yūbinbutsu o azukatte kudasai."
+      },
+      {
+        "text": "おおさかの おかしを かいますね！",
+        "reading": "Ōsaka no okashi o kaimasu ne!"
+      },
+      {
+        "text": "ゆきより",
+        "reading": "Yuki yori"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

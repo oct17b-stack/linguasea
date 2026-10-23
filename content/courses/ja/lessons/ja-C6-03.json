@@ -1,0 +1,75 @@
+{
+  "id": "ja-C6-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.nikki",
+      "text": "にっき",
+      "reading": "nikki"
+    },
+    {
+      "id": "ja.omoide",
+      "text": "思い出",
+      "reading": "omoide"
+    },
+    {
+      "id": "ja.mukashi",
+      "text": "むかし",
+      "reading": "mukashi"
+    },
+    {
+      "id": "ja.utsusu",
+      "text": "写す",
+      "reading": "utsusu"
+    },
+    {
+      "id": "ja.hisashiburi",
+      "text": "ひさしぶり",
+      "reading": "hisashiburi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、それは なんですか。",
+      "reading": "Namu-san, sore wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にっきです。まいにち にほんごで かきます。",
+      "reading": "Nikki desu. Mainichi Nihongo de kakimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "えらいですね。きのうは なにを かきましたか。",
+      "reading": "Erai desu ne. Kinō wa nani o kakimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "「ひさしぶりに ゆきさんと あった。ゆきさんの ノートを 写した。」",
+      "reading": "“Hisashiburi ni Yuki-san to atta. Yuki-san no nōto o utsushita.”"
+    },
+    {
+      "speaker": "c",
+      "text": "「あった」、「写した」… にっきは 「です・ます」じゃ ありませんね。",
+      "reading": "“Atta”, “utsushita”… Nikki wa “desu, masu” ja arimasen ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。にっきは 「いった」や 「たべた」で かきます。",
+      "reading": "Hai. Nikki wa “itta” ya “tabeta” de kakimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも むかし、にっきを かきました。いい 思い出です。",
+      "reading": "Watashi mo mukashi, nikki o kakimashita. Ii omoide desu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、きょうの にっきは 「ゆきさんと にっきの はなしを した。」です。",
+      "reading": "Jā, kyō no nikki wa “Yuki-san to nikki no hanashi o shita.” desu."
+    }
+  ]
+}

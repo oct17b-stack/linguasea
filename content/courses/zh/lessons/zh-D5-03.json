@@ -1,0 +1,80 @@
+{
+  "id": "zh-D5-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.wo-shi",
+      "text": "卧室",
+      "reading": "wòshì"
+    },
+    {
+      "id": "zh.yang-tai",
+      "text": "阳台",
+      "reading": "yángtái"
+    },
+    {
+      "id": "zh.kong-empty",
+      "text": "空",
+      "reading": "kōng"
+    },
+    {
+      "id": "zh.ce-suo",
+      "text": "厕所",
+      "reading": "cèsuǒ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "您好，这个大箱子放在哪儿？",
+      "reading": "Nín hǎo, zhège dà xiāngzi fàng zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "请搬进卧室里去。",
+      "reading": "Qǐng bān jìn wòshì li qu."
+    },
+    {
+      "speaker": "b",
+      "text": "卧室是哪个房间？",
+      "reading": "Wòshì shì nǎge fángjiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "左边那个。右边的房间还是空的。",
+      "reading": "Zuǒbian nàge. Yòubian de fángjiān hái shì kōng de."
+    },
+    {
+      "speaker": "b",
+      "text": "好。这些花呢？",
+      "reading": "Hǎo. Zhèxiē huā ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "放到阳台上去吧，那儿阳光好。",
+      "reading": "Fàng dào yángtái shang qu ba, nàr yángguāng hǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "这个小箱子里是碗和盘子。",
+      "reading": "Zhège xiǎo xiāngzi li shì wǎn hé pánzi."
+    },
+    {
+      "speaker": "a",
+      "text": "请拿进厨房去吧。",
+      "reading": "Qǐng ná jìn chúfáng qu ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好。对了，厕所在哪儿？我想用一下。",
+      "reading": "Hǎo. Duì le, cèsuǒ zài nǎr? Wǒ xiǎng yòng yīxià."
+    },
+    {
+      "speaker": "a",
+      "text": "在厨房旁边。门口那个箱子，我自己拿进来吧。",
+      "reading": "Zài chúfáng pángbiān. Ménkǒu nàge xiāngzi, wǒ zìjǐ ná jinlai ba."
+    }
+  ]
+}

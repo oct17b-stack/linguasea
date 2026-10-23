@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shou",
+      "text": "手",
+      "reading": "shǒu"
+    },
+    {
+      "id": "zh.jiao-foot",
+      "text": "脚",
+      "reading": "jiǎo"
+    },
+    {
+      "id": "zh.lian-face",
+      "text": "脸",
+      "reading": "liǎn"
+    },
+    {
+      "id": "zh.shou-zhi",
+      "text": "手指",
+      "reading": "shǒuzhǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你的手干净吗？",
+      "reading": "Wáng Míng, nǐ de shǒu gānjìng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很干净！手指也很干净。",
+      "reading": "Hěn gānjìng! Shǒuzhǐ yě hěn gānjìng."
+    },
+    {
+      "speaker": "a",
+      "text": "你的脸不干净！",
+      "reading": "Nǐ de liǎn bù gānjìng!"
+    },
+    {
+      "speaker": "b",
+      "text": "啊！谢谢！",
+      "reading": "À! Xièxie!"
+    }
+  ]
+}

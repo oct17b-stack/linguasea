@@ -1,0 +1,55 @@
+{
+  "id": "zh-A9-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.wen",
+      "text": "问",
+      "reading": "wèn"
+    },
+    {
+      "id": "zh.hui-da",
+      "text": "回答",
+      "reading": "huídá"
+    },
+    {
+      "id": "zh.wen-ti",
+      "text": "问题",
+      "reading": "wèntí"
+    },
+    {
+      "id": "zh.dui",
+      "text": "对",
+      "reading": "duì"
+    },
+    {
+      "id": "zh.cuo",
+      "text": "错",
+      "reading": "cuò"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "我问，你回答：万是几个千？",
+      "reading": "Wǒ wèn, nǐ huídá: wàn shì jǐ ge qiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "一百个！",
+      "reading": "Yībǎi ge!"
+    },
+    {
+      "speaker": "c",
+      "text": "错了！",
+      "reading": "Cuò le!"
+    },
+    {
+      "speaker": "a",
+      "text": "十个！对吗？",
+      "reading": "Shí ge! Duì ma?"
+    }
+  ]
+}

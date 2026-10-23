@@ -1,0 +1,75 @@
+{
+  "id": "zh-C1-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.bao-ming",
+      "text": "报名",
+      "reading": "bàomíng"
+    },
+    {
+      "id": "zh.ka-la-ok",
+      "text": "卡拉OK",
+      "reading": "kǎlā OK"
+    },
+    {
+      "id": "zh.mian-fei",
+      "text": "免费",
+      "reading": "miǎnfèi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "同学们好！这个星期五晚上，我们一起去唱卡拉OK吧！",
+        "reading": "Tóngxuémen hǎo! Zhège xīngqīwǔ wǎnshang, wǒmen yīqǐ qù chàng kǎlā OK ba!"
+      },
+      {
+        "text": "学校旁边有一个卡拉OK，我们晚上七点去，十点回来。",
+        "reading": "Xuéxiào pángbiān yǒu yī ge kǎlā OK, wǒmen wǎnshang qī diǎn qù, shí diǎn huílái."
+      },
+      {
+        "text": "那儿有很多中文歌，也有泰语歌和英语歌。",
+        "reading": "Nàr yǒu hěn duō Zhōngwén gē, yě yǒu Tàiyǔ gē hé Yīngyǔ gē."
+      }
+    ],
+    [
+      {
+        "text": "一个人五十块，喝的东西免费。",
+        "reading": "Yī ge rén wǔshí kuài, hē de dōngxi miǎnfèi."
+      },
+      {
+        "text": "不会唱中文歌也没关系，我们可以一起学！",
+        "reading": "Bù huì chàng Zhōngwén gē yě méi guānxi, wǒmen kěyǐ yīqǐ xué!"
+      },
+      {
+        "text": "王明也来，他会弹吉他，唱歌也很好听。",
+        "reading": "Wáng Míng yě lái, tā huì tán jítā, chànggē yě hěn hǎotīng."
+      }
+    ],
+    [
+      {
+        "text": "想去的同学，请星期四以前报名。",
+        "reading": "Xiǎng qù de tóngxué, qǐng xīngqīsì yǐqián bàomíng."
+      },
+      {
+        "text": "报名请给我留言。",
+        "reading": "Bàomíng qǐng gěi wǒ liúyán."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C1-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shousetsu",
+      "text": "しょうせつ",
+      "reading": "shōsetsu"
+    },
+    {
+      "id": "ja.manga",
+      "text": "マンガ",
+      "reading": "manga"
+    },
+    {
+      "id": "ja.anime",
+      "text": "アニメ",
+      "reading": "anime"
+    },
+    {
+      "id": "ja.dorama",
+      "text": "ドラマ",
+      "reading": "dorama"
+    },
+    {
+      "id": "ja.dokusho",
+      "text": "読書",
+      "reading": "dokusho"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは うちで なにを するのが すきですか。",
+      "reading": "Namu-san wa uchi de nani o suru no ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "マンガを よむのが すきです。アニメを みるのも すきです。",
+      "reading": "Manga o yomu no ga suki desu. Anime o miru no mo suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは ドラマを みるのが すきです。タイの ドラマも よく みますよ。",
+      "reading": "Watashi wa dorama o miru no ga suki desu. Tai no dorama mo yoku mimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、ほんとうですか。",
+      "reading": "Hē, hontō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。それから、しょうせつを よむのも だいすきです。",
+      "reading": "Hai. Sorekara, shōsetsu o yomu no mo daisuki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "読書ですか。わたしは 読書は ちょっと にがてです。",
+      "reading": "Dokusho desu ka. Watashi wa dokusho wa chotto nigate desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、マンガで にほんごを べんきょうするのは どうですか。",
+      "reading": "Jā, manga de Nihongo o benkyō suru no wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね！ たのしいですから、まいにち よみます。",
+      "reading": "Ii desu ne! Tanoshii desu kara, mainichi yomimasu."
+    }
+  ]
+}

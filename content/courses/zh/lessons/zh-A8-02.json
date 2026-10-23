@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.fang-zi",
+      "text": "房子",
+      "reading": "fángzi"
+    },
+    {
+      "id": "zh.fang-jian",
+      "text": "房间",
+      "reading": "fángjiān"
+    },
+    {
+      "id": "zh.jian-between",
+      "text": "间",
+      "reading": "jiān"
+    },
+    {
+      "id": "zh.gong-yu",
+      "text": "公寓",
+      "reading": "gōngyù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你家是公寓吗？",
+      "reading": "Xiǎonán, nǐ jiā shì gōngyù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，是房子。",
+      "reading": "Bù shì, shì fángzi."
+    },
+    {
+      "speaker": "b",
+      "text": "有几个房间？",
+      "reading": "Yǒu jǐ ge fángjiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "两间。我和妹妹住一间。",
+      "reading": "Liǎng jiān. Wǒ hé mèimei zhù yī jiān."
+    }
+  ]
+}

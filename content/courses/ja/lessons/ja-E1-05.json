@@ -1,0 +1,85 @@
+{
+  "id": "ja-E1-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ishi-doctor",
+      "text": "医師",
+      "reading": "ishi"
+    },
+    {
+      "id": "ja.shoujou",
+      "text": "しょうじょう",
+      "reading": "shōjō"
+    },
+    {
+      "id": "ja.chiryou",
+      "text": "ちりょう",
+      "reading": "chiryō"
+    },
+    {
+      "id": "ja.shujutsu",
+      "text": "手術",
+      "reading": "shujutsu"
+    },
+    {
+      "id": "ja.kaifuku",
+      "text": "かいふく",
+      "reading": "kaifuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまだせんせい、ひざの手術はいかがでしたか。",
+      "reading": "Yamada-sensei, hiza no shujutsu wa ikaga deshita ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとう。手術はうまくいって、いまはずいぶんかいふくしましたよ。",
+      "reading": "Arigatō. Shujutsu wa umaku itte, ima wa zuibun kaifuku shimashita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。しょうじょうは、もうないんですか。",
+      "reading": "Yokatta desu. Shōjō wa, mō nai n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。でも、ちりょうはまだつづいています。医師が、まいにち30ぷんぐらいあるくようにいいました。",
+      "reading": "Ē. Demo, chiryō wa mada tsuzuite imasu. Ishi ga, mainichi sanjuppun gurai aruku yō ni iimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "30ぷんもですか。たいへんですね。",
+      "reading": "Sanjuppun mo desu ka. Taihen desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。それで、つまにも、いっしょにあるいてくれるようにたのみました。",
+      "reading": "Ē. Sorede, tsuma ni mo, issho ni aruite kureru yō ni tanomimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "すてきですね。じゅぎょうは、いつからですか。",
+      "reading": "Suteki desu ne. Jugyō wa, itsu kara desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "来週からです。でも、医師が、ながいじかん立たないように注意しました。",
+      "reading": "Raishū kara desu. Demo, ishi ga, nagai jikan tatanai yō ni chūi shimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、きょうしつにいすを用意しておきますね。",
+      "reading": "Jā, kyōshitsu ni isu o yōi shite okimasu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとう。ナムさんも、けんこうにきをつけるようにしてくださいね。",
+      "reading": "Arigatō. Namu-san mo, kenkō ni ki o tsukeru yō ni shite kudasai ne."
+    }
+  ]
+}

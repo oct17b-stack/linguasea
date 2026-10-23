@@ -1,0 +1,85 @@
+{
+  "id": "zh-D3-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ban-fa",
+      "text": "办法",
+      "reading": "bànfǎ"
+    },
+    {
+      "id": "zh.jie-jue",
+      "text": "解决",
+      "reading": "jiějué"
+    },
+    {
+      "id": "zh.gan-jin",
+      "text": "赶紧",
+      "reading": "gǎnjǐn"
+    },
+    {
+      "id": "zh.ji-shi",
+      "text": "及时",
+      "reading": "jíshí"
+    },
+    {
+      "id": "zh.jiu-rescue",
+      "text": "救",
+      "reading": "jiù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "叔叔，您好！您能帮帮我吗？",
+      "reading": "Shūshu, nín hǎo! Nín néng bāngbang wǒ ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "怎么了？遇到什么问题了？",
+      "reading": "Zěnme le? Yùdào shénme wèntí le?"
+    },
+    {
+      "speaker": "a",
+      "text": "我找不到我的朋友了，他的手机也没电了。",
+      "reading": "Wǒ zhǎo bu dào wǒ de péngyou le, tā de shǒujī yě méi diàn le."
+    },
+    {
+      "speaker": "b",
+      "text": "别着急，我有办法解决。我给山下的同事打个电话。",
+      "reading": "Bié zháojí, wǒ yǒu bànfǎ jiějué. Wǒ gěi shān xià de tóngshì dǎ ge diànhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢您！天快黑了，我们还走得到山下吗？",
+      "reading": "Xièxie nín! Tiān kuài hēi le, wǒmen hái zǒu de dào shān xià ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "走得到，不过我们得赶紧走。",
+      "reading": "Zǒu de dào, bùguò wǒmen děi gǎnjǐn zǒu."
+    },
+    {
+      "speaker": "a",
+      "text": "好。叔叔，您的同事回电话了吗？",
+      "reading": "Hǎo. Shūshu, nín de tóngshì huí diànhuà le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "回了。他说你的朋友在山下等你呢！",
+      "reading": "Huí le. Tā shuō nǐ de péngyou zài shān xià děng nǐ ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！叔叔，您真是救了我！",
+      "reading": "Tài hǎo le! Shūshu, nín zhēn shì jiù le wǒ!"
+    },
+    {
+      "speaker": "b",
+      "text": "不客气。你及时来问我，这很好。以后别一个人走了。",
+      "reading": "Bù kèqi. Nǐ jíshí lái wèn wǒ, zhè hěn hǎo. Yǐhòu bié yī ge rén zǒu le."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "zh-B8-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.zan-men",
+      "text": "咱们",
+      "reading": "zánmen"
+    },
+    {
+      "id": "zh.zheng-tian",
+      "text": "整天",
+      "reading": "zhěngtiān"
+    },
+    {
+      "id": "zh.wan-dianr",
+      "kind": "phrase",
+      "text": "晚点儿",
+      "reading": "wǎn diǎnr"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "王明：咱们星期六晚上看电影吧！",
+        "reading": "Wáng Míng: Zánmen xīngqīliù wǎnshang kàn diànyǐng ba!"
+      },
+      {
+        "text": "小月：好啊！在哪儿见面？",
+        "reading": "Xiǎoyuè: Hǎo a! Zài nǎr jiànmiàn?"
+      },
+      {
+        "text": "小南：晚上七点，学校门口。",
+        "reading": "Xiǎonán: Wǎnshang qī diǎn, xuéxiào ménkǒu."
+      }
+    ],
+    [
+      {
+        "text": "小月：我星期六整天都上班，晚点儿到。",
+        "reading": "Xiǎoyuè: Wǒ xīngqīliù zhěngtiān dōu shàngbān, wǎn diǎnr dào."
+      },
+      {
+        "text": "王明：没事，咱们等你！",
+        "reading": "Wáng Míng: Méishì, zánmen děng nǐ!"
+      },
+      {
+        "text": "小南：好的，我先买票！",
+        "reading": "Xiǎonán: Hǎo de, wǒ xiān mǎi piào!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

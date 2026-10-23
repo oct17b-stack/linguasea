@@ -1,0 +1,50 @@
+{
+  "id": "zh-A7-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.song",
+      "text": "送",
+      "reading": "sòng"
+    },
+    {
+      "id": "zh.gei",
+      "text": "给",
+      "reading": "gěi"
+    },
+    {
+      "id": "zh.hua",
+      "text": "花",
+      "reading": "huā"
+    },
+    {
+      "id": "zh.ka",
+      "text": "卡",
+      "reading": "kǎ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这是给谁的卡？",
+      "reading": "Zhè shì gěi shéi de kǎ?"
+    },
+    {
+      "speaker": "a",
+      "text": "是给我妹妹的。",
+      "reading": "Shì gěi wǒ mèimei de."
+    },
+    {
+      "speaker": "b",
+      "text": "你送她什么？",
+      "reading": "Nǐ sòng tā shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "一个包和一些花。",
+      "reading": "Yī ge bāo hé yīxiē huā."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shu-belong",
+      "text": "属",
+      "reading": "shǔ"
+    },
+    {
+      "id": "zh.shu-rat",
+      "text": "鼠",
+      "reading": "shǔ"
+    },
+    {
+      "id": "zh.long",
+      "text": "龙",
+      "reading": "lóng"
+    },
+    {
+      "id": "zh.she",
+      "text": "蛇",
+      "reading": "shé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你属什么？",
+      "reading": "Xiǎonán, nǐ shǔ shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我属狗。你呢？",
+      "reading": "Wǒ shǔ gǒu. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也属狗！我们一样！",
+      "reading": "Wǒ yě shǔ gǒu! Wǒmen yīyàng!"
+    },
+    {
+      "speaker": "a",
+      "text": "我爸爸属龙，我妈妈属蛇。",
+      "reading": "Wǒ bàba shǔ lóng, wǒ māma shǔ shé."
+    }
+  ]
+}

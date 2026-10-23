@@ -1,0 +1,91 @@
+{
+  "id": "zh-D4-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jia-wu",
+      "text": "家务",
+      "reading": "jiāwù"
+    },
+    {
+      "id": "zh.xi-wan",
+      "text": "洗碗",
+      "reading": "xǐ wǎn",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.lun-liu",
+      "text": "轮流",
+      "reading": "lúnliú"
+    },
+    {
+      "id": "zh.fen-bie",
+      "text": "分别",
+      "reading": "fēnbié"
+    },
+    {
+      "id": "zh.fen-pei",
+      "text": "分配",
+      "reading": "fēnpèi"
+    },
+    {
+      "id": "zh.ge-zi-own",
+      "text": "各自",
+      "reading": "gèzì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "吃完饭了，我们来分配一下家务吧。",
+      "reading": "Chīwán fàn le, wǒmen lái fēnpèi yīxià jiāwù ba."
+    },
+    {
+      "speaker": "b",
+      "text": "妈妈，我洗碗。我可以一边洗碗一边听音乐。",
+      "reading": "Māma, wǒ xǐ wǎn. Wǒ kěyǐ yībiān xǐ wǎn yībiān tīng yīnyuè."
+    },
+    {
+      "speaker": "c",
+      "text": "好。小南是客人，你休息吧。",
+      "reading": "Hǎo. Xiǎonán shì kèrén, nǐ xiūxi ba."
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，阿姨，我也想帮忙。我来擦桌子。",
+      "reading": "Méi guānxi, āyí, wǒ yě xiǎng bāngmáng. Wǒ lái cā zhuōzi."
+    },
+    {
+      "speaker": "c",
+      "text": "那好，我来打扫厨房。我们三个人分别做一件事。",
+      "reading": "Nà hǎo, wǒ lái dǎsǎo chúfáng. Wǒmen sān ge rén fēnbié zuò yī jiàn shì."
+    },
+    {
+      "speaker": "b",
+      "text": "妈妈，在家里，你和爸爸怎么分配家务？",
+      "reading": "Māma, zài jiālǐ, nǐ hé bàba zěnme fēnpèi jiāwù?"
+    },
+    {
+      "speaker": "c",
+      "text": "我们轮流做饭，也轮流洗碗。",
+      "reading": "Wǒmen lúnliú zuò fàn, yě lúnliú xǐ wǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "我家也一样。我和妹妹各自打扫自己的房间。",
+      "reading": "Wǒ jiā yě yīyàng. Wǒ hé mèimei gèzì dǎsǎo zìjǐ de fángjiān."
+    },
+    {
+      "speaker": "c",
+      "text": "真好！王明，你应该跟小南学习。",
+      "reading": "Zhēn hǎo! Wáng Míng, nǐ yīnggāi gēn Xiǎonán xuéxí."
+    },
+    {
+      "speaker": "b",
+      "text": "好好好，我一边洗碗一边学习！",
+      "reading": "Hǎo hǎo hǎo, wǒ yībiān xǐ wǎn yībiān xuéxí!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shen-ti",
+      "text": "身体",
+      "reading": "shēntǐ"
+    },
+    {
+      "id": "zh.ge-bo",
+      "text": "胳膊",
+      "reading": "gēbo"
+    },
+    {
+      "id": "zh.bo-zi",
+      "text": "脖子",
+      "reading": "bózi"
+    },
+    {
+      "id": "zh.xin-heart",
+      "text": "心",
+      "reading": "xīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你的胳膊上有蚊子！",
+      "reading": "Wáng Míng, nǐ de gēbo shang yǒu wénzi!"
+    },
+    {
+      "speaker": "b",
+      "text": "脖子上也有！",
+      "reading": "Bózi shang yě yǒu!"
+    },
+    {
+      "speaker": "a",
+      "text": "蚊子很喜欢你！",
+      "reading": "Wénzi hěn xǐhuan nǐ!"
+    },
+    {
+      "speaker": "b",
+      "text": "我不喜欢蚊子！",
+      "reading": "Wǒ bù xǐhuan wénzi!"
+    }
+  ]
+}

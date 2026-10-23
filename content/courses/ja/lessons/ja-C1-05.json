@@ -1,0 +1,70 @@
+{
+  "id": "ja-C1-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.suiei",
+      "text": "すいえい",
+      "reading": "suiei"
+    },
+    {
+      "id": "ja.unten",
+      "text": "運転",
+      "reading": "unten"
+    },
+    {
+      "id": "ja.sukii",
+      "text": "スキー",
+      "reading": "sukī"
+    },
+    {
+      "id": "ja.muetai",
+      "text": "ムエタイ",
+      "reading": "muetai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、スポーツは なにが できますか。",
+      "reading": "Namu-san, supōtsu wa nani ga dekimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ムエタイが できます。タイで すこし ならいました。",
+      "reading": "Muetai ga dekimasu. Tai de sukoshi naraimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ、つよいですね！ スキーは？",
+      "reading": "Hē, tsuyoi desu ne! Sukī wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "スキーは できません。タイは ゆきが ふりませんから。",
+      "reading": "Sukī wa dekimasen. Tai wa yuki ga furimasen kara."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですね。じゃあ、およぐ ことが できますか。",
+      "reading": "Sō desu ne. Jā, oyogu koto ga dekimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すいえいは とくいです。ゆきさんは？",
+      "reading": "Hai, suiei wa tokui desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは およぐ ことが できません。でも、くるまの 運転が できますよ。",
+      "reading": "Watashi wa oyogu koto ga dekimasen. Demo, kuruma no unten ga dekimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。わたしは 運転する ことが できません。",
+      "reading": "Ii desu ne. Watashi wa unten suru koto ga dekimasen."
+    }
+  ]
+}

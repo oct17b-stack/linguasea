@@ -1,0 +1,70 @@
+{
+  "id": "ja-C11-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.jikyuu",
+      "text": "じきゅう",
+      "reading": "jikyū"
+    },
+    {
+      "id": "ja.tenchou",
+      "text": "店長",
+      "reading": "tenchō"
+    },
+    {
+      "id": "ja.reji",
+      "text": "レジ",
+      "reading": "reji"
+    },
+    {
+      "id": "ja.kyaku",
+      "text": "きゃく",
+      "reading": "kyaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "店長の きむらです。ナムさんは アルバイトの けいけんが ありますか。",
+      "reading": "Tenchō no Kimura desu. Namu-san wa arubaito no keiken ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイの レストランで、しゅうまつに アルバイトを して いました。",
+      "reading": "Hai. Tai no resutoran de, shūmatsu ni arubaito o shite imashita."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。この みせは、ゆうがた とても いそがしく なる ことが あります。やすむ じかんが ない ことも あります。",
+      "reading": "Sō desu ka. Kono mise wa, yūgata totemo isogashiku naru koto ga arimasu. Yasumu jikan ga nai koto mo arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶです。レジの しごとも しますか。",
+      "reading": "Daijōbu desu. Reji no shigoto mo shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。よるは おきゃくさんが すくないので、ひとりで レジを する ことも あります。",
+      "reading": "Hai. Yoru wa okyakusan ga sukunai node, hitori de reji o suru koto mo arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。じきゅうは いくらですか。",
+      "reading": "Wakarimashita. Jikyū wa ikura desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "1,100円です。よる 10時からは、すこし たかく なります。",
+      "reading": "Sen hyaku en desu. Yoru jūji kara wa, sukoshi takaku narimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。よるも だいじょうぶです。",
+      "reading": "Sō desu ka. Yoru mo daijōbu desu."
+    }
+  ]
+}

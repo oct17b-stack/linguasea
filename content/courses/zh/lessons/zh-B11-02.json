@@ -1,0 +1,60 @@
+{
+  "id": "zh-B11-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.pin-yin",
+      "text": "拼音",
+      "reading": "pīnyīn"
+    },
+    {
+      "id": "zh.du-yin",
+      "text": "读音",
+      "reading": "dúyīn"
+    },
+    {
+      "id": "zh.nian-read",
+      "text": "念",
+      "reading": "niàn"
+    },
+    {
+      "id": "zh.ting-xie",
+      "text": "听写",
+      "reading": "tīngxiě"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，明天有听写。这个字怎么念？",
+      "reading": "Wáng Míng, míngtiān yǒu tīngxiě. Zhège zì zěnme niàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "我念一下，你听：“图书馆”的“馆”。",
+      "reading": "Wǒ niàn yīxià, nǐ tīng: \"túshūguǎn\" de \"guǎn\"."
+    },
+    {
+      "speaker": "a",
+      "text": "这个读音有点儿难。拼音怎么写？",
+      "reading": "Zhège dúyīn yǒudiǎnr nán. Pīnyīn zěnme xiě?"
+    },
+    {
+      "speaker": "b",
+      "text": "你写一下，我看看。",
+      "reading": "Nǐ xiě yīxià, wǒ kànkan."
+    },
+    {
+      "speaker": "a",
+      "text": "你看，对吗？",
+      "reading": "Nǐ kàn, duì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对！很好！",
+      "reading": "Duì! Hěn hǎo!"
+    }
+  ]
+}

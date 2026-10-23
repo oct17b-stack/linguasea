@@ -1,0 +1,55 @@
+{
+  "id": "zh-A5-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhang-fu",
+      "text": "丈夫",
+      "reading": "zhàngfu"
+    },
+    {
+      "id": "zh.qi-zi",
+      "text": "妻子",
+      "reading": "qīzi"
+    },
+    {
+      "id": "zh.hai-zi",
+      "text": "孩子",
+      "reading": "háizi"
+    },
+    {
+      "id": "zh.er-zi",
+      "text": "儿子",
+      "reading": "érzi"
+    },
+    {
+      "id": "zh.nv-er",
+      "text": "女儿",
+      "reading": "nǚ'ér"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，他们是谁？",
+      "reading": "Xiǎonán, tāmen shì shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "我妈妈的妹妹和她丈夫。",
+      "reading": "Wǒ māma de mèimei hé tā zhàngfu."
+    },
+    {
+      "speaker": "b",
+      "text": "他们有孩子吗？",
+      "reading": "Tāmen yǒu háizi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，一个儿子，一个女儿。",
+      "reading": "Yǒu, yī ge érzi, yī ge nǚ'ér."
+    }
+  ]
+}

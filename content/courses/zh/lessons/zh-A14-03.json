@@ -1,0 +1,50 @@
+{
+  "id": "zh-A14-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.qing-ming-jie",
+      "text": "清明节",
+      "reading": "Qīngmíngjié"
+    },
+    {
+      "id": "zh.duan-wu-jie",
+      "text": "端午节",
+      "reading": "Duānwǔjié"
+    },
+    {
+      "id": "zh.zong-zi",
+      "text": "粽子",
+      "reading": "zòngzi"
+    },
+    {
+      "id": "zh.long-zhou",
+      "text": "龙舟",
+      "reading": "lóngzhōu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，端午节你吃粽子吗？",
+      "reading": "Xiǎonán, Duānwǔjié nǐ chī zòngzi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "吃！泰国也有粽子。",
+      "reading": "Chī! Tàiguó yě yǒu zòngzi."
+    },
+    {
+      "speaker": "b",
+      "text": "也有龙舟吗？",
+      "reading": "Yě yǒu lóngzhōu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有！龙舟很好看！",
+      "reading": "Yǒu! Lóngzhōu hěn hǎokàn!"
+    }
+  ]
+}

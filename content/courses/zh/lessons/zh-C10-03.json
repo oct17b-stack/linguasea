@@ -1,0 +1,70 @@
+{
+  "id": "zh-C10-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.huan-exchange",
+      "text": "换",
+      "reading": "huàn"
+    },
+    {
+      "id": "zh.ren-min-bi",
+      "text": "人民币",
+      "reading": "rénmínbì"
+    },
+    {
+      "id": "zh.mei-yuan",
+      "text": "美元",
+      "reading": "měiyuán"
+    },
+    {
+      "id": "zh.hui-lv",
+      "text": "汇率",
+      "reading": "huìlǜ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好，我想换钱。能不能换泰铢？",
+      "reading": "Nǐ hǎo, wǒ xiǎng huànqián. Néng bù néng huàn tàizhū?"
+    },
+    {
+      "speaker": "b",
+      "text": "对不起，这儿不能换泰铢。你有美元吗？",
+      "reading": "Duìbuqǐ, zhèr bù néng huàn tàizhū. Nǐ yǒu měiyuán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，我有五百美元。可不可以换人民币？",
+      "reading": "Yǒu, wǒ yǒu wǔbǎi měiyuán. Kě bù kěyǐ huàn rénmínbì?"
+    },
+    {
+      "speaker": "b",
+      "text": "可以。今天的汇率是一美元换七块一。",
+      "reading": "Kěyǐ. Jīntiān de huìlǜ shì yī měiyuán huàn qī kuài yī."
+    },
+    {
+      "speaker": "a",
+      "text": "五百美元能换多少人民币？",
+      "reading": "Wǔbǎi měiyuán néng huàn duōshao rénmínbì?"
+    },
+    {
+      "speaker": "b",
+      "text": "三千五百五十块。",
+      "reading": "Sānqiān wǔbǎi wǔshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "好，那我换五百。能不能给我一些十块的？",
+      "reading": "Hǎo, nà wǒ huàn wǔbǎi. Néng bù néng gěi wǒ yīxiē shí kuài de?"
+    },
+    {
+      "speaker": "b",
+      "text": "可以，请等一下。",
+      "reading": "Kěyǐ, qǐng děng yīxià."
+    }
+  ]
+}

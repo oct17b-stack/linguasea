@@ -1,0 +1,80 @@
+{
+  "id": "ja-C10-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tsukurikata",
+      "text": "作り方",
+      "reading": "tsukurikata"
+    },
+    {
+      "id": "ja.nabe",
+      "text": "なべ",
+      "reading": "nabe"
+    },
+    {
+      "id": "ja.abura",
+      "text": "あぶら",
+      "reading": "abura"
+    },
+    {
+      "id": "ja.yuderu",
+      "text": "ゆでる",
+      "reading": "yuderu"
+    },
+    {
+      "id": "ja.komakai",
+      "text": "こまかい",
+      "reading": "komakai"
+    },
+    {
+      "id": "ja.tsukuru",
+      "text": "作る",
+      "reading": "tsukuru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、カイジアオの 作り方を おしえて。",
+      "reading": "Namu, kaijiao no tsukurikata o oshiete."
+    },
+    {
+      "speaker": "a",
+      "text": "いいよ。たまごで 作る タイの りょうりだよ。ねぎを こまかく 切って、たまごと まぜて。",
+      "reading": "Ii yo. Tamago de tsukuru Tai no ryōri da yo. Negi o komakaku kitte, tamago to mazete."
+    },
+    {
+      "speaker": "c",
+      "text": "ねぎの 切り方は これで いい？",
+      "reading": "Negi no kirikata wa kore de ii?"
+    },
+    {
+      "speaker": "a",
+      "text": "もう すこし こまかく。…うん、いいね。それから、なべで あぶらを あつく して。",
+      "reading": "Mō sukoshi komakaku. …Un, ii ne. Sorekara, nabe de abura o atsuku shite."
+    },
+    {
+      "speaker": "c",
+      "text": "あぶらが たくさんだね！",
+      "reading": "Abura ga takusan da ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。それが タイの 作り方なの。",
+      "reading": "Un. Sore ga Tai no tsukurikata na no."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは たまごを ゆでる ことしか できないよ。",
+      "reading": "Watashi wa tamago o yuderu koto shika dekinai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶ、かんたんだよ。ゆきも 作って みて！",
+      "reading": "Daijōbu, kantan da yo. Yuki mo tsukutte mite!"
+    }
+  ]
+}

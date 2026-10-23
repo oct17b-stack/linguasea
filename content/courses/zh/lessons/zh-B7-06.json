@@ -1,0 +1,66 @@
+{
+  "id": "zh-B7-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.huan-ying-guang-lin",
+      "kind": "phrase",
+      "text": "欢迎光临",
+      "reading": "huānyíng guānglín"
+    },
+    {
+      "id": "zh.dai-zi",
+      "text": "袋子",
+      "reading": "dàizi"
+    },
+    {
+      "id": "zh.jia-re",
+      "text": "加热",
+      "reading": "jiārè"
+    },
+    {
+      "id": "zh.xi-guan-straw",
+      "text": "吸管",
+      "reading": "xīguǎn"
+    },
+    {
+      "id": "zh.bie-de",
+      "text": "别的",
+      "reading": "biéde"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "欢迎光临！",
+      "reading": "Huānyíng guānglín!"
+    },
+    {
+      "speaker": "a",
+      "text": "你好！我要这个面包和牛奶。",
+      "reading": "Nǐ hǎo! Wǒ yào zhège miànbāo hé niúnǎi."
+    },
+    {
+      "speaker": "c",
+      "text": "面包要加热吗？",
+      "reading": "Miànbāo yào jiārè ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "要，谢谢。",
+      "reading": "Yào, xièxie."
+    },
+    {
+      "speaker": "c",
+      "text": "还要别的吗？要袋子吗？",
+      "reading": "Hái yào biéde ma? Yào dàizi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不要袋子。请给我吸管。",
+      "reading": "Bù yào dàizi. Qǐng gěi wǒ xīguǎn."
+    }
+  ]
+}

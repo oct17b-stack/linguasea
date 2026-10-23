@@ -1,0 +1,85 @@
+{
+  "id": "zh-D5-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ban-jia",
+      "text": "搬家",
+      "reading": "bānjiā"
+    },
+    {
+      "id": "zh.tui-push",
+      "text": "推",
+      "reading": "tuī"
+    },
+    {
+      "id": "zh.la-pull",
+      "text": "拉",
+      "reading": "lā"
+    },
+    {
+      "id": "zh.zhuang",
+      "text": "装",
+      "reading": "zhuāng"
+    },
+    {
+      "id": "zh.gan-kuai",
+      "text": "赶快",
+      "reading": "gǎnkuài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，搬家公司的车到了吗？",
+      "reading": "Xiǎonán, bānjiā gōngsī de chē dào le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "到了，在楼下。我们赶快装车吧！",
+      "reading": "Dào le, zài lóuxià. Wǒmen gǎnkuài zhuāng chē ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "这个箱子太重了，我拿不了。",
+      "reading": "Zhège xiāngzi tài zhòng le, wǒ ná bu liǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "别拿了，推吧！你在后面推，我在前面拉。",
+      "reading": "Bié ná le, tuī ba! Nǐ zài hòumian tuī, wǒ zài qiánmian lā."
+    },
+    {
+      "speaker": "b",
+      "text": "好！……小南，你的书都在这个箱子里吗？",
+      "reading": "Hǎo! …… Xiǎonán, nǐ de shū dōu zài zhège xiāngzi li ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还有一些在房间里，你帮我拿来吧。",
+      "reading": "Hái yǒu yīxiē zài fángjiān li, nǐ bāng wǒ nálai ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好。电脑要不要装在车上？",
+      "reading": "Hǎo. Diànnǎo yào bù yào zhuāng zài chē shang?"
+    },
+    {
+      "speaker": "a",
+      "text": "不用，电脑我自己带去。",
+      "reading": "Bùyòng, diànnǎo wǒ zìjǐ dàiqu."
+    },
+    {
+      "speaker": "b",
+      "text": "那我把这些椅子也搬去吧。",
+      "reading": "Nà wǒ bǎ zhèxiē yǐzi yě bānqu ba."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！晚上你来我的新家吃饭吧，我请客！",
+      "reading": "Xièxie! Wǎnshang nǐ lái wǒ de xīn jiā chīfàn ba, wǒ qǐngkè!"
+    }
+  ]
+}

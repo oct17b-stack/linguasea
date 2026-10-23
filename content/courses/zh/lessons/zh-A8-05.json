@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.lai",
+      "text": "来",
+      "reading": "lái"
+    },
+    {
+      "id": "zh.jia-li",
+      "text": "家里",
+      "reading": "jiālǐ"
+    },
+    {
+      "id": "zh.gan-jing",
+      "text": "干净",
+      "reading": "gānjìng"
+    },
+    {
+      "id": "zh.hua-yuan",
+      "text": "花园",
+      "reading": "huāyuán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，欢迎来我家！",
+      "reading": "Wáng Míng, huānyíng lái wǒ jiā!"
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢！你家有花园！",
+      "reading": "Xièxie! Nǐ jiā yǒu huāyuán!"
+    },
+    {
+      "speaker": "a",
+      "text": "请进，请坐！",
+      "reading": "Qǐng jìn, qǐng zuò!"
+    },
+    {
+      "speaker": "b",
+      "text": "你家里很干净！",
+      "reading": "Nǐ jiālǐ hěn gānjìng!"
+    }
+  ]
+}

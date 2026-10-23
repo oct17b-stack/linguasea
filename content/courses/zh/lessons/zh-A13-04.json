@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.chen-yi",
+      "text": "衬衣",
+      "reading": "chènyī"
+    },
+    {
+      "id": "zh.niu-zai-ku",
+      "text": "牛仔裤",
+      "reading": "niúzǎikù"
+    },
+    {
+      "id": "zh.yun-dong-xie",
+      "text": "运动鞋",
+      "reading": "yùndòngxié"
+    },
+    {
+      "id": "zh.tuo-xie",
+      "text": "拖鞋",
+      "reading": "tuōxié"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你喜欢穿什么？",
+      "reading": "Xiǎonán, nǐ xǐhuan chuān shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我喜欢穿拖鞋！",
+      "reading": "Wǒ xǐhuan chuān tuōxié!"
+    },
+    {
+      "speaker": "b",
+      "text": "拖鞋？你要穿运动鞋！",
+      "reading": "Tuōxié? Nǐ yào chuān yùndòngxié!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，我穿运动鞋和牛仔裤。",
+      "reading": "Hǎo, wǒ chuān yùndòngxié hé niúzǎikù."
+    }
+  ]
+}

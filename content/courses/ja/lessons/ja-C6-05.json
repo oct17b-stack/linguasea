@@ -1,0 +1,70 @@
+{
+  "id": "ja-C6-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.omiyage",
+      "text": "おみやげ",
+      "reading": "omiyage"
+    },
+    {
+      "id": "ja.yado",
+      "text": "やど",
+      "reading": "yado"
+    },
+    {
+      "id": "ja.kaigan",
+      "text": "かいがん",
+      "reading": "kaigan"
+    },
+    {
+      "id": "ja.kankou",
+      "text": "かんこう",
+      "reading": "kankō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ほっかいどうでは なにを しましたか。",
+      "reading": "Hokkaidō de wa nani o shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "かいがんを あるいたり、みなとの まちを かんこうしたり しました。",
+      "reading": "Kaigan o aruitari, minato no machi o kankō shitari shimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "やどは どうでしたか。",
+      "reading": "Yado wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ちいさい やどでしたが、きれいでした。よるは おんせんに はいったり、テレビを みたり しました。",
+      "reading": "Chiisai yado deshita ga, kirei deshita. Yoru wa onsen ni haittari, terebi o mitari shimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。おみやげは かいましたか。",
+      "reading": "Ii desu ne. Omiyage wa kaimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ゆきさんに チョコレートを かいました。どうぞ。",
+      "reading": "Hai, Yuki-san ni chokorēto o kaimashita. Dōzo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます！ ほっかいどうの チョコレートは ゆうめいですね。",
+      "reading": "Arigatō gozaimasu! Hokkaidō no chokorēto wa yūmei desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイの かぞくにも おくりました。",
+      "reading": "Hai. Tai no kazoku ni mo okurimashita."
+    }
+  ]
+}

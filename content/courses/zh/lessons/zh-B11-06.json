@@ -1,0 +1,60 @@
+{
+  "id": "zh-B11-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.qing-jiao",
+      "text": "请教",
+      "reading": "qǐngjiào"
+    },
+    {
+      "id": "zh.yi-bian",
+      "text": "一边",
+      "reading": "yībiān"
+    },
+    {
+      "id": "zh.yi-dian-dian",
+      "text": "一点点",
+      "reading": "yīdiǎndiǎn"
+    },
+    {
+      "id": "zh.guang-dong-hua",
+      "text": "广东话",
+      "reading": "Guǎngdōnghuà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我想请教你一个问题。",
+      "reading": "Wáng Míng, wǒ xiǎng qǐngjiào nǐ yī ge wèntí."
+    },
+    {
+      "speaker": "b",
+      "text": "好啊，什么问题？",
+      "reading": "Hǎo a, shénme wèntí?"
+    },
+    {
+      "speaker": "a",
+      "text": "广东话和北京话一样吗？",
+      "reading": "Guǎngdōnghuà hé Běijīnghuà yīyàng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不一样！广东话我会一点点。",
+      "reading": "Bù yīyàng! Guǎngdōnghuà wǒ huì yīdiǎndiǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "你怎么学广东话？",
+      "reading": "Nǐ zěnme xué Guǎngdōnghuà?"
+    },
+    {
+      "speaker": "b",
+      "text": "我一边听歌，一边学。",
+      "reading": "Wǒ yībiān tīng gē, yībiān xué."
+    }
+  ]
+}

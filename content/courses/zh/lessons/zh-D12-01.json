@@ -1,0 +1,85 @@
+{
+  "id": "zh-D12-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.guan-yu",
+      "text": "关于",
+      "reading": "guānyú"
+    },
+    {
+      "id": "zh.da-gong",
+      "text": "打工",
+      "reading": "dǎgōng"
+    },
+    {
+      "id": "zh.zhao-pin",
+      "text": "招聘",
+      "reading": "zhāopìn"
+    },
+    {
+      "id": "zh.jian-zhi",
+      "text": "兼职",
+      "reading": "jiānzhí"
+    },
+    {
+      "id": "zh.duan-qi",
+      "text": "短期",
+      "reading": "duǎnqī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我想找个工作，周末打工。",
+      "reading": "Wáng Míng, wǒ xiǎng zhǎo ge gōngzuò, zhōumò dǎgōng."
+    },
+    {
+      "speaker": "b",
+      "text": "你在泰国不是打过工吗？",
+      "reading": "Nǐ zài Tàiguó bù shì dǎ guo gōng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，我在曼谷的一家饭馆做过服务员。",
+      "reading": "Duì, wǒ zài Màngǔ de yī jiā fànguǎn zuò guo fúwùyuán."
+    },
+    {
+      "speaker": "b",
+      "text": "学校旁边的咖啡馆正在招聘，你可以去试试。",
+      "reading": "Xuéxiào pángbiān de kāfēiguǎn zhèngzài zhāopìn, nǐ kěyǐ qù shìshi."
+    },
+    {
+      "speaker": "a",
+      "text": "是兼职吗？我只有周末有时间。",
+      "reading": "Shì jiānzhí ma? Wǒ zhǐ yǒu zhōumò yǒu shíjiān."
+    },
+    {
+      "speaker": "b",
+      "text": "对，是兼职。不过他们要短期的，只做三个月。",
+      "reading": "Duì, shì jiānzhí. Bùguò tāmen yào duǎnqī de, zhǐ zuò sān ge yuè."
+    },
+    {
+      "speaker": "a",
+      "text": "三个月也不错。关于工作时间，他们说了什么吗？",
+      "reading": "Sān ge yuè yě bùcuò. Guānyú gōngzuò shíjiān, tāmen shuō le shénme ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "关于工作时间，广告上写着：星期六和星期天，每天五个小时。",
+      "reading": "Guānyú gōngzuò shíjiān, guǎnggào shang xiě zhe: xīngqīliù hé xīngqītiān, měitiān wǔ ge xiǎoshí."
+    },
+    {
+      "speaker": "a",
+      "text": "一个小时给多少钱？",
+      "reading": "Yī ge xiǎoshí gěi duōshao qián?"
+    },
+    {
+      "speaker": "b",
+      "text": "这个我不太清楚，你最好自己去问问。加油！",
+      "reading": "Zhège wǒ bù tài qīngchu, nǐ zuìhǎo zìjǐ qù wènwen. Jiāyóu!"
+    }
+  ]
+}

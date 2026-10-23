@@ -1,0 +1,65 @@
+{
+  "id": "zh-B6-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.gong-jiao-che",
+      "text": "公交车",
+      "reading": "gōngjiāochē"
+    },
+    {
+      "id": "zh.che-zhan",
+      "text": "车站",
+      "reading": "chēzhàn"
+    },
+    {
+      "id": "zh.di-tie-zhan",
+      "text": "地铁站",
+      "reading": "dìtiězhàn"
+    },
+    {
+      "id": "zh.chuan-boat",
+      "text": "船",
+      "reading": "chuán"
+    },
+    {
+      "id": "zh.ji-piao",
+      "text": "机票",
+      "reading": "jīpiào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你的机票是什么时候的？",
+      "reading": "Xiǎonán, nǐ de jīpiào shì shénme shíhou de?"
+    },
+    {
+      "speaker": "a",
+      "text": "后天下午的。",
+      "reading": "Hòutiān xiàwǔ de."
+    },
+    {
+      "speaker": "b",
+      "text": "那明天我们去公园坐船吧！",
+      "reading": "Nà míngtiān wǒmen qù gōngyuán zuò chuán ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我们坐公交车去吗？",
+      "reading": "Hǎo a! Wǒmen zuò gōngjiāochē qù ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "车站很远。我们坐地铁吧，地铁站很近。",
+      "reading": "Chēzhàn hěn yuǎn. Wǒmen zuò dìtiě ba, dìtiězhàn hěn jìn."
+    },
+    {
+      "speaker": "a",
+      "text": "好！公园里可以坐船，真好！",
+      "reading": "Hǎo! Gōngyuán lǐ kěyǐ zuò chuán, zhēn hǎo!"
+    }
+  ]
+}

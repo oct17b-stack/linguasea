@@ -1,0 +1,60 @@
+{
+  "id": "zh-B9-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.chang-chang",
+      "text": "常常",
+      "reading": "chángcháng"
+    },
+    {
+      "id": "zh.you-shi-hou",
+      "text": "有时候",
+      "reading": "yǒushíhou"
+    },
+    {
+      "id": "zh.ping-shi",
+      "text": "平时",
+      "reading": "píngshí"
+    },
+    {
+      "id": "zh.zui",
+      "text": "最",
+      "reading": "zuì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你平时喜欢做什么？",
+      "reading": "Xiǎonán, nǐ píngshí xǐhuan zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我常常看书，有时候唱歌。",
+      "reading": "Wǒ chángcháng kàn shū, yǒushíhou chànggē."
+    },
+    {
+      "speaker": "b",
+      "text": "你最喜欢做什么？",
+      "reading": "Nǐ zuì xǐhuan zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我最喜欢打乒乓球！",
+      "reading": "Wǒ zuì xǐhuan dǎ pīngpāngqiú!"
+    },
+    {
+      "speaker": "b",
+      "text": "真的吗？我也最喜欢打乒乓球！",
+      "reading": "Zhēnde ma? Wǒ yě zuì xǐhuan dǎ pīngpāngqiú!"
+    },
+    {
+      "speaker": "a",
+      "text": "那我们常常一起打吧！",
+      "reading": "Nà wǒmen chángcháng yīqǐ dǎ ba!"
+    }
+  ]
+}

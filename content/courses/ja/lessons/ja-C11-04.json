@@ -1,0 +1,71 @@
+{
+  "id": "ja-C11-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ayamaru",
+      "text": "あやまる",
+      "reading": "ayamaru"
+    },
+    {
+      "id": "ja.machigaeru",
+      "text": "まちがえる",
+      "reading": "machigaeru"
+    },
+    {
+      "id": "ja.moushiwake-arimasen",
+      "kind": "phrase",
+      "text": "もうしわけありません",
+      "reading": "mōshiwake arimasen"
+    },
+    {
+      "id": "ja.nido-to",
+      "text": "二度と",
+      "reading": "nido to"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "店長、おくれて すみません。でんしゃが おくれて…。",
+      "reading": "Tenchō, okurete sumimasen. Densha ga okurete…."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。ナムさん、きのうの レジの ことですが…。",
+      "reading": "Sō desu ka. Namu-san, kinō no reji no koto desu ga…."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。おつりを まちがえて しまいました。もうしわけありません。",
+      "reading": "Hai. Otsuri o machigaete shimaimashita. Mōshiwake arimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "おきゃくさんには あやまりましたか。",
+      "reading": "Okyakusan ni wa ayamarimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、あやまりました。やさしい おきゃくさんでした。",
+      "reading": "Hai, ayamarimashita. Yasashii okyakusan deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。よかった。レジでは、ゆっくりで いいですよ。",
+      "reading": "Sō desu ka. Yokatta. Reji de wa, yukkuri de ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。めいわくを かけて すみませんでした。二度と まちがえません。",
+      "reading": "Arigatō gozaimasu. Meiwaku o kakete sumimasen deshita. Nido to machigaemasen."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。がんばって ください。",
+      "reading": "Hai. Ganbatte kudasai."
+    }
+  ]
+}

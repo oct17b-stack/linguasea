@@ -1,0 +1,85 @@
+{
+  "id": "zh-D10-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.tui-return",
+      "text": "退",
+      "reading": "tuì"
+    },
+    {
+      "id": "zh.tui-kuan",
+      "text": "退款",
+      "reading": "tuìkuǎn"
+    },
+    {
+      "id": "zh.li-you",
+      "text": "理由",
+      "reading": "lǐyóu"
+    },
+    {
+      "id": "zh.yun-fei",
+      "text": "运费",
+      "reading": "yùnfèi"
+    },
+    {
+      "id": "zh.shen-qing",
+      "text": "申请",
+      "reading": "shēnqǐng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "您好，请问有什么可以帮您？",
+      "reading": "Nín hǎo, qǐngwèn yǒu shénme kěyǐ bāng nín?"
+    },
+    {
+      "speaker": "a",
+      "text": "你好，你们把我的羽绒服寄错了，尺寸和颜色都不对。我想把它退回去。",
+      "reading": "Nǐ hǎo, nǐmen bǎ wǒ de yǔróngfú jìcuò le, chǐcun hé yánsè dōu bù duì. Wǒ xiǎng bǎ tā tuì huiqu."
+    },
+    {
+      "speaker": "c",
+      "text": "真对不起！您想换一件，还是退款？",
+      "reading": "Zhēn duìbuqǐ! Nín xiǎng huàn yī jiàn, háishi tuìkuǎn?"
+    },
+    {
+      "speaker": "a",
+      "text": "退款吧。在网上怎么申请？",
+      "reading": "Tuìkuǎn ba. Zài wǎngshang zěnme shēnqǐng?"
+    },
+    {
+      "speaker": "c",
+      "text": "您在手机上点“退款”，理由选“寄错了”就可以。",
+      "reading": "Nín zài shǒujī shang diǎn \"tuìkuǎn\", lǐyóu xuǎn \"jìcuò le\" jiù kěyǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好的。那运费谁付？",
+      "reading": "Hǎo de. Nà yùnfèi shéi fù?"
+    },
+    {
+      "speaker": "c",
+      "text": "是我们寄错了，所以运费我们付。明天快递员会去您那儿拿。",
+      "reading": "Shì wǒmen jìcuò le, suǒyǐ yùnfèi wǒmen fù. Míngtiān kuàidìyuán huì qù nín nàr ná."
+    },
+    {
+      "speaker": "a",
+      "text": "我要把衣服放回盒子里吗？",
+      "reading": "Wǒ yào bǎ yīfu fànghuí hézi li ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "对，放回去就行。我们收到衣服以后，三天就把钱退给您。",
+      "reading": "Duì, fàng huiqu jiù xíng. Wǒmen shōudào yīfu yǐhòu, sān tiān jiù bǎ qián tuì gěi nín."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢你们！",
+      "reading": "Hǎo de, xièxie nǐmen!"
+    }
+  ]
+}

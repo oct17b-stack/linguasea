@@ -1,0 +1,90 @@
+{
+  "id": "zh-D5-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ban-ye",
+      "text": "半夜",
+      "reading": "bànyè"
+    },
+    {
+      "id": "zh.qiao-knock",
+      "text": "敲",
+      "reading": "qiāo"
+    },
+    {
+      "id": "zh.ying-xiang",
+      "text": "影响",
+      "reading": "yǐngxiǎng"
+    },
+    {
+      "id": "zh.sheng-yin",
+      "text": "声音",
+      "reading": "shēngyīn"
+    },
+    {
+      "id": "zh.zheng-chang",
+      "text": "正常",
+      "reading": "zhèngcháng"
+    },
+    {
+      "id": "zh.you-ren",
+      "text": "有人",
+      "reading": "yǒurén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，我是楼下的邻居。昨天半夜，你们家的声音很大。",
+      "reading": "Nǐ hǎo, wǒ shì lóuxià de línjū. Zuótiān bànyè, nǐmen jiā de shēngyīn hěn dà."
+    },
+    {
+      "speaker": "a",
+      "text": "真对不起！昨天我的朋友来我家吃饭，我们还唱歌了。",
+      "reading": "Zhēn duìbuqǐ! Zuótiān wǒ de péngyou lái wǒ jiā chīfàn, wǒmen hái chànggē le."
+    },
+    {
+      "speaker": "b",
+      "text": "朋友来家里吃饭很正常，可是半夜太吵了，我一点儿也没睡好。",
+      "reading": "Péngyou lái jiālǐ chīfàn hěn zhèngcháng, kěshì bànyè tài chǎo le, wǒ yīdiǎnr yě méi shuìhǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "真抱歉，影响您休息了。",
+      "reading": "Zhēn bàoqiàn, yǐngxiǎng nín xiūxi le."
+    },
+    {
+      "speaker": "b",
+      "text": "我今天早上六点就得上班。晚上十点以后，请小声一点儿。",
+      "reading": "Wǒ jīntiān zǎoshang liù diǎn jiù děi shàngbān. Wǎnshang shí diǎn yǐhòu, qǐng xiǎoshēng yīdiǎnr."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，以后晚上我们一点儿也不吵了。",
+      "reading": "Hǎo de, yǐhòu wǎnshang wǒmen yīdiǎnr yě bù chǎo le."
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢。还有，昨天半夜有人敲我的门，是你的朋友吗？",
+      "reading": "Xièxie. Hái yǒu, zuótiān bànyè yǒurén qiāo wǒ de mén, shì nǐ de péngyou ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是。昨天半夜我们一个人也没出门。",
+      "reading": "Bù shì. Zuótiān bànyè wǒmen yī ge rén yě méi chūmén."
+    },
+    {
+      "speaker": "b",
+      "text": "那可能是别人吧。没关系。",
+      "reading": "Nà kěnéng shì biéren ba. Méi guānxi."
+    },
+    {
+      "speaker": "a",
+      "text": "以后有问题，您随时来敲我的门。",
+      "reading": "Yǐhòu yǒu wèntí, nín suíshí lái qiāo wǒ de mén."
+    }
+  ]
+}

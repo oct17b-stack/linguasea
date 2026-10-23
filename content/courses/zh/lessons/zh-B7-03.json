@@ -1,0 +1,65 @@
+{
+  "id": "zh-B7-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.mian-bao",
+      "text": "面包",
+      "reading": "miànbāo"
+    },
+    {
+      "id": "zh.bing-gan",
+      "text": "饼干",
+      "reading": "bǐnggān"
+    },
+    {
+      "id": "zh.fang-bian-mian",
+      "text": "方便面",
+      "reading": "fāngbiànmiàn"
+    },
+    {
+      "id": "zh.bing-qi-lin",
+      "text": "冰淇淋",
+      "reading": "bīngqílín"
+    },
+    {
+      "id": "zh.he",
+      "text": "盒",
+      "reading": "hé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，明天坐火车，我们买一点儿吃的吧。",
+      "reading": "Xiǎonán, míngtiān zuò huǒchē, wǒmen mǎi yīdiǎnr chī de ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好！我要面包和饼干。",
+      "reading": "Hǎo! Wǒ yào miànbāo hé bǐnggān."
+    },
+    {
+      "speaker": "b",
+      "text": "饼干要几盒？",
+      "reading": "Bǐnggān yào jǐ hé?"
+    },
+    {
+      "speaker": "a",
+      "text": "两盒。你要不要方便面？",
+      "reading": "Liǎng hé. Nǐ yào bù yào fāngbiànmiàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "要！冰淇淋呢？要不要？",
+      "reading": "Yào! Bīngqílín ne? Yào bù yào?"
+    },
+    {
+      "speaker": "a",
+      "text": "冰淇淋现在吃吧！",
+      "reading": "Bīngqílín xiànzài chī ba!"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "zh-B7-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.cai-dan",
+      "text": "菜单",
+      "reading": "càidān"
+    },
+    {
+      "id": "zh.chao-fan",
+      "text": "炒饭",
+      "reading": "chǎofàn"
+    },
+    {
+      "id": "zh.mi-fen",
+      "text": "米粉",
+      "reading": "mǐfěn"
+    },
+    {
+      "id": "zh.tang",
+      "text": "汤",
+      "reading": "tāng"
+    },
+    {
+      "id": "zh.la",
+      "text": "辣",
+      "reading": "là"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，菜单在这儿。你吃什么？",
+      "reading": "Wáng Míng, càidān zài zhèr. Nǐ chī shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我要炒饭。你呢？",
+      "reading": "Wǒ yào chǎofàn. Nǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我要米粉，还要一个汤。",
+      "reading": "Wǒ yào mǐfěn, hái yào yī ge tāng."
+    },
+    {
+      "speaker": "c",
+      "text": "米粉要辣的吗？",
+      "reading": "Mǐfěn yào là de ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "要！我很喜欢辣的。",
+      "reading": "Yào! Wǒ hěn xǐhuan là de."
+    },
+    {
+      "speaker": "b",
+      "text": "我不吃辣的！",
+      "reading": "Wǒ bù chī là de!"
+    }
+  ]
+}

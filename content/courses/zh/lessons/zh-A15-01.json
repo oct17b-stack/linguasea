@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.dong-east",
+      "text": "东",
+      "reading": "dōng"
+    },
+    {
+      "id": "zh.xi",
+      "text": "西",
+      "reading": "xī"
+    },
+    {
+      "id": "zh.nan-south",
+      "text": "南",
+      "reading": "nán"
+    },
+    {
+      "id": "zh.bei-north",
+      "text": "北",
+      "reading": "běi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，“南”是什么意思？",
+      "reading": "Wáng Míng, “nán” shì shénme yìsi?"
+    },
+    {
+      "speaker": "b",
+      "text": "是东南西北的“南”。",
+      "reading": "Shì dōng nán xī běi de “nán”."
+    },
+    {
+      "speaker": "a",
+      "text": "北京的“北”也是吗？",
+      "reading": "Běijīng de “běi” yě shì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对！我是“北”，你是“南”！",
+      "reading": "Duì! Wǒ shì “běi”, nǐ shì “nán”!"
+    }
+  ]
+}

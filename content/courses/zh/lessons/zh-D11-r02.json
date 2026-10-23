@@ -1,0 +1,88 @@
+{
+  "id": "zh-D11-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.ji-level",
+      "text": "级",
+      "reading": "jí"
+    },
+    {
+      "id": "zh.zheng-shu",
+      "text": "证书",
+      "reading": "zhèngshū"
+    },
+    {
+      "id": "zh.kao-chang",
+      "text": "考场",
+      "reading": "kǎochǎng"
+    },
+    {
+      "id": "zh.zhu-ren-director",
+      "text": "主任",
+      "reading": "zhǔrèn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "李老师：您好！",
+        "reading": "Lǐ lǎoshī: Nín hǎo!"
+      },
+      {
+        "text": "我想参加下个月的HSK三级考试，有几个问题想问您。",
+        "reading": "Wǒ xiǎng cānjiā xià ge yuè de HSK sān jí kǎoshì, yǒu jǐ ge wèntí xiǎng wèn nín."
+      }
+    ],
+    [
+      {
+        "text": "第一，我现在的水平能考三级吗？",
+        "reading": "Dì-yī, wǒ xiànzài de shuǐpíng néng kǎo sān jí ma?"
+      },
+      {
+        "text": "第二，考场在哪儿？是在我们学校吗？",
+        "reading": "Dì-èr, kǎochǎng zài nǎr? Shì zài wǒmen xuéxiào ma?"
+      },
+      {
+        "text": "第三，考完以后，多长时间能拿到证书？",
+        "reading": "Dì-sān, kǎowán yǐhòu, duō cháng shíjiān néng nádào zhèngshū?"
+      },
+      {
+        "text": "我听说，报名要去学院办公室找主任，对吗？",
+        "reading": "Wǒ tīngshuō, bàomíng yào qù xuéyuàn bàngōngshì zhǎo zhǔrèn, duì ma?"
+      },
+      {
+        "text": "我也可以在网上报名，可是网站上都是英文，我有点儿看不懂。",
+        "reading": "Wǒ yě kěyǐ zài wǎngshang bàomíng, kěshì wǎngzhàn shang dōu shì Yīngwén, wǒ yǒudiǎnr kàn bu dǒng."
+      }
+    ],
+    [
+      {
+        "text": "另外，我以后还想考四级，您觉得我要准备多长时间？",
+        "reading": "Lìngwài, wǒ yǐhòu hái xiǎng kǎo sì jí, nín juéde wǒ yào zhǔnbèi duō cháng shíjiān?"
+      },
+      {
+        "text": "麻烦您了，谢谢！",
+        "reading": "Máfan nín le, xièxie!"
+      },
+      {
+        "text": "您的学生：小南",
+        "reading": "Nín de xuésheng: Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

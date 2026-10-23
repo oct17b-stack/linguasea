@@ -1,0 +1,95 @@
+{
+  "id": "zh-E3-01",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhi-neng",
+      "text": "智能",
+      "reading": "zhìnéng"
+    },
+    {
+      "id": "zh.dian-zi",
+      "text": "电子",
+      "reading": "diànzǐ"
+    },
+    {
+      "id": "zh.ti-xing",
+      "text": "提醒",
+      "reading": "tíxǐng"
+    },
+    {
+      "id": "zh.zi-dong",
+      "text": "自动",
+      "reading": "zìdòng"
+    },
+    {
+      "id": "zh.ru-guo",
+      "text": "如果",
+      "reading": "rúguǒ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你家的灯怎么自己开了？",
+      "reading": "Xiǎonán, nǐ jiā de dēng zěnme zìjǐ kāi le?"
+    },
+    {
+      "speaker": "a",
+      "text": "这是智能灯。每天晚上七点，它会自动打开。",
+      "reading": "Zhè shì zhìnéng dēng. Měitiān wǎnshang qī diǎn, tā huì zìdòng dǎkāi."
+    },
+    {
+      "speaker": "b",
+      "text": "真方便！那空调呢？也是智能的吗？",
+      "reading": "Zhēn fāngbiàn! Nà kōngtiáo ne? Yě shì zhìnéng de ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，我在手机上下载了一个软件，可以用手机开空调、关空调。",
+      "reading": "Duì, wǒ zài shǒujī shang xiàzài le yī ge ruǎnjiàn, kěyǐ yòng shǒujī kāi kōngtiáo, guān kōngtiáo."
+    },
+    {
+      "speaker": "b",
+      "text": "如果你出门忘了关空调，怎么办？",
+      "reading": "Rúguǒ nǐ chūmén wàng le guān kōngtiáo, zěnme bàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "如果我忘了关，手机就会提醒我，我在外面也能关。",
+      "reading": "Rúguǒ wǒ wàng le guān, shǒujī jiù huì tíxǐng wǒ, wǒ zài wàimiàn yě néng guān."
+    },
+    {
+      "speaker": "b",
+      "text": "我奶奶家的电子设备不多，她觉得这些东西太难用了。",
+      "reading": "Wǒ nǎinai jiā de diànzǐ shèbèi bù duō, tā juéde zhèxiē dōngxi tài nán yòng le."
+    },
+    {
+      "speaker": "a",
+      "text": "其实一点儿也不难。如果你奶奶想试试，我可以教她。",
+      "reading": "Qíshí yīdiǎnr yě bù nán. Rúguǒ nǐ nǎinai xiǎng shìshi, wǒ kěyǐ jiāo tā."
+    },
+    {
+      "speaker": "b",
+      "text": "好啊。不过我还是觉得，年轻人用手机用得太多了。",
+      "reading": "Hǎo a. Bùguò wǒ háishi juéde, niánqīng rén yòng shǒujī yòng de tài duō le."
+    },
+    {
+      "speaker": "a",
+      "text": "你说得对，可是这些东西真的让生活方便了很多。",
+      "reading": "Nǐ shuō de duì, kěshì zhèxiē dōngxi zhēnde ràng shēnghuó fāngbiàn le hěn duō."
+    },
+    {
+      "speaker": "b",
+      "text": "那如果手机没电了呢？",
+      "reading": "Nà rúguǒ shǒujī méi diàn le ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "那我就只能自己开灯了！",
+      "reading": "Nà wǒ jiù zhǐnéng zìjǐ kāi dēng le!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A7-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.li",
+      "text": "里",
+      "reading": "lǐ"
+    },
+    {
+      "id": "zh.shang-bian",
+      "text": "上边",
+      "reading": "shàngbian"
+    },
+    {
+      "id": "zh.xia-bian",
+      "text": "下边",
+      "reading": "xiàbian"
+    },
+    {
+      "id": "zh.zhuo-zi",
+      "text": "桌子",
+      "reading": "zhuōzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我的手机呢？",
+      "reading": "Xiǎonán, wǒ de shǒujī ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "桌子上边！",
+      "reading": "Zhuōzi shàngbian!"
+    },
+    {
+      "speaker": "b",
+      "text": "我的相机呢？包里没有！",
+      "reading": "Wǒ de xiàngjī ne? Bāo lǐ méiyǒu!"
+    },
+    {
+      "speaker": "a",
+      "text": "桌子下边有一个相机！",
+      "reading": "Zhuōzi xiàbian yǒu yī ge xiàngjī!"
+    }
+  ]
+}

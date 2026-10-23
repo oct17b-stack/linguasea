@@ -1,0 +1,70 @@
+{
+  "id": "ja-C11-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kyuukei",
+      "text": "きゅうけい",
+      "reading": "kyūkei"
+    },
+    {
+      "id": "ja.koutai",
+      "text": "こうたい",
+      "reading": "kōtai"
+    },
+    {
+      "id": "ja.shifuto",
+      "text": "シフト",
+      "reading": "shifuto"
+    },
+    {
+      "id": "ja.tantou",
+      "text": "たんとう",
+      "reading": "tantō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさんは いつ シフトに はいる ことが できますか。",
+      "reading": "Namu-san wa itsu shifuto ni hairu koto ga dekimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じゅぎょうが ない ゆうがたと、どようびです。なつやすみの あいだは、まいにち だいじょうぶです。",
+      "reading": "Jugyō ga nai yūgata to, doyōbi desu. Natsuyasumi no aida wa, mainichi daijōbu desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。シフトは 5時から 9時までです。9時に よるの ひとと こうたいします。",
+      "reading": "Arigatō gozaimasu. Shifuto wa goji kara kuji made desu. Kuji ni yoru no hito to kōtai shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "きゅうけいは ありますか。",
+      "reading": "Kyūkei wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、15ふん あります。きゅうけいの あいだに、ばんごはんを たべても いいですよ。",
+      "reading": "Hai, jūgofun arimasu. Kyūkei no aida ni, bangohan o tabete mo ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。わたしの たんとうは なんですか。",
+      "reading": "Wakarimashita. Watashi no tantō wa nan desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "レジの たんとうです。わたしが みせに いる あいだに、れんしゅうしましょう。",
+      "reading": "Reji no tantō desu. Watashi ga mise ni iru aida ni, renshū shimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、よろしく おねがいします。",
+      "reading": "Hai, yoroshiku onegaishimasu."
+    }
+  ]
+}

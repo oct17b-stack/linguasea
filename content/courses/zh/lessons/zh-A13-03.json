@@ -1,0 +1,50 @@
+{
+  "id": "zh-A13-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.chuan",
+      "text": "穿",
+      "reading": "chuān"
+    },
+    {
+      "id": "zh.tuo-undress",
+      "text": "脱",
+      "reading": "tuō"
+    },
+    {
+      "id": "zh.shang-yi",
+      "text": "上衣",
+      "reading": "shàngyī"
+    },
+    {
+      "id": "zh.wai-tao",
+      "text": "外套",
+      "reading": "wàitào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我要穿外套吗？",
+      "reading": "Wáng Míng, wǒ yào chuān wàitào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "要！你有外套吗？",
+      "reading": "Yào! Nǐ yǒu wàitào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有……",
+      "reading": "Méiyǒu……"
+    },
+    {
+      "speaker": "b",
+      "text": "我的外套给你穿！",
+      "reading": "Wǒ de wàitào gěi nǐ chuān!"
+    }
+  ]
+}

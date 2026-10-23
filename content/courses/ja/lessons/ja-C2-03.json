@@ -1,0 +1,75 @@
+{
+  "id": "ja-C2-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kesseki",
+      "text": "けっせき",
+      "reading": "kesseki"
+    },
+    {
+      "id": "ja.chikoku",
+      "text": "ちこく",
+      "reading": "chikoku"
+    },
+    {
+      "id": "ja.renraku",
+      "text": "れんらく",
+      "reading": "renraku"
+    },
+    {
+      "id": "ja.muri",
+      "text": "むり",
+      "reading": "muri"
+    },
+    {
+      "id": "ja.haisha",
+      "text": "はいしゃ",
+      "reading": "haisha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "もしもし、にほんごの じゅぎょうの ナムです。",
+      "reading": "Moshimoshi, Nihongo no jugyō no Namu desu."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ナムさん。どう しましたか。",
+      "reading": "Hai, Namu-san. Dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、きょうも けっせきします。3日まえから ねつが あるんです。",
+      "reading": "Sumimasen, kyō mo kesseki shimasu. Mikka mae kara netsu ga aru n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。れんらく ありがとうございます。",
+      "reading": "Sō desu ka. Renraku arigatō gozaimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、あしたは はいしゃへ いきますので、ちこくします。",
+      "reading": "Sorekara, ashita wa haisha e ikimasu node, chikoku shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。びょういんへは いきましたか。",
+      "reading": "Wakarimashita. Byōin e wa ikimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、2日まえに いきました。",
+      "reading": "Hai, futsuka mae ni ikimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。むりは よくないですよ。おだいじに。",
+      "reading": "Sō desu ka. Muri wa yokunai desu yo. Odaiji ni."
+    }
+  ]
+}

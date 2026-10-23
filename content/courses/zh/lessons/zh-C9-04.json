@@ -1,0 +1,70 @@
+{
+  "id": "zh-C9-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.liang-bright",
+      "text": "亮",
+      "reading": "liàng"
+    },
+    {
+      "id": "zh.zang",
+      "text": "脏",
+      "reading": "zāng"
+    },
+    {
+      "id": "zh.chao",
+      "text": "朝",
+      "reading": "cháo"
+    },
+    {
+      "id": "zh.mian-ji",
+      "text": "面积",
+      "reading": "miànjī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "阿姨，这个楼有多高？",
+      "reading": "Āyí, zhège lóu yǒu duō gāo?"
+    },
+    {
+      "speaker": "c",
+      "text": "有十八层。这套房子在十五层，朝南。",
+      "reading": "Yǒu shíbā céng. Zhè tào fángzi zài shíwǔ céng, cháo nán."
+    },
+    {
+      "speaker": "a",
+      "text": "朝南？那房间很亮吧？",
+      "reading": "Cháo nán? Nà fángjiān hěn liàng ba?"
+    },
+    {
+      "speaker": "c",
+      "text": "对，很亮。面积不大，可是一个人住很舒服。",
+      "reading": "Duì, hěn liàng. Miànjī bù dà, kěshì yī ge rén zhù hěn shūfu."
+    },
+    {
+      "speaker": "a",
+      "text": "这个房间有多大？能放一张大桌子吗？",
+      "reading": "Zhège fángjiān yǒu duō dà? Néng fàng yī zhāng dà zhuōzi ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "能，床旁边还能放一张桌子。",
+      "reading": "Néng, chuáng pángbiān hái néng fàng yī zhāng zhuōzi."
+    },
+    {
+      "speaker": "a",
+      "text": "厨房有点儿脏……",
+      "reading": "Chúfáng yǒudiǎnr zāng……"
+    },
+    {
+      "speaker": "c",
+      "text": "没关系，你来以前我收拾一下。",
+      "reading": "Méi guānxi, nǐ lái yǐqián wǒ shōushi yīxià."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C10-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.youi",
+      "text": "用意",
+      "reading": "yōi"
+    },
+    {
+      "id": "ja.hiyasu",
+      "text": "ひやす",
+      "reading": "hiyasu"
+    },
+    {
+      "id": "ja.muku",
+      "text": "むく",
+      "reading": "muku"
+    },
+    {
+      "id": "ja.junbi",
+      "text": "じゅんび",
+      "reading": "junbi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、あしたの パーティーの じゅんびは どう？",
+      "reading": "Namu, ashita no pātī no junbi wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "やさいは きょう あらって、切って おくよ。",
+      "reading": "Yasai wa kyō aratte, kitte oku yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。じゃあ、わたしは ジュースを ひやして おくね。",
+      "reading": "Arigatō. Jā, watashi wa jūsu o hiyashite oku ne."
+    },
+    {
+      "speaker": "a",
+      "text": "くだものは？ りんごも むいて おく？",
+      "reading": "Kudamono wa? Ringo mo muite oku?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、りんごは あした むく。すいかは きょう 切って、ひやして おく。",
+      "reading": "Uun, ringo wa ashita muku. Suika wa kyō kitte, hiyashite oku."
+    },
+    {
+      "speaker": "a",
+      "text": "こざらや おはしも 用意して おく？",
+      "reading": "Kozara ya ohashi mo yōi shite oku?"
+    },
+    {
+      "speaker": "c",
+      "text": "それは わたしの うちに たくさん あるから、だいじょうぶ。",
+      "reading": "Sore wa watashi no uchi ni takusan aru kara, daijōbu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかった。じゃあ、あした 6時に いくね。",
+      "reading": "Wakatta. Jā, ashita rokuji ni iku ne."
+    }
+  ]
+}

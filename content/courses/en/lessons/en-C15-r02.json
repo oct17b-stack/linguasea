@@ -1,0 +1,79 @@
+{
+  "id": "en-C15-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.virus",
+      "text": "virus",
+      "reading": "ˈvaɪrəs"
+    },
+    {
+      "id": "en.stranger",
+      "text": "stranger",
+      "reading": "ˈstreɪndʒər"
+    },
+    {
+      "id": "en.private",
+      "text": "private",
+      "reading": "ˈpraɪvət"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Being online is fun and useful, but it can be dangerous, too.",
+        "reading": "ˈbiːɪŋ ˌɑːnˈlaɪn ɪz ˈfʌn ənd ˈjuːsfəl, bʌt ɪt kən bi ˈdeɪndʒərəs, ˈtuː."
+      },
+      {
+        "text": "Here is some advice from the university computer center.",
+        "reading": "ˈhɪr ɪz sʌm ədˈvaɪs frəm ðə ˌjuːnɪˈvɜːrsəti kəmˈpjuːtər ˌsɛntər."
+      }
+    ],
+    [
+      {
+        "text": "Never tell anyone your password.",
+        "reading": "ˈnɛvər ˈtɛl ˈɛniwʌn jʊr ˈpæswɜːrd."
+      },
+      {
+        "text": "Don't open emails or messages from strangers.",
+        "reading": "ˈdoʊnt ˈoʊpən ˈiːmeɪlz ɔːr ˈmɛsɪdʒɪz frəm ˈstreɪndʒərz."
+      },
+      {
+        "text": "Some messages have a virus, and it can delete your photos.",
+        "reading": "sʌm ˈmɛsɪdʒɪz ˈhæv ə ˈvaɪrəs, ənd ɪt kən dɪˈliːt jʊr ˈfoʊtoʊz."
+      },
+      {
+        "text": "Keep your profile private, so only your friends can see your photos.",
+        "reading": "ˈkiːp jʊr ˈproʊfaɪl ˈpraɪvət, soʊ ˈoʊnli jʊr ˈfrɛndz kən ˈsiː jʊr ˈfoʊtoʊz."
+      },
+      {
+        "text": "Don't post your address or your phone number online.",
+        "reading": "ˈdoʊnt ˈpoʊst jʊr ˈædrɛs ɔːr jʊr ˈfoʊn ˌnʌmbər ˌɑːnˈlaɪn."
+      }
+    ],
+    [
+      {
+        "text": "Is something wrong with your computer?",
+        "reading": "ɪz ˈsʌmθɪŋ ˈrɔːŋ wɪð jʊr kəmˈpjuːtər?"
+      },
+      {
+        "text": "Come to the computer center in the library, and we'll help you.",
+        "reading": "ˈkʌm tə ðə kəmˈpjuːtər ˌsɛntər ɪn ðə ˈlaɪbrɛri, ənd wiːl ˈhɛlp juː."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

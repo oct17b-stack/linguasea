@@ -1,0 +1,71 @@
+{
+  "id": "en-C13-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.bowling",
+      "text": "bowling",
+      "reading": "ˈboʊlɪŋ"
+    },
+    {
+      "id": "en.appointment",
+      "text": "appointment",
+      "reading": "əˈpɔɪntmənt"
+    },
+    {
+      "id": "en.dentist",
+      "text": "dentist",
+      "reading": "ˈdɛntɪst"
+    },
+    {
+      "id": "en.get-together",
+      "kind": "phrase",
+      "text": "get together",
+      "reading": "ˌɡɛt təˈɡɛðər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what are you doing on Sunday? Let's get together!",
+      "reading": "ˈnɑːm, ˈwʌt ər juː ˈduːɪŋ ɑːn ˈsʌndeɪ? ˈlɛts ˌɡɛt təˈɡɛðər!"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I'm working on Sunday. Are you free on Monday?",
+      "reading": "ˈsɑːri, aɪm ˈwɜːrkɪŋ ɑːn ˈsʌndeɪ. ər juː ˈfriː ɑːn ˈmʌndeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "No. I'm going to the dentist on Monday. I have an appointment at three.",
+      "reading": "ˈnoʊ. aɪm ˈɡoʊɪŋ tə ðə ˈdɛntɪst ɑːn ˈmʌndeɪ. aɪ ˈhæv ən əˈpɔɪntmənt ət ˈθriː."
+    },
+    {
+      "speaker": "a",
+      "text": "What are you doing on Tuesday evening?",
+      "reading": "ˈwʌt ər juː ˈduːɪŋ ɑːn ˈtuːzdeɪ ˈiːvnɪŋ?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm free! Some friends are going bowling. Come with us!",
+      "reading": "aɪm ˈfriː! sʌm ˈfrɛndz ər ˈɡoʊɪŋ ˈboʊlɪŋ. ˈkʌm wɪð ʌs!"
+    },
+    {
+      "speaker": "a",
+      "text": "Bowling? I'm not very good at it.",
+      "reading": "ˈboʊlɪŋ? aɪm ˈnɑːt ˈvɛri ˈɡʊd ət ɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "That's OK. We're meeting at the mall at six.",
+      "reading": "ðæts oʊˈkeɪ. wɪr ˈmiːtɪŋ ət ðə ˈmɔːl ət ˈsɪks."
+    },
+    {
+      "speaker": "a",
+      "text": "OK! See you on Tuesday!",
+      "reading": "oʊˈkeɪ! ˈsiː juː ɑːn ˈtuːzdeɪ!"
+    }
+  ]
+}

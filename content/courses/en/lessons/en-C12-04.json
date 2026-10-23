@@ -1,0 +1,71 @@
+{
+  "id": "en-C12-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.float",
+      "text": "float",
+      "reading": "floʊt"
+    },
+    {
+      "id": "en.lantern",
+      "text": "lantern",
+      "reading": "ˈlæntərn"
+    },
+    {
+      "id": "en.full-moon",
+      "kind": "phrase",
+      "text": "full moon",
+      "reading": "ˌfʊl ˈmuːn"
+    },
+    {
+      "id": "en.decorate",
+      "text": "decorate",
+      "reading": "ˈdɛkəreɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's this festival called?",
+      "reading": "ˈnɑːm, ˈwʌts ðɪs ˈfɛstɪvəl ˈkɔːld?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's called Loy Krathong. It's on the night of the full moon in November.",
+      "reading": "ɪts ˈkɔːld ˈlɔɪ krəˈtɔːŋ. ɪts ɑːn ðə ˈnaɪt əv ðə ˌfʊl ˈmuːn ɪn noʊˈvɛmbər."
+    },
+    {
+      "speaker": "c",
+      "text": "What are those little boats on the river?",
+      "reading": "ˈwʌt ər ðoʊz ˈlɪtəl ˈboʊts ɑːn ðə ˈrɪvər?"
+    },
+    {
+      "speaker": "a",
+      "text": "They're called krathongs. People decorate them with flowers and candles.",
+      "reading": "ðɛr ˈkɔːld krəˈtɔːŋz. ˈpiːpəl ˈdɛkəreɪt ðɛm wɪð ˈflaʊərz ənd ˈkændəlz."
+    },
+    {
+      "speaker": "c",
+      "text": "And what do people do with them?",
+      "reading": "ənd ˈwʌt duː ˈpiːpəl ˈduː wɪð ðɛm?"
+    },
+    {
+      "speaker": "a",
+      "text": "They float them on the river to say thank you to the water.",
+      "reading": "ðeɪ ˈfloʊt ðɛm ɑːn ðə ˈrɪvər tə ˈseɪ ˈθæŋk juː tə ðə ˈwɔːtər."
+    },
+    {
+      "speaker": "c",
+      "text": "What are those lights in the sky?",
+      "reading": "ˈwʌt ər ðoʊz ˈlaɪts ɪn ðə ˈskaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "They're called lanterns. In Chiang Mai, people send them into the sky.",
+      "reading": "ðɛr ˈkɔːld ˈlæntərnz. ɪn ˈtʃjɑːŋ ˈmaɪ, ˈpiːpəl ˈsɛnd ðɛm ˈɪntuː ðə ˈskaɪ."
+    }
+  ]
+}

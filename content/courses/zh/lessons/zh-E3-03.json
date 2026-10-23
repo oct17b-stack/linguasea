@@ -1,0 +1,101 @@
+{
+  "id": "zh-E3-03",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.sui-zhe",
+      "text": "随着",
+      "reading": "suízhe"
+    },
+    {
+      "id": "zh.ke-ji",
+      "text": "科技",
+      "reading": "kējì"
+    },
+    {
+      "id": "zh.ji-shu",
+      "text": "技术",
+      "reading": "jìshù"
+    },
+    {
+      "id": "zh.ji-qi-ren",
+      "text": "机器人",
+      "reading": "jīqìrén"
+    },
+    {
+      "id": "zh.ren-gong-zhi-neng",
+      "kind": "phrase",
+      "text": "人工智能",
+      "reading": "réngōng zhìnéng"
+    },
+    {
+      "id": "zh.cheng-xu",
+      "text": "程序",
+      "reading": "chéngxù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你看！给我们送菜的是一个机器人！",
+      "reading": "Wáng Míng, nǐ kàn! Gěi wǒmen sòng cài de shì yī ge jīqìrén!"
+    },
+    {
+      "speaker": "b",
+      "text": "现在很多餐厅都用机器人送菜，不过点菜还是用手机。",
+      "reading": "Xiànzài hěn duō cāntīng dōu yòng jīqìrén sòng cài, bùguò diǎncài háishi yòng shǒujī."
+    },
+    {
+      "speaker": "a",
+      "text": "太有意思了！在泰国，我还没见过这样的餐厅。",
+      "reading": "Tài yǒu yìsi le! Zài Tàiguó, wǒ hái méi jiàn guo zhèyàng de cāntīng."
+    },
+    {
+      "speaker": "b",
+      "text": "随着科技的发展，以后会有越来越多的机器人。",
+      "reading": "Suízhe kējì de fāzhǎn, yǐhòu huì yǒu yuèláiyuè duō de jīqìrén."
+    },
+    {
+      "speaker": "a",
+      "text": "我现在学汉语，也常常用人工智能帮我翻译。",
+      "reading": "Wǒ xiànzài xué Hànyǔ, yě chángcháng yòng réngōng zhìnéng bāng wǒ fānyì."
+    },
+    {
+      "speaker": "b",
+      "text": "人工智能翻译得怎么样？",
+      "reading": "Réngōng zhìnéng fānyì de zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "一般的句子翻译得很好，可是很长的句子，它常常翻译得很奇怪。",
+      "reading": "Yībān de jùzi fānyì de hěn hǎo, kěshì hěn cháng de jùzi, tā chángcháng fānyì de hěn qíguài."
+    },
+    {
+      "speaker": "b",
+      "text": "随着技术越来越好，它会翻译得越来越好的。",
+      "reading": "Suízhe jìshù yuèláiyuè hǎo, tā huì fānyì de yuèláiyuè hǎo de."
+    },
+    {
+      "speaker": "a",
+      "text": "那你说，以后餐厅还需要服务员吗？",
+      "reading": "Nà nǐ shuō, yǐhòu cāntīng hái xūyào fúwùyuán ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "我觉得还需要。机器人只会做程序里写好的事。",
+      "reading": "Wǒ juéde hái xūyào. Jīqìrén zhǐ huì zuò chéngxù lǐ xiěhǎo de shì."
+    },
+    {
+      "speaker": "a",
+      "text": "对，客人有特别的要求，还是得找服务员。",
+      "reading": "Duì, kèrén yǒu tèbié de yāoqiú, háishi děi zhǎo fúwùyuán."
+    },
+    {
+      "speaker": "b",
+      "text": "没错。你看，机器人又来了，我们的菜到了！",
+      "reading": "Méicuò. Nǐ kàn, jīqìrén yòu lái le, wǒmen de cài dào le!"
+    }
+  ]
+}

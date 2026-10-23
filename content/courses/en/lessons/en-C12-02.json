@@ -1,0 +1,73 @@
+{
+  "id": "en-C12-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.public-holiday",
+      "kind": "phrase",
+      "text": "public holiday",
+      "reading": "ˌpʌblɪk ˈhɑːlədeɪ"
+    },
+    {
+      "id": "en.new-years-day",
+      "kind": "phrase",
+      "text": "New Year's Day",
+      "reading": "ˌnuː jɪrz ˈdeɪ"
+    },
+    {
+      "id": "en.christmas",
+      "text": "Christmas",
+      "reading": "ˈkrɪsməs"
+    },
+    {
+      "id": "en.long-weekend",
+      "kind": "phrase",
+      "text": "long weekend",
+      "reading": "ˌlɔːŋ ˈwiːkɛnd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is Songkran a public holiday?",
+      "reading": "ˈnɑːm, ɪz ˈsɔːŋkrɑːn ə ˌpʌblɪk ˈhɑːlədeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. It's a three-day holiday in April.",
+      "reading": "ˈjɛs. ɪts ə ˌθriː ˈdeɪ ˈhɑːlədeɪ ɪn ˈeɪprəl."
+    },
+    {
+      "speaker": "c",
+      "text": "In Canada, our big holiday is at Christmas.",
+      "reading": "ɪn ˈkænədə, aʊr ˈbɪɡ ˈhɑːlədeɪ ɪz ət ˈkrɪsməs."
+    },
+    {
+      "speaker": "a",
+      "text": "Christmas is on December twenty-fifth, right?",
+      "reading": "ˈkrɪsməs ɪz ɑːn dɪˈsɛmbər ˌtwɛnti ˈfɪfθ, ˈraɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "That's right. And New Year's Day is on January first.",
+      "reading": "ˈðæts ˈraɪt. ənd ˌnuː jɪrz ˈdeɪ ɪz ɑːn ˈdʒænjuɛri ˈfɜːrst."
+    },
+    {
+      "speaker": "a",
+      "text": "Do you have a long weekend in January, too?",
+      "reading": "duː juː ˈhæv ə ˌlɔːŋ ˈwiːkɛnd ɪn ˈdʒænjuɛri, ˈtuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sometimes. When New Year's Day is on a Monday, we have a long weekend.",
+      "reading": "ˈsʌmtaɪmz. wɛn ˌnuː jɪrz ˈdeɪ ɪz ɑːn ə ˈmʌndeɪ, wiː ˈhæv ə ˌlɔːŋ ˈwiːkɛnd."
+    },
+    {
+      "speaker": "a",
+      "text": "I love long weekends!",
+      "reading": "aɪ ˈlʌv ˈlɔːŋ ˈwiːkɛndz!"
+    }
+  ]
+}

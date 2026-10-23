@@ -1,0 +1,50 @@
+{
+  "id": "zh-A4-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.duo",
+      "text": "多",
+      "reading": "duō"
+    },
+    {
+      "id": "zh.shao",
+      "text": "少",
+      "reading": "shǎo"
+    },
+    {
+      "id": "zh.yi-xie",
+      "text": "一些",
+      "reading": "yīxiē"
+    },
+    {
+      "id": "zh.di-yi",
+      "text": "第一",
+      "reading": "dì-yī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你是第一个！",
+      "reading": "Xiǎonán, nǐ shì dì-yī ge!"
+    },
+    {
+      "speaker": "a",
+      "text": "老师好！今年学生多吗？",
+      "reading": "Lǎoshī hǎo! Jīnnián xuésheng duō ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "不少！也有一些中国学生。",
+      "reading": "Bù shǎo! Yě yǒu yīxiē Zhōngguó xuésheng."
+    },
+    {
+      "speaker": "a",
+      "text": "不错！",
+      "reading": "Bùcuò!"
+    }
+  ]
+}

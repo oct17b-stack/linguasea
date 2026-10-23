@@ -1,0 +1,60 @@
+{
+  "id": "zh-B10-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.kai-xue",
+      "text": "开学",
+      "reading": "kāixué"
+    },
+    {
+      "id": "zh.kai-shi",
+      "text": "开始",
+      "reading": "kāishǐ"
+    },
+    {
+      "id": "zh.zhun-bei",
+      "text": "准备",
+      "reading": "zhǔnbèi"
+    },
+    {
+      "id": "zh.ren-zhen",
+      "text": "认真",
+      "reading": "rènzhēn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你们什么时候开学？",
+      "reading": "Wáng Míng, nǐmen shénme shíhou kāixué?"
+    },
+    {
+      "speaker": "b",
+      "text": "三月一号开学。",
+      "reading": "Sān yuè yī hào kāixué."
+    },
+    {
+      "speaker": "a",
+      "text": "开学以前，你准备什么？",
+      "reading": "Kāixué yǐqián, nǐ zhǔnbèi shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "我开始准备英语考试。",
+      "reading": "Wǒ kāishǐ zhǔnbèi Yīngyǔ kǎoshì."
+    },
+    {
+      "speaker": "a",
+      "text": "你真认真！",
+      "reading": "Nǐ zhēn rènzhēn!"
+    },
+    {
+      "speaker": "b",
+      "text": "对，我想认真学习！",
+      "reading": "Duì, wǒ xiǎng rènzhēn xuéxí!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C2-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.yakkyoku",
+      "text": "やっきょく",
+      "reading": "yakkyoku"
+    },
+    {
+      "id": "ja.hokenshou",
+      "text": "ほけんしょう",
+      "reading": "hokenshō"
+    },
+    {
+      "id": "ja.sagaru",
+      "text": "下がる",
+      "reading": "sagaru"
+    },
+    {
+      "id": "ja.shohousen",
+      "text": "しょほうせん",
+      "reading": "shohōsen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、この やっきょくで ほけんしょうは つかえますか。",
+      "reading": "Sumimasen, kono yakkyoku de hokenshō wa tsukaemasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、つかえますよ。しょほうせんは ありますか。",
+      "reading": "Hai, tsukaemasu yo. Shohōsen wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、これです。",
+      "reading": "Hai, kore desu."
+    },
+    {
+      "speaker": "c",
+      "text": "この くすりは 1日に 3かい、食事の あとで のみます。",
+      "reading": "Kono kusuri wa ichinichi ni sankai, shokuji no ato de nomimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "1かいに なんじょう のみますか。",
+      "reading": "Ikkai ni nanjō nomimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "2じょうずつです。すこし ねむく なりますので、運転は よくないです。",
+      "reading": "Nijō zutsu desu. Sukoshi nemuku narimasu node, unten wa yokunai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "運転は しませんから、だいじょうぶです。ねつは 下がりますか。",
+      "reading": "Unten wa shimasen kara, daijōbu desu. Netsu wa sagarimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、下がりますよ。おだいじに。",
+      "reading": "Hai, sagarimasu yo. Odaiji ni."
+    }
+  ]
+}

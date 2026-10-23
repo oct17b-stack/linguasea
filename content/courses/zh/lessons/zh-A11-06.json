@@ -1,0 +1,50 @@
+{
+  "id": "zh-A11-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.si-ji",
+      "text": "司机",
+      "reading": "sījī"
+    },
+    {
+      "id": "zh.gong-ren",
+      "text": "工人",
+      "reading": "gōngrén"
+    },
+    {
+      "id": "zh.gong-wu-yuan",
+      "text": "公务员",
+      "reading": "gōngwùyuán"
+    },
+    {
+      "id": "zh.kuai-di-yuan",
+      "text": "快递员",
+      "reading": "kuàidìyuán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这个男的做什么工作？",
+      "reading": "Zhège nán de zuò shénme gōngzuò?"
+    },
+    {
+      "speaker": "a",
+      "text": "他是司机。",
+      "reading": "Tā shì sījī."
+    },
+    {
+      "speaker": "b",
+      "text": "这些人呢？也是司机吗？",
+      "reading": "Zhèxiē rén ne? Yě shì sījī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，他们是工人。",
+      "reading": "Bù shì, tāmen shì gōngrén."
+    }
+  ]
+}

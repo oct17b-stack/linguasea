@@ -1,0 +1,100 @@
+{
+  "id": "zh-E3-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhi-yao",
+      "text": "只要",
+      "reading": "zhǐyào"
+    },
+    {
+      "id": "zh.ying-yong",
+      "text": "应用",
+      "reading": "yìngyòng"
+    },
+    {
+      "id": "zh.wang-luo",
+      "text": "网络",
+      "reading": "wǎngluò"
+    },
+    {
+      "id": "zh.shi-yong",
+      "text": "使用",
+      "reading": "shǐyòng"
+    },
+    {
+      "id": "zh.yong-hu",
+      "text": "用户",
+      "reading": "yònghù"
+    },
+    {
+      "id": "zh.yi-dong",
+      "text": "移动",
+      "reading": "yídòng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你手机里怎么有这么多应用？",
+      "reading": "Xiǎonán, nǐ shǒujī lǐ zěnme yǒu zhème duō yìngyòng?"
+    },
+    {
+      "speaker": "a",
+      "text": "每个都有用！只要有手机，我就能做很多事。",
+      "reading": "Měi ge dōu yǒuyòng! Zhǐyào yǒu shǒujī, wǒ jiù néng zuò hěn duō shì."
+    },
+    {
+      "speaker": "b",
+      "text": "都用来做什么？",
+      "reading": "Dōu yònglái zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "吃饭可以点外卖，出门可以打车，买东西扫一下二维码就行了。",
+      "reading": "Chīfàn kěyǐ diǎn wàimài, chūmén kěyǐ dǎchē, mǎi dōngxi sǎo yīxià èrwéimǎ jiù xíng le."
+    },
+    {
+      "speaker": "b",
+      "text": "你出门不带钱包吗？",
+      "reading": "Nǐ chūmén bù dài qiánbāo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很少带。在中国，只要手机里有钱，就不用带现金。",
+      "reading": "Hěn shǎo dài. Zài Zhōngguó, zhǐyào shǒujī lǐ yǒu qián, jiù bùyòng dài xiànjīn."
+    },
+    {
+      "speaker": "b",
+      "text": "可是如果没有网络，这些应用都不能用了。",
+      "reading": "Kěshì rúguǒ méiyǒu wǎngluò, zhèxiē yìngyòng dōu bù néng yòng le."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊，所以我最怕手机没有信号。",
+      "reading": "Shì a, suǒyǐ wǒ zuì pà shǒujī méiyǒu xìnhào."
+    },
+    {
+      "speaker": "b",
+      "text": "我看新闻说，这个外卖应用有好几亿用户。",
+      "reading": "Wǒ kàn xīnwén shuō, zhège wàimài yìngyòng yǒu hǎojǐ yì yònghù."
+    },
+    {
+      "speaker": "a",
+      "text": "所以每天中午，到处都是送外卖的人！",
+      "reading": "Suǒyǐ měitiān zhōngwǔ, dàochù dōu shì sòng wàimài de rén!"
+    },
+    {
+      "speaker": "b",
+      "text": "不过使用的时候要小心，别在不安全的网络上付钱。",
+      "reading": "Bùguò shǐyòng de shíhou yào xiǎoxīn, bié zài bù ānquán de wǎngluò shang fù qián."
+    },
+    {
+      "speaker": "a",
+      "text": "放心吧，我只用自己的移动网络。",
+      "reading": "Fàngxīn ba, wǒ zhǐ yòng zìjǐ de yídòng wǎngluò."
+    }
+  ]
+}

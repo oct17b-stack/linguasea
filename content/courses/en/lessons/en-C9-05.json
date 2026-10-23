@@ -1,0 +1,71 @@
+{
+  "id": "en-C9-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.deposit",
+      "text": "deposit",
+      "reading": "dɪˈpɑːzɪt"
+    },
+    {
+      "id": "en.per-month",
+      "kind": "phrase",
+      "text": "per month",
+      "reading": "pər ˈmʌnθ"
+    },
+    {
+      "id": "en.include",
+      "text": "include",
+      "reading": "ɪnˈkluːd"
+    },
+    {
+      "id": "en.electricity",
+      "text": "electricity",
+      "reading": "ɪˌlɛkˈtrɪsəti"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How big is the room?",
+      "reading": "ˈhaʊ ˈbɪɡ ɪz ðə ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "It isn't very big, but it has a balcony.",
+      "reading": "ɪt ˈɪzənt ˈvɛri ˈbɪɡ, bʌt ɪt ˈhæz ə ˈbælkəni."
+    },
+    {
+      "speaker": "a",
+      "text": "Nice. How much is the rent per month?",
+      "reading": "ˈnaɪs. ˈhaʊ ˈmʌtʃ ɪz ðə ˈrɛnt pər ˈmʌnθ?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's five thousand baht, and the deposit is ten thousand.",
+      "reading": "ɪts ˈfaɪv ˈθaʊzənd ˈbɑːt, ənd ðə dɪˈpɑːzɪt ɪz ˈtɛn ˈθaʊzənd."
+    },
+    {
+      "speaker": "a",
+      "text": "Does the rent include electricity?",
+      "reading": "dʌz ðə ˈrɛnt ɪnˈkluːd ɪˌlɛkˈtrɪsəti?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, it doesn't. Electricity is about five hundred baht per month.",
+      "reading": "ˈnoʊ, ɪt ˈdʌzənt. ɪˌlɛkˈtrɪsəti ɪz əˈbaʊt ˈfaɪv ˈhʌndrəd ˈbɑːt pər ˈmʌnθ."
+    },
+    {
+      "speaker": "a",
+      "text": "And water? How much is that?",
+      "reading": "ənd ˈwɔːtər? ˈhaʊ ˈmʌtʃ ɪz ˈðæt?"
+    },
+    {
+      "speaker": "b",
+      "text": "The rent includes water.",
+      "reading": "ðə ˈrɛnt ɪnˈkluːdz ˈwɔːtər."
+    }
+  ]
+}

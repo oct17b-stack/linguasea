@@ -1,0 +1,85 @@
+{
+  "id": "zh-D3-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jing-cha",
+      "text": "警察",
+      "reading": "jǐngchá"
+    },
+    {
+      "id": "zh.zheng-ming",
+      "text": "证明",
+      "reading": "zhèngmíng"
+    },
+    {
+      "id": "zh.qing-kuang",
+      "text": "情况",
+      "reading": "qíngkuàng"
+    },
+    {
+      "id": "zh.bao-jing",
+      "text": "报警",
+      "reading": "bàojǐng"
+    },
+    {
+      "id": "zh.ju-ti",
+      "text": "具体",
+      "reading": "jùtǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，你要报警吗？请说一下情况。",
+      "reading": "Nǐ hǎo, nǐ yào bàojǐng ma? Qǐng shuō yīxià qíngkuàng."
+    },
+    {
+      "speaker": "a",
+      "text": "我的钱包让人偷了。",
+      "reading": "Wǒ de qiánbāo ràng rén tōu le."
+    },
+    {
+      "speaker": "b",
+      "text": "什么时候？在哪儿？请你具体说一下。",
+      "reading": "Shénme shíhou? Zài nǎr? Qǐng nǐ jùtǐ shuō yīxià."
+    },
+    {
+      "speaker": "a",
+      "text": "昨天下午四点左右，在钟楼附近的一条街上。",
+      "reading": "Zuótiān xiàwǔ sì diǎn zuǒyòu, zài Zhōnglóu fùjìn de yī tiáo jiē shang."
+    },
+    {
+      "speaker": "b",
+      "text": "钱包是什么颜色的？里面有什么？",
+      "reading": "Qiánbāo shì shénme yánsè de? Lǐmiàn yǒu shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "红色的。里面有三百块钱、一张银行卡和学生证。",
+      "reading": "Hóngsè de. Lǐmiàn yǒu sānbǎi kuài qián, yī zhāng yínhángkǎ hé xuéshēngzhèng."
+    },
+    {
+      "speaker": "b",
+      "text": "你的护照呢？也叫小偷偷了吗？",
+      "reading": "Nǐ de hùzhào ne? Yě jiào xiǎotōu tōu le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有，护照在宾馆。您能给我开一个证明吗？我要办新的学生证。",
+      "reading": "Méiyǒu, hùzhào zài bīnguǎn. Nín néng gěi wǒ kāi yī ge zhèngmíng ma? Wǒ yào bàn xīn de xuéshēngzhèng."
+    },
+    {
+      "speaker": "b",
+      "text": "可以。请写一下你的电话号码，有情况我们警察会联系你。",
+      "reading": "Kěyǐ. Qǐng xiě yīxià nǐ de diànhuà hàomǎ, yǒu qíngkuàng wǒmen jǐngchá huì liánxì nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，麻烦您了！",
+      "reading": "Hǎo de, máfan nín le!"
+    }
+  ]
+}

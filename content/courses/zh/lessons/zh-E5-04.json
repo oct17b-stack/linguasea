@@ -1,0 +1,96 @@
+{
+  "id": "zh-E5-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.biao-yang",
+      "text": "表扬",
+      "reading": "biǎoyáng"
+    },
+    {
+      "id": "zh.jiao-shou",
+      "text": "教授",
+      "reading": "jiàoshòu"
+    },
+    {
+      "id": "zh.you-xiu",
+      "text": "优秀",
+      "reading": "yōuxiù"
+    },
+    {
+      "id": "zh.kao-shang",
+      "kind": "phrase",
+      "text": "考上",
+      "reading": "kǎoshàng"
+    },
+    {
+      "id": "zh.qu-de",
+      "text": "取得",
+      "reading": "qǔdé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你上学的时候，有没有特别喜欢的老师？",
+      "reading": "Wáng Míng, nǐ shàngxué de shíhou, yǒu méiyǒu tèbié xǐhuan de lǎoshī?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，我高中的数学老师。在她的帮助下，我才考上了大学。",
+      "reading": "Yǒu, wǒ gāozhōng de shùxué lǎoshī. Zài tā de bāngzhù xià, wǒ cái kǎoshàng le dàxué."
+    },
+    {
+      "speaker": "a",
+      "text": "她是怎么帮你的？",
+      "reading": "Tā shì zěnme bāng nǐ de?"
+    },
+    {
+      "speaker": "b",
+      "text": "我以前数学很差，可是她从来不批评我，还经常表扬我的进步。",
+      "reading": "Wǒ yǐqián shùxué hěn chà, kěshì tā cónglái bù pīpíng wǒ, hái jīngcháng biǎoyáng wǒ de jìnbù."
+    },
+    {
+      "speaker": "a",
+      "text": "真是一位好老师！",
+      "reading": "Zhēn shì yī wèi hǎo lǎoshī!"
+    },
+    {
+      "speaker": "b",
+      "text": "在她的鼓励下，我越来越努力，后来数学成绩很优秀。",
+      "reading": "Zài tā de gǔlì xià, wǒ yuèláiyuè nǔlì, hòulái shùxué chéngjì hěn yōuxiù."
+    },
+    {
+      "speaker": "a",
+      "text": "我在曼谷上大学的时候，也有一位很好的教授，是她让我爱上了汉语。",
+      "reading": "Wǒ zài Màngǔ shàng dàxué de shíhou, yě yǒu yī wèi hěn hǎo de jiàoshòu, shì tā ràng wǒ àishàng le Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "你爸爸妈妈也是老师，对吧？",
+      "reading": "Nǐ bàba māma yě shì lǎoshī, duì ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对。他们常说，好老师不但要教课，而且要关心学生。",
+      "reading": "Duì. Tāmen cháng shuō, hǎo lǎoshī bùdàn yào jiāo kè, érqiě yào guānxīn xuésheng."
+    },
+    {
+      "speaker": "b",
+      "text": "说得真好。你以后也想当老师吗？",
+      "reading": "Shuō de zhēn hǎo. Nǐ yǐhòu yě xiǎng dāng lǎoshī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "也许吧。如果这次汉语考试能取得好成绩，我就想回泰国教汉语。",
+      "reading": "Yěxǔ ba. Rúguǒ zhè cì Hànyǔ kǎoshì néng qǔdé hǎo chéngjì, wǒ jiù xiǎng huí Tàiguó jiāo Hànyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "我相信你一定可以！",
+      "reading": "Wǒ xiāngxìn nǐ yīdìng kěyǐ!"
+    }
+  ]
+}

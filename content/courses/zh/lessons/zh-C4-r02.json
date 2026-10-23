@@ -1,0 +1,75 @@
+{
+  "id": "zh-C4-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.yin-yue-hui",
+      "text": "音乐会",
+      "reading": "yīnyuèhuì"
+    },
+    {
+      "id": "zh.xin-hao",
+      "text": "信号",
+      "reading": "xìnhào"
+    },
+    {
+      "id": "zh.yan-chu",
+      "text": "演出",
+      "reading": "yǎnchū"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "星期四晚上，王明给小南打电话。",
+        "reading": "Xīngqīsì wǎnshang, Wáng Míng gěi Xiǎonán dǎ diànhuà."
+      }
+    ],
+    [
+      {
+        "text": "王明：喂，小南！星期六晚上有一个钢琴音乐会，你想去吗？",
+        "reading": "Wáng Míng: Wéi, Xiǎonán! Xīngqīliù wǎnshang yǒu yī ge gāngqín yīnyuèhuì, nǐ xiǎng qù ma?"
+      },
+      {
+        "text": "小南：喂？我在地铁里，信号不太好。请你再说一遍！",
+        "reading": "Xiǎonán: Wéi? Wǒ zài dìtiě lǐ, xìnhào bù tài hǎo. Qǐng nǐ zài shuō yī biàn!"
+      },
+      {
+        "text": "王明：星期六晚上，钢琴音乐会！我有两张票。",
+        "reading": "Wáng Míng: Xīngqīliù wǎnshang, gāngqín yīnyuèhuì! Wǒ yǒu liǎng zhāng piào."
+      },
+      {
+        "text": "小南：太好了！演出几点开始？在哪儿？",
+        "reading": "Xiǎonán: Tài hǎo le! Yǎnchū jǐ diǎn kāishǐ? Zài nǎr?"
+      },
+      {
+        "text": "王明：七点半开始，在我们学校。我们七点在学校门口见吧。",
+        "reading": "Wáng Míng: Qī diǎn bàn kāishǐ, zài wǒmen xuéxiào. Wǒmen qī diǎn zài xuéxiào ménkǒu jiàn ba."
+      },
+      {
+        "text": "小南：好，不见不散！",
+        "reading": "Xiǎonán: Hǎo, bù jiàn bù sàn!"
+      }
+    ],
+    [
+      {
+        "text": "小南很高兴，她想穿漂亮的衣服去听音乐会。",
+        "reading": "Xiǎonán hěn gāoxìng, tā xiǎng chuān piàoliang de yīfu qù tīng yīnyuèhuì."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

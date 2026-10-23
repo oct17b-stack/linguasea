@@ -1,0 +1,80 @@
+{
+  "id": "en-C10-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.opening-hours",
+      "text": "opening hours",
+      "reading": "ˈoʊpənɪŋ ˌaʊərz"
+    },
+    {
+      "id": "en.online-banking",
+      "kind": "phrase",
+      "text": "online banking",
+      "reading": "ˌɑːnlaɪn ˈbæŋkɪŋ"
+    },
+    {
+      "id": "en.service",
+      "text": "service",
+      "reading": "ˈsɜːrvɪs"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "From next month, our bank at the mall will have new opening hours.",
+        "reading": "frəm ˈnɛkst ˈmʌnθ, aʊr ˈbæŋk ət ðə ˈmɔːl wɪl ˈhæv ˈnuː ˈoʊpənɪŋ ˌaʊərz."
+      },
+      {
+        "text": "We will be open from 10 a.m. to 7 p.m., Monday to Saturday.",
+        "reading": "wiː wɪl bi ˈoʊpən frəm ˈtɛn ˌeɪˈɛm tə ˈsɛvən ˌpiːˈɛm, ˈmʌndeɪ tə ˈsætərdeɪ."
+      },
+      {
+        "text": "On Sunday, we will be open from 11 a.m. to 5 p.m.",
+        "reading": "ɑːn ˈsʌndeɪ, wiː wɪl bi ˈoʊpən frəm ɪˈlɛvən ˌeɪˈɛm tə ˈfaɪv ˌpiːˈɛm."
+      }
+    ],
+    [
+      {
+        "text": "Are you busy?",
+        "reading": "ər juː ˈbɪzi?"
+      },
+      {
+        "text": "Try our online banking service!",
+        "reading": "ˈtraɪ aʊr ˌɑːnlaɪn ˈbæŋkɪŋ ˈsɜːrvɪs!"
+      },
+      {
+        "text": "With online banking, you can check your balance and transfer money on your phone.",
+        "reading": "wɪð ˌɑːnlaɪn ˈbæŋkɪŋ, juː kən ˈtʃɛk jʊr ˈbæləns ənd trænsˈfɜːr ˈmʌni ɑːn jʊr ˈfoʊn."
+      },
+      {
+        "text": "This service is free, and it's available 24 hours a day.",
+        "reading": "ðɪs ˈsɜːrvɪs ɪz ˈfriː, ənd ɪts əˈveɪləbəl ˌtwɛnti ˈfɔːr ˈaʊərz ə ˈdeɪ."
+      }
+    ],
+    [
+      {
+        "text": "To start, please come to the front desk with your ID card.",
+        "reading": "tə ˈstɑːrt, ˈpliːz ˈkʌm tə ðə ˌfrʌnt ˈdɛsk wɪð jʊr ˌaɪˈdiː ˌkɑːrd."
+      },
+      {
+        "text": "Our staff will help you.",
+        "reading": "aʊr ˈstæf wɪl ˈhɛlp juː."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

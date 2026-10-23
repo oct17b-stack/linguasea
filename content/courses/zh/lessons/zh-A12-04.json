@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shi-zi",
+      "text": "狮子",
+      "reading": "shīzi"
+    },
+    {
+      "id": "zh.xiong",
+      "text": "熊",
+      "reading": "xióng"
+    },
+    {
+      "id": "zh.wen-zi-mosquito",
+      "text": "蚊子",
+      "reading": "wénzi"
+    },
+    {
+      "id": "zh.chong-zi",
+      "text": "虫子",
+      "reading": "chóngzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里有熊吗？",
+      "reading": "Xiǎonán, zhèlǐ yǒu xióng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有，也没有狮子。",
+      "reading": "Méiyǒu, yě méiyǒu shīzi."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！有虫子吗？",
+      "reading": "Tài hǎo le! Yǒu chóngzi ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，蚊子很多！",
+      "reading": "Yǒu, wénzi hěn duō!"
+    }
+  ]
+}

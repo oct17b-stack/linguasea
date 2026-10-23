@@ -1,0 +1,75 @@
+{
+  "id": "zh-C9-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.zu",
+      "text": "租",
+      "reading": "zū"
+    },
+    {
+      "id": "zh.fang-zu",
+      "text": "房租",
+      "reading": "fángzū"
+    },
+    {
+      "id": "zh.fang-dong",
+      "text": "房东",
+      "reading": "fángdōng"
+    },
+    {
+      "id": "zh.yang",
+      "text": "养",
+      "reading": "yǎng"
+    },
+    {
+      "id": "zh.ya-jin",
+      "text": "押金",
+      "reading": "yājīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，那套房子的房租贵吗？",
+      "reading": "Xiǎonán, nà tào fángzi de fángzū guì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不太贵，一个月三千八。可是要先给房东一个月的押金。",
+      "reading": "Bù tài guì, yī ge yuè sānqiān bā. Kěshì yào xiān gěi fángdōng yī ge yuè de yājīn."
+    },
+    {
+      "speaker": "b",
+      "text": "北京的房子都要押金。房东还说什么了？",
+      "reading": "Běijīng de fángzi dōu yào yājīn. Fángdōng hái shuō shénme le?"
+    },
+    {
+      "speaker": "a",
+      "text": "她说房子里不能养狗，也不可以养猫。",
+      "reading": "Tā shuō fángzi lǐ bù néng yǎng gǒu, yě bù kěyǐ yǎng māo."
+    },
+    {
+      "speaker": "b",
+      "text": "还有别的吗？",
+      "reading": "Hái yǒu biéde ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还有，晚上十点以后不能大声放音乐。",
+      "reading": "Hái yǒu, wǎnshang shí diǎn yǐhòu bù néng dàshēng fàng yīnyuè."
+    },
+    {
+      "speaker": "b",
+      "text": "那你租不租？",
+      "reading": "Nà nǐ zū bù zū?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想租，可是我想先问问爸爸妈妈。",
+      "reading": "Wǒ xiǎng zū, kěshì wǒ xiǎng xiān wènwen bàba māma."
+    }
+  ]
+}

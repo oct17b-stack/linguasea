@@ -1,0 +1,70 @@
+{
+  "id": "en-C13-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.entrance",
+      "text": "entrance",
+      "reading": "ˈɛntrəns"
+    },
+    {
+      "id": "en.exit",
+      "text": "exit",
+      "reading": "ˈɛɡzɪt"
+    },
+    {
+      "id": "en.outside",
+      "text": "outside",
+      "reading": "ˌaʊtˈsaɪd"
+    },
+    {
+      "id": "en.inside",
+      "text": "inside",
+      "reading": "ˌɪnˈsaɪd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "What time shall we meet on Friday?",
+      "reading": "ˈwʌt ˈtaɪm ʃæl wiː ˈmiːt ɑːn ˈfraɪdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Shall we meet at ten?",
+      "reading": "ʃæl wiː ˈmiːt ət ˈtɛn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. Where shall we meet? Inside the mall?",
+      "reading": "ˈʃʊr. ˈwɛr ʃæl wiː ˈmiːt? ˌɪnˈsaɪd ðə ˈmɔːl?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's very crowded inside. Let's meet outside, at the entrance.",
+      "reading": "ɪts ˈvɛri ˈkraʊdɪd ˌɪnˈsaɪd. ˈlɛts ˈmiːt ˌaʊtˈsaɪd, ət ði ˈɛntrəns."
+    },
+    {
+      "speaker": "c",
+      "text": "Which entrance? The mall has three!",
+      "reading": "ˈwɪtʃ ˈɛntrəns? ðə ˈmɔːl ˈhæz ˈθriː!"
+    },
+    {
+      "speaker": "a",
+      "text": "The one near the train station. Take Exit 3.",
+      "reading": "ðə ˈwʌn ˈnɪr ðə ˈtreɪn ˌsteɪʃən. ˈteɪk ˈɛɡzɪt ˈθriː."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. And if it rains, shall we wait inside?",
+      "reading": "oʊˈkeɪ. ənd ɪf ɪt ˈreɪnz, ʃæl wiː ˈweɪt ˌɪnˈsaɪd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, let's. See you on Friday!",
+      "reading": "ˈjɛs, ˈlɛts. ˈsiː juː ɑːn ˈfraɪdeɪ!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.chuang",
+      "text": "床",
+      "reading": "chuáng"
+    },
+    {
+      "id": "zh.yi-zi",
+      "text": "椅子",
+      "reading": "yǐzi"
+    },
+    {
+      "id": "zh.men",
+      "text": "门",
+      "reading": "mén"
+    },
+    {
+      "id": "zh.wai-bian",
+      "text": "外边",
+      "reading": "wàibian"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你的房间里有什么？",
+      "reading": "Nǐ de fángjiān lǐ yǒu shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "有床、桌子和椅子。",
+      "reading": "Yǒu chuáng, zhuōzi hé yǐzi."
+    },
+    {
+      "speaker": "b",
+      "text": "门外边有人吗？",
+      "reading": "Mén wàibian yǒu rén ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是我妹妹！",
+      "reading": "Shì wǒ mèimei!"
+    }
+  ]
+}

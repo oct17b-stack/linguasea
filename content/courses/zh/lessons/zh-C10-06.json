@@ -1,0 +1,70 @@
+{
+  "id": "zh-C10-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shou-dao",
+      "text": "收到",
+      "reading": "shōudào"
+    },
+    {
+      "id": "zh.kuai-di",
+      "text": "快递",
+      "reading": "kuàidì"
+    },
+    {
+      "id": "zh.qu-fetch",
+      "text": "取",
+      "reading": "qǔ"
+    },
+    {
+      "id": "zh.cun",
+      "text": "存",
+      "reading": "cún"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，等我一下，我去取一个快递。",
+      "reading": "Xiǎonán, děng wǒ yīxià, wǒ qù qǔ yī ge kuàidì."
+    },
+    {
+      "speaker": "a",
+      "text": "你买什么了？",
+      "reading": "Nǐ mǎi shénme le?"
+    },
+    {
+      "speaker": "b",
+      "text": "一本书。从广州寄到北京，要两天。",
+      "reading": "Yī běn shū. Cóng Guǎngzhōu jìdào Běijīng, yào liǎng tiān."
+    },
+    {
+      "speaker": "a",
+      "text": "真快！我寄给妈妈的包裹要一个星期。",
+      "reading": "Zhēn kuài! Wǒ jì gěi māma de bāoguǒ yào yī ge xīngqī."
+    },
+    {
+      "speaker": "b",
+      "text": "她收到了吗？",
+      "reading": "Tā shōudào le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还没收到呢。我想她明天能收到。",
+      "reading": "Hái méi shōudào ne. Wǒ xiǎng tā míngtiān néng shōudào."
+    },
+    {
+      "speaker": "b",
+      "text": "一会儿你去哪儿？",
+      "reading": "Yīhuìr nǐ qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "去银行存钱，坐地铁要二十分钟。",
+      "reading": "Qù yínháng cún qián, zuò dìtiě yào èrshí fēnzhōng."
+    }
+  ]
+}

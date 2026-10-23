@@ -1,0 +1,50 @@
+{
+  "id": "zh-A9-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ting",
+      "text": "听",
+      "reading": "tīng"
+    },
+    {
+      "id": "zh.shuo",
+      "text": "说",
+      "reading": "shuō"
+    },
+    {
+      "id": "zh.du",
+      "text": "读",
+      "reading": "dú"
+    },
+    {
+      "id": "zh.xie",
+      "text": "写",
+      "reading": "xiě"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，请读第一个。",
+      "reading": "Xiǎonán, qǐng dú dì-yī ge."
+    },
+    {
+      "speaker": "a",
+      "text": "对不起，老师，您说什么？",
+      "reading": "Duìbuqǐ, lǎoshī, nín shuō shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "请听：请读第一个！",
+      "reading": "Qǐng tīng: qǐng dú dì-yī ge!"
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我读。",
+      "reading": "Hǎo de, wǒ dú."
+    }
+  ]
+}

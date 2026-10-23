@@ -1,0 +1,70 @@
+{
+  "id": "en-C15-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.download",
+      "text": "download",
+      "reading": "ˌdaʊnˈloʊd"
+    },
+    {
+      "id": "en.update",
+      "text": "update",
+      "reading": "ˌʌpˈdeɪt"
+    },
+    {
+      "id": "en.restart",
+      "text": "restart",
+      "reading": "ˌriːˈstɑːrt"
+    },
+    {
+      "id": "en.delete",
+      "text": "delete",
+      "reading": "dɪˈliːt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "What's the problem with your phone?",
+      "reading": "ˈwʌts ðə ˈprɑːbləm wɪð jʊr ˈfoʊn?"
+    },
+    {
+      "speaker": "a",
+      "text": "When I opened my email app this morning, it closed.",
+      "reading": "wɛn aɪ ˈoʊpənd maɪ ˈiːmeɪl ˌæp ðɪs ˈmɔːrnɪŋ, ɪt ˈkloʊzd."
+    },
+    {
+      "speaker": "b",
+      "text": "Did you update the app yesterday?",
+      "reading": "dɪd juː ˌʌpˈdeɪt ði ˈæp ˈjɛstərdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. And when I updated it, my phone stopped working for an hour.",
+      "reading": "ˈjɛs. ənd wɛn aɪ ˌʌpˈdeɪtɪd ɪt, maɪ ˈfoʊn ˈstɑːpt ˈwɜːrkɪŋ fər ən ˈaʊər."
+    },
+    {
+      "speaker": "b",
+      "text": "Did you restart your phone after that?",
+      "reading": "dɪd juː ˌriːˈstɑːrt jʊr ˈfoʊn ˈæftər ˈðæt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I didn't.",
+      "reading": "ˈnoʊ, aɪ ˈdɪdənt."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Let's delete the app and download it again. Then restart your phone.",
+      "reading": "oʊˈkeɪ. ˈlɛts dɪˈliːt ði ˈæp ənd ˌdaʊnˈloʊd ɪt əˈɡɛn. ˈðɛn ˌriːˈstɑːrt jʊr ˈfoʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "It works now! Thank you so much!",
+      "reading": "ɪt ˈwɜːrks ˈnaʊ! ˈθæŋk juː ˈsoʊ ˈmʌtʃ!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A10-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.yue-nan",
+      "text": "越南",
+      "reading": "Yuènán"
+    },
+    {
+      "id": "zh.xin-jia-po",
+      "text": "新加坡",
+      "reading": "Xīnjiāpō"
+    },
+    {
+      "id": "zh.yin-du-ni-xi-ya",
+      "text": "印度尼西亚",
+      "reading": "Yìndùníxīyà"
+    },
+    {
+      "id": "zh.fei-lv-bin",
+      "text": "菲律宾",
+      "reading": "Fēilǜbīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！你是新加坡人吗？",
+      "reading": "Nǐ hǎo! Nǐ shì Xīnjiāpō rén ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "不是，我是印度尼西亚人。",
+      "reading": "Bù shì, wǒ shì Yìndùníxīyà rén."
+    },
+    {
+      "speaker": "a",
+      "text": "他们呢？",
+      "reading": "Tāmen ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "越南人和菲律宾人。",
+      "reading": "Yuènán rén hé Fēilǜbīn rén."
+    }
+  ]
+}

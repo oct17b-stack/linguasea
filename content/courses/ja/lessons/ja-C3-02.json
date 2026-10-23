@@ -1,0 +1,75 @@
+{
+  "id": "ja-C3-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kyoukasho",
+      "text": "きょうかしょ",
+      "reading": "kyōkasho"
+    },
+    {
+      "id": "ja.jiten",
+      "text": "じてん",
+      "reading": "jiten"
+    },
+    {
+      "id": "ja.keshigomu",
+      "text": "けしゴム",
+      "reading": "keshigomu"
+    },
+    {
+      "id": "ja.shougakukin",
+      "text": "しょうがくきん",
+      "reading": "shōgakukin"
+    },
+    {
+      "id": "ja.hitsuyou",
+      "text": "ひつよう",
+      "reading": "hitsuyō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、じゅぎょうには なにが ひつようですか。",
+      "reading": "Sensei, jugyō ni wa nani ga hitsuyō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "この きょうかしょが ひつようです。それから、かんじの じてんが いります。",
+      "reading": "Kono kyōkasho ga hitsuyō desu. Sorekara, kanji no jiten ga irimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "じしょは けいたいに あります。じてんも いりますか。",
+      "reading": "Jisho wa keitai ni arimasu. Jiten mo irimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ、けいたいの じしょで だいじょうぶです。",
+      "reading": "Iie, keitai no jisho de daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "テストには なにが いりますか。",
+      "reading": "Tesuto ni wa nani ga irimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "えんぴつと けしゴムが ひつようです。けいたいは いりません。",
+      "reading": "Enpitsu to keshigomu ga hitsuyō desu. Keitai wa irimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。しょうがくきんには なにが ひつようですか。",
+      "reading": "Wakarimashita. Shōgakukin ni wa nani ga hitsuyō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "しゃしんと パスポートの コピーが いります。",
+      "reading": "Shashin to pasupōto no kopī ga irimasu."
+    }
+  ]
+}

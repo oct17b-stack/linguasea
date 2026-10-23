@@ -1,0 +1,75 @@
+{
+  "id": "ja-C3-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.suugaku",
+      "text": "すうがく",
+      "reading": "sūgaku"
+    },
+    {
+      "id": "ja.rekishi",
+      "text": "れきし",
+      "reading": "rekishi"
+    },
+    {
+      "id": "ja.kagaku",
+      "text": "かがく",
+      "reading": "kagaku"
+    },
+    {
+      "id": "ja.chiri",
+      "text": "地理",
+      "reading": "chiri"
+    },
+    {
+      "id": "ja.bungaku",
+      "text": "文学",
+      "reading": "bungaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、すうがくと れきしと どちらが すきですか。",
+      "reading": "Namu-san, sūgaku to rekishi to dochira ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "れきしの ほうが すきです。すうがくは にがてです。",
+      "reading": "Rekishi no hō ga suki desu. Sūgaku wa nigate desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは すうがくの ほうが すきです。こたえが ひとつですから。",
+      "reading": "Watashi wa sūgaku no hō ga suki desu. Kotae ga hitotsu desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。じゃあ、かがくと 地理と どちらが とくいですか。",
+      "reading": "Hē. Jā, kagaku to chiri to dochira ga tokui desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "かがくです。地理は ちょっと…。",
+      "reading": "Kagaku desu. Chiri wa chotto…."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは 地理が すきです。いろいろな くにの ちずを みるのが すきですから。",
+      "reading": "Watashi wa chiri ga suki desu. Iroiro na kuni no chizu o miru no ga suki desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "文学は どうですか。",
+      "reading": "Bungaku wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "文学も すきです。でも、にほんの 文学は むずかしいです。",
+      "reading": "Bungaku mo suki desu. Demo, Nihon no bungaku wa muzukashii desu."
+    }
+  ]
+}

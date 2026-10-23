@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.di-tu",
+      "text": "地图",
+      "reading": "dìtú"
+    },
+    {
+      "id": "zh.di-fang",
+      "text": "地方",
+      "reading": "dìfang"
+    },
+    {
+      "id": "zh.zhong-xin",
+      "text": "中心",
+      "reading": "zhōngxīn"
+    },
+    {
+      "id": "zh.wai-di",
+      "text": "外地",
+      "reading": "wàidì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "地图上这是什么地方？",
+      "reading": "Dìtú shang zhè shì shénme dìfang?"
+    },
+    {
+      "speaker": "a",
+      "text": "这是泰国的中心。我是这里人！",
+      "reading": "Zhè shì Tàiguó de zhōngxīn. Wǒ shì zhèlǐ rén!"
+    },
+    {
+      "speaker": "b",
+      "text": "北京有很多外地人。这里呢？",
+      "reading": "Běijīng yǒu hěn duō wàidì rén. Zhèlǐ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "这里也很多！",
+      "reading": "Zhèlǐ yě hěn duō!"
+    }
+  ]
+}

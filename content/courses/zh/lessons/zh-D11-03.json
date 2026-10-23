@@ -1,0 +1,85 @@
+{
+  "id": "zh-D11-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ci-dian",
+      "text": "词典",
+      "reading": "cídiǎn"
+    },
+    {
+      "id": "zh.bei-memorize",
+      "text": "背",
+      "reading": "bèi"
+    },
+    {
+      "id": "zh.chong-fu",
+      "text": "重复",
+      "reading": "chóngfù"
+    },
+    {
+      "id": "zh.ji-lu",
+      "text": "记录",
+      "reading": "jìlù"
+    },
+    {
+      "id": "zh.dan-ci",
+      "text": "单词",
+      "reading": "dāncí"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在背什么呢？",
+      "reading": "Xiǎonán, nǐ zài bèi shénme ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在背单词。考试要考六百个词，我已经背了四百个了。",
+      "reading": "Wǒ zài bèi dāncí. Kǎoshì yào kǎo liùbǎi ge cí, wǒ yǐjīng bèi le sìbǎi ge le."
+    },
+    {
+      "speaker": "b",
+      "text": "这么多！你都记住了吗？",
+      "reading": "Zhème duō! Nǐ dōu jìzhù le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有的记住了，有的背了好几次还是记不住。",
+      "reading": "Yǒude jìzhù le, yǒude bèi le hǎojǐ cì háishi jì bu zhù."
+    },
+    {
+      "speaker": "b",
+      "text": "我有个好办法：每天重复几遍，第二天再复习。",
+      "reading": "Wǒ yǒu ge hǎo bànfǎ: měitiān chóngfù jǐ biàn, dì-èr tiān zài fùxí."
+    },
+    {
+      "speaker": "a",
+      "text": "我也是这样做的。我还把不会的词记录在本子上。",
+      "reading": "Wǒ yě shì zhèyàng zuò de. Wǒ hái bǎ bù huì de cí jìlù zài běnzi shang."
+    },
+    {
+      "speaker": "b",
+      "text": "你用什么词典？纸的还是手机上的？",
+      "reading": "Nǐ yòng shénme cídiǎn? Zhǐ de háishi shǒujī shang de?"
+    },
+    {
+      "speaker": "a",
+      "text": "手机上的，很方便。可是查了以后，我很快就忘了。",
+      "reading": "Shǒujī shang de, hěn fāngbiàn. Kěshì chá le yǐhòu, wǒ hěn kuài jiù wàng le."
+    },
+    {
+      "speaker": "b",
+      "text": "那你查完以后要大声读几遍，这样才记得住。",
+      "reading": "Nà nǐ cháwán yǐhòu yào dàshēng dú jǐ biàn, zhèyàng cái jì de zhù."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我试试。今天我一定要把这些单词记住！",
+      "reading": "Hǎo, wǒ shìshi. Jīntiān wǒ yīdìng yào bǎ zhèxiē dāncí jìzhù!"
+    }
+  ]
+}

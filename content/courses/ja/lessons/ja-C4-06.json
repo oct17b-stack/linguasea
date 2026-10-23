@@ -1,0 +1,70 @@
+{
+  "id": "ja-C4-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.yakusoku",
+      "text": "やくそく",
+      "reading": "yakusoku"
+    },
+    {
+      "id": "ja.sorosoro",
+      "text": "そろそろ",
+      "reading": "sorosoro"
+    },
+    {
+      "id": "ja.daitai",
+      "text": "大体",
+      "reading": "daitai"
+    },
+    {
+      "id": "ja.konya",
+      "text": "今夜",
+      "reading": "kon'ya"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、今夜の やくそく、なんじに しますか。",
+      "reading": "Namu-san, kon'ya no yakusoku, nanji ni shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "7時は どうですか。",
+      "reading": "Shichiji wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですよ。ナムさんの うちから 駅まで あるいて なんぷんですか。",
+      "reading": "Ii desu yo. Namu-san no uchi kara eki made aruite nanpun desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "大体 15ふんぐらいです。",
+      "reading": "Daitai jūgofun gurai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしの うちからは 30ぷんくらいです。じゃあ、6時半ごろ うちを でます。",
+      "reading": "Watashi no uchi kara wa sanjuppun kurai desu. Jā, rokuji han goro uchi o demasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。あ、そろそろ じゅぎょうの じかんです。",
+      "reading": "Wakarimashita. A, sorosoro jugyō no jikan desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、また 今夜！",
+      "reading": "Jā, mata kon'ya!"
+    },
+    {
+      "speaker": "a",
+      "text": "はい。7時に 駅で！",
+      "reading": "Hai. Shichiji ni eki de!"
+    }
+  ]
+}

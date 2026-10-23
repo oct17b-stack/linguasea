@@ -1,0 +1,75 @@
+{
+  "id": "zh-C11-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.bi-sai",
+      "text": "比赛",
+      "reading": "bǐsài"
+    },
+    {
+      "id": "zh.qiu-dui",
+      "text": "球队",
+      "reading": "qiúduì"
+    },
+    {
+      "id": "zh.jia-you",
+      "text": "加油",
+      "reading": "jiāyóu"
+    },
+    {
+      "id": "zh.ying",
+      "text": "赢",
+      "reading": "yíng"
+    },
+    {
+      "id": "zh.shu-lose",
+      "text": "输",
+      "reading": "shū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "我回来了！现在几比几？",
+      "reading": "Wǒ huílái le! Xiànzài jǐ bǐ jǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "二比二。还有五分钟！",
+      "reading": "Èr bǐ èr. Hái yǒu wǔ fēnzhōng!"
+    },
+    {
+      "speaker": "b",
+      "text": "中国队加油！",
+      "reading": "Zhōngguó duì jiāyóu!"
+    },
+    {
+      "speaker": "a",
+      "text": "泰国队加油！",
+      "reading": "Tàiguó duì jiāyóu!"
+    },
+    {
+      "speaker": "b",
+      "text": "你看……三比二，泰国队赢了。",
+      "reading": "Nǐ kàn…… sān bǐ èr, Tàiguó duì yíng le."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！我们赢了！",
+      "reading": "Tài hǎo le! Wǒmen yíng le!"
+    },
+    {
+      "speaker": "b",
+      "text": "我们的球队输了，可是这个比赛真好看。",
+      "reading": "Wǒmen de qiúduì shū le, kěshì zhège bǐsài zhēn hǎokàn."
+    },
+    {
+      "speaker": "a",
+      "text": "别不高兴，下次中国队会赢的！",
+      "reading": "Bié bù gāoxìng, xiàcì Zhōngguó duì huì yíng de!"
+    }
+  ]
+}

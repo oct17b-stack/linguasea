@@ -1,0 +1,151 @@
+{
+  "id": "zh-A2-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shang4-hai3",
+      "kind": "syllable",
+      "text": "Shànghǎi",
+      "reading": "Shànghǎi",
+      "say": "上海"
+    },
+    {
+      "id": "zh.xiang1-gang3",
+      "kind": "syllable",
+      "text": "Xiānggǎng",
+      "reading": "Xiānggǎng",
+      "say": "香港"
+    },
+    {
+      "id": "zh.qing1-mai4",
+      "kind": "syllable",
+      "text": "Qīngmài",
+      "reading": "Qīngmài",
+      "say": "清迈"
+    },
+    {
+      "id": "zh.pu3-ji2",
+      "kind": "syllable",
+      "text": "Pǔjí",
+      "reading": "Pǔjí",
+      "say": "普吉"
+    },
+    {
+      "id": "zh.er2",
+      "kind": "syllable",
+      "text": "ér",
+      "reading": "ér",
+      "say": "儿"
+    },
+    {
+      "id": "zh.huar1",
+      "kind": "syllable",
+      "text": "huār",
+      "reading": "huār",
+      "say": "花儿"
+    },
+    {
+      "id": "zh.hua1",
+      "kind": "syllable",
+      "text": "huā",
+      "reading": "huā",
+      "say": "花"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.shang4-hai3",
+      "options": [
+        "zh.xiang1-gang3",
+        "zh.qing1-mai4",
+        "zh.pu3-ji2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.xiang1-gang3",
+      "options": [
+        "zh.shang4-hai3",
+        "zh.qing1-mai4",
+        "zh.pu3-ji2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.qing1-mai4",
+      "options": [
+        "zh.xiang1-gang3",
+        "zh.shang4-hai3",
+        "zh.pu3-ji2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.pu3-ji2",
+      "options": [
+        "zh.shang4-hai3",
+        "zh.xiang1-gang3",
+        "zh.qing1-mai4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.er2",
+      "options": [
+        "zh.ren2",
+        "zh.huar1"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.huar1",
+      "options": [
+        "zh.hua1",
+        "zh.er2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.hua1",
+      "options": [
+        "zh.huar1"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.shang4-hai3",
+      "options": [
+        "zh.xiang1-gang3",
+        "zh.qing1-mai4",
+        "zh.pu3-ji2"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.pu3-ji2",
+      "options": [
+        "zh.qing1-mai4",
+        "zh.shang4-hai3"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.huar1",
+      "options": [
+        "zh.hua1",
+        "zh.er2"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.qing1-mai4"
+    },
+    {
+      "type": "speak",
+      "item": "zh.huar1"
+    }
+  ]
+}

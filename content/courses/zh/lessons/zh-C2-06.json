@@ -1,0 +1,70 @@
+{
+  "id": "zh-C2-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.chou-yan",
+      "text": "抽烟",
+      "reading": "chōuyān"
+    },
+    {
+      "id": "zh.bing-ice",
+      "text": "冰",
+      "reading": "bīng"
+    },
+    {
+      "id": "zh.jiu-alcohol",
+      "text": "酒",
+      "reading": "jiǔ"
+    },
+    {
+      "id": "zh.gan-jue",
+      "text": "感觉",
+      "reading": "gǎnjué"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，今天你感觉怎么样？",
+      "reading": "Xiǎonán, jīntiān nǐ gǎnjué zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "感觉好多了，可是大夫说我还要吃两天药。",
+      "reading": "Gǎnjué hǎo duō le, kěshì dàifu shuō wǒ hái yào chī liǎng tiān yào."
+    },
+    {
+      "speaker": "b",
+      "text": "大夫还说什么？",
+      "reading": "Dàifu hái shuō shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "他说别抽烟，别喝酒，也别喝冰水。",
+      "reading": "Tā shuō bié chōuyān, bié hē jiǔ, yě bié hē bīngshuǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "你不抽烟，也不喝酒啊。",
+      "reading": "Nǐ bù chōuyān, yě bù hē jiǔ a."
+    },
+    {
+      "speaker": "a",
+      "text": "对，可是我很想喝冰水！在泰国，我们每天都喝冰水。",
+      "reading": "Duì, kěshì wǒ hěn xiǎng hē bīngshuǐ! Zài Tàiguó, wǒmen měitiān dōu hē bīngshuǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "别喝冰水，喝热水吧！",
+      "reading": "Bié hē bīngshuǐ, hē rèshuǐ ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "热水，热水，每天都是热水！",
+      "reading": "Rèshuǐ, rèshuǐ, měitiān dōu shì rèshuǐ!"
+    }
+  ]
+}

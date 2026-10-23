@@ -1,0 +1,70 @@
+{
+  "id": "ja-C6-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.touchaku",
+      "text": "とうちゃく",
+      "reading": "tōchaku"
+    },
+    {
+      "id": "ja.shuppatsu",
+      "text": "出発",
+      "reading": "shuppatsu"
+    },
+    {
+      "id": "ja.kuukou",
+      "text": "くうこう",
+      "reading": "kūkō"
+    },
+    {
+      "id": "ja.tochuu",
+      "text": "とちゅう",
+      "reading": "tochū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ほっかいどうへは ひこうきで いきましたか。",
+      "reading": "Namu-san, Hokkaidō e wa hikōki de ikimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あさ 8時の ひこうきで 出発しました。",
+      "reading": "Hai. Asa hachiji no hikōki de shuppatsu shimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "なんじに とうちゃくしましたか。",
+      "reading": "Nanji ni tōchaku shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "10時ごろです。とうちゃくした あとで、くうこうで ラーメンを たべました。",
+      "reading": "Jūji goro desu. Tōchaku shita ato de, kūkō de rāmen o tabemashita."
+    },
+    {
+      "speaker": "c",
+      "text": "くうこうで ラーメンですか。",
+      "reading": "Kūkō de rāmen desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ゆうめいです。ラーメンを たべてから、でんしゃで まちへ いきました。",
+      "reading": "Hai, yūmei desu. Rāmen o tabete kara, densha de machi e ikimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "とちゅうの けしきは どうでしたか。",
+      "reading": "Tochū no keshiki wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ずっと ゆきでした。とても きれいでした。",
+      "reading": "Zutto yuki deshita. Totemo kirei deshita."
+    }
+  ]
+}

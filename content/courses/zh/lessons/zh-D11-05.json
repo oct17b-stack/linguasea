@@ -1,0 +1,90 @@
+{
+  "id": "zh-D11-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.bi-hua",
+      "text": "笔画",
+      "reading": "bǐhuà"
+    },
+    {
+      "id": "zh.cuo-wu",
+      "text": "错误",
+      "reading": "cuòwù"
+    },
+    {
+      "id": "zh.gai-zheng",
+      "text": "改正",
+      "reading": "gǎizhèng"
+    },
+    {
+      "id": "zh.xie-fa",
+      "text": "写法",
+      "reading": "xiěfǎ"
+    },
+    {
+      "id": "zh.zheng-que",
+      "text": "正确",
+      "reading": "zhèngquè"
+    },
+    {
+      "id": "zh.cheng-into",
+      "text": "成",
+      "reading": "chéng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你的作业写得不错，可是有几个错误。",
+      "reading": "Xiǎonán, nǐ de zuòyè xiě de bùcuò, kěshì yǒu jǐ ge cuòwù."
+    },
+    {
+      "speaker": "a",
+      "text": "是吗？什么错误？",
+      "reading": "Shì ma? Shénme cuòwù?"
+    },
+    {
+      "speaker": "c",
+      "text": "你看这儿，你把“大”写成了“太”，多了一个点。",
+      "reading": "Nǐ kàn zhèr, nǐ bǎ \"dà\" xiěchéng le \"tài\", duō le yī ge diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "真不好意思，我写得太快了。",
+      "reading": "Zhēn bù hǎoyìsi, wǒ xiě de tài kuài le."
+    },
+    {
+      "speaker": "c",
+      "text": "还有这个字，你把“买”写成了“卖”。",
+      "reading": "Hái yǒu zhège zì, nǐ bǎ \"mǎi\" xiěchéng le \"mài\"."
+    },
+    {
+      "speaker": "a",
+      "text": "这两个字差不多一样，笔画只差一点儿。",
+      "reading": "Zhè liǎng ge zì chàbuduō yīyàng, bǐhuà zhǐ chà yīdiǎnr."
+    },
+    {
+      "speaker": "c",
+      "text": "你可以这样记：“卖”比“买”多一个“十”，东西多了，就可以卖。",
+      "reading": "Nǐ kěyǐ zhèyàng jì: \"mài\" bǐ \"mǎi\" duō yī ge \"shí\", dōngxi duō le, jiù kěyǐ mài."
+    },
+    {
+      "speaker": "a",
+      "text": "这样我就记住了！我马上把错误改正过来。",
+      "reading": "Zhèyàng wǒ jiù jìzhù le! Wǒ mǎshàng bǎ cuòwù gǎizhèng guolai."
+    },
+    {
+      "speaker": "c",
+      "text": "改正以后，再把正确的写法写五遍。",
+      "reading": "Gǎizhèng yǐhòu, zài bǎ zhèngquè de xiěfǎ xiě wǔ biàn."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，以后我一定注意笔画。",
+      "reading": "Hǎo de, yǐhòu wǒ yīdìng zhùyì bǐhuà."
+    }
+  ]
+}

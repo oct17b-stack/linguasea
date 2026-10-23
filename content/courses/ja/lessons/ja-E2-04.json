@@ -1,0 +1,90 @@
+{
+  "id": "ja-E2-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.purasuchikku",
+      "text": "プラスチック",
+      "reading": "purasuchikku"
+    },
+    {
+      "id": "ja.sutorou",
+      "text": "ストロー",
+      "reading": "sutorō"
+    },
+    {
+      "id": "ja.kaiyou",
+      "text": "海洋",
+      "reading": "kaiyō"
+    },
+    {
+      "id": "ja.seibutsu",
+      "text": "生物",
+      "reading": "seibutsu"
+    },
+    {
+      "id": "ja.zetsumetsu",
+      "text": "ぜつめつ",
+      "reading": "zetsumetsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ストローはいりますか。",
+      "reading": "Sutorō wa irimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、けっこうです。",
+      "reading": "Iie, kekkō desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、ストローつかわないの？",
+      "reading": "Namu, sutorō tsukawanai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。プラスチックのストローは、うみがめにとって、とてもきけんなんだって。",
+      "reading": "Un. Purasuchikku no sutorō wa, umigame ni totte, totemo kiken na n da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして？",
+      "reading": "Dōshite?"
+    },
+    {
+      "speaker": "a",
+      "text": "うみがめは、うみの中のプラスチックを、たべものとまちがえてたべちゃうの。",
+      "reading": "Umigame wa, umi no naka no purasuchikku o, tabemono to machigaete tabechau no."
+    },
+    {
+      "speaker": "c",
+      "text": "ひどい…。海洋生物にとって、プラスチックゴミはおおきなもんだいなんだね。",
+      "reading": "Hidoi…. Kaiyō seibutsu ni totte, purasuchikku gomi wa ōkina mondai na n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ぜつめつしそうな生物もいるって。",
+      "reading": "Un. Zetsumetsu shisō na seibutsu mo iru tte."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしたちにとっては、ストローはべんりだけど…。",
+      "reading": "Watashitachi ni totte wa, sutorō wa benri da kedo…."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。でも、なくても、そんなにこまらないよね。",
+      "reading": "Sō da ne. Demo, nakute mo, sonna ni komaranai yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。わたしも、きょうからストローはことわることにする。",
+      "reading": "Un. Watashi mo, kyō kara sutorō wa kotowaru koto ni suru."
+    }
+  ]
+}

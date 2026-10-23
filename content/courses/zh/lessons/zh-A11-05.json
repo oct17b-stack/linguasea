@@ -1,0 +1,50 @@
+{
+  "id": "zh-A11-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.nan-peng-you",
+      "text": "男朋友",
+      "reading": "nánpéngyou"
+    },
+    {
+      "id": "zh.nv-peng-you",
+      "text": "女朋友",
+      "reading": "nǚpéngyou"
+    },
+    {
+      "id": "zh.ai",
+      "text": "爱",
+      "reading": "ài"
+    },
+    {
+      "id": "zh.bie-ren",
+      "text": "别人",
+      "reading": "biéren"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "这是我朋友和她男朋友。",
+      "reading": "Zhè shì wǒ péngyou hé tā nánpéngyou."
+    },
+    {
+      "speaker": "b",
+      "text": "你呢？你有男朋友吗？",
+      "reading": "Nǐ ne? Nǐ yǒu nánpéngyou ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有。别人都有，我没有！",
+      "reading": "Méiyǒu. Biéren dōu yǒu, wǒ méiyǒu!"
+    },
+    {
+      "speaker": "b",
+      "text": "我也没有女朋友！",
+      "reading": "Wǒ yě méiyǒu nǚpéngyou!"
+    }
+  ]
+}

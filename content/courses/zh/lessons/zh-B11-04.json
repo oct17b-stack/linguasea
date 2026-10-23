@@ -1,0 +1,60 @@
+{
+  "id": "zh-B11-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.bi-ji",
+      "text": "笔记",
+      "reading": "bǐjì"
+    },
+    {
+      "id": "zh.ke-wen",
+      "text": "课文",
+      "reading": "kèwén"
+    },
+    {
+      "id": "zh.dui-hua",
+      "text": "对话",
+      "reading": "duìhuà"
+    },
+    {
+      "id": "zh.wen-zhang",
+      "text": "文章",
+      "reading": "wénzhāng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是你的笔记吗？真好看！",
+      "reading": "Xiǎonán, zhè shì nǐ de bǐjì ma? Zhēn hǎokàn!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！这是第三课的课文和对话。",
+      "reading": "Xièxie! Zhè shì dì sān kè de kèwén hé duìhuà."
+    },
+    {
+      "speaker": "b",
+      "text": "课文难吗？",
+      "reading": "Kèwén nán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "课文不难，对话有点儿难。",
+      "reading": "Kèwén bù nán, duìhuà yǒudiǎnr nán."
+    },
+    {
+      "speaker": "b",
+      "text": "这本书里的文章都不难，你看看吧。",
+      "reading": "Zhè běn shū lǐ de wénzhāng dōu bù nán, nǐ kànkan ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好啊，谢谢你！",
+      "reading": "Hǎo a, xièxie nǐ!"
+    }
+  ]
+}

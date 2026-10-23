@@ -1,0 +1,60 @@
+{
+  "id": "zh-B9-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.huar",
+      "text": "画儿",
+      "reading": "huàr"
+    },
+    {
+      "id": "zh.ji-ta",
+      "text": "吉他",
+      "reading": "jítā"
+    },
+    {
+      "id": "zh.man-hua",
+      "text": "漫画",
+      "reading": "mànhuà"
+    },
+    {
+      "id": "zh.wu-shu",
+      "text": "武术",
+      "reading": "wǔshù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你喜欢看漫画吗？",
+      "reading": "Xiǎonán, nǐ xǐhuan kàn mànhuà ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很喜欢！我也喜欢中国画儿。",
+      "reading": "Hěn xǐhuan! Wǒ yě xǐhuan Zhōngguó huàr."
+    },
+    {
+      "speaker": "b",
+      "text": "我会武术！",
+      "reading": "Wǒ huì wǔshù!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？太棒了！我正在学吉他。",
+      "reading": "Zhēnde ma? Tài bàng le! Wǒ zhèngzài xué jítā."
+    },
+    {
+      "speaker": "b",
+      "text": "你每天都学吗？",
+      "reading": "Nǐ měitiān dōu xué ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！我每天晚上学一个小时。",
+      "reading": "Duì! Wǒ měitiān wǎnshang xué yī ge xiǎoshí."
+    }
+  ]
+}

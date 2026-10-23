@@ -1,0 +1,61 @@
+{
+  "id": "zh-B14-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.tai-shi",
+      "text": "泰式",
+      "reading": "Tàishì"
+    },
+    {
+      "id": "zh.dong-yin-gong",
+      "text": "冬阴功",
+      "reading": "dōngyīngōng"
+    },
+    {
+      "id": "zh.kan-qi-lai",
+      "kind": "phrase",
+      "text": "看起来",
+      "reading": "kàn qilai"
+    },
+    {
+      "id": "zh.bao-full",
+      "text": "饱",
+      "reading": "bǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这是冬阴功。你吃一点儿吧！",
+      "reading": "Wáng Míng, zhè shì dōngyīngōng. Nǐ chī yīdiǎnr ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "看起来很辣！",
+      "reading": "Kàn qilai hěn là!"
+    },
+    {
+      "speaker": "a",
+      "text": "有点儿辣。这个是泰式炒饭，不辣。",
+      "reading": "Yǒudiǎnr là. Zhège shì Tàishì chǎofàn, bù là."
+    },
+    {
+      "speaker": "b",
+      "text": "真好吃！冬阴功也很好吃！",
+      "reading": "Zhēn hǎochī! Dōngyīngōng yě hěn hǎochī!"
+    },
+    {
+      "speaker": "a",
+      "text": "你还要吃吗？",
+      "reading": "Nǐ hái yào chī ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不吃了，我吃饱了！",
+      "reading": "Bù chī le, wǒ chībǎo le!"
+    }
+  ]
+}

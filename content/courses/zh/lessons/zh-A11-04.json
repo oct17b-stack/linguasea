@@ -1,0 +1,55 @@
+{
+  "id": "zh-A11-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.lao",
+      "text": "老",
+      "reading": "lǎo"
+    },
+    {
+      "id": "zh.lao-ren",
+      "text": "老人",
+      "reading": "lǎorén"
+    },
+    {
+      "id": "zh.lao-tai-tai",
+      "text": "老太太",
+      "reading": "lǎotàitai"
+    },
+    {
+      "id": "zh.xiao-hair",
+      "text": "小孩儿",
+      "reading": "xiǎoháir"
+    },
+    {
+      "id": "zh.gao",
+      "text": "高",
+      "reading": "gāo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这位老太太是谁？",
+      "reading": "Zhè wèi lǎotàitai shì shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "李老师的妈妈。她八十岁了。",
+      "reading": "Lǐ lǎoshī de māma. Tā bāshí suì le."
+    },
+    {
+      "speaker": "b",
+      "text": "这个男的很高！",
+      "reading": "Zhège nán de hěn gāo!"
+    },
+    {
+      "speaker": "a",
+      "text": "他是李老师的丈夫。",
+      "reading": "Tā shì Lǐ lǎoshī de zhàngfu."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "zh-C10-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.xu-yao",
+      "text": "需要",
+      "reading": "xūyào"
+    },
+    {
+      "id": "zh.zheng-jian",
+      "text": "证件",
+      "reading": "zhèngjiàn"
+    },
+    {
+      "id": "zh.fu-yin",
+      "text": "复印",
+      "reading": "fùyìn"
+    },
+    {
+      "id": "zh.shen-fen-zheng",
+      "text": "身份证",
+      "reading": "shēnfènzhèng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我明天去银行办卡。需要什么证件？",
+      "reading": "Wáng Míng, wǒ míngtiān qù yínháng bàn kǎ. Xūyào shénme zhèngjiàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "中国人需要身份证，外国人需要护照。",
+      "reading": "Zhōngguó rén xūyào shēnfènzhèng, wàiguó rén xūyào hùzhào."
+    },
+    {
+      "speaker": "a",
+      "text": "需要复印护照吗？",
+      "reading": "Xūyào fùyìn hùzhào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不需要，银行可以复印。你还需要一个中国的手机号码。",
+      "reading": "Bù xūyào, yínháng kěyǐ fùyìn. Nǐ hái xūyào yī ge Zhōngguó de shǒujī hàomǎ."
+    },
+    {
+      "speaker": "a",
+      "text": "我有。还需要别的吗？",
+      "reading": "Wǒ yǒu. Hái xūyào biéde ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "可能还需要你的学生证。",
+      "reading": "Kěnéng hái xūyào nǐ de xuéshēngzhèng."
+    },
+    {
+      "speaker": "a",
+      "text": "好，那我都带吧。",
+      "reading": "Hǎo, nà wǒ dōu dài ba."
+    },
+    {
+      "speaker": "b",
+      "text": "别忘了护照，那个最重要！",
+      "reading": "Bié wàng le hùzhào, nàge zuì zhòngyào!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "zh-C11-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.lan-qiu",
+      "text": "篮球",
+      "reading": "lánqiú"
+    },
+    {
+      "id": "zh.zu-qiu",
+      "text": "足球",
+      "reading": "zúqiú"
+    },
+    {
+      "id": "zh.wang-qiu",
+      "text": "网球",
+      "reading": "wǎngqiú"
+    },
+    {
+      "id": "zh.yu-mao-qiu",
+      "text": "羽毛球",
+      "reading": "yǔmáoqiú"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你会打篮球吗？",
+      "reading": "Xiǎonán, nǐ huì dǎ lánqiú ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不会。我会打羽毛球和网球。",
+      "reading": "Bù huì. Wǒ huì dǎ yǔmáoqiú hé wǎngqiú."
+    },
+    {
+      "speaker": "b",
+      "text": "我也会打羽毛球！今天下午我们一起去打吧？",
+      "reading": "Wǒ yě huì dǎ yǔmáoqiú! Jīntiān xiàwǔ wǒmen yīqǐ qù dǎ ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "今天不能去，我脚疼。",
+      "reading": "Jīntiān bù néng qù, wǒ jiǎo téng."
+    },
+    {
+      "speaker": "b",
+      "text": "那星期六能去吗？",
+      "reading": "Nà xīngqīliù néng qù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "能！你也喜欢足球吗？",
+      "reading": "Néng! Nǐ yě xǐhuan zúqiú ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "喜欢，可是我最喜欢的是篮球。",
+      "reading": "Xǐhuan, kěshì wǒ zuì xǐhuan de shì lánqiú."
+    },
+    {
+      "speaker": "a",
+      "text": "那下次你教我打篮球吧！",
+      "reading": "Nà xiàcì nǐ jiāo wǒ dǎ lánqiú ba!"
+    }
+  ]
+}

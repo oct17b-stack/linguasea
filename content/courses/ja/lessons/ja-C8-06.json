@@ -1,0 +1,70 @@
+{
+  "id": "ja-C8-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.sakura",
+      "text": "さくら",
+      "reading": "sakura"
+    },
+    {
+      "id": "ja.hanami",
+      "text": "花見",
+      "reading": "hanami"
+    },
+    {
+      "id": "ja.shiki",
+      "text": "しき",
+      "reading": "shiki"
+    },
+    {
+      "id": "ja.sugosu",
+      "text": "すごす",
+      "reading": "sugosu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、にほんの きせつの 中で、どの きせつが いちばん すきですか。",
+      "reading": "Namu-san, Nihon no kisetsu no naka de, dono kisetsu ga ichiban suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はるが いちばん すきです。あたたかいし、さくらも きれいです。",
+      "reading": "Haru ga ichiban suki desu. Atatakai shi, sakura mo kirei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "花見に いきましたか。",
+      "reading": "Hanami ni ikimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ゆきさんと いきました。にぎやかでしたし、たべものも おいしかったです。",
+      "reading": "Hai, Yuki-san to ikimashita. Nigiyaka deshita shi, tabemono mo oishikatta desu."
+    },
+    {
+      "speaker": "b",
+      "text": "タイにも しきが ありますか。",
+      "reading": "Tai ni mo shiki ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。タイには あつい きせつと あめの きせつと すずしい きせつが あります。",
+      "reading": "Iie. Tai ni wa atsui kisetsu to ame no kisetsu to suzushii kisetsu ga arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。ナムさんは にほんで しきを すごしましたね。",
+      "reading": "Sō desu ka. Namu-san wa Nihon de shiki o sugoshimashita ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。なつは あつかったし、ふゆは さむかったです。でも、どの きせつも たのしかったです。",
+      "reading": "Hai. Natsu wa atsukatta shi, fuyu wa samukatta desu. Demo, dono kisetsu mo tanoshikatta desu."
+    }
+  ]
+}

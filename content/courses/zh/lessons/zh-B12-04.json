@@ -1,0 +1,60 @@
+{
+  "id": "zh-B12-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ting-che",
+      "text": "停车",
+      "reading": "tíngchē"
+    },
+    {
+      "id": "zh.qing-wu",
+      "text": "请勿",
+      "reading": "qǐngwù"
+    },
+    {
+      "id": "zh.cao-di",
+      "text": "草地",
+      "reading": "cǎodì"
+    },
+    {
+      "id": "zh.jiao-jing",
+      "text": "交警",
+      "reading": "jiāojǐng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这里能停车吗？",
+      "reading": "Wáng Míng, zhèlǐ néng tíngchē ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "你看，“请勿停车”。这里不能停车。",
+      "reading": "Nǐ kàn, \"qǐngwù tíngchē\". Zhèlǐ bù néng tíngchē."
+    },
+    {
+      "speaker": "a",
+      "text": "那草地上呢？",
+      "reading": "Nà cǎodì shang ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "草地上也不能！",
+      "reading": "Cǎodì shang yě bù néng!"
+    },
+    {
+      "speaker": "a",
+      "text": "你看，那里有一个交警！",
+      "reading": "Nǐ kàn, nàlǐ yǒu yī ge jiāojǐng!"
+    },
+    {
+      "speaker": "b",
+      "text": "我们快走吧！",
+      "reading": "Wǒmen kuài zǒu ba!"
+    }
+  ]
+}

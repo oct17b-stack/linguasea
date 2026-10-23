@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.fang",
+      "text": "放",
+      "reading": "fàng"
+    },
+    {
+      "id": "zh.di-shang",
+      "text": "地上",
+      "reading": "dìshang"
+    },
+    {
+      "id": "zh.yi-gui",
+      "text": "衣柜",
+      "reading": "yīguì"
+    },
+    {
+      "id": "zh.men-kou",
+      "text": "门口",
+      "reading": "ménkǒu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "地上的这些是谁的？",
+      "reading": "Dìshang de zhèxiē shì shéi de?"
+    },
+    {
+      "speaker": "a",
+      "text": "我妹妹的！我放衣柜里。",
+      "reading": "Wǒ mèimei de! Wǒ fàng yīguì lǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "我的包放哪里？",
+      "reading": "Wǒ de bāo fàng nǎlǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "放门口。",
+      "reading": "Fàng ménkǒu."
+    }
+  ]
+}

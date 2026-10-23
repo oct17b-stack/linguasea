@@ -1,0 +1,85 @@
+{
+  "id": "zh-D10-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ya-press",
+      "text": "压",
+      "reading": "yā"
+    },
+    {
+      "id": "zh.po-torn",
+      "text": "破",
+      "reading": "pò"
+    },
+    {
+      "id": "zh.tou-su",
+      "text": "投诉",
+      "reading": "tóusù"
+    },
+    {
+      "id": "zh.ke-fu",
+      "text": "客服",
+      "reading": "kèfú"
+    },
+    {
+      "id": "zh.pei-chang",
+      "text": "赔偿",
+      "reading": "péicháng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你怎么了？不高兴吗？",
+      "reading": "Xiǎonán, nǐ zěnme le? Bù gāoxìng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "你看这个箱子，被压坏了！",
+      "reading": "Nǐ kàn zhège xiāngzi, bèi yāhuài le!"
+    },
+    {
+      "speaker": "b",
+      "text": "里面是什么？",
+      "reading": "Lǐmiàn shì shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我给妈妈买的茶杯。有两个杯子被压破了。",
+      "reading": "Wǒ gěi māma mǎi de chábēi. Yǒu liǎng ge bēizi bèi yāpò le."
+    },
+    {
+      "speaker": "b",
+      "text": "太可惜了！快递公司太不小心了。",
+      "reading": "Tài kěxī le! Kuàidì gōngsī tài bù xiǎoxīn le."
+    },
+    {
+      "speaker": "a",
+      "text": "我要投诉他们。可是我应该找谁呢？",
+      "reading": "Wǒ yào tóusù tāmen. Kěshì wǒ yīnggāi zhǎo shéi ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "先找客服，把照片发给他们。",
+      "reading": "Xiān zhǎo kèfú, bǎ zhàopiàn fā gěi tāmen."
+    },
+    {
+      "speaker": "a",
+      "text": "好主意。他们会赔偿吗？",
+      "reading": "Hǎo zhǔyi. Tāmen huì péicháng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "一般会。杯子被压破了，又不是你的错。",
+      "reading": "Yībān huì. Bēizi bèi yāpò le, yòu bù shì nǐ de cuò."
+    },
+    {
+      "speaker": "a",
+      "text": "你说得对，我现在就去投诉！",
+      "reading": "Nǐ shuō de duì, wǒ xiànzài jiù qù tóusù!"
+    }
+  ]
+}

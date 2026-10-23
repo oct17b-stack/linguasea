@@ -1,0 +1,60 @@
+{
+  "id": "zh-B13-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.bang",
+      "text": "帮",
+      "reading": "bāng"
+    },
+    {
+      "id": "zh.bang-mang",
+      "text": "帮忙",
+      "reading": "bāngmáng"
+    },
+    {
+      "id": "zh.na-hold",
+      "text": "拿",
+      "reading": "ná"
+    },
+    {
+      "id": "zh.zhong",
+      "text": "重",
+      "reading": "zhòng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你能帮我一个忙吗？",
+      "reading": "Wáng Míng, nǐ néng bāng wǒ yī ge máng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "好啊，什么事？",
+      "reading": "Hǎo a, shénme shì?"
+    },
+    {
+      "speaker": "a",
+      "text": "这些书太重了，你帮我拿一下，好吗？",
+      "reading": "Zhèxiē shū tài zhòng le, nǐ bāng wǒ ná yīxià, hǎo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "好。真重啊！",
+      "reading": "Hǎo. Zhēn zhòng a!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢你帮忙！",
+      "reading": "Xièxie nǐ bāngmáng!"
+    },
+    {
+      "speaker": "b",
+      "text": "不客气！",
+      "reading": "Bù kèqi!"
+    }
+  ]
+}

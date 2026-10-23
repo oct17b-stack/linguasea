@@ -1,0 +1,61 @@
+{
+  "id": "zh-B13-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.wang",
+      "text": "忘",
+      "reading": "wàng"
+    },
+    {
+      "id": "zh.ji-de",
+      "text": "记得",
+      "reading": "jìde"
+    },
+    {
+      "id": "zh.bie-ji",
+      "kind": "phrase",
+      "text": "别急",
+      "reading": "bié jí"
+    },
+    {
+      "id": "zh.huan-return",
+      "text": "还",
+      "reading": "huán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你为什么不吃饭？",
+      "reading": "Xiǎonán, nǐ wèi shénme bù chīfàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "钱包不在书包里，我忘了放在哪儿！",
+      "reading": "Qiánbāo bù zài shūbāo lǐ, wǒ wàng le fàng zài nǎr!"
+    },
+    {
+      "speaker": "b",
+      "text": "别急。你记得上午在哪儿吗？",
+      "reading": "Bié jí. Nǐ jìde shàngwǔ zài nǎr ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我记得在图书馆……",
+      "reading": "Wǒ jìde zài túshūguǎn……"
+    },
+    {
+      "speaker": "b",
+      "text": "下午我们去图书馆找。现在我给你钱，你先吃饭吧。",
+      "reading": "Xiàwǔ wǒmen qù túshūguǎn zhǎo. Xiànzài wǒ gěi nǐ qián, nǐ xiān chīfàn ba."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！明天我还你。",
+      "reading": "Xièxie! Míngtiān wǒ huán nǐ."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "en-C13-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.invite",
+      "text": "invite",
+      "reading": "ɪnˈvaɪt"
+    },
+    {
+      "id": "en.party",
+      "text": "party",
+      "reading": "ˈpɑːrti"
+    },
+    {
+      "id": "en.id-love-to",
+      "kind": "phrase",
+      "text": "I'd love to",
+      "reading": "aɪd ˈlʌv tuː"
+    },
+    {
+      "id": "en.im-afraid-i-cant",
+      "kind": "phrase",
+      "text": "I'm afraid I can't",
+      "reading": "aɪm əˈfreɪd aɪ ˈkænt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, it's my birthday on Saturday. Would you like to come to my party?",
+      "reading": "ˈnɑːm, ɪts maɪ ˈbɜːrθdeɪ ɑːn ˈsætərdeɪ. wʊd juː ˈlaɪk tə ˈkʌm tə maɪ ˈpɑːrti?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'd love to! What time is it?",
+      "reading": "aɪd ˈlʌv tuː! ˈwʌt ˈtaɪm ɪz ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "At seven. I want to invite all our friends from class.",
+      "reading": "ət ˈsɛvən. aɪ ˈwɑːnt tu ɪnˈvaɪt ˈɔːl aʊr ˈfrɛndz frəm ˈklæs."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Can I help you with the food?",
+      "reading": "ˈɡreɪt! kən aɪ ˈhɛlp juː wɪð ðə ˈfuːd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, please. Would you like to go shopping with me on Thursday afternoon?",
+      "reading": "ˈjɛs, ˈpliːz. wʊd juː ˈlaɪk tə ˈɡoʊ ˈʃɑːpɪŋ wɪð miː ɑːn ˈθɜːrzdeɪ ˌæftərˈnuːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm afraid I can't. I have class until four.",
+      "reading": "aɪm əˈfreɪd aɪ ˈkænt. aɪ ˈhæv ˈklæs ənˈtɪl ˈfɔːr."
+    },
+    {
+      "speaker": "c",
+      "text": "That's OK. Let's go on Saturday morning.",
+      "reading": "ðæts oʊˈkeɪ. ˈlɛts ˈɡoʊ ɑːn ˈsætərdeɪ ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I work on Saturday. But I'll come to your party after work!",
+      "reading": "ˈsɑːri, aɪ ˈwɜːrk ɑːn ˈsætərdeɪ. bʌt aɪl ˈkʌm tə jʊr ˈpɑːrti ˈæftər ˈwɜːrk!"
+    }
+  ]
+}

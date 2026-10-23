@@ -1,0 +1,50 @@
+{
+  "id": "zh-A14-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zheng-yue",
+      "text": "正月",
+      "reading": "zhēngyuè"
+    },
+    {
+      "id": "zh.yuan-xiao-jie",
+      "text": "元宵节",
+      "reading": "Yuánxiāojié"
+    },
+    {
+      "id": "zh.tang-yuan",
+      "text": "汤圆",
+      "reading": "tāngyuán"
+    },
+    {
+      "id": "zh.deng-long",
+      "text": "灯笼",
+      "reading": "dēnglong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这里灯笼很多！",
+      "reading": "Wáng Míng, zhèlǐ dēnglong hěn duō!"
+    },
+    {
+      "speaker": "b",
+      "text": "对，正月十五是元宵节。",
+      "reading": "Duì, zhēngyuè shíwǔ shì Yuánxiāojié."
+    },
+    {
+      "speaker": "a",
+      "text": "元宵节吃什么？",
+      "reading": "Yuánxiāojié chī shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "吃汤圆！很好吃！",
+      "reading": "Chī tāngyuán! Hěn hǎochī!"
+    }
+  ]
+}

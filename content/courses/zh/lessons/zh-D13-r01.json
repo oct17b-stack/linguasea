@@ -1,0 +1,89 @@
+{
+  "id": "zh-D13-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.hu-tong",
+      "text": "胡同",
+      "reading": "hútòng"
+    },
+    {
+      "id": "zh.si-he-yuan",
+      "text": "四合院",
+      "reading": "sìhéyuàn"
+    },
+    {
+      "id": "zh.chai-demolish",
+      "text": "拆",
+      "reading": "chāi"
+    },
+    {
+      "id": "zh.lao-bei-jing",
+      "kind": "phrase",
+      "text": "老北京",
+      "reading": "lǎo Běijīng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "我出生在北京，以前我家住在胡同里。",
+        "reading": "Wǒ chūshēng zài Běijīng, yǐqián wǒ jiā zhù zài hútòng li."
+      },
+      {
+        "text": "我们住在一个四合院里，四合院里住着四家人。",
+        "reading": "Wǒmen zhù zài yī ge sìhéyuàn li, sìhéyuàn li zhù zhe sì jiā rén."
+      },
+      {
+        "text": "夏天的晚上，邻居们常常坐在外面聊天，孩子们在胡同里玩儿。",
+        "reading": "Xiàtiān de wǎnshang, línjūmen chángcháng zuò zài wàimiàn liáotiān, háizimen zài hútòng li wánr."
+      }
+    ],
+    [
+      {
+        "text": "这二十年，北京发展得越来越快，很多胡同被拆了。",
+        "reading": "Zhè èrshí nián, Běijīng fāzhǎn de yuèláiyuè kuài, hěn duō hútòng bèi chāi le."
+      },
+      {
+        "text": "我家的四合院也被拆了，我们搬进了高楼。",
+        "reading": "Wǒ jiā de sìhéyuàn yě bèi chāi le, wǒmen bānjìn le gāolóu."
+      },
+      {
+        "text": "新家有电梯，也有空调，很方便，可是邻居们很少见面。",
+        "reading": "Xīn jiā yǒu diàntī, yě yǒu kōngtiáo, hěn fāngbiàn, kěshì línjūmen hěn shǎo jiànmiàn."
+      },
+      {
+        "text": "现在北京到处都是高楼和地铁，变得很现代。",
+        "reading": "Xiànzài Běijīng dàochù dōu shì gāolóu hé dìtiě, biàn de hěn xiàndài."
+      }
+    ],
+    [
+      {
+        "text": "不过，北京还有一些老胡同，很多游客都去那儿看看。",
+        "reading": "Bùguò, Běijīng hái yǒu yīxiē lǎo hútòng, hěn duō yóukè dōu qù nàr kànkan."
+      },
+      {
+        "text": "每次回到那儿，我都会想起老北京的生活。",
+        "reading": "Měi cì huídào nàr, wǒ dōu huì xiǎngqǐ lǎo Běijīng de shēnghuó."
+      },
+      {
+        "text": "我觉得，这些老胡同是北京最美的地方之一。",
+        "reading": "Wǒ juéde, zhèxiē lǎo hútòng shì Běijīng zuì měi de dìfang zhīyī."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

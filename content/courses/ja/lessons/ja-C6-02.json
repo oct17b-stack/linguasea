@@ -1,0 +1,75 @@
+{
+  "id": "ja-C6-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ryokan",
+      "text": "旅館",
+      "reading": "ryokan"
+    },
+    {
+      "id": "ja.onsen",
+      "text": "おんせん",
+      "reading": "onsen"
+    },
+    {
+      "id": "ja.jinja",
+      "text": "じんじゃ",
+      "reading": "jinja"
+    },
+    {
+      "id": "ja.otera",
+      "text": "おてら",
+      "reading": "otera"
+    },
+    {
+      "id": "ja.minato",
+      "text": "みなと",
+      "reading": "minato"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ほっかいどうでは どこに とまりましたか。",
+      "reading": "Namu-san, Hokkaidō de wa doko ni tomarimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ふるい 旅館でした。おんせんも ありました。",
+      "reading": "Furui ryokan deshita. Onsen mo arimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "旅館は さむくなかったですか。",
+      "reading": "Ryokan wa samukunakatta desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、さむくなかったです。おんせんも あたたかくて、よかったです。",
+      "reading": "Iie, samukunakatta desu. Onsen mo atatakakute, yokatta desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じんじゃや おてらにも いきましたか。",
+      "reading": "Jinja ya otera ni mo ikimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じんじゃは いきましたが、おてらは いきませんでした。",
+      "reading": "Jinja wa ikimashita ga, otera wa ikimasen deshita."
+    },
+    {
+      "speaker": "c",
+      "text": "みなとの まちは にぎやかでしたか。",
+      "reading": "Minato no machi wa nigiyaka deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、にぎやかじゃ ありませんでした。でも、みなとの ゆうひが きれいでした。",
+      "reading": "Iie, nigiyaka ja arimasen deshita. Demo, minato no yūhi ga kirei deshita."
+    }
+  ]
+}

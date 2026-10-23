@@ -1,0 +1,70 @@
+{
+  "id": "ja-C2-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shokuji",
+      "text": "食事",
+      "reading": "shokuji"
+    },
+    {
+      "id": "ja.chuusha",
+      "text": "ちゅうしゃ",
+      "reading": "chūsha"
+    },
+    {
+      "id": "ja.nyuuin",
+      "text": "入院",
+      "reading": "nyūin"
+    },
+    {
+      "id": "ja.taiin",
+      "text": "たいいん",
+      "reading": "taiin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "きむらせんぱい、足は どうですか。",
+      "reading": "Kimura-senpai, ashi wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "よく なりました。あさって たいいんします。",
+      "reading": "Yoku narimashita. Asatte taiin shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。入院は たいへんですね。",
+      "reading": "Yokatta desu. Nyūin wa taihen desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ちゅうしゃは にがてです。でも、食事は おいしいですよ。",
+      "reading": "Chūsha wa nigate desu. Demo, shokuji wa oishii desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "きむらさん、くすりの じかんですよ。この くすりは 食事の まえに のみます。",
+      "reading": "Kimura-san, kusuri no jikan desu yo. Kono kusuri wa shokuji no mae ni nomimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。あかい くすりは？",
+      "reading": "Hai. Akai kusuri wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "あかい くすりは 食事の あとで のみます。しろい くすりは ねる まえです。",
+      "reading": "Akai kusuri wa shokuji no ato de nomimasu. Shiroi kusuri wa neru mae desu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。ありがとうございます。",
+      "reading": "Wakarimashita. Arigatō gozaimasu."
+    }
+  ]
+}

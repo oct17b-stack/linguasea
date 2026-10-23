@@ -1,0 +1,56 @@
+{
+  "id": "zh-A9-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ming-bai",
+      "text": "明白",
+      "reading": "míngbai"
+    },
+    {
+      "id": "zh.zhi-dao",
+      "text": "知道",
+      "reading": "zhīdào"
+    },
+    {
+      "id": "zh.zai-shuo-yi-bian",
+      "kind": "phrase",
+      "text": "再说一遍",
+      "reading": "zài shuō yī biàn"
+    },
+    {
+      "id": "zh.jiao-teach",
+      "text": "教",
+      "reading": "jiāo"
+    },
+    {
+      "id": "zh.xue",
+      "text": "学",
+      "reading": "xué"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "我教，你们学。这个字是“明”。",
+      "reading": "Wǒ jiāo, nǐmen xué. Zhège zì shì “míng”."
+    },
+    {
+      "speaker": "a",
+      "text": "对不起，请再说一遍。",
+      "reading": "Duìbuqǐ, qǐng zài shuō yī biàn."
+    },
+    {
+      "speaker": "c",
+      "text": "“明”，王明的“明”。",
+      "reading": "“Míng”, Wáng Míng de “míng”."
+    },
+    {
+      "speaker": "a",
+      "text": "明白了！我知道这个字！",
+      "reading": "Míngbai le! Wǒ zhīdào zhège zì!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A14-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.sheng-dan-jie",
+      "text": "圣诞节",
+      "reading": "Shèngdànjié"
+    },
+    {
+      "id": "zh.wan-sheng-jie",
+      "text": "万圣节",
+      "reading": "Wànshèngjié"
+    },
+    {
+      "id": "zh.lao-dong-jie",
+      "text": "劳动节",
+      "reading": "Láodòngjié"
+    },
+    {
+      "id": "zh.fu-nv-jie",
+      "text": "妇女节",
+      "reading": "Fùnǚjié"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "中国人喜欢圣诞节吗？",
+      "reading": "Zhōngguó rén xǐhuan Shèngdànjié ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很多人喜欢。我喜欢劳动节！",
+      "reading": "Hěn duō rén xǐhuan. Wǒ xǐhuan Láodòngjié!"
+    },
+    {
+      "speaker": "a",
+      "text": "劳动节？你喜欢劳动？",
+      "reading": "Láodòngjié? Nǐ xǐhuan láodòng?"
+    },
+    {
+      "speaker": "b",
+      "text": "不！劳动节不劳动！",
+      "reading": "Bù! Láodòngjié bù láodòng!"
+    }
+  ]
+}

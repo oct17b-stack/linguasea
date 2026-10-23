@@ -1,0 +1,65 @@
+{
+  "id": "zh-B11-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.hao-duo",
+      "text": "好多",
+      "reading": "hǎoduō"
+    },
+    {
+      "id": "zh.bu-shao",
+      "text": "不少",
+      "reading": "bùshǎo"
+    },
+    {
+      "id": "zh.you-de",
+      "text": "有的",
+      "reading": "yǒude"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "十月十六日，星期五。",
+        "reading": "Shí yuè shíliù rì, xīngqīwǔ."
+      },
+      {
+        "text": "这个星期的中文课有好多新词。",
+        "reading": "Zhège xīngqī de Zhōngwén kè yǒu hǎoduō xīn cí."
+      },
+      {
+        "text": "有的词不难，有的词很难。",
+        "reading": "Yǒude cí bù nán, yǒude cí hěn nán."
+      },
+      {
+        "text": "不少汉字我还不认得。",
+        "reading": "Bùshǎo Hànzì wǒ hái bù rènde."
+      }
+    ],
+    [
+      {
+        "text": "王明每天和我说中文。",
+        "reading": "Wáng Míng měitiān hé wǒ shuō Zhōngwén."
+      },
+      {
+        "text": "他教我好多新词，我真高兴！",
+        "reading": "Tā jiāo wǒ hǎoduō xīn cí, wǒ zhēn gāoxìng!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

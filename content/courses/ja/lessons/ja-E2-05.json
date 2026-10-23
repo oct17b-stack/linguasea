@@ -1,0 +1,95 @@
+{
+  "id": "ja-E2-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.setsuden",
+      "text": "せつでん",
+      "reading": "setsuden"
+    },
+    {
+      "id": "ja.shouene",
+      "text": "しょうエネ",
+      "reading": "shōene"
+    },
+    {
+      "id": "ja.taiyoukou",
+      "text": "太陽光",
+      "reading": "taiyōkō"
+    },
+    {
+      "id": "ja.enerugii",
+      "text": "エネルギー",
+      "reading": "enerugī"
+    },
+    {
+      "id": "ja.denkidai",
+      "text": "電気代",
+      "reading": "denkidai"
+    },
+    {
+      "id": "ja.hikari",
+      "text": "光",
+      "reading": "hikari"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "今月の電気代、すごくたかかったよ…。",
+      "reading": "Kongetsu no denkidai, sugoku takakatta yo…."
+    },
+    {
+      "speaker": "c",
+      "text": "あつい日がつづいたせいで、エアコンをたくさんつかったからでしょう？",
+      "reading": "Atsui hi ga tsuzuita sei de, eakon o takusan tsukatta kara deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。それに、あつさのせいで、よるもよくねられなかった。",
+      "reading": "Un. Sore ni, atsusa no sei de, yoru mo yoku nerarenakatta."
+    },
+    {
+      "speaker": "c",
+      "text": "うちは、きょねんから太陽光で電気を作っているんだ。",
+      "reading": "Uchi wa, kyonen kara taiyōkō de denki o tsukutte iru n da."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、すごい！電気代はやすくなった？",
+      "reading": "Hē, sugoi! Denkidai wa yasuku natta?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。太陽光のおかげで、電気代がずいぶんやすくなったよ。",
+      "reading": "Un. Taiyōkō no okage de, denkidai ga zuibun yasuku natta yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいなあ。タイは、光がつよい日がおおいから、太陽光のエネルギーがたくさんつかえるね。",
+      "reading": "Ii nā. Tai wa, hikari ga tsuyoi hi ga ōi kara, taiyōkō no enerugī ga takusan tsukaeru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。アパートなら、しょうエネのエアコンをえらぶとか、こまめにせつでんするとか。",
+      "reading": "Sō da ne. Apāto nara, shōene no eakon o erabu toka, komame ni setsuden suru toka."
+    },
+    {
+      "speaker": "a",
+      "text": "こまめにせつでんするって？",
+      "reading": "Komame ni setsuden suru tte?"
+    },
+    {
+      "speaker": "c",
+      "text": "ひつようなときだけ電気をつかう、とかね。",
+      "reading": "Hitsuyō na toki dake denki o tsukau, toka ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わかった。来月は電気代が下がるように、せつでんをがんばるよ！",
+      "reading": "Wakatta. Raigetsu wa denkidai ga sagaru yō ni, setsuden o ganbaru yo!"
+    }
+  ]
+}

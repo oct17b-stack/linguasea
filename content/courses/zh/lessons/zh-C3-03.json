@@ -1,0 +1,75 @@
+{
+  "id": "zh-C3-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shu-xue",
+      "text": "数学",
+      "reading": "shùxué"
+    },
+    {
+      "id": "zh.li-shi",
+      "text": "历史",
+      "reading": "lìshǐ"
+    },
+    {
+      "id": "zh.ti-yu",
+      "text": "体育",
+      "reading": "tǐyù"
+    },
+    {
+      "id": "zh.wen-hua",
+      "text": "文化",
+      "reading": "wénhuà"
+    },
+    {
+      "id": "zh.yu-yan",
+      "text": "语言",
+      "reading": "yǔyán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你们的课都是语言课吗？",
+      "reading": "Xiǎonán, nǐmen de kè dōu shì yǔyán kè ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不都是。星期一第一节是口语课，第二节是阅读课。",
+      "reading": "Bù dōu shì. Xīngqīyī dì-yī jié shì kǒuyǔ kè, dì-èr jié shì yuèdú kè."
+    },
+    {
+      "speaker": "b",
+      "text": "第三节呢？",
+      "reading": "Dì-sān jié ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "第三节和第四节是中国文化课。我最喜欢文化课！",
+      "reading": "Dì-sān jié hé dì-sì jié shì Zhōngguó wénhuà kè. Wǒ zuì xǐhuan wénhuà kè!"
+    },
+    {
+      "speaker": "b",
+      "text": "你们有历史课和体育课吗？",
+      "reading": "Nǐmen yǒu lìshǐ kè hé tǐyù kè ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。星期三有中国历史，星期五有体育。",
+      "reading": "Yǒu. Xīngqīsān yǒu Zhōngguó lìshǐ, xīngqīwǔ yǒu tǐyù."
+    },
+    {
+      "speaker": "b",
+      "text": "有数学课吗？",
+      "reading": "Yǒu shùxué kè ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有，太好了！我最怕数学。",
+      "reading": "Méiyǒu, tài hǎo le! Wǒ zuì pà shùxué."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C11-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.mensetsu",
+      "text": "めんせつ",
+      "reading": "mensetsu"
+    },
+    {
+      "id": "ja.rirekisho",
+      "text": "りれきしょ",
+      "reading": "rirekisho"
+    },
+    {
+      "id": "ja.koutsuuhi",
+      "text": "こうつうひ",
+      "reading": "kōtsūhi"
+    },
+    {
+      "id": "ja.jouken",
+      "text": "じょうけん",
+      "reading": "jōken"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "もしもし。カフェの アルバイトの ことで、でんわしました。",
+      "reading": "Moshimoshi. Kafe no arubaito no koto de, denwa shimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。では、めんせつに きて ください。",
+      "reading": "Arigatō gozaimasu. Dewa, mensetsu ni kite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "めんせつは いつか おしえて ください。",
+      "reading": "Mensetsu wa itsu ka oshiete kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "来週の すいようびの 3時です。りれきしょも おねがいします。",
+      "reading": "Raishū no suiyōbi no sanji desu. Rirekisho mo onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、りれきしょに なにを かくか わかりません。",
+      "reading": "Sumimasen, rirekisho ni nani o kaku ka wakarimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "なまえと でんわばんごうと、アルバイトの けいけんなどを かいて ください。",
+      "reading": "Namae to denwa bangō to, arubaito no keiken nado o kaite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。それから、こうつうひは いくら でるか、おしえて ください。",
+      "reading": "Wakarimashita. Sorekara, kōtsūhi wa ikura deru ka, oshiete kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "まいつき 5,000円までです。ほかの じょうけんは、めんせつで せつめいしますね。",
+      "reading": "Maitsuki gosen en made desu. Hoka no jōken wa, mensetsu de setsumei shimasu ne."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C8-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kumo",
+      "text": "くも",
+      "reading": "kumo"
+    },
+    {
+      "id": "ja.hikaru",
+      "text": "ひかる",
+      "reading": "hikaru"
+    },
+    {
+      "id": "ja.tsumoru",
+      "text": "つもる",
+      "reading": "tsumoru"
+    },
+    {
+      "id": "ja.nureru",
+      "text": "ぬれる",
+      "reading": "nureru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "もしもし、ゆき？ そと みて！ ゆきが ふって いる！",
+      "reading": "Moshimoshi, Yuki? Soto mite! Yuki ga futte iru!"
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとうだ！ たくさん つもって いるね。",
+      "reading": "Hontō da! Takusan tsumotte iru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきの まちは きれい…。そらは ぜんぶ くもだね。",
+      "reading": "Yuki no machi wa kirei…. Sora wa zenbu kumo da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、いま なに して いる？",
+      "reading": "Namu, ima nani shite iru?"
+    },
+    {
+      "speaker": "a",
+      "text": "まどから しゃしんを とって いる。",
+      "reading": "Mado kara shashin o totte iru."
+    },
+    {
+      "speaker": "c",
+      "text": "そとは さむいよ。くつが ぬれるから、きを つけてね。",
+      "reading": "Soto wa samui yo. Kutsu ga nureru kara, ki o tsukete ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。あ、ゆきが ひかって いる。",
+      "reading": "Un. A, yuki ga hikatte iru."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとうだ。いま、はれだね。",
+      "reading": "Hontō da. Ima, hare da ne."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A9-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ke-ben",
+      "text": "课本",
+      "reading": "kèběn"
+    },
+    {
+      "id": "zh.ben",
+      "text": "本",
+      "reading": "běn"
+    },
+    {
+      "id": "zh.ye-page",
+      "text": "页",
+      "reading": "yè"
+    },
+    {
+      "id": "zh.da-kai",
+      "text": "打开",
+      "reading": "dǎkāi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "请打开课本，第十页。",
+      "reading": "Qǐng dǎkāi kèběn, dì-shí yè."
+    },
+    {
+      "speaker": "a",
+      "text": "对不起，我没有课本。",
+      "reading": "Duìbuqǐ, wǒ méiyǒu kèběn."
+    },
+    {
+      "speaker": "c",
+      "text": "我有两本。这本给你。",
+      "reading": "Wǒ yǒu liǎng běn. Zhè běn gěi nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢老师！",
+      "reading": "Xièxie lǎoshī!"
+    }
+  ]
+}

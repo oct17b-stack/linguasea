@@ -1,0 +1,76 @@
+{
+  "id": "zh-C1-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jing-chang",
+      "text": "经常",
+      "reading": "jīngcháng"
+    },
+    {
+      "id": "zh.xiao-shuo",
+      "text": "小说",
+      "reading": "xiǎoshuō"
+    },
+    {
+      "id": "zh.gu-shi",
+      "text": "故事",
+      "reading": "gùshi"
+    },
+    {
+      "id": "zh.za-zhi",
+      "text": "杂志",
+      "reading": "zázhì"
+    },
+    {
+      "id": "zh.hen-shao",
+      "text": "很少",
+      "reading": "hěn shǎo",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你经常看书吗？",
+      "reading": "Xiǎonán, nǐ jīngcháng kàn shū ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "经常看。我很喜欢看小说。",
+      "reading": "Jīngcháng kàn. Wǒ hěn xǐhuan kàn xiǎoshuō."
+    },
+    {
+      "speaker": "c",
+      "text": "你看中文小说吗？",
+      "reading": "Nǐ kàn Zhōngwén xiǎoshuō ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很少看，中文小说太难了。我有时候在手机上看泰国小说。",
+      "reading": "Hěn shǎo kàn, Zhōngwén xiǎoshuō tài nán le. Wǒ yǒushíhou zài shǒujī shang kàn Tàiguó xiǎoshuō."
+    },
+    {
+      "speaker": "c",
+      "text": "你可以先看中文故事，故事不太难。",
+      "reading": "Nǐ kěyǐ xiān kàn Zhōngwén gùshi, gùshi bù tài nán."
+    },
+    {
+      "speaker": "a",
+      "text": "好。老师，您经常看什么？",
+      "reading": "Hǎo. Lǎoshī, nín jīngcháng kàn shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "我经常看杂志，有时候也看小说。我有一本故事书，明天给你。",
+      "reading": "Wǒ jīngcháng kàn zázhì, yǒushíhou yě kàn xiǎoshuō. Wǒ yǒu yī běn gùshishū, míngtiān gěi nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！谢谢老师！",
+      "reading": "Tài hǎo le! Xièxie lǎoshī!"
+    }
+  ]
+}

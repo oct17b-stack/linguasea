@@ -1,0 +1,82 @@
+{
+  "id": "zh-C9-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.chu-zu",
+      "text": "出租",
+      "reading": "chūzū"
+    },
+    {
+      "id": "zh.jiao-tong",
+      "text": "交通",
+      "reading": "jiāotōng"
+    },
+    {
+      "id": "zh.lian-xi-contact",
+      "text": "联系",
+      "reading": "liánxì"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "学校东门附近有一套房子出租。",
+        "reading": "Xuéxiào dōngmén fùjìn yǒu yī tào fángzi chūzū."
+      },
+      {
+        "text": "房子在三层，朝南，很亮。",
+        "reading": "Fángzi zài sān céng, cháo nán, hěn liàng."
+      },
+      {
+        "text": "房子里有两个房间、一个客厅和一个厨房。",
+        "reading": "Fángzi lǐ yǒu liǎng ge fángjiān, yī ge kètīng hé yī ge chúfáng."
+      }
+    ],
+    [
+      {
+        "text": "房间里有床、桌子和空调，厨房里有一个新冰箱。",
+        "reading": "Fángjiān lǐ yǒu chuáng, zhuōzi hé kōngtiáo, chúfáng lǐ yǒu yī ge xīn bīngxiāng."
+      },
+      {
+        "text": "小区很安静，楼下是一个超市。",
+        "reading": "Xiǎoqū hěn ānjìng, lóuxià shì yī ge chāoshì."
+      },
+      {
+        "text": "交通很方便，走路五分钟就到地铁站。",
+        "reading": "Jiāotōng hěn fāngbiàn, zǒulù wǔ fēnzhōng jiù dào dìtiězhàn."
+      }
+    ],
+    [
+      {
+        "text": "房租每个月三千二百元，押金一个月。",
+        "reading": "Fángzū měi ge yuè sānqiān èrbǎi yuán, yājīn yī ge yuè."
+      },
+      {
+        "text": "房子里不能养猫和狗。",
+        "reading": "Fángzi lǐ bù néng yǎng māo hé gǒu."
+      },
+      {
+        "text": "想来看房子，请联系房东，周末和晚上都可以。",
+        "reading": "Xiǎng lái kàn fángzi, qǐng liánxì fángdōng, zhōumò hé wǎnshang dōu kěyǐ."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

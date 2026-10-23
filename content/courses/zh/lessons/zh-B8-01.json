@@ -1,0 +1,61 @@
+{
+  "id": "zh-B8-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.dian-hua",
+      "text": "电话",
+      "reading": "diànhuà"
+    },
+    {
+      "id": "zh.da-dian-hua",
+      "kind": "phrase",
+      "text": "打电话",
+      "reading": "dǎ diànhuà"
+    },
+    {
+      "id": "zh.wei",
+      "text": "喂",
+      "reading": "wéi"
+    },
+    {
+      "id": "zh.hao-ma",
+      "text": "号码",
+      "reading": "hàomǎ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你的电话号码是多少？",
+      "reading": "Xiǎonán, nǐ de diànhuà hàomǎ shì duōshao?"
+    },
+    {
+      "speaker": "a",
+      "text": "我给你打电话吧！",
+      "reading": "Wǒ gěi nǐ dǎ diànhuà ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "喂？是小南吗？",
+      "reading": "Wéi? Shì Xiǎonán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "喂！对，是我！",
+      "reading": "Wéi! Duì, shì wǒ!"
+    },
+    {
+      "speaker": "b",
+      "text": "这是你的号码，对吗？",
+      "reading": "Zhè shì nǐ de hàomǎ, duì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！",
+      "reading": "Duì!"
+    }
+  ]
+}

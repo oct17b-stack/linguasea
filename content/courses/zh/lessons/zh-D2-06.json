@@ -1,0 +1,85 @@
+{
+  "id": "zh-D2-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ping-jia",
+      "text": "评价",
+      "reading": "píngjià"
+    },
+    {
+      "id": "zh.tiao-jian",
+      "text": "条件",
+      "reading": "tiáojiàn"
+    },
+    {
+      "id": "zh.wei-sheng",
+      "text": "卫生",
+      "reading": "wèishēng"
+    },
+    {
+      "id": "zh.wei-zhi",
+      "text": "位置",
+      "reading": "wèizhi"
+    },
+    {
+      "id": "zh.te-dian",
+      "text": "特点",
+      "reading": "tèdiǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在用手机写什么呢？",
+      "reading": "Xiǎonán, nǐ zài yòng shǒujī xiě shénme ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在网上给宾馆写评价。",
+      "reading": "Wǒ zài wǎngshang gěi bīnguǎn xiě píngjià."
+    },
+    {
+      "speaker": "b",
+      "text": "你觉得那个宾馆怎么样？",
+      "reading": "Nǐ juéde nàge bīnguǎn zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "位置很好，离车站很近，交通也很方便。",
+      "reading": "Wèizhi hěn hǎo, lí chēzhàn hěn jìn, jiāotōng yě hěn fāngbiàn."
+    },
+    {
+      "speaker": "b",
+      "text": "房间的条件呢？",
+      "reading": "Fángjiān de tiáojiàn ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "条件不太好。空调有毛病，网也断了。",
+      "reading": "Tiáojiàn bù tài hǎo. Kōngtiáo yǒu máobing, wǎng yě duàn le."
+    },
+    {
+      "speaker": "b",
+      "text": "卫生呢？",
+      "reading": "Wèishēng ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "还可以。可是华山的小旅馆比那个宾馆还干净！",
+      "reading": "Hái kěyǐ. Kěshì Huàshān de xiǎo lǚguǎn bǐ nàge bīnguǎn hái gānjìng!"
+    },
+    {
+      "speaker": "b",
+      "text": "而且那儿的阿姨比服务员还热情。那个旅馆最大的特点就是便宜。",
+      "reading": "Érqiě nàr de āyí bǐ fúwùyuán hái rèqíng. Nàge lǚguǎn zuì dà de tèdiǎn jiù shì piányi."
+    },
+    {
+      "speaker": "a",
+      "text": "对！我也要给那个小旅馆写一个评价。",
+      "reading": "Duì! Wǒ yě yào gěi nàge xiǎo lǚguǎn xiě yī ge píngjià."
+    }
+  ]
+}

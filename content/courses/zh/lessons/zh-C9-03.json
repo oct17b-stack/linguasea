@@ -1,0 +1,70 @@
+{
+  "id": "zh-C9-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.huan-jing",
+      "text": "环境",
+      "reading": "huánjìng"
+    },
+    {
+      "id": "zh.an-quan",
+      "text": "安全",
+      "reading": "ānquán"
+    },
+    {
+      "id": "zh.zhou-wei",
+      "text": "周围",
+      "reading": "zhōuwéi"
+    },
+    {
+      "id": "zh.xiao-qu",
+      "text": "小区",
+      "reading": "xiǎoqū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，那个小区怎么样？",
+      "reading": "Xiǎonán, nàge xiǎoqū zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "环境很好，小区里很安静，也很安全。",
+      "reading": "Huánjìng hěn hǎo, xiǎoqū lǐ hěn ānjìng, yě hěn ānquán."
+    },
+    {
+      "speaker": "b",
+      "text": "周围有什么？方便吗？",
+      "reading": "Zhōuwéi yǒu shénme? Fāngbiàn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很方便。楼下是一个超市，超市旁边是一个小饭馆。",
+      "reading": "Hěn fāngbiàn. Lóuxià shì yī ge chāoshì, chāoshì pángbiān shì yī ge xiǎo fànguǎn."
+    },
+    {
+      "speaker": "b",
+      "text": "离地铁站远吗？",
+      "reading": "Lí dìtiězhàn yuǎn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不远，小区对面就是地铁站。",
+      "reading": "Bù yuǎn, xiǎoqū duìmiàn jiù shì dìtiězhàn."
+    },
+    {
+      "speaker": "b",
+      "text": "附近有公园吗？",
+      "reading": "Fùjìn yǒu gōngyuán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，小区东边是一个大公园，我可以去那儿散步。",
+      "reading": "Yǒu, xiǎoqū dōngbian shì yī ge dà gōngyuán, wǒ kěyǐ qù nàr sànbù."
+    }
+  ]
+}

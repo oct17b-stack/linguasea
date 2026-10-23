@@ -1,0 +1,90 @@
+{
+  "id": "zh-D12-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ci-zhi",
+      "text": "辞职",
+      "reading": "cízhí"
+    },
+    {
+      "id": "zh.ji-xu",
+      "text": "继续",
+      "reading": "jìxù"
+    },
+    {
+      "id": "zh.pi-ping",
+      "text": "批评",
+      "reading": "pīpíng"
+    },
+    {
+      "id": "zh.wei-qu",
+      "text": "委屈",
+      "reading": "wěiqu"
+    },
+    {
+      "id": "zh.gao-bie",
+      "text": "告别",
+      "reading": "gàobié"
+    },
+    {
+      "id": "zh.xia-qu",
+      "text": "下去",
+      "reading": "xiàqù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你怎么了？好像不太高兴。",
+      "reading": "Xiǎonán, nǐ zěnme le? Hǎoxiàng bù tài gāoxìng."
+    },
+    {
+      "speaker": "a",
+      "text": "今天老板批评了我，我觉得很委屈。",
+      "reading": "Jīntiān lǎobǎn pīpíng le wǒ, wǒ juéde hěn wěiqu."
+    },
+    {
+      "speaker": "b",
+      "text": "他为什么批评你？",
+      "reading": "Tā wèi shénme pīpíng nǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "一个顾客说他的咖啡做错了，可是那杯咖啡不是我做的。",
+      "reading": "Yī ge gùkè shuō tā de kāfēi zuòcuò le, kěshì nà bēi kāfēi bù shì wǒ zuò de."
+    },
+    {
+      "speaker": "b",
+      "text": "你跟老板说清楚了吗？",
+      "reading": "Nǐ gēn lǎobǎn shuō qīngchu le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "说了，可是他不听。这份工作我不想做下去了，我想辞职。",
+      "reading": "Shuō le, kěshì tā bù tīng. Zhè fèn gōngzuò wǒ bù xiǎng zuò xiàqù le, wǒ xiǎng cízhí."
+    },
+    {
+      "speaker": "b",
+      "text": "别着急辞职。你不是很喜欢这个工作吗？",
+      "reading": "Bié zháojí cízhí. Nǐ bù shì hěn xǐhuan zhège gōngzuò ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是很喜欢，同事们对我都很好。",
+      "reading": "Shì hěn xǐhuan, tóngshìmen duì wǒ dōu hěn hǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "那就继续做下去吧。明天再跟老板好好说说。",
+      "reading": "Nà jiù jìxù zuò xiàqù ba. Míngtiān zài gēn lǎobǎn hǎohǎo shuōshuo."
+    },
+    {
+      "speaker": "a",
+      "text": "你说得对。我先做下去，三个月以后再跟大家告别。",
+      "reading": "Nǐ shuō de duì. Wǒ xiān zuò xiàqù, sān ge yuè yǐhòu zài gēn dàjiā gàobié."
+    }
+  ]
+}

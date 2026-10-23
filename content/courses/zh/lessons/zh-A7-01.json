@@ -1,0 +1,50 @@
+{
+  "id": "zh-A7-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shou-ji",
+      "text": "手机",
+      "reading": "shǒujī"
+    },
+    {
+      "id": "zh.dian-nao",
+      "text": "电脑",
+      "reading": "diànnǎo"
+    },
+    {
+      "id": "zh.bao",
+      "text": "包",
+      "reading": "bāo"
+    },
+    {
+      "id": "zh.qian-bao",
+      "text": "钱包",
+      "reading": "qiánbāo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是你的包吗？",
+      "reading": "Xiǎonán, zhè shì nǐ de bāo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是。这是我的钱包和手机。",
+      "reading": "Shì. Zhè shì wǒ de qiánbāo hé shǒujī."
+    },
+    {
+      "speaker": "b",
+      "text": "那是你的电脑吗？",
+      "reading": "Nà shì nǐ de diànnǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，是我爸爸的。",
+      "reading": "Bù shì, shì wǒ bàba de."
+    }
+  ]
+}

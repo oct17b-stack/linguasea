@@ -1,0 +1,80 @@
+{
+  "id": "ja-C10-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.zairyou",
+      "text": "ざいりょう",
+      "reading": "zairyō"
+    },
+    {
+      "id": "ja.mazeru",
+      "text": "まぜる",
+      "reading": "mazeru"
+    },
+    {
+      "id": "ja.musu",
+      "text": "むす",
+      "reading": "musu"
+    },
+    {
+      "id": "ja.yaku",
+      "text": "やく",
+      "reading": "yaku"
+    },
+    {
+      "id": "ja.itameru",
+      "text": "いためる",
+      "reading": "itameru"
+    },
+    {
+      "id": "ja.kiru-cut",
+      "text": "切る",
+      "reading": "kiru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、タイりょうりを おしえて！",
+      "reading": "Namu, Tai ryōri o oshiete!"
+    },
+    {
+      "speaker": "a",
+      "text": "いいよ。きょうは ガイヤーンと カオニャオに する？",
+      "reading": "Ii yo. Kyō wa gaiyān to kaonyao ni suru?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん！ ざいりょうは なに？",
+      "reading": "Un! Zairyō wa nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "にくと さとうと、いろいろ。にくを 切って、ほかの ざいりょうと まぜて、やくよ。",
+      "reading": "Niku to satō to, iroiro. Niku o kitte, hoka no zairyō to mazete, yaku yo."
+    },
+    {
+      "speaker": "c",
+      "text": "カオニャオは？",
+      "reading": "Kaonyao wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "カオニャオは むして、手で たべるよ。",
+      "reading": "Kaonyao wa mushite, te de taberu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ、おもしろい！ パッタイは？",
+      "reading": "Hē, omoshiroi! Pattai wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "パッタイは いためる りょうり。それは こんどね！",
+      "reading": "Pattai wa itameru ryōri. Sore wa kondo ne!"
+    }
+  ]
+}

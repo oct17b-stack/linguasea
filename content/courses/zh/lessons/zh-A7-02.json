@@ -1,0 +1,50 @@
+{
+  "id": "zh-A7-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhe-xie",
+      "text": "这些",
+      "reading": "zhèxiē"
+    },
+    {
+      "id": "zh.na-xie",
+      "text": "那些",
+      "reading": "nàxiē"
+    },
+    {
+      "id": "zh.bei-zi",
+      "text": "杯子",
+      "reading": "bēizi"
+    },
+    {
+      "id": "zh.shou-biao",
+      "text": "手表",
+      "reading": "shǒubiǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "这些杯子是谁的？",
+      "reading": "Zhèxiē bēizi shì shéi de?"
+    },
+    {
+      "speaker": "a",
+      "text": "这些是我的，那些是他的。",
+      "reading": "Zhèxiē shì wǒ de, nàxiē shì tā de."
+    },
+    {
+      "speaker": "c",
+      "text": "手表呢？",
+      "reading": "Shǒubiǎo ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "也是王明的！",
+      "reading": "Yě shì Wáng Míng de!"
+    }
+  ]
+}

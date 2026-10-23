@@ -1,0 +1,80 @@
+{
+  "id": "zh-C10-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ji-mail",
+      "text": "寄",
+      "reading": "jì"
+    },
+    {
+      "id": "zh.bao-guo",
+      "text": "包裹",
+      "reading": "bāoguǒ"
+    },
+    {
+      "id": "zh.you-ju",
+      "text": "邮局",
+      "reading": "yóujú"
+    },
+    {
+      "id": "zh.di-zhi",
+      "text": "地址",
+      "reading": "dìzhǐ"
+    },
+    {
+      "id": "zh.xin-letter",
+      "text": "信",
+      "reading": "xìn"
+    },
+    {
+      "id": "zh.feng-measure",
+      "text": "封",
+      "reading": "fēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你拿着这么大的包裹去哪儿？",
+      "reading": "Xiǎonán, nǐ ná zhe zhème dà de bāoguǒ qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "去邮局，寄给我妈妈。",
+      "reading": "Qù yóujú, jì gěi wǒ māma."
+    },
+    {
+      "speaker": "b",
+      "text": "寄到泰国？",
+      "reading": "Jìdào Tàiguó?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，寄到曼谷。这是我妈妈的地址。",
+      "reading": "Duì, jìdào Màngǔ. Zhè shì wǒ māma de dìzhǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "包裹里是什么？",
+      "reading": "Bāoguǒ lǐ shì shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "一件衣服和两盒北京的茶。我妈妈很喜欢喝茶。",
+      "reading": "Yī jiàn yīfu hé liǎng hé Běijīng de chá. Wǒ māma hěn xǐhuan hē chá."
+    },
+    {
+      "speaker": "b",
+      "text": "这封信呢？也是寄给你妈妈的吗？",
+      "reading": "Zhè fēng xìn ne? Yě shì jì gěi nǐ māma de ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，是我写给妹妹的。",
+      "reading": "Bù shì, shì wǒ xiě gěi mèimei de."
+    }
+  ]
+}

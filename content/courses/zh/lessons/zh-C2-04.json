@@ -1,0 +1,75 @@
+{
+  "id": "zh-C2-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yao-medicine",
+      "text": "药",
+      "reading": "yào"
+    },
+    {
+      "id": "zh.pian",
+      "text": "片",
+      "reading": "piàn"
+    },
+    {
+      "id": "zh.yao-dian",
+      "text": "药店",
+      "reading": "yàodiàn"
+    },
+    {
+      "id": "zh.da-zhen",
+      "text": "打针",
+      "reading": "dǎzhēn"
+    },
+    {
+      "id": "zh.dei",
+      "text": "得",
+      "reading": "děi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你得吃药，还要多喝水，多休息。",
+      "reading": "Nǐ děi chī yào, hái yào duō hē shuǐ, duō xiūxi."
+    },
+    {
+      "speaker": "a",
+      "text": "要打针吗？我很怕打针。",
+      "reading": "Yào dǎzhēn ma? Wǒ hěn pà dǎzhēn."
+    },
+    {
+      "speaker": "b",
+      "text": "不用打针。这个药一天吃三次，一次两片。",
+      "reading": "Bùyòng dǎzhēn. Zhège yào yī tiān chī sān cì, yī cì liǎng piàn."
+    },
+    {
+      "speaker": "a",
+      "text": "吃饭以前吃还是吃饭以后吃？",
+      "reading": "Chīfàn yǐqián chī háishi chīfàn yǐhòu chī?"
+    },
+    {
+      "speaker": "b",
+      "text": "吃饭以后吃。你要吃三天。",
+      "reading": "Chīfàn yǐhòu chī. Nǐ yào chī sān tiān."
+    },
+    {
+      "speaker": "a",
+      "text": "我在哪儿买药？",
+      "reading": "Wǒ zài nǎr mǎi yào?"
+    },
+    {
+      "speaker": "b",
+      "text": "我们这儿没有这个药，你得去药店买。对面就有一个药店。",
+      "reading": "Wǒmen zhèr méiyǒu zhège yào, nǐ děi qù yàodiàn mǎi. Duìmiàn jiù yǒu yī ge yàodiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢大夫！",
+      "reading": "Hǎo de, xièxie dàifu!"
+    }
+  ]
+}

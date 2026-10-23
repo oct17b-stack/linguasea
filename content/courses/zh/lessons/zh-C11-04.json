@@ -1,0 +1,70 @@
+{
+  "id": "zh-C11-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jiao-lian",
+      "text": "教练",
+      "reading": "jiàoliàn"
+    },
+    {
+      "id": "zh.lian",
+      "text": "练",
+      "reading": "liàn"
+    },
+    {
+      "id": "zh.jian-chi",
+      "text": "坚持",
+      "reading": "jiānchí"
+    },
+    {
+      "id": "zh.jin-bu",
+      "text": "进步",
+      "reading": "jìnbù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，听说你在学打篮球？",
+      "reading": "Xiǎonán, tīngshuō nǐ zài xué dǎ lánqiú?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，学校有篮球课，教练每个星期六教我们。",
+      "reading": "Duì, xuéxiào yǒu lánqiú kè, jiàoliàn měi ge xīngqīliù jiāo wǒmen."
+    },
+    {
+      "speaker": "b",
+      "text": "难不难？",
+      "reading": "Nán bù nán?"
+    },
+    {
+      "speaker": "a",
+      "text": "有点儿难，可是我一有空儿就去练。",
+      "reading": "Yǒudiǎnr nán, kěshì wǒ yī yǒu kòngr jiù qù liàn."
+    },
+    {
+      "speaker": "b",
+      "text": "对啊，我一给你打电话，你就说你在练篮球！",
+      "reading": "Duì a, wǒ yī gěi nǐ dǎ diànhuà, nǐ jiù shuō nǐ zài liàn lánqiú!"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，对。教练说我进步很快。",
+      "reading": "Hāhā, duì. Jiàoliàn shuō wǒ jìnbù hěn kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！学运动，坚持最重要。",
+      "reading": "Tài hǎo le! Xué yùndòng, jiānchí zuì zhòngyào."
+    },
+    {
+      "speaker": "a",
+      "text": "对，我会坚持的！",
+      "reading": "Duì, wǒ huì jiānchí de!"
+    }
+  ]
+}

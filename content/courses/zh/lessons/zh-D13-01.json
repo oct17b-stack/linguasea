@@ -1,0 +1,85 @@
+{
+  "id": "zh-D13-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jia-xiang",
+      "text": "家乡",
+      "reading": "jiāxiāng"
+    },
+    {
+      "id": "zh.bei-bu",
+      "text": "北部",
+      "reading": "běibù"
+    },
+    {
+      "id": "zh.sheng-province",
+      "text": "省",
+      "reading": "shěng"
+    },
+    {
+      "id": "zh.yi-hundred-million",
+      "text": "亿",
+      "reading": "yì"
+    },
+    {
+      "id": "zh.di-qu",
+      "text": "地区",
+      "reading": "dìqū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，我们班要做家乡介绍。你的家乡在哪儿？",
+      "reading": "Xiǎonán, wǒmen bān yào zuò jiāxiāng jièshào. Nǐ de jiāxiāng zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我的家乡是曼谷，在泰国中部。",
+      "reading": "Wǒ de jiāxiāng shì Màngǔ, zài Tàiguó zhōngbù."
+    },
+    {
+      "speaker": "c",
+      "text": "曼谷有多少人？",
+      "reading": "Màngǔ yǒu duōshao rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "曼谷有一千多万人，是泰国最大的城市。",
+      "reading": "Màngǔ yǒu yīqiān duō wàn rén, shì Tàiguó zuì dà de chéngshì."
+    },
+    {
+      "speaker": "c",
+      "text": "比北京少一点儿。北京有两千多万人。",
+      "reading": "Bǐ Běijīng shǎo yīdiǎnr. Běijīng yǒu liǎngqiān duō wàn rén."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国一共有六千多万人。中国有十四亿人，真多啊！",
+      "reading": "Tàiguó yīgòng yǒu liùqiān duō wàn rén. Zhōngguó yǒu shísì yì rén, zhēn duō a!"
+    },
+    {
+      "speaker": "c",
+      "text": "泰国也有省吗？",
+      "reading": "Tàiguó yě yǒu shěng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，泰国一共有七十七个省。",
+      "reading": "Yǒu, Tàiguó yīgòng yǒu qīshíqī ge shěng."
+    },
+    {
+      "speaker": "c",
+      "text": "你去过泰国北部吗？听说那个地区很漂亮。",
+      "reading": "Nǐ qù guo Tàiguó běibù ma? Tīngshuō nàge dìqū hěn piàoliang."
+    },
+    {
+      "speaker": "a",
+      "text": "去过。北部有很多山，天气也比曼谷凉快。",
+      "reading": "Qù guo. Běibù yǒu hěn duō shān, tiānqì yě bǐ Màngǔ liángkuai."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhu",
+      "text": "住",
+      "reading": "zhù"
+    },
+    {
+      "id": "zh.na-li",
+      "text": "哪里",
+      "reading": "nǎlǐ"
+    },
+    {
+      "id": "zh.zhe-li",
+      "text": "这里",
+      "reading": "zhèlǐ"
+    },
+    {
+      "id": "zh.na-li-there",
+      "text": "那里",
+      "reading": "nàlǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你住哪里？",
+      "reading": "Xiǎonán, nǐ zhù nǎlǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "我住这里。",
+      "reading": "Wǒ zhù zhèlǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "李老师也住这里吗？",
+      "reading": "Lǐ lǎoshī yě zhù zhèlǐ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，她住那里。",
+      "reading": "Bù shì, tā zhù nàlǐ."
+    }
+  ]
+}

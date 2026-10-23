@@ -1,0 +1,83 @@
+{
+  "id": "ja-C1-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shoshinsha",
+      "text": "しょしんしゃ",
+      "reading": "shoshinsha"
+    },
+    {
+      "id": "ja.katsudou",
+      "text": "かつどう",
+      "reading": "katsudō"
+    },
+    {
+      "id": "ja.sanka",
+      "text": "さんか",
+      "reading": "sanka"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ダンスが すきですか。",
+        "reading": "Dansu ga suki desu ka."
+      },
+      {
+        "text": "ダンスサークルでは、いろいろな ダンスを 楽しみます。",
+        "reading": "Dansu sākuru de wa, iroiro na dansu o tanoshimimasu."
+      },
+      {
+        "text": "かつどうは まいしゅう かようびと きんようびです。",
+        "reading": "Katsudō wa maishū kayōbi to kin'yōbi desu."
+      },
+      {
+        "text": "じかんは ごご 6時から 8時までです。",
+        "reading": "Jikan wa gogo rokuji kara hachiji made desu."
+      }
+    ],
+    [
+      {
+        "text": "しょしんしゃも だいじょうぶです。",
+        "reading": "Shoshinsha mo daijōbu desu."
+      },
+      {
+        "text": "しょしんしゃの メンバーも たくさん います。",
+        "reading": "Shoshinsha no menbā mo takusan imasu."
+      },
+      {
+        "text": "11月には、だいがくの まつりで みんなで おどります。",
+        "reading": "Jūichigatsu ni wa, daigaku no matsuri de minna de odorimasu."
+      }
+    ],
+    [
+      {
+        "text": "ダンスの くつや ふくは いりません。",
+        "reading": "Dansu no kutsu ya fuku wa irimasen."
+      },
+      {
+        "text": "さんかしたいですか。",
+        "reading": "Sanka shitai desu ka."
+      },
+      {
+        "text": "かようびの 6時に、2かいの ダンスの へやへ どうぞ！",
+        "reading": "Kayōbi no rokuji ni, nikai no dansu no heya e dōzo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

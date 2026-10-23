@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shan",
+      "text": "山",
+      "reading": "shān"
+    },
+    {
+      "id": "zh.shu-tree",
+      "text": "树",
+      "reading": "shù"
+    },
+    {
+      "id": "zh.cao",
+      "text": "草",
+      "reading": "cǎo"
+    },
+    {
+      "id": "zh.hu",
+      "text": "湖",
+      "reading": "hú"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里有山，也有湖！",
+      "reading": "Xiǎonán, zhèlǐ yǒu shān, yě yǒu hú!"
+    },
+    {
+      "speaker": "a",
+      "text": "山上有很多树，很好看！",
+      "reading": "Shān shang yǒu hěn duō shù, hěn hǎokàn!"
+    },
+    {
+      "speaker": "b",
+      "text": "你家那里有山吗？",
+      "reading": "Nǐ jiā nàlǐ yǒu shān ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有。我家那里人多，树少。",
+      "reading": "Méiyǒu. Wǒ jiā nàlǐ rén duō, shù shǎo."
+    }
+  ]
+}

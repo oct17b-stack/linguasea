@@ -1,0 +1,79 @@
+{
+  "id": "en-C13-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.surprise",
+      "text": "surprise",
+      "reading": "sərˈpraɪz"
+    },
+    {
+      "id": "en.secret",
+      "text": "secret",
+      "reading": "ˈsiːkrət"
+    },
+    {
+      "id": "en.balloon",
+      "text": "balloon",
+      "reading": "bəˈluːn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Nam, Ploy's birthday is next Friday!",
+        "reading": "ˈnɑːm, ˈplɔɪz ˈbɜːrθdeɪ ɪz ˈnɛkst ˈfraɪdeɪ!"
+      },
+      {
+        "text": "Let's have a surprise party for her at my place.",
+        "reading": "ˈlɛts ˈhæv ə sərˈpraɪz ˈpɑːrti fər hɜːr ət maɪ ˈpleɪs."
+      },
+      {
+        "text": "It's a secret, so don't tell her!",
+        "reading": "ɪts ə ˈsiːkrət, soʊ ˈdoʊnt ˈtɛl hɜːr!"
+      }
+    ],
+    [
+      {
+        "text": "Great idea, Emma! I'll buy a cake and some balloons.",
+        "reading": "ˈɡreɪt aɪˈdiːə, ˈɛmə! aɪl ˈbaɪ ə ˈkeɪk ənd sʌm bəˈluːnz."
+      },
+      {
+        "text": "How about inviting our friends from class, too?",
+        "reading": "ˈhaʊ əˈbaʊt ɪnˈvaɪtɪŋ aʊr ˈfrɛndz frəm ˈklæs, ˈtuː?"
+      },
+      {
+        "text": "Ploy loves karaoke, so we can sing together.",
+        "reading": "ˈplɔɪ ˈlʌvz ˌkɛriˈoʊki, soʊ wiː kən ˈsɪŋ təˈɡɛðər."
+      }
+    ],
+    [
+      {
+        "text": "Sounds good! Let's meet at my place at six.",
+        "reading": "ˌsaʊndz ˈɡʊd! ˈlɛts ˈmiːt ət maɪ ˈpleɪs ət ˈsɪks."
+      },
+      {
+        "text": "Ploy is coming at seven, so we have an hour to decorate.",
+        "reading": "ˈplɔɪ ɪz ˈkʌmɪŋ ət ˈsɛvən, soʊ wiː ˈhæv ən ˈaʊər tə ˈdɛkəreɪt."
+      },
+      {
+        "text": "And don't forget: it's a secret!",
+        "reading": "ənd ˈdoʊnt fərˈɡɛt: ɪts ə ˈsiːkrət!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

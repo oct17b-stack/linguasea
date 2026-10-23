@@ -1,0 +1,88 @@
+{
+  "id": "ja-C3-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.gakubu",
+      "text": "がくぶ",
+      "reading": "gakubu"
+    },
+    {
+      "id": "ja.ryuugaku",
+      "text": "りゅうがく",
+      "reading": "ryūgaku"
+    },
+    {
+      "id": "ja.keizai",
+      "text": "けいざい",
+      "reading": "keizai"
+    },
+    {
+      "id": "ja.nesshin",
+      "text": "ねっしん",
+      "reading": "nesshin"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさんは タイから りゅうがくに きました。",
+        "reading": "Namu-san wa Tai kara ryūgaku ni kimashita."
+      },
+      {
+        "text": "せんもんは にほんごです。",
+        "reading": "Senmon wa Nihongo desu."
+      },
+      {
+        "text": "ゆめは タイで にほんごの せんせいに なる ことです。",
+        "reading": "Yume wa Tai de Nihongo no sensei ni naru koto desu."
+      }
+    ],
+    [
+      {
+        "text": "ミンさんは ベトナムから きました。",
+        "reading": "Min-san wa Betonamu kara kimashita."
+      },
+      {
+        "text": "がくぶは けいざいがくぶです。",
+        "reading": "Gakubu wa keizai gakubu desu."
+      },
+      {
+        "text": "しょうらいは ベトナムで ぎんこういんに なりたいです。",
+        "reading": "Shōrai wa Betonamu de ginkōin ni naritai desu."
+      }
+    ],
+    [
+      {
+        "text": "マリーさんは フランスから きました。",
+        "reading": "Marī-san wa Furansu kara kimashita."
+      },
+      {
+        "text": "せんもんは にほんの 文学です。",
+        "reading": "Senmon wa Nihon no bungaku desu."
+      },
+      {
+        "text": "まいにち としょかんで しょうせつを よみます。",
+        "reading": "Mainichi toshokan de shōsetsu o yomimasu."
+      },
+      {
+        "text": "とても ねっしんな がくせいです。",
+        "reading": "Totemo nesshin na gakusei desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

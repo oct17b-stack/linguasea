@@ -1,0 +1,85 @@
+{
+  "id": "ja-C10-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ousaji",
+      "text": "大さじ",
+      "reading": "ōsaji"
+    },
+    {
+      "id": "ja.kosaji",
+      "text": "小さじ",
+      "reading": "kosaji"
+    },
+    {
+      "id": "ja.kokonattsumiruku",
+      "text": "ココナッツミルク",
+      "reading": "kokonattsumiruku"
+    },
+    {
+      "id": "ja.yowabi",
+      "text": "よわび",
+      "reading": "yowabi"
+    },
+    {
+      "id": "ja.peesuto",
+      "text": "ペースト",
+      "reading": "pēsuto"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "タイの グリーンカレーの 作り方です。",
+        "reading": "Tai no gurīn karē no tsukurikata desu."
+      },
+      {
+        "text": "ざいりょうは、にくと やさいと ココナッツミルクです。",
+        "reading": "Zairyō wa, niku to yasai to kokonattsumiruku desu."
+      }
+    ],
+    [
+      {
+        "text": "にくと やさいを ちいさく 切ります。",
+        "reading": "Niku to yasai o chiisaku kirimasu."
+      },
+      {
+        "text": "なべに あぶらを 大さじ 1 いれて、グリーンカレーの ペーストと にくを いためます。",
+        "reading": "Nabe ni abura o ōsaji ichi irete, gurīn karē no pēsuto to niku o itamemasu."
+      },
+      {
+        "text": "ココナッツミルクと やさいを いれて、よわびで 10ぷん まちます。",
+        "reading": "Kokonattsumiruku to yasai o irete, yowabi de juppun machimasu."
+      },
+      {
+        "text": "さいごに さとうを 小さじ 1 いれます。",
+        "reading": "Saigo ni satō o kosaji ichi iremasu."
+      }
+    ],
+    [
+      {
+        "text": "あまい 味が すきな ひとは、さとうを 小さじ 2に して ください。",
+        "reading": "Amai aji ga suki na hito wa, satō o kosaji ni ni shite kudasai."
+      },
+      {
+        "text": "ごはんと いっしょに たべて ください。",
+        "reading": "Gohan to issho ni tabete kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

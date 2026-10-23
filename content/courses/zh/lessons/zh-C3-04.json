@@ -1,0 +1,80 @@
+{
+  "id": "zh-C3-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.re-qing",
+      "text": "热情",
+      "reading": "rèqíng"
+    },
+    {
+      "id": "zh.xiao-zhang",
+      "text": "校长",
+      "reading": "xiàozhǎng"
+    },
+    {
+      "id": "zh.bang-zhu",
+      "text": "帮助",
+      "reading": "bāngzhù"
+    },
+    {
+      "id": "zh.liu-xue-sheng",
+      "text": "留学生",
+      "reading": "liúxuéshēng"
+    },
+    {
+      "id": "zh.guan-xin",
+      "text": "关心",
+      "reading": "guānxīn"
+    },
+    {
+      "id": "zh.jiang-speak",
+      "text": "讲",
+      "reading": "jiǎng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你们班有多少留学生？",
+      "reading": "Xiǎonán, nǐmen bān yǒu duōshao liúxuéshēng?"
+    },
+    {
+      "speaker": "a",
+      "text": "十五个。有日本人、韩国人、越南人，还有美国人。",
+      "reading": "Shíwǔ ge. Yǒu Rìběn rén, Hánguó rén, Yuènán rén, hái yǒu Měiguó rén."
+    },
+    {
+      "speaker": "b",
+      "text": "你们的老师怎么样？",
+      "reading": "Nǐmen de lǎoshī zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "李老师对我们很热情，也很关心我们。她讲课很有意思。",
+      "reading": "Lǐ lǎoshī duì wǒmen hěn rèqíng, yě hěn guānxīn wǒmen. Tā jiǎngkè hěn yǒu yìsi."
+    },
+    {
+      "speaker": "b",
+      "text": "同学们对你好吗？",
+      "reading": "Tóngxuémen duì nǐ hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "都很好。我有问题，他们都帮助我。",
+      "reading": "Dōu hěn hǎo. Wǒ yǒu wèntí, tāmen dōu bāngzhù wǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "你们的校长呢？",
+      "reading": "Nǐmen de xiàozhǎng ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "校长对留学生也很热情。他还会说一点儿泰语！",
+      "reading": "Xiàozhǎng duì liúxuéshēng yě hěn rèqíng. Tā hái huì shuō yīdiǎnr Tàiyǔ!"
+    }
+  ]
+}

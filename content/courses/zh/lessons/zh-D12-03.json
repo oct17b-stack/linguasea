@@ -1,0 +1,90 @@
+{
+  "id": "zh-D12-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.lao-ban",
+      "text": "老板",
+      "reading": "lǎobǎn"
+    },
+    {
+      "id": "zh.gu-ke",
+      "text": "顾客",
+      "reading": "gùkè"
+    },
+    {
+      "id": "zh.pei-xun",
+      "text": "培训",
+      "reading": "péixùn"
+    },
+    {
+      "id": "zh.shu-lian",
+      "text": "熟练",
+      "reading": "shúliàn"
+    },
+    {
+      "id": "zh.dian-yuan",
+      "text": "店员",
+      "reading": "diànyuán"
+    },
+    {
+      "id": "zh.pai-send",
+      "text": "派",
+      "reading": "pài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，今天是你第一天上班，怎么样？",
+      "reading": "Xiǎonán, jīntiān shì nǐ dì-yī tiān shàngbān, zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "挺好的！上午老板给我们培训了两个小时。",
+      "reading": "Tǐng hǎo de! Shàngwǔ lǎobǎn gěi wǒmen péixùn le liǎng ge xiǎoshí."
+    },
+    {
+      "speaker": "b",
+      "text": "你学会做咖啡了吗？",
+      "reading": "Nǐ xuéhuì zuò kāfēi le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "学会了！不过我做得还不太熟练。",
+      "reading": "Xuéhuì le! Bùguò wǒ zuò de hái bù tài shúliàn."
+    },
+    {
+      "speaker": "b",
+      "text": "别着急，做多了就熟练了。",
+      "reading": "Bié zháojí, zuò duō le jiù shúliàn le."
+    },
+    {
+      "speaker": "a",
+      "text": "下午顾客特别多，老板派我去收钱。",
+      "reading": "Xiàwǔ gùkè tèbié duō, lǎobǎn pài wǒ qù shōu qián."
+    },
+    {
+      "speaker": "b",
+      "text": "收钱？你会用他们的电脑吗？",
+      "reading": "Shōu qián? Nǐ huì yòng tāmen de diànnǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "一个店员教了我十分钟，我就学会了。",
+      "reading": "Yī ge diànyuán jiāo le wǒ shí fēnzhōng, wǒ jiù xuéhuì le."
+    },
+    {
+      "speaker": "b",
+      "text": "你学得真快！顾客对你怎么样？",
+      "reading": "Nǐ xué de zhēn kuài! Gùkè duì nǐ zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "他们都很友好。有个顾客还说我的汉语说得很好！",
+      "reading": "Tāmen dōu hěn yǒuhǎo. Yǒu ge gùkè hái shuō wǒ de Hànyǔ shuō de hěn hǎo!"
+    }
+  ]
+}

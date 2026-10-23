@@ -1,0 +1,73 @@
+{
+  "id": "zh-C4-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.tu-ran",
+      "text": "突然",
+      "reading": "tūrán"
+    },
+    {
+      "id": "zh.bao-qian",
+      "text": "抱歉",
+      "reading": "bàoqiàn"
+    },
+    {
+      "id": "zh.qu-xiao",
+      "text": "取消",
+      "reading": "qǔxiāo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南：王明，真抱歉！",
+        "reading": "Xiǎonán: Wáng Míng, zhēn bàoqiàn!"
+      },
+      {
+        "text": "小南：李老师突然通知我们，下午要准备晚会的节目。",
+        "reading": "Xiǎonán: Lǐ lǎoshī tūrán tōngzhī wǒmen, xiàwǔ yào zhǔnbèi wǎnhuì de jiémù."
+      },
+      {
+        "text": "小南：下午我不能去爬山。我们取消今天的计划，改天去，好吗？",
+        "reading": "Xiǎonán: Xiàwǔ wǒ bù néng qù páshān. Wǒmen qǔxiāo jīntiān de jìhuà, gǎitiān qù, hǎo ma?"
+      }
+    ],
+    [
+      {
+        "text": "王明：没关系！晚会的节目很重要。",
+        "reading": "Wáng Míng: Méi guānxi! Wǎnhuì de jiémù hěn zhòngyào."
+      },
+      {
+        "text": "王明：下个星期六上午怎么样？",
+        "reading": "Wáng Míng: Xià ge xīngqīliù shàngwǔ zěnmeyàng?"
+      },
+      {
+        "text": "小南：好，下个星期六我没有事。",
+        "reading": "Xiǎonán: Hǎo, xià ge xīngqīliù wǒ méiyǒu shì."
+      },
+      {
+        "text": "王明：那我们八点半出发。早点儿去，山上人少。",
+        "reading": "Wáng Míng: Nà wǒmen bā diǎn bàn chūfā. Zǎo diǎnr qù, shān shang rén shǎo."
+      },
+      {
+        "text": "小南：没问题，不见不散！",
+        "reading": "Xiǎonán: Méi wèntí, bù jiàn bù sàn!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

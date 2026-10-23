@@ -1,0 +1,83 @@
+{
+  "id": "en-C16-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.chef",
+      "text": "chef",
+      "reading": "ʃɛf"
+    },
+    {
+      "id": "en.tourist",
+      "text": "tourist",
+      "reading": "ˈtʊrɪst"
+    },
+    {
+      "id": "en.tour",
+      "text": "tour",
+      "reading": "tʊr"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "My name is Lek, and I'm a chef at a hotel in Bangkok.",
+        "reading": "maɪ ˈneɪm ɪz ˈlɛk, ənd aɪm ə ˈʃɛf ət ə hoʊˈtɛl ɪn ˈbæŋkɑːk."
+      },
+      {
+        "text": "I work from two in the afternoon until eleven at night.",
+        "reading": "aɪ ˈwɜːrk frəm ˈtuː ɪn ði ˌæftərˈnuːn ənˈtɪl ɪˈlɛvən ət ˈnaɪt."
+      },
+      {
+        "text": "I cook Thai food for the hotel guests.",
+        "reading": "aɪ ˈkʊk ˈtaɪ ˈfuːd fər ðə hoʊˈtɛl ˈɡɛsts."
+      }
+    ],
+    [
+      {
+        "text": "I'm Joy, and I'm a nurse at a children's hospital.",
+        "reading": "aɪm ˈdʒɔɪ, ənd aɪm ə ˈnɜːrs ət ə ˈtʃɪldrənz ˈhɑːspɪtəl."
+      },
+      {
+        "text": "My shift starts at seven in the morning, and it's a busy job.",
+        "reading": "maɪ ˈʃɪft ˈstɑːrts ət ˈsɛvən ɪn ðə ˈmɔːrnɪŋ, ənd ɪts ə ˈbɪzi ˈdʒɑːb."
+      },
+      {
+        "text": "I take care of sick children, and I love my job.",
+        "reading": "aɪ ˈteɪk ˈkɛr əv ˈsɪk ˈtʃɪldrən, ənd aɪ ˈlʌv maɪ ˈdʒɑːb."
+      }
+    ],
+    [
+      {
+        "text": "I'm Max, and I'm a tour guide in Chiang Mai.",
+        "reading": "aɪm ˈmæks, ənd aɪm ə ˈtʊr ˌɡaɪd ɪn ˈtʃjɑːŋ ˈmaɪ."
+      },
+      {
+        "text": "Every morning, I meet a group of tourists at their hotel.",
+        "reading": "ˈɛvri ˈmɔːrnɪŋ, aɪ ˈmiːt ə ˈɡruːp əv ˈtʊrɪsts ət ðɛr hoʊˈtɛl."
+      },
+      {
+        "text": "Then we go on a tour of the old temples.",
+        "reading": "ˈðɛn wiː ˈɡoʊ ɑːn ə ˈtʊr əv ði ˈoʊld ˈtɛmpəlz."
+      },
+      {
+        "text": "I speak English and Chinese, so I can talk with tourists from many countries.",
+        "reading": "aɪ ˈspiːk ˈɪŋɡlɪʃ ənd ˌtʃaɪˈniːz, soʊ aɪ kən ˈtɔːk wɪð ˈtʊrɪsts frəm ˈmɛni ˈkʌntriz."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

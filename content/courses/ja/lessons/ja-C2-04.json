@@ -1,0 +1,70 @@
+{
+  "id": "ja-C2-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shinpai",
+      "text": "しんぱい",
+      "reading": "shinpai"
+    },
+    {
+      "id": "ja.anshin",
+      "text": "安心",
+      "reading": "anshin"
+    },
+    {
+      "id": "ja.kega",
+      "text": "けが",
+      "reading": "kega"
+    },
+    {
+      "id": "ja.taoreru",
+      "text": "たおれる",
+      "reading": "taoreru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、かぜは どうですか。しんぱいしました。",
+      "reading": "Namu-san, kaze wa dō desu ka. Shinpai shimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。おとといは ねつが たかく なりましたが、きょうは よく なりました。",
+      "reading": "Arigatō gozaimasu. Ototoi wa netsu ga takaku narimashita ga, kyō wa yoku narimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "よかった。安心しました。",
+      "reading": "Yokatta. Anshin shimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "サークルの みんなは げんきですか。",
+      "reading": "Sākuru no minna wa genki desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "きのう、れんしゅうで きむらさんが たおれました。",
+      "reading": "Kinō, renshū de Kimura-san ga taoremashita."
+    },
+    {
+      "speaker": "a",
+      "text": "え？ けがは だいじょうぶですか。",
+      "reading": "E? Kega wa daijōbu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "足の けがです。でも、すこし よく なりました。",
+      "reading": "Ashi no kega desu. Demo, sukoshi yoku narimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。わたしも 安心しました。",
+      "reading": "Sō desu ka. Watashi mo anshin shimashita."
+    }
+  ]
+}

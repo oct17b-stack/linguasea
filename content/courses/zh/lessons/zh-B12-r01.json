@@ -1,0 +1,67 @@
+{
+  "id": "zh-B12-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.deng-hou",
+      "text": "等候",
+      "reading": "děnghòu"
+    },
+    {
+      "id": "zh.yi-lv",
+      "text": "一律",
+      "reading": "yīlǜ"
+    },
+    {
+      "id": "zh.xie-xie-he-zuo",
+      "kind": "phrase",
+      "text": "谢谢合作",
+      "reading": "xièxie hézuò"
+    },
+    {
+      "id": "zh.xie-shoe",
+      "text": "鞋",
+      "reading": "xié"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "每天上午八点开门，下午五点关门。",
+        "reading": "Měitiān shàngwǔ bā diǎn kāimén, xiàwǔ wǔ diǎn guānmén."
+      },
+      {
+        "text": "开门以前，请在门口等候。",
+        "reading": "Kāimén yǐqián, qǐng zài ménkǒu děnghòu."
+      }
+    ],
+    [
+      {
+        "text": "进去以前，请一律脱鞋。",
+        "reading": "Jìnqù yǐqián, qǐng yīlǜ tuō xié."
+      },
+      {
+        "text": "请勿大声说话。",
+        "reading": "Qǐngwù dàshēng shuōhuà."
+      },
+      {
+        "text": "谢谢合作！",
+        "reading": "Xièxie hézuò!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

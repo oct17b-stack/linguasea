@@ -1,0 +1,70 @@
+{
+  "id": "ja-C4-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.doubutsuen",
+      "text": "どうぶつえん",
+      "reading": "dōbutsuen"
+    },
+    {
+      "id": "ja.bijutsukan",
+      "text": "びじゅつかん",
+      "reading": "bijutsukan"
+    },
+    {
+      "id": "ja.yuuenchi",
+      "text": "ゆうえんち",
+      "reading": "yūenchi"
+    },
+    {
+      "id": "ja.kenbutsu",
+      "text": "見物",
+      "reading": "kenbutsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、こんどの やすみに どこへ いきましょうか。",
+      "reading": "Namu-san, kondo no yasumi ni doko e ikimashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "びじゅつかんは どうですか。",
+      "reading": "Bijutsukan wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "びじゅつかんも いいですが、どうぶつえんは どうですか。あかちゃんの きりんが いますよ。",
+      "reading": "Bijutsukan mo ii desu ga, dōbutsuen wa dō desu ka. Akachan no kirin ga imasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、みたいです！ じゃあ、どうぶつえんへ いきましょう。",
+      "reading": "Hē, mitai desu! Jā, dōbutsuen e ikimashō."
+    },
+    {
+      "speaker": "c",
+      "text": "どうぶつえんの ちかくに ゆうえんちも あります。ごごは ゆうえんちで あそびましょうか。",
+      "reading": "Dōbutsuen no chikaku ni yūenchi mo arimasu. Gogo wa yūenchi de asobimashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。ゆうがたは まちを 見物しましょう。",
+      "reading": "Ii desu ne. Yūgata wa machi o kenbutsu shimashō."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。じゃあ、なんじに あいましょうか。",
+      "reading": "Hai. Jā, nanji ni aimashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "9時は どうですか。",
+      "reading": "Kuji wa dō desu ka."
+    }
+  ]
+}

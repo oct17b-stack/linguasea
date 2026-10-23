@@ -1,0 +1,60 @@
+{
+  "id": "zh-B6-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.da-che",
+      "text": "打车",
+      "reading": "dǎchē"
+    },
+    {
+      "id": "zh.shang-che",
+      "text": "上车",
+      "reading": "shàngchē"
+    },
+    {
+      "id": "zh.xia-che",
+      "text": "下车",
+      "reading": "xiàchē"
+    },
+    {
+      "id": "zh.qi-che",
+      "text": "汽车",
+      "reading": "qìchē"
+    },
+    {
+      "id": "zh.zou-lu",
+      "text": "走路",
+      "reading": "zǒulù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，火车站不远，我们走路去吧！",
+      "reading": "Xiǎonán, huǒchēzhàn bù yuǎn, wǒmen zǒulù qù ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "我的东西很多，我们打车吧！",
+      "reading": "Wǒ de dōngxi hěn duō, wǒmen dǎchē ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好。你看，出租车！我们上车吧。",
+      "reading": "Hǎo. Nǐ kàn, chūzūchē! Wǒmen shàngchē ba."
+    },
+    {
+      "speaker": "a",
+      "text": "北京的汽车真多！",
+      "reading": "Běijīng de qìchē zhēn duō!"
+    },
+    {
+      "speaker": "b",
+      "text": "火车站在前面，我们下车吧！",
+      "reading": "Huǒchēzhàn zài qiánmian, wǒmen xiàchē ba!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "en-C10-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.atm",
+      "text": "ATM",
+      "reading": "ˌeɪ tiː ˈɛm"
+    },
+    {
+      "id": "en.pin",
+      "text": "PIN",
+      "reading": "pɪn"
+    },
+    {
+      "id": "en.withdraw",
+      "text": "withdraw",
+      "reading": "wɪðˈdrɔː"
+    },
+    {
+      "id": "en.balance",
+      "text": "balance",
+      "reading": "ˈbæləns"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Here's your new ATM card, and this is your PIN.",
+      "reading": "hɪrz jʊr ˈnuː ˌeɪ tiː ˈɛm ˌkɑːrd, ənd ˈðɪs ɪz jʊr ˈpɪn."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. Could I change my PIN?",
+      "reading": "ˈθæŋk juː. kʊd aɪ ˈtʃeɪndʒ maɪ ˈpɪn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, you can change it at the ATM.",
+      "reading": "ˈjɛs, juː kən ˈtʃeɪndʒ ɪt ət ði ˌeɪ tiː ˈɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "Can I withdraw money at any ATM?",
+      "reading": "kən aɪ wɪðˈdrɔː ˈmʌni ət ˈɛni ˌeɪ tiː ˈɛm?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, but it's only free at our ATMs.",
+      "reading": "ˈjɛs, bʌt ɪts ˈoʊnli ˈfriː ət aʊr ˌeɪ tiː ˈɛmz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Could I check my balance now?",
+      "reading": "oʊˈkeɪ. kʊd aɪ ˈtʃɛk maɪ ˈbæləns ˈnaʊ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. Your balance is two thousand baht.",
+      "reading": "ˈʃʊr. jʊr ˈbæləns ɪz ˈtuː ˈθaʊzənd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. Thank you for your help!",
+      "reading": "ˈɡreɪt. ˈθæŋk juː fər jʊr ˈhɛlp!"
+    }
+  ]
+}

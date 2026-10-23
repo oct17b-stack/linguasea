@@ -1,0 +1,75 @@
+{
+  "id": "ja-C1-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shumi",
+      "text": "しゅみ",
+      "reading": "shumi"
+    },
+    {
+      "id": "ja.karaoke",
+      "text": "カラオケ",
+      "reading": "karaoke"
+    },
+    {
+      "id": "ja.geemu",
+      "text": "ゲーム",
+      "reading": "gēmu"
+    },
+    {
+      "id": "ja.doraibu",
+      "text": "ドライブ",
+      "reading": "doraibu"
+    },
+    {
+      "id": "ja.asobi",
+      "text": "あそび",
+      "reading": "asobi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、しゅみは なんですか。",
+      "reading": "Namu-san, shumi wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ゲームや カラオケなどです。ゆきさんは？",
+      "reading": "Gēmu ya karaoke nado desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは ドライブです。ちちの くるまで うみや やまへ いきます。",
+      "reading": "Watashi wa doraibu desu. Chichi no kuruma de umi ya yama e ikimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。",
+      "reading": "Ii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさんも しゅうまつは よく あそびに いきますか。",
+      "reading": "Namu-san mo shūmatsu wa yoku asobi ni ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。どようびと にちようびは レストランで アルバイトですから。",
+      "reading": "Iie. Doyōbi to nichiyōbi wa resutoran de arubaito desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。じゃあ、こんどの きんようびの よる、カラオケは どうですか。",
+      "reading": "Sō desu ka. Jā, kondo no kin'yōbi no yoru, karaoke wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね！ いきたいです。",
+      "reading": "Ii desu ne! Ikitai desu."
+    }
+  ]
+}

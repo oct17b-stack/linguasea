@@ -1,0 +1,72 @@
+{
+  "id": "en-C12-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.merry-christmas",
+      "kind": "phrase",
+      "text": "Merry Christmas!",
+      "reading": "ˌmɛri ˈkrɪsməs"
+    },
+    {
+      "id": "en.best-wishes",
+      "kind": "phrase",
+      "text": "best wishes",
+      "reading": "ˌbɛst ˈwɪʃɪz"
+    },
+    {
+      "id": "en.greeting-card",
+      "text": "greeting card",
+      "reading": "ˈɡriːtɪŋ ˌkɑːrd"
+    },
+    {
+      "id": "en.congratulations",
+      "text": "Congratulations!",
+      "reading": "kənˌɡrætʃəˈleɪʃənz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, I'm writing a greeting card to your family. What should I write?",
+      "reading": "ˈɛmə, aɪm ˈraɪtɪŋ ə ˈɡriːtɪŋ ˌkɑːrd tə jʊr ˈfæməli. ˈwʌt ʃʊd aɪ ˈraɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "How nice! First, write \"Merry Christmas!\"",
+      "reading": "ˈhaʊ ˈnaɪs! ˈfɜːrst, ˈraɪt \"ˌmɛri ˈkrɪsməs!\""
+    },
+    {
+      "speaker": "a",
+      "text": "OK. And then \"I wish you a happy New Year.\" Is that OK?",
+      "reading": "oʊˈkeɪ. ənd ˈðɛn \"aɪ ˈwɪʃ juː ə ˈhæpi ˈnuː ˈjɪr.\" ɪz ˈðæt oʊˈkeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Perfect! Then write \"Best wishes\" and your name.",
+      "reading": "ˈpɜːrfɪkt! ˈðɛn ˈraɪt \"ˌbɛst ˈwɪʃɪz\" ənd jʊr ˈneɪm."
+    },
+    {
+      "speaker": "a",
+      "text": "Great, thanks. Oh, and you passed your Thai exam! Congratulations!",
+      "reading": "ˈɡreɪt, ˈθæŋks. ˈoʊ, ənd juː ˈpæst jʊr ˈtaɪ ɪɡˈzæm! kənˌɡrætʃəˈleɪʃənz!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you! I studied every day.",
+      "reading": "ˈθæŋk juː! aɪ ˈstʌdid ˈɛvri ˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "I wish you good luck with your next exam, too!",
+      "reading": "aɪ ˈwɪʃ juː ˈɡʊd ˈlʌk wɪð jʊr ˈnɛkst ɪɡˈzæm, ˈtuː!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks, Nam! You're a good friend.",
+      "reading": "ˈθæŋks, ˈnɑːm! jʊr ə ˈɡʊd ˈfrɛnd."
+    }
+  ]
+}

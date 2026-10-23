@@ -1,0 +1,70 @@
+{
+  "id": "en-C16-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.artist",
+      "text": "artist",
+      "reading": "ˈɑːrtɪst"
+    },
+    {
+      "id": "en.scientist",
+      "text": "scientist",
+      "reading": "ˈsaɪəntɪst"
+    },
+    {
+      "id": "en.musician",
+      "text": "musician",
+      "reading": "mjuˈzɪʃən"
+    },
+    {
+      "id": "en.designer",
+      "text": "designer",
+      "reading": "dɪˈzaɪnər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Let's play a word game! I say a word, and you say the job. Art?",
+      "reading": "ˈlɛts ˈpleɪ ə ˈwɜːrd ˈɡeɪm! aɪ ˈseɪ ə ˈwɜːrd, ənd juː ˈseɪ ðə ˈdʒɑːb. ˈɑːrt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Artist! An artist draws and paints.",
+      "reading": "ˈɑːrtɪst! ən ˈɑːrtɪst ˈdrɔːz ənd ˈpeɪnts."
+    },
+    {
+      "speaker": "b",
+      "text": "Good! Science?",
+      "reading": "ˈɡʊd! ˈsaɪəns?"
+    },
+    {
+      "speaker": "a",
+      "text": "Scientist! A scientist works in a lab.",
+      "reading": "ˈsaɪəntɪst! ə ˈsaɪəntɪst ˈwɜːrks ɪn ə ˈlæb."
+    },
+    {
+      "speaker": "b",
+      "text": "Very good. Music?",
+      "reading": "ˈvɛri ˈɡʊd. ˈmjuːzɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Musician! That's a difficult one.",
+      "reading": "mjuˈzɪʃən! ðæts ə ˈdɪfɪkəlt ˈwʌn."
+    },
+    {
+      "speaker": "b",
+      "text": "That's right! And design?",
+      "reading": "ˈðæts ˈraɪt! ənd dɪˈzaɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Designer! That's easy: design, designer.",
+      "reading": "dɪˈzaɪnər! ðæts ˈiːzi: dɪˈzaɪn, dɪˈzaɪnər."
+    }
+  ]
+}

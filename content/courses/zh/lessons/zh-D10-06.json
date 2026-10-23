@@ -1,0 +1,91 @@
+{
+  "id": "zh-D10-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.shi-ti-dian",
+      "text": "实体店",
+      "reading": "shítǐdiàn"
+    },
+    {
+      "id": "zh.wang-dian",
+      "text": "网店",
+      "reading": "wǎngdiàn"
+    },
+    {
+      "id": "zh.guang-gao",
+      "text": "广告",
+      "reading": "guǎnggào"
+    },
+    {
+      "id": "zh.xiao-fei",
+      "text": "消费",
+      "reading": "xiāofèi"
+    },
+    {
+      "id": "zh.sheng-qian",
+      "kind": "phrase",
+      "text": "省钱",
+      "reading": "shěng qián"
+    },
+    {
+      "id": "zh.suo-you",
+      "text": "所有",
+      "reading": "suǒyǒu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你平时在哪儿买东西？",
+      "reading": "Xiǎonán, nǐ píngshí zài nǎr mǎi dōngxi?"
+    },
+    {
+      "speaker": "a",
+      "text": "我一般在网上买。网上什么都能买到，衣服、书、吃的，什么都有。",
+      "reading": "Wǒ yībān zài wǎngshang mǎi. Wǎngshang shénme dōu néng mǎidào, yīfu, shū, chī de, shénme dōu yǒu."
+    },
+    {
+      "speaker": "c",
+      "text": "是啊，现在的年轻人哪儿都不想去，在家点点手机就行了。",
+      "reading": "Shì a, xiànzài de niánqīngrén nǎr dōu bù xiǎng qù, zài jiā diǎndian shǒujī jiù xíng le."
+    },
+    {
+      "speaker": "a",
+      "text": "网店比实体店便宜，还能省钱。",
+      "reading": "Wǎngdiàn bǐ shítǐdiàn piányi, hái néng shěng qián."
+    },
+    {
+      "speaker": "c",
+      "text": "可是有时候买错了，还要退。我还是喜欢去实体店，可以先试试。",
+      "reading": "Kěshì yǒushíhou mǎicuò le, hái yào tuì. Wǒ háishi xǐhuan qù shítǐdiàn, kěyǐ xiān shìshi."
+    },
+    {
+      "speaker": "a",
+      "text": "您说得对。我上次买的羽绒服就寄错了。",
+      "reading": "Nín shuō de duì. Wǒ shàngcì mǎi de yǔróngfú jiù jìcuò le."
+    },
+    {
+      "speaker": "c",
+      "text": "而且网上的广告太多了，大家看了广告就想买。",
+      "reading": "Érqiě wǎngshang de guǎnggào tài duō le, dàjiā kàn le guǎnggào jiù xiǎng mǎi."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊，我每个月的消费越来越多了。",
+      "reading": "Shì a, wǒ měi ge yuè de xiāofèi yuèláiyuè duō le."
+    },
+    {
+      "speaker": "c",
+      "text": "那你得注意了，别把所有的钱都花在网上。",
+      "reading": "Nà nǐ děi zhùyì le, bié bǎ suǒyǒu de qián dōu huā zài wǎngshang."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，以后我只买需要的东西。",
+      "reading": "Hǎo de, yǐhòu wǒ zhǐ mǎi xūyào de dōngxi."
+    }
+  ]
+}

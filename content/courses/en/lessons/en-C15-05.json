@@ -1,0 +1,74 @@
+{
+  "id": "en-C15-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.turn-on",
+      "kind": "phrase",
+      "text": "turn on",
+      "reading": "ˌtɜːrn ˈɑːn"
+    },
+    {
+      "id": "en.turn-off",
+      "kind": "phrase",
+      "text": "turn off",
+      "reading": "ˌtɜːrn ˈɔːf"
+    },
+    {
+      "id": "en.log-in",
+      "kind": "phrase",
+      "text": "log in",
+      "reading": "ˌlɔːɡ ˈɪn"
+    },
+    {
+      "id": "en.sign-up",
+      "kind": "phrase",
+      "text": "sign up",
+      "reading": "ˌsaɪn ˈʌp"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Here's your new phone. Let's turn it on.",
+      "reading": "hɪrz jʊr ˈnuː ˈfoʊn. ˈlɛts ˈtɜːrn ɪt ˈɑːn."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. It's on! What do I do now?",
+      "reading": "oʊˈkeɪ. ɪts ˈɑːn! ˈwʌt duː aɪ ˈduː ˈnaʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Log in to the app with your email and your password.",
+      "reading": "ˌlɔːɡ ˈɪn tə ði ˈæp wɪð jʊr ˈiːmeɪl ənd jʊr ˈpæswɜːrd."
+    },
+    {
+      "speaker": "a",
+      "text": "I don't have an account.",
+      "reading": "aɪ ˈdoʊnt ˈhæv ən əˈkaʊnt."
+    },
+    {
+      "speaker": "b",
+      "text": "Then you need to sign up first. It's free.",
+      "reading": "ˈðɛn juː ˈniːd tə ˌsaɪn ˈʌp ˈfɜːrst. ɪts ˈfriː."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I signed up, and now I can log in!",
+      "reading": "oʊˈkeɪ. aɪ ˈsaɪnd ˈʌp, ənd ˈnaʊ aɪ kən ˌlɔːɡ ˈɪn!"
+    },
+    {
+      "speaker": "b",
+      "text": "Great! And when you go to class, turn off your phone.",
+      "reading": "ˈɡreɪt! ənd wɛn juː ˈɡoʊ tə ˈklæs, ˌtɜːrn ˈɔːf jʊr ˈfoʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "Good idea. Mr. Brown doesn't like phones in class!",
+      "reading": "ˌɡʊd aɪˈdiːə. ˈmɪstər ˈbraʊn ˈdʌzənt ˈlaɪk ˈfoʊnz ɪn ˈklæs!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "zh-C1-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jie-mu",
+      "text": "节目",
+      "reading": "jiémù"
+    },
+    {
+      "id": "zh.biao-yan",
+      "text": "表演",
+      "reading": "biǎoyǎn"
+    },
+    {
+      "id": "zh.wan-hui",
+      "text": "晚会",
+      "reading": "wǎnhuì"
+    },
+    {
+      "id": "zh.yan-chang-hui",
+      "text": "演唱会",
+      "reading": "yǎnchànghuì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，星期六晚上你想看电影还是看表演？",
+      "reading": "Xiǎonán, xīngqīliù wǎnshang nǐ xiǎng kàn diànyǐng háishi kàn biǎoyǎn?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想看表演。有什么表演？",
+      "reading": "Wǒ xiǎng kàn biǎoyǎn. Yǒu shénme biǎoyǎn?"
+    },
+    {
+      "speaker": "b",
+      "text": "我们学校有一个晚会，也有一个演唱会。",
+      "reading": "Wǒmen xuéxiào yǒu yī ge wǎnhuì, yě yǒu yī ge yǎnchànghuì."
+    },
+    {
+      "speaker": "a",
+      "text": "晚会有什么节目？",
+      "reading": "Wǎnhuì yǒu shénme jiémù?"
+    },
+    {
+      "speaker": "b",
+      "text": "有唱歌，也有跳舞，还有两个泰国学生唱泰语歌！",
+      "reading": "Yǒu chànggē, yě yǒu tiàowǔ, hái yǒu liǎng ge Tàiguó xuésheng chàng Tàiyǔ gē!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？那演唱会呢？",
+      "reading": "Zhēnde ma? Nà yǎnchànghuì ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "演唱会的票很贵，三百块。你想去晚会还是去演唱会？",
+      "reading": "Yǎnchànghuì de piào hěn guì, sānbǎi kuài. Nǐ xiǎng qù wǎnhuì háishi qù yǎnchànghuì?"
+    },
+    {
+      "speaker": "a",
+      "text": "去晚会！晚会不要钱，还有泰语歌！",
+      "reading": "Qù wǎnhuì! Wǎnhuì bù yào qián, hái yǒu Tàiyǔ gē!"
+    }
+  ]
+}

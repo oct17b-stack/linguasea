@@ -1,0 +1,55 @@
+{
+  "id": "zh-A4-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shi-yi",
+      "text": "十一",
+      "reading": "shíyī"
+    },
+    {
+      "id": "zh.jiu-shi-jiu",
+      "text": "九十九",
+      "reading": "jiǔshíjiǔ"
+    },
+    {
+      "id": "zh.bai",
+      "text": "百",
+      "reading": "bǎi"
+    },
+    {
+      "id": "zh.qian-thousand",
+      "text": "千",
+      "reading": "qiān"
+    },
+    {
+      "id": "zh.wan-ten-thousand",
+      "text": "万",
+      "reading": "wàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，北京有几千万人？",
+      "reading": "Xiǎonán, Běijīng yǒu jǐqiān wàn rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "一千万？",
+      "reading": "Yīqiān wàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "不是，两千万！泰国呢？",
+      "reading": "Bù shì, liǎngqiān wàn! Tàiguó ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "泰国有六千六百万人。",
+      "reading": "Tàiguó yǒu liùqiān liùbǎi wàn rén."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "ja-C6-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.maigo",
+      "text": "まいご",
+      "reading": "maigo"
+    },
+    {
+      "id": "ja.naku-cry",
+      "text": "泣く",
+      "reading": "naku"
+    },
+    {
+      "id": "ja.mitsukeru",
+      "text": "見つける",
+      "reading": "mitsukeru"
+    },
+    {
+      "id": "ja.sagasu",
+      "text": "さがす",
+      "reading": "sagasu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "むかしの はなしです。",
+        "reading": "Mukashi no hanashi desu."
+      },
+      {
+        "text": "わたしは 6さいでした。",
+        "reading": "Watashi wa rokusai deshita."
+      },
+      {
+        "text": "かぞくと バンコクの チャトゥチャックへ いきました。",
+        "reading": "Kazoku to Bankoku no Chatuchakku e ikimashita."
+      }
+    ],
+    [
+      {
+        "text": "チャトゥチャックは みせが とても おおいです。",
+        "reading": "Chatuchakku wa mise ga totemo ōi desu."
+      },
+      {
+        "text": "わたしは みせの かわいい いぬを ずっと みました。",
+        "reading": "Watashi wa mise no kawaii inu o zutto mimashita."
+      },
+      {
+        "text": "それから、かぞくが いませんでした。",
+        "reading": "Sorekara, kazoku ga imasen deshita."
+      },
+      {
+        "text": "わたしは まいごに なりました。",
+        "reading": "Watashi wa maigo ni narimashita."
+      }
+    ],
+    [
+      {
+        "text": "わたしは おおきい こえで 泣きました。",
+        "reading": "Watashi wa ōkii koe de nakimashita."
+      },
+      {
+        "text": "ちちと ははは わたしを さがしました。",
+        "reading": "Chichi to haha wa watashi o sagashimashita."
+      },
+      {
+        "text": "30ぷんぐらい あとで、ははが わたしを 見つけました。",
+        "reading": "Sanjuppun gurai ato de, haha ga watashi o mitsukemashita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

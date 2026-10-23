@@ -1,0 +1,107 @@
+{
+  "id": "ja-E1-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.kensa",
+      "text": "けんさ",
+      "reading": "kensa"
+    },
+    {
+      "id": "ja.taishou",
+      "text": "たいしょう",
+      "reading": "taishō"
+    },
+    {
+      "id": "ja.monshinhyou",
+      "text": "もんしんひょう",
+      "reading": "monshinhyō"
+    },
+    {
+      "id": "ja.kuufuku",
+      "text": "空腹",
+      "reading": "kūfuku"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "けんこうしんだんのお知らせ",
+        "reading": "Kenkōshindan no oshirase"
+      },
+      {
+        "text": "今年も、4月にけんこうしんだんがあります。",
+        "reading": "Kotoshi mo, shigatsu ni kenkōshindan ga arimasu."
+      },
+      {
+        "text": "このだいがくのがくせいは、みんなたいしょうです。",
+        "reading": "Kono daigaku no gakusei wa, minna taishō desu."
+      },
+      {
+        "text": "日にちは4月10日から14日まで、じかんはごぜん9時からごご4時までです。",
+        "reading": "Hinichi wa shigatsu tōka kara jūyokka made, jikan wa gozen kuji kara gogo yoji made desu."
+      },
+      {
+        "text": "会場は学食の2かいです。",
+        "reading": "Kaijō wa gakushoku no nikai desu."
+      }
+    ],
+    [
+      {
+        "text": "しんだんでは、体重やけつあつ、たいおんなどをはかります。",
+        "reading": "Shindan de wa, taijū ya ketsuatsu, taion nado o hakarimasu."
+      },
+      {
+        "text": "また、いくつかのけんさもあります。",
+        "reading": "Mata, ikutsuka no kensa mo arimasu."
+      },
+      {
+        "text": "もんしんひょうはがくせいかでもらえますので、きにゅうして持ってきてください。",
+        "reading": "Monshinhyō wa gakuseika de moraemasu node, kinyū shite motte kite kudasai."
+      },
+      {
+        "text": "けんさがありますので、しんだんの日は空腹できてください。",
+        "reading": "Kensa ga arimasu node, shindan no hi wa kūfuku de kite kudasai."
+      },
+      {
+        "text": "まえの日のよる9時からは、なにもたべないでください。",
+        "reading": "Mae no hi no yoru kuji kara wa, nani mo tabenaide kudasai."
+      },
+      {
+        "text": "水はのんでもかまいません。",
+        "reading": "Mizu wa nonde mo kamaimasen."
+      }
+    ],
+    [
+      {
+        "text": "この日にこられないがくせいは、かならずがくせいかにれんらくしてください。",
+        "reading": "Kono hi ni korarenai gakusei wa, kanarazu gakuseika ni renraku shite kudasai."
+      },
+      {
+        "text": "けんこうしんだんをうけないと、しょうがくきんにもうしこめないことがあります。",
+        "reading": "Kenkōshindan o ukenai to, shōgakukin ni mōshikomenai koto ga arimasu."
+      },
+      {
+        "text": "しつもんは、がくせいかまでおねがいします。",
+        "reading": "Shitsumon wa, gakuseika made onegaishimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

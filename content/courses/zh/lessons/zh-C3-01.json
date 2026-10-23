@@ -1,0 +1,70 @@
+{
+  "id": "zh-C3-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.zuo-ye",
+      "text": "作业",
+      "reading": "zuòyè"
+    },
+    {
+      "id": "zh.fu-xi",
+      "text": "复习",
+      "reading": "fùxí"
+    },
+    {
+      "id": "zh.lian-xi",
+      "text": "练习",
+      "reading": "liànxí"
+    },
+    {
+      "id": "zh.jiao-shi",
+      "text": "教室",
+      "reading": "jiàoshì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在做什么呢？我们去吃饭吧！",
+      "reading": "Xiǎonán, nǐ zài zuò shénme ne? Wǒmen qù chīfàn ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "我在做作业呢，等一会儿吧。",
+      "reading": "Wǒ zài zuò zuòyè ne, děng yīhuìr ba."
+    },
+    {
+      "speaker": "b",
+      "text": "你的同学们呢？",
+      "reading": "Nǐ de tóngxuémen ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "他们在教室里复习呢。明天我们有听写。",
+      "reading": "Tāmen zài jiàoshì lǐ fùxí ne. Míngtiān wǒmen yǒu tīngxiě."
+    },
+    {
+      "speaker": "b",
+      "text": "李老师也在教室吗？",
+      "reading": "Lǐ lǎoshī yě zài jiàoshì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不在，她正在给二班上课呢。",
+      "reading": "Bù zài, tā zhèngzài gěi èr bān shàngkè ne."
+    },
+    {
+      "speaker": "b",
+      "text": "你的作业多吗？",
+      "reading": "Nǐ de zuòyè duō ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不多，还有一个练习。你等我十分钟！",
+      "reading": "Bù duō, hái yǒu yī ge liànxí. Nǐ děng wǒ shí fēnzhōng!"
+    }
+  ]
+}

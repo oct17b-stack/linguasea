@@ -1,0 +1,83 @@
+{
+  "id": "ja-C1-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.senpai",
+      "text": "せんぱい",
+      "reading": "senpai"
+    },
+    {
+      "id": "ja.isshoukenmei",
+      "text": "いっしょうけんめい",
+      "reading": "isshōkenmei"
+    },
+    {
+      "id": "ja.kinchou",
+      "text": "きんちょう",
+      "reading": "kinchō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きょう、はじめて ダンスサークルの れんしゅうに いきました。",
+        "reading": "Kyō, hajimete dansu sākuru no renshū ni ikimashita."
+      },
+      {
+        "text": "とても きんちょうしました。",
+        "reading": "Totemo kinchō shimashita."
+      },
+      {
+        "text": "メンバーは みんな ダンスが じょうずでした。",
+        "reading": "Menbā wa minna dansu ga jōzu deshita."
+      }
+    ],
+    [
+      {
+        "text": "きむらせんぱいは とても やさしかったです。",
+        "reading": "Kimura-senpai wa totemo yasashikatta desu."
+      },
+      {
+        "text": "わたしは しょしんしゃですから、ゆっくり れんしゅうしました。",
+        "reading": "Watashi wa shoshinsha desu kara, yukkuri renshū shimashita."
+      },
+      {
+        "text": "ダンスは むずかしかったですが、いっしょうけんめい おどりました。",
+        "reading": "Dansu wa muzukashikatta desu ga, isshōkenmei odorimashita."
+      }
+    ],
+    [
+      {
+        "text": "れんしゅうは 8時まででした。",
+        "reading": "Renshū wa hachiji made deshita."
+      },
+      {
+        "text": "それから、みんなで ラーメンを たべました。",
+        "reading": "Sorekara, minna de rāmen o tabemashita."
+      },
+      {
+        "text": "いま、足が とても いたいです。",
+        "reading": "Ima, ashi ga totemo itai desu."
+      },
+      {
+        "text": "でも、きょうは ほんとうに たのしかったです。",
+        "reading": "Demo, kyō wa hontō ni tanoshikatta desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

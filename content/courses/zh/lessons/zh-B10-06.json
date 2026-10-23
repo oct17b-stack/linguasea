@@ -1,0 +1,65 @@
+{
+  "id": "zh-B10-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.nan-difficult",
+      "text": "难",
+      "reading": "nán"
+    },
+    {
+      "id": "zh.zhong-yao",
+      "text": "重要",
+      "reading": "zhòngyào"
+    },
+    {
+      "id": "zh.you-yong",
+      "text": "有用",
+      "reading": "yǒuyòng"
+    },
+    {
+      "id": "zh.mei-yong",
+      "text": "没用",
+      "reading": "méiyòng"
+    },
+    {
+      "id": "zh.mei-shu",
+      "text": "美术",
+      "reading": "měishù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你觉得英语难吗？",
+      "reading": "Wáng Míng, nǐ juéde Yīngyǔ nán ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很难，也很重要。",
+      "reading": "Hěn nán, yě hěn zhòngyào."
+    },
+    {
+      "speaker": "a",
+      "text": "对，英语很有用。你们有美术课吗？",
+      "reading": "Duì, Yīngyǔ hěn yǒuyòng. Nǐmen yǒu měishù kè ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有。美术没用吧？",
+      "reading": "Yǒu. Měishù méiyòng ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "有用！上美术课，我很开心！",
+      "reading": "Yǒuyòng! Shàng měishù kè, wǒ hěn kāixīn!"
+    },
+    {
+      "speaker": "b",
+      "text": "好，那美术也很重要！",
+      "reading": "Hǎo, nà měishù yě hěn zhòngyào!"
+    }
+  ]
+}

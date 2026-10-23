@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ma",
+      "text": "马",
+      "reading": "mǎ"
+    },
+    {
+      "id": "zh.niu",
+      "text": "牛",
+      "reading": "niú"
+    },
+    {
+      "id": "zh.yang-sheep",
+      "text": "羊",
+      "reading": "yáng"
+    },
+    {
+      "id": "zh.zhu-pig",
+      "text": "猪",
+      "reading": "zhū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里有马！",
+      "reading": "Xiǎonán, zhèlǐ yǒu mǎ!"
+    },
+    {
+      "speaker": "a",
+      "text": "妈？你妈妈？",
+      "reading": "Mā? Nǐ māma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不是妈，是马！也有牛和羊。",
+      "reading": "Bù shì mā, shì mǎ! Yě yǒu niú hé yáng."
+    },
+    {
+      "speaker": "a",
+      "text": "牛？我爱喝牛奶！",
+      "reading": "Niú? Wǒ ài hē niúnǎi!"
+    }
+  ]
+}

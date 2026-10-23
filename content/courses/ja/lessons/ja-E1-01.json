@@ -1,0 +1,90 @@
+{
+  "id": "ja-E1-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.suimin",
+      "text": "すいみん",
+      "reading": "suimin"
+    },
+    {
+      "id": "ja.seikatsushuukan",
+      "text": "生活習慣",
+      "reading": "seikatsushūkan"
+    },
+    {
+      "id": "ja.kisokutadashii",
+      "text": "きそくただしい",
+      "reading": "kisokutadashii"
+    },
+    {
+      "id": "ja.hayanehayaoki",
+      "text": "早寝早起き",
+      "reading": "hayanehayaoki"
+    },
+    {
+      "id": "ja.eiyou",
+      "text": "えいよう",
+      "reading": "eiyō"
+    },
+    {
+      "id": "ja.kenkou",
+      "text": "けんこう",
+      "reading": "kenkō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、さいきん、すいみんじかんはどのくらいですか。",
+      "reading": "Namu-san, saikin, suimin jikan wa dono kurai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "5じかんぐらいです。しゅくだいがおおくて、よく夜中までおきているんです。",
+      "reading": "Gojikan gurai desu. Shukudai ga ōkute, yoku yonaka made okite iru n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "それはすくないですね。けんこうには、7じかんぐらいのすいみんがひつようですよ。",
+      "reading": "Sore wa sukunai desu ne. Kenkō ni wa, shichijikan gurai no suimin ga hitsuyō desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。それで、今月から12時までにねるようにしています。",
+      "reading": "Sō desu ne. Sorede, kongetsu kara jūniji made ni neru yō ni shite imasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。食事はどうですか。",
+      "reading": "Ii desu ne. Shokuji wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "えいようのことを考えて、まいにちやさいとくだものをたべるようにしています。",
+      "reading": "Eiyō no koto o kangaete, mainichi yasai to kudamono o taberu yō ni shite imasu."
+    },
+    {
+      "speaker": "c",
+      "text": "えらいですね。あさはなんじにおきますか。",
+      "reading": "Erai desu ne. Asa wa nanji ni okimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "7時です。でも、アルバイトがある日は、ねるのが2時ごろになってしまうんです。",
+      "reading": "Shichiji desu. Demo, arubaito ga aru hi wa, neru no ga niji goro ni natte shimau n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。早寝早起きをして、きそくただしい生活習慣をつづけてくださいね。",
+      "reading": "Sō desu ka. Hayanehayaoki o shite, kisokutadashii seikatsushūkan o tsuzukete kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。アルバイトの日も、できるだけはやくねるようにします。",
+      "reading": "Hai. Arubaito no hi mo, dekiru dake hayaku neru yō ni shimasu."
+    }
+  ]
+}

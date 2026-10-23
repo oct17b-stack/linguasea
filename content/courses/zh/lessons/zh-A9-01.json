@@ -1,0 +1,55 @@
+{
+  "id": "zh-A9-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shu-bao",
+      "text": "书包",
+      "reading": "shūbāo"
+    },
+    {
+      "id": "zh.ben-zi",
+      "text": "本子",
+      "reading": "běnzi"
+    },
+    {
+      "id": "zh.bi",
+      "text": "笔",
+      "reading": "bǐ"
+    },
+    {
+      "id": "zh.zhi-paper",
+      "text": "纸",
+      "reading": "zhǐ"
+    },
+    {
+      "id": "zh.hei-ban",
+      "text": "黑板",
+      "reading": "hēibǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有笔吗？",
+      "reading": "Xiǎonán, nǐ yǒu bǐ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，书包里有。你要吗？",
+      "reading": "Yǒu, shūbāo lǐ yǒu. Nǐ yào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "要，谢谢！你也有纸吗？",
+      "reading": "Yào, xièxie! Nǐ yě yǒu zhǐ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有纸，有本子。",
+      "reading": "Méiyǒu zhǐ, yǒu běnzi."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "en-C10-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.lend",
+      "text": "lend",
+      "reading": "lɛnd"
+    },
+    {
+      "id": "en.receive",
+      "text": "receive",
+      "reading": "rɪˈsiːv"
+    },
+    {
+      "id": "en.deliver",
+      "text": "deliver",
+      "reading": "dɪˈlɪvər"
+    },
+    {
+      "id": "en.mail",
+      "text": "mail",
+      "reading": "meɪl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you lend me a hundred baht?",
+      "reading": "ˈnɑːm, kən juː ˈlɛnd miː ə ˈhʌndrəd ˈbɑːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. Here you are. What's it for?",
+      "reading": "ˈʃʊr. ˈhɪr juː ˈɑːr. ˈwʌts ɪt ˈfɔːr?"
+    },
+    {
+      "speaker": "c",
+      "text": "Stamps. I want to mail my mom some photos.",
+      "reading": "ˈstæmps. aɪ ˈwɑːnt tə ˈmeɪl maɪ ˈmɑːm sʌm ˈfoʊtoʊz."
+    },
+    {
+      "speaker": "a",
+      "text": "That's nice! Oh, did you receive the package from your parents?",
+      "reading": "ðæts ˈnaɪs! ˈoʊ, dɪd juː rɪˈsiːv ðə ˈpækɪdʒ frəm jʊr ˈpɛrənts?"
+    },
+    {
+      "speaker": "c",
+      "text": "Not yet. They mailed it two weeks ago.",
+      "reading": "ˈnɑːt ˈjɛt. ðeɪ ˈmeɪld ɪt ˈtuː ˈwiːks əˈɡoʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Maybe the post office can deliver it tomorrow.",
+      "reading": "ˈmeɪbi ðə ˈpoʊst ˌɔːfɪs kən dɪˈlɪvər ɪt təˈmɑːroʊ."
+    },
+    {
+      "speaker": "c",
+      "text": "I hope so! My dad always sends me Canadian chocolate.",
+      "reading": "aɪ ˈhoʊp ˈsoʊ! maɪ ˈdæd ˈɔːlweɪz ˈsɛndz miː kəˈneɪdiən ˈtʃɔːklət."
+    },
+    {
+      "speaker": "a",
+      "text": "Then you can give me some chocolate!",
+      "reading": "ˈðɛn juː kən ˈɡɪv miː sʌm ˈtʃɔːklət!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A10-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ri-ben",
+      "text": "日本",
+      "reading": "Rìběn"
+    },
+    {
+      "id": "zh.han-guo",
+      "text": "韩国",
+      "reading": "Hánguó"
+    },
+    {
+      "id": "zh.mei-guo",
+      "text": "美国",
+      "reading": "Měiguó"
+    },
+    {
+      "id": "zh.ying-guo",
+      "text": "英国",
+      "reading": "Yīngguó"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好！我是韩国人。",
+      "reading": "Nǐ hǎo! Wǒ shì Hánguó rén."
+    },
+    {
+      "speaker": "a",
+      "text": "你好！你朋友是美国人吗？",
+      "reading": "Nǐ hǎo! Nǐ péngyou shì Měiguó rén ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "他是日本人，她是英国人。",
+      "reading": "Tā shì Rìběn rén, tā shì Yīngguó rén."
+    },
+    {
+      "speaker": "a",
+      "text": "欢迎你们来泰国！",
+      "reading": "Huānyíng nǐmen lái Tàiguó!"
+    }
+  ]
+}

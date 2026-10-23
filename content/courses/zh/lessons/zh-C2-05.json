@@ -1,0 +1,70 @@
+{
+  "id": "zh-C2-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ying-gai",
+      "text": "应该",
+      "reading": "yīnggāi"
+    },
+    {
+      "id": "zh.jian-kang",
+      "text": "健康",
+      "reading": "jiànkāng"
+    },
+    {
+      "id": "zh.zhu-yi",
+      "text": "注意",
+      "reading": "zhùyì"
+    },
+    {
+      "id": "zh.xiao-xin",
+      "text": "小心",
+      "reading": "xiǎoxīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，大夫怎么说？",
+      "reading": "Xiǎonán, dàifu zěnme shuō?"
+    },
+    {
+      "speaker": "a",
+      "text": "大夫说是感冒，我应该多休息，多喝水。",
+      "reading": "Dàifu shuō shì gǎnmào, wǒ yīnggāi duō xiūxi, duō hē shuǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "对。你也应该多吃水果。",
+      "reading": "Duì. Nǐ yě yīnggāi duō chī shuǐguǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "我每天都吃水果。我很注意健康！",
+      "reading": "Wǒ měitiān dōu chī shuǐguǒ. Wǒ hěn zhùyì jiànkāng!"
+    },
+    {
+      "speaker": "b",
+      "text": "可是你每天晚上十二点睡觉，太晚了！",
+      "reading": "Kěshì nǐ měitiān wǎnshang shí'èr diǎn shuìjiào, tài wǎn le!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，以后我十点睡觉。",
+      "reading": "Hǎo, yǐhòu wǒ shí diǎn shuìjiào."
+    },
+    {
+      "speaker": "b",
+      "text": "还有，你应该多穿衣服。外面风很大，小心！",
+      "reading": "Hái yǒu, nǐ yīnggāi duō chuān yīfu. Wàimiàn fēng hěn dà, xiǎoxīn!"
+    },
+    {
+      "speaker": "a",
+      "text": "知道了，谢谢你！",
+      "reading": "Zhīdào le, xièxie nǐ!"
+    }
+  ]
+}

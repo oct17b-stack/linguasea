@@ -1,0 +1,75 @@
+{
+  "id": "zh-C2-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.shuo-ming",
+      "text": "说明",
+      "reading": "shuōmíng"
+    },
+    {
+      "id": "zh.fan-hou",
+      "text": "饭后",
+      "reading": "fànhòu"
+    },
+    {
+      "id": "zh.an-shi",
+      "text": "按时",
+      "reading": "ànshí"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "感冒药说明",
+        "reading": "Gǎnmàoyào shuōmíng"
+      },
+      {
+        "text": "头疼、发烧、咳嗽，可以吃这个药。",
+        "reading": "Tóu téng, fāshāo, késou, kěyǐ chī zhège yào."
+      }
+    ],
+    [
+      {
+        "text": "大人一天三次，一次一片。",
+        "reading": "Dàren yī tiān sān cì, yī cì yī piàn."
+      },
+      {
+        "text": "孩子一次半片。",
+        "reading": "Háizi yī cì bàn piàn."
+      },
+      {
+        "text": "饭后吃，多喝热水。",
+        "reading": "Fànhòu chī, duō hē rèshuǐ."
+      }
+    ],
+    [
+      {
+        "text": "请按时吃药，别多吃。",
+        "reading": "Qǐng ànshí chī yào, bié duō chī."
+      },
+      {
+        "text": "吃这个药，别喝酒。",
+        "reading": "Chī zhège yào, bié hē jiǔ."
+      },
+      {
+        "text": "吃三天以后还发烧，请去医院看病。",
+        "reading": "Chī sān tiān yǐhòu hái fāshāo, qǐng qù yīyuàn kànbìng."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

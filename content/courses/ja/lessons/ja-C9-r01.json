@@ -1,0 +1,79 @@
+{
+  "id": "ja-C9-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kumiawase",
+      "text": "くみあわせ",
+      "reading": "kumiawase"
+    },
+    {
+      "id": "ja.oshare",
+      "text": "おしゃれ",
+      "reading": "oshare"
+    },
+    {
+      "id": "ja.suniikaa",
+      "text": "スニーカー",
+      "reading": "sunīkā"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "だいがくの がくせいは、どんな かっこうで じゅぎょうに きますか。",
+        "reading": "Daigaku no gakusei wa, donna kakkō de jugyō ni kimasu ka."
+      },
+      {
+        "text": "きょうは、おしゃれな がくせい 3にんに ききました。",
+        "reading": "Kyō wa, oshare na gakusei sannin ni kikimashita."
+      }
+    ],
+    [
+      {
+        "text": "2ねんせいの けんたさんは、くろい Tシャツを きて、ジーンズを はいて います。",
+        "reading": "Ninensei no Kenta-san wa, kuroi tīshatsu o kite, jīnzu o haite imasu."
+      },
+      {
+        "text": "くつは しろい スニーカーです。",
+        "reading": "Kutsu wa shiroi sunīkā desu."
+      },
+      {
+        "text": "くろと しろの くみあわせが かっこいいですね。",
+        "reading": "Kuro to shiro no kumiawase ga kakkoii desu ne."
+      }
+    ],
+    [
+      {
+        "text": "タイから きた ナムさんは、はなの がらの スカートを よく はきます。",
+        "reading": "Tai kara kita Namu-san wa, hana no gara no sukāto o yoku hakimasu."
+      },
+      {
+        "text": "ふゆは スカートに ブーツを あわせます。",
+        "reading": "Fuyu wa sukāto ni būtsu o awasemasu."
+      },
+      {
+        "text": "4ねんせいの さきさんは、むじの ふくが すきです。",
+        "reading": "Yonensei no Saki-san wa, muji no fuku ga suki desu."
+      },
+      {
+        "text": "シンプルですが、かたちが きれいな ふくを えらびます。",
+        "reading": "Shinpuru desu ga, katachi ga kirei na fuku o erabimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

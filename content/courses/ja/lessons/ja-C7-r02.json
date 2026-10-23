@@ -1,0 +1,83 @@
+{
+  "id": "ja-C7-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tetsuya",
+      "text": "てつや",
+      "reading": "tetsuya"
+    },
+    {
+      "id": "ja.zenzen",
+      "text": "ぜんぜん",
+      "reading": "zenzen"
+    },
+    {
+      "id": "ja.kekkyoku",
+      "text": "けっきょく",
+      "reading": "kekkyoku"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "けん：きのう、てつやした。",
+        "reading": "Ken: Kinō, tetsuya shita."
+      },
+      {
+        "text": "まい：え、どうして？",
+        "reading": "Mai: E, dōshite?"
+      },
+      {
+        "text": "けん：きょう、すうがくの テストが あるんだ。",
+        "reading": "Ken: Kyō, sūgaku no tesuto ga aru n da."
+      },
+      {
+        "text": "まい：たいへん。べんきょう、できた？",
+        "reading": "Mai: Taihen. Benkyō, dekita?"
+      }
+    ],
+    [
+      {
+        "text": "けん：ううん、ぜんぜん。けっきょく ゲームを した。",
+        "reading": "Ken: Uun, zenzen. Kekkyoku gēmu o shita."
+      },
+      {
+        "text": "まい：え？ それは ひどい！",
+        "reading": "Mai: E? Sore wa hidoi!"
+      },
+      {
+        "text": "まい：わたしは きのう アルバイトだった。",
+        "reading": "Mai: Watashi wa kinō arubaito datta."
+      },
+      {
+        "text": "まい：でも、よる 11時に ねたよ。",
+        "reading": "Mai: Demo, yoru jūichiji ni neta yo."
+      }
+    ],
+    [
+      {
+        "text": "けん：いいな。ぼくは いま ねむい…。",
+        "reading": "Ken: Ii na. Boku wa ima nemui…."
+      },
+      {
+        "text": "まい：テスト、がんばって！",
+        "reading": "Mai: Tesuto, ganbatte!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

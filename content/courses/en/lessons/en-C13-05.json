@@ -1,0 +1,71 @@
+{
+  "id": "en-C13-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.make-it",
+      "kind": "phrase",
+      "text": "make it",
+      "reading": "ˈmeɪk ɪt"
+    },
+    {
+      "id": "en.cancel",
+      "text": "cancel",
+      "reading": "ˈkænsəl"
+    },
+    {
+      "id": "en.excuse",
+      "text": "excuse",
+      "reading": "ɪkˈskjuːs"
+    },
+    {
+      "id": "en.instead",
+      "text": "instead",
+      "reading": "ɪnˈstɛd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, I'm really sorry, but I can't make it on Friday.",
+      "reading": "ˈɛmə, aɪm ˈriːli ˈsɑːri, bʌt aɪ ˈkænt ˈmeɪk ɪt ɑːn ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! What's your excuse this time?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwʌts jʊr ɪkˈskjuːs ðɪs ˈtaɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's not an excuse! I have a big test on Monday, so I need to study.",
+      "reading": "ɪts ˈnɑːt ən ɪkˈskjuːs! aɪ ˈhæv ə ˈbɪɡ ˈtɛst ɑːn ˈmʌndeɪ, soʊ aɪ ˈniːd tə ˈstʌdi."
+    },
+    {
+      "speaker": "c",
+      "text": "OK, OK. Can you come next Friday instead?",
+      "reading": "oʊˈkeɪ, oʊˈkeɪ. kən juː ˈkʌm ˈnɛkst ˈfraɪdeɪ ɪnˈstɛd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I can. I'm really sorry!",
+      "reading": "ˈjɛs, aɪ ˈkæn. aɪm ˈriːli ˈsɑːri!"
+    },
+    {
+      "speaker": "c",
+      "text": "No problem. I'll cancel our karaoke room.",
+      "reading": "ˈnoʊ ˈprɑːbləm. aɪl ˈkænsəl aʊr ˌkɛriˈoʊki ˌruːm."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. I can't go out this week because I need a good grade.",
+      "reading": "ˈθæŋks. aɪ ˈkænt ˌɡoʊ ˈaʊt ðɪs ˈwiːk bɪˈkɔːz aɪ ˈniːd ə ˈɡʊd ˈɡreɪd."
+    },
+    {
+      "speaker": "c",
+      "text": "Good luck! Study hard!",
+      "reading": "ˈɡʊd ˈlʌk! ˈstʌdi ˈhɑːrd!"
+    }
+  ]
+}

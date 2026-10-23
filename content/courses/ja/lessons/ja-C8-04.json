@@ -1,0 +1,75 @@
+{
+  "id": "ja-C8-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.hieru",
+      "text": "ひえる",
+      "reading": "hieru"
+    },
+    {
+      "id": "ja.ase",
+      "text": "あせ",
+      "reading": "ase"
+    },
+    {
+      "id": "ja.hiyake",
+      "text": "ひやけ",
+      "reading": "hiyake"
+    },
+    {
+      "id": "ja.senpuuki",
+      "text": "せんぷうき",
+      "reading": "senpūki"
+    },
+    {
+      "id": "ja.kawaku",
+      "text": "かわく",
+      "reading": "kawaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、タイで あつい とき、なに する？",
+      "reading": "Namu, Tai de atsui toki, nani suru?"
+    },
+    {
+      "speaker": "a",
+      "text": "せんぷうきの まえで アイスを たべる。",
+      "reading": "Senpūki no mae de aisu o taberu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。わたしは あせが でる とき、シャワーを あびる。",
+      "reading": "Ii ne. Watashi wa ase ga deru toki, shawā o abiru."
+    },
+    {
+      "speaker": "a",
+      "text": "タイでは そとに でる とき、ぼうしを かぶるよ。ひやけは よくないから。",
+      "reading": "Tai de wa soto ni deru toki, bōshi o kaburu yo. Hiyake wa yokunai kara."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。のどが かわいた とき、なにを のむ？",
+      "reading": "Sō da ne. Nodo ga kawaita toki, nani o nomu?"
+    },
+    {
+      "speaker": "a",
+      "text": "つめたい おちゃ！ タイの おちゃは あまいよ。",
+      "reading": "Tsumetai ocha! Tai no ocha wa amai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ。にほんの ふゆは ひえるから、あたたかい おちゃが いいよ。",
+      "reading": "Hē. Nihon no fuyu wa hieru kara, atatakai ocha ga ii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。さむい とき、こたつも いいね。",
+      "reading": "Sō da ne. Samui toki, kotatsu mo ii ne."
+    }
+  ]
+}

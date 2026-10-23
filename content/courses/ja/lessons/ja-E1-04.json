@@ -1,0 +1,85 @@
+{
+  "id": "ja-E1-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.suibun",
+      "text": "水分",
+      "reading": "suibun"
+    },
+    {
+      "id": "ja.netchuushou",
+      "text": "ねっちゅうしょう",
+      "reading": "netchūshō"
+    },
+    {
+      "id": "ja.hokyuu",
+      "text": "ほきゅう",
+      "reading": "hokyū"
+    },
+    {
+      "id": "ja.hikage",
+      "text": "ひかげ",
+      "reading": "hikage"
+    },
+    {
+      "id": "ja.komame-ni",
+      "text": "こまめに",
+      "reading": "komame ni"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "あしたは、みんなでやまにのぼりますね。",
+      "reading": "Ashita wa, minna de yama ni noborimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。てんきよほうによると、とてもあつくなるそうですね。",
+      "reading": "Hai. Tenkiyohō ni yoru to, totemo atsuku naru sō desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。ねっちゅうしょうにならないように、きをつけてください。",
+      "reading": "Ē. Netchūshō ni naranai yō ni, ki o tsukete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "どうすればいいですか。",
+      "reading": "Dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "水分を、こまめにほきゅうするようにしてください。のどがかわくまえにのむのがいいですよ。",
+      "reading": "Suibun o, komame ni hokyū suru yō ni shite kudasai. Nodo ga kawaku mae ni nomu no ga ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。水を2ほん持っていきます。",
+      "reading": "Wakarimashita. Mizu o nihon motte ikimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。それから、やすむときは、ひかげでやすむようにしてください。",
+      "reading": "Ii desu ne. Sorekara, yasumu toki wa, hikage de yasumu yō ni shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ぼうしもかぶったほうがいいですか。",
+      "reading": "Bōshi mo kabutta hō ga ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、かならずかぶってください。気分がわるくなったら、すぐにいってくださいね。",
+      "reading": "Ē, kanarazu kabutte kudasai. Kibun ga waruku nattara, sugu ni itte kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、きをつけます。あしたが楽しみです。",
+      "reading": "Hai, ki o tsukemasu. Ashita ga tanoshimi desu."
+    }
+  ]
+}

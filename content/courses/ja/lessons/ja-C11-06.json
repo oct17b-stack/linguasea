@@ -1,0 +1,70 @@
+{
+  "id": "ja-C11-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.boshuu",
+      "text": "ぼしゅう",
+      "reading": "boshū"
+    },
+    {
+      "id": "ja.oubo",
+      "text": "おうぼ",
+      "reading": "ōbo"
+    },
+    {
+      "id": "ja.saiyou",
+      "text": "さいよう",
+      "reading": "saiyō"
+    },
+    {
+      "id": "ja.mikeiken",
+      "text": "みけいけん",
+      "reading": "mikeiken"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、この カフェ、アルバイトを ぼしゅうして いるよ。",
+      "reading": "Namu, kono kafe, arubaito o boshū shite iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうだ。でも、カフェの しごとは みけいけんだから…。",
+      "reading": "Hontō da. Demo, kafe no shigoto wa mikeiken da kara…."
+    },
+    {
+      "speaker": "c",
+      "text": "みけいけんでも おうぼ できるか どうか、でんわで きいて みて。",
+      "reading": "Mikeiken de mo ōbo dekiru ka dō ka, denwa de kiite mite."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。それから、にほんごが へたでも いいか どうかも しんぱい。",
+      "reading": "Un. Sorekara, Nihongo ga heta de mo ii ka dō ka mo shinpai."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムの にほんごは じょうずだよ。だいじょうぶ！",
+      "reading": "Namu no Nihongo wa jōzu da yo. Daijōbu!"
+    },
+    {
+      "speaker": "a",
+      "text": "さっき でんわで きいたよ。みけいけんでも だいじょうぶ！",
+      "reading": "Sakki denwa de kiita yo. Mikeiken de mo daijōbu!"
+    },
+    {
+      "speaker": "c",
+      "text": "よかったね！ さいようか どうかは、いつ わかるの？",
+      "reading": "Yokatta ne! Saiyō ka dō ka wa, itsu wakaru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "めんせつの あとで、でんわが くるよ。",
+      "reading": "Mensetsu no ato de, denwa ga kuru yo."
+    }
+  ]
+}

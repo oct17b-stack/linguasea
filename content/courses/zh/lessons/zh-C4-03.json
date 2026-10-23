@@ -1,0 +1,71 @@
+{
+  "id": "zh-C4-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yue-appointment",
+      "text": "约",
+      "reading": "yuē"
+    },
+    {
+      "id": "zh.chu-fa",
+      "text": "出发",
+      "reading": "chūfā"
+    },
+    {
+      "id": "zh.zheng-hao",
+      "text": "正好",
+      "reading": "zhènghǎo"
+    },
+    {
+      "id": "zh.zao-dianr",
+      "text": "早点儿",
+      "reading": "zǎo diǎnr",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，星期天下午我们约几点？",
+      "reading": "Xiǎonán, xīngqītiān xiàwǔ wǒmen yuē jǐ diǎn?"
+    },
+    {
+      "speaker": "a",
+      "text": "两点吧。上午我有事。",
+      "reading": "Liǎng diǎn ba. Shàngwǔ wǒ yǒu shì."
+    },
+    {
+      "speaker": "b",
+      "text": "两点有点儿晚。我们早点儿出发吧！一点怎么样？",
+      "reading": "Liǎng diǎn yǒudiǎnr wǎn. Wǒmen zǎo diǎnr chūfā ba! Yī diǎn zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "一点我还在吃饭呢。一点半吧！",
+      "reading": "Yī diǎn wǒ hái zài chīfàn ne. Yī diǎn bàn ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好，一点半正好。我们在哪儿见面？",
+      "reading": "Hǎo, yī diǎn bàn zhènghǎo. Wǒmen zài nǎr jiànmiàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "在你们学校门口见吧，我坐地铁去。",
+      "reading": "Zài nǐmen xuéxiào ménkǒu jiàn ba, wǒ zuò dìtiě qù."
+    },
+    {
+      "speaker": "b",
+      "text": "地铁站正好在我们学校旁边。",
+      "reading": "Dìtiězhàn zhènghǎo zài wǒmen xuéxiào pángbiān."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！星期天见！",
+      "reading": "Tài hǎo le! Xīngqītiān jiàn!"
+    }
+  ]
+}

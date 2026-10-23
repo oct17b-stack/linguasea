@@ -1,0 +1,75 @@
+{
+  "id": "zh-B4-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shang-xue",
+      "text": "上学",
+      "reading": "shàngxué"
+    },
+    {
+      "id": "zh.fang-xue",
+      "text": "放学",
+      "reading": "fàngxué"
+    },
+    {
+      "id": "zh.bai-tian",
+      "text": "白天",
+      "reading": "báitiān"
+    },
+    {
+      "id": "zh.hai-still",
+      "text": "还",
+      "reading": "hái"
+    },
+    {
+      "id": "zh.mei-not",
+      "text": "没",
+      "reading": "méi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "今天我六点起床，六点半去上学。",
+        "reading": "Jīntiān wǒ liù diǎn qǐchuáng, liù diǎn bàn qù shàngxué."
+      },
+      {
+        "text": "七点半上课，下午四点放学。",
+        "reading": "Qī diǎn bàn shàngkè, xiàwǔ sì diǎn fàngxué."
+      },
+      {
+        "text": "白天在学校，晚上在家学习。",
+        "reading": "Báitiān zài xuéxiào, wǎnshang zài jiā xuéxí."
+      }
+    ],
+    [
+      {
+        "text": "现在晚上九点，我还没吃晚饭！",
+        "reading": "Xiànzài wǎnshang jiǔ diǎn, wǒ hái méi chī wǎnfàn!"
+      },
+      {
+        "text": "妈妈问我：“你吃了吗？”",
+        "reading": "Māma wèn wǒ: \"Nǐ chī le ma?\""
+      },
+      {
+        "text": "我说：“还没，我想吃面条！”",
+        "reading": "Wǒ shuō: \"Hái méi, wǒ xiǎng chī miàntiáo!\""
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

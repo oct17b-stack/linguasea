@@ -1,0 +1,65 @@
+{
+  "id": "zh-B14-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.nian-di",
+      "text": "年底",
+      "reading": "niándǐ"
+    },
+    {
+      "id": "zh.hou-nian",
+      "text": "后年",
+      "reading": "hòunián"
+    },
+    {
+      "id": "zh.gu-xiang",
+      "text": "故乡",
+      "reading": "gùxiāng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "爸爸、妈妈：你们好！",
+        "reading": "Bàba, māma: nǐmen hǎo!"
+      },
+      {
+        "text": "我在曼谷，这里是小南的故乡。",
+        "reading": "Wǒ zài Màngǔ, zhèlǐ shì Xiǎonán de gùxiāng."
+      },
+      {
+        "text": "这里的寺很美丽，菜很辣，也很好吃。",
+        "reading": "Zhèlǐ de sì hěn měilì, cài hěn là, yě hěn hǎochī."
+      }
+    ],
+    [
+      {
+        "text": "年底我回北京。",
+        "reading": "Niándǐ wǒ huí Běijīng."
+      },
+      {
+        "text": "明年我还想来，后年和你们一起来！",
+        "reading": "Míngnián wǒ hái xiǎng lái, hòunián hé nǐmen yīqǐ lái!"
+      },
+      {
+        "text": "儿子：王明",
+        "reading": "Érzi: Wáng Míng"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

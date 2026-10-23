@@ -1,0 +1,75 @@
+{
+  "id": "ja-C10-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kogeru",
+      "text": "こげる",
+      "reading": "kogeru"
+    },
+    {
+      "id": "ja.kobosu",
+      "text": "こぼす",
+      "reading": "kobosu"
+    },
+    {
+      "id": "ja.wareru",
+      "text": "われる",
+      "reading": "wareru"
+    },
+    {
+      "id": "ja.yakedo",
+      "text": "やけど",
+      "reading": "yakedo"
+    },
+    {
+      "id": "ja.kowasu",
+      "text": "こわす",
+      "reading": "kowasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、その 手は どうしたんですか。",
+      "reading": "Namu-san, sono te wa dō shita n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きのう りょうで りょうりを して、やけどを して しまいました。",
+      "reading": "Kinō ryō de ryōri o shite, yakedo o shite shimaimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "それは たいへんでしたね。だいじょうぶですか。",
+      "reading": "Sore wa taihen deshita ne. Daijōbu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、なべの カレーも こげて しまいました。",
+      "reading": "Hai. Demo, nabe no karē mo kogete shimaimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "それは ざんねんでしたね。",
+      "reading": "Sore wa zannen deshita ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、こざらを おとして、われて しまいました。",
+      "reading": "Sorekara, kozara o otoshite, warete shimaimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "電子レンジは こわして いませんか。",
+      "reading": "Denshirenji wa kowashite imasen ka."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶです。でも、ジュースを こぼして しまいました…。",
+      "reading": "Daijōbu desu. Demo, jūsu o koboshite shimaimashita…"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "zh-D3-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.dao-mei",
+      "text": "倒霉",
+      "reading": "dǎoméi"
+    },
+    {
+      "id": "zh.xing-kui",
+      "text": "幸亏",
+      "reading": "xìngkuī"
+    },
+    {
+      "id": "zh.wan-yi",
+      "text": "万一",
+      "reading": "wànyī"
+    },
+    {
+      "id": "zh.hao-xin-ren",
+      "text": "好心人",
+      "reading": "hǎoxīnrén",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "十月五号是小南在西安最倒霉的一天。",
+        "reading": "Shí yuè wǔ hào shì Xiǎonán zài Xī'ān zuì dǎoméi de yī tiān."
+      },
+      {
+        "text": "早上下雨了，可是她没带伞。",
+        "reading": "Zǎoshang xiàyǔ le, kěshì tā méi dài sǎn."
+      },
+      {
+        "text": "下午，她和王明去钟楼附近买东西，那儿人特别多。",
+        "reading": "Xiàwǔ, tā hé Wáng Míng qù Zhōnglóu fùjìn mǎi dōngxi, nàr rén tèbié duō."
+      },
+      {
+        "text": "小南想买水的时候，发现钱包被偷了！",
+        "reading": "Xiǎonán xiǎng mǎi shuǐ de shíhou, fāxiàn qiánbāo bèi tōu le!"
+      }
+    ],
+    [
+      {
+        "text": "更倒霉的是，她的手机也没电了，她跟王明失去了联系。",
+        "reading": "Gèng dǎoméi de shì, tā de shǒujī yě méi diàn le, tā gēn Wáng Míng shīqù le liánxì."
+      },
+      {
+        "text": "她没有钱，也打不了电话，不知道怎么办。",
+        "reading": "Tā méiyǒu qián, yě dǎ bu liǎo diànhuà, bù zhīdào zěnme bàn."
+      },
+      {
+        "text": "这时候，一位好心人问她：“你需要帮助吗？”",
+        "reading": "Zhè shíhou, yī wèi hǎoxīnrén wèn tā: \"Nǐ xūyào bāngzhù ma?\""
+      },
+      {
+        "text": "那个人给了她五块钱，让她坐地铁回宾馆。",
+        "reading": "Nàge rén gěi le tā wǔ kuài qián, ràng tā zuò dìtiě huí bīnguǎn."
+      }
+    ],
+    [
+      {
+        "text": "幸亏她的护照在宾馆里，没被偷。",
+        "reading": "Xìngkuī tā de hùzhào zài bīnguǎn li, méi bèi tōu."
+      },
+      {
+        "text": "现在小南出门的时候，都会带一个充电宝，还会多带一点儿钱。",
+        "reading": "Xiànzài Xiǎonán chūmén de shíhou, dōu huì dài yī ge chōngdiànbǎo, hái huì duō dài yīdiǎnr qián."
+      },
+      {
+        "text": "她说：“万一再遇到倒霉的事，我也不怕了！”",
+        "reading": "Tā shuō: \"Wànyī zài yùdào dǎoméi de shì, wǒ yě bù pà le!\""
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

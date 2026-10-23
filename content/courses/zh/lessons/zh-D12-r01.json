@@ -1,0 +1,85 @@
+{
+  "id": "zh-D12-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.yao-qiu",
+      "text": "要求",
+      "reading": "yāoqiú"
+    },
+    {
+      "id": "zh.dai-yu",
+      "text": "待遇",
+      "reading": "dàiyù"
+    },
+    {
+      "id": "zh.you-xian",
+      "text": "优先",
+      "reading": "yōuxiān"
+    },
+    {
+      "id": "zh.bao-chi-zhu",
+      "kind": "phrase",
+      "text": "包吃住",
+      "reading": "bāo chī zhù"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "咖啡馆招聘！",
+        "reading": "Kāfēiguǎn zhāopìn!"
+      },
+      {
+        "text": "我们咖啡馆在学校东门旁边，现在需要五个店员。",
+        "reading": "Wǒmen kāfēiguǎn zài xuéxiào dōngmén pángbiān, xiànzài xūyào wǔ ge diànyuán."
+      },
+      {
+        "text": "全职、兼职都可以。",
+        "reading": "Quánzhí, jiānzhí dōu kěyǐ."
+      }
+    ],
+    [
+      {
+        "text": "要求：喜欢咖啡，对顾客热情。",
+        "reading": "Yāoqiú: xǐhuan kāfēi, duì gùkè rèqíng."
+      },
+      {
+        "text": "会说英语的优先，有工作经验的优先。",
+        "reading": "Huì shuō Yīngyǔ de yōuxiān, yǒu gōngzuò jīngyàn de yōuxiān."
+      },
+      {
+        "text": "兼职的同学每个星期最少工作十个小时。",
+        "reading": "Jiānzhí de tóngxué měi ge xīngqī zuì shǎo gōngzuò shí ge xiǎoshí."
+      }
+    ],
+    [
+      {
+        "text": "待遇：按小时算工资，一个小时二十五块，加班一个小时三十块。",
+        "reading": "Dàiyù: àn xiǎoshí suàn gōngzī, yī ge xiǎoshí èrshíwǔ kuài, jiābān yī ge xiǎoshí sānshí kuài."
+      },
+      {
+        "text": "全职店员包吃住，兼职店员包午饭。",
+        "reading": "Quánzhí diànyuán bāo chī zhù, jiānzhí diànyuán bāo wǔfàn."
+      },
+      {
+        "text": "有兴趣的同学，请用邮件把简历发给我们。",
+        "reading": "Yǒu xìngqù de tóngxué, qǐng yòng yóujiàn bǎ jiǎnlì fā gěi wǒmen."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

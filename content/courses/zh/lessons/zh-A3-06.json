@@ -1,0 +1,55 @@
+{
+  "id": "zh-A3-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.jie-shao",
+      "text": "介绍",
+      "reading": "jièshào"
+    },
+    {
+      "id": "zh.yi-xia",
+      "text": "一下",
+      "reading": "yīxià"
+    },
+    {
+      "id": "zh.wei-person",
+      "text": "位",
+      "reading": "wèi"
+    },
+    {
+      "id": "zh.da-jia",
+      "text": "大家",
+      "reading": "dàjiā"
+    },
+    {
+      "id": "zh.ni-men",
+      "text": "你们",
+      "reading": "nǐmen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，哪位是李老师？",
+      "reading": "Xiǎonán, nǎ wèi shì Lǐ lǎoshī?"
+    },
+    {
+      "speaker": "a",
+      "text": "我介绍一下：他叫王明。",
+      "reading": "Wǒ jièshào yīxià: tā jiào Wáng Míng."
+    },
+    {
+      "speaker": "c",
+      "text": "大家好！他是王明。欢迎！",
+      "reading": "Dàjiā hǎo! Tā shì Wáng Míng. Huānyíng!"
+    },
+    {
+      "speaker": "b",
+      "text": "李老师好！你们好！",
+      "reading": "Lǐ lǎoshī hǎo! Nǐmen hǎo!"
+    }
+  ]
+}

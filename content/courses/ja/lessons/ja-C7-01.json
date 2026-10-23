@@ -1,0 +1,75 @@
+{
+  "id": "ja-C7-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.un",
+      "text": "うん",
+      "reading": "un"
+    },
+    {
+      "id": "ja.uun",
+      "text": "ううん",
+      "reading": "uun"
+    },
+    {
+      "id": "ja.boku",
+      "text": "ぼく",
+      "reading": "boku"
+    },
+    {
+      "id": "ja.kimi",
+      "text": "きみ",
+      "reading": "kimi"
+    },
+    {
+      "id": "ja.yappari",
+      "text": "やっぱり",
+      "reading": "yappari"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、あした えいがに いく？",
+      "reading": "Namu, ashita eiga ni iku?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、いく！ なんじ？",
+      "reading": "Un, iku! Nanji?"
+    },
+    {
+      "speaker": "c",
+      "text": "3時。きむらさんも くるよ。",
+      "reading": "Sanji. Kimura-san mo kuru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。えいがの あとで、ばんごはんも たべる？",
+      "reading": "Hē. Eiga no ato de, bangohan mo taberu?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、たべない。よるは アルバイトが ある。",
+      "reading": "Uun, tabenai. Yoru wa arubaito ga aru."
+    },
+    {
+      "speaker": "b",
+      "text": "あ、ナムさん。きみも あした くる？",
+      "reading": "A, Namu-san. Kimi mo ashita kuru?"
+    },
+    {
+      "speaker": "a",
+      "text": "はい、いきます。きむらせんぱいは ばんごはんを たべますか。",
+      "reading": "Hai, ikimasu. Kimura-senpai wa bangohan o tabemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "うん、ぼくは たべる。やっぱり ラーメンが いいな。",
+      "reading": "Un, boku wa taberu. Yappari rāmen ga ii na."
+    }
+  ]
+}

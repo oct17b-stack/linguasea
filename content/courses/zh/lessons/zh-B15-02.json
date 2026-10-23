@@ -1,0 +1,60 @@
+{
+  "id": "zh-B15-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.bin-guan",
+      "text": "宾馆",
+      "reading": "bīnguǎn"
+    },
+    {
+      "id": "zh.shuang-ren-jian",
+      "text": "双人间",
+      "reading": "shuāngrénjiān"
+    },
+    {
+      "id": "zh.fang-hao",
+      "text": "房号",
+      "reading": "fánghào"
+    },
+    {
+      "id": "zh.fu-wu-tai",
+      "text": "服务台",
+      "reading": "fúwùtái"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个宾馆真小！服务台在哪儿？",
+      "reading": "Xiǎonán, zhège bīnguǎn zhēn xiǎo! Fúwùtái zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "在那里。我们去问问。",
+      "reading": "Zài nàlǐ. Wǒmen qù wènwen."
+    },
+    {
+      "speaker": "c",
+      "text": "你们好！欢迎！",
+      "reading": "Nǐmen hǎo! Huānyíng!"
+    },
+    {
+      "speaker": "a",
+      "text": "你好！还有双人间吗？我们要两个，住一晚。",
+      "reading": "Nǐ hǎo! Hái yǒu shuāngrénjiān ma? Wǒmen yào liǎng ge, zhù yī wǎn."
+    },
+    {
+      "speaker": "c",
+      "text": "有。你们的房号是三零五和三零六。",
+      "reading": "Yǒu. Nǐmen de fánghào shì sān líng wǔ hé sān líng liù."
+    },
+    {
+      "speaker": "b",
+      "text": "三楼？好，谢谢！",
+      "reading": "Sān lóu? Hǎo, xièxie!"
+    }
+  ]
+}

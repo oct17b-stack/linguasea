@@ -1,0 +1,65 @@
+{
+  "id": "zh-B13-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.da-shi-guan",
+      "text": "大使馆",
+      "reading": "dàshǐguǎn"
+    },
+    {
+      "id": "zh.guo-nei",
+      "text": "国内",
+      "reading": "guónèi"
+    },
+    {
+      "id": "zh.qi-lai",
+      "text": "起来",
+      "reading": "qǐlái"
+    },
+    {
+      "id": "zh.ling-qian",
+      "text": "零钱",
+      "reading": "língqián"
+    },
+    {
+      "id": "zh.hu-zhao",
+      "text": "护照",
+      "reading": "hùzhào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我的护照不在包里！",
+      "reading": "Xiǎonán, wǒ de hùzhào bù zài bāo lǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "别急！你去中国大使馆吧。",
+      "reading": "Bié jí! Nǐ qù Zhōngguó dàshǐguǎn ba."
+    },
+    {
+      "speaker": "b",
+      "text": "大使馆远吗？",
+      "reading": "Dàshǐguǎn yuǎn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不太远，我们在这里坐公交车吧。你有零钱吗？",
+      "reading": "Bù tài yuǎn, wǒmen zài zhèlǐ zuò gōngjiāochē ba. Nǐ yǒu língqián ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "没有。在国内，我们都用手机，不用零钱。",
+      "reading": "Méiyǒu. Zài guónèi, wǒmen dōu yòng shǒujī, bùyòng língqián."
+    },
+    {
+      "speaker": "a",
+      "text": "我有！快站起来，公交车来了！",
+      "reading": "Wǒ yǒu! Kuài zhàn qǐlái, gōngjiāochē lái le!"
+    }
+  ]
+}

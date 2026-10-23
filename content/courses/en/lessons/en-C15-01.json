@@ -1,0 +1,70 @@
+{
+  "id": "en-C15-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.screen",
+      "text": "screen",
+      "reading": "skriːn"
+    },
+    {
+      "id": "en.battery",
+      "text": "battery",
+      "reading": "ˈbætəri"
+    },
+    {
+      "id": "en.charger",
+      "text": "charger",
+      "reading": "ˈtʃɑːrdʒər"
+    },
+    {
+      "id": "en.anything",
+      "text": "anything",
+      "reading": "ˈɛniθɪŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Can I help you?",
+      "reading": "ˈhaɪ! kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, please. Something is wrong with my phone.",
+      "reading": "ˈjɛs, ˈpliːz. ˈsʌmθɪŋ ɪz ˈrɔːŋ wɪð maɪ ˈfoʊn."
+    },
+    {
+      "speaker": "b",
+      "text": "Is anything wrong with the screen?",
+      "reading": "ɪz ˈɛniθɪŋ ˈrɔːŋ wɪð ðə ˈskriːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, there's nothing wrong with the screen. But the battery is always empty after two hours.",
+      "reading": "ˈnoʊ, ðɛrz ˈnʌθɪŋ ˈrɔːŋ wɪð ðə ˈskriːn. bʌt ðə ˈbætəri ɪz ˈɔːlweɪz ˈɛmpti ˈæftər ˈtuː ˈaʊərz."
+    },
+    {
+      "speaker": "b",
+      "text": "Hmm. Does your charger work?",
+      "reading": "ˈhm. dʌz jʊr ˈtʃɑːrdʒər ˈwɜːrk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not very well. It's very old.",
+      "reading": "ˈnɑːt ˈvɛri ˈwɛl. ɪts ˈvɛri ˈoʊld."
+    },
+    {
+      "speaker": "b",
+      "text": "I checked everything. You just need a new charger.",
+      "reading": "aɪ ˈtʃɛkt ˈɛvriθɪŋ. juː ˈdʒʌst ˈniːd ə ˈnuː ˈtʃɑːrdʒər."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Do you have anything cheap?",
+      "reading": "ˈɡreɪt! duː juː ˈhæv ˈɛniθɪŋ ˈtʃiːp?"
+    }
+  ]
+}

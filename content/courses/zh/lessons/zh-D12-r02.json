@@ -1,0 +1,88 @@
+{
+  "id": "zh-D12-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.qi-shou",
+      "text": "骑手",
+      "reading": "qíshǒu"
+    },
+    {
+      "id": "zh.cha-ping",
+      "text": "差评",
+      "reading": "chàpíng"
+    },
+    {
+      "id": "zh.hao-ping",
+      "text": "好评",
+      "reading": "hǎopíng"
+    },
+    {
+      "id": "zh.chao-shi-overtime",
+      "text": "超时",
+      "reading": "chāoshí"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "放假以后，王明找了一个兼职：送外卖。",
+        "reading": "Fàngjià yǐhòu, Wáng Míng zhǎo le yī ge jiānzhí: Sòng wàimài."
+      },
+      {
+        "text": "他成了一个外卖骑手，每天骑着自行车去很多地方。",
+        "reading": "Tā chéng le yī ge wàimài qíshǒu, měitiān qízhe zìxíngchē qù hěn duō dìfang."
+      }
+    ],
+    [
+      {
+        "text": "第一天，他送错了一个地址，还超时了二十分钟。",
+        "reading": "Dì-yī tiān, tā sòngcuò le yī ge dìzhǐ, hái chāoshí le èrshí fēnzhōng."
+      },
+      {
+        "text": "顾客很生气，给了他一个差评。",
+        "reading": "Gùkè hěn shēngqì, gěi le tā yī ge chàpíng."
+      },
+      {
+        "text": "王明很不高兴，晚上连饭也不想吃。",
+        "reading": "Wáng Míng hěn bù gāoxìng, wǎnshang lián fàn yě bù xiǎng chī."
+      },
+      {
+        "text": "第三天下大雨，他把一份汤送到一位老奶奶家，汤还是热的。",
+        "reading": "Dì-sān tiān xià dà yǔ, tā bǎ yī fèn tāng sòngdào yī wèi lǎo nǎinai jiā, tāng háishi rè de."
+      },
+      {
+        "text": "老奶奶给了他一个好评，还送给他一瓶水。",
+        "reading": "Lǎo nǎinai gěi le tā yī ge hǎopíng, hái sòng gěi tā yī píng shuǐ."
+      }
+    ],
+    [
+      {
+        "text": "一个星期下来，王明送了一百多份外卖，收入是八百块。",
+        "reading": "Yī ge xīngqī xiàlai, Wáng Míng sòng le yībǎi duō fèn wàimài, shōurù shì bābǎi kuài."
+      },
+      {
+        "text": "他说：“送外卖很累，可是我学到了很多。”",
+        "reading": "Tā shuō: \"Sòng wàimài hěn lèi, kěshì wǒ xuédào le hěn duō.\""
+      },
+      {
+        "text": "现在他每天出门以前都先看地图，再也不想超时了。",
+        "reading": "Xiànzài tā měitiān chūmén yǐqián dōu xiān kàn dìtú, zàiyě bù xiǎng chāoshí le."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

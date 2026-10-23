@@ -1,0 +1,70 @@
+{
+  "id": "ja-C3-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.koumuin",
+      "text": "こうむいん",
+      "reading": "kōmuin"
+    },
+    {
+      "id": "ja.shachou",
+      "text": "社長",
+      "reading": "shachō"
+    },
+    {
+      "id": "ja.kaigi",
+      "text": "かいぎ",
+      "reading": "kaigi"
+    },
+    {
+      "id": "ja.kyuuryou",
+      "text": "きゅうりょう",
+      "reading": "kyūryō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、しゅうまつは なにを しますか。",
+      "reading": "Yuki-san, shūmatsu wa nani o shimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "おじさんの うちへ いきます。おじさんは 社長ですから、にちようびしか やすみが ありません。",
+      "reading": "Ojisan no uchi e ikimasu. Ojisan wa shachō desu kara, nichiyōbi shika yasumi ga arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "社長ですか。いそがしいですね。",
+      "reading": "Shachō desu ka. Isogashii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。まいにち かいぎが あります。よるは 5じかんしか ねません。",
+      "reading": "Hai. Mainichi kaigi ga arimasu. Yoru wa gojikan shika nemasen."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへんですね。でも、きゅうりょうは たかいですね。",
+      "reading": "Taihen desu ne. Demo, kyūryō wa takai desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですね。おばさんは こうむいんですが、きゅうりょうは おじさんの ほうが たかいです。",
+      "reading": "Sō desu ne. Obasan wa kōmuin desu ga, kyūryō wa ojisan no hō ga takai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "おばさんも いそがしいですか。",
+      "reading": "Obasan mo isogashii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ。おばさんは どようびと にちようびが やすみです。",
+      "reading": "Iie. Obasan wa doyōbi to nichiyōbi ga yasumi desu."
+    }
+  ]
+}

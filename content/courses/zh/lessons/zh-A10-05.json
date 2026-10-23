@@ -1,0 +1,50 @@
+{
+  "id": "zh-A10-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.ri-yu",
+      "text": "日语",
+      "reading": "Rìyǔ"
+    },
+    {
+      "id": "zh.han-yu-korean",
+      "text": "韩语",
+      "reading": "Hányǔ"
+    },
+    {
+      "id": "zh.fa-guo",
+      "text": "法国",
+      "reading": "Fǎguó"
+    },
+    {
+      "id": "zh.fa-yu",
+      "text": "法语",
+      "reading": "Fǎyǔ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你说日语吗？",
+      "reading": "Xiǎonán, nǐ shuō Rìyǔ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不说。我想学韩语！你呢？",
+      "reading": "Bù shuō. Wǒ xiǎng xué Hányǔ! Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我想学法语。",
+      "reading": "Wǒ xiǎng xué Fǎyǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！法国菜很好吃！",
+      "reading": "Tài hǎo le! Fǎguó cài hěn hǎochī!"
+    }
+  ]
+}

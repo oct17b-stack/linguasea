@@ -1,0 +1,100 @@
+{
+  "id": "zh-E3-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "zh.shi-pin-tong-hua",
+      "kind": "phrase",
+      "text": "视频通话",
+      "reading": "shìpín tōnghuà"
+    },
+    {
+      "id": "zh.cao-zuo",
+      "text": "操作",
+      "reading": "cāozuò"
+    },
+    {
+      "id": "zh.lao-nian-ren",
+      "text": "老年人",
+      "reading": "lǎoniánrén"
+    },
+    {
+      "id": "zh.fu-za",
+      "text": "复杂",
+      "reading": "fùzá"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南，你好！",
+        "reading": "Xiǎonán, nǐ hǎo!"
+      },
+      {
+        "text": "上次你说可以教我奶奶用手机，我奶奶听了特别高兴。",
+        "reading": "Shàngcì nǐ shuō kěyǐ jiāo wǒ nǎinai yòng shǒujī, wǒ nǎinai tīng le tèbié gāoxìng."
+      },
+      {
+        "text": "奶奶有很多老朋友住在别的城市，她很想跟他们视频通话。",
+        "reading": "Nǎinai yǒu hěn duō lǎo péngyou zhù zài biéde chéngshì, tā hěn xiǎng gēn tāmen shìpín tōnghuà."
+      }
+    ],
+    [
+      {
+        "text": "我教过她几次，可是她总是说操作太复杂了。",
+        "reading": "Wǒ jiāo guo tā jǐ cì, kěshì tā zǒngshì shuō cāozuò tài fùzá le."
+      },
+      {
+        "text": "她说手机上的字太小，东西也太多，她看不清楚。",
+        "reading": "Tā shuō shǒujī shang de zì tài xiǎo, dōngxi yě tài duō, tā kàn bù qīngchu."
+      },
+      {
+        "text": "很多老年人都有这样的问题，不是他们不聪明，而是很多应用太复杂了。",
+        "reading": "Hěn duō lǎoniánrén dōu yǒu zhèyàng de wèntí, bù shì tāmen bù cōngming, ér shì hěn duō yìngyòng tài fùzá le."
+      },
+      {
+        "text": "而且我教的时候说得太快，她常常听不懂。",
+        "reading": "Érqiě wǒ jiāo de shíhou shuō de tài kuài, tā chángcháng tīng bù dǒng."
+      }
+    ],
+    [
+      {
+        "text": "上次你教我奶奶合十，她学得很快，所以我想请你帮帮忙。",
+        "reading": "Shàngcì nǐ jiāo wǒ nǎinai héshí, tā xué de hěn kuài, suǒyǐ wǒ xiǎng qǐng nǐ bāngbang máng."
+      },
+      {
+        "text": "这个星期六下午你有空吗？我们可以一起去她家。",
+        "reading": "Zhège xīngqīliù xiàwǔ nǐ yǒu kòng ma? Wǒmen kěyǐ yīqǐ qù tā jiā."
+      },
+      {
+        "text": "你只要教她怎么打视频通话就行，别的以后再说。",
+        "reading": "Nǐ zhǐyào jiāo tā zěnme dǎ shìpín tōnghuà jiù xíng, biéde yǐhòu zài shuō."
+      },
+      {
+        "text": "奶奶说，她会给你包你最喜欢吃的饺子！",
+        "reading": "Nǎinai shuō, tā huì gěi nǐ bāo nǐ zuì xǐhuan chī de jiǎozi!"
+      },
+      {
+        "text": "王明",
+        "reading": "Wáng Míng"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

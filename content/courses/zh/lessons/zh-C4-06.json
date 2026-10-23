@@ -1,0 +1,71 @@
+{
+  "id": "zh-C4-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.chi-dao",
+      "text": "迟到",
+      "reading": "chídào"
+    },
+    {
+      "id": "zh.zhun-shi",
+      "text": "准时",
+      "reading": "zhǔnshí"
+    },
+    {
+      "id": "zh.gai-tian",
+      "text": "改天",
+      "reading": "gǎitiān"
+    },
+    {
+      "id": "zh.dui-le",
+      "text": "对了",
+      "reading": "duì le",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "喂，是小南吧？我是李老师。",
+      "reading": "Wéi, shì Xiǎonán ba? Wǒ shì Lǐ lǎoshī."
+    },
+    {
+      "speaker": "a",
+      "text": "李老师，您好！您在路上吧？",
+      "reading": "Lǐ lǎoshī, nín hǎo! Nín zài lùshang ba?"
+    },
+    {
+      "speaker": "c",
+      "text": "对不起，今天晚上我有事，不能去。我们改天吧。",
+      "reading": "Duìbuqǐ, jīntiān wǎnshang wǒ yǒu shì, bù néng qù. Wǒmen gǎitiān ba."
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，我们改天见！",
+      "reading": "Méi guānxi, wǒmen gǎitiān jiàn!"
+    },
+    {
+      "speaker": "b",
+      "text": "小南，对不起！路上车太多。",
+      "reading": "Xiǎonán, duìbuqǐ! Lùshang chē tài duō."
+    },
+    {
+      "speaker": "a",
+      "text": "你每次都迟到！",
+      "reading": "Nǐ měi cì dōu chídào!"
+    },
+    {
+      "speaker": "b",
+      "text": "下次我准时来！对了，李老师呢？还在路上吧？",
+      "reading": "Xiàcì wǒ zhǔnshí lái! Duì le, Lǐ lǎoshī ne? Hái zài lùshang ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "她今天有事，不能来。我们先进去吧！",
+      "reading": "Tā jīntiān yǒu shì, bù néng lái. Wǒmen xiān jìnqù ba!"
+    }
+  ]
+}

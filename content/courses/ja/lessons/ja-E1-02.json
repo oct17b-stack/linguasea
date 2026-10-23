@@ -1,0 +1,90 @@
+{
+  "id": "ja-E1-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.yashoku",
+      "text": "夜食",
+      "reading": "yashoku"
+    },
+    {
+      "id": "ja.kanshoku",
+      "text": "間食",
+      "reading": "kanshoku"
+    },
+    {
+      "id": "ja.enbun",
+      "text": "えんぶん",
+      "reading": "enbun"
+    },
+    {
+      "id": "ja.aburakkoi",
+      "text": "あぶらっこい",
+      "reading": "aburakkoi"
+    },
+    {
+      "id": "ja.hikaeru",
+      "text": "ひかえる",
+      "reading": "hikaeru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、さいきんちょっとやせた？",
+      "reading": "Namu, saikin chotto yaseta?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、すこしね。夜食をたべないようにしているんだ。",
+      "reading": "Un, sukoshi ne. Yashoku o tabenai yō ni shite iru n da."
+    },
+    {
+      "speaker": "c",
+      "text": "えらい！わたしは、しゅくだいをしながら、よくラーメンをたべちゃう。",
+      "reading": "Erai! Watashi wa, shukudai o shinagara, yoku rāmen o tabechau."
+    },
+    {
+      "speaker": "a",
+      "text": "ラーメンはえんぶんがおおいし、あぶらっこいから、からだによくないよ。",
+      "reading": "Rāmen wa enbun ga ōi shi, aburakkoi kara, karada ni yoku nai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだけど…。ナムは間食もしないの？",
+      "reading": "Sō da kedo…. Namu wa kanshoku mo shinai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "あまいものがすきだから、間食はゼロにはできない。でも、1日1かいにしている。",
+      "reading": "Amai mono ga suki da kara, kanshoku wa zero ni wa dekinai. Demo, ichinichi ikkai ni shite iru."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。ほかにも、なにかしているの？",
+      "reading": "Sō na n da. Hoka ni mo, nanika shite iru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。あぶらっこいものは、できるだけひかえるようにしている。",
+      "reading": "Un. Aburakkoi mono wa, dekiru dake hikaeru yō ni shite iru."
+    },
+    {
+      "speaker": "c",
+      "text": "えんぶんは？タイりょうりは、しょっぱいものもおおいでしょう？",
+      "reading": "Enbun wa? Tai ryōri wa, shoppai mono mo ōi deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。だから、りょうりを作るときは、しょっぱくなりすぎないようにしているよ。",
+      "reading": "Un. Dakara, ryōri o tsukuru toki wa, shoppaku narisuginai yō ni shite iru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "すごいね。わたしも、今夜から夜食をたべないようにする！",
+      "reading": "Sugoi ne. Watashi mo, kon'ya kara yashoku o tabenai yō ni suru!"
+    }
+  ]
+}

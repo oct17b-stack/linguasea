@@ -1,0 +1,79 @@
+{
+  "id": "zh-C1-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ge-shou",
+      "text": "歌手",
+      "reading": "gēshǒu"
+    },
+    {
+      "id": "zh.yan-yuan",
+      "text": "演员",
+      "reading": "yǎnyuán"
+    },
+    {
+      "id": "zh.wu-tai",
+      "text": "舞台",
+      "reading": "wǔtái"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "大家好！我叫王明，今年二十一岁，是北京人。",
+        "reading": "Dàjiā hǎo! Wǒ jiào Wáng Míng, jīnnián èrshíyī suì, shì Běijīng rén."
+      },
+      {
+        "text": "我的爱好是听音乐、弹吉他和爬山。",
+        "reading": "Wǒ de àihào shì tīng yīnyuè, tán jítā hé páshān."
+      },
+      {
+        "text": "我会弹钢琴，也会弹一点儿吉他。",
+        "reading": "Wǒ huì tán gāngqín, yě huì tán yīdiǎnr jítā."
+      },
+      {
+        "text": "每个星期六晚上，我都在学校的小舞台上弹吉他。",
+        "reading": "Měi ge xīngqīliù wǎnshang, wǒ dōu zài xuéxiào de xiǎo wǔtái shang tán jítā."
+      }
+    ],
+    [
+      {
+        "text": "我最喜欢的歌手是一个泰国人。",
+        "reading": "Wǒ zuì xǐhuan de gēshǒu shì yī ge Tàiguó rén."
+      },
+      {
+        "text": "他也是演员，在中国很有名。",
+        "reading": "Tā yě shì yǎnyuán, zài Zhōngguó hěn yǒumíng."
+      },
+      {
+        "text": "他的歌很好听，可是我不会说泰语。",
+        "reading": "Tā de gē hěn hǎotīng, kěshì wǒ bù huì shuō Tàiyǔ."
+      },
+      {
+        "text": "我的朋友小南是泰国人，她经常教我唱他的歌。",
+        "reading": "Wǒ de péngyou Xiǎonán shì Tàiguó rén, tā jīngcháng jiāo wǒ chàng tā de gē."
+      }
+    ],
+    [
+      {
+        "text": "你也喜欢音乐吗？欢迎你来找我！",
+        "reading": "Nǐ yě xǐhuan yīnyuè ma? Huānyíng nǐ lái zhǎo wǒ!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

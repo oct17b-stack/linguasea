@@ -1,0 +1,60 @@
+{
+  "id": "zh-B15-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.wu-xian-wang",
+      "text": "无线网",
+      "reading": "wúxiànwǎng"
+    },
+    {
+      "id": "zh.re-shui",
+      "text": "热水",
+      "reading": "rèshuǐ"
+    },
+    {
+      "id": "zh.liang-shui",
+      "text": "凉水",
+      "reading": "liángshuǐ"
+    },
+    {
+      "id": "zh.zhen-tou",
+      "text": "枕头",
+      "reading": "zhěntou"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里有没有无线网？",
+      "reading": "Xiǎonán, zhèlǐ yǒu méiyǒu wúxiànwǎng?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，房间里也能上网。",
+      "reading": "Yǒu, fángjiān lǐ yě néng shàngwǎng."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了。我想喝热水，有吗？",
+      "reading": "Tài hǎo le. Wǒ xiǎng hē rèshuǐ, yǒu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。你们中国人喜欢喝热水，我们泰国人喜欢喝凉水！",
+      "reading": "Yǒu. Nǐmen Zhōngguó rén xǐhuan hē rèshuǐ, wǒmen Tàiguó rén xǐhuan hē liángshuǐ!"
+    },
+    {
+      "speaker": "b",
+      "text": "对！还有，这个枕头太小了。",
+      "reading": "Duì! Hái yǒu, zhège zhěntou tài xiǎo le."
+    },
+    {
+      "speaker": "a",
+      "text": "我去服务台再要一个。",
+      "reading": "Wǒ qù fúwùtái zài yào yī ge."
+    }
+  ]
+}

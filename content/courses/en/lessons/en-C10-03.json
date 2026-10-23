@@ -1,0 +1,75 @@
+{
+  "id": "en-C10-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.transfer",
+      "text": "transfer",
+      "reading": "trænsˈfɜːr"
+    },
+    {
+      "id": "en.exchange-rate",
+      "text": "exchange rate",
+      "reading": "ɪksˈtʃeɪndʒ ˌreɪt"
+    },
+    {
+      "id": "en.currency",
+      "text": "currency",
+      "reading": "ˈkɜːrənsi"
+    },
+    {
+      "id": "en.explain",
+      "text": "explain",
+      "reading": "ɪkˈspleɪn"
+    },
+    {
+      "id": "en.dollar",
+      "text": "dollar",
+      "reading": "ˈdɑːlər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Could you help me, please?",
+      "reading": "ɪkˈskjuːz miː. kʊd juː ˈhɛlp miː, ˈpliːz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. What can I do for you?",
+      "reading": "əv ˈkɔːrs. ˈwʌt kən aɪ ˈduː fər juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'd like to transfer some money to my friend in Canada.",
+      "reading": "aɪd ˈlaɪk tə trænsˈfɜːr sʌm ˈmʌni tə maɪ ˈfrɛnd ɪn ˈkænədə."
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. The currency in Canada is the Canadian dollar.",
+      "reading": "ˈʃʊr. ðə ˈkɜːrənsi ɪn ˈkænədə ɪz ðə kəˈneɪdiən ˈdɑːlər."
+    },
+    {
+      "speaker": "a",
+      "text": "Could you explain the exchange rate?",
+      "reading": "kʊd juː ɪkˈspleɪn ði ɪksˈtʃeɪndʒ ˌreɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Today, one Canadian dollar is about twenty-four baht.",
+      "reading": "təˈdeɪ, ˈwʌn kəˈneɪdiən ˈdɑːlər ɪz əˈbaʊt ˌtwɛnti ˈfɔːr ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, can you say that again, please?",
+      "reading": "ˈsɑːri, kən juː ˈseɪ ðæt əˈɡɛn, ˈpliːz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. One dollar is twenty-four baht. I can write it down for you.",
+      "reading": "ˈʃʊr. ˈwʌn ˈdɑːlər ɪz ˌtwɛnti ˈfɔːr ˈbɑːt. aɪ kən ˈraɪt ɪt ˈdaʊn fər juː."
+    }
+  ]
+}

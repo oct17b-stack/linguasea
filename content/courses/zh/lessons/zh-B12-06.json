@@ -1,0 +1,61 @@
+{
+  "id": "zh-B12-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.jin-enter",
+      "text": "进",
+      "reading": "jìn"
+    },
+    {
+      "id": "zh.chu",
+      "text": "出",
+      "reading": "chū"
+    },
+    {
+      "id": "zh.bu-bi",
+      "text": "不必",
+      "reading": "bùbì"
+    },
+    {
+      "id": "zh.neng-bu-neng",
+      "kind": "phrase",
+      "text": "能不能",
+      "reading": "néng bù néng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这个门是“进”还是“出”？",
+      "reading": "Wáng Míng, zhège mén shì \"jìn\" háishi \"chū\"?"
+    },
+    {
+      "speaker": "b",
+      "text": "是“出”。“进”是那个门。",
+      "reading": "Shì \"chū\". \"Jìn\" shì nàge mén."
+    },
+    {
+      "speaker": "a",
+      "text": "进公园要买票吗？",
+      "reading": "Jìn gōngyuán yào mǎi piào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不必，学生不用买票。",
+      "reading": "Bùbì, xuésheng bùyòng mǎi piào."
+    },
+    {
+      "speaker": "a",
+      "text": "能不能在草地上吃东西？",
+      "reading": "Néng bù néng zài cǎodì shang chī dōngxi?"
+    },
+    {
+      "speaker": "b",
+      "text": "能！我们去那里吃吧。",
+      "reading": "Néng! Wǒmen qù nàlǐ chī ba."
+    }
+  ]
+}

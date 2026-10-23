@@ -1,0 +1,95 @@
+{
+  "id": "ja-E2-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ijoukishou",
+      "text": "いじょうきしょう",
+      "reading": "ijōkishō"
+    },
+    {
+      "id": "ja.taiki",
+      "text": "大気",
+      "reading": "taiki"
+    },
+    {
+      "id": "ja.osen",
+      "text": "おせん",
+      "reading": "osen"
+    },
+    {
+      "id": "ja.haikigasu",
+      "text": "はいきガス",
+      "reading": "haikigasu"
+    },
+    {
+      "id": "ja.shinkoku",
+      "text": "深刻",
+      "reading": "shinkoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "お知らせです。台風のため、きょうのバンコク行きのひこうきは、ぜんぶ中止になりました。",
+      "reading": "Oshirase desu. Taifū no tame, kyō no Bankoku-iki no hikōki wa, zenbu chūshi ni narimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "もしもし、ゆき？ひこうきが中止になっちゃった。",
+      "reading": "Moshimoshi, Yuki? Hikōki ga chūshi ni natchatta."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとう？台風で？",
+      "reading": "Hontō? Taifū de?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。くうこうのひとが「台風のため、中止です」っていっていた。",
+      "reading": "Un. Kūkō no hito ga \"Taifū no tame, chūshi desu\" tte itte ita."
+    },
+    {
+      "speaker": "c",
+      "text": "さいきん、いじょうきしょうがおおいね。今年のなつは、すごくあつかったし。",
+      "reading": "Saikin, ijōkishō ga ōi ne. Kotoshi no natsu wa, sugoku atsukatta shi."
+    },
+    {
+      "speaker": "a",
+      "text": "タイもそうだよ。それに、バンコクでは大気おせんも深刻なんだ。",
+      "reading": "Tai mo sō da yo. Sore ni, Bankoku de wa taiki osen mo shinkoku na n da."
+    },
+    {
+      "speaker": "c",
+      "text": "ニュースでみたよ。そんなに深刻なの？",
+      "reading": "Nyūsu de mita yo. Sonna ni shinkoku na no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。しんぶんに「大気おせんのため、こどもはそとであそばないように」ってかいてあった。",
+      "reading": "Un. Shinbun ni \"Taiki osen no tame, kodomo wa soto de asobanai yō ni\" tte kaite atta."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんだね。げんいんはなに？",
+      "reading": "Taihen da ne. Gen'in wa nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "いちばんのげんいんは、くるまのはいきガスだって。",
+      "reading": "Ichiban no gen'in wa, kuruma no haikigasu da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。ひこうき、あしたはとぶといいね。",
+      "reading": "Sō na n da. Hikōki, ashita wa tobu to ii ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。あしたのあさ、またれんらくするね。",
+      "reading": "Un. Ashita no asa, mata renraku suru ne."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A6-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.xi-gua",
+      "text": "西瓜",
+      "reading": "xīguā"
+    },
+    {
+      "id": "zh.xiang-jiao",
+      "text": "香蕉",
+      "reading": "xiāngjiāo"
+    },
+    {
+      "id": "zh.pu-tao",
+      "text": "葡萄",
+      "reading": "pútao"
+    },
+    {
+      "id": "zh.cheng-zi",
+      "text": "橙子",
+      "reading": "chéngzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你喜欢吃什么水果？",
+      "reading": "Xiǎonán, nǐ xǐhuan chī shénme shuǐguǒ?"
+    },
+    {
+      "speaker": "a",
+      "text": "我喜欢西瓜、香蕉和橙子。",
+      "reading": "Wǒ xǐhuan xīguā, xiāngjiāo hé chéngzi."
+    },
+    {
+      "speaker": "c",
+      "text": "这是葡萄，你吃吗？",
+      "reading": "Zhè shì pútao, nǐ chī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢阿姨！很好吃！",
+      "reading": "Xièxie āyí! Hěn hǎochī!"
+    }
+  ]
+}

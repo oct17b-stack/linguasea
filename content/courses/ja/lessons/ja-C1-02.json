@@ -1,0 +1,70 @@
+{
+  "id": "ja-C1-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tokui",
+      "text": "とくい",
+      "reading": "tokui"
+    },
+    {
+      "id": "ja.nigate",
+      "text": "にがて",
+      "reading": "nigate"
+    },
+    {
+      "id": "ja.dansu",
+      "text": "ダンス",
+      "reading": "dansu"
+    },
+    {
+      "id": "ja.gakki",
+      "text": "がっき",
+      "reading": "gakki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは なにが とくいですか。",
+      "reading": "Namu-san wa nani ga tokui desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "スポーツが とくいです。バスケットボールを よく します。",
+      "reading": "Supōtsu ga tokui desu. Basukettobōru o yoku shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。がっきは どうですか。",
+      "reading": "Ii desu ne. Gakki wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ギターが とくいです。でも、ダンスは にがてです。",
+      "reading": "Gitā ga tokui desu. Demo, dansu wa nigate desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは ダンスが とくいですよ。でも、うたは にがてです。",
+      "reading": "Watashi wa dansu ga tokui desu yo. Demo, uta wa nigate desu."
+    },
+    {
+      "speaker": "a",
+      "text": "え？ でも、カラオケが すきですよね。",
+      "reading": "E? Demo, karaoke ga suki desu yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。へたですが、だいすきです。ナムさんの ギターも ききたいです。",
+      "reading": "Hai. Heta desu ga, daisuki desu. Namu-san no gitā mo kikitai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですよ。こんど ひきます。",
+      "reading": "Ii desu yo. Kondo hikimasu."
+    }
+  ]
+}

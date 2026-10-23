@@ -1,0 +1,50 @@
+{
+  "id": "zh-A14-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.yuan-dan",
+      "text": "元旦",
+      "reading": "Yuándàn"
+    },
+    {
+      "id": "zh.xin-nian",
+      "text": "新年",
+      "reading": "xīnnián"
+    },
+    {
+      "id": "zh.kuai-le",
+      "text": "快乐",
+      "reading": "kuàilè"
+    },
+    {
+      "id": "zh.ri-li",
+      "text": "日历",
+      "reading": "rìlì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，元旦快乐！",
+      "reading": "Xiǎonán, Yuándàn kuàilè!"
+    },
+    {
+      "speaker": "a",
+      "text": "新年快乐！这是给你的。",
+      "reading": "Xīnnián kuàilè! Zhè shì gěi nǐ de."
+    },
+    {
+      "speaker": "b",
+      "text": "日历？谢谢！很好看！",
+      "reading": "Rìlì? Xièxie! Hěn hǎokàn!"
+    },
+    {
+      "speaker": "a",
+      "text": "泰国人新年喜欢送日历。",
+      "reading": "Tàiguó rén xīnnián xǐhuan sòng rìlì."
+    }
+  ]
+}

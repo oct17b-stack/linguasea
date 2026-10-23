@@ -1,0 +1,70 @@
+{
+  "id": "ja-C4-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.henji",
+      "text": "へんじ",
+      "reading": "henji"
+    },
+    {
+      "id": "ja.shimekiri",
+      "text": "しめきり",
+      "reading": "shimekiri"
+    },
+    {
+      "id": "ja.sukejuuru",
+      "text": "スケジュール",
+      "reading": "sukejūru"
+    },
+    {
+      "id": "ja.hinichi",
+      "text": "日にち",
+      "reading": "hinichi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、サークルの りょこうの へんじは きんようびまでに おねがいします。",
+      "reading": "Namu-san, sākuru no ryokō no henji wa kin'yōbi made ni onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。りょこうの 日にちは いつですか。",
+      "reading": "Wakarimashita. Ryokō no hinichi wa itsu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "来月の 3日から 5日までです。",
+      "reading": "Raigetsu no mikka kara itsuka made desu."
+    },
+    {
+      "speaker": "a",
+      "text": "えっと、スケジュールを みます。…3日から 5日までは だいじょうぶです。",
+      "reading": "Etto, sukejūru o mimasu. … Mikka kara itsuka made wa daijōbu desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ほかの よていは ありませんか。",
+      "reading": "Hoka no yotei wa arimasen ka."
+    },
+    {
+      "speaker": "a",
+      "text": "しゅくだいの しめきりが 6日です。",
+      "reading": "Shukudai no shimekiri ga muika desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、りょこうの まえに しゅくだいを しましょう。",
+      "reading": "Jā, ryokō no mae ni shukudai o shimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。じゃあ、いま へんじを します。いきます！",
+      "reading": "Sō desu ne. Jā, ima henji o shimasu. Ikimasu!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C5-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.sawaru",
+      "text": "さわる",
+      "reading": "sawaru"
+    },
+    {
+      "id": "ja.enryo",
+      "text": "えんりょ",
+      "reading": "enryo"
+    },
+    {
+      "id": "ja.meiwaku",
+      "text": "めいわく",
+      "reading": "meiwaku"
+    },
+    {
+      "id": "ja.kiken",
+      "text": "きけん",
+      "reading": "kiken"
+    },
+    {
+      "id": "ja.chuui",
+      "text": "注意",
+      "reading": "chūi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、この せんたくきは ふるいですから、注意して ください。",
+      "reading": "Namu-san, kono sentakuki wa furui desu kara, chūi shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。どこが きけんですか。",
+      "reading": "Hai. Doko ga kiken desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "うしろの ここは あついですから、さわらないで ください。",
+      "reading": "Ushiro no koko wa atsui desu kara, sawaranaide kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。よるも つかっても いいですか。",
+      "reading": "Wakarimashita. Yoru mo tsukatte mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "10時の あとは つかわないで ください。となりの へやの ひとに めいわくですから。",
+      "reading": "Jūji no ato wa tsukawanaide kudasai. Tonari no heya no hito ni meiwaku desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。また しつもんしても いいですか。",
+      "reading": "Wakarimashita. Mata shitsumon shite mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。えんりょしないで ください。",
+      "reading": "Hai. Enryo shinaide kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

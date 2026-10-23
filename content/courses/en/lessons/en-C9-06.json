@@ -1,0 +1,71 @@
+{
+  "id": "en-C9-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.lamp",
+      "text": "lamp",
+      "reading": "læmp"
+    },
+    {
+      "id": "en.contract",
+      "text": "contract",
+      "reading": "ˈkɑːntrækt"
+    },
+    {
+      "id": "en.sign",
+      "text": "sign",
+      "reading": "saɪn"
+    },
+    {
+      "id": "en.move-in",
+      "kind": "phrase",
+      "text": "move in",
+      "reading": "ˌmuːv ˈɪn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "I really like the room. I'll take it!",
+      "reading": "aɪ ˈriːli ˈlaɪk ðə ˈruːm. aɪl ˈteɪk ɪt!"
+    },
+    {
+      "speaker": "b",
+      "text": "Great! Then you need to sign the contract.",
+      "reading": "ˈɡreɪt! ˈðɛn juː ˈniːd tə ˈsaɪn ðə ˈkɑːntrækt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Do I need to pay the deposit today?",
+      "reading": "oʊˈkeɪ. duː aɪ ˈniːd tə ˈpeɪ ðə dɪˈpɑːzɪt təˈdeɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, please. When do you want to move in?",
+      "reading": "ˈjɛs, ˈpliːz. ˈwɛn duː juː ˈwɑːnt tə ˌmuːv ˈɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Next Friday. But first, I need to buy some things.",
+      "reading": "ˈnɛkst ˈfraɪdeɪ. bʌt ˈfɜːrst, aɪ ˈniːd tə ˈbaɪ sʌm ˈθɪŋz."
+    },
+    {
+      "speaker": "b",
+      "text": "What do you need?",
+      "reading": "ˈwʌt duː juː ˈniːd?"
+    },
+    {
+      "speaker": "a",
+      "text": "I need a lamp for my desk, and pillows and a blanket for the bed.",
+      "reading": "aɪ ˈniːd ə ˈlæmp fər maɪ ˈdɛsk, ənd ˈpɪloʊz ənd ə ˈblæŋkɪt fər ðə ˈbɛd."
+    },
+    {
+      "speaker": "b",
+      "text": "There's a big shop nearby. Now, please sign here.",
+      "reading": "ðɛrz ə ˈbɪɡ ˈʃɑːp ˌnɪrˈbaɪ. ˈnaʊ, ˈpliːz ˈsaɪn ˈhɪr."
+    }
+  ]
+}

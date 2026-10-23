@@ -1,0 +1,56 @@
+{
+  "id": "zh-B12-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.bie",
+      "text": "别",
+      "reading": "bié"
+    },
+    {
+      "id": "zh.bu-yao",
+      "kind": "phrase",
+      "text": "不要",
+      "reading": "bù yào"
+    },
+    {
+      "id": "zh.da-sheng",
+      "text": "大声",
+      "reading": "dàshēng"
+    },
+    {
+      "id": "zh.xiao-sheng",
+      "text": "小声",
+      "reading": "xiǎoshēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里是图书馆，别大声打电话！",
+      "reading": "Xiǎonán, zhèlǐ shì túshūguǎn, bié dàshēng dǎ diànhuà!"
+    },
+    {
+      "speaker": "a",
+      "text": "对不起！我小声一点儿。",
+      "reading": "Duìbuqǐ! Wǒ xiǎoshēng yīdiǎnr."
+    },
+    {
+      "speaker": "b",
+      "text": "也不要在这里吃东西。",
+      "reading": "Yě bù yào zài zhèlǐ chī dōngxi."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我们去外边吃吧！",
+      "reading": "Hǎo, wǒmen qù wàibian chī ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好啊，走吧！",
+      "reading": "Hǎo a, zǒu ba!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "zh-A7-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.xin",
+      "text": "新",
+      "reading": "xīn"
+    },
+    {
+      "id": "zh.hao-kan",
+      "text": "好看",
+      "reading": "hǎokàn"
+    },
+    {
+      "id": "zh.yi-yang",
+      "text": "一样",
+      "reading": "yīyàng"
+    },
+    {
+      "id": "zh.xiang-ji",
+      "text": "相机",
+      "reading": "xiàngjī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你的相机是新的吗？",
+      "reading": "Nǐ de xiàngjī shì xīn de ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "是！好看吗？",
+      "reading": "Shì! Hǎokàn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很好看！我们的手机一样！",
+      "reading": "Hěn hǎokàn! Wǒmen de shǒujī yīyàng!"
+    },
+    {
+      "speaker": "b",
+      "text": "不一样，我的是新的！",
+      "reading": "Bù yīyàng, wǒ de shì xīn de!"
+    }
+  ]
+}

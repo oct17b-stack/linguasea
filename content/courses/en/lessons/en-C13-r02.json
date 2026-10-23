@@ -1,0 +1,80 @@
+{
+  "id": "en-C13-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.let-me-know",
+      "kind": "phrase",
+      "text": "let me know",
+      "reading": "ˌlɛt mi ˈnoʊ"
+    },
+    {
+      "id": "en.bring",
+      "text": "bring",
+      "reading": "brɪŋ"
+    },
+    {
+      "id": "en.dress-code",
+      "text": "dress code",
+      "reading": "ˈdrɛs ˌkoʊd"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Hi, class!",
+        "reading": "ˈhaɪ, ˈklæs!"
+      },
+      {
+        "text": "Next Friday is our last class, so I'd like to invite you all to dinner.",
+        "reading": "ˈnɛkst ˈfraɪdeɪ ɪz aʊr ˈlæst ˈklæs, soʊ aɪd ˈlaɪk tu ɪnˈvaɪt juː ˈɔːl tə ˈdɪnər."
+      },
+      {
+        "text": "We're having dinner at a Thai restaurant near the university at seven o'clock.",
+        "reading": "wɪr ˈhævɪŋ ˈdɪnər ət ə ˈtaɪ ˈrɛstərɑːnt ˈnɪr ðə ˌjuːnɪˈvɜːrsəti ət ˈsɛvən əˈklɑːk."
+      }
+    ],
+    [
+      {
+        "text": "Dinner is free, but please bring one photo from this semester.",
+        "reading": "ˈdɪnər ɪz ˈfriː, bʌt ˈpliːz ˈbrɪŋ ˈwʌn ˈfoʊtoʊ frəm ðɪs səˈmɛstər."
+      },
+      {
+        "text": "We can look at the photos together and talk about our favorite classes.",
+        "reading": "wiː kən ˈlʊk ət ðə ˈfoʊtoʊz təˈɡɛðər ənd ˈtɔːk əˈbaʊt aʊr ˈfeɪvərɪt ˈklæsɪz."
+      },
+      {
+        "text": "There's no dress code, so wear comfortable clothes.",
+        "reading": "ðɛrz ˈnoʊ ˈdrɛs ˌkoʊd, soʊ ˈwɛr ˈkʌmftərbəl ˈkloʊðz."
+      }
+    ],
+    [
+      {
+        "text": "Can you come?",
+        "reading": "kən juː ˈkʌm?"
+      },
+      {
+        "text": "Please let me know before Wednesday.",
+        "reading": "ˈpliːz ˌlɛt mi ˈnoʊ bɪˈfɔːr ˈwɛnzdeɪ."
+      },
+      {
+        "text": "Best wishes, Mr. Brown",
+        "reading": "ˌbɛst ˈwɪʃɪz, ˈmɪstər ˈbraʊn"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

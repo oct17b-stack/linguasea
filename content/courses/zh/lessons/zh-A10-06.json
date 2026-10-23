@@ -1,0 +1,50 @@
+{
+  "id": "zh-A10-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.lai-zi",
+      "text": "来自",
+      "reading": "láizì"
+    },
+    {
+      "id": "zh.wai-guo",
+      "text": "外国",
+      "reading": "wàiguó"
+    },
+    {
+      "id": "zh.guo-wai",
+      "text": "国外",
+      "reading": "guówài"
+    },
+    {
+      "id": "zh.jia-na-da",
+      "text": "加拿大",
+      "reading": "Jiānádà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "大家好！我来自加拿大。",
+      "reading": "Dàjiā hǎo! Wǒ láizì Jiānádà."
+    },
+    {
+      "speaker": "a",
+      "text": "欢迎你！我叫小南。",
+      "reading": "Huānyíng nǐ! Wǒ jiào Xiǎonán."
+    },
+    {
+      "speaker": "b",
+      "text": "你有很多外国朋友吗？",
+      "reading": "Nǐ yǒu hěn duō wàiguó péngyou ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有！你是第一个加拿大的！",
+      "reading": "Yǒu! Nǐ shì dì-yī ge Jiānádà de!"
+    }
+  ]
+}

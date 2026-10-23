@@ -1,0 +1,70 @@
+{
+  "id": "zh-C4-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jie-borrow",
+      "text": "借",
+      "reading": "jiè"
+    },
+    {
+      "id": "zh.chong-dian",
+      "text": "充电",
+      "reading": "chōngdiàn"
+    },
+    {
+      "id": "zh.chong-dian-qi",
+      "text": "充电器",
+      "reading": "chōngdiànqì"
+    },
+    {
+      "id": "zh.zuo-wei",
+      "text": "座位",
+      "reading": "zuòwèi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好，这个座位有人吗？",
+      "reading": "Nǐ hǎo, zhège zuòwèi yǒu rén ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "没有人，你坐吧。",
+      "reading": "Méiyǒu rén, nǐ zuò ba."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢。我可以在这儿给手机充电吗？",
+      "reading": "Xièxie. Wǒ kěyǐ zài zhèr gěi shǒujī chōngdiàn ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以。你有充电器吗？",
+      "reading": "Kěyǐ. Nǐ yǒu chōngdiànqì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没有。我可以借你的充电器吗？",
+      "reading": "Méiyǒu. Wǒ kěyǐ jiè nǐ de chōngdiànqì ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以，给你。",
+      "reading": "Kěyǐ, gěi nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "太谢谢你了！我用半个小时，可以吗？",
+      "reading": "Tài xièxie nǐ le! Wǒ yòng bàn ge xiǎoshí, kěyǐ ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "没问题。我在这儿看书，你用吧。",
+      "reading": "Méi wèntí. Wǒ zài zhèr kàn shū, nǐ yòng ba."
+    }
+  ]
+}

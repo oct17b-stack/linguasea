@@ -1,0 +1,70 @@
+{
+  "id": "ja-C8-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tsuyu",
+      "text": "つゆ",
+      "reading": "tsuyu"
+    },
+    {
+      "id": "ja.shikke",
+      "text": "しっけ",
+      "reading": "shikke"
+    },
+    {
+      "id": "ja.mushiatsui",
+      "text": "むしあつい",
+      "reading": "mushiatsui"
+    },
+    {
+      "id": "ja.yamu",
+      "text": "止む",
+      "reading": "yamu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、来月から つゆですよ。",
+      "reading": "Namu-san, raigetsu kara tsuyu desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "つゆは どんな きせつですか。",
+      "reading": "Tsuyu wa donna kisetsu desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "あめが おおくて、しっけが たかいです。むしあついですよ。",
+      "reading": "Ame ga ōkute, shikke ga takai desu. Mushiatsui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの あめの きせつと おなじですね。",
+      "reading": "Tai no ame no kisetsu to onaji desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうかもしれませんね。でも、にほんの つゆは、あめが ずっと 止みません。",
+      "reading": "Sō kamo shiremasen ne. Demo, Nihon no tsuyu wa, ame ga zutto yamimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。あしたは どうですか。",
+      "reading": "Sō desu ka. Ashita wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "あしたは あめが ふるかもしれません。かさを わすれないで ください。",
+      "reading": "Ashita wa ame ga furu kamo shiremasen. Kasa o wasurenaide kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ありがとうございます。",
+      "reading": "Hai. Arigatō gozaimasu."
+    }
+  ]
+}

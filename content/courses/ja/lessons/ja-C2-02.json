@@ -1,0 +1,75 @@
+{
+  "id": "ja-C2-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.netsu",
+      "text": "ねつ",
+      "reading": "netsu"
+    },
+    {
+      "id": "ja.seki",
+      "text": "せき",
+      "reading": "seki"
+    },
+    {
+      "id": "ja.hanamizu",
+      "text": "はなみず",
+      "reading": "hanamizu"
+    },
+    {
+      "id": "ja.guai",
+      "text": "ぐあい",
+      "reading": "guai"
+    },
+    {
+      "id": "ja.kibun",
+      "text": "気分",
+      "reading": "kibun"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、ぐあいが わるいですか。",
+      "reading": "Namu-san, guai ga warui desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。けさから ねつが ありますので、ごごの じゅぎょうを やすみたいです。",
+      "reading": "Hai. Kesa kara netsu ga arimasu node, gogo no jugyō o yasumitai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。せきも でますか。",
+      "reading": "Sō desu ka. Seki mo demasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、せきも はなみずも でます。",
+      "reading": "Hai, seki mo hanamizu mo demasu."
+    },
+    {
+      "speaker": "b",
+      "text": "気分は どうですか。",
+      "reading": "Kibun wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと 気分が わるいので、うちで やすみます。",
+      "reading": "Chotto kibun ga warui node, uchi de yasumimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。おだいじに。",
+      "reading": "Wakarimashita. Odaiji ni."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。しつれいします。",
+      "reading": "Arigatō gozaimasu. Shitsurei shimasu."
+    }
+  ]
+}

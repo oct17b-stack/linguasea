@@ -1,0 +1,86 @@
+{
+  "id": "ja-C2-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.uketsuke",
+      "text": "うけつけ",
+      "reading": "uketsuke"
+    },
+    {
+      "id": "ja.shinsatsu",
+      "text": "しんさつ",
+      "reading": "shinsatsu"
+    },
+    {
+      "id": "ja.yoyaku",
+      "text": "よやく",
+      "reading": "yoyaku"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "みどりびょういんの しんさつじかんです。",
+        "reading": "Midori byōin no shinsatsu jikan desu."
+      },
+      {
+        "text": "げつようびから きんようびまでは、ごぜん 9時から ごご 6時までです。",
+        "reading": "Getsuyōbi kara kin'yōbi made wa, gozen kuji kara gogo rokuji made desu."
+      },
+      {
+        "text": "どようびは ごぜん 9時から 12時までです。",
+        "reading": "Doyōbi wa gozen kuji kara jūniji made desu."
+      },
+      {
+        "text": "にちようびは やすみです。",
+        "reading": "Nichiyōbi wa yasumi desu."
+      }
+    ],
+    [
+      {
+        "text": "うけつけは ごご 5時半までです。",
+        "reading": "Uketsuke wa gogo goji han made desu."
+      },
+      {
+        "text": "はじめての ひとは、ほけんしょうが いります。",
+        "reading": "Hajimete no hito wa, hokenshō ga irimasu."
+      },
+      {
+        "text": "ねつや せきが ありますか。",
+        "reading": "Netsu ya seki ga arimasu ka."
+      },
+      {
+        "text": "マスクを おねがいします。",
+        "reading": "Masuku o onegaishimasu."
+      }
+    ],
+    [
+      {
+        "text": "しんさつの よやくは でんわで できます。",
+        "reading": "Shinsatsu no yoyaku wa denwa de dekimasu."
+      },
+      {
+        "text": "よやくの ひとは、あまり まちません。",
+        "reading": "Yoyaku no hito wa, amari machimasen."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

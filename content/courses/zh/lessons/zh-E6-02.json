@@ -1,0 +1,100 @@
+{
+  "id": "zh-E6-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.hui-yi-meeting",
+      "text": "会议",
+      "reading": "huìyì"
+    },
+    {
+      "id": "zh.bao-gao",
+      "text": "报告",
+      "reading": "bàogào"
+    },
+    {
+      "id": "zh.bu-men",
+      "text": "部门",
+      "reading": "bùmén"
+    },
+    {
+      "id": "zh.yuan-gong",
+      "text": "员工",
+      "reading": "yuángōng"
+    },
+    {
+      "id": "zh.ling-dao",
+      "text": "领导",
+      "reading": "lǐngdǎo"
+    },
+    {
+      "id": "zh.nei-bu",
+      "text": "内部",
+      "reading": "nèibù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你昨天怎么没回我的消息？",
+      "reading": "Wáng Míng, nǐ zuótiān zěnme méi huí wǒ de xiāoxi?"
+    },
+    {
+      "speaker": "b",
+      "text": "对不起，我昨天太忙了，从早上一直忙到晚上十点。",
+      "reading": "Duìbuqǐ, wǒ zuótiān tài máng le, cóng zǎoshang yīzhí máng dào wǎnshang shí diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "十点？你们公司每天都这么晚吗？",
+      "reading": "Shí diǎn? Nǐmen gōngsī měitiān dōu zhème wǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不是每天。昨天上午有三个会议，一直开到十二点。",
+      "reading": "Bù shì měitiān. Zuótiān shàngwǔ yǒu sān ge huìyì, yīzhí kāi dào shí'èr diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "都是什么会议？",
+      "reading": "Dōu shì shénme huìyì?"
+    },
+    {
+      "speaker": "b",
+      "text": "一个是部门内部的会议，另外两个是跟别的部门一起开的。",
+      "reading": "Yī ge shì bùmén nèibù de huìyì, lìngwài liǎng ge shì gēn biéde bùmén yīqǐ kāi de."
+    },
+    {
+      "speaker": "a",
+      "text": "那下午呢？",
+      "reading": "Nà xiàwǔ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "下午领导让我写一个报告，明天早上就得交。",
+      "reading": "Xiàwǔ lǐngdǎo ràng wǒ xiě yī ge bàogào, míngtiān zǎoshang jiù děi jiāo."
+    },
+    {
+      "speaker": "a",
+      "text": "所以你一直写到晚上十点？",
+      "reading": "Suǒyǐ nǐ yīzhí xiě dào wǎnshang shí diǎn?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，我们部门的员工都在加班，没有人先走。",
+      "reading": "Duì, wǒmen bùmén de yuángōng dōu zài jiābān, méiyǒu rén xiān zǒu."
+    },
+    {
+      "speaker": "a",
+      "text": "太辛苦了。你们领导知道大家这么累吗？",
+      "reading": "Tài xīnkǔ le. Nǐmen lǐngdǎo zhīdào dàjiā zhème lèi ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "应该知道吧。他也一直工作到很晚，比我们还忙。",
+      "reading": "Yīnggāi zhīdào ba. Tā yě yīzhí gōngzuò dào hěn wǎn, bǐ wǒmen hái máng."
+    }
+  ]
+}

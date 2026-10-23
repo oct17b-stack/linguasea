@@ -1,0 +1,77 @@
+{
+  "id": "zh-C2-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.hu-shi",
+      "text": "护士",
+      "reading": "hùshi"
+    },
+    {
+      "id": "zh.liang-measure",
+      "text": "量",
+      "reading": "liáng"
+    },
+    {
+      "id": "zh.yan-zhong",
+      "text": "严重",
+      "reading": "yánzhòng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "星期一早上，小南去学校旁边的医院看病。",
+        "reading": "Xīngqīyī zǎoshang, Xiǎonán qù xuéxiào pángbiān de yīyuàn kànbìng."
+      },
+      {
+        "text": "护士先给她量体温，她再去见大夫。",
+        "reading": "Hùshi xiān gěi tā liáng tǐwēn, tā zài qù jiàn dàifu."
+      }
+    ],
+    [
+      {
+        "text": "大夫：你怎么了？哪儿不舒服？",
+        "reading": "Dàifu: Nǐ zěnme le? Nǎr bù shūfu?"
+      },
+      {
+        "text": "小南：我头疼，嗓子也疼，晚上还咳嗽。",
+        "reading": "Xiǎonán: Wǒ tóu téng, sǎngzi yě téng, wǎnshang hái késou."
+      },
+      {
+        "text": "大夫：你有点儿发烧。你什么时候开始不舒服？",
+        "reading": "Dàifu: Nǐ yǒudiǎnr fāshāo. Nǐ shénme shíhou kāishǐ bù shūfu?"
+      },
+      {
+        "text": "小南：前天晚上。大夫，严重吗？",
+        "reading": "Xiǎonán: Qiántiān wǎnshang. Dàifu, yánzhòng ma?"
+      },
+      {
+        "text": "大夫：不严重，是感冒。你得吃药，多休息。",
+        "reading": "Dàifu: Bù yánzhòng, shì gǎnmào. Nǐ děi chī yào, duō xiūxi."
+      },
+      {
+        "text": "小南：我明天能去上课吗？",
+        "reading": "Xiǎonán: Wǒ míngtiān néng qù shàngkè ma?"
+      },
+      {
+        "text": "大夫：明天别去，在家休息一天吧。",
+        "reading": "Dàifu: Míngtiān bié qù, zài jiā xiūxi yī tiān ba."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

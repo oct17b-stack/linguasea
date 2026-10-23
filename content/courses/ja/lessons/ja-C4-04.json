@@ -1,0 +1,70 @@
+{
+  "id": "ja-C4-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.yotei",
+      "text": "よてい",
+      "reading": "yotei"
+    },
+    {
+      "id": "ja.aku-vacant",
+      "text": "空く",
+      "reading": "aku"
+    },
+    {
+      "id": "ja.machiawase",
+      "text": "まちあわせ",
+      "reading": "machiawase"
+    },
+    {
+      "id": "ja.kaisatsu",
+      "text": "かいさつ",
+      "reading": "kaisatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、来週の よていは どうですか。",
+      "reading": "Yuki-san, raishū no yotei wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "げつようびか すいようびの ごごが 空きます。",
+      "reading": "Getsuyōbi ka suiyōbi no gogo ga akimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、すいようびは どうですか。",
+      "reading": "Jā, suiyōbi wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですよ。まちあわせは どこが いいですか。",
+      "reading": "Ii desu yo. Machiawase wa doko ga ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "駅の かいさつか 北口は どうですか。",
+      "reading": "Eki no kaisatsu ka kitaguchi wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "かいさつでも 北口でも いいですよ。",
+      "reading": "Kaisatsu demo kitaguchi demo ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、かいさつの まえで 2時は どうですか。",
+      "reading": "Jā, kaisatsu no mae de niji wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。じゃあ、すいようびの 2時に かいさつの まえで。",
+      "reading": "Hai. Jā, suiyōbi no niji ni kaisatsu no mae de."
+    }
+  ]
+}

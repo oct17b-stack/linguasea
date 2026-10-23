@@ -1,0 +1,75 @@
+{
+  "id": "zh-C1-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.tiao-wu",
+      "text": "跳舞",
+      "reading": "tiàowǔ"
+    },
+    {
+      "id": "zh.yin-yue",
+      "text": "音乐",
+      "reading": "yīnyuè"
+    },
+    {
+      "id": "zh.zhao-xiang",
+      "text": "照相",
+      "reading": "zhàoxiàng"
+    },
+    {
+      "id": "zh.kongr",
+      "text": "空儿",
+      "reading": "kòngr"
+    },
+    {
+      "id": "zh.you-yi-si",
+      "text": "有意思",
+      "reading": "yǒu yìsi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你有空儿喜欢做什么？",
+      "reading": "Xiǎonán, nǐ yǒu kòngr xǐhuan zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我喜欢照相。北京有很多漂亮的地方。",
+      "reading": "Wǒ xǐhuan zhàoxiàng. Běijīng yǒu hěn duō piàoliang de dìfang."
+    },
+    {
+      "speaker": "b",
+      "text": "你最喜欢去哪儿照相？",
+      "reading": "Nǐ zuì xǐhuan qù nǎr zhàoxiàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "公园！晚上有很多阿姨在公园跳舞，很有意思。",
+      "reading": "Gōngyuán! Wǎnshang yǒu hěn duō āyí zài gōngyuán tiàowǔ, hěn yǒu yìsi."
+    },
+    {
+      "speaker": "b",
+      "text": "我妈妈也喜欢跳舞，她晚上常常去公园。",
+      "reading": "Wǒ māma yě xǐhuan tiàowǔ, tā wǎnshang chángcháng qù gōngyuán."
+    },
+    {
+      "speaker": "a",
+      "text": "是吗？你也喜欢跳舞吗？",
+      "reading": "Shì ma? Nǐ yě xǐhuan tiàowǔ ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不喜欢，我喜欢听音乐。阿姨们的音乐不太好听！",
+      "reading": "Bù xǐhuan, wǒ xǐhuan tīng yīnyuè. Āyímen de yīnyuè bù tài hǎotīng!"
+    },
+    {
+      "speaker": "a",
+      "text": "那星期六你跟我去公园照相吧！",
+      "reading": "Nà xīngqīliù nǐ gēn wǒ qù gōngyuán zhàoxiàng ba!"
+    }
+  ]
+}

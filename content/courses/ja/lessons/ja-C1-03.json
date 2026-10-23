@@ -1,0 +1,75 @@
+{
+  "id": "ja-C1-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.atsumeru",
+      "text": "集める",
+      "reading": "atsumeru"
+    },
+    {
+      "id": "ja.tanoshimu",
+      "text": "楽しむ",
+      "reading": "tanoshimu"
+    },
+    {
+      "id": "ja.sodateru",
+      "text": "そだてる",
+      "reading": "sodateru"
+    },
+    {
+      "id": "ja.odoru",
+      "text": "おどる",
+      "reading": "odoru"
+    },
+    {
+      "id": "ja.tsuru",
+      "text": "つる",
+      "reading": "tsuru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、じしょに「おどります」が ありません。",
+      "reading": "Yuki-san, jisho ni “odorimasu” ga arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "じしょには「おどる」が ありますよ。",
+      "reading": "Jisho ni wa “odoru” ga arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ありました。ダンスですね。じゃあ、「つります」は？",
+      "reading": "A, arimashita. Dansu desu ne. Jā, “tsurimasu” wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "「つる」です。つりの「つる」ですよ。",
+      "reading": "“Tsuru” desu. Tsuri no “tsuru” desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "「集めます」と「楽しみます」は？",
+      "reading": "“Atsumemasu” to “tanoshimimasu” wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "「集める」と「楽しむ」です。「そだてます」は わかりますか。",
+      "reading": "“Atsumeru” to “tanoshimu” desu. “Sodatemasu” wa wakarimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "えっと…「そだてる」ですか。",
+      "reading": "Etto… “sodateru” desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、そうです！ じょうずですね。",
+      "reading": "Hai, sō desu! Jōzu desu ne."
+    }
+  ]
+}

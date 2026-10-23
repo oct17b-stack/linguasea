@@ -1,0 +1,50 @@
+{
+  "id": "zh-A12-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.hai",
+      "text": "海",
+      "reading": "hǎi"
+    },
+    {
+      "id": "zh.tian-kong",
+      "text": "天空",
+      "reading": "tiānkōng"
+    },
+    {
+      "id": "zh.xing-xing",
+      "text": "星星",
+      "reading": "xīngxing"
+    },
+    {
+      "id": "zh.da-zi-ran",
+      "text": "大自然",
+      "reading": "dàzìrán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这里星星很多！",
+      "reading": "Wáng Míng, zhèlǐ xīngxing hěn duō!"
+    },
+    {
+      "speaker": "b",
+      "text": "对，天空很好看。",
+      "reading": "Duì, tiānkōng hěn hǎokàn."
+    },
+    {
+      "speaker": "a",
+      "text": "我爱大自然！你呢？",
+      "reading": "Wǒ ài dàzìrán! Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也爱。我很喜欢海！",
+      "reading": "Wǒ yě ài. Wǒ hěn xǐhuan hǎi!"
+    }
+  ]
+}

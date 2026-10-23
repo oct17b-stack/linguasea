@@ -1,0 +1,79 @@
+{
+  "id": "ja-C8-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kyuukou",
+      "text": "きゅうこう",
+      "reading": "kyūkō"
+    },
+    {
+      "id": "ja.keihou",
+      "text": "けいほう",
+      "reading": "keihō"
+    },
+    {
+      "id": "ja.gaishutsu",
+      "text": "外出",
+      "reading": "gaishutsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "がくせいの みなさんへ",
+        "reading": "Gakusei no minasan e"
+      },
+      {
+        "text": "あしたは 台風が くるでしょう。",
+        "reading": "Ashita wa taifū ga kuru deshō."
+      },
+      {
+        "text": "あしたの ごぜんの じゅぎょうは ぜんぶ きゅうこうです。",
+        "reading": "Ashita no gozen no jugyō wa zenbu kyūkō desu."
+      }
+    ],
+    [
+      {
+        "text": "12時に けいほうが ある ときは、ごごの じゅぎょうも きゅうこうです。",
+        "reading": "Jūniji ni keihō ga aru toki wa, gogo no jugyō mo kyūkō desu."
+      },
+      {
+        "text": "だいがくの メールを みて ください。",
+        "reading": "Daigaku no mēru o mite kudasai."
+      }
+    ],
+    [
+      {
+        "text": "台風の ときは、あぶないですから、外出しないで ください。",
+        "reading": "Taifū no toki wa, abunai desu kara, gaishutsu shinaide kudasai."
+      },
+      {
+        "text": "りょうの がくせいは へやに いて ください。",
+        "reading": "Ryō no gakusei wa heya ni ite kudasai."
+      },
+      {
+        "text": "きょう、たべものと みずを かいましょう。",
+        "reading": "Kyō, tabemono to mizu o kaimashō."
+      },
+      {
+        "text": "まどの ちかくは きけんです。",
+        "reading": "Mado no chikaku wa kiken desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

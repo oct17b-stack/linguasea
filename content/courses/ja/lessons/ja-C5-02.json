@@ -1,0 +1,75 @@
+{
+  "id": "ja-C5-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.hakobu",
+      "text": "運ぶ",
+      "reading": "hakobu"
+    },
+    {
+      "id": "ja.tetsudau",
+      "text": "てつだう",
+      "reading": "tetsudau"
+    },
+    {
+      "id": "ja.katazukeru",
+      "text": "かたづける",
+      "reading": "katazukeru"
+    },
+    {
+      "id": "ja.mochiageru",
+      "text": "持ち上げる",
+      "reading": "mochiageru"
+    },
+    {
+      "id": "ja.osaeru",
+      "text": "おさえる",
+      "reading": "osaeru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ちょっと てつだって ください。",
+      "reading": "Yuki-san, chotto tetsudatte kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですよ。なにを しましょうか。",
+      "reading": "Ii desu yo. Nani o shimashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "この スーツケースを いっしょに 運んで ください。",
+      "reading": "Kono sūtsukēsu o issho ni hakonde kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。おもいですね！ いっしょに 持ち上げましょう。",
+      "reading": "Hai. Omoi desu ne! Issho ni mochiagemashō."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと まって ください。ドアを おさえます。",
+      "reading": "Chotto matte kudasai. Doa o osaemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。ナムさんの へやは ひろいですね。",
+      "reading": "Arigatō. Namu-san no heya wa hiroi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、ほんが たくさん あります。あとで かたづけます。",
+      "reading": "Hai. Demo, hon ga takusan arimasu. Atode katazukemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、いまは すこし やすんで ください。わたしが かたづけます！",
+      "reading": "Jā, ima wa sukoshi yasunde kudasai. Watashi ga katazukemasu!"
+    }
+  ]
+}

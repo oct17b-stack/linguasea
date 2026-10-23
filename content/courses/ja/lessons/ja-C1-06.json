@@ -1,0 +1,70 @@
+{
+  "id": "ja-C1-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kyoumi",
+      "text": "きょうみ",
+      "reading": "kyōmi"
+    },
+    {
+      "id": "ja.saakuru",
+      "text": "サークル",
+      "reading": "sākuru"
+    },
+    {
+      "id": "ja.menbaa",
+      "text": "メンバー",
+      "reading": "menbā"
+    },
+    {
+      "id": "ja.nakama",
+      "text": "なかま",
+      "reading": "nakama"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "きむらさん、こちらは ナムさんです。ダンスに きょうみが あります。",
+      "reading": "Kimura-san, kochira wa Namu-san desu. Dansu ni kyōmi ga arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はじめまして、きむらです。ナムさんの しゅみは なんですか。",
+      "reading": "Hajimemashite, Kimura desu. Namu-san no shumi wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はじめまして。わたしの しゅみは ギターを ひく ことです。",
+      "reading": "Hajimemashite. Watashi no shumi wa gitā o hiku koto desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。わたしの しゅみは おんがくを きく ことです。ダンスは はじめてですか。",
+      "reading": "Ii desu ne. Watashi no shumi wa ongaku o kiku koto desu. Dansu wa hajimete desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、はじめてです。でも、みるのは だいすきです。",
+      "reading": "Hai, hajimete desu. Demo, miru no wa daisuki desu."
+    },
+    {
+      "speaker": "b",
+      "text": "だいじょうぶですよ。はじめての メンバーも たくさん いますから。",
+      "reading": "Daijōbu desu yo. Hajimete no menbā mo takusan imasu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "みんな やさしい なかまですよ。",
+      "reading": "Minna yasashii nakama desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。じゃあ、わたしも この サークルに はいりたいです！",
+      "reading": "Sō desu ka. Jā, watashi mo kono sākuru ni hairitai desu!"
+    }
+  ]
+}

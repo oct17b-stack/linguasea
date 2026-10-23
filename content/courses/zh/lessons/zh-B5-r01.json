@@ -1,0 +1,61 @@
+{
+  "id": "zh-B5-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.zhe-me",
+      "text": "这么",
+      "reading": "zhème"
+    },
+    {
+      "id": "zh.fei-chang",
+      "text": "非常",
+      "reading": "fēicháng"
+    },
+    {
+      "id": "zh.pa-afraid",
+      "text": "怕",
+      "reading": "pà"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "这个星期曼谷非常热。",
+        "reading": "Zhège xīngqī Màngǔ fēicháng rè."
+      },
+      {
+        "text": "星期四以后会下大雨。",
+        "reading": "Xīngqīsì yǐhòu huì xià dà yǔ."
+      }
+    ],
+    [
+      {
+        "text": "你怕热吗？",
+        "reading": "Nǐ pà rè ma?"
+      },
+      {
+        "text": "天气这么热，请多喝水！",
+        "reading": "Tiānqì zhème rè, qǐng duō hē shuǐ!"
+      },
+      {
+        "text": "星期四以后，请穿雨衣。",
+        "reading": "Xīngqīsì yǐhòu, qǐng chuān yǔyī."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

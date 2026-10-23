@@ -1,0 +1,75 @@
+{
+  "id": "zh-C2-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.teng",
+      "text": "疼",
+      "reading": "téng"
+    },
+    {
+      "id": "zh.tou",
+      "text": "头",
+      "reading": "tóu"
+    },
+    {
+      "id": "zh.du-zi",
+      "text": "肚子",
+      "reading": "dùzi"
+    },
+    {
+      "id": "zh.tui",
+      "text": "腿",
+      "reading": "tuǐ"
+    },
+    {
+      "id": "zh.yan-jing",
+      "text": "眼睛",
+      "reading": "yǎnjing"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你身体不舒服吗？",
+      "reading": "Xiǎonán, nǐ shēntǐ bù shūfu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我头疼，肚子也疼。",
+      "reading": "Wǒ tóu téng, dùzi yě téng."
+    },
+    {
+      "speaker": "b",
+      "text": "你每天晚上都看手机，眼睛疼不疼？",
+      "reading": "Nǐ měitiān wǎnshang dōu kàn shǒujī, yǎnjing téng bù téng?"
+    },
+    {
+      "speaker": "a",
+      "text": "眼睛有点儿疼。还有，我的腿也很疼。",
+      "reading": "Yǎnjing yǒudiǎnr téng. Hái yǒu, wǒ de tuǐ yě hěn téng."
+    },
+    {
+      "speaker": "b",
+      "text": "腿也疼？为什么？",
+      "reading": "Tuǐ yě téng? Wèi shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我们学校太大了，我每天都走很多路。",
+      "reading": "Wǒmen xuéxiào tài dà le, wǒ měitiān dōu zǒu hěn duō lù."
+    },
+    {
+      "speaker": "b",
+      "text": "今天你在家休息，多喝水。明天我跟你去医院。",
+      "reading": "Jīntiān nǐ zài jiā xiūxi, duō hē shuǐ. Míngtiān wǒ gēn nǐ qù yīyuàn."
+    },
+    {
+      "speaker": "a",
+      "text": "好，谢谢你！",
+      "reading": "Hǎo, xièxie nǐ!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C9-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kekkonshiki",
+      "text": "けっこんしき",
+      "reading": "kekkonshiki"
+    },
+    {
+      "id": "ja.doresu",
+      "text": "ドレス",
+      "reading": "doresu"
+    },
+    {
+      "id": "ja.kawagutsu",
+      "text": "かわぐつ",
+      "reading": "kawagutsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゆき：ナム、ちょっと きいて。来月、ともだちの けっこんしきに いくの。",
+        "reading": "Yuki: Namu, chotto kiite. Raigetsu, tomodachi no kekkonshiki ni iku no."
+      },
+      {
+        "text": "ゆき：あかい ドレスと くろい ドレスと、どちらが いい？",
+        "reading": "Yuki: Akai doresu to kuroi doresu to, dochira ga ii?"
+      }
+    ],
+    [
+      {
+        "text": "ナム：いいね、けっこんしき！",
+        "reading": "Namu: Ii ne, kekkonshiki!"
+      },
+      {
+        "text": "ナム：あかい ドレスは ちょっと はですぎるかもしれない。",
+        "reading": "Namu: Akai doresu wa chotto hadesugiru kamoshirenai."
+      },
+      {
+        "text": "ナム：くろい ドレスの ほうが いいよ。しろい アクセサリーも あわせて。",
+        "reading": "Namu: Kuroi doresu no hō ga ii yo. Shiroi akusesarī mo awasete."
+      },
+      {
+        "text": "ナム：くつは かわぐつが いいね。",
+        "reading": "Namu: Kutsu wa kawagutsu ga ii ne."
+      }
+    ],
+    [
+      {
+        "text": "ゆき：ありがとう！ じゃあ、くろい ドレスに する。",
+        "reading": "Yuki: Arigatō! Jā, kuroi doresu ni suru."
+      },
+      {
+        "text": "ゆき：かわぐつは、こんど いっしょに かいに いって！",
+        "reading": "Yuki: Kawagutsu wa, kondo issho ni kai ni itte!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

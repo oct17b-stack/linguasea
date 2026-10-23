@@ -1,0 +1,60 @@
+{
+  "id": "zh-B13-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.da-ting",
+      "text": "打听",
+      "reading": "dǎting"
+    },
+    {
+      "id": "zh.zhi-point",
+      "text": "指",
+      "reading": "zhǐ"
+    },
+    {
+      "id": "zh.shu-ren",
+      "text": "熟人",
+      "reading": "shúrén"
+    },
+    {
+      "id": "zh.guo-lai",
+      "text": "过来",
+      "reading": "guòlái"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这里我们没有熟人，你问问别人吧。",
+      "reading": "Zhèlǐ wǒmen méiyǒu shúrén, nǐ wènwen biéren ba."
+    },
+    {
+      "speaker": "a",
+      "text": "阿姨，您好！我想打听一下，这里有银行吗？",
+      "reading": "Āyí, nín hǎo! Wǒ xiǎng dǎting yīxià, zhèlǐ yǒu yínháng ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有。你们过来，我指给你们看。",
+      "reading": "Yǒu. Nǐmen guòlái, wǒ zhǐ gěi nǐmen kàn."
+    },
+    {
+      "speaker": "a",
+      "text": "是前面那个楼吗？",
+      "reading": "Shì qiánmian nàge lóu ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "对，就是那个楼，不远。",
+      "reading": "Duì, jiùshì nàge lóu, bù yuǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢您！",
+      "reading": "Xièxie nín!"
+    }
+  ]
+}

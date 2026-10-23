@@ -1,0 +1,75 @@
+{
+  "id": "zh-C9-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.chu-fang",
+      "text": "厨房",
+      "reading": "chúfáng"
+    },
+    {
+      "id": "zh.ke-ting",
+      "text": "客厅",
+      "reading": "kètīng"
+    },
+    {
+      "id": "zh.ceng",
+      "text": "层",
+      "reading": "céng"
+    },
+    {
+      "id": "zh.dian-ti",
+      "text": "电梯",
+      "reading": "diàntī"
+    },
+    {
+      "id": "zh.tao",
+      "text": "套",
+      "reading": "tào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "这套房子在十五层，楼里有电梯。",
+      "reading": "Zhè tào fángzi zài shíwǔ céng, lóu lǐ yǒu diàntī."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！房子里有几个房间？",
+      "reading": "Tài hǎo le! Fángzi lǐ yǒu jǐ ge fángjiān?"
+    },
+    {
+      "speaker": "c",
+      "text": "有两个房间，还有一个客厅和一个厨房。",
+      "reading": "Yǒu liǎng ge fángjiān, hái yǒu yī ge kètīng hé yī ge chúfáng."
+    },
+    {
+      "speaker": "a",
+      "text": "厨房大吗？我常常自己做泰国菜。",
+      "reading": "Chúfáng dà ma? Wǒ chángcháng zìjǐ zuò Tàiguó cài."
+    },
+    {
+      "speaker": "c",
+      "text": "不太大，可是很干净。",
+      "reading": "Bù tài dà, kěshì hěn gānjìng."
+    },
+    {
+      "speaker": "a",
+      "text": "这层有几套房子？",
+      "reading": "Zhè céng yǒu jǐ tào fángzi?"
+    },
+    {
+      "speaker": "c",
+      "text": "有四套。你看，客厅里还有一张大桌子，你可以在这儿学习。",
+      "reading": "Yǒu sì tào. Nǐ kàn, kètīng lǐ hái yǒu yī zhāng dà zhuōzi, nǐ kěyǐ zài zhèr xuéxí."
+    },
+    {
+      "speaker": "a",
+      "text": "真不错！我很喜欢这套房子。",
+      "reading": "Zhēn bùcuò! Wǒ hěn xǐhuan zhè tào fángzi."
+    }
+  ]
+}

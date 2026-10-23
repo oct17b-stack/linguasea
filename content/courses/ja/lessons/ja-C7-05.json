@@ -1,0 +1,75 @@
+{
+  "id": "ja-C7-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.wasuremono",
+      "text": "わすれもの",
+      "reading": "wasuremono"
+    },
+    {
+      "id": "ja.nakunaru",
+      "text": "なくなる",
+      "reading": "nakunaru"
+    },
+    {
+      "id": "ja.shippai",
+      "text": "しっぱい",
+      "reading": "shippai"
+    },
+    {
+      "id": "ja.okiwasureru",
+      "text": "おきわすれる",
+      "reading": "okiwasureru"
+    },
+    {
+      "id": "ja.sagashimono",
+      "text": "さがしもの",
+      "reading": "sagashimono"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、さいふが ないんです。",
+      "reading": "Sumimasen, saifu ga nai n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "どこで なくしたんですか。",
+      "reading": "Doko de nakushita n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "3かいの きょうしつに おきわすれたんです。",
+      "reading": "Sangai no kyōshitsu ni okiwasureta n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "きょうしつに ありませんでしたか。",
+      "reading": "Kyōshitsu ni arimasen deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。なくなったんです。ここに わすれものは ありますか。",
+      "reading": "Hai. Nakunatta n desu. Koko ni wasuremono wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ちょっと まって ください。…この くろい さいふですか。",
+      "reading": "Chotto matte kudasai. … Kono kuroi saifu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、それです！ よかった。きょうは しっぱいしました。",
+      "reading": "Hai, sore desu! Yokatta. Kyō wa shippai shimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "さがしものは みつかりましたね。こんどは きを つけて ください。",
+      "reading": "Sagashimono wa mitsukarimashita ne. Kondo wa ki o tsukete kudasai."
+    }
+  ]
+}

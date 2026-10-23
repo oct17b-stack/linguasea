@@ -1,0 +1,60 @@
+{
+  "id": "zh-B14-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.can-ting",
+      "text": "餐厅",
+      "reading": "cāntīng"
+    },
+    {
+      "id": "zh.hong-jiu",
+      "text": "红酒",
+      "reading": "hóngjiǔ"
+    },
+    {
+      "id": "zh.huan-qian",
+      "text": "换钱",
+      "reading": "huànqián"
+    },
+    {
+      "id": "zh.qu-qian",
+      "text": "取钱",
+      "reading": "qǔqián"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个餐厅真漂亮！你喝红酒吗？",
+      "reading": "Xiǎonán, zhège cāntīng zhēn piàoliang! Nǐ hē hóngjiǔ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不喝，我喝果汁。你呢？",
+      "reading": "Bù hē, wǒ hē guǒzhī. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我喝啤酒。我还没换钱，没有泰铢！",
+      "reading": "Wǒ hē píjiǔ. Wǒ hái méi huànqián, méiyǒu tàizhū!"
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，前面有银行，你可以去取钱。",
+      "reading": "Méi guānxi, qiánmian yǒu yínháng, nǐ kěyǐ qù qǔqián."
+    },
+    {
+      "speaker": "b",
+      "text": "我能用中国的卡吗？",
+      "reading": "Wǒ néng yòng Zhōngguó de kǎ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "能。吃饭以后，我们一起去吧。",
+      "reading": "Néng. Chīfàn yǐhòu, wǒmen yīqǐ qù ba."
+    }
+  ]
+}

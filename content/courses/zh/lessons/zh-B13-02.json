@@ -1,0 +1,55 @@
+{
+  "id": "zh-B13-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zhao",
+      "text": "找",
+      "reading": "zhǎo"
+    },
+    {
+      "id": "zh.zhao-dao",
+      "text": "找到",
+      "reading": "zhǎodào"
+    },
+    {
+      "id": "zh.kan-jian",
+      "text": "看见",
+      "reading": "kànjiàn"
+    },
+    {
+      "id": "zh.ji-urgent",
+      "text": "急",
+      "reading": "jí"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你看见我的钱包了吗？",
+      "reading": "Wáng Míng, nǐ kànjiàn wǒ de qiánbāo le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "没看见。你在找钱包吗？",
+      "reading": "Méi kànjiàn. Nǐ zài zhǎo qiánbāo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，还没找到。我很急！",
+      "reading": "Duì, hái méi zhǎodào. Wǒ hěn jí!"
+    },
+    {
+      "speaker": "b",
+      "text": "我帮你找吧！",
+      "reading": "Wǒ bāng nǐ zhǎo ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好！我们先去图书馆找。",
+      "reading": "Hǎo! Wǒmen xiān qù túshūguǎn zhǎo."
+    }
+  ]
+}

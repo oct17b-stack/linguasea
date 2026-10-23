@@ -1,0 +1,70 @@
+{
+  "id": "en-C11-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.win",
+      "text": "win",
+      "reading": "wɪn"
+    },
+    {
+      "id": "en.beat",
+      "text": "beat",
+      "reading": "biːt"
+    },
+    {
+      "id": "en.score",
+      "text": "score",
+      "reading": "skɔːr"
+    },
+    {
+      "id": "en.team",
+      "text": "team",
+      "reading": "tiːm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, how was your volleyball game on Friday?",
+      "reading": "ˈnɑːm, ˈhaʊ wʌz jʊr ˈvɑːlibɔːl ˌɡeɪm ɑːn ˈfraɪdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It was great! Our team won!",
+      "reading": "ɪt wʌz ˈɡreɪt! aʊr ˈtiːm ˈwʌn!"
+    },
+    {
+      "speaker": "c",
+      "text": "Well done! What was the score?",
+      "reading": "ˈwɛl ˈdʌn! ˈwʌt wʌz ðə ˈskɔːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Three to one. We beat the engineering team.",
+      "reading": "ˈθriː tə ˈwʌn. wiː ˈbiːt ði ˌɛndʒɪˈnɪrɪŋ ˌtiːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Wow! Are they good?",
+      "reading": "ˈwaʊ! ər ðeɪ ˈɡʊd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Last year, they won every game.",
+      "reading": "ˈjɛs. ˈlæst ˈjɪr, ðeɪ ˈwʌn ˈɛvri ˈɡeɪm."
+    },
+    {
+      "speaker": "c",
+      "text": "Did you win last time, too?",
+      "reading": "dɪd juː ˈwɪn ˈlæst ˈtaɪm, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, we lost. But this time, we played better!",
+      "reading": "ˈnoʊ, wiː ˈlɔːst. bʌt ðɪs ˈtaɪm, wiː ˈpleɪd ˈbɛtər!"
+    }
+  ]
+}

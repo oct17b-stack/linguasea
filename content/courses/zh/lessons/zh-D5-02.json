@@ -1,0 +1,80 @@
+{
+  "id": "zh-D5-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.tai-lift",
+      "text": "抬",
+      "reading": "tái"
+    },
+    {
+      "id": "zh.lou-ti",
+      "text": "楼梯",
+      "reading": "lóutī"
+    },
+    {
+      "id": "zh.shou-shang",
+      "text": "受伤",
+      "reading": "shòushāng"
+    },
+    {
+      "id": "zh.zhong-liang",
+      "text": "重量",
+      "reading": "zhòngliàng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，电梯坏了！我们只好走楼梯了。",
+      "reading": "Wáng Míng, diàntī huài le! Wǒmen zhǐhǎo zǒu lóutī le."
+    },
+    {
+      "speaker": "b",
+      "text": "你住几层？",
+      "reading": "Nǐ zhù jǐ céng?"
+    },
+    {
+      "speaker": "a",
+      "text": "六层。这些箱子都要搬上去。",
+      "reading": "Liù céng. Zhèxiē xiāngzi dōu yào bān shangqu."
+    },
+    {
+      "speaker": "b",
+      "text": "这个沙发太重了，我们两个人一起抬上去吧。",
+      "reading": "Zhège shāfā tài zhòng le, wǒmen liǎng ge rén yīqǐ tái shangqu ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好。小心，别受伤！",
+      "reading": "Hǎo. Xiǎoxīn, bié shòushāng!"
+    },
+    {
+      "speaker": "b",
+      "text": "还有这个箱子，重量差不多有三十公斤！里面是什么？",
+      "reading": "Hái yǒu zhège xiāngzi, zhòngliàng chàbuduō yǒu sānshí gōngjīn! Lǐmiàn shì shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "都是书。你在后面推，我在前面拉。",
+      "reading": "Dōu shì shū. Nǐ zài hòumian tuī, wǒ zài qiánmian lā."
+    },
+    {
+      "speaker": "b",
+      "text": "好……搬上来了！",
+      "reading": "Hǎo…… bān shanglai le!"
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！最后，把楼下的自行车也推上来吧。",
+      "reading": "Tài hǎo le! Zuìhòu, bǎ lóuxià de zìxíngchē yě tuī shanglai ba."
+    },
+    {
+      "speaker": "b",
+      "text": "我累坏了！我们先坐下来喝杯水吧。",
+      "reading": "Wǒ lèi huài le! Wǒmen xiān zuò xialai hē bēi shuǐ ba."
+    }
+  ]
+}

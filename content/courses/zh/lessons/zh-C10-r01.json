@@ -1,0 +1,79 @@
+{
+  "id": "zh-C10-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ying-ye",
+      "text": "营业",
+      "reading": "yíngyè"
+    },
+    {
+      "id": "zh.fu-wu",
+      "text": "服务",
+      "reading": "fúwù"
+    },
+    {
+      "id": "zh.jie-jia-ri",
+      "kind": "phrase",
+      "text": "节假日",
+      "reading": "jiéjiàrì"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "学校邮局营业时间：星期一到星期五，八点半到五点。",
+        "reading": "Xuéxiào yóujú yíngyè shíjiān: xīngqīyī dào xīngqīwǔ, bā diǎn bàn dào wǔ diǎn."
+      },
+      {
+        "text": "周末营业时间：九点到四点。",
+        "reading": "Zhōumò yíngyè shíjiān: jiǔ diǎn dào sì diǎn."
+      },
+      {
+        "text": "节假日不营业。",
+        "reading": "Jiéjiàrì bù yíngyè."
+      }
+    ],
+    [
+      {
+        "text": "我们的服务有：寄信、寄包裹、寄快递。",
+        "reading": "Wǒmen de fúwù yǒu: jì xìn, jì bāoguǒ, jì kuàidì."
+      },
+      {
+        "text": "这儿也可以复印。",
+        "reading": "Zhèr yě kěyǐ fùyìn."
+      },
+      {
+        "text": "寄包裹到国外，需要带证件。",
+        "reading": "Jì bāoguǒ dào guówài, xūyào dài zhèngjiàn."
+      }
+    ],
+    [
+      {
+        "text": "请大家排队，不要大声说话。",
+        "reading": "Qǐng dàjiā páiduì, bù yào dàshēng shuōhuà."
+      },
+      {
+        "text": "谢谢合作！",
+        "reading": "Xièxie hézuò!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

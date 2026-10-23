@@ -1,0 +1,70 @@
+{
+  "id": "zh-C9-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ban-move",
+      "text": "搬",
+      "reading": "bān"
+    },
+    {
+      "id": "zh.man-yi",
+      "text": "满意",
+      "reading": "mǎnyì"
+    },
+    {
+      "id": "zh.jue-ding",
+      "text": "决定",
+      "reading": "juédìng"
+    },
+    {
+      "id": "zh.he-tong",
+      "text": "合同",
+      "reading": "hétong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "阿姨，您好！我是小南，星期三看了您的房子。",
+      "reading": "Āyí, nín hǎo! Wǒ shì Xiǎonán, xīngqīsān kàn le nín de fángzi."
+    },
+    {
+      "speaker": "c",
+      "text": "你好！怎么样，你决定了吗？",
+      "reading": "Nǐ hǎo! Zěnmeyàng, nǐ juédìng le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "决定了！我爸爸妈妈也很满意。那我就租这套吧！",
+      "reading": "Juédìng le! Wǒ bàba māma yě hěn mǎnyì. Nà wǒ jiù zū zhè tào ba!"
+    },
+    {
+      "speaker": "c",
+      "text": "太好了！你什么时候搬？",
+      "reading": "Tài hǎo le! Nǐ shénme shíhou bān?"
+    },
+    {
+      "speaker": "a",
+      "text": "这个星期六可以吗？",
+      "reading": "Zhège xīngqīliù kěyǐ ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以。那你星期五就来看看合同吧。",
+      "reading": "Kěyǐ. Nà nǐ xīngqīwǔ jiù lái kànkan hétong ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我先给您押金和三个月的房租。",
+      "reading": "Hǎo, wǒ xiān gěi nín yājīn hé sān ge yuè de fángzū."
+    },
+    {
+      "speaker": "c",
+      "text": "没问题。那就星期五见！",
+      "reading": "Méi wèntí. Nà jiù xīngqīwǔ jiàn!"
+    }
+  ]
+}

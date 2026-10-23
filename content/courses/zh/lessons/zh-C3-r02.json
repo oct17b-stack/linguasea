@@ -1,0 +1,80 @@
+{
+  "id": "zh-C3-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.tong-zhi",
+      "text": "通知",
+      "reading": "tōngzhī"
+    },
+    {
+      "id": "zh.gai",
+      "text": "改",
+      "reading": "gǎi"
+    },
+    {
+      "id": "zh.dai-bring",
+      "text": "带",
+      "reading": "dài"
+    },
+    {
+      "id": "zh.xue-sheng-zheng",
+      "text": "学生证",
+      "reading": "xuéshēngzhèng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "通知",
+        "reading": "Tōngzhī"
+      },
+      {
+        "text": "下星期一开始，二班的口语课改在三楼的大教室。",
+        "reading": "Xià xīngqīyī kāishǐ, èr bān de kǒuyǔ kè gǎi zài sān lóu de dà jiàoshì."
+      },
+      {
+        "text": "阅读课还在二楼的教室，没有改。",
+        "reading": "Yuèdú kè hái zài èr lóu de jiàoshì, méiyǒu gǎi."
+      }
+    ],
+    [
+      {
+        "text": "这个学期的考试在十一月十五日，星期五。",
+        "reading": "Zhège xuéqī de kǎoshì zài shíyī yuè shíwǔ rì, xīngqīwǔ."
+      },
+      {
+        "text": "考试从上午九点到十一点。",
+        "reading": "Kǎoshì cóng shàngwǔ jiǔ diǎn dào shíyī diǎn."
+      },
+      {
+        "text": "考试那天，请带学生证和笔。",
+        "reading": "Kǎoshì nà tiān, qǐng dài xuéshēngzhèng hé bǐ."
+      },
+      {
+        "text": "没有学生证的同学，请去办公室问一下。",
+        "reading": "Méiyǒu xuéshēngzhèng de tóngxué, qǐng qù bàngōngshì wèn yīxià."
+      }
+    ],
+    [
+      {
+        "text": "汉语学院办公室",
+        "reading": "Hànyǔ Xuéyuàn Bàngōngshì"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "zh-B11-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.zen-me-shuo",
+      "kind": "phrase",
+      "text": "怎么说",
+      "reading": "zěnme shuō"
+    },
+    {
+      "id": "zh.ci-word",
+      "text": "词",
+      "reading": "cí"
+    },
+    {
+      "id": "zh.ju-sentence",
+      "text": "句",
+      "reading": "jù"
+    },
+    {
+      "id": "zh.hua-speech",
+      "text": "话",
+      "reading": "huà"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这个用中文怎么说？",
+      "reading": "Wáng Míng, zhège yòng Zhōngwén zěnme shuō?"
+    },
+    {
+      "speaker": "b",
+      "text": "椅子。这是一个词，有两个字。",
+      "reading": "Yǐzi. Zhè shì yī ge cí, yǒu liǎng ge zì."
+    },
+    {
+      "speaker": "a",
+      "text": "椅子……那“请坐”呢？",
+      "reading": "Yǐzi…… nà \"qǐng zuò\" ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "“请坐”是一句话。这句话用泰语怎么说？",
+      "reading": "\"Qǐng zuò\" shì yī jù huà. Zhè jù huà yòng Tàiyǔ zěnme shuō?"
+    },
+    {
+      "speaker": "a",
+      "text": "我教你！",
+      "reading": "Wǒ jiāo nǐ!"
+    }
+  ]
+}

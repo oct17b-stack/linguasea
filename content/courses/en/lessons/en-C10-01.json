@@ -1,0 +1,71 @@
+{
+  "id": "en-C10-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.account",
+      "text": "account",
+      "reading": "əˈkaʊnt"
+    },
+    {
+      "id": "en.form",
+      "text": "form",
+      "reading": "fɔːrm"
+    },
+    {
+      "id": "en.fill-out",
+      "kind": "phrase",
+      "text": "fill out",
+      "reading": "ˌfɪl ˈaʊt"
+    },
+    {
+      "id": "en.id-card",
+      "text": "ID card",
+      "reading": "ˌaɪˈdiː ˌkɑːrd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good morning. How can I help you?",
+      "reading": "ɡʊd ˈmɔːrnɪŋ. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I'd like to open an account, please.",
+      "reading": "ˈhaɪ. aɪd ˈlaɪk tu ˈoʊpən ən əˈkaʊnt, ˈpliːz."
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. Can I see your ID card?",
+      "reading": "ˈʃʊr. kən aɪ ˈsiː jʊr ˌaɪˈdiː ˌkɑːrd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Here you are.",
+      "reading": "ˈjɛs. ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks. Now please fill out this form.",
+      "reading": "ˈθæŋks. ˈnaʊ ˈpliːz ˌfɪl ˈaʊt ðɪs ˈfɔːrm."
+    },
+    {
+      "speaker": "a",
+      "text": "Is it OK if I fill it out in Thai?",
+      "reading": "ɪz ɪt oʊˈkeɪ ɪf aɪ ˈfɪl ɪt ˈaʊt ɪn ˈtaɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. And please write your address here.",
+      "reading": "əv ˈkɔːrs. ənd ˈpliːz ˈraɪt jʊr ˈædrɛs ˈhɪr."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I'd like to get a bank card, too.",
+      "reading": "oʊˈkeɪ. aɪd ˈlaɪk tə ˈɡɛt ə ˈbæŋk ˌkɑːrd, ˈtuː."
+    }
+  ]
+}

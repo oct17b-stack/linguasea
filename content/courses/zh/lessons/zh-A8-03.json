@@ -1,0 +1,50 @@
+{
+  "id": "zh-A8-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.lou",
+      "text": "楼",
+      "reading": "lóu"
+    },
+    {
+      "id": "zh.lou-shang",
+      "text": "楼上",
+      "reading": "lóushàng"
+    },
+    {
+      "id": "zh.lou-xia",
+      "text": "楼下",
+      "reading": "lóuxià"
+    },
+    {
+      "id": "zh.xi-shou-jian",
+      "text": "洗手间",
+      "reading": "xǐshǒujiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，哪里有洗手间？",
+      "reading": "Xiǎonán, nǎlǐ yǒu xǐshǒujiān?"
+    },
+    {
+      "speaker": "a",
+      "text": "楼上，二楼。",
+      "reading": "Lóushàng, èr lóu."
+    },
+    {
+      "speaker": "b",
+      "text": "楼下没有吗？",
+      "reading": "Lóuxià méiyǒu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，一楼也有一个。",
+      "reading": "Yǒu, yī lóu yě yǒu yī ge."
+    }
+  ]
+}

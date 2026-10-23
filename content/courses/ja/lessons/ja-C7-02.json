@@ -1,0 +1,75 @@
+{
+  "id": "ja-C7-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kare",
+      "text": "かれ",
+      "reading": "kare"
+    },
+    {
+      "id": "ja.kanojo",
+      "text": "かのじょ",
+      "reading": "kanojo"
+    },
+    {
+      "id": "ja.sakki",
+      "text": "さっき",
+      "reading": "sakki"
+    },
+    {
+      "id": "ja.konoaida",
+      "text": "この間",
+      "reading": "konoaida"
+    },
+    {
+      "id": "ja.nebou",
+      "text": "ねぼう",
+      "reading": "nebō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、さっき どこに いた？",
+      "reading": "Namu, sakki doko ni ita?"
+    },
+    {
+      "speaker": "a",
+      "text": "としょかん。ゆきは じゅぎょう、まにあった？",
+      "reading": "Toshokan. Yuki wa jugyō, maniatta?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、まにあわなかった。ねぼうした。",
+      "reading": "Uun, maniawanakatta. Nebō shita."
+    },
+    {
+      "speaker": "a",
+      "text": "また？ この間も ねぼうしたね。",
+      "reading": "Mata? Konoaida mo nebō shita ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん…。でも、マリーさんも おくれたよ。かのじょも ねぼうした。",
+      "reading": "Un…. Demo, Marī-san mo okureta yo. Kanojo mo nebō shita."
+    },
+    {
+      "speaker": "a",
+      "text": "ミンさんは？",
+      "reading": "Min-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "かれは こなかった。",
+      "reading": "Kare wa konakatta."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。わたしは きのう 10時に ねた。けさは 6時に おきたよ。",
+      "reading": "Hē. Watashi wa kinō jūji ni neta. Kesa wa rokuji ni okita yo."
+    }
+  ]
+}

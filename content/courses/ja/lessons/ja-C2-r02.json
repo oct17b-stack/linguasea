@@ -1,0 +1,88 @@
+{
+  "id": "ja-C2-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kazegusuri",
+      "text": "かぜぐすり",
+      "reading": "kazegusuri"
+    },
+    {
+      "id": "ja.gussuri",
+      "text": "ぐっすり",
+      "reading": "gussuri"
+    },
+    {
+      "id": "ja.gaman",
+      "text": "がまん",
+      "reading": "gaman"
+    },
+    {
+      "id": "ja.omimai",
+      "text": "おみまい",
+      "reading": "omimai"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "今週は テストが たくさん ありました。",
+        "reading": "Konshū wa tesuto ga takusan arimashita."
+      },
+      {
+        "text": "でも、げつようびから ねつと せきが ありました。",
+        "reading": "Demo, getsuyōbi kara netsu to seki ga arimashita."
+      },
+      {
+        "text": "テストを やすむ ことは できませんから、がまんしました。",
+        "reading": "Tesuto o yasumu koto wa dekimasen kara, gaman shimashita."
+      }
+    ],
+    [
+      {
+        "text": "かようびの よる、かぜぐすりを のみました。",
+        "reading": "Kayōbi no yoru, kazegusuri o nomimashita."
+      },
+      {
+        "text": "それから、ぐっすり ねました。",
+        "reading": "Sorekara, gussuri nemashita."
+      },
+      {
+        "text": "すいようびの あさ、ねつが 下がりました。",
+        "reading": "Suiyōbi no asa, netsu ga sagarimashita."
+      }
+    ],
+    [
+      {
+        "text": "もくようびに、ゆきさんが おみまいに きました。",
+        "reading": "Mokuyōbi ni, Yuki-san ga omimai ni kimashita."
+      },
+      {
+        "text": "ゆきさんの りんごは とても おいしかったです。",
+        "reading": "Yuki-san no ringo wa totemo oishikatta desu."
+      },
+      {
+        "text": "きょうは げんきです。",
+        "reading": "Kyō wa genki desu."
+      },
+      {
+        "text": "テストも だいじょうぶでした。",
+        "reading": "Tesuto mo daijōbu deshita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

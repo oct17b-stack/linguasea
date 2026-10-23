@@ -1,0 +1,136 @@
+{
+  "id": "zh-A2-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.mai4",
+      "kind": "syllable",
+      "text": "mài",
+      "reading": "mài",
+      "say": "卖"
+    },
+    {
+      "id": "zh.mei4",
+      "kind": "syllable",
+      "text": "mèi",
+      "reading": "mèi",
+      "say": "妹"
+    },
+    {
+      "id": "zh.zou3",
+      "kind": "syllable",
+      "text": "zǒu",
+      "reading": "zǒu",
+      "say": "走"
+    },
+    {
+      "id": "zh.zuo3",
+      "kind": "syllable",
+      "text": "zuǒ",
+      "reading": "zuǒ",
+      "say": "左"
+    },
+    {
+      "id": "zh.xie2",
+      "kind": "syllable",
+      "text": "xié",
+      "reading": "xié",
+      "say": "鞋"
+    },
+    {
+      "id": "zh.xue2",
+      "kind": "syllable",
+      "text": "xué",
+      "reading": "xué",
+      "say": "学"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "zh.mai4",
+      "options": [
+        "zh.mei4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.mei4",
+      "options": [
+        "zh.mai4"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.zou3",
+      "options": [
+        "zh.zuo3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.zuo3",
+      "options": [
+        "zh.zou3"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.xie2",
+      "options": [
+        "zh.xue2"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "zh.xue2",
+      "options": [
+        "zh.xie2"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.mei4",
+      "options": [
+        "zh.mai4",
+        "zh.zou3",
+        "zh.zuo3"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.zou3",
+      "options": [
+        "zh.zuo3",
+        "zh.mai4"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.zuo3",
+      "options": [
+        "zh.zou3",
+        "zh.mei4",
+        "zh.xie2"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "zh.xue2",
+      "options": [
+        "zh.xie2",
+        "zh.zou3"
+      ]
+    },
+    {
+      "type": "speak",
+      "item": "zh.zuo3"
+    },
+    {
+      "type": "speak",
+      "item": "zh.xue2"
+    }
+  ]
+}

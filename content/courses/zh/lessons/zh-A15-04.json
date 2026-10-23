@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhong-bu",
+      "text": "中部",
+      "reading": "zhōngbù"
+    },
+    {
+      "id": "zh.dong-bu",
+      "text": "东部",
+      "reading": "dōngbù"
+    },
+    {
+      "id": "zh.nan-bu",
+      "text": "南部",
+      "reading": "nánbù"
+    },
+    {
+      "id": "zh.xi-bu",
+      "text": "西部",
+      "reading": "xībù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你是哪里人？",
+      "reading": "Xiǎonán, nǐ shì nǎlǐ rén?"
+    },
+    {
+      "speaker": "a",
+      "text": "我是泰国中部人。你呢？",
+      "reading": "Wǒ shì Tàiguó zhōngbù rén. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我是北京人。泰国南部有什么？",
+      "reading": "Wǒ shì Běijīng rén. Tàiguó nánbù yǒu shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "有普吉！普吉的海很好看！",
+      "reading": "Yǒu Pǔjí! Pǔjí de hǎi hěn hǎokàn!"
+    }
+  ]
+}

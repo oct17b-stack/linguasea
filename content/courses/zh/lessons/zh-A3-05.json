@@ -1,0 +1,56 @@
+{
+  "id": "zh-A3-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.xing",
+      "text": "姓",
+      "reading": "xìng"
+    },
+    {
+      "id": "zh.nin-gui-xing",
+      "kind": "phrase",
+      "text": "您贵姓？",
+      "reading": "nín guì xìng?"
+    },
+    {
+      "id": "zh.xian-sheng",
+      "text": "先生",
+      "reading": "xiānsheng"
+    },
+    {
+      "id": "zh.xiao-jie",
+      "text": "小姐",
+      "reading": "xiǎojiě"
+    },
+    {
+      "id": "zh.da-xue-sheng",
+      "text": "大学生",
+      "reading": "dàxuéshēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "先生，您好！您贵姓？",
+      "reading": "Xiānsheng, nín hǎo! Nín guì xìng?"
+    },
+    {
+      "speaker": "b",
+      "text": "我姓王。你是大学生吗？",
+      "reading": "Wǒ xìng Wáng. Nǐ shì dàxuéshēng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是。王先生，您呢？",
+      "reading": "Shì. Wáng xiānsheng, nín ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我是老师。",
+      "reading": "Wǒ shì lǎoshī."
+    }
+  ]
+}

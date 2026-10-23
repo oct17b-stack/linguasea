@@ -1,0 +1,76 @@
+{
+  "id": "ja-C4-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.youji",
+      "text": "用事",
+      "reading": "yōji"
+    },
+    {
+      "id": "ja.zannen",
+      "text": "ざんねん",
+      "reading": "zannen"
+    },
+    {
+      "id": "ja.tsugou",
+      "text": "つごう",
+      "reading": "tsugō"
+    },
+    {
+      "id": "ja.mata-kondo",
+      "kind": "phrase",
+      "text": "また今度",
+      "reading": "mata kondo"
+    },
+    {
+      "id": "ja.kotowaru",
+      "text": "ことわる",
+      "reading": "kotowaru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どようびに カラオケへ いきませんか。",
+      "reading": "Namu-san, doyōbi ni karaoke e ikimasen ka."
+    },
+    {
+      "speaker": "a",
+      "text": "どようびですか。いきたいですが、アルバイトが あります。",
+      "reading": "Doyōbi desu ka. Ikitai desu ga, arubaito ga arimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。ざんねんですね。にちようびは どうですか。",
+      "reading": "Sō desu ka. Zannen desu ne. Nichiyōbi wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。にちようびも ちょっと 用事が あります。また今度 おねがいします。",
+      "reading": "Sumimasen. Nichiyōbi mo chotto yōji ga arimasu. Mata kondo onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。じゃあ、来週の きんようびは つごうが いいですか。",
+      "reading": "Wakarimashita. Jā, raishū no kin'yōbi wa tsugō ga ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、きんようびは だいじょうぶです！",
+      "reading": "Hai, kin'yōbi wa daijōbu desu!"
+    },
+    {
+      "speaker": "c",
+      "text": "よかった。ナムさんは ことわるのが じょうずですね。",
+      "reading": "Yokatta. Namu-san wa kotowaru no ga jōzu desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。きんようびは いきます！",
+      "reading": "Sumimasen. Kin'yōbi wa ikimasu!"
+    }
+  ]
+}

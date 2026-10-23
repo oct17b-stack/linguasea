@@ -1,0 +1,50 @@
+{
+  "id": "zh-A9-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.han-zi",
+      "text": "汉字",
+      "reading": "Hànzì"
+    },
+    {
+      "id": "zh.zi",
+      "text": "字",
+      "reading": "zì"
+    },
+    {
+      "id": "zh.yi-si",
+      "text": "意思",
+      "reading": "yìsi"
+    },
+    {
+      "id": "zh.dong",
+      "text": "懂",
+      "reading": "dǒng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "老师，这个字是什么意思？",
+      "reading": "Lǎoshī, zhège zì shì shénme yìsi?"
+    },
+    {
+      "speaker": "c",
+      "text": "是“口”，“门口”的“口”。",
+      "reading": "Shì “kǒu”, “ménkǒu” de “kǒu”."
+    },
+    {
+      "speaker": "a",
+      "text": "我懂了！汉字很有意思！",
+      "reading": "Wǒ dǒng le! Hànzì hěn yǒu yìsi!"
+    },
+    {
+      "speaker": "c",
+      "text": "很好！你认识很多汉字！",
+      "reading": "Hěn hǎo! Nǐ rènshi hěn duō Hànzì!"
+    }
+  ]
+}

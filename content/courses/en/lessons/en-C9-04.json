@@ -1,0 +1,71 @@
+{
+  "id": "en-C9-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.a-ten-minute-walk",
+      "kind": "phrase",
+      "text": "a ten-minute walk",
+      "reading": "ə ˌtɛn ˌmɪnɪt ˈwɔːk"
+    },
+    {
+      "id": "en.neighborhood",
+      "text": "neighborhood",
+      "reading": "ˈneɪbərhʊd"
+    },
+    {
+      "id": "en.convenient",
+      "text": "convenient",
+      "reading": "kənˈviːniənt"
+    },
+    {
+      "id": "en.nearby",
+      "text": "nearby",
+      "reading": "ˌnɪrˈbaɪ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How far is the university from here?",
+      "reading": "ˈhaʊ ˈfɑːr ɪz ðə ˌjuːnɪˈvɜːrsəti frəm ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "Not far. It's a ten-minute walk.",
+      "reading": "ˈnɑːt ˈfɑːr. ɪts ə ˌtɛn ˌmɪnɪt ˈwɔːk."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! From my house, it's a two-hour bus ride.",
+      "reading": "ˈɡreɪt! frəm maɪ ˈhaʊs, ɪts ə ˌtuː ˌaʊər ˈbʌs ˌraɪd."
+    },
+    {
+      "speaker": "b",
+      "text": "Two hours? That's a long time! This neighborhood is very convenient.",
+      "reading": "ˈtuː ˈaʊərz? ðæts ə ˈlɔːŋ ˈtaɪm! ðɪs ˈneɪbərhʊd ɪz ˈvɛri kənˈviːniənt."
+    },
+    {
+      "speaker": "a",
+      "text": "Is it safe at night?",
+      "reading": "ɪz ɪt ˈseɪf ət ˈnaɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it's quiet and safe.",
+      "reading": "ˈjɛs, ɪts ˈkwaɪət ənd ˈseɪf."
+    },
+    {
+      "speaker": "a",
+      "text": "Is there a supermarket nearby?",
+      "reading": "ɪz ðɛr ə ˈsuːpərmɑːrkɪt ˌnɪrˈbaɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, there's a small one. It's a five-minute walk.",
+      "reading": "ˈjɛs, ðɛrz ə ˈsmɔːl ˈwʌn. ɪts ə ˌfaɪv ˌmɪnɪt ˈwɔːk."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "en-C9-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.furniture",
+      "text": "furniture",
+      "reading": "ˈfɜːrnɪtʃər"
+    },
+    {
+      "id": "en.fridge",
+      "text": "fridge",
+      "reading": "frɪdʒ"
+    },
+    {
+      "id": "en.microwave",
+      "text": "microwave",
+      "reading": "ˈmaɪkrəweɪv"
+    },
+    {
+      "id": "en.washing-machine",
+      "text": "washing machine",
+      "reading": "ˈwɑːʃɪŋ məˌʃiːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Is there any furniture in the room?",
+      "reading": "ɪz ðɛr ˈɛni ˈfɜːrnɪtʃər ɪn ðə ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. There's a bed, a desk, a closet and a small fridge.",
+      "reading": "ˈjɛs. ðɛrz ə ˈbɛd, ə ˈdɛsk, ə ˈklɑːzɪt ənd ə ˈsmɔːl ˈfrɪdʒ."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Is it OK if I cook in the room?",
+      "reading": "ˈɡreɪt! ɪz ɪt oʊˈkeɪ ɪf aɪ ˈkʊk ɪn ðə ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, no. But you can use the microwave downstairs.",
+      "reading": "ˈsɑːri, ˈnoʊ. bʌt juː kən ˈjuːz ðə ˈmaɪkrəweɪv ˌdaʊnˈstɛrz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Is there a washing machine, too?",
+      "reading": "oʊˈkeɪ. ɪz ðɛr ə ˈwɑːʃɪŋ məˌʃiːn, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, there are two. They're next to the stairs.",
+      "reading": "ˈjɛs, ðɛr ər ˈtuː. ðɛr ˈnɛkst tə ðə ˈstɛrz."
+    },
+    {
+      "speaker": "a",
+      "text": "Is it OK if I wash my clothes at night?",
+      "reading": "ɪz ɪt oʊˈkeɪ ɪf aɪ ˈwɑːʃ maɪ ˈkloʊðz ət ˈnaɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sure, but not after ten o'clock, please.",
+      "reading": "ˈʃʊr, bʌt ˈnɑːt ˈæftər ˈtɛn əˈklɑːk, ˈpliːz."
+    }
+  ]
+}

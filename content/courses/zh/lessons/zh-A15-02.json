@@ -1,0 +1,50 @@
+{
+  "id": "zh-A15-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.dong-bian",
+      "text": "东边",
+      "reading": "dōngbian"
+    },
+    {
+      "id": "zh.xi-bian",
+      "text": "西边",
+      "reading": "xībian"
+    },
+    {
+      "id": "zh.nan-bian",
+      "text": "南边",
+      "reading": "nánbian"
+    },
+    {
+      "id": "zh.bei-bian",
+      "text": "北边",
+      "reading": "běibian"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "泰国的南边是什么国家？",
+      "reading": "Tàiguó de nánbian shì shénme guójiā?"
+    },
+    {
+      "speaker": "a",
+      "text": "是马来西亚。",
+      "reading": "Shì Mǎláixīyà."
+    },
+    {
+      "speaker": "b",
+      "text": "北边呢？",
+      "reading": "Běibian ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "北边是缅甸和老挝。",
+      "reading": "Běibian shì Miǎndiàn hé Lǎowō."
+    }
+  ]
+}

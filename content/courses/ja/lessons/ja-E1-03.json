@@ -1,0 +1,85 @@
+{
+  "id": "ja-E1-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.taijuu",
+      "text": "体重",
+      "reading": "taijū"
+    },
+    {
+      "id": "ja.taion",
+      "text": "たいおん",
+      "reading": "taion"
+    },
+    {
+      "id": "ja.ketsuatsu",
+      "text": "けつあつ",
+      "reading": "ketsuatsu"
+    },
+    {
+      "id": "ja.hosuu",
+      "text": "歩数",
+      "reading": "hosū"
+    },
+    {
+      "id": "ja.kenkoushindan",
+      "text": "けんこうしんだん",
+      "reading": "kenkōshindan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、なにをかいているの？",
+      "reading": "Namu, nani o kaite iru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "体重と歩数だよ。わすれないように、まいにちアプリにメモしているの。",
+      "reading": "Taijū to hosū da yo. Wasurenai yō ni, mainichi apuri ni memo shite iru no."
+    },
+    {
+      "speaker": "c",
+      "text": "歩数も？",
+      "reading": "Hosū mo?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。まいにちもうすこしあるけるように、歩数をみているんだ。",
+      "reading": "Un. Mainichi mō sukoshi arukeru yō ni, hosū o mite iru n da."
+    },
+    {
+      "speaker": "c",
+      "text": "来週は、けんこうしんだんだね。",
+      "reading": "Raishū wa, kenkōshindan da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。たいおんやけつあつもはかるよね。",
+      "reading": "Un. Taion ya ketsuatsu mo hakaru yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。それから、あさごはんはたべないでいってね。",
+      "reading": "Un. Sorekara, asagohan wa tabenaide itte ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなの？わすれないように、スマホのカレンダーにもかいておこう。",
+      "reading": "Sō na no? Wasurenai yō ni, sumaho no karendā ni mo kaite okō."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。わたしも、ねぼうしないように、はやくねよう。",
+      "reading": "Ii ne. Watashi mo, nebō shinai yō ni, hayaku neyō."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。けっかがよかったらいいね。",
+      "reading": "Sō da ne. Kekka ga yokattara ii ne."
+    }
+  ]
+}

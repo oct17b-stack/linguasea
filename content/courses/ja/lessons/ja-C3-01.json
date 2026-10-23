@@ -1,0 +1,75 @@
+{
+  "id": "ja-C3-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.sotsugyou",
+      "text": "そつぎょう",
+      "reading": "sotsugyō"
+    },
+    {
+      "id": "ja.shourai",
+      "text": "しょうらい",
+      "reading": "shōrai"
+    },
+    {
+      "id": "ja.shuushoku",
+      "text": "しゅうしょく",
+      "reading": "shūshoku"
+    },
+    {
+      "id": "ja.shingaku",
+      "text": "しんがく",
+      "reading": "shingaku"
+    },
+    {
+      "id": "ja.yume",
+      "text": "ゆめ",
+      "reading": "yume"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさんは そつぎょうの あとで、なにを したいですか。",
+      "reading": "Namu-san wa sotsugyō no ato de, nani o shitai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "タイで しゅうしょくしたいです。",
+      "reading": "Tai de shūshoku shitai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。しんがくは どうですか。",
+      "reading": "Sō desu ka. Shingaku wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "しんがくは ちょっと…。",
+      "reading": "Shingaku wa chotto…."
+    },
+    {
+      "speaker": "b",
+      "text": "しょうらいの ゆめは なんですか。",
+      "reading": "Shōrai no yume wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんごの せんせいに なりたいです。ちちと ははも せんせいですから。",
+      "reading": "Nihongo no sensei ni naritai desu. Chichi to haha mo sensei desu kara."
+    },
+    {
+      "speaker": "b",
+      "text": "いい ゆめですね。がんばって。",
+      "reading": "Ii yume desu ne. Ganbatte."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、がんばります！",
+      "reading": "Hai, ganbarimasu!"
+    }
+  ]
+}

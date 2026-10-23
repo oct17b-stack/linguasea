@@ -1,0 +1,60 @@
+{
+  "id": "zh-B13-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.huai",
+      "text": "坏",
+      "reading": "huài"
+    },
+    {
+      "id": "zh.chu-shi-accident",
+      "text": "出事",
+      "reading": "chūshì"
+    },
+    {
+      "id": "zh.song-hui",
+      "text": "送回",
+      "reading": "sònghuí"
+    },
+    {
+      "id": "zh.hui-qu",
+      "text": "回去",
+      "reading": "huíqù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，出什么事了？",
+      "reading": "Xiǎonán, chū shénme shì le?"
+    },
+    {
+      "speaker": "a",
+      "text": "出事了！我的手机坏了，钱包也还没找到。",
+      "reading": "Chūshì le! Wǒ de shǒujī huài le, qiánbāo yě hái méi zhǎodào."
+    },
+    {
+      "speaker": "b",
+      "text": "别急！你的钱包，有人送回图书馆了！",
+      "reading": "Bié jí! Nǐ de qiánbāo, yǒu rén sònghuí túshūguǎn le!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？太好了！",
+      "reading": "Zhēnde ma? Tài hǎo le!"
+    },
+    {
+      "speaker": "b",
+      "text": "那我们现在回去吧！",
+      "reading": "Nà wǒmen xiànzài huíqù ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，走吧！",
+      "reading": "Hǎo, zǒu ba!"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "ja-C4-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.henkou",
+      "text": "へんこう",
+      "reading": "henkō"
+    },
+    {
+      "id": "ja.higashiguchi",
+      "text": "東口",
+      "reading": "higashiguchi"
+    },
+    {
+      "id": "ja.mejirushi",
+      "text": "めじるし",
+      "reading": "mejirushi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゆき：ナムさん、すみません。まちあわせを 北口から 東口に へんこうします。",
+        "reading": "Yuki: Namu-san, sumimasen. Machiawase o kitaguchi kara higashiguchi ni henkō shimasu."
+      },
+      {
+        "text": "ゆき：北口は ひとが とても おおいです。",
+        "reading": "Yuki: Kitaguchi wa hito ga totemo ōi desu."
+      },
+      {
+        "text": "ナム：わかりました。東口の どこですか。",
+        "reading": "Namu: Wakarimashita. Higashiguchi no doko desu ka."
+      }
+    ],
+    [
+      {
+        "text": "ゆき：東口の まえに おおきい とけいが あります。",
+        "reading": "Yuki: Higashiguchi no mae ni ōkii tokei ga arimasu."
+      },
+      {
+        "text": "ゆき：その とけいが めじるしです。",
+        "reading": "Yuki: Sono tokei ga mejirushi desu."
+      },
+      {
+        "text": "ナム：オーケー！ わたしは いま でんしゃの 中です。",
+        "reading": "Namu: Ōkē! Watashi wa ima densha no naka desu."
+      }
+    ],
+    [
+      {
+        "text": "ナム：10ぷんぐらい おくれます。すみません！",
+        "reading": "Namu: Juppun gurai okuremasu. Sumimasen!"
+      },
+      {
+        "text": "ゆき：だいじょうぶです。とけいの 下で まちますね。",
+        "reading": "Yuki: Daijōbu desu. Tokei no shita de machimasu ne."
+      },
+      {
+        "text": "ナム：ありがとう！",
+        "reading": "Namu: Arigatō!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

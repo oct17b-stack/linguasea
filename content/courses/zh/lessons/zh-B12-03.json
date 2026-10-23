@@ -1,0 +1,60 @@
+{
+  "id": "zh-B12-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.kai",
+      "text": "开",
+      "reading": "kāi"
+    },
+    {
+      "id": "zh.guan",
+      "text": "关",
+      "reading": "guān"
+    },
+    {
+      "id": "zh.kai-men",
+      "text": "开门",
+      "reading": "kāimén"
+    },
+    {
+      "id": "zh.guan-men",
+      "text": "关门",
+      "reading": "guānmén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，图书馆几点开门？",
+      "reading": "Wáng Míng, túshūguǎn jǐ diǎn kāimén?"
+    },
+    {
+      "speaker": "b",
+      "text": "早上八点开门，晚上九点关门。",
+      "reading": "Zǎoshang bā diǎn kāimén, wǎnshang jiǔ diǎn guānmén."
+    },
+    {
+      "speaker": "a",
+      "text": "现在八点半，门还没开！",
+      "reading": "Xiànzài bā diǎn bàn, mén hái méi kāi!"
+    },
+    {
+      "speaker": "b",
+      "text": "今天星期天，十点开门。",
+      "reading": "Jīntiān xīngqītiān, shí diǎn kāimén."
+    },
+    {
+      "speaker": "a",
+      "text": "那我们先去吃早饭吧。",
+      "reading": "Nà wǒmen xiān qù chī zǎofàn ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好！食堂七点就开门。",
+      "reading": "Hǎo! Shítáng qī diǎn jiù kāimén."
+    }
+  ]
+}

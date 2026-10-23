@@ -1,0 +1,79 @@
+{
+  "id": "en-C11-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.champion",
+      "text": "champion",
+      "reading": "ˈtʃæmpiən"
+    },
+    {
+      "id": "en.medal",
+      "text": "medal",
+      "reading": "ˈmɛdəl"
+    },
+    {
+      "id": "en.compete",
+      "text": "compete",
+      "reading": "kəmˈpiːt"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "On Monday, I got up at five o'clock and went jogging.",
+        "reading": "ɑːn ˈmʌndeɪ, aɪ ˈɡɑːt ˈʌp ət ˈfaɪv əˈklɑːk ənd ˈwɛnt ˈdʒɑːɡɪŋ."
+      },
+      {
+        "text": "After school, I practiced badminton for three hours.",
+        "reading": "ˈæftər ˈskuːl, aɪ ˈpræktɪst ˈbædmɪntən fər ˈθriː ˈaʊərz."
+      }
+    ],
+    [
+      {
+        "text": "On Wednesday, I was very tired, and I played badly.",
+        "reading": "ɑːn ˈwɛnzdeɪ, aɪ wʌz ˈvɛri ˈtaɪərd, ənd aɪ ˈpleɪd ˈbædli."
+      },
+      {
+        "text": "So on Thursday, I didn't practice.",
+        "reading": "soʊ ɑːn ˈθɜːrzdeɪ, aɪ ˈdɪdənt ˈpræktɪs."
+      },
+      {
+        "text": "I rested at home and went to bed early.",
+        "reading": "aɪ ˈrɛstɪd ət ˈhoʊm ənd ˈwɛnt tə ˈbɛd ˈɜːrli."
+      }
+    ],
+    [
+      {
+        "text": "On Saturday, I competed with the best young players in Thailand.",
+        "reading": "ɑːn ˈsætərdeɪ, aɪ kəmˈpiːtɪd wɪð ðə ˈbɛst ˈjʌŋ ˈpleɪərz ɪn ˈtaɪlænd."
+      },
+      {
+        "text": "I won four games, and I got a medal!",
+        "reading": "aɪ ˈwʌn ˈfɔːr ˈɡeɪmz, ənd aɪ ˈɡɑːt ə ˈmɛdəl!"
+      },
+      {
+        "text": "My mom was very happy, and she cried.",
+        "reading": "maɪ ˈmɑːm wʌz ˈvɛri ˈhæpi, ənd ʃiː ˈkraɪd."
+      },
+      {
+        "text": "Now my dream is to become a world champion.",
+        "reading": "ˈnaʊ maɪ ˈdriːm ɪz tə bɪˈkʌm ə ˈwɜːrld ˈtʃæmpiən."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

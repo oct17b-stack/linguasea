@@ -1,0 +1,47 @@
+{
+  "lesson": "en-C9-04",
+  "title": "ไกลแค่ไหน",
+  "intro": "ถามว่าห้องอยู่ไกลมหาวิทยาลัยแค่ไหน ย่านนั้นเป็นอย่างไร และบอกระยะทางแบบ a ten-minute walk",
+  "items": {
+    "en.a-ten-minute-walk": {
+      "meaning": "(ระยะทาง) เดินสิบนาที",
+      "translit": "อะ เท็น มินิท วอล์ก"
+    },
+    "en.neighborhood": {
+      "meaning": "ย่าน, ละแวกบ้าน",
+      "translit": "เนเบอร์ฮูด"
+    },
+    "en.convenient": {
+      "meaning": "สะดวก",
+      "translit": "คอนวีเนียนท์"
+    },
+    "en.nearby": {
+      "meaning": "ใกล้ ๆ, แถวนี้",
+      "translit": "เนียร์บาย"
+    }
+  },
+  "dialogue": [
+    "จากที่นี่ไปมหาวิทยาลัยไกลแค่ไหน",
+    "ไม่ไกล เดินสิบนาที",
+    "ดีจัง! จากบ้านฉันต้องนั่งรถเมล์ตั้งสองชั่วโมง",
+    "สองชั่วโมงเลยเหรอ นานมาก! ย่านนี้สะดวกมากนะ",
+    "ตอนกลางคืนปลอดภัยไหม",
+    "ปลอดภัย เงียบด้วย",
+    "แถวนี้มีซูเปอร์มาร์เก็ตไหม",
+    "มี เป็นร้านเล็ก ๆ เดินห้านาที"
+  ],
+  "notes": [
+    {
+      "title": "a ten-minute walk",
+      "body": "บอกระยะทางเป็นเวลาใช้ a + ตัวเลข-คำนาม + walk / ride: a ten-minute walk (เดินสิบนาที) a two-hour bus ride (นั่งรถเมล์สองชั่วโมง) คำนามหลังตัวเลขแบบนี้ไม่เติม s (ten-minute ไม่ใช่ ten-minutes) และมีขีด - เชื่อม เช่นเดียวกับ a two-room apartment (อพาร์ตเมนต์สองห้อง)"
+    },
+    {
+      "title": "nearby",
+      "body": "nearby (ใกล้ ๆ แถวนี้) วางไว้ท้ายประโยคได้เลย: Is there a supermarket nearby? ความหมายเดียวกับ near here"
+    },
+    {
+      "title": "convenient",
+      "body": "convenient = สะดวก ใช้กับสถานที่หรือเวลา: This neighborhood is very convenient. คำเดียวกับ convenience store (ร้านสะดวกซื้อ)"
+    }
+  ]
+}

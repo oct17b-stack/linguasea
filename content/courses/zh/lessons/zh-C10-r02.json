@@ -1,0 +1,79 @@
+{
+  "id": "zh-C10-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.you-piao",
+      "text": "邮票",
+      "reading": "yóupiào"
+    },
+    {
+      "id": "zh.xin-feng",
+      "text": "信封",
+      "reading": "xìnfēng"
+    },
+    {
+      "id": "zh.xiang-zi",
+      "text": "箱子",
+      "reading": "xiāngzi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "十二月十号是妈妈的生日。",
+        "reading": "Shí'èr yuè shí hào shì māma de shēngrì."
+      },
+      {
+        "text": "小南在北京给妈妈买了一件红色的衣服，还有两盒茶。",
+        "reading": "Xiǎonán zài Běijīng gěi māma mǎi le yī jiàn hóngsè de yīfu, hái yǒu liǎng hé chá."
+      },
+      {
+        "text": "衣服和茶都放在一个小箱子里。",
+        "reading": "Yīfu hé chá dōu fàng zài yī ge xiǎo xiāngzi lǐ."
+      }
+    ],
+    [
+      {
+        "text": "她还给妈妈写了一封信，信封上写着“妈妈，生日快乐！”",
+        "reading": "Tā hái gěi māma xiě le yī fēng xìn, xìnfēng shang xiě zhe \"Māma, shēngrì kuàilè!\""
+      },
+      {
+        "text": "在邮局，小南还买了几张长城邮票，因为她妹妹很喜欢邮票。",
+        "reading": "Zài yóujú, Xiǎonán hái mǎi le jǐ zhāng Chángchéng yóupiào, yīnwèi tā mèimei hěn xǐhuan yóupiào."
+      },
+      {
+        "text": "寄到曼谷要一个星期。",
+        "reading": "Jìdào Màngǔ yào yī ge xīngqī."
+      }
+    ],
+    [
+      {
+        "text": "妈妈生日那天，小南给她打电话。",
+        "reading": "Māma shēngrì nà tiān, Xiǎonán gěi tā dǎ diànhuà."
+      },
+      {
+        "text": "妈妈说：“我收到了！衣服很漂亮，我很喜欢！”",
+        "reading": "Māma shuō: \"Wǒ shōudào le! Yīfu hěn piàoliang, wǒ hěn xǐhuan!\""
+      },
+      {
+        "text": "妹妹也很高兴，因为她收到了长城邮票。",
+        "reading": "Mèimei yě hěn gāoxìng, yīnwèi tā shōudào le Chángchéng yóupiào."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}
