@@ -1,0 +1,60 @@
+{
+  "id": "zh-B3-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.yi-zhi",
+      "text": "一直",
+      "reading": "yīzhí"
+    },
+    {
+      "id": "zh.wang-toward",
+      "text": "往",
+      "reading": "wǎng"
+    },
+    {
+      "id": "zh.guai-turn",
+      "text": "拐",
+      "reading": "guǎi"
+    },
+    {
+      "id": "zh.lu-kou",
+      "text": "路口",
+      "reading": "lùkǒu"
+    },
+    {
+      "id": "zh.nar-there",
+      "text": "那儿",
+      "reading": "nàr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我在学校前面。你家在哪儿？",
+      "reading": "Wáng Míng, wǒ zài xuéxiào qiánmian. Nǐ jiā zài nǎr?"
+    },
+    {
+      "speaker": "b",
+      "text": "一直走，到路口往左拐。",
+      "reading": "Yīzhí zǒu, dào lùkǒu wǎng zuǒ guǎi."
+    },
+    {
+      "speaker": "a",
+      "text": "好，往左拐。那儿有一个超市！",
+      "reading": "Hǎo, wǎng zuǒ guǎi. Nàr yǒu yī ge chāoshì!"
+    },
+    {
+      "speaker": "b",
+      "text": "对！我家在超市右边。",
+      "reading": "Duì! Wǒ jiā zài chāoshì yòubian."
+    },
+    {
+      "speaker": "a",
+      "text": "好的！",
+      "reading": "Hǎo de!"
+    }
+  ]
+}

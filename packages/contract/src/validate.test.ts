@@ -163,12 +163,12 @@ describe('exercises', () => {
 describe('readers', () => {
   function addReader(root: string, gloss: Record<string, unknown> = {}) {
     edit(join(root, 'courses/zh/course.json'), (c) => {
-      c.stages.find((s: { id: string }) => s.id === 'B').units.find((u: { id: string }) => u.id === 'zh-B1').lessons.push('zh-B1-r01');
+      c.stages.find((s: { id: string }) => s.id === 'B').units.find((u: { id: string }) => u.id === 'zh-B1').lessons.push('zh-B1-r09');
     });
     writeFileSync(
-      join(root, 'courses/zh/lessons/zh-B1-r01.json'),
+      join(root, 'courses/zh/lessons/zh-B1-r09.json'),
       JSON.stringify({
-        id: 'zh-B1-r01',
+        id: 'zh-B1-r09',
         kind: 'reader',
         target: 'zh',
         stage: 'B',
@@ -179,9 +179,9 @@ describe('readers', () => {
       }),
     );
     writeFileSync(
-      join(root, 'l1/th/zh/lessons/zh-B1-r01.json'),
+      join(root, 'l1/th/zh/lessons/zh-B1-r09.json'),
       JSON.stringify({
-        lesson: 'zh-B1-r01',
+        lesson: 'zh-B1-r09',
         title: 'ไปตลาด',
         intro: 'อ่านเรื่องสั้น',
         items: { 'zh.test-shi-chang': { meaning: 'ตลาด (ทดสอบ)' } },
@@ -196,13 +196,13 @@ describe('readers', () => {
     const root = copy();
     addReader(root, { passage: [['แม่ไปตลาด', 'เกิน']] });
     const m = messages(root);
-    expect(m).toContain('l1/th/zh/lessons/zh-B1-r01.json: passage translations [2] do not match the passage\'s paragraphs/sentences [1]');
-    expect(m).toContain('l1/th/zh/lessons/zh-B1-r01.json: question 1: answer 2 but only 2 options');
+    expect(m).toContain('l1/th/zh/lessons/zh-B1-r09.json: passage translations [2] do not match the passage\'s paragraphs/sentences [1]');
+    expect(m).toContain('l1/th/zh/lessons/zh-B1-r09.json: question 1: answer 2 but only 2 options');
   });
 
   it('accepts a well-formed reader', () => {
     const root = copy();
     addReader(root, { questions: [{ prompt: 'ใครไปตลาด', options: ['พ่อ', 'แม่', 'น้อง'] }] });
-    expect(messages(root).filter((m) => m.includes('zh-B1-r01'))).toEqual([]);
+    expect(messages(root).filter((m) => m.includes('zh-B1-r09'))).toEqual([]);
   });
 });

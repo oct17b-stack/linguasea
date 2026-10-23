@@ -1,0 +1,50 @@
+{
+  "id": "zh-A11-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.nan-sheng",
+      "text": "男生",
+      "reading": "nánshēng"
+    },
+    {
+      "id": "zh.nv-sheng",
+      "text": "女生",
+      "reading": "nǚshēng"
+    },
+    {
+      "id": "zh.zhong-xue-sheng",
+      "text": "中学生",
+      "reading": "zhōngxuéshēng"
+    },
+    {
+      "id": "zh.xiao-xue-sheng",
+      "text": "小学生",
+      "reading": "xiǎoxuéshēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "这些男生是大学生吗？",
+      "reading": "Zhèxiē nánshēng shì dàxuéshēng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是，他们是中学生。",
+      "reading": "Bù shì, tāmen shì zhōngxuéshēng."
+    },
+    {
+      "speaker": "b",
+      "text": "那个女生呢？",
+      "reading": "Nàge nǚshēng ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "她也是中学生。她是我妹妹！",
+      "reading": "Tā yě shì zhōngxuéshēng. Tā shì wǒ mèimei!"
+    }
+  ]
+}

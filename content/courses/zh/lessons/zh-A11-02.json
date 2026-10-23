@@ -1,0 +1,50 @@
+{
+  "id": "zh-A11-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.nan-hair",
+      "text": "男孩儿",
+      "reading": "nánháir"
+    },
+    {
+      "id": "zh.nv-hair",
+      "text": "女孩儿",
+      "reading": "nǚháir"
+    },
+    {
+      "id": "zh.xiao-peng-you",
+      "text": "小朋友",
+      "reading": "xiǎopéngyou"
+    },
+    {
+      "id": "zh.da-ren",
+      "text": "大人",
+      "reading": "dàren"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这里小朋友很多！",
+      "reading": "Xiǎonán, zhèlǐ xiǎopéngyou hěn duō!"
+    },
+    {
+      "speaker": "a",
+      "text": "对，大人也很多。",
+      "reading": "Duì, dàren yě hěn duō."
+    },
+    {
+      "speaker": "b",
+      "text": "这个女孩儿几岁？",
+      "reading": "Zhège nǚháir jǐ suì?"
+    },
+    {
+      "speaker": "a",
+      "text": "五岁。她是李老师的女儿。",
+      "reading": "Wǔ suì. Tā shì Lǐ lǎoshī de nǚ'ér."
+    }
+  ]
+}

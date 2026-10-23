@@ -1,0 +1,60 @@
+{
+  "id": "zh-B3-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.li-from",
+      "text": "离",
+      "reading": "lí"
+    },
+    {
+      "id": "zh.fu-jin",
+      "text": "附近",
+      "reading": "fùjìn"
+    },
+    {
+      "id": "zh.dui-mian",
+      "text": "对面",
+      "reading": "duìmiàn"
+    },
+    {
+      "id": "zh.zhong-jian",
+      "text": "中间",
+      "reading": "zhōngjiān"
+    },
+    {
+      "id": "zh.fan-guan",
+      "text": "饭馆",
+      "reading": "fànguǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！请问，附近有饭馆吗？",
+      "reading": "Nǐ hǎo! Qǐngwèn, fùjìn yǒu fànguǎn ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有，学校对面有一个。那儿的面条很好吃！",
+      "reading": "Yǒu, xuéxiào duìmiàn yǒu yī ge. Nàr de miàntiáo hěn hǎochī!"
+    },
+    {
+      "speaker": "a",
+      "text": "饭馆离这儿远吗？",
+      "reading": "Fànguǎn lí zhèr yuǎn ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "不远，很近。饭馆在银行和超市中间。",
+      "reading": "Bù yuǎn, hěn jìn. Fànguǎn zài yínháng hé chāoshì zhōngjiān."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了，谢谢！",
+      "reading": "Tài hǎo le, xièxie!"
+    }
+  ]
+}

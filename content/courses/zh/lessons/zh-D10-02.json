@@ -1,0 +1,85 @@
+{
+  "id": "zh-D10-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.song-huo",
+      "text": "送货",
+      "reading": "sònghuò"
+    },
+    {
+      "id": "zh.bao-zhuang",
+      "text": "包装",
+      "reading": "bāozhuāng"
+    },
+    {
+      "id": "zh.qian-shou",
+      "text": "签收",
+      "reading": "qiānshōu"
+    },
+    {
+      "id": "zh.shou-jian-ren",
+      "text": "收件人",
+      "reading": "shōujiànrén"
+    },
+    {
+      "id": "zh.xian-shi-display",
+      "text": "显示",
+      "reading": "xiǎnshì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "喂，您好！我买的羽绒服送到了吗？网上显示已经签收了。",
+      "reading": "Wéi, nín hǎo! Wǒ mǎi de yǔróngfú sòngdào le ma? Wǎngshang xiǎnshì yǐjīng qiānshōu le."
+    },
+    {
+      "speaker": "b",
+      "text": "你好，是小南吧？送到了。上午送货的时候，你不在家。",
+      "reading": "Nǐ hǎo, shì Xiǎonán ba? Sòngdào le. Shàngwǔ sònghuò de shíhou, nǐ bù zài jiā."
+    },
+    {
+      "speaker": "a",
+      "text": "可是我没收到啊！是谁签收的？",
+      "reading": "Kěshì wǒ méi shōudào a! Shì shéi qiānshōu de?"
+    },
+    {
+      "speaker": "b",
+      "text": "收件人不在，你的邻居帮你签收了。",
+      "reading": "Shōujiànrén bù zài, nǐ de línjū bāng nǐ qiānshōu le."
+    },
+    {
+      "speaker": "a",
+      "text": "邻居？哪个邻居？",
+      "reading": "Línjū? Nǎge línjū?"
+    },
+    {
+      "speaker": "b",
+      "text": "住在你旁边的那个男孩儿，个子很高。",
+      "reading": "Zhù zài nǐ pángbiān de nàge nánháir, gèzi hěn gāo."
+    },
+    {
+      "speaker": "a",
+      "text": "我知道是谁了。我现在就去找他。",
+      "reading": "Wǒ zhīdào shì shéi le. Wǒ xiànzài jiù qù zhǎo tā."
+    },
+    {
+      "speaker": "b",
+      "text": "好的。包装是黄色的，你一看就能找到。",
+      "reading": "Hǎo de. Bāozhuāng shì huángsè de, nǐ yī kàn jiù néng zhǎodào."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢您！以后送货以前，能不能先给我打个电话？",
+      "reading": "Xièxie nín! Yǐhòu sònghuò yǐqián, néng bù néng xiān gěi wǒ dǎ ge diànhuà?"
+    },
+    {
+      "speaker": "b",
+      "text": "没问题，下次一定先打电话。",
+      "reading": "Méi wèntí, xiàcì yīdìng xiān dǎ diànhuà."
+    }
+  ]
+}

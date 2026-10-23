@@ -1,0 +1,90 @@
+{
+  "id": "zh-D2-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.yao-shi",
+      "text": "钥匙",
+      "reading": "yàoshi"
+    },
+    {
+      "id": "zh.chao-noisy",
+      "text": "吵",
+      "reading": "chǎo"
+    },
+    {
+      "id": "zh.mao-bing",
+      "text": "毛病",
+      "reading": "máobing"
+    },
+    {
+      "id": "zh.an-zhuang",
+      "text": "安装",
+      "reading": "ānzhuāng"
+    },
+    {
+      "id": "zh.li-ke",
+      "text": "立刻",
+      "reading": "lìkè"
+    },
+    {
+      "id": "zh.duan-break",
+      "text": "断",
+      "reading": "duàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "喂，你好！我是八零六的客人。我的门打不开了。",
+      "reading": "Wéi, nǐ hǎo! Wǒ shì bā líng liù de kèrén. Wǒ de mén dǎ bu kāi le."
+    },
+    {
+      "speaker": "c",
+      "text": "您用钥匙开了吗？",
+      "reading": "Nín yòng yàoshi kāi le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "用了，可是打不开。钥匙可能有毛病。",
+      "reading": "Yòng le, kěshì dǎ bu kāi. Yàoshi kěnéng yǒu máobing."
+    },
+    {
+      "speaker": "c",
+      "text": "对不起！我立刻给您换钥匙。",
+      "reading": "Duìbuqǐ! Wǒ lìkè gěi nín huàn yàoshi."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢。还有，房间里的空调也开不了。",
+      "reading": "Xièxie. Hái yǒu, fángjiān li de kōngtiáo yě kāi bu liǎo."
+    },
+    {
+      "speaker": "c",
+      "text": "那个空调是上个星期刚安装的。我们马上去看看。",
+      "reading": "Nàge kōngtiáo shì shàng ge xīngqī gāng ānzhuāng de. Wǒmen mǎshàng qù kànkan."
+    },
+    {
+      "speaker": "a",
+      "text": "好。上网也上不了，网断了吗？",
+      "reading": "Hǎo. Shàngwǎng yě shàng bu liǎo, wǎng duàn le ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "对，今天下午网断了，晚上就好了。",
+      "reading": "Duì, jīntiān xiàwǔ wǎng duàn le, wǎnshang jiù hǎo le."
+    },
+    {
+      "speaker": "a",
+      "text": "而且外面很吵。我可以换一个房间吗？",
+      "reading": "Érqiě wàimiàn hěn chǎo. Wǒ kěyǐ huàn yī ge fángjiān ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以。我给您换一个安静的房间，在十二楼。",
+      "reading": "Kěyǐ. Wǒ gěi nín huàn yī ge ānjìng de fángjiān, zài shí'èr lóu."
+    }
+  ]
+}
