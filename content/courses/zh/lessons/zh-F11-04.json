@@ -1,0 +1,101 @@
+{
+  "id": "zh-F11-04",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.cheng-yu",
+      "text": "成语",
+      "reading": "chéngyǔ"
+    },
+    {
+      "id": "zh.bi-yu",
+      "text": "比喻",
+      "reading": "bǐyù"
+    },
+    {
+      "id": "zh.dao-li",
+      "text": "道理",
+      "reading": "dàoli"
+    },
+    {
+      "id": "zh.han-yi",
+      "text": "含义",
+      "reading": "hányì"
+    },
+    {
+      "id": "zh.biao-mian",
+      "text": "表面",
+      "reading": "biǎomiàn"
+    },
+    {
+      "id": "zh.hua-she-tian-zu",
+      "kind": "phrase",
+      "text": "画蛇添足",
+      "reading": "huà shé tiān zú"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，这个书法作品上写的四个字是什么意思？",
+      "reading": "Lǐ lǎoshī, zhège shūfǎ zuòpǐn shang xiě de sì ge zì shì shénme yìsi?"
+    },
+    {
+      "speaker": "c",
+      "text": "这是一个成语，叫“画蛇添足”。表面的意思是：画蛇的时候，给蛇画上了脚。",
+      "reading": "Zhè shì yī ge chéngyǔ, jiào \"huà shé tiān zú\". Biǎomiàn de yìsi shì: huà shé de shíhou, gěi shé huàshang le jiǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "可是蛇没有脚啊！",
+      "reading": "Kěshì shé méiyǒu jiǎo a!"
+    },
+    {
+      "speaker": "c",
+      "text": "对。古时候，有几个人比赛画蛇，谁先画完，谁就可以喝酒。",
+      "reading": "Duì. Gǔ shíhou, yǒu jǐ ge rén bǐsài huà shé, shéi xiān huàwán, shéi jiù kěyǐ hē jiǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "然后呢？",
+      "reading": "Ránhòu ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "有一个人最先画完，他觉得时间还多，就给蛇画上了脚。结果酒被别人喝了，因为蛇没有脚！",
+      "reading": "Yǒu yī ge rén zuìxiān huàwán, tā juéde shíjiān hái duō, jiù gěi shé huàshang le jiǎo. Jiéguǒ jiǔ bèi biéren hē le, yīnwèi shé méiyǒu jiǎo!"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，他做了不需要做的事。",
+      "reading": "Hāhā, tā zuò le bù xūyào zuò de shì."
+    },
+    {
+      "speaker": "c",
+      "text": "对。所以人们用“画蛇添足”来比喻做了不需要做的事，结果反而不好。",
+      "reading": "Duì. Suǒyǐ rénmen yòng \"huà shé tiān zú\" lái bǐyù zuò le bù xūyào zuò de shì, jiéguǒ fǎn'ér bù hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "原来每个成语后面都有一个故事，还有一个道理。",
+      "reading": "Yuánlái měi ge chéngyǔ hòumian dōu yǒu yī ge gùshi, hái yǒu yī ge dàoli."
+    },
+    {
+      "speaker": "c",
+      "text": "没错。学成语的时候，不但要知道它表面的意思，还要明白它的含义。",
+      "reading": "Méicuò. Xué chéngyǔ de shíhou, bùdàn yào zhīdào tā biǎomiàn de yìsi, hái yào míngbai tā de hányì."
+    },
+    {
+      "speaker": "a",
+      "text": "我明白了。下次写作文，我要用这个成语！",
+      "reading": "Wǒ míngbai le. Xiàcì xiě zuòwén, wǒ yào yòng zhège chéngyǔ!"
+    },
+    {
+      "speaker": "c",
+      "text": "好啊，不过别画蛇添足，成语用得太多也不好。",
+      "reading": "Hǎo a, bùguò bié huà shé tiān zú, chéngyǔ yòng de tài duō yě bù hǎo."
+    }
+  ]
+}

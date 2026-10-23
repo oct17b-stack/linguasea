@@ -1,0 +1,95 @@
+{
+  "id": "zh-E12-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ji-nian-pin",
+      "text": "纪念品",
+      "reading": "jìniànpǐn"
+    },
+    {
+      "id": "zh.kan-jia",
+      "text": "砍价",
+      "reading": "kǎnjià"
+    },
+    {
+      "id": "zh.shou-gong",
+      "text": "手工",
+      "reading": "shǒugōng"
+    },
+    {
+      "id": "zh.shou-huo-yuan",
+      "text": "售货员",
+      "reading": "shòuhuòyuán"
+    },
+    {
+      "id": "zh.tiao-pick",
+      "text": "挑",
+      "reading": "tiāo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我想给家人买一些纪念品，你有什么建议？",
+      "reading": "Xiǎonán, wǒ xiǎng gěi jiārén mǎi yīxiē jìniànpǐn, nǐ yǒu shénme jiànyì?"
+    },
+    {
+      "speaker": "a",
+      "text": "这里的东西又好看又便宜。手工做的木头大象和包都很受欢迎。",
+      "reading": "Zhèlǐ de dōngxi yòu hǎokàn yòu piányi. Shǒugōng zuò de mùtou dàxiàng hé bāo dōu hěn shòu huānyíng."
+    },
+    {
+      "speaker": "b",
+      "text": "这个木头大象多少钱？",
+      "reading": "Zhège mùtou dàxiàng duōshao qián?"
+    },
+    {
+      "speaker": "a",
+      "text": "我问一下售货员……她说四百五十泰铢。",
+      "reading": "Wǒ wèn yīxià shòuhuòyuán… tā shuō sìbǎi wǔshí tàizhū."
+    },
+    {
+      "speaker": "b",
+      "text": "这么贵！在泰国可以砍价吗？",
+      "reading": "Zhème guì! Zài Tàiguó kěyǐ kǎnjià ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "在这儿可以砍价，在商场就不行。这个大象最多三百泰铢就能买到。",
+      "reading": "Zài zhèr kěyǐ kǎnjià, zài shāngchǎng jiù bù xíng. Zhège dàxiàng zuì duō sānbǎi tàizhū jiù néng mǎidào."
+    },
+    {
+      "speaker": "b",
+      "text": "那我跟她说三百，行吗？",
+      "reading": "Nà wǒ gēn tā shuō sānbǎi, xíng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "你可以先说两百五，最后最多给三百。",
+      "reading": "Nǐ kěyǐ xiān shuō liǎngbǎi wǔ, zuìhòu zuì duō gěi sānbǎi."
+    },
+    {
+      "speaker": "b",
+      "text": "好主意！我想买十个，送给同事。",
+      "reading": "Hǎo zhǔyi! Wǒ xiǎng mǎi shí ge, sònggěi tóngshì."
+    },
+    {
+      "speaker": "a",
+      "text": "买十个的话，每个最少可以便宜五十。我帮你说说。",
+      "reading": "Mǎi shí ge dehuà, měi ge zuì shǎo kěyǐ piányi wǔshí. Wǒ bāng nǐ shuōshuo."
+    },
+    {
+      "speaker": "b",
+      "text": "你太厉害了！那我自己挑颜色吧。",
+      "reading": "Nǐ tài lìhai le! Nà wǒ zìjǐ tiāo yánsè ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好，你慢慢挑。不过我们最多还有二十分钟，五点要在门口集合。",
+      "reading": "Hǎo, nǐ mànmàn tiāo. Bùguò wǒmen zuì duō hái yǒu èrshí fēnzhōng, wǔ diǎn yào zài ménkǒu jíhé."
+    }
+  ]
+}

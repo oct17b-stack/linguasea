@@ -1,0 +1,90 @@
+{
+  "id": "zh-F11-03",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.wen-xue",
+      "text": "文学",
+      "reading": "wénxué"
+    },
+    {
+      "id": "zh.ming-zhu",
+      "text": "名著",
+      "reading": "míngzhù"
+    },
+    {
+      "id": "zh.du-zhe",
+      "text": "读者",
+      "reading": "dúzhě"
+    },
+    {
+      "id": "zh.xi-you-ji",
+      "text": "西游记",
+      "reading": "Xīyóujì"
+    },
+    {
+      "id": "zh.jing-dian",
+      "text": "经典",
+      "reading": "jīngdiǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你读过中国的文学名著吗？",
+      "reading": "Xiǎonán, nǐ dú guo Zhōngguó de wénxué míngzhù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "读过！我小时候最喜欢《西游记》，不过我读的是泰语的。",
+      "reading": "Dú guo! Wǒ xiǎoshíhou zuì xǐhuan \"Xīyóujì\", bùguò wǒ dú de shì Tàiyǔ de."
+    },
+    {
+      "speaker": "c",
+      "text": "《西游记》也被翻译成了泰语？",
+      "reading": "\"Xīyóujì\" yě bèi fānyì chéng le Tàiyǔ?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，而且还被拍成了电视剧。泰国人都知道孙悟空。",
+      "reading": "Duì, érqiě hái bèi pāichéng le diànshìjù. Tàiguó rén dōu zhīdào Sūn Wùkōng."
+    },
+    {
+      "speaker": "c",
+      "text": "那《三国演义》呢？",
+      "reading": "Nà \"Sānguó Yǎnyì\" ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "《三国演义》在泰国更有名！两百多年前就被翻译成了泰语，现在是泰国文学的经典。",
+      "reading": "\"Sānguó Yǎnyì\" zài Tàiguó gèng yǒumíng! Liǎngbǎi duō nián qián jiù bèi fānyì chéng le Tàiyǔ, xiànzài shì Tàiguó wénxué de jīngdiǎn."
+    },
+    {
+      "speaker": "c",
+      "text": "我真没想到！看来好的名著不管在哪个国家，都会有很多读者。",
+      "reading": "Wǒ zhēn méi xiǎngdào! Kànlái hǎo de míngzhù bùguǎn zài nǎge guójiā, dōu huì yǒu hěn duō dúzhě."
+    },
+    {
+      "speaker": "a",
+      "text": "是的。我爸爸说，《三国演义》他看了五遍，每次都有新的想法。",
+      "reading": "Shì de. Wǒ bàba shuō, \"Sānguó Yǎnyì\" tā kàn le wǔ biàn, měi cì dōu yǒu xīn de xiǎngfǎ."
+    },
+    {
+      "speaker": "c",
+      "text": "这就是经典：好书值得读很多遍。",
+      "reading": "Zhè jiù shì jīngdiǎn: hǎo shū zhíde dú hěn duō biàn."
+    },
+    {
+      "speaker": "a",
+      "text": "老师，我想读中文的《西游记》，可是怕太难了。",
+      "reading": "Lǎoshī, wǒ xiǎng dú Zhōngwén de \"Xīyóujì\", kěshì pà tài nán le."
+    },
+    {
+      "speaker": "c",
+      "text": "你可以先从电视剧开始，再慢慢看书。",
+      "reading": "Nǐ kěyǐ xiān cóng diànshìjù kāishǐ, zài mànmàn kàn shū."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ja-E12-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.sameru",
+      "text": "冷める",
+      "reading": "sameru"
+    },
+    {
+      "id": "ja.kioku",
+      "text": "きおく",
+      "reading": "kioku"
+    },
+    {
+      "id": "ja.shinsen",
+      "text": "しんせん",
+      "reading": "shinsen"
+    },
+    {
+      "id": "ja.kikai",
+      "text": "機会",
+      "reading": "kikai"
+    },
+    {
+      "id": "ja.omoikitte",
+      "text": "思い切って",
+      "reading": "omoikitte"
+    },
+    {
+      "id": "ja.shun",
+      "text": "しゅん",
+      "reading": "shun"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "おつかれさま！やっときんようびだね。",
+      "reading": "Otsukaresama! Yatto kin'yōbi da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "おつかれ！あ、やきとりがきたよ。あついうちにたべよう。",
+      "reading": "Otsukare! A, yakitori ga kita yo. Atsui uchi ni tabeyō."
+    },
+    {
+      "speaker": "c",
+      "text": "うん、冷めたら、おいしくないもんね。このさしみも、しんせんだね。",
+      "reading": "Un, sametara, oishiku nai mon ne. Kono sashimi mo, shinsen da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "いまがしゅんのさかななんだって。しゅんのうちに、たくさんたべておかないと。",
+      "reading": "Ima ga shun no sakana na n da tte. Shun no uchi ni, takusan tabete okanai to."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。ところで、ナム、来月タイにかえるんでしょう？",
+      "reading": "Sō da ne. Tokorode, Namu, raigetsu Tai ni kaeru n deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、なつやすみのあいだだけね。でも、にほんにいるうちに、行きたいところが、まだたくさんあるの。",
+      "reading": "Un, natsuyasumi no aida dake ne. Demo, Nihon ni iru uchi ni, ikitai tokoro ga, mada takusan aru no."
+    },
+    {
+      "speaker": "c",
+      "text": "わかいうちに、いろいろなところへ行っておいたほうがいいよ。そうだ、先週、おもしろいことがあったって言ってたよね？",
+      "reading": "Wakai uchi ni, iroiro na tokoro e itte oita hō ga ii yo. Sō da, senshū, omoshiroi koto ga atta tte itteta yo ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "そうそう。きおくがあたらしいうちに、はなすね。駅で、だいすきな歌手にあったの！",
+      "reading": "Sō sō. Kioku ga atarashii uchi ni, hanasu ne. Eki de, daisuki na kashu ni atta no!"
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、ほんとう？話しかけた？",
+      "reading": "E, hontō? Hanashikaketa?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、思い切って話しかけたよ。こんな機会は、もうないと思って。",
+      "reading": "Un, omoikitte hanashikaketa yo. Konna kikai wa, mō nai to omotte."
+    },
+    {
+      "speaker": "c",
+      "text": "すごい！なにを話したの？",
+      "reading": "Sugoi! Nani o hanashita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "「タイからきたファンです」って。いっしょに、しゃしんもとってもらっちゃった！",
+      "reading": "\"Tai kara kita fan desu\" tte. Issho ni, shashin mo totte moratchatta!"
+    }
+  ]
+}

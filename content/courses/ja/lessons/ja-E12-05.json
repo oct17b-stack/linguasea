@@ -1,0 +1,100 @@
+{
+  "id": "ja-E12-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ayauku",
+      "text": "危うく",
+      "reading": "ayauku"
+    },
+    {
+      "id": "ja.girigiri",
+      "text": "ぎりぎり",
+      "reading": "girigiri"
+    },
+    {
+      "id": "ja.nesugosu",
+      "text": "寝過ごす",
+      "reading": "nesugosu"
+    },
+    {
+      "id": "ja.norisugosu",
+      "text": "乗り過ごす",
+      "reading": "norisugosu"
+    },
+    {
+      "id": "ja.seefu",
+      "text": "セーフ",
+      "reading": "sēfu"
+    },
+    {
+      "id": "ja.sunzen",
+      "text": "すんぜん",
+      "reading": "sunzen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "そろそろかえらないと。先週、終電にのりおくれるところだったんだ。",
+      "reading": "Sorosoro kaeranai to. Senshū, shūden ni noriokureru tokoro datta n da."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの？なにがあったの？",
+      "reading": "Sō na no? Nani ga atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "飲み会のあと、駅まではしって行ったら、終電が発車するすんぜんだったの。",
+      "reading": "Nomikai no ato, eki made hashitte ittara, shūden ga hassha suru sunzen datta no."
+    },
+    {
+      "speaker": "c",
+      "text": "ぎりぎりだね！",
+      "reading": "Girigiri da ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ドアがしまるすんぜんに、のれたの。",
+      "reading": "Un. Doa ga shimaru sunzen ni, noreta no."
+    },
+    {
+      "speaker": "c",
+      "text": "セーフ！",
+      "reading": "Sēfu!"
+    },
+    {
+      "speaker": "a",
+      "text": "でも、それだけじゃないの。でんしゃの中でねてしまって、危うく寝過ごすところだったの。",
+      "reading": "Demo, sore dake ja nai no. Densha no naka de nete shimatte, ayauku nesugosu tokoro datta no."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、乗り過ごしたの？",
+      "reading": "E, norisugoshita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "ううん。となりの人が起こしてくれて、ぎりぎりおりられた。",
+      "reading": "Uun. Tonari no hito ga okoshite kurete, girigiri orirareta."
+    },
+    {
+      "speaker": "c",
+      "text": "よかったね。乗り過ごしていたら、タクシーでかえるところだったね。",
+      "reading": "Yokatta ne. Norisugoshite itara, takushī de kaeru tokoro datta ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。危うく、たかいタクシー代をはらうところだった。",
+      "reading": "Un. Ayauku, takai takushīdai o harau tokoro datta."
+    },
+    {
+      "speaker": "c",
+      "text": "きょうは、終電のまえにかえろうね。",
+      "reading": "Kyō wa, shūden no mae ni kaerō ne."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ja-E12-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.hassha",
+      "text": "発車",
+      "reading": "hassha"
+    },
+    {
+      "id": "ja.teisha",
+      "text": "ていしゃ",
+      "reading": "teisha"
+    },
+    {
+      "id": "ja.korobu",
+      "text": "転ぶ",
+      "reading": "korobu"
+    },
+    {
+      "id": "ja.suberu",
+      "text": "すべる",
+      "reading": "suberu"
+    },
+    {
+      "id": "ja.butsukaru",
+      "text": "ぶつかる",
+      "reading": "butsukaru"
+    },
+    {
+      "id": "ja.kyuubureeki",
+      "text": "急ブレーキ",
+      "reading": "kyūburēki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、そのひざ、どうしたの？",
+      "reading": "Namu, sono hiza, dō shita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "きのう、でんしゃの中で転んじゃったの。",
+      "reading": "Kinō, densha no naka de koronjatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、だいじょうぶ？なにがあったの？",
+      "reading": "E, daijōbu? Nani ga atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "駅にとうちゃくしたと思って、立ったとたんに、でんしゃが急ブレーキをかけたの。",
+      "reading": "Eki ni tōchaku shita to omotte, tatta totan ni, densha ga kyūburēki o kaketa no."
+    },
+    {
+      "speaker": "c",
+      "text": "こわい！",
+      "reading": "Kowai!"
+    },
+    {
+      "speaker": "a",
+      "text": "それで、足がすべって、まえの人にぶつかっちゃった。",
+      "reading": "Sore de, ashi ga subette, mae no hito ni butsukatchatta."
+    },
+    {
+      "speaker": "c",
+      "text": "あぶなかったね。でんしゃは、まだていしゃしていなかったの？",
+      "reading": "Abunakatta ne. Densha wa, mada teisha shite inakatta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ていしゃするまえに立った、わたしがわるいんだけど…。",
+      "reading": "Un. Teisha suru mae ni tatta, watashi ga warui n da kedo…."
+    },
+    {
+      "speaker": "c",
+      "text": "そのあと、どうなったの？",
+      "reading": "Sono ato, dō natta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "ぶつかった人に、すぐあやまったよ。でも、ドアがあいたとたん、はずかしくて、はしっておりちゃった。",
+      "reading": "Butsukatta hito ni, sugu ayamatta yo. Demo, doa ga aita totan, hazukashikute, hashitte orichatta."
+    },
+    {
+      "speaker": "c",
+      "text": "あはは。でも、けががひどくなくて、よかった。",
+      "reading": "Ahaha. Demo, kega ga hidoku nakute, yokatta."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。これからは、でんしゃが発車するときも、ていしゃするときも、しっかりすわっているね。",
+      "reading": "Un. Kore kara wa, densha ga hassha suru toki mo, teisha suru toki mo, shikkari suwatte iru ne."
+    }
+  ]
+}

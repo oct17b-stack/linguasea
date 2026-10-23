@@ -1,0 +1,96 @@
+{
+  "id": "ja-E12-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.hantaihoukou",
+      "text": "反対方向",
+      "reading": "hantaihōkō"
+    },
+    {
+      "id": "ja.shashou",
+      "text": "しゃしょう",
+      "reading": "shashō"
+    },
+    {
+      "id": "ja.nigawarai",
+      "text": "苦笑い",
+      "reading": "nigawarai"
+    },
+    {
+      "id": "ja.shuuten",
+      "text": "終点",
+      "reading": "shūten"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "先月、ふくしまのともだちのいえに、あそびに行った。",
+        "reading": "Sengetsu, Fukushima no tomodachi no ie ni, asobi ni itta."
+      },
+      {
+        "text": "かえりは、しんかんせんで、とうきょうに戻るよていだった。",
+        "reading": "Kaeri wa, shinkansen de, Tōkyō ni modoru yotei datta."
+      },
+      {
+        "text": "駅で、ちょうどきたしんかんせんに、いそいでのった。",
+        "reading": "Eki de, chōdo kita shinkansen ni, isoide notta."
+      }
+    ],
+    [
+      {
+        "text": "つかれていたので、すぐにねてしまった。",
+        "reading": "Tsukarete ita node, sugu ni nete shimatta."
+      },
+      {
+        "text": "おきると、「間もなく、終点のせんだいです」というアナウンスが聞こえた。",
+        "reading": "Okiru to, \"mamonaku, shūten no Sendai desu\" to iu anaunsu ga kikoeta."
+      },
+      {
+        "text": "せんだい？とうきょうと反対方向だ！",
+        "reading": "Sendai? Tōkyō to hantaihōkō da!"
+      },
+      {
+        "text": "わたしは、まちがえて、北へ行くしんかんせんにのってしまったのだ。",
+        "reading": "Watashi wa, machigaete, kita e iku shinkansen ni notte shimatta no da."
+      }
+    ],
+    [
+      {
+        "text": "終点でおりて、しゃしょうさんに、まちがえてのったことを話した。",
+        "reading": "Shūten de orite, shashō-san ni, machigaete notta koto o hanashita."
+      },
+      {
+        "text": "しゃしょうさんは、まちがえてのった人は、おかねをはらわずに、ふくしまの駅まで戻れると、おしえてくれた。",
+        "reading": "Shashō-san wa, machigaete notta hito wa, okane o harawazu ni, Fukushima no eki made modoreru to, oshiete kureta."
+      },
+      {
+        "text": "わたしは、苦笑いするしかなかった。",
+        "reading": "Watashi wa, nigawarai suru shika nakatta."
+      },
+      {
+        "text": "でも、せんだいまできたので、名物のりょうりをたべてから、かえることにした。",
+        "reading": "Demo, Sendai made kita node, meibutsu no ryōri o tabete kara, kaeru koto ni shita."
+      },
+      {
+        "text": "まちがえたおかげで、おもしろい一日になった。",
+        "reading": "Machigaeta okage de, omoshiroi ichinichi ni natta."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

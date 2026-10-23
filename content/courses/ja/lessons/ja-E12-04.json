@@ -1,0 +1,95 @@
+{
+  "id": "ja-E12-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.chakushin",
+      "text": "着信",
+      "reading": "chakushin"
+    },
+    {
+      "id": "ja.manaamoudo",
+      "text": "マナーモード",
+      "reading": "manāmōdo"
+    },
+    {
+      "id": "ja.damaru",
+      "text": "だまる",
+      "reading": "damaru"
+    },
+    {
+      "id": "ja.aseru",
+      "text": "あせる",
+      "reading": "aseru"
+    },
+    {
+      "id": "ja.makka",
+      "text": "真っ赤",
+      "reading": "makka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、きいて。きょう、すごくはずかしいことがあったの。",
+      "reading": "Yuki, kiite. Kyō, sugoku hazukashii koto ga atta no."
+    },
+    {
+      "speaker": "c",
+      "text": "なになに？",
+      "reading": "Nani nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "試験の最中に、わたしのスマホに着信があって、おおきな音が出たの。",
+      "reading": "Shiken no saichū ni, watashi no sumaho ni chakushin ga atte, ōkina oto ga deta no."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ！マナーモードにしてなかったの？",
+      "reading": "E! Manāmōdo ni shite nakatta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、わすれてた。みんなが、しずかにテストをしている最中に…。",
+      "reading": "Un, wasureteta. Minna ga, shizuka ni tesuto o shite iru saichū ni…."
+    },
+    {
+      "speaker": "c",
+      "text": "うわあ。せんせいは、なにか言った？",
+      "reading": "Uwā. Sensei wa, nanika itta?"
+    },
+    {
+      "speaker": "a",
+      "text": "せんせいは、なにも言わずにだまって、わたしを見ていた。かおが真っ赤になったよ。",
+      "reading": "Sensei wa, nani mo iwazu ni damatte, watashi o mite ita. Kao ga makka ni natta yo."
+    },
+    {
+      "speaker": "c",
+      "text": "それは、あせるね。",
+      "reading": "Sore wa, aseru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "あせったから、なかなか音を止められなかったの。",
+      "reading": "Asetta kara, nakanaka oto o tomerarenakatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんだったね。でも、そういうことは、だれにでもあるよ。",
+      "reading": "Taihen datta ne. Demo, sō iu koto wa, dare ni demo aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、試験の最中だったから、ほんとうにはずかしかった。",
+      "reading": "Demo, shiken no saichū datta kara, hontō ni hazukashikatta."
+    },
+    {
+      "speaker": "c",
+      "text": "これからは、試験のまえに、かならずマナーモードにしようね。",
+      "reading": "Kore kara wa, shiken no mae ni, kanarazu manāmōdo ni shiyō ne."
+    }
+  ]
+}
