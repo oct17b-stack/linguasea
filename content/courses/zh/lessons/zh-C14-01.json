@@ -1,0 +1,65 @@
+{
+  "id": "zh-C14-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.xiang-to",
+      "text": "向",
+      "reading": "xiàng"
+    },
+    {
+      "id": "zh.zhuan",
+      "text": "转",
+      "reading": "zhuǎn"
+    },
+    {
+      "id": "zh.hong-lv-deng",
+      "text": "红绿灯",
+      "reading": "hónglǜdēng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "请问，国家博物馆怎么走？",
+      "reading": "Qǐngwèn, Guójiā Bówùguǎn zěnme zǒu?"
+    },
+    {
+      "speaker": "b",
+      "text": "你从这个地铁口出去，往右转。",
+      "reading": "Nǐ cóng zhège dìtiěkǒu chūqù, wǎng yòu zhuǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "往右转以后呢？",
+      "reading": "Wǎng yòu zhuǎn yǐhòu ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "走到红绿灯，再向左转。",
+      "reading": "Zǒudào hónglǜdēng, zài xiàng zuǒ zhuǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "到红绿灯向左转，对吗？",
+      "reading": "Dào hónglǜdēng xiàng zuǒ zhuǎn, duì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，向左转就能看见博物馆了。",
+      "reading": "Duì, xiàng zuǒ zhuǎn jiù néng kànjiàn bówùguǎn le."
+    },
+    {
+      "speaker": "a",
+      "text": "远吗？",
+      "reading": "Yuǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不远，走路五分钟。",
+      "reading": "Bù yuǎn, zǒulù wǔ fēnzhōng."
+    }
+  ]
+}

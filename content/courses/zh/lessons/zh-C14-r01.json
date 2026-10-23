@@ -1,0 +1,80 @@
+{
+  "id": "zh-C14-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.chu-kou",
+      "text": "出口",
+      "reading": "chūkǒu"
+    },
+    {
+      "id": "zh.ru-kou",
+      "text": "入口",
+      "reading": "rùkǒu"
+    },
+    {
+      "id": "zh.hao-xian",
+      "kind": "phrase",
+      "text": "号线",
+      "reading": "hàoxiàn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南从地铁站出来，她想去国家博物馆。",
+        "reading": "Xiǎonán cóng dìtiězhàn chūlái, tā xiǎng qù Guójiā Bówùguǎn."
+      }
+    ],
+    [
+      {
+        "text": "小南：您好！请问，国家博物馆怎么走？",
+        "reading": "Xiǎonán: Nín hǎo! Qǐngwèn, Guójiā Bówùguǎn zěnme zǒu?"
+      },
+      {
+        "text": "阿姨：你坐的是几号线？",
+        "reading": "Āyí: Nǐ zuò de shì jǐ hàoxiàn?"
+      },
+      {
+        "text": "小南：一号线。",
+        "reading": "Xiǎonán: Yī hàoxiàn."
+      },
+      {
+        "text": "阿姨：那你从东边的出口出去，走一百米就是博物馆入口。",
+        "reading": "Āyí: Nà nǐ cóng dōngbian de chūkǒu chūqù, zǒu yībǎi mǐ jiù shì bówùguǎn rùkǒu."
+      },
+      {
+        "text": "小南：东边的出口？是不是在那儿？",
+        "reading": "Xiǎonán: Dōngbian de chūkǒu? Shì bù shì zài nàr?"
+      },
+      {
+        "text": "阿姨：对。博物馆入口人很多，你要排队。",
+        "reading": "Āyí: Duì. Bówùguǎn rùkǒu rén hěn duō, nǐ yào páiduì."
+      },
+      {
+        "text": "小南：好的，谢谢您！",
+        "reading": "Xiǎonán: Hǎo de, xièxie nín!"
+      }
+    ],
+    [
+      {
+        "text": "小南从东边的出口出去，很快就找到了博物馆入口。",
+        "reading": "Xiǎonán cóng dōngbian de chūkǒu chūqù, hěn kuài jiù zhǎodào le bówùguǎn rùkǒu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

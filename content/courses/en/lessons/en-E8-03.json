@@ -1,0 +1,95 @@
+{
+  "id": "en-E8-03",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.investigate",
+      "text": "investigate",
+      "reading": "ɪnˈvɛstɪɡeɪt"
+    },
+    {
+      "id": "en.detective",
+      "text": "detective",
+      "reading": "dɪˈtɛktɪv"
+    },
+    {
+      "id": "en.clue",
+      "text": "clue",
+      "reading": "kluː"
+    },
+    {
+      "id": "en.fingerprint",
+      "text": "fingerprint",
+      "reading": "ˈfɪŋɡərprɪnt"
+    },
+    {
+      "id": "en.suspect",
+      "text": "suspect",
+      "reading": "ˈsʌspɛkt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Mr. Brown, did the police find your laptop?",
+      "reading": "ˈmɪstər ˈbraʊn, dɪd ðə pəˈliːs ˈfaɪnd jʊr ˈlæptɑːp?"
+    },
+    {
+      "speaker": "b",
+      "text": "Not yet, but they're investigating. A detective came to my apartment this morning.",
+      "reading": "ˈnɑːt ˈjɛt, bʌt ðɛr ɪnˈvɛstɪɡeɪtɪŋ. ə dɪˈtɛktɪv ˈkeɪm tə maɪ əˈpɑːrtmənt ˈðɪs ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "What did he say?",
+      "reading": "ˈwʌt dɪd hiː ˈseɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "He told me not to touch anything in the bedroom.",
+      "reading": "hiː ˈtoʊld miː ˈnɑːt tə ˈtʌtʃ ˈɛniθɪŋ ɪn ðə ˈbɛdruːm."
+    },
+    {
+      "speaker": "a",
+      "text": "Why?",
+      "reading": "ˈwaɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "He wanted to look for fingerprints. He found some on the window.",
+      "reading": "hiː ˈwɑːntɪd tə ˈlʊk fər ˈfɪŋɡərprɪnts. hiː ˈfaʊnd sʌm ɑːn ðə ˈwɪndoʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "That's a good clue!",
+      "reading": "ðæts ə ˈɡʊd ˈkluː!"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. He also asked me to make a list of the missing things.",
+      "reading": "ˈjɛs. hiː ˈɔːlsoʊ ˈæskt miː tə ˈmeɪk ə ˈlɪst əv ðə ˈmɪsɪŋ ˈθɪŋz."
+    },
+    {
+      "speaker": "a",
+      "text": "Do the police have a suspect?",
+      "reading": "duː ðə pəˈliːs ˈhæv ə ˈsʌspɛkt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Maybe. A neighbor saw a young man in a black jacket near the building.",
+      "reading": "ˈmeɪbi. ə ˈneɪbər ˈsɔː ə ˈjʌŋ ˈmæn ɪn ə ˈblæk ˈdʒækɪt ˈnɪr ðə ˈbɪldɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "I hope they catch him soon.",
+      "reading": "aɪ ˈhoʊp ðeɪ ˈkætʃ hɪm ˈsuːn."
+    },
+    {
+      "speaker": "b",
+      "text": "Me too. They asked me to call them if I remember something new.",
+      "reading": "miː ˈtuː. ðeɪ ˈæskt miː tə ˈkɔːl ðɛm ɪf aɪ rɪˈmɛmbər ˈsʌmθɪŋ ˈnuː."
+    }
+  ]
+}

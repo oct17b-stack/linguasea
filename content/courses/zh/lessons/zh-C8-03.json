@@ -1,0 +1,70 @@
+{
+  "id": "zh-C8-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.he-shi",
+      "text": "合适",
+      "reading": "héshì"
+    },
+    {
+      "id": "zh.da-xiao",
+      "text": "大小",
+      "reading": "dàxiǎo"
+    },
+    {
+      "id": "zh.jing-zi",
+      "text": "镜子",
+      "reading": "jìngzi"
+    },
+    {
+      "id": "zh.duan",
+      "text": "短",
+      "reading": "duǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "这条裙子很漂亮，我可以试试吗？",
+      "reading": "Zhè tiáo qúnzi hěn piàoliang, wǒ kěyǐ shìshi ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以，你试试吧。那儿有镜子。",
+      "reading": "Kěyǐ, nǐ shìshi ba. Nàr yǒu jìngzi."
+    },
+    {
+      "speaker": "a",
+      "text": "你看看，大小合适吗？",
+      "reading": "Nǐ kànkan, dàxiǎo héshì ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "大小很合适，可是有点儿短。",
+      "reading": "Dàxiǎo hěn héshì, kěshì yǒudiǎnr duǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "是有点儿短。还有别的裙子吗？",
+      "reading": "Shì yǒudiǎnr duǎn. Hái yǒu biéde qúnzi ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "你看看这条，这条不短。",
+      "reading": "Nǐ kànkan zhè tiáo, zhè tiáo bù duǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "我再试试。……这条怎么样？",
+      "reading": "Wǒ zài shìshi. …… Zhè tiáo zěnmeyàng?"
+    },
+    {
+      "speaker": "c",
+      "text": "这条很合适，也很漂亮！",
+      "reading": "Zhè tiáo hěn héshì, yě hěn piàoliang!"
+    }
+  ]
+}

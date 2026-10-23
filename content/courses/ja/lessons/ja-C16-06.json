@@ -1,0 +1,75 @@
+{
+  "id": "ja-C16-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.settei",
+      "text": "せってい",
+      "reading": "settei"
+    },
+    {
+      "id": "ja.hozon",
+      "text": "ほぞん",
+      "reading": "hozon"
+    },
+    {
+      "id": "ja.sakujo",
+      "text": "さくじょ",
+      "reading": "sakujo"
+    },
+    {
+      "id": "ja.touroku",
+      "text": "とうろく",
+      "reading": "tōroku"
+    },
+    {
+      "id": "ja.pasuwaado",
+      "text": "パスワード",
+      "reading": "pasuwādo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "では、あたらしい スマホの せっていを しましょう。",
+      "reading": "Dewa, atarashii sumaho no settei o shimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。まえの スマホの しゃしんは どう しますか。",
+      "reading": "Hai. Mae no sumaho no shashin wa dō shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "しゃしんは、ほぞんして おいて ください。",
+      "reading": "Shashin wa, hozon shite oite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "きのう ほぞんしました。でも、ゆきの しゃしんを まちがえて さくじょして しまいました…。",
+      "reading": "Kinō hozon shimashita. Demo, Yuki no shashin o machigaete sakujo shite shimaimashita…."
+    },
+    {
+      "speaker": "b",
+      "text": "だいじょうぶですよ。この アプリの 中に はいって います。",
+      "reading": "Daijōbu desu yo. Kono apuri no naka ni haitte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった！ それから、なにを しますか。",
+      "reading": "Yokatta! Sorekara, nani o shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "メールアドレスと パスワードを とうろくして ください。",
+      "reading": "Mēru adoresu to pasuwādo o tōroku shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。…できました。ちょっと つかって みます。",
+      "reading": "Wakarimashita. …Dekimashita. Chotto tsukatte mimasu."
+    }
+  ]
+}

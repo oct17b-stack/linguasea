@@ -1,0 +1,79 @@
+{
+  "id": "zh-C8-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.da-zhe",
+      "text": "打折",
+      "reading": "dǎzhé"
+    },
+    {
+      "id": "zh.huang-se",
+      "text": "黄色",
+      "reading": "huángsè"
+    },
+    {
+      "id": "zh.shou-yin-tai",
+      "text": "收银台",
+      "reading": "shōuyíntái"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "星期六，这个商店的衣服都打折。",
+        "reading": "Xīngqīliù, zhège shāngdiàn de yīfu dōu dǎzhé."
+      },
+      {
+        "text": "小南想买一件黄色的大衣。",
+        "reading": "Xiǎonán xiǎng mǎi yī jiàn huángsè de dàyī."
+      }
+    ],
+    [
+      {
+        "text": "小南：你好，这件黄色的大衣多少钱？",
+        "reading": "Xiǎonán: Nǐ hǎo, zhè jiàn huángsè de dàyī duōshao qián?"
+      },
+      {
+        "text": "服务员：一千块，今天打八折，八百。",
+        "reading": "Fúwùyuán: Yīqiān kuài, jīntiān dǎ bā zhé, bābǎi."
+      },
+      {
+        "text": "小南：有点儿贵。有便宜一点儿的吗？",
+        "reading": "Xiǎonán: Yǒudiǎnr guì. Yǒu piányi yīdiǎnr de ma?"
+      },
+      {
+        "text": "服务员：那件黑色的打五折，五百块。",
+        "reading": "Fúwùyuán: Nà jiàn hēisè de dǎ wǔ zhé, wǔbǎi kuài."
+      },
+      {
+        "text": "小南：黑色的也挺好看的。我试试……很合适，我买这件！",
+        "reading": "Xiǎonán: Hēisè de yě tǐng hǎokàn de. Wǒ shìshi…… hěn héshì, wǒ mǎi zhè jiàn!"
+      },
+      {
+        "text": "服务员：好，收银台在那儿。",
+        "reading": "Fúwùyuán: Hǎo, shōuyíntái zài nàr."
+      }
+    ],
+    [
+      {
+        "text": "小南很高兴，她用五百块买了一件很好的大衣。",
+        "reading": "Xiǎonán hěn gāoxìng, tā yòng wǔbǎi kuài mǎi le yī jiàn hěn hǎo de dàyī."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

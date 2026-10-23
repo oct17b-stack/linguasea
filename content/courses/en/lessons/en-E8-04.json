@@ -1,0 +1,90 @@
+{
+  "id": "en-E8-04",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.pickpocket",
+      "text": "pickpocket",
+      "reading": "ˈpɪkpɑːkɪt"
+    },
+    {
+      "id": "en.victim",
+      "text": "victim",
+      "reading": "ˈvɪktɪm"
+    },
+    {
+      "id": "en.police-report",
+      "text": "police report",
+      "reading": "pəˈliːs rɪˌpɔːrt"
+    },
+    {
+      "id": "en.identity",
+      "text": "identity",
+      "reading": "aɪˈdɛntəti"
+    },
+    {
+      "id": "en.hack",
+      "text": "hack",
+      "reading": "hæk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good afternoon. How can I help you?",
+      "reading": "ˈɡʊd ˌæftərˈnuːn. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "This is Sophie. She's a tourist from Australia, and she had her wallet stolen at the market.",
+      "reading": "ˈðɪs ɪz ˈsoʊfi. ʃiːz ə ˈtʊrɪst frəm ɔːˈstreɪliə, ənd ʃiː ˈhæd hɜːr ˈwɑːlɪt ˈstoʊlən ət ðə ˈmɑːrkɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry. Was it a pickpocket?",
+      "reading": "aɪm ˈsɑːri. wʌz ɪt ə ˈpɪkpɑːkɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, I think so. The market was very crowded, and I didn't feel anything.",
+      "reading": "ˈjɛs, aɪ ˈθɪŋk ˈsoʊ. ðə ˈmɑːrkɪt wʌz ˈvɛri ˈkraʊdɪd, ənd aɪ ˈdɪdənt ˈfiːl ˈɛniθɪŋ."
+    },
+    {
+      "speaker": "b",
+      "text": "Many tourists are victims of pickpockets there. What was in the wallet?",
+      "reading": "ˈmɛni ˈtʊrɪsts ər ˈvɪktɪmz əv ˈpɪkpɑːkɪts ˈðɛr. ˈwʌt wʌz ɪn ðə ˈwɑːlɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "My cash, my bank cards and my ID card.",
+      "reading": "maɪ ˈkæʃ, maɪ ˈbæŋk ˈkɑːrdz ənd maɪ ˌaɪˈdiː ˌkɑːrd."
+    },
+    {
+      "speaker": "b",
+      "text": "Then you need a police report. Please fill out this form.",
+      "reading": "ˈðɛn juː ˈniːd ə pəˈliːs rɪˌpɔːrt. ˈpliːz ˈfɪl ˈaʊt ˈðɪs ˈfɔːrm."
+    },
+    {
+      "speaker": "a",
+      "text": "Officer, should she worry about her identity?",
+      "reading": "ˈɔːfɪsər, ʃʊd ʃiː ˈwɜːri əˈbaʊt hɜːr aɪˈdɛntəti?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Criminals can use stolen cards. She should call her bank today.",
+      "reading": "ˈjɛs. ˈkrɪmɪnəlz kən ˈjuːz ˈstoʊlən ˈkɑːrdz. ʃiː ʃʊd ˈkɔːl hɜːr ˈbæŋk təˈdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Last year, I had my email hacked. It was a nightmare!",
+      "reading": "ˈlæst ˈjɪr, aɪ ˈhæd maɪ ˈiːmeɪl ˈhækt. ɪt wʌz ə ˈnaɪtmɛr!"
+    },
+    {
+      "speaker": "b",
+      "text": "Then please change your passwords, too.",
+      "reading": "ˈðɛn ˈpliːz ˈtʃeɪndʒ jʊr ˈpæswɜːrdz, ˈtuː."
+    }
+  ]
+}

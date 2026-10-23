@@ -1,0 +1,95 @@
+{
+  "id": "ja-E6-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.heisha",
+      "text": "へいしゃ",
+      "reading": "heisha"
+    },
+    {
+      "id": "ja.onsha",
+      "text": "御社",
+      "reading": "onsha"
+    },
+    {
+      "id": "ja.buka",
+      "text": "部下",
+      "reading": "buka"
+    },
+    {
+      "id": "ja.douryou",
+      "text": "どうりょう",
+      "reading": "dōryō"
+    },
+    {
+      "id": "ja.senpou",
+      "text": "先方",
+      "reading": "senpō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ほかの会社のひととはなすときは、「うち」と「そと」にきをつけてくださいね。",
+      "reading": "Namu-san, hoka no kaisha no hito to hanasu toki wa, \"uchi\" to \"soto\" ni ki o tsukete kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "「うち」と「そと」ですか。",
+      "reading": "\"Uchi\" to \"soto\" desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。わたしたちの会社のひとは「うち」、先方は「そと」です。",
+      "reading": "Ē. Watashitachi no kaisha no hito wa \"uchi\", senpō wa \"soto\" desu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、先方とはなすとき、部長のことは、なんといえばいいですか。",
+      "reading": "Jā, senpō to hanasu toki, buchō no koto wa, nan to ieba ii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "「やまぐちは、いま外出しております」のように、「さん」も「部長」もつかいません。",
+      "reading": "\"Yamaguchi wa, ima gaishutsu shite orimasu\" no yō ni, \"san\" mo \"buchō\" mo tsukaimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "部長にも、けいごをつかわないんですか。",
+      "reading": "Buchō ni mo, keigo o tsukawanai n desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "そうです。先方にとっては、部長もわたしたちも、おなじ「うち」のひとですから。",
+      "reading": "Sō desu. Senpō ni totte wa, buchō mo watashitachi mo, onaji \"uchi\" no hito desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "なるほど。じゃあ、会社のことは、なんといいますか。",
+      "reading": "Naruhodo. Jā, kaisha no koto wa, nan to iimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしたちの会社は「へいしゃ」、先方の会社は「御社」といいます。",
+      "reading": "Watashitachi no kaisha wa \"heisha\", senpō no kaisha wa \"onsha\" to iimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "「へいしゃ」と「御社」ですね。どうりょうや部下のことは、どうですか。",
+      "reading": "\"Heisha\" to \"onsha\" desu ne. Dōryō ya buka no koto wa, dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "どうりょうも部下も、おなじです。そとのひとには、なまえだけでいいんです。",
+      "reading": "Dōryō mo buka mo, onaji desu. Soto no hito ni wa, namae dake de ii n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。ちょっとむずかしいですが、れんしゅうしてみます。",
+      "reading": "Wakarimashita. Chotto muzukashii desu ga, renshū shite mimasu."
+    }
+  ]
+}

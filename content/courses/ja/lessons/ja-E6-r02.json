@@ -1,0 +1,98 @@
+{
+  "id": "ja-E6-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.hiyaase",
+      "text": "ひやあせ",
+      "reading": "hiyaase"
+    },
+    {
+      "id": "ja.shiteki",
+      "text": "してき",
+      "reading": "shiteki"
+    },
+    {
+      "id": "ja.iinaosu",
+      "text": "言い直す",
+      "reading": "iinaosu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ある日、ナムは会社で、先方からのでんわをうけた。",
+        "reading": "Aru hi, Namu wa kaisha de, senpō kara no denwa o uketa."
+      },
+      {
+        "text": "先方：もしもし、みどりホテルのたかはしですが、やまぐち部長はいらっしゃいますか。",
+        "reading": "Senpō: Moshimoshi, Midori Hoteru no Takahashi desu ga, Yamaguchi buchō wa irasshaimasu ka."
+      },
+      {
+        "text": "ナム：やまぐち部長は、いま、外出していらっしゃいます。",
+        "reading": "Namu: Yamaguchi buchō wa, ima, gaishutsu shite irasshaimasu."
+      },
+      {
+        "text": "先方：そうですか。では、またあとでおでんわします。",
+        "reading": "Senpō: Sō desu ka. Dewa, mata ato de odenwa shimasu."
+      }
+    ],
+    [
+      {
+        "text": "でんわのあと、となりの席のおかもとさんが、ナムにしてきした。",
+        "reading": "Denwa no ato, tonari no seki no Okamoto-san ga, Namu ni shiteki shita."
+      },
+      {
+        "text": "おかもと：ナムさん、さっき、やまぐち部長に「いらっしゃいます」をつかったでしょう？",
+        "reading": "Okamoto: Namu-san, sakki, Yamaguchi buchō ni \"irasshaimasu\" o tsukatta deshō?"
+      },
+      {
+        "text": "おかもと：そとのひとには、「やまぐちは、いま外出しております」というんですよ。",
+        "reading": "Okamoto: Soto no hito ni wa, \"Yamaguchi wa, ima gaishutsu shite orimasu\" to iu n desu yo."
+      },
+      {
+        "text": "ナムは、それをきいて、ひやあせがでた。",
+        "reading": "Namu wa, sore o kiite, hiyaase ga deta."
+      },
+      {
+        "text": "ナム：そうでした。先方に、しつれいなことをいってしまいました。",
+        "reading": "Namu: Sō deshita. Senpō ni, shitsurei na koto o itte shimaimashita."
+      }
+    ],
+    [
+      {
+        "text": "おかもと：だいじょうぶ。こんど、たかはしさまからおでんわがあったら、言い直せばいいですよ。",
+        "reading": "Okamoto: Daijōbu. Kondo, Takahashi-sama kara odenwa ga attara, iinaoseba ii desu yo."
+      },
+      {
+        "text": "1じかんあと、たかはしさまから、またでんわがあった。",
+        "reading": "Ichijikan ato, Takahashi-sama kara, mata denwa ga atta."
+      },
+      {
+        "text": "ナム：さっきは、しつれいいたしました。やまぐちは、いま外出しております。",
+        "reading": "Namu: Sakki wa, shitsurei itashimashita. Yamaguchi wa, ima gaishutsu shite orimasu."
+      },
+      {
+        "text": "ナムは、うまく言い直すことができて、ほっとした。",
+        "reading": "Namu wa, umaku iinaosu koto ga dekite, hotto shita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

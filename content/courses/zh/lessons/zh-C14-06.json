@@ -1,0 +1,77 @@
+{
+  "id": "zh-C14-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.mi-lu",
+      "text": "迷路",
+      "reading": "mílù"
+    },
+    {
+      "id": "zh.wen-lu",
+      "text": "问路",
+      "reading": "wènlù"
+    },
+    {
+      "id": "zh.zhao-ji",
+      "text": "着急",
+      "reading": "zháojí"
+    },
+    {
+      "id": "zh.zhao-bu-dao",
+      "kind": "phrase",
+      "text": "找不到",
+      "reading": "zhǎo bu dào"
+    },
+    {
+      "id": "zh.zen-me-ban",
+      "kind": "phrase",
+      "text": "怎么办",
+      "reading": "zěnme bàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我迷路了！",
+      "reading": "Wáng Míng, wǒ mílù le!"
+    },
+    {
+      "speaker": "b",
+      "text": "别着急！你在哪儿？",
+      "reading": "Bié zháojí! Nǐ zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我也不知道。我找不到地铁站了，怎么办？",
+      "reading": "Wǒ yě bù zhīdào. Wǒ zhǎo bu dào dìtiězhàn le, zěnme bàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "你旁边有什么？",
+      "reading": "Nǐ pángbiān yǒu shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "有一个公园，还有一个很高的大楼。",
+      "reading": "Yǒu yī ge gōngyuán, hái yǒu yī ge hěn gāo de dàlóu."
+    },
+    {
+      "speaker": "b",
+      "text": "你可以问路啊！问问旁边的人。",
+      "reading": "Nǐ kěyǐ wènlù a! Wènwen pángbiān de rén."
+    },
+    {
+      "speaker": "a",
+      "text": "我问了一个人，他说的我不太懂。",
+      "reading": "Wǒ wèn le yī ge rén, tā shuō de wǒ bù tài dǒng."
+    },
+    {
+      "speaker": "b",
+      "text": "那你在公园门口等我，我马上去找你！",
+      "reading": "Nà nǐ zài gōngyuán ménkǒu děng wǒ, wǒ mǎshàng qù zhǎo nǐ!"
+    }
+  ]
+}

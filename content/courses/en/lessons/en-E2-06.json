@@ -1,0 +1,97 @@
+{
+  "id": "en-E2-06",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.front-page",
+      "kind": "phrase",
+      "text": "front page",
+      "reading": "ˌfrʌnt ˈpeɪdʒ"
+    },
+    {
+      "id": "en.newspaper",
+      "text": "newspaper",
+      "reading": "ˈnuːzpeɪpər"
+    },
+    {
+      "id": "en.issue",
+      "text": "issue",
+      "reading": "ˈɪʃuː"
+    },
+    {
+      "id": "en.breaking-news",
+      "kind": "phrase",
+      "text": "breaking news",
+      "reading": "ˌbreɪkɪŋ ˈnuːz"
+    },
+    {
+      "id": "en.politics",
+      "text": "politics",
+      "reading": "ˈpɑːlətɪks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, look at the front page of this newspaper. Can you read the first headline?",
+      "reading": "ˈnɑːm, ˈlʊk ət ðə ˈfrʌnt ˈpeɪdʒ əv ˈðɪs ˈnuːzpeɪpər. kən juː ˈriːd ðə ˈfɜːrst ˈhɛdlaɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"Thai Badminton Team Wins in Japan.\"",
+      "reading": "ˈtaɪ ˈbædmɪntən ˈtiːm ˈwɪnz ɪn dʒəˈpæn."
+    },
+    {
+      "speaker": "b",
+      "text": "Good. Is the game happening now?",
+      "reading": "ˈɡʊd. ɪz ðə ˈɡeɪm ˈhæpənɪŋ ˈnaʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I think it happened yesterday. But the headline uses the present simple.",
+      "reading": "ˈnoʊ, aɪ ˈθɪŋk ɪt ˈhæpənd ˈjɛstərdeɪ. bʌt ðə ˈhɛdlaɪn ˈjuːzɪz ðə ˈprɛzənt ˈsɪmpəl."
+    },
+    {
+      "speaker": "b",
+      "text": "That's right. Headlines often use the present simple for past events. Now read this one.",
+      "reading": "ðæts ˈraɪt. ˈhɛdlaɪnz ˈɔːfən ˈjuːz ðə ˈprɛzənt ˈsɪmpəl fər ˈpæst ɪˈvɛnts. ˈnaʊ ˈriːd ˈðɪs ˈwʌn."
+    },
+    {
+      "speaker": "a",
+      "text": "\"Government to Ban Single-Use Plastic.\"",
+      "reading": "ˈɡʌvərnmənt tə ˈbæn ˌsɪŋɡəl ˈjuːs ˈplæstɪk."
+    },
+    {
+      "speaker": "b",
+      "text": "What does \"to ban\" mean here?",
+      "reading": "ˈwʌt dʌz tə ˈbæn ˈmiːn ˈhɪr?"
+    },
+    {
+      "speaker": "a",
+      "text": "It means the government is going to ban it in the future.",
+      "reading": "ɪt ˈmiːnz ðə ˈɡʌvərnmənt ɪz ˈɡoʊɪŋ tə ˈbæn ɪt ɪn ðə ˈfjuːtʃər."
+    },
+    {
+      "speaker": "b",
+      "text": "Right. And what's the breaking news on the website?",
+      "reading": "ˈraɪt. ənd ˈwʌts ðə ˈbreɪkɪŋ ˈnuːz ɑːn ðə ˈwɛbsaɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"Heavy Rain Closes Schools in Chiang Mai.\"",
+      "reading": "ˈhɛvi ˈreɪn ˈkloʊzɪz ˈskuːlz ɪn ˈtʃjɑːŋ ˈmaɪ."
+    },
+    {
+      "speaker": "b",
+      "text": "Very good. Which issues do you usually read about? Politics?",
+      "reading": "ˈvɛri ˈɡʊd. ˈwɪtʃ ˈɪʃuːz duː juː ˈjuːʒuəli ˈriːd əˈbaʊt? ˈpɑːlətɪks?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not politics! I always read about the environment first.",
+      "reading": "ˈnɑːt ˈpɑːlətɪks! aɪ ˈɔːlweɪz ˈriːd əˈbaʊt ði ɪnˈvaɪrənmənt ˈfɜːrst."
+    }
+  ]
+}

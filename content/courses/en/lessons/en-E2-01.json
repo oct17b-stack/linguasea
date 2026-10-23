@@ -1,0 +1,95 @@
+{
+  "id": "en-E2-01",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.news",
+      "text": "news",
+      "reading": "nuːz"
+    },
+    {
+      "id": "en.headline",
+      "text": "headline",
+      "reading": "ˈhɛdlaɪn"
+    },
+    {
+      "id": "en.journalist",
+      "text": "journalist",
+      "reading": "ˈdʒɜːrnəlɪst"
+    },
+    {
+      "id": "en.editor",
+      "text": "editor",
+      "reading": "ˈɛdɪtər"
+    },
+    {
+      "id": "en.interview",
+      "text": "interview",
+      "reading": "ˈɪntərvjuː"
+    },
+    {
+      "id": "en.broadcast",
+      "text": "broadcast",
+      "reading": "ˈbrɔːdkæst"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what was the biggest news in Bangkok this week?",
+      "reading": "ˈnɑːm, ˈwʌt wʌz ðə ˈbɪɡɪst ˈnuːz ɪn ˈbæŋkɑːk ˈðɪs ˈwiːk?"
+    },
+    {
+      "speaker": "a",
+      "text": "The air pollution. It was in all the headlines.",
+      "reading": "ði ˈɛr pəˈluːʃən. ɪt wʌz ɪn ˈɔːl ðə ˈhɛdlaɪnz."
+    },
+    {
+      "speaker": "b",
+      "text": "What did the news say about it?",
+      "reading": "ˈwʌt dɪd ðə ˈnuːz ˈseɪ əˈbaʊt ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "One report said that the air was very dangerous for children and old people.",
+      "reading": "ˈwʌn rɪˈpɔːrt ˈsɛd ðæt ði ˈɛr wʌz ˈvɛri ˈdeɪndʒərəs fər ˈtʃɪldrən ənd ˈoʊld ˈpiːpəl."
+    },
+    {
+      "speaker": "b",
+      "text": "Was there an interview with a doctor?",
+      "reading": "wʌz ðɛr ən ˈɪntərvjuː wɪð ə ˈdɑːktər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. In a TV interview, a doctor said people needed to wear masks outside.",
+      "reading": "ˈjɛs. ɪn ə ˌtiːˈviː ˈɪntərvjuː, ə ˈdɑːktər ˈsɛd ˈpiːpəl ˈniːdɪd tə ˈwɛr ˈmæsks ˌaʊtˈsaɪd."
+    },
+    {
+      "speaker": "c",
+      "text": "I watched an English broadcast about it. A journalist said the problem was getting worse every year.",
+      "reading": "aɪ ˈwɑːtʃt ən ˈɪŋɡlɪʃ ˈbrɔːdkæst əˈbaʊt ɪt. ə ˈdʒɜːrnəlɪst ˈsɛd ðə ˈprɑːbləm wʌz ˈɡɛtɪŋ ˈwɜːrs ˈɛvri ˈjɪr."
+    },
+    {
+      "speaker": "b",
+      "text": "Did the government say anything?",
+      "reading": "dɪd ðə ˈɡʌvərnmənt ˈseɪ ˈɛniθɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. They said that they had a new plan. But the editor of one news website said that the plan wasn't good enough.",
+      "reading": "ˈjɛs. ðeɪ ˈsɛd ðæt ðeɪ ˈhæd ə ˈnuː ˈplæn. bʌt ði ˈɛdɪtər əv ˈwʌn ˈnuːz ˈwɛbsaɪt ˈsɛd ðæt ðə ˈplæn ˈwʌzənt ˈɡʊd ɪˈnʌf."
+    },
+    {
+      "speaker": "b",
+      "text": "So what do you think?",
+      "reading": "soʊ ˈwʌt duː juː ˈθɪŋk?"
+    },
+    {
+      "speaker": "a",
+      "text": "I think the problem is serious. We need clean air now.",
+      "reading": "aɪ ˈθɪŋk ðə ˈprɑːbləm ɪz ˈsɪriəs. wiː ˈniːd ˈkliːn ˈɛr ˈnaʊ."
+    }
+  ]
+}

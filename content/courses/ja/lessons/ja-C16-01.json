@@ -1,0 +1,70 @@
+{
+  "id": "ja-C16-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.apuri",
+      "text": "アプリ",
+      "reading": "apuri"
+    },
+    {
+      "id": "ja.sumaho",
+      "text": "スマホ",
+      "reading": "sumaho"
+    },
+    {
+      "id": "ja.gamen",
+      "text": "がめん",
+      "reading": "gamen"
+    },
+    {
+      "id": "ja.sousa",
+      "text": "そうさ",
+      "reading": "sōsa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、あたらしい スマホが ほしいんですが。",
+      "reading": "Sumimasen, atarashii sumaho ga hoshii n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "こちらは いかがですか。がめんが おおきくて、みやすいですよ。",
+      "reading": "Kochira wa ikaga desu ka. Gamen ga ōkikute, miyasui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと おおきすぎますね。手が ちいさいので、つかいにくいです。",
+      "reading": "Chotto ōkisugimasu ne. Te ga chiisai node, tsukainikui desu."
+    },
+    {
+      "speaker": "b",
+      "text": "では、こちらは どうですか。そうさが かんたんで、つかいやすいですよ。",
+      "reading": "Dewa, kochira wa dō desu ka. Sōsa ga kantan de, tsukaiyasui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですね。アプリも たくさん つかえますか。",
+      "reading": "Hontō desu ne. Apuri mo takusan tsukaemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。この アプリは、にほんごの べんきょうに べんりですよ。",
+      "reading": "Hai. Kono apuri wa, Nihongo no benkyō ni benri desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。かんじも よみやすいですか。",
+      "reading": "Ii desu ne. Kanji mo yomiyasui desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。かんじは おおきく する ことが できます。",
+      "reading": "Hai. Kanji wa ōkiku suru koto ga dekimasu."
+    }
+  ]
+}

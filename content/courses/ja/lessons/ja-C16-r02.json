@@ -1,0 +1,79 @@
+{
+  "id": "ja-C16-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.toukou",
+      "text": "とうこう",
+      "reading": "tōkō"
+    },
+    {
+      "id": "ja.forowaa",
+      "text": "フォロワー",
+      "reading": "forowā"
+    },
+    {
+      "id": "ja.jouhou",
+      "text": "じょうほう",
+      "reading": "jōhō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "にほんと タイの わかものは、まいにち SNSを つかって います。",
+        "reading": "Nihon to Tai no wakamono wa, mainichi esuenuesu o tsukatte imasu."
+      },
+      {
+        "text": "だいがくの がくせい 20にんに ききました。",
+        "reading": "Daigaku no gakusei nijūnin ni kikimashita."
+      }
+    ],
+    [
+      {
+        "text": "にほんの がくせいは、あまり とうこうしません。",
+        "reading": "Nihon no gakusei wa, amari tōkō shimasen."
+      },
+      {
+        "text": "ほかの ひとの とうこうを みる ことが おおいです。",
+        "reading": "Hoka no hito no tōkō o miru koto ga ōi desu."
+      },
+      {
+        "text": "タイの がくせいは、よく しゃしんを とうこうします。",
+        "reading": "Tai no gakusei wa, yoku shashin o tōkō shimasu."
+      },
+      {
+        "text": "フォロワーが 1,000にん いじょう いる ひとも いました。",
+        "reading": "Forowā ga sennin ijō iru hito mo imashita."
+      }
+    ],
+    [
+      {
+        "text": "どちらの くにの がくせいも、SNSで ニュースや じょうほうを しらべます。",
+        "reading": "Dochira no kuni no gakusei mo, esuenuesu de nyūsu ya jōhō o shirabemasu."
+      },
+      {
+        "text": "でも、SNSの じょうほうは、ぜんぶ ほんとうでは ありません。",
+        "reading": "Demo, esuenuesu no jōhō wa, zenbu hontō de wa arimasen."
+      },
+      {
+        "text": "注意して つかいましょう。",
+        "reading": "Chūi shite tsukaimashō."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

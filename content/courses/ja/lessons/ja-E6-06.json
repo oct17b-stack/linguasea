@@ -1,0 +1,95 @@
+{
+  "id": "ja-E6-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ryoushou",
+      "text": "りょうしょう",
+      "reading": "ryōshō"
+    },
+    {
+      "id": "ja.kyouryoku",
+      "text": "きょうりょく",
+      "reading": "kyōryoku"
+    },
+    {
+      "id": "ja.tesuu",
+      "text": "手数",
+      "reading": "tesū"
+    },
+    {
+      "id": "ja.nichiji",
+      "text": "日時",
+      "reading": "nichiji"
+    },
+    {
+      "id": "ja.henshin",
+      "text": "返信",
+      "reading": "henshin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "もしもし、さくら旅行のナムと申します。たかはしさまはいらっしゃいますか。",
+      "reading": "Moshimoshi, Sakura Ryokō no Namu to mōshimasu. Takahashi-sama wa irasshaimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、たかはしです。ナムさん、どうしましたか。",
+      "reading": "Hai, Takahashi desu. Namu-san, dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じつは、来週うかがう日時を、へんこうしていただけないでしょうか。",
+      "reading": "Jitsu wa, raishū ukagau nichiji o, henkō shite itadakenai deshō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですよ。どうしたんですか。",
+      "reading": "Ii desu yo. Dō shita n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "やまぐちに、急なしごとがはいってしまいまして…。もうしわけございません。",
+      "reading": "Yamaguchi ni, kyū na shigoto ga haitte shimaimashite…. Mōshiwake gozaimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。では、いつがいいですか。",
+      "reading": "Wakarimashita. Dewa, itsu ga ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "しょうしょう、おまちいただけますか。…もくようびか、きんようびのごごは、いかがでしょうか。",
+      "reading": "Shōshō, omachi itadakemasu ka. …Mokuyōbi ka, kin'yōbi no gogo wa, ikaga deshō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "きんようびの3時なら、だいじょうぶです。",
+      "reading": "Kin'yōbi no sanji nara, daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。ごりょうしょういただき、たすかります。",
+      "reading": "Arigatō gozaimasu. Goryōshō itadaki, tasukarimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ。それから、パーティーのじゅんびも、ごきょうりょくいただけますか。",
+      "reading": "Iie. Sorekara, pātī no junbi mo, gokyōryoku itadakemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "もちろんです。お手数ですが、あとでおおくりするメールに、ご返信いただけますか。",
+      "reading": "Mochiron desu. Otesū desu ga, ato de ookuri suru mēru ni, gohenshin itadakemasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。メールをおまちしております。",
+      "reading": "Wakarimashita. Mēru o omachi shite orimasu."
+    }
+  ]
+}

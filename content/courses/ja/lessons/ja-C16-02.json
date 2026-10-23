@@ -1,0 +1,70 @@
+{
+  "id": "ja-C16-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.juuden",
+      "text": "じゅうでん",
+      "reading": "jūden"
+    },
+    {
+      "id": "ja.denchi",
+      "text": "でんち",
+      "reading": "denchi"
+    },
+    {
+      "id": "ja.ryoukin",
+      "text": "料金",
+      "reading": "ryōkin"
+    },
+    {
+      "id": "ja.kishu",
+      "text": "きしゅ",
+      "reading": "kishu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "この ふたつの きしゅは、なにが ちがいますか。",
+      "reading": "Kono futatsu no kishu wa, nani ga chigaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "おおきさと 重さが ちがいます。こちらの ほうが かるいです。",
+      "reading": "Ōkisa to omosa ga chigaimasu. Kochira no hō ga karui desu."
+    },
+    {
+      "speaker": "a",
+      "text": "でんちは どうですか。",
+      "reading": "Denchi wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "こちらは 1かいの じゅうでんで、2日 だいじょうぶです。",
+      "reading": "Kochira wa ikkai no jūden de, futsuka daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "べんりですね。料金は いくらですか。",
+      "reading": "Benri desu ne. Ryōkin wa ikura desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "まいつき 3,000円です。この やすさは いちばんですよ。",
+      "reading": "Maitsuki sanzen en desu. Kono yasusa wa ichiban desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。がめんの おおきさは、どちらも おなじですか。",
+      "reading": "Sō desu ka. Gamen no ōkisa wa, dochira mo onaji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。大体 おなじです。",
+      "reading": "Hai. Daitai onaji desu."
+    }
+  ]
+}

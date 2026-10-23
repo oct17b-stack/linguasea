@@ -1,0 +1,76 @@
+{
+  "id": "zh-C14-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.qiao",
+      "text": "桥",
+      "reading": "qiáo"
+    },
+    {
+      "id": "zh.jie-street",
+      "text": "街",
+      "reading": "jiē"
+    },
+    {
+      "id": "zh.guo-ma-lu",
+      "kind": "phrase",
+      "text": "过马路",
+      "reading": "guò mǎlù"
+    },
+    {
+      "id": "zh.lu-xian",
+      "text": "路线",
+      "reading": "lùxiàn"
+    },
+    {
+      "id": "zh.jin-ru",
+      "text": "进入",
+      "reading": "jìnrù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "阿姨，请问国家博物馆在哪儿？手机上的路线我不太明白。",
+      "reading": "Āyí, qǐngwèn Guójiā Bówùguǎn zài nǎr? Shǒujī shang de lùxiàn wǒ bù tài míngbai."
+    },
+    {
+      "speaker": "c",
+      "text": "你往前走，到了桥就过马路。",
+      "reading": "Nǐ wǎng qián zǒu, dào le qiáo jiù guò mǎlù."
+    },
+    {
+      "speaker": "a",
+      "text": "到了桥就过马路。过马路以后呢？",
+      "reading": "Dào le qiáo jiù guò mǎlù. Guò mǎlù yǐhòu ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "走到第二条街就往左转。",
+      "reading": "Zǒudào dì'èr tiáo jiē jiù wǎng zuǒ zhuǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "那条街叫什么？",
+      "reading": "Nà tiáo jiē jiào shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "叫长安街。到了长安街就能看见博物馆了。",
+      "reading": "Jiào Cháng'ān Jiē. Dào le Cháng'ān Jiē jiù néng kànjiàn bówùguǎn le."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！谢谢阿姨！",
+      "reading": "Tài hǎo le! Xièxie āyí!"
+    },
+    {
+      "speaker": "c",
+      "text": "不客气。对了，进入博物馆要带护照！",
+      "reading": "Bù kèqi. Duì le, jìnrù bówùguǎn yào dài hùzhào!"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-E6-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.mousu",
+      "text": "申す",
+      "reading": "mōsu"
+    },
+    {
+      "id": "ja.mairu",
+      "text": "参る",
+      "reading": "mairu"
+    },
+    {
+      "id": "ja.ukagau",
+      "text": "うかがう",
+      "reading": "ukagau"
+    },
+    {
+      "id": "ja.haiken",
+      "text": "はいけん",
+      "reading": "haiken"
+    },
+    {
+      "id": "ja.itasu",
+      "text": "いたす",
+      "reading": "itasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "しつれいいたします。さくら旅行のナムと申します。",
+      "reading": "Shitsurei itashimasu. Sakura Ryokō no Namu to mōshimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いらっしゃいませ。どんなごようけんでしょうか。",
+      "reading": "Irasshaimase. Donna goyōken deshō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すずきかちょうと2時におやくそくがあって、うかがいました。",
+      "reading": "Suzuki kachō to niji ni oyakusoku ga atte, ukagaimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "すずきですね。しょうしょうおまちください。",
+      "reading": "Suzuki desu ne. Shōshō omachi kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "ナムさん、どうぞこちらへ。おちゃをどうぞ。",
+      "reading": "Namu-san, dōzo kochira e. Ocha o dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。いただきます。きょうは、あたらしいツアーのパンフレットを持って参りました。",
+      "reading": "Arigatō gozaimasu. Itadakimasu. Kyō wa, atarashii tsuā no panfuretto o motte mairimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。では、はいけんします。…いいツアーですね。",
+      "reading": "Arigatō gozaimasu. Dewa, haiken shimasu. …Ii tsuā desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。来月からはじまるツアーでございます。",
+      "reading": "Arigatō gozaimasu. Raigetsu kara hajimaru tsuā de gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ところで、ナムさんは、タイからこられたんですよね。",
+      "reading": "Tokorode, Namu-san wa, Tai kara korareta n desu yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、バンコクから参りました。にほんにきて、2年になります。",
+      "reading": "Hai, Bankoku kara mairimashita. Nihon ni kite, ninen ni narimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。こんど、タイのツアーのことも、おしえてください。",
+      "reading": "Sō desu ka. Kondo, Tai no tsuā no koto mo, oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。来週、もう一度うかがいます。そのときに、タイのツアーの資料も持って参ります。",
+      "reading": "Hai. Raishū, mō ichido ukagaimasu. Sono toki ni, Tai no tsuā no shiryō mo motte mairimasu."
+    }
+  ]
+}

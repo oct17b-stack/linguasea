@@ -1,0 +1,65 @@
+{
+  "id": "zh-C8-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.tiao",
+      "text": "条",
+      "reading": "tiáo"
+    },
+    {
+      "id": "zh.shuang",
+      "text": "双",
+      "reading": "shuāng"
+    },
+    {
+      "id": "zh.wa-zi",
+      "text": "袜子",
+      "reading": "wàzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好！你想买什么？",
+      "reading": "Nǐ hǎo! Nǐ xiǎng mǎi shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "天冷了，我想买一条裤子和一双鞋。",
+      "reading": "Tiān lěng le, wǒ xiǎng mǎi yī tiáo kùzi hé yī shuāng xié."
+    },
+    {
+      "speaker": "c",
+      "text": "这条裤子怎么样？很暖和。",
+      "reading": "Zhè tiáo kùzi zěnmeyàng? Hěn nuǎnhuo."
+    },
+    {
+      "speaker": "a",
+      "text": "很好。多少钱？",
+      "reading": "Hěn hǎo. Duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "一百五十块。这双运动鞋也很便宜，八十块。",
+      "reading": "Yībǎi wǔshí kuài. Zhè shuāng yùndòngxié yě hěn piányi, bāshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "我要这条裤子和这双鞋。还有袜子吗？",
+      "reading": "Wǒ yào zhè tiáo kùzi hé zhè shuāng xié. Hái yǒu wàzi ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有，袜子十块一双，三双二十五块。",
+      "reading": "Yǒu, wàzi shí kuài yī shuāng, sān shuāng èrshíwǔ kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了，我要三双！",
+      "reading": "Tài hǎo le, wǒ yào sān shuāng!"
+    }
+  ]
+}

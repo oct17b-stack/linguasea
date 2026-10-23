@@ -1,0 +1,101 @@
+{
+  "id": "en-E4-01",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.take-off",
+      "kind": "phrase",
+      "text": "take off",
+      "reading": "ˌteɪk ˈɔːf"
+    },
+    {
+      "id": "en.custom",
+      "text": "custom",
+      "reading": "ˈkʌstəm"
+    },
+    {
+      "id": "en.manners",
+      "text": "manners",
+      "reading": "ˈmænərz"
+    },
+    {
+      "id": "en.bow",
+      "text": "bow",
+      "reading": "baʊ"
+    },
+    {
+      "id": "en.greet",
+      "text": "greet",
+      "reading": "ɡriːt"
+    },
+    {
+      "id": "en.barefoot",
+      "text": "barefoot",
+      "reading": "ˈbɛrfʊt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, your parents invited me to dinner on Sunday. I'm a bit nervous!",
+      "reading": "ˈnɑːm, jʊr ˈpɛrənts ɪnˈvaɪtɪd miː tə ˈdɪnər ɑːn ˈsʌndeɪ. aɪm ə ˈbɪt ˈnɜːrvəs!"
+    },
+    {
+      "speaker": "a",
+      "text": "Don't worry. They're really friendly.",
+      "reading": "ˈdoʊnt ˈwɜːri. ðɛr ˈriːli ˈfrɛndli."
+    },
+    {
+      "speaker": "c",
+      "text": "But I don't know Thai customs. What am I supposed to do when I arrive?",
+      "reading": "bʌt aɪ ˈdoʊnt ˈnoʊ ˈtaɪ ˈkʌstəmz. ˈwʌt æm aɪ səˈpoʊst tə ˈduː wɛn aɪ əˈraɪv?"
+    },
+    {
+      "speaker": "a",
+      "text": "First, you're supposed to take off your shoes before you go into the house.",
+      "reading": "ˈfɜːrst, jʊr səˈpoʊst tə ˈteɪk ˈɔːf jʊr ˈʃuːz bɪˈfɔːr juː ˈɡoʊ ˈɪntuː ðə ˈhaʊs."
+    },
+    {
+      "speaker": "c",
+      "text": "So I'll be barefoot all evening?",
+      "reading": "soʊ aɪl bi ˈbɛrfʊt ˈɔːl ˈiːvnɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Everyone walks barefoot at home.",
+      "reading": "ˈjɛs. ˈɛvriwʌn ˈwɔːks ˈbɛrfʊt ət ˈhoʊm."
+    },
+    {
+      "speaker": "c",
+      "text": "And how do I greet your parents? Do I say hello in Thai?",
+      "reading": "ənd ˈhaʊ duː aɪ ˈɡriːt jʊr ˈpɛrənts? duː aɪ ˈseɪ həˈloʊ ɪn ˈtaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, and you're supposed to wai them. Put your hands together and bow your head a little.",
+      "reading": "ˈjɛs, ənd jʊr səˈpoʊst tə ˈwaɪ ðɛm. ˈpʊt jʊr ˈhændz təˈɡɛðər ənd ˈbaʊ jʊr ˈhɛd ə ˈlɪtəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Like this?",
+      "reading": "ˈlaɪk ˈðɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "Perfect! You have good manners.",
+      "reading": "ˈpɜːrfɪkt! juː ˈhæv ˈɡʊd ˈmænərz."
+    },
+    {
+      "speaker": "c",
+      "text": "Is there anything I'm not supposed to do?",
+      "reading": "ɪz ðɛr ˈɛniθɪŋ aɪm ˈnɑːt səˈpoʊst tə ˈduː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Just one thing: you're not supposed to start eating before my parents.",
+      "reading": "ˈdʒʌst ˈwʌn ˈθɪŋ: jʊr ˈnɑːt səˈpoʊst tə ˈstɑːrt ˈiːtɪŋ bɪˈfɔːr maɪ ˈpɛrənts."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "zh-C8-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yan-se",
+      "text": "颜色",
+      "reading": "yánsè"
+    },
+    {
+      "id": "zh.hong-se",
+      "text": "红色",
+      "reading": "hóngsè"
+    },
+    {
+      "id": "zh.lan-se",
+      "text": "蓝色",
+      "reading": "lánsè"
+    },
+    {
+      "id": "zh.hei-se",
+      "text": "黑色",
+      "reading": "hēisè"
+    },
+    {
+      "id": "zh.bai-se",
+      "text": "白色",
+      "reading": "báisè"
+    },
+    {
+      "id": "zh.qi-ta",
+      "text": "其他",
+      "reading": "qítā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好，这些围巾都是新的。你喜欢什么颜色？",
+      "reading": "Nǐ hǎo, zhèxiē wéijīn dōu shì xīn de. Nǐ xǐhuan shénme yánsè?"
+    },
+    {
+      "speaker": "a",
+      "text": "有红色的吗？我要红的，不要黑的。",
+      "reading": "Yǒu hóngsè de ma? Wǒ yào hóng de, bù yào hēi de."
+    },
+    {
+      "speaker": "c",
+      "text": "红的没有了。蓝的怎么样？",
+      "reading": "Hóng de méiyǒu le. Lán de zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "蓝色也不错。还有其他颜色吗？",
+      "reading": "Lánsè yě bùcuò. Hái yǒu qítā yánsè ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "还有白色的和黑色的。白的很好看。",
+      "reading": "Hái yǒu báisè de hé hēisè de. Bái de hěn hǎokàn."
+    },
+    {
+      "speaker": "a",
+      "text": "我买两条吧：蓝的送李老师，白的我自己用。",
+      "reading": "Wǒ mǎi liǎng tiáo ba: lán de sòng Lǐ lǎoshī, bái de wǒ zìjǐ yòng."
+    },
+    {
+      "speaker": "c",
+      "text": "好的，两条一百二十块。",
+      "reading": "Hǎo de, liǎng tiáo yībǎi èrshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "好，给你钱。",
+      "reading": "Hǎo, gěi nǐ qián."
+    }
+  ]
+}

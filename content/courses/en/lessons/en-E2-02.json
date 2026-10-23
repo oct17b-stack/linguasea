@@ -1,0 +1,101 @@
+{
+  "id": "en-E2-02",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.rumor",
+      "text": "rumor",
+      "reading": "ˈruːmər"
+    },
+    {
+      "id": "en.gossip",
+      "text": "gossip",
+      "reading": "ˈɡɑːsɪp"
+    },
+    {
+      "id": "en.spread",
+      "text": "spread",
+      "reading": "sprɛd"
+    },
+    {
+      "id": "en.fake-news",
+      "kind": "phrase",
+      "text": "fake news",
+      "reading": "ˌfeɪk ˈnuːz"
+    },
+    {
+      "id": "en.source",
+      "text": "source",
+      "reading": "sɔːrs"
+    },
+    {
+      "id": "en.exaggerate",
+      "text": "exaggerate",
+      "reading": "ɪɡˈzædʒəreɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, did you hear the rumor about Mr. Brown?",
+      "reading": "ˈnɑːm, dɪd juː ˈhɪr ðə ˈruːmər əˈbaʊt ˈmɪstər ˈbraʊn?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. What did you hear?",
+      "reading": "ˈnoʊ. ˈwʌt dɪd juː ˈhɪr?"
+    },
+    {
+      "speaker": "c",
+      "text": "Ploy told me that he was leaving the university.",
+      "reading": "ˈplɔɪ ˈtoʊld miː ðæt hiː wʌz ˈliːvɪŋ ðə ˌjuːnɪˈvɜːrsəti."
+    },
+    {
+      "speaker": "a",
+      "text": "Really? Who told her that?",
+      "reading": "ˈriːli? ˈhuː ˈtoʊld hɜːr ˈðæt?"
+    },
+    {
+      "speaker": "c",
+      "text": "She said a student in a different class told her.",
+      "reading": "ʃiː ˈsɛd ə ˈstuːdənt ɪn ə ˈdɪfərənt ˈklæs ˈtoʊld hɜːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Then it's probably just gossip. That isn't a good source.",
+      "reading": "ˈðɛn ɪts ˈprɑːbəbli ˈdʒʌst ˈɡɑːsɪp. ðæt ˈɪzənt ə ˈɡʊd ˈsɔːrs."
+    },
+    {
+      "speaker": "c",
+      "text": "Maybe, but the rumor is spreading fast. Everyone is talking about it.",
+      "reading": "ˈmeɪbi, bʌt ðə ˈruːmər ɪz ˈsprɛdɪŋ ˈfæst. ˈɛvriwʌn ɪz ˈtɔːkɪŋ əˈbaʊt ɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "People often exaggerate. Oh, look! There's Mr. Brown.",
+      "reading": "ˈpiːpəl ˈɔːfən ɪɡˈzædʒəreɪt. ˈoʊ, ˈlʊk! ðɛrz ˈmɪstər ˈbraʊn."
+    },
+    {
+      "speaker": "c",
+      "text": "Mr. Brown, Ploy told us that you were leaving. Is that right?",
+      "reading": "ˈmɪstər ˈbraʊn, ˈplɔɪ ˈtoʊld ʌs ðæt juː wɜːr ˈliːvɪŋ. ɪz ðæt ˈraɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Leaving? No! I told my class that I was moving to a new office.",
+      "reading": "ˈliːvɪŋ? ˈnoʊ! aɪ ˈtoʊld maɪ ˈklæs ðæt aɪ wʌz ˈmuːvɪŋ tu ə ˈnuː ˈɔːfɪs."
+    },
+    {
+      "speaker": "a",
+      "text": "So it was fake news!",
+      "reading": "soʊ ɪt wʌz ˈfeɪk ˈnuːz!"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Please tell everyone that I'm not going anywhere!",
+      "reading": "ˈjɛs. ˈpliːz ˈtɛl ˈɛvriwʌn ðæt aɪm ˈnɑːt ˈɡoʊɪŋ ˈɛniwɛr!"
+    }
+  ]
+}

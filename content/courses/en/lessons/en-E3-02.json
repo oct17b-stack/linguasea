@@ -1,0 +1,96 @@
+{
+  "id": "en-E3-02",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.essay",
+      "text": "essay",
+      "reading": "ˈɛseɪ"
+    },
+    {
+      "id": "en.textbook",
+      "text": "textbook",
+      "reading": "ˈtɛkstbʊk"
+    },
+    {
+      "id": "en.take-notes",
+      "kind": "phrase",
+      "text": "take notes",
+      "reading": "ˌteɪk ˈnoʊts"
+    },
+    {
+      "id": "en.highlight",
+      "text": "highlight",
+      "reading": "ˈhaɪlaɪt"
+    },
+    {
+      "id": "en.quiz",
+      "text": "quiz",
+      "reading": "kwɪz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi, Nam. How's your essay going?",
+      "reading": "ˈhaɪ, ˈnɑːm. ˈhaʊz jʊr ˈɛseɪ ˈɡoʊɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I've been working on it all week, but I haven't finished it yet.",
+      "reading": "aɪv bɪn ˈwɜːrkɪŋ ɑːn ɪt ˈɔːl ˈwiːk, bʌt aɪ ˈhævənt ˈfɪnɪʃt ɪt ˈjɛt."
+    },
+    {
+      "speaker": "b",
+      "text": "How many words have you written?",
+      "reading": "ˈhaʊ ˈmɛni ˈwɜːrdz hæv juː ˈrɪtən?"
+    },
+    {
+      "speaker": "a",
+      "text": "I've written about eight hundred words. I need a thousand.",
+      "reading": "aɪv ˈrɪtən əˈbaʊt ˈeɪt ˈhʌndrəd ˈwɜːrdz. aɪ ˈniːd ə ˈθaʊzənd."
+    },
+    {
+      "speaker": "b",
+      "text": "That's good progress. And what about Friday's quiz? Have you read the textbook?",
+      "reading": "ðæts ˈɡʊd ˈprɑːɡrɛs. ənd ˈwʌt əˈbaʊt ˈfraɪdeɪz ˈkwɪz? hæv juː ˈriːd ðə ˈtɛkstbʊk?"
+    },
+    {
+      "speaker": "a",
+      "text": "I've been reading it since Monday. I've read three chapters, and there's one more.",
+      "reading": "aɪv bɪn ˈriːdɪŋ ɪt sɪns ˈmʌndeɪ. aɪv ˈriːd ˈθriː ˈtʃæptərz, ənd ðɛrz ˈwʌn ˈmɔːr."
+    },
+    {
+      "speaker": "b",
+      "text": "Great. Do you take notes when you read?",
+      "reading": "ˈɡreɪt. duː juː ˈteɪk ˈnoʊts wɛn juː ˈriːd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I've taken a lot of notes, and I've highlighted the main ideas.",
+      "reading": "ˈjɛs. aɪv ˈteɪkən ə ˈlɑːt əv ˈnoʊts, ənd aɪv ˈhaɪlaɪtɪd ðə ˈmeɪn aɪˈdiːəz."
+    },
+    {
+      "speaker": "b",
+      "text": "Good. But you look tired. Have you been sleeping enough?",
+      "reading": "ˈɡʊd. bʌt juː ˈlʊk ˈtaɪərd. hæv juː bɪn ˈsliːpɪŋ ɪˈnʌf?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really. I've been staying up late every night.",
+      "reading": "ˈnɑːt ˈriːli. aɪv bɪn ˈsteɪɪŋ ˈʌp ˈleɪt ˈɛvri ˈnaɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Don't stay up too late before the quiz, OK?",
+      "reading": "ˈdoʊnt ˈsteɪ ˈʌp ˈtuː ˈleɪt bɪˈfɔːr ðə ˈkwɪz, oʊˈkeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "OK, Mr. Brown. I won't.",
+      "reading": "oʊˈkeɪ, ˈmɪstər ˈbraʊn. aɪ ˈwoʊnt."
+    }
+  ]
+}

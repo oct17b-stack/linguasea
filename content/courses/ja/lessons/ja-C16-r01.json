@@ -1,0 +1,75 @@
+{
+  "id": "ja-C16-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.gakuwari",
+      "text": "がくわり",
+      "reading": "gakuwari"
+    },
+    {
+      "id": "ja.keiyaku",
+      "text": "けいやく",
+      "reading": "keiyaku"
+    },
+    {
+      "id": "ja.waribiki",
+      "text": "わりびき",
+      "reading": "waribiki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "がくせいの みなさんは、がくわりで スマホを やすく つかう ことが できます。",
+        "reading": "Gakusei no minasan wa, gakuwari de sumaho o yasuku tsukau koto ga dekimasu."
+      },
+      {
+        "text": "22さいいかの がくせいが りよう できます。",
+        "reading": "Nijūnisai ika no gakusei ga riyō dekimasu."
+      }
+    ],
+    [
+      {
+        "text": "まいつきの 料金は 2,000円です。",
+        "reading": "Maitsuki no ryōkin wa nisen en desu."
+      },
+      {
+        "text": "1ねんめは、まいつき 500円 わりびきです。",
+        "reading": "Ichinenme wa, maitsuki gohyaku en waribiki desu."
+      },
+      {
+        "text": "けいやくの ときは、がくせいの カードが ひつようです。",
+        "reading": "Keiyaku no toki wa, gakusei no kādo ga hitsuyō desu."
+      },
+      {
+        "text": "けいやくは 2ねんです。",
+        "reading": "Keiyaku wa ninen desu."
+      }
+    ],
+    [
+      {
+        "text": "この がくわりは、3月31日までです。",
+        "reading": "Kono gakuwari wa, sangatsu sanjūichinichi made desu."
+      },
+      {
+        "text": "しつもんは、みせの まどぐちで どうぞ。",
+        "reading": "Shitsumon wa, mise no madoguchi de dōzo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

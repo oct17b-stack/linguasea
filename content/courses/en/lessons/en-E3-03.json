@@ -1,0 +1,102 @@
+{
+  "id": "en-E3-03",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.be-allowed-to",
+      "kind": "phrase",
+      "text": "be allowed to",
+      "reading": "bi əˈlaʊd tuː"
+    },
+    {
+      "id": "en.cheat",
+      "text": "cheat",
+      "reading": "tʃiːt"
+    },
+    {
+      "id": "en.attendance",
+      "text": "attendance",
+      "reading": "əˈtɛndəns"
+    },
+    {
+      "id": "en.discipline",
+      "text": "discipline",
+      "reading": "ˈdɪsəplɪn"
+    },
+    {
+      "id": "en.punishment",
+      "text": "punishment",
+      "reading": "ˈpʌnɪʃmənt"
+    },
+    {
+      "id": "en.skip-class",
+      "kind": "phrase",
+      "text": "skip class",
+      "reading": "ˌskɪp ˈklæs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, it's my first exam at a Thai university. Are we allowed to use phones in the exam room?",
+      "reading": "ˈnɑːm, ɪts maɪ ˈfɜːrst ɪɡˈzæm ət ə ˈtaɪ ˌjuːnɪˈvɜːrsəti. ər wiː əˈlaʊd tə ˈjuːz ˈfoʊnz ɪn ði ɪɡˈzæm ˈruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, you aren't allowed to bring phones into the room. You have to leave them outside.",
+      "reading": "ˈnoʊ, juː ˈɑːrnt əˈlaʊd tə ˈbrɪŋ ˈfoʊnz ˈɪntuː ðə ˈruːm. juː ˈhæf tə ˈliːv ðɛm ˌaʊtˈsaɪd."
+    },
+    {
+      "speaker": "c",
+      "text": "What about dictionaries?",
+      "reading": "ˈwʌt əˈbaʊt ˈdɪkʃənɛriz?"
+    },
+    {
+      "speaker": "a",
+      "text": "We're allowed to use a dictionary in some exams, but not in English exams.",
+      "reading": "wɪr əˈlaʊd tə ˈjuːz ə ˈdɪkʃənɛri ɪn sʌm ɪɡˈzæmz, bʌt ˈnɑːt ɪn ˈɪŋɡlɪʃ ɪɡˈzæmz."
+    },
+    {
+      "speaker": "c",
+      "text": "And what happens if someone cheats?",
+      "reading": "ənd ˈwʌt ˈhæpənz ɪf ˈsʌmwʌn ˈtʃiːts?"
+    },
+    {
+      "speaker": "a",
+      "text": "The punishment is serious. Students who cheat get zero, and they might have to leave the university.",
+      "reading": "ðə ˈpʌnɪʃmənt ɪz ˈsɪriəs. ˈstuːdənts huː ˈtʃiːt ˈɡɛt ˈzɪroʊ, ənd ðeɪ maɪt ˈhæf tə ˈliːv ðə ˌjuːnɪˈvɜːrsəti."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, that's strict. Is discipline strict in class, too?",
+      "reading": "ˈoʊ, ðæts ˈstrɪkt. ɪz ˈdɪsəplɪn ˈstrɪkt ɪn ˈklæs, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really, but you need eighty percent attendance to take the exam.",
+      "reading": "ˈnɑːt ˈriːli, bʌt juː ˈniːd ˈeɪti pərˈsɛnt əˈtɛndəns tə ˈteɪk ði ɪɡˈzæm."
+    },
+    {
+      "speaker": "c",
+      "text": "So I'm not allowed to skip class?",
+      "reading": "soʊ aɪm ˈnɑːt əˈlaʊd tə ˈskɪp ˈklæs?"
+    },
+    {
+      "speaker": "a",
+      "text": "You're allowed to miss a few classes, but don't skip class too often.",
+      "reading": "jʊr əˈlaʊd tə ˈmɪs ə ˈfjuː ˈklæsɪz, bʌt ˈdoʊnt ˈskɪp ˈklæs ˈtuː ˈɔːfən."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. And are we allowed to wear jeans to class?",
+      "reading": "oʊˈkeɪ. ənd ər wiː əˈlaʊd tə ˈwɛr ˈdʒiːnz tə ˈklæs?"
+    },
+    {
+      "speaker": "a",
+      "text": "Thai students have to wear a uniform, but exchange students are allowed to wear what they like.",
+      "reading": "ˈtaɪ ˈstuːdənts ˈhæf tə ˈwɛr ə ˈjuːnəfɔːrm, bʌt ɪksˈtʃeɪndʒ ˌstuːdənts ər əˈlaʊd tə ˈwɛr ˈwʌt ðeɪ ˈlaɪk."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "en-E2-05",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.according-to",
+      "kind": "phrase",
+      "text": "according to",
+      "reading": "əˈkɔːrdɪŋ tuː"
+    },
+    {
+      "id": "en.research",
+      "text": "research",
+      "reading": "ˈriːsɜːrtʃ"
+    },
+    {
+      "id": "en.expert",
+      "text": "expert",
+      "reading": "ˈɛkspɜːrt"
+    },
+    {
+      "id": "en.evidence",
+      "text": "evidence",
+      "reading": "ˈɛvədəns"
+    },
+    {
+      "id": "en.findings",
+      "text": "findings",
+      "reading": "ˈfaɪndɪŋz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, you look tired. Did you stay up late again?",
+      "reading": "ˈnɑːm, juː ˈlʊk ˈtaɪərd. dɪd juː ˈsteɪ ˈʌp ˈleɪt əˈɡɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I was reading an article about sleep.",
+      "reading": "ˈjɛs. aɪ wʌz ˈriːdɪŋ ən ˈɑːrtɪkəl əˈbaʊt ˈsliːp."
+    },
+    {
+      "speaker": "b",
+      "text": "About sleep? What did it say?",
+      "reading": "əˈbaʊt ˈsliːp? ˈwʌt dɪd ɪt ˈseɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "According to the article, students need about eight hours of sleep.",
+      "reading": "əˈkɔːrdɪŋ tə ði ˈɑːrtɪkəl, ˈstuːdənts ˈniːd əˈbaʊt ˈeɪt ˈaʊərz əv ˈsliːp."
+    },
+    {
+      "speaker": "b",
+      "text": "Is that from real research or just someone's opinion?",
+      "reading": "ɪz ðæt frəm ˈriːəl ˈriːsɜːrtʃ ɔːr ˈdʒʌst ˈsʌmwʌnz əˈpɪnjən?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's from research at a university in Japan.",
+      "reading": "ɪts frəm ˈriːsɜːrtʃ ət ə ˌjuːnɪˈvɜːrsəti ɪn dʒəˈpæn."
+    },
+    {
+      "speaker": "b",
+      "text": "What were the findings?",
+      "reading": "ˈwʌt wɜːr ðə ˈfaɪndɪŋz?"
+    },
+    {
+      "speaker": "a",
+      "text": "According to the findings, students who use their phones in bed sleep one hour less.",
+      "reading": "əˈkɔːrdɪŋ tə ðə ˈfaɪndɪŋz, ˈstuːdənts huː ˈjuːz ðɛr ˈfoʊnz ɪn ˈbɛd ˈsliːp ˈwʌn ˈaʊər ˈlɛs."
+    },
+    {
+      "speaker": "b",
+      "text": "Interesting. Is there any other evidence?",
+      "reading": "ˈɪntrəstɪŋ. ɪz ðɛr ˈɛni ˈʌðər ˈɛvədəns?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. According to sleep experts, the light from phones makes it hard to sleep.",
+      "reading": "ˈjɛs. əˈkɔːrdɪŋ tə ˈsliːp ˈɛkspɜːrts, ðə ˈlaɪt frəm ˈfoʊnz ˈmeɪks ɪt ˈhɑːrd tə ˈsliːp."
+    },
+    {
+      "speaker": "b",
+      "text": "Then put your phone away before bed, Nam!",
+      "reading": "ˈðɛn ˈpʊt jʊr ˈfoʊn əˈweɪ bɪˈfɔːr ˈbɛd, ˈnɑːm!"
+    },
+    {
+      "speaker": "a",
+      "text": "I will. I promise!",
+      "reading": "aɪ ˈwɪl. aɪ ˈprɑːmɪs!"
+    }
+  ]
+}

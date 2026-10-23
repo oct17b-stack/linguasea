@@ -1,0 +1,91 @@
+{
+  "id": "zh-F1-03",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.que-shi",
+      "text": "确实",
+      "reading": "quèshí"
+    },
+    {
+      "id": "zh.di-que",
+      "text": "的确",
+      "reading": "díquè"
+    },
+    {
+      "id": "zh.you-dao-li",
+      "kind": "phrase",
+      "text": "有道理",
+      "reading": "yǒu dàoli"
+    },
+    {
+      "id": "zh.cheng-ren",
+      "text": "承认",
+      "reading": "chéngrèn"
+    },
+    {
+      "id": "zh.bu-fen",
+      "text": "部分",
+      "reading": "bùfen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你的理由我看了。现在我来说说反对的意见，你试着回答我。",
+      "reading": "Xiǎonán, nǐ de lǐyóu wǒ kàn le. Xiànzài wǒ lái shuōshuo fǎnduì de yìjiàn, nǐ shìzhe huídá wǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，李老师。",
+      "reading": "Hǎo de, Lǐ lǎoshī."
+    },
+    {
+      "speaker": "c",
+      "text": "很多学生打工以后，上课的时候总是很累，成绩也变差了。",
+      "reading": "Hěn duō xuésheng dǎgōng yǐhòu, shàngkè de shíhou zǒngshì hěn lèi, chéngjì yě biàn chà le."
+    },
+    {
+      "speaker": "a",
+      "text": "您说得确实有道理。有一部分学生打工打得太多，影响了学习。",
+      "reading": "Nín shuō de quèshí yǒu dàoli. Yǒu yī bùfen xuésheng dǎgōng dǎ de tài duō, yǐngxiǎng le xuéxí."
+    },
+    {
+      "speaker": "c",
+      "text": "那你承认打工对学习有坏处了？",
+      "reading": "Nà nǐ chéngrèn dǎgōng duì xuéxí yǒu huàichu le?"
+    },
+    {
+      "speaker": "a",
+      "text": "我承认，这种情况是存在的。但是不能说所有打工的学生都是这样。",
+      "reading": "Wǒ chéngrèn, zhè zhǒng qíngkuàng shì cúnzài de. Dànshì bù néng shuō suǒyǒu dǎgōng de xuésheng dōu shì zhèyàng."
+    },
+    {
+      "speaker": "c",
+      "text": "那你觉得问题在哪儿？",
+      "reading": "Nà nǐ juéde wèntí zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "问题不是打工，而是时间安排。一个星期打工十个小时左右，是没有问题的。",
+      "reading": "Wèntí bù shì dǎgōng, ér shì shíjiān ānpái. Yī ge xīngqī dǎgōng shí ge xiǎoshí zuǒyòu, shì méiyǒu wèntí de."
+    },
+    {
+      "speaker": "c",
+      "text": "这个想法是好的。可是怎么保证学生不会打工打得太多呢？",
+      "reading": "Zhège xiǎngfǎ shì hǎo de. Kěshì zěnme bǎozhèng xuésheng bù huì dǎgōng dǎ de tài duō ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "的确，这很难保证。不过学校可以建议学生，一个星期最多打工十五个小时。",
+      "reading": "Díquè, zhè hěn nán bǎozhèng. Bùguò xuéxiào kěyǐ jiànyì xuésheng, yī ge xīngqī zuì duō dǎgōng shíwǔ ge xiǎoshí."
+    },
+    {
+      "speaker": "c",
+      "text": "很好。先承认对方说得对的部分，再讲自己的看法，别人会更容易接受。",
+      "reading": "Hěn hǎo. Xiān chéngrèn duìfāng shuō de duì de bùfen, zài jiǎng zìjǐ de kànfǎ, biéren huì gèng róngyì jiēshòu."
+    }
+  ]
+}

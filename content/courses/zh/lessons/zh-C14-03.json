@@ -1,0 +1,65 @@
+{
+  "id": "zh-C14-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.mi",
+      "text": "米",
+      "reading": "mǐ"
+    },
+    {
+      "id": "zh.fang-xiang",
+      "text": "方向",
+      "reading": "fāngxiàng"
+    },
+    {
+      "id": "zh.lu-bian",
+      "text": "路边",
+      "reading": "lùbiān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "您好，请问地铁站往哪个方向走？",
+      "reading": "Nín hǎo, qǐngwèn dìtiězhàn wǎng nǎge fāngxiàng zǒu?"
+    },
+    {
+      "speaker": "b",
+      "text": "往东走。你看，就是那个方向。",
+      "reading": "Wǎng dōng zǒu. Nǐ kàn, jiù shì nàge fāngxiàng."
+    },
+    {
+      "speaker": "a",
+      "text": "远吗？",
+      "reading": "Yuǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不远，一直往前走，走三百米就到了。",
+      "reading": "Bù yuǎn, yīzhí wǎng qián zǒu, zǒu sānbǎi mǐ jiù dào le."
+    },
+    {
+      "speaker": "a",
+      "text": "一直走吗？不用转吗？",
+      "reading": "Yīzhí zǒu ma? Bùyòng zhuǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "不用转，一直走。地铁站在路边，很好找。",
+      "reading": "Bùyòng zhuǎn, yīzhí zǒu. Dìtiězhàn zài lùbiān, hěn hǎo zhǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "我还想买一瓶水，路边有商店吗？",
+      "reading": "Wǒ hái xiǎng mǎi yī píng shuǐ, lùbiān yǒu shāngdiàn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，地铁站旁边就有一个小商店。",
+      "reading": "Yǒu, dìtiězhàn pángbiān jiù yǒu yī ge xiǎo shāngdiàn."
+    }
+  ]
+}

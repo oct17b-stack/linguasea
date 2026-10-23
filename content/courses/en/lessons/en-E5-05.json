@@ -1,0 +1,96 @@
+{
+  "id": "en-E5-05",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.owe",
+      "text": "owe",
+      "reading": "oʊ"
+    },
+    {
+      "id": "en.pay-back",
+      "kind": "phrase",
+      "text": "pay back",
+      "reading": "ˌpeɪ ˈbæk"
+    },
+    {
+      "id": "en.debt",
+      "text": "debt",
+      "reading": "dɛt"
+    },
+    {
+      "id": "en.loan",
+      "text": "loan",
+      "reading": "loʊn"
+    },
+    {
+      "id": "en.broke",
+      "text": "broke",
+      "reading": "broʊk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you lend me five hundred baht? I'm broke until Friday.",
+      "reading": "ˈnɑːm, kən juː ˈlɛnd miː ˈfaɪv ˈhʌndrəd ˈbɑːt? aɪm ˈbroʊk ənˈtɪl ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. Here you are.",
+      "reading": "ˈʃʊr. ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks! I'll pay you back on Friday, I promise.",
+      "reading": "ˈθæŋks! aɪl ˈpeɪ juː ˈbæk ɑːn ˈfraɪdeɪ, aɪ ˈprɑːmɪs."
+    },
+    {
+      "speaker": "a",
+      "text": "No problem. Oh, and can I borrow your laptop this evening? Mine isn't working.",
+      "reading": "ˈnoʊ ˈprɑːbləm. ˈoʊ, ənd kən aɪ ˈbɑːroʊ jʊr ˈlæptɑːp ˈðɪs ˈiːvnɪŋ? ˈmaɪn ˈɪzənt ˈwɜːrkɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. You lent me money, so I'll lend you my laptop!",
+      "reading": "əv ˈkɔːrs. juː ˈlɛnt miː ˈmʌni, soʊ aɪl ˈlɛnd juː maɪ ˈlæptɑːp!"
+    },
+    {
+      "speaker": "a",
+      "text": "Emma, can I ask you something? Do you often borrow money?",
+      "reading": "ˈɛmə, kən aɪ ˈæsk juː ˈsʌmθɪŋ? duː juː ˈɔːfən ˈbɑːroʊ ˈmʌni?"
+    },
+    {
+      "speaker": "c",
+      "text": "Not often. But I have a student loan in Canada, so I have some debt.",
+      "reading": "ˈnɑːt ˈɔːfən. bʌt aɪ ˈhæv ə ˈstuːdənt ˈloʊn ɪn ˈkænədə, soʊ aɪ ˈhæv sʌm ˈdɛt."
+    },
+    {
+      "speaker": "a",
+      "text": "A loan? How much do you owe?",
+      "reading": "ə ˈloʊn? ˈhaʊ ˈmʌtʃ duː juː ˈoʊ?"
+    },
+    {
+      "speaker": "c",
+      "text": "About ten thousand dollars. I'll pay it back after I graduate.",
+      "reading": "əˈbaʊt ˈtɛn ˈθaʊzənd ˈdɑːlərz. aɪl ˈpeɪ ɪt ˈbæk ˈæftər aɪ ˈɡrædʒueɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "That's a lot of debt! In Thailand, many students borrow money from the government, too.",
+      "reading": "ðæts ə ˈlɑːt əv ˈdɛt! ɪn ˈtaɪlænd, ˈmɛni ˈstuːdənts ˈbɑːroʊ ˈmʌni frəm ðə ˈɡʌvərnmənt, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Really? I didn't know that.",
+      "reading": "ˈriːli? aɪ ˈdɪdənt ˈnoʊ ˈðæt."
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. So don't worry. You're not the only one!",
+      "reading": "ˈjɛs. soʊ ˈdoʊnt ˈwɜːri. jʊr ˈnɑːt ði ˈoʊnli ˈwʌn!"
+    }
+  ]
+}

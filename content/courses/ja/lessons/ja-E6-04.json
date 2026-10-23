@@ -1,0 +1,96 @@
+{
+  "id": "ja-E6-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.seki-o-hazusu",
+      "kind": "phrase",
+      "text": "席を外す",
+      "reading": "seki o hazusu"
+    },
+    {
+      "id": "ja.shutchou",
+      "text": "しゅっちょう",
+      "reading": "shutchō"
+    },
+    {
+      "id": "ja.modoru",
+      "text": "戻る",
+      "reading": "modoru"
+    },
+    {
+      "id": "ja.shanai",
+      "text": "社内",
+      "reading": "shanai"
+    },
+    {
+      "id": "ja.honsha",
+      "text": "本社",
+      "reading": "honsha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "はい、さくら旅行でございます。",
+      "reading": "Hai, Sakura Ryokō de gozaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "みどりホテルのたかはしと申します。やまぐち部長はいらっしゃいますか。",
+      "reading": "Midori Hoteru no Takahashi to mōshimasu. Yamaguchi buchō wa irasshaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "もうしわけございません。やまぐちは、いま席を外しております。",
+      "reading": "Mōshiwake gozaimasen. Yamaguchi wa, ima seki o hazushite orimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。なんじごろ、お戻りになりますか。",
+      "reading": "Sō desu ka. Nanji goro, omodori ni narimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "3時には戻るよていでございます。",
+      "reading": "Sanji ni wa modoru yotei de gozaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "では、いのうえかちょうは、いらっしゃいますか。",
+      "reading": "Dewa, Inoue kachō wa, irasshaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いのうえは、きょうは本社にしゅっちょうしております。あしたは社内におります。",
+      "reading": "Inoue wa, kyō wa honsha ni shutchō shite orimasu. Ashita wa shanai ni orimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。じつは、来週のパーティーのことで、ごそうだんしたいことがあるんです。",
+      "reading": "Sō desu ka. Jitsu wa, raishū no pātī no koto de, gosōdan shitai koto ga aru n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "しょうちしました。やまぐちが戻りましたら、おりかえしでんわするように、つたえておきます。",
+      "reading": "Shōchi shimashita. Yamaguchi ga modorimashitara, orikaeshi denwa suru yō ni, tsutaete okimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。わたしは、5時まで会社におりますので。",
+      "reading": "Arigatō gozaimasu. Watashi wa, goji made kaisha ni orimasu node."
+    },
+    {
+      "speaker": "a",
+      "text": "かしこまりました。たかはしさまからおでんわがあったことを、たしかにつたえます。",
+      "reading": "Kashikomarimashita. Takahashi-sama kara odenwa ga atta koto o, tashika ni tsutaemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "よろしくおねがいいたします。",
+      "reading": "Yoroshiku onegai itashimasu."
+    }
+  ]
+}

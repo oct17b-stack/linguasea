@@ -1,0 +1,95 @@
+{
+  "id": "ja-E6-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.moushiageru",
+      "text": "申し上げる",
+      "reading": "mōshiageru"
+    },
+    {
+      "id": "ja.sashiageru",
+      "text": "差し上げる",
+      "reading": "sashiageru"
+    },
+    {
+      "id": "ja.zonjiru",
+      "text": "存じる",
+      "reading": "zonjiru"
+    },
+    {
+      "id": "ja.shiraseru",
+      "text": "知らせる",
+      "reading": "shiraseru"
+    },
+    {
+      "id": "ja.annaijou",
+      "text": "あんないじょう",
+      "reading": "annaijō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "もしもし、みどりホテルのすずきですが、ナムさんはいらっしゃいますか。",
+      "reading": "Moshimoshi, Midori Hoteru no Suzuki desu ga, Namu-san wa irasshaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ナムです。すずきさま、きのうはありがとうございました。",
+      "reading": "Hai, Namu desu. Suzuki-sama, kinō wa arigatō gozaimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "いえいえ。いただいたパンフレットですが、ほかの資料もありますか。",
+      "reading": "Ie ie. Itadaita panfuretto desu ga, hoka no shiryō mo arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ございます。では、きょう中に、メールでおおくりします。",
+      "reading": "Hai, gozaimasu. Dewa, kyōjū ni, mēru de ookuri shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。それから、来月のパーティーは、なんじからですか。",
+      "reading": "Arigatō gozaimasu. Sorekara, raigetsu no pātī wa, nanji kara desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じかんは、まだきまっていません。きまったら、すぐにお知らせします。",
+      "reading": "Jikan wa, mada kimatte imasen. Kimattara, sugu ni oshirase shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。あんないじょうも、いただけますか。",
+      "reading": "Wakarimashita. Annaijō mo, itadakemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あんないじょうは来週おおくりして、そのあと、おでんわを差し上げます。",
+      "reading": "Hai. Annaijō wa raishū ookuri shite, sono ato, odenwa o sashiagemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "たすかります。ナムさんも、パーティーにはこられますか。",
+      "reading": "Tasukarimasu. Namu-san mo, pātī ni wa koraremasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、わたしもうかがいたいと存じます。",
+      "reading": "Hai, watashi mo ukagaitai to zonjimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それはよかった。楽しみにしています。",
+      "reading": "Sore wa yokatta. Tanoshimi ni shite imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。では、資料をおおくりしたら、またごれんらくします。どうぞよろしくおねがい申し上げます。",
+      "reading": "Arigatō gozaimasu. Dewa, shiryō o ookuri shitara, mata gorenraku shimasu. Dōzo yoroshiku onegai mōshiagemasu."
+    }
+  ]
+}

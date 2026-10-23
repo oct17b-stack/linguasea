@@ -1,0 +1,70 @@
+{
+  "id": "zh-C8-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.liu-xing",
+      "text": "流行",
+      "reading": "liúxíng"
+    },
+    {
+      "id": "zh.chang-long",
+      "text": "长",
+      "reading": "cháng"
+    },
+    {
+      "id": "zh.shuai",
+      "text": "帅",
+      "reading": "shuài"
+    },
+    {
+      "id": "zh.shi-he",
+      "text": "适合",
+      "reading": "shìhé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你想买什么样的衣服？",
+      "reading": "Wáng Míng, nǐ xiǎng mǎi shénmeyàng de yīfu?"
+    },
+    {
+      "speaker": "b",
+      "text": "我想买一件衬衫，上班穿。",
+      "reading": "Wǒ xiǎng mǎi yī jiàn chènshān, shàngbān chuān."
+    },
+    {
+      "speaker": "a",
+      "text": "你看这件白色的，现在很流行。",
+      "reading": "Nǐ kàn zhè jiàn báisè de, xiànzài hěn liúxíng."
+    },
+    {
+      "speaker": "b",
+      "text": "白色的不太适合我，我想要蓝色的。",
+      "reading": "Báisè de bù tài shìhé wǒ, wǒ xiǎng yào lánsè de."
+    },
+    {
+      "speaker": "a",
+      "text": "这件蓝色的怎么样？很适合你，很帅！",
+      "reading": "Zhè jiàn lánsè de zěnmeyàng? Hěn shìhé nǐ, hěn shuài!"
+    },
+    {
+      "speaker": "b",
+      "text": "是吗？可是有点儿长。",
+      "reading": "Shì ma? Kěshì yǒudiǎnr cháng."
+    },
+    {
+      "speaker": "a",
+      "text": "你试试小一点儿的。你喜欢什么样的裤子？",
+      "reading": "Nǐ shìshi xiǎo yīdiǎnr de. Nǐ xǐhuan shénmeyàng de kùzi?"
+    },
+    {
+      "speaker": "b",
+      "text": "我喜欢黑色的裤子，不要太短的。",
+      "reading": "Wǒ xǐhuan hēisè de kùzi, bù yào tài duǎn de."
+    }
+  ]
+}

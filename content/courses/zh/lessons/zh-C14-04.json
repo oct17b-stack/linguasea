@@ -1,0 +1,70 @@
+{
+  "id": "zh-C14-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.da-gai",
+      "text": "大概",
+      "reading": "dàgài"
+    },
+    {
+      "id": "zh.zuo-you",
+      "text": "左右",
+      "reading": "zuǒyòu"
+    },
+    {
+      "id": "zh.ju-li",
+      "text": "距离",
+      "reading": "jùlí"
+    },
+    {
+      "id": "zh.bu-xing",
+      "text": "步行",
+      "reading": "bùxíng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "请问，从这儿到国家博物馆有多远？",
+      "reading": "Qǐngwèn, cóng zhèr dào Guójiā Bówùguǎn yǒu duō yuǎn?"
+    },
+    {
+      "speaker": "b",
+      "text": "距离不远，两公里左右。",
+      "reading": "Jùlí bù yuǎn, liǎng gōnglǐ zuǒyòu."
+    },
+    {
+      "speaker": "a",
+      "text": "步行要多长时间？",
+      "reading": "Bùxíng yào duō cháng shíjiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "大概二十五分钟。",
+      "reading": "Dàgài èrshíwǔ fēnzhōng."
+    },
+    {
+      "speaker": "a",
+      "text": "有点儿远。坐公交车呢？",
+      "reading": "Yǒudiǎnr yuǎn. Zuò gōngjiāochē ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "坐公交车大概十分钟，可是现在堵车。",
+      "reading": "Zuò gōngjiāochē dàgài shí fēnzhōng, kěshì xiànzài dǔchē."
+    },
+    {
+      "speaker": "a",
+      "text": "那我还是步行吧，今天天气很好。",
+      "reading": "Nà wǒ háishi bùxíng ba, jīntiān tiānqì hěn hǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "好，一直往前走就到了。",
+      "reading": "Hǎo, yīzhí wǎng qián zǒu jiù dào le."
+    }
+  ]
+}

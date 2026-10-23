@@ -1,0 +1,85 @@
+{
+  "id": "zh-D16-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.liu-stay",
+      "text": "留",
+      "reading": "liú"
+    },
+    {
+      "id": "zh.hui-guo",
+      "text": "回国",
+      "reading": "huíguó"
+    },
+    {
+      "id": "zh.xuan-ze",
+      "text": "选择",
+      "reading": "xuǎnzé"
+    },
+    {
+      "id": "zh.you-yu",
+      "text": "犹豫",
+      "reading": "yóuyù"
+    },
+    {
+      "id": "zh.da-ying",
+      "text": "答应",
+      "reading": "dāying"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，毕业以后，你想留在中国，还是回国？",
+      "reading": "Xiǎonán, bìyè yǐhòu, nǐ xiǎng liú zài Zhōngguó, háishi huíguó?"
+    },
+    {
+      "speaker": "a",
+      "text": "我还在犹豫。我很喜欢北京，想留下来工作。",
+      "reading": "Wǒ hái zài yóuyù. Wǒ hěn xǐhuan Běijīng, xiǎng liú xialai gōngzuò."
+    },
+    {
+      "speaker": "c",
+      "text": "那你为什么犹豫呢？",
+      "reading": "Nà nǐ wèi shénme yóuyù ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我爸爸妈妈想让我回国。",
+      "reading": "Wǒ bàba māma xiǎng ràng wǒ huíguó."
+    },
+    {
+      "speaker": "c",
+      "text": "这是一个很难的选择。你跟他们说了吗？",
+      "reading": "Zhè shì yī ge hěn nán de xuǎnzé. Nǐ gēn tāmen shuō le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "说了。妈妈说，我可以在中国留两年，然后再回去。",
+      "reading": "Shuō le. Māma shuō, wǒ kěyǐ zài Zhōngguó liú liǎng nián, ránhòu zài huíqù."
+    },
+    {
+      "speaker": "c",
+      "text": "你答应了吗？",
+      "reading": "Nǐ dāying le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "答应了。我想先在中国留下来工作两年，再回泰国当翻译。",
+      "reading": "Dāying le. Wǒ xiǎng xiān zài Zhōngguó liú xialai gōngzuò liǎng nián, zài huí Tàiguó dāng fānyì."
+    },
+    {
+      "speaker": "c",
+      "text": "这个选择很好。留下来工作，你的汉语会更好。",
+      "reading": "Zhège xuǎnzé hěn hǎo. Liú xialai gōngzuò, nǐ de Hànyǔ huì gèng hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢老师！我会好好学习的。",
+      "reading": "Xièxie lǎoshī! Wǒ huì hǎohǎo xuéxí de."
+    }
+  ]
+}

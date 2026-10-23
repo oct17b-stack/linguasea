@@ -1,0 +1,70 @@
+{
+  "id": "zh-C8-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.mao-yi",
+      "text": "毛衣",
+      "reading": "máoyī"
+    },
+    {
+      "id": "zh.da-yi",
+      "text": "大衣",
+      "reading": "dàyī"
+    },
+    {
+      "id": "zh.hou-thick",
+      "text": "厚",
+      "reading": "hòu"
+    },
+    {
+      "id": "zh.ting-quite",
+      "text": "挺",
+      "reading": "tǐng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好，我想买一件大衣。北京的冬天太冷了！",
+      "reading": "Nǐ hǎo, wǒ xiǎng mǎi yī jiàn dàyī. Běijīng de dōngtiān tài lěng le!"
+    },
+    {
+      "speaker": "c",
+      "text": "你试试这件，这件大衣挺暖和的。",
+      "reading": "Nǐ shìshi zhè jiàn, zhè jiàn dàyī tǐng nuǎnhuo de."
+    },
+    {
+      "speaker": "a",
+      "text": "挺好看的。可是不太厚吧？",
+      "reading": "Tǐng hǎokàn de. Kěshì bù tài hòu ba?"
+    },
+    {
+      "speaker": "c",
+      "text": "不厚，可是很暖和。里面穿一件毛衣，零下十度也不冷。",
+      "reading": "Bù hòu, kěshì hěn nuǎnhuo. Lǐmiàn chuān yī jiàn máoyī, língxià shí dù yě bù lěng."
+    },
+    {
+      "speaker": "a",
+      "text": "有黑色的吗？",
+      "reading": "Yǒu hēisè de ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有。黑色的挺适合你的。",
+      "reading": "Yǒu. Hēisè de tǐng shìhé nǐ de."
+    },
+    {
+      "speaker": "a",
+      "text": "挺好的！多少钱？",
+      "reading": "Tǐng hǎo de! Duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "八百块。今天有活动，七百。",
+      "reading": "Bābǎi kuài. Jīntiān yǒu huódòng, qībǎi."
+    }
+  ]
+}

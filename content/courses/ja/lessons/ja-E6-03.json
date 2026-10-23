@@ -1,0 +1,95 @@
+{
+  "id": "ja-E6-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kenshuu",
+      "text": "けんしゅう",
+      "reading": "kenshū"
+    },
+    {
+      "id": "ja.intaan",
+      "text": "インターン",
+      "reading": "intān"
+    },
+    {
+      "id": "ja.kyuuka",
+      "text": "きゅうか",
+      "reading": "kyūka"
+    },
+    {
+      "id": "ja.yuukyuu",
+      "text": "有給",
+      "reading": "yūkyū"
+    },
+    {
+      "id": "ja.kekkin",
+      "text": "欠勤",
+      "reading": "kekkin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまぐち部長、すこしよろしいでしょうか。",
+      "reading": "Yamaguchi buchō, sukoshi yoroshii deshō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうしましたか。",
+      "reading": "Hai, dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "来週のきんようびに、だいがくの試験がありますので、その日、やすませていただけませんか。",
+      "reading": "Raishū no kin'yōbi ni, daigaku no shiken ga arimasu node, sono hi, yasumasete itadakemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。インターンのけんしゅうは、だいじょうぶですか。",
+      "reading": "Sō desu ka. Intān no kenshū wa, daijōbu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。けんしゅうの資料は、まえの日に読ませていただきます。",
+      "reading": "Hai. Kenshū no shiryō wa, mae no hi ni yomasete itadakimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。その日は、やすんでいいですよ。",
+      "reading": "Wakarimashita. Sono hi wa, yasunde ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。では、きんようびは、やすませていただきます。",
+      "reading": "Arigatō gozaimasu. Dewa, kin'yōbi wa, yasumasete itadakimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ただ、インターンには有給のきゅうかがないので、その日は欠勤になりますが、いいですか。",
+      "reading": "Tada, intān ni wa yūkyū no kyūka ga nai node, sono hi wa kekkin ni narimasu ga, ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、もちろんです。それから、もうひとつ、おねがいがあるんですが。",
+      "reading": "Hai, mochiron desu. Sorekara, mō hitotsu, onegai ga aru n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "なんですか。",
+      "reading": "Nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "来月、いもうとがタイからきます。1日、きゅうかをとらせていただけないでしょうか。",
+      "reading": "Raigetsu, imōto ga Tai kara kimasu. Ichinichi, kyūka o torasete itadakenai deshō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。日にちがきまったら、おしえてください。",
+      "reading": "Ii desu yo. Hinichi ga kimattara, oshiete kudasai."
+    }
+  ]
+}

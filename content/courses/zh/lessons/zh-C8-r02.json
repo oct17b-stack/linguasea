@@ -1,0 +1,79 @@
+{
+  "id": "zh-C8-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.lv-se",
+      "text": "绿色",
+      "reading": "lǜsè"
+    },
+    {
+      "id": "zh.da-ban",
+      "text": "打扮",
+      "reading": "dǎban"
+    },
+    {
+      "id": "zh.zheng-shi",
+      "text": "正式",
+      "reading": "zhèngshì"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "星期五晚上，王明的公司有一个新年晚会。",
+        "reading": "Xīngqīwǔ wǎnshang, Wáng Míng de gōngsī yǒu yī ge xīnnián wǎnhuì."
+      },
+      {
+        "text": "王明请小南一起去。",
+        "reading": "Wáng Míng qǐng Xiǎonán yīqǐ qù."
+      },
+      {
+        "text": "小南不知道应该穿什么。",
+        "reading": "Xiǎonán bù zhīdào yīnggāi chuān shénme."
+      }
+    ],
+    [
+      {
+        "text": "她给妹妹发了三张照片，问：“我穿什么好？”",
+        "reading": "Tā gěi mèimei fā le sān zhāng zhàopiàn, wèn: \"Wǒ chuān shénme hǎo?\""
+      },
+      {
+        "text": "妹妹说：“晚会很正式，你别穿牛仔裤。”",
+        "reading": "Mèimei shuō: \"Wǎnhuì hěn zhèngshì, nǐ bié chuān niúzǎikù.\""
+      },
+      {
+        "text": "她还说：“那条绿色的裙子挺漂亮的，很适合你！”",
+        "reading": "Tā hái shuō: \"Nà tiáo lǜsè de qúnzi tǐng piàoliang de, hěn shìhé nǐ!\""
+      }
+    ],
+    [
+      {
+        "text": "小南穿着绿色的裙子去了晚会，还打扮了一下。",
+        "reading": "Xiǎonán chuān zhe lǜsè de qúnzi qù le wǎnhuì, hái dǎban le yīxià."
+      },
+      {
+        "text": "王明说：“你今天真漂亮！”",
+        "reading": "Wáng Míng shuō: \"Nǐ jīntiān zhēn piàoliang!\""
+      },
+      {
+        "text": "小南很高兴，她觉得妹妹真聪明！",
+        "reading": "Xiǎonán hěn gāoxìng, tā juéde mèimei zhēn cōngming!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

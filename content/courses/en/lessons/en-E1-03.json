@@ -1,0 +1,93 @@
+{
+  "id": "en-E1-03",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.reduce",
+      "text": "reduce",
+      "reading": "rɪˈduːs"
+    },
+    {
+      "id": "en.save-energy",
+      "kind": "phrase",
+      "text": "save energy",
+      "reading": "ˌseɪv ˈɛnərdʒi"
+    },
+    {
+      "id": "en.solar-power",
+      "kind": "phrase",
+      "text": "solar power",
+      "reading": "ˌsoʊlər ˈpaʊər"
+    },
+    {
+      "id": "en.fuel",
+      "text": "fuel",
+      "reading": "ˈfjuːəl"
+    },
+    {
+      "id": "en.electric-car",
+      "kind": "phrase",
+      "text": "electric car",
+      "reading": "ɪˌlɛktrɪk ˈkɑːr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Excuse me, I'm making a video about the environment for the university website. Do you have a minute?",
+      "reading": "ɪkˈskjuːs miː, aɪm ˈmeɪkɪŋ ə ˈvɪdioʊ əˈbaʊt ði ɪnˈvaɪrənmənt fər ðə ˌjuːnɪˈvɜːrsəti ˈwɛbsaɪt. duː juː ˈhæv ə ˈmɪnɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. Go ahead.",
+      "reading": "ˈʃʊr. ˈɡoʊ əˈhɛd."
+    },
+    {
+      "speaker": "b",
+      "text": "How do you get to the university every day?",
+      "reading": "ˈhaʊ duː juː ˈɡɛt tə ðə ˌjuːnɪˈvɜːrsəti ˈɛvri ˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "By bike. I cycle in order to reduce pollution. And it's good exercise!",
+      "reading": "baɪ ˈbaɪk. aɪ ˈsaɪkəl ɪn ˈɔːrdər tə rɪˈduːs pəˈluːʃən. ənd ɪts ˈɡʊd ˈɛksərsaɪz!"
+    },
+    {
+      "speaker": "b",
+      "text": "Nice. What does your family do to help?",
+      "reading": "ˈnaɪs. ˈwʌt dʌz jʊr ˈfæməli ˈduː tə ˈhɛlp?"
+    },
+    {
+      "speaker": "a",
+      "text": "Our house uses solar power so that we can save energy and money.",
+      "reading": "aʊr ˈhaʊs ˈjuːzɪz ˈsoʊlər ˈpaʊər soʊ ðæt wiː kən ˈseɪv ˈɛnərdʒi ənd ˈmʌni."
+    },
+    {
+      "speaker": "b",
+      "text": "Great. And how does your family travel?",
+      "reading": "ˈɡreɪt. ənd ˈhaʊ dʌz jʊr ˈfæməli ˈtrævəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "My dad drives an electric car. He bought it in order to save money on fuel.",
+      "reading": "maɪ ˈdæd ˈdraɪvz ən ɪˈlɛktrɪk ˈkɑːr. hiː ˈbɔːt ɪt ɪn ˈɔːrdər tə ˈseɪv ˈmʌni ɑːn ˈfjuːəl."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you think everyone should drive an electric car?",
+      "reading": "duː juː ˈθɪŋk ˈɛvriwʌn ʃʊd ˈdraɪv ən ɪˈlɛktrɪk ˈkɑːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not everyone can afford one. I think we need better buses so that people can leave their cars at home.",
+      "reading": "ˈnɑːt ˈɛvriwʌn kən əˈfɔːrd ˈwʌn. aɪ ˈθɪŋk wiː ˈniːd ˈbɛtər ˈbʌsɪz soʊ ðæt ˈpiːpəl kən ˈliːv ðɛr ˈkɑːrz ət ˈhoʊm."
+    },
+    {
+      "speaker": "b",
+      "text": "Thanks, Nam. That's very helpful.",
+      "reading": "ˈθæŋks, ˈnɑːm. ðæts ˈvɛri ˈhɛlpfəl."
+    }
+  ]
+}

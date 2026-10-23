@@ -1,0 +1,70 @@
+{
+  "id": "zh-C14-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.guang-chang",
+      "text": "广场",
+      "reading": "guǎngchǎng"
+    },
+    {
+      "id": "zh.da-lou",
+      "text": "大楼",
+      "reading": "dàlóu"
+    },
+    {
+      "id": "zh.ting-che-chang",
+      "text": "停车场",
+      "reading": "tíngchēchǎng"
+    },
+    {
+      "id": "zh.jia-you-zhan",
+      "text": "加油站",
+      "reading": "jiāyóuzhàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你到了吗？我在博物馆门口等你。",
+      "reading": "Xiǎonán, nǐ dào le ma? Wǒ zài bówùguǎn ménkǒu děng nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "快到了。博物馆是不是在广场旁边？",
+      "reading": "Kuài dào le. Bówùguǎn shì bù shì zài guǎngchǎng pángbiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，在广场东边。你现在在哪儿？",
+      "reading": "Duì, zài guǎngchǎng dōngbian. Nǐ xiànzài zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我旁边有一个加油站，前面是一个很高的大楼。",
+      "reading": "Wǒ pángbiān yǒu yī ge jiāyóuzhàn, qiánmian shì yī ge hěn gāo de dàlóu."
+    },
+    {
+      "speaker": "b",
+      "text": "大楼旁边是不是有一个停车场？",
+      "reading": "Dàlóu pángbiān shì bù shì yǒu yī ge tíngchēchǎng?"
+    },
+    {
+      "speaker": "a",
+      "text": "是，那儿有很多车。",
+      "reading": "Shì, nàr yǒu hěn duō chē."
+    },
+    {
+      "speaker": "b",
+      "text": "那你在博物馆北边。往南走五分钟就到了。",
+      "reading": "Nà nǐ zài bówùguǎn běibian. Wǎng nán zǒu wǔ fēnzhōng jiù dào le."
+    },
+    {
+      "speaker": "a",
+      "text": "一直往南走，是不是？好，我马上到！",
+      "reading": "Yīzhí wǎng nán zǒu, shì bù shì? Hǎo, wǒ mǎshàng dào!"
+    }
+  ]
+}

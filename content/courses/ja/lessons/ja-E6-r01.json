@@ -1,0 +1,103 @@
+{
+  "id": "ja-E6-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.kenmei",
+      "text": "件名",
+      "reading": "kenmei"
+    },
+    {
+      "id": "ja.houmon",
+      "text": "訪問",
+      "reading": "hōmon"
+    },
+    {
+      "id": "ja.kouho",
+      "text": "こうほ",
+      "reading": "kōho"
+    },
+    {
+      "id": "ja.uchiawase",
+      "text": "打ち合わせ",
+      "reading": "uchiawase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "件名：打ち合わせの日時について",
+        "reading": "Kenmei: Uchiawase no nichiji ni tsuite"
+      },
+      {
+        "text": "みどりホテルのたかはしさま",
+        "reading": "Midori Hoteru no Takahashi-sama"
+      },
+      {
+        "text": "いつもお世話になっております。",
+        "reading": "Itsumo osewa ni natte orimasu."
+      },
+      {
+        "text": "さくら旅行のインターンのナムでございます。",
+        "reading": "Sakura Ryokō no intān no Namu de gozaimasu."
+      }
+    ],
+    [
+      {
+        "text": "来月のツアーについて、打ち合わせをおねがいしたく、ごれんらくいたしました。",
+        "reading": "Raigetsu no tsuā ni tsuite, uchiawase o onegai shitaku, gorenraku itashimashita."
+      },
+      {
+        "text": "部長のやまぐちとわたしで、御社を訪問させていただきたいと存じます。",
+        "reading": "Buchō no Yamaguchi to watashi de, onsha o hōmon sasete itadakitai to zonjimasu."
+      },
+      {
+        "text": "日時のこうほは、3つございます。",
+        "reading": "Nichiji no kōho wa, mittsu gozaimasu."
+      },
+      {
+        "text": "6月10日のごご2時、11日のごぜん10時、12日のごご3時のなかで、いかがでしょうか。",
+        "reading": "Rokugatsu tōka no gogo niji, jūichinichi no gozen jūji, jūninichi no gogo sanji no naka de, ikaga deshō ka."
+      },
+      {
+        "text": "ごつごうのいい日時を、お知らせいただけますでしょうか。",
+        "reading": "Gotsugō no ii nichiji o, oshirase itadakemasu deshō ka."
+      },
+      {
+        "text": "ほかの日がよろしければ、えんりょなくおっしゃってください。",
+        "reading": "Hoka no hi ga yoroshikereba, enryo naku osshatte kudasai."
+      }
+    ],
+    [
+      {
+        "text": "お手数をおかけしますが、ご返信をおまちしております。",
+        "reading": "Otesū o okake shimasu ga, gohenshin o omachi shite orimasu."
+      },
+      {
+        "text": "どうぞよろしくおねがい申し上げます。",
+        "reading": "Dōzo yoroshiku onegai mōshiagemasu."
+      },
+      {
+        "text": "さくら旅行、インターン、ナム",
+        "reading": "Sakura Ryokō, intān, Namu"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    }
+  ]
+}
