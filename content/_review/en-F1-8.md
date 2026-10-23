@@ -38,7 +38,7 @@ AI 初稿：F 阶段 1–8 单元，48 课 + 16 篇读物（en-F1-01 … en-F8-r
 - [en-F4-05] 大纲语法点列的是 shout / whisper / scream / mutter，词条却是 shout / call out / insist / sigh / beg。scream、whisper 只在第一条讲解里列出，mutter 只在第二条讲解里解释，对话里没用。 ✅ resolved: 对话加了 "Mom won't let you keep a dog," I whispered.（whisper 是 [en-E16-r01] 的词条，当着卖狗的人小声说也合情理）；scream 在 [en-F4-04] 对话里已用（I screamed）；mutter 留在讲解。泰语课题原是 "ช่วยด้วย!" เขากรีดร้อง，和对话无关，改为 "ซื้อให้หน่อย!" ฟ้าอ้อนวอน。
 - [en-F6-06] holding（hold 没当词条教过；hold on / on hold 是 [en-F12-05] 的词条）。 ✅ resolved: 本课语法点（大纲例句 a woman holding a lotus），可以。
 - 由学过的词拼成、没当词条教过的连字符词：three-night（[en-F2-06]）、fourth-year（[en-F3-r01]）、eye-catching（[en-F6-03]，讲解里也列了）、twenty-six-year-old（[en-F6-r01]）、four-day、six-month（[en-F7-r01]）、thank-you note（[en-F4-r02]）。另外 [en-F2-02]、[en-F2-04]、[en-F2-05]、[en-F2-r02] 用了 customer relations（relations 没教过），[en-F5-04] 用了 the US / the UK 缩写，[en-F5-r01] 用了 Australian。请确认 B1+ 学习者能接受。 ✅ resolved: 可以接受：连字符词由学过的词组成；customer relations 是情景（course.json scenario）里的部门名，泰语 ฝ่ายลูกค้าสัมพันธ์；the US / the UK 是 [en-F5-04] 讲解的内容。
-- 只在前面的课文里出现过、没当词条教过的词照常用了：important、wall(s)、dear、possible、everyone / everything / someone / anyone 等。 ✅ resolved: 这类词交给 gapfill（审校开始和结束时 content/_review/en-gapfill.md 都还不存在）；important、wall、midnight 现在已在前面的课（[en-D10-05]、[en-E16-01]、[en-E13-r01]）有词条。through 在 [en-D12-03]、[en-E15-r02] 已用过，当虚词处理。
+- 只在前面的课文里出现过、没当词条教过的词照常用了：important、wall(s)、dear、possible、everyone / everything / someone / anyone 等。 ✅ resolved: 这类词交给 gapfill：content/_review/en-gapfill.md 把 else、Dear …、another、without、through、for example、myself、finish、order、each 等放在它们首次出现的 D–E 阶段课里（由那几段的审校补），本段只补目标课在本段的两个（见第二轮审校）；important、wall、midnight 已在 [en-D10-05]、[en-E16-01]、[en-E13-r01] 有词条。gapfill 的 en.dear（Dear …）和本段的 en.dear-sir-or-madam 文字不同，不算重复。
 - 读音：大纲词条的读音是单念时的强式（如 get used to ˌɡɛt ˈjuːst tuː、compared to kəmˈpɛrd tuː），句子里按约定写弱式 tə / tu；[en-F3-02] 词条 I see your point 的读音本身是弱式 jər，句子里照词条写。be / get used to 的 used 一律写 ˈjuːst（初稿生成成了 ˈjuːzd，已改）。 ✅ resolved: 句子里元音前的 to 统一为 tə（20 处），your 一律 jʊr；词条读音按约定改了（见第二轮审校）。
 - 泰语转写里比较少见的写法：résumé เรเซอะเม、graffiti เกรอะฟีที、commute เคอะมิวท์、inquiry อินเควอะรี、awkward ออคเวิร์ด、mature เมอะชัวร์，请泰语老师确认读起来自然。 ✅ resolved: 按 en.md 规则统一：graffiti 用通用写法 กราฟฟิตี้，commute 按 kə- 规则写 คะมิวท์（同 community คะมิวนิตี้），awkward 写 ออกเวิร์ด；résumé 按词尾 eɪ 规则写 เรเซอะเมย์（同 café แคเฟย์），inquiry 加调号 อินเควอะรี่，mature 保留 เมอะชัวร์。剩下的问题见下面"第二轮审校后仍需母语老师确认的"。
 
@@ -50,7 +50,11 @@ AI 初稿：F 阶段 1–8 单元，48 课 + 16 篇读物（en-F1-01 … en-F8-r
 
 ## 第二轮审校
 
-- 范围：F1–F8 全部 64 个文件（48 课 + 16 篇读物）逐句核对英文、读音、泰语译文、讲解、题目和导语；脚本查了按课程顺序的超纲词、词条读音和全课程同词的转写、弱读、复合词重音、近义词义、对话长度和读物句数。`npm run validate -- --target en --only 'en-F[1-8]-'`、`npm run dupes -- --target en`、`npm run dupes -- --target en --meanings` 都通过。content/_review/en-gapfill.md 审校开始和结束时都不存在，没有补词条。F9–F16 的配角名字（Ethan、Kevin、Rachel、Pedro、Lena、Nida 等）和 F1–F8 没有重名。
+- 范围：F1–F8 全部 64 个文件（48 课 + 16 篇读物）逐句核对英文、读音、泰语译文、讲解、题目和导语；脚本查了按课程顺序的超纲词、词条读音和全课程同词的转写、弱读、复合词重音、近义词义、对话长度和读物句数。`npm run validate -- --target en --only 'en-F[1-8]-'`、`npm run dupes -- --target en`、`npm run dupes -- --target en --meanings` 都通过。F9–F16 的配角名字（Ethan、Kevin、Rachel、Pedro、Lena、Nida 等）和 F1–F8 没有重名。
+- 补词条（按 content/_review/en-gapfill.md，目标课在本段的两行；两课都没写 exercises，加完分别是 5、6 个词条，没到 7 个，minutes 不变）：
+  - [en-F4-r02] even（en.even，word，ˈiːvən，แม้แต่, ยิ่ง (…กว่าเดิม)，อีเวิน）：本课 He didn't even let me pay! / I didn't even get their names.，之前只在 even though、even so 里出现过。
+  - [en-F7-02] cause（en.cause，word，kɔːz，เป็นสาเหตุของ…; สาเหตุ，คอส，同 because บิคอส 的写法）：本课语法点 cause / lead to / result in，后两个本来就是词条。
+  - gapfill 的可选行（should、must、might、nowhere、slightly）和 nobody 的目标课都不在本段，没动。
 - 本段定下的 Nam 的事实（后面的课请对照）：
   - 大四英语专业，快毕业（[en-F1-05]、[en-F3-r01]）；申请一家国际公司的 graduate trainee 职位：两百多份申请、二十人进面试，一个职位；第一轮面试官三人（HR 经理 Linda Harris、市场部主管、一名今年的 trainee），周一上午十点在总部五楼，面试后有英文写作测试；第二轮是一位男面试官；结果没交代（F14 起她去儿童语言学校当英语老师，不冲突）。
   - 工作和经历：从大一起在一家餐厅打工（只在周末上午），先当服务员，后来负责培训约十名新员工，提议的学生午餐套餐让销售额涨了 20%，餐厅在网上得到很多好评；餐厅经理是女的，说 Nam 是她最好的员工；推荐人是餐厅经理和 Mr. Davis；做视频很拿手（实习时做过很多，参与过两个实习项目和一个课程项目）；英语考试通过两次、分数高；还没有教师资格证。去年英语营（[en-E14-*]）里带过一个志愿者小组，负责设计游戏、管理物资；大学慈善跑（[en-E14-04]）目标五万铢，只募到三万。
@@ -58,17 +62,17 @@ AI 初稿：F 阶段 1–8 单元，48 课 + 16 篇读物（en-F1-01 … en-F8-r
   - F2：上个月在旅游网站订了甲米 Blue Bay Hotel 三晚，共 6,000 铢；没有海景（窗外是停车场）、离海滩开车三十分钟（每天打车近 2,000 铢）、早餐不含、第一晚空调坏了、前台态度差，比预算多花近 4,000 铢；要求退一半并改网站描述，最后退 40%（2,400 铢，七天内到账）＋1,000 铢抵用金（一年内有效）。
   - F3：课堂辩论里主张大学对所有人免费，后来承认很富有的家庭可以例外；认为考试和重要日子穿校服、其他日子自由穿。一个朋友毕业两年还没找到好工作。
   - F4：大一第一周在大讲堂打瞌睡，把女教授叫成 Mom；和 Kwan 约在咖啡馆，结果在两家同名的店各等了一小时；在超市门口滑倒又被自己的包绊倒；在自己住处的马桶里发现蛇，打急救电话，救援队十分钟就到；和 Fah 逛夜市，Fah 想要小狗，妈妈在电话里说不行（家里不养狗）；在清迈找有名的 khao soi 店，那天是星期一不开门，吃了旁边的小摊，星期二才吃到名店（觉得小摊更好吃）。
-  - F5：秋季学期在多伦多交换，住大学宿舍（宿舍晚饭五点半），学校另外安排了寄宿家庭 Anderson 一家（妈妈是护士、爸爸是老师、两个孩子、狗 Buddy），每个星期天上午去，Mr. Anderson 做法式吐司配枫糖浆；交换生办公室 Ms. Wilson（= [en-E3-r02] 的 Sarah Wilson）；加拿大同学 Liam（在伦敦读过一年，姐姐住新西兰）；班上同学来自十五个国家；第一周一位同学的家人请她吃饭；加拿大是她去的第一个英语国家；十二月遇到暴风雪，零下十五度，学校停课；在唐人街以外的小亚洲店才买到鱼露。
+  - F5：秋季学期在多伦多交换，住大学宿舍（宿舍晚饭五点半），学校另外安排了寄宿家庭 Anderson 一家（妈妈是护士、爸爸是老师、两个孩子、狗 Buddy），每个星期天上午去，Mr. Anderson 做法式吐司配枫糖浆；交换生办公室 Ms. Wilson（= [en-E3-r02] 的 Sarah Wilson）；加拿大同学 Liam（在伦敦读过一年，姐姐住新西兰）；班上同学来自十五个国家；第一周一位同学的家人请她吃饭；加拿大是她去的第一个英语国家；十二月遇到暴风雪，零下十五度，学校停课；到处找不到鱼露，最后在市中心一家亚洲小店买到。
   - F6：和 Emma、Fah 去曼谷一家美术馆，最喜欢那幅抽象的河流画；外婆家有和北部陶艺家相似的碗。
   - F8：去年熬夜复习到凌晨四点、睡过头错过一场重要考试，后来补考，为此推掉了和朋友去普吉；对 Fah 说她美术课的画像小孩画的，Fah 哭了，Nam 很后悔；大一时太害羞没参加社团（大二才进摄影社，[en-C1-06]），现在每节课都敢发言。
 - 其他人物：
   - Emma（在曼谷工作）：公司运动会订 T 恤，500 件误打成 5,000 件，男老板很生气，T 恤厂同意收回一半；看完演唱会坐末班地铁睡过站，卖花阿姨的儿子（出租车司机）开车送她回家、不收钱；小时候家乡小镇下暴风雪照样上学；和 Nam 去美术馆，最喜欢一幅老农夫的肖像。
-  - Mr. Brown：几年前在曼谷一家酒店走错婚礼（老朋友 Steve 的婚礼在隔壁厅），被拉上台致辞；后悔刚来曼谷时没学泰语，头几年只说英语，现在泰语"还行"。
+  - Mr. Brown：几年前在曼谷一家酒店走错婚礼（老朋友 Steve 的婚礼在隔壁厅），旁边的客人让他这个"唯一的外国人"说几句，他只好站起来祝福新人，再溜去隔壁；后悔刚来曼谷时没学泰语，头几年只说英语，现在泰语"还行"。
   - Fah：高中美术课要交画；想要小狗；去美术馆时叫 Nam พี่น้ำ、自称 ฟ้า。
   - Kwan（พี่ขวัญ）：在曼谷一家大公司市场部工作（约两百名员工），同事 Oil，男经理唱歌难听；回错邮件又点了 reply all，经理一笑了之。
   - Ploy、Top：辩论和校服讨论（同班同学 / 朋友）。一次性人物：Linda Harris、第二轮男面试官、Karen、Peter Turner、Steve、Liam、Anderson 一家、Aom、Pong、Nok、Mook、美术馆男导览、Adam、Pang、Oil。
 - 本轮决定或照用的约定：
-  - en.md 约定全部照用，包括审校期间新加的：句中元音前的 to 写 tə（改了 20 处），into 写不重读的 ɪntə（3 处），your / yourself 写 jʊr（6 处），连词和关系代词 that 写 ðæt 不标重音。词条读音按约定改了 6 个（id 都只在本段用）：in charge of 词尾 of → ʌv，learn from 词尾 from → frʌm，I see your point、lose your temper 的 your → jʊr（I see your point 的 point 改为主重音），Dear Sir or Madam 的 or → ɔːr，host family 的 family → ˈfæməli（同 [en-A5-01]）。
+  - en.md 约定全部照用，包括审校期间新加的：句中元音前的 to 写 tə（改了 20 处），into 写不重读的 ɪntə（3 处），your / yourself 写 jʊr（句子里 5 处），连词和关系代词 that 写 ðæt 不标重音。词条读音按约定改了 6 个（id 都只在本段用）：in charge of 词尾 of → ʌv，learn from 词尾 from → frʌm，I see your point、lose your temper 的 your → jʊr（I see your point 的 point 改为主重音），Dear Sir or Madam 的 or → ɔːr，host family 的 family → ˈfæməli（同 [en-A5-01]）。
   - 句子读音：间接问句里的疑问词照常标重音（asked me ˈwhen…、decide ˈwho…，和同课的 ˈwhy、ˈwhat 一致），连词 when、关系代词 who 不标；名词 graduate 读 ˈɡrædʒuət（动词才是 ˈɡrædʒueɪt，同 [en-E3-06] graduate school）；数字等构成的复合定语按 C9–C16 的规则写（ə ˌθriː ˌnaɪt ˈsteɪ、ə ˌfɔːrθ ˌjɪr ˈɪŋɡlɪʃ ˈstuːdənt、ə ˌsɪks ˌmʌnθ ˈtraɪəl、ðə ˌfɔːr ˌdeɪ ˈwiːk），复合名词第二个词标次重音（ˈlɛktʃər ˌhɔːl、ˈspreɪ ˌkæn、ˈθæŋk juː ˌnoʊt）；引号里当词讲的 the 写强读 ˈðiː（同 D16）。
   - 转写：按 en.md 规则统一了 109 个词条，例如词尾 k 写 ก（แฮนด์เชก、สนีก、ยูนีก、เช็ก），词中音节末的 k 也写 ก（แอกเซส、ออกเวิร์ด、แซทิสแฟกชั่น、แอกซิเดนท์，book 系列 บุ๊กกิ้ง），p 写 ป（อัป、เฮลป์、ดีป），-st / -kt / -pt / -rt 写 สต์ / กต์ / ปต์ / ร์ต（เฟิร์สต์、แลสต์、โฮสต์、อะแดปต์、ช็อกต์、พาร์ตลี่、อาร์ตเวิร์ก），-ture 写 เจอร์（คัลเจอร์、สกัลป์เจอร์），ex- 在辅音前写 เอ็กซ์（เอ็กซ์เปกต์）、在元音前写 เอ็ก（เอ็กเซปชั่น，同 exciting），ɪɡz- 写 อิก（อิกแซกต์ลี่），kən- 写 คอน（คอนเซิร์น、คอนซิเดอร์、คอนวินซิ่ง、อินคอนวีเนียนซ์，同 convince、convenience），kə- 写 คะ（คะมิวท์），短 ɪ 的 rɪ- / dɪ- 写 ริ / ดิ（ริซัลท์、ริสปอนซะเบิล、ริไควเออร์、ดิแมนดิ้ง），已通用的 รี 保留（request รีเควสต์、reply รีพลาย、recharge），拼写是 s 的词尾写 ส（as แอส、is อิส、lose ลูส），point 写 พอยนท์（同 [en-E4-02]），hours 写 อาวเวอร์ส，tt 词按通用写法（เลตเตอร์、พอตเตอรี่），非重读词尾加调号（เอ็มพลอยอี้、อินเควอะรี่、บาวน์ดะรี่），和前面阶段同词同形（other อาเธอร์、moment โมเมนท์、customer คัสโตเมอร์、store สตอร์、difference ดิฟเฟรนซ์、problem พร็อบเบลม、English อิงลิช、known โนว์น、physical ฟิสิคัล、balance บาลานซ์、note โน้ต）；graffiti 用通用写法 กราฟฟิตี้，credit 用通用写法 เครดิต。
   - 泰语：近义词条的词义拉开：convincing ฟังขึ้น, ทำให้คนเชื่อได้ (เหตุผล, คำพูด)（和 [en-E2-r02] trustworthy น่าเชื่อถือ 分开），straightforward ไม่อ้อมค้อม, พูดตามที่คิด (นิสัยคน)（和 [en-E4-04] direct ตรงไปตรงมา 分开）。Nam 写正式邮件自称 ดิฉัน、给父母写信自称 หนู；职场女性（HR、客服）说话自称 ดิฉัน；Fah 叫 Nam พี่น้ำ、自称 ฟ้า。
