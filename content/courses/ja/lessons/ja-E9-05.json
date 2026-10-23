@@ -1,0 +1,95 @@
+{
+  "id": "ja-E9-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.dengen",
+      "text": "でんげん",
+      "reading": "dengen"
+    },
+    {
+      "id": "ja.kidou",
+      "text": "起動",
+      "reading": "kidō"
+    },
+    {
+      "id": "ja.saikidou",
+      "text": "さいきどう",
+      "reading": "saikidō"
+    },
+    {
+      "id": "ja.koshou",
+      "text": "こしょう",
+      "reading": "koshō"
+    },
+    {
+      "id": "ja.furiizu",
+      "text": "フリーズ",
+      "reading": "furīzu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまだせんせい、パソコンがフリーズして、うごかなくなってしまいました。",
+      "reading": "Yamada-sensei, pasokon ga furīzu shite, ugokanaku natte shimaimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "いつから、でんげんを入れっぱなしにしていましたか。",
+      "reading": "Itsu kara, dengen o ireppanashi ni shite imashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きのうのよるからです。しゅくだいをしたあと、そのままねてしまって…。",
+      "reading": "Kinō no yoru kara desu. Shukudai o shita ato, sono mama nete shimatte…."
+    },
+    {
+      "speaker": "b",
+      "text": "ずっと入れっぱなしですか。アプリも、たくさん起動したままでしょう。",
+      "reading": "Zutto ireppanashi desu ka. Apuri mo, takusan kidō shita mama deshō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。動画も、ながしっぱなしでした。",
+      "reading": "Hai. Dōga mo, nagashippanashi deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "それでは、パソコンもつかれてしまいますよ。まず、さいきどうしてみましょう。",
+      "reading": "Sore de wa, pasokon mo tsukarete shimaimasu yo. Mazu, saikidō shite mimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、がめんがフリーズしていて、なにもおせないんです。",
+      "reading": "Demo, gamen ga furīzu shite ite, nani mo osenai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そういうときは、でんげんのところを、ながくおしてください。",
+      "reading": "Sō iu toki wa, dengen no tokoro o, nagaku oshite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、がめんがくらくなりました。もういちど起動します。…うごきました！",
+      "reading": "A, gamen ga kuraku narimashita. Mō ichido kidō shimasu. …Ugokimashita!"
+    },
+    {
+      "speaker": "b",
+      "text": "よかったですね。でも、でんげんを入れっぱなしにすると、こしょうのげんいんになりますよ。",
+      "reading": "Yokatta desu ne. Demo, dengen o ireppanashi ni suru to, koshō no gen'in ni narimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。これからは、つかいおわったら、かならずでんげんを切ります。",
+      "reading": "Wakarimashita. Kore kara wa, tsukaiowattara, kanarazu dengen o kirimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それから、まども、あけっぱなしですよ。かぜをひかないように、気をつけてくださいね。",
+      "reading": "Sore kara, mado mo, akeppanashi desu yo. Kaze o hikanai yō ni, ki o tsukete kudasai ne."
+    }
+  ]
+}

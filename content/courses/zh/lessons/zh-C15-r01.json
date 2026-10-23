@@ -1,0 +1,79 @@
+{
+  "id": "zh-C15-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zuo-fa",
+      "text": "做法",
+      "reading": "zuòfǎ"
+    },
+    {
+      "id": "zh.guo-pot",
+      "text": "锅",
+      "reading": "guō"
+    },
+    {
+      "id": "zh.xiao-huo",
+      "kind": "phrase",
+      "text": "小火",
+      "reading": "xiǎo huǒ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "西红柿炒鸡蛋是中国人常常做的菜。",
+        "reading": "Xīhóngshì chǎo jīdàn shì Zhōngguó rén chángcháng zuò de cài."
+      },
+      {
+        "text": "材料：两个西红柿、三个鸡蛋、一点儿盐和糖。",
+        "reading": "Cáiliào: liǎng ge xīhóngshì, sān ge jīdàn, yīdiǎnr yán hé táng."
+      }
+    ],
+    [
+      {
+        "text": "做法：第一，西红柿洗好、切好。",
+        "reading": "Zuòfǎ: dì-yī, xīhóngshì xǐhǎo, qiēhǎo."
+      },
+      {
+        "text": "第二，鸡蛋打在碗里，放一点儿盐。",
+        "reading": "Dì-èr, jīdàn dǎ zài wǎn lǐ, fàng yīdiǎnr yán."
+      },
+      {
+        "text": "第三，锅里放油，先炒鸡蛋，炒好以后放在盘子里。",
+        "reading": "Dì-sān, guō lǐ fàng yóu, xiān chǎo jīdàn, chǎohǎo yǐhòu fàng zài pánzi lǐ."
+      },
+      {
+        "text": "第四，再炒西红柿，加一点儿糖。",
+        "reading": "Dì-sì, zài chǎo xīhóngshì, jiā yīdiǎnr táng."
+      },
+      {
+        "text": "第五，最后放鸡蛋，用小火炒一分钟就好了。",
+        "reading": "Dì-wǔ, zuìhòu fàng jīdàn, yòng xiǎo huǒ chǎo yī fēnzhōng jiù hǎo le."
+      }
+    ],
+    [
+      {
+        "text": "这个菜又酸又甜，很好吃！",
+        "reading": "Zhège cài yòu suān yòu tián, hěn hǎochī!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}
