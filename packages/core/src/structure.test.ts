@@ -83,6 +83,17 @@ describe('readers', () => {
     const q = steps[5] as Extract<(typeof steps)[number], { kind: 'question' }>;
     expect(q.choices.find((c) => c.correct)?.label).toBe('พ่อ');
   });
+
+  it('shuffle the answer options, so the right one is not always in the same place', () => {
+    const positions = new Set(
+      Array.from({ length: 12 }, (_, i) => {
+        const steps = buildSteps(fixture(), 'zh-C1-r01', i + 1);
+        const q = steps.find((s) => s.kind === 'question') as Extract<(typeof steps)[number], { kind: 'question' }>;
+        return q.choices.findIndex((c) => c.correct);
+      }),
+    );
+    expect(positions.size).toBeGreaterThan(1);
+  });
 });
 
 describe('practice and unit tests', () => {

@@ -67,8 +67,9 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
   lesson.questions.forEach((q, i) => {
     const g = gloss.questions[i];
     if (!g) return;
+    // Shuffled: writers tend to put the right answer early, and learners would pick up on it.
     const choices = g.options.map((label, k) => ({ id: `q${i}-${k}`, label, correct: k === q.answer }));
-    steps.push({ kind: 'question', prompt: g.prompt, choices });
+    steps.push({ kind: 'question', prompt: g.prompt, choices: shuffle(choices, rand) });
   });
   if (lesson.dialogue.length) {
     steps.push({
