@@ -1,0 +1,75 @@
+{
+  "id": "ko-C8-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.cheongbaji",
+      "text": "청바지",
+      "reading": "cheongbaji"
+    },
+    {
+      "id": "ko.tisyeocheu",
+      "text": "티셔츠",
+      "reading": "tisyeocheu"
+    },
+    {
+      "id": "ko.wonpiseu",
+      "text": "원피스",
+      "reading": "wonpiseu"
+    },
+    {
+      "id": "ko.koteu",
+      "text": "코트",
+      "reading": "koteu"
+    },
+    {
+      "id": "ko.banbaji",
+      "text": "반바지",
+      "reading": "banbaji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 반바지 어때요? 시원하죠?",
+      "reading": "Nam ssi, i banbaji eottaeyo? Siwonhajyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지금은 십일월이에요! 반바지는 춥죠.",
+      "reading": "Jigeumeun sibirworieyo! Banbajineun chupjyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 그럼 이 코트는요? 따뜻하죠?",
+      "reading": "Haha, geureom i koteuneunyo? Ttatteutajyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 따뜻하고 예쁘네요.",
+      "reading": "Ne, ttatteutago yeppeuneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨는 뭐 볼래요?",
+      "reading": "Nam ssineun mwo bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 티셔츠하고 청바지를 볼 거예요. 아, 이 원피스 정말 예쁘죠?",
+      "reading": "Jeoneun tisyeocheuhago cheongbajireul bol geoyeyo. A, i wonpiseu jeongmal yeppeujyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 예뻐요. 동생 거예요?",
+      "reading": "Ne, yeppeoyo. Dongsaeng geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 제 동생은 분홍색 원피스를 정말 좋아해요.",
+      "reading": "Ne, je dongsaengeun bunhongsaek wonpiseureul jeongmal joahaeyo."
+    }
+  ]
+}

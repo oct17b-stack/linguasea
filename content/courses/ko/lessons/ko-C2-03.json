@@ -1,0 +1,73 @@
+{
+  "id": "ko-C2-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.gamgie-geollida",
+      "kind": "phrase",
+      "text": "감기에 걸리다",
+      "reading": "gamgie geollida"
+    },
+    {
+      "id": "ko.yeori-nada",
+      "kind": "phrase",
+      "text": "열이 나다",
+      "reading": "yeori nada"
+    },
+    {
+      "id": "ko.gichim-hada",
+      "text": "기침하다",
+      "reading": "gichimhada"
+    },
+    {
+      "id": "ko.konmuri-nada",
+      "kind": "phrase",
+      "text": "콧물이 나다",
+      "reading": "konmuri nada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어디가 아프세요?",
+      "reading": "Eodiga apeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "목이 아파요. 콧물도 나요.",
+      "reading": "Mogi apayo. Konmuldo nayo."
+    },
+    {
+      "speaker": "b",
+      "text": "열도 나세요?",
+      "reading": "Yeoldo naseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 저녁에 열이 나요. 기침도 해요.",
+      "reading": "Ne, jeonyeoge yeori nayo. Gichimdo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "언제 기침을 많이 하세요?",
+      "reading": "Eonje gichimeul mani haseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "잘 때 많이 해요. 기침할 때 목이 정말 아파요.",
+      "reading": "Jal ttae mani haeyo. Gichimhal ttae mogi jeongmal apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "감기예요. 감기에 자주 걸리세요?",
+      "reading": "Gamgiyeyo. Gamgie jaju geolliseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 피곤할 때 자주 걸려요.",
+      "reading": "Ne, pigonhal ttae jaju geollyeoyo."
+    }
+  ]
+}

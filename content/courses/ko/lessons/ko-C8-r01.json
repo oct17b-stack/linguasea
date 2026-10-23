@@ -1,0 +1,75 @@
+{
+  "id": "ko-C8-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jeongga",
+      "text": "정가",
+      "reading": "jeongga"
+    },
+    {
+      "id": "ko.isang",
+      "text": "이상",
+      "reading": "isang"
+    },
+    {
+      "id": "ko.gigan",
+      "text": "기간",
+      "reading": "gigan"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "겨울 옷 세일을 해요!",
+        "reading": "Gyeoul ot seireul haeyo!"
+      },
+      {
+        "text": "세일 기간은 이월 일일부터 이월 십사일까지예요.",
+        "reading": "Seil giganeun iwol irilbuteo iwol sipsailkkajiyeyo."
+      }
+    ],
+    [
+      {
+        "text": "코트는 정가의 반이에요.",
+        "reading": "Koteuneun jeonggaui banieyo."
+      },
+      {
+        "text": "티셔츠하고 청바지는 정가에서 만 원을 할인해요.",
+        "reading": "Tisyeocheuhago cheongbajineun jeonggaeseo man woneul harinhaeyo."
+      },
+      {
+        "text": "장갑하고 모자는 두 개에 만 원이에요.",
+        "reading": "Janggaphago mojaneun du gaee man wonieyo."
+      }
+    ],
+    [
+      {
+        "text": "십만 원 이상은 오천 원을 더 할인해요.",
+        "reading": "Simman won isangeun ocheon woneul deo harinhaeyo."
+      },
+      {
+        "text": "현금하고 카드 모두 괜찮아요.",
+        "reading": "Hyeongeumhago kadeu modu gwaenchanayo."
+      },
+      {
+        "text": "많이 오세요!",
+        "reading": "Mani oseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

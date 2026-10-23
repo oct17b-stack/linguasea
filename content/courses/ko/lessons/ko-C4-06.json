@@ -1,0 +1,75 @@
+{
+  "id": "ko-C4-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.yeollak-hada",
+      "text": "연락하다",
+      "reading": "yeollakada"
+    },
+    {
+      "id": "ko.munja",
+      "text": "문자",
+      "reading": "munja"
+    },
+    {
+      "id": "ko.kkok",
+      "text": "꼭",
+      "reading": "kkok"
+    },
+    {
+      "id": "ko.ijeobeorida",
+      "text": "잊어버리다",
+      "reading": "ijeobeorida"
+    },
+    {
+      "id": "ko.gieok-hada",
+      "text": "기억하다",
+      "reading": "gieokada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 목요일 약속 기억해요?",
+      "reading": "Nam ssi, mogyoil yaksok gieokaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 기억해요. 여섯 시에 영화를 봐요.",
+      "reading": "Ne, gieokaeyo. Yeoseot sie yeonghwareul bwayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 제가 수요일 저녁에 문자 할게요.",
+      "reading": "Ne. Jega suyoil jeonyeoge munja halgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 꼭 문자 주세요. 저는 약속을 자주 잊어버려요.",
+      "reading": "Ne, kkok munja juseyo. Jeoneun yaksogeul jaju ijeobeoryeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 알겠어요. 꼭 연락할게요.",
+      "reading": "Haha, algesseoyo. Kkok yeollakalgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 다섯 시 오십 분에 도착할게요.",
+      "reading": "Jeoneun daseot si osip bune dochakalgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 잊어버리지 마세요!",
+      "reading": "Joayo. Ijeobeoriji maseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 꼭 기억할게요!",
+      "reading": "Ne, kkok gieokalgeyo!"
+    }
+  ]
+}

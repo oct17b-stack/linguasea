@@ -1,0 +1,78 @@
+{
+  "id": "ko-C8-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sinda",
+      "text": "신다",
+      "reading": "sinda"
+    },
+    {
+      "id": "ko.mojareul-sseuda",
+      "kind": "phrase",
+      "text": "모자를 쓰다",
+      "reading": "mojareul sseuda"
+    },
+    {
+      "id": "ko.janggabeul-kkida",
+      "kind": "phrase",
+      "text": "장갑을 끼다",
+      "reading": "janggabeul kkida"
+    },
+    {
+      "id": "ko.nektaireul-maeda",
+      "kind": "phrase",
+      "text": "넥타이를 매다",
+      "reading": "nektaireul maeda"
+    },
+    {
+      "id": "ko.beotda",
+      "text": "벗다",
+      "reading": "beotda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이 사진은 뭐예요?",
+      "reading": "Minjun ssi, i sajineun mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "동아리 사진이에요. 그날 정말 추웠어요.",
+      "reading": "Dongari sajinieyo. Geunal jeongmal chuwosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "넥타이를 매고 있는 사람은 선배예요?",
+      "reading": "Nektaireul maego inneun sarameun seonbaeyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 선배예요. 모자를 쓰고 있는 사람은 후배예요.",
+      "reading": "Ne, seonbaeyeyo. Mojareul sseugo inneun sarameun hubaeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 후배는 장갑도 끼고 있어요.",
+      "reading": "A, hubaeneun janggapdo kkigo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 저는 여기 있어요. 까만 신발을 신고 있어요.",
+      "reading": "Ne. Jeoneun yeogi isseoyo. Kkaman sinbareul singo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨는 모자를 안 쓰고 있어요.",
+      "reading": "Minjun ssineun mojareul an sseugo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "사진을 찍을 때 모자를 벗었어요.",
+      "reading": "Sajineul jjigeul ttae mojareul beoseosseoyo."
+    }
+  ]
+}

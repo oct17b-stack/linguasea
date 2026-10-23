@@ -1,0 +1,53 @@
+{
+  "id": "en-A15-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.whats-it-like",
+      "kind": "phrase",
+      "text": "What's it like?",
+      "reading": "ˈwʌts ɪt ˈlaɪk?"
+    },
+    {
+      "id": "en.i-think",
+      "kind": "phrase",
+      "text": "I think …",
+      "reading": "aɪ ˈθɪŋk …"
+    },
+    {
+      "id": "en.i-think-so",
+      "kind": "phrase",
+      "text": "I think so.",
+      "reading": "aɪ ˈθɪŋk ˈsoʊ."
+    },
+    {
+      "id": "en.maybe",
+      "text": "maybe",
+      "reading": "ˈmeɪbi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, durian ice cream! What's it like?",
+      "reading": "ˈnɑːm, ˈdʊriən ˈaɪs ˌkriːm! ˈwʌts ɪt ˈlaɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "I think it's delicious. And sweet.",
+      "reading": "aɪ ˈθɪŋk ɪts dɪˈlɪʃəs. ənd ˈswiːt."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it smelly?",
+      "reading": "ɪz ɪt ˈsmɛli?"
+    },
+    {
+      "speaker": "a",
+      "text": "I think so. Maybe a little!",
+      "reading": "aɪ ˈθɪŋk ˈsoʊ. ˈmeɪbi ə ˈlɪtəl!"
+    }
+  ]
+}

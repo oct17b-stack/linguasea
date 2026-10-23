@@ -1,0 +1,75 @@
+{
+  "id": "ko-C8-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ppalgata",
+      "text": "빨갛다",
+      "reading": "ppalgata"
+    },
+    {
+      "id": "ko.parata",
+      "text": "파랗다",
+      "reading": "parata"
+    },
+    {
+      "id": "ko.norata",
+      "text": "노랗다",
+      "reading": "norata"
+    },
+    {
+      "id": "ko.hayata",
+      "text": "하얗다",
+      "reading": "hayata"
+    },
+    {
+      "id": "ko.kkamata",
+      "text": "까맣다",
+      "reading": "kkamata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 이 빨간 치마 얼마예요?",
+      "reading": "Jeogiyo, i ppalgan chima eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "삼만 원이에요. 파란 치마도 있어요.",
+      "reading": "Samman wonieyo. Paran chimado isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "음, 빨간 치마는 너무 빨개요. 노란 치마는 없어요?",
+      "reading": "Eum, ppalgan chimaneun neomu ppalgaeyo. Noran chimaneun eopseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "노란 치마는 없어요. 하얀 치마는 어때요?",
+      "reading": "Noran chimaneun eopseoyo. Hayan chimaneun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 하얀 치마는 어디에 있어요?",
+      "reading": "Joayo. Hayan chimaneun eodie isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "저기 까만 바지 옆에 있어요.",
+      "reading": "Jeogi kkaman baji yeope isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 하얘요! 이거 얼마예요?",
+      "reading": "Wa, jeongmal hayaeyo! Igeo eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "이만 오천 원이에요.",
+      "reading": "Iman ocheon wonieyo."
+    }
+  ]
+}

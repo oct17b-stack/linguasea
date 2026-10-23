@@ -1,0 +1,50 @@
+{
+  "id": "en-A15-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.fast",
+      "text": "fast",
+      "reading": "fæst"
+    },
+    {
+      "id": "en.slow",
+      "text": "slow",
+      "reading": "sloʊ"
+    },
+    {
+      "id": "en.hard",
+      "text": "hard",
+      "reading": "hɑːrd"
+    },
+    {
+      "id": "en.soft",
+      "text": "soft",
+      "reading": "sɔːft"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is this a fast computer?",
+      "reading": "ˈnɑːm, ɪz ðɪs ə ˈfæst kəmˈpjuːtər?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's a slow computer.",
+      "reading": "ˈnoʊ, ɪts ə ˈsloʊ kəmˈpjuːtər."
+    },
+    {
+      "speaker": "c",
+      "text": "And this chair? Is it soft?",
+      "reading": "ənd ðɪs ˈtʃɛr? ɪz ɪt ˈsɔːft?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. It's a very hard chair!",
+      "reading": "ˈnoʊ. ɪts ə ˈvɛri ˈhɑːrd ˈtʃɛr!"
+    }
+  ]
+}

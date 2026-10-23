@@ -1,0 +1,50 @@
+{
+  "id": "en-A14-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.movie",
+      "text": "movie",
+      "reading": "ˈmuːvi"
+    },
+    {
+      "id": "en.tv-show",
+      "text": "TV show",
+      "reading": "ˌtiːˈviː ˌʃoʊ"
+    },
+    {
+      "id": "en.anime",
+      "text": "anime",
+      "reading": "ˈænɪmeɪ"
+    },
+    {
+      "id": "en.actor",
+      "text": "actor",
+      "reading": "ˈæktər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you like Thai movies?",
+      "reading": "ˈnɑːm, duː juː ˈlaɪk ˈtaɪ ˈmuːviz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I do. And Korean TV shows!",
+      "reading": "ˈjɛs, aɪ ˈduː. ənd kəˈriːən ˌtiːˈviː ˌʃoʊz!"
+    },
+    {
+      "speaker": "c",
+      "text": "Do you like anime, too?",
+      "reading": "duː juː ˈlaɪk ˈænɪmeɪ, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! Anime is my favorite.",
+      "reading": "ˈjɛs! ˈænɪmeɪ ɪz maɪ ˈfeɪvərɪt."
+    }
+  ]
+}

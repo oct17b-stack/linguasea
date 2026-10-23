@@ -1,0 +1,50 @@
+{
+  "id": "en-A16-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.police-officer",
+      "text": "police officer",
+      "reading": "pəˈliːs ˌɔːfɪsər"
+    },
+    {
+      "id": "en.driver",
+      "text": "driver",
+      "reading": "ˈdraɪvər"
+    },
+    {
+      "id": "en.farmer",
+      "text": "farmer",
+      "reading": "ˈfɑːrmər"
+    },
+    {
+      "id": "en.engineer",
+      "text": "engineer",
+      "reading": "ˌɛndʒɪˈnɪr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Who's this?",
+      "reading": "ˈhuːz ˈðɪs?"
+    },
+    {
+      "speaker": "b",
+      "text": "My son. He's a police officer.",
+      "reading": "maɪ ˈsʌn. hiːz ə pəˈliːs ˌɔːfɪsər."
+    },
+    {
+      "speaker": "a",
+      "text": "And this woman?",
+      "reading": "ənd ðɪs ˈwʊmən?"
+    },
+    {
+      "speaker": "b",
+      "text": "My daughter. She's an engineer!",
+      "reading": "maɪ ˈdɔːtər. ʃiːz ən ˌɛndʒɪˈnɪr!"
+    }
+  ]
+}

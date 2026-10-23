@@ -1,0 +1,70 @@
+{
+  "id": "ko-C8-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.harin",
+      "text": "할인",
+      "reading": "harin"
+    },
+    {
+      "id": "ko.seil",
+      "text": "세일",
+      "reading": "seil"
+    },
+    {
+      "id": "ko.pojang-hada",
+      "text": "포장하다",
+      "reading": "pojanghada"
+    },
+    {
+      "id": "ko.yuhaeng",
+      "text": "유행",
+      "reading": "yuhaeng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 지금 세일이에요!",
+      "reading": "Eoseo oseyo. Jigeum seirieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "세일이요? 이 코트도 할인해요?",
+      "reading": "Seiriyo? I koteudo harinhaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 오만 원 할인해요. 이 코트가 지금 유행이에요.",
+      "reading": "Ne, oman won harinhaeyo. I koteuga jigeum yuhaengieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 예쁘네요. 회색은 없어요?",
+      "reading": "Wa, yeppeuneyo. Hoesaegeun eopseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "있어요. 여기 회색 코트를 입어 보세요. 제가 도와 드릴게요.",
+      "reading": "Isseoyo. Yeogi hoesaek koteureul ibeo boseyo. Jega dowa deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 잘 맞아요! 이거 주세요.",
+      "reading": "Wa, jal majayo! Igeo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "감사합니다. 포장해 드릴까요?",
+      "reading": "Gamsahamnida. Pojanghae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 괜찮아요. 지금 입을게요!",
+      "reading": "Aniyo, gwaenchanayo. Jigeum ibeulgeyo!"
+    }
+  ]
+}

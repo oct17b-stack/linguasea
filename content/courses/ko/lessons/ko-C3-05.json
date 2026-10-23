@@ -1,0 +1,70 @@
+{
+  "id": "ko-C3-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jikjang",
+      "text": "직장",
+      "reading": "jikjang"
+    },
+    {
+      "id": "ko.jigwon",
+      "text": "직원",
+      "reading": "jigwon"
+    },
+    {
+      "id": "ko.dongnyo",
+      "text": "동료",
+      "reading": "dongnyo"
+    },
+    {
+      "id": "ko.buseo",
+      "text": "부서",
+      "reading": "buseo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 누나는 무슨 일을 해요?",
+      "reading": "Minjun ssi, nunaneun museun ireul haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "은행에서 일해요. 명동에 있는 은행이에요.",
+      "reading": "Eunhaengeseo ilhaeyo. Myeongdonge inneun eunhaengieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 은행에서 일하는 직원이에요? 무슨 부서에서 일해요?",
+      "reading": "Wa, eunhaengeseo ilhaneun jigwonieyo? Museun buseoeseo ilhaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "카드 부서에서 일해요. 누나는 직장을 정말 좋아해요.",
+      "reading": "Kadeu buseoeseo ilhaeyo. Nunaneun jikjangeul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "직장이 집에서 멀어요?",
+      "reading": "Jikjangi jibeseo meoreoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 가까워요. 매일 지하철을 타요.",
+      "reading": "Aniyo, gakkawoyo. Maeil jihacheoreul tayo."
+    },
+    {
+      "speaker": "a",
+      "text": "동료들은 어때요?",
+      "reading": "Dongnyodeureun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 같이 일하는 동료들하고 자주 점심을 먹어요.",
+      "reading": "Joayo. Gachi ilhaneun dongnyodeulhago jaju jeomsimeul meogeoyo."
+    }
+  ]
+}

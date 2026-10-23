@@ -1,0 +1,83 @@
+{
+  "id": "ko-C4-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.dapjang",
+      "text": "답장",
+      "reading": "dapjang"
+    },
+    {
+      "id": "ko.beolsseo",
+      "text": "벌써",
+      "reading": "beolsseo"
+    },
+    {
+      "id": "ko.geumbang",
+      "text": "금방",
+      "reading": "geumbang"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 남 씨, 내일 몇 시에 만날까요?",
+        "reading": "Minjun: Nam ssi, naeil myeot sie mannalkkayo?"
+      },
+      {
+        "text": "남: 두 시에 역 삼 번 출구에서 만나는 게 어때요?",
+        "reading": "Nam: Du sie yeok sam beon chulgueseo mannaneun ge eottaeyo?"
+      },
+      {
+        "text": "민준: 좋아요. 내일 만나요!",
+        "reading": "Minjun: Joayo. Naeil mannayo!"
+      }
+    ],
+    [
+      {
+        "text": "민준: 남 씨, 저는 벌써 출구 앞에 있어요.",
+        "reading": "Minjun: Nam ssi, jeoneun beolsseo chulgu ape isseoyo."
+      },
+      {
+        "text": "어디예요? 답장 주세요!",
+        "reading": "Eodiyeyo? Dapjang juseyo!"
+      },
+      {
+        "text": "남: 미안해요! 지금 버스를 타고 있어요.",
+        "reading": "Nam: Mianhaeyo! Jigeum beoseureul tago isseoyo."
+      },
+      {
+        "text": "십 분 후에 도착해요. 금방 갈게요!",
+        "reading": "Sip bun hue dochakaeyo. Geumbang galgeyo!"
+      }
+    ],
+    [
+      {
+        "text": "민준: 괜찮아요. 출구 옆 편의점에서 기다릴게요.",
+        "reading": "Minjun: Gwaenchanayo. Chulgu yeop pyeonuijeomeseo gidarilgeyo."
+      },
+      {
+        "text": "커피 마실래요?",
+        "reading": "Keopi masillaeyo?"
+      },
+      {
+        "text": "남: 네, 좋아요! 고마워요!",
+        "reading": "Nam: Ne, joayo! Gomawoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

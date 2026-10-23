@@ -1,0 +1,55 @@
+{
+  "id": "en-A13-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.cow",
+      "text": "cow",
+      "reading": "kaʊ"
+    },
+    {
+      "id": "en.pig",
+      "text": "pig",
+      "reading": "pɪɡ"
+    },
+    {
+      "id": "en.duck",
+      "text": "duck",
+      "reading": "dʌk"
+    },
+    {
+      "id": "en.goat",
+      "text": "goat",
+      "reading": "ɡoʊt"
+    },
+    {
+      "id": "en.horse",
+      "text": "horse",
+      "reading": "hɔːrs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Look! Chickens, ducks, and goats!",
+      "reading": "ˈlʊk! ˈtʃɪkənz, ˈdʌks, ənd ˈɡoʊts!"
+    },
+    {
+      "speaker": "a",
+      "text": "And a cow! Oh, and a horse!",
+      "reading": "ənd ə ˈkaʊ! ˈoʊ, ənd ə ˈhɔːrs!"
+    },
+    {
+      "speaker": "c",
+      "text": "Nam, do you eat chicken?",
+      "reading": "ˈnɑːm, duː juː ˈiːt ˈtʃɪkən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I do. Chicken and rice!",
+      "reading": "ˈjɛs, aɪ ˈduː. ˈtʃɪkən ənd ˈraɪs!"
+    }
+  ]
+}

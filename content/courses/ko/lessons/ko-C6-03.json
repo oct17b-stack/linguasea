@@ -1,0 +1,71 @@
+{
+  "id": "ko-C6-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.junbi-hada",
+      "text": "준비하다",
+      "reading": "junbihada"
+    },
+    {
+      "id": "ko.jimeul-ssada",
+      "kind": "phrase",
+      "text": "짐을 싸다",
+      "reading": "jimeul ssada"
+    },
+    {
+      "id": "ko.yeogwon",
+      "text": "여권",
+      "reading": "yeogwon"
+    },
+    {
+      "id": "ko.yeyak-hada",
+      "text": "예약하다",
+      "reading": "yeyakada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 여행 준비했어요?",
+      "reading": "Nam ssi, yeohaeng junbihaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 비행기표를 예약했어요. 방콕에서 치앙마이까지 기차도 예약했어요.",
+      "reading": "Ne, bihaenggipyoreul yeyakaesseoyo. Bangkogeseo Chiangmaikkaji gichado yeyakaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 여권은요?",
+      "reading": "Wa, yeogwoneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여권도 있어요. 가방에 있어요.",
+      "reading": "Yeogwondo isseoyo. Gabange isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "짐은 언제 쌀 거예요?",
+      "reading": "Jimeun eonje ssal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다음 달 십오일에 가요. 가기 하루 전에 쌀 거예요.",
+      "reading": "Daeum dal siboire gayo. Gagi haru jeone ssal geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 가기 전에 같이 저녁을 먹어요!",
+      "reading": "Geureom gagi jeone gachi jeonyeogeul meogeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 다음 주 목요일 어때요?",
+      "reading": "Joayo! Daeum ju mogyoil eottaeyo?"
+    }
+  ]
+}

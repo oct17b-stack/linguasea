@@ -1,0 +1,76 @@
+{
+  "id": "ko-C3-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.cheoncheonhi",
+      "text": "천천히",
+      "reading": "cheoncheonhi"
+    },
+    {
+      "id": "ko.han-beon-deo",
+      "kind": "phrase",
+      "text": "한 번 더",
+      "reading": "han beon deo"
+    },
+    {
+      "id": "ko.jilmun-hada",
+      "text": "질문하다",
+      "reading": "jilmunhada"
+    },
+    {
+      "id": "ko.daedap-hada",
+      "text": "대답하다",
+      "reading": "daedapada"
+    },
+    {
+      "id": "ko.seolmyeong-hada",
+      "text": "설명하다",
+      "reading": "seolmyeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 대답해 주세요. 주말에 보통 뭐 해요?",
+      "reading": "Nam ssi, daedapae juseyo. Jumare botong mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "죄송합니다. 한 번 더 말해 주세요.",
+      "reading": "Joesonghamnida. Han beon deo malhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "주말에 보통 뭐 해요?",
+      "reading": "Jumare botong mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "선생님, 좀 천천히 말해 주세요.",
+      "reading": "Seonsaengnim, jom cheoncheonhi malhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "주말에... 보통... 뭐 해요?",
+      "reading": "Jumare... botong... mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 주말에는 식당에서 일해요.",
+      "reading": "A, jumareneun sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 좋아요. 질문 있어요?",
+      "reading": "Ne, joayo. Jilmun isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 질문해도 돼요? 이 단어를 설명해 주세요.",
+      "reading": "Ne, jilmunhaedo dwaeyo? I daneoreul seolmyeonghae juseyo."
+    }
+  ]
+}

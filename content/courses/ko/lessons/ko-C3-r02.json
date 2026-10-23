@@ -1,0 +1,84 @@
+{
+  "id": "ko-C3-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gyobok",
+      "text": "교복",
+      "reading": "gyobok"
+    },
+    {
+      "id": "ko.iphak-hada",
+      "text": "입학하다",
+      "reading": "ipakada"
+    },
+    {
+      "id": "ko.joreop-hada",
+      "text": "졸업하다",
+      "reading": "joreopada"
+    },
+    {
+      "id": "ko.godeunghakgyo",
+      "text": "고등학교",
+      "reading": "godeunghakgyo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 남 씨, 태국 고등학교에도 교복이 있어요?",
+        "reading": "Minjun: Nam ssi, Taeguk godeunghakgyoedo gyobogi isseoyo?"
+      },
+      {
+        "text": "남: 네, 있어요. 태국에서는 대학생도 교복이 있어요.",
+        "reading": "Nam: Ne, isseoyo. Taegugeseoneun daehaksaengdo gyobogi isseoyo."
+      },
+      {
+        "text": "민준: 와, 대학생도요? 한국 대학생은 교복이 없어요.",
+        "reading": "Minjun: Wa, daehaksaengdoyo? Hanguk daehaksaengeun gyobogi eopseoyo."
+      }
+    ],
+    [
+      {
+        "text": "남: 한국에서는 언제 입학해요?",
+        "reading": "Nam: Hangugeseoneun eonje ipakaeyo?"
+      },
+      {
+        "text": "민준: 삼월에 입학해요. 태국은요?",
+        "reading": "Minjun: Samwore ipakaeyo. Taegugeunyo?"
+      },
+      {
+        "text": "남: 태국은 오월에 입학해요.",
+        "reading": "Nam: Taegugeun owore ipakaeyo."
+      }
+    ],
+    [
+      {
+        "text": "민준: 졸업은 언제 해요?",
+        "reading": "Minjun: Joreobeun eonje haeyo?"
+      },
+      {
+        "text": "남: 삼월에 졸업해요. 제 여동생은 지금 고등학교 학생이에요.",
+        "reading": "Nam: Samwore joreopaeyo. Je yeodongsaengeun jigeum godeunghakgyo haksaengieyo."
+      },
+      {
+        "text": "민준: 한국은 이월에 졸업해요.",
+        "reading": "Minjun: Hangugeun iwore joreopaeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

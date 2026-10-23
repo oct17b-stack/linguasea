@@ -1,0 +1,75 @@
+{
+  "id": "ko-C2-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.meori",
+      "text": "머리",
+      "reading": "meori"
+    },
+    {
+      "id": "ko.nun",
+      "text": "눈",
+      "reading": "nun"
+    },
+    {
+      "id": "ko.gwi",
+      "text": "귀",
+      "reading": "gwi"
+    },
+    {
+      "id": "ko.ko",
+      "text": "코",
+      "reading": "ko"
+    },
+    {
+      "id": "ko.mok",
+      "text": "목",
+      "reading": "mok"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 괜찮아요?",
+      "reading": "Nam ssi, gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 머리가 아파요. 목도 좀 아파요.",
+      "reading": "Aniyo, meoriga apayo. Mokdo jom apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "코하고 귀는요?",
+      "reading": "Kohago gwineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "코는 괜찮아요. 귀가 좀 아파요.",
+      "reading": "Koneun gwaenchanayo. Gwiga jom apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "눈은요?",
+      "reading": "Nuneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "눈은 안 아파요. 그런데 너무 피곤해요.",
+      "reading": "Nuneun an apayo. Geureonde neomu pigonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘은 집에서 쉬어요. 내일 같이 병원에 가요.",
+      "reading": "Oneureun jibeseo swieoyo. Naeil gachi byeongwone gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 고마워요.",
+      "reading": "Ne, gomawoyo."
+    }
+  ]
+}

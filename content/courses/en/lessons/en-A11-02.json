@@ -1,0 +1,55 @@
+{
+  "id": "en-A11-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.head",
+      "text": "head",
+      "reading": "hɛd"
+    },
+    {
+      "id": "en.body",
+      "text": "body",
+      "reading": "ˈbɑːdi"
+    },
+    {
+      "id": "en.neck",
+      "text": "neck",
+      "reading": "nɛk"
+    },
+    {
+      "id": "en.hand",
+      "text": "hand",
+      "reading": "hænd"
+    },
+    {
+      "id": "en.finger",
+      "text": "finger",
+      "reading": "ˈfɪŋɡər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How many hands do you have?",
+      "reading": "ˈhaʊ ˈmɛni ˈhændz duː juː ˈhæv?"
+    },
+    {
+      "speaker": "b",
+      "text": "Two hands! One, two!",
+      "reading": "ˈtuː ˈhændz! ˈwʌn, ˈtuː!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! And how many fingers?",
+      "reading": "ˈjɛs! ənd ˈhaʊ ˈmɛni ˈfɪŋɡərz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Ten fingers! And one head!",
+      "reading": "ˈtɛn ˈfɪŋɡərz! ənd ˈwʌn ˈhɛd!"
+    }
+  ]
+}

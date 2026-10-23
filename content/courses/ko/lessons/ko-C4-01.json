@@ -1,0 +1,71 @@
+{
+  "id": "ko-C4-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.yaksok",
+      "text": "약속",
+      "reading": "yaksok"
+    },
+    {
+      "id": "ko.hamkke",
+      "text": "함께",
+      "reading": "hamkke"
+    },
+    {
+      "id": "ko.sigani-itda",
+      "kind": "phrase",
+      "text": "시간이 있다",
+      "reading": "sigani itda"
+    },
+    {
+      "id": "ko.hanga-hada",
+      "text": "한가하다",
+      "reading": "hangahada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 주말에 시간이 있어요?",
+      "reading": "Nam ssi, jumare sigani isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "토요일에는 식당에서 일해요. 일요일에는 한가해요.",
+      "reading": "Toyoireneun sikdangeseo ilhaeyo. Iryoireneun hangahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "일요일에 같이 영화를 볼까요?",
+      "reading": "Iryoire gachi yeonghwareul bolkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 몇 시에 만날까요?",
+      "reading": "Joayo! Myeot sie mannalkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "두 시에 만나요. 영화를 보고 함께 저녁을 먹을까요?",
+      "reading": "Du sie mannayo. Yeonghwareul bogo hamkke jeonyeogeul meogeulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요. 어디에서 만날까요?",
+      "reading": "Ne, joayo. Eodieseo mannalkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 앞에서 만나요.",
+      "reading": "Hakgyo apeseo mannayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 일요일 두 시, 약속이에요!",
+      "reading": "Joayo. Iryoil du si, yaksogieyo!"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ko-C1-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.chwimi",
+      "text": "취미",
+      "reading": "chwimi"
+    },
+    {
+      "id": "ko.dokseo",
+      "text": "독서",
+      "reading": "dokseo"
+    },
+    {
+      "id": "ko.geurim",
+      "text": "그림",
+      "reading": "geurim"
+    },
+    {
+      "id": "ko.geurida",
+      "text": "그리다",
+      "reading": "geurida"
+    },
+    {
+      "id": "ko.sigani-nada",
+      "kind": "phrase",
+      "text": "시간이 나다",
+      "reading": "sigani nada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 취미가 뭐예요?",
+      "reading": "Nam ssi, chwimiga mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "독서예요. 책을 읽는 것을 정말 좋아해요. 민준 씨는요?",
+      "reading": "Dokseoyeyo. Chaegeul ingneun geoseul jeongmal joahaeyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "제 취미는 그림이에요. 그림을 그리는 것을 좋아해요.",
+      "reading": "Je chwimineun geurimieyo. Geurimeul geurineun geoseul joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 저도 그림을 보는 것을 좋아해요. 언제 그려요?",
+      "reading": "Wa, jeodo geurimeul boneun geoseul joahaeyo. Eonje geuryeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "주말에 그려요. 주말에는 시간이 좀 나요.",
+      "reading": "Jumare geuryeoyo. Jumareneun sigani jom nayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 주말에 시간이 안 나요. 식당에서 일해요.",
+      "reading": "Jeoneun jumare sigani an nayo. Sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 일하는 것을 좋아해요?",
+      "reading": "A, ilhaneun geoseul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 일하는 것은 싫어해요! 하하.",
+      "reading": "Aniyo, ilhaneun geoseun sireohaeyo! Haha."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "ko-C8-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.paeding",
+      "text": "패딩",
+      "reading": "paeding"
+    },
+    {
+      "id": "ko.dukkeopda",
+      "text": "두껍다",
+      "reading": "dukkeopda"
+    },
+    {
+      "id": "ko.yalda",
+      "text": "얇다",
+      "reading": "yalda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘은 정말 추웠어요. 아침 기온이 영하였어요.",
+        "reading": "Oneureun jeongmal chuwosseoyo. Achim gioni yeonghayeosseoyo."
+      },
+      {
+        "text": "한국 겨울은 처음이에요.",
+        "reading": "Hanguk gyeoureun cheoeumieyo."
+      },
+      {
+        "text": "제 코트는 너무 얇았어요.",
+        "reading": "Je koteuneun neomu yalbasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "오후에 민준 씨하고 명동에 패딩을 사러 갔어요.",
+        "reading": "Ohue Minjun ssihago Myeongdonge paedingeul sareo gasseoyo."
+      },
+      {
+        "text": "우선 까만 패딩을 입었어요. 좀 헐렁했어요.",
+        "reading": "Useon kkaman paedingeul ibeosseoyo. Jom heolleonghaesseoyo."
+      },
+      {
+        "text": "그다음에 하얀 패딩을 입었어요. 두껍고 따뜻했어요.",
+        "reading": "Geudaeume hayan paedingeul ibeosseoyo. Dukkeopgo ttatteutaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "정가는 이십만 원이었지만 세일이었어요.",
+        "reading": "Jeongganeun isimman wonieotjiman seirieosseoyo."
+      },
+      {
+        "text": "결국 십오만 원에 하얀 패딩을 샀어요.",
+        "reading": "Gyeolguk siboman wone hayan paedingeul sasseoyo."
+      },
+      {
+        "text": "이 패딩이 있으니까 겨울도 괜찮을 거예요!",
+        "reading": "I paedingi isseunikka gyeouldo gwaenchaneul geoyeyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

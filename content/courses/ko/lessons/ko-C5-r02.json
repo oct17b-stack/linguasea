@@ -1,0 +1,80 @@
+{
+  "id": "ko-C5-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jigak-hada",
+      "text": "지각하다",
+      "reading": "jigakada"
+    },
+    {
+      "id": "ko.kkamjjak-nollada",
+      "kind": "phrase",
+      "text": "깜짝 놀라다",
+      "reading": "kkamjjak nollada"
+    },
+    {
+      "id": "ko.dahaenghi",
+      "text": "다행히",
+      "reading": "dahaenghi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "월요일 아침, 민준 씨는 늦잠을 잤어요.",
+        "reading": "Woryoil achim, Minjun ssineun neutjameul jasseoyo."
+      },
+      {
+        "text": "여덟 시 반에 일어났어요. 아홉 시에 시험이 있었어요!",
+        "reading": "Yeodeol si bane ireonasseoyo. Ahop sie siheomi isseosseoyo!"
+      },
+      {
+        "text": "민준 씨는 깜짝 놀랐어요. 아침도 못 먹었어요.",
+        "reading": "Minjun ssineun kkamjjak nollasseoyo. Achimdo mot meogeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준 씨는 버스를 타러 갔어요.",
+        "reading": "Minjun ssineun beoseureul tareo gasseoyo."
+      },
+      {
+        "text": "그런데 버스를 놓쳤어요!",
+        "reading": "Geureonde beoseureul notchyeosseoyo!"
+      },
+      {
+        "text": "결국 택시를 탔어요.",
+        "reading": "Gyeolguk taeksireul tasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준 씨는 시험에 십 분 지각했어요.",
+        "reading": "Minjun ssineun siheome sip bun jigakaesseoyo."
+      },
+      {
+        "text": "다행히 시험은 볼 수 있었어요.",
+        "reading": "Dahaenghi siheomeun bol su isseosseoyo."
+      },
+      {
+        "text": "민준 씨는 오늘 정말 피곤했어요.",
+        "reading": "Minjun ssineun oneul jeongmal pigonhaesseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

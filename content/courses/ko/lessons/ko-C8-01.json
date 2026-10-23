@@ -1,0 +1,75 @@
+{
+  "id": "ko-C8-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.saekkkal",
+      "text": "색깔",
+      "reading": "saekkkal"
+    },
+    {
+      "id": "ko.geomeunsaek",
+      "text": "검은색",
+      "reading": "geomeunsaek"
+    },
+    {
+      "id": "ko.hoesaek",
+      "text": "회색",
+      "reading": "hoesaek"
+    },
+    {
+      "id": "ko.choroksaek",
+      "text": "초록색",
+      "reading": "choroksaek"
+    },
+    {
+      "id": "ko.bunhongsaek",
+      "text": "분홍색",
+      "reading": "bunhongsaek"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요!",
+      "reading": "Eoseo oseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "짧은 치마 있어요?",
+      "reading": "Jjalbeun chima isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 이 검은색 치마 어때요?",
+      "reading": "Ne, i geomeunsaek chima eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음, 검은색은 좀... 다른 색깔은 없어요?",
+      "reading": "Eum, geomeunsaegeun jom... Dareun saekkkareun eopseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "회색, 초록색, 분홍색이 있어요.",
+      "reading": "Hoesaek, choroksaek, bunhongsaegi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 예쁜 분홍색이네요!",
+      "reading": "Wa, jeongmal yeppeun bunhongsaegineyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 이 치마는 가볍고 싸요. 이만 원이에요.",
+      "reading": "Ne, i chimaneun gabyeopgo ssayo. Iman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 이 분홍색 치마 주세요.",
+      "reading": "Joayo. I bunhongsaek chima juseyo."
+    }
+  ]
+}

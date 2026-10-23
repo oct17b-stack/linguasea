@@ -1,0 +1,72 @@
+{
+  "id": "ko-C2-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jeopsu-hada",
+      "text": "접수하다",
+      "reading": "jeopsuhada"
+    },
+    {
+      "id": "ko.hwanja",
+      "text": "환자",
+      "reading": "hwanja"
+    },
+    {
+      "id": "ko.jinchareul-batda",
+      "kind": "phrase",
+      "text": "진찰을 받다",
+      "reading": "jinchareul batda"
+    },
+    {
+      "id": "ko.jusareul-matda",
+      "kind": "phrase",
+      "text": "주사를 맞다",
+      "reading": "jusareul matda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 여기에서 접수해요?",
+      "reading": "Annyeonghaseyo. Yeogieseo jeopsuhaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 이름이 뭐예요?",
+      "reading": "Ne. Ireumi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "남이에요. 오늘 진찰을 받을 수 있어요?",
+      "reading": "Namieyo. Oneul jinchareul badeul su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 지금 환자가 두 명 있어요. 잠깐만 기다리세요.",
+      "reading": "Ne. Jigeum hwanjaga du myeong isseoyo. Jamkkanman gidariseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 물 좀 마셔도 돼요?",
+      "reading": "Ne. Mul jom masyeodo dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 마셔도 돼요. 물은 저기에 있어요.",
+      "reading": "Ne, masyeodo dwaeyo. Mureun jeogie isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 저... 오늘 주사도 맞아요? 주사를 맞는 것을 정말 싫어해요.",
+      "reading": "Gamsahamnida. Jeo... oneul jusado majayo? Jusareul manneun geoseul jeongmal sireohaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "하하, 괜찮아요. 주사는 안 아파요.",
+      "reading": "Haha, gwaenchanayo. Jusaneun an apayo."
+    }
+  ]
+}

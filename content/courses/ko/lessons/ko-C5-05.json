@@ -1,0 +1,70 @@
+{
+  "id": "ko-C5-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.useon",
+      "text": "우선",
+      "reading": "useon"
+    },
+    {
+      "id": "ko.geudaeume",
+      "text": "그다음에",
+      "reading": "geudaeume"
+    },
+    {
+      "id": "ko.majimageuro",
+      "text": "마지막으로",
+      "reading": "majimageuro"
+    },
+    {
+      "id": "ko.kkeunnaeda",
+      "text": "끝내다",
+      "reading": "kkeunnaeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 일요일에 뭐 했어요?",
+      "reading": "Nam ssi, iryoire mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "우선 아침에 운동했어요. 그다음에 한국어를 공부했어요.",
+      "reading": "Useon achime undonghaesseoyo. Geudaeume hangugeoreul gongbuhaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "오후에는 뭐 했어요?",
+      "reading": "Ohueneun mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공부를 끝내고 나서 점심을 먹었어요. 점심을 먹고 나서 민준 씨를 만났어요.",
+      "reading": "Gongbureul kkeunnaego naseo jeomsimeul meogeosseoyo. Jeomsimeul meokgo naseo Minjun ssireul mannasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "민준 씨하고 뭐 했어요?",
+      "reading": "Minjun ssihago mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한강에서 같이 걸었어요. 그리고 영화를 봤어요.",
+      "reading": "Hangangeseo gachi georeosseoyo. Geurigo yeonghwareul bwasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 바빴어요! 저녁에는요?",
+      "reading": "Wa, bappasseoyo! Jeonyeogeneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "마지막으로 기숙사에서 책을 읽고 잤어요.",
+      "reading": "Majimageuro gisuksaeseo chaegeul ilgo jasseoyo."
+    }
+  ]
+}

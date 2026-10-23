@@ -1,0 +1,72 @@
+{
+  "id": "ko-C5-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.neutjameul-jada",
+      "kind": "phrase",
+      "text": "늦잠을 자다",
+      "reading": "neutjameul jada"
+    },
+    {
+      "id": "ko.haru-jongil",
+      "kind": "phrase",
+      "text": "하루 종일",
+      "reading": "haru jongil"
+    },
+    {
+      "id": "ko.geunyang",
+      "text": "그냥",
+      "reading": "geunyang"
+    },
+    {
+      "id": "ko.jjimjilbang",
+      "text": "찜질방",
+      "reading": "jjimjilbang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 주말에 뭐 했어요?",
+      "reading": "Nam ssi, jumare mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "토요일에는 식당에서 일했어요. 일요일에는 늦잠을 잤어요.",
+      "reading": "Toyoireneun sikdangeseo ilhaesseoyo. Iryoireneun neutjameul jasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "몇 시에 일어났어요?",
+      "reading": "Myeot sie ireonasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열한 시에 일어났어요. 오후에는 기숙사에서 쉬었어요.",
+      "reading": "Yeolhan sie ireonasseoyo. Ohueneun gisuksaeseo swieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "하루 종일 기숙사에 있었어요?",
+      "reading": "Haru jongil gisuksae isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 저녁에 친구하고 찜질방에 갔어요.",
+      "reading": "Aniyo, jeonyeoge chinguhago jjimjilbange gasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 찜질방에서 뭐 했어요?",
+      "reading": "Wa, jjimjilbangeseo mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그냥 쉬었어요. 라면도 먹었어요. 정말 좋았어요!",
+      "reading": "Geunyang swieosseoyo. Ramyeondo meogeosseoyo. Jeongmal joasseoyo!"
+    }
+  ]
+}

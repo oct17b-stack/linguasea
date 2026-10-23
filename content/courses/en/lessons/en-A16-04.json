@@ -1,0 +1,50 @@
+{
+  "id": "en-A16-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.waiter",
+      "text": "waiter",
+      "reading": "ˈweɪtər"
+    },
+    {
+      "id": "en.waitress",
+      "text": "waitress",
+      "reading": "ˈweɪtrəs"
+    },
+    {
+      "id": "en.cleaner",
+      "text": "cleaner",
+      "reading": "ˈkliːnər"
+    },
+    {
+      "id": "en.security-guard",
+      "text": "security guard",
+      "reading": "sɪˈkjʊrəti ˌɡɑːrd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam! Are you a waitress?",
+      "reading": "ˈnɑːm! ər juː ə ˈweɪtrəs?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I am! Here you are.",
+      "reading": "ˈjɛs, aɪ ˈæm! ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks! Is he a waiter, too?",
+      "reading": "ˈθæŋks! ɪz hiː ə ˈweɪtər, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, he's a security guard.",
+      "reading": "ˈnoʊ, hiːz ə sɪˈkjʊrəti ˌɡɑːrd."
+    }
+  ]
+}

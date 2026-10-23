@@ -1,0 +1,51 @@
+{
+  "id": "en-A14-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.read",
+      "text": "read",
+      "reading": "riːd"
+    },
+    {
+      "id": "en.comic-book",
+      "text": "comic book",
+      "reading": "ˈkɑːmɪk ˌbʊk"
+    },
+    {
+      "id": "en.magazine",
+      "text": "magazine",
+      "reading": "ˌmæɡəˈziːn"
+    },
+    {
+      "id": "en.listen-to-music",
+      "kind": "phrase",
+      "text": "listen to music",
+      "reading": "ˈlɪsən tə ˈmjuːzɪk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you read comic books?",
+      "reading": "ˈnɑːm, duː juː ˈriːd ˈkɑːmɪk ˌbʊks?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! Japanese comic books. And you?",
+      "reading": "ˈjɛs! ˌdʒæpəˈniːz ˈkɑːmɪk ˌbʊks. ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I read magazines. And I listen to music.",
+      "reading": "aɪ ˈriːd ˌmæɡəˈziːnz. ənd aɪ ˈlɪsən tə ˈmjuːzɪk."
+    },
+    {
+      "speaker": "a",
+      "text": "I listen to music, too!",
+      "reading": "aɪ ˈlɪsən tə ˈmjuːzɪk, ˈtuː!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ko-C6-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jinaeda",
+      "text": "지내다",
+      "reading": "jinaeda"
+    },
+    {
+      "id": "ko.yeolheul",
+      "text": "열흘",
+      "reading": "yeolheul"
+    },
+    {
+      "id": "ko.geudongan",
+      "text": "그동안",
+      "reading": "geudongan"
+    },
+    {
+      "id": "ko.chincheok",
+      "text": "친척",
+      "reading": "chincheok"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 태국에서 며칠 동안 있을 거예요?",
+      "reading": "Nam ssi, Taegugeseo myeochil dongan isseul geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한 달 동안 있을 거예요. 방콕하고 치앙마이에서 지낼 거예요.",
+      "reading": "Han dal dongan isseul geoyeyo. Bangkokhago Chiangmaieseo jinael geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "치앙마이에서는 며칠 동안 있을 거예요?",
+      "reading": "Chiangmaieseoneun myeochil dongan isseul geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열흘 동안 있을 거예요. 치앙마이에 친척이 있어요.",
+      "reading": "Yeolheul dongan isseul geoyeyo. Chiangmaie chincheogi isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "친척 집에서 지낼 거예요?",
+      "reading": "Chincheok jibeseo jinael geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그동안 동생하고 치앙마이를 구경할 거예요.",
+      "reading": "Ne. Geudongan dongsaenghago Chiangmaireul gugyeonghal geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 좋아요! 저는 그동안 편의점에서 일할 거예요.",
+      "reading": "Wa, joayo! Jeoneun geudongan pyeonuijeomeseo ilhal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 무리하지 마세요!",
+      "reading": "Haha, murihaji maseyo!"
+    }
+  ]
+}

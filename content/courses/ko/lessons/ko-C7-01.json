@@ -1,0 +1,75 @@
+{
+  "id": "ko-C7-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.nalssi",
+      "text": "날씨",
+      "reading": "nalssi"
+    },
+    {
+      "id": "ko.deopda",
+      "text": "덥다",
+      "reading": "deopda"
+    },
+    {
+      "id": "ko.chupda",
+      "text": "춥다",
+      "reading": "chupda"
+    },
+    {
+      "id": "ko.ttatteut-hada",
+      "text": "따뜻하다",
+      "reading": "ttatteutada"
+    },
+    {
+      "id": "ko.siwon-hada",
+      "text": "시원하다",
+      "reading": "siwonhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 어디 가세요?",
+      "reading": "Eoseo oseyo. Eodi gaseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "명동에 가요.",
+      "reading": "Myeongdonge gayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 오늘 날씨가 정말 더워요.",
+      "reading": "Ne. Oneul nalssiga jeongmal deowoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 밖은 정말 더워요. 택시는 시원해요.",
+      "reading": "Ne, bakkeun jeongmal deowoyo. Taeksineun siwonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하. 어느 나라 사람이에요?",
+      "reading": "Haha. Eoneu nara saramieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국 사람이에요. 방콕은 매일 더워요. 십이월에도 따뜻해요.",
+      "reading": "Taeguk saramieyo. Bangkogeun maeil deowoyo. Sibiworedo ttatteutaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국도 지금은 덥지만 시월에는 시원해요. 십이월에는 정말 추워요.",
+      "reading": "Hangukdo jigeumeun deopjiman siworeneun siwonhaeyo. Sibiworeneun jeongmal chuwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 저는 시월이 좋아요!",
+      "reading": "Wa, jeoneun siwori joayo!"
+    }
+  ]
+}

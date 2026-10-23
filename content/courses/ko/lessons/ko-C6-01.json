@@ -1,0 +1,70 @@
+{
+  "id": "ko-C6-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.banghak",
+      "text": "방학",
+      "reading": "banghak"
+    },
+    {
+      "id": "ko.hyuga",
+      "text": "휴가",
+      "reading": "hyuga"
+    },
+    {
+      "id": "ko.gyehoek",
+      "text": "계획",
+      "reading": "gyehoek"
+    },
+    {
+      "id": "ko.yeohaeng-hada",
+      "text": "여행하다",
+      "reading": "yeohaenghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 방학 계획이 있어요?",
+      "reading": "Nam ssi, banghak gyehoegi isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국에 갈 거예요. 가족을 만날 거예요.",
+      "reading": "Ne, Taeguge gal geoyeyo. Gajogeul mannal geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 좋아요! 여행도 할 거예요?",
+      "reading": "Wa, joayo! Yeohaengdo hal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여동생하고 치앙마이를 여행할 거예요. 부모님은 휴가가 없어요.",
+      "reading": "Ne, yeodongsaenghago Chiangmaireul yeohaenghal geoyeyo. Bumonimeun hyugaga eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 부모님은 일하세요?",
+      "reading": "A, bumonimeun ilhaseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 학교 선생님이에요. 민준 씨는 방학에 뭐 할 거예요?",
+      "reading": "Ne, hakgyo seonsaengnimieyo. Minjun ssineun banghage mwo hal geoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 편의점에서 일할 거예요. 여행은 안 할 거예요.",
+      "reading": "Jeoneun pyeonuijeomeseo ilhal geoyeyo. Yeohaengeun an hal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 태국에서 문자 할게요!",
+      "reading": "Geureom Taegugeseo munja halgeyo!"
+    }
+  ]
+}

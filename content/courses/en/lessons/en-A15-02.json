@@ -1,0 +1,55 @@
+{
+  "id": "en-A15-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.clean",
+      "text": "clean",
+      "reading": "kliːn"
+    },
+    {
+      "id": "en.dirty",
+      "text": "dirty",
+      "reading": "ˈdɜːrti"
+    },
+    {
+      "id": "en.empty",
+      "text": "empty",
+      "reading": "ˈɛmpti"
+    },
+    {
+      "id": "en.ugly",
+      "text": "ugly",
+      "reading": "ˈʌɡli"
+    },
+    {
+      "id": "en.smelly",
+      "text": "smelly",
+      "reading": "ˈsmɛli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is this hat clean?",
+      "reading": "ˈnɑːm, ɪz ðɪs ˈhæt ˈkliːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it isn't. It's dirty.",
+      "reading": "ˈnoʊ, ɪt ˈɪzənt. ɪts ˈdɜːrti."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it smelly, too?",
+      "reading": "ɪz ɪt ˈsmɛli, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, it is! It's very smelly!",
+      "reading": "ˈjɛs, ɪt ˈɪz! ɪts ˈvɛri ˈsmɛli!"
+    }
+  ]
+}

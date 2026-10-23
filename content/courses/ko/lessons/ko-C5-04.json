@@ -1,0 +1,70 @@
+{
+  "id": "ko-C5-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.notchida",
+      "text": "놓치다",
+      "reading": "notchida"
+    },
+    {
+      "id": "ko.makcha",
+      "text": "막차",
+      "reading": "makcha"
+    },
+    {
+      "id": "ko.cheotcha",
+      "text": "첫차",
+      "reading": "cheotcha"
+    },
+    {
+      "id": "ko.gyeolguk",
+      "text": "결국",
+      "reading": "gyeolguk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 토요일에 제 문자 봤어요? 답장이 없었어요.",
+      "reading": "Nam ssi, toyoire je munja bwasseoyo? Dapjangi eopseosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "미안해요. 토요일에는 너무 바빴어요. 문자를 못 봤어요.",
+      "reading": "Mianhaeyo. Toyoireneun neomu bappasseoyo. Munjareul mot bwasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "식당에서 일했어요?",
+      "reading": "Sikdangeseo ilhaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 열두 시까지 일했어요. 그리고 막차를 놓쳤어요.",
+      "reading": "Ne, yeoldu sikkaji ilhaesseoyo. Geurigo makchareul notchyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그럼 기숙사에 어떻게 갔어요?",
+      "reading": "A, geureom gisuksae eotteoke gasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "택시는 너무 비쌌어요. 결국 식당 친구 집에서 잤어요.",
+      "reading": "Taeksineun neomu bissasseoyo. Gyeolguk sikdang chingu jibeseo jasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "잘 잤어요?",
+      "reading": "Jal jasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 잘 자지 못했어요. 그리고 일요일 아침에 첫차를 탔어요.",
+      "reading": "Aniyo, jal jaji motaesseoyo. Geurigo iryoil achime cheotchareul tasseoyo."
+    }
+  ]
+}

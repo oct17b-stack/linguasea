@@ -1,0 +1,70 @@
+{
+  "id": "ko-C3-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ganguisil",
+      "text": "강의실",
+      "reading": "ganguisil"
+    },
+    {
+      "id": "ko.maejeom",
+      "text": "매점",
+      "reading": "maejeom"
+    },
+    {
+      "id": "ko.haksaenghoegwan",
+      "text": "학생회관",
+      "reading": "haksaenghoegwan"
+    },
+    {
+      "id": "ko.gisuksa",
+      "text": "기숙사",
+      "reading": "gisuksa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어디 가요?",
+      "reading": "Nam ssi, eodi gayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "매점에 라면 먹으러 가요. 배고파요!",
+      "reading": "Maejeome ramyeon meogeureo gayo. Baegopayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "저도 배고파요. 같이 가요!",
+      "reading": "Jeodo baegopayo. Gachi gayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 민준 씨는 강의실에 안 가요?",
+      "reading": "Joayo. Minjun ssineun ganguisire an gayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "수업은 두 시예요. 수업 후에는 학생회관에 친구들을 만나러 가요.",
+      "reading": "Sueobeun du siyeyo. Sueop hueneun haksaenghoegwane chingudeureul mannareo gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 수업 후에 기숙사에 쉬러 가요. 좀 피곤해요.",
+      "reading": "Jeoneun sueop hue gisuksae swireo gayo. Jom pigonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저녁에는 학생회관에 영화 보러 와요!",
+      "reading": "Jeonyeogeneun haksaenghoegwane yeonghwa boreo wayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "와, 좋아요! 저녁에 만나요.",
+      "reading": "Wa, joayo! Jeonyeoge mannayo."
+    }
+  ]
+}

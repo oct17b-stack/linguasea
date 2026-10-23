@@ -1,0 +1,75 @@
+{
+  "id": "ko-C2-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.cheobangjeon",
+      "text": "처방전",
+      "reading": "cheobangjeon"
+    },
+    {
+      "id": "ko.allyak",
+      "text": "알약",
+      "reading": "allyak"
+    },
+    {
+      "id": "ko.sikhu",
+      "text": "식후",
+      "reading": "sikhu"
+    },
+    {
+      "id": "ko.gamgiyak",
+      "text": "감기약",
+      "reading": "gamgiyak"
+    },
+    {
+      "id": "ko.yeongo",
+      "text": "연고",
+      "reading": "yeongo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 처방전 있으세요?",
+      "reading": "Eoseo oseyo. Cheobangjeon isseuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    },
+    {
+      "speaker": "c",
+      "text": "감기약이에요. 이 알약은 밥을 먹은 후에 드세요.",
+      "reading": "Gamgiyagieyo. I allyageun babeul meogeun hue deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "식후요? 아침에도 먹어요?",
+      "reading": "Sikhuyo? Achimedo meogeoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 아침, 점심, 저녁을 먹은 후에 드세요.",
+      "reading": "Ne, achim, jeomsim, jeonyeogeul meogeun hue deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 연고도 있어요? 무릎이 아파요.",
+      "reading": "Algesseoyo. Yeongodo isseoyo? Mureupi apayo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 있어요. 이 연고는 만 원이에요.",
+      "reading": "Ne, isseoyo. I yeongoneun man wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 연고도 주세요. 감사합니다.",
+      "reading": "Ne, yeongodo juseyo. Gamsahamnida."
+    }
+  ]
+}

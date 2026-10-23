@@ -1,0 +1,85 @@
+{
+  "id": "ko-C4-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sopung",
+      "text": "소풍",
+      "reading": "sopung"
+    },
+    {
+      "id": "ko.dosirak",
+      "text": "도시락",
+      "reading": "dosirak"
+    },
+    {
+      "id": "ko.daesin",
+      "text": "대신",
+      "reading": "daesin"
+    },
+    {
+      "id": "ko.biga-oda",
+      "kind": "phrase",
+      "text": "비가 오다",
+      "reading": "biga oda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "일요일에 남 씨하고 민준 씨는 같이 소풍을 가요.",
+        "reading": "Iryoire Nam ssihago Minjun ssineun gachi sopungeul gayo."
+      },
+      {
+        "text": "남 씨는 아침에 요리해요. 도시락은 불고기하고 김치예요.",
+        "reading": "Nam ssineun achime yorihaeyo. Dosirageun bulgogihago gimchiyeyo."
+      },
+      {
+        "text": "민준 씨 가방에는 과일하고 주스가 있어요.",
+        "reading": "Minjun ssi gabangeneun gwailhago juseuga isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "열한 시에 두 사람은 역에서 만나요.",
+        "reading": "Yeolhan sie du sarameun yeogeseo mannayo."
+      },
+      {
+        "text": "그런데 비가 와요!",
+        "reading": "Geureonde biga wayo!"
+      },
+      {
+        "text": "비가 너무 많이 와요. 두 사람은 우산도 없어요.",
+        "reading": "Biga neomu mani wayo. Du sarameun usando eopseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준 씨가 말해요. \"소풍 대신 우리 집에서 영화를 볼까요?\"",
+        "reading": "Minjun ssiga malhaeyo. \"Sopung daesin uri jibeseo yeonghwareul bolkkayo?\""
+      },
+      {
+        "text": "두 사람은 민준 씨 집에서 도시락을 먹고 영화를 봐요.",
+        "reading": "Du sarameun Minjun ssi jibeseo dosirageul meokgo yeonghwareul bwayo."
+      },
+      {
+        "text": "소풍은 다음 기회에 가요!",
+        "reading": "Sopungeun daeum gihoee gayo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

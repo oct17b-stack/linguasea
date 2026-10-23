@@ -1,0 +1,76 @@
+{
+  "id": "ko-C3-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.siheomeul-boda",
+      "kind": "phrase",
+      "text": "시험을 보다",
+      "reading": "siheomeul boda"
+    },
+    {
+      "id": "ko.seongjeok",
+      "text": "성적",
+      "reading": "seongjeok"
+    },
+    {
+      "id": "ko.yeseup-hada",
+      "text": "예습하다",
+      "reading": "yeseupada"
+    },
+    {
+      "id": "ko.bokseup-hada",
+      "text": "복습하다",
+      "reading": "bokseupada"
+    },
+    {
+      "id": "ko.balpyo-hada",
+      "text": "발표하다",
+      "reading": "balpyohada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국어 공부 어때요?",
+      "reading": "Nam ssi, hangugeo gongbu eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어렵지만 재미있어요. 내일 시험을 봐요.",
+      "reading": "Eoryeopjiman jaemiisseoyo. Naeil siheomeul bwayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 복습도 매일 해요?",
+      "reading": "A, bokseupdo maeil haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "예습은 안 하지만 복습은 매일 해요.",
+      "reading": "Yeseubeun an hajiman bokseubeun maeil haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 성적이 좋아요?",
+      "reading": "Wa, seongjeogi joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "시험 성적은 좋지만 발표는 좀 어려워요.",
+      "reading": "Siheom seongjeogeun jochiman balpyoneun jom eoryeowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도 발표하는 것을 싫어해요. 금요일에 발표해요.",
+      "reading": "Jeodo balpyohaneun geoseul sireohaeyo. Geumyoire balpyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어렵지만 민준 씨는 잘 할 수 있어요!",
+      "reading": "Eoryeopjiman Minjun ssineun jal hal su isseoyo!"
+    }
+  ]
+}

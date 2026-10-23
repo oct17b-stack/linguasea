@@ -1,0 +1,53 @@
+{
+  "id": "en-A14-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.hang-out",
+      "kind": "phrase",
+      "text": "hang out",
+      "reading": "ˈhæŋ ˈaʊt"
+    },
+    {
+      "id": "en.together",
+      "text": "together",
+      "reading": "təˈɡɛðər"
+    },
+    {
+      "id": "en.go-shopping",
+      "kind": "phrase",
+      "text": "go shopping",
+      "reading": "ˈɡoʊ ˈʃɑːpɪŋ"
+    },
+    {
+      "id": "en.lets",
+      "kind": "phrase",
+      "text": "Let's …",
+      "reading": "ˈlɛts …"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, let's hang out together!",
+      "reading": "ˈɛmə, ˈlɛts ˈhæŋ ˈaʊt təˈɡɛðər!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK! Let's go shopping.",
+      "reading": "oʊˈkeɪ! ˈlɛts ˈɡoʊ ˈʃɑːpɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! And let's eat ice cream!",
+      "reading": "ˈɡreɪt! ənd ˈlɛts ˈiːt ˈaɪs ˌkriːm!"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes! Let's go!",
+      "reading": "ˈjɛs! ˈlɛts ˈɡoʊ!"
+    }
+  ]
+}

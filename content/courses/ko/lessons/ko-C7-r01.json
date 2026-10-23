@@ -1,0 +1,79 @@
+{
+  "id": "ko-C7-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geongi",
+      "text": "건기",
+      "reading": "geongi"
+    },
+    {
+      "id": "ko.ugi",
+      "text": "우기",
+      "reading": "ugi"
+    },
+    {
+      "id": "ko.chai",
+      "text": "차이",
+      "reading": "chai"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "한국에는 봄, 여름, 가을, 겨울, 네 계절이 있어요.",
+        "reading": "Hangugeneun bom, yeoreum, gaeul, gyeoul, ne gyejeori isseoyo."
+      },
+      {
+        "text": "봄에는 꽃이 피고 가을에는 단풍이 예뻐요.",
+        "reading": "Bomeneun kkochi pigo gaeureneun danpungi yeppeoyo."
+      },
+      {
+        "text": "여름은 덥고 겨울은 정말 추워요.",
+        "reading": "Yeoreumeun deopgo gyeoureun jeongmal chuwoyo."
+      }
+    ],
+    [
+      {
+        "text": "태국에는 계절이 세 개 있어요.",
+        "reading": "Taegugeneun gyejeori se gae isseoyo."
+      },
+      {
+        "text": "삼월부터 오월까지는 정말 더워요.",
+        "reading": "Samwolbuteo owolkkajineun jeongmal deowoyo."
+      },
+      {
+        "text": "유월부터 시월까지는 우기예요. 비가 자주 와요.",
+        "reading": "Yuwolbuteo siwolkkajineun ugiyeyo. Biga jaju wayo."
+      },
+      {
+        "text": "십일월부터 이월까지는 건기예요. 날씨가 시원해요.",
+        "reading": "Sibirwolbuteo iwolkkajineun geongiyeyo. Nalssiga siwonhaeyo."
+      }
+    ],
+    [
+      {
+        "text": "한국하고 태국은 날씨 차이가 커요.",
+        "reading": "Hangukhago Taegugeun nalssi chaiga keoyo."
+      },
+      {
+        "text": "한국에 오는 태국 사람들은 겨울에 감기를 조심하세요!",
+        "reading": "Hangue oneun Taeguk saramdeureun gyeoure gamgireul josimhaseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

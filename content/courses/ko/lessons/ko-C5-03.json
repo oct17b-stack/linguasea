@@ -1,0 +1,70 @@
+{
+  "id": "ko-C5-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.geotda",
+      "text": "걷다",
+      "reading": "geotda"
+    },
+    {
+      "id": "ko.mutda",
+      "text": "묻다",
+      "reading": "mutda"
+    },
+    {
+      "id": "ko.radio",
+      "text": "라디오",
+      "reading": "radio"
+    },
+    {
+      "id": "ko.gang",
+      "text": "강",
+      "reading": "gang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 주말에 뭐 했어요?",
+      "reading": "Nam ssi, jumare mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한강에 갔어요. 강 옆에서 두 시간 걸었어요.",
+      "reading": "Hangange gasseoyo. Gang yeopeseo du sigan georeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 두 시간이요? 혼자 걸었어요?",
+      "reading": "Wa, du siganiyo? Honja georeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 걸으면서 라디오를 들었어요. 선생님, 하나 물어도 돼요?",
+      "reading": "Ne. Georeumyeonseo radioreul deureosseoyo. Seonsaengnim, hana mureodo dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 물어도 돼요.",
+      "reading": "Ne, mureodo dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "'걷다'는 '걸었어요'예요?",
+      "reading": "'Geotda'neun 'georeosseoyo'yeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, '걸었어요'예요. '듣다'도 '들었어요'예요.",
+      "reading": "Ne, 'georeosseoyo'yeyo. 'Deutda'do 'deureosseoyo'yeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 알겠어요. 감사합니다!",
+      "reading": "A, algesseoyo. Gamsahamnida!"
+    }
+  ]
+}

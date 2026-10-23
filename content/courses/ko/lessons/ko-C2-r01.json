@@ -1,0 +1,78 @@
+{
+  "id": "ko-C2-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bogeonso",
+      "text": "보건소",
+      "reading": "bogeonso"
+    },
+    {
+      "id": "ko.jillyo",
+      "text": "진료",
+      "reading": "jillyo"
+    },
+    {
+      "id": "ko.sinbunjeung",
+      "text": "신분증",
+      "reading": "sinbunjeung"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "학교 보건소는 월요일부터 금요일까지 진료해요.",
+        "reading": "Hakgyo bogeonsoneun woryoilbuteo geumyoilkkaji jillyohaeyo."
+      },
+      {
+        "text": "진료 시간은 오전 아홉 시부터 오후 다섯 시까지예요.",
+        "reading": "Jillyo siganeun ojeon ahop sibuteo ohu daseot sikkajiyeyo."
+      },
+      {
+        "text": "열두 시부터 한 시까지는 진료가 없어요.",
+        "reading": "Yeoldu sibuteo han sikkajineun jillyoga eopseoyo."
+      }
+    ],
+    [
+      {
+        "text": "접수할 때 신분증을 주세요.",
+        "reading": "Jeopsuhal ttae sinbunjeungeul juseyo."
+      },
+      {
+        "text": "신분증이 없을 때는 진료를 받을 수 없어요.",
+        "reading": "Sinbunjeungi eopseul ttaeneun jillyoreul badeul su eopseoyo."
+      }
+    ],
+    [
+      {
+        "text": "시월하고 십일월에는 보건소에서 주사를 맞을 수 있어요.",
+        "reading": "Siwolhago sibirworeneun bogeonsoeseo jusareul majeul su isseoyo."
+      },
+      {
+        "text": "주사를 맞을 때도 신분증을 주세요.",
+        "reading": "Jusareul majeul ttaedo sinbunjeungeul juseyo."
+      },
+      {
+        "text": "감기 조심하세요!",
+        "reading": "Gamgi josimhaseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

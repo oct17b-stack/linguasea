@@ -1,0 +1,78 @@
+{
+  "id": "ko-C7-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.biga-oda",
+      "kind": "phrase",
+      "text": "비가 오다",
+      "reading": "biga oda"
+    },
+    {
+      "id": "ko.nuni-oda",
+      "kind": "phrase",
+      "text": "눈이 오다",
+      "reading": "nuni oda"
+    },
+    {
+      "id": "ko.barami-bulda",
+      "kind": "phrase",
+      "text": "바람이 불다",
+      "reading": "barami bulda"
+    },
+    {
+      "id": "ko.heurida",
+      "text": "흐리다",
+      "reading": "heurida"
+    },
+    {
+      "id": "ko.makda",
+      "text": "맑다",
+      "reading": "makda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "아침에는 맑았어요. 지금은 흐려요.",
+      "reading": "Achimeneun malgasseoyo. Jigeumeun heuryeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 바람도 많이 불어요.",
+      "reading": "Ne, baramdo mani bureoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "태국에도 눈이 와요?",
+      "reading": "Taegugedo nuni wayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 태국에는 눈이 안 와요. 비가 많이 와요.",
+      "reading": "Aniyo, Taegugeneun nuni an wayo. Biga mani wayo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국보다 비가 더 많이 와요?",
+      "reading": "Hangukboda biga deo mani wayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 한국보다 더 많이 와요. 그리고 한국보다 더 더워요.",
+      "reading": "Ne, Hangukboda deo mani wayo. Geurigo Hangukboda deo deowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "서울 겨울은 방콕보다 정말 추워요. 눈도 와요.",
+      "reading": "Seoul gyeoureun Bangkokboda jeongmal chuwoyo. Nundo wayo."
+    },
+    {
+      "speaker": "a",
+      "text": "와! 저는 비보다 눈이 더 좋아요.",
+      "reading": "Wa! Jeoneun biboda nuni deo joayo."
+    }
+  ]
+}

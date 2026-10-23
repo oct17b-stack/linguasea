@@ -1,0 +1,70 @@
+{
+  "id": "ko-C3-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hoeui",
+      "text": "회의",
+      "reading": "hoeui"
+    },
+    {
+      "id": "ko.chuljang",
+      "text": "출장",
+      "reading": "chuljang"
+    },
+    {
+      "id": "ko.yageun-hada",
+      "text": "야근하다",
+      "reading": "yageunhada"
+    },
+    {
+      "id": "ko.jeomsimsigan",
+      "text": "점심시간",
+      "reading": "jeomsimsigan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 바빠요?",
+      "reading": "Nam ssi, bappayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좀 바빠요. 학교에서 공부하면서 주말에는 식당에서 일해요.",
+      "reading": "Ne, jom bappayo. Hakgyoeseo gongbuhamyeonseo jumareneun sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 피곤해요?",
+      "reading": "Wa, pigonhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좀 피곤해요. 민준 씨 누나도 바빠요?",
+      "reading": "Ne, jom pigonhaeyo. Minjun ssi nunado bappayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 정말 바빠요. 회의가 매일 있고 출장도 자주 가요.",
+      "reading": "Ne, jeongmal bappayo. Hoeuiga maeil itgo chuljangdo jaju gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "야근도 해요?",
+      "reading": "Yageundo haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 가끔 야근해요. 점심시간에도 밥을 먹으면서 일해요.",
+      "reading": "Ne, gakkeum yageunhaeyo. Jeomsimsiganedo babeul meogeumyeonseo ilhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 누나는 정말 바빠요!",
+      "reading": "Wa, nunaneun jeongmal bappayo!"
+    }
+  ]
+}

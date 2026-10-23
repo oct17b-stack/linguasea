@@ -1,0 +1,50 @@
+{
+  "id": "en-A13-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.shark",
+      "text": "shark",
+      "reading": "ʃɑːrk"
+    },
+    {
+      "id": "en.dolphin",
+      "text": "dolphin",
+      "reading": "ˈdɑːlfɪn"
+    },
+    {
+      "id": "en.crocodile",
+      "text": "crocodile",
+      "reading": "ˈkrɑːkədaɪl"
+    },
+    {
+      "id": "en.penguin",
+      "text": "penguin",
+      "reading": "ˈpɛŋɡwɪn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is it a shark?",
+      "reading": "ˈnɑːm, ɪz ɪt ə ˈʃɑːrk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it isn't. It's a dolphin.",
+      "reading": "ˈnoʊ, ɪt ˈɪzənt. ɪts ə ˈdɑːlfɪn."
+    },
+    {
+      "speaker": "c",
+      "text": "Is a dolphin a fish?",
+      "reading": "ɪz ə ˈdɑːlfɪn ə ˈfɪʃ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it isn't!",
+      "reading": "ˈnoʊ, ɪt ˈɪzənt!"
+    }
+  ]
+}

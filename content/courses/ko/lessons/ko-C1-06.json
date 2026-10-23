@@ -1,0 +1,75 @@
+{
+  "id": "ko-C1-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.dongari",
+      "text": "동아리",
+      "reading": "dongari"
+    },
+    {
+      "id": "ko.moim",
+      "text": "모임",
+      "reading": "moim"
+    },
+    {
+      "id": "ko.gaip-hada",
+      "text": "가입하다",
+      "reading": "gaipada"
+    },
+    {
+      "id": "ko.hoewon",
+      "text": "회원",
+      "reading": "hoewon"
+    },
+    {
+      "id": "ko.hwaldong",
+      "text": "활동",
+      "reading": "hwaldong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 우리 같이 동아리에 가입해요!",
+      "reading": "Nam ssi, uri gachi dongarie gaipaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 무슨 동아리요?",
+      "reading": "Joayo! Museun dongariyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "사진 동아리 어때요? 제 취미는 사진 찍기예요.",
+      "reading": "Sajin dongari eottaeyo? Je chwimineun sajin jjikgiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "음... 제 취미는 책 읽기예요. 사진은 잘 찍을 줄 몰라요.",
+      "reading": "Eum... Je chwimineun chaek ilgiyeyo. Sajineun jal jjigeul jul mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 금요일 저녁에 모임이 있어요. 모임에서 같이 사진을 찍고 공부해요.",
+      "reading": "Gwaenchanayo. Geumyoil jeonyeoge moimi isseoyo. Moimeseo gachi sajineul jjikgo gongbuhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "활동이 좋아요. 회원은 몇 명이에요?",
+      "reading": "Hwaldongi joayo. Hoewoneun myeot myeongieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "스무 명이에요. 모두 대학생이에요.",
+      "reading": "Seumu myeongieyo. Modu daehaksaengieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 좋아요! 저도 사진 동아리에 가입해요.",
+      "reading": "Wa, joayo! Jeodo sajin dongarie gaipaeyo."
+    }
+  ]
+}

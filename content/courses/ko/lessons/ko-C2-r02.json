@@ -1,0 +1,76 @@
+{
+  "id": "ko-C2-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gyeolseok-hada",
+      "text": "결석하다",
+      "reading": "gyeolseokada"
+    },
+    {
+      "id": "ko.momsal",
+      "text": "몸살",
+      "reading": "momsal"
+    },
+    {
+      "id": "ko.momi-an-jota",
+      "kind": "phrase",
+      "text": "몸이 안 좋다",
+      "reading": "momi an jota"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "선생님, 안녕하세요. 저 남이에요.",
+        "reading": "Seonsaengnim, annyeonghaseyo. Jeo Namieyo."
+      },
+      {
+        "text": "죄송합니다. 오늘 몸이 안 좋아요.",
+        "reading": "Joesonghamnida. Oneul momi an joayo."
+      },
+      {
+        "text": "몸살이에요. 머리가 아프고 열도 나요.",
+        "reading": "Momsarieyo. Meoriga apeugo yeoldo nayo."
+      }
+    ],
+    [
+      {
+        "text": "오늘 수업에 결석해도 돼요?",
+        "reading": "Oneul sueobe gyeolseokaedo dwaeyo?"
+      },
+      {
+        "text": "오후에 병원에서 진찰을 받고 집에서 쉬어요.",
+        "reading": "Ohue byeongwoneseo jinchareul batgo jibeseo swieoyo."
+      },
+      {
+        "text": "내일은 수업에 갈 수 있어요.",
+        "reading": "Naeireun sueobe gal su isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨, 괜찮아요. 결석해도 돼요.",
+        "reading": "Nam ssi, gwaenchanayo. Gyeolseokaedo dwaeyo."
+      },
+      {
+        "text": "오늘은 푹 쉬고 빨리 나으세요!",
+        "reading": "Oneureun puk swigo ppalli naeuseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "zh-D9-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ling-wai",
+      "text": "另外",
+      "reading": "lìngwài"
+    },
+    {
+      "id": "zh.bao-jian",
+      "text": "包间",
+      "reading": "bāojiān"
+    },
+    {
+      "id": "zh.kao-lean",
+      "text": "靠",
+      "reading": "kào"
+    },
+    {
+      "id": "zh.ren-shu",
+      "text": "人数",
+      "reading": "rénshù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "您好，四川饭馆。",
+      "reading": "Nín hǎo, Sìchuān fànguǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "你好！我想订星期六晚上七点的座位。",
+      "reading": "Nǐ hǎo! Wǒ xiǎng dìng xīngqīliù wǎnshang qī diǎn de zuòwèi."
+    },
+    {
+      "speaker": "b",
+      "text": "好的，请问几位？",
+      "reading": "Hǎo de, qǐngwèn jǐ wèi?"
+    },
+    {
+      "speaker": "a",
+      "text": "四个人：我、我的朋友和他的爸爸妈妈。",
+      "reading": "Sì ge rén: wǒ, wǒ de péngyou hé tā de bàba māma."
+    },
+    {
+      "speaker": "b",
+      "text": "四位的话，可以订一个小包间，比较安静。",
+      "reading": "Sì wèi dehuà, kěyǐ dìng yī ge xiǎo bāojiān, bǐjiào ānjìng."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了，那就订包间吧。另外，我们想要一个靠窗户的。",
+      "reading": "Tài hǎo le, nà jiù dìng bāojiān ba. Lìngwài, wǒmen xiǎng yào yī ge kào chuānghu de."
+    },
+    {
+      "speaker": "b",
+      "text": "没问题。还需要别的吗？",
+      "reading": "Méi wèntí. Hái xūyào biéde ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还有，我朋友的妈妈不能吃辣，你们有不辣的菜吗？",
+      "reading": "Hái yǒu, wǒ péngyou de māma bù néng chī là, nǐmen yǒu bù là de cài ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，您放心。人数有变化的话，请给我们打个电话。",
+      "reading": "Yǒu, nín fàngxīn. Rénshù yǒu biànhuà dehuà, qǐng gěi wǒmen dǎ ge diànhuà."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢你！",
+      "reading": "Hǎo de, xièxie nǐ!"
+    }
+  ]
+}

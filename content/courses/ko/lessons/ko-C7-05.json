@@ -1,0 +1,71 @@
+{
+  "id": "ko-C7-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ilgi-yebo",
+      "kind": "phrase",
+      "text": "일기 예보",
+      "reading": "ilgi yebo"
+    },
+    {
+      "id": "ko.gion",
+      "text": "기온",
+      "reading": "gion"
+    },
+    {
+      "id": "ko.yeongha",
+      "text": "영하",
+      "reading": "yeongha"
+    },
+    {
+      "id": "ko.jangma",
+      "text": "장마",
+      "reading": "jangma"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 일기 예보 봤어요? 내일 날씨가 어때요?",
+      "reading": "Minjun ssi, ilgi yebo bwasseoyo? Naeil nalssiga eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "내일은 정말 추울 거예요. 아침 기온이 영하예요.",
+      "reading": "Naeireun jeongmal chuul geoyeyo. Achim gioni yeonghayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "영하요? 지금은 십일월이에요!",
+      "reading": "Yeonghayo? Jigeumeun sibirworieyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 오후에는 눈도 올 거예요. 일월에는 더 추울 거예요.",
+      "reading": "Ne. Ohueneun nundo ol geoyeyo. Irworeneun deo chuul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 저는 겨울보다 여름이 좋아요.",
+      "reading": "Wa, jeoneun gyeoulboda yeoreumi joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 여름에는 장마가 있어요. 칠월에는 비가 정말 많이 와요.",
+      "reading": "Haha, yeoreumeneun jangmaga isseoyo. Chirworeneun biga jeongmal mani wayo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 태국에도 비가 많이 와요.",
+      "reading": "Gwaenchanayo. Taegugedo biga mani wayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하. 그럼 내일 감기 조심하세요!",
+      "reading": "Haha. Geureom naeil gamgi josimhaseyo!"
+    }
+  ]
+}

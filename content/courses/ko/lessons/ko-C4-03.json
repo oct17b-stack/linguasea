@@ -1,0 +1,71 @@
+{
+  "id": "ko-C4-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.amugeona",
+      "text": "아무거나",
+      "reading": "amugeona"
+    },
+    {
+      "id": "ko.amu-dena",
+      "kind": "phrase",
+      "text": "아무 데나",
+      "reading": "amu dena"
+    },
+    {
+      "id": "ko.sanggwaneopseoyo",
+      "text": "상관없어요",
+      "reading": "sanggwaneopseoyo"
+    },
+    {
+      "id": "ko.jeong-hada",
+      "text": "정하다",
+      "reading": "jeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 일요일에 뭐 할래요?",
+      "reading": "Nam ssi, iryoire mwo hallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 아무거나 괜찮아요. 민준 씨가 정해요.",
+      "reading": "Jeoneun amugeona gwaenchanayo. Minjun ssiga jeonghaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 영화를 볼래요, 산책할래요?",
+      "reading": "Geureom yeonghwareul bollaeyo, sanchaekallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "상관없어요. 영화도 좋고 산책도 좋아요.",
+      "reading": "Sanggwaneopseoyo. Yeonghwado joko sanchaekdo joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 영화를 봐요. 어디에서 볼래요?",
+      "reading": "Geureom yeonghwareul bwayo. Eodieseo bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아무 데나 좋아요.",
+      "reading": "Amu dena joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 정말 아무 데나 좋아요? 그럼 명동에서 봐요.",
+      "reading": "Haha, jeongmal amu dena joayo? Geureom Myeongdongeseo bwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 그리고 저녁은 제가 정할래요!",
+      "reading": "Ne! Geurigo jeonyeogeun jega jeonghallaeyo!"
+    }
+  ]
+}

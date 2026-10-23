@@ -1,0 +1,51 @@
+{
+  "id": "en-A16-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.where-do-you-work",
+      "kind": "phrase",
+      "text": "Where do you work?",
+      "reading": "ˈwɛr duː juː ˈwɜːrk?"
+    },
+    {
+      "id": "en.shop",
+      "text": "shop",
+      "reading": "ʃɑːp"
+    },
+    {
+      "id": "en.sell",
+      "text": "sell",
+      "reading": "sɛl"
+    },
+    {
+      "id": "en.soldier",
+      "text": "soldier",
+      "reading": "ˈsoʊldʒər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Where do your parents work?",
+      "reading": "ˈwɛr duː jʊr ˈpɛrənts ˈwɜːrk?"
+    },
+    {
+      "speaker": "a",
+      "text": "At a school. They're teachers.",
+      "reading": "ət ə ˈskuːl. ðɛr ˈtiːtʃərz."
+    },
+    {
+      "speaker": "b",
+      "text": "My wife has a shop. She sells fruit.",
+      "reading": "maɪ ˈwaɪf ˈhæz ə ˈʃɑːp. ʃiː ˈsɛlz ˈfruːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, nice! I love mangoes!",
+      "reading": "ˈoʊ, ˈnaɪs! aɪ ˈlʌv ˈmæŋɡoʊz!"
+    }
+  ]
+}

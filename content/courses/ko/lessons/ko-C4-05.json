@@ -1,0 +1,72 @@
+{
+  "id": "ko-C4-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.iri-saenggida",
+      "kind": "phrase",
+      "text": "일이 생기다",
+      "reading": "iri saenggida"
+    },
+    {
+      "id": "ko.chwiso-hada",
+      "text": "취소하다",
+      "reading": "chwisohada"
+    },
+    {
+      "id": "ko.miruda",
+      "text": "미루다",
+      "reading": "miruda"
+    },
+    {
+      "id": "ko.daeum-gihoe",
+      "kind": "phrase",
+      "text": "다음 기회",
+      "reading": "daeum gihoe"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 미안해요. 일요일에 일이 생겼어요.",
+      "reading": "Minjun ssi, mianhaeyo. Iryoire iri saenggyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 무슨 일이에요?",
+      "reading": "A, museun irieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "식당 친구가 아파요. 그래서 일요일에 제가 식당에서 일해요.",
+      "reading": "Sikdang chinguga apayo. Geuraeseo iryoire jega sikdangeseo ilhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 약속을 미룰까요?",
+      "reading": "Geureom yaksogeul mirulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 미안해요. 수요일 저녁은 어때요?",
+      "reading": "Ne, mianhaeyo. Suyoil jeonyeogeun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "수요일은 수업이 있으니까 목요일에 만나요.",
+      "reading": "Suyoireun sueobi isseunikka mogyoire mannayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 일요일 약속은 취소하고 목요일에 영화를 봐요.",
+      "reading": "Joayo. Iryoil yaksogeun chwisohago mogyoire yeonghwareul bwayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 저녁은 시간이 없으니까 다음 기회에 같이 먹어요.",
+      "reading": "Ne. Jeonyeogeun sigani eopseunikka daeum gihoee gachi meogeoyo."
+    }
+  ]
+}

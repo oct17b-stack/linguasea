@@ -1,0 +1,70 @@
+{
+  "id": "ko-C5-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.geunal",
+      "text": "그날",
+      "reading": "geunal"
+    },
+    {
+      "id": "ko.iteul",
+      "text": "이틀",
+      "reading": "iteul"
+    },
+    {
+      "id": "ko.saheul",
+      "text": "사흘",
+      "reading": "saheul"
+    },
+    {
+      "id": "ko.naenae",
+      "text": "내내",
+      "reading": "naenae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 피곤해요?",
+      "reading": "Minjun ssi, pigonhaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 월요일부터 수요일까지 시험이었어요.",
+      "reading": "Ne. Woryoilbuteo suyoilkkaji siheomieosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "사흘 내내 시험이었어요?",
+      "reading": "Saheul naenae siheomieosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 그리고 목요일은 발표였어요. 그날은 정말 바빴어요.",
+      "reading": "Ne. Geurigo mogyoireun balpyoyeosseoyo. Geunareun jeongmal bappasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 금요일은요?",
+      "reading": "Wa, geumyoireunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "금요일에는 편의점에서 일했어요.",
+      "reading": "Geumyoireneun pyeonuijeomeseo ilhaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 주말에는 좀 쉬었어요?",
+      "reading": "Geureom jumareneun jom swieosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 주말 이틀은 하루 종일 잤어요!",
+      "reading": "Ne, jumal iteureun haru jongil jasseoyo!"
+    }
+  ]
+}

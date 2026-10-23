@@ -1,0 +1,70 @@
+{
+  "id": "ko-C1-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.suyeong-hada",
+      "text": "수영하다",
+      "reading": "suyeonghada"
+    },
+    {
+      "id": "ko.unjeon-hada",
+      "text": "운전하다",
+      "reading": "unjeonhada"
+    },
+    {
+      "id": "ko.unjeonmyeonheo",
+      "text": "운전면허",
+      "reading": "unjeonmyeonheo"
+    },
+    {
+      "id": "ko.oegugeo",
+      "text": "외국어",
+      "reading": "oegugeo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 수영할 수 있어요?",
+      "reading": "Nam ssi, suyeonghal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 수영할 수 있어요. 태국에서 자주 수영해요.",
+      "reading": "Ne, suyeonghal su isseoyo. Taegugeseo jaju suyeonghaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 수영할 수 없어요. 운전은 할 수 있어요.",
+      "reading": "Jeoneun suyeonghal su eopseoyo. Unjeoneun hal su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 운전면허가 있어요?",
+      "reading": "Wa, unjeonmyeonheoga isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 있어요. 남 씨는 운전할 수 있어요?",
+      "reading": "Ne, isseoyo. Nam ssineun unjeonhal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 운전할 수 없어요. 운전면허가 없어요.",
+      "reading": "Aniyo, unjeonhal su eopseoyo. Unjeonmyeonheoga eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "외국어는 몇 개 할 수 있어요?",
+      "reading": "Oegugeoneun myeot gae hal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 개요. 한국어하고 영어를 할 수 있어요.",
+      "reading": "Du gaeyo. Hangugeohago yeongeoreul hal su isseoyo."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "en-A13-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.do-you-have-a",
+      "kind": "phrase",
+      "text": "Do you have a …?",
+      "reading": "duː juː ˈhæv ə …?"
+    },
+    {
+      "id": "en.its",
+      "text": "its",
+      "reading": "ɪts"
+    },
+    {
+      "id": "en.cute",
+      "text": "cute",
+      "reading": "kjuːt"
+    },
+    {
+      "id": "en.puppy",
+      "text": "puppy",
+      "reading": "ˈpʌpi"
+    },
+    {
+      "id": "en.kitten",
+      "text": "kitten",
+      "reading": "ˈkɪtən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, do you have a cat?",
+      "reading": "ˈɛmə, duː juː ˈhæv ə ˈkæt?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, I don't. But I have a puppy!",
+      "reading": "ˈnoʊ, aɪ ˈdoʊnt. bət aɪ ˈhæv ə ˈpʌpi!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! What's its name?",
+      "reading": "ˈoʊ! ˈwʌts ɪts ˈneɪm?"
+    },
+    {
+      "speaker": "c",
+      "text": "Its name is Maple. It's very cute!",
+      "reading": "ɪts ˈneɪm ɪz ˈmeɪpəl. ɪts ˈvɛri ˈkjuːt!"
+    }
+  ]
+}

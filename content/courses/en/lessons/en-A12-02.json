@@ -1,0 +1,55 @@
+{
+  "id": "en-A12-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.durian",
+      "text": "durian",
+      "reading": "ˈdʊriən"
+    },
+    {
+      "id": "en.pineapple",
+      "text": "pineapple",
+      "reading": "ˈpaɪnæpəl"
+    },
+    {
+      "id": "en.watermelon",
+      "text": "watermelon",
+      "reading": "ˈwɔːtərmɛlən"
+    },
+    {
+      "id": "en.papaya",
+      "text": "papaya",
+      "reading": "pəˈpaɪə"
+    },
+    {
+      "id": "en.coconut",
+      "text": "coconut",
+      "reading": "ˈkoʊkənʌt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is this a pineapple?",
+      "reading": "ˈnɑːm, ɪz ðɪs ə ˈpaɪnæpəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's a durian. It's delicious!",
+      "reading": "ˈnoʊ, ɪts ə ˈdʊriən. ɪts dɪˈlɪʃəs!"
+    },
+    {
+      "speaker": "c",
+      "text": "And this? Is it a coconut?",
+      "reading": "ənd ˈðɪs? ɪz ɪt ə ˈkoʊkənʌt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! Coconut water is delicious, too.",
+      "reading": "ˈjɛs! ˈkoʊkənʌt ˌwɔːtər ɪz dɪˈlɪʃəs, ˈtuː."
+    }
+  ]
+}

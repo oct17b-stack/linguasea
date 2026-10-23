@@ -1,0 +1,71 @@
+{
+  "id": "ko-C1-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sajineul-jjikda",
+      "kind": "phrase",
+      "text": "사진을 찍다",
+      "reading": "sajineul jjikda"
+    },
+    {
+      "id": "ko.kamera",
+      "text": "카메라",
+      "reading": "kamera"
+    },
+    {
+      "id": "ko.baduk",
+      "text": "바둑",
+      "reading": "baduk"
+    },
+    {
+      "id": "ko.geim",
+      "text": "게임",
+      "reading": "geim"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이거 바둑이에요?",
+      "reading": "Minjun ssi, igeo badugieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 바둑이에요. 남 씨는 바둑을 할 줄 알아요?",
+      "reading": "Ne, badugieyo. Nam ssineun badugeul hal jul arayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 바둑은 할 줄 몰라요. 게임은 할 줄 알아요!",
+      "reading": "Aniyo, badugeun hal jul mollayo. Geimeun hal jul arayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 저도 게임을 좋아해요. 그리고 사진을 찍는 것도 좋아해요.",
+      "reading": "Haha, jeodo geimeul joahaeyo. Geurigo sajineul jjingneun geotdo joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 이 카메라도 민준 씨 거예요?",
+      "reading": "A, i kamerado Minjun ssi geoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 제 거예요. 남 씨도 사진을 잘 찍어요?",
+      "reading": "Ne, je geoyeyo. Nam ssido sajineul jal jjigeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 사진은 잘 찍을 줄 몰라요.",
+      "reading": "Aniyo, sajineun jal jjigeul jul mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 오늘 같이 찍어요!",
+      "reading": "Gwaenchanayo. Oneul gachi jjigeoyo!"
+    }
+  ]
+}

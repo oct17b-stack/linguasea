@@ -1,0 +1,76 @@
+{
+  "id": "ko-C3-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jeongong",
+      "text": "전공",
+      "reading": "jeongong"
+    },
+    {
+      "id": "ko.hakgi",
+      "text": "학기",
+      "reading": "hakgi"
+    },
+    {
+      "id": "ko.gwamok",
+      "text": "과목",
+      "reading": "gwamok"
+    },
+    {
+      "id": "ko.sueobeul-deutda",
+      "kind": "phrase",
+      "text": "수업을 듣다",
+      "reading": "sueobeul deutda"
+    },
+    {
+      "id": "ko.gyeongyeonghak",
+      "text": "경영학",
+      "reading": "gyeongyeonghak"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 태국에서 대학생이에요?",
+      "reading": "Nam ssi, Taegugeseo daehaksaengieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 지금은 한국에서 한국어를 배우고 있어요.",
+      "reading": "Ne. Jigeumeun Hangugeseo hangugeoreul baeugo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "전공이 뭐예요?",
+      "reading": "Jeongongi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "경영학이에요. 한국에서는 경영학 수업은 안 들어요.",
+      "reading": "Gyeongyeonghagieyo. Hangugeseoneun gyeongyeonghak sueobeun an deureoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "지금 무슨 과목을 공부하고 있어요?",
+      "reading": "Jigeum museun gwamogeul gongbuhago isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국어 수업을 듣고 있어요. 한 학기에 과목이 네 개예요.",
+      "reading": "Hangugeo sueobeul deutgo isseoyo. Han hakgie gwamogi ne gaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 수업이 매일 있어요?",
+      "reading": "Wa, sueobi maeil isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 매일 아침 아홉 시에 수업이 있어요.",
+      "reading": "Ne, maeil achim ahop sie sueobi isseoyo."
+    }
+  ]
+}

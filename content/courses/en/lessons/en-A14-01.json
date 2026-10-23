@@ -1,0 +1,50 @@
+{
+  "id": "en-A14-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.music",
+      "text": "music",
+      "reading": "ˈmjuːzɪk"
+    },
+    {
+      "id": "en.song",
+      "text": "song",
+      "reading": "sɔːŋ"
+    },
+    {
+      "id": "en.sing",
+      "text": "sing",
+      "reading": "sɪŋ"
+    },
+    {
+      "id": "en.dance",
+      "text": "dance",
+      "reading": "dæns"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you like music?",
+      "reading": "ˈnɑːm, duː juː ˈlaɪk ˈmjuːzɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! I sing and dance.",
+      "reading": "ˈjɛs! aɪ ˈsɪŋ ənd ˈdæns."
+    },
+    {
+      "speaker": "c",
+      "text": "Do you sing Thai songs?",
+      "reading": "duː juː ˈsɪŋ ˈtaɪ ˈsɔːŋz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, and English songs, too!",
+      "reading": "ˈjɛs, ənd ˈɪŋɡlɪʃ ˈsɔːŋz, ˈtuː!"
+    }
+  ]
+}

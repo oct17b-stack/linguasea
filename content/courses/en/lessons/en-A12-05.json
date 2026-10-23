@@ -1,0 +1,50 @@
+{
+  "id": "en-A12-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.ice-cream",
+      "text": "ice cream",
+      "reading": "ˈaɪs ˌkriːm"
+    },
+    {
+      "id": "en.cake",
+      "text": "cake",
+      "reading": "keɪk"
+    },
+    {
+      "id": "en.chocolate",
+      "text": "chocolate",
+      "reading": "ˈtʃɔːklət"
+    },
+    {
+      "id": "en.cookie",
+      "text": "cookie",
+      "reading": "ˈkʊki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Ice cream or cake?",
+      "reading": "ˈhaɪ! ˈaɪs ˌkriːm ɔːr ˈkeɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Chocolate ice cream, please. Emma?",
+      "reading": "ˈtʃɔːklət ˈaɪs ˌkriːm, ˈpliːz. ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "Cake, please. And two cookies!",
+      "reading": "ˈkeɪk, ˈpliːz. ənd ˈtuː ˈkʊkiz!"
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Here you are.",
+      "reading": "oʊˈkeɪ. ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

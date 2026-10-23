@@ -1,0 +1,51 @@
+{
+  "id": "en-A12-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.favorite",
+      "text": "favorite",
+      "reading": "ˈfeɪvərɪt"
+    },
+    {
+      "id": "en.whats-your-favorite",
+      "kind": "phrase",
+      "text": "What's your favorite …?",
+      "reading": "ˈwʌts jʊr ˈfeɪvərɪt …?"
+    },
+    {
+      "id": "en.grapes",
+      "text": "grapes",
+      "reading": "ɡreɪps"
+    },
+    {
+      "id": "en.strawberry",
+      "text": "strawberry",
+      "reading": "ˈstrɔːbɛri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's your favorite fruit?",
+      "reading": "ˈnɑːm, ˈwʌts jʊr ˈfeɪvərɪt ˈfruːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Mangoes! And you?",
+      "reading": "ˈmæŋɡoʊz! ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Strawberries. And grapes, too.",
+      "reading": "ˈstrɔːbɛriz. ənd ˈɡreɪps, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, I have grapes! Here you are.",
+      "reading": "ˈoʊ, aɪ ˈhæv ˈɡreɪps! ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

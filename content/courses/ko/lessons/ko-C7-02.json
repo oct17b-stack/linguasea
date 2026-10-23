@@ -1,0 +1,75 @@
+{
+  "id": "ko-C7-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.gyejeol",
+      "text": "계절",
+      "reading": "gyejeol"
+    },
+    {
+      "id": "ko.bom",
+      "text": "봄",
+      "reading": "bom"
+    },
+    {
+      "id": "ko.yeoreum",
+      "text": "여름",
+      "reading": "yeoreum"
+    },
+    {
+      "id": "ko.gaeul",
+      "text": "가을",
+      "reading": "gaeul"
+    },
+    {
+      "id": "ko.gyeoul",
+      "text": "겨울",
+      "reading": "gyeoul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 날씨가 시원해졌어요.",
+      "reading": "Seonsaengnim, nalssiga siwonhaejyeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 가을이에요.",
+      "reading": "Ne, gaeurieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한국은 계절이 네 개 있어요?",
+      "reading": "Hangugeun gyejeori ne gae isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 봄, 여름, 가을, 겨울이 있어요. 남 씨는 무슨 계절이 좋아요?",
+      "reading": "Ne, bom, yeoreum, gaeul, gyeouri isseoyo. Nam ssineun museun gyejeori joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 여름이 좋아요. 겨울은 많이 추워요?",
+      "reading": "Jeoneun yeoreumi joayo. Gyeoureun mani chuwoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 정말 추워요. 십일월부터 추워져요.",
+      "reading": "Ne, jeongmal chuwoyo. Sibirwolbuteo chuwojyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "봄은 언제 와요?",
+      "reading": "Bomeun eonje wayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "삼월에 와요. 삼월부터 날씨가 따뜻해져요.",
+      "reading": "Samwore wayo. Samwolbuteo nalssiga ttatteutaejyeoyo."
+    }
+  ]
+}

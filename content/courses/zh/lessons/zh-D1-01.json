@@ -1,0 +1,90 @@
+{
+  "id": "zh-D1-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.you-ke",
+      "text": "游客",
+      "reading": "yóukè"
+    },
+    {
+      "id": "zh.lv-xing-she",
+      "text": "旅行社",
+      "reading": "lǚxíngshè"
+    },
+    {
+      "id": "zh.jian-yi",
+      "text": "建议",
+      "reading": "jiànyì"
+    },
+    {
+      "id": "zh.jing-se",
+      "text": "景色",
+      "reading": "jǐngsè"
+    },
+    {
+      "id": "zh.dang-di",
+      "text": "当地",
+      "reading": "dāngdì"
+    },
+    {
+      "id": "zh.ti-yan",
+      "text": "体验",
+      "reading": "tǐyàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，国庆节放假一个星期，我想去旅游。你有什么建议？",
+      "reading": "Wáng Míng, Guóqìngjié fàngjià yī ge xīngqī, wǒ xiǎng qù lǚyóu. Nǐ yǒu shénme jiànyì?"
+    },
+    {
+      "speaker": "b",
+      "text": "你想去哪儿？",
+      "reading": "Nǐ xiǎng qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想去海边。旅行社的人说，那儿的景色特别漂亮。",
+      "reading": "Wǒ xiǎng qù hǎibiān. Lǚxíngshè de rén shuō, nàr de jǐngsè tèbié piàoliang."
+    },
+    {
+      "speaker": "b",
+      "text": "泰国的海边你去过很多次了。我建议你还是去西安吧。",
+      "reading": "Tàiguó de hǎibiān nǐ qù guo hěn duō cì le. Wǒ jiànyì nǐ háishi qù Xī'ān ba."
+    },
+    {
+      "speaker": "a",
+      "text": "西安？听说国庆节的时候，那儿的游客特别多。",
+      "reading": "Xī'ān? Tīngshuō Guóqìngjié de shíhou, nàr de yóukè tèbié duō."
+    },
+    {
+      "speaker": "b",
+      "text": "海边的游客也很多啊！西安有三千多年的历史，很有意思。",
+      "reading": "Hǎibiān de yóukè yě hěn duō a! Xī'ān yǒu sānqiān duō nián de lìshǐ, hěn yǒu yìsi."
+    },
+    {
+      "speaker": "a",
+      "text": "在西安，我可以体验什么？",
+      "reading": "Zài Xī'ān, wǒ kěyǐ tǐyàn shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "你可以尝尝当地的面条，体验一下西安人的生活。",
+      "reading": "Nǐ kěyǐ chángchang dāngdì de miàntiáo, tǐyàn yīxià Xī'ān rén de shēnghuó."
+    },
+    {
+      "speaker": "a",
+      "text": "好，那我们还是去西安吧！",
+      "reading": "Hǎo, nà wǒmen háishi qù Xī'ān ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好！明天我们一起去旅行社问问。",
+      "reading": "Hǎo! Míngtiān wǒmen yīqǐ qù lǚxíngshè wènwen."
+    }
+  ]
+}

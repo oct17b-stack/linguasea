@@ -1,0 +1,70 @@
+{
+  "id": "ko-C6-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sukso",
+      "text": "숙소",
+      "reading": "sukso"
+    },
+    {
+      "id": "ko.geseuteuhauseu",
+      "text": "게스트하우스",
+      "reading": "geseuteuhauseu"
+    },
+    {
+      "id": "ko.renteoka",
+      "text": "렌터카",
+      "reading": "renteoka"
+    },
+    {
+      "id": "ko.iljeong",
+      "text": "일정",
+      "reading": "iljeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 부산 여행 일정을 정했어요?",
+      "reading": "Nam ssi, Busan yeohaeng iljeongeul jeonghaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 금요일에 고속버스를 타기로 했어요.",
+      "reading": "Ne, geumyoire gosokbeoseureul tagiro haesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "숙소는요?",
+      "reading": "Suksoneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "바다 옆에 있는 게스트하우스에서 자기로 했어요. 벌써 예약했어요.",
+      "reading": "Bada yeope inneun geseuteuhauseueseo jagiro haesseoyo. Beolsseo yeyakaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 좋아요. 경주에서는 렌터카를 탈 거예요?",
+      "reading": "Wa, joayo. Gyeongjueseoneun renteokareul tal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 운전면허가 없으니까 렌터카는 안 타기로 했어요.",
+      "reading": "Aniyo, unjeonmyeonheoga eopseunikka renteokaneun an tagiro haesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 경주에서는 버스를 타요?",
+      "reading": "Geureom Gyeongjueseoneun beoseureul tayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 버스를 타고 많이 걷기로 했어요.",
+      "reading": "Ne, beoseureul tago mani geotgiro haesseoyo."
+    }
+  ]
+}

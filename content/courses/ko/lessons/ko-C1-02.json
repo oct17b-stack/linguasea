@@ -1,0 +1,76 @@
+{
+  "id": "ko-C1-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.akgi",
+      "text": "악기",
+      "reading": "akgi"
+    },
+    {
+      "id": "ko.piano",
+      "text": "피아노",
+      "reading": "piano"
+    },
+    {
+      "id": "ko.gita",
+      "text": "기타",
+      "reading": "gita"
+    },
+    {
+      "id": "ko.chida",
+      "text": "치다",
+      "reading": "chida"
+    },
+    {
+      "id": "ko.chumeul-chuda",
+      "kind": "phrase",
+      "text": "춤을 추다",
+      "reading": "chumeul chuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 음악을 좋아해요?",
+      "reading": "Nam ssineun eumageul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 좋아해요. 저는 피아노를 치고 기타도 쳐요.",
+      "reading": "Ne, jeongmal joahaeyo. Jeoneun pianoreul chigo gitado chyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와! 피아노는 어디에서 쳐요?",
+      "reading": "Wa! Pianoneun eodieseo chyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교에서 쳐요. 학교 피아노는 크고 좋아요.",
+      "reading": "Hakgyoeseo chyeoyo. Hakgyo pianoneun keugo joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 악기는 안 해요. 음악을 듣고 춤을 추는 것을 좋아해요.",
+      "reading": "Jeoneun akgineun an haeyo. Eumageul deutgo chumeul chuneun geoseul joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "춤이요? 어디에서 춰요?",
+      "reading": "Chumiyo? Eodieseo chwoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "친구 집에서 춰요. 주말에 친구들하고 음악을 듣고 춤을 춰요.",
+      "reading": "Chingu jibeseo chwoyo. Jumare chingudeulhago eumageul deutgo chumeul chwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 좋아요! 저도 같이 가요!",
+      "reading": "Wa, joayo! Jeodo gachi gayo!"
+    }
+  ]
+}

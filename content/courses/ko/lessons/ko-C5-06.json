@@ -1,0 +1,71 @@
+{
+  "id": "ko-C5-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.orae",
+      "text": "오래",
+      "reading": "orae"
+    },
+    {
+      "id": "ko.oraenmanieyo",
+      "kind": "phrase",
+      "text": "오랜만이에요",
+      "reading": "oraenmanieyo"
+    },
+    {
+      "id": "ko.jinada",
+      "text": "지나다",
+      "reading": "jinada"
+    },
+    {
+      "id": "ko.neomda",
+      "text": "넘다",
+      "reading": "neomda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오랜만이에요!",
+      "reading": "Nam ssi, oraenmanieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨! 정말 오랜만이에요. 바빴어요?",
+      "reading": "Minjun ssi! Jeongmal oraenmanieyo. Bappasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 시험이 있었어요. 남 씨를 본 지 정말 오래됐어요.",
+      "reading": "Ne, siheomi isseosseoyo. Nam ssireul bon ji jeongmal oraedwaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "시험은 잘 봤어요?",
+      "reading": "Siheomeun jal bwasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 잘 봤어요. 남 씨는 한국에 온 지 몇 개월 됐어요?",
+      "reading": "Ne, jal bwasseoyo. Nam ssineun Hanguge on ji myeot gaewol dwaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "벌써 육 개월이 지났어요.",
+      "reading": "Beolsseo yuk gaewori jinasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 벌써요?",
+      "reading": "Wa, beolsseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 민준 씨를 만난 지도 오 개월이 넘었어요.",
+      "reading": "Ne. Minjun ssireul mannan jido o gaewori neomeosseoyo."
+    }
+  ]
+}

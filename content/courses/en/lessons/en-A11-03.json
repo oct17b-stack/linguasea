@@ -1,0 +1,50 @@
+{
+  "id": "en-A11-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.foot",
+      "text": "foot",
+      "reading": "fʊt"
+    },
+    {
+      "id": "en.feet",
+      "text": "feet",
+      "reading": "fiːt"
+    },
+    {
+      "id": "en.tooth",
+      "text": "tooth",
+      "reading": "tuːθ"
+    },
+    {
+      "id": "en.teeth",
+      "text": "teeth",
+      "reading": "tiːθ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Mr. Brown, what does “teeth” mean?",
+      "reading": "ˈmɪstər ˈbraʊn, ˈwʌt dʌz ˈtiːθ ˈmiːn?"
+    },
+    {
+      "speaker": "b",
+      "text": "Look! One tooth, two teeth.",
+      "reading": "ˈlʊk! ˈwʌn ˈtuːθ, ˈtuː ˈtiːθ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! And one foot, two feet?",
+      "reading": "ˈoʊ! ənd ˈwʌn ˈfʊt, ˈtuː ˈfiːt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes! You're right!",
+      "reading": "ˈjɛs! jʊr ˈraɪt!"
+    }
+  ]
+}

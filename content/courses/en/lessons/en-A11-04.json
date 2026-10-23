@@ -1,0 +1,55 @@
+{
+  "id": "en-A11-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.man",
+      "text": "man",
+      "reading": "mæn"
+    },
+    {
+      "id": "en.woman",
+      "text": "woman",
+      "reading": "ˈwʊmən"
+    },
+    {
+      "id": "en.boy",
+      "text": "boy",
+      "reading": "bɔɪ"
+    },
+    {
+      "id": "en.girl",
+      "text": "girl",
+      "reading": "ɡɜːrl"
+    },
+    {
+      "id": "en.person",
+      "text": "person",
+      "reading": "ˈpɜːrsən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, who's this man?",
+      "reading": "ˈɛmə, ˈhuːz ðɪs ˈmæn?"
+    },
+    {
+      "speaker": "c",
+      "text": "My uncle. And this woman is my aunt.",
+      "reading": "maɪ ˈʌŋkəl. ənd ðɪs ˈwʊmən ɪz maɪ ˈænt."
+    },
+    {
+      "speaker": "a",
+      "text": "And the baby? A boy or a girl?",
+      "reading": "ənd ðə ˈbeɪbi? ə ˈbɔɪ ɔːr ə ˈɡɜːrl?"
+    },
+    {
+      "speaker": "c",
+      "text": "A girl. She's their daughter.",
+      "reading": "ə ˈɡɜːrl. ʃiːz ðɛr ˈdɔːtər."
+    }
+  ]
+}

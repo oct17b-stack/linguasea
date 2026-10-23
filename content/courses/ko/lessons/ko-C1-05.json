@@ -1,0 +1,76 @@
+{
+  "id": "ko-C1-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.swineun-nal",
+      "kind": "phrase",
+      "text": "쉬는 날",
+      "reading": "swineun nal"
+    },
+    {
+      "id": "ko.sanchaek-hada",
+      "text": "산책하다",
+      "reading": "sanchaekada"
+    },
+    {
+      "id": "ko.naksi",
+      "text": "낚시",
+      "reading": "naksi"
+    },
+    {
+      "id": "ko.kaemping",
+      "text": "캠핑",
+      "reading": "kaemping"
+    },
+    {
+      "id": "ko.gugyeong-hada",
+      "text": "구경하다",
+      "reading": "gugyeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 내일 쉬는 날이에요?",
+      "reading": "Nam ssi, naeil swineun narieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 집에서 쉬거나 산책해요.",
+      "reading": "Ne. Jibeseo swigeona sanchaekaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도 내일 쉬어요. 같이 낚시나 캠핑을 해요!",
+      "reading": "Jeodo naeil swieoyo. Gachi naksina kaempingeul haeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "음... 저는 낚시를 할 줄 몰라요.",
+      "reading": "Eum... Jeoneun naksireul hal jul mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 캠핑은 어때요?",
+      "reading": "Gwaenchanayo. Kaempingeun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "캠핑은 좀 멀어요. 명동 구경은 어때요?",
+      "reading": "Kaempingeun jom meoreoyo. Myeongdong gugyeongeun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아, 좋아요! 명동을 구경하고 영화도 봐요.",
+      "reading": "A, joayo! Myeongdongeul gugyeonghago yeonghwado bwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 내일 만나요!",
+      "reading": "Ne, naeil mannayo!"
+    }
+  ]
+}

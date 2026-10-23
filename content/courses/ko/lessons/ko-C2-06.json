@@ -1,0 +1,71 @@
+{
+  "id": "ko-C2-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.puk-swida",
+      "kind": "phrase",
+      "text": "푹 쉬다",
+      "reading": "puk swida"
+    },
+    {
+      "id": "ko.muri-hada",
+      "text": "무리하다",
+      "reading": "murihada"
+    },
+    {
+      "id": "ko.josim-hada",
+      "text": "조심하다",
+      "reading": "josimhada"
+    },
+    {
+      "id": "ko.natda",
+      "text": "낫다",
+      "reading": "natda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "감기예요. 오늘은 집에서 푹 쉬세요.",
+      "reading": "Gamgiyeyo. Oneureun jibeseo puk swiseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "내일 수업에 가도 돼요?",
+      "reading": "Naeil sueobe gado dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 가도 돼요. 하지만 조심하세요. 무리하지 마세요.",
+      "reading": "Ne, gado dwaeyo. Hajiman josimhaseyo. Murihaji maseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "운동은요? 운동해도 돼요?",
+      "reading": "Undongeunyo? Undonghaedo dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이번 주에는 운동하지 마세요. 커피도 마시지 마세요.",
+      "reading": "Ibeon jueneun undonghaji maseyo. Keopido masiji maseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠어요. 언제 나아요?",
+      "reading": "Ne, algesseoyo. Eonje naayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "금요일에는 괜찮아요. 빨리 나으세요!",
+      "reading": "Geumyoireneun gwaenchanayo. Ppalli naeuseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다.",
+      "reading": "Ne, gamsahamnida."
+    }
+  ]
+}

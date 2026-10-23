@@ -1,0 +1,79 @@
+{
+  "id": "ko-C5-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.dotjari",
+      "text": "돗자리",
+      "reading": "dotjari"
+    },
+    {
+      "id": "ko.noeul",
+      "text": "노을",
+      "reading": "noeul"
+    },
+    {
+      "id": "ko.yagyeong",
+      "text": "야경",
+      "reading": "yagyeong"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘은 식당 일이 없었어요.",
+        "reading": "Oneureun sikdang iri eopseosseoyo."
+      },
+      {
+        "text": "오후에 친구들하고 한강에 소풍을 갔어요.",
+        "reading": "Ohue chingudeulhago Hangange sopungeul gasseoyo."
+      },
+      {
+        "text": "우리는 강 옆 돗자리에서 도시락을 먹었어요.",
+        "reading": "Urineun gang yeop dotjarieseo dosirageul meogeosseoyo."
+      },
+      {
+        "text": "그리고 음악을 듣고 사진도 많이 찍었어요.",
+        "reading": "Geurigo eumageul deutgo sajindo mani jjigeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "저녁 일곱 시에 노을이 정말 예뻤어요.",
+        "reading": "Jeonyeok ilgop sie noeuri jeongmal yeppeosseoyo."
+      },
+      {
+        "text": "우리는 노을을 보면서 주스를 마셨어요.",
+        "reading": "Urineun noeureul bomyeonseo juseureul masyeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "아홉 시에는 한강에서 서울의 야경을 봤어요.",
+        "reading": "Ahop sieneun Hangangeseo Seourui yagyeongeul bwasseoyo."
+      },
+      {
+        "text": "야경도 정말 예뻤어요.",
+        "reading": "Yagyeongdo jeongmal yeppeosseoyo."
+      },
+      {
+        "text": "정말 행복했어요!",
+        "reading": "Jeongmal haengbokaesseoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

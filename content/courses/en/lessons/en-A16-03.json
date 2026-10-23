@@ -1,0 +1,50 @@
+{
+  "id": "en-A16-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.office",
+      "text": "office",
+      "reading": "ˈɔːfɪs"
+    },
+    {
+      "id": "en.businessman",
+      "text": "businessman",
+      "reading": "ˈbɪznəsmæn"
+    },
+    {
+      "id": "en.businesswoman",
+      "text": "businesswoman",
+      "reading": "ˈbɪznəswʊmən"
+    },
+    {
+      "id": "en.civil-servant",
+      "text": "civil servant",
+      "reading": "ˌsɪvəl ˈsɜːrvənt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Is this your office?",
+      "reading": "ɪz ðɪs jʊr ˈɔːfɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's my aunt's office.",
+      "reading": "ˈnoʊ, ɪts maɪ ˈænts ˈɔːfɪs."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh! Is she a businesswoman?",
+      "reading": "ˈoʊ! ɪz ʃiː ə ˈbɪznəswʊmən?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, she's a civil servant.",
+      "reading": "ˈnoʊ, ʃiːz ə ˌsɪvəl ˈsɜːrvənt."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ko-C6-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.yujeokji",
+      "text": "유적지",
+      "reading": "yujeokji"
+    },
+    {
+      "id": "ko.deulleuda",
+      "text": "들르다",
+      "reading": "deulleuda"
+    },
+    {
+      "id": "ko.badatga",
+      "text": "바닷가",
+      "reading": "badatga"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "선생님, 안녕하세요? 남이에요.",
+        "reading": "Seonsaengnim, annyeonghaseyo? Namieyo."
+      },
+      {
+        "text": "금요일부터 방학이에요.",
+        "reading": "Geumyoilbuteo banghagieyo."
+      }
+    ],
+    [
+      {
+        "text": "저는 방학에 친구하고 부산하고 경주에 갈 거예요.",
+        "reading": "Jeoneun banghage chinguhago Busanhago Gyeongjue gal geoyeyo."
+      },
+      {
+        "text": "부산에 가기 전에 대전에 있는 친구 집에 들를 거예요.",
+        "reading": "Busane gagi jeone Daejeone inneun chingu jibe deulleul geoyeyo."
+      },
+      {
+        "text": "부산에서는 바닷가에서 수영하고 사진을 찍을 거예요.",
+        "reading": "Busaneseoneun badatgaeseo suyeonghago sajineul jjigeul geoyeyo."
+      },
+      {
+        "text": "경주에서는 유적지를 구경할 거예요.",
+        "reading": "Gyeongjueseoneun yujeokjireul gugyeonghal geoyeyo."
+      }
+    ],
+    [
+      {
+        "text": "선생님은 방학에 뭐 하세요?",
+        "reading": "Seonsaengnimeun banghage mwo haseyo?"
+      },
+      {
+        "text": "구월에 학교에서 만나요.",
+        "reading": "Guwore hakgyoeseo mannayo."
+      },
+      {
+        "text": "그럼 안녕히 계세요.",
+        "reading": "Geureom annyeonghi gyeseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

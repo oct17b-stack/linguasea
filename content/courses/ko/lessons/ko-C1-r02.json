@@ -1,0 +1,83 @@
+{
+  "id": "ko-C1-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.seonbae",
+      "text": "선배",
+      "reading": "seonbae"
+    },
+    {
+      "id": "ko.hubae",
+      "text": "후배",
+      "reading": "hubae"
+    },
+    {
+      "id": "ko.jakpum",
+      "text": "작품",
+      "reading": "jakpum"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘은 사진 동아리 모임이 있어요.",
+        "reading": "Oneureun sajin dongari moimi isseoyo."
+      },
+      {
+        "text": "저녁에 남 씨하고 같이 모임에 가요.",
+        "reading": "Jeonyeoge Nam ssihago gachi moime gayo."
+      }
+    ],
+    [
+      {
+        "text": "모임에는 선배가 열 명, 후배가 다섯 명 있어요.",
+        "reading": "Moimeneun seonbaega yeol myeong, hubaega daseot myeong isseoyo."
+      },
+      {
+        "text": "선배들은 사진을 정말 잘 찍어요.",
+        "reading": "Seonbaedeureun sajineul jeongmal jal jjigeoyo."
+      },
+      {
+        "text": "우리는 같이 선배들의 작품을 봐요.",
+        "reading": "Urineun gachi seonbaedeurui jakpumeul bwayo."
+      },
+      {
+        "text": "작품이 모두 정말 예뻐요.",
+        "reading": "Jakpumi modu jeongmal yeppeoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 카메라가 없어요.",
+        "reading": "Nam ssineun kameraga eopseoyo."
+      },
+      {
+        "text": "저는 카메라가 두 개 있어요.",
+        "reading": "Jeoneun kameraga du gae isseoyo."
+      },
+      {
+        "text": "하나는 남 씨 거예요!",
+        "reading": "Hananeun Nam ssi geoyeyo!"
+      },
+      {
+        "text": "토요일에는 회원들하고 같이 사진을 찍어요.",
+        "reading": "Toyoireneun hoewondeulhago gachi sajineul jjigeoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

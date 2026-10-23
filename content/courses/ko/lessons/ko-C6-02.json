@@ -1,0 +1,70 @@
+{
+  "id": "ko-C6-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.bada",
+      "text": "바다",
+      "reading": "bada"
+    },
+    {
+      "id": "ko.san",
+      "text": "산",
+      "reading": "san"
+    },
+    {
+      "id": "ko.seom",
+      "text": "섬",
+      "reading": "seom"
+    },
+    {
+      "id": "ko.gyeongchi",
+      "text": "경치",
+      "reading": "gyeongchi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 한국에서 어디에 가고 싶어요?",
+      "reading": "Nam ssineun Hangugeseo eodie gago sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "바다에 가고 싶어요. 한국 바다를 보고 싶어요.",
+      "reading": "Badae gago sipeoyo. Hanguk badareul bogo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 산이 좋아요. 설악산은 경치가 정말 예뻐요.",
+      "reading": "Jeoneun sani joayo. Seoraksaneun gyeongchiga jeongmal yeppeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 산에도 가고 싶어요!",
+      "reading": "Wa, sanedo gago sipeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 제주도는 어때요? 섬이에요. 바다도 있고 산도 있어요.",
+      "reading": "Geureom Jejudoneun eottaeyo? Seomieyo. Badado itgo sando isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 섬 경치를 정말 보고 싶어요.",
+      "reading": "Joayo! Seom gyeongchireul jeongmal bogo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨 동생도 여행을 좋아해요?",
+      "reading": "Nam ssi dongsaengdo yeohaengeul joahaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 동생도 제주도에 가고 싶어해요!",
+      "reading": "Ne, dongsaengdo Jejudoe gago sipeohaeyo!"
+    }
+  ]
+}

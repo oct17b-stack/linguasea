@@ -1,0 +1,77 @@
+{
+  "id": "ko-C8-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.taruisil",
+      "text": "탈의실",
+      "reading": "taruisil"
+    },
+    {
+      "id": "ko.saijeu",
+      "text": "사이즈",
+      "reading": "saijeu"
+    },
+    {
+      "id": "ko.jal-matda",
+      "kind": "phrase",
+      "text": "잘 맞다",
+      "reading": "jal matda"
+    },
+    {
+      "id": "ko.heolleong-hada",
+      "text": "헐렁하다",
+      "reading": "heolleonghada"
+    },
+    {
+      "id": "ko.kkwak-kkida",
+      "kind": "phrase",
+      "text": "꽉 끼다",
+      "reading": "kkwak kkida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "이 바지 입어 봐도 돼요?",
+      "reading": "I baji ibeo bwado dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 탈의실에서 입어 보세요. 저기 있어요.",
+      "reading": "Ne, taruisireseo ibeo boseyo. Jeogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "음, 좀 헐렁해요. 사이즈가 커요.",
+      "reading": "Eum, jom heolleonghaeyo. Saijeuga keoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 작은 사이즈를 입어 보세요.",
+      "reading": "Geureom jageun saijeureul ibeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "작은 사이즈는 꽉 껴요.",
+      "reading": "Jageun saijeuneun kkwak kkyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 이 바지도 입어 보세요.",
+      "reading": "Geureom i bajido ibeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 이 바지는 잘 맞아요!",
+      "reading": "Wa, i bajineun jal majayo!"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 정말 예뻐요!",
+      "reading": "Ne, jeongmal yeppeoyo!"
+    }
+  ]
+}

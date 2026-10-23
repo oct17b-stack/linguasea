@@ -1,0 +1,51 @@
+{
+  "id": "en-A16-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.job",
+      "text": "job",
+      "reading": "dʒɑːb"
+    },
+    {
+      "id": "en.what-do-you-do",
+      "kind": "phrase",
+      "text": "What do you do?",
+      "reading": "ˈwʌt duː juː ˈduː?"
+    },
+    {
+      "id": "en.doctor",
+      "text": "doctor",
+      "reading": "ˈdɑːktər"
+    },
+    {
+      "id": "en.nurse",
+      "text": "nurse",
+      "reading": "nɜːrs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nice to meet you! What do you do?",
+      "reading": "ˈnaɪs tə ˈmiːt juː! ˈwʌt duː juː ˈduː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm a student. And you?",
+      "reading": "aɪm ə ˈstuːdənt. ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm a doctor. My husband is a nurse.",
+      "reading": "aɪm ə ˈdɑːktər. maɪ ˈhʌzbənd ɪz ə ˈnɜːrs."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, nice! My parents are teachers.",
+      "reading": "ˈoʊ, ˈnaɪs! maɪ ˈpɛrənts ər ˈtiːtʃərz."
+    }
+  ]
+}

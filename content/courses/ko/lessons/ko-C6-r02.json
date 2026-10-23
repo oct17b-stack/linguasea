@@ -1,0 +1,79 @@
+{
+  "id": "ko-C6-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gwangwang",
+      "text": "관광",
+      "reading": "gwangwang"
+    },
+    {
+      "id": "ko.pohamdoeda",
+      "text": "포함되다",
+      "reading": "pohamdoeda"
+    },
+    {
+      "id": "ko.chulbal",
+      "text": "출발",
+      "reading": "chulbal"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "삼 일 동안 제주도를 여행해요!",
+        "reading": "Sam il dongan Jejudoreul yeohaenghaeyo!"
+      },
+      {
+        "text": "출발은 금요일 아침 여덟 시예요.",
+        "reading": "Chulbareun geumyoil achim yeodeol siyeyo."
+      }
+    ],
+    [
+      {
+        "text": "금요일에는 한라산을 관광해요.",
+        "reading": "Geumyoireneun Hallasaneul gwangwanghaeyo."
+      },
+      {
+        "text": "토요일에는 바닷가에서 쉬고 섬 경치를 구경해요.",
+        "reading": "Toyoireneun badatgaeseo swigo seom gyeongchireul gugyeonghaeyo."
+      },
+      {
+        "text": "일요일 오후 다섯 시에 서울에 도착해요.",
+        "reading": "Iryoil ohu daseot sie Seoure dochakaeyo."
+      }
+    ],
+    [
+      {
+        "text": "한 사람에 삼십오만 원이에요.",
+        "reading": "Han sarame samsibomman wonieyo."
+      },
+      {
+        "text": "비행기표하고 숙소하고 아침이 포함돼요.",
+        "reading": "Bihaenggipyohago suksohago achimi pohamdwaeyo."
+      },
+      {
+        "text": "점심하고 저녁은 포함 안 돼요.",
+        "reading": "Jeomsimhago jeonyeogeun poham an dwaeyo."
+      },
+      {
+        "text": "지금 예약하세요!",
+        "reading": "Jigeum yeyakaseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "en-A13-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.animal",
+      "text": "animal",
+      "reading": "ˈænɪməl"
+    },
+    {
+      "id": "en.pet",
+      "text": "pet",
+      "reading": "pɛt"
+    },
+    {
+      "id": "en.dog",
+      "text": "dog",
+      "reading": "dɔːɡ"
+    },
+    {
+      "id": "en.cat",
+      "text": "cat",
+      "reading": "kæt"
+    },
+    {
+      "id": "en.rabbit",
+      "text": "rabbit",
+      "reading": "ˈræbɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you like animals?",
+      "reading": "ˈnɑːm, duː juː ˈlaɪk ˈænɪməlz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! I like dogs and cats.",
+      "reading": "ˈjɛs! aɪ ˈlaɪk ˈdɔːɡz ənd ˈkæts."
+    },
+    {
+      "speaker": "c",
+      "text": "Look! Two cats and a rabbit!",
+      "reading": "ˈlʊk! ˈtuː ˈkæts ənd ə ˈræbɪt!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! I like rabbits, too!",
+      "reading": "ˈoʊ! aɪ ˈlaɪk ˈræbɪts, ˈtuː!"
+    }
+  ]
+}

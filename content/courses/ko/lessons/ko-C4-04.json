@@ -1,0 +1,70 @@
+{
+  "id": "ko-C4-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jangso",
+      "text": "장소",
+      "reading": "jangso"
+    },
+    {
+      "id": "ko.ipgu",
+      "text": "입구",
+      "reading": "ipgu"
+    },
+    {
+      "id": "ko.chulgu",
+      "text": "출구",
+      "reading": "chulgu"
+    },
+    {
+      "id": "ko.dochak-hada",
+      "text": "도착하다",
+      "reading": "dochakada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 일요일 약속 장소를 정해요.",
+      "reading": "Nam ssi, iryoil yaksok jangsoreul jeonghaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 어디에서 만날까요?",
+      "reading": "Joayo. Eodieseo mannalkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 입구에서 만나는 게 어때요?",
+      "reading": "Hakgyo ipgueseo mannaneun ge eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음, 학교는 명동에서 좀 멀어요. 지하철 삼 번 출구에서 만나는 게 어때요?",
+      "reading": "Eum, hakgyoneun Myeongdongeseo jom meoreoyo. Jihacheol sam beon chulgueseo mannaneun ge eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 남 씨는 몇 시에 도착해요?",
+      "reading": "Joayo. Nam ssineun myeot sie dochakaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한 시 오십 분에 도착해요.",
+      "reading": "Han si osip bune dochakaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 두 시에 도착해요. 출구 앞에서 만나요!",
+      "reading": "Jeoneun du sie dochakaeyo. Chulgu apeseo mannayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 일요일에 만나요!",
+      "reading": "Ne, iryoire mannayo!"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ko-C7-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.nunsaram",
+      "text": "눈사람",
+      "reading": "nunsaram"
+    },
+    {
+      "id": "ko.mikkeureopda",
+      "text": "미끄럽다",
+      "reading": "mikkeureopda"
+    },
+    {
+      "id": "ko.eolda",
+      "text": "얼다",
+      "reading": "eolda"
+    },
+    {
+      "id": "ko.ipda",
+      "text": "입다",
+      "reading": "ipda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 씨, 잘 지내요?",
+        "reading": "Nam ssi, jal jinaeyo?"
+      },
+      {
+        "text": "서울은 지금 눈이 많이 와요.",
+        "reading": "Seoureun jigeum nuni mani wayo."
+      },
+      {
+        "text": "학교 앞에 눈사람이 있어요. 정말 예뻐요.",
+        "reading": "Hakgyo ape nunsarami isseoyo. Jeongmal yeppeoyo."
+      }
+    ],
+    [
+      {
+        "text": "기온이 매일 영하예요.",
+        "reading": "Gioni maeil yeonghayeyo."
+      },
+      {
+        "text": "눈이 얼었어요. 길이 정말 미끄러워요.",
+        "reading": "Nuni eoreosseoyo. Giri jeongmal mikkeureowoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 서울에 오는 날 옷을 많이 입으세요.",
+        "reading": "Nam ssineun Seoure oneun nal oseul mani ibeuseyo."
+      },
+      {
+        "text": "그리고 미끄러우니까 천천히 걸으세요.",
+        "reading": "Geurigo mikkeureounikka cheoncheonhi georeuseyo."
+      },
+      {
+        "text": "보고 싶어요!",
+        "reading": "Bogo sipeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

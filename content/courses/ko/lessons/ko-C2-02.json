@@ -1,0 +1,75 @@
+{
+  "id": "ko-C2-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.eokkae",
+      "text": "어깨",
+      "reading": "eokkae"
+    },
+    {
+      "id": "ko.mureup",
+      "text": "무릎",
+      "reading": "mureup"
+    },
+    {
+      "id": "ko.heori",
+      "text": "허리",
+      "reading": "heori"
+    },
+    {
+      "id": "ko.dari",
+      "text": "다리",
+      "reading": "dari"
+    },
+    {
+      "id": "ko.bal",
+      "text": "발",
+      "reading": "bal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 어디가 아프세요?",
+      "reading": "Eoseo oseyo. Eodiga apeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "허리가 아파요. 다리도 좀 아파요.",
+      "reading": "Heoriga apayo. Darido jom apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "무릎은 괜찮으세요?",
+      "reading": "Mureupeun gwaenchaneuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 무릎도 아파요. 발은 괜찮아요.",
+      "reading": "Aniyo, mureupdo apayo. Bareun gwaenchanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "어깨는요? 어깨도 아프세요?",
+      "reading": "Eokkaeneunyo? Eokkaedo apeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어깨는 안 아파요.",
+      "reading": "Eokkaeneun an apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "운동을 자주 하세요?",
+      "reading": "Undongeul jaju haseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 매일 아침에 운동해요.",
+      "reading": "Ne, maeil achime undonghaeyo."
+    }
+  ]
+}

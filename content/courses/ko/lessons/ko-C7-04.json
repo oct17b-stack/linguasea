@@ -1,0 +1,71 @@
+{
+  "id": "ko-C7-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.danpung",
+      "text": "단풍",
+      "reading": "danpung"
+    },
+    {
+      "id": "ko.beotkkot",
+      "text": "벚꽃",
+      "reading": "beotkkot"
+    },
+    {
+      "id": "ko.kkochi-pida",
+      "kind": "phrase",
+      "text": "꽃이 피다",
+      "reading": "kkochi pida"
+    },
+    {
+      "id": "ko.seup-hada",
+      "text": "습하다",
+      "reading": "seupada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "한국 계절 중에서 무슨 계절이 제일 좋아요?",
+      "reading": "Hanguk gyejeol jungeseo museun gyejeori jeil joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "가을이 제일 좋아요. 단풍이 정말 예뻐요.",
+      "reading": "Gaeuri jeil joayo. Danpungi jeongmal yeppeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 가을 단풍이 가장 예뻐요. 저는 봄을 제일 좋아해요.",
+      "reading": "Ne, gaeul danpungi gajang yeppeoyo. Jeoneun bomeul jeil joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "봄에는 벚꽃이 피어요?",
+      "reading": "Bomeneun beotkkochi pieoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 사월에 벚꽃이 많이 피어요.",
+      "reading": "Ne, sawore beotkkochi mani pieoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "여름은 어때요?",
+      "reading": "Yeoreumeun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "여름은 덥고 습해요. 저는 여름을 제일 싫어해요.",
+      "reading": "Yeoreumeun deopgo seupaeyo. Jeoneun yeoreumeul jeil sireohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "방콕도 습해요. 태국에서는 십이월하고 일월이 가장 시원해요.",
+      "reading": "Bangkokdo seupaeyo. Taegugeseoneun sibiwolhago irwori gajang siwonhaeyo."
+    }
+  ]
+}

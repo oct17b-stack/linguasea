@@ -1,0 +1,71 @@
+{
+  "id": "ko-C4-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.geureom",
+      "text": "그럼",
+      "reading": "geureom"
+    },
+    {
+      "id": "ko.geulsseyo",
+      "text": "글쎄요",
+      "reading": "geulsseyo"
+    },
+    {
+      "id": "ko.mullon",
+      "text": "물론",
+      "reading": "mullon"
+    },
+    {
+      "id": "ko.joeun-saenggagieyo",
+      "kind": "phrase",
+      "text": "좋은 생각이에요",
+      "reading": "joeun saenggagieyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 점심 같이 먹어요!",
+      "reading": "Nam ssi, jeomsim gachi meogeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 뭐 먹을까요?",
+      "reading": "Joayo. Mwo meogeulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "글쎄요... 비빔밥 어때요?",
+      "reading": "Geulsseyo... Bibimbap eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음, 비빔밥은 좀 매워요. 불고기는 어때요?",
+      "reading": "Eum, bibimbabeun jom maewoyo. Bulgogineun eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 생각이에요! 그럼 학교 앞 식당에 가요.",
+      "reading": "Joeun saenggagieyo! Geureom hakgyo ap sikdange gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "지금 가요? 민준 씨 수업은 괜찮아요?",
+      "reading": "Jigeum gayo? Minjun ssi sueobeun gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "물론 괜찮아요. 수업은 세 시예요. 갑시다!",
+      "reading": "Mullon gwaenchanayo. Sueobeun se siyeyo. Gapsida!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 갑시다!",
+      "reading": "Ne, gapsida!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "zh-D1-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.gao-tie",
+      "text": "高铁",
+      "reading": "gāotiě"
+    },
+    {
+      "id": "zh.hang-ban",
+      "text": "航班",
+      "reading": "hángbān"
+    },
+    {
+      "id": "zh.huo-zhe",
+      "text": "或者",
+      "reading": "huòzhě"
+    },
+    {
+      "id": "zh.piao-jia",
+      "text": "票价",
+      "reading": "piàojià"
+    },
+    {
+      "id": "zh.su-du",
+      "text": "速度",
+      "reading": "sùdù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我们怎么去西安？坐飞机或者坐高铁都可以。",
+      "reading": "Xiǎonán, wǒmen zěnme qù Xī'ān? Zuò fēijī huòzhě zuò gāotiě dōu kěyǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "坐高铁要多长时间？",
+      "reading": "Zuò gāotiě yào duō cháng shíjiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "最快的要四个多小时，航班只需要两个小时。",
+      "reading": "Zuì kuài de yào sì ge duō xiǎoshí, hángbān zhǐ xūyào liǎng ge xiǎoshí."
+    },
+    {
+      "speaker": "a",
+      "text": "飞机的速度快，可是机场离学校太远了。",
+      "reading": "Fēijī de sùdù kuài, kěshì jīchǎng lí xuéxiào tài yuǎn le."
+    },
+    {
+      "speaker": "b",
+      "text": "对，还要早一点儿到机场。北京西站离学校很近。",
+      "reading": "Duì, hái yào zǎo yīdiǎnr dào jīchǎng. Běijīng Xīzhàn lí xuéxiào hěn jìn."
+    },
+    {
+      "speaker": "a",
+      "text": "票价呢？哪个便宜？",
+      "reading": "Piàojià ne? Nǎge piányi?"
+    },
+    {
+      "speaker": "b",
+      "text": "高铁票六百多块。国庆节的机票比平时贵多了。",
+      "reading": "Gāotiě piào liùbǎi duō kuài. Guóqìngjié de jīpiào bǐ píngshí guì duō le."
+    },
+    {
+      "speaker": "a",
+      "text": "那我们还是坐高铁吧！还可以看看外面的景色。",
+      "reading": "Nà wǒmen háishi zuò gāotiě ba! Hái kěyǐ kànkan wàimiàn de jǐngsè."
+    },
+    {
+      "speaker": "b",
+      "text": "好。我们十月一号或者二号出发，你觉得呢？",
+      "reading": "Hǎo. Wǒmen shí yuè yī hào huòzhě èr hào chūfā, nǐ juéde ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "二号吧。一号火车站的人太多了！",
+      "reading": "Èr hào ba. Yī hào huǒchēzhàn de rén tài duō le!"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "en-A12-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.love",
+      "text": "love",
+      "reading": "lʌv"
+    },
+    {
+      "id": "en.do-you-like",
+      "kind": "phrase",
+      "text": "Do you like …?",
+      "reading": "duː juː ˈlaɪk …?"
+    },
+    {
+      "id": "en.i-dont-like",
+      "kind": "phrase",
+      "text": "I don't like …",
+      "reading": "aɪ ˈdoʊnt ˈlaɪk …"
+    },
+    {
+      "id": "en.me-neither",
+      "kind": "phrase",
+      "text": "Me neither.",
+      "reading": "ˈmiː ˈniːðər."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, do you like mangoes?",
+      "reading": "ˈɛmə, duː juː ˈlaɪk ˈmæŋɡoʊz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, I do! I love mangoes.",
+      "reading": "ˈjɛs, aɪ ˈduː! aɪ ˈlʌv ˈmæŋɡoʊz."
+    },
+    {
+      "speaker": "a",
+      "text": "Me too. But I don't like bananas.",
+      "reading": "ˈmiː ˈtuː. bət aɪ ˈdoʊnt ˈlaɪk bəˈnænəz."
+    },
+    {
+      "speaker": "c",
+      "text": "Me neither!",
+      "reading": "ˈmiː ˈniːðər!"
+    }
+  ]
+}

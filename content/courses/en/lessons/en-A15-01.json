@@ -1,0 +1,50 @@
+{
+  "id": "en-A15-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.good",
+      "text": "good",
+      "reading": "ɡʊd"
+    },
+    {
+      "id": "en.bad",
+      "text": "bad",
+      "reading": "bæd"
+    },
+    {
+      "id": "en.terrible",
+      "text": "terrible",
+      "reading": "ˈtɛrəbəl"
+    },
+    {
+      "id": "en.perfect",
+      "text": "perfect",
+      "reading": "ˈpɜːrfɪkt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is this phone good?",
+      "reading": "ˈnɑːm, ɪz ðɪs ˈfoʊn ˈɡʊd?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's not very good. It's old.",
+      "reading": "ɪts ˈnɑːt ˈvɛri ˈɡʊd. ɪts ˈoʊld."
+    },
+    {
+      "speaker": "c",
+      "text": "Is the computer bad, too?",
+      "reading": "ɪz ðə kəmˈpjuːtər ˈbæd, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No! The computer is perfect.",
+      "reading": "ˈnoʊ! ðə kəmˈpjuːtər ɪz ˈpɜːrfɪkt."
+    }
+  ]
+}

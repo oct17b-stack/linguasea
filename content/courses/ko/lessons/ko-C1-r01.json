@@ -1,0 +1,87 @@
+{
+  "id": "ko-C1-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.eoneo-gyohwan",
+      "kind": "phrase",
+      "text": "언어 교환",
+      "reading": "eoneo gyohwan"
+    },
+    {
+      "id": "ko.seoro",
+      "text": "서로",
+      "reading": "seoro"
+    },
+    {
+      "id": "ko.teukgi",
+      "text": "특기",
+      "reading": "teukgi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "안녕하세요! 저는 남이에요.",
+        "reading": "Annyeonghaseyo! Jeoneun Namieyo."
+      },
+      {
+        "text": "태국 방콕 사람이고, 지금 한국에서 한국어를 배워요.",
+        "reading": "Taeguk Bangkok saramigo, jigeum Hangugeseo hangugeoreul baewoyo."
+      }
+    ],
+    [
+      {
+        "text": "제 취미는 독서하고 사진 찍기예요.",
+        "reading": "Je chwimineun dokseohago sajin jjikgiyeyo."
+      },
+      {
+        "text": "쉬는 날에는 책을 읽거나 사진을 찍어요.",
+        "reading": "Swineun nareneun chaegeul ilgeona sajineul jjigeoyo."
+      },
+      {
+        "text": "제 특기는 피아노예요.",
+        "reading": "Je teukgineun pianoyeyo."
+      },
+      {
+        "text": "기타도 칠 수 있어요.",
+        "reading": "Gitado chil su isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "저는 태국어하고 영어를 할 수 있어요.",
+        "reading": "Jeoneun taegugeohago yeongeoreul hal su isseoyo."
+      },
+      {
+        "text": "저하고 언어 교환을 해요!",
+        "reading": "Jeohago eoneo gyohwaneul haeyo!"
+      },
+      {
+        "text": "저는 한국어를 배우고, 친구는 태국어를 배워요.",
+        "reading": "Jeoneun hangugeoreul baeugo, chinguneun taegugeoreul baewoyo."
+      },
+      {
+        "text": "우리 서로 배워요!",
+        "reading": "Uri seoro baewoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

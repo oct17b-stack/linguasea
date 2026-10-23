@@ -1,0 +1,55 @@
+{
+  "id": "en-A12-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.fruit",
+      "text": "fruit",
+      "reading": "fruːt"
+    },
+    {
+      "id": "en.banana",
+      "text": "banana",
+      "reading": "bəˈnænə"
+    },
+    {
+      "id": "en.apple",
+      "text": "apple",
+      "reading": "ˈæpəl"
+    },
+    {
+      "id": "en.mango",
+      "text": "mango",
+      "reading": "ˈmæŋɡoʊ"
+    },
+    {
+      "id": "en.orange",
+      "text": "orange",
+      "reading": "ˈɔːrɪndʒ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's this fruit?",
+      "reading": "ˈnɑːm, ˈwʌts ðɪs ˈfruːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's a mango. It's very sweet!",
+      "reading": "ɪts ə ˈmæŋɡoʊ. ɪts ˈvɛri ˈswiːt!"
+    },
+    {
+      "speaker": "c",
+      "text": "A mango and an apple, please.",
+      "reading": "ə ˈmæŋɡoʊ ənd ən ˈæpəl, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. Here you are.",
+      "reading": "ˈʃʊr. ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "en-A15-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.same",
+      "text": "same",
+      "reading": "seɪm"
+    },
+    {
+      "id": "en.different",
+      "text": "different",
+      "reading": "ˈdɪfərənt"
+    },
+    {
+      "id": "en.real",
+      "text": "real",
+      "reading": "ˈriːəl"
+    },
+    {
+      "id": "en.used",
+      "text": "used",
+      "reading": "juːzd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, are these two watches the same?",
+      "reading": "ˈnɑːm, ər ðiːz ˈtuː ˈwɑːtʃɪz ðə ˈseɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, they're different. This one is real.",
+      "reading": "ˈnoʊ, ðɛr ˈdɪfərənt. ˈðɪs wʌn ɪz ˈriːəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it new?",
+      "reading": "ɪz ɪt ˈnuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's used. But it's very nice.",
+      "reading": "ˈnoʊ, ɪts ˈjuːzd. bət ɪts ˈvɛri ˈnaɪs."
+    }
+  ]
+}
