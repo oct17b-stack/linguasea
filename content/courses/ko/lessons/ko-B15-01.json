@@ -1,0 +1,63 @@
+{
+  "id": "ko-B15-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.seonmul",
+      "text": "선물",
+      "reading": "seonmul"
+    },
+    {
+      "id": "ko.sillyehamnida",
+      "kind": "phrase",
+      "text": "실례합니다",
+      "reading": "sillyehamnida"
+    },
+    {
+      "id": "ko.deureooseyo",
+      "kind": "phrase",
+      "text": "들어오세요",
+      "reading": "deureooseyo"
+    },
+    {
+      "id": "ko.sinbareul-beoseoyo",
+      "kind": "phrase",
+      "text": "신발을 벗어요",
+      "reading": "sinbareul beoseoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어서 오세요! 들어오세요.",
+      "reading": "Nam ssi, eoseo oseyo! Deureooseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "실례합니다. 신발을 벗어요?",
+      "reading": "Sillyehamnida. Sinbareul beoseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기서 신발을 벗어요.",
+      "reading": "Ne, yeogiseo sinbareul beoseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어서 오세요! 반가워요.",
+      "reading": "Eoseo oseyo! Bangawoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요, 어머니. 저는 남이에요. 이거 선물이에요.",
+      "reading": "Annyeonghaseyo, eomeoni. Jeoneun Namieyo. Igeo seonmurieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아이고, 고마워요!",
+      "reading": "Aigo, gomawoyo!"
+    }
+  ]
+}

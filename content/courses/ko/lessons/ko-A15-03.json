@@ -1,0 +1,58 @@
+{
+  "id": "ko-A15-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.miseyo",
+      "kind": "phrase",
+      "text": "미세요",
+      "reading": "miseyo"
+    },
+    {
+      "id": "ko.danggiseyo",
+      "kind": "phrase",
+      "text": "당기세요",
+      "reading": "danggiseyo"
+    },
+    {
+      "id": "ko.yeoreoyo",
+      "text": "열어요",
+      "reading": "yeoreoyo"
+    },
+    {
+      "id": "ko.dadayo",
+      "text": "닫아요",
+      "reading": "dadayo"
+    },
+    {
+      "id": "ko.yeongeop-jung",
+      "kind": "phrase",
+      "text": "영업 중",
+      "reading": "yeongeop jung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 영업 중이에요. 문 열어요!",
+      "reading": "Minjun ssi, yeongeop jungieyo. Mun yeoreoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네… 당기세요? 미세요?",
+      "reading": "Ne… Danggiseyo? Miseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"미세요\"예요!",
+      "reading": "\"Miseyo\"yeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "아, 미세요! 남 씨, 문 닫아요.",
+      "reading": "A, miseyo! Nam ssi, mun dadayo."
+    }
+  ]
+}

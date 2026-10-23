@@ -1,0 +1,62 @@
+{
+  "id": "ko-B15-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.soneul-heundeureoyo",
+      "kind": "phrase",
+      "text": "손을 흔들어요",
+      "reading": "soneul heundeureoyo"
+    },
+    {
+      "id": "ko.songarak-hateu",
+      "kind": "phrase",
+      "text": "손가락 하트",
+      "reading": "songarak hateu"
+    },
+    {
+      "id": "ko.baksu",
+      "text": "박수",
+      "reading": "baksu"
+    },
+    {
+      "id": "ko.haipaibeu",
+      "text": "하이파이브",
+      "reading": "haipaibeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 우리 막내가 노래해요. 박수!",
+      "reading": "Nam ssi, uri mangnaega noraehaeyo. Baksu!"
+    },
+    {
+      "speaker": "a",
+      "text": "와! 노래 정말 잘해요!",
+      "reading": "Wa! Norae jeongmal jalhaeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "감사합니다! 누나, 하이파이브!",
+      "reading": "Gamsahamnida! Nuna, haipaibeu!"
+    },
+    {
+      "speaker": "a",
+      "text": "하이파이브! 와, 손가락 하트도 해요!",
+      "reading": "Haipaibeu! Wa, songarak hateudo haeyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "막내는 지금 자요. 남 씨한테 손을 흔들어요.",
+      "reading": "Mangnaeneun jigeum jayo. Nam ssihante soneul heundeureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘 자요!",
+      "reading": "Jal jayo!"
+    }
+  ]
+}

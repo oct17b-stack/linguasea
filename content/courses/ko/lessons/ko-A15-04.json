@@ -1,0 +1,52 @@
+{
+  "id": "ko-A15-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hyumu",
+      "text": "휴무",
+      "reading": "hyumu"
+    },
+    {
+      "id": "ko.gongsa-jung",
+      "kind": "phrase",
+      "text": "공사 중",
+      "reading": "gongsa jung"
+    },
+    {
+      "id": "ko.gojang",
+      "text": "고장",
+      "reading": "gojang"
+    },
+    {
+      "id": "ko.sayong-jung",
+      "kind": "phrase",
+      "text": "사용 중",
+      "reading": "sayong jung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아, 승강기가 고장이에요.",
+      "reading": "A, seungganggiga gojangieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "에스컬레이터도 공사 중이에요.",
+      "reading": "Eseukeolleiteodo gongsa jungieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아… 고깃집도 휴무예요!",
+      "reading": "A… Gogitjipdo hyumuyeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "아, 배고파요!",
+      "reading": "A, baegopayo!"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ko-B15-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.geonbae",
+      "kind": "phrase",
+      "text": "건배",
+      "reading": "geonbae"
+    },
+    {
+      "id": "ko.insahaeyo",
+      "text": "인사해요",
+      "reading": "insahaeyo"
+    },
+    {
+      "id": "ko.aksuhaeyo",
+      "text": "악수해요",
+      "reading": "aksuhaeyo"
+    },
+    {
+      "id": "ko.gogaereul-sugyeoyo",
+      "kind": "phrase",
+      "text": "고개를 숙여요",
+      "reading": "gogaereul sugyeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 한국에서는 어떻게 인사해요? 악수해요?",
+      "reading": "Minjun ssi, Hangugeseoneun eotteoke insahaeyo? Aksuhaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "친구하고는 악수해요. 할머니한테는 고개를 숙여요.",
+      "reading": "Chinguhagoneun aksuhaeyo. Halmeonihanteneun gogaereul sugyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 알겠어요. 할머니, 안녕하세요! 저는 남이에요.",
+      "reading": "A, algesseoyo. Halmeoni, annyeonghaseyo! Jeoneun Namieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아이고, 반가워요. 같이 먹어요!",
+      "reading": "Aigo, bangawoyo. Gachi meogeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "우리 건배해요! 건배!",
+      "reading": "Uri geonbaehaeyo! Geonbae!"
+    },
+    {
+      "speaker": "a",
+      "text": "건배!",
+      "reading": "Geonbae!"
+    }
+  ]
+}

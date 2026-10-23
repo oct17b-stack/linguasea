@@ -1,0 +1,50 @@
+{
+  "id": "ko-A15-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.pyo",
+      "text": "표",
+      "reading": "pyo"
+    },
+    {
+      "id": "ko.annae",
+      "text": "안내",
+      "reading": "annae"
+    },
+    {
+      "id": "ko.jeongji",
+      "text": "정지",
+      "reading": "jeongji"
+    },
+    {
+      "id": "ko.juui",
+      "text": "주의",
+      "reading": "juui"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "저기요, 이게 뭐예요?",
+      "reading": "Jeogiyo, ige mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"주의\"예요.",
+      "reading": "\"Juui\"yeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 감사합니다. 표는 몇 층이에요?",
+      "reading": "A, gamsahamnida. Pyoneun myeot cheungieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 층이에요. 안내도 이 층이에요.",
+      "reading": "I cheungieyo. Annaedo i cheungieyo."
+    }
+  ]
+}

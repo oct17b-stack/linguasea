@@ -1,0 +1,65 @@
+{
+  "id": "ko-B15-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.hansik",
+      "text": "한식",
+      "reading": "hansik"
+    },
+    {
+      "id": "ko.banchan",
+      "text": "반찬",
+      "reading": "banchan"
+    },
+    {
+      "id": "ko.japchae",
+      "text": "잡채",
+      "reading": "japchae"
+    },
+    {
+      "id": "ko.gimjang",
+      "text": "김장",
+      "reading": "gimjang"
+    },
+    {
+      "id": "ko.jipbap",
+      "text": "집밥",
+      "reading": "jipbap"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "어머니, 반찬이 정말 많아요!",
+      "reading": "Eomeoni, banchani jeongmal manayo!"
+    },
+    {
+      "speaker": "c",
+      "text": "한식은 반찬이 많아요. 잡채도 드세요.",
+      "reading": "Hansigeun banchani manayo. Japchaedo deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 잡채 정말 맛있어요!",
+      "reading": "Wa, japchae jeongmal masisseoyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "우리 집은 생일에 잡채를 먹어요.",
+      "reading": "Uri jibeun saengire japchaereul meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 김치도 맛있어요. 어머니가 만들어요?",
+      "reading": "Geuraeyo? Gimchido masisseoyo. Eomeoniga mandeureoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 김장 김치예요. 집밥이 최고예요!",
+      "reading": "Ne, gimjang gimchiyeyo. Jipbabi choegoyeyo!"
+    }
+  ]
+}

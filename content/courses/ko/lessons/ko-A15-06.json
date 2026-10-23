@@ -1,0 +1,53 @@
+{
+  "id": "ko-A15-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.wiheom",
+      "text": "위험",
+      "reading": "wiheom"
+    },
+    {
+      "id": "ko.churip-geumji",
+      "kind": "phrase",
+      "text": "출입 금지",
+      "reading": "churip geumji"
+    },
+    {
+      "id": "ko.joyonghi-haseyo",
+      "kind": "phrase",
+      "text": "조용히 하세요",
+      "reading": "joyonghi haseyo"
+    },
+    {
+      "id": "ko.manjiji-maseyo",
+      "kind": "phrase",
+      "text": "만지지 마세요",
+      "reading": "manjiji maseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여러분, 조용히 하세요!",
+      "reading": "Yeoreobun, joyonghi haseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 선생님, 이게 \"만지지 마세요\"예요?",
+      "reading": "Ne. Seonsaengnim, ige \"manjiji maseyo\"yeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 맞아요. 저거는 \"위험, 출입 금지\"예요.",
+      "reading": "Ne, majayo. Jeogeoneun \"wiheom, churip geumji\"yeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 알겠어요!",
+      "reading": "A, algesseoyo!"
+    }
+  ]
+}

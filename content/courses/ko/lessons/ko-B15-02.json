@@ -1,0 +1,62 @@
+{
+  "id": "ko-B15-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.anjeuseyo",
+      "kind": "phrase",
+      "text": "앉으세요",
+      "reading": "anjeuseyo"
+    },
+    {
+      "id": "ko.mani-deuseyo",
+      "kind": "phrase",
+      "text": "많이 드세요",
+      "reading": "mani deuseyo"
+    },
+    {
+      "id": "ko.meonjeo",
+      "text": "먼저",
+      "reading": "meonjeo"
+    },
+    {
+      "id": "ko.gidaryeoyo",
+      "text": "기다려요",
+      "reading": "gidaryeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 여기 앉으세요.",
+      "reading": "Nam ssi, yeogi anjeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 와, 음식이 정말 많아요!",
+      "reading": "Gamsahamnida. Wa, eumsigi jeongmal manayo!"
+    },
+    {
+      "speaker": "c",
+      "text": "많이 드세요!",
+      "reading": "Mani deuseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 잘 먹겠습니다!",
+      "reading": "Ne, jal meokgetseumnida!"
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 잠깐만요. 할머니가 먼저 드세요.",
+      "reading": "Nam ssi, jamkkanmanyo. Halmeoniga meonjeo deuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 네! 기다려요.",
+      "reading": "A, ne! Gidaryeoyo."
+    }
+  ]
+}

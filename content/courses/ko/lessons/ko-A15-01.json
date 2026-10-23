@@ -1,0 +1,53 @@
+{
+  "id": "ko-A15-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.naganeun-got",
+      "kind": "phrase",
+      "text": "나가는 곳",
+      "reading": "naganeun got"
+    },
+    {
+      "id": "ko.taneun-got",
+      "kind": "phrase",
+      "text": "타는 곳",
+      "reading": "taneun got"
+    },
+    {
+      "id": "ko.garataneun-got",
+      "kind": "phrase",
+      "text": "갈아타는 곳",
+      "reading": "garataneun got"
+    },
+    {
+      "id": "ko.bisanggu",
+      "text": "비상구",
+      "reading": "bisanggu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 나가는 곳이에요?",
+      "reading": "Nam ssi, ige naganeun gosieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 갈아타는 곳이에요.",
+      "reading": "Aniyo, garataneun gosieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요! 이게 비상구예요?",
+      "reading": "Majayo! Ige bisangguyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그거 타는 곳이에요!",
+      "reading": "Aniyo, geugeo taneun gosieyo!"
+    }
+  ]
+}

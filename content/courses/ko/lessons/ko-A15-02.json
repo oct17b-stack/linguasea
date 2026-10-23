@@ -1,0 +1,50 @@
+{
+  "id": "ko-A15-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.seungganggi",
+      "text": "승강기",
+      "reading": "seungganggi"
+    },
+    {
+      "id": "ko.eseukeolleiteo",
+      "text": "에스컬레이터",
+      "reading": "eseukeolleiteo"
+    },
+    {
+      "id": "ko.heubyeonsil",
+      "text": "흡연실",
+      "reading": "heubyeonsil"
+    },
+    {
+      "id": "ko.hwajangji",
+      "text": "화장지",
+      "reading": "hwajangji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 뭐예요?",
+      "reading": "Nam ssi, ige mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "에스컬레이터예요!",
+      "reading": "Eseukeolleiteoyeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요! 이게 승강기예요? 흡연실이에요?",
+      "reading": "Majayo! Ige seungganggiyeyo? Heubyeonsirieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그거 승강기예요!",
+      "reading": "Geugeo seungganggiyeyo!"
+    }
+  ]
+}

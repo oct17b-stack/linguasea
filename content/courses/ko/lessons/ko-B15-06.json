@@ -1,0 +1,63 @@
+{
+  "id": "ko-B15-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.tto-oseyo",
+      "kind": "phrase",
+      "text": "또 오세요",
+      "reading": "tto oseyo"
+    },
+    {
+      "id": "ko.josimhi-gaseyo",
+      "kind": "phrase",
+      "text": "조심히 가세요",
+      "reading": "josimhi gaseyo"
+    },
+    {
+      "id": "ko.daeume",
+      "text": "다음에",
+      "reading": "daeume"
+    },
+    {
+      "id": "ko.sinse-jyeosseoyo",
+      "kind": "phrase",
+      "text": "신세 졌어요",
+      "reading": "sinse jyeosseoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "어머니, 오늘 정말 감사합니다. 신세 졌어요.",
+      "reading": "Eomeoni, oneul jeongmal gamsahamnida. Sinse jyeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아니에요. 다음에 또 오세요!",
+      "reading": "Anieyo. Daeume tto oseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 다음에 또 와요.",
+      "reading": "Ne, daeume tto wayo."
+    },
+    {
+      "speaker": "c",
+      "text": "조심히 가세요.",
+      "reading": "Josimhi gaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 버스 정류장까지 같이 가요.",
+      "reading": "Nam ssi, beoseu jeongnyujangkkaji gachi gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요! 어머니, 안녕히 계세요!",
+      "reading": "Gomawoyo! Eomeoni, annyeonghi gyeseyo!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ko-B15-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.cheoeumeneun",
+      "text": "처음에는",
+      "reading": "cheoeumeneun"
+    },
+    {
+      "id": "ko.isanghaeyo",
+      "text": "이상해요",
+      "reading": "isanghaeyo"
+    },
+    {
+      "id": "ko.nollasseoyo",
+      "text": "놀랐어요",
+      "reading": "nollasseoyo"
+    },
+    {
+      "id": "ko.teuki",
+      "text": "특히",
+      "reading": "teuki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "처음에는 정말 놀랐어요.",
+        "reading": "Cheoeumeneun jeongmal nollasseoyo."
+      },
+      {
+        "text": "한국 사람들은 나이를 자주 물어봐요.",
+        "reading": "Hanguk saramdeureun naireul jaju mureobwayo."
+      },
+      {
+        "text": "그리고 할머니가 밥을 먼저 드세요.",
+        "reading": "Geurigo halmeoniga babeul meonjeo deuseyo."
+      }
+    ],
+    [
+      {
+        "text": "하지만 지금은 안 이상해요.",
+        "reading": "Hajiman jigeumeun an isanghaeyo."
+      },
+      {
+        "text": "저는 특히 민준 씨 어머니 집밥을 좋아해요.",
+        "reading": "Jeoneun teuki Minjun ssi eomeoni jipbabeul joahaeyo."
+      },
+      {
+        "text": "그래서 다음에 또 가고 싶어요!",
+        "reading": "Geuraeseo daeume tto gago sipeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}
