@@ -1,0 +1,73 @@
+{
+  "id": "zh-C12-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.zhu-wish",
+      "text": "祝",
+      "reading": "zhù"
+    },
+    {
+      "id": "zh.gong-xi-fa-cai",
+      "kind": "phrase",
+      "text": "恭喜发财",
+      "reading": "gōngxǐ fācái"
+    },
+    {
+      "id": "zh.wan-shi-ru-yi",
+      "kind": "phrase",
+      "text": "万事如意",
+      "reading": "wànshì rúyì"
+    },
+    {
+      "id": "zh.shen-ti-jian-kang",
+      "kind": "phrase",
+      "text": "身体健康",
+      "reading": "shēntǐ jiànkāng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，新年快乐！祝您身体健康，万事如意！",
+      "reading": "Lǐ lǎoshī, xīnnián kuàilè! Zhù nín shēntǐ jiànkāng, wànshì rúyì!"
+    },
+    {
+      "speaker": "c",
+      "text": "谢谢你！也祝你新年快乐，学习进步！",
+      "reading": "Xièxie nǐ! Yě zhù nǐ xīnnián kuàilè, xuéxí jìnbù!"
+    },
+    {
+      "speaker": "a",
+      "text": "这是泰国的茶，送给您和叔叔。",
+      "reading": "Zhè shì Tàiguó de chá, sòng gěi nín hé shūshu."
+    },
+    {
+      "speaker": "c",
+      "text": "你太客气了！快进来吧。",
+      "reading": "Nǐ tài kèqi le! Kuài jìnlái ba."
+    },
+    {
+      "speaker": "b",
+      "text": "你就是小南吧？恭喜发财！",
+      "reading": "Nǐ jiù shì Xiǎonán ba? Gōngxǐ fācái!"
+    },
+    {
+      "speaker": "a",
+      "text": "叔叔好！恭喜发财！",
+      "reading": "Shūshu hǎo! Gōngxǐ fācái!"
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，说了“恭喜发财”，就有红包！给你！",
+      "reading": "Hāhā, shuō le \"Gōngxǐ fācái\", jiù yǒu hóngbāo! Gěi nǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？谢谢叔叔！祝您万事如意！",
+      "reading": "Zhēnde ma? Xièxie shūshu! Zhù nín wànshì rúyì!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "zh-B16-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.jiu-ming",
+      "text": "救命",
+      "reading": "jiùmìng"
+    },
+    {
+      "id": "zh.zhao-huo",
+      "text": "着火",
+      "reading": "zháohuǒ"
+    },
+    {
+      "id": "zh.huo",
+      "text": "火",
+      "reading": "huǒ"
+    },
+    {
+      "id": "zh.jiu-hu-che",
+      "text": "救护车",
+      "reading": "jiùhùchē"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "救命！救命！",
+      "reading": "Jiùmìng! Jiùmìng!"
+    },
+    {
+      "speaker": "a",
+      "text": "王明，你听！有人在叫“救命”！",
+      "reading": "Wáng Míng, nǐ tīng! Yǒu rén zài jiào \"jiùmìng\"!"
+    },
+    {
+      "speaker": "b",
+      "text": "你看，那里着火了！",
+      "reading": "Nǐ kàn, nàlǐ zháohuǒ le!"
+    },
+    {
+      "speaker": "a",
+      "text": "火很大！快叫救护车！",
+      "reading": "Huǒ hěn dà! Kuài jiào jiùhùchē!"
+    },
+    {
+      "speaker": "b",
+      "text": "我打电话！你别去那里！",
+      "reading": "Wǒ dǎ diànhuà! Nǐ bié qù nàlǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "好，我去叫人！",
+      "reading": "Hǎo, wǒ qù jiào rén!"
+    }
+  ]
+}

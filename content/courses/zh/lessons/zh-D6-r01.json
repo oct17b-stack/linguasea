@@ -1,0 +1,88 @@
+{
+  "id": "zh-D6-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.you-dian",
+      "text": "优点",
+      "reading": "yōudiǎn"
+    },
+    {
+      "id": "zh.que-dian",
+      "text": "缺点",
+      "reading": "quēdiǎn"
+    },
+    {
+      "id": "zh.le-guan",
+      "text": "乐观",
+      "reading": "lèguān"
+    },
+    {
+      "id": "zh.kai-lang",
+      "text": "开朗",
+      "reading": "kāilǎng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "我最好的朋友叫王明，他是北京人。",
+        "reading": "Wǒ zuì hǎo de péngyou jiào Wáng Míng, tā shì Běijīng rén."
+      },
+      {
+        "text": "他个子高高的，头发短短的，戴着眼镜。",
+        "reading": "Tā gèzi gāogāo de, tóufa duǎnduǎn de, dài zhe yǎnjìng."
+      },
+      {
+        "text": "他长得很帅，笑的时候很好看。",
+        "reading": "Tā zhǎng de hěn shuài, xiào de shíhou hěn hǎokàn."
+      }
+    ],
+    [
+      {
+        "text": "王明的性格很开朗，也很乐观。",
+        "reading": "Wáng Míng de xìnggé hěn kāilǎng, yě hěn lèguān."
+      },
+      {
+        "text": "遇到问题的时候，他总是说：“别着急，会有办法的！”",
+        "reading": "Yùdào wèntí de shíhou, tā zǒngshì shuō: \"Bié zháojí, huì yǒu bànfǎ de!\""
+      },
+      {
+        "text": "他的优点很多：幽默、热情，还很大方。",
+        "reading": "Tā de yōudiǎn hěn duō: yōumò, rèqíng, hái hěn dàfang."
+      },
+      {
+        "text": "在西安，我的钱包被偷了，他一直帮我。",
+        "reading": "Zài Xī'ān, wǒ de qiánbāo bèi tōu le, tā yīzhí bāng wǒ."
+      }
+    ],
+    [
+      {
+        "text": "当然，他也有缺点。",
+        "reading": "Dāngrán, tā yě yǒu quēdiǎn."
+      },
+      {
+        "text": "他有点儿马虎，总是找不到钥匙，还常常迟到。",
+        "reading": "Tā yǒudiǎnr mǎhu, zǒngshì zhǎo bu dào yàoshi, hái chángcháng chídào."
+      },
+      {
+        "text": "可是他是我在中国最好的朋友！",
+        "reading": "Kěshì tā shì wǒ zài Zhōngguó zuì hǎo de péngyou!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

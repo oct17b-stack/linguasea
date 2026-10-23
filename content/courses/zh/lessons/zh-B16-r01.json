@@ -1,0 +1,65 @@
+{
+  "id": "zh-B16-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.bing-jia",
+      "text": "病假",
+      "reading": "bìngjià"
+    },
+    {
+      "id": "zh.mu-qin",
+      "text": "母亲",
+      "reading": "mǔqīn"
+    },
+    {
+      "id": "zh.shen-bian",
+      "text": "身边",
+      "reading": "shēnbiān"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "李老师，您好！",
+        "reading": "Lǐ lǎoshī, nín hǎo!"
+      },
+      {
+        "text": "我生病了，胃很痛，也有点儿晕。",
+        "reading": "Wǒ shēngbìng le, wèi hěn tòng, yě yǒudiǎnr yūn."
+      },
+      {
+        "text": "大夫说，我最好在家休息两天。",
+        "reading": "Dàifu shuō, wǒ zuìhǎo zài jiā xiūxi liǎng tiān."
+      }
+    ],
+    [
+      {
+        "text": "我想请两天病假，谢谢您！",
+        "reading": "Wǒ xiǎng qǐng liǎng tiān bìngjià, xièxie nín!"
+      },
+      {
+        "text": "我母亲在我身边，我很快就会好的。",
+        "reading": "Wǒ mǔqīn zài wǒ shēnbiān, wǒ hěn kuài jiù huì hǎo de."
+      },
+      {
+        "text": "学生：小南",
+        "reading": "Xuésheng: Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}
