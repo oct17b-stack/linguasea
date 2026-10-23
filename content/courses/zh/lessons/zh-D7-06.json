@@ -1,0 +1,86 @@
+{
+  "id": "zh-D7-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.zhu-zi",
+      "text": "竹子",
+      "reading": "zhúzi"
+    },
+    {
+      "id": "zh.shu-liang",
+      "text": "数量",
+      "reading": "shùliàng"
+    },
+    {
+      "id": "zh.zhen-gui",
+      "text": "珍贵",
+      "reading": "zhēnguì"
+    },
+    {
+      "id": "zh.jian-shao",
+      "text": "减少",
+      "reading": "jiǎnshǎo"
+    },
+    {
+      "id": "zh.te-bie-shi",
+      "text": "特别是",
+      "reading": "tèbié shì",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你喜欢什么动物？",
+      "reading": "Xiǎonán, nǐ xǐhuan shénme dòngwù?"
+    },
+    {
+      "speaker": "a",
+      "text": "猫、狗、大象，我都喜欢，特别是熊猫！",
+      "reading": "Māo, gǒu, dàxiàng, wǒ dōu xǐhuan, tèbié shì xióngmāo!"
+    },
+    {
+      "speaker": "c",
+      "text": "熊猫很珍贵，是中国最有名的动物。",
+      "reading": "Xióngmāo hěn zhēnguì, shì Zhōngguó zuì yǒumíng de dòngwù."
+    },
+    {
+      "speaker": "a",
+      "text": "我听说熊猫每天要吃很多竹子。",
+      "reading": "Wǒ tīngshuō xióngmāo měitiān yào chī hěn duō zhúzi."
+    },
+    {
+      "speaker": "c",
+      "text": "对，它们每天差不多有一半的时间在吃竹子。",
+      "reading": "Duì, tāmen měitiān chàbuduō yǒu yībàn de shíjiān zài chī zhúzi."
+    },
+    {
+      "speaker": "a",
+      "text": "现在熊猫的数量多吗？",
+      "reading": "Xiànzài xióngmāo de shùliàng duō ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "以前熊猫的数量一直在减少，现在比以前多了一些。",
+      "reading": "Yǐqián xióngmāo de shùliàng yīzhí zài jiǎnshǎo, xiànzài bǐ yǐqián duō le yīxiē."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！中国人都很喜欢熊猫吧，特别是孩子。",
+      "reading": "Tài hǎo le! Zhōngguó rén dōu hěn xǐhuan xióngmāo ba, tèbié shì háizi."
+    },
+    {
+      "speaker": "c",
+      "text": "是啊。以后你可以去成都看熊猫，那儿的熊猫特别多。",
+      "reading": "Shì a. Yǐhòu nǐ kěyǐ qù Chéngdū kàn xióngmāo, nàr de xióngmāo tèbié duō."
+    },
+    {
+      "speaker": "a",
+      "text": "好！放假的时候，我一定要去！",
+      "reading": "Hǎo! Fàngjià de shíhou, wǒ yīdìng yào qù!"
+    }
+  ]
+}
