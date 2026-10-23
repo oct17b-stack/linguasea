@@ -34,6 +34,11 @@
       "id": "ko.geoui",
       "text": "거의",
       "reading": "geoui"
+    },
+    {
+      "id": "ko.ollagada",
+      "text": "올라가다",
+      "reading": "ollagada"
     }
   ],
   "dialogue": [
@@ -44,13 +49,13 @@
     },
     {
       "speaker": "a",
-      "text": "아니요, 시간이 없어서 거의 못 해요.",
-      "reading": "Aniyo, sigani eopseoseo geoui mot haeyo."
+      "text": "아니요, 요즘은 시간이 없어서 거의 못 해요.",
+      "reading": "Aniyo, yojeumeun sigani eopseoseo geoui mot haeyo."
     },
     {
       "speaker": "c",
-      "text": "그럼 지하철역에서 학교까지 걸어 다니는 건 어때요?",
-      "reading": "Geureom jihacheollyeogeseo hakgyokkaji georeo danineun geon eottaeyo?"
+      "text": "그럼 아르바이트하는 식당까지 걸어 다니는 건 어때요?",
+      "reading": "Geureom areubaiteuhaneun sikdangkkaji georeo danineun geon eottaeyo?"
     },
     {
       "speaker": "a",
@@ -59,8 +64,8 @@
     },
     {
       "speaker": "c",
-      "text": "좋네요. 학교에 오는 길에 걷고, 집에 가는 길에도 걸으세요.",
-      "reading": "Jonneyo. Hakgyoe oneun gire geotgo, jibe ganeun giredo georeuseyo."
+      "text": "좋네요. 식당에 가는 길에 걷고, 집에 가는 길에도 걸으세요.",
+      "reading": "Jonneyo. Sikdange ganeun gire geotgo, jibe ganeun giredo georeuseyo."
     },
     {
       "speaker": "a",
@@ -84,8 +89,8 @@
     },
     {
       "speaker": "a",
-      "text": "알겠어요. 오늘 집에 가는 길에 바로 시작할게요.",
-      "reading": "Algesseoyo. Oneul jibe ganeun gire baro sijakalgeyo."
+      "text": "알겠어요. 토요일에 식당에 가는 길에 꼭 걸을게요.",
+      "reading": "Algesseoyo. Toyoire sikdange ganeun gire kkok georeulgeyo."
     }
   ]
 }
