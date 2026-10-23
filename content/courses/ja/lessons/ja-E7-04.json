@@ -1,0 +1,96 @@
+{
+  "id": "ja-E7-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.sekkyaku",
+      "text": "せっきゃく",
+      "reading": "sekkyaku"
+    },
+    {
+      "id": "ja.manabu",
+      "text": "学ぶ",
+      "reading": "manabu"
+    },
+    {
+      "id": "ja.mi-ni-tsukeru",
+      "kind": "phrase",
+      "text": "みにつける",
+      "reading": "mi ni tsukeru"
+    },
+    {
+      "id": "ja.komyunikeeshon",
+      "text": "コミュニケーション",
+      "reading": "komyunikēshon"
+    },
+    {
+      "id": "ja.kyouchousei",
+      "text": "きょうちょうせい",
+      "reading": "kyōchōsei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさんは、アルバイトのけいけんがありますか。",
+      "reading": "Namu-san wa, arubaito no keiken ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。にほんで、コンビニとホテルでアルバイトをしました。",
+      "reading": "Hai. Nihon de, konbini to hoteru de arubaito o shimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "アルバイトを通じて、どんなことを学びましたか。",
+      "reading": "Arubaito o tsūjite, donna koto o manabimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ホテルのフロントのしごとを通じて、せっきゃくの仕方を学びました。",
+      "reading": "Hoteru no furonto no shigoto o tsūjite, sekkyaku no shikata o manabimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "たとえば、どんなことですか。",
+      "reading": "Tatoeba, donna koto desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "お客様のはなしをよくきいて、ていねいにたいおうすることです。けいごも、しごとを通じてみにつけました。",
+      "reading": "Okyakusama no hanashi o yoku kiite, teinei ni taiō suru koto desu. Keigo mo, shigoto o tsūjite mi ni tsukemashita."
+    },
+    {
+      "speaker": "b",
+      "text": "コンビニのアルバイトは、どうでしたか。",
+      "reading": "Konbini no arubaito wa, dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "コンビニでは、いろいろなくにのひとといっしょにはたらいたので、コミュニケーションのむずかしさを学びました。",
+      "reading": "Konbini de wa, iroiro na kuni no hito to issho ni hataraita node, komyunikēshon no muzukashisa o manabimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。チームではたらくとき、なにがひつようだと思いますか。",
+      "reading": "Naruhodo. Chīmu de hataraku toki, nani ga hitsuyō da to omoimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きょうちょうせいだと思います。みんながはたらきやすいように、シフトをこうたいしたこともあります。",
+      "reading": "Kyōchōsei da to omoimasu. Minna ga hatarakiyasui yō ni, shifuto o kōtai shita koto mo arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいけいけんですね。わたしたちの会社でも、そのけいけんは、やくにたつと思います。",
+      "reading": "Ii keiken desu ne. Watashitachi no kaisha demo, sono keiken wa, yaku ni tatsu to omoimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。しごとを通じて、これからも、いろいろなことを学びたいです。",
+      "reading": "Arigatō gozaimasu. Shigoto o tsūjite, korekara mo, iroiro na koto o manabitai desu."
+    }
+  ]
+}

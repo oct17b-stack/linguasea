@@ -1,0 +1,95 @@
+{
+  "id": "ja-E7-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.eigyou",
+      "text": "えいぎょう",
+      "reading": "eigyō"
+    },
+    {
+      "id": "ja.jimu-office",
+      "text": "事務",
+      "reading": "jimu"
+    },
+    {
+      "id": "ja.tekisei",
+      "text": "適性",
+      "reading": "tekisei"
+    },
+    {
+      "id": "ja.shibou",
+      "text": "しぼう",
+      "reading": "shibō"
+    },
+    {
+      "id": "ja.douki",
+      "text": "動機",
+      "reading": "dōki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "では、しぼう動機をおしえてください。",
+      "reading": "Dewa, shibō dōki o oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。わたしは、タイとにほんのあいだではたらきたいと思っています。御社は、タイにもにほんにもお客様がおおいので、しぼうしました。",
+      "reading": "Hai. Watashi wa, Tai to Nihon no aida de hatarakitai to omotte imasu. Onsha wa, Tai ni mo Nihon ni mo okyakusama ga ōi node, shibō shimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。ナムさんは、えいぎょうと事務と、どちらに向いていると思いますか。",
+      "reading": "Arigatō gozaimasu. Namu-san wa, eigyō to jimu to, dochira ni muite iru to omoimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "えいぎょうに向いていると思います。ひととはなすのがすきですし、ホテルで、せっきゃくのけいけんもあります。",
+      "reading": "Eigyō ni muite iru to omoimasu. Hito to hanasu no ga suki desu shi, hoteru de, sekkyaku no keiken mo arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "事務のしごとは、どうですか。",
+      "reading": "Jimu no shigoto wa, dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "事務のしごともできますが、ずっとパソコンのまえにすわっているのは、あまり向いていないと思います。",
+      "reading": "Jimu no shigoto mo dekimasu ga, zutto pasokon no mae ni suwatte iru no wa, amari muite inai to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。じつは、この会社では、さいしょに適性のけんさをうけてもらいます。",
+      "reading": "Naruhodo. Jitsu wa, kono kaisha de wa, saisho ni tekisei no kensa o ukete moraimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "適性のけんさですか。どんなけんさですか。",
+      "reading": "Tekisei no kensa desu ka. Donna kensa desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "どんなしごとに向いているか、しらべるけんさです。そのけっかで、しごとをきめます。",
+      "reading": "Donna shigoto ni muite iru ka, shiraberu kensa desu. Sono kekka de, shigoto o kimemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。もし、えいぎょうに向いていなかったら、どうなりますか。",
+      "reading": "Wakarimashita. Moshi, eigyō ni muite inakattara, dō narimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "事務や、ほかのしごとになることもあります。でも、ナムさんの動機は、とてもはっきりしていて、いいと思いますよ。",
+      "reading": "Jimu ya, hoka no shigoto ni naru koto mo arimasu. Demo, Namu-san no dōki wa, totemo hakkiri shite ite, ii to omoimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。どんなしごとでも、がんばります。",
+      "reading": "Arigatō gozaimasu. Donna shigoto demo, ganbarimasu."
+    }
+  ]
+}
