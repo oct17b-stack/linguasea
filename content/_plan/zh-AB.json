@@ -10,7 +10,7 @@
         {
           "id": "zh-A1",
           "title_th": "ทักทายและมารยาท",
-          "goal_th": "ทักทาย ขอบคุณ ขอโทษ ถามว่าสบายดีไหม ทักคนที่ไม่ได้เจอกันนาน และใช้คำสุภาพที่ใช้บ่อยได้",
+          "goal_th": "ทักทาย ขอบคุณ ขอโทษ และถามว่าสบายดีไหมได้",
           "scenario": "B is Wang Ming, Nam's Chinese friend, who comes to see her after a long time apart. Nam must greet him, ask how he has been and answer, ask him to wait a moment and say sorry for keeping him waiting, welcome him in and ask him to sit down, thank him and say goodbye.",
           "lessons": [
             {
@@ -80,7 +80,7 @@
         {
           "id": "zh-A2",
           "title_th": "พินอินและวรรณยุกต์",
-          "goal_th": "อ่านพินอิน แยกวรรณยุกต์ 4 เสียง พยัญชนะและสระผสมที่คล้ายกัน และออกเสียงคำสองพยางค์กับเสียง er ได้",
+          "goal_th": "อ่านพินอิน แยกวรรณยุกต์ 4 เสียง และพยัญชนะที่คล้ายกันได้",
           "scenario": "B is Li Laoshi, Nam's Chinese teacher, running a pinyin listening game. Nam must tell apart the tones and similar initials (b/p, d/t, zh/z), pick the right final (ai/ei, ou/uo, ie/üe), and read place names such as Shanghai, Hong Kong, Chiang Mai and Phuket with the right tones, including the er sound.",
           "lessons": [
             {
@@ -178,6 +178,13 @@
                   "reading": "huār",
                   "kind": "syllable",
                   "say": "花儿"
+                },
+                {
+                  "id": "zh.hua1",
+                  "text": "huā",
+                  "reading": "huā",
+                  "kind": "syllable",
+                  "say": "花"
                 }
               ]
             }
@@ -186,7 +193,7 @@
         {
           "id": "zh-A3",
           "title_th": "แนะนำตัว",
-          "goal_th": "บอกชื่อ แซ่ สัญชาติ ถามชื่ออย่างสุภาพ และแนะนำเพื่อนให้คนหลายคนรู้จักได้",
+          "goal_th": "บอกชื่อ สัญชาติ และแนะนำเพื่อนให้คนอื่นรู้จักได้",
           "scenario": "B is a Chinese teacher Nam meets at a language-exchange evening. Nam must ask his surname politely, say her name and nationality and that she is a university student, and introduce her friend Wang Ming (from Beijing) to him and the group.",
           "lessons": [
             {
@@ -260,6 +267,12 @@
                   "text": "你们",
                   "reading": "nǐmen",
                   "kind": "word"
+                },
+                {
+                  "id": "zh.na-which",
+                  "text": "哪",
+                  "reading": "nǎ",
+                  "kind": "word"
                 }
               ]
             }
@@ -268,7 +281,7 @@
         {
           "id": "zh-A4",
           "title_th": "ตัวเลขและอายุ",
-          "goal_th": "นับเลข 0–99 บอกจำนวนร้อย พัน หมื่น บอกว่ามากหรือน้อย และถามตอบเรื่องอายุได้",
+          "goal_th": "นับเลข 0–10 นับสิ่งของ และถามตอบเรื่องอายุได้",
           "scenario": "B is Wang Ming playing a number quiz with Nam. Nam must read numbers aloud (up to the ten thousands), ask and say how many friends each of them has, and ask and say how old they are.",
           "lessons": [
             {
@@ -344,7 +357,7 @@
         {
           "id": "zh-A5",
           "title_th": "ครอบครัว",
-          "goal_th": "แนะนำคนในครอบครัว รวมถึงสามี ภรรยา ลูก ญาติฝั่งแม่ น้าอา และบอกอาชีพของพวกเขาได้",
+          "goal_th": "แนะนำคนในครอบครัวและบอกอาชีพของพวกเขาได้",
           "scenario": "B is Wang Ming looking at family photos on Nam's phone. Nam must say how many people there are in her family and who they are, say what her parents do, and point out her mother's younger sister with her husband and their son and daughter, and her grandparents on her mother's side.",
           "lessons": [
             {
@@ -426,7 +439,7 @@
         {
           "id": "zh-A6",
           "title_th": "กินและดื่ม",
-          "goal_th": "บอกว่าอยากกินอยากดื่มอะไร ชอบผลไม้อะไร ไม่กินเนื้อสัตว์อะไร และสั่งอาหารที่ร้านได้",
+          "goal_th": "บอกว่าอยากกินอยากดื่มอะไร ชอบอะไร และสั่งอาหารที่ร้านได้",
           "scenario": "B is the mother of a Chinese classmate, who has invited Nam to dinner at their home in Bangkok. Nam must say what she would like to eat and drink, which fruit she likes, and which meat she eats or doesn't eat (she eats beef but not mutton), and thank her politely.",
           "lessons": [
             {
@@ -1663,6 +1676,12 @@
                   "text": "湖",
                   "reading": "hú",
                   "kind": "word"
+                },
+                {
+                  "id": "zh.shang-on",
+                  "text": "上",
+                  "reading": "shàng",
+                  "kind": "word"
                 }
               ]
             },
@@ -2408,6 +2427,12 @@
                   "text": "小意思",
                   "reading": "xiǎoyìsi",
                   "kind": "word"
+                },
+                {
+                  "id": "zh.tai",
+                  "text": "太",
+                  "reading": "tài",
+                  "kind": "word"
                 }
               ]
             },
@@ -2487,7 +2512,7 @@
         {
           "id": "zh-B1",
           "title_th": "เวลา วันที่ และวันในสัปดาห์",
-          "goal_th": "ถามและบอกเวลาอย่างละเอียด (สิบห้านาที อีกกี่นาที) บอกวันที่ ปีที่แล้ว ปีหน้า ถามว่าเมื่อไร และบอกว่าวันหยุดเมื่อไรได้",
+          "goal_th": "ถามและบอกเวลา วันในสัปดาห์ และวันที่ได้",
           "scenario": "B is Wang Ming, planning the New Year holiday with Nam. Nam must ask and say what time it is and what day and date it is, ask when the holiday starts and how many days off each of them has, and agree on a day and time to meet (and say when her birthday is).",
           "lessons": [
             {
@@ -2595,7 +2620,7 @@
         {
           "id": "zh-B2",
           "title_th": "ซื้อของและราคา",
-          "goal_th": "ถามราคา ต่อราคา ซื้อเสื้อผ้า อ่านราคาเป็นหยวน เจียว เหมา ซื้อของเป็นชั่ง และเลือกจ่ายเงินสดหรือรูดบัตรได้",
+          "goal_th": "ถามราคา ต่อราคา ซื้อเสื้อผ้า และจ่ายเงินได้",
           "scenario": "B is a stallholder at a street market in China, where Nam is shopping with Wang Ming. Nam must ask prices, read price tags in 元 and 角, bargain politely, buy fruit by the jin, ask for a smaller size, and ask whether she can pay by card.",
           "lessons": [
             {
@@ -2697,7 +2722,7 @@
         {
           "id": "zh-B3",
           "title_th": "สถานที่และทิศทาง",
-          "goal_th": "ถามว่าที่ไหนอยู่ตรงไหน บอกทางตรงไป เลี้ยวซ้ายขวา บอกว่าอยู่ใกล้ ตรงข้าม หรือระหว่างอะไรได้",
+          "goal_th": "ถามว่าที่ไหนอยู่ตรงไหน และเข้าใจการบอกทางง่าย ๆ ได้",
           "scenario": "B is a passer-by near Nam's university in Bangkok. Nam is looking for a noodle restaurant: she must ask the way politely, ask whether it is far, and understand directions (go straight, turn left at the crossing, opposite, next to, between the bank and the supermarket), then check what she heard.",
           "lessons": [
             {
@@ -2805,7 +2830,7 @@
         {
           "id": "zh-B4",
           "title_th": "กิจวัตรประจำวัน",
-          "goal_th": "เล่ากิจวัตรตั้งแต่อาบน้ำ แปรงฟัน ไปเรียน กลับบ้าน บอกว่าทำอะไรก่อน-หลัง และพูดถึงเวลาทำงานของพ่อแม่ได้",
+          "goal_th": "เล่าว่าแต่ละวันทำอะไรบ้าง ตอนกี่โมงได้",
           "scenario": "B is Wang Ming, comparing daily routines with Nam. Nam must say when she gets up and goes to bed, what she does in the morning (shower, brush teeth, breakfast), when her classes start and finish, what she does at the weekend (her restaurant job), and when her parents, both teachers, go to work and come home.",
           "lessons": [
             {
@@ -2931,7 +2956,7 @@
         {
           "id": "zh-B5",
           "title_th": "อากาศและความรู้สึก",
-          "goal_th": "พูดถึงอากาศครึ้ม ฝนตกหนัก ลมแรง บอกความรู้สึก เช่น โกรธ หัวเราะ ร้องไห้ และถามว่าทำไมได้",
+          "goal_th": "พูดถึงสภาพอากาศ และบอกว่ารู้สึกอย่างไรได้",
           "scenario": "B is Wang Ming, grumpy because it has rained in Bangkok every day. Nam must talk about the weather today and tomorrow (hot, rain, wind, clouds), say how she feels (tired, hungry, busy), ask why he is angry and how he feels, and cheer him up.",
           "lessons": [
             {
@@ -3033,7 +3058,7 @@
         {
           "id": "zh-B6",
           "title_th": "การเดินทาง",
-          "goal_th": "บอกว่าเดินทางด้วยอะไร เรียกแท็กซี่ ขึ้นลงรถ ขึ้นรถเมล์ เรือ รถไฟใต้ดิน และซื้อตั๋วเครื่องบินได้",
+          "goal_th": "บอกว่าเดินทางด้วยอะไร ซื้อตั๋ว และถามว่าใช้เวลานานเท่าไรได้",
           "scenario": "B is Wang Ming, helping Nam plan her last day in Beijing before she flies home. Nam must ask how to get to the train station and the airport (metro, bus, taxi or walking), how long each takes and whether it is expensive, say when her flight is, and agree on a boat trip in the park the next day.",
           "lessons": [
             {
@@ -3654,6 +3679,12 @@
                   "text": "好听",
                   "reading": "hǎotīng",
                   "kind": "word"
+                },
+                {
+                  "id": "zh.chang-sing",
+                  "text": "唱",
+                  "reading": "chàng",
+                  "kind": "word"
                 }
               ]
             },
@@ -3684,6 +3715,12 @@
                   "id": "zh.ping-pang-qiu",
                   "text": "乒乓球",
                   "reading": "pīngpāngqiú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-hit",
+                  "text": "打",
+                  "reading": "dǎ",
                   "kind": "word"
                 }
               ]
@@ -4060,6 +4097,12 @@
                   "id": "zh.zui-hou",
                   "text": "最后",
                   "reading": "zuìhòu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jian-see",
+                  "text": "见",
+                  "reading": "jiàn",
                   "kind": "word"
                 }
               ]
@@ -4501,6 +4544,12 @@
                   "text": "谢谢合作",
                   "reading": "xièxie hézuò",
                   "kind": "phrase"
+                },
+                {
+                  "id": "zh.xie-shoe",
+                  "text": "鞋",
+                  "reading": "xié",
+                  "kind": "word"
                 }
               ]
             }
@@ -4694,6 +4743,12 @@
                   "id": "zh.ling-qian",
                   "text": "零钱",
                   "reading": "língqián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hu-zhao",
+                  "text": "护照",
+                  "reading": "hùzhào",
                   "kind": "word"
                 }
               ]

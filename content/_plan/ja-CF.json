@@ -184,6 +184,18 @@
                   "text": "ムエタイ",
                   "reading": "muetai",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.koto-thing",
+                  "text": "こと",
+                  "reading": "koto",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dekiru",
+                  "text": "できる",
+                  "reading": "dekiru",
+                  "kind": "word"
                 }
               ]
             },
@@ -473,6 +485,12 @@
                   "text": "下がる",
                   "reading": "sagaru",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.shohousen",
+                  "text": "しょほうせん",
+                  "reading": "shohōsen",
+                  "kind": "word"
                 }
               ]
             },
@@ -692,6 +710,12 @@
                   "id": "ja.bungaku",
                   "text": "文学",
                   "reading": "bungaku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dochira",
+                  "text": "どちら",
+                  "reading": "dochira",
                   "kind": "word"
                 }
               ]
@@ -1018,6 +1042,12 @@
                   "id": "ja.konya",
                   "text": "今夜",
                   "reading": "kon'ya",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.mata",
+                  "text": "また",
+                  "reading": "mata",
                   "kind": "word"
                 }
               ]
@@ -1459,6 +1489,12 @@
                   "id": "ja.hisashiburi",
                   "text": "ひさしぶり",
                   "reading": "hisashiburi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hanashi",
+                  "text": "はなし",
+                  "reading": "hanashi",
                   "kind": "word"
                 }
               ]
@@ -2031,6 +2067,12 @@
                   "text": "かわく",
                   "reading": "kawaku",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.toki",
+                  "text": "とき",
+                  "reading": "toki",
+                  "kind": "word"
                 }
               ]
             },
@@ -2369,6 +2411,12 @@
                   "text": "特別",
                   "reading": "tokubetsu",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.chigau",
+                  "text": "ちがう",
+                  "reading": "chigau",
+                  "kind": "word"
                 }
               ]
             },
@@ -2466,6 +2514,12 @@
                   "text": "いためる",
                   "reading": "itameru",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kiru-cut",
+                  "text": "切る",
+                  "reading": "kiru",
+                  "kind": "word"
                 }
               ]
             },
@@ -2502,6 +2556,12 @@
                   "id": "ja.komakai",
                   "text": "こまかい",
                   "reading": "komakai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tsukuru",
+                  "text": "作る",
+                  "reading": "tsukuru",
                   "kind": "word"
                 }
               ]
@@ -2583,7 +2643,8 @@
                   "id": "ja.aji",
                   "text": "味",
                   "reading": "aji",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "あじ"
                 },
                 {
                   "id": "ja.ajimi",
@@ -2607,6 +2668,12 @@
                   "id": "ja.koi",
                   "text": "こい",
                   "reading": "koi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ireru",
+                  "text": "いれる",
+                  "reading": "ireru",
                   "kind": "word"
                 }
               ]
@@ -2670,6 +2737,12 @@
                   "id": "ja.yowabi",
                   "text": "よわび",
                   "reading": "yowabi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.peesuto",
+                  "text": "ペースト",
+                  "reading": "pēsuto",
                   "kind": "word"
                 }
               ]
@@ -2766,6 +2839,12 @@
                   "id": "ja.tantou",
                   "text": "たんとう",
                   "reading": "tantō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.aida",
+                  "text": "あいだ",
+                  "reading": "aida",
                   "kind": "word"
                 }
               ]
@@ -2917,6 +2996,12 @@
                   "text": "しょうきゅう",
                   "reading": "shōkyū",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.nen",
+                  "text": "ねん",
+                  "reading": "nen",
+                  "kind": "word"
                 }
               ]
             },
@@ -3050,6 +3135,12 @@
                   "text": "はかる",
                   "reading": "hakaru",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kiro",
+                  "text": "キロ",
+                  "reading": "kiro",
+                  "kind": "word"
                 }
               ]
             },
@@ -3081,6 +3172,12 @@
                   "text": "かきとめ",
                   "reading": "kakitome",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kakaru",
+                  "text": "かかる",
+                  "reading": "kakaru",
+                  "kind": "word"
                 }
               ]
             },
@@ -3111,6 +3208,12 @@
                   "id": "ja.saihakkou",
                   "text": "さいはっこう",
                   "reading": "saihakkō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.baai",
+                  "text": "ばあい",
+                  "reading": "baai",
                   "kind": "word"
                 }
               ]
@@ -3245,7 +3348,8 @@
                   "id": "ja.chikara",
                   "text": "力",
                   "reading": "chikara",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "ちから"
                 }
               ]
             },
@@ -3276,6 +3380,18 @@
                   "id": "ja.jogingu",
                   "text": "ジョギング",
                   "reading": "jogingu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hashiru",
+                  "text": "はしる",
+                  "reading": "hashiru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.owaru",
+                  "text": "おわる",
+                  "reading": "owaru",
                   "kind": "word"
                 }
               ]
@@ -3497,6 +3613,12 @@
                   "id": "ja.gyouji",
                   "text": "行事",
                   "reading": "gyōji",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.iu",
+                  "text": "いう",
+                  "reading": "iu",
                   "kind": "word"
                 }
               ]
@@ -3744,6 +3866,12 @@
                   "text": "おもちゃ",
                   "reading": "omocha",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.ageru",
+                  "text": "あげる",
+                  "reading": "ageru",
+                  "kind": "word"
                 }
               ]
             },
@@ -3775,6 +3903,12 @@
                   "text": "おかえし",
                   "reading": "okaeshi",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.morau",
+                  "text": "もらう",
+                  "reading": "morau",
+                  "kind": "word"
                 }
               ]
             },
@@ -3805,6 +3939,12 @@
                   "id": "ja.bikkuri",
                   "text": "びっくり",
                   "reading": "bikkuri",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kureru",
+                  "text": "くれる",
+                  "reading": "kureru",
                   "kind": "word"
                 }
               ]
@@ -3861,7 +4001,8 @@
                   "id": "ja.kokoro",
                   "text": "心",
                   "reading": "kokoro",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "こころ"
                 },
                 {
                   "id": "ja.hotto",
@@ -4051,7 +4192,8 @@
                   "id": "ja.esuenuesu",
                   "text": "SNS",
                   "reading": "esuenuesu",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "エスエヌエス"
                 },
                 {
                   "id": "ja.douga",
@@ -4263,6 +4405,12 @@
                   "text": "正しい",
                   "reading": "tadashii",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.omou",
+                  "text": "おもう",
+                  "reading": "omou",
+                  "kind": "word"
                 }
               ]
             },
@@ -4405,6 +4553,12 @@
                   "text": "たとえば",
                   "reading": "tatoeba",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.hajime",
+                  "text": "はじめ",
+                  "reading": "hajime",
+                  "kind": "word"
                 }
               ]
             },
@@ -4447,6 +4601,12 @@
                   "id": "ja.matawa",
                   "text": "または",
                   "reading": "matawa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hi",
+                  "text": "ひ",
+                  "reading": "hi",
                   "kind": "word"
                 }
               ]
@@ -4526,7 +4686,8 @@
                   "id": "ja.tabi",
                   "text": "旅",
                   "reading": "tabi",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "たび"
                 },
                 {
                   "id": "ja.higaeri",
@@ -4882,6 +5043,12 @@
                   "text": "ざぶとん",
                   "reading": "zabuton",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.mada",
+                  "text": "まだ",
+                  "reading": "mada",
+                  "kind": "word"
                 }
               ]
             },
@@ -4980,7 +5147,8 @@
                   "id": "ja.oto",
                   "text": "音",
                   "reading": "oto",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "おと"
                 },
                 {
                   "id": "ja.kaori",
@@ -5029,6 +5197,12 @@
                   "id": "ja.madogiwa",
                   "text": "まどぎわ",
                   "reading": "madogiwa",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.akeru",
+                  "text": "あける",
+                  "reading": "akeru",
                   "kind": "word"
                 }
               ]
@@ -5207,6 +5381,12 @@
                   "text": "じょうしゃけん",
                   "reading": "jōshaken",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.tomaru",
+                  "text": "止まる",
+                  "reading": "tomaru",
+                  "kind": "word"
                 }
               ]
             },
@@ -5355,6 +5535,12 @@
                   "id": "ja.dorobou",
                   "text": "どろぼう",
                   "reading": "dorobō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.untenshu",
+                  "text": "運転手",
+                  "reading": "untenshu",
                   "kind": "word"
                 }
               ]
@@ -5700,6 +5886,18 @@
                   "text": "かんさいべん",
                   "reading": "kansaiben",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.dasu",
+                  "text": "だす",
+                  "reading": "dasu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.konna",
+                  "text": "こんな",
+                  "reading": "konna",
+                  "kind": "word"
                 }
               ]
             }
@@ -5837,7 +6035,8 @@
                   "id": "ja.you",
                   "text": "用",
                   "reading": "yō",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "よう"
                 },
                 {
                   "id": "ja.wazawaza",
@@ -5850,6 +6049,12 @@
                   "text": "気にする",
                   "reading": "ki ni suru",
                   "kind": "phrase"
+                },
+                {
+                  "id": "ja.kasu",
+                  "text": "かす",
+                  "reading": "kasu",
+                  "kind": "word"
                 }
               ]
             },
@@ -6432,6 +6637,12 @@
                   "text": "けいさつ",
                   "reading": "keisatsu",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.watashitachi",
+                  "text": "わたしたち",
+                  "reading": "watashitachi",
+                  "kind": "word"
                 }
               ]
             },
@@ -6683,6 +6894,12 @@
                   "text": "じゅうみん",
                   "reading": "jūmin",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.sumu",
+                  "text": "すむ",
+                  "reading": "sumu",
+                  "kind": "word"
                 }
               ]
             },
@@ -6819,6 +7036,12 @@
                   "id": "ja.moyorieki",
                   "text": "もよりえき",
                   "reading": "moyorieki",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tokoro",
+                  "text": "ところ",
+                  "reading": "tokoro",
                   "kind": "word"
                 }
               ]
@@ -6964,6 +7187,12 @@
                   "id": "ja.tsubusu",
                   "text": "つぶす",
                   "reading": "tsubusu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.dame",
+                  "text": "だめ",
+                  "reading": "dame",
                   "kind": "word"
                 }
               ]
@@ -7301,6 +7530,12 @@
                   "id": "ja.manpuku",
                   "text": "まんぷく",
                   "reading": "manpuku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sugu",
+                  "text": "すぐ",
+                  "reading": "sugu",
                   "kind": "word"
                 }
               ]
@@ -7709,6 +7944,12 @@
                   "id": "ja.torichigaeru",
                   "text": "とりちがえる",
                   "reading": "torichigaeru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.soshite",
+                  "text": "そして",
+                  "reading": "soshite",
                   "kind": "word"
                 }
               ]
@@ -8674,6 +8915,12 @@
                   "text": "しょくぎょう",
                   "reading": "shokugyō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.koro",
+                  "text": "ころ",
+                  "reading": "koro",
+                  "kind": "word"
                 }
               ]
             },
@@ -8821,6 +9068,12 @@
                   "id": "ja.mukau",
                   "text": "むかう",
                   "reading": "mukau",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hataraku",
+                  "text": "はたらく",
+                  "reading": "hataraku",
                   "kind": "word"
                 }
               ]
@@ -9045,6 +9298,12 @@
                   "text": "こまめに",
                   "reading": "komame ni",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.motsu",
+                  "text": "持つ",
+                  "reading": "motsu",
+                  "kind": "word"
                 }
               ]
             },
@@ -9081,6 +9340,18 @@
                   "id": "ja.kaifuku",
                   "text": "かいふく",
                   "reading": "kaifuku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tanomu",
+                  "text": "たのむ",
+                  "reading": "tanomu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tatsu",
+                  "text": "立つ",
+                  "reading": "tatsu",
                   "kind": "word"
                 }
               ]
@@ -9233,6 +9504,12 @@
                   "id": "ja.ekobaggu",
                   "text": "エコバッグ",
                   "reading": "ekobaggu",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaisha",
+                  "text": "会社",
+                  "reading": "kaisha",
                   "kind": "word"
                 }
               ]
@@ -9393,7 +9670,8 @@
                   "id": "ja.hikari",
                   "text": "光",
                   "reading": "hikari",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "ひかり"
                 }
               ]
             },
@@ -9468,6 +9746,18 @@
                   "id": "ja.torikumi",
                   "text": "取り組み",
                   "reading": "torikumi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shikashi",
+                  "text": "しかし",
+                  "reading": "shikashi",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hajimaru",
+                  "text": "はじまる",
+                  "reading": "hajimaru",
                   "kind": "word"
                 }
               ]
@@ -9656,7 +9946,8 @@
                   "id": "ja.setsu",
                   "text": "説",
                   "reading": "setsu",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "せつ"
                 },
                 {
                   "id": "ja.konkyo",
@@ -9974,7 +10265,8 @@
                   "id": "ja.oya",
                   "text": "親",
                   "reading": "oya",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "おや"
                 },
                 {
                   "id": "ja.jiyuu",
@@ -10268,7 +10560,8 @@
                   "id": "ja.kakari",
                   "text": "係",
                   "reading": "kakari",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "かかり"
                 },
                 {
                   "id": "ja.bangoufuda",
@@ -10418,6 +10711,12 @@
                   "id": "ja.keii",
                   "text": "けいい",
                   "reading": "keii",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ousama",
+                  "text": "おうさま",
+                  "reading": "ōsama",
                   "kind": "word"
                 }
               ]
@@ -11269,6 +11568,13 @@
                   "text": "決済",
                   "reading": "kessai",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.qr-koodo",
+                  "text": "QRコード",
+                  "reading": "kyūāru kōdo",
+                  "kind": "word",
+                  "say": "キューアールコード"
                 }
               ]
             },
@@ -11352,6 +11658,12 @@
                   "text": "マニュアル",
                   "reading": "manyuaru",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.osu",
+                  "text": "おす",
+                  "reading": "osu",
+                  "kind": "word"
                 }
               ]
             },
@@ -11388,6 +11700,12 @@
                   "id": "ja.meiwakumeeru",
                   "text": "めいわくメール",
                   "reading": "meiwakumēru",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.miseru",
+                  "text": "みせる",
+                  "reading": "miseru",
                   "kind": "word"
                 }
               ]
@@ -11773,7 +12091,7 @@
                 {
                   "id": "ja.nankoku",
                   "text": "南国",
-                  "reading": "nankoku",
+                  "reading": "nangoku",
                   "kind": "word"
                 },
                 {
@@ -11957,7 +12275,8 @@
                   "id": "ja.retsu",
                   "text": "列",
                   "reading": "retsu",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "れつ"
                 },
                 {
                   "id": "ja.yuzuriai",
@@ -12086,7 +12405,8 @@
                   "id": "ja.haji",
                   "text": "恥",
                   "reading": "haji",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "はじ"
                 },
                 {
                   "id": "ja.tazuneru",
@@ -12491,6 +12811,12 @@
                   "text": "回す",
                   "reading": "mawasu",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.mawaru",
+                  "text": "回る",
+                  "reading": "mawaru",
+                  "kind": "word"
                 }
               ]
             },
@@ -12893,7 +13219,8 @@
                   "id": "ja.ou",
                   "text": "王",
                   "reading": "ō",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "おう"
                 },
                 {
                   "id": "ja.ouchou",
@@ -13134,7 +13461,8 @@
                   "id": "ja.miyako",
                   "text": "都",
                   "reading": "miyako",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "みやこ"
                 },
                 {
                   "id": "ja.bunkazai",
@@ -13579,6 +13907,13 @@
                   "text": "ゆうこう",
                   "reading": "yūkō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kagetsu",
+                  "text": "か月",
+                  "reading": "kagetsu",
+                  "kind": "word",
+                  "say": "かげつ"
                 }
               ]
             },
@@ -13857,6 +14192,12 @@
                   "text": "作業",
                   "reading": "sagyō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.yaru",
+                  "text": "やる",
+                  "reading": "yaru",
+                  "kind": "word"
                 }
               ]
             },
@@ -13894,6 +14235,13 @@
                   "text": "深夜",
                   "reading": "shin'ya",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.ippou",
+                  "text": "一方",
+                  "reading": "ippō",
+                  "kind": "word",
+                  "say": "いっぽう"
                 }
               ]
             },
@@ -14005,6 +14353,12 @@
                   "text": "きゅうよう",
                   "reading": "kyūyō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.motto",
+                  "text": "もっと",
+                  "reading": "motto",
+                  "kind": "word"
                 }
               ]
             },
@@ -14073,6 +14427,12 @@
                   "id": "ja.bunka",
                   "text": "文化",
                   "reading": "bunka",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.tsugi",
+                  "text": "つぎ",
+                  "reading": "tsugi",
                   "kind": "word"
                 }
               ]
@@ -14157,6 +14517,12 @@
                   "text": "進む",
                   "reading": "susumu",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kurasu",
+                  "text": "くらす",
+                  "reading": "kurasu",
+                  "kind": "word"
                 }
               ]
             },
@@ -14193,6 +14559,12 @@
                   "id": "ja.kanbyou",
                   "text": "かんびょう",
                   "reading": "kanbyō",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.sobo",
+                  "text": "そぼ",
+                  "reading": "sobo",
                   "kind": "word"
                 }
               ]
@@ -14342,6 +14714,12 @@
                   "text": "老後",
                   "reading": "rōgo",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kikkake",
+                  "text": "きっかけ",
+                  "reading": "kikkake",
+                  "kind": "word"
                 }
               ]
             },
@@ -14451,6 +14829,18 @@
                   "text": "発信",
                   "reading": "hasshin",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.itoko",
+                  "text": "いとこ",
+                  "reading": "itoko",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.shiru",
+                  "text": "しる",
+                  "reading": "shiru",
+                  "kind": "word"
                 }
               ]
             },
@@ -14487,6 +14877,12 @@
                   "id": "ja.kikensei",
                   "text": "危険性",
                   "reading": "kikensei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.basho",
+                  "text": "ばしょ",
+                  "reading": "basho",
                   "kind": "word"
                 }
               ]
@@ -14525,6 +14921,12 @@
                   "text": "本名",
                   "reading": "honmyō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.osoi",
+                  "text": "おそい",
+                  "reading": "osoi",
+                  "kind": "word"
                 }
               ]
             },
@@ -14562,6 +14964,13 @@
                   "text": "疑問",
                   "reading": "gimon",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.shuukan-week",
+                  "text": "週間",
+                  "reading": "shūkan",
+                  "kind": "word",
+                  "say": "しゅうかん"
                 }
               ]
             },
@@ -14782,6 +15191,12 @@
                   "text": "親しみ",
                   "reading": "shitashimi",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kariru",
+                  "text": "かりる",
+                  "reading": "kariru",
+                  "kind": "word"
                 }
               ]
             },
@@ -14993,6 +15408,12 @@
                   "id": "ja.sougorikai",
                   "text": "相互理解",
                   "reading": "sōgorikai",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hiraku",
+                  "text": "ひらく",
+                  "reading": "hiraku",
                   "kind": "word"
                 }
               ]
@@ -15536,6 +15957,13 @@
                   "text": "非常に",
                   "reading": "hijō ni",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.yaku-about",
+                  "text": "約",
+                  "reading": "yaku",
+                  "kind": "word",
+                  "say": "やく"
                 }
               ]
             },
@@ -15681,6 +16109,12 @@
                   "id": "ja.mujun",
                   "text": "むじゅん",
                   "reading": "mujun",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.kaesu",
+                  "text": "かえす",
+                  "reading": "kaesu",
                   "kind": "word"
                 }
               ]
@@ -15847,13 +16281,13 @@
                 },
                 {
                   "id": "ja.sanseiha",
-                  "text": "さんせいは",
+                  "text": "さんせい派",
                   "reading": "sanseiha",
                   "kind": "word"
                 },
                 {
                   "id": "ja.hantaiha",
-                  "text": "はんたいは",
+                  "text": "はんたい派",
                   "reading": "hantaiha",
                   "kind": "word"
                 },
@@ -16086,6 +16520,12 @@
                   "id": "ja.seimei",
                   "text": "生命",
                   "reading": "seimei",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.umareru",
+                  "text": "うまれる",
+                  "reading": "umareru",
                   "kind": "word"
                 }
               ]
@@ -16387,6 +16827,12 @@
                   "text": "最高",
                   "reading": "saikō",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.tabun",
+                  "text": "たぶん",
+                  "reading": "tabun",
+                  "kind": "word"
                 }
               ]
             },
@@ -16569,6 +17015,12 @@
                   "id": "ja.kouken",
                   "text": "こうけん",
                   "reading": "kōken",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.ajia",
+                  "text": "アジア",
+                  "reading": "Ajia",
                   "kind": "word"
                 }
               ]
@@ -16981,6 +17433,12 @@
                   "text": "やりがい",
                   "reading": "yarigai",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.iya",
+                  "text": "いや",
+                  "reading": "iya",
+                  "kind": "word"
                 }
               ]
             },
@@ -17082,6 +17540,12 @@
                   "text": "ぐんて",
                   "reading": "gunte",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.zehi",
+                  "text": "ぜひ",
+                  "reading": "zehi",
+                  "kind": "word"
                 }
               ]
             }
@@ -17164,6 +17628,13 @@
                   "text": "お化け",
                   "reading": "obake",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.ki-tree",
+                  "text": "木",
+                  "reading": "ki",
+                  "kind": "word",
+                  "say": "き"
                 }
               ]
             },
@@ -17213,7 +17684,8 @@
                   "id": "ja.un-luck",
                   "text": "運",
                   "reading": "un",
-                  "kind": "word"
+                  "kind": "word",
+                  "say": "うん"
                 },
                 {
                   "id": "ja.unsei",
@@ -17463,6 +17935,12 @@
                   "id": "ja.akiya",
                   "text": "空き家",
                   "reading": "akiya",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.hanbun",
+                  "text": "はんぶん",
+                  "reading": "hanbun",
                   "kind": "word"
                 }
               ]
@@ -17832,6 +18310,12 @@
                   "text": "かるがるしく",
                   "reading": "karugarushiku",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.kitto",
+                  "text": "きっと",
+                  "reading": "kitto",
+                  "kind": "word"
                 }
               ]
             },
@@ -17970,6 +18454,12 @@
                   "text": "恐れる",
                   "reading": "osoreru",
                   "kind": "word"
+                },
+                {
+                  "id": "ja.tatsu-elapse",
+                  "text": "たつ",
+                  "reading": "tatsu",
+                  "kind": "word"
                 }
               ]
             }
@@ -18014,6 +18504,12 @@
                   "id": "ja.atsuku",
                   "text": "あつく",
                   "reading": "atsuku",
+                  "kind": "word"
+                },
+                {
+                  "id": "ja.komeru",
+                  "text": "込める",
+                  "reading": "komeru",
                   "kind": "word"
                 }
               ]

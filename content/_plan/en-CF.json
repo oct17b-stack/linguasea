@@ -241,6 +241,18 @@
                   "text": "camera",
                   "reading": "ˈkæmərə",
                   "kind": "word"
+                },
+                {
+                  "id": "en.around",
+                  "text": "around",
+                  "reading": "əˈraʊnd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.many",
+                  "text": "many",
+                  "reading": "ˈmɛni",
+                  "kind": "word"
                 }
               ]
             },
@@ -267,6 +279,12 @@
                   "text": "lake",
                   "reading": "leɪk",
                   "kind": "word"
+                },
+                {
+                  "id": "en.a-lot",
+                  "text": "a lot",
+                  "reading": "ə ˈlɑːt",
+                  "kind": "phrase"
                 }
               ]
             }
@@ -423,6 +441,12 @@
                   "text": "advice",
                   "reading": "ədˈvaɪs",
                   "kind": "word"
+                },
+                {
+                  "id": "en.should",
+                  "text": "should",
+                  "reading": "ʃʊd",
+                  "kind": "word"
                 }
               ]
             },
@@ -453,6 +477,12 @@
                   "id": "en.allergic",
                   "text": "allergic",
                   "reading": "əˈlɜːrdʒɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.them",
+                  "text": "them",
+                  "reading": "ðɛm",
                   "kind": "word"
                 }
               ]
@@ -511,6 +541,12 @@
                   "text": "runny nose",
                   "reading": "ˌrʌni ˈnoʊz",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.so",
+                  "text": "so",
+                  "reading": "soʊ",
+                  "kind": "word"
                 }
               ]
             },
@@ -537,6 +573,12 @@
                   "text": "cover your mouth",
                   "reading": "ˌkʌvər jʊr ˈmaʊθ",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.if",
+                  "text": "if",
+                  "reading": "ɪf",
+                  "kind": "word"
                 }
               ]
             }
@@ -674,6 +716,18 @@
                   "id": "en.noise",
                   "text": "noise",
                   "reading": "nɔɪz",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.make",
+                  "text": "make",
+                  "reading": "meɪk",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.must",
+                  "text": "must",
+                  "reading": "mʌst",
                   "kind": "word"
                 }
               ]
@@ -834,6 +888,12 @@
                   "text": "sleep in",
                   "reading": "ˌsliːp ˈɪn",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.us",
+                  "text": "us",
+                  "reading": "ʌs",
+                  "kind": "word"
                 }
               ]
             },
@@ -843,9 +903,9 @@
               "grammar": "be going to: questions and negatives (Are you going to…? / I'm not going to…)",
               "items": [
                 {
-                  "id": "en.trip",
-                  "text": "trip",
-                  "reading": "trɪp",
+                  "id": "en.visit",
+                  "text": "visit",
+                  "reading": "ˈvɪzɪt",
                   "kind": "word"
                 },
                 {
@@ -1092,6 +1152,12 @@
                   "text": "awful",
                   "reading": "ˈɔːfəl",
                   "kind": "word"
+                },
+                {
+                  "id": "en.yesterday",
+                  "text": "yesterday",
+                  "reading": "ˈjɛstərdeɪ",
+                  "kind": "word"
                 }
               ]
             },
@@ -1138,9 +1204,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.beach",
-                  "text": "beach",
-                  "reading": "biːtʃ",
+                  "id": "en.speedboat",
+                  "text": "speedboat",
+                  "reading": "ˈspiːdboʊt",
                   "kind": "word"
                 },
                 {
@@ -1259,6 +1325,12 @@
                   "text": "in the past",
                   "reading": "ɪn ðə ˈpæst",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.last",
+                  "text": "last",
+                  "reading": "læst",
+                  "kind": "word"
                 }
               ]
             },
@@ -1284,6 +1356,12 @@
                   "id": "en.capital",
                   "text": "capital",
                   "reading": "ˈkæpɪtəl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.than",
+                  "text": "than",
+                  "reading": "ðæn",
                   "kind": "word"
                 }
               ]
@@ -1311,6 +1389,12 @@
                   "text": "give back",
                   "reading": "ˌɡɪv ˈbæk",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.him",
+                  "text": "him",
+                  "reading": "hɪm",
+                  "kind": "word"
                 }
               ]
             }
@@ -1586,21 +1670,21 @@
               "grammar": "will / won't for predictions (It will be very hot in April.)",
               "items": [
                 {
-                  "id": "en.season",
-                  "text": "season",
-                  "reading": "ˈsiːzən",
+                  "id": "en.hot-season",
+                  "text": "hot season",
+                  "reading": "ˈhɑːt ˌsiːzən",
                   "kind": "word"
                 },
                 {
-                  "id": "en.summer",
-                  "text": "summer",
-                  "reading": "ˈsʌmər",
+                  "id": "en.cool-season",
+                  "text": "cool season",
+                  "reading": "ˈkuːl ˌsiːzən",
                   "kind": "word"
                 },
                 {
-                  "id": "en.winter",
-                  "text": "winter",
-                  "reading": "ˈwɪntər",
+                  "id": "en.snowy",
+                  "text": "snowy",
+                  "reading": "ˈsnoʊi",
                   "kind": "word"
                 },
                 {
@@ -1651,6 +1735,12 @@
                   "text": "thunder",
                   "reading": "ˈθʌndər",
                   "kind": "word"
+                },
+                {
+                  "id": "en.might",
+                  "text": "might",
+                  "reading": "maɪt",
+                  "kind": "word"
                 }
               ]
             },
@@ -1697,9 +1787,9 @@
                   "kind": "word"
                 },
                 {
-                  "id": "en.wet",
-                  "text": "wet",
-                  "reading": "wɛt",
+                  "id": "en.sticky",
+                  "text": "sticky",
+                  "reading": "ˈstɪki",
                   "kind": "word"
                 },
                 {
@@ -1871,6 +1961,12 @@
                   "id": "en.skirt",
                   "text": "skirt",
                   "reading": "skɜːrt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.clothes",
+                  "text": "clothes",
+                  "reading": "kloʊðz",
                   "kind": "word"
                 }
               ]
@@ -2401,6 +2497,12 @@
                   "text": "balance",
                   "reading": "ˈbæləns",
                   "kind": "word"
+                },
+                {
+                  "id": "en.check",
+                  "text": "check",
+                  "reading": "tʃɛk",
+                  "kind": "word"
                 }
               ]
             },
@@ -2431,6 +2533,12 @@
                   "id": "en.explain",
                   "text": "explain",
                   "reading": "ɪkˈspleɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dollar",
+                  "text": "dollar",
+                  "reading": "ˈdɑːlər",
                   "kind": "word"
                 }
               ]
@@ -2524,6 +2632,12 @@
                   "id": "en.tracking-number",
                   "text": "tracking number",
                   "reading": "ˈtrækɪŋ ˌnʌmbər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.keep",
+                  "text": "keep",
+                  "reading": "kiːp",
                   "kind": "word"
                 }
               ]
@@ -2684,6 +2798,12 @@
                   "text": "jump",
                   "reading": "dʒʌmp",
                   "kind": "word"
+                },
+                {
+                  "id": "en.ball",
+                  "text": "ball",
+                  "reading": "bɔːl",
+                  "kind": "word"
                 }
               ]
             },
@@ -2751,6 +2871,12 @@
                   "id": "en.treadmill",
                   "text": "treadmill",
                   "reading": "ˈtrɛdmɪl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.all",
+                  "text": "all",
+                  "reading": "ɔːl",
                   "kind": "word"
                 }
               ]
@@ -2967,6 +3093,12 @@
                   "text": "decorate",
                   "reading": "ˈdɛkəreɪt",
                   "kind": "word"
+                },
+                {
+                  "id": "en.little",
+                  "text": "little",
+                  "reading": "ˈlɪtəl",
+                  "kind": "word"
                 }
               ]
             },
@@ -3054,6 +3186,12 @@
                   "id": "en.parade",
                   "text": "parade",
                   "reading": "pəˈreɪd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.show",
+                  "text": "show",
+                  "reading": "ʃoʊ",
                   "kind": "word"
                 }
               ]
@@ -3459,6 +3597,12 @@
                   "text": "coconut milk",
                   "reading": "ˌkoʊkənʌt ˈmɪlk",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.a-few",
+                  "text": "a few",
+                  "reading": "ə ˈfjuː",
+                  "kind": "phrase"
                 }
               ]
             },
@@ -3579,6 +3723,12 @@
                   "text": "teaspoon",
                   "reading": "ˈtiːspuːn",
                   "kind": "word"
+                },
+                {
+                  "id": "en.curry-paste",
+                  "text": "curry paste",
+                  "reading": "ˈkɜːri ˌpeɪst",
+                  "kind": "word"
                 }
               ]
             }
@@ -3618,6 +3768,18 @@
                   "text": "anything",
                   "reading": "ˈɛniθɪŋ",
                   "kind": "word"
+                },
+                {
+                  "id": "en.everything",
+                  "text": "everything",
+                  "reading": "ˈɛvriθɪŋ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nothing",
+                  "text": "nothing",
+                  "reading": "ˈnʌθɪŋ",
+                  "kind": "word"
                 }
               ]
             },
@@ -3649,6 +3811,24 @@
                   "text": "no one",
                   "reading": "ˈnoʊ ˌwʌn",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.everyone",
+                  "text": "everyone",
+                  "reading": "ˈɛvriwʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.anyone",
+                  "text": "anyone",
+                  "reading": "ˈɛniwʌn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.someone",
+                  "text": "someone",
+                  "reading": "ˈsʌmwʌn",
+                  "kind": "word"
                 }
               ]
             },
@@ -4824,6 +5004,18 @@
                   "text": "hair dryer",
                   "reading": "ˈhɛr ˌdraɪər",
                   "kind": "word"
+                },
+                {
+                  "id": "en.else",
+                  "text": "else",
+                  "reading": "ɛls",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.possible",
+                  "text": "possible",
+                  "reading": "ˈpɑːsəbəl",
+                  "kind": "word"
                 }
               ]
             },
@@ -4898,6 +5090,12 @@
                   "text": "fix",
                   "reading": "fɪks",
                   "kind": "word"
+                },
+                {
+                  "id": "en.also",
+                  "text": "also",
+                  "reading": "ˈɔːlsoʊ",
+                  "kind": "word"
                 }
               ]
             },
@@ -4930,6 +5128,18 @@
                   "text": "non-smoking",
                   "reading": "ˌnɑːnˈsmoʊkɪŋ",
                   "kind": "word"
+                },
+                {
+                  "id": "en.other",
+                  "text": "other",
+                  "reading": "ˈʌðər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.dear",
+                  "text": "Dear …",
+                  "reading": "ˈdɪr …",
+                  "kind": "phrase"
                 }
               ]
             },
@@ -5080,6 +5290,12 @@
                   "id": "en.urgent",
                   "text": "urgent",
                   "reading": "ˈɜːrdʒənt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.another",
+                  "text": "another",
+                  "reading": "əˈnʌðər",
                   "kind": "word"
                 }
               ]
@@ -5518,6 +5734,12 @@
                   "text": "visitor",
                   "reading": "ˈvɪzɪtər",
                   "kind": "word"
+                },
+                {
+                  "id": "en.put",
+                  "text": "put",
+                  "reading": "pʊt",
+                  "kind": "word"
                 }
               ]
             },
@@ -5742,6 +5964,12 @@
                   "id": "en.search",
                   "text": "search",
                   "reading": "sɜːrtʃ",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nowhere",
+                  "text": "nowhere",
+                  "reading": "ˈnoʊwɛr",
                   "kind": "word"
                 }
               ]
@@ -6925,6 +7153,12 @@
                   "text": "water bottle",
                   "reading": "ˈwɔːtər ˌbɑːtəl",
                   "kind": "word"
+                },
+                {
+                  "id": "en.important",
+                  "text": "important",
+                  "reading": "ɪmˈpɔːrtənt",
+                  "kind": "word"
                 }
               ]
             },
@@ -6962,6 +7196,12 @@
                   "text": "cycle",
                   "reading": "ˈsaɪkəl",
                   "kind": "word"
+                },
+                {
+                  "id": "en.without",
+                  "text": "without",
+                  "reading": "wɪˈðaʊt",
+                  "kind": "word"
                 }
               ]
             },
@@ -6994,6 +7234,12 @@
                   "text": "mental health",
                   "reading": "ˌmɛntəl ˈhɛlθ",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.life",
+                  "text": "life",
+                  "reading": "laɪf",
+                  "kind": "word"
                 }
               ]
             },
@@ -7439,6 +7685,12 @@
                   "text": "valley",
                   "reading": "ˈvæli",
                   "kind": "word"
+                },
+                {
+                  "id": "en.through",
+                  "text": "through",
+                  "reading": "θruː",
+                  "kind": "word"
                 }
               ]
             },
@@ -7513,6 +7765,12 @@
                   "text": "species",
                   "reading": "ˈspiːʃiːz",
                   "kind": "word"
+                },
+                {
+                  "id": "en.for-example",
+                  "text": "for example",
+                  "reading": "fər ɪɡˈzæmpəl",
+                  "kind": "phrase"
                 }
               ]
             },
@@ -7695,6 +7953,12 @@
                   "id": "en.bleed",
                   "text": "bleed",
                   "reading": "bliːd",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.myself",
+                  "text": "myself",
+                  "reading": "maɪˈsɛlf",
                   "kind": "word"
                 }
               ]
@@ -7952,6 +8216,12 @@
                   "id": "en.smartphone",
                   "text": "smartphone",
                   "reading": "ˈsmɑːrtfoʊn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.finish",
+                  "text": "finish",
+                  "reading": "ˈfɪnɪʃ",
                   "kind": "word"
                 }
               ]
@@ -8284,6 +8554,12 @@
                   "text": "dessert",
                   "reading": "dɪˈzɜːrt",
                   "kind": "word"
+                },
+                {
+                  "id": "en.order",
+                  "text": "order",
+                  "reading": "ˈɔːrdər",
+                  "kind": "word"
                 }
               ]
             },
@@ -8614,6 +8890,12 @@
                   "id": "en.translate",
                   "text": "translate",
                   "reading": "trænsˈleɪt",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.each",
+                  "text": "each",
+                  "reading": "iːtʃ",
                   "kind": "word"
                 }
               ]
@@ -9002,7 +9284,7 @@
                 {
                   "id": "en.run-out-of",
                   "text": "run out of",
-                  "reading": "ˌrʌn ˈaʊt əv",
+                  "reading": "ˌrʌn ˈaʊt ʌv",
                   "kind": "phrase"
                 }
               ]
@@ -9097,7 +9379,7 @@
                 {
                   "id": "en.bring-your-own",
                   "text": "bring your own",
-                  "reading": "ˌbrɪŋ jər ˈoʊn",
+                  "reading": "ˌbrɪŋ jʊr ˈoʊn",
                   "kind": "phrase"
                 },
                 {
@@ -9115,8 +9397,14 @@
                 {
                   "id": "en.starting-from",
                   "text": "starting from",
-                  "reading": "ˈstɑːrtɪŋ frəm",
+                  "reading": "ˈstɑːrtɪŋ frʌm",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.part",
+                  "text": "part",
+                  "reading": "pɑːrt",
+                  "kind": "word"
                 }
               ]
             }
@@ -9284,6 +9572,12 @@
                   "id": "en.poll",
                   "text": "poll",
                   "reading": "poʊl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.ask",
+                  "text": "ask",
+                  "reading": "æsk",
                   "kind": "word"
                 }
               ]
@@ -9583,7 +9877,7 @@
                 {
                   "id": "en.raise-your-hand",
                   "text": "raise your hand",
-                  "reading": "ˌreɪz jər ˈhænd",
+                  "reading": "ˌreɪz jʊr ˈhænd",
                   "kind": "phrase"
                 }
               ]
@@ -9983,7 +10277,7 @@
                 {
                   "id": "en.dos-and-donts",
                   "text": "dos and don'ts",
-                  "reading": "ˌduːz ən ˈdoʊnts",
+                  "reading": "ˌduːz ənd ˈdoʊnts",
                   "kind": "phrase"
                 },
                 {
@@ -10123,6 +10417,12 @@
                   "text": "retire",
                   "reading": "rɪˈtaɪər",
                   "kind": "word"
+                },
+                {
+                  "id": "en.million",
+                  "text": "million",
+                  "reading": "ˈmɪljən",
+                  "kind": "word"
                 }
               ]
             },
@@ -10245,7 +10545,7 @@
                 {
                   "id": "en.plenty-of",
                   "text": "plenty of",
-                  "reading": "ˈplɛnti əv",
+                  "reading": "ˈplɛnti ʌv",
                   "kind": "phrase"
                 },
                 {
@@ -10540,6 +10840,12 @@
                   "text": "bride",
                   "reading": "braɪd",
                   "kind": "word"
+                },
+                {
+                  "id": "en.common",
+                  "text": "common",
+                  "reading": "ˈkɑːmən",
+                  "kind": "word"
                 }
               ]
             },
@@ -10557,7 +10863,7 @@
                 {
                   "id": "en.fond-of",
                   "text": "fond of",
-                  "reading": "ˈfɑːnd əv",
+                  "reading": "ˈfɑːnd ʌv",
                   "kind": "phrase"
                 },
                 {
@@ -11164,6 +11470,12 @@
                   "text": "suspicious",
                   "reading": "səˈspɪʃəs",
                   "kind": "word"
+                },
+                {
+                  "id": "en.mostly",
+                  "text": "mostly",
+                  "reading": "ˈmoʊstli",
+                  "kind": "word"
                 }
               ]
             },
@@ -11225,7 +11537,7 @@
                 {
                   "id": "en.be-aware-of",
                   "text": "be aware of",
-                  "reading": "bi əˈwɛr əv",
+                  "reading": "bi əˈwɛr ʌv",
                   "kind": "phrase"
                 },
                 {
@@ -11358,6 +11670,12 @@
                   "id": "en.filter",
                   "text": "filter",
                   "reading": "ˈfɪltər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.true",
+                  "text": "true",
+                  "reading": "truː",
                   "kind": "word"
                 }
               ]
@@ -11762,7 +12080,7 @@
                 {
                   "id": "en.in-the-middle-of",
                   "text": "in the middle of",
-                  "reading": "ɪn ðə ˈmɪdəl əv",
+                  "reading": "ɪn ðə ˈmɪdəl ʌv",
                   "kind": "phrase"
                 },
                 {
@@ -11782,6 +12100,12 @@
                   "text": "on the way",
                   "reading": "ˌɑːn ðə ˈweɪ",
                   "kind": "phrase"
+                },
+                {
+                  "id": "en.north",
+                  "text": "north",
+                  "reading": "nɔːrθ",
+                  "kind": "word"
                 }
               ]
             },
@@ -12088,6 +12412,12 @@
                   "text": "bestseller",
                   "reading": "ˌbɛstˈsɛlər",
                   "kind": "word"
+                },
+                {
+                  "id": "en.story",
+                  "text": "story",
+                  "reading": "ˈstɔːri",
+                  "kind": "word"
                 }
               ]
             },
@@ -12099,13 +12429,13 @@
                 {
                   "id": "en.at-the-age-of",
                   "text": "at the age of",
-                  "reading": "ət ði ˈeɪdʒ əv",
+                  "reading": "ət ði ˈeɪdʒ ʌv",
                   "kind": "phrase"
                 },
                 {
                   "id": "en.in-her-twenties",
                   "text": "in her twenties",
-                  "reading": "ɪn hər ˈtwɛntiz",
+                  "reading": "ɪn hɜːr ˈtwɛntiz",
                   "kind": "phrase"
                 },
                 {
@@ -12194,6 +12524,12 @@
                   "id": "en.publisher",
                   "text": "publisher",
                   "reading": "ˈpʌblɪʃər",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.believe",
+                  "text": "believe",
+                  "reading": "bɪˈliːv",
                   "kind": "word"
                 }
               ]
@@ -12711,7 +13047,7 @@
                 {
                   "id": "en.terms-and-conditions",
                   "text": "terms and conditions",
-                  "reading": "ˌtɜːrmz ən kənˈdɪʃənz",
+                  "reading": "ˌtɜːrmz ənd kənˈdɪʃənz",
                   "kind": "phrase"
                 },
                 {
@@ -12768,6 +13104,12 @@
                   "id": "en.deal",
                   "text": "deal",
                   "reading": "diːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.midnight",
+                  "text": "midnight",
+                  "reading": "ˈmɪdnaɪt",
                   "kind": "word"
                 }
               ]
@@ -13029,7 +13371,7 @@
                 {
                   "id": "en.do-your-best",
                   "text": "do your best",
-                  "reading": "ˌduː jər ˈbɛst",
+                  "reading": "ˌduː jʊr ˈbɛst",
                   "kind": "phrase"
                 },
                 {
@@ -13446,6 +13788,18 @@
                   "text": "logical",
                   "reading": "ˈlɑːdʒɪkəl",
                   "kind": "word"
+                },
+                {
+                  "id": "en.wall",
+                  "text": "wall",
+                  "reading": "wɔːl",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.above",
+                  "text": "above",
+                  "reading": "əˈbʌv",
+                  "kind": "word"
                 }
               ]
             },
@@ -13852,7 +14206,7 @@
                 {
                   "id": "en.in-charge-of",
                   "text": "in charge of",
-                  "reading": "ɪn ˈtʃɑːrdʒ əv",
+                  "reading": "ɪn ˈtʃɑːrdʒ ʌv",
                   "kind": "phrase"
                 },
                 {
@@ -14053,7 +14407,7 @@
                 {
                   "id": "en.dear-sir-or-madam",
                   "text": "Dear Sir or Madam",
-                  "reading": "ˌdɪr ˌsɜːr ər ˈmædəm",
+                  "reading": "ˌdɪr ˌsɜːr ɔːr ˈmædəm",
                   "kind": "phrase"
                 }
               ]
@@ -14360,7 +14714,7 @@
                 {
                   "id": "en.i-see-your-point",
                   "text": "I see your point",
-                  "reading": "aɪ ˈsiː jər ˌpɔɪnt",
+                  "reading": "aɪ ˈsiː jʊr ˈpɔɪnt",
                   "kind": "phrase"
                 },
                 {
@@ -14892,6 +15246,12 @@
                   "text": "kind-hearted",
                   "reading": "ˌkaɪndˈhɑːrtɪd",
                   "kind": "word"
+                },
+                {
+                  "id": "en.even",
+                  "text": "even",
+                  "reading": "ˈiːvən",
+                  "kind": "word"
                 }
               ]
             }
@@ -15166,7 +15526,7 @@
                 {
                   "id": "en.host-family",
                   "text": "host family",
-                  "reading": "ˌhoʊst ˈfæmli",
+                  "reading": "ˌhoʊst ˈfæməli",
                   "kind": "phrase"
                 },
                 {
@@ -15562,6 +15922,12 @@
                   "text": "physical",
                   "reading": "ˈfɪzɪkəl",
                   "kind": "word"
+                },
+                {
+                  "id": "en.cause",
+                  "text": "cause",
+                  "reading": "kɔːz",
+                  "kind": "word"
                 }
               ]
             },
@@ -15848,7 +16214,7 @@
                 {
                   "id": "en.lose-your-temper",
                   "text": "lose your temper",
-                  "reading": "ˌluːz jər ˈtɛmpər",
+                  "reading": "ˌluːz jʊr ˈtɛmpər",
                   "kind": "phrase"
                 },
                 {
@@ -15978,7 +16344,7 @@
                 {
                   "id": "en.learn-from",
                   "text": "learn from",
-                  "reading": "ˈlɜːrn frəm",
+                  "reading": "ˈlɜːrn frʌm",
                   "kind": "phrase"
                 },
                 {
@@ -16113,6 +16479,12 @@
                   "text": "speed limit",
                   "reading": "ˈspiːd ˌlɪmɪt",
                   "kind": "word"
+                },
+                {
+                  "id": "en.pay-a-fine",
+                  "text": "pay a fine",
+                  "reading": "ˌpeɪ ə ˈfaɪn",
+                  "kind": "phrase"
                 }
               ]
             },
@@ -16444,6 +16816,12 @@
                   "text": "dramatically",
                   "reading": "drəˈmætɪkli",
                   "kind": "word"
+                },
+                {
+                  "id": "en.slightly",
+                  "text": "slightly",
+                  "reading": "ˈslaɪtli",
+                  "kind": "word"
                 }
               ]
             },
@@ -16479,7 +16857,7 @@
                 {
                   "id": "en.market-research",
                   "text": "market research",
-                  "reading": "ˈmɑːrkɪt rɪˌsɜːrtʃ",
+                  "reading": "ˈmɑːrkɪt ˌriːsɜːrtʃ",
                   "kind": "word"
                 }
               ]
@@ -16517,6 +16895,12 @@
                   "id": "en.partnership",
                   "text": "partnership",
                   "reading": "ˈpɑːrtnərʃɪp",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.nobody",
+                  "text": "nobody",
+                  "reading": "ˈnoʊbɑːdi",
                   "kind": "word"
                 }
               ]
@@ -16994,6 +17378,12 @@
                   "id": "en.line",
                   "text": "line",
                   "reading": "laɪn",
+                  "kind": "word"
+                },
+                {
+                  "id": "en.internet",
+                  "text": "internet",
+                  "reading": "ˈɪntərnɛt",
                   "kind": "word"
                 }
               ]
