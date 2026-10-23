@@ -1,0 +1,86 @@
+{
+  "id": "en-D10-01",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.habit",
+      "text": "habit",
+      "reading": "ˈhæbɪt"
+    },
+    {
+      "id": "en.diet",
+      "text": "diet",
+      "reading": "ˈdaɪət"
+    },
+    {
+      "id": "en.energy",
+      "text": "energy",
+      "reading": "ˈɛnərdʒi"
+    },
+    {
+      "id": "en.junk-food",
+      "text": "junk food",
+      "reading": "ˈdʒʌŋk ˌfuːd"
+    },
+    {
+      "id": "en.lose-weight",
+      "kind": "phrase",
+      "text": "lose weight",
+      "reading": "ˌluːz ˈweɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Can I help you? Let's talk about your habits.",
+      "reading": "ˈhaɪ! kən aɪ ˈhɛlp juː? ˈlɛts ˈtɔːk əˈbaʊt jʊr ˈhæbɪts."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I usually sleep only five hours, and I'm always tired.",
+      "reading": "oʊˈkeɪ. aɪ ˈjuːʒuəli ˈsliːp ˈoʊnli ˈfaɪv ˈaʊərz, ənd aɪm ˈɔːlweɪz ˈtaɪərd."
+    },
+    {
+      "speaker": "b",
+      "text": "If you sleep seven or eight hours, you'll have more energy.",
+      "reading": "ɪf juː ˈsliːp ˈsɛvən ɔːr ˈeɪt ˈaʊərz, juːl ˈhæv ˈmɔːr ˈɛnərdʒi."
+    },
+    {
+      "speaker": "a",
+      "text": "But I have so much homework!",
+      "reading": "bʌt aɪ ˈhæv ˈsoʊ ˈmʌtʃ ˈhoʊmwɜːrk!"
+    },
+    {
+      "speaker": "b",
+      "text": "I understand. And what about your diet? What do you usually eat?",
+      "reading": "aɪ ˌʌndərˈstænd. ənd ˈwʌt əˈbaʊt jʊr ˈdaɪət? ˈwʌt duː juː ˈjuːʒuəli ˈiːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "A lot of junk food. I don't have time to cook.",
+      "reading": "ə ˈlɑːt əv ˈdʒʌŋk ˌfuːd. aɪ ˈdoʊnt ˈhæv ˈtaɪm tə ˈkʊk."
+    },
+    {
+      "speaker": "b",
+      "text": "If you eat more fruit and vegetables, you'll feel much better.",
+      "reading": "ɪf juː ˈiːt ˈmɔːr ˈfruːt ənd ˈvɛdʒtəbəlz, juːl ˈfiːl ˈmʌtʃ ˈbɛtər."
+    },
+    {
+      "speaker": "a",
+      "text": "Will I lose weight, too?",
+      "reading": "wɪl aɪ ˈluːz ˈweɪt, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "Maybe. If you eat less junk food, you'll probably lose a little weight.",
+      "reading": "ˈmeɪbi. ɪf juː ˈiːt ˈlɛs ˈdʒʌŋk ˌfuːd, juːl ˈprɑːbəbli ˈluːz ə ˈlɪtəl ˈweɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I'll try it this week!",
+      "reading": "oʊˈkeɪ. aɪl ˈtraɪ ɪt ðɪs ˈwiːk!"
+    }
+  ]
+}

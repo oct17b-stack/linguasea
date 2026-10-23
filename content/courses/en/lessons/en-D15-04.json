@@ -1,0 +1,86 @@
+{
+  "id": "en-D15-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.raw",
+      "text": "raw",
+      "reading": "rɔː"
+    },
+    {
+      "id": "en.overcooked",
+      "text": "overcooked",
+      "reading": "ˌoʊvərˈkʊkt"
+    },
+    {
+      "id": "en.mistake",
+      "text": "mistake",
+      "reading": "mɪˈsteɪk"
+    },
+    {
+      "id": "en.take-it-back",
+      "kind": "phrase",
+      "text": "take it back",
+      "reading": "ˌteɪk ɪt ˈbæk"
+    },
+    {
+      "id": "en.undercooked",
+      "text": "undercooked",
+      "reading": "ˌʌndərˈkʊkt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. I'm sorry, but this isn't what I ordered.",
+      "reading": "ɪkˈskjuːz miː. aɪm ˈsɑːri, bʌt ðɪs ˈɪzənt wʌt aɪ ˈɔːrdərd."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, I'm sorry. What did you order?",
+      "reading": "ˈoʊ, aɪm ˈsɑːri. ˈwʌt dɪd juː ˈɔːrdər?"
+    },
+    {
+      "speaker": "a",
+      "text": "I ordered the chicken, not the beef.",
+      "reading": "aɪ ˈɔːrdərd ðə ˈtʃɪkən, ˈnɑːt ðə ˈbiːf."
+    },
+    {
+      "speaker": "b",
+      "text": "That's my mistake. I'll take it back and bring you the chicken.",
+      "reading": "ðæts maɪ mɪˈsteɪk. aɪl ˈteɪk ɪt ˈbæk ənd ˈbrɪŋ juː ðə ˈtʃɪkən."
+    },
+    {
+      "speaker": "c",
+      "text": "Excuse me. My fish is undercooked. It's still raw inside.",
+      "reading": "ɪkˈskjuːz miː. maɪ ˈfɪʃ ɪz ˌʌndərˈkʊkt. ɪts ˈstɪl ˈrɔː ˌɪnˈsaɪd."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm very sorry. I'll take it back, too.",
+      "reading": "aɪm ˈvɛri ˈsɑːri. aɪl ˈteɪk ɪt ˈbæk, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "And these vegetables are overcooked. They're too soft.",
+      "reading": "ənd ðiːz ˈvɛdʒtəbəlz ər ˌoʊvərˈkʊkt. ðɛr ˈtuː ˈsɔːft."
+    },
+    {
+      "speaker": "b",
+      "text": "I'll tell the chef. And dessert is free tonight.",
+      "reading": "aɪl ˈtɛl ðə ˈʃɛf. ənd dɪˈzɜːrt ɪz ˈfriː təˈnaɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "That's very kind. Thank you.",
+      "reading": "ðæts ˈvɛri ˈkaɪnd. ˈθæŋk juː."
+    },
+    {
+      "speaker": "a",
+      "text": "Free dessert? That's just what we wanted!",
+      "reading": "ˈfriː dɪˈzɜːrt? ðæts ˈdʒʌst wʌt wiː ˈwɑːntɪd!"
+    }
+  ]
+}

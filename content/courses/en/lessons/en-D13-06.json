@@ -1,0 +1,82 @@
+{
+  "id": "en-D13-06",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.call-for-help",
+      "kind": "phrase",
+      "text": "call for help",
+      "reading": "ˌkɔːl fər ˈhɛlp"
+    },
+    {
+      "id": "en.lie-down",
+      "kind": "phrase",
+      "text": "lie down",
+      "reading": "ˌlaɪ ˈdaʊn"
+    },
+    {
+      "id": "en.blood",
+      "text": "blood",
+      "reading": "blʌd"
+    },
+    {
+      "id": "en.medical",
+      "text": "medical",
+      "reading": "ˈmɛdɪkəl"
+    },
+    {
+      "id": "en.bandage",
+      "text": "bandage",
+      "reading": "ˈbændɪdʒ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Today we're going to learn first aid.",
+      "reading": "təˈdeɪ wɪr ˈɡoʊɪŋ tə ˈlɜːrn ˈfɜːrst ˈeɪd."
+    },
+    {
+      "speaker": "a",
+      "text": "What should we do first in an emergency?",
+      "reading": "ˈwʌt ʃʊd wiː ˈduː ˈfɜːrst ɪn ən ɪˈmɜːrdʒənsi?"
+    },
+    {
+      "speaker": "c",
+      "text": "If someone is hurt, call for help. Don't move them.",
+      "reading": "ɪf ˈsʌmwʌn ɪz ˈhɜːrt, ˈkɔːl fər ˈhɛlp. ˈdoʊnt ˈmuːv ðɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "And if they feel dizzy?",
+      "reading": "ənd ɪf ðeɪ ˈfiːl ˈdɪzi?"
+    },
+    {
+      "speaker": "c",
+      "text": "If they feel dizzy, help them lie down.",
+      "reading": "ɪf ðeɪ ˈfiːl ˈdɪzi, ˈhɛlp ðɛm ˈlaɪ ˈdaʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "What should we do if there's a lot of blood?",
+      "reading": "ˈwʌt ʃʊd wiː ˈduː ɪf ðɛrz ə ˈlɑːt əv ˈblʌd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Press on the cut with a clean towel. If you have a bandage, put it on the cut.",
+      "reading": "ˈprɛs ɑːn ðə ˈkʌt wɪð ə ˈkliːn ˈtaʊəl. ɪf juː ˈhæv ə ˈbændɪdʒ, ˈpʊt ɪt ɑːn ðə ˈkʌt."
+    },
+    {
+      "speaker": "a",
+      "text": "And if it's very serious?",
+      "reading": "ənd ɪf ɪts ˈvɛri ˈsɪriəs?"
+    },
+    {
+      "speaker": "c",
+      "text": "If it's serious, get medical help. Don't wait!",
+      "reading": "ɪf ɪts ˈsɪriəs, ˈɡɛt ˈmɛdɪkəl ˈhɛlp. ˈdoʊnt ˈweɪt!"
+    }
+  ]
+}

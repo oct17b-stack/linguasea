@@ -1,0 +1,86 @@
+{
+  "id": "en-D15-02",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.recommend",
+      "text": "recommend",
+      "reading": "ˌrɛkəˈmɛnd"
+    },
+    {
+      "id": "en.specialty",
+      "text": "specialty",
+      "reading": "ˈspɛʃəlti"
+    },
+    {
+      "id": "en.appetizer",
+      "text": "appetizer",
+      "reading": "ˈæpɪtaɪzər"
+    },
+    {
+      "id": "en.main-course",
+      "kind": "phrase",
+      "text": "main course",
+      "reading": "ˌmeɪn ˈkɔːrs"
+    },
+    {
+      "id": "en.dessert",
+      "text": "dessert",
+      "reading": "dɪˈzɜːrt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good evening. Can I take your order?",
+      "reading": "ˈɡʊd ˈiːvnɪŋ. kən aɪ ˈteɪk jʊr ˈɔːrdər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not yet. What do you recommend?",
+      "reading": "ˈnɑːt ˈjɛt. ˈwʌt duː juː ˌrɛkəˈmɛnd?"
+    },
+    {
+      "speaker": "b",
+      "text": "Our specialty is green curry. I recommend trying it.",
+      "reading": "aʊr ˈspɛʃəlti ɪz ˈɡriːn ˈkɜːri. aɪ ˌrɛkəˈmɛnd ˈtraɪɪŋ ɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "OK, I'll have the green curry for my main course.",
+      "reading": "oʊˈkeɪ, aɪl ˈhæv ðə ˈɡriːn ˈkɜːri fər maɪ ˈmeɪn ˈkɔːrs."
+    },
+    {
+      "speaker": "a",
+      "text": "And what do you suggest for an appetizer?",
+      "reading": "ənd ˈwʌt duː juː səɡˈdʒɛst fər ən ˈæpɪtaɪzər?"
+    },
+    {
+      "speaker": "b",
+      "text": "I suggest ordering the fish cakes. They're very popular.",
+      "reading": "aɪ səɡˈdʒɛst ˈɔːrdərɪŋ ðə ˈfɪʃ ˈkeɪks. ðɛr ˈvɛri ˈpɑːpjələr."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. We'll share them. And I'll have the chicken and rice.",
+      "reading": "ˈɡreɪt. wiːl ˈʃɛr ðɛm. ənd aɪl ˈhæv ðə ˈtʃɪkən ənd ˈraɪs."
+    },
+    {
+      "speaker": "b",
+      "text": "Would you like dessert, too?",
+      "reading": "wʊd juː ˈlaɪk dɪˈzɜːrt, ˈtuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, please! What do you recommend?",
+      "reading": "ˈjɛs, ˈpliːz! ˈwʌt duː juː ˌrɛkəˈmɛnd?"
+    },
+    {
+      "speaker": "b",
+      "text": "I recommend trying the coconut ice cream. It's made here.",
+      "reading": "aɪ ˌrɛkəˈmɛnd ˈtraɪɪŋ ðə ˈkoʊkənʌt ˈaɪs ˈkriːm. ɪts ˈmeɪd ˈhɪr."
+    }
+  ]
+}

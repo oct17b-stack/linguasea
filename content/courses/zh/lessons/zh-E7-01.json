@@ -1,0 +1,96 @@
+{
+  "id": "zh-E7-01",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhen-cheng",
+      "text": "真诚",
+      "reading": "zhēnchéng"
+    },
+    {
+      "id": "zh.cheng-shi-honest",
+      "text": "诚实",
+      "reading": "chéngshí"
+    },
+    {
+      "id": "zh.ke-kao",
+      "text": "可靠",
+      "reading": "kěkào"
+    },
+    {
+      "id": "zh.tan-de-lai",
+      "kind": "phrase",
+      "text": "谈得来",
+      "reading": "tán de lái"
+    },
+    {
+      "id": "zh.gan-shou",
+      "text": "感受",
+      "reading": "gǎnshòu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在北京有很多好朋友吗？",
+      "reading": "Xiǎonán, nǐ zài Běijīng yǒu hěn duō hǎo péngyou ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不太多，可是有两三个特别好的。我们很谈得来。",
+      "reading": "Bù tài duō, kěshì yǒu liǎngsān ge tèbié hǎo de. Wǒmen hěn tán de lái."
+    },
+    {
+      "speaker": "b",
+      "text": "你觉得什么样的朋友才是好朋友？",
+      "reading": "Nǐ juéde shénmeyàng de péngyou cái shì hǎo péngyou?"
+    },
+    {
+      "speaker": "a",
+      "text": "我觉得最重要的是真诚。好朋友应该互相诚实，有什么就说什么。",
+      "reading": "Wǒ juéde zuì zhòngyào de shì zhēnchéng. Hǎo péngyou yīnggāi hùxiāng chéngshí, yǒu shénme jiù shuō shénme."
+    },
+    {
+      "speaker": "b",
+      "text": "我同意。还要可靠，有事的时候能帮你。",
+      "reading": "Wǒ tóngyì. Hái yào kěkào, yǒu shì de shíhou néng bāng nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "对。上次我生病，我的朋友马上来帮我买药。",
+      "reading": "Duì. Shàngcì wǒ shēngbìng, wǒ de péngyou mǎshàng lái bāng wǒ mǎi yào."
+    },
+    {
+      "speaker": "b",
+      "text": "我有一个老同学，我们小时候玩得很好，可是现在聊不来了。",
+      "reading": "Wǒ yǒu yī ge lǎo tóngxué, wǒmen xiǎoshíhou wán de hěn hǎo, kěshì xiànzài liáo bù lái le."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么？发生什么事了吗？",
+      "reading": "Wèi shénme? Fāshēng shénme shì le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "没有。我们关心的东西越来越不一样了。",
+      "reading": "Méiyǒu. Wǒmen guānxīn de dōngxi yuèláiyuè bù yīyàng le."
+    },
+    {
+      "speaker": "a",
+      "text": "这很正常。人会变，朋友也会变。",
+      "reading": "Zhè hěn zhèngcháng. Rén huì biàn, péngyou yě huì biàn."
+    },
+    {
+      "speaker": "b",
+      "text": "是啊。不过我还是会考虑他的感受。",
+      "reading": "Shì a. Bùguò wǒ háishi huì kǎolǜ tā de gǎnshòu."
+    },
+    {
+      "speaker": "a",
+      "text": "你真是一个可靠的朋友！",
+      "reading": "Nǐ zhēn shì yī ge kěkào de péngyou!"
+    }
+  ]
+}

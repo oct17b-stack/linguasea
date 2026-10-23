@@ -1,0 +1,75 @@
+{
+  "id": "zh-C12-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jie-ri",
+      "text": "节日",
+      "reading": "jiérì"
+    },
+    {
+      "id": "zh.jia-qi",
+      "text": "假期",
+      "reading": "jiàqī"
+    },
+    {
+      "id": "zh.chun-jie",
+      "text": "春节",
+      "reading": "Chūnjié"
+    },
+    {
+      "id": "zh.guo-qing-jie",
+      "text": "国庆节",
+      "reading": "Guóqìngjié"
+    },
+    {
+      "id": "zh.ren-men",
+      "text": "人们",
+      "reading": "rénmen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，春节的时候你回泰国吗？",
+      "reading": "Xiǎonán, Chūnjié de shíhou nǐ huí Tàiguó ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不回，李老师。春节假期不长，我想在北京过春节。",
+      "reading": "Bù huí, Lǐ lǎoshī. Chūnjié jiàqī bù cháng, wǒ xiǎng zài Běijīng guò Chūnjié."
+    },
+    {
+      "speaker": "c",
+      "text": "好啊！泰国人也过春节吗？",
+      "reading": "Hǎo a! Tàiguó rén yě guò Chūnjié ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很多人过。春节的时候，曼谷很热闹。",
+      "reading": "Hěn duō rén guò. Chūnjié de shíhou, Màngǔ hěn rènao."
+    },
+    {
+      "speaker": "c",
+      "text": "那泰国最大的节日是什么？",
+      "reading": "Nà Tàiguó zuì dà de jiérì shì shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "是泰国新年，在四月。泰国新年的时候，人们都回家看爸爸妈妈。",
+      "reading": "Shì Tàiguó xīnnián, zài sì yuè. Tàiguó xīnnián de shíhou, rénmen dōu huíjiā kàn bàba māma."
+    },
+    {
+      "speaker": "c",
+      "text": "跟中国的春节一样！国庆节的时候，你去旅游了吗？",
+      "reading": "Gēn Zhōngguó de Chūnjié yīyàng! Guóqìngjié de shíhou, nǐ qù lǚyóu le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没去，国庆节的时候人太多了。",
+      "reading": "Méi qù, Guóqìngjié de shíhou rén tài duō le."
+    }
+  ]
+}

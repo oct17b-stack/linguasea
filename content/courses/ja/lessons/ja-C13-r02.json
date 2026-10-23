@@ -1,0 +1,79 @@
+{
+  "id": "ja-C13-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.marason",
+      "text": "マラソン",
+      "reading": "marason"
+    },
+    {
+      "id": "ja.gouru",
+      "text": "ゴール",
+      "reading": "gōru"
+    },
+    {
+      "id": "ja.peesu",
+      "text": "ペース",
+      "reading": "pēsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きょう、ゆきと 10キロの マラソンに でた。",
+        "reading": "Kyō, Yuki to jukkiro no marason ni deta."
+      },
+      {
+        "text": "ゆきは ジョギングを はじめて から、まいあさ はしって いる。",
+        "reading": "Yuki wa jogingu o hajimete kara, maiasa hashitte iru."
+      },
+      {
+        "text": "ふたりで ゆっくりの ペースで はしりはじめた。",
+        "reading": "Futari de yukkuri no pēsu de hashirihajimeta."
+      }
+    ],
+    [
+      {
+        "text": "7キロで、足が とても いたく なった。",
+        "reading": "Nanakiro de, ashi ga totemo itaku natta."
+      },
+      {
+        "text": "でも、ゆきの「がんばって！」で、また げんきに なった。",
+        "reading": "Demo, Yuki no “ganbatte!” de, mata genki ni natta."
+      },
+      {
+        "text": "ふたりで いっしょに ゴールした。",
+        "reading": "Futari de issho ni gōru shita."
+      }
+    ],
+    [
+      {
+        "text": "きろくは 1じかん 10ぷん。",
+        "reading": "Kiroku wa ichijikan juppun."
+      },
+      {
+        "text": "とても つかれたが、たのしかった。",
+        "reading": "Totemo tsukareta ga, tanoshikatta."
+      },
+      {
+        "text": "来年は 1じかんで はしりたい！",
+        "reading": "Rainen wa ichijikan de hashiritai!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

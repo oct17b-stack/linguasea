@@ -1,0 +1,86 @@
+{
+  "id": "en-D13-01",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.accident",
+      "text": "accident",
+      "reading": "ˈæksɪdənt"
+    },
+    {
+      "id": "en.crash",
+      "text": "crash",
+      "reading": "kræʃ"
+    },
+    {
+      "id": "en.slippery",
+      "text": "slippery",
+      "reading": "ˈslɪpəri"
+    },
+    {
+      "id": "en.helmet",
+      "text": "helmet",
+      "reading": "ˈhɛlmɪt"
+    },
+    {
+      "id": "en.fall-off",
+      "kind": "phrase",
+      "text": "fall off",
+      "reading": "ˌfɔːl ˈɔːf"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, you look upset. What's wrong?",
+      "reading": "ˈnɑːm, juː ˈlʊk ʌpˈsɛt. ˈwʌts ˈrɔːŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I saw an accident this morning.",
+      "reading": "aɪ ˈsɔː ən ˈæksɪdənt ðɪs ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! Where?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Near the station. It was raining, and the road was very slippery.",
+      "reading": "ˈnɪr ðə ˈsteɪʃən. ɪt wʌz ˈreɪnɪŋ, ənd ðə ˈroʊd wʌz ˈvɛri ˈslɪpəri."
+    },
+    {
+      "speaker": "c",
+      "text": "Was anyone hurt?",
+      "reading": "wʌz ˈɛniwʌn ˈhɜːrt?"
+    },
+    {
+      "speaker": "a",
+      "text": "A man was riding a motorcycle, and he was going too fast.",
+      "reading": "ə ˈmæn wʌz ˈraɪdɪŋ ə ˈmoʊtərsaɪkəl, ənd hiː wʌz ˈɡoʊɪŋ ˈtuː ˈfæst."
+    },
+    {
+      "speaker": "c",
+      "text": "Did he crash?",
+      "reading": "dɪd hiː ˈkræʃ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. He fell off his motorcycle, and it crashed into a car.",
+      "reading": "ˈjɛs. hiː ˈfɛl ˈɔːf hɪz ˈmoʊtərsaɪkəl, ənd ɪt ˈkræʃt ˈɪntuː ə ˈkɑːr."
+    },
+    {
+      "speaker": "c",
+      "text": "That's terrible! Was he wearing a helmet?",
+      "reading": "ðæts ˈtɛrəbəl! wʌz hiː ˈwɛrɪŋ ə ˈhɛlmɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Luckily, he was. When I left, a lot of people were helping him.",
+      "reading": "ˈlʌkəli, hiː ˈwʌz. wɛn aɪ ˈlɛft, ə ˈlɑːt əv ˈpiːpəl wɜːr ˈhɛlpɪŋ hɪm."
+    }
+  ]
+}

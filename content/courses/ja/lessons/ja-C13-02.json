@@ -1,0 +1,75 @@
+{
+  "id": "ja-C13-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tsuzukeru",
+      "text": "つづける",
+      "reading": "tsuzukeru"
+    },
+    {
+      "id": "ja.tsuzuku",
+      "text": "つづく",
+      "reading": "tsuzuku"
+    },
+    {
+      "id": "ja.shuukan-habit",
+      "text": "習慣",
+      "reading": "shūkan"
+    },
+    {
+      "id": "ja.jogingu",
+      "text": "ジョギング",
+      "reading": "jogingu"
+    },
+    {
+      "id": "ja.hashiru",
+      "text": "はしる",
+      "reading": "hashiru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、きのうから ジョギングを はじめたよ。",
+      "reading": "Namu, kinō kara jogingu o hajimeta yo."
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！ どのくらい はしったの？",
+      "reading": "Sugoi! Dono kurai hashitta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "20ぷん。でも、はしりはじめて 10ぷんで、足が いたく なった。",
+      "reading": "Nijuppun. Demo, hashirihajimete juppun de, ashi ga itaku natta."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆっくり はしった ほうが いいよ。それから、はしりおわった あとで、ストレッチを してね。",
+      "reading": "Yukkuri hashitta hō ga ii yo. Sorekara, hashiriowatta ato de, sutoretchi o shite ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。まいあさ はしりつづけて、習慣に したいな。",
+      "reading": "Un. Maiasa hashiritsuzukete, shūkan ni shitai na."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは 15さいから ずっと ダンスを つづけて いるよ。",
+      "reading": "Watashi wa jūgosai kara zutto dansu o tsuzukete iru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "すごいね。つづく ひとと つづかない ひとが いるよね。",
+      "reading": "Sugoi ne. Tsuzuku hito to tsuzukanai hito ga iru yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしい ことは つづくよ。あしたは わたしも いっしょに はしるね！",
+      "reading": "Tanoshii koto wa tsuzuku yo. Ashita wa watashi mo issho ni hashiru ne!"
+    }
+  ]
+}

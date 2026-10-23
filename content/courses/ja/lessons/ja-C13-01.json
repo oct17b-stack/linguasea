@@ -1,0 +1,75 @@
+{
+  "id": "ja-C13-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.undou",
+      "text": "運動",
+      "reading": "undō"
+    },
+    {
+      "id": "ja.jimu",
+      "text": "ジム",
+      "reading": "jimu"
+    },
+    {
+      "id": "ja.tairyoku",
+      "text": "体力",
+      "reading": "tairyoku"
+    },
+    {
+      "id": "ja.sutoretchi",
+      "text": "ストレッチ",
+      "reading": "sutoretchi"
+    },
+    {
+      "id": "ja.chikara",
+      "text": "力",
+      "reading": "chikara"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "さいきん 体力が ないから、運動を はじめたいの。",
+      "reading": "Saikin tairyoku ga nai kara, undō o hajimetai no."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね。さんぽから はじめた ほうが いいよ。",
+      "reading": "Ii ne. Sanpo kara hajimeta hō ga ii yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ジムは どう？",
+      "reading": "Jimu wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "ジムも いいね。でも、急に むりを しない ほうが いいよ。",
+      "reading": "Jimu mo ii ne. Demo, kyū ni muri o shinai hō ga ii yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。ほかには？",
+      "reading": "Sō da ne. Hoka ni wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "運動の まえに、ストレッチを した ほうが いいよ。",
+      "reading": "Undō no mae ni, sutoretchi o shita hō ga ii yo."
+    },
+    {
+      "speaker": "c",
+      "text": "わかった。ナムは なにか 運動を して いるの？",
+      "reading": "Wakatta. Namu wa nanika undō o shite iru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、ダンスサークルで まいしゅう おどって いるよ。ダンスは 体力も 力も いるよ。",
+      "reading": "Un, dansu sākuru de maishū odotte iru yo. Dansu wa tairyoku mo chikara mo iru yo."
+    }
+  ]
+}

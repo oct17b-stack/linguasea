@@ -1,0 +1,70 @@
+{
+  "id": "ja-C13-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.juni",
+      "text": "じゅんい",
+      "reading": "jun'i"
+    },
+    {
+      "id": "ja.kiroku",
+      "text": "きろく",
+      "reading": "kiroku"
+    },
+    {
+      "id": "ja.taikai",
+      "text": "大会",
+      "reading": "taikai"
+    },
+    {
+      "id": "ja.mokuhyou",
+      "text": "もくひょう",
+      "reading": "mokuhyō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、きのうの ダンスの 大会は どうだった？",
+      "reading": "Namu, kinō no dansu no taikai wa dō datta?"
+    },
+    {
+      "speaker": "a",
+      "text": "ダンスサークルの じゅんいは、3いだったよ！",
+      "reading": "Dansu sākuru no jun'i wa, san'i datta yo!"
+    },
+    {
+      "speaker": "c",
+      "text": "すごい！ なんチームの 中で 3い？",
+      "reading": "Sugoi! Nan chīmu no naka de san'i?"
+    },
+    {
+      "speaker": "a",
+      "text": "12チームの 中で 3い。きょねんは 8いだったから、いい きろくだよ。",
+      "reading": "Jūni chīmu no naka de san'i. Kyonen wa hachii datta kara, ii kiroku da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムは、この 大会は なんかいめ？",
+      "reading": "Namu wa, kono taikai wa nankaime?"
+    },
+    {
+      "speaker": "a",
+      "text": "2かいめ。おどったのは 2ばんめで、とても きんちょうした！",
+      "reading": "Nikaime. Odotta no wa nibanme de, totemo kinchō shita!"
+    },
+    {
+      "speaker": "c",
+      "text": "来年の もくひょうは？",
+      "reading": "Rainen no mokuhyō wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "もちろん 1い！",
+      "reading": "Mochiron ichii!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ja-C13-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.juudou",
+      "text": "じゅうどう",
+      "reading": "jūdō"
+    },
+    {
+      "id": "ja.sakkaa",
+      "text": "サッカー",
+      "reading": "sakkā"
+    },
+    {
+      "id": "ja.badominton",
+      "text": "バドミントン",
+      "reading": "badominton"
+    },
+    {
+      "id": "ja.takkyuu",
+      "text": "たっきゅう",
+      "reading": "takkyū"
+    },
+    {
+      "id": "ja.ninki",
+      "text": "人気",
+      "reading": "ninki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "タイで 人気が ある スポーツは なに？",
+      "reading": "Tai de ninki ga aru supōtsu wa nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "サッカーと バドミントンだよ。ムエタイも 人気が ある。",
+      "reading": "Sakkā to badominton da yo. Muetai mo ninki ga aru."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんでは、サッカーは やきゅうほど 人気が ないかもしれない。",
+      "reading": "Nihon de wa, sakkā wa yakyū hodo ninki ga nai kamoshirenai."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。たっきゅうは どう？",
+      "reading": "Sō na n da. Takkyū wa dō?"
+    },
+    {
+      "speaker": "c",
+      "text": "たっきゅうも 人気だよ。わたしは じゅうどうを ならって いたよ。",
+      "reading": "Takkyū mo ninki da yo. Watashi wa jūdō o naratte ita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゅうどう？ たいへんじゃない？",
+      "reading": "Jūdō? Taihen ja nai?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。でも、ムエタイほど いたくないよ。",
+      "reading": "Un. Demo, muetai hodo itakunai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "バドミントンは じゅうどうほど たいへんじゃないよ。こんど いっしょに する？",
+      "reading": "Badominton wa jūdō hodo taihen ja nai yo. Kondo issho ni suru?"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "zh-E7-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ou-ran",
+      "text": "偶然",
+      "reading": "ǒurán"
+    },
+    {
+      "id": "zh.yuan-fen",
+      "text": "缘分",
+      "reading": "yuánfèn"
+    },
+    {
+      "id": "zh.dui-xiang",
+      "text": "对象",
+      "reading": "duìxiàng"
+    },
+    {
+      "id": "zh.yi-jian-zhong-qing",
+      "kind": "phrase",
+      "text": "一见钟情",
+      "reading": "yī jiàn zhōng qíng"
+    },
+    {
+      "id": "zh.gu-niang",
+      "text": "姑娘",
+      "reading": "gūniang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你和你女朋友是怎么认识的？",
+      "reading": "Wáng Míng, nǐ hé nǐ nǚpéngyou shì zěnme rènshi de?"
+    },
+    {
+      "speaker": "b",
+      "text": "说起来很有意思。我们第一次见面是很偶然的。",
+      "reading": "Shuō qilai hěn yǒu yìsi. Wǒmen dì-yī cì jiànmiàn shì hěn ǒurán de."
+    },
+    {
+      "speaker": "a",
+      "text": "快说说！",
+      "reading": "Kuài shuōshuo!"
+    },
+    {
+      "speaker": "b",
+      "text": "有一天在地铁上，我不小心把咖啡倒在了一个姑娘的包上。",
+      "reading": "Yǒu yī tiān zài dìtiě shang, wǒ bù xiǎoxīn bǎ kāfēi dào zài le yī ge gūniang de bāo shang."
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？她生气了吗？",
+      "reading": "Zhēnde ma? Tā shēngqì le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "没有，她笑了笑说没关系。我对她一见钟情，可是忘了问她的电话号码。",
+      "reading": "Méiyǒu, tā xiào le xiào shuō méi guānxi. Wǒ duì tā yī jiàn zhōng qíng, kěshì wàng le wèn tā de diànhuà hàomǎ."
+    },
+    {
+      "speaker": "a",
+      "text": "太可惜了！后来呢？",
+      "reading": "Tài kěxī le! Hòulái ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "两个月以后，经过一个同事介绍，我去见一个女孩子，没想到就是她！",
+      "reading": "Liǎng ge yuè yǐhòu, jīngguò yī ge tóngshì jièshào, wǒ qù jiàn yī ge nǚháizi, méi xiǎngdào jiù shì tā!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？这就是缘分啊！",
+      "reading": "Zhēnde ma? Zhè jiù shì yuánfèn a!"
+    },
+    {
+      "speaker": "b",
+      "text": "是啊。以前我妈妈总问我有没有对象，现在她不问了。",
+      "reading": "Shì a. Yǐqián wǒ māma zǒng wèn wǒ yǒu méiyǒu duìxiàng, xiànzài tā bù wèn le."
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，你们在一起多长时间了？",
+      "reading": "Hāhā, nǐmen zài yīqǐ duō cháng shíjiān le?"
+    },
+    {
+      "speaker": "b",
+      "text": "快两年了。经过这两年，我们的感情越来越好。",
+      "reading": "Kuài liǎng nián le. Jīngguò zhè liǎng nián, wǒmen de gǎnqíng yuèláiyuè hǎo."
+    }
+  ]
+}

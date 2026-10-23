@@ -1,0 +1,76 @@
+{
+  "id": "zh-C12-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.guo-nian",
+      "text": "过年",
+      "reading": "guònián"
+    },
+    {
+      "id": "zh.hong-bao",
+      "text": "红包",
+      "reading": "hóngbāo"
+    },
+    {
+      "id": "zh.bao-jiao-zi",
+      "kind": "phrase",
+      "text": "包饺子",
+      "reading": "bāo jiǎozi"
+    },
+    {
+      "id": "zh.da-sao",
+      "text": "打扫",
+      "reading": "dǎsǎo"
+    },
+    {
+      "id": "zh.quan-whole",
+      "text": "全",
+      "reading": "quán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，过年以前，中国人要准备什么？",
+      "reading": "Lǐ lǎoshī, guònián yǐqián, Zhōngguó rén yào zhǔnbèi shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "过年以前，大家都打扫房子，还买很多吃的。",
+      "reading": "Guònián yǐqián, dàjiā dōu dǎsǎo fángzi, hái mǎi hěn duō chī de."
+    },
+    {
+      "speaker": "a",
+      "text": "过年的时候呢？",
+      "reading": "Guònián de shíhou ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "全家人一起吃饭、包饺子。孩子们还能拿红包。",
+      "reading": "Quánjiā rén yīqǐ chīfàn, bāo jiǎozi. Háizimen hái néng ná hóngbāo."
+    },
+    {
+      "speaker": "a",
+      "text": "红包？在泰国也有红包！",
+      "reading": "Hóngbāo? Zài Tàiguó yě yǒu hóngbāo!"
+    },
+    {
+      "speaker": "c",
+      "text": "对。今年春节，你来我家过年吧！",
+      "reading": "Duì. Jīnnián Chūnjié, nǐ lái wǒ jiā guònián ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？太好了！我可以帮您包饺子。",
+      "reading": "Zhēnde ma? Tài hǎo le! Wǒ kěyǐ bāng nín bāo jiǎozi."
+    },
+    {
+      "speaker": "c",
+      "text": "好！吃饭以后，我们一起看春节晚会。",
+      "reading": "Hǎo! Chīfàn yǐhòu, wǒmen yīqǐ kàn Chūnjié wǎnhuì."
+    }
+  ]
+}

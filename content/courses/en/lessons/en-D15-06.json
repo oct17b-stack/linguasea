@@ -1,0 +1,88 @@
+{
+  "id": "en-D15-06",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.tip",
+      "text": "tip",
+      "reading": "tɪp"
+    },
+    {
+      "id": "en.service-charge",
+      "text": "service charge",
+      "reading": "ˈsɜːrvɪs ˌtʃɑːrdʒ"
+    },
+    {
+      "id": "en.split-the-bill",
+      "kind": "phrase",
+      "text": "split the bill",
+      "reading": "ˌsplɪt ðə ˈbɪl"
+    },
+    {
+      "id": "en.keep-the-change",
+      "kind": "phrase",
+      "text": "Keep the change",
+      "reading": "ˌkiːp ðə ˈtʃeɪndʒ"
+    },
+    {
+      "id": "en.pay-separately",
+      "kind": "phrase",
+      "text": "pay separately",
+      "reading": "ˌpeɪ ˈsɛpərətli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. May I have the check, please?",
+      "reading": "ɪkˈskjuːz miː. meɪ aɪ ˈhæv ðə ˈtʃɛk, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. Here you are.",
+      "reading": "əv ˈkɔːrs. ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "c",
+      "text": "May I see it? Is the service charge on the check?",
+      "reading": "meɪ aɪ ˈsiː ɪt? ɪz ðə ˈsɜːrvɪs ˌtʃɑːrdʒ ɑːn ðə ˈtʃɛk?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. There's a ten percent service charge.",
+      "reading": "ˈjɛs. ðɛrz ə ˈtɛn pərˈsɛnt ˈsɜːrvɪs ˌtʃɑːrdʒ."
+    },
+    {
+      "speaker": "a",
+      "text": "Then we don't need to leave a tip.",
+      "reading": "ˈðɛn wiː ˈdoʊnt ˈniːd tə ˈliːv ə ˈtɪp."
+    },
+    {
+      "speaker": "c",
+      "text": "Should we split the bill, or pay separately?",
+      "reading": "ʃʊd wiː ˈsplɪt ðə ˈbɪl, ɔːr ˈpeɪ ˈsɛpərətli?"
+    },
+    {
+      "speaker": "b",
+      "text": "You can pay separately. I can split the bill for you.",
+      "reading": "juː kən ˈpeɪ ˈsɛpərətli. aɪ kən ˈsplɪt ðə ˈbɪl fər juː."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. May I pay by card?",
+      "reading": "ˈθæŋk juː. meɪ aɪ ˈpeɪ baɪ ˈkɑːrd?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, of course.",
+      "reading": "ˈjɛs, əv ˈkɔːrs."
+    },
+    {
+      "speaker": "c",
+      "text": "And I'll pay cash. Here's one thousand baht. Keep the change!",
+      "reading": "ənd aɪl ˈpeɪ ˈkæʃ. hɪrz ˈwʌn ˈθaʊzənd ˈbɑːt. ˈkiːp ðə ˈtʃeɪndʒ!"
+    }
+  ]
+}

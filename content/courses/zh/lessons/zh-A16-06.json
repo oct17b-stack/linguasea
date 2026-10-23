@@ -1,0 +1,53 @@
+{
+  "id": "zh-A16-06",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.shi-de-yes",
+      "kind": "phrase",
+      "text": "是的",
+      "reading": "shì de"
+    },
+    {
+      "id": "zh.jiu-shi",
+      "text": "就是",
+      "reading": "jiùshì"
+    },
+    {
+      "id": "zh.hai-xing",
+      "kind": "phrase",
+      "text": "还行",
+      "reading": "hái xíng"
+    },
+    {
+      "id": "zh.hao-ji-le",
+      "kind": "phrase",
+      "text": "好极了",
+      "reading": "hǎo jí le"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你喜欢泰国茶吗？",
+      "reading": "Wáng Míng, nǐ xǐhuan Tàiguó chá ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "还行。",
+      "reading": "Hái xíng."
+    },
+    {
+      "speaker": "a",
+      "text": "还行？泰国茶好极了！",
+      "reading": "Hái xíng? Tàiguó chá hǎo jí le!"
+    },
+    {
+      "speaker": "b",
+      "text": "就是，就是！好极了！",
+      "reading": "Jiùshì, jiùshì! Hǎo jí le!"
+    }
+  ]
+}

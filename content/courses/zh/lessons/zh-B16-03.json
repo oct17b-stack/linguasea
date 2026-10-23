@@ -1,0 +1,62 @@
+{
+  "id": "zh-B16-03",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ti-wen-temperature",
+      "text": "体温",
+      "reading": "tǐwēn"
+    },
+    {
+      "id": "zh.zui-hao",
+      "text": "最好",
+      "reading": "zuìhǎo"
+    },
+    {
+      "id": "zh.duo-he-shui",
+      "kind": "phrase",
+      "text": "多喝水",
+      "reading": "duō hē shuǐ"
+    },
+    {
+      "id": "zh.hao-duo-le",
+      "kind": "phrase",
+      "text": "好多了",
+      "reading": "hǎo duō le"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "喂，小南，你今天怎么样？",
+      "reading": "Wéi, Xiǎonán, nǐ jīntiān zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "好多了，谢谢！",
+      "reading": "Hǎo duō le, xièxie!"
+    },
+    {
+      "speaker": "b",
+      "text": "体温呢？还高吗？",
+      "reading": "Tǐwēn ne? Hái gāo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不高了。大夫说我最好在家休息两天。",
+      "reading": "Bù gāo le. Dàifu shuō wǒ zuìhǎo zài jiā xiūxi liǎng tiān."
+    },
+    {
+      "speaker": "b",
+      "text": "好，你要多喝水！",
+      "reading": "Hǎo, nǐ yào duō hē shuǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "知道，知道！你和我妈妈说的一样！",
+      "reading": "Zhīdào, zhīdào! Nǐ hé wǒ māma shuō de yīyàng!"
+    }
+  ]
+}

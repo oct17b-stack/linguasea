@@ -1,0 +1,52 @@
+{
+  "id": "zh-A16-05",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.na-li-na-li",
+      "kind": "phrase",
+      "text": "哪里哪里",
+      "reading": "nǎlǐ nǎlǐ"
+    },
+    {
+      "id": "zh.guo-jiang",
+      "text": "过奖",
+      "reading": "guòjiǎng"
+    },
+    {
+      "id": "zh.ting-hao",
+      "kind": "phrase",
+      "text": "挺好",
+      "reading": "tǐng hǎo"
+    },
+    {
+      "id": "zh.cong-ming",
+      "text": "聪明",
+      "reading": "cōngming"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你的中文很好！",
+      "reading": "Xiǎonán, nǐ de Zhōngwén hěn hǎo!"
+    },
+    {
+      "speaker": "a",
+      "text": "哪里哪里！",
+      "reading": "Nǎlǐ nǎlǐ!"
+    },
+    {
+      "speaker": "c",
+      "text": "你的汉字也挺好。你很聪明！",
+      "reading": "Nǐ de Hànzì yě tǐng hǎo. Nǐ hěn cōngming!"
+    },
+    {
+      "speaker": "a",
+      "text": "过奖了，老师！",
+      "reading": "Guòjiǎng le, lǎoshī!"
+    }
+  ]
+}

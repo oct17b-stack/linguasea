@@ -1,0 +1,60 @@
+{
+  "id": "zh-B16-04",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.shang",
+      "text": "伤",
+      "reading": "shāng"
+    },
+    {
+      "id": "zh.xie-blood",
+      "text": "血",
+      "reading": "xiě"
+    },
+    {
+      "id": "zh.guo-min",
+      "text": "过敏",
+      "reading": "guòmǐn"
+    },
+    {
+      "id": "zh.tu",
+      "text": "吐",
+      "reading": "tù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你想吐吗？",
+      "reading": "Nǐ xiǎng tù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有点儿想吐。",
+      "reading": "Yǒudiǎnr xiǎng tù."
+    },
+    {
+      "speaker": "c",
+      "text": "你对什么东西过敏吗？",
+      "reading": "Nǐ duì shénme dōngxi guòmǐn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我不过敏。",
+      "reading": "Wǒ bù guòmǐn."
+    },
+    {
+      "speaker": "c",
+      "text": "你的手上有血！这是什么伤？",
+      "reading": "Nǐ de shǒu shang yǒu xiě! Zhè shì shénme shāng?"
+    },
+    {
+      "speaker": "a",
+      "text": "小伤，是海里的石头。",
+      "reading": "Xiǎo shāng, shì hǎi lǐ de shítou."
+    }
+  ]
+}

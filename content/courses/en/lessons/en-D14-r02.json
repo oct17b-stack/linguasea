@@ -1,0 +1,93 @@
+{
+  "id": "en-D14-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "en.back-up",
+      "kind": "phrase",
+      "text": "back up",
+      "reading": "ˌbæk ˈʌp"
+    },
+    {
+      "id": "en.service-center",
+      "text": "service center",
+      "reading": "ˈsɜːrvɪs ˌsɛntər"
+    },
+    {
+      "id": "en.technician",
+      "text": "technician",
+      "reading": "tɛkˈnɪʃən"
+    },
+    {
+      "id": "en.spill",
+      "text": "spill",
+      "reading": "spɪl"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Emma, help! My laptop won't turn on!",
+        "reading": "ˈɛmə, ˈhɛlp! maɪ ˈlæptɑːp ˈwoʊnt ˈtɜːrn ˈɑːn!"
+      },
+      {
+        "text": "I spilled coffee on the keyboard this morning.",
+        "reading": "aɪ ˈspɪld ˈkɔːfi ɑːn ðə ˈkiːbɔːrd ðɪs ˈmɔːrnɪŋ."
+      },
+      {
+        "text": "I cleaned it, but now the screen is black.",
+        "reading": "aɪ ˈkliːnd ɪt, bʌt ˈnaʊ ðə ˈskriːn ɪz ˈblæk."
+      }
+    ],
+    [
+      {
+        "text": "My history assignment is on it, and I didn't back it up!",
+        "reading": "maɪ ˈhɪstəri əˈsaɪnmənt ɪz ɑːn ɪt, ənd aɪ ˈdɪdənt ˈbæk ɪt ˈʌp!"
+      },
+      {
+        "text": "I have to hand it in tomorrow.",
+        "reading": "aɪ ˈhæf tə ˈhænd ɪt ˈɪn təˈmɑːroʊ."
+      },
+      {
+        "text": "What should I do?",
+        "reading": "ˈwʌt ʃʊd aɪ ˈduː?"
+      }
+    ],
+    [
+      {
+        "text": "OK, I'm at the service center now.",
+        "reading": "oʊˈkeɪ, aɪm ət ðə ˈsɜːrvɪs ˌsɛntər ˈnaʊ."
+      },
+      {
+        "text": "The technician says the keyboard is broken, but my files are safe.",
+        "reading": "ðə tɛkˈnɪʃən ˈsɛz ðə ˈkiːbɔːrd ɪz ˈbroʊkən, bʌt maɪ ˈfaɪlz ər ˈseɪf."
+      },
+      {
+        "text": "He's going to fix it in two days.",
+        "reading": "hiːz ˈɡoʊɪŋ tə ˈfɪks ɪt ɪn ˈtuː ˈdeɪz."
+      },
+      {
+        "text": "From now on, I'll back up my work every day.",
+        "reading": "frəm ˈnaʊ ˈɑːn, aɪl ˈbæk ˈʌp maɪ ˈwɜːrk ˈɛvri ˈdeɪ."
+      },
+      {
+        "text": "And no more coffee near my laptop!",
+        "reading": "ənd ˈnoʊ ˈmɔːr ˈkɔːfi ˈnɪr maɪ ˈlæptɑːp!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

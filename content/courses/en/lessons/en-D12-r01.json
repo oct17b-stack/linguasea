@@ -1,0 +1,89 @@
+{
+  "id": "en-D12-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "en.litter",
+      "text": "litter",
+      "reading": "ˈlɪtər"
+    },
+    {
+      "id": "en.distance",
+      "text": "distance",
+      "reading": "ˈdɪstəns"
+    },
+    {
+      "id": "en.park-ranger",
+      "text": "park ranger",
+      "reading": "ˈpɑːrk ˌreɪndʒər"
+    },
+    {
+      "id": "en.keep-away-from",
+      "kind": "phrase",
+      "text": "keep away from",
+      "reading": "ˌkiːp əˈweɪ frəm"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Welcome to Khao Yai National Park!",
+        "reading": "ˈwɛlkəm tə ˈkaʊ ˈjaɪ ˈnæʃənəl ˈpɑːrk!"
+      },
+      {
+        "text": "Please follow these rules on your visit.",
+        "reading": "ˈpliːz ˈfɑːloʊ ðiːz ˈruːlz ɑːn jʊr ˈvɪzɪt."
+      }
+    ],
+    [
+      {
+        "text": "Don't feed the animals. Food from people makes them sick.",
+        "reading": "ˈdoʊnt ˈfiːd ði ˈænɪməlz. ˈfuːd frəm ˈpiːpəl ˈmeɪks ðɛm ˈsɪk."
+      },
+      {
+        "text": "Keep away from wild elephants.",
+        "reading": "ˈkiːp əˈweɪ frəm ˈwaɪld ˈɛləfənts."
+      },
+      {
+        "text": "Elephants sometimes walk on the road. Stop your car at a safe distance and wait.",
+        "reading": "ˈɛləfənts ˈsʌmtaɪmz ˈwɔːk ɑːn ðə ˈroʊd. ˈstɑːp jʊr ˈkɑːr ət ə ˈseɪf ˈdɪstəns ənd ˈweɪt."
+      },
+      {
+        "text": "Don't drop litter. Take your trash home with you.",
+        "reading": "ˈdoʊnt ˈdrɑːp ˈlɪtər. ˈteɪk jʊr ˈtræʃ ˈhoʊm wɪð juː."
+      },
+      {
+        "text": "Stay on the trails, and don't walk in the forest at night.",
+        "reading": "ˈsteɪ ɑːn ðə ˈtreɪlz, ənd ˈdoʊnt ˈwɔːk ɪn ðə ˈfɔːrɪst ət ˈnaɪt."
+      },
+      {
+        "text": "Please be quiet. Noise frightens the animals.",
+        "reading": "ˈpliːz bi ˈkwaɪət. ˈnɔɪz ˈfraɪtənz ði ˈænɪməlz."
+      }
+    ],
+    [
+      {
+        "text": "Park rangers are at the visitor center from 6 a.m. to 6 p.m.",
+        "reading": "ˈpɑːrk ˌreɪndʒərz ər ət ðə ˈvɪzɪtər ˌsɛntər frəm ˈsɪks ˌeɪˈɛm tə ˈsɪks ˌpiːˈɛm."
+      },
+      {
+        "text": "Enjoy your visit!",
+        "reading": "ɪnˈdʒɔɪ jʊr ˈvɪzɪt!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

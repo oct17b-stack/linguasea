@@ -1,0 +1,60 @@
+{
+  "id": "zh-B16-02",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.tong",
+      "text": "痛",
+      "reading": "tòng"
+    },
+    {
+      "id": "zh.wei-stomach",
+      "text": "胃",
+      "reading": "wèi"
+    },
+    {
+      "id": "zh.sang-zi",
+      "text": "嗓子",
+      "reading": "sǎngzi"
+    },
+    {
+      "id": "zh.yun-dizzy",
+      "text": "晕",
+      "reading": "yūn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好，你哪儿不舒服？",
+      "reading": "Nǐ hǎo, nǐ nǎr bù shūfu?"
+    },
+    {
+      "speaker": "a",
+      "text": "我胃痛，也有点儿晕。",
+      "reading": "Wǒ wèi tòng, yě yǒudiǎnr yūn."
+    },
+    {
+      "speaker": "c",
+      "text": "嗓子痛吗？",
+      "reading": "Sǎngzi tòng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "嗓子不痛。",
+      "reading": "Sǎngzi bù tòng."
+    },
+    {
+      "speaker": "c",
+      "text": "你昨天吃了什么？",
+      "reading": "Nǐ zuótiān chī le shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我吃了很多海鲜。",
+      "reading": "Wǒ chī le hěn duō hǎixiān."
+    }
+  ]
+}

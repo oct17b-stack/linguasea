@@ -1,0 +1,85 @@
+{
+  "id": "zh-D6-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.zong-shi",
+      "text": "总是",
+      "reading": "zǒngshì"
+    },
+    {
+      "id": "zh.cu-xin",
+      "text": "粗心",
+      "reading": "cūxīn"
+    },
+    {
+      "id": "zh.zi-xi",
+      "text": "仔细",
+      "reading": "zǐxì"
+    },
+    {
+      "id": "zh.lan",
+      "text": "懒",
+      "reading": "lǎn"
+    },
+    {
+      "id": "zh.ma-hu",
+      "text": "马虎",
+      "reading": "mǎhu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你怎么又迟到了？我等了你二十分钟！",
+      "reading": "Wáng Míng, nǐ zěnme yòu chídào le? Wǒ děng le nǐ èrshí fēnzhōng!"
+    },
+    {
+      "speaker": "b",
+      "text": "对不起！早上我找不到钥匙了。",
+      "reading": "Duìbuqǐ! Zǎoshang wǒ zhǎo bu dào yàoshi le."
+    },
+    {
+      "speaker": "a",
+      "text": "你总是找不到东西。你太粗心了！",
+      "reading": "Nǐ zǒngshì zhǎo bu dào dōngxi. Nǐ tài cūxīn le!"
+    },
+    {
+      "speaker": "b",
+      "text": "我知道。我妈妈也说我做事马虎。",
+      "reading": "Wǒ zhīdào. Wǒ māma yě shuō wǒ zuò shì mǎhu."
+    },
+    {
+      "speaker": "a",
+      "text": "你应该仔细一点儿。东西用完就放好。",
+      "reading": "Nǐ yīnggāi zǐxì yīdiǎnr. Dōngxi yòngwán jiù fànghǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我以后一定注意。",
+      "reading": "Hǎo, wǒ yǐhòu yīdìng zhùyì."
+    },
+    {
+      "speaker": "a",
+      "text": "还有，你总是不吃早饭，会生病的。",
+      "reading": "Hái yǒu, nǐ zǒngshì bù chī zǎofàn, huì shēngbìng de."
+    },
+    {
+      "speaker": "b",
+      "text": "早上我太懒了，不想起床。",
+      "reading": "Zǎoshang wǒ tài lǎn le, bù xiǎng qǐchuáng."
+    },
+    {
+      "speaker": "a",
+      "text": "那你晚上早点儿睡觉吧。",
+      "reading": "Nà nǐ wǎnshang zǎo diǎnr shuìjiào ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好！从明天开始，我不迟到了。",
+      "reading": "Hǎo! Cóng míngtiān kāishǐ, wǒ bù chídào le."
+    }
+  ]
+}

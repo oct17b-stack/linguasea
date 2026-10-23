@@ -1,0 +1,85 @@
+{
+  "id": "en-D13-05",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.witness",
+      "text": "witness",
+      "reading": "ˈwɪtnəs"
+    },
+    {
+      "id": "en.happen",
+      "text": "happen",
+      "reading": "ˈhæpən"
+    },
+    {
+      "id": "en.hit",
+      "text": "hit",
+      "reading": "hɪt"
+    },
+    {
+      "id": "en.crosswalk",
+      "text": "crosswalk",
+      "reading": "ˈkrɔːswɔːk"
+    },
+    {
+      "id": "en.motorcycle-taxi",
+      "text": "motorcycle taxi",
+      "reading": "ˈmoʊtərsaɪkəl ˌtæksi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Excuse me. Are you a witness? Did you see the accident?",
+      "reading": "ɪkˈskjuːz miː. ər juː ə ˈwɪtnəs? dɪd juː ˈsiː ði ˈæksɪdənt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I did. I was waiting at the crosswalk when it happened.",
+      "reading": "ˈjɛs, aɪ ˈdɪd. aɪ wʌz ˈweɪtɪŋ ət ðə ˈkrɔːswɔːk wɛn ɪt ˈhæpənd."
+    },
+    {
+      "speaker": "b",
+      "text": "What happened?",
+      "reading": "ˈwʌt ˈhæpənd?"
+    },
+    {
+      "speaker": "a",
+      "text": "A motorcycle taxi was going very fast, and it hit a car.",
+      "reading": "ə ˈmoʊtərsaɪkəl ˌtæksi wʌz ˈɡoʊɪŋ ˈvɛri ˈfæst, ənd ɪt ˈhɪt ə ˈkɑːr."
+    },
+    {
+      "speaker": "b",
+      "text": "Was the car moving?",
+      "reading": "wʌz ðə ˈkɑːr ˈmuːvɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it wasn't. It was waiting at the traffic light.",
+      "reading": "ˈnoʊ, ɪt ˈwʌzənt. ɪt wʌz ˈweɪtɪŋ ət ðə ˈtræfɪk ˌlaɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Was the light red?",
+      "reading": "wʌz ðə ˈlaɪt ˈrɛd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, it was. But the motorcycle didn't stop.",
+      "reading": "ˈjɛs, ɪt ˈwʌz. bʌt ðə ˈmoʊtərsaɪkəl ˈdɪdənt ˈstɑːp."
+    },
+    {
+      "speaker": "b",
+      "text": "Was anyone hurt?",
+      "reading": "wʌz ˈɛniwʌn ˈhɜːrt?"
+    },
+    {
+      "speaker": "a",
+      "text": "The driver hurt his arm, but his passenger was OK.",
+      "reading": "ðə ˈdraɪvər ˈhɜːrt hɪz ˈɑːrm, bʌt hɪz ˈpæsɪndʒər wʌz oʊˈkeɪ."
+    }
+  ]
+}

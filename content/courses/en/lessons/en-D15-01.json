@@ -1,0 +1,87 @@
+{
+  "id": "en-D15-01",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.book-a-table",
+      "kind": "phrase",
+      "text": "book a table",
+      "reading": "ˌbʊk ə ˈteɪbəl"
+    },
+    {
+      "id": "en.table-for-two",
+      "kind": "phrase",
+      "text": "table for two",
+      "reading": "ˌteɪbəl fər ˈtuː"
+    },
+    {
+      "id": "en.outdoor",
+      "text": "outdoor",
+      "reading": "ˈaʊtdɔːr"
+    },
+    {
+      "id": "en.prefer",
+      "text": "prefer",
+      "reading": "prɪˈfɜːr"
+    },
+    {
+      "id": "en.waiting-list",
+      "text": "waiting list",
+      "reading": "ˈweɪtɪŋ ˌlɪst"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello, Green Garden Restaurant.",
+      "reading": "həˈloʊ, ˈɡriːn ˈɡɑːrdən ˈrɛstərɑːnt."
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I'd like to book a table for tonight, please.",
+      "reading": "ˈhaɪ. aɪd ˈlaɪk tə ˈbʊk ə ˈteɪbəl fər təˈnaɪt, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. For how many people?",
+      "reading": "ˈʃʊr. fər ˈhaʊ ˈmɛni ˈpiːpəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "A table for two, at seven o'clock.",
+      "reading": "ə ˈteɪbəl fər ˈtuː, ət ˈsɛvən əˈklɑːk."
+    },
+    {
+      "speaker": "b",
+      "text": "Would you prefer a table inside or an outdoor table?",
+      "reading": "wʊd juː prɪˈfɜːr ə ˈteɪbəl ˌɪnˈsaɪd ɔːr ən ˈaʊtdɔːr ˈteɪbəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'd rather sit outside. It's cooler in the evening.",
+      "reading": "aɪd ˈræðər ˈsɪt ˌaʊtˈsaɪd. ɪts ˈkuːlər ɪn ði ˈiːvnɪŋ."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry. The outdoor tables are fully booked at seven.",
+      "reading": "aɪm ˈsɑːri. ði ˈaʊtdɔːr ˈteɪbəlz ər ˈfʊli ˈbʊkt ət ˈsɛvən."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no. What about eight o'clock?",
+      "reading": "ˈoʊ ˈnoʊ. ˈwʌt əˈbaʊt ˈeɪt əˈklɑːk?"
+    },
+    {
+      "speaker": "b",
+      "text": "There's one outdoor table at eight. Or I can put you on the waiting list for seven.",
+      "reading": "ðɛrz ˈwʌn ˈaʊtdɔːr ˈteɪbəl ət ˈeɪt. ɔːr aɪ kən ˈpʊt juː ɑːn ðə ˈweɪtɪŋ lɪst fər ˈsɛvən."
+    },
+    {
+      "speaker": "a",
+      "text": "I'd prefer the table at eight, please. My name is Nam.",
+      "reading": "aɪd prɪˈfɜːr ðə ˈteɪbəl ət ˈeɪt, ˈpliːz. maɪ ˈneɪm ɪz ˈnɑːm."
+    }
+  ]
+}

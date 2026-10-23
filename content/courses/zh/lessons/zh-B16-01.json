@@ -1,0 +1,60 @@
+{
+  "id": "zh-B16-01",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.bing",
+      "text": "病",
+      "reading": "bìng"
+    },
+    {
+      "id": "zh.kan-bing",
+      "text": "看病",
+      "reading": "kànbìng"
+    },
+    {
+      "id": "zh.dai-fu",
+      "text": "大夫",
+      "reading": "dàifu"
+    },
+    {
+      "id": "zh.bing-ren",
+      "text": "病人",
+      "reading": "bìngrén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你不舒服吗？",
+      "reading": "Xiǎonán, nǐ bù shūfu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我生病了，很不舒服。",
+      "reading": "Wǒ shēngbìng le, hěn bù shūfu."
+    },
+    {
+      "speaker": "b",
+      "text": "我们去看病吧！我认识一个大夫。",
+      "reading": "Wǒmen qù kànbìng ba! Wǒ rènshi yī ge dàifu."
+    },
+    {
+      "speaker": "a",
+      "text": "我的病不重，不用去医院。",
+      "reading": "Wǒ de bìng bù zhòng, bùyòng qù yīyuàn."
+    },
+    {
+      "speaker": "b",
+      "text": "不行！病人要听大夫的。",
+      "reading": "Bùxíng! Bìngrén yào tīng dàifu de."
+    },
+    {
+      "speaker": "a",
+      "text": "好吧，我们去。",
+      "reading": "Hǎo ba, wǒmen qù."
+    }
+  ]
+}

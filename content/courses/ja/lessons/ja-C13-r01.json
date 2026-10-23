@@ -1,0 +1,75 @@
+{
+  "id": "ja-C13-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kakutougi",
+      "text": "かくとうぎ",
+      "reading": "kakutōgi"
+    },
+    {
+      "id": "ja.dentou",
+      "text": "でんとう",
+      "reading": "dentō"
+    },
+    {
+      "id": "ja.reigi",
+      "text": "れいぎ",
+      "reading": "reigi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ムエタイは、タイの でんとうの かくとうぎです。",
+        "reading": "Muetai wa, Tai no dentō no kakutōgi desu."
+      },
+      {
+        "text": "手と 足、それから ひざも つかいます。",
+        "reading": "Te to ashi, sorekara hiza mo tsukaimasu."
+      },
+      {
+        "text": "タイでは とても 人気が あって、テレビでも よく しあいを みる ことが できます。",
+        "reading": "Tai de wa totemo ninki ga atte, terebi de mo yoku shiai o miru koto ga dekimasu."
+      }
+    ],
+    [
+      {
+        "text": "しあいの まえに、せんしゅは でんとうの おどりを おどります。",
+        "reading": "Shiai no mae ni, senshu wa dentō no odori o odorimasu."
+      },
+      {
+        "text": "これは、ムエタイの れいぎの ひとつです。",
+        "reading": "Kore wa, muetai no reigi no hitotsu desu."
+      },
+      {
+        "text": "ムエタイの せんしゅは、れいぎを まもります。",
+        "reading": "Muetai no senshu wa, reigi o mamorimasu."
+      }
+    ],
+    [
+      {
+        "text": "さいきんは、にほんにも ムエタイの ジムが たくさん あります。",
+        "reading": "Saikin wa, Nihon ni mo muetai no jimu ga takusan arimasu."
+      },
+      {
+        "text": "女の ひとにも 人気が ありますよ。",
+        "reading": "Onna no hito ni mo ninki ga arimasu yo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

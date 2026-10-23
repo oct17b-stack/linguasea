@@ -1,0 +1,80 @@
+{
+  "id": "zh-C11-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.guan-zhong",
+      "text": "观众",
+      "reading": "guānzhòng"
+    },
+    {
+      "id": "zh.ji-dong",
+      "text": "激动",
+      "reading": "jīdòng"
+    },
+    {
+      "id": "zh.jin-qiu",
+      "kind": "phrase",
+      "text": "进球",
+      "reading": "jìn qiú"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "今天下午，我第一次在北京打篮球比赛。",
+        "reading": "Jīntiān xiàwǔ, wǒ dì-yī cì zài Běijīng dǎ lánqiú bǐsài."
+      },
+      {
+        "text": "比赛在学校体育馆，观众很多，王明也来了。",
+        "reading": "Bǐsài zài xuéxiào tǐyùguǎn, guānzhòng hěn duō, Wáng Míng yě lái le."
+      },
+      {
+        "text": "我很激动，可是也有点儿怕。",
+        "reading": "Wǒ hěn jīdòng, kěshì yě yǒudiǎnr pà."
+      }
+    ],
+    [
+      {
+        "text": "比赛开始以后，我跑了很多，可是没进球。",
+        "reading": "Bǐsài kāishǐ yǐhòu, wǒ pǎo le hěn duō, kěshì méi jìn qiú."
+      },
+      {
+        "text": "最后两分钟，教练说：“小南，加油！”",
+        "reading": "Zuìhòu liǎng fēnzhōng, jiàoliàn shuō: \"Xiǎonán, jiāyóu!\""
+      },
+      {
+        "text": "最后一分钟，我进球了！",
+        "reading": "Zuìhòu yī fēnzhōng, wǒ jìn qiú le!"
+      },
+      {
+        "text": "王明在观众里大声说：“小南，太棒了！”",
+        "reading": "Wáng Míng zài guānzhòng lǐ dàshēng shuō: \"Xiǎonán, tài bàng le!\""
+      }
+    ],
+    [
+      {
+        "text": "我们队三十二比三十赢了。",
+        "reading": "Wǒmen duì sānshí'èr bǐ sānshí yíng le."
+      },
+      {
+        "text": "今天我真高兴！",
+        "reading": "Jīntiān wǒ zhēn gāoxìng!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

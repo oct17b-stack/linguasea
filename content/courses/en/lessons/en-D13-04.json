@@ -1,0 +1,87 @@
+{
+  "id": "en-D13-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.ambulance",
+      "text": "ambulance",
+      "reading": "ˈæmbjələns"
+    },
+    {
+      "id": "en.emergency",
+      "text": "emergency",
+      "reading": "ɪˈmɜːrdʒənsi"
+    },
+    {
+      "id": "en.first-aid",
+      "kind": "phrase",
+      "text": "first aid",
+      "reading": "ˌfɜːrst ˈeɪd"
+    },
+    {
+      "id": "en.breathe",
+      "text": "breathe",
+      "reading": "briːð"
+    },
+    {
+      "id": "en.stay-calm",
+      "kind": "phrase",
+      "text": "stay calm",
+      "reading": "ˌsteɪ ˈkɑːm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Emergency. What's the problem?",
+      "reading": "ɪˈmɜːrdʒənsi. ˈwʌts ðə ˈprɑːbləm?"
+    },
+    {
+      "speaker": "a",
+      "text": "A man fell off his motorcycle. I'm on Silom Road, in front of the bank.",
+      "reading": "ə ˈmæn ˈfɛl ˈɔːf hɪz ˈmoʊtərsaɪkəl. aɪm ɑːn ˈsiːlɑːm ˈroʊd, ɪn ˈfrʌnt əv ðə ˈbæŋk."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. I'm sending an ambulance now. Is he breathing?",
+      "reading": "oʊˈkeɪ. aɪm ˈsɛndɪŋ ən ˈæmbjələns ˈnaʊ. ɪz hiː ˈbriːðɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, he's breathing, but he isn't moving.",
+      "reading": "ˈjɛs, hiːz ˈbriːðɪŋ, bʌt hiː ˈɪzənt ˈmuːvɪŋ."
+    },
+    {
+      "speaker": "b",
+      "text": "Make sure he doesn't move. He might hurt his neck.",
+      "reading": "ˈmeɪk ˈʃʊr hiː ˈdʌzənt ˈmuːv. hiː maɪt ˈhɜːrt hɪz ˈnɛk."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Some people want to take off his helmet.",
+      "reading": "oʊˈkeɪ. sʌm ˈpiːpəl ˈwɑːnt tə ˈteɪk ˈɔːf hɪz ˈhɛlmɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "No! Make sure no one takes off his helmet.",
+      "reading": "ˈnoʊ! ˈmeɪk ˈʃʊr ˈnoʊ ˈwʌn ˈteɪks ˈɔːf hɪz ˈhɛlmɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Should I give him first aid?",
+      "reading": "oʊˈkeɪ. ʃʊd aɪ ˈɡɪv hɪm ˈfɜːrst ˈeɪd?"
+    },
+    {
+      "speaker": "b",
+      "text": "Only if you know how. Just stay calm, and make sure he stays warm.",
+      "reading": "ˈoʊnli ɪf juː ˈnoʊ ˈhaʊ. dʒʌst ˈsteɪ ˈkɑːm, ənd ˈmeɪk ˈʃʊr hiː ˈsteɪz ˈwɔːrm."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. I'll stay with him. Please hurry!",
+      "reading": "oʊˈkeɪ. aɪl ˈsteɪ wɪð hɪm. ˈpliːz ˈhɜːri!"
+    }
+  ]
+}

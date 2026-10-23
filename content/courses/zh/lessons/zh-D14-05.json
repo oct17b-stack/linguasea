@@ -1,0 +1,86 @@
+{
+  "id": "zh-D14-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.yi-wei",
+      "text": "以为",
+      "reading": "yǐwéi"
+    },
+    {
+      "id": "zh.wu-liao",
+      "text": "无聊",
+      "reading": "wúliáo"
+    },
+    {
+      "id": "zh.jing-cai",
+      "text": "精彩",
+      "reading": "jīngcǎi"
+    },
+    {
+      "id": "zh.mei-xiang-dao",
+      "kind": "phrase",
+      "text": "没想到",
+      "reading": "méi xiǎngdào"
+    },
+    {
+      "id": "zh.kan-fa",
+      "text": "看法",
+      "reading": "kànfǎ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你觉得这部电影怎么样？",
+      "reading": "Xiǎonán, nǐ juéde zhè bù diànyǐng zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "太精彩了！我以为会很无聊，没想到这么好看。",
+      "reading": "Tài jīngcǎi le! Wǒ yǐwéi huì hěn wúliáo, méi xiǎngdào zhème hǎokàn."
+    },
+    {
+      "speaker": "b",
+      "text": "你为什么以为会无聊？",
+      "reading": "Nǐ wèi shénme yǐwéi huì wúliáo?"
+    },
+    {
+      "speaker": "a",
+      "text": "我以为是一部历史电影，我怕听不懂。",
+      "reading": "Wǒ yǐwéi shì yī bù lìshǐ diànyǐng, wǒ pà tīng bu dǒng."
+    },
+    {
+      "speaker": "b",
+      "text": "我还以为你会哭呢！",
+      "reading": "Wǒ hái yǐwéi nǐ huì kū ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "我没哭，可是最后我也很想哭。",
+      "reading": "Wǒ méi kū, kěshì zuìhòu wǒ yě hěn xiǎng kū."
+    },
+    {
+      "speaker": "b",
+      "text": "你的看法呢？这部电影哪儿最好？",
+      "reading": "Nǐ de kànfǎ ne? Zhè bù diànyǐng nǎr zuì hǎo?"
+    },
+    {
+      "speaker": "a",
+      "text": "我觉得主角的表演特别好，音乐也很美。",
+      "reading": "Wǒ juéde zhǔjué de biǎoyǎn tèbié hǎo, yīnyuè yě hěn měi."
+    },
+    {
+      "speaker": "b",
+      "text": "我的看法跟你一样。下次我们还一起看电影吧！",
+      "reading": "Wǒ de kànfǎ gēn nǐ yīyàng. Xiàcì wǒmen hái yīqǐ kàn diànyǐng ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！不过下次我来选电影。",
+      "reading": "Hǎo a! Bùguò xiàcì wǒ lái xuǎn diànyǐng."
+    }
+  ]
+}

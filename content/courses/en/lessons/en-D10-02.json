@@ -1,0 +1,87 @@
+{
+  "id": "en-D10-02",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.stress",
+      "text": "stress",
+      "reading": "strɛs"
+    },
+    {
+      "id": "en.gain-weight",
+      "kind": "phrase",
+      "text": "gain weight",
+      "reading": "ˌɡeɪn ˈweɪt"
+    },
+    {
+      "id": "en.soft-drink",
+      "kind": "phrase",
+      "text": "soft drink",
+      "reading": "ˌsɔːft ˈdrɪŋk"
+    },
+    {
+      "id": "en.heart-disease",
+      "text": "heart disease",
+      "reading": "ˈhɑːrt dɪˌziːz"
+    },
+    {
+      "id": "en.overweight",
+      "text": "overweight",
+      "reading": "ˌoʊvərˈweɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, another soft drink? That's your third today!",
+      "reading": "ˈɛmə, əˈnʌðər ˈsɔːft ˈdrɪŋk? ðæts jʊr ˈθɜːrd təˈdeɪ!"
+    },
+    {
+      "speaker": "c",
+      "text": "I know. What will happen if I drink three a day?",
+      "reading": "aɪ ˈnoʊ. ˈwʌt wɪl ˈhæpən ɪf aɪ ˈdrɪŋk ˈθriː ə ˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "They have a lot of sugar. If you drink three a day, you'll gain weight.",
+      "reading": "ðeɪ ˈhæv ə ˈlɑːt əv ˈʃʊɡər. ɪf juː ˈdrɪŋk ˈθriː ə ˈdeɪ, juːl ˈɡeɪn ˈweɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "Really? Will I become overweight?",
+      "reading": "ˈriːli? wɪl aɪ bɪˈkʌm ˌoʊvərˈweɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Maybe. And if you're overweight for a long time, you might get heart disease.",
+      "reading": "ˈmeɪbi. ənd ɪf jʊr ˌoʊvərˈweɪt fər ə ˈlɔːŋ ˈtaɪm, juː maɪt ˈɡɛt ˈhɑːrt dɪˌziːz."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! What will happen if I stop?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwʌt wɪl ˈhæpən ɪf aɪ ˈstɑːp?"
+    },
+    {
+      "speaker": "a",
+      "text": "You'll feel better. But why do you drink so many?",
+      "reading": "juːl ˈfiːl ˈbɛtər. bʌt ˈwaɪ duː juː ˈdrɪŋk ˈsoʊ ˈmɛni?"
+    },
+    {
+      "speaker": "c",
+      "text": "Stress! I have three exams next week.",
+      "reading": "ˈstrɛs! aɪ ˈhæv ˈθriː ɪɡˈzæmz ˈnɛkst ˈwiːk."
+    },
+    {
+      "speaker": "a",
+      "text": "Then what will you do if you can't sleep? Drink more soda?",
+      "reading": "ˈðɛn ˈwʌt wɪl juː ˈduː ɪf juː ˈkænt ˈsliːp? ˈdrɪŋk ˈmɔːr ˈsoʊdə?"
+    },
+    {
+      "speaker": "c",
+      "text": "No! I'll drink water and go to bed early. I promise.",
+      "reading": "ˈnoʊ! aɪl ˈdrɪŋk ˈwɔːtər ənd ˈɡoʊ tə ˈbɛd ˈɜːrli. aɪ ˈprɑːmɪs."
+    }
+  ]
+}
