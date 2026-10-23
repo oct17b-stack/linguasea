@@ -1,0 +1,70 @@
+{
+  "id": "zh-B1-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.qian-tian",
+      "text": "前天",
+      "reading": "qiántiān"
+    },
+    {
+      "id": "zh.tian",
+      "text": "天",
+      "reading": "tiān"
+    },
+    {
+      "id": "zh.qing-jia",
+      "text": "请假",
+      "reading": "qǐngjià"
+    },
+    {
+      "id": "zh.ri",
+      "text": "日",
+      "reading": "rì"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南，新年快乐！",
+        "reading": "Xiǎonán, xīnnián kuàilè!"
+      },
+      {
+        "text": "我们后天放假，放假七天。",
+        "reading": "Wǒmen hòutiān fàngjià, fàngjià qī tiān."
+      },
+      {
+        "text": "前天我爸爸妈妈说，他们想来曼谷。",
+        "reading": "Qiántiān wǒ bàba māma shuō, tāmen xiǎng lái Màngǔ."
+      },
+      {
+        "text": "明天他们来，我请假。",
+        "reading": "Míngtiān tāmen lái, wǒ qǐngjià."
+      }
+    ],
+    [
+      {
+        "text": "你们放假几天？",
+        "reading": "Nǐmen fàngjià jǐ tiān?"
+      },
+      {
+        "text": "一月一日来我家吧，他们想认识你！",
+        "reading": "Yī yuè yī rì lái wǒ jiā ba, tāmen xiǎng rènshi nǐ!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}
