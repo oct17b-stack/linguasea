@@ -11,7 +11,7 @@
           "id": "ja-A1",
           "title_th": "ทักทายและคำสุภาพ",
           "goal_th": "ทักทายตามช่วงเวลา ขอบคุณ ขอโทษ ถามว่าสบายดีไหม บอกลา และพูดคำทักทายตอนออกจากบ้าน ก่อนนอน และตอนเลิกงานได้อย่างสุภาพ",
-          "scenario": "Nam meets Yamada-sensei again after a long break and asks how he is, then uses the greetings for leaving home, going to bed and leaving work before others.",
+          "scenario": "B is Yamada-sensei, whom Nam meets again after a long break. Nam must greet him for the time of day, ask how he is, thank him, apologise and say goodbye politely. Then B is the manager of the restaurant where she works, and Nam must use the right phrases for leaving work before others and saying good night.",
           "lessons": [
             {
               "id": "ja-A1-05",
@@ -93,7 +93,7 @@
           "id": "ja-A2",
           "title_th": "ฮิรางานะ 1: あ か さ た な",
           "goal_th": "อ่านและฟังฮิรางานะแถว あ か さ た な ได้ครบ 25 ตัว และอ่านคำที่ใช้บ่อย เช่น ชื่ออาหารและของใช้ ได้เอง",
-          "scenario": "Nam reads simple hiragana words — seafood and snacks on a menu, things around her — aloud to Yuki, who checks her reading.",
+          "scenario": "B is Yamada-sensei, checking Nam's hiragana in class. Nam must read simple hiragana words aloud — seafood and snacks on a menu (たこ, いか, すし, おかし) and things around her (かさ, いす, くつ) — and thank him or say sorry when he corrects her.",
           "lessons": [
             {
               "id": "ja-A2-05",
@@ -175,7 +175,7 @@
           "id": "ja-A3",
           "title_th": "แนะนำตัว",
           "goal_th": "บอกชื่อ สัญชาติ ภาษาที่พูดได้ และอาชีพ ถามชื่อและที่มาของอีกฝ่าย และแนะนำคนอื่นให้รู้จักได้",
-          "scenario": "At a small welcome party Nam introduces herself — name, country, languages — then introduces Yuki to another guest and asks what the guests do.",
+          "scenario": "B is a Japanese guest at a small welcome party. Nam must introduce herself (her name, that she is Thai, from Bangkok and a university student, and which languages she speaks), ask his name and whether he speaks English or Thai, then introduce her new friend Yuki to him and ask what he does.",
           "lessons": [
             {
               "id": "ja-A3-05",
@@ -263,7 +263,7 @@
           "id": "ja-A4",
           "title_th": "ฮิรางานะ 2: は ま や ら わ",
           "goal_th": "อ่านฮิรางานะพื้นฐานได้ครบ 46 ตัว รวม を และ ん และอ่านชื่ออาหารญี่ปุ่นกับคำในเมืองได้เอง",
-          "scenario": "Walking around town with Yuki, Nam reads Japanese dish names on a menu and words on signs.",
+          "scenario": "B is Yuki, eating at a Japanese restaurant in Bangkok with Nam. Nam must read the dishes on the hiragana menu aloud (さしみ, やきとり, すきやき, もち), ask what one dish is and order with おねがいします.",
           "lessons": [
             {
               "id": "ja-A4-05",
@@ -345,7 +345,7 @@
           "id": "ja-A5",
           "title_th": "ตัวเลขและอายุ",
           "goal_th": "นับเลข 1–99 บอกและถามอายุ นับสิ่งของ 1–10 ชิ้น และบอกหมายเลขกับชั้นปีที่เรียนได้",
-          "scenario": "At a fruit stall Nam buys several pieces of fruit, then tells a new classmate her age, her student number and her year at university.",
+          "scenario": "B is a fruit seller at a market stall, and later Yamada-sensei taking the class register. Nam must ask for fruit and say how many she wants (one to ten), count along with the seller, and then tell the teacher her age, her year at university and her number on the class list.",
           "lessons": [
             {
               "id": "ja-A5-05",
@@ -427,7 +427,7 @@
           "id": "ja-A6",
           "title_th": "กินและดื่ม",
           "goal_th": "ถามและบอกว่าจะกินหรือดื่มอะไร สั่งเครื่องดื่มร้อนหรือเย็น บอกรสชาติ และพูดคำมารยาทบนโต๊ะอาหารได้",
-          "scenario": "Nam and Yuki have lunch at a small restaurant: they choose drinks, hot or cold, talk about fruit and tastes, and use table manners.",
+          "scenario": "B is Yuki, having lunch with Nam at a small restaurant. Nam must say what she will eat and drink, order cold drinks, say which food and fruit she likes and how things taste (sweet, spicy, salty), and say いただきます and ごちそうさまでした.",
           "lessons": [
             {
               "id": "ja-A6-05",
@@ -509,7 +509,7 @@
           "id": "ja-A7",
           "title_th": "สี",
           "goal_th": "ถามและบอกสีของสิ่งต่าง ๆ ใช้คำคุณศัพท์สีขยายคำนาม และพูดถึงสีของธงชาติและไฟจราจรได้",
-          "scenario": "Nam and Yuki look at fruit, flags and a traffic light and ask each other what colour things are and which colours they like.",
+          "scenario": "B is Yuki. Nam must ask and say what colour things are — fruit, shoes, the Thai and Japanese flags, a traffic light — say which colours she likes, and say what the two flags have in common.",
           "lessons": [
             {
               "id": "ja-A7-01",
@@ -739,7 +739,7 @@
           "id": "ja-A8",
           "title_th": "สัตว์",
           "goal_th": "เรียกชื่อสัตว์ที่พบบ่อย บอกว่าชอบสัตว์อะไร และบรรยายสัตว์ด้วยคำง่าย ๆ อย่าง น่ารัก แข็งแรง ว่ายน้ำ หรือบินได้",
-          "scenario": "Nam and Yuki talk about pets, farm animals and wild animals: which ones they like, which are cute or strong, and which live in Japan or Thailand.",
+          "scenario": "B is Yuki. Nam must say which animals she likes or dislikes (pets, farm, zoo and sea animals), describe them as cute, strong or weak, say whether they swim or fly, and ask which animals are Japanese.",
           "lessons": [
             {
               "id": "ja-A8-01",
@@ -969,7 +969,7 @@
           "id": "ja-A9",
           "title_th": "อากาศและฤดูกาล",
           "goal_th": "บอกสภาพอากาศ ร้อน หนาว ฝนตก บอกฤดูทั้งสี่ และเปรียบอากาศของญี่ปุ่นกับไทยแบบง่าย ๆ ได้",
-          "scenario": "Yuki asks Nam about the weather in Bangkok; they compare hot Thai days and sudden storms with Japanese winter, and talk about flowers of each season.",
+          "scenario": "B is Yuki, visiting Bangkok. Nam must talk about today's and tomorrow's weather (sunny, rain, a storm), say how hot it is and give the temperature, compare Thai weather with the Japanese seasons, and ask which season and seasonal flowers Yuki likes.",
           "lessons": [
             {
               "id": "ja-A9-01",
@@ -1175,7 +1175,7 @@
           "id": "ja-A10",
           "title_th": "บรรยายลักษณะคน",
           "goal_th": "บอกว่าใครเป็นผู้ชาย ผู้หญิง หรือเด็ก และบรรยายนิสัยกับหน้าตาของคนด้วยคำคุณศัพท์ง่าย ๆ ได้",
-          "scenario": "Nam and Yuki talk about people they know — classmates, Yamada-sensei and a famous manga artist — and what they are like.",
+          "scenario": "B is Yuki, looking at photos with Nam. Nam must say who the people are (Yamada-sensei and his child, men, women, children), describe what they are like and how they look (kind, funny, serious, young, thin, short hair, glasses), and ask Yuki about her own teacher and famous Japanese manga artists.",
           "lessons": [
             {
               "id": "ja-A10-01",
@@ -1393,7 +1393,7 @@
           "id": "ja-A11",
           "title_th": "ชอบและไม่ชอบ",
           "goal_th": "บอกว่าชอบมาก ไม่ค่อยชอบ หรือไม่ชอบอะไร ถามว่าอีกฝ่ายชอบอะไรเพราะอะไร และพูดถึงดนตรี หนัง และกีฬาที่ชอบได้",
-          "scenario": "Nam and Yuki find out what each other likes and dislikes — music, films, sports and food — and why.",
+          "scenario": "B is Yuki. Nam must say what she loves, likes, doesn't like much or hates — animals, music, films, sports and food — ask what Yuki likes, and give reasons with どうして and から.",
           "lessons": [
             {
               "id": "ja-A11-01",
@@ -1587,7 +1587,7 @@
           "id": "ja-A12",
           "title_th": "ความรู้สึกและการตอบรับ",
           "goal_th": "บอกว่าสนุก เบื่อ ยุ่ง หรือว่าง บอกความรู้สึกด้วยคำเลียนเสียง ตอบรับระหว่างคุยด้วยคำอย่าง ほんとう なるほど และตอบคำชมแบบถ่อมตัวได้",
-          "scenario": "Yuki tells Nam about her busy, surprising day; Nam reacts naturally (ほんとうですか, なるほど), says how she feels and modestly answers Yuki's compliment on her Japanese.",
+          "scenario": "B is Yuki, who tells Nam about her busy, surprising day. Nam must react naturally (ほんとうですか, へえ, なるほど, たいへんですね), say how she feels (tired, hungry, bored or having fun) and answer Yuki's compliment on her Japanese modestly (まだまだです).",
           "lessons": [
             {
               "id": "ja-A12-01",
@@ -1805,7 +1805,7 @@
           "id": "ja-A13",
           "title_th": "ธรรมชาติและกิจกรรมกลางแจ้ง",
           "goal_th": "เรียกชื่อสิ่งต่าง ๆ ในธรรมชาติ บอกว่าชอบไปทะเลหรือภูเขา และพูดถึงกิจกรรมกลางแจ้งง่าย ๆ อย่างเดินเล่น ว่ายน้ำ และถ่ายรูปได้",
-          "scenario": "Nam and Yuki plan a day out of the city — the sea or the mountains — and talk about what they can see there and what they like to do outdoors.",
+          "scenario": "B is Yuki, talking with Nam about a day out in nature. Nam must say whether she likes the sea or the mountains, name what can be seen there (islands, waterfalls, the sunset, mushrooms), say what she likes doing outdoors (walking, swimming, fishing, taking photos) and ask about Yuki's favourite places.",
           "lessons": [
             {
               "id": "ja-A13-01",
@@ -2005,7 +2005,7 @@
           "id": "ja-A14",
           "title_th": "ในห้องเรียน",
           "goal_th": "พูดประโยคที่จำเป็นในห้องเรียน เช่น ไม่เข้าใจ ขอให้พูดอีกครั้งหรือช้า ๆ ถามความหมายของคำ และเรียกชื่ออุปกรณ์การเรียนได้",
-          "scenario": "In Yamada-sensei's Japanese class Nam does not understand a word, asks him to repeat it slowly and asks how to say a Thai word in Japanese.",
+          "scenario": "B is Yamada-sensei in Nam's Japanese class. Nam must say whether she understands, ask him to say a word again slowly, ask what it means, explain the meaning of a Thai word, ask for a pencil and say which homework questions were difficult.",
           "lessons": [
             {
               "id": "ja-A14-01",
@@ -2205,7 +2205,7 @@
           "id": "ja-A15",
           "title_th": "วัฒนธรรมญี่ปุ่นเบื้องต้น",
           "goal_th": "เรียกชื่อสิ่งของ สถานที่ และเทศกาลทางวัฒนธรรมญี่ปุ่นที่รู้จักกันดี บอกว่าชอบหรือสนใจอะไร และรู้มารยาทพื้นฐานอย่างการถอดรองเท้าและการเข้าแถวได้",
-          "scenario": "Yuki tells Nam about Japanese culture — public baths, castles and torii gates, summer festivals, sumo and ninja — and asks what Nam likes or finds interesting.",
+          "scenario": "B is Yuki, telling Nam about Japanese culture. Nam must say what she likes or finds interesting — public baths, castles and torii gates, lucky charms, summer festivals, sumo and ninja — and compare manners such as taking off shoes and queueing quietly with Thailand.",
           "lessons": [
             {
               "id": "ja-A15-01",
@@ -2405,7 +2405,7 @@
           "id": "ja-A16",
           "title_th": "คำอวยพรและคำพูดตามมารยาท",
           "goal_th": "แสดงความยินดี อวยพรปีใหม่ ให้กำลังใจ อวยพรให้หายป่วย และพูดคำสุภาพตอนไปเยี่ยมบ้านคนญี่ปุ่น รับของขวัญ หรือปฏิเสธได้",
-          "scenario": "Nam visits Yuki's family in Japan at New Year: she greets them at the door, wishes them a happy New Year, receives a small gift, and later wishes Yuki good luck.",
+          "scenario": "B is Yuki's mother, welcoming Nam to the family's home in Japan at New Year. Nam must call at the door and greet her politely (ごめんください, おじゃまします), wish her a happy New Year, give her a small present modestly, politely decline a drink and say goodbye properly (おじゃましました).",
           "lessons": [
             {
               "id": "ja-A16-01",
@@ -2608,7 +2608,7 @@
           "id": "ja-B1",
           "title_th": "ฮิรางานะ 3: เสียงขุ่น ตัวเล็ก และเสียงยาว",
           "goal_th": "อ่านฮิรางานะได้ครบทุกแบบ ทั้ง ゛ ゜ ตัวเล็ก っ ゃ ゅ ょ และเสียงสั้น-ยาว และอ่านชื่อเมืองกับข้อความสั้น ๆ ที่เขียนด้วยฮิรางานะได้",
-          "scenario": "Nam reads a hiragana postcard and Japanese city names aloud with Yuki, paying attention to っ, small ゃゅょ and long vowels.",
+          "scenario": "B is Yuki, who has sent Nam a hiragana postcard from Kyoto. Nam must read the postcard and Japanese city names aloud (とうきょう, きょうと, ほっかいどう), getting voiced sounds, っ, small ゃゅょ and long vowels right, and tell Yuki what she reads in Japanese.",
           "lessons": [
             {
               "id": "ja-B1-05",
@@ -2728,7 +2728,7 @@
           "id": "ja-B2",
           "title_th": "คาตากานะ",
           "goal_th": "อ่านคาตากานะได้ครบ 46 ตัว แยกตัวที่หน้าตาคล้ายกันได้ อ่านคำยืมและชื่อประเทศ และเขียนชื่อสถานที่และอาหารไทยด้วยคาตากานะได้",
-          "scenario": "Nam reads country names and a festival poster in katakana and shows Yuki how Thai places and dishes are written in katakana.",
+          "scenario": "B is Yuki. Nam must read katakana aloud — country names and a poster for a Thai festival in Tokyo — say which countries her friends come from, and show Yuki how Thai places and dishes are written in katakana (バンコク, チェンマイ, トムヤムクン).",
           "lessons": [
             {
               "id": "ja-B2-05",
@@ -2836,7 +2836,7 @@
           "id": "ja-B3",
           "title_th": "เวลา วัน และวันที่",
           "goal_th": "ถามและบอกเวลา บอกวันในสัปดาห์ วันที่ วันเกิด และพูดถึงเมื่อวาน วันนี้ พรุ่งนี้ได้",
-          "scenario": "Yuki and Nam compare their timetables for the week, talk about yesterday and the day after tomorrow, and fix a date to meet.",
+          "scenario": "B is Yuki. Nam must tell the time, say when her classes start and end and on which days, give her birthday, talk about yesterday and the day after tomorrow, and fix a date to meet.",
           "lessons": [
             {
               "id": "ja-B3-05",
@@ -2944,7 +2944,7 @@
           "id": "ja-B4",
           "title_th": "ซื้อของและราคา",
           "goal_th": "ถามราคา อ่านราคาเป็นเยน ชี้ของที่ต้องการด้วย その あの どの ถามว่าร้านมีของไหม และจ่ายเงินด้วยเงินสดหรือบัตรได้",
-          "scenario": "Nam shops for a bag: she points at bags near and far, asks about other colours and prices, and pays by card or cash.",
+          "scenario": "B is a shop assistant at a bag shop. Nam must point at bags near and far (この, その, あの), ask the prices and whether there are other colours, say when something is a bit expensive, choose one and pay by card or cash.",
           "lessons": [
             {
               "id": "ja-B4-05",
@@ -3058,7 +3058,7 @@
           "id": "ja-B5",
           "title_th": "สถานที่และการเดินทาง",
           "goal_th": "ถามว่าสถานที่อยู่ที่ไหน บอกตำแหน่งและทิศทาง บอกว่าเดินทางด้วยอะไร และขึ้นลงหรือเปลี่ยนรถไฟได้",
-          "scenario": "Nam asks a passer-by the way to a park and a library and how to get there by train: which platform, where to change and where to get off.",
+          "scenario": "B is a passer-by, and later a station attendant. Nam must ask where places are (a park, a library, the station), understand directions (straight on, left, right, next to, in front of, near, far), and ask which platform to use, where to change trains and where to get off.",
           "lessons": [
             {
               "id": "ja-B5-05",
@@ -3172,7 +3172,7 @@
           "id": "ja-B6",
           "title_th": "กิจวัตรประจำวันและครอบครัว",
           "goal_th": "เล่ากิจวัตรประจำวันพร้อมเวลาและความถี่ แนะนำครอบครัวรวมทั้งพี่น้อง และถามถึงครอบครัวของเพื่อนได้",
-          "scenario": "Yuki asks Nam about her daily routine and her family in Bangkok — her parents and her younger sister Fah — and Nam asks about Yuki's brother.",
+          "scenario": "B is Yuki. Nam must describe her daily routine (when she gets up and goes to bed, her Saturday job at a restaurant, how often she does things), introduce her family in Bangkok — her parents, both teachers, and her younger sister Fah — and ask about Yuki's older brother.",
           "lessons": [
             {
               "id": "ja-B6-05",
@@ -3292,7 +3292,7 @@
           "id": "ja-B7",
           "title_th": "เสื้อผ้าและการแต่งตัว",
           "goal_th": "เรียกชื่อเสื้อผ้า บอกว่าใส่อะไรด้วยกริยาที่ถูกต้อง ขอขนาดที่ใหญ่หรือเล็กลงและสีอื่นตอนซื้อเสื้อผ้า และลองใส่ได้",
-          "scenario": "Before a winter trip to Hokkaido, Nam shops for a warm jacket: she asks for another colour and a bigger size, tries it on and decides.",
+          "scenario": "B is a shop assistant at a clothes shop. Before her winter trip to Hokkaido, Nam must ask for a warm coat, ask for another colour and a slightly bigger size (M or L), try it on in the fitting room and decide which one to buy.",
           "lessons": [
             {
               "id": "ja-B7-01",
@@ -3530,7 +3530,7 @@
           "id": "ja-B8",
           "title_th": "บ้านและห้อง",
           "goal_th": "บอกว่าบ้านมีห้องอะไรบ้าง บอกตำแหน่งของสิ่งของด้วย 上 下 中 บอกว่ามีใครหรืออะไรอยู่ที่ไหน และอธิบายห้องของตัวเองได้",
-          "scenario": "Yuki visits Nam's family home in Bangkok; Nam shows her the rooms and says where things and the family's pet are.",
+          "scenario": "B is Yuki, visiting Nam's family home in Bangkok for the first time. Nam must show her the rooms and the garden, say what is in each room and where things are (on, under, behind), describe her own room and say where the family's cat is.",
           "lessons": [
             {
               "id": "ja-B8-01",
@@ -3777,7 +3777,7 @@
           "id": "ja-B9",
           "title_th": "ร้านสะดวกซื้อ",
           "goal_th": "ซื้อของกินที่ร้านสะดวกซื้อ ตอบคำถามของพนักงาน เช่น อุ่นไหม รับช้อนหรือตะเกียบไหม บอกว่าอยากได้อะไร และนับจำนวนด้วยลักษณนาม こ ほん まい ได้",
-          "scenario": "At a convenience store Nam buys lunch and drinks: the clerk asks whether to heat the bento and whether she needs chopsticks or a spoon, and Nam pays.",
+          "scenario": "B is a convenience-store clerk. Nam must find what she wants for lunch (a bento, onigiri, bread, drinks), say how many with the right counters (こ, ほん, まい), answer whether to heat the bento and whether she needs chopsticks or a spoon, and pay.",
           "lessons": [
             {
               "id": "ja-B9-01",
@@ -4021,7 +4021,7 @@
           "id": "ja-B10",
           "title_th": "ร้านกาแฟและร้านอาหาร",
           "goal_th": "บอกจำนวนคนตอนเข้าร้าน สั่งอาหารและเครื่องดื่ม ขอช้อนส้อมหรือของเล็ก ๆ เพิ่ม และขอเช็กบิลได้",
-          "scenario": "Nam and Yuki eat out: they say how many they are, order coffee and a lunch set, ask for a fork and napkins, and pay together.",
+          "scenario": "B is a waiter at a café where Nam is eating with Yuki. Nam must say how many they are, ask for the menu, order coffee and a lunch set, ask for a fork and napkins, and ask for the bill so they can pay together.",
           "lessons": [
             {
               "id": "ja-B10-01",
@@ -4265,7 +4265,7 @@
           "id": "ja-B11",
           "title_th": "โทรศัพท์และข้อความ",
           "goal_th": "รับและโทรศัพท์แบบง่าย บอกเบอร์โทรศัพท์ ส่งข้อความหรือรูปภาพ บอกว่าแบตหมดหรือเน็ตไม่ติด และนัดเวลาโทรหากันได้",
-          "scenario": "Nam phones Yuki's family in Japan: she says hello, asks for Yuki, leaves her number, and they agree on a time for a video call with the time difference in mind.",
+          "scenario": "B is Yuki's mother answering the phone at the Tanaka home in Japan, and later Yuki herself. Nam must say who she is, ask for Yuki, say she will call back later and give her mobile number digit by digit; then she and Yuki agree on a time for a video call, keeping the two-hour time difference in mind.",
           "lessons": [
             {
               "id": "ja-B11-01",
@@ -4485,7 +4485,7 @@
           "id": "ja-B12",
           "title_th": "ร่างกายและสุขภาพ",
           "goal_th": "เรียกชื่อส่วนต่าง ๆ ของร่างกาย บอกว่าเจ็บตรงไหน เป็นหวัดหรือแพ้อะไร ซื้อยาที่ร้านขายยา และบอกว่าจะพักผ่อนได้",
-          "scenario": "Nam feels unwell before class; she tells Yuki where it hurts, and they go to a pharmacy for cold medicine, a mask and plasters.",
+          "scenario": "B is Yuki, and then a pharmacist. Nam must say she feels unwell and where it hurts, say she has a cold and keeps sneezing, ask the pharmacist for cold medicine and how many times a day to take it, and say she will stay home from class until she gets better.",
           "lessons": [
             {
               "id": "ja-B12-01",
@@ -4728,7 +4728,7 @@
           "id": "ja-B13",
           "title_th": "ปฏิทินและวันหยุด",
           "goal_th": "พูดถึงสัปดาห์ เดือน และปีที่แล้ว นี้ และหน้า ถามเดือนและวันที่ บอกวันหยุดยาวของญี่ปุ่น และบอกว่าอยากทำอะไรในวันหยุดด้วย 〜たい ได้",
-          "scenario": "Yuki asks Nam about her plans for the summer holidays; they look at a calendar, talk about Japanese holidays like Golden Week and Obon, and Nam says where she wants to go.",
+          "scenario": "B is Yuki, looking at a calendar with Nam. Nam must talk about this week, this month and next year, ask when Japanese holidays such as Golden Week and Obon are, give her birthday, and say where she wants to go and what she wants to do in the summer holidays (〜たいです).",
           "lessons": [
             {
               "id": "ja-B13-01",
@@ -4966,7 +4966,7 @@
           "id": "ja-B14",
           "title_th": "งานอดิเรกและเวลาว่าง",
           "goal_th": "บอกว่าทำอะไรในเวลาว่างและวันหยุดสุดสัปดาห์ ถามเพื่อนว่าชอบทำอะไร บอกว่าเล่นกีฬาอะไรเก่งหรือไม่เก่ง และเล่าว่าสุดสัปดาห์ที่แล้วทำอะไรด้วย 〜ました ได้",
-          "scenario": "Nam and Yuki talk about what they do in their free time and what they did last weekend.",
+          "scenario": "B is Yuki. Nam must say what she does in her free time (films, music, sports, going out), say which sports she is good or bad at, ask Yuki the same, and tell her what she did last weekend and how it was (〜ました).",
           "lessons": [
             {
               "id": "ja-B14-01",
@@ -5198,7 +5198,7 @@
           "id": "ja-B15",
           "title_th": "ท่องเที่ยวและโรงแรม",
           "goal_th": "เตรียมตัวเดินทาง บอกประเภทห้องและจำนวนคืนที่โรงแรม ขอของใช้ในห้อง เที่ยวชมสถานที่ ซื้อของฝาก และเล่าเรื่องการเที่ยวด้วย 〜ました ได้",
-          "scenario": "Nam travels to Kyoto: at the hotel she asks for a single room for two nights and an extra blanket, visits a museum, buys souvenirs, and later tells Yuki about the trip.",
+          "scenario": "B is a receptionist at a hotel in Kyoto, and later Yuki. Nam must ask for a single room for two nights, ask for an extra blanket and when the museum opens and closes, and afterwards tell Yuki what she did, which souvenirs she bought for whom and how she got home (〜ました).",
           "lessons": [
             {
               "id": "ja-B15-01",
@@ -5430,7 +5430,7 @@
           "id": "ja-B16",
           "title_th": "เมื่อเกิดปัญหา",
           "goal_th": "ขอความช่วยเหลือ โทรแจ้งเหตุ แจ้งว่าทำของหายหรือลืมของไว้ ไปแจ้งที่ป้อมตำรวจ บอกว่าหลงทางหรือของเสีย และอ่านป้ายสำคัญอย่าง 男 女 入口 ได้",
-          "scenario": "On her trip in Japan Nam loses her wallet on the train; she asks a station attendant for help and reports it at the police box (こうばん).",
+          "scenario": "B is a station attendant, and then a police officer at a こうばん, during Nam's trip in Japan. Nam must say she left her wallet on the train and roughly when, describe the wallet and what is inside, and thank him when it is found.",
           "lessons": [
             {
               "id": "ja-B16-01",
