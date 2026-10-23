@@ -1,0 +1,95 @@
+{
+  "id": "ja-F3-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.jijitsu",
+      "text": "事実",
+      "reading": "jijitsu"
+    },
+    {
+      "id": "ja.ayamari",
+      "text": "誤り",
+      "reading": "ayamari"
+    },
+    {
+      "id": "ja.handan",
+      "text": "判断",
+      "reading": "handan"
+    },
+    {
+      "id": "ja.unomi",
+      "text": "うのみ",
+      "reading": "unomi"
+    },
+    {
+      "id": "ja.gimon",
+      "text": "疑問",
+      "reading": "gimon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "はるかが、SNSで見た「1週間で5キロやせるほうほう」を、やってみているの。",
+      "reading": "Haruka ga, Esuenuesu de mita \"Isshūkan de gokiro yaseru hōhō\" o, yatte mite iru no."
+    },
+    {
+      "speaker": "a",
+      "text": "え、だいじょうぶ？そのじょうほう、事実なの？",
+      "reading": "E, daijōbu? Sono jōhō, jijitsu na no?"
+    },
+    {
+      "speaker": "c",
+      "text": "「いいね」がいちまんもついているから、ほんとうだって言うの。",
+      "reading": "\"Iine\" ga ichiman mo tsuite iru kara, hontō da tte iu no."
+    },
+    {
+      "speaker": "a",
+      "text": "人気があるからといって、正しいとはかぎらないよ。",
+      "reading": "Ninki ga aru kara to itte, tadashii to wa kagiranai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしもそう思うけど、はるかはうのみにしているみたい。",
+      "reading": "Watashi mo sō omō kedo, Haruka wa unomi ni shite iru mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "せんもんかの意見をしらべたほうがいいよ。誤りがあるかもしれないし。",
+      "reading": "Senmonka no iken o shirabeta hō ga ii yo. Ayamari ga aru kamoshirenai shi."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。それに、ゆうめいな人がとうこうしたからといって、すぐしんじてはいけないよね。",
+      "reading": "Sō da ne. Sore ni, yūmei na hito ga tōkō shita kara to itte, sugu shinjite wa ikenai yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。じょうほうげんをたしかめてから、判断したほうがいいよ。",
+      "reading": "Un. Jōhōgen o tashikamete kara, handan shita hō ga ii yo."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、わたしが言ったからといって、すなおに聞くわけじゃないんだよね。",
+      "reading": "Demo, watashi ga itta kara to itte, sunao ni kiku wake ja nai n da yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、「ほんとうにそうかな？」って、疑問を持つように言ってみたら？",
+      "reading": "Jā, \"Hontō ni sō kana?\" Tte, gimon o motsu yō ni itte mitara?"
+    },
+    {
+      "speaker": "c",
+      "text": "なるほど。きびしく言うより、いっしょにしらべるほうがいいかも。",
+      "reading": "Naruhodo. Kibishiku iu yori, issho ni shiraberu hō ga ii kamo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。いっしょにしらべれば、はるかちゃんもなっとくすると思うよ。",
+      "reading": "Sō da ne. Issho ni shirabereba, Haruka-chan mo nattoku suru to omō yo."
+    }
+  ]
+}

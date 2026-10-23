@@ -1,0 +1,95 @@
+{
+  "id": "ja-F3-03",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.koukai-public",
+      "text": "公開",
+      "reading": "kōkai"
+    },
+    {
+      "id": "ja.hikoukai",
+      "text": "非公開",
+      "reading": "hikōkai"
+    },
+    {
+      "id": "ja.tokumei",
+      "text": "とくめい",
+      "reading": "tokumei"
+    },
+    {
+      "id": "ja.jitsumei",
+      "text": "実名",
+      "reading": "jitsumei"
+    },
+    {
+      "id": "ja.honmyou",
+      "text": "本名",
+      "reading": "honmyō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "はるかに位置情報のことをつたえたら、「本名さえつかわなければ、だいじょうぶ」って言われたの。",
+      "reading": "Haruka ni ichijōhō no koto o tsutaetara, \"Honmyō sae tsukawanakereba, daijōbu\" tte iwareta no."
+    },
+    {
+      "speaker": "a",
+      "text": "そうかなあ。本名じゃなくても、あぶないことはあるよ。",
+      "reading": "Sō kanā. Honmyō ja nakute mo, abunai koto wa aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして？とくめいなら、だれかわからないでしょう？",
+      "reading": "Dōshite? Tokumei nara, dare ka wakaranai deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "とくめいでも、しゃしんやとうこうを見れば、わかることがおおいんだよ。",
+      "reading": "Tokumei demo, shashin ya tōkō o mireba, wakaru koto ga ōi n da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうか。じゃあ、どうすればいいの？",
+      "reading": "Sō ka. Jā, dō sureba ii no?"
+    },
+    {
+      "speaker": "a",
+      "text": "とうこうを非公開にすれば、知らない人には見られないよ。",
+      "reading": "Tōkō o hikōkai ni sureba, shiranai hito ni wa mirarenai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "はるかはフォロワーがほしいから、公開にしたいみたい。",
+      "reading": "Haruka wa forowā ga hoshii kara, kōkai ni shitai mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "気持ちはわかるけど、ともだちさえ見られれば、それでいいんじゃない？",
+      "reading": "Kimochi wa wakaru kedo, tomodachi sae mirarereba, sore de ii n ja nai?"
+    },
+    {
+      "speaker": "c",
+      "text": "たしかに。実名でやっている人もいるけど、はるかはまだ高校生だしね。",
+      "reading": "Tashika ni. Jitsumei de yatte iru hito mo iru kedo, Haruka wa mada kōkōsei da shi ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。実名で公開するのは、おとなになってからでもおそくないよ。",
+      "reading": "Un. Jitsumei de kōkai suru no wa, otona ni natte kara demo osoku nai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。はるかに、非公開にするように言ってみる。",
+      "reading": "Sō da ne. Haruka ni, hikōkai ni suru yō ni itte miru."
+    },
+    {
+      "speaker": "a",
+      "text": "それさえすれば、ずっと安心だよ。",
+      "reading": "Sore sae sureba, zutto anshin da yo."
+    }
+  ]
+}

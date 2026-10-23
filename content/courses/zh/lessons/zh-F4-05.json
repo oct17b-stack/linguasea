@@ -1,0 +1,96 @@
+{
+  "id": "zh-F4-05",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.yi-dan",
+      "text": "一旦",
+      "reading": "yīdàn"
+    },
+    {
+      "id": "zh.lu-yong",
+      "text": "录用",
+      "reading": "lùyòng"
+    },
+    {
+      "id": "zh.fu-li",
+      "text": "福利",
+      "reading": "fúlì"
+    },
+    {
+      "id": "zh.shi-yong-qi",
+      "kind": "phrase",
+      "text": "试用期",
+      "reading": "shìyòngqī"
+    },
+    {
+      "id": "zh.xin-shui",
+      "text": "薪水",
+      "reading": "xīnshui"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "面试就到这里。现在说说实习的条件吧。",
+      "reading": "Miànshì jiù dào zhèlǐ. Xiànzài shuōshuo shíxí de tiáojiàn ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好的。请问实习有薪水吗？",
+      "reading": "Hǎo de. Qǐngwèn shíxí yǒu xīnshui ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有。实习翻译每个月的薪水是一万五千泰铢。",
+      "reading": "Yǒu. Shíxí fānyì měi ge yuè de xīnshui shì yīwàn wǔqiān tàizhū."
+    },
+    {
+      "speaker": "a",
+      "text": "除了薪水以外，还有别的福利吗？",
+      "reading": "Chúle xīnshui yǐwài, hái yǒu biéde fúlì ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "公司每天中午提供免费的午饭，周末不用上班。",
+      "reading": "Gōngsī měitiān zhōngwǔ tígōng miǎnfèi de wǔfàn, zhōumò bùyòng shàngbān."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！实习从什么时候开始？",
+      "reading": "Tài hǎo le! Shíxí cóng shénme shíhou kāishǐ?"
+    },
+    {
+      "speaker": "c",
+      "text": "一旦录用，下个星期一就要来上班，一直到八月三十一号。",
+      "reading": "Yīdàn lùyòng, xià ge xīngqīyī jiù yào lái shàngbān, yīzhí dào bā yuè sānshíyī hào."
+    },
+    {
+      "speaker": "a",
+      "text": "没问题。我现在是暑假，每天都有时间。",
+      "reading": "Méi wèntí. Wǒ xiànzài shì shǔjià, měitiān dōu yǒu shíjiān."
+    },
+    {
+      "speaker": "c",
+      "text": "还有，如果你实习做得好，毕业以后可以来我们公司正式工作。",
+      "reading": "Hái yǒu, rúguǒ nǐ shíxí zuò de hǎo, bìyè yǐhòu kěyǐ lái wǒmen gōngsī zhèngshì gōngzuò."
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？那正式工作有试用期吗？",
+      "reading": "Zhēnde ma? Nà zhèngshì gōngzuò yǒu shìyòngqī ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有，三个月。一旦通过了试用期，薪水就会提高。",
+      "reading": "Yǒu, sān ge yuè. Yīdàn tōngguò le shìyòngqī, xīnshui jiù huì tígāo."
+    },
+    {
+      "speaker": "a",
+      "text": "明白了。我一定好好做！",
+      "reading": "Míngbai le. Wǒ yīdìng hǎohǎo zuò!"
+    }
+  ]
+}

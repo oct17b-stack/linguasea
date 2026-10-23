@@ -1,0 +1,90 @@
+{
+  "id": "zh-F4-02",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.ju-you",
+      "text": "具有",
+      "reading": "jùyǒu"
+    },
+    {
+      "id": "zh.ju-bei",
+      "text": "具备",
+      "reading": "jùbèi"
+    },
+    {
+      "id": "zh.zhang-wo",
+      "text": "掌握",
+      "reading": "zhǎngwò"
+    },
+    {
+      "id": "zh.qiang-strong",
+      "text": "强",
+      "reading": "qiáng"
+    },
+    {
+      "id": "zh.ji-ben",
+      "text": "基本",
+      "reading": "jīběn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "你好，请坐。请你先介绍一下自己。",
+      "reading": "Nǐ hǎo, qǐng zuò. Qǐng nǐ xiān jièshào yīxià zìjǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "您好！我叫小南，在曼谷上大学，学的是汉语专业，现在在北京留学。",
+      "reading": "Nín hǎo! Wǒ jiào Xiǎonán, zài Màngǔ shàng dàxué, xué de shì Hànyǔ zhuānyè, xiànzài zài Běijīng liúxué."
+    },
+    {
+      "speaker": "c",
+      "text": "你的汉语说得很流利。你在北京学了多长时间了？",
+      "reading": "Nǐ de Hànyǔ shuō de hěn liúlì. Nǐ zài Běijīng xué le duō cháng shíjiān le?"
+    },
+    {
+      "speaker": "a",
+      "text": "快两年了。我已经掌握了基本的语法，口语和阅读也都不错。",
+      "reading": "Kuài liǎng nián le. Wǒ yǐjīng zhǎngwò le jīběn de yǔfǎ, kǒuyǔ hé yuèdú yě dōu bùcuò."
+    },
+    {
+      "speaker": "c",
+      "text": "我们经常和中国的公司做生意。你觉得当翻译要具备哪些能力？",
+      "reading": "Wǒmen jīngcháng hé Zhōngguó de gōngsī zuò shēngyi. Nǐ juéde dāng fānyì yào jùbèi nǎxiē nénglì?"
+    },
+    {
+      "speaker": "a",
+      "text": "首先要掌握两种语言。此外，还要具备很强的沟通能力。",
+      "reading": "Shǒuxiān yào zhǎngwò liǎng zhǒng yǔyán. Cǐwài, hái yào jùbèi hěn qiáng de gōutōng nénglì."
+    },
+    {
+      "speaker": "c",
+      "text": "你觉得自己具有这样的能力吗？",
+      "reading": "Nǐ juéde zìjǐ jùyǒu zhèyàng de nénglì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想是的。当导游的时候，我每天都要跟各种人交流，解决各种问题。",
+      "reading": "Wǒ xiǎng shì de. Dāng dǎoyóu de shíhou, wǒ měitiān dōu yào gēn gèzhǒng rén jiāoliú, jiějué gèzhǒng wèntí."
+    },
+    {
+      "speaker": "c",
+      "text": "那你对我们公司了解多少？",
+      "reading": "Nà nǐ duì wǒmen gōngsī liǎojiě duōshao?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在网站上看过介绍。你们主要把泰国的水果卖到中国，对吗？",
+      "reading": "Wǒ zài wǎngzhàn shang kàn guo jièshào. Nǐmen zhǔyào bǎ Tàiguó de shuǐguǒ mài dào Zhōngguó, duì ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "对。看来你准备得很充分。",
+      "reading": "Duì. Kànlái nǐ zhǔnbèi de hěn chōngfèn."
+    }
+  ]
+}

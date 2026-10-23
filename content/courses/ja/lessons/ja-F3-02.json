@@ -1,0 +1,95 @@
+{
+  "id": "ja-F3-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kojinjouhou",
+      "text": "こじんじょうほう",
+      "reading": "kojinjōhō"
+    },
+    {
+      "id": "ja.tokutei",
+      "text": "特定",
+      "reading": "tokutei"
+    },
+    {
+      "id": "ja.ichijouhou",
+      "text": "位置情報",
+      "reading": "ichijōhō"
+    },
+    {
+      "id": "ja.ryuushutsu",
+      "text": "流出",
+      "reading": "ryūshutsu"
+    },
+    {
+      "id": "ja.kikensei",
+      "text": "危険性",
+      "reading": "kikensei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、これ、はるかのとうこう。学校の帰りにとったしゃしんだって。",
+      "reading": "Namu, kore, Haruka no tōkō. Gakkō no kaeri ni totta shashin datte."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、しゃしんに駅のなまえが写っているよ。",
+      "reading": "A, shashin ni eki no namae ga utsutte iru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとうだ。気づかなかった。",
+      "reading": "Hontō da. Kizukanakatta."
+    },
+    {
+      "speaker": "a",
+      "text": "しゃしん1まいからさえ、すんでいるところが特定されることがあるんだって。",
+      "reading": "Shashin ichimai kara sae, sunde iru tokoro ga tokutei sareru koto ga aru n datte."
+    },
+    {
+      "speaker": "c",
+      "text": "こわいね。わたしさえ、そんなこと考えたことなかった。",
+      "reading": "Kowai ne. Watashi sae, sonna koto kangaeta koto nakatta."
+    },
+    {
+      "speaker": "a",
+      "text": "それに、スマホが位置情報をつかうせっていになっていると、しゃしんにばしょのじょうほうがはいることもあるよ。",
+      "reading": "Sore ni, sumaho ga ichijōhō o tsukau settei ni natte iru to, shashin ni basho no jōhō ga hairu koto mo aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、こじんじょうほうが流出する危険性もあるんだね。",
+      "reading": "Jā, kojinjōhō ga ryūshutsu suru kikensei mo aru n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。なまえや学校はもちろん、せいふくからさえ、どこの学校かわかってしまうんだよ。",
+      "reading": "Un. Namae ya gakkō wa mochiron, seifuku kara sae, doko no gakkō ka wakatte shimau n da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そこまで考えなきゃいけないのか。はるかに、すぐつたえるね。",
+      "reading": "Soko made kangaenakya ikenai no ka. Haruka ni, sugu tsutaeru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。位置情報のせっていも、いっしょにかくにんしてあげて。",
+      "reading": "Un. Ichijōhō no settei mo, issho ni kakunin shite agete."
+    },
+    {
+      "speaker": "c",
+      "text": "わかった。ナム、よく知っているね。",
+      "reading": "Wakatta. Namu, yoku shitte iru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "大学のじゅぎょうで、SNSの危険性についてならったんだ。",
+      "reading": "Daigaku no jugyō de, Esuenuesu no kikensei ni tsuite naratta n da."
+    }
+  ]
+}
