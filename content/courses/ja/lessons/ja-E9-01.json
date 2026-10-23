@@ -1,0 +1,100 @@
+{
+  "id": "ja-E9-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tejun",
+      "text": "てじゅん",
+      "reading": "tejun"
+    },
+    {
+      "id": "ja.kinou-function",
+      "text": "機能",
+      "reading": "kinō"
+    },
+    {
+      "id": "ja.shiji",
+      "text": "指示",
+      "reading": "shiji"
+    },
+    {
+      "id": "ja.yajirushi",
+      "text": "やじるし",
+      "reading": "yajirushi"
+    },
+    {
+      "id": "ja.aikon",
+      "text": "アイコン",
+      "reading": "aikon"
+    },
+    {
+      "id": "ja.manyuaru",
+      "text": "マニュアル",
+      "reading": "manyuaru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ちょっといいですか。こどもがスマホをプレゼントしてくれたんですけど、つかい方がぜんぜんわからなくて…。",
+      "reading": "Namu-san, chotto ii desu ka. Kodomo ga sumaho o purezento shite kureta n desu kedo, tsukaikata ga zenzen wakaranakute…."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですよ。あ、マニュアルもありますね。じゃあ、マニュアルのとおりに、いっしょにそうさしてみましょう。",
+      "reading": "Ii desu yo. A, manyuaru mo arimasu ne. Jā, manyuaru no tōri ni, issho ni sōsa shite mimashō."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、このマニュアル、ことばがむずかしくて…。てじゅんも、たくさんあるし。",
+      "reading": "Demo, kono manyuaru, kotoba ga muzukashikute…. Tejun mo, takusan aru shi."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶです。さいしょのてじゅんは、いつつだけです。ひとつずつしましょう。",
+      "reading": "Daijōbu desu. Saisho no tejun wa, itsutsu dake desu. Hitotsuzutsu shimashō."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。まず、なにをすればいいの？",
+      "reading": "Arigatō. Mazu, nani o sureba ii no?"
+    },
+    {
+      "speaker": "a",
+      "text": "「がめんの指示のとおりに、そうさしてください」とかいてあります。",
+      "reading": "\"Gamen no shiji no tōri ni, sōsa shite kudasai\" to kaite arimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "指示って、このやじるしのこと？",
+      "reading": "Shiji tte, kono yajirushi no koto?"
+    },
+    {
+      "speaker": "a",
+      "text": "そうです。やじるしのとおりに、みぎのアイコンをおしてください。",
+      "reading": "Sō desu. Yajirushi no tōri ni, migi no aikon o oshite kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "あ、がめんにアイコンがたくさん出てきたわ。",
+      "reading": "A, gamen ni aikon ga takusan dete kita wa."
+    },
+    {
+      "speaker": "a",
+      "text": "これは、スマホのいろいろな機能のアイコンです。カメラやでんわ、メールなどの機能がありますよ。",
+      "reading": "Kore wa, sumaho no iroiro na kinō no aikon desu. Kamera ya denwa, mēru nado no kinō ga arimasu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "機能がおおすぎて、ぜんぶはつかえないわ。",
+      "reading": "Kinō ga ōsugite, zenbu wa tsukaenai wa."
+    },
+    {
+      "speaker": "a",
+      "text": "さいしょは、でんわとメールだけでいいですよ。わたしがおしえたとおりにすれば、すぐつかえるようになります。",
+      "reading": "Saisho wa, denwa to mēru dake de ii desu yo. Watashi ga oshieta tōri ni sureba, sugu tsukaeru yō ni narimasu."
+    }
+  ]
+}

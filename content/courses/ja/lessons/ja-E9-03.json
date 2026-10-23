@@ -1,0 +1,100 @@
+{
+  "id": "ja-E9-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shitagaki",
+      "text": "下書き",
+      "reading": "shitagaki"
+    },
+    {
+      "id": "ja.nyuuryoku",
+      "text": "入力",
+      "reading": "nyūryoku"
+    },
+    {
+      "id": "ja.henkan",
+      "text": "へんかん",
+      "reading": "henkan"
+    },
+    {
+      "id": "ja.mojibake",
+      "text": "文字化け",
+      "reading": "mojibake"
+    },
+    {
+      "id": "ja.moji",
+      "text": "文字",
+      "reading": "moji"
+    },
+    {
+      "id": "ja.yosokuhenkan",
+      "text": "よそくへんかん",
+      "reading": "yosokuhenkan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、さっきからスマホを見たまま、ぜんぜんうごかないね。どうしたの？",
+      "reading": "Namu, sakki kara sumaho o mita mama, zenzen ugokanai ne. Dō shita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "やまだせんせいへのメールをかきかけたんだけど、けいごがむずかしくて、とちゅうで止まっちゃった。",
+      "reading": "Yamada-sensei e no mēru o kakikaketa n da kedo, keigo ga muzukashikute, tochū de tomatchatta."
+    },
+    {
+      "speaker": "c",
+      "text": "かきかけのメールは、下書きにほぞんしておけばいいよ。あとでゆっくりかけるから。",
+      "reading": "Kakikake no mēru wa, shitagaki ni hozon shite okeba ii yo. Ato de yukkuri kakeru kara."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。それに、にほんごの入力にも、まだなれなくて…。かんじにへんかんすると、よくまちがえるの。",
+      "reading": "Sō da ne. Sore ni, Nihongo no nyūryoku ni mo, mada narenakute…. Kanji ni henkan suru to, yoku machigaeru no."
+    },
+    {
+      "speaker": "c",
+      "text": "よそくへんかんはつかってる？さいしょの文字を入力すると、ことばが出てくるから、べんりだよ。",
+      "reading": "Yosokuhenkan wa tsukatteru? Saisho no moji o nyūryoku suru to, kotoba ga dete kuru kara, benri da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "つかってるよ。でも、このまえ、よそくへんかんで変なことばが入ったまま、送信しかけたんだ。",
+      "reading": "Tsukatteru yo. Demo, kono mae, yosokuhenkan de hen na kotoba ga haitta mama, sōshin shikaketa n da."
+    },
+    {
+      "speaker": "c",
+      "text": "あぶない！どんなことば？",
+      "reading": "Abunai! Donna kotoba?"
+    },
+    {
+      "speaker": "a",
+      "text": "「お世話になっております」のあとに、ねこのえもじが入ってたの。",
+      "reading": "\"Osewa ni natte orimasu\" no ato ni, neko no emoji ga haitteta no."
+    },
+    {
+      "speaker": "c",
+      "text": "あはは！それは、せんせいもびっくりするね。",
+      "reading": "Ahaha! Sore wa, sensei mo bikkuri suru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それに、タイのともだちからのメールが、文字化けして読めないこともあるの。",
+      "reading": "Sore ni, Tai no tomodachi kara no mēru ga, mojibake shite yomenai koto mo aru no."
+    },
+    {
+      "speaker": "c",
+      "text": "アプリによっては、タイの文字がきれいに出ないのかもね。",
+      "reading": "Apuri ni yotte wa, Tai no moji ga kirei ni denai no kamo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうかも。じゃあ、せんせいへのメールは、下書きをよくかくにんしてから送信するね。",
+      "reading": "Sō kamo. Jā, sensei e no mēru wa, shitagaki o yoku kakunin shite kara sōshin suru ne."
+    }
+  ]
+}

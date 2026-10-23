@@ -1,0 +1,95 @@
+{
+  "id": "ja-E9-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.soushin",
+      "text": "送信",
+      "reading": "sōshin"
+    },
+    {
+      "id": "ja.jushin",
+      "text": "受信",
+      "reading": "jushin"
+    },
+    {
+      "id": "ja.tenpu",
+      "text": "てんぷ",
+      "reading": "tenpu"
+    },
+    {
+      "id": "ja.tensou",
+      "text": "転送",
+      "reading": "tensō"
+    },
+    {
+      "id": "ja.meiwakumeeru",
+      "text": "めいわくメール",
+      "reading": "meiwakumēru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、こどもからメールがとどいたの。しゃしんがてんぷしてあるみたい。",
+      "reading": "Namu-san, kodomo kara mēru ga todoita no. Shashin ga tenpu shite aru mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですね。受信したメールの下に、しゃしんがありますよ。ここをおせば見られます。",
+      "reading": "Hontō desu ne. Jushin shita mēru no shita ni, shashin ga arimasu yo. Koko o oseba miraremasu."
+    },
+    {
+      "speaker": "c",
+      "text": "まあ、きれい。こどもたちがりょこうに行ったときのしゃしんね。おとうとにも見せたいわ。",
+      "reading": "Mā, kirei. Kodomotachi ga ryokō ni itta toki no shashin ne. Otōto ni mo misetai wa."
+    },
+    {
+      "speaker": "a",
+      "text": "それなら、このメールを転送すればいいですよ。このやじるしのアイコンをおして、あてさきをえらんでください。",
+      "reading": "Sore nara, kono mēru o tensō sureba ii desu yo. Kono yajirushi no aikon o oshite, atesaki o erande kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "えらんだわ。あとは、「送信」をおせばいいのね。",
+      "reading": "Eranda wa. Ato wa, \"sōshin\" o oseba ii no ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、送信するまえに、あてさきが正しいか、かくにんしてください。かくにんせずに送信すると、違う人にとどいてしまうこともありますから。",
+      "reading": "Hai. Demo, sōshin suru mae ni, atesaki ga tadashii ka, kakunin shite kudasai. Kakunin sezu ni sōshin suru to, chigau hito ni todoite shimau koto mo arimasu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "わかったわ。あら、このメールはなに？「プレゼントがあります。ここをおしてください」ですって。",
+      "reading": "Wakatta wa. Ara, kono mēru wa nani? \"Purezento ga arimasu. Koko o oshite kudasai\" desu tte."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、それはめいわくメールです。見たことがないアドレスからのメールは、なにもおさずに、すぐさくじょしてください。",
+      "reading": "A, sore wa meiwakumēru desu. Mita koto ga nai adoresu kara no mēru wa, nani mo osazu ni, sugu sakujo shite kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "なにもおさずに、さくじょ…。むずかしいことばね。メモしておくわ。",
+      "reading": "Nani mo osazu ni, sakujo…. Muzukashii kotoba ne. Memo shite oku wa."
+    },
+    {
+      "speaker": "a",
+      "text": "「おさないで」とおなじいみですよ。マニュアルなどでは、「〜ずに」とよくかきます。",
+      "reading": "\"Osanaide\" to onaji imi desu yo. Manyuaru nado de wa, \"zu ni\" to yoku kakimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの。べんきょうになるわ。",
+      "reading": "Sō na no. Benkyō ni naru wa."
+    },
+    {
+      "speaker": "a",
+      "text": "変だと思ったら、なにもせずに、わたしにれんらくしてくださいね。",
+      "reading": "Hen da to omottara, nani mo sezu ni, watashi ni renraku shite kudasai ne."
+    }
+  ]
+}
