@@ -1,0 +1,88 @@
+{
+  "id": "en-D4-03",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.meeting",
+      "text": "meeting",
+      "reading": "ˈmiːtɪŋ"
+    },
+    {
+      "id": "en.call-back",
+      "kind": "phrase",
+      "text": "call back",
+      "reading": "ˌkɔːl ˈbæk"
+    },
+    {
+      "id": "en.out-of-the-office",
+      "kind": "phrase",
+      "text": "out of the office",
+      "reading": "ˌaʊt əv ði ˈɔːfɪs"
+    },
+    {
+      "id": "en.get-back-to",
+      "kind": "phrase",
+      "text": "get back to",
+      "reading": "ˌɡɛt ˈbæk tuː"
+    },
+    {
+      "id": "en.urgent",
+      "text": "urgent",
+      "reading": "ˈɜːrdʒənt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hello, this is Susan from the Palm Hotel in Phuket. Can I speak to Mr. Davis?",
+      "reading": "həˈloʊ, ðɪs ɪz ˈsuːzən frəm ðə ˈpɑːm hoʊˈtɛl ɪn puːˈkɛt. kən aɪ ˈspiːk tə ˈmɪstər ˈdeɪvɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm sorry, he's out of the office today. He has a meeting at the head office.",
+      "reading": "aɪm ˈsɑːri, hiːz ˈaʊt əv ði ˈɔːfɪs təˈdeɪ. hiː ˈhæz ə ˈmiːtɪŋ ət ðə ˈhɛd ˈɔːfɪs."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh. It's urgent. When will he be back?",
+      "reading": "ˈoʊ. ɪts ˈɜːrdʒənt. ˈwɛn wɪl hiː bi ˈbæk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Tomorrow morning. Would you like him to call you back?",
+      "reading": "təˈmɑːroʊ ˈmɔːrnɪŋ. wʊd juː ˈlaɪk hɪm tə ˈkɔːl juː ˈbæk?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, please. Please tell him to call me as soon as he gets back.",
+      "reading": "ˈjɛs, ˈpliːz. ˈpliːz ˈtɛl hɪm tə ˈkɔːl miː əz ˈsuːn əz hiː ˈɡɛts ˈbæk."
+    },
+    {
+      "speaker": "a",
+      "text": "Of course. I'll give him your message as soon as he arrives.",
+      "reading": "əv ˈkɔːrs. aɪl ˈɡɪv hɪm jʊr ˈmɛsɪdʒ əz ˈsuːn əz hiː əˈraɪvz."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. Can he get back to me before ten? I have another meeting at ten.",
+      "reading": "ˈθæŋk juː. kən hiː ˈɡɛt ˈbæk tə miː bɪˈfɔːr ˈtɛn? aɪ ˈhæv əˈnʌðər ˈmiːtɪŋ ət ˈtɛn."
+    },
+    {
+      "speaker": "a",
+      "text": "I'm sure he can. I'll tell him it's urgent.",
+      "reading": "aɪm ˈʃʊr hiː ˈkæn. aɪl ˈtɛl hɪm ɪts ˈɜːrdʒənt."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks for your help. Goodbye.",
+      "reading": "ˈθæŋks fər jʊr ˈhɛlp. ɡʊdˈbaɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Goodbye!",
+      "reading": "ɡʊdˈbaɪ!"
+    }
+  ]
+}

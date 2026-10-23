@@ -1,0 +1,90 @@
+{
+  "id": "en-D5-05",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.put-away",
+      "kind": "phrase",
+      "text": "put away",
+      "reading": "ˌpʊt əˈweɪ"
+    },
+    {
+      "id": "en.take-out",
+      "kind": "phrase",
+      "text": "take out",
+      "reading": "ˌteɪk ˈaʊt"
+    },
+    {
+      "id": "en.clean-up",
+      "kind": "phrase",
+      "text": "clean up",
+      "reading": "ˌkliːn ˈʌp"
+    },
+    {
+      "id": "en.hang-up",
+      "kind": "phrase",
+      "text": "hang up",
+      "reading": "ˌhæŋ ˈʌp"
+    },
+    {
+      "id": "en.throw-away",
+      "kind": "phrase",
+      "text": "throw away",
+      "reading": "ˌθroʊ əˈweɪ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, the party was fun, but look at the kitchen!",
+      "reading": "ˈɛmə, ðə ˈpɑːrti wʌz ˈfʌn, bʌt ˈlʊk ət ðə ˈkɪtʃən!"
+    },
+    {
+      "speaker": "c",
+      "text": "I know. Let's clean it up together.",
+      "reading": "aɪ ˈnoʊ. ˈlɛts ˈkliːn ɪt ˈʌp təˈɡɛðər."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Can you take out the trash?",
+      "reading": "oʊˈkeɪ. kən juː ˈteɪk ˈaʊt ðə ˈtræʃ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. I'll take it out now.",
+      "reading": "ˈʃʊr. aɪl ˈteɪk ɪt ˈaʊt ˈnaʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. These bottles are empty. Should I throw them away?",
+      "reading": "ˈθæŋks. ðiːz ˈbɑːtəlz ər ˈɛmpti. ʃʊd aɪ ˈθroʊ ðɛm əˈweɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, don't throw them away! We can use them for flowers.",
+      "reading": "ˈnoʊ, ˈdoʊnt ˈθroʊ ðɛm əˈweɪ! wiː kən ˈjuːz ðɛm fər ˈflaʊərz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. And whose jacket is this?",
+      "reading": "oʊˈkeɪ. ənd ˈhuːz ˈdʒækɪt ɪz ˈðɪs?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's Ploy's. Please hang it up. She'll come back for it tomorrow.",
+      "reading": "ɪts ˈplɔɪz. ˈpliːz ˈhæŋ ɪt ˈʌp. ʃiːl ˈkʌm ˈbæk fər ɪt təˈmɑːroʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "And the clean glasses? Should I put them away?",
+      "reading": "ənd ðə ˈkliːn ˈɡlæsɪz? ʃʊd aɪ ˈpʊt ðɛm əˈweɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, please put them away. Thanks, Nam!",
+      "reading": "ˈjɛs, ˈpliːz ˈpʊt ðɛm əˈweɪ. ˈθæŋks, ˈnɑːm!"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "en-D3-06",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.bother",
+      "text": "bother",
+      "reading": "ˈbɑːðər"
+    },
+    {
+      "id": "en.out-of-order",
+      "kind": "phrase",
+      "text": "out of order",
+      "reading": "ˌaʊt əv ˈɔːrdər"
+    },
+    {
+      "id": "en.leak",
+      "text": "leak",
+      "reading": "liːk"
+    },
+    {
+      "id": "en.smell",
+      "text": "smell",
+      "reading": "smɛl"
+    },
+    {
+      "id": "en.fix",
+      "text": "fix",
+      "reading": "fɪks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Reception. Can I help you?",
+      "reading": "rɪˈsɛpʃən. kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I'm sorry to bother you, but there seems to be a problem with the air conditioning.",
+      "reading": "ˈhaɪ. aɪm ˈsɑːri tə ˈbɑːðər juː, bʌt ðɛr ˈsiːmz tə bi ə ˈprɑːbləm wɪð ði ˈɛr kənˌdɪʃənɪŋ."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, I'm sorry. What's wrong with it?",
+      "reading": "ˈoʊ, aɪm ˈsɑːri. ˈwʌts ˈrɔːŋ wɪð ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "It isn't cold, and there's water on the floor. I think it has a leak.",
+      "reading": "ɪt ˈɪzənt ˈkoʊld, ənd ðɛrz ˈwɔːtər ɑːn ðə ˈflɔːr. aɪ ˈθɪŋk ɪt ˈhæz ə ˈliːk."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm very sorry. I'll send someone to fix it now.",
+      "reading": "aɪm ˈvɛri ˈsɑːri. aɪl ˈsɛnd ˈsʌmwʌn tə ˈfɪks ɪt ˈnaʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. There's also a bad smell in the bathroom.",
+      "reading": "ˈθæŋk juː. ðɛrz ˈɔːlsoʊ ə ˈbæd ˈsmɛl ɪn ðə ˈbæθruːm."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry about that. We'll check it, too.",
+      "reading": "aɪm ˈsɑːri əˈbaʊt ðæt. wiːl ˈtʃɛk ɪt, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "And I'm sorry to bother you again, but the elevator on our floor is out of order.",
+      "reading": "ənd aɪm ˈsɑːri tə ˈbɑːðər juː əˈɡɛn, bʌt ði ˈɛləveɪtər ɑːn aʊr ˈflɔːr ɪz ˈaʊt əv ˈɔːrdər."
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, we know. Someone is fixing it now. Would you like a different room?",
+      "reading": "ˈjɛs, wiː ˈnoʊ. ˈsʌmwʌn ɪz ˈfɪksɪŋ ɪt ˈnaʊ. wʊd juː ˈlaɪk ə ˈdɪfərənt ˈruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, please. That would be great.",
+      "reading": "ˈjɛs, ˈpliːz. ðæt wʊd bi ˈɡreɪt."
+    }
+  ]
+}

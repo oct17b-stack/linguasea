@@ -1,0 +1,87 @@
+{
+  "id": "en-D4-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.attachment",
+      "text": "attachment",
+      "reading": "əˈtætʃmənt"
+    },
+    {
+      "id": "en.best-regards",
+      "kind": "phrase",
+      "text": "Best regards",
+      "reading": "ˌbɛst rɪˈɡɑːrdz"
+    },
+    {
+      "id": "en.look-forward-to",
+      "kind": "phrase",
+      "text": "look forward to",
+      "reading": "ˌlʊk ˈfɔːrwərd tuː"
+    },
+    {
+      "id": "en.inbox",
+      "text": "inbox",
+      "reading": "ˈɪnbɑːks"
+    },
+    {
+      "id": "en.subject-line",
+      "text": "subject line",
+      "reading": "ˈsʌbdʒɪkt ˌlaɪn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Kate, would you mind checking my email before I send it?",
+      "reading": "ˈkeɪt, wʊd juː ˈmaɪnd ˈtʃɛkɪŋ maɪ ˈiːmeɪl bɪˈfɔːr aɪ ˈsɛnd ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Not at all. What's the subject line?",
+      "reading": "ˈnɑːt ət ˈɔːl. ˈwʌts ðə ˈsʌbdʒɪkt ˌlaɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"Hotel rooms in June.\" Is that OK?",
+      "reading": "hoʊˈtɛl ˈruːmz ɪn ˈdʒuːn. ɪz ðæt oʊˈkeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, it's short and clear. How does the email start?",
+      "reading": "ˈjɛs, ɪts ˈʃɔːrt ənd ˈklɪr. ˈhaʊ dʌz ði ˈiːmeɪl ˈstɑːrt?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"Dear Ms. Clark, I'm writing to book twenty rooms for our tour group.\"",
+      "reading": "ˈdɪr ˈmɪz ˈklɑːrk, aɪm ˈraɪtɪŋ tə ˈbʊk ˈtwɛnti ˈruːmz fər aʊr ˈtʊr ˌɡruːp."
+    },
+    {
+      "speaker": "c",
+      "text": "Good. Did you add the list of names as an attachment?",
+      "reading": "ˈɡʊd. dɪd juː ˈæd ðə ˈlɪst əv ˈneɪmz əz ən əˈtætʃmənt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I did. How should I end the email?",
+      "reading": "ˈjɛs, aɪ ˈdɪd. ˈhaʊ ʃʊd aɪ ˈɛnd ði ˈiːmeɪl?"
+    },
+    {
+      "speaker": "c",
+      "text": "Write \"I look forward to hearing from you\" and then \"Best regards.\"",
+      "reading": "ˈraɪt aɪ ˈlʊk ˈfɔːrwərd tə ˈhɪrɪŋ frəm juː ənd ˈðɛn ˈbɛst rɪˈɡɑːrdz."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. Thank you, Kate! I'll send it now.",
+      "reading": "ˈɡreɪt. ˈθæŋk juː, ˈkeɪt! aɪl ˈsɛnd ɪt ˈnaʊ."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Check your inbox this afternoon. She usually replies quickly.",
+      "reading": "oʊˈkeɪ. ˈtʃɛk jʊr ˈɪnbɑːks ðɪs ˌæftərˈnuːn. ʃiː ˈjuːʒuəli rɪˈplaɪz ˈkwɪkli."
+    }
+  ]
+}

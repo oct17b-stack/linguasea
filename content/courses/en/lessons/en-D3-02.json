@@ -1,0 +1,90 @@
+{
+  "id": "en-D3-02",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.single-room",
+      "kind": "phrase",
+      "text": "single room",
+      "reading": "ˌsɪŋɡəl ˈruːm"
+    },
+    {
+      "id": "en.double-room",
+      "kind": "phrase",
+      "text": "double room",
+      "reading": "ˌdʌbəl ˈruːm"
+    },
+    {
+      "id": "en.twin-room",
+      "kind": "phrase",
+      "text": "twin room",
+      "reading": "ˌtwɪn ˈruːm"
+    },
+    {
+      "id": "en.per-night",
+      "kind": "phrase",
+      "text": "per night",
+      "reading": "pər ˈnaɪt"
+    },
+    {
+      "id": "en.fully-booked",
+      "kind": "phrase",
+      "text": "fully booked",
+      "reading": "ˌfʊli ˈbʊkt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good morning, River View Hotel.",
+      "reading": "ˈɡʊd ˈmɔːrnɪŋ, ˈrɪvər ˈvjuː hoʊˈtɛl."
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I've already booked a single room for this weekend, but I'd like to change it.",
+      "reading": "ˈhaɪ. aɪv ɔːlˈrɛdi ˈbʊkt ə ˈsɪŋɡəl ˈruːm fər ðɪs ˈwiːkɛnd, bʌt aɪd ˈlaɪk tə ˈtʃeɪndʒ ɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. What would you like?",
+      "reading": "ˈʃʊr. ˈwʌt wʊd juː ˈlaɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "My sister is coming with me. Do you have a twin room?",
+      "reading": "maɪ ˈsɪstər ɪz ˈkʌmɪŋ wɪð miː. duː juː ˈhæv ə ˈtwɪn ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, our twin rooms are fully booked. But we have a double room.",
+      "reading": "ˈsɑːri, aʊr ˈtwɪn ˈruːmz ər ˈfʊli ˈbʊkt. bʌt wiː ˈhæv ə ˈdʌbəl ˈruːm."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. How much is it per night?",
+      "reading": "oʊˈkeɪ. ˈhaʊ ˈmʌtʃ ɪz ɪt pər ˈnaɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Twelve hundred baht. Have you already paid for the single room?",
+      "reading": "ˈtwɛlv ˈhʌndrəd ˈbɑːt. hæv juː ɔːlˈrɛdi ˈpeɪd fər ðə ˈsɪŋɡəl ˈruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I've already paid sixteen hundred baht for two nights.",
+      "reading": "ˈjɛs, aɪv ɔːlˈrɛdi ˈpeɪd ˌsɪkˈstiːn ˈhʌndrəd ˈbɑːt fər ˈtuː ˈnaɪts."
+    },
+    {
+      "speaker": "b",
+      "text": "Then you only have to pay eight hundred more when you check in.",
+      "reading": "ˈðɛn juː ˈoʊnli ˈhæf tə ˈpeɪ ˈeɪt ˈhʌndrəd ˈmɔːr wɛn juː ˈtʃɛk ˈɪn."
+    },
+    {
+      "speaker": "a",
+      "text": "Perfect. Thank you!",
+      "reading": "ˈpɜːrfɪkt. ˈθæŋk juː!"
+    }
+  ]
+}

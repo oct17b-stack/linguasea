@@ -1,0 +1,86 @@
+{
+  "id": "en-D2-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.connecting-flight",
+      "kind": "phrase",
+      "text": "connecting flight",
+      "reading": "kəˌnɛktɪŋ ˈflaɪt"
+    },
+    {
+      "id": "en.overnight",
+      "text": "overnight",
+      "reading": "ˌoʊvərˈnaɪt"
+    },
+    {
+      "id": "en.voucher",
+      "text": "voucher",
+      "reading": "ˈvaʊtʃər"
+    },
+    {
+      "id": "en.airline",
+      "text": "airline",
+      "reading": "ˈɛrlaɪn"
+    },
+    {
+      "id": "en.upset",
+      "text": "upset",
+      "reading": "ˌʌpˈsɛt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Mr. Brown, have you ever missed a flight?",
+      "reading": "ˈmɪstər ˈbraʊn, hæv juː ˈɛvər ˈmɪst ə ˈflaɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, once. Last December, I was flying home to Canada.",
+      "reading": "ˈjɛs, ˈwʌns. ˈlæst dɪˈsɛmbər, aɪ wʌz ˈflaɪɪŋ ˈhoʊm tə ˈkænədə."
+    },
+    {
+      "speaker": "a",
+      "text": "What was the problem?",
+      "reading": "ˈwʌt wʌz ðə ˈprɑːbləm?"
+    },
+    {
+      "speaker": "b",
+      "text": "My first flight was delayed, so I missed my connecting flight in Tokyo.",
+      "reading": "maɪ ˈfɜːrst ˈflaɪt wʌz dɪˈleɪd, soʊ aɪ ˈmɪst maɪ kəˈnɛktɪŋ ˈflaɪt ɪn ˈtoʊkioʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! What did you have to do?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwʌt dɪd juː ˈhæf tə ˈduː?"
+    },
+    {
+      "speaker": "b",
+      "text": "I had to stay overnight in Tokyo. There were no more flights that day.",
+      "reading": "aɪ ˈhæd tə ˈsteɪ ˌoʊvərˈnaɪt ɪn ˈtoʊkioʊ. ðɛr wɜːr ˈnoʊ ˈmɔːr ˈflaɪts ðæt ˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Did you have to pay for a hotel?",
+      "reading": "dɪd juː ˈhæf tə ˈpeɪ fər ə hoʊˈtɛl?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I didn't have to pay. The airline gave me a voucher for a hotel.",
+      "reading": "ˈnoʊ, aɪ ˈdɪdənt ˈhæf tə ˈpeɪ. ði ˈɛrlaɪn ˈɡeɪv miː ə ˈvaʊtʃər fər ə hoʊˈtɛl."
+    },
+    {
+      "speaker": "a",
+      "text": "That's good! Were you upset?",
+      "reading": "ðæts ˈɡʊd! wɜːr juː ˌʌpˈsɛt?"
+    },
+    {
+      "speaker": "b",
+      "text": "A little. I had to wait for twenty hours, but the hotel was very comfortable!",
+      "reading": "ə ˈlɪtəl. aɪ ˈhæd tə ˈweɪt fər ˈtwɛnti ˈaʊərz, bʌt ðə hoʊˈtɛl wʌz ˈvɛri ˈkʌmftərbəl!"
+    }
+  ]
+}

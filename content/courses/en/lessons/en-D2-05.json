@@ -1,0 +1,87 @@
+{
+  "id": "en-D2-05",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.get-lost",
+      "kind": "phrase",
+      "text": "get lost",
+      "reading": "ˌɡɛt ˈlɔːst"
+    },
+    {
+      "id": "en.get-stuck",
+      "kind": "phrase",
+      "text": "get stuck",
+      "reading": "ˌɡɛt ˈstʌk"
+    },
+    {
+      "id": "en.rush-hour",
+      "text": "rush hour",
+      "reading": "ˈrʌʃ ˌaʊər"
+    },
+    {
+      "id": "en.direction",
+      "text": "direction",
+      "reading": "dəˈrɛkʃən"
+    },
+    {
+      "id": "en.gps",
+      "text": "GPS",
+      "reading": "ˌdʒiː piː ˈɛs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma! How's Hanoi?",
+      "reading": "ˈhaɪ, ˈɛmə! ˈhaʊz hæˈnɔɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's great, but we got lost on our first day!",
+      "reading": "ɪts ˈɡreɪt, bʌt wiː ˈɡɑːt ˈlɔːst ɑːn aʊr ˈfɜːrst ˈdeɪ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Really? Didn't you use GPS?",
+      "reading": "ˈriːli? ˈdɪdənt juː ˈjuːz ˌdʒiː piː ˈɛs?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, but the GPS on my phone didn't work. We walked in the wrong direction for an hour.",
+      "reading": "ˈjɛs, bʌt ðə ˌdʒiː piː ˈɛs ɑːn maɪ ˈfoʊn ˈdɪdənt ˈwɜːrk. wiː ˈwɔːkt ɪn ðə ˈrɔːŋ dəˈrɛkʃən fər ən ˈaʊər."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! How did you get back to your hotel?",
+      "reading": "ˈoʊ ˈnoʊ! ˈhaʊ dɪd juː ˈɡɛt ˈbæk tə jʊr hoʊˈtɛl?"
+    },
+    {
+      "speaker": "c",
+      "text": "We took a taxi, but we got stuck in traffic. It was rush hour.",
+      "reading": "wiː ˈtʊk ə ˈtæksi, bʌt wiː ˈɡɑːt ˈstʌk ɪn ˈtræfɪk. ɪt wʌz ˈrʌʃ ˌaʊər."
+    },
+    {
+      "speaker": "a",
+      "text": "Bangkok is the same at rush hour!",
+      "reading": "ˈbæŋkɑːk ɪz ðə ˈseɪm ət ˈrʌʃ ˌaʊər!"
+    },
+    {
+      "speaker": "c",
+      "text": "We got back at nine, and we got very hungry and tired.",
+      "reading": "wiː ˈɡɑːt ˈbæk ət ˈnaɪn, ənd wiː ˈɡɑːt ˈvɛri ˈhʌŋɡri ənd ˈtaɪərd."
+    },
+    {
+      "speaker": "a",
+      "text": "Are you OK now?",
+      "reading": "ər juː oʊˈkeɪ ˈnaʊ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes! Today we're going on a tour with a guide. We won't get lost again!",
+      "reading": "ˈjɛs! təˈdeɪ wɪr ˈɡoʊɪŋ ɑːn ə ˈtʊr wɪð ə ˈɡaɪd. wiː ˈwoʊnt ˈɡɛt ˈlɔːst əˈɡɛn!"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "en-D1-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.time-off",
+      "kind": "phrase",
+      "text": "time off",
+      "reading": "ˌtaɪm ˈɔːf"
+    },
+    {
+      "id": "en.go-away",
+      "kind": "phrase",
+      "text": "go away",
+      "reading": "ˌɡoʊ əˈweɪ"
+    },
+    {
+      "id": "en.business-trip",
+      "text": "business trip",
+      "reading": "ˈbɪznəs ˌtrɪp"
+    },
+    {
+      "id": "en.travel-agent",
+      "text": "travel agent",
+      "reading": "ˈtrævəl ˌeɪdʒənt"
+    },
+    {
+      "id": "en.honeymoon",
+      "text": "honeymoon",
+      "reading": "ˈhʌnimuːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I have a book for your mom. Can I visit your family this weekend?",
+      "reading": "ˈnɑːm, aɪ ˈhæv ə ˈbʊk fər jʊr ˈmɑːm. kən aɪ ˈvɪzɪt jʊr ˈfæməli ðɪs ˈwiːkɛnd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, Emma. My parents have gone away for a week.",
+      "reading": "ˈsɑːri, ˈɛmə. maɪ ˈpɛrənts hæv ˈɡɔːn əˈweɪ fər ə ˈwiːk."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Where have they gone?",
+      "reading": "ˈoʊ! ˈwɛr hæv ðeɪ ˈɡɔːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "To Vietnam. They have some time off from school.",
+      "reading": "tə ˌviːɛtˈnɑːm. ðeɪ ˈhæv sʌm ˈtaɪm ˈɔːf frəm ˈskuːl."
+    },
+    {
+      "speaker": "c",
+      "text": "Nice! Have they been to Vietnam before?",
+      "reading": "ˈnaɪs! hæv ðeɪ bɪn tə ˌviːɛtˈnɑːm bɪˈfɔːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, they have. They went there on their honeymoon!",
+      "reading": "ˈjɛs, ðeɪ ˈhæv. ðeɪ ˈwɛnt ˈðɛr ɑːn ðɛr ˈhʌnimuːn!"
+    },
+    {
+      "speaker": "c",
+      "text": "How lovely! Did they plan this trip?",
+      "reading": "ˈhaʊ ˈlʌvli! dɪd ðeɪ ˈplæn ðɪs ˈtrɪp?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, a travel agent planned everything. Is your dad in Canada now?",
+      "reading": "ˈnoʊ, ə ˈtrævəl ˌeɪdʒənt ˈplænd ˈɛvriθɪŋ. ɪz jʊr ˈdæd ɪn ˈkænədə ˈnaʊ?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, he's gone to Japan on a business trip. He's been there ten times!",
+      "reading": "ˈnoʊ, hiːz ˈɡɔːn tə dʒəˈpæn ɑːn ə ˈbɪznəs ˌtrɪp. hiːz bɪn ˈðɛr ˈtɛn ˈtaɪmz!"
+    },
+    {
+      "speaker": "a",
+      "text": "Wow! I've been to Japan only once.",
+      "reading": "ˈwaʊ! aɪv bɪn tə dʒəˈpæn ˈoʊnli ˈwʌns."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "en-D6-03",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.charge",
+      "text": "charge",
+      "reading": "tʃɑːrdʒ"
+    },
+    {
+      "id": "en.discount",
+      "text": "discount",
+      "reading": "ˈdɪskaʊnt"
+    },
+    {
+      "id": "en.on-sale",
+      "kind": "phrase",
+      "text": "on sale",
+      "reading": "ɑːn ˈseɪl"
+    },
+    {
+      "id": "en.price-tag",
+      "text": "price tag",
+      "reading": "ˈpraɪs ˌtæɡ"
+    },
+    {
+      "id": "en.bargain",
+      "text": "bargain",
+      "reading": "ˈbɑːrɡən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello. How can I help you?",
+      "reading": "həˈloʊ. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I think you charged me too much for this dress.",
+      "reading": "ˈhaɪ. aɪ ˈθɪŋk juː ˈtʃɑːrdʒd miː ˈtuː ˈmʌtʃ fər ðɪs ˈdrɛs."
+    },
+    {
+      "speaker": "b",
+      "text": "Let me check your receipt. You paid two thousand baht.",
+      "reading": "ˈlɛt miː ˈtʃɛk jʊr rɪˈsiːt. juː ˈpeɪd ˈtuː ˈθaʊzənd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "But it was on sale. Look at the price tag: twenty percent off.",
+      "reading": "bʌt ɪt wʌz ɑːn ˈseɪl. ˈlʊk ət ðə ˈpraɪs ˌtæɡ: ˈtwɛnti pərˈsɛnt ˈɔːf."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, you're right. I'm very sorry. We had too many customers today.",
+      "reading": "ˈoʊ, jʊr ˈraɪt. aɪm ˈvɛri ˈsɑːri. wiː ˈhæd ˈtuː ˈmɛni ˈkʌstəmərz təˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "That's OK. The store was very crowded.",
+      "reading": "ðæts oʊˈkeɪ. ðə ˈstɔːr wʌz ˈvɛri ˈkraʊdɪd."
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, too many people and too much work! Here's your discount: four hundred baht.",
+      "reading": "ˈjɛs, ˈtuː ˈmɛni ˈpiːpəl ənd ˈtuː ˈmʌtʃ ˈwɜːrk! hɪrz jʊr ˈdɪskaʊnt: ˈfɔːr ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! So the dress was only sixteen hundred baht.",
+      "reading": "ˈθæŋk juː! soʊ ðə ˈdrɛs wʌz ˈoʊnli ˌsɪkˈstiːn ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "b",
+      "text": "That's right. It's a real bargain.",
+      "reading": "ðæts ˈraɪt. ɪts ə ˈriːəl ˈbɑːrɡən."
+    },
+    {
+      "speaker": "a",
+      "text": "I know! I love it!",
+      "reading": "aɪ ˈnoʊ! aɪ ˈlʌv ɪt!"
+    }
+  ]
+}

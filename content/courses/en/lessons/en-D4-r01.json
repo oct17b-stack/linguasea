@@ -1,0 +1,95 @@
+{
+  "id": "en-D4-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "en.day-off",
+      "kind": "phrase",
+      "text": "day off",
+      "reading": "ˌdeɪ ˈɔːf"
+    },
+    {
+      "id": "en.permission",
+      "text": "permission",
+      "reading": "pərˈmɪʃən"
+    },
+    {
+      "id": "en.agree",
+      "text": "agree",
+      "reading": "əˈɡriː"
+    },
+    {
+      "id": "en.personal",
+      "text": "personal",
+      "reading": "ˈpɜːrsənəl"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Dear Mr. Davis,",
+        "reading": "ˈdɪr ˈmɪstər ˈdeɪvɪs,"
+      },
+      {
+        "text": "Could I have a day off next Friday, June 20th?",
+        "reading": "kʊd aɪ ˈhæv ə ˈdeɪ ˈɔːf ˈnɛkst ˈfraɪdeɪ, ˈdʒuːn ˈtwɛntiəθ?"
+      },
+      {
+        "text": "I need the day for something personal.",
+        "reading": "aɪ ˈniːd ðə ˈdeɪ fər ˈsʌmθɪŋ ˈpɜːrsənəl."
+      },
+      {
+        "text": "My grandmother is moving to a new house, and she needs my help.",
+        "reading": "maɪ ˈɡrænmʌðər ɪz ˈmuːvɪŋ tu ə ˈnuː ˈhaʊs, ənd ʃiː ˈniːdz maɪ ˈhɛlp."
+      },
+      {
+        "text": "I've already handed in my report, and Kate has agreed to do my tasks that day.",
+        "reading": "aɪv ɔːlˈrɛdi ˈhændɪd ˈɪn maɪ rɪˈpɔːrt, ənd ˈkeɪt hæz əˈɡriːd tə ˈduː maɪ ˈtæsks ðæt ˈdeɪ."
+      },
+      {
+        "text": "Best regards, Nam",
+        "reading": "ˈbɛst rɪˈɡɑːrdz, ˈnɑːm"
+      }
+    ],
+    [
+      {
+        "text": "Hi, Nam,",
+        "reading": "ˈhaɪ, ˈnɑːm,"
+      },
+      {
+        "text": "Yes, you have my permission to take Friday off.",
+        "reading": "ˈjɛs, juː ˈhæv maɪ pərˈmɪʃən tə ˈteɪk ˈfraɪdeɪ ˈɔːf."
+      },
+      {
+        "text": "Thank you for telling me early, and thanks for handing in your report on time.",
+        "reading": "ˈθæŋk juː fər ˈtɛlɪŋ miː ˈɜːrli, ənd ˈθæŋks fər ˈhændɪŋ ˈɪn jʊr rɪˈpɔːrt ɑːn ˈtaɪm."
+      },
+      {
+        "text": "I agree with you: family comes first.",
+        "reading": "aɪ əˈɡriː wɪð juː: ˈfæməli ˈkʌmz ˈfɜːrst."
+      },
+      {
+        "text": "I hope your grandmother likes her new house!",
+        "reading": "aɪ ˈhoʊp jʊr ˈɡrænmʌðər ˈlaɪks hɜːr ˈnuː ˈhaʊs!"
+      },
+      {
+        "text": "Best regards, Mark Davis",
+        "reading": "ˈbɛst rɪˈɡɑːrdz, ˈmɑːrk ˈdeɪvɪs"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

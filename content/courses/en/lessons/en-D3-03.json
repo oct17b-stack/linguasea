@@ -1,0 +1,85 @@
+{
+  "id": "en-D3-03",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.housekeeping",
+      "text": "housekeeping",
+      "reading": "ˈhaʊskiːpɪŋ"
+    },
+    {
+      "id": "en.room-service",
+      "text": "room service",
+      "reading": "ˈruːm ˌsɜːrvɪs"
+    },
+    {
+      "id": "en.key-card",
+      "text": "key card",
+      "reading": "ˈkiː ˌkɑːrd"
+    },
+    {
+      "id": "en.lobby",
+      "text": "lobby",
+      "reading": "ˈlɑːbi"
+    },
+    {
+      "id": "en.elevator",
+      "text": "elevator",
+      "reading": "ˈɛləveɪtər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Has housekeeping cleaned Room 305 yet?",
+      "reading": "ɪkˈskjuːz miː. hæz ˈhaʊskiːpɪŋ ˈkliːnd ˈruːm ˈθriː oʊ ˈfaɪv ˈjɛt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Let me check. I'm sorry. They haven't cleaned it yet.",
+      "reading": "ˈlɛt miː ˈtʃɛk. aɪm ˈsɑːri. ðeɪ ˈhævənt ˈkliːnd ɪt ˈjɛt."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh. When can we go in?",
+      "reading": "ˈoʊ. ˈwɛn kən wiː ˈɡoʊ ˈɪn?"
+    },
+    {
+      "speaker": "c",
+      "text": "In about thirty minutes. You can wait in the lobby.",
+      "reading": "ɪn əˈbaʊt ˈθɜːrti ˈmɪnɪts. juː kən ˈweɪt ɪn ðə ˈlɑːbi."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. And my key card doesn't work. Can you check it?",
+      "reading": "oʊˈkeɪ. ənd maɪ ˈkiː ˌkɑːrd ˈdʌzənt ˈwɜːrk. kən juː ˈtʃɛk ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. Here you are. It works now.",
+      "reading": "əv ˈkɔːrs. ˈhɪr juː ˈɑːr. ɪt ˈwɜːrks ˈnaʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. Is there room service?",
+      "reading": "ˈθæŋks. ɪz ðɛr ˈruːm ˌsɜːrvɪs?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, until ten p.m. Have you had lunch yet?",
+      "reading": "ˈjɛs, ənˈtɪl ˈtɛn ˌpiːˈɛm. hæv juː ˈhæd ˈlʌntʃ ˈjɛt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, not yet. We're very hungry!",
+      "reading": "ˈnoʊ, ˈnɑːt ˈjɛt. wɪr ˈvɛri ˈhʌŋɡri!"
+    },
+    {
+      "speaker": "c",
+      "text": "Then try the café next to the elevator. The food is very good.",
+      "reading": "ˈðɛn ˈtraɪ ðə kæˈfeɪ ˈnɛkst tə ði ˈɛləveɪtər. ðə ˈfuːd ɪz ˈvɛri ˈɡʊd."
+    }
+  ]
+}

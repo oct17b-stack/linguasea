@@ -1,0 +1,86 @@
+{
+  "id": "en-D3-04",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.extra",
+      "text": "extra",
+      "reading": "ˈɛkstrə"
+    },
+    {
+      "id": "en.late-checkout",
+      "kind": "phrase",
+      "text": "late checkout",
+      "reading": "ˌleɪt ˈtʃɛkaʊt"
+    },
+    {
+      "id": "en.wake-up-call",
+      "text": "wake-up call",
+      "reading": "ˈweɪk ʌp ˌkɔːl"
+    },
+    {
+      "id": "en.iron",
+      "text": "iron",
+      "reading": "ˈaɪərn"
+    },
+    {
+      "id": "en.hair-dryer",
+      "text": "hair dryer",
+      "reading": "ˈhɛr ˌdraɪər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Reception. How can I help you?",
+      "reading": "rɪˈsɛpʃən. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi, this is Room 305. Is it possible to get an extra pillow?",
+      "reading": "ˈhaɪ, ðɪs ɪz ˈruːm ˈθriː oʊ ˈfaɪv. ɪz ɪt ˈpɑːsəbəl tə ˈɡɛt ən ˈɛkstrə ˈpɪloʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. I'll bring one up.",
+      "reading": "əv ˈkɔːrs. aɪl ˈbrɪŋ ˈwʌn ˈʌp."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. Would it be possible to have a late checkout tomorrow?",
+      "reading": "ˈθæŋks. wʊd ɪt bi ˈpɑːsəbəl tə ˈhæv ə ˈleɪt ˈtʃɛkaʊt təˈmɑːroʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, you can check out at two. It's free.",
+      "reading": "ˈjɛs, juː kən ˈtʃɛk ˈaʊt ət ˈtuː. ɪts ˈfriː."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! And is there a hair dryer in the room?",
+      "reading": "ˈɡreɪt! ənd ɪz ðɛr ə ˈhɛr ˌdraɪər ɪn ðə ˈruːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it's in the closet. Do you need anything else?",
+      "reading": "ˈjɛs, ɪts ɪn ðə ˈklɑːzɪt. duː juː ˈniːd ˈɛniθɪŋ ˈɛls?"
+    },
+    {
+      "speaker": "a",
+      "text": "Is it possible to borrow an iron? And would it be possible to have a wake-up call at seven?",
+      "reading": "ɪz ɪt ˈpɑːsəbəl tə ˈbɑːroʊ ən ˈaɪərn? ənd wʊd ɪt bi ˈpɑːsəbəl tə ˈhæv ə ˈweɪk ʌp ˌkɔːl ət ˈsɛvən?"
+    },
+    {
+      "speaker": "b",
+      "text": "No problem. I'll bring the iron with your pillow.",
+      "reading": "ˈnoʊ ˈprɑːbləm. aɪl ˈbrɪŋ ði ˈaɪərn wɪð jʊr ˈpɪloʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you so much!",
+      "reading": "ˈθæŋk juː ˈsoʊ ˈmʌtʃ!"
+    }
+  ]
+}

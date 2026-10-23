@@ -1,0 +1,88 @@
+{
+  "id": "en-D3-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "en.confirm",
+      "text": "confirm",
+      "reading": "kənˈfɜːrm"
+    },
+    {
+      "id": "en.arrival",
+      "text": "arrival",
+      "reading": "əˈraɪvəl"
+    },
+    {
+      "id": "en.departure",
+      "text": "departure",
+      "reading": "dɪˈpɑːrtʃər"
+    },
+    {
+      "id": "en.non-smoking",
+      "text": "non-smoking",
+      "reading": "ˌnɑːnˈsmoʊkɪŋ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Dear Nam,",
+        "reading": "ˈdɪr ˈnɑːm,"
+      },
+      {
+        "text": "Thank you for choosing the River View Hotel in Chiang Mai.",
+        "reading": "ˈθæŋk juː fər ˈtʃuːzɪŋ ðə ˈrɪvər ˈvjuː hoʊˈtɛl ɪn ˈtʃjɑːŋ ˈmaɪ."
+      },
+      {
+        "text": "We are happy to confirm your reservation.",
+        "reading": "wiː ər ˈhæpi tə kənˈfɜːrm jʊr ˌrɛzərˈveɪʃən."
+      }
+    ],
+    [
+      {
+        "text": "Your arrival date is Friday, May 9th, and your departure date is Sunday, May 11th.",
+        "reading": "jʊr əˈraɪvəl ˈdeɪt ɪz ˈfraɪdeɪ, ˈmeɪ ˈnaɪnθ, ənd jʊr dɪˈpɑːrtʃər ˈdeɪt ɪz ˈsʌndeɪ, ˈmeɪ ɪˈlɛvənθ."
+      },
+      {
+        "text": "You have booked one double room for two guests.",
+        "reading": "juː hæv ˈbʊkt ˈwʌn ˈdʌbəl ˈruːm fər ˈtuː ˈɡɛsts."
+      },
+      {
+        "text": "It is a non-smoking room with a view of the river.",
+        "reading": "ɪt ɪz ə ˌnɑːnˈsmoʊkɪŋ ˈruːm wɪð ə ˈvjuː əv ðə ˈrɪvər."
+      },
+      {
+        "text": "You have already paid 1,600 baht, so please pay the other 800 baht when you check in.",
+        "reading": "juː hæv ɔːlˈrɛdi ˈpeɪd ˌsɪkˈstiːn ˈhʌndrəd ˈbɑːt, soʊ ˈpliːz ˈpeɪ ði ˈʌðər ˈeɪt ˈhʌndrəd ˈbɑːt wɛn juː ˈtʃɛk ˈɪn."
+      }
+    ],
+    [
+      {
+        "text": "You can check in after two o'clock, and you have to check out before twelve.",
+        "reading": "juː kən ˈtʃɛk ˈɪn ˈæftər ˈtuː əˈklɑːk, ənd juː ˈhæf tə ˈtʃɛk ˈaʊt bɪˈfɔːr ˈtwɛlv."
+      },
+      {
+        "text": "Breakfast is free, and our shuttle to the old city leaves every hour.",
+        "reading": "ˈbrɛkfəst ɪz ˈfriː, ənd aʊr ˈʃʌtəl tə ði ˈoʊld ˈsɪti ˈliːvz ˈɛvri ˈaʊər."
+      },
+      {
+        "text": "We hope you enjoy your stay in Chiang Mai!",
+        "reading": "wiː ˈhoʊp juː ɪnˈdʒɔɪ jʊr ˈsteɪ ɪn ˈtʃjɑːŋ ˈmaɪ!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

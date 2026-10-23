@@ -1,0 +1,92 @@
+{
+  "id": "en-D2-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "en.damaged",
+      "text": "damaged",
+      "reading": "ˈdæmɪdʒd"
+    },
+    {
+      "id": "en.report",
+      "text": "report",
+      "reading": "rɪˈpɔːrt"
+    },
+    {
+      "id": "en.within",
+      "text": "within",
+      "reading": "wɪˈðɪn"
+    },
+    {
+      "id": "en.luggage-tag",
+      "text": "luggage tag",
+      "reading": "ˈlʌɡɪdʒ ˌtæɡ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Is your bag lost or damaged?",
+        "reading": "ɪz jʊr ˈbæɡ ˈlɔːst ɔːr ˈdæmɪdʒd?"
+      },
+      {
+        "text": "Please don't leave the airport.",
+        "reading": "ˈpliːz ˈdoʊnt ˈliːv ði ˈɛrpɔːrt."
+      },
+      {
+        "text": "Go to the baggage desk next to baggage claim and report the problem.",
+        "reading": "ˈɡoʊ tə ðə ˈbæɡɪdʒ ˌdɛsk ˈnɛkst tə ˈbæɡɪdʒ ˌkleɪm ənd rɪˈpɔːrt ðə ˈprɑːbləm."
+      }
+    ],
+    [
+      {
+        "text": "Please bring your passport, your boarding pass and your luggage tag.",
+        "reading": "ˈpliːz ˈbrɪŋ jʊr ˈpæspɔːrt, jʊr ˈbɔːrdɪŋ ˌpæs ənd jʊr ˈlʌɡɪdʒ ˌtæɡ."
+      },
+      {
+        "text": "Tell us the size and color of your bag, and what was in it.",
+        "reading": "ˈtɛl ʌs ðə ˈsaɪz ənd ˈkʌlər əv jʊr ˈbæɡ, ənd ˈwʌt wʌz ɪn ɪt."
+      },
+      {
+        "text": "We will give you a report number.",
+        "reading": "wiː wɪl ˈɡɪv juː ə rɪˈpɔːrt ˈnʌmbər."
+      }
+    ],
+    [
+      {
+        "text": "You must report a damaged bag within seven days.",
+        "reading": "juː mʌst rɪˈpɔːrt ə ˈdæmɪdʒd ˈbæɡ wɪˈðɪn ˈsɛvən ˈdeɪz."
+      },
+      {
+        "text": "Most lost bags arrive within two days.",
+        "reading": "ˈmoʊst ˈlɔːst ˈbæɡz əˈraɪv wɪˈðɪn ˈtuː ˈdeɪz."
+      },
+      {
+        "text": "When we find your bag, we will bring it to your home or hotel.",
+        "reading": "wɛn wiː ˈfaɪnd jʊr ˈbæɡ, wiː wɪl ˈbrɪŋ ɪt tə jʊr ˈhoʊm ɔːr hoʊˈtɛl."
+      },
+      {
+        "text": "You don't have to pay for this service.",
+        "reading": "juː ˈdoʊnt ˈhæf tə ˈpeɪ fər ðɪs ˈsɜːrvɪs."
+      },
+      {
+        "text": "If you have any questions, please go to the baggage desk.",
+        "reading": "ɪf juː ˈhæv ˈɛni ˈkwɛstʃənz, ˈpliːz ˈɡoʊ tə ðə ˈbæɡɪdʒ ˌdɛsk."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

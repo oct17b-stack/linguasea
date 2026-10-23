@@ -1,0 +1,86 @@
+{
+  "id": "en-D2-03",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.delayed",
+      "text": "delayed",
+      "reading": "dɪˈleɪd"
+    },
+    {
+      "id": "en.announcement",
+      "text": "announcement",
+      "reading": "əˈnaʊnsmənt"
+    },
+    {
+      "id": "en.passenger",
+      "text": "passenger",
+      "reading": "ˈpæsɪndʒər"
+    },
+    {
+      "id": "en.wait-in-line",
+      "kind": "phrase",
+      "text": "wait in line",
+      "reading": "ˌweɪt ɪn ˈlaɪn"
+    },
+    {
+      "id": "en.board",
+      "text": "board",
+      "reading": "bɔːrd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good evening. Can I help you?",
+      "reading": "ˈɡʊd ˈiːvnɪŋ. kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. My bag didn't arrive. I was on the flight from Osaka.",
+      "reading": "ˈjɛs. maɪ ˈbæɡ ˈdɪdənt əˈraɪv. aɪ wʌz ɑːn ðə ˈflaɪt frəm oʊˈsɑːkə."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry. Was your flight delayed?",
+      "reading": "aɪm ˈsɑːri. wʌz jʊr ˈflaɪt dɪˈleɪd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, for three hours. And while we were waiting, they changed the gate.",
+      "reading": "ˈjɛs, fər ˈθriː ˈaʊərz. ənd waɪl wiː wɜːr ˈweɪtɪŋ, ðeɪ ˈtʃeɪndʒd ðə ˈɡeɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh. Did you hear the announcement?",
+      "reading": "ˈoʊ. dɪd juː ˈhɪr ði əˈnaʊnsmənt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. I was buying a drink while they were making the announcement!",
+      "reading": "ˈnoʊ. aɪ wʌz ˈbaɪɪŋ ə ˈdrɪŋk waɪl ðeɪ wɜːr ˈmeɪkɪŋ ði əˈnaʊnsmənt!"
+    },
+    {
+      "speaker": "b",
+      "text": "Did you board the plane on time?",
+      "reading": "dɪd juː ˈbɔːrd ðə ˈpleɪn ɑːn ˈtaɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. When I got to the new gate, the passengers were waiting in line to board.",
+      "reading": "ˈjɛs. wɛn aɪ ˈɡɑːt tə ðə ˈnuː ˈɡeɪt, ðə ˈpæsɪndʒərz wɜːr ˈweɪtɪŋ ɪn ˈlaɪn tə ˈbɔːrd."
+    },
+    {
+      "speaker": "b",
+      "text": "Then maybe your bag missed the flight. Can I see your boarding pass, please?",
+      "reading": "ˈðɛn ˈmeɪbi jʊr ˈbæɡ ˈmɪst ðə ˈflaɪt. kən aɪ ˈsiː jʊr ˈbɔːrdɪŋ ˌpæs, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. Here it is.",
+      "reading": "ˈʃʊr. ˈhɪr ɪt ˈɪz."
+    }
+  ]
+}

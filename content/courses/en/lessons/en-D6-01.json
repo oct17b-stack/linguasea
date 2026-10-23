@@ -1,0 +1,85 @@
+{
+  "id": "en-D6-01",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.loose",
+      "text": "loose",
+      "reading": "luːs"
+    },
+    {
+      "id": "en.tight",
+      "text": "tight",
+      "reading": "taɪt"
+    },
+    {
+      "id": "en.exchange",
+      "text": "exchange",
+      "reading": "ɪksˈtʃeɪndʒ"
+    },
+    {
+      "id": "en.refund",
+      "text": "refund",
+      "reading": "ˈriːfʌnd"
+    },
+    {
+      "id": "en.receipt",
+      "text": "receipt",
+      "reading": "rɪˈsiːt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good afternoon. Can I help you?",
+      "reading": "ˈɡʊd ˌæftərˈnuːn. kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I bought these jeans here on Sunday, but they're too tight.",
+      "reading": "ˈjɛs. aɪ ˈbɔːt ðiːz ˈdʒiːnz ˈhɪr ɑːn ˈsʌndeɪ, bʌt ðɛr ˈtuː ˈtaɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "I'm sorry. Would you like to exchange them for a bigger size?",
+      "reading": "aɪm ˈsɑːri. wʊd juː ˈlaɪk tu ɪksˈtʃeɪndʒ ðɛm fər ə ˈbɪɡər ˈsaɪz?"
+    },
+    {
+      "speaker": "a",
+      "text": "I tried a bigger size, but it was too loose.",
+      "reading": "aɪ ˈtraɪd ə ˈbɪɡər ˈsaɪz, bʌt ɪt wʌz ˈtuː ˈluːs."
+    },
+    {
+      "speaker": "c",
+      "text": "How about a different style? These jeans are very popular.",
+      "reading": "ˈhaʊ əˈbaʊt ə ˈdɪfərənt ˈstaɪl? ðiːz ˈdʒiːnz ər ˈvɛri ˈpɑːpjələr."
+    },
+    {
+      "speaker": "a",
+      "text": "No, thanks. They're too expensive. Can I get a refund?",
+      "reading": "ˈnoʊ, ˈθæŋks. ðɛr ˈtuː ɪkˈspɛnsɪv. kən aɪ ˈɡɛt ə ˈriːfʌnd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. Do you have your receipt?",
+      "reading": "əv ˈkɔːrs. duː juː ˈhæv jʊr rɪˈsiːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, here it is.",
+      "reading": "ˈjɛs, ˈhɪr ɪt ˈɪz."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. Here's your money: nine hundred baht.",
+      "reading": "ˈθæŋk juː. hɪrz jʊr ˈmʌni: ˈnaɪn ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks for your help!",
+      "reading": "ˈθæŋks fər jʊr ˈhɛlp!"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "en-D3-01",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.check-in",
+      "kind": "phrase",
+      "text": "check in",
+      "reading": "ˌtʃɛk ˈɪn"
+    },
+    {
+      "id": "en.check-out",
+      "kind": "phrase",
+      "text": "check out",
+      "reading": "ˌtʃɛk ˈaʊt"
+    },
+    {
+      "id": "en.reception",
+      "text": "reception",
+      "reading": "rɪˈsɛpʃən"
+    },
+    {
+      "id": "en.reservation",
+      "text": "reservation",
+      "reading": "ˌrɛzərˈveɪʃən"
+    },
+    {
+      "id": "en.book-a-room",
+      "kind": "phrase",
+      "text": "book a room",
+      "reading": "ˌbʊk ə ˈruːm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good afternoon. Welcome to the River View Hotel.",
+      "reading": "ˈɡʊd ˌæftərˈnuːn. ˈwɛlkəm tə ðə ˈrɪvər ˈvjuː hoʊˈtɛl."
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I'd like to check in, please. I have a reservation.",
+      "reading": "ˈhaɪ. aɪd ˈlaɪk tə ˈtʃɛk ˈɪn, ˈpliːz. aɪ ˈhæv ə ˌrɛzərˈveɪʃən."
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. What's your name, please?",
+      "reading": "ˈʃʊr. ˈwʌts jʊr ˈneɪm, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Nam. I booked a room online two weeks ago.",
+      "reading": "ˈnɑːm. aɪ ˈbʊkt ə ˈruːm ˌɑːnˈlaɪn ˈtuː ˈwiːks əˈɡoʊ."
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, here it is. A room for two people, for two nights.",
+      "reading": "ˈjɛs, ˈhɪr ɪt ˈɪz. ə ˈruːm fər ˈtuː ˈpiːpəl, fər ˈtuː ˈnaɪts."
+    },
+    {
+      "speaker": "a",
+      "text": "That's right. My sister has just texted me. She's on her way.",
+      "reading": "ðæts ˈraɪt. maɪ ˈsɪstər hæz ˈdʒʌst ˈtɛkstɪd miː. ʃiːz ɑːn hɜːr ˈweɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. And when are you going to check out?",
+      "reading": "oʊˈkeɪ. ənd ˈwɛn ər juː ˈɡoʊɪŋ tə ˈtʃɛk ˈaʊt?"
+    },
+    {
+      "speaker": "a",
+      "text": "On Sunday morning. We've just arrived from Bangkok, and we're very hungry!",
+      "reading": "ɑːn ˈsʌndeɪ ˈmɔːrnɪŋ. wiːv ˈdʒʌst əˈraɪvd frəm ˈbæŋkɑːk, ənd wɪr ˈvɛri ˈhʌŋɡri!"
+    },
+    {
+      "speaker": "c",
+      "text": "Then try our restaurant next to reception. It has just opened for dinner.",
+      "reading": "ˈðɛn ˈtraɪ aʊr ˈrɛstərɑːnt ˈnɛkst tə rɪˈsɛpʃən. ɪt hæz ˈdʒʌst ˈoʊpənd fər ˈdɪnər."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Thank you.",
+      "reading": "ˈɡreɪt! ˈθæŋk juː."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "en-D3-05",
+  "target": "en",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "en.buffet",
+      "text": "buffet",
+      "reading": "bəˈfeɪ"
+    },
+    {
+      "id": "en.pool",
+      "text": "pool",
+      "reading": "puːl"
+    },
+    {
+      "id": "en.spa",
+      "text": "spa",
+      "reading": "spɑː"
+    },
+    {
+      "id": "en.free-of-charge",
+      "kind": "phrase",
+      "text": "free of charge",
+      "reading": "ˌfriː əv ˈtʃɑːrdʒ"
+    },
+    {
+      "id": "en.rooftop",
+      "text": "rooftop",
+      "reading": "ˈruːftɑːp"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Good morning. What time does breakfast start?",
+      "reading": "ˈɡʊd ˈmɔːrnɪŋ. ˈwʌt ˈtaɪm ˈdʌz ˈbrɛkfəst ˈstɑːrt?"
+    },
+    {
+      "speaker": "c",
+      "text": "It starts at six thirty. It's a buffet in the restaurant.",
+      "reading": "ɪt ˈstɑːrts ət ˈsɪks ˈθɜːrti. ɪts ə bəˈfeɪ ɪn ðə ˈrɛstərɑːnt."
+    },
+    {
+      "speaker": "a",
+      "text": "Do we have to pay for it?",
+      "reading": "duː wiː ˈhæf tə ˈpeɪ fər ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, breakfast is free of charge for all our guests.",
+      "reading": "ˈnoʊ, ˈbrɛkfəst ɪz ˈfriː əv ˈtʃɑːrdʒ fər ˈɔːl aʊr ˈɡɛsts."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! And what time does the pool open?",
+      "reading": "ˈɡreɪt! ənd ˈwʌt ˈtaɪm ˈdʌz ðə ˈpuːl ˈoʊpən?"
+    },
+    {
+      "speaker": "c",
+      "text": "It opens at eight in the morning and closes at eight in the evening. It's on the rooftop.",
+      "reading": "ɪt ˈoʊpənz ət ˈeɪt ɪn ðə ˈmɔːrnɪŋ ənd ˈkloʊzɪz ət ˈeɪt ɪn ði ˈiːvnɪŋ. ɪts ɑːn ðə ˈruːftɑːp."
+    },
+    {
+      "speaker": "a",
+      "text": "A rooftop pool! And when does the spa open?",
+      "reading": "ə ˈruːftɑːp ˈpuːl! ənd ˈwɛn dʌz ðə ˈspɑː ˈoʊpən?"
+    },
+    {
+      "speaker": "c",
+      "text": "The spa opens at ten, but it isn't free.",
+      "reading": "ðə ˈspɑː ˈoʊpənz ət ˈtɛn, bʌt ɪt ˈɪzənt ˈfriː."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Does the shuttle to the old city leave from here?",
+      "reading": "oʊˈkeɪ. dʌz ðə ˈʃʌtəl tə ði ˈoʊld ˈsɪti ˈliːv frəm ˈhɪr?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, it leaves every hour from the lobby. And it's free of charge, too.",
+      "reading": "ˈjɛs, ɪt ˈliːvz ˈɛvri ˈaʊər frəm ðə ˈlɑːbi. ənd ɪts ˈfriː əv ˈtʃɑːrdʒ, ˈtuː."
+    }
+  ]
+}
