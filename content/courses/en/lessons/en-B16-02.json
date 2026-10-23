@@ -1,0 +1,60 @@
+{
+  "id": "en-B16-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.art",
+      "text": "art",
+      "reading": "ɑːrt"
+    },
+    {
+      "id": "en.economics",
+      "text": "economics",
+      "reading": "ˌɛkəˈnɑːmɪks"
+    },
+    {
+      "id": "en.nursing",
+      "text": "nursing",
+      "reading": "ˈnɜːrsɪŋ"
+    },
+    {
+      "id": "en.accounting",
+      "text": "accounting",
+      "reading": "əˈkaʊntɪŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what's that building?",
+      "reading": "ˈnɑːm, ˈwʌts ðæt ˈbɪldɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "That's the art building. Art students study there.",
+      "reading": "ðæts ði ˈɑːrt ˌbɪldɪŋ. ˈɑːrt ˌstuːdənts ˈstʌdi ˈðɛr."
+    },
+    {
+      "speaker": "b",
+      "text": "And the big building over there?",
+      "reading": "ənd ðə ˈbɪɡ ˈbɪldɪŋ ˌoʊvər ˈðɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Economics and accounting. My friend studies accounting there.",
+      "reading": "ˌɛkəˈnɑːmɪks ənd əˈkaʊntɪŋ. maɪ ˈfrɛnd ˈstʌdiz əˈkaʊntɪŋ ˈðɛr."
+    },
+    {
+      "speaker": "b",
+      "text": "Is there a nursing school?",
+      "reading": "ɪz ðɛr ə ˈnɜːrsɪŋ ˌskuːl?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, it's next to the hospital.",
+      "reading": "ˈjɛs, ɪts ˈnɛkst tə ðə ˈhɑːspɪtəl."
+    }
+  ]
+}

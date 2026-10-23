@@ -1,0 +1,68 @@
+{
+  "id": "en-B14-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.escalator",
+      "text": "escalator",
+      "reading": "ˈɛskəleɪtər"
+    },
+    {
+      "id": "en.basement",
+      "text": "basement",
+      "reading": "ˈbeɪsmənt"
+    },
+    {
+      "id": "en.on-the-floor",
+      "kind": "phrase",
+      "text": "on the … floor",
+      "reading": "ɑːn ðə … ˈflɔːr"
+    },
+    {
+      "id": "en.go-up",
+      "kind": "phrase",
+      "text": "go up",
+      "reading": "ˈɡoʊ ˈʌp"
+    },
+    {
+      "id": "en.go-down",
+      "kind": "phrase",
+      "text": "go down",
+      "reading": "ˈɡoʊ ˈdaʊn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm hungry. Where are the restaurants?",
+      "reading": "ˈnɑːm, aɪm ˈhʌŋɡri. ˈwɛr ər ðə ˈrɛstərɑːnts?"
+    },
+    {
+      "speaker": "a",
+      "text": "They're on the fifth floor. Let's go up!",
+      "reading": "ðɛr ɑːn ðə ˈfɪfθ ˈflɔːr. ˈlɛts ˈɡoʊ ˈʌp!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Where's the escalator?",
+      "reading": "oʊˈkeɪ. ˈwɛrz ði ˈɛskəleɪtər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Over there. But I want bread from the supermarket.",
+      "reading": "ˌoʊvər ˈðɛr. bʌt aɪ ˈwɑːnt ˈbrɛd frəm ðə ˈsuːpərmɑːrkɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "Where's the supermarket?",
+      "reading": "ˈwɛrz ðə ˈsuːpərmɑːrkɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's in the basement. Let's go down, and then go up.",
+      "reading": "ɪts ɪn ðə ˈbeɪsmənt. ˈlɛts ˈɡoʊ ˈdaʊn, ənd ˈðɛn ˈɡoʊ ˈʌp."
+    }
+  ]
+}

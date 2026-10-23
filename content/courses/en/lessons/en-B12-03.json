@@ -1,0 +1,63 @@
+{
+  "id": "en-B12-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.no-parking",
+      "kind": "phrase",
+      "text": "No parking",
+      "reading": "ˈnoʊ ˈpɑːrkɪŋ"
+    },
+    {
+      "id": "en.no-photos",
+      "kind": "phrase",
+      "text": "No photos",
+      "reading": "ˈnoʊ ˈfoʊtoʊz"
+    },
+    {
+      "id": "en.danger",
+      "text": "danger",
+      "reading": "ˈdeɪndʒər"
+    },
+    {
+      "id": "en.keep-out",
+      "kind": "phrase",
+      "text": "Keep out",
+      "reading": "ˈkiːp ˈaʊt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what does that say?",
+      "reading": "ˈnɑːm, ˈwʌt dʌz ˈðæt ˈseɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It says \"Danger. Keep out.\" We can't go in there.",
+      "reading": "ɪt ˈsɛz \"ˈdeɪndʒər. ˈkiːp ˈaʊt.\" wiː ˈkænt ˈɡoʊ ɪn ˈðɛr."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Oh, the temple is beautiful!",
+      "reading": "oʊˈkeɪ. ˈoʊ, ðə ˈtɛmpəl ɪz ˈbjuːtəfəl!"
+    },
+    {
+      "speaker": "a",
+      "text": "Excuse me, can we take photos here?",
+      "reading": "ɪkˈskjuːz miː, kən wiː ˈteɪk ˈfoʊtoʊz ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, no photos. And no parking here, please.",
+      "reading": "ˈsɑːri, ˈnoʊ ˈfoʊtoʊz. ənd ˈnoʊ ˈpɑːrkɪŋ ˈhɪr, ˈpliːz."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, sorry! That's my bike.",
+      "reading": "ˈoʊ, ˈsɑːri! ðæts maɪ ˈbaɪk."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "en-B16-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.lunchtime",
+      "text": "lunchtime",
+      "reading": "ˈlʌntʃtaɪm"
+    },
+    {
+      "id": "en.after-class",
+      "kind": "phrase",
+      "text": "after class",
+      "reading": "ˈæftər ˈklæs"
+    },
+    {
+      "id": "en.sports-day",
+      "text": "sports day",
+      "reading": "ˈspɔːrts ˌdeɪ"
+    },
+    {
+      "id": "en.test",
+      "text": "test",
+      "reading": "tɛst"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what do you do at lunchtime?",
+      "reading": "ˈnɑːm, ˈwʌt duː juː ˈduː ət ˈlʌntʃtaɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I usually eat with Emma at the cafeteria.",
+      "reading": "aɪ ˈjuːʒuəli ˈiːt wɪð ˈɛmə ət ðə ˌkæfəˈtɪriə."
+    },
+    {
+      "speaker": "b",
+      "text": "And after class?",
+      "reading": "ənd ˈæftər ˈklæs?"
+    },
+    {
+      "speaker": "a",
+      "text": "I study in the library. We have a test on Friday.",
+      "reading": "aɪ ˈstʌdi ɪn ðə ˈlaɪbrɛri. wiː ˈhæv ə ˈtɛst ɑːn ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "b",
+      "text": "A test? Oh no!",
+      "reading": "ə ˈtɛst? ˈoʊ ˈnoʊ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, but next week is sports day. I play volleyball!",
+      "reading": "ˈjɛs, bʌt ˈnɛkst ˈwiːk ɪz ˈspɔːrts ˌdeɪ. aɪ ˈpleɪ ˈvɑːlibɔːl!"
+    }
+  ]
+}

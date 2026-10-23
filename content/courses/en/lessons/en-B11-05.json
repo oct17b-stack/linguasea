@@ -1,0 +1,63 @@
+{
+  "id": "en-B11-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.need",
+      "text": "need",
+      "reading": "niːd"
+    },
+    {
+      "id": "en.no-thanks",
+      "kind": "phrase",
+      "text": "No, thanks.",
+      "reading": "ˈnoʊ, ˈθæŋks."
+    },
+    {
+      "id": "en.can-you-heat-it-up",
+      "kind": "phrase",
+      "text": "Can you heat it up?",
+      "reading": "kən juː ˈhiːt ɪt ˈʌp?"
+    },
+    {
+      "id": "en.next-please",
+      "kind": "phrase",
+      "text": "Next, please.",
+      "reading": "ˈnɛkst, ˈpliːz."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Next, please!",
+      "reading": "ˈnɛkst, ˈpliːz!"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. This sandwich and a bottle of water, please.",
+      "reading": "ˈhaɪ. ðɪs ˈsænwɪtʃ ənd ə ˈbɑːtəl əv ˈwɔːtər, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you need a bag?",
+      "reading": "duː juː ˈniːd ə ˈbæɡ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, thanks. Can you heat it up, please?",
+      "reading": "ˈnoʊ, ˈθæŋks. kən juː ˈhiːt ɪt ˈʌp, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. Just a moment.",
+      "reading": "ˈʃʊr. ˈdʒʌst ə ˈmoʊmənt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Can I pay by card?",
+      "reading": "ˈθæŋks! kən aɪ ˈpeɪ baɪ ˈkɑːrd?"
+    }
+  ]
+}

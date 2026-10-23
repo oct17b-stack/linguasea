@@ -1,0 +1,61 @@
+{
+  "id": "en-B14-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.food-court",
+      "text": "food court",
+      "reading": "ˈfuːd ˌkɔːrt"
+    },
+    {
+      "id": "en.tray",
+      "text": "tray",
+      "reading": "treɪ"
+    },
+    {
+      "id": "en.is-this-seat-taken",
+      "kind": "phrase",
+      "text": "Is this seat taken?",
+      "reading": "ɪz ðɪs ˈsiːt ˈteɪkən?"
+    },
+    {
+      "id": "en.share",
+      "text": "share",
+      "reading": "ʃɛr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, this food court is very big!",
+      "reading": "ˈnɑːm, ðɪs ˈfuːd ˌkɔːrt ɪz ˈvɛri ˈbɪɡ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Take a tray, Emma. Let's buy food.",
+      "reading": "ˈjɛs. ˈteɪk ə ˈtreɪ, ˈɛmə. ˈlɛts ˈbaɪ ˈfuːd."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no, there are no seats!",
+      "reading": "ˈoʊ ˈnoʊ, ðɛr ər ˈnoʊ ˈsiːts!"
+    },
+    {
+      "speaker": "a",
+      "text": "Excuse me, is this seat taken?",
+      "reading": "ɪkˈskjuːz miː, ɪz ðɪs ˈsiːt ˈteɪkən?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, go ahead.",
+      "reading": "ˈnoʊ, ˈɡoʊ əˈhɛd."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! Emma, can we share the chicken?",
+      "reading": "ˈθæŋk juː! ˈɛmə, kən wiː ˈʃɛr ðə ˈtʃɪkən?"
+    }
+  ]
+}

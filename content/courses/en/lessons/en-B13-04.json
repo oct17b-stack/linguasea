@@ -1,0 +1,64 @@
+{
+  "id": "en-B13-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.whats-the-problem",
+      "kind": "phrase",
+      "text": "What's the problem?",
+      "reading": "ˈwʌts ðə ˈprɑːbləm?"
+    },
+    {
+      "id": "en.i-need-a-doctor",
+      "kind": "phrase",
+      "text": "I need a doctor.",
+      "reading": "aɪ ˈniːd ə ˈdɑːktər."
+    },
+    {
+      "id": "en.stay-here",
+      "kind": "phrase",
+      "text": "Stay here.",
+      "reading": "ˈsteɪ ˈhɪr."
+    },
+    {
+      "id": "en.please-hurry",
+      "kind": "phrase",
+      "text": "Please hurry!",
+      "reading": "ˈpliːz ˈhɜːri!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me! Can you help? This woman is sick.",
+      "reading": "ɪkˈskjuːz miː! kən juː ˈhɛlp? ðɪs ˈwʊmən ɪz ˈsɪk."
+    },
+    {
+      "speaker": "b",
+      "text": "What's the problem?",
+      "reading": "ˈwʌts ðə ˈprɑːbləm?"
+    },
+    {
+      "speaker": "c",
+      "text": "I feel very sick. I need a doctor.",
+      "reading": "aɪ ˈfiːl ˈvɛri ˈsɪk. aɪ ˈniːd ə ˈdɑːktər."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Sit down and stay here, please.",
+      "reading": "oʊˈkeɪ. ˈsɪt ˈdaʊn ənd ˈsteɪ ˈhɪr, ˈpliːz."
+    },
+    {
+      "speaker": "a",
+      "text": "Please hurry!",
+      "reading": "ˈpliːz ˈhɜːri!"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm calling a doctor now.",
+      "reading": "aɪm ˈkɔːlɪŋ ə ˈdɑːktər ˈnaʊ."
+    }
+  ]
+}

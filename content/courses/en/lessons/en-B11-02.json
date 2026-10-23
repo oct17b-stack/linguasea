@@ -1,0 +1,57 @@
+{
+  "id": "en-B11-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.some",
+      "text": "some",
+      "reading": "sʌm"
+    },
+    {
+      "id": "en.any",
+      "text": "any",
+      "reading": "ˈɛni"
+    },
+    {
+      "id": "en.do-you-have-any",
+      "kind": "phrase",
+      "text": "Do you have any …?",
+      "reading": "duː juː ˈhæv ˈɛni …?"
+    },
+    {
+      "id": "en.over-there",
+      "kind": "phrase",
+      "text": "over there",
+      "reading": "ˈoʊvər ˈðɛr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Do you have any bananas?",
+      "reading": "ɪkˈskjuːz miː. duː juː ˈhæv ˈɛni bəˈnænəz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. They're over there, next to the bread.",
+      "reading": "ˈjɛs. ðɛr ˌoʊvər ˈðɛr, ˈnɛkst tə ðə ˈbrɛd."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! And do you have any ice cream?",
+      "reading": "ˈθæŋks! ənd duː juː ˈhæv ˈɛni ˈaɪs ˌkriːm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, we don't have any ice cream today.",
+      "reading": "ˈsɑːri, wiː ˈdoʊnt ˈhæv ˈɛni ˈaɪs ˌkriːm təˈdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "That's OK. Let's buy some cookies!",
+      "reading": "ðæts oʊˈkeɪ. ˈlɛts ˈbaɪ sʌm ˈkʊkiz!"
+    }
+  ]
+}

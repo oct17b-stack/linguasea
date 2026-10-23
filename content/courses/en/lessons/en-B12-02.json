@@ -1,0 +1,66 @@
+{
+  "id": "en-B12-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.men",
+      "text": "men",
+      "reading": "mɛn"
+    },
+    {
+      "id": "en.women",
+      "text": "women",
+      "reading": "ˈwɪmɪn"
+    },
+    {
+      "id": "en.occupied",
+      "text": "occupied",
+      "reading": "ˈɑːkjəpaɪd"
+    },
+    {
+      "id": "en.vacant",
+      "text": "vacant",
+      "reading": "ˈveɪkənt"
+    },
+    {
+      "id": "en.wet-floor",
+      "kind": "phrase",
+      "text": "Wet floor",
+      "reading": "ˈwɛt ˈflɔːr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, where's the restroom?",
+      "reading": "ˈnɑːm, ˈwɛrz ðə ˈrɛstruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Over there. Men on the left, women on the right.",
+      "reading": "ˌoʊvər ˈðɛr. ˈmɛn ɑːn ðə ˈlɛft, ˈwɪmɪn ɑːn ðə ˈraɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks! Oh, what does the door say?",
+      "reading": "ˈθæŋks! ˈoʊ, ˈwʌt dʌz ðə ˈdɔːr ˈseɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"Occupied.\" Wait a minute… Now it's vacant.",
+      "reading": "\"ˈɑːkjəpaɪd.\" ˈweɪt ə ˈmɪnɪt… ˈnaʊ ɪts ˈveɪkənt."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! Thanks, Nam.",
+      "reading": "ˈɡreɪt! ˈθæŋks, ˈnɑːm."
+    },
+    {
+      "speaker": "a",
+      "text": "Walk slowly, Emma. It says \"Wet floor.\"",
+      "reading": "ˈwɔːk ˈsloʊli, ˈɛmə. ɪt ˈsɛz \"ˈwɛt ˈflɔːr.\""
+    }
+  ]
+}

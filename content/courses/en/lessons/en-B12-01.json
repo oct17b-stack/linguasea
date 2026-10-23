@@ -1,0 +1,60 @@
+{
+  "id": "en-B12-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.open",
+      "text": "open",
+      "reading": "ˈoʊpən"
+    },
+    {
+      "id": "en.closed",
+      "text": "closed",
+      "reading": "kloʊzd"
+    },
+    {
+      "id": "en.push",
+      "text": "push",
+      "reading": "pʊʃ"
+    },
+    {
+      "id": "en.pull",
+      "text": "pull",
+      "reading": "pʊl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is the museum open today?",
+      "reading": "ˈnɑːm, ɪz ðə mjuˈziːəm ˈoʊpən təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's closed on Monday.",
+      "reading": "ˈnoʊ, ɪts ˈkloʊzd ɑːn ˈmʌndeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! And the café?",
+      "reading": "ˈoʊ ˈnoʊ! ənd ðə kæˈfeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "The café is open. Let's go!",
+      "reading": "ðə kæˈfeɪ ɪz ˈoʊpən. ˈlɛts ˈɡoʊ!"
+    },
+    {
+      "speaker": "c",
+      "text": "Nam, the door doesn't open!",
+      "reading": "ˈnɑːm, ðə ˈdɔːr ˈdʌzənt ˈoʊpən!"
+    },
+    {
+      "speaker": "a",
+      "text": "Look, it says \"Pull,\" not \"Push\"!",
+      "reading": "ˈlʊk, ɪt ˈsɛz \"ˈpʊl,\" ˈnɑːt \"ˈpʊʃ\"!"
+    }
+  ]
+}

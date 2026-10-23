@@ -1,0 +1,62 @@
+{
+  "id": "en-B14-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.mall",
+      "text": "mall",
+      "reading": "mɔːl"
+    },
+    {
+      "id": "en.meet",
+      "text": "meet",
+      "reading": "miːt"
+    },
+    {
+      "id": "en.are-you-free-on",
+      "kind": "phrase",
+      "text": "Are you free on …?",
+      "reading": "ər juː ˈfriː ɑːn …?"
+    },
+    {
+      "id": "en.see-you-there",
+      "kind": "phrase",
+      "text": "See you there!",
+      "reading": "ˈsiː juː ˈðɛr!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, are you free on Thursday?",
+      "reading": "ˈɛmə, ər juː ˈfriː ɑːn ˈθɜːrzdeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, I'm busy. But I'm free on Friday.",
+      "reading": "ˈsɑːri, aɪm ˈbɪzi. bʌt aɪm ˈfriː ɑːn ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "OK! Let's go to the mall on Friday after class.",
+      "reading": "oʊˈkeɪ! ˈlɛts ˈɡoʊ tə ðə ˈmɔːl ɑːn ˈfraɪdeɪ ˈæftər ˈklæs."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! Where do we meet?",
+      "reading": "ˈɡreɪt! ˈwɛr duː wiː ˈmiːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "At the station, at four o'clock.",
+      "reading": "ət ðə ˈsteɪʃən, ət ˈfɔːr əˈklɑːk."
+    },
+    {
+      "speaker": "c",
+      "text": "OK! See you there!",
+      "reading": "oʊˈkeɪ! ˈsiː juː ˈðɛr!"
+    }
+  ]
+}

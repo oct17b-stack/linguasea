@@ -1,0 +1,64 @@
+{
+  "id": "en-B13-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.dont-worry",
+      "kind": "phrase",
+      "text": "Don't worry.",
+      "reading": "ˈdoʊnt ˈwɜːri."
+    },
+    {
+      "id": "en.thank-you-for-your-help",
+      "kind": "phrase",
+      "text": "Thank you for your help.",
+      "reading": "ˈθæŋk juː fər jʊr ˈhɛlp."
+    },
+    {
+      "id": "en.youre-very-kind",
+      "kind": "phrase",
+      "text": "You're very kind.",
+      "reading": "jʊr ˈvɛri ˈkaɪnd."
+    },
+    {
+      "id": "en.take-your-time",
+      "kind": "phrase",
+      "text": "Take your time.",
+      "reading": "ˈteɪk jʊr ˈtaɪm."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, my phone is in my bag. I'm very worried.",
+      "reading": "ˈnɑːm, maɪ ˈfoʊn ɪz ɪn maɪ ˈbæɡ. aɪm ˈvɛri ˈwɜːrid."
+    },
+    {
+      "speaker": "a",
+      "text": "Don't worry, Emma. The police can help.",
+      "reading": "ˈdoʊnt ˈwɜːri, ˈɛmə. ðə pəˈliːs kən ˈhɛlp."
+    },
+    {
+      "speaker": "b",
+      "text": "Please write your name and phone number here.",
+      "reading": "ˈpliːz ˈraɪt jʊr ˈneɪm ənd ˈfoʊn ˌnʌmbər ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, I can't write Thai.",
+      "reading": "ˈsɑːri, aɪ ˈkænt ˈraɪt ˈtaɪ."
+    },
+    {
+      "speaker": "b",
+      "text": "English is OK. Take your time.",
+      "reading": "ˈɪŋɡlɪʃ ɪz oʊˈkeɪ. ˈteɪk jʊr ˈtaɪm."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you for your help. You're very kind.",
+      "reading": "ˈθæŋk juː fər jʊr ˈhɛlp. jʊr ˈvɛri ˈkaɪnd."
+    }
+  ]
+}

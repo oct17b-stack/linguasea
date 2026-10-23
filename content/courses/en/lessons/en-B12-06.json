@@ -1,0 +1,62 @@
+{
+  "id": "en-B12-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.you-cant-here",
+      "kind": "phrase",
+      "text": "You can't … here.",
+      "reading": "juː ˈkænt … ˈhɪr."
+    },
+    {
+      "id": "en.trash-can",
+      "text": "trash can",
+      "reading": "ˈtræʃ ˌkæn"
+    },
+    {
+      "id": "en.swimming-pool",
+      "text": "swimming pool",
+      "reading": "ˈswɪmɪŋ ˌpuːl"
+    },
+    {
+      "id": "en.keep-off-the-grass",
+      "kind": "phrase",
+      "text": "Keep off the grass.",
+      "reading": "ˈkiːp ˈɔːf ðə ˈɡræs."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Is the swimming pool open now?",
+      "reading": "ɪkˈskjuːz miː. ɪz ðə ˈswɪmɪŋ ˌpuːl ˈoʊpən ˈnaʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, you can't swim here now. It opens at ten.",
+      "reading": "ˈsɑːri, juː ˈkænt ˈswɪm ˈhɪr ˈnaʊ. ɪt ˈoʊpənz ət ˈtɛn."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh. Can we eat here?",
+      "reading": "ˈoʊ. kən wiː ˈiːt ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, you can. The trash can is over there.",
+      "reading": "ˈjɛs, juː ˈkæn. ðə ˈtræʃ ˌkæn ɪz ˌoʊvər ˈðɛr."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! Let's sit on the grass, Nam.",
+      "reading": "ˈɡreɪt! ˈlɛts ˈsɪt ɑːn ðə ˈɡræs, ˈnɑːm."
+    },
+    {
+      "speaker": "a",
+      "text": "We can't. It says \"Keep off the grass.\"",
+      "reading": "wiː ˈkænt. ɪt ˈsɛz \"ˈkiːp ˈɔːf ðə ˈɡræs.\""
+    }
+  ]
+}

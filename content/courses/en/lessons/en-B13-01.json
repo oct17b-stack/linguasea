@@ -1,0 +1,64 @@
+{
+  "id": "en-B13-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.help",
+      "kind": "phrase",
+      "text": "Help!",
+      "reading": "ˈhɛlp!"
+    },
+    {
+      "id": "en.can-you-help-me",
+      "kind": "phrase",
+      "text": "Can you help me?",
+      "reading": "kən juː ˈhɛlp miː?"
+    },
+    {
+      "id": "en.are-you-ok",
+      "kind": "phrase",
+      "text": "Are you OK?",
+      "reading": "ər juː oʊˈkeɪ?"
+    },
+    {
+      "id": "en.im-ok",
+      "kind": "phrase",
+      "text": "I'm OK.",
+      "reading": "aɪm oʊˈkeɪ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hello, Nam? Help!",
+      "reading": "həˈloʊ, ˈnɑːm? ˈhɛlp!"
+    },
+    {
+      "speaker": "a",
+      "text": "Emma? Are you OK?",
+      "reading": "ˈɛmə? ər juː oʊˈkeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm OK. Can you help me? I'm at a big market.",
+      "reading": "aɪm oʊˈkeɪ. kən juː ˈhɛlp miː? aɪm ət ə ˈbɪɡ ˈmɑːrkɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. Which market?",
+      "reading": "ˈʃʊr. ˈwɪtʃ ˈmɑːrkɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "I don't know. It's next to a temple.",
+      "reading": "aɪ ˈdoʊnt ˈnoʊ. ɪts ˈnɛkst tə ə ˈtɛmpəl."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Stay there, Emma. I'm coming!",
+      "reading": "oʊˈkeɪ. ˈsteɪ ˈðɛr, ˈɛmə. aɪm ˈkʌmɪŋ!"
+    }
+  ]
+}

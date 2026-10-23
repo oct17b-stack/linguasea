@@ -1,0 +1,63 @@
+{
+  "id": "en-B15-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.is-that-correct",
+      "kind": "phrase",
+      "text": "Is that correct?",
+      "reading": "ɪz ˈðæt kəˈrɛkt?"
+    },
+    {
+      "id": "en.thats-right",
+      "kind": "phrase",
+      "text": "That's right.",
+      "reading": "ˈðæts ˈraɪt."
+    },
+    {
+      "id": "en.can-you-say-that-again",
+      "kind": "phrase",
+      "text": "Can you say that again?",
+      "reading": "kən juː ˈseɪ ðæt əˈɡɛn?"
+    },
+    {
+      "id": "en.member",
+      "text": "member",
+      "reading": "ˈmɛmbər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Your date of birth is June 5th, 2006. Is that correct?",
+      "reading": "jʊr ˌdeɪt əv ˈbɜːrθ ɪz ˈdʒuːn ˈfɪfθ, ˈtuː ˈθaʊzənd ˈsɪks. ɪz ˈðæt kəˈrɛkt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, that's right.",
+      "reading": "ˈjɛs, ˈðæts ˈraɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "And your phone number is 098-765-4312.",
+      "reading": "ənd jʊr ˈfoʊn ˌnʌmbər ɪz ˈzɪroʊ ˈnaɪn ˈeɪt, ˈsɛvən ˈsɪks ˈfaɪv, ˈfɔːr ˈθriː ˈwʌn ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, can you say that again?",
+      "reading": "ˈsɑːri, kən juː ˈseɪ ðæt əˈɡɛn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Zero nine eight, seven six five, four three one two.",
+      "reading": "ˈzɪroʊ ˈnaɪn ˈeɪt, ˈsɛvən ˈsɪks ˈfaɪv, ˈfɔːr ˈθriː ˈwʌn ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's four three two one.",
+      "reading": "ˈnoʊ, ɪts ˈfɔːr ˈθriː ˈtuː ˈwʌn."
+    }
+  ]
+}

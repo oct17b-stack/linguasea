@@ -1,0 +1,64 @@
+{
+  "id": "en-B12-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.dont",
+      "kind": "phrase",
+      "text": "Don't …",
+      "reading": "ˈdoʊnt …"
+    },
+    {
+      "id": "en.be-careful",
+      "kind": "phrase",
+      "text": "Be careful!",
+      "reading": "bi ˈkɛrfəl!"
+    },
+    {
+      "id": "en.watch-out",
+      "kind": "phrase",
+      "text": "Watch out!",
+      "reading": "ˈwɑːtʃ ˈaʊt!"
+    },
+    {
+      "id": "en.stop",
+      "kind": "phrase",
+      "text": "Stop!",
+      "reading": "ˈstɑːp!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, the temple is across the street. Let's go!",
+      "reading": "ˈnɑːm, ðə ˈtɛmpəl ɪz əˈkrɔːs ðə ˈstriːt. ˈlɛts ˈɡoʊ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Stop! Don't cross here. The traffic light is red.",
+      "reading": "ˈstɑːp! ˈdoʊnt ˈkrɔːs ˈhɪr. ðə ˈtræfɪk ˌlaɪt ɪz ˈrɛd."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, sorry!",
+      "reading": "ˈoʊ, ˈsɑːri!"
+    },
+    {
+      "speaker": "a",
+      "text": "Watch out! A motorcycle!",
+      "reading": "ˈwɑːtʃ ˈaʊt! ə ˈmoʊtərsaɪkəl!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks, Nam! I'm scared!",
+      "reading": "ˈθæŋks, ˈnɑːm! aɪm ˈskɛrd!"
+    },
+    {
+      "speaker": "a",
+      "text": "Be careful, Emma. OK, it's green now. Let's go!",
+      "reading": "bi ˈkɛrfəl, ˈɛmə. oʊˈkeɪ, ɪts ˈɡriːn ˈnaʊ. ˈlɛts ˈɡoʊ!"
+    }
+  ]
+}

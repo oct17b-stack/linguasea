@@ -1,0 +1,64 @@
+{
+  "id": "en-B13-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.im-lost",
+      "kind": "phrase",
+      "text": "I'm lost.",
+      "reading": "aɪm ˈlɔːst."
+    },
+    {
+      "id": "en.this-way",
+      "kind": "phrase",
+      "text": "this way",
+      "reading": "ˈðɪs ˈweɪ"
+    },
+    {
+      "id": "en.that-way",
+      "kind": "phrase",
+      "text": "that way",
+      "reading": "ˈðæt ˈweɪ"
+    },
+    {
+      "id": "en.follow-me",
+      "kind": "phrase",
+      "text": "Follow me.",
+      "reading": "ˈfɑːloʊ miː."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm lost. This market is very big!",
+      "reading": "ˈnɑːm, aɪm ˈlɔːst. ðɪs ˈmɑːrkɪt ɪz ˈvɛri ˈbɪɡ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Me too! Excuse me, where's the train station?",
+      "reading": "ˈmiː ˈtuː! ɪkˈskjuːz miː, ˈwɛrz ðə ˈtreɪn ˌsteɪʃən?"
+    },
+    {
+      "speaker": "b",
+      "text": "The station? It's that way. Follow me.",
+      "reading": "ðə ˈsteɪʃən? ɪts ˈðæt ˈweɪ. ˈfɑːloʊ miː."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you! Is it far?",
+      "reading": "ˈθæŋk juː! ɪz ɪt ˈfɑːr?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, it's near. This way, please.",
+      "reading": "ˈnoʊ, ɪts ˈnɪr. ˈðɪs ˈweɪ, ˈpliːz."
+    },
+    {
+      "speaker": "a",
+      "text": "Look, Emma! There's the station.",
+      "reading": "ˈlʊk, ˈɛmə! ˈðɛrz ðə ˈsteɪʃən."
+    }
+  ]
+}

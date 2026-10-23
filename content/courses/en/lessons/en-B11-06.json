@@ -1,0 +1,61 @@
+{
+  "id": "en-B11-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.want",
+      "text": "want",
+      "reading": "wɑːnt"
+    },
+    {
+      "id": "en.enough",
+      "text": "enough",
+      "reading": "ɪˈnʌf"
+    },
+    {
+      "id": "en.thats-all",
+      "kind": "phrase",
+      "text": "That's all.",
+      "reading": "ˈðæts ˈɔːl."
+    },
+    {
+      "id": "en.plastic-bag",
+      "text": "plastic bag",
+      "reading": "ˌplæstɪk ˈbæɡ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Is that all?",
+      "reading": "ɪz ðæt ˈɔːl?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, that's all.",
+      "reading": "ˈjɛs, ˈðæts ˈɔːl."
+    },
+    {
+      "speaker": "b",
+      "text": "That's ninety baht. Do you want a plastic bag?",
+      "reading": "ðæts ˈnaɪnti ˈbɑːt. duː juː ˈwɑːnt ə ˌplæstɪk ˈbæɡ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, thanks. Oh no! I don't have enough money.",
+      "reading": "ˈnoʊ, ˈθæŋks. ˈoʊ ˈnoʊ! aɪ ˈdoʊnt ˈhæv ɪˈnʌf ˈmʌni."
+    },
+    {
+      "speaker": "c",
+      "text": "How much do you want? Here's fifty baht.",
+      "reading": "ˈhaʊ ˈmʌtʃ duː juː ˈwɑːnt? hɪrz ˈfɪfti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks, Emma! Forty is enough.",
+      "reading": "ˈθæŋks, ˈɛmə! ˈfɔːrti ɪz ɪˈnʌf."
+    }
+  ]
+}

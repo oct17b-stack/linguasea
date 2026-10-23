@@ -1,0 +1,62 @@
+{
+  "id": "en-B13-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.i-cant-find",
+      "kind": "phrase",
+      "text": "I can't find …",
+      "reading": "aɪ ˈkænt ˈfaɪnd …"
+    },
+    {
+      "id": "en.police",
+      "text": "police",
+      "reading": "pəˈliːs"
+    },
+    {
+      "id": "en.police-station",
+      "text": "police station",
+      "reading": "pəˈliːs ˌsteɪʃən"
+    },
+    {
+      "id": "en.call-the-police",
+      "kind": "phrase",
+      "text": "Call the police!",
+      "reading": "ˈkɔːl ðə pəˈliːs!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Oh no! Nam, I can't find my bag!",
+      "reading": "ˈoʊ ˈnoʊ! ˈnɑːm, aɪ ˈkænt ˈfaɪnd maɪ ˈbæɡ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Your bag? Is it at the restaurant?",
+      "reading": "jʊr ˈbæɡ? ɪz ɪt ət ðə ˈrɛstərɑːnt?"
+    },
+    {
+      "speaker": "c",
+      "text": "No! My phone is in it. Call the police!",
+      "reading": "ˈnoʊ! maɪ ˈfoʊn ɪz ˈɪn ɪt. ˈkɔːl ðə pəˈliːs!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK. The police station is near here.",
+      "reading": "oʊˈkeɪ. ðə pəˈliːs ˌsteɪʃən ɪz ˈnɪr ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "Really? Where?",
+      "reading": "ˈriːli? ˈwɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's next to the bank. Come with me!",
+      "reading": "ɪts ˈnɛkst tə ðə ˈbæŋk. ˈkʌm wɪð ˈmiː!"
+    }
+  ]
+}

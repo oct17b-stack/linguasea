@@ -1,0 +1,45 @@
+{
+  "lesson": "en-B16-02",
+  "title": "คณะและสาขาวิชา",
+  "intro": "เรียกชื่อสาขาวิชาและตึกคณะต่าง ๆ ในมหาวิทยาลัย",
+  "items": {
+    "en.art": {
+      "meaning": "ศิลปะ",
+      "translit": "อาร์ต"
+    },
+    "en.economics": {
+      "meaning": "เศรษฐศาสตร์",
+      "translit": "เอ็คคะนอมิกส์"
+    },
+    "en.nursing": {
+      "meaning": "พยาบาลศาสตร์, การพยาบาล",
+      "translit": "เนิร์สซิ่ง"
+    },
+    "en.accounting": {
+      "meaning": "การบัญชี",
+      "translit": "อะเคานท์ติ้ง"
+    }
+  },
+  "dialogue": [
+    "น้ำ ตึกนั้นคือตึกอะไร",
+    "ตึกศิลปะ นักศึกษาศิลปะเรียนที่นั่น",
+    "แล้วตึกใหญ่ตรงโน้นล่ะ",
+    "เศรษฐศาสตร์กับบัญชี เพื่อนฉันเรียนบัญชีที่นั่น",
+    "มีคณะพยาบาลไหม",
+    "มี อยู่ข้าง ๆ โรงพยาบาล"
+  ],
+  "notes": [
+    {
+      "title": "ชื่อวิชาไม่มี a / the",
+      "body": "ชื่อสาขาวิชาใช้เฉย ๆ ไม่มี a หรือ the: I study art. She studies nursing."
+    },
+    {
+      "title": "economics",
+      "body": "economics ลงท้ายด้วย s แต่เป็นชื่อวิชาวิชาเดียว จึงใช้กับ is: Economics is interesting."
+    },
+    {
+      "title": "studies",
+      "body": "ประธานอย่าง he, she หรือ my friend ใช้ studies (เปลี่ยน y เป็น ies): My friend studies accounting."
+    }
+  ]
+}

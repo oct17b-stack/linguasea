@@ -1,0 +1,61 @@
+{
+  "id": "en-B11-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.convenience-store",
+      "text": "convenience store",
+      "reading": "kənˈviːniəns ˌstɔːr"
+    },
+    {
+      "id": "en.snack",
+      "text": "snack",
+      "reading": "snæk"
+    },
+    {
+      "id": "en.chips",
+      "text": "chips",
+      "reading": "tʃɪps"
+    },
+    {
+      "id": "en.soda",
+      "text": "soda",
+      "reading": "ˈsoʊdə"
+    },
+    {
+      "id": "en.a-bottle-of",
+      "kind": "phrase",
+      "text": "a bottle of …",
+      "reading": "ə ˈbɑːtəl əv …"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm thirsty. Is there a convenience store near here?",
+      "reading": "ˈnɑːm, aɪm ˈθɜːrsti. ɪz ðɛr ə kənˈviːniəns ˌstɔːr ˈnɪr ˈhɪr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, it's on the corner. Let's buy snacks, too!",
+      "reading": "ˈjɛs, ɪts ɑːn ðə ˈkɔːrnər. ˈlɛts ˈbaɪ ˈsnæks, ˈtuː!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK! Oh, look! They have chips.",
+      "reading": "oʊˈkeɪ! ˈoʊ, ˈlʊk! ðeɪ ˈhæv ˈtʃɪps."
+    },
+    {
+      "speaker": "a",
+      "text": "I love chips! And I'd like a soda.",
+      "reading": "aɪ ˈlʌv ˈtʃɪps! ənd aɪd ˈlaɪk ə ˈsoʊdə."
+    },
+    {
+      "speaker": "c",
+      "text": "Soda is too sweet for me. I'd like a bottle of water.",
+      "reading": "ˈsoʊdə ɪz ˈtuː ˈswiːt fər miː. aɪd ˈlaɪk ə ˈbɑːtəl əv ˈwɔːtər."
+    }
+  ]
+}

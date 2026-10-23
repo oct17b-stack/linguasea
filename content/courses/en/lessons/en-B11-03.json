@@ -1,0 +1,62 @@
+{
+  "id": "en-B11-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.a-can-of",
+      "kind": "phrase",
+      "text": "a can of …",
+      "reading": "ə ˈkæn əv …"
+    },
+    {
+      "id": "en.a-pack-of",
+      "kind": "phrase",
+      "text": "a pack of …",
+      "reading": "ə ˈpæk əv …"
+    },
+    {
+      "id": "en.instant-noodles",
+      "text": "instant noodles",
+      "reading": "ˌɪnstənt ˈnuːdəlz"
+    },
+    {
+      "id": "en.sausage",
+      "text": "sausage",
+      "reading": "ˈsɔːsɪdʒ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what are you buying?",
+      "reading": "ˈnɑːm, ˈwʌt ər juː ˈbaɪɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "A pack of instant noodles and a can of coffee.",
+      "reading": "ə ˈpæk əv ˌɪnstənt ˈnuːdəlz ənd ə ˈkæn əv ˈkɔːfi."
+    },
+    {
+      "speaker": "c",
+      "text": "Instant noodles again? Have a sausage, too!",
+      "reading": "ˌɪnstənt ˈnuːdəlz əˈɡɛn? ˈhæv ə ˈsɔːsɪdʒ, ˈtuː!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! Excuse me, how much is a sausage?",
+      "reading": "oʊˈkeɪ! ɪkˈskjuːz miː, ˈhaʊ ˈmʌtʃ ɪz ə ˈsɔːsɪdʒ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Twenty baht. How many?",
+      "reading": "ˈtwɛnti ˈbɑːt. ˈhaʊ ˈmɛni?"
+    },
+    {
+      "speaker": "a",
+      "text": "Two, please. One for my friend!",
+      "reading": "ˈtuː, ˈpliːz. ˈwʌn fər maɪ ˈfrɛnd!"
+    }
+  ]
+}

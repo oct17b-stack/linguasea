@@ -1,0 +1,62 @@
+{
+  "id": "en-B16-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.where-do-you-study",
+      "kind": "phrase",
+      "text": "Where do you study?",
+      "reading": "ˈwɛr duː juː ˈstʌdi?"
+    },
+    {
+      "id": "en.what-do-you-study",
+      "kind": "phrase",
+      "text": "What do you study?",
+      "reading": "ˈwʌt duː juː ˈstʌdi?"
+    },
+    {
+      "id": "en.engineering",
+      "text": "engineering",
+      "reading": "ˌɛndʒɪˈnɪrɪŋ"
+    },
+    {
+      "id": "en.business",
+      "text": "business",
+      "reading": "ˈbɪznəs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! I'm Kenji. I'm a new student from Japan.",
+      "reading": "ˈhaɪ! aɪm ˈkɛndʒi. aɪm ə ˈnuː ˈstuːdənt frəm dʒəˈpæn."
+    },
+    {
+      "speaker": "a",
+      "text": "Welcome! I'm Nam. Where do you study in Japan?",
+      "reading": "ˈwɛlkəm! aɪm ˈnɑːm. ˈwɛr duː juː ˈstʌdi ɪn dʒəˈpæn?"
+    },
+    {
+      "speaker": "b",
+      "text": "At a university in Osaka.",
+      "reading": "ət ə ˌjuːnɪˈvɜːrsəti ɪn oʊˈsɑːkə."
+    },
+    {
+      "speaker": "a",
+      "text": "What do you study? Business?",
+      "reading": "ˈwʌt duː juː ˈstʌdi? ˈbɪznəs?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, engineering. And you?",
+      "reading": "ˈnoʊ, ˌɛndʒɪˈnɪrɪŋ. ənd ˈjuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I study English. The engineering building is over there.",
+      "reading": "aɪ ˈstʌdi ˈɪŋɡlɪʃ. ði ˌɛndʒɪˈnɪrɪŋ ˌbɪldɪŋ ɪz ˌoʊvər ˈðɛr."
+    }
+  ]
+}

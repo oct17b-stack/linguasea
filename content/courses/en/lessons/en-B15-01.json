@@ -1,0 +1,60 @@
+{
+  "id": "en-B15-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.address",
+      "text": "address",
+      "reading": "ˈædrɛs"
+    },
+    {
+      "id": "en.road",
+      "text": "road",
+      "reading": "roʊd"
+    },
+    {
+      "id": "en.zip-code",
+      "text": "zip code",
+      "reading": "ˈzɪp ˌkoʊd"
+    },
+    {
+      "id": "en.district",
+      "text": "district",
+      "reading": "ˈdɪstrɪkt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good evening. What's your address, please?",
+      "reading": "ɡʊd ˈiːvnɪŋ. ˈwʌts jʊr ˈædrɛs, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's 25 Rama 4 Road, Bang Rak.",
+      "reading": "ɪts ˈtwɛnti ˈfaɪv ˈrɑːmə ˈfɔːr ˈroʊd, ˈbɑːŋ ˈrɑːk."
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, which road?",
+      "reading": "ˈsɑːri, ˈwɪtʃ ˈroʊd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Rama 4 Road. R-A-M-A, Rama.",
+      "reading": "ˈrɑːmə ˈfɔːr ˈroʊd. ˈɑːr ˈeɪ ˈɛm ˈeɪ, ˈrɑːmə."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. Is Bang Rak the district?",
+      "reading": "ˈθæŋk juː. ɪz ˈbɑːŋ ˈrɑːk ðə ˈdɪstrɪkt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. And the zip code is 10500.",
+      "reading": "ˈjɛs. ənd ðə ˈzɪp ˌkoʊd ɪz ˈwʌn ˈzɪroʊ ˈfaɪv ˈzɪroʊ ˈzɪroʊ."
+    }
+  ]
+}

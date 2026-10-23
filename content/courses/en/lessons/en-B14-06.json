@@ -1,0 +1,64 @@
+{
+  "id": "en-B14-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.lets-meet-at",
+      "kind": "phrase",
+      "text": "Let's meet at …",
+      "reading": "ˈlɛts ˈmiːt ət …"
+    },
+    {
+      "id": "en.im-here",
+      "kind": "phrase",
+      "text": "I'm here.",
+      "reading": "aɪm ˈhɪr."
+    },
+    {
+      "id": "en.i-cant-see-you",
+      "kind": "phrase",
+      "text": "I can't see you.",
+      "reading": "aɪ ˈkænt ˈsiː juː."
+    },
+    {
+      "id": "en.wait-for-me",
+      "kind": "phrase",
+      "text": "Wait for me!",
+      "reading": "ˈweɪt fər ˈmiː!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm here! Where are you?",
+      "reading": "ˈnɑːm, aɪm ˈhɪr! ˈwɛr ər juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm at the café, next to the escalator.",
+      "reading": "aɪm ət ðə kæˈfeɪ, ˈnɛkst tə ði ˈɛskəleɪtər."
+    },
+    {
+      "speaker": "c",
+      "text": "I'm at the escalator, too. But I can't see you!",
+      "reading": "aɪm ət ði ˈɛskəleɪtər, ˈtuː. bʌt aɪ ˈkænt ˈsiː juː!"
+    },
+    {
+      "speaker": "a",
+      "text": "Let's meet at the bank on the first floor.",
+      "reading": "ˈlɛts ˈmiːt ət ðə ˈbæŋk ɑːn ðə ˈfɜːrst ˈflɔːr."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. I'm on my way.",
+      "reading": "oʊˈkeɪ. aɪm ɑːn maɪ ˈweɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "I'm coming, too. Wait for me!",
+      "reading": "aɪm ˈkʌmɪŋ, ˈtuː. ˈweɪt fər ˈmiː!"
+    }
+  ]
+}

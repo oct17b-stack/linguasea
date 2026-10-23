@@ -1,0 +1,64 @@
+{
+  "id": "en-B12-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.take-off-your-shoes",
+      "kind": "phrase",
+      "text": "Take off your shoes.",
+      "reading": "ˈteɪk ˈɔːf jʊr ˈʃuːz."
+    },
+    {
+      "id": "en.line-up",
+      "kind": "phrase",
+      "text": "line up",
+      "reading": "ˈlaɪn ˈʌp"
+    },
+    {
+      "id": "en.please-wait-here",
+      "kind": "phrase",
+      "text": "Please wait here.",
+      "reading": "ˈpliːz ˈweɪt ˈhɪr."
+    },
+    {
+      "id": "en.staff-only",
+      "kind": "phrase",
+      "text": "Staff only",
+      "reading": "ˈstæf ˈoʊnli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello! Please line up here for tickets.",
+      "reading": "həˈloʊ! ˈpliːz ˈlaɪn ˈʌp ˈhɪr fər ˈtɪkɪts."
+    },
+    {
+      "speaker": "c",
+      "text": "Nam, do you need a ticket, too?",
+      "reading": "ˈnɑːm, duː juː ˈniːd ə ˈtɪkɪt, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. It's free for Thai people.",
+      "reading": "ˈnoʊ. ɪts ˈfriː fər ˈtaɪ ˈpiːpəl."
+    },
+    {
+      "speaker": "b",
+      "text": "Thank you. Please take off your shoes and wait here.",
+      "reading": "ˈθæŋk juː. ˈpliːz ˈteɪk ˈɔːf jʊr ˈʃuːz ənd ˈweɪt ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "Nam, can I use this restroom?",
+      "reading": "ˈnɑːm, kən aɪ ˈjuːz ðɪs ˈrɛstruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, sorry. It says \"Staff only.\"",
+      "reading": "ˈnoʊ, ˈsɑːri. ɪt ˈsɛz \"ˈstæf ˈoʊnli.\""
+    }
+  ]
+}

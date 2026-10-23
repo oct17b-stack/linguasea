@@ -1,0 +1,88 @@
+{
+  "id": "zh-D1-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.lv-ke",
+      "text": "旅客",
+      "reading": "lǚkè"
+    },
+    {
+      "id": "zh.jian-piao-kou",
+      "text": "检票口",
+      "reading": "jiǎnpiàokǒu"
+    },
+    {
+      "id": "zh.che-ci",
+      "text": "车次",
+      "reading": "chēcì"
+    },
+    {
+      "id": "zh.zhan-tai",
+      "text": "站台",
+      "reading": "zhàntái"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "旅客朋友们，你们好！",
+        "reading": "Lǚkè péngyoumen, nǐmen hǎo!"
+      },
+      {
+        "text": "高铁开车前十五分钟开始检票。",
+        "reading": "Gāotiě kāichē qián shíwǔ fēnzhōng kāishǐ jiǎnpiào."
+      },
+      {
+        "text": "开车前五分钟，检票口就关了。",
+        "reading": "Kāichē qián wǔ fēnzhōng, jiǎnpiàokǒu jiù guān le."
+      },
+      {
+        "text": "请您提前到达检票口。",
+        "reading": "Qǐng nín tíqián dàodá jiǎnpiàokǒu."
+      }
+    ],
+    [
+      {
+        "text": "检票的时候，请您拿好身份证或者护照。",
+        "reading": "Jiǎnpiào de shíhou, qǐng nín náhǎo shēnfènzhèng huòzhě hùzhào."
+      },
+      {
+        "text": "外国旅客请用护照。",
+        "reading": "Wàiguó lǚkè qǐng yòng hùzhào."
+      },
+      {
+        "text": "每个车次的检票口不一样，请您看清楚。",
+        "reading": "Měi ge chēcì de jiǎnpiàokǒu bù yīyàng, qǐng nín kàn qīngchu."
+      }
+    ],
+    [
+      {
+        "text": "检票以后，请您到站台上等车。",
+        "reading": "Jiǎnpiào yǐhòu, qǐng nín dào zhàntái shang děng chē."
+      },
+      {
+        "text": "站台上人很多，请注意安全，不要跑。",
+        "reading": "Zhàntái shang rén hěn duō, qǐng zhùyì ānquán, bù yào pǎo."
+      },
+      {
+        "text": "祝您一路平安！",
+        "reading": "Zhù nín yīlù píng'ān!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

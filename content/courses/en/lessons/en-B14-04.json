@@ -1,0 +1,62 @@
+{
+  "id": "en-B14-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.see-a-movie",
+      "kind": "phrase",
+      "text": "see a movie",
+      "reading": "ˈsiː ə ˈmuːvi"
+    },
+    {
+      "id": "en.movie-theater",
+      "text": "movie theater",
+      "reading": "ˈmuːvi ˌθiːətər"
+    },
+    {
+      "id": "en.two-tickets-please",
+      "kind": "phrase",
+      "text": "Two tickets, please.",
+      "reading": "ˈtuː ˈtɪkɪts, ˈpliːz."
+    },
+    {
+      "id": "en.row",
+      "text": "row",
+      "reading": "roʊ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, let's see a movie!",
+      "reading": "ˈnɑːm, ˈlɛts ˈsiː ə ˈmuːvi!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! The movie theater is upstairs.",
+      "reading": "oʊˈkeɪ! ðə ˈmuːvi ˌθiːətər ɪz ˌʌpˈstɛrz."
+    },
+    {
+      "speaker": "b",
+      "text": "Hello! Can I help you?",
+      "reading": "həˈloʊ! kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Two tickets, please. What time does the Thai movie start?",
+      "reading": "ˈtuː ˈtɪkɪts, ˈpliːz. ˈwʌt ˈtaɪm dʌz ðə ˈtaɪ ˈmuːvi ˈstɑːrt?"
+    },
+    {
+      "speaker": "b",
+      "text": "At five o'clock. Row C or row H?",
+      "reading": "ət ˈfaɪv əˈklɑːk. ˈroʊ ˈsiː ɔːr ˈroʊ ˈeɪtʃ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Row H, please.",
+      "reading": "ˈroʊ ˈeɪtʃ, ˈpliːz."
+    }
+  ]
+}

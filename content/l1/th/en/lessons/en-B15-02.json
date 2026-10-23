@@ -1,0 +1,45 @@
+{
+  "lesson": "en-B15-02",
+  "title": "อีเมลของฉัน",
+  "intro": "อ่านที่อยู่อีเมลออกเสียงเป็นภาษาอังกฤษ (at, dot, underscore) และสะกดทีละตัว",
+  "items": {
+    "en.email": {
+      "meaning": "อีเมล",
+      "translit": "อีเมล"
+    },
+    "en.at-sign": {
+      "meaning": "แอท (เครื่องหมาย @ ในอีเมล)",
+      "translit": "แอท"
+    },
+    "en.dot": {
+      "meaning": "จุด (ในอีเมลและเว็บไซต์)",
+      "translit": "ด็อท"
+    },
+    "en.underscore": {
+      "meaning": "ขีดล่าง ( _ )",
+      "translit": "อันเดอร์สกอร์"
+    }
+  },
+  "dialogue": [
+    "แล้วอีเมลล่ะ",
+    "nam_bkk@example.com",
+    "ขอโทษนะ สะกดยังไง",
+    "N-A-M อันเดอร์สกอร์ B-K-K แอท example ด็อท คอม",
+    "หลังคำว่า Nam เป็นจุดหรือขีดล่าง",
+    "ขีดล่าง ไม่ใช่จุด"
+  ],
+  "notes": [
+    {
+      "title": "อ่านอีเมล",
+      "body": "@ อ่านว่า at, . อ่านว่า dot, _ อ่านว่า underscore เช่น nam_bkk@example.com อ่านว่า nam underscore B-K-K at example dot com"
+    },
+    {
+      "title": "underscore ไม่ใช่ underline",
+      "body": "คนไทยหลายคนเรียกขีดล่างว่า อันเดอร์ไลน์ แต่ชื่อของเครื่องหมาย _ ในภาษาอังกฤษคือ underscore"
+    },
+    {
+      "title": "สะกดทีละตัว",
+      "body": "ชื่อไทยในอีเมลฟังยาก จึงควรสะกดทีละตัว (N-A-M) และถามกลับเมื่อไม่แน่ใจ เช่น Is it a dot or an underscore?"
+    }
+  ]
+}

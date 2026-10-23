@@ -1,0 +1,62 @@
+{
+  "id": "en-B14-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.what-time-does-it-open",
+      "kind": "phrase",
+      "text": "What time does it open?",
+      "reading": "ˈwʌt ˈtaɪm dʌz ɪt ˈoʊpən?"
+    },
+    {
+      "id": "en.what-time-does-it-close",
+      "kind": "phrase",
+      "text": "What time does it close?",
+      "reading": "ˈwʌt ˈtaɪm dʌz ɪt ˈkloʊz?"
+    },
+    {
+      "id": "en.until",
+      "text": "until",
+      "reading": "ənˈtɪl"
+    },
+    {
+      "id": "en.parking-lot",
+      "text": "parking lot",
+      "reading": "ˈpɑːrkɪŋ ˌlɑːt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, look! A phone shop. Is it open?",
+      "reading": "ˈnɑːm, ˈlʊk! ə ˈfoʊn ˌʃɑːp. ɪz ɪt ˈoʊpən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Excuse me, what time does it close?",
+      "reading": "ˈjɛs. ɪkˈskjuːz miː, ˈwʌt ˈtaɪm dʌz ɪt ˈkloʊz?"
+    },
+    {
+      "speaker": "b",
+      "text": "It's open until nine p.m.",
+      "reading": "ɪts ˈoʊpən ənˈtɪl ˈnaɪn ˌpiːˈɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "And what time does it open tomorrow?",
+      "reading": "ənd ˈwʌt ˈtaɪm dʌz ɪt ˈoʊpən təˈmɑːroʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "At ten a.m.",
+      "reading": "ət ˈtɛn ˌeɪˈɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Emma, my dad is in the parking lot.",
+      "reading": "ˈθæŋks! ˈɛmə, maɪ ˈdæd ɪz ɪn ðə ˈpɑːrkɪŋ ˌlɑːt."
+    }
+  ]
+}

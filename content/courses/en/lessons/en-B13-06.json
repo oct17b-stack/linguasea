@@ -1,0 +1,64 @@
+{
+  "id": "en-B13-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.what-color-is-it",
+      "kind": "phrase",
+      "text": "What color is it?",
+      "reading": "ˈwʌt ˈkʌlər ɪz ɪt?"
+    },
+    {
+      "id": "en.whats-in-it",
+      "kind": "phrase",
+      "text": "What's in it?",
+      "reading": "ˈwʌts ˈɪn ɪt?"
+    },
+    {
+      "id": "en.here-it-is",
+      "kind": "phrase",
+      "text": "Here it is!",
+      "reading": "ˈhɪr ɪt ˈɪz!"
+    },
+    {
+      "id": "en.thank-goodness",
+      "kind": "phrase",
+      "text": "Thank goodness!",
+      "reading": "ˈθæŋk ˈɡʊdnəs!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "OK. What color is it?",
+      "reading": "oʊˈkeɪ. ˈwʌt ˈkʌlər ɪz ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's black. And it's small.",
+      "reading": "ɪts ˈblæk. ənd ɪts ˈsmɔːl."
+    },
+    {
+      "speaker": "b",
+      "text": "What's in it?",
+      "reading": "ˈwʌts ˈɪn ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "There's a phone and some money in it.",
+      "reading": "ðɛrz ə ˈfoʊn ənd sʌm ˈmʌni ˈɪn ɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Wait a minute… Here it is! Is this your bag?",
+      "reading": "ˈweɪt ə ˈmɪnɪt… ˈhɪr ɪt ˈɪz! ɪz ðɪs jʊr ˈbæɡ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes! Thank goodness!",
+      "reading": "ˈjɛs! ˈθæŋk ˈɡʊdnəs!"
+    }
+  ]
+}

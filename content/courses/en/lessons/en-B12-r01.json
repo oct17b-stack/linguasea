@@ -1,0 +1,66 @@
+{
+  "id": "en-B12-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.before",
+      "text": "before",
+      "reading": "bɪˈfɔːr"
+    },
+    {
+      "id": "en.lifeguard",
+      "text": "lifeguard",
+      "reading": "ˈlaɪfɡɑːrd"
+    },
+    {
+      "id": "en.on-duty",
+      "kind": "phrase",
+      "text": "on duty",
+      "reading": "ɑːn ˈduːti"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Welcome to the swimming pool!",
+        "reading": "ˈwɛlkəm tə ðə ˈswɪmɪŋ ˌpuːl!"
+      },
+      {
+        "text": "The pool is open every day from 6 a.m. to 8 p.m.",
+        "reading": "ðə ˈpuːl ɪz ˈoʊpən ˈɛvri ˈdeɪ frəm ˈsɪks ˌeɪˈɛm tə ˈeɪt ˌpiːˈɛm."
+      }
+    ],
+    [
+      {
+        "text": "Please take a shower before you swim.",
+        "reading": "ˈpliːz ˈteɪk ə ˈʃaʊər bɪˈfɔːr juː ˈswɪm."
+      },
+      {
+        "text": "No food or glass at the pool.",
+        "reading": "ˈnoʊ ˈfuːd ɔːr ˈɡlæs ət ðə ˈpuːl."
+      },
+      {
+        "text": "Children under 12: please come with an adult.",
+        "reading": "ˈtʃɪldrən ˈʌndər ˈtwɛlv: ˈpliːz ˈkʌm wɪð ən əˈdʌlt."
+      },
+      {
+        "text": "The lifeguard is on duty from 7 a.m. to 7 p.m.",
+        "reading": "ðə ˈlaɪfɡɑːrd ɪz ɑːn ˈduːti frəm ˈsɛvən ˌeɪˈɛm tə ˈsɛvən ˌpiːˈɛm."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 3
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

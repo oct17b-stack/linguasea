@@ -1,0 +1,65 @@
+{
+  "id": "en-B15-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.date-of-birth",
+      "text": "date of birth",
+      "reading": "ˌdeɪt əv ˈbɜːrθ"
+    },
+    {
+      "id": "en.place-of-birth",
+      "text": "place of birth",
+      "reading": "ˌpleɪs əv ˈbɜːrθ"
+    },
+    {
+      "id": "en.nationality",
+      "text": "nationality",
+      "reading": "ˌnæʃəˈnæləti"
+    },
+    {
+      "id": "en.title",
+      "text": "title",
+      "reading": "ˈtaɪtəl"
+    },
+    {
+      "id": "en.mrs",
+      "text": "Mrs.",
+      "reading": "ˈmɪsɪz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "What's your title? Ms. or Mrs.?",
+      "reading": "ˈwʌts jʊr ˈtaɪtəl? ˈmɪz ɔːr ˈmɪsɪz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Ms. I'm not married.",
+      "reading": "ˈmɪz. aɪm ˈnɑːt ˈmærid."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. And your date of birth?",
+      "reading": "oʊˈkeɪ. ənd jʊr ˌdeɪt əv ˈbɜːrθ?"
+    },
+    {
+      "speaker": "a",
+      "text": "June 5th, 2006.",
+      "reading": "ˈdʒuːn ˈfɪfθ, ˈtuː ˈθaʊzənd ˈsɪks."
+    },
+    {
+      "speaker": "c",
+      "text": "And your place of birth and nationality?",
+      "reading": "ənd jʊr ˌpleɪs əv ˈbɜːrθ ənd ˌnæʃəˈnæləti?"
+    },
+    {
+      "speaker": "a",
+      "text": "Bangkok, Thailand. My nationality is Thai.",
+      "reading": "ˈbæŋkɑːk, ˈtaɪlænd. maɪ ˌnæʃəˈnæləti ɪz ˈtaɪ."
+    }
+  ]
+}

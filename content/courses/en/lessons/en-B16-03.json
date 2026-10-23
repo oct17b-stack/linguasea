@@ -1,0 +1,61 @@
+{
+  "id": "en-B16-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.year",
+      "text": "year",
+      "reading": "jɪr"
+    },
+    {
+      "id": "en.what-year-are-you-in",
+      "kind": "phrase",
+      "text": "What year are you in?",
+      "reading": "ˈwʌt ˈjɪr ər juː ˈɪn?"
+    },
+    {
+      "id": "en.freshman",
+      "text": "freshman",
+      "reading": "ˈfrɛʃmən"
+    },
+    {
+      "id": "en.senior",
+      "text": "senior",
+      "reading": "ˈsiːnjər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, what year are you in?",
+      "reading": "ˈnɑːm, ˈwʌt ˈjɪr ər juː ˈɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm in my second year. And you?",
+      "reading": "aɪm ɪn maɪ ˈsɛkənd ˈjɪr. ənd ˈjuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm a senior. It's my fourth year.",
+      "reading": "aɪm ə ˈsiːnjər. ɪts maɪ ˈfɔːrθ ˈjɪr."
+    },
+    {
+      "speaker": "a",
+      "text": "But it's your first year here!",
+      "reading": "bʌt ɪts jʊr ˈfɜːrst ˈjɪr ˈhɪr!"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes! Here, I'm a freshman again!",
+      "reading": "ˈjɛs! ˈhɪr, aɪm ə ˈfrɛʃmən əˈɡɛn!"
+    },
+    {
+      "speaker": "a",
+      "text": "Don't worry. I can help you.",
+      "reading": "ˈdoʊnt ˈwɜːri. aɪ kən ˈhɛlp juː."
+    }
+  ]
+}

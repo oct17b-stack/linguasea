@@ -1,0 +1,65 @@
+{
+  "id": "en-B15-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.full-name",
+      "text": "full name",
+      "reading": "ˌfʊl ˈneɪm"
+    },
+    {
+      "id": "en.middle-name",
+      "text": "middle name",
+      "reading": "ˈmɪdəl ˌneɪm"
+    },
+    {
+      "id": "en.marital-status",
+      "text": "marital status",
+      "reading": "ˈmærɪtəl ˌsteɪtəs"
+    },
+    {
+      "id": "en.single",
+      "text": "single",
+      "reading": "ˈsɪŋɡəl"
+    },
+    {
+      "id": "en.occupation",
+      "text": "occupation",
+      "reading": "ˌɑːkjəˈpeɪʃən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Can you write your full name here, please?",
+      "reading": "kən juː ˈraɪt jʊr ˌfʊl ˈneɪm ˈhɪr, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. I don't have a middle name. Is that OK?",
+      "reading": "ˈʃʊr. aɪ ˈdoʊnt ˈhæv ə ˈmɪdəl ˌneɪm. ɪz ˈðæt oʊˈkeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, that's OK. Marital status: single or married?",
+      "reading": "ˈjɛs, ðæts oʊˈkeɪ. ˈmærɪtəl ˌsteɪtəs: ˈsɪŋɡəl ɔːr ˈmærid?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm single.",
+      "reading": "aɪm ˈsɪŋɡəl."
+    },
+    {
+      "speaker": "c",
+      "text": "And your occupation?",
+      "reading": "ənd jʊr ˌɑːkjəˈpeɪʃən?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm a student at a university in Bangkok.",
+      "reading": "aɪm ə ˈstuːdənt ət ə ˌjuːnɪˈvɜːrsəti ɪn ˈbæŋkɑːk."
+    }
+  ]
+}

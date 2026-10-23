@@ -1,0 +1,61 @@
+{
+  "id": "en-B15-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.email",
+      "text": "email",
+      "reading": "ˈiːmeɪl"
+    },
+    {
+      "id": "en.at-sign",
+      "text": "@",
+      "reading": "æt",
+      "say": "at"
+    },
+    {
+      "id": "en.dot",
+      "text": "dot",
+      "reading": "dɑːt"
+    },
+    {
+      "id": "en.underscore",
+      "text": "underscore",
+      "reading": "ˈʌndərskɔːr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "And what's your email?",
+      "reading": "ənd ˈwʌts jʊr ˈiːmeɪl?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's nam_bkk@example.com.",
+      "reading": "ɪts ˈnɑːm ˈʌndərskɔːr ˈbiː ˈkeɪ ˈkeɪ ˈæt ɪɡˈzæmpəl ˈdɑːt ˈkɑːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, how do you spell that?",
+      "reading": "ˈsɑːri, ˈhaʊ duː juː ˈspɛl ðæt?"
+    },
+    {
+      "speaker": "a",
+      "text": "N-A-M, underscore, B-K-K, at example dot com.",
+      "reading": "ˈɛn ˈeɪ ˈɛm, ˈʌndərskɔːr, ˈbiː ˈkeɪ ˈkeɪ, ˈæt ɪɡˈzæmpəl ˈdɑːt ˈkɑːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Is it a dot or an underscore after \"Nam\"?",
+      "reading": "ɪz ɪt ə ˈdɑːt ɔːr ən ˈʌndərskɔːr ˈæftər \"ˈnɑːm\"?"
+    },
+    {
+      "speaker": "a",
+      "text": "An underscore, not a dot.",
+      "reading": "ən ˈʌndərskɔːr, ˈnɑːt ə ˈdɑːt."
+    }
+  ]
+}
