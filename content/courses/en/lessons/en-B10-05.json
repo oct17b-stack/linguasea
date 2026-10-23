@@ -1,0 +1,60 @@
+{
+  "id": "en-B10-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.sandwich",
+      "text": "sandwich",
+      "reading": "ˈsænwɪtʃ"
+    },
+    {
+      "id": "en.bread",
+      "text": "bread",
+      "reading": "brɛd"
+    },
+    {
+      "id": "en.toast",
+      "text": "toast",
+      "reading": "toʊst"
+    },
+    {
+      "id": "en.something",
+      "text": "something",
+      "reading": "ˈsʌmθɪŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, I'm hungry. Let's get something to eat.",
+      "reading": "ˈnɑːm, aɪm ˈhʌŋɡri. ˈlɛts ˈɡɛt ˈsʌmθɪŋ tu ˈiːt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Excuse me, do you have sandwiches?",
+      "reading": "oʊˈkeɪ. ɪkˈskjuːz miː, duː juː ˈhæv ˈsænwɪtʃɪz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Chicken or egg. We have toast, too.",
+      "reading": "ˈjɛs. ˈtʃɪkən ɔːr ˈɛɡ. wiː ˈhæv ˈtoʊst, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Is the bread fresh?",
+      "reading": "ɪz ðə ˈbrɛd ˈfrɛʃ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it's from this morning.",
+      "reading": "ˈjɛs, ɪts frəm ðɪs ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Two chicken sandwiches, please.",
+      "reading": "ˈɡreɪt! ˈtuː ˈtʃɪkən ˈsænwɪtʃɪz, ˈpliːz."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "en-B1-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.half-past",
+      "kind": "phrase",
+      "text": "half past",
+      "reading": "ˈhæf ˈpæst"
+    },
+    {
+      "id": "en.quarter-past",
+      "kind": "phrase",
+      "text": "quarter past",
+      "reading": "ˈkwɔːrtər ˈpæst"
+    },
+    {
+      "id": "en.quarter-to",
+      "kind": "phrase",
+      "text": "quarter to",
+      "reading": "ˈkwɔːrtər tuː"
+    },
+    {
+      "id": "en.am",
+      "text": "a.m.",
+      "reading": "ˌeɪˈɛm"
+    },
+    {
+      "id": "en.pm",
+      "text": "p.m.",
+      "reading": "ˌpiːˈɛm"
+    },
+    {
+      "id": "en.noon",
+      "text": "noon",
+      "reading": "nuːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, the movie on Saturday is at eleven a.m.",
+      "reading": "ˈnɑːm, ðə ˈmuːvi ɑːn ˈsætərdeɪ ɪz ət ɪˈlɛvən ˌeɪˈɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I work from eight to noon.",
+      "reading": "ˈsɑːri, aɪ ˈwɜːrk frəm ˈeɪt tə ˈnuːn."
+    },
+    {
+      "speaker": "c",
+      "text": "It's at a quarter past seven p.m., too.",
+      "reading": "ɪts ət ə ˈkwɔːrtər ˈpæst ˈsɛvən ˌpiːˈɛm, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Let's eat at half past five.",
+      "reading": "ˈɡreɪt! ˈlɛts ˈiːt ət ˈhæf ˈpæst ˈfaɪv."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, I have class at four. A quarter to six?",
+      "reading": "ˈoʊ, aɪ ˈhæv ˈklæs ət ˈfɔːr. ə ˈkwɔːrtər tə ˈsɪks?"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! See you on Saturday!",
+      "reading": "oʊˈkeɪ! ˈsiː juː ɑːn ˈsætərdeɪ!"
+    }
+  ]
+}

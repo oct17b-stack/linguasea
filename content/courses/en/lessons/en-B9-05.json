@@ -1,0 +1,64 @@
+{
+  "id": "en-B9-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.can-i-have-your-number",
+      "kind": "phrase",
+      "text": "Can I have your number?",
+      "reading": "kən aɪ ˈhæv jʊr ˈnʌmbər?"
+    },
+    {
+      "id": "en.can-i-call-you-later",
+      "kind": "phrase",
+      "text": "Can I call you later?",
+      "reading": "kən aɪ ˈkɔːl juː ˈleɪtər?"
+    },
+    {
+      "id": "en.talk-to-you-later",
+      "kind": "phrase",
+      "text": "Talk to you later.",
+      "reading": "ˈtɔːk tə juː ˈleɪtər."
+    },
+    {
+      "id": "en.answer-the-phone",
+      "kind": "phrase",
+      "text": "answer the phone",
+      "reading": "ˈænsər ðə ˈfoʊn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, look! I have a new phone.",
+      "reading": "ˈnɑːm, ˈlʊk! aɪ ˈhæv ə ˈnuː ˈfoʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! Can I have your number?",
+      "reading": "ˈɡreɪt! kən aɪ ˈhæv jʊr ˈnʌmbər?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. It's zero nine one, two three four, five six seven eight.",
+      "reading": "ˈʃʊr. ɪts ˈzɪroʊ ˈnaɪn ˈwʌn, ˈtuː ˈθriː ˈfɔːr, ˈfaɪv ˈsɪks ˈsɛvən ˈeɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Oh, my phone! Sorry, Emma. Can I call you later?",
+      "reading": "ˈθæŋks! ˈoʊ, maɪ ˈfoʊn! ˈsɑːri, ˈɛmə. kən aɪ ˈkɔːl juː ˈleɪtər?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure! Answer the phone! Talk to you later!",
+      "reading": "ˈʃʊr! ˈænsər ðə ˈfoʊn! ˈtɔːk tə juː ˈleɪtər!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Bye!",
+      "reading": "ˈθæŋks! ˈbaɪ!"
+    }
+  ]
+}

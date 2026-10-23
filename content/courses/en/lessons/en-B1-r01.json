@@ -1,0 +1,70 @@
+{
+  "id": "en-B1-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.week",
+      "text": "week",
+      "reading": "wiːk"
+    },
+    {
+      "id": "en.start",
+      "text": "start",
+      "reading": "stɑːrt"
+    },
+    {
+      "id": "en.next",
+      "text": "next",
+      "reading": "nɛkst"
+    },
+    {
+      "id": "en.holiday",
+      "text": "holiday",
+      "reading": "ˈhɑːlədeɪ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "This week, English class starts at half past eight on Monday.",
+        "reading": "ðɪs ˈwiːk, ˈɪŋɡlɪʃ ˌklæs ˈstɑːrts ət ˈhæf ˈpæst ˈeɪt ɑːn ˈmʌndeɪ."
+      },
+      {
+        "text": "On Wednesday, it starts at a quarter past one.",
+        "reading": "ɑːn ˈwɛnzdeɪ, ɪt ˈstɑːrts ət ə ˈkwɔːrtər ˈpæst ˈwʌn."
+      }
+    ],
+    [
+      {
+        "text": "No class on Friday, April 6th!",
+        "reading": "ˈnoʊ ˈklæs ɑːn ˈfraɪdeɪ, ˈeɪprəl ˈsɪksθ!"
+      },
+      {
+        "text": "It's a holiday.",
+        "reading": "ɪts ə ˈhɑːlədeɪ."
+      },
+      {
+        "text": "The next class is on Monday, April 9th.",
+        "reading": "ðə ˈnɛkst ˈklæs ɪz ɑːn ˈmʌndeɪ, ˈeɪprəl ˈnaɪnθ."
+      },
+      {
+        "text": "See you next week!",
+        "reading": "ˈsiː juː ˈnɛkst ˈwiːk!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

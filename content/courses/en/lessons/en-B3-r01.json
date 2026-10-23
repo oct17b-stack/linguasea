@@ -1,0 +1,61 @@
+{
+  "id": "en-B3-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.building",
+      "text": "building",
+      "reading": "ˈbɪldɪŋ"
+    },
+    {
+      "id": "en.place",
+      "text": "place",
+      "reading": "pleɪs"
+    },
+    {
+      "id": "en.past",
+      "text": "past",
+      "reading": "pæst"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Hi, Nam! Come to my place on Saturday!",
+        "reading": "ˈhaɪ, ˈnɑːm! ˈkʌm tə maɪ ˈpleɪs ɑːn ˈsætərdeɪ!"
+      }
+    ],
+    [
+      {
+        "text": "From the big supermarket, go past the market.",
+        "reading": "frəm ðə ˈbɪɡ ˈsuːpərmɑːrkɪt, ˈɡoʊ ˈpæst ðə ˈmɑːrkɪt."
+      },
+      {
+        "text": "Cross the street at the traffic light and go two blocks.",
+        "reading": "ˈkrɔːs ðə ˈstriːt ət ðə ˈtræfɪk ˌlaɪt ənd ˈɡoʊ ˈtuː ˈblɑːks."
+      },
+      {
+        "text": "My building is next to the post office.",
+        "reading": "maɪ ˈbɪldɪŋ ɪz ˈnɛkst tə ðə ˈpoʊst ˌɔːfɪs."
+      },
+      {
+        "text": "See you on Saturday!",
+        "reading": "ˈsiː juː ɑːn ˈsætərdeɪ!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

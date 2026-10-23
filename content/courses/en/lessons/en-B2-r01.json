@@ -1,0 +1,71 @@
+{
+  "id": "en-B2-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.sale",
+      "text": "sale",
+      "reading": "seɪl"
+    },
+    {
+      "id": "en.buy",
+      "text": "buy",
+      "reading": "baɪ"
+    },
+    {
+      "id": "en.free",
+      "text": "free",
+      "reading": "friː"
+    },
+    {
+      "id": "en.off",
+      "text": "off",
+      "reading": "ɔːf"
+    },
+    {
+      "id": "en.price",
+      "text": "price",
+      "reading": "praɪs"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Big weekend sale on Saturday and Sunday!",
+        "reading": "ˈbɪɡ ˈwiːkɛnd ˌseɪl ɑːn ˈsætərdeɪ ənd ˈsʌndeɪ!"
+      }
+    ],
+    [
+      {
+        "text": "T-shirts are only 199 baht.",
+        "reading": "ˈtiːʃɜːrts ər ˈoʊnli ˈwʌn ˈhʌndrəd ˈnaɪnti ˈnaɪn ˈbɑːt."
+      },
+      {
+        "text": "Dresses: one price, 300 baht!",
+        "reading": "ˈdrɛsɪz: ˈwʌn ˈpraɪs, ˈθriː ˈhʌndrəd ˈbɑːt!"
+      },
+      {
+        "text": "Bags: 100 baht off!",
+        "reading": "ˈbæɡz: ˈwʌn ˈhʌndrəd ˈbɑːt ˈɔːf!"
+      },
+      {
+        "text": "Buy two T-shirts, and the third T-shirt is free!",
+        "reading": "ˈbaɪ ˈtuː ˈtiːʃɜːrts, ənd ðə ˈθɜːrd ˈtiːʃɜːrt ɪz ˈfriː!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

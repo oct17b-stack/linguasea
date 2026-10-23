@@ -1,0 +1,64 @@
+{
+  "id": "en-B9-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.im-on-my-way",
+      "kind": "phrase",
+      "text": "I'm on my way.",
+      "reading": "aɪm ɑːn maɪ ˈweɪ."
+    },
+    {
+      "id": "en.im-coming",
+      "kind": "phrase",
+      "text": "I'm coming.",
+      "reading": "aɪm ˈkʌmɪŋ."
+    },
+    {
+      "id": "en.see-you-soon",
+      "kind": "phrase",
+      "text": "See you soon.",
+      "reading": "ˈsiː juː ˈsuːn."
+    },
+    {
+      "id": "en.sorry-im-late",
+      "kind": "phrase",
+      "text": "Sorry I'm late.",
+      "reading": "ˈsɑːri aɪm ˈleɪt."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, where are you? It's half past four!",
+      "reading": "ˈnɑːm, ˈwɛr ər juː? ɪts ˈhæf ˈpæst ˈfɔːr!"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry I'm late! I'm on my way.",
+      "reading": "ˈsɑːri aɪm ˈleɪt! aɪm ɑːn maɪ ˈweɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Where are you now?",
+      "reading": "ˈwɛr ər juː ˈnaʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm on the bus. I'm near the bank.",
+      "reading": "aɪm ɑːn ðə ˈbʌs. aɪm ˈnɪr ðə ˈbæŋk."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. See you soon!",
+      "reading": "oʊˈkeɪ. ˈsiː juː ˈsuːn!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! I'm coming!",
+      "reading": "oʊˈkeɪ! aɪm ˈkʌmɪŋ!"
+    }
+  ]
+}

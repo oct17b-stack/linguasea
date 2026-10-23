@@ -1,0 +1,65 @@
+{
+  "id": "en-B7-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.balcony",
+      "text": "balcony",
+      "reading": "ˈbælkəni"
+    },
+    {
+      "id": "en.roof",
+      "text": "roof",
+      "reading": "ruːf"
+    },
+    {
+      "id": "en.flower",
+      "text": "flower",
+      "reading": "ˈflaʊər"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "My family lives in an old house in Bangkok.",
+        "reading": "maɪ ˈfæməli ˈlɪvz ɪn ən ˈoʊld ˈhaʊs ɪn ˈbæŋkɑːk."
+      },
+      {
+        "text": "It has two floors and a small garden.",
+        "reading": "ɪt ˈhæz ˈtuː ˈflɔːrz ənd ə ˈsmɔːl ˈɡɑːrdən."
+      },
+      {
+        "text": "There are three bedrooms upstairs.",
+        "reading": "ðɛr ər ˈθriː ˈbɛdruːmz ˌʌpˈstɛrz."
+      }
+    ],
+    [
+      {
+        "text": "My bedroom has a balcony with flowers.",
+        "reading": "maɪ ˈbɛdruːm ˈhæz ə ˈbælkəni wɪð ˈflaʊərz."
+      },
+      {
+        "text": "But my favorite place is the roof.",
+        "reading": "bʌt maɪ ˈfeɪvərɪt ˈpleɪs ɪz ðə ˈruːf."
+      },
+      {
+        "text": "At night, I sit there and look at the city lights.",
+        "reading": "ət ˈnaɪt, aɪ ˈsɪt ˈðɛr ənd ˈlʊk ət ðə ˈsɪti ˈlaɪts."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

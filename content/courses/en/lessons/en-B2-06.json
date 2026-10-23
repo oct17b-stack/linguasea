@@ -1,0 +1,71 @@
+{
+  "id": "en-B2-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.sixty",
+      "text": "sixty",
+      "reading": "ˈsɪksti"
+    },
+    {
+      "id": "en.seventy",
+      "text": "seventy",
+      "reading": "ˈsɛvənti"
+    },
+    {
+      "id": "en.eighty",
+      "text": "eighty",
+      "reading": "ˈeɪti"
+    },
+    {
+      "id": "en.ninety",
+      "text": "ninety",
+      "reading": "ˈnaɪnti"
+    },
+    {
+      "id": "en.thousand",
+      "text": "thousand",
+      "reading": "ˈθaʊzənd"
+    },
+    {
+      "id": "en.can-i-pay-by-card",
+      "kind": "phrase",
+      "text": "Can I pay by card?",
+      "reading": "kən aɪ ˈpeɪ baɪ ˈkɑːrd?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. How much is this dress?",
+      "reading": "ɪkˈskjuːz miː. ˈhaʊ ˈmʌtʃ ɪz ðɪs ˈdrɛs?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's one thousand two hundred ninety baht.",
+      "reading": "ɪts ˈwʌn ˈθaʊzənd ˈtuː ˈhʌndrəd ˈnaɪnti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "And these socks?",
+      "reading": "ənd ˈðiːz ˈsɑːks?"
+    },
+    {
+      "speaker": "c",
+      "text": "They're eighty baht.",
+      "reading": "ðɛr ˈeɪti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Can I pay by card?",
+      "reading": "oʊˈkeɪ. kən aɪ ˈpeɪ baɪ ˈkɑːrd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. That's one thousand three hundred seventy baht.",
+      "reading": "ˈʃʊr. ðæts ˈwʌn ˈθaʊzənd ˈθriː ˈhʌndrəd ˈsɛvənti ˈbɑːt."
+    }
+  ]
+}

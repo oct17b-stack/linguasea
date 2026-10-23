@@ -1,0 +1,60 @@
+{
+  "id": "en-B10-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.size",
+      "text": "size",
+      "reading": "saɪz"
+    },
+    {
+      "id": "en.medium",
+      "text": "medium",
+      "reading": "ˈmiːdiəm"
+    },
+    {
+      "id": "en.large",
+      "text": "large",
+      "reading": "lɑːrdʒ"
+    },
+    {
+      "id": "en.regular",
+      "text": "regular",
+      "reading": "ˈrɛɡjələr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Can I get an iced latte, please?",
+      "reading": "kən aɪ ˈɡɛt ən ˈaɪst ˈlɑːteɪ, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. What size? Regular or large?",
+      "reading": "ˈʃʊr. ˈwʌt ˈsaɪz? ˈrɛɡjələr ɔːr ˈlɑːrdʒ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Large, please. Emma?",
+      "reading": "ˈlɑːrdʒ, ˈpliːz. ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "Regular? Is that medium?",
+      "reading": "ˈrɛɡjələr? ɪz ˈðæt ˈmiːdiəm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, it's medium.",
+      "reading": "ˈjɛs, ɪts ˈmiːdiəm."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. A regular hot cocoa, please.",
+      "reading": "oʊˈkeɪ. ə ˈrɛɡjələr ˈhɑːt ˈkoʊkoʊ, ˈpliːz."
+    }
+  ]
+}

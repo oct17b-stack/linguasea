@@ -1,0 +1,72 @@
+{
+  "id": "en-B6-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.car",
+      "text": "car",
+      "reading": "kɑːr"
+    },
+    {
+      "id": "en.bike",
+      "text": "bike",
+      "reading": "baɪk"
+    },
+    {
+      "id": "en.boat",
+      "text": "boat",
+      "reading": "boʊt"
+    },
+    {
+      "id": "en.subway",
+      "text": "subway",
+      "reading": "ˈsʌbweɪ"
+    },
+    {
+      "id": "en.get-on",
+      "kind": "phrase",
+      "text": "get on",
+      "reading": "ˈɡɛt ˈɑːn"
+    },
+    {
+      "id": "en.get-off",
+      "kind": "phrase",
+      "text": "get off",
+      "reading": "ˈɡɛt ˈɔːf"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do we go to the temple by car or bike?",
+      "reading": "ˈnɑːm, duː wiː ˈɡoʊ tə ðə ˈtɛmpəl baɪ ˈkɑːr ɔːr ˈbaɪk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. We go by subway and then by boat.",
+      "reading": "ˈnoʊ. wiː ˈɡoʊ baɪ ˈsʌbweɪ ənd ˈðɛn baɪ ˈboʊt."
+    },
+    {
+      "speaker": "c",
+      "text": "By boat? Great!",
+      "reading": "baɪ ˈboʊt? ˈɡreɪt!"
+    },
+    {
+      "speaker": "a",
+      "text": "We get on the subway here.",
+      "reading": "wiː ˈɡɛt ˈɑːn ðə ˈsʌbweɪ ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "And where do we get off?",
+      "reading": "ənd ˈwɛr duː wiː ˈɡɛt ˈɔːf?"
+    },
+    {
+      "speaker": "a",
+      "text": "At the next station. Then we get on a boat.",
+      "reading": "ət ðə ˈnɛkst ˈsteɪʃən. ˈðɛn wiː ˈɡɛt ˈɑːn ə ˈboʊt."
+    }
+  ]
+}

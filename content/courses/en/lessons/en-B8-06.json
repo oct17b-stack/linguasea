@@ -1,0 +1,63 @@
+{
+  "id": "en-B8-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.learn",
+      "text": "learn",
+      "reading": "lɜːrn"
+    },
+    {
+      "id": "en.well-done",
+      "kind": "phrase",
+      "text": "Well done!",
+      "reading": "ˈwɛl ˈdʌn!"
+    },
+    {
+      "id": "en.good-job",
+      "kind": "phrase",
+      "text": "Good job!",
+      "reading": "ˈɡʊd ˈdʒɑːb!"
+    },
+    {
+      "id": "en.dont-give-up",
+      "kind": "phrase",
+      "text": "Don't give up!",
+      "reading": "ˈdoʊnt ˈɡɪv ˈʌp!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what are you doing?",
+      "reading": "ˈɛmə, ˈwʌt ər juː ˈduːɪŋ?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm learning to cook Thai food. Try this!",
+      "reading": "aɪm ˈlɜːrnɪŋ tə ˈkʊk ˈtaɪ ˈfuːd. ˈtraɪ ˈðɪs!"
+    },
+    {
+      "speaker": "a",
+      "text": "It's delicious! Good job!",
+      "reading": "ɪts dɪˈlɪʃəs! ˈɡʊd ˈdʒɑːb!"
+    },
+    {
+      "speaker": "c",
+      "text": "Really? But my noodles are terrible.",
+      "reading": "ˈriːli? bʌt maɪ ˈnuːdəlz ər ˈtɛrəbəl."
+    },
+    {
+      "speaker": "a",
+      "text": "Don't give up! Let's cook together on Sunday.",
+      "reading": "ˈdoʊnt ˈɡɪv ˈʌp! ˈlɛts ˈkʊk təˈɡɛðər ɑːn ˈsʌndeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! Thanks, Nam!",
+      "reading": "ˈɡreɪt! ˈθæŋks, ˈnɑːm!"
+    }
+  ]
+}

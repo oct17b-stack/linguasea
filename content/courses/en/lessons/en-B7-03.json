@@ -1,0 +1,65 @@
+{
+  "id": "en-B7-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.door",
+      "text": "door",
+      "reading": "dɔːr"
+    },
+    {
+      "id": "en.window",
+      "text": "window",
+      "reading": "ˈwɪndoʊ"
+    },
+    {
+      "id": "en.floor",
+      "text": "floor",
+      "reading": "flɔːr"
+    },
+    {
+      "id": "en.closet",
+      "text": "closet",
+      "reading": "ˈklɑːzɪt"
+    },
+    {
+      "id": "en.shelf",
+      "text": "shelf",
+      "reading": "ʃɛlf"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Your room is nice! There's a big window.",
+      "reading": "jʊr ˈruːm ɪz ˈnaɪs! ðɛrz ə ˈbɪɡ ˈwɪndoʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. And there's a closet next to the door.",
+      "reading": "ˈjɛs. ənd ðɛrz ə ˈklɑːzɪt ˈnɛkst tə ðə ˈdɔːr."
+    },
+    {
+      "speaker": "c",
+      "text": "Where are your books?",
+      "reading": "ˈwɛr ər jʊr ˈbʊks?"
+    },
+    {
+      "speaker": "a",
+      "text": "They're on the shelf.",
+      "reading": "ðɛr ɑːn ðə ˈʃɛlf."
+    },
+    {
+      "speaker": "c",
+      "text": "And what are these on the floor?",
+      "reading": "ənd ˈwʌt ər ˈðiːz ɑːn ðə ˈflɔːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! Those are my socks! Sorry!",
+      "reading": "ˈoʊ ˈnoʊ! ˈðoʊz ər maɪ ˈsɑːks! ˈsɑːri!"
+    }
+  ]
+}

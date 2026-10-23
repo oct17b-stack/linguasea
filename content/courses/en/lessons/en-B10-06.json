@@ -1,0 +1,60 @@
+{
+  "id": "en-B10-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.cash",
+      "text": "cash",
+      "reading": "kæʃ"
+    },
+    {
+      "id": "en.change",
+      "text": "change",
+      "reading": "tʃeɪndʒ"
+    },
+    {
+      "id": "en.bill",
+      "text": "bill",
+      "reading": "bɪl"
+    },
+    {
+      "id": "en.qr-code",
+      "text": "QR code",
+      "reading": "ˌkjuːˈɑːr ˌkoʊd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How much is it?",
+      "reading": "ˈhaʊ ˈmʌtʃ ɪz ɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "One hundred thirty baht. Cash or QR code?",
+      "reading": "ˈwʌn ˈhʌndrəd ˈθɜːrti ˈbɑːt. ˈkæʃ ɔːr ˌkjuːˈɑːr ˌkoʊd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Cash. Here's a thousand-baht bill.",
+      "reading": "ˈkæʃ. hɪrz ə ˈθaʊzənd ˌbɑːt ˈbɪl."
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, I don't have change. Can you pay by QR code?",
+      "reading": "ˈsɑːri, aɪ ˈdoʊnt ˈhæv ˈtʃeɪndʒ. kən juː ˈpeɪ baɪ ˌkjuːˈɑːr ˌkoʊd?"
+    },
+    {
+      "speaker": "a",
+      "text": "OK, no problem.",
+      "reading": "oʊˈkeɪ, ˈnoʊ ˈprɑːbləm."
+    },
+    {
+      "speaker": "b",
+      "text": "Thanks! Here's the QR code.",
+      "reading": "ˈθæŋks! hɪrz ðə ˌkjuːˈɑːr ˌkoʊd."
+    }
+  ]
+}

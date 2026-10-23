@@ -1,0 +1,53 @@
+{
+  "id": "ko-A16-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jinjja",
+      "text": "진짜",
+      "reading": "jinjja"
+    },
+    {
+      "id": "ko.daebak",
+      "kind": "phrase",
+      "text": "대박",
+      "reading": "daebak"
+    },
+    {
+      "id": "ko.uwa",
+      "kind": "phrase",
+      "text": "우와",
+      "reading": "uwa"
+    },
+    {
+      "id": "ko.sesange",
+      "kind": "phrase",
+      "text": "세상에",
+      "reading": "sesange"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 저 태국어 잘해요!",
+      "reading": "Nam ssi, jeo taegugeo jalhaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "우와! 진짜요?",
+      "reading": "Uwa! Jinjjayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네! '사와디캅'!",
+      "reading": "Ne! 'Sawadikap'!"
+    },
+    {
+      "speaker": "a",
+      "text": "세상에! 대박!",
+      "reading": "Sesange! Daebak!"
+    }
+  ]
+}

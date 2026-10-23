@@ -1,0 +1,49 @@
+{
+  "lesson": "en-B7-04",
+  "title": "ชั้นบนและชั้นล่าง",
+  "intro": "ถามว่ามีห้องอะไรบ้าง และบอกว่าห้องไหนอยู่ชั้นบนหรือชั้นล่าง",
+  "items": {
+    "en.upstairs": {
+      "meaning": "ข้างบน, ชั้นบน",
+      "translit": "อัพสแตร์ส"
+    },
+    "en.downstairs": {
+      "meaning": "ข้างล่าง, ชั้นล่าง",
+      "translit": "ดาวน์สแตร์ส"
+    },
+    "en.stairs": {
+      "meaning": "บันได",
+      "translit": "สแตร์ส"
+    },
+    "en.toilet": {
+      "meaning": "โถส้วม, ชักโครก",
+      "translit": "ทอยเล็ท"
+    },
+    "en.are-there-any": {
+      "meaning": "มี… บ้างไหม (หลายชิ้น)",
+      "translit": "อาร์ แธร์ เอนี่ …"
+    }
+  },
+  "dialogue": [
+    "น้ำ ข้างล่างมีห้องนอนบ้างไหม",
+    "ไม่มี ห้องนอนอยู่ข้างบน",
+    "แล้วข้างล่างมีห้องน้ำไหม",
+    "มี แต่เล็กมาก มีแค่ชักโครก",
+    "ไม่เป็นไร อยู่ตรงไหน",
+    "อยู่ข้างบันได"
+  ],
+  "notes": [
+    {
+      "title": "Are there any …?",
+      "body": "ถามว่ามีของหลายชิ้นไหมใช้ Are there any + คำนามพหูพจน์? ตอบ Yes, there are. หรือ No, there aren't. คำว่า any ไม่ต้องแปล คล้าย บ้าง ในภาษาไทย"
+    },
+    {
+      "title": "upstairs และ downstairs",
+      "body": "upstairs = ข้างบน ชั้นบน downstairs = ข้างล่าง ชั้นล่าง ใช้ได้เลยโดยไม่ต้องมี at หรือ in: The bedrooms are upstairs. (ไม่ใช่ at upstairs)"
+    },
+    {
+      "title": "toilet",
+      "body": "toilet ในภาษาอเมริกันหมายถึงตัวโถส้วม ถ้าจะถามหาห้องน้ำพูดว่า Where's the bathroom? จะสุภาพกว่า Where's the toilet?"
+    }
+  ]
+}

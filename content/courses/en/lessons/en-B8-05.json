@@ -1,0 +1,63 @@
+{
+  "id": "en-B8-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.can-you",
+      "kind": "phrase",
+      "text": "Can you …?",
+      "reading": "kən juː …?"
+    },
+    {
+      "id": "en.yes-i-can",
+      "kind": "phrase",
+      "text": "Yes, I can.",
+      "reading": "ˈjɛs, aɪ ˈkæn."
+    },
+    {
+      "id": "en.no-i-cant",
+      "kind": "phrase",
+      "text": "No, I can't.",
+      "reading": "ˈnoʊ, aɪ ˈkænt."
+    },
+    {
+      "id": "en.drive",
+      "text": "drive",
+      "reading": "draɪv"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you drive?",
+      "reading": "ˈnɑːm, kən juː ˈdraɪv?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I can't. Can you?",
+      "reading": "ˈnoʊ, aɪ ˈkænt. ˈkæn juː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, I can. But I can't drive in Bangkok!",
+      "reading": "ˈjɛs, aɪ ˈkæn. bʌt aɪ ˈkænt ˈdraɪv ɪn ˈbæŋkɑːk!"
+    },
+    {
+      "speaker": "a",
+      "text": "Why not?",
+      "reading": "ˈwaɪ ˈnɑːt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Because the traffic jams are terrible!",
+      "reading": "bɪˈkɔːz ðə ˈtræfɪk ˌdʒæmz ər ˈtɛrəbəl!"
+    },
+    {
+      "speaker": "a",
+      "text": "I know! I always go by bus.",
+      "reading": "aɪ ˈnoʊ! aɪ ˈɔːlweɪz ˈɡoʊ baɪ ˈbʌs."
+    }
+  ]
+}

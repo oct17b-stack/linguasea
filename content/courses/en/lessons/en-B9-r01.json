@@ -1,0 +1,62 @@
+{
+  "id": "en-B9-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.already",
+      "text": "already",
+      "reading": "ɔːlˈrɛdi"
+    },
+    {
+      "id": "en.almost",
+      "text": "almost",
+      "reading": "ˈɔːlmoʊst"
+    },
+    {
+      "id": "en.not-yet",
+      "kind": "phrase",
+      "text": "Not yet.",
+      "reading": "ˈnɑːt ˈjɛt."
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Hi, Nam! I'm already at the coffee shop.",
+        "reading": "ˈhaɪ, ˈnɑːm! aɪm ɔːlˈrɛdi ət ðə ˈkɔːfi ˌʃɑːp."
+      },
+      {
+        "text": "Are you here yet?",
+        "reading": "ər juː ˈhɪr ˈjɛt?"
+      }
+    ],
+    [
+      {
+        "text": "Not yet! Sorry, Emma!",
+        "reading": "ˈnɑːt ˈjɛt! ˈsɑːri, ˈɛmə!"
+      },
+      {
+        "text": "I'm on the bus, and there's a traffic jam.",
+        "reading": "aɪm ɑːn ðə ˈbʌs, ənd ðɛrz ə ˈtræfɪk ˌdʒæm."
+      },
+      {
+        "text": "I'm almost there. Five minutes!",
+        "reading": "aɪm ˈɔːlmoʊst ˈðɛr. ˈfaɪv ˈmɪnɪts!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

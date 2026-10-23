@@ -1,0 +1,65 @@
+{
+  "id": "en-B7-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.house",
+      "text": "house",
+      "reading": "haʊs"
+    },
+    {
+      "id": "en.room",
+      "text": "room",
+      "reading": "ruːm"
+    },
+    {
+      "id": "en.bedroom",
+      "text": "bedroom",
+      "reading": "ˈbɛdruːm"
+    },
+    {
+      "id": "en.bathroom",
+      "text": "bathroom",
+      "reading": "ˈbæθruːm"
+    },
+    {
+      "id": "en.kitchen",
+      "text": "kitchen",
+      "reading": "ˈkɪtʃən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, your house is very nice!",
+      "reading": "ˈnɑːm, jʊr ˈhaʊs ɪz ˈvɛri ˈnaɪs!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! This is the kitchen. My dad cooks here.",
+      "reading": "ˈθæŋks! ˈðɪs ɪz ðə ˈkɪtʃən. maɪ ˈdæd ˈkʊks ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "It's big! Where's your bedroom?",
+      "reading": "ɪts ˈbɪɡ! ˈwɛrz jʊr ˈbɛdruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's here, next to the bathroom.",
+      "reading": "ɪts ˈhɪr, ˈnɛkst tə ðə ˈbæθruːm."
+    },
+    {
+      "speaker": "c",
+      "text": "And this room?",
+      "reading": "ənd ðɪs ˈruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "That's Fah's room.",
+      "reading": "ˈðæts ˈfɑːz ˈruːm."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "en-B3-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.post-office",
+      "text": "post office",
+      "reading": "ˈpoʊst ˌɔːfɪs"
+    },
+    {
+      "id": "en.market",
+      "text": "market",
+      "reading": "ˈmɑːrkɪt"
+    },
+    {
+      "id": "en.temple",
+      "text": "temple",
+      "reading": "ˈtɛmpəl"
+    },
+    {
+      "id": "en.museum",
+      "text": "museum",
+      "reading": "mjuˈziːəm"
+    },
+    {
+      "id": "en.pharmacy",
+      "text": "pharmacy",
+      "reading": "ˈfɑːrməsi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. Is there a pharmacy near here?",
+      "reading": "ɪkˈskjuːz miː. ɪz ðɛr ə ˈfɑːrməsi ˈnɪr ˈhɪr?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, there is. It's between the temple and the market.",
+      "reading": "ˈjɛs, ðɛr ˈɪz. ɪts bɪˈtwiːn ðə ˈtɛmpəl ənd ðə ˈmɑːrkɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! Is the post office near here, too?",
+      "reading": "ˈθæŋk juː! ɪz ðə ˈpoʊst ˌɔːfɪs ˈnɪr ˈhɪr, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, it's far. It's next to the museum.",
+      "reading": "ˈnoʊ, ɪts ˈfɑːr. ɪts ˈnɛkst tə ðə mjuˈziːəm."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, OK. Thanks!",
+      "reading": "ˈoʊ, oʊˈkeɪ. ˈθæŋks!"
+    },
+    {
+      "speaker": "b",
+      "text": "You're welcome.",
+      "reading": "jʊr ˈwɛlkəm."
+    }
+  ]
+}

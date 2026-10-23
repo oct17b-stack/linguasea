@@ -1,0 +1,66 @@
+{
+  "id": "en-B7-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.upstairs",
+      "text": "upstairs",
+      "reading": "ˌʌpˈstɛrz"
+    },
+    {
+      "id": "en.downstairs",
+      "text": "downstairs",
+      "reading": "ˌdaʊnˈstɛrz"
+    },
+    {
+      "id": "en.stairs",
+      "text": "stairs",
+      "reading": "stɛrz"
+    },
+    {
+      "id": "en.toilet",
+      "text": "toilet",
+      "reading": "ˈtɔɪlət"
+    },
+    {
+      "id": "en.are-there-any",
+      "kind": "phrase",
+      "text": "Are there any …?",
+      "reading": "ər ðɛr ˈɛni …?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, are there any bedrooms downstairs?",
+      "reading": "ˈnɑːm, ər ðɛr ˈɛni ˈbɛdruːmz ˌdaʊnˈstɛrz?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, there aren't. The bedrooms are upstairs.",
+      "reading": "ˈnoʊ, ðɛr ˈɑːrnt. ðə ˈbɛdruːmz ər ˌʌpˈstɛrz."
+    },
+    {
+      "speaker": "c",
+      "text": "Is there a bathroom downstairs?",
+      "reading": "ɪz ðɛr ə ˈbæθruːm ˌdaʊnˈstɛrz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, there is. But it's very small. There's only a toilet.",
+      "reading": "ˈjɛs, ðɛr ˈɪz. bʌt ɪts ˈvɛri ˈsmɔːl. ðɛrz ˈoʊnli ə ˈtɔɪlət."
+    },
+    {
+      "speaker": "c",
+      "text": "That's OK. Where is it?",
+      "reading": "ðæts oʊˈkeɪ. ˈwɛr ɪz ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's next to the stairs.",
+      "reading": "ɪts ˈnɛkst tə ðə ˈstɛrz."
+    }
+  ]
+}

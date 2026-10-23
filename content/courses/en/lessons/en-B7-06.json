@@ -1,0 +1,64 @@
+{
+  "id": "en-B7-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.can-i-use",
+      "kind": "phrase",
+      "text": "Can I use …?",
+      "reading": "kən aɪ ˈjuːz …?"
+    },
+    {
+      "id": "en.of-course",
+      "kind": "phrase",
+      "text": "Of course.",
+      "reading": "əv ˈkɔːrs."
+    },
+    {
+      "id": "en.go-ahead",
+      "kind": "phrase",
+      "text": "Go ahead.",
+      "reading": "ˈɡoʊ əˈhɛd."
+    },
+    {
+      "id": "en.thanks-for-having-me",
+      "kind": "phrase",
+      "text": "Thanks for having me.",
+      "reading": "ˈθæŋks fər ˈhævɪŋ miː."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can I use the bathroom?",
+      "reading": "ˈnɑːm, kən aɪ ˈjuːz ðə ˈbæθruːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Of course! It's upstairs, next to my room.",
+      "reading": "əv ˈkɔːrs! ɪts ˌʌpˈstɛrz, ˈnɛkst tə maɪ ˈruːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks. Your garden is very pretty! Can I take a photo?",
+      "reading": "ˈθæŋks. jʊr ˈɡɑːrdən ɪz ˈvɛri ˈprɪti! kən aɪ ˈteɪk ə ˈfoʊtoʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure! Go ahead.",
+      "reading": "ˈʃʊr! ˈɡoʊ əˈhɛd."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks for having me, Nam!",
+      "reading": "ˈθæŋks fər ˈhævɪŋ miː, ˈnɑːm!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks for coming, Emma! See you tomorrow!",
+      "reading": "ˈθæŋks fər ˈkʌmɪŋ, ˈɛmə! ˈsiː juː təˈmɑːroʊ!"
+    }
+  ]
+}

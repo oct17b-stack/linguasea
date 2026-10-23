@@ -1,0 +1,61 @@
+{
+  "id": "en-B10-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.for-here-or-to-go",
+      "kind": "phrase",
+      "text": "For here or to go?",
+      "reading": "fər ˈhɪr ɔːr tə ˈɡoʊ?"
+    },
+    {
+      "id": "en.cup",
+      "text": "cup",
+      "reading": "kʌp"
+    },
+    {
+      "id": "en.napkin",
+      "text": "napkin",
+      "reading": "ˈnæpkɪn"
+    },
+    {
+      "id": "en.lid",
+      "text": "lid",
+      "reading": "lɪd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Two iced lattes. For here or to go?",
+      "reading": "ˈtuː ˈaɪst ˈlɑːteɪz. fər ˈhɪr ɔːr tə ˈɡoʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "To go, please.",
+      "reading": "tə ˈɡoʊ, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Here you are.",
+      "reading": "oʊˈkeɪ. ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. Oh, this cup has no lid.",
+      "reading": "ˈθæŋks. ˈoʊ, ðɪs ˈkʌp ˈhæz ˈnoʊ ˈlɪd."
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry! Here's a lid. And napkins, too.",
+      "reading": "ˈsɑːri! hɪrz ə ˈlɪd. ənd ˈnæpkɪnz, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you!",
+      "reading": "ˈθæŋk juː!"
+    }
+  ]
+}

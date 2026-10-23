@@ -1,0 +1,61 @@
+{
+  "id": "en-B8-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.come",
+      "text": "come",
+      "reading": "kʌm"
+    },
+    {
+      "id": "en.go",
+      "text": "go",
+      "reading": "ɡoʊ"
+    },
+    {
+      "id": "en.wait",
+      "text": "wait",
+      "reading": "weɪt"
+    },
+    {
+      "id": "en.hurry-up",
+      "kind": "phrase",
+      "text": "Hurry up!",
+      "reading": "ˈhɜːri ˈʌp!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam! Are you coming? The movie starts at seven!",
+      "reading": "ˈnɑːm! ər juː ˈkʌmɪŋ? ðə ˈmuːvi ˈstɑːrts ət ˈsɛvən!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I am! Please wait!",
+      "reading": "ˈjɛs, aɪ ˈæm! ˈpliːz ˈweɪt!"
+    },
+    {
+      "speaker": "c",
+      "text": "Hurry up! It's a quarter to seven! Is Fah coming, too?",
+      "reading": "ˈhɜːri ˈʌp! ɪts ə ˈkwɔːrtər tə ˈsɛvən! ɪz ˈfɑː ˈkʌmɪŋ, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, she isn't. She's going to her friend's house.",
+      "reading": "ˈnoʊ, ʃiː ˈɪzənt. ʃiːz ˈɡoʊɪŋ tə hɜːr ˈfrɛndz ˈhaʊs."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Let's go!",
+      "reading": "oʊˈkeɪ. ˈlɛts ˈɡoʊ!"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm coming!",
+      "reading": "aɪm ˈkʌmɪŋ!"
+    }
+  ]
+}

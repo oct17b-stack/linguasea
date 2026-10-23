@@ -1,0 +1,54 @@
+{
+  "id": "ko-A16-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.eotteokae",
+      "kind": "phrase",
+      "text": "어떡해",
+      "reading": "eotteokae"
+    },
+    {
+      "id": "ko.keunil-nasseoyo",
+      "kind": "phrase",
+      "text": "큰일 났어요",
+      "reading": "keunil nasseoyo"
+    },
+    {
+      "id": "ko.acham",
+      "kind": "phrase",
+      "text": "아참",
+      "reading": "acham"
+    },
+    {
+      "id": "ko.dahaengieyo",
+      "kind": "phrase",
+      "text": "다행이에요",
+      "reading": "dahaengieyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "큰일 났어요! 제 핸드폰 찾아요!",
+      "reading": "Keunil nasseoyo! Je haendeupon chajayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "어떡해! 테이블 아래예요?",
+      "reading": "Eotteokae! Teibeul araeyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요… 아참! 핸드폰은 서랍 안이에요!",
+      "reading": "Aniyo… Acham! Haendeuponeun seorap anieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 다행이에요!",
+      "reading": "A, dahaengieyo!"
+    }
+  ]
+}

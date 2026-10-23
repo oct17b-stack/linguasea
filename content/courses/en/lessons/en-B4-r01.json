@@ -1,0 +1,65 @@
+{
+  "id": "en-B4-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.teach",
+      "text": "teach",
+      "reading": "tiːtʃ"
+    },
+    {
+      "id": "en.after",
+      "text": "after",
+      "reading": "ˈæftər"
+    },
+    {
+      "id": "en.lesson",
+      "text": "lesson",
+      "reading": "ˈlɛsən"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "On Monday, Mr. Brown gets up at half past five.",
+        "reading": "ɑːn ˈmʌndeɪ, ˈmɪstər ˈbraʊn ˈɡɛts ˈʌp ət ˈhæf ˈpæst ˈfaɪv."
+      },
+      {
+        "text": "He has breakfast and goes to the university.",
+        "reading": "hiː ˈhæz ˈbrɛkfəst ənd ˈɡoʊz tə ðə ˌjuːnɪˈvɜːrsəti."
+      },
+      {
+        "text": "He teaches two lessons in the morning.",
+        "reading": "hiː ˈtiːtʃɪz ˈtuː ˈlɛsənz ɪn ðə ˈmɔːrnɪŋ."
+      }
+    ],
+    [
+      {
+        "text": "After the lessons, he has lunch with his students.",
+        "reading": "ˈæftər ðə ˈlɛsənz, hiː ˈhæz ˈlʌntʃ wɪð hɪz ˈstuːdənts."
+      },
+      {
+        "text": "He goes home at six o'clock.",
+        "reading": "hiː ˈɡoʊz ˈhoʊm ət ˈsɪks əˈklɑːk."
+      },
+      {
+        "text": "In the evening, he cooks dinner and reads a book.",
+        "reading": "ɪn ði ˈiːvnɪŋ, hiː ˈkʊks ˈdɪnər ənd ˈriːdz ə ˈbʊk."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

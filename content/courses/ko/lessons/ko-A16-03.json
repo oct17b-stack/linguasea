@@ -1,0 +1,54 @@
+{
+  "id": "ko-A16-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.geuraeyo",
+      "kind": "phrase",
+      "text": "그래요?",
+      "reading": "geuraeyo?"
+    },
+    {
+      "id": "ko.jeongmarieyo",
+      "kind": "phrase",
+      "text": "정말이에요?",
+      "reading": "jeongmarieyo?"
+    },
+    {
+      "id": "ko.mullonijyo",
+      "kind": "phrase",
+      "text": "물론이죠",
+      "reading": "mullonijyo"
+    },
+    {
+      "id": "ko.dangyeonhajyo",
+      "kind": "phrase",
+      "text": "당연하죠",
+      "reading": "dangyeonhajyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 선생님은 태국어 잘해요.",
+      "reading": "Nam ssi, I seonsaengnimeun taegugeo jalhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 정말이에요?",
+      "reading": "Geuraeyo? Jeongmarieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "당연하죠! 태국에 살아요.",
+      "reading": "Dangyeonhajyo! Taeguge sarayo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 맞아요!",
+      "reading": "A, majayo!"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "en-B5-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.all-day",
+      "kind": "phrase",
+      "text": "all day",
+      "reading": "ˈɔːl ˈdeɪ"
+    },
+    {
+      "id": "en.stay-home",
+      "kind": "phrase",
+      "text": "stay home",
+      "reading": "ˈsteɪ ˈhoʊm"
+    },
+    {
+      "id": "en.come-over",
+      "kind": "phrase",
+      "text": "come over",
+      "reading": "ˈkʌm ˈoʊvər"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "It's Saturday, and it's raining all day.",
+        "reading": "ɪts ˈsætərdeɪ, ənd ɪts ˈreɪnɪŋ ˈɔːl ˈdeɪ."
+      },
+      {
+        "text": "I stay home.",
+        "reading": "aɪ ˈsteɪ ˈhoʊm."
+      },
+      {
+        "text": "I feel bored and sleepy.",
+        "reading": "aɪ ˈfiːl ˈbɔːrd ənd ˈsliːpi."
+      }
+    ],
+    [
+      {
+        "text": "At three o'clock, Emma comes over.",
+        "reading": "ət ˈθriː əˈklɑːk, ˈɛmə ˈkʌmz ˈoʊvər."
+      },
+      {
+        "text": "We watch a movie and eat ice cream.",
+        "reading": "wiː ˈwɑːtʃ ə ˈmuːvi ənd ˈiːt ˈaɪs ˌkriːm."
+      },
+      {
+        "text": "I'm happy again!",
+        "reading": "aɪm ˈhæpi əˈɡɛn!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

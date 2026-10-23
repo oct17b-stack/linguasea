@@ -1,0 +1,66 @@
+{
+  "id": "en-B8-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.pond",
+      "text": "pond",
+      "reading": "pɑːnd"
+    },
+    {
+      "id": "en.lizard",
+      "text": "lizard",
+      "reading": "ˈlɪzərd"
+    },
+    {
+      "id": "en.kid",
+      "text": "kid",
+      "reading": "kɪd"
+    },
+    {
+      "id": "en.bench",
+      "text": "bench",
+      "reading": "bɛntʃ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Hi, Nam! I'm in Lumpini Park now.",
+        "reading": "ˈhaɪ, ˈnɑːm! aɪm ɪn lʊmˈpiːni ˈpɑːrk ˈnaʊ."
+      },
+      {
+        "text": "Look at this photo!",
+        "reading": "ˈlʊk ət ðɪs ˈfoʊtoʊ!"
+      }
+    ],
+    [
+      {
+        "text": "A man is running, and two girls are sitting on a bench.",
+        "reading": "ə ˈmæn ɪz ˈrʌnɪŋ, ənd ˈtuː ˈɡɜːrlz ər ˈsɪtɪŋ ɑːn ə ˈbɛntʃ."
+      },
+      {
+        "text": "Three kids are looking at a big lizard near the pond.",
+        "reading": "ˈθriː ˈkɪdz ər ˈlʊkɪŋ ət ə ˈbɪɡ ˈlɪzərd ˈnɪr ðə ˈpɑːnd."
+      },
+      {
+        "text": "And me? I'm eating ice cream!",
+        "reading": "ənd ˈmiː? aɪm ˈiːtɪŋ ˈaɪs ˌkriːm!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

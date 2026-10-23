@@ -1,0 +1,61 @@
+{
+  "id": "en-B5-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.how-do-you-feel",
+      "kind": "phrase",
+      "text": "How do you feel?",
+      "reading": "ˈhaʊ duː juː ˈfiːl?"
+    },
+    {
+      "id": "en.sleepy",
+      "text": "sleepy",
+      "reading": "ˈsliːpi"
+    },
+    {
+      "id": "en.nervous",
+      "text": "nervous",
+      "reading": "ˈnɜːrvəs"
+    },
+    {
+      "id": "en.surprised",
+      "text": "surprised",
+      "reading": "sərˈpraɪzd"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, how do you feel today?",
+      "reading": "ˈnɑːm, ˈhaʊ duː juː ˈfiːl təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I feel sleepy, and I'm a little nervous.",
+      "reading": "aɪ ˈfiːl ˈsliːpi, ənd aɪm ə ˈlɪtəl ˈnɜːrvəs."
+    },
+    {
+      "speaker": "c",
+      "text": "Nervous? Why?",
+      "reading": "ˈnɜːrvəs? ˈwaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Because we have a volleyball game today!",
+      "reading": "bɪˈkɔːz wiː ˈhæv ə ˈvɑːlibɔːl ˌɡeɪm təˈdeɪ!"
+    },
+    {
+      "speaker": "c",
+      "text": "Look! Your mom, dad, and Fah are here!",
+      "reading": "ˈlʊk! jʊr ˈmɑːm, ˈdæd, ənd ˈfɑː ər ˈhɪr!"
+    },
+    {
+      "speaker": "a",
+      "text": "Really? I'm very surprised!",
+      "reading": "ˈriːli? aɪm ˈvɛri sərˈpraɪzd!"
+    }
+  ]
+}

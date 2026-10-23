@@ -1,0 +1,69 @@
+{
+  "id": "en-B6-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.where-to",
+      "kind": "phrase",
+      "text": "Where to?",
+      "reading": "ˈwɛr ˈtuː?"
+    },
+    {
+      "id": "en.please-use-the-meter",
+      "kind": "phrase",
+      "text": "Please use the meter.",
+      "reading": "ˈpliːz ˈjuːz ðə ˈmiːtər."
+    },
+    {
+      "id": "en.traffic-jam",
+      "text": "traffic jam",
+      "reading": "ˈtræfɪk ˌdʒæm"
+    },
+    {
+      "id": "en.stop-here-please",
+      "kind": "phrase",
+      "text": "Stop here, please.",
+      "reading": "ˈstɑːp ˈhɪr, ˈpliːz."
+    },
+    {
+      "id": "en.how-much-to",
+      "kind": "phrase",
+      "text": "How much to …?",
+      "reading": "ˈhaʊ ˈmʌtʃ tə …?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Where to?",
+      "reading": "ˈhaɪ! ˈwɛr ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "The train station, please. How much to the station?",
+      "reading": "ðə ˈtreɪn ˌsteɪʃən, ˈpliːz. ˈhaʊ ˈmʌtʃ tə ðə ˈsteɪʃən?"
+    },
+    {
+      "speaker": "b",
+      "text": "One hundred fifty baht.",
+      "reading": "ˈwʌn ˈhʌndrəd ˈfɪfti ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "Please use the meter.",
+      "reading": "ˈpliːz ˈjuːz ðə ˈmiːtər."
+    },
+    {
+      "speaker": "b",
+      "text": "OK… Oh no, a traffic jam!",
+      "reading": "oʊˈkeɪ… ˈoʊ ˈnoʊ, ə ˈtræfɪk ˌdʒæm!"
+    },
+    {
+      "speaker": "a",
+      "text": "The station is over there. Stop here, please!",
+      "reading": "ðə ˈsteɪʃən ɪz ˌoʊvər ˈðɛr. ˈstɑːp ˈhɪr, ˈpliːz!"
+    }
+  ]
+}

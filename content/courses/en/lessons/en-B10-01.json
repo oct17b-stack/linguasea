@@ -1,0 +1,71 @@
+{
+  "id": "en-B10-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.cafe",
+      "text": "café",
+      "reading": "kæˈfeɪ"
+    },
+    {
+      "id": "en.can-i-get",
+      "kind": "phrase",
+      "text": "Can I get …?",
+      "reading": "kən aɪ ˈɡɛt …?"
+    },
+    {
+      "id": "en.iced",
+      "text": "iced",
+      "reading": "aɪst"
+    },
+    {
+      "id": "en.latte",
+      "text": "latte",
+      "reading": "ˈlɑːteɪ"
+    },
+    {
+      "id": "en.cocoa",
+      "text": "cocoa",
+      "reading": "ˈkoʊkoʊ"
+    },
+    {
+      "id": "en.smoothie",
+      "text": "smoothie",
+      "reading": "ˈsmuːði"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Welcome to our café! What can I get you?",
+      "reading": "ˈhaɪ! ˈwɛlkəm tə aʊr kæˈfeɪ! ˈwʌt kən aɪ ˈɡɛt juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Can I get an iced latte, please?",
+      "reading": "kən aɪ ˈɡɛt ən ˈaɪst ˈlɑːteɪ, ˈpliːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. And for you?",
+      "reading": "ˈʃʊr. ənd fər ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Can I get a hot cocoa?",
+      "reading": "kən aɪ ˈɡɛt ə ˈhɑːt ˈkoʊkoʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "OK. An iced latte and a hot cocoa.",
+      "reading": "oʊˈkeɪ. ən ˈaɪst ˈlɑːteɪ ənd ə ˈhɑːt ˈkoʊkoʊ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, and a mango smoothie, too, please!",
+      "reading": "ˈoʊ, ənd ə ˈmæŋɡoʊ ˈsmuːði, ˈtuː, ˈpliːz!"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "en-B9-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.just-a-moment",
+      "kind": "phrase",
+      "text": "Just a moment.",
+      "reading": "ˈdʒʌst ə ˈmoʊmənt."
+    },
+    {
+      "id": "en.shes-not-here",
+      "kind": "phrase",
+      "text": "She's not here.",
+      "reading": "ʃiːz ˈnɑːt ˈhɪr."
+    },
+    {
+      "id": "en.sorry-wrong-number",
+      "kind": "phrase",
+      "text": "Sorry, wrong number.",
+      "reading": "ˈsɑːri, ˈrɔːŋ ˈnʌmbər."
+    },
+    {
+      "id": "en.can-you-call-me-back",
+      "kind": "phrase",
+      "text": "Can you call me back?",
+      "reading": "kən juː ˈkɔːl miː ˈbæk?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hello?",
+      "reading": "həˈloʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Hello. Can I speak to Fah, please?",
+      "reading": "həˈloʊ. kən aɪ ˈspiːk tə ˈfɑː, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Just a moment… Sorry, she's not here. Who's calling?",
+      "reading": "ˈdʒʌst ə ˈmoʊmənt… ˈsɑːri, ʃiːz ˈnɑːt ˈhɪr. ˈhuːz ˈkɔːlɪŋ?"
+    },
+    {
+      "speaker": "b",
+      "text": "This is Mr. Smith, her English teacher.",
+      "reading": "ˈðɪs ɪz ˈmɪstər ˈsmɪθ, hɜːr ˈɪŋɡlɪʃ ˌtiːtʃər."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, hello, Mr. Smith. She's at the library now.",
+      "reading": "ˈoʊ, həˈloʊ, ˈmɪstər ˈsmɪθ. ʃiːz ət ðə ˈlaɪbrɛri ˈnaʊ."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Can you call me back at five?",
+      "reading": "oʊˈkeɪ. kən juː ˈkɔːl miː ˈbæk ət ˈfaɪv?"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "en-B7-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.come-in",
+      "kind": "phrase",
+      "text": "Come in!",
+      "reading": "ˈkʌm ˈɪn!"
+    },
+    {
+      "id": "en.have-a-seat",
+      "kind": "phrase",
+      "text": "Have a seat.",
+      "reading": "ˈhæv ə ˈsiːt."
+    },
+    {
+      "id": "en.make-yourself-at-home",
+      "kind": "phrase",
+      "text": "Make yourself at home.",
+      "reading": "ˈmeɪk jʊrˌsɛlf ət ˈhoʊm."
+    },
+    {
+      "id": "en.slippers",
+      "text": "slippers",
+      "reading": "ˈslɪpərz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma! Come in!",
+      "reading": "ˈhaɪ, ˈɛmə! ˈkʌm ˈɪn!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks, Nam. Oh, are these slippers for me?",
+      "reading": "ˈθæŋks, ˈnɑːm. ˈoʊ, ər ðiːz ˈslɪpərz fər ˈmiː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, they are. Have a seat.",
+      "reading": "ˈjɛs, ðeɪ ˈɑːr. ˈhæv ə ˈsiːt."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. Your living room is beautiful!",
+      "reading": "ˈθæŋk juː. jʊr ˈlɪvɪŋ ˌruːm ɪz ˈbjuːtəfəl!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Make yourself at home.",
+      "reading": "ˈθæŋks! ˈmeɪk jʊrˌsɛlf ət ˈhoʊm."
+    },
+    {
+      "speaker": "c",
+      "text": "OK! I love this sofa!",
+      "reading": "oʊˈkeɪ! aɪ ˈlʌv ðɪs ˈsoʊfə!"
+    }
+  ]
+}

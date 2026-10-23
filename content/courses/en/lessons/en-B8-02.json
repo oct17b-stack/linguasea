@@ -1,0 +1,63 @@
+{
+  "id": "en-B8-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.run",
+      "text": "run",
+      "reading": "rʌn"
+    },
+    {
+      "id": "en.ride-a-bike",
+      "kind": "phrase",
+      "text": "ride a bike",
+      "reading": "ˈraɪd ə ˈbaɪk"
+    },
+    {
+      "id": "en.fly-a-kite",
+      "kind": "phrase",
+      "text": "fly a kite",
+      "reading": "ˈflaɪ ə ˈkaɪt"
+    },
+    {
+      "id": "en.walk-the-dog",
+      "kind": "phrase",
+      "text": "walk the dog",
+      "reading": "ˈwɔːk ðə ˈdɔːɡ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what are people doing in the park?",
+      "reading": "ˈɛmə, ˈwʌt ər ˈpiːpəl ˈduːɪŋ ɪn ðə ˈpɑːrk?"
+    },
+    {
+      "speaker": "c",
+      "text": "A man is running, and two girls are riding bikes.",
+      "reading": "ə ˈmæn ɪz ˈrʌnɪŋ, ənd ˈtuː ˈɡɜːrlz ər ˈraɪdɪŋ ˈbaɪks."
+    },
+    {
+      "speaker": "a",
+      "text": "And the children?",
+      "reading": "ənd ðə ˈtʃɪldrən?"
+    },
+    {
+      "speaker": "c",
+      "text": "They're flying a kite. It's very windy today!",
+      "reading": "ðɛr ˈflaɪɪŋ ə ˈkaɪt. ɪts ˈvɛri ˈwɪndi təˈdeɪ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Is that your dog?",
+      "reading": "ˈoʊ! ɪz ˈðæt jʊr ˈdɔːɡ?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, a woman is walking her dog. It's cute!",
+      "reading": "ˈnoʊ, ə ˈwʊmən ɪz ˈwɔːkɪŋ hɜːr ˈdɔːɡ. ɪts ˈkjuːt!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-B5-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.windy",
+      "text": "windy",
+      "reading": "ˈwɪndi"
+    },
+    {
+      "id": "en.cloudy",
+      "text": "cloudy",
+      "reading": "ˈklaʊdi"
+    },
+    {
+      "id": "en.rain",
+      "text": "rain",
+      "reading": "reɪn"
+    },
+    {
+      "id": "en.sun",
+      "text": "sun",
+      "reading": "sʌn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hi, Nam! How's the weather in Bangkok today?",
+      "reading": "ˈhaɪ, ˈnɑːm! ˈhaʊz ðə ˈwɛðər ɪn ˈbæŋkɑːk təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's cloudy and windy. And it's raining a little.",
+      "reading": "ɪts ˈklaʊdi ənd ˈwɪndi. ənd ɪts ˈreɪnɪŋ ə ˈlɪtəl."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! Do you like rain?",
+      "reading": "ˈoʊ ˈnoʊ! duː juː ˈlaɪk ˈreɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I do! I don't like the sun. It's too hot!",
+      "reading": "ˈjɛs, aɪ ˈduː! aɪ ˈdoʊnt ˈlaɪk ðə ˈsʌn. ɪts ˈtuː ˈhɑːt!"
+    },
+    {
+      "speaker": "c",
+      "text": "Here in Canada, it's sunny but very cold.",
+      "reading": "ˈhɪr ɪn ˈkænədə, ɪts ˈsʌni bʌt ˈvɛri ˈkoʊld."
+    },
+    {
+      "speaker": "a",
+      "text": "Sunny and cold? That's interesting!",
+      "reading": "ˈsʌni ənd ˈkoʊld? ˈðæts ˈɪntrəstɪŋ!"
+    }
+  ]
+}

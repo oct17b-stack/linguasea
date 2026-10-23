@@ -1,0 +1,45 @@
+{
+  "lesson": "en-B10-05",
+  "title": "หาอะไรกินกัน",
+  "intro": "ชวนเพื่อนหาอะไรกิน ถามว่าร้านมีแซนด์วิชไหม และสั่งของกินที่ร้านกาแฟ",
+  "items": {
+    "en.sandwich": {
+      "meaning": "แซนด์วิช",
+      "translit": "แซนวิช"
+    },
+    "en.bread": {
+      "meaning": "ขนมปัง",
+      "translit": "เบรด"
+    },
+    "en.toast": {
+      "meaning": "ขนมปังปิ้ง",
+      "translit": "โทสต์"
+    },
+    "en.something": {
+      "meaning": "อะไรสักอย่าง",
+      "translit": "ซัมธิง"
+    }
+  },
+  "dialogue": [
+    "น้ำ ฉันหิวแล้ว หาอะไรกินกันเถอะ",
+    "โอเค ขอโทษนะ มีแซนด์วิชไหม",
+    "มี ไส้ไก่กับไส้ไข่ มีขนมปังปิ้งด้วย",
+    "ขนมปังสดไหม",
+    "สด เพิ่งทำเมื่อเช้านี้เอง",
+    "ดีเลย! ขอแซนด์วิชไก่สองชิ้น"
+  ],
+  "notes": [
+    {
+      "title": "something to eat",
+      "body": "something = อะไรสักอย่าง something to eat = อะไรกิน something to drink = อะไรดื่ม: Let's get something to eat. (หาอะไรกินกันเถอะ)"
+    },
+    {
+      "title": "bread นับไม่ได้",
+      "body": "bread (ขนมปัง) กับ toast (ขนมปังปิ้ง) นับไม่ได้ ไม่พูดว่า a bread หรือ breads ถ้าจะนับใช้ a piece of: a piece of toast (ขนมปังปิ้งหนึ่งแผ่น) เหมือน a piece of cake (เค้กหนึ่งชิ้น)"
+    },
+    {
+      "title": "sandwiches",
+      "body": "sandwich ลงท้ายด้วยเสียง ch จึงเติม -es: sandwiches และคนอเมริกันส่วนใหญ่ไม่ออกเสียง d (แซน-วิช)"
+    }
+  ]
+}

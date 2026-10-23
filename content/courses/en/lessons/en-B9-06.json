@@ -1,0 +1,62 @@
+{
+  "id": "en-B9-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.ring",
+      "text": "ring",
+      "reading": "rɪŋ"
+    },
+    {
+      "id": "en.phone-call",
+      "text": "phone call",
+      "reading": "ˈfoʊn ˌkɔːl"
+    },
+    {
+      "id": "en.who-is-it",
+      "kind": "phrase",
+      "text": "Who is it?",
+      "reading": "ˈhuː ɪz ɪt?"
+    },
+    {
+      "id": "en.its-me",
+      "kind": "phrase",
+      "text": "It's me.",
+      "reading": "ɪts ˈmiː."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Who is it?",
+      "reading": "ˈhuː ɪz ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's me, Emma!",
+      "reading": "ɪts ˈmiː, ˈɛmə!"
+    },
+    {
+      "speaker": "a",
+      "text": "Emma! Come in!",
+      "reading": "ˈɛmə! ˈkʌm ˈɪn!"
+    },
+    {
+      "speaker": "c",
+      "text": "Nam, your phone is ringing!",
+      "reading": "ˈnɑːm, jʊr ˈfoʊn ɪz ˈrɪŋɪŋ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! It's a phone call from my mom.",
+      "reading": "ˈoʊ! ɪts ə ˈfoʊn ˌkɔːl frəm maɪ ˈmɑːm."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Answer it!",
+      "reading": "oʊˈkeɪ. ˈænsər ɪt!"
+    }
+  ]
+}

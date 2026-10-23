@@ -1,0 +1,71 @@
+{
+  "id": "en-B1-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.first",
+      "text": "first",
+      "reading": "fɜːrst"
+    },
+    {
+      "id": "en.second",
+      "text": "second",
+      "reading": "ˈsɛkənd"
+    },
+    {
+      "id": "en.third",
+      "text": "third",
+      "reading": "θɜːrd"
+    },
+    {
+      "id": "en.fourth",
+      "text": "fourth",
+      "reading": "fɔːrθ"
+    },
+    {
+      "id": "en.fifth",
+      "text": "fifth",
+      "reading": "fɪfθ"
+    },
+    {
+      "id": "en.whats-the-date-today",
+      "kind": "phrase",
+      "text": "What's the date today?",
+      "reading": "ˈwʌts ðə ˈdeɪt təˈdeɪ?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's the date today?",
+      "reading": "ˈnɑːm, ˈwʌts ðə ˈdeɪt təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's June first.",
+      "reading": "ɪts ˈdʒuːn ˈfɜːrst."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Your birthday is in June. What's the date?",
+      "reading": "ˈoʊ! jʊr ˈbɜːrθdeɪ ɪz ɪn ˈdʒuːn. ˈwʌts ðə ˈdeɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "June fifth.",
+      "reading": "ˈdʒuːn ˈfɪfθ."
+    },
+    {
+      "speaker": "c",
+      "text": "Second, third, fourth, fifth… four days!",
+      "reading": "ˈsɛkənd, ˈθɜːrd, ˈfɔːrθ, ˈfɪfθ… ˈfɔːr ˈdeɪz!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! Let's eat cake together on the fifth!",
+      "reading": "ˈjɛs! ˈlɛts ˈiːt ˈkeɪk təˈɡɛðər ɑːn ðə ˈfɪfθ!"
+    }
+  ]
+}

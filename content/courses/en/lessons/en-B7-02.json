@@ -1,0 +1,67 @@
+{
+  "id": "en-B7-02",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.theres",
+      "kind": "phrase",
+      "text": "There's …",
+      "reading": "ðɛrz …"
+    },
+    {
+      "id": "en.there-are",
+      "kind": "phrase",
+      "text": "There are …",
+      "reading": "ðɛr ər …"
+    },
+    {
+      "id": "en.living-room",
+      "text": "living room",
+      "reading": "ˈlɪvɪŋ ˌruːm"
+    },
+    {
+      "id": "en.sofa",
+      "text": "sofa",
+      "reading": "ˈsoʊfə"
+    },
+    {
+      "id": "en.garden",
+      "text": "garden",
+      "reading": "ˈɡɑːrdən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "And this is the living room.",
+      "reading": "ənd ˈðɪs ɪz ðə ˈlɪvɪŋ ˌruːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, there's a big sofa! And a TV!",
+      "reading": "ˈoʊ, ðɛrz ə ˈbɪɡ ˈsoʊfə! ənd ə ˌtiːˈviː!"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. My family watches TV here at night.",
+      "reading": "ˈjɛs. maɪ ˈfæməli ˈwɑːtʃɪz ˌtiːˈviː ˈhɪr ət ˈnaɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "Is there a garden, too?",
+      "reading": "ɪz ðɛr ə ˈɡɑːrdən, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, there is. There are two mango trees in the garden.",
+      "reading": "ˈjɛs, ðɛr ˈɪz. ðɛr ər ˈtuː ˈmæŋɡoʊ ˌtriːz ɪn ðə ˈɡɑːrdən."
+    },
+    {
+      "speaker": "c",
+      "text": "Mango trees? I love mangoes!",
+      "reading": "ˈmæŋɡoʊ ˌtriːz? aɪ ˈlʌv ˈmæŋɡoʊz!"
+    }
+  ]
+}

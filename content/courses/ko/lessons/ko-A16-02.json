@@ -1,0 +1,54 @@
+{
+  "id": "ko-A16-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.aigo",
+      "kind": "phrase",
+      "text": "아이고",
+      "reading": "aigo"
+    },
+    {
+      "id": "ko.eomeo",
+      "kind": "phrase",
+      "text": "어머",
+      "reading": "eomeo"
+    },
+    {
+      "id": "ko.heol",
+      "kind": "phrase",
+      "text": "헐",
+      "reading": "heol"
+    },
+    {
+      "id": "ko.kkamjjagiya",
+      "kind": "phrase",
+      "text": "깜짝이야",
+      "reading": "kkamjjagiya"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨!",
+      "reading": "Nam ssi!"
+    },
+    {
+      "speaker": "a",
+      "text": "어머, 깜짝이야!",
+      "reading": "Eomeo, kkamjjagiya!"
+    },
+    {
+      "speaker": "b",
+      "text": "미안해요. 아, 제 핸드폰… 고장이에요.",
+      "reading": "Mianhaeyo. A, je haendeupon… Gojangieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "헐! 아이고…",
+      "reading": "Heol! Aigo…"
+    }
+  ]
+}

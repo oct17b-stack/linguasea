@@ -1,0 +1,64 @@
+{
+  "id": "en-B4-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.wake-up",
+      "kind": "phrase",
+      "text": "wake up",
+      "reading": "ˈweɪk ˈʌp"
+    },
+    {
+      "id": "en.brush-my-teeth",
+      "kind": "phrase",
+      "text": "brush my teeth",
+      "reading": "ˈbrʌʃ maɪ ˈtiːθ"
+    },
+    {
+      "id": "en.wash-my-face",
+      "kind": "phrase",
+      "text": "wash my face",
+      "reading": "ˈwɑːʃ maɪ ˈfeɪs"
+    },
+    {
+      "id": "en.get-dressed",
+      "kind": "phrase",
+      "text": "get dressed",
+      "reading": "ˈɡɛt ˈdrɛst"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what time do you wake up?",
+      "reading": "ˈnɑːm, ˈwʌt ˈtaɪm duː juː ˈweɪk ˈʌp?"
+    },
+    {
+      "speaker": "a",
+      "text": "At six. But I get up at a quarter past six.",
+      "reading": "ət ˈsɪks. bʌt aɪ ˈɡɛt ˈʌp ət ə ˈkwɔːrtər ˈpæst ˈsɪks."
+    },
+    {
+      "speaker": "c",
+      "text": "And then?",
+      "reading": "ənd ˈðɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I brush my teeth and wash my face.",
+      "reading": "aɪ ˈbrʌʃ maɪ ˈtiːθ ənd ˈwɑːʃ maɪ ˈfeɪs."
+    },
+    {
+      "speaker": "c",
+      "text": "And then you take a shower?",
+      "reading": "ənd ˈðɛn juː ˈteɪk ə ˈʃaʊər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Then I get dressed and have breakfast.",
+      "reading": "ˈjɛs. ˈðɛn aɪ ˈɡɛt ˈdrɛst ənd ˈhæv ˈbrɛkfəst."
+    }
+  ]
+}

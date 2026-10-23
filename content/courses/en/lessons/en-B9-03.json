@@ -1,0 +1,64 @@
+{
+  "id": "en-B9-03",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.can-you-hear-me",
+      "kind": "phrase",
+      "text": "Can you hear me?",
+      "reading": "kən juː ˈhɪr miː?"
+    },
+    {
+      "id": "en.i-cant-hear-you",
+      "kind": "phrase",
+      "text": "I can't hear you.",
+      "reading": "aɪ ˈkænt ˈhɪr juː."
+    },
+    {
+      "id": "en.speak-up-please",
+      "kind": "phrase",
+      "text": "Speak up, please.",
+      "reading": "ˈspiːk ˈʌp, ˈpliːz."
+    },
+    {
+      "id": "en.im-on-the-bus",
+      "kind": "phrase",
+      "text": "I'm on the bus.",
+      "reading": "aɪm ɑːn ðə ˈbʌs."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hello, Nam? This is Emma. Can you hear me?",
+      "reading": "həˈloʊ, ˈnɑːm? ˈðɪs ɪz ˈɛmə. kən juː ˈhɪr miː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, Emma. I can't hear you. Speak up, please!",
+      "reading": "ˈsɑːri, ˈɛmə. aɪ ˈkænt ˈhɪr juː. ˈspiːk ˈʌp, ˈpliːz!"
+    },
+    {
+      "speaker": "c",
+      "text": "Can you hear me now? Where are you?",
+      "reading": "kən juː ˈhɪr miː ˈnaʊ? ˈwɛr ər juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! I'm on the bus. Sorry!",
+      "reading": "ˈjɛs! aɪm ɑːn ðə ˈbʌs. ˈsɑːri!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Are you coming to the movie?",
+      "reading": "oʊˈkeɪ. ər juː ˈkʌmɪŋ tə ðə ˈmuːvi?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I am. See you at seven!",
+      "reading": "ˈjɛs, aɪ ˈæm. ˈsiː juː ət ˈsɛvən!"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "en-B3-06",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.how-do-i-get-to",
+      "kind": "phrase",
+      "text": "How do I get to …?",
+      "reading": "ˈhaʊ duː aɪ ˈɡɛt tə …?"
+    },
+    {
+      "id": "en.street",
+      "text": "street",
+      "reading": "striːt"
+    },
+    {
+      "id": "en.traffic-light",
+      "text": "traffic light",
+      "reading": "ˈtræfɪk ˌlaɪt"
+    },
+    {
+      "id": "en.block",
+      "text": "block",
+      "reading": "blɑːk"
+    },
+    {
+      "id": "en.map",
+      "text": "map",
+      "reading": "mæp"
+    },
+    {
+      "id": "en.cross",
+      "text": "cross",
+      "reading": "krɔːs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Excuse me. How do I get to the museum?",
+      "reading": "ɪkˈskjuːz miː. ˈhaʊ duː aɪ ˈɡɛt tə ðə mjuˈziːəm?"
+    },
+    {
+      "speaker": "b",
+      "text": "Cross the street and go two blocks.",
+      "reading": "ˈkrɔːs ðə ˈstriːt ənd ˈɡoʊ ˈtuː ˈblɑːks."
+    },
+    {
+      "speaker": "a",
+      "text": "Two blocks?",
+      "reading": "ˈtuː ˈblɑːks?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Then turn left at the traffic light.",
+      "reading": "ˈjɛs. ˈðɛn ˈtɜːrn ˈlɛft ət ðə ˈtræfɪk ˌlaɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! Is it on this map?",
+      "reading": "ˈθæŋk juː! ɪz ɪt ɑːn ðɪs ˈmæp?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. It's here, next to the park.",
+      "reading": "ˈjɛs. ɪts ˈhɪr, ˈnɛkst tə ðə ˈpɑːrk."
+    }
+  ]
+}

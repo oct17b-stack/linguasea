@@ -1,0 +1,65 @@
+{
+  "id": "en-B6-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.arrive",
+      "text": "arrive",
+      "reading": "əˈraɪv"
+    },
+    {
+      "id": "en.platform",
+      "text": "platform",
+      "reading": "ˈplætfɔːrm"
+    },
+    {
+      "id": "en.timetable",
+      "text": "timetable",
+      "reading": "ˈtaɪmteɪbəl"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "This is the timetable for trains to Chiang Mai.",
+        "reading": "ˈðɪs ɪz ðə ˈtaɪmteɪbəl fər ˈtreɪnz tə ˈtʃjɑːŋ ˈmaɪ."
+      },
+      {
+        "text": "The morning train leaves at 8:30 a.m.",
+        "reading": "ðə ˈmɔːrnɪŋ ˈtreɪn ˈliːvz ət ˈeɪt ˈθɜːrti ˌeɪˈɛm."
+      },
+      {
+        "text": "It arrives in Chiang Mai at 7:30 p.m.",
+        "reading": "ɪt əˈraɪvz ɪn ˈtʃjɑːŋ ˈmaɪ ət ˈsɛvən ˈθɜːrti ˌpiːˈɛm."
+      }
+    ],
+    [
+      {
+        "text": "The night train leaves at 6 p.m. from Platform 5.",
+        "reading": "ðə ˈnaɪt ˌtreɪn ˈliːvz ət ˈsɪks ˌpiːˈɛm frəm ˈplætfɔːrm ˈfaɪv."
+      },
+      {
+        "text": "It arrives at 7 a.m.",
+        "reading": "ɪt əˈraɪvz ət ˈsɛvən ˌeɪˈɛm."
+      },
+      {
+        "text": "Tickets for children are 100 baht.",
+        "reading": "ˈtɪkɪts fər ˈtʃɪldrən ər ˈwʌn ˈhʌndrəd ˈbɑːt."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

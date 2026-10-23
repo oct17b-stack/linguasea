@@ -1,0 +1,50 @@
+{
+  "id": "ko-A16-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.meosisseoyo",
+      "text": "멋있어요",
+      "reading": "meosisseoyo"
+    },
+    {
+      "id": "ko.daedanhaeyo",
+      "text": "대단해요",
+      "reading": "daedanhaeyo"
+    },
+    {
+      "id": "ko.bureowoyo",
+      "text": "부러워요",
+      "reading": "bureowoyo"
+    },
+    {
+      "id": "ko.jjang",
+      "text": "짱",
+      "reading": "jjang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 저는 영어하고 중국어도 말해요.",
+      "reading": "Nam ssi, jeoneun yeongeohago junggugeodo malhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 대단해요! 부러워요!",
+      "reading": "Wa, daedanhaeyo! Bureowoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨도 잘해요!",
+      "reading": "Nam ssido jalhaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아니에요. 민준 씨가 짱이에요! 멋있어요!",
+      "reading": "Anieyo. Minjun ssiga jjangieyo! Meosisseoyo!"
+    }
+  ]
+}

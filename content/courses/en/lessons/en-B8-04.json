@@ -1,0 +1,61 @@
+{
+  "id": "en-B8-04",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.swim",
+      "text": "swim",
+      "reading": "swɪm"
+    },
+    {
+      "id": "en.sea",
+      "text": "sea",
+      "reading": "siː"
+    },
+    {
+      "id": "en.dive",
+      "text": "dive",
+      "reading": "daɪv"
+    },
+    {
+      "id": "en.look-at-me",
+      "kind": "phrase",
+      "text": "Look at me!",
+      "reading": "ˈlʊk ət ˈmiː!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, look at me! I'm swimming!",
+      "reading": "ˈnɑːm, ˈlʊk ət ˈmiː! aɪm ˈswɪmɪŋ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Is the sea cold?",
+      "reading": "ɪz ðə ˈsiː ˈkoʊld?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, it's warm. Come in!",
+      "reading": "ˈnoʊ, ɪts ˈwɔːrm. ˈkʌm ˈɪn!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! Oh, what's that man doing?",
+      "reading": "oʊˈkeɪ! ˈoʊ, ˈwʌts ðæt ˈmæn ˈduːɪŋ?"
+    },
+    {
+      "speaker": "c",
+      "text": "He's diving from the boat.",
+      "reading": "hiːz ˈdaɪvɪŋ frəm ðə ˈboʊt."
+    },
+    {
+      "speaker": "a",
+      "text": "Look at me, Emma! I'm diving, too!",
+      "reading": "ˈlʊk ət ˈmiː, ˈɛmə! aɪm ˈdaɪvɪŋ, ˈtuː!"
+    }
+  ]
+}

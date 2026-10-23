@@ -1,0 +1,53 @@
+{
+  "id": "ko-A16-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.himnaeseyo",
+      "kind": "phrase",
+      "text": "힘내세요",
+      "reading": "himnaeseyo"
+    },
+    {
+      "id": "ko.jalhaesseoyo",
+      "kind": "phrase",
+      "text": "잘했어요",
+      "reading": "jalhaesseoyo"
+    },
+    {
+      "id": "ko.sugohaesseoyo",
+      "kind": "phrase",
+      "text": "수고했어요",
+      "reading": "sugohaesseoyo"
+    },
+    {
+      "id": "ko.choego",
+      "text": "최고",
+      "reading": "choego"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 잘했어요!",
+      "reading": "Nam ssi, jalhaesseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "수고했어요! 남 씨가 최고예요!",
+      "reading": "Sugohaesseoyo! Nam ssiga choegoyeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요! 민준 씨, 힘내세요!",
+      "reading": "Gomawoyo! Minjun ssi, himnaeseyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네!",
+      "reading": "Ne!"
+    }
+  ]
+}

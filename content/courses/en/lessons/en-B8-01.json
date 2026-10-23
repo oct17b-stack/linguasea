@@ -1,0 +1,61 @@
+{
+  "id": "en-B8-01",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.what-are-you-doing",
+      "kind": "phrase",
+      "text": "What are you doing?",
+      "reading": "ˈwʌt ər juː ˈduːɪŋ?"
+    },
+    {
+      "id": "en.now",
+      "text": "now",
+      "reading": "naʊ"
+    },
+    {
+      "id": "en.sleep",
+      "text": "sleep",
+      "reading": "sliːp"
+    },
+    {
+      "id": "en.talk",
+      "text": "talk",
+      "reading": "tɔːk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hi, Nam! Are you sleeping?",
+      "reading": "ˈhaɪ, ˈnɑːm! ər juː ˈsliːpɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I'm not. I'm studying. What are you doing now?",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt. aɪm ˈstʌdiɪŋ. ˈwʌt ər juː ˈduːɪŋ ˈnaʊ?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm talking to you!",
+      "reading": "aɪm ˈtɔːkɪŋ tə ˈjuː!"
+    },
+    {
+      "speaker": "a",
+      "text": "Emma! Where are you?",
+      "reading": "ˈɛmə! ˈwɛr ər juː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm in the park. I'm eating ice cream.",
+      "reading": "aɪm ɪn ðə ˈpɑːrk. aɪm ˈiːtɪŋ ˈaɪs ˌkriːm."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Now I'm hungry!",
+      "reading": "ˈoʊ! ˈnaʊ aɪm ˈhʌŋɡri!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "en-B10-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.espresso",
+      "text": "espresso",
+      "reading": "ɛˈsprɛsoʊ"
+    },
+    {
+      "id": "en.honey",
+      "text": "honey",
+      "reading": "ˈhʌni"
+    },
+    {
+      "id": "en.lemon",
+      "text": "lemon",
+      "reading": "ˈlɛmən"
+    },
+    {
+      "id": "en.brownie",
+      "text": "brownie",
+      "reading": "ˈbraʊni"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Coffee: espresso 50 baht, latte 60 baht, hot or iced.",
+        "reading": "ˈkɔːfi: ɛˈsprɛsoʊ ˈfɪfti ˈbɑːt, ˈlɑːteɪ ˈsɪksti ˈbɑːt, ˈhɑːt ɔːr ˈaɪst."
+      },
+      {
+        "text": "Tea: honey lemon tea 55 baht.",
+        "reading": "ˈtiː: ˈhʌni ˈlɛmən ˈtiː ˈfɪfti ˈfaɪv ˈbɑːt."
+      },
+      {
+        "text": "Smoothies: mango or banana, 70 baht.",
+        "reading": "ˈsmuːðiz: ˈmæŋɡoʊ ɔːr bəˈnænə, ˈsɛvənti ˈbɑːt."
+      }
+    ],
+    [
+      {
+        "text": "Chocolate brownie 65 baht, banana cake 60 baht.",
+        "reading": "ˈtʃɔːklət ˈbraʊni ˈsɪksti ˈfaɪv ˈbɑːt, bəˈnænə ˈkeɪk ˈsɪksti ˈbɑːt."
+      },
+      {
+        "text": "Large size: 15 baht more.",
+        "reading": "ˈlɑːrdʒ ˈsaɪz: ˌfɪfˈtiːn ˈbɑːt ˈmɔːr."
+      },
+      {
+        "text": "Less sugar is free!",
+        "reading": "ˈlɛs ˈʃʊɡər ɪz ˈfriː!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "en-B2-05",
+  "target": "en",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "en.pink",
+      "text": "pink",
+      "reading": "pɪŋk"
+    },
+    {
+      "id": "en.purple",
+      "text": "purple",
+      "reading": "ˈpɜːrpəl"
+    },
+    {
+      "id": "en.brown",
+      "text": "brown",
+      "reading": "braʊn"
+    },
+    {
+      "id": "en.gray",
+      "text": "gray",
+      "reading": "ɡreɪ"
+    },
+    {
+      "id": "en.can-i-try-it-on",
+      "kind": "phrase",
+      "text": "Can I try it on?",
+      "reading": "kən aɪ ˈtraɪ ɪt ˈɑːn?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hi! Can I help you?",
+      "reading": "ˈhaɪ! kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Do you have this T-shirt in gray?",
+      "reading": "ˈjɛs. duː juː ˈhæv ðɪs ˈtiːʃɜːrt ɪn ˈɡreɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, no. We have pink, purple, and brown.",
+      "reading": "ˈsɑːri, ˈnoʊ. wiː ˈhæv ˈpɪŋk, ˈpɜːrpəl, ənd ˈbraʊn."
+    },
+    {
+      "speaker": "a",
+      "text": "Purple, please. Can I try it on?",
+      "reading": "ˈpɜːrpəl, ˈpliːz. kən aɪ ˈtraɪ ɪt ˈɑːn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. Here you are.",
+      "reading": "ˈʃʊr. ˈhɪr juː ˈɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! Oh, it's nice. I'll take it!",
+      "reading": "ˈθæŋks! ˈoʊ, ɪts ˈnaɪs. aɪl ˈteɪk ɪt!"
+    }
+  ]
+}
