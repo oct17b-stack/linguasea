@@ -72,6 +72,7 @@ AI 初稿，以下是拿不准、需要母语老师（英语 / 泰语）确认�
 - [转写] เธอะ（the）、ธิ（the + 元音）、เธย์（they）：请泰语老师找真实学习者试读，确认不会因为像 เธอ（你）而读得别扭。如果别扭，the 可改写 ธะ（和 a 写 อะ 一样）。
 - [en-B4-02]、[en-B4-04] I work at a restaurant on the weekend. / I never study on the weekend. I work.：给 Nam 加了"周末在餐厅打工"，固定人物表里没有这一条，请和中、日、韩三门课确认没有冲突（例如别的课说她周末做别的事）。 ✅ resolved: 现在已是 docs/CONTENT.md 的固定设定（周末在餐厅打工）。A–B 统一为周末上午打工（[en-B1-05] 周六 8 点到中午），[en-B1-02] 周日和 Emma 见面改到下午三点。
 - [en-B4-04] Mr. Brown always works on Saturday.：表示每周的习惯，美式口语 on Saturday 和 on Saturdays 都有人说，复数更清楚。要不要改成复数（星期名的复数还没教）？ ✅ resolved: 保留单数。美式口语 always works on Saturday 表示每周习惯很自然，星期复数以后再教。
+- test 写 เท็สต์（短元音），和 taste เทสต์ 区分（placement test 同理）。
 
 ## 故事设定（A–B）
 
