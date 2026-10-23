@@ -11,7 +11,7 @@
 需要母语老师（英语 / 泰语）确认的：
 - [en-B3-r01] 起点：大纲写"从车站走到 Emma 家"，但 station 到 [en-B6-02] 才教（train、bus 也在 B6）。读物改成从 the big supermarket（[en-B3-01] 学过）出发，其余照大纲：经过市场、在红绿灯处过马路、走两个街区、楼在邮局旁边。可以吗？ ✅ resolved: 可以，从学过的 supermarket 出发更合适。
 - [en-B4-r01] 大纲写 Mr. Brown takes the bus，但 bus 在 [en-B6-01] 才教，改成 He has breakfast and goes to the university.，并加了一句晚上的活动（cooks dinner and reads a book）凑成 6 句。请确认。 ✅ resolved: 可以。
-- [en-B1-r01] 通知里用了 April 6th / April 9th。[en-B1-06] 只教 first–fifth，sixth、ninth 靠该课讲解里的 -th 规律（讲解举了 sixth、ninth）。4 月 6 日是泰国的 วันจักรี，英文只写 It's a holiday.，泰语译文也没点名是什么节日。可以接受吗？ ✅ resolved: 可以。sixth、ninth 有 B1-06 讲解的 -th 规律支撑；4 月 6 日是公众假日，泰语译文不点名节日也没问题。
+- [en-B1-r01] 通知里用了 April 6th / April 9th。[en-B1-06] 只教 first–fifth，sixth、ninth 靠该课讲解里的 -th 规律（讲解举了 sixth、ninth）。4 月 6 日是泰国的 วันจักรี，英文只写 It's a holiday.，泰语译文也没点名是什么节日。可以接受吗？ ✅ resolved: 可以，泰语译文不点名节日也没问题。按课程的 2026 年日历（4 月 6 日是星期一）把通知改成：星期一 4 月 6 日放假，下一次课星期三 4 月 8 日（课在周一、周三），阅读题同步；[en-B1-06] 讲解的 -th 规律补了 eighth。
 - [en-B1-05] half past / quarter past：美式口语更常说 seven thirty、a quarter after seven。按大纲保留，讲解里补了 a quarter after seven 和 seven fifteen。请确认。 ✅ resolved: 保留，讲解已给出美式更常说的说法。另外 Emma 周六下午的课改成 Thai class（交换生周末上泰语课，原来的 class 放在周六不自然）。
 - [en-B2-r01] [en-B6-r01] [en-B10-r01] 告示、时刻表、菜单里的价格和时间用阿拉伯数字（199 baht、8:30 a.m.、Platform 5），reading 写出读法（ˈwʌn ˈhʌndrəd ˈnaɪnti ˈnaɪn ˈbɑːt）。配音直接念数字应该没问题，这种写法可以吗？ ✅ resolved: 可以，告示本来就写数字，reading 写出读法；配音按数字念没问题。
 - [en-B5-r01] 日记用一般现在时叙述（I stay home. / Emma comes over.），因为一般过去时 C5 才教。母语者读起来能接受吗？ ✅ resolved: 可以接受，写当天正在发生的事，用一般现在时读起来自然。
