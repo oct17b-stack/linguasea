@@ -4,8 +4,8 @@
   "intro": "น้ำเล่าให้เอ็มม่าฟังว่ารัฐบาลแถลงข่าวเรื่องฝุ่นว่าอย่างไร ฝึกเล่าคำพูดที่มี will และ can ด้วย would และ could",
   "items": {
     "en.announce": {
-      "meaning": "ประกาศ",
-      "translit": "อะเนานซ์"
+      "meaning": "ประกาศ (กริยา), แจ้งให้ทราบ",
+      "translit": "อะนาวซ์"
     },
     "en.statement": {
       "meaning": "คำแถลง, แถลงการณ์",
@@ -26,7 +26,7 @@
   },
   "dialogue": [
     "น้ำ เมื่อเช้าดูการแถลงข่าวหรือเปล่า",
-    "ดู รัฐบาลประกาศแผนใหม่เรื่องฝุ่นควัน",
+    "ดู รัฐบาลประกาศแผนใหม่เพื่อรับมือกับฝุ่นควัน",
     "เขาพูดว่าอะไรบ้าง",
     "โฆษกบอกว่าโรงเรียนจะปิดในวันที่ฝุ่นหนักมาก",
     "แล้วเด็ก ๆ ล่ะ จะได้หน้ากากไหม",
@@ -40,15 +40,15 @@
   "notes": [
     {
       "title": "will → would, can → could",
-      "body": "เล่าคำพูดที่มี will หรือ can ให้เปลี่ยนเป็น would หรือ could: \"Schools will close.\" → The spokesperson said that schools would close. / \"Companies can let workers stay home.\" → She said that companies could let workers stay home. ภาษาไทยใช้ จะ และ ได้ เหมือนเดิม"
+      "body": "เล่าคำพูดที่มี will หรือ can ให้เปลี่ยนเป็น would หรือ could: \"Schools will close.\" → The spokesperson said that schools would close. / \"Companies can let their staff stay home.\" → She said that companies could let their staff stay home. ภาษาไทยใช้ จะ และ ได้ เหมือนเดิม"
     },
     {
       "title": "announce / statement / official",
       "body": "announce = ประกาศ (The government announced a new plan.) statement = คำแถลง official ใช้เป็นคุณศัพท์ = อย่างเป็นทางการ (the official statement) หรือเป็นคำนาม = เจ้าหน้าที่ (a government official) ก็ได้"
     },
     {
-      "title": "ดูให้แน่ใจว่าเป็น she",
-      "body": "spokesperson ใช้ได้ทั้งชายและหญิง ในบทสนทนานี้โฆษกเป็นผู้หญิง จึงเล่าต่อด้วย She said…"
+      "title": "spokesperson / press conference",
+      "body": "spokesperson = โฆษก ใช้ได้ทั้งชายและหญิง (ในบทนี้โฆษกเป็นผู้หญิง จึงเล่าต่อด้วย She said…) ส่วน press conference = การแถลงข่าว (press = สื่อมวลชน)"
     }
   ]
 }
