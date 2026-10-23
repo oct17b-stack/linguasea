@@ -1,0 +1,80 @@
+{
+  "id": "zh-D8-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.ying-yang",
+      "text": "营养",
+      "reading": "yíngyǎng"
+    },
+    {
+      "id": "zh.shu-cai",
+      "text": "蔬菜",
+      "reading": "shūcài"
+    },
+    {
+      "id": "zh.shi-pin-food",
+      "text": "食品",
+      "reading": "shípǐn"
+    },
+    {
+      "id": "zh.tian-shi",
+      "text": "甜食",
+      "reading": "tiánshí"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你看，这是我今天的晚饭。",
+      "reading": "Xiǎonán, nǐ kàn, zhè shì wǒ jīntiān de wǎnfàn."
+    },
+    {
+      "speaker": "a",
+      "text": "又是方便面和饮料？你最好别天天吃这些食品。",
+      "reading": "Yòu shì fāngbiànmiàn hé yǐnliào? Nǐ zuìhǎo bié tiāntiān chī zhèxiē shípǐn."
+    },
+    {
+      "speaker": "b",
+      "text": "可是方便面又快又便宜。",
+      "reading": "Kěshì fāngbiànmiàn yòu kuài yòu piányi."
+    },
+    {
+      "speaker": "a",
+      "text": "方便面没有什么营养。你最好多吃一点儿蔬菜和水果。",
+      "reading": "Fāngbiànmiàn méiyǒu shénme yíngyǎng. Nǐ zuìhǎo duō chī yīdiǎnr shūcài hé shuǐguǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "我不太喜欢吃蔬菜，我喜欢吃甜食。",
+      "reading": "Wǒ bù tài xǐhuan chī shūcài, wǒ xǐhuan chī tiánshí."
+    },
+    {
+      "speaker": "a",
+      "text": "甜食吃多了，对身体没有好处。",
+      "reading": "Tiánshí chī duō le, duì shēntǐ méiyǒu hǎochu."
+    },
+    {
+      "speaker": "b",
+      "text": "那我晚上饿的时候吃什么？",
+      "reading": "Nà wǒ wǎnshang è de shíhou chī shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "你最好吃一点儿水果，或者喝一杯牛奶。",
+      "reading": "Nǐ zuìhǎo chī yīdiǎnr shuǐguǒ, huòzhě hē yī bēi niúnǎi."
+    },
+    {
+      "speaker": "b",
+      "text": "好吧。今天我已经吃饱了，明天开始试试。",
+      "reading": "Hǎo ba. Jīntiān wǒ yǐjīng chībǎo le, míngtiān kāishǐ shìshi."
+    },
+    {
+      "speaker": "a",
+      "text": "明天中午我们一起去食堂吃饭吧，那儿的菜很有营养。",
+      "reading": "Míngtiān zhōngwǔ wǒmen yīqǐ qù shítáng chīfàn ba, nàr de cài hěn yǒu yíngyǎng."
+    }
+  ]
+}
