@@ -42,9 +42,10 @@ npm run audio -- --dry-run         # 还缺多少配音、估算费用（有 Azu
 npm run l10n -- export --to vi     # 导出翻译表
 cd app && npm start                # 开发服务器
 cd server && npm run dev           # 后端（不配 DATABASE_URL 时用内存存储）
+npm run e2e                        # 端到端测试（网页版 + 真服务器 + 浏览器）
 ```
 
-改了 App 界面要用网页版实际点一遍：`cd app && EXPO_OFFLINE=1 CI=1 npx expo export --platform web --output-dir dist`，再用 Playwright 驱动（`tests/e2e/harness.mjs` 有起服务器、打包、开浏览器的工具函数）。
+改了 App 界面要用网页版实际点一遍：`npm run e2e`（先 `npm run content`）会起真服务器、打包网页版、用 Playwright 把主要流程走一遍（选课、上课、同步、AI 老师、付费墙、分级测试、练习、单元测验、读物、复习、删除数据），逐项打印 PASS/FAIL。打包要几分钟；反复跑时可以先用 `EXPO_PUBLIC_API_URL=http://127.0.0.1:<端口>` 打包一次，再用 `E2E_DIST=<目录> E2E_API_PORT=<端口> npm run e2e`；`E2E_SHOTS=<目录>` 保存截图。工具函数在 `tests/e2e/harness.mjs`。
 
 ## 写内容的流程
 
