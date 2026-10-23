@@ -1,0 +1,100 @@
+{
+  "id": "ja-F2-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kaigo",
+      "text": "かいご",
+      "reading": "kaigo"
+    },
+    {
+      "id": "ja.herupaa",
+      "text": "ヘルパー",
+      "reading": "herupā"
+    },
+    {
+      "id": "ja.netakiri",
+      "text": "寝たきり",
+      "reading": "netakiri"
+    },
+    {
+      "id": "ja.ninchishou",
+      "text": "にんちしょう",
+      "reading": "ninchishō"
+    },
+    {
+      "id": "ja.kanbyou",
+      "text": "かんびょう",
+      "reading": "kanbyō"
+    },
+    {
+      "id": "ja.sobo",
+      "text": "そぼ",
+      "reading": "sobo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさんのおばあさんは、おげんきですか。",
+      "reading": "Namu-san no obāsan wa, ogenki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じつは、そぼはきょねんたおれて以来、ずっと寝たきりなんです。",
+      "reading": "Jitsu wa, sobo wa kyonen taorete irai, zutto netakiri na n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうでしたか。かいごは、だれがしているんですか。",
+      "reading": "Sō deshita ka. Kaigo wa, dare ga shite iru n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ははです。そぼがたおれて以来、ははがまいにちかいごをしています。",
+      "reading": "Haha desu. Sobo ga taorete irai, haha ga mainichi kaigo o shite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おかあさんは、学校のせんせいでしたね。たいへんでしょう。",
+      "reading": "Okāsan wa, gakkō no sensei deshita ne. Taihen deshō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。だから、ひるはヘルパーさんにきてもらっています。",
+      "reading": "Hai. Dakara, hiru wa herupā-san ni kite moratte imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。にほんでも、ヘルパーにたのむかぞくがおおいですよ。",
+      "reading": "Sō desu ka. Nihon demo, herupā ni tanomu kazoku ga ōi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせいのおかあさんは、いかがですか。",
+      "reading": "Sensei no okāsan wa, ikaga desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ははも、先月入院して以来、ずっとびょういんにいるんです。",
+      "reading": "Haha mo, sengetsu nyūin shite irai, zutto byōin ni iru n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうでしたか。せんせいがかんびょうしているんですか。",
+      "reading": "Sō deshita ka. Sensei ga kanbyō shite iru n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、しゅうまつはびょういんに行って、かんびょうしています。いしゃには、にんちしょうもすこしあると言われました。",
+      "reading": "Ē, shūmatsu wa byōin ni itte, kanbyō shite imasu. Isha ni wa, ninchishō mo sukoshi aru to iwaremashita."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへんですね。せんせいも、むりをなさらないでくださいね。",
+      "reading": "Taihen desu ne. Sensei mo, muri o nasaranaide kudasai ne."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ja-F2-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.koureika",
+      "text": "こうれいか",
+      "reading": "kōreika"
+    },
+    {
+      "id": "ja.koureisha",
+      "text": "こうれいしゃ",
+      "reading": "kōreisha"
+    },
+    {
+      "id": "ja.shoushika",
+      "text": "少子化",
+      "reading": "shōshika"
+    },
+    {
+      "id": "ja.roujin",
+      "text": "老人",
+      "reading": "rōjin"
+    },
+    {
+      "id": "ja.nenrei",
+      "text": "ねんれい",
+      "reading": "nenrei"
+    },
+    {
+      "id": "ja.susumu",
+      "text": "進む",
+      "reading": "susumu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、さいきん、おつかれのようですね。",
+      "reading": "Sensei, saikin, otsukare no yō desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。じつは、いなかにすんでいるははが、ひとりでくらすのがむずかしくなってきたんです。",
+      "reading": "Ē. Jitsu wa, inaka ni sunde iru haha ga, hitori de kurasu no ga muzukashiku natte kita n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "おかあさんは、おいくつですか。",
+      "reading": "Okāsan wa, oikutsu desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "85さいです。ねんれいが上がるにしたがって、できないことがふえてきました。",
+      "reading": "Hachijūgosai desu. Nenrei ga agaru ni shitagatte, dekinai koto ga fuete kimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。いなかには、わかい人が少ないんですか。",
+      "reading": "Sō desu ka. Inaka ni wa, wakai hito ga sukunai n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。こうれいかが進んで、まちの人の半分ぐらいがこうれいしゃなんです。",
+      "reading": "Ē. Kōreika ga susunde, machi no hito no hanbun gurai ga kōreisha na n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイでも、こうれいかが進んでいると、ニュースで見ました。",
+      "reading": "Tai demo, kōreika ga susunde iru to, nyūsu de mimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。にほんでは、少子化ももんだいです。こどもがへるにしたがって、老人をささえる人もへっています。",
+      "reading": "Sō desu ka. Nihon de wa, shōshika mo mondai desu. Kodomo ga heru ni shitagatte, rōjin o sasaeru hito mo hette imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "こうれいかが進むにしたがって、ささえる人はもっと少なくなるんですね。",
+      "reading": "Kōreika ga susumu ni shitagatte, sasaeru hito wa motto sukunaku naru n desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そのとおりです。これからは、社会みんなで考えなければなりません。",
+      "reading": "Sono tōri desu. Korekara wa, shakai minna de kangaenakereba narimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせいのおかあさんは、これからどうなさるんですか。",
+      "reading": "Sensei no okāsan wa, korekara dō nasaru n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "それを、いま、かぞくで話し合っているところです。",
+      "reading": "Sore o, ima, kazoku de hanashiatte iru tokoro desu."
+    }
+  ]
+}

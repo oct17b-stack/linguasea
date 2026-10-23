@@ -1,0 +1,95 @@
+{
+  "id": "ja-F2-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.wariai",
+      "text": "割合",
+      "reading": "wariai"
+    },
+    {
+      "id": "ja.heikinjumyou",
+      "text": "へいきんじゅみょう",
+      "reading": "heikinjumyō"
+    },
+    {
+      "id": "ja.toukei",
+      "text": "とうけい",
+      "reading": "tōkei"
+    },
+    {
+      "id": "ja.shakaimondai",
+      "text": "社会問題",
+      "reading": "shakaimondai"
+    },
+    {
+      "id": "ja.genjou",
+      "text": "現状",
+      "reading": "genjō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、レポートを書いてきました。見ていただけませんか。",
+      "reading": "Sensei, repōto o kaite kimashita. Mite itadakemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。でも、ナムさん、レポートは「です」や「ます」ではなく、「である」をつかって書きましょう。",
+      "reading": "Ii desu yo. Demo, Namu-san, repōto wa \"desu\" ya \"masu\" de wa naku, \"de aru\" o tsukatte kakimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "「である」ですか。",
+      "reading": "\"De aru\" desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。たとえば「こうれいかは社会問題です」は、「こうれいかは社会問題である」になります。",
+      "reading": "Ē. Tatoeba \"Kōreika wa shakaimondai desu\" wa, \"Kōreika wa shakaimondai de aru\" ni narimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。じゃあ、「現状をとうけいで説明します」は、どうなりますか。",
+      "reading": "Wakarimashita. Jā, \"Genjō o tōkei de setsumei shimasu\" wa, dō narimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "「現状をとうけいで説明する」です。ふつうのかたちでいいんですよ。",
+      "reading": "\"Genjō o tōkei de setsumei suru\" desu. Futsū no katachi de ii n desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "なるほど。「こうれいしゃの割合は30%にちかいです」は、「30%にちかい」ですね。",
+      "reading": "Naruhodo. \"Kōreisha no wariai wa sanjuppāsento ni chikai desu\" wa, \"Sanjuppāsento ni chikai\" desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そのとおりです。それから、へいきんじゅみょうのとうけいも入れると、いいですね。",
+      "reading": "Sono tōri desu. Sorekara, heikinjumyō no tōkei mo ireru to, ii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんのへいきんじゅみょうは、80さいいじょうですね。",
+      "reading": "Nihon no heikinjumyō wa, hachijussai ijō desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。それも「80さいいじょうである」と書けば、レポートらしくなりますよ。",
+      "reading": "Ē. Sore mo \"Hachijussai ijō de aru\" to kakeba, repōto rashiku narimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "レポートは、話すときとずいぶん違いますね。",
+      "reading": "Repōto wa, hanasu toki to zuibun chigaimasu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。でも、なれればかんたんですよ。がんばってください。",
+      "reading": "Ē. Demo, narereba kantan desu yo. Ganbatte kudasai."
+    }
+  ]
+}
