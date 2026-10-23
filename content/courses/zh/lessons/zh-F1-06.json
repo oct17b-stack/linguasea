@@ -1,0 +1,92 @@
+{
+  "id": "zh-F1-06",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.zong-er-yan-zhi",
+      "kind": "phrase",
+      "text": "总而言之",
+      "reading": "zǒng ér yán zhī"
+    },
+    {
+      "id": "zh.you-ci-ke-jian",
+      "kind": "phrase",
+      "text": "由此可见",
+      "reading": "yóu cǐ kě jiàn"
+    },
+    {
+      "id": "zh.jie-lun",
+      "text": "结论",
+      "reading": "jiélùn"
+    },
+    {
+      "id": "zh.zong-jie",
+      "text": "总结",
+      "reading": "zǒngjié"
+    },
+    {
+      "id": "zh.xian-ran",
+      "text": "显然",
+      "reading": "xiǎnrán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "时间差不多了。现在请两边各用一分钟总结一下。小南，你先来。",
+      "reading": "Shíjiān chàbuduō le. Xiànzài qǐng liǎng biān gè yòng yī fēnzhōng zǒngjié yīxià. Xiǎonán, nǐ xiān lái."
+    },
+    {
+      "speaker": "a",
+      "text": "好的。刚才我们讲了打工的三个好处：学会安排时间，锻炼交流能力，减少父母的负担。",
+      "reading": "Hǎo de. Gāngcái wǒmen jiǎng le dǎgōng de sān ge hǎochu: xuéhuì ānpái shíjiān, duànliàn jiāoliú nénglì, jiǎnshǎo fùmǔ de fùdān."
+    },
+    {
+      "speaker": "c",
+      "text": "有没有调查能说明这一点？",
+      "reading": "Yǒu méiyǒu diàochá néng shuōmíng zhè yī diǎn?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。学校去年的调查发现，大部分打工的学生成绩并没有变差。由此可见，打工对学生也有好处。",
+      "reading": "Yǒu. Xuéxiào qùnián de diàochá fāxiàn, dàbùfen dǎgōng de xuésheng chéngjì bìng méiyǒu biàn chà. Yóu cǐ kě jiàn, dǎgōng duì xuésheng yě yǒu hǎochu."
+    },
+    {
+      "speaker": "c",
+      "text": "很好。另一边呢？",
+      "reading": "Hěn hǎo. Lìng yī biān ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我们的结论是：打工可以，但是不能影响学习。总而言之，学习永远是第一位的。",
+      "reading": "Wǒmen de jiélùn shì: dǎgōng kěyǐ, dànshì bù néng yǐngxiǎng xuéxí. Zǒng ér yán zhī, xuéxí yǒngyuǎn shì dì-yī wèi de."
+    },
+    {
+      "speaker": "c",
+      "text": "你们发现没有？两边的看法其实没有那么大的不同。",
+      "reading": "Nǐmen fāxiàn méiyǒu? Liǎng biān de kànfǎ qíshí méiyǒu nàme dà de bùtóng."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊。显然，我们都同意学习最重要，只是对打工的看法不一样。",
+      "reading": "Shì a. Xiǎnrán, wǒmen dōu tóngyì xuéxí zuì zhòngyào, zhǐshì duì dǎgōng de kànfǎ bù yīyàng."
+    },
+    {
+      "speaker": "c",
+      "text": "对。讨论不是为了赢，而是为了把问题想清楚。",
+      "reading": "Duì. Tǎolùn bù shì wèile yíng, ér shì wèile bǎ wèntí xiǎng qīngchu."
+    },
+    {
+      "speaker": "b",
+      "text": "李老师，下次我们讨论什么？",
+      "reading": "Lǐ lǎoshī, xiàcì wǒmen tǎolùn shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "下次讨论“住在大城市好，还是住在小城市好”。大家回去先想想自己的立场吧。",
+      "reading": "Xiàcì tǎolùn \"zhù zài dà chéngshì hǎo, háishi zhù zài xiǎo chéngshì hǎo\". Dàjiā huíqù xiān xiǎngxiang zìjǐ de lìchǎng ba."
+    }
+  ]
+}

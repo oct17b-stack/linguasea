@@ -1,0 +1,88 @@
+{
+  "id": "zh-D16-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.jiang-xue-jin",
+      "text": "奖学金",
+      "reading": "jiǎngxuéjīn"
+    },
+    {
+      "id": "zh.cheng-ji-dan",
+      "text": "成绩单",
+      "reading": "chéngjìdān"
+    },
+    {
+      "id": "zh.tui-jian-xin",
+      "text": "推荐信",
+      "reading": "tuījiànxìn"
+    },
+    {
+      "id": "zh.dao-shi",
+      "text": "导师",
+      "reading": "dǎoshī"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "李老师：您好！",
+        "reading": "Lǐ lǎoshī: Nín hǎo!"
+      },
+      {
+        "text": "我想告诉您我毕业以后的打算。",
+        "reading": "Wǒ xiǎng gàosu nín wǒ bìyè yǐhòu de dǎsuàn."
+      },
+      {
+        "text": "等我在泰国毕业以后，我想再来北京读翻译专业的研究生。",
+        "reading": "Děng wǒ zài Tàiguó bìyè yǐhòu, wǒ xiǎng zài lái Běijīng dú fānyì zhuānyè de yánjiūshēng."
+      }
+    ],
+    [
+      {
+        "text": "我想申请一个奖学金，这样就不用花爸爸妈妈的钱了。",
+        "reading": "Wǒ xiǎng shēnqǐng yī ge jiǎngxuéjīn, zhèyàng jiù bùyòng huā bàba māma de qián le."
+      },
+      {
+        "text": "申请的时候要交成绩单和两封推荐信。",
+        "reading": "Shēnqǐng de shíhou yào jiāo chéngjìdān hé liǎng fēng tuījiànxìn."
+      },
+      {
+        "text": "您能给我写一封推荐信吗？",
+        "reading": "Nín néng gěi wǒ xiě yī fēng tuījiànxìn ma?"
+      },
+      {
+        "text": "我已经给一位翻译专业的老师发了邮件，她说可以当我的导师。",
+        "reading": "Wǒ yǐjīng gěi yī wèi fānyì zhuānyè de lǎoshī fā le yóujiàn, tā shuō kěyǐ dāng wǒ de dǎoshī."
+      }
+    ],
+    [
+      {
+        "text": "有了奖学金，我就可以好好学习了。",
+        "reading": "Yǒu le jiǎngxuéjīn, wǒ jiù kěyǐ hǎohǎo xuéxí le."
+      },
+      {
+        "text": "麻烦您了！祝您工作顺利！",
+        "reading": "Máfan nín le! Zhù nín gōngzuò shùnlì!"
+      },
+      {
+        "text": "您的学生：小南",
+        "reading": "Nín de xuésheng: Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

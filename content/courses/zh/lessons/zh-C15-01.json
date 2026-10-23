@@ -1,0 +1,70 @@
+{
+  "id": "zh-C15-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yan",
+      "text": "盐",
+      "reading": "yán"
+    },
+    {
+      "id": "zh.tang-sugar",
+      "text": "糖",
+      "reading": "táng"
+    },
+    {
+      "id": "zh.you-oil",
+      "text": "油",
+      "reading": "yóu"
+    },
+    {
+      "id": "zh.xi-hong-shi",
+      "text": "西红柿",
+      "reading": "xīhóngshì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我想学做泰国菜。你教我做泰式炒饭吧！",
+      "reading": "Xiǎonán, wǒ xiǎng xué zuò Tàiguó cài. Nǐ jiāo wǒ zuò Tàishì chǎofàn ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我们先看看要什么东西。",
+      "reading": "Hǎo a! Wǒmen xiān kànkan yào shénme dōngxi."
+    },
+    {
+      "speaker": "b",
+      "text": "要米饭、鸡蛋，还要什么？",
+      "reading": "Yào mǐfàn, jīdàn, hái yào shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "还要一些鸡肉、两个西红柿，还有一点儿盐和糖。",
+      "reading": "Hái yào yīxiē jīròu, liǎng ge xīhóngshì, hái yǒu yīdiǎnr yán hé táng."
+    },
+    {
+      "speaker": "b",
+      "text": "炒饭里放糖？",
+      "reading": "Chǎofàn lǐ fàng táng?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，泰国菜常常放一点儿糖。",
+      "reading": "Duì, Tàiguó cài chángcháng fàng yīdiǎnr táng."
+    },
+    {
+      "speaker": "b",
+      "text": "油呢？要放多少油？",
+      "reading": "Yóu ne? Yào fàng duōshao yóu?"
+    },
+    {
+      "speaker": "a",
+      "text": "一点儿就行，油太多不好吃。",
+      "reading": "Yīdiǎnr jiù xíng, yóu tài duō bù hǎochī."
+    }
+  ]
+}

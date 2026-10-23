@@ -1,0 +1,95 @@
+{
+  "id": "zh-E10-01",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.su-she",
+      "text": "宿舍",
+      "reading": "sùshè"
+    },
+    {
+      "id": "zh.bao-dao-register",
+      "text": "报到",
+      "reading": "bàodào"
+    },
+    {
+      "id": "zh.mo-sheng",
+      "text": "陌生",
+      "reading": "mòshēng"
+    },
+    {
+      "id": "zh.yi-qie",
+      "text": "一切",
+      "reading": "yīqiè"
+    },
+    {
+      "id": "zh.ge-zhong",
+      "text": "各种",
+      "reading": "gèzhǒng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好！你也是泰国人吧？我昨天刚到北京，今天来学校报到。",
+      "reading": "Nǐ hǎo! Nǐ yě shì Tàiguó rén ba? Wǒ zuótiān gāng dào Běijīng, jīntiān lái xuéxiào bàodào."
+    },
+    {
+      "speaker": "a",
+      "text": "对，我叫小南，在这儿学习一年多了。报到手续都办好了吗？",
+      "reading": "Duì, wǒ jiào Xiǎonán, zài zhèr xuéxí yī nián duō le. Bàodào shǒuxù dōu bànhǎo le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "办好了，我也住进宿舍了。可是这里的一切对我来说都很陌生。",
+      "reading": "Bànhǎo le, wǒ yě zhùjìn sùshè le. Kěshì zhèlǐ de yīqiè duì wǒ lái shuō dōu hěn mòshēng."
+    },
+    {
+      "speaker": "a",
+      "text": "我明白。我刚来的时候，什么都不习惯。",
+      "reading": "Wǒ míngbai. Wǒ gāng lái de shíhou, shénme dōu bù xíguàn."
+    },
+    {
+      "speaker": "b",
+      "text": "真的吗？你刚来的时候遇到过什么问题？",
+      "reading": "Zhēnde ma? Nǐ gāng lái de shíhou yùdào guo shénme wèntí?"
+    },
+    {
+      "speaker": "a",
+      "text": "各种问题都有。我刚来的时候，听不懂老师说话，也不会用手机付钱。",
+      "reading": "Gèzhǒng wèntí dōu yǒu. Wǒ gāng lái de shíhou, tīng bu dǒng lǎoshī shuōhuà, yě bù huì yòng shǒujī fù qián."
+    },
+    {
+      "speaker": "b",
+      "text": "我也是！今天在食堂买饭，我不知道怎么付钱，后面的人都在等我。",
+      "reading": "Wǒ yě shì! Jīntiān zài shítáng mǎi fàn, wǒ bù zhīdào zěnme fù qián, hòumian de rén dōu zài děng wǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "别着急，过几个星期就习惯了。",
+      "reading": "Bié zháojí, guò jǐ ge xīngqī jiù xíguàn le."
+    },
+    {
+      "speaker": "b",
+      "text": "北京现在真冷啊！我刚下飞机的时候，冷得说不出话来。",
+      "reading": "Běijīng xiànzài zhēn lěng a! Wǒ gāng xià fēijī de shíhou, lěng de shuō bu chū huà lai."
+    },
+    {
+      "speaker": "a",
+      "text": "你要去买一件厚衣服。我刚来的时候只带了夏天的衣服，第一个星期就感冒了。",
+      "reading": "Nǐ yào qù mǎi yī jiàn hòu yīfu. Wǒ gāng lái de shíhou zhǐ dài le xiàtiān de yīfu, dì-yī ge xīngqī jiù gǎnmào le."
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，那我今天就去买。以后我有问题，可以问你吗？",
+      "reading": "Hāhā, nà wǒ jīntiān jiù qù mǎi. Yǐhòu wǒ yǒu wèntí, kěyǐ wèn nǐ ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "当然可以！我们加个微信吧。",
+      "reading": "Dāngrán kěyǐ! Wǒmen jiā ge Wēixìn ba."
+    }
+  ]
+}
