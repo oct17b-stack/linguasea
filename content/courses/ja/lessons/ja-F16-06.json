@@ -1,0 +1,97 @@
+{
+  "id": "ja-F16-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.saigetsu",
+      "text": "歳月",
+      "reading": "saigetsu"
+    },
+    {
+      "id": "ja.zaisan",
+      "text": "財産",
+      "reading": "zaisan"
+    },
+    {
+      "id": "ja.kate",
+      "text": "かて",
+      "reading": "kate"
+    },
+    {
+      "id": "ja.kakegae-no-nai",
+      "kind": "phrase",
+      "text": "かけがえのない",
+      "reading": "kakegae no nai"
+    },
+    {
+      "id": "ja.mune-o-haru",
+      "kind": "phrase",
+      "text": "むねをはる",
+      "reading": "mune o haru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、あしたの送別会のあいさつ、できた？",
+      "reading": "Namu, ashita no sōbetsukai no aisatsu, dekita?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、大体できた。きいてくれる？",
+      "reading": "Un, daitai dekita. Kiite kureru?"
+    },
+    {
+      "speaker": "c",
+      "text": "もちろん。",
+      "reading": "Mochiron."
+    },
+    {
+      "speaker": "a",
+      "text": "「にほんにきてから、4年の歳月がたちました。」",
+      "reading": "\"Nihon ni kite kara, yonen no saigetsu ga tachimashita.\""
+    },
+    {
+      "speaker": "c",
+      "text": "「歳月」なんて、かっこいいことばだね。",
+      "reading": "\"Saigetsu\" nante, kakkoii kotoba da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "「さいしょは、くるしいことがおおかった一方で、まいにちがあたらしい発見でした。」",
+      "reading": "\"Saisho wa, kurushii koto ga ōkatta ippō de, mainichi ga atarashii hakken deshita.\""
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。つぎは？",
+      "reading": "Ii ne. Tsugi wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "「ゆきとの出会いをきっかけに、にほんの文化が、もっとすきになりました。」",
+      "reading": "\"Yuki to no deai o kikkake ni, Nihon no bunka ga, motto suki ni narimashita.\""
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、わたしのことも、いうの？はずかしいよ。",
+      "reading": "E, watashi no koto mo, iu no? Hazukashii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "だって、ほんとうだもん。「べんきょうに加えて、アルバイトやボランティアのけいけんも、わたしのかてになりました。」",
+      "reading": "Datte, hontō da mon. \"Benkyō ni kuwaete, arubaito ya borantia no keiken mo, watashi no kate ni narimashita.\""
+    },
+    {
+      "speaker": "c",
+      "text": "…ナム、すごくいいよ。",
+      "reading": "…Namu, sugoku ii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "「皆様がいたからこそ、がんばれました。にほんでのかけがえのない思い出は、一生の財産です。これからは、むねをはって、タイでがんばります。」",
+      "reading": "\"Minasama ga ita kara koso, ganbaremashita. Nihon de no kakegae no nai omoide wa, isshō no zaisan desu. Kore kara wa, mune o hatte, Tai de ganbarimasu.\""
+    }
+  ]
+}

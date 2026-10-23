@@ -1,0 +1,96 @@
+{
+  "id": "ja-F16-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.minasama",
+      "text": "皆様",
+      "reading": "minasama"
+    },
+    {
+      "id": "ja.raihin",
+      "text": "らいひん",
+      "reading": "raihin"
+    },
+    {
+      "id": "ja.shussekisha",
+      "text": "出席者",
+      "reading": "shussekisha"
+    },
+    {
+      "id": "ja.enpou",
+      "text": "遠方",
+      "reading": "enpō"
+    },
+    {
+      "id": "ja.ashi-o-hakobu",
+      "kind": "phrase",
+      "text": "足を運ぶ",
+      "reading": "ashi o hakobu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、あいさつのはじめは、どうしますか。",
+      "reading": "Namu-san, aisatsu no hajime wa, dō shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "「皆様、本日は、わたしの送別会にきてくださって、ありがとうございます」と、いおうと思います。",
+      "reading": "\"Minasama, honjitsu wa, watashi no sōbetsukai ni kite kudasatte, arigatō gozaimasu\" to, iō to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。送別会には、らいひんも、たくさんいらっしゃいますよ。",
+      "reading": "Ii desu ne. Sōbetsukai ni wa, raihin mo, takusan irasshaimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "らいひん、ですか。",
+      "reading": "Raihin, desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。さくら旅行のかたや、ほっかいどうのおがわさんのごかぞくも、いらっしゃるそうです。",
+      "reading": "Ē. Sakura Ryokō no kata ya, Hokkaidō no Ogawa-san no gokazoku mo, irassharu sō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、ほっかいどうから？遠方から、わざわざ足を運んでくださるんですね。",
+      "reading": "E, Hokkaidō kara? Enpō kara, wazawaza ashi o hakonde kudasaru n desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。ですから、「遠方から足を運んでいただき、ありがとうございます」と、いうといいですね。",
+      "reading": "Sō desu. Desu kara, \"enpō kara ashi o hakonde itadaki, arigatō gozaimasu\" to, iu to ii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。送別会は、ゆうがた6時からなので、皆様、しごとのあとで、おつかれのことでしょう。",
+      "reading": "Wakarimashita. Sōbetsukai wa, yūgata rokuji kara na node, minasama, shigoto no ato de, otsukare no koto deshō."
+    },
+    {
+      "speaker": "b",
+      "text": "それを、そのままあいさつにいれましょう。出席者の気持ちを考えたことばは、きっとよろこばれますよ。",
+      "reading": "Sore o, sono mama aisatsu ni iremashō. Shussekisha no kimochi o kangaeta kotoba wa, kitto yorokobaremasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、「ほっかいどうは、もうさむいことでしょう」というのは、どうですか。",
+      "reading": "Sorekara, \"Hokkaidō wa, mō samui koto deshō\" to iu no wa, dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいと思いますよ。「〜ことでしょう」は、あいてへの思いやりがある言い方ですね。",
+      "reading": "Ii to omoimasu yo. \"...Koto deshō\" wa, aite e no omoiyari ga aru iikata desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。皆様のかおを思い出しながら、かいてみます。",
+      "reading": "Hai. Minasama no kao o omoidashinagara, kaite mimasu."
+    }
+  ]
+}
