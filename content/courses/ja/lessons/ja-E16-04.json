@@ -1,0 +1,95 @@
+{
+  "id": "ja-E16-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.funshitsu",
+      "text": "ふんしつ",
+      "reading": "funshitsu"
+    },
+    {
+      "id": "ja.saikoufu",
+      "text": "さいこうふ",
+      "reading": "saikōfu"
+    },
+    {
+      "id": "ja.tounan",
+      "text": "盗難",
+      "reading": "tōnan"
+    },
+    {
+      "id": "ja.shoumei",
+      "text": "しょうめい",
+      "reading": "shōmei"
+    },
+    {
+      "id": "ja.kigengire",
+      "text": "期限切れ",
+      "reading": "kigengire"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、もし、在留カードをなくしたとしたら、どうすればいいですか。",
+      "reading": "Sumimasen, moshi, zairyūkādo o nakushita to shitara, dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ふんしつのときは、まず、けいさつに、とどけをだしてください。",
+      "reading": "Funshitsu no toki wa, mazu, keisatsu ni, todoke o dashite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "けいさつ、ですか。",
+      "reading": "Keisatsu, desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。けいさつで、とどけをだしたというしょうめいを、もらえます。",
+      "reading": "Hai. Keisatsu de, todoke o dashita to iu shōmei o, moraemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "そのあとは、どうすればいいですか。",
+      "reading": "Sono ato wa, dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そのしょうめいを持って、14日いないに、さいこうふのしんせいをしてください。くやくしょではなく、べつのところでしんせいするので、気をつけてくださいね。",
+      "reading": "Sono shōmei o motte, jūyokka inai ni, saikōfu no shinsei o shite kudasai. Kuyakusho de wa naku, betsu no tokoro de shinsei suru node, ki o tsukete kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。もし、ぬすまれたとすれば、同じですか。",
+      "reading": "Wakarimashita. Moshi, nusumareta to sureba, onaji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "盗難のときも、同じです。けいさつに、盗難のとどけをだしてください。",
+      "reading": "Tōnan no toki mo, onaji desu. Keisatsu ni, tōnan no todoke o dashite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、もし、在留カードが期限切れになったとしたら…。",
+      "reading": "Sore kara, moshi, zairyūkādo ga kigengire ni natta to shitara…."
+    },
+    {
+      "speaker": "b",
+      "text": "それは、たいへんなことになります。期限切れになるまえに、かならず、こうしんのしんせいをしてください。",
+      "reading": "Sore wa, taihen na koto ni narimasu. Kigengire ni naru mae ni, kanarazu, kōshin no shinsei o shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしのカードは、来年の3月までです。",
+      "reading": "Watashi no kādo wa, rainen no sangatsu made desu."
+    },
+    {
+      "speaker": "b",
+      "text": "それなら、3か月まえから、しんせいできますよ。わすれないように、カレンダーにかいておくといいですね。",
+      "reading": "Sore nara, sankagetsu mae kara, shinsei dekimasu yo. Wasurenai yō ni, karendā ni kaite oku to ii desu ne."
+    }
+  ]
+}

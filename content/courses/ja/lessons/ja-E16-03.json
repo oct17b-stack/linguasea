@@ -1,0 +1,100 @@
+{
+  "id": "ja-E16-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shinsei",
+      "text": "しんせい",
+      "reading": "shinsei"
+    },
+    {
+      "id": "ja.hitsuyoujikou",
+      "text": "ひつようじこう",
+      "reading": "hitsuyōjikō"
+    },
+    {
+      "id": "ja.shimei",
+      "text": "しめい",
+      "reading": "shimei"
+    },
+    {
+      "id": "ja.seinengappi",
+      "text": "生年月日",
+      "reading": "seinengappi"
+    },
+    {
+      "id": "ja.kokuseki",
+      "text": "こくせき",
+      "reading": "kokuseki"
+    },
+    {
+      "id": "ja.insatsu",
+      "text": "いんさつ",
+      "reading": "insatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、こちらのしんせいしょに、ひつようじこうを、かいていただきたいのですが。",
+      "reading": "Namu-san, kochira no shinseisho ni, hitsuyōjikō o, kaite itadakitai no desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。どこに、かけばいいですか。",
+      "reading": "Hai. Doko ni, kakeba ii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "まず、こちらに、しめいをおねがいします。在留カードと同じように、かいてもらいたいんです。",
+      "reading": "Mazu, kochira ni, shimei o onegai shimasu. Zairyūkādo to onaji yō ni, kaite moraitai n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "在留カードと同じですね。",
+      "reading": "Zairyūkādo to onaji desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。それから、生年月日と、こくせきも、おねがいします。",
+      "reading": "Hai. Sore kara, seinengappi to, kokuseki mo, onegai shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。こくせきは、「タイ」とかけばいいですね。",
+      "reading": "Wakarimashita. Kokuseki wa, \"Tai\" to kakeba ii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。かきおわったら、こちらに、ごしょめいをいただきたいんです。",
+      "reading": "Hai. Kakiowattara, kochira ni, goshomei o itadakitai n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "しょめいですね。…かきました。これで、だいじょうぶですか。",
+      "reading": "Shomei desu ne. …Kakimashita. Kore de, daijōbu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ありがとうございます。じゅうみんひょうは、すぐにいんさつしますので、しょうしょうおまちください。",
+      "reading": "Hai, arigatō gozaimasu. Jūminhyō wa, sugu ni insatsu shimasu node, shōshō omachi kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、じゅうみんひょうは、2まいもらえますか。",
+      "reading": "Sumimasen, jūminhyō wa, nimai moraemasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。では、てすうりょうを、2まい分、はらっていただきたいのですが。",
+      "reading": "Hai. Dewa, tesūryō o, nimai bun, haratte itadakitai no desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。1まい300円ですね。",
+      "reading": "Wakarimashita. Ichimai sanbyakuen desu ne."
+    }
+  ]
+}

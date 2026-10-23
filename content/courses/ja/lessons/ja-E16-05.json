@@ -1,0 +1,100 @@
+{
+  "id": "ja-E16-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kenkouhoken",
+      "text": "けんこうほけん",
+      "reading": "kenkōhoken"
+    },
+    {
+      "id": "ja.hokenryou",
+      "text": "ほけんりょう",
+      "reading": "hokenryō"
+    },
+    {
+      "id": "ja.nenkin",
+      "text": "年金",
+      "reading": "nenkin"
+    },
+    {
+      "id": "ja.kanyuu",
+      "text": "加入",
+      "reading": "kanyū"
+    },
+    {
+      "id": "ja.menjo",
+      "text": "めんじょ",
+      "reading": "menjo"
+    },
+    {
+      "id": "ja.houritsu",
+      "text": "ほうりつ",
+      "reading": "hōritsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "こちらは、ほけんのまどぐちでございます。けんこうほけんのてつづきでしょうか。",
+      "reading": "Kochira wa, hoken no madoguchi de gozaimasu. Kenkōhoken no tetsuzuki deshō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。まえのまちでは、加入していましたが、ひっこしたので、また、てつづきがひつようですか。",
+      "reading": "Hai. Mae no machi de wa, kanyū shite imashita ga, hikkoshita node, mata, tetsuzuki ga hitsuyō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ひっこしの際は、あたらしいまちで、また加入するてつづきがひつようです。3か月いじょうにほんにいる人は、ほうりつで、加入することになっています。",
+      "reading": "Hai. Hikkoshi no sai wa, atarashii machi de, mata kanyū suru tetsuzuki ga hitsuyō desu. Sankagetsu ijō Nihon ni iru hito wa, hōritsu de, kanyū suru koto ni natte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ほけんりょうは、いくらですか。",
+      "reading": "Hokenryō wa, ikura desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ほけんりょうには、まえの年のしゅうにゅうによるちがいがあります。がくせいのかたは、そんなにたかくないと思います。",
+      "reading": "Hokenryō ni wa, mae no toshi no shūnyū ni yoru chigai ga arimasu. Gakusei no kata wa, sonna ni takaku nai to omoimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。あと、年金のことも、ききたいんですが。",
+      "reading": "Yokatta desu. Ato, nenkin no koto mo, kikitai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんにいる20さいいじょうの人は、年金にも加入しなければなりません。",
+      "reading": "Nihon ni iru hatachi ijō no hito wa, nenkin ni mo kanyū shinakereba narimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "がくせいでも、はらわなければなりませんか。",
+      "reading": "Gakusei demo, harawanakereba narimasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "がくせいには、しはらいを、そつぎょうまで、まってもらえる制度があります。",
+      "reading": "Gakusei ni wa, shiharai o, sotsugyō made, matte moraeru seido ga arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "めんじょも、ありますか。",
+      "reading": "Menjo mo, arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "しゅうにゅうがすくない人は、めんじょのしんせいができます。でも、しゅうにゅうによるきまりがありますので、まどぐちで、ごそうだんください。",
+      "reading": "Shūnyū ga sukunai hito wa, menjo no shinsei ga dekimasu. Demo, shūnyū ni yoru kimari ga arimasu node, madoguchi de, gosōdan kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。ありがとうございます。",
+      "reading": "Wakarimashita. Arigatō gozaimasu."
+    }
+  ]
+}
