@@ -1,0 +1,117 @@
+{
+  "id": "zh-F16-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "zh.xing-fu-gan",
+      "text": "幸福感",
+      "reading": "xìngfúgǎn"
+    },
+    {
+      "id": "zh.shou-fang-zhe",
+      "text": "受访者",
+      "reading": "shòufǎngzhě"
+    },
+    {
+      "id": "zh.zhi-shu",
+      "text": "指数",
+      "reading": "zhǐshù"
+    },
+    {
+      "id": "zh.man-yi-du",
+      "text": "满意度",
+      "reading": "mǎnyìdù"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "什么能让人觉得幸福？最近，李老师的班做了一个小调查。",
+        "reading": "Shénme néng ràng rén juéde xìngfú? Zuìjìn, Lǐ lǎoshī de bān zuò le yī ge xiǎo diàochá."
+      },
+      {
+        "text": "他们在网上问了两百个泰国和中国的年轻人，受访者的年龄在十八岁到三十岁之间。",
+        "reading": "Tāmen zài wǎngshang wèn le liǎngbǎi ge Tàiguó hé Zhōngguó de niánqīng rén, shòufǎngzhě de niánlíng zài shíbā suì dào sānshí suì zhījiān."
+      },
+      {
+        "text": "调查的问题很简单：你的幸福感来自哪里？",
+        "reading": "Diàochá de wèntí hěn jiǎndān: nǐ de xìngfúgǎn láizì nǎlǐ?"
+      }
+    ],
+    [
+      {
+        "text": "结果发现，两国受访者的回答有很多相同的地方。",
+        "reading": "Jiéguǒ fāxiàn, liǎng guó shòufǎngzhě de huídá yǒu hěn duō xiāngtóng de dìfang."
+      },
+      {
+        "text": "大家选得最多的是家人，百分之七十的受访者选了“跟家人在一起”。",
+        "reading": "Dàjiā xuǎn de zuì duō de shì jiārén, bǎi fēn zhī qīshí de shòufǎngzhě xuǎn le gēn jiārén zài yīqǐ."
+      },
+      {
+        "text": "第二是健康，第三是朋友。",
+        "reading": "Dì-èr shì jiànkāng, dì-sān shì péngyou."
+      },
+      {
+        "text": "让人意外的是，“有很多钱”只排在第五。",
+        "reading": "Ràng rén yìwài de shì, yǒu hěn duō qián zhǐ pái zài dì-wǔ."
+      }
+    ],
+    [
+      {
+        "text": "不过，两国受访者也有一些不同。",
+        "reading": "Bùguò, liǎng guó shòufǎngzhě yě yǒu yīxiē bùtóng."
+      },
+      {
+        "text": "泰国受访者更重视“心情好”和“生活轻松”。",
+        "reading": "Tàiguó shòufǎngzhě gèng zhòngshì xīnqíng hǎo hé shēnghuó qīngsōng."
+      },
+      {
+        "text": "中国受访者更重视“工作稳定”和“有自己的房子”。",
+        "reading": "Zhōngguó shòufǎngzhě gèng zhòngshì gōngzuò wěndìng hé yǒu zìjǐ de fángzi."
+      },
+      {
+        "text": "一位中国受访者说：“在大城市，有了自己的房子，心里才放心。”",
+        "reading": "Yī wèi Zhōngguó shòufǎngzhě shuō: Zài dà chéngshì, yǒu le zìjǐ de fángzi, xīn li cái fàngxīn."
+      },
+      {
+        "text": "一位泰国受访者说：“钱不用太多，开心最重要。”",
+        "reading": "Yī wèi Tàiguó shòufǎngzhě shuō: Qián bùyòng tài duō, kāixīn zuì zhòngyào."
+      }
+    ],
+    [
+      {
+        "text": "调查还请受访者给自己的生活满意度一个分数，从一分到十分。",
+        "reading": "Diàochá hái qǐng shòufǎngzhě gěi zìjǐ de shēnghuó mǎnyìdù yī ge fēnshù, cóng yī fēn dào shí fēn."
+      },
+      {
+        "text": "很多泰国受访者给了七分或者八分，中国受访者也差不多。",
+        "reading": "Hěn duō Tàiguó shòufǎngzhě gěi le qī fēn huòzhě bā fēn, Zhōngguó shòufǎngzhě yě chàbuduō."
+      },
+      {
+        "text": "李老师说，幸福感指数不能只看收入，更要看人们心里的感觉。",
+        "reading": "Lǐ lǎoshī shuō, xìngfúgǎn zhǐshù bù néng zhǐ kàn shōurù, gèng yào kàn rénmen xīn li de gǎnjué."
+      },
+      {
+        "text": "你呢？你的幸福感来自哪里？",
+        "reading": "Nǐ ne? Nǐ de xìngfúgǎn láizì nǎlǐ?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

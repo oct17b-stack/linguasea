@@ -1,0 +1,95 @@
+{
+  "id": "ja-F15-05",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.saiwai",
+      "text": "幸い",
+      "reading": "saiwai"
+    },
+    {
+      "id": "ja.tabou",
+      "text": "多忙",
+      "reading": "tabō"
+    },
+    {
+      "id": "ja.kanou",
+      "text": "かのう",
+      "reading": "kanō"
+    },
+    {
+      "id": "ja.sashitsukae",
+      "text": "差し支え",
+      "reading": "sashitsukae"
+    },
+    {
+      "id": "ja.goichidoku",
+      "text": "ご一読",
+      "reading": "goichidoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "部長、たかはしさまに、あたらしいツアーの資料をおくりたいんですが、メールのかきかたをおしえていただけますか。",
+      "reading": "Buchō, Takahashi-sama ni, atarashii tsuā no shiryō o okuritai n desu ga, mēru no kakikata o oshiete itadakemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。まず、資料については、「ご一読いただければ幸いです」とかきましょう。",
+      "reading": "Ii desu yo. Mazu, shiryō ni tsuite wa, \"goichidoku itadakereba saiwai desu\" to kakimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "「ご一読」は、「よむ」のていねいな言い方ですか。",
+      "reading": "\"Goichidoku\" wa, \"yomu\" no teinei na iikata desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。「一度、よんでください」といういみです。「幸いです」は、「うれしいです」のかたい言い方です。",
+      "reading": "Ē. \"Ichido, yonde kudasai\" to iu imi desu. \"Saiwai desu\" wa, \"ureshii desu\" no katai iikata desu."
+    },
+    {
+      "speaker": "a",
+      "text": "なるほど。たかはしさまは、とてもおいそがしいかたなので、それもかいたほうがいいですか。",
+      "reading": "Naruhodo. Takahashi-sama wa, totemo oisogashii kata na node, sore mo kaita hō ga ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。はじめに、「ご多忙のところ、きょうしゅくですが」とかくといいですね。",
+      "reading": "Hai. Hajime ni, \"gotabō no tokoro, kyōshuku desu ga\" to kaku to ii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、こんど、おあいしたいんですが…。",
+      "reading": "Sorekara, kondo, oai shitai n desu ga…."
+    },
+    {
+      "speaker": "b",
+      "text": "では、「お差し支えなければ、来週うかがいたいと存じます」とかきましょう。",
+      "reading": "Dewa, \"osashitsukae nakereba, raishū ukagaitai to zonjimasu\" to kakimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "「お差し支えなければ」は、「よろしければ」とおなじですか。",
+      "reading": "\"Osashitsukae nakereba\" wa, \"yoroshikereba\" to onaji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。そして、「ごつごうのよい日時を、お知らせいただければ幸いです」とつづけます。",
+      "reading": "Sō desu. Soshite, \"gotsugō no yoi nichiji o, oshirase itadakereba saiwai desu\" to tsuzukemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "もし、来週がむずかしかったら、どうしますか。",
+      "reading": "Moshi, raishū ga muzukashikattara, dō shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "「ほかの日でもかのうですので、えんりょなくおっしゃってください」と、かいておけば、だいじょうぶです。",
+      "reading": "\"Hoka no hi demo kanō desu node, enryo naku osshatte kudasai\" to, kaite okeba, daijōbu desu."
+    }
+  ]
+}

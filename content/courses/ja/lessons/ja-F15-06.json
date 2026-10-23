@@ -1,0 +1,95 @@
+{
+  "id": "ja-F15-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.haikei-letter",
+      "text": "はいけい",
+      "reading": "haikei"
+    },
+    {
+      "id": "ja.keigu",
+      "text": "けいぐ",
+      "reading": "keigu"
+    },
+    {
+      "id": "ja.zenryaku",
+      "text": "ぜんりゃく",
+      "reading": "zenryaku"
+    },
+    {
+      "id": "ja.jikou",
+      "text": "時候",
+      "reading": "jikō"
+    },
+    {
+      "id": "ja.musubi",
+      "text": "むすび",
+      "reading": "musubi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、ほっかいどうで、1しゅうかんおせわになったかぞくに、おれいのてがみをかきたいんです。",
+      "reading": "Sensei, Hokkaidō de, isshūkan osewa ni natta kazoku ni, orei no tegami o kakitai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。ていねいなてがみなら、はじめに「はいけい」とかきます。",
+      "reading": "Ii desu ne. Teinei na tegami nara, hajime ni \"haikei\" to kakimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "「はいけい」は、どういういみですか。",
+      "reading": "\"Haikei\" wa, dō iu imi desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "「つつしんで申し上げます」といういみです。そして、さいごは「けいぐ」でおわります。",
+      "reading": "\"Tsutsushinde mōshiagemasu\" to iu imi desu. Soshite, saigo wa \"keigu\" de owarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はいけいとけいぐは、セットなんですね。",
+      "reading": "Haikei to keigu wa, setto na n desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。はいけいのあとには、時候のあいさつをかきます。いまのきせつなら、「しょしゅうの候」などです。",
+      "reading": "Sō desu. Haikei no ato ni wa, jikō no aisatsu o kakimasu. Ima no kisetsu nara, \"shoshū no kō\" nado desu."
+    },
+    {
+      "speaker": "a",
+      "text": "「しょしゅう」は、「あきのはじめ」ですか。",
+      "reading": "\"Shoshū\" wa, \"aki no hajime\" desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そのとおりです。でも、「すずしくなって参りましたが」のように、やさしいことばでかいても、いいですよ。",
+      "reading": "Sono tōri desu. Demo, \"suzushiku natte mairimashita ga\" no yō ni, yasashii kotoba de kaite mo, ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いそいで、みじかいてがみをかくときは、どうしますか。",
+      "reading": "Isoide, mijikai tegami o kaku toki wa, dō shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "時候のあいさつをかかないときは、「ぜんりゃく」ではじめます。",
+      "reading": "Jikō no aisatsu o kakanai toki wa, \"zenryaku\" de hajimemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "てがみのさいごには、なにをかけばいいですか。",
+      "reading": "Tegami no saigo ni wa, nani o kakeba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "むすびに、「みなさまのごけんこうを、おいのりしております」とかいて、けいぐでおわればいいですよ。",
+      "reading": "Musubi ni, \"minasama no gokenkō o, oinori shite orimasu\" to kaite, keigu de owareba ii desu yo."
+    }
+  ]
+}

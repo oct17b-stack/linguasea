@@ -1,0 +1,115 @@
+{
+  "id": "zh-F8-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "zh.nao-xiao-hua",
+      "kind": "phrase",
+      "text": "闹笑话",
+      "reading": "nào xiàohua"
+    },
+    {
+      "id": "zh.jiu-zheng",
+      "text": "纠正",
+      "reading": "jiūzhèng"
+    },
+    {
+      "id": "zh.guai",
+      "text": "怪",
+      "reading": "guài"
+    },
+    {
+      "id": "zh.hong-tang-da-xiao",
+      "kind": "phrase",
+      "text": "哄堂大笑",
+      "reading": "hōngtáng dàxiào"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "七月二十日，星期六。",
+        "reading": "Qī yuè èrshí rì, xīngqīliù."
+      },
+      {
+        "text": "今天是我在小南家住的第三天。",
+        "reading": "Jīntiān shì wǒ zài Xiǎonán jiā zhù de dì-sān tiān."
+      },
+      {
+        "text": "小南的爸爸妈妈都是老师，对我特别好。",
+        "reading": "Xiǎonán de bàba māma dōu shì lǎoshī, duì wǒ tèbié hǎo."
+      },
+      {
+        "text": "晚上吃饭的时候，我决定用泰语跟他们说几句话。",
+        "reading": "Wǎnshang chīfàn de shíhou, wǒ juédìng yòng Tàiyǔ gēn tāmen shuō jǐ jù huà."
+      }
+    ],
+    [
+      {
+        "text": "小南的妈妈穿着一件很漂亮的衣服，我就想用泰语说：“阿姨，您的衣服真漂亮！”",
+        "reading": "Xiǎonán de māma chuān zhe yī jiàn hěn piàoliang de yīfu, wǒ jiù xiǎng yòng Tàiyǔ shuō: Āyí, nín de yīfu zhēn piàoliang!"
+      },
+      {
+        "text": "没想到，我说完以后，大家哄堂大笑。",
+        "reading": "Méi xiǎngdào, wǒ shuōwán yǐhòu, dàjiā hōngtáng dàxiào."
+      },
+      {
+        "text": "小南的妹妹一边笑一边纠正我：“王明哥哥，你说的不是‘衣服’，是‘老虎’！”",
+        "reading": "Xiǎonán de mèimei yībiān xiào yībiān jiūzhèng wǒ: Wáng Míng gēge, nǐ shuō de bù shì yīfu, shì lǎohǔ!"
+      },
+      {
+        "text": "原来，泰语里这两个词的声音差不多，只是声调不一样。",
+        "reading": "Yuánlái, Tàiyǔ li zhè liǎng ge cí de shēngyīn chàbuduō, zhǐshì shēngdiào bù yīyàng."
+      }
+    ],
+    [
+      {
+        "text": "我的脸一下子就红了。",
+        "reading": "Wǒ de liǎn yīxiàzi jiù hóng le."
+      },
+      {
+        "text": "小南的妈妈笑着说：“不能怪你，泰语的声调很难。”",
+        "reading": "Xiǎonán de māma xiào zhe shuō: Bù néng guài nǐ, Tàiyǔ de shēngdiào hěn nán."
+      },
+      {
+        "text": "我说：“汉语也有声调，我怎么还会说错呢？”",
+        "reading": "Wǒ shuō: Hànyǔ yě yǒu shēngdiào, wǒ zěnme hái huì shuōcuò ne?"
+      },
+      {
+        "text": "小南说，很多中国人学泰语都会闹笑话，她学汉语的时候也闹过不少。",
+        "reading": "Xiǎonán shuō, hěn duō Zhōngguó rén xué Tàiyǔ dōu huì nào xiàohua, tā xué Hànyǔ de shíhou yě nào guo bùshǎo."
+      }
+    ],
+    [
+      {
+        "text": "吃完饭，小南的妹妹教了我半个小时的声调。",
+        "reading": "Chīwán fàn, Xiǎonán de mèimei jiāo le wǒ bàn ge xiǎoshí de shēngdiào."
+      },
+      {
+        "text": "我在本子上写了很多遍：衣服，老虎；老虎，衣服。",
+        "reading": "Wǒ zài běnzi shang xiě le hěn duō biàn: yīfu, lǎohǔ; lǎohǔ, yīfu."
+      },
+      {
+        "text": "明天我要再试一次，这次一定不会说成老虎了！",
+        "reading": "Míngtiān wǒ yào zài shì yī cì, zhè cì yīdìng bù huì shuōchéng lǎohǔ le!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

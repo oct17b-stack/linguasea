@@ -1,0 +1,109 @@
+{
+  "id": "ja-F15-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ja.betsubi",
+      "text": "別日",
+      "reading": "betsubi"
+    },
+    {
+      "id": "ja.daitaian",
+      "text": "だいたいあん",
+      "reading": "daitaian"
+    },
+    {
+      "id": "ja.senyaku",
+      "text": "先約",
+      "reading": "sen'yaku"
+    },
+    {
+      "id": "ja.aratamete",
+      "text": "あらためて",
+      "reading": "aratamete"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "件名：打ち合わせの日時について",
+        "reading": "Kenmei: Uchiawase no nichiji ni tsuite"
+      },
+      {
+        "text": "みどりホテルのたかはしさま",
+        "reading": "Midori Hoteru no Takahashi-sama"
+      },
+      {
+        "text": "いつもお世話になっております。",
+        "reading": "Itsumo osewa ni natte orimasu."
+      },
+      {
+        "text": "さくら旅行のナムでございます。",
+        "reading": "Sakura Ryokō no Namu de gozaimasu."
+      }
+    ],
+    [
+      {
+        "text": "先日は、打ち合わせのごれんらくをいただき、ありがとうございました。",
+        "reading": "Senjitsu wa, uchiawase no gorenraku o itadaki, arigatō gozaimashita."
+      },
+      {
+        "text": "6月20日ごご2時とのことでしたが、あいにく、その日は、ほかのお客様との先約がございます。",
+        "reading": "Rokugatsu hatsuka gogo niji to no koto deshita ga, ainiku, sono hi wa, hoka no okyakusama to no sen'yaku ga gozaimasu."
+      },
+      {
+        "text": "おさそいいただいたのに、まことにもうしわけございません。",
+        "reading": "Osasoi itadaita noni, makoto ni mōshiwake gozaimasen."
+      }
+    ],
+    [
+      {
+        "text": "そこで、だいたいあんとして、つぎの別日はいかがでしょうか。",
+        "reading": "Soko de, daitaian to shite, tsugi no betsubi wa ikaga deshō ka."
+      },
+      {
+        "text": "・6月21日（きんようび）ごぜん10時から",
+        "reading": "Rokugatsu nijūichinichi (kin'yōbi) gozen jūji kara"
+      },
+      {
+        "text": "・6月24日（げつようび）ごご3時から",
+        "reading": "Rokugatsu nijūyokka (getsuyōbi) gogo sanji kara"
+      },
+      {
+        "text": "ごつごうのよい日時を、お知らせいただければ幸いです。",
+        "reading": "Gotsugō no yoi nichiji o, oshirase itadakereba saiwai desu."
+      },
+      {
+        "text": "どちらもむずかしいようでしたら、あらためてごれんらくいたします。",
+        "reading": "Dochira mo muzukashii yō deshitara, aratamete gorenraku itashimasu."
+      }
+    ],
+    [
+      {
+        "text": "お手数をおかけしますが、どうぞよろしくお願い申し上げます。",
+        "reading": "Otesū o okake shimasu ga, dōzo yoroshiku onegai mōshiagemasu."
+      },
+      {
+        "text": "さくら旅行、ナム",
+        "reading": "Sakura Ryokō, Namu"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

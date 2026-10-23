@@ -1,0 +1,95 @@
+{
+  "id": "ja-F15-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kijitsu",
+      "text": "期日",
+      "reading": "kijitsu"
+    },
+    {
+      "id": "ja.genshu",
+      "text": "げんしゅ",
+      "reading": "genshu"
+    },
+    {
+      "id": "ja.hensou",
+      "text": "返送",
+      "reading": "hensō"
+    },
+    {
+      "id": "ja.doufuu",
+      "text": "どうふう",
+      "reading": "dōfū"
+    },
+    {
+      "id": "ja.kisai",
+      "text": "きさい",
+      "reading": "kisai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "部長、ツアーにもうしこんだお客様に、しょるいをおくるてがみをかきました。",
+      "reading": "Buchō, tsuā ni mōshikonda okyakusama ni, shorui o okuru tegami o kakimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "みせてください。…「しょるいにかいて、かえしてください」。これは、すこしかんたんすぎますね。",
+      "reading": "Misete kudasai. …\"Shorui ni kaite, kaeshite kudasai.\" Kore wa, sukoshi kantan sugimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "どうすれば、いいでしょうか。",
+      "reading": "Dō sureba, ii deshō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "まず、「どうふうのしょるいに、ごきさいのうえ」とかきます。",
+      "reading": "Mazu, \"dōfū no shorui ni, gokisai no ue\" to kakimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "「どうふう」は、「いっしょにいれた」といういみですね。",
+      "reading": "\"Dōfū\" wa, \"issho ni ireta\" to iu imi desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。それから、「期日までにご返送くださいますよう、お願い申し上げます」とつづけます。",
+      "reading": "Sō desu. Sorekara, \"kijitsu made ni gohensō kudasaimasu yō, onegai mōshiagemasu\" to tsuzukemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "「くださいますよう」は、「てください」より、ずっとていねいなんですね。",
+      "reading": "\"Kudasaimasu yō\" wa, \"te kudasai\" yori, zutto teinei na n desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。てがみやメールで、お客様におねがいするときの、きまった言い方です。",
+      "reading": "Ē. Tegami ya mēru de, okyakusama ni onegai suru toki no, kimatta iikata desu."
+    },
+    {
+      "speaker": "a",
+      "text": "期日は、来月の10日です。「期日をげんしゅしてください」とかいても、いいですか。",
+      "reading": "Kijitsu wa, raigetsu no tōka desu. \"Kijitsu o genshu shite kudasai\" to kaite mo, ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "「げんしゅ」は、お客様には、すこしつよいですね。「期日をおまもりくださいますよう」のほうがいいでしょう。",
+      "reading": "\"Genshu\" wa, okyakusama ni wa, sukoshi tsuyoi desu ne. \"Kijitsu o omamori kudasaimasu yō\" no hō ga ii deshō."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。さいごに、「ごきょうりょくくださいますよう、よろしくお願い申し上げます」とかきます。",
+      "reading": "Wakarimashita. Saigo ni, \"gokyōryoku kudasaimasu yō, yoroshiku onegai mōshiagemasu\" to kakimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "とてもいいですね。では、それでだしてください。",
+      "reading": "Totemo ii desu ne. Dewa, sore de dashite kudasai."
+    }
+  ]
+}

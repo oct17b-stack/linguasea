@@ -1,0 +1,95 @@
+{
+  "id": "ja-F15-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.magokoro",
+      "text": "真心",
+      "reading": "magokoro"
+    },
+    {
+      "id": "ja.tsutsushinde",
+      "text": "つつしんで",
+      "reading": "tsutsushinde"
+    },
+    {
+      "id": "ja.oreijou",
+      "text": "お礼状",
+      "reading": "oreijō"
+    },
+    {
+      "id": "ja.higoro",
+      "text": "ひごろ",
+      "reading": "higoro"
+    },
+    {
+      "id": "ja.atsuku",
+      "text": "あつく",
+      "reading": "atsuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "部長、すこしよろしいでしょうか。たかはしさまへのお礼状をかいたので、みていただけませんか。",
+      "reading": "Buchō, sukoshi yoroshii deshō ka. Takahashi-sama e no oreijō o kaita node, mite itadakemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。…「たかはしさま、こんどはありがとうございました」。うーん、すこしかんたんすぎますね。",
+      "reading": "Ii desu yo. …\"Takahashi-sama, kondo wa arigatō gozaimashita.\" Ūn, sukoshi kantan sugimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。どうかけば、いいでしょうか。",
+      "reading": "Sō desu ka. Dō kakeba, ii deshō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "まず、「ひごろより、たいへんお世話になっております」とはじめましょう。",
+      "reading": "Mazu, \"Higoro yori, taihen osewa ni natte orimasu\" to hajimemashō."
+    },
+    {
+      "speaker": "a",
+      "text": "「ひごろより」は、「いつも」といういみですね。",
+      "reading": "\"Higoro yori\" wa, \"itsumo\" to iu imi desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。それから、おれいは「あつくおれい申し上げます」と、かくといいですよ。",
+      "reading": "Sō desu. Sorekara, orei wa \"atsuku orei mōshiagemasu\" to, kaku to ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "「あつく」は、「心から」とおなじいみですか。",
+      "reading": "\"Atsuku\" wa, \"kokoro kara\" to onaji imi desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。もっとていねいにしたいときは、「つつしんでおれい申し上げます」ともいいます。",
+      "reading": "Ē. Motto teinei ni shitai toki wa, \"tsutsushinde orei mōshiagemasu\" to mo iimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。さいごに、「かんしゃを込めて」とかいてもいいですか。",
+      "reading": "Wakarimashita. Saigo ni, \"kansha o komete\" to kaite mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。それに、手書きのお礼状のほうが、気持ちをつたえやすいですよ。",
+      "reading": "Ii desu ne. Sore ni, tegaki no oreijō no hō ga, kimochi o tsutaeyasui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "では、真心を込めて、手書きでかいてみます。",
+      "reading": "Dewa, magokoro o komete, tegaki de kaite mimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "たかはしさまも、きっとよろこびますよ。",
+      "reading": "Takahashi-sama mo, kitto yorokobimasu yo."
+    }
+  ]
+}
