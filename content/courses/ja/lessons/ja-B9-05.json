@@ -1,0 +1,60 @@
+{
+  "id": "ja-B9-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kopii",
+      "text": "コピー",
+      "reading": "kopī"
+    },
+    {
+      "id": "ja.eetiiemu",
+      "text": "ATM",
+      "reading": "ētīemu"
+    },
+    {
+      "id": "ja.takkyuubin",
+      "text": "たっきゅうびん",
+      "reading": "takkyūbin"
+    },
+    {
+      "id": "ja.tsukaimasu",
+      "text": "つかいます",
+      "reading": "tsukaimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どこへ いきますか。",
+      "reading": "Namu-san, doko e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "コンビニです。ATMを つかいます。",
+      "reading": "Konbini desu. Ētīemu o tsukaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも いきます。コピーを します。",
+      "reading": "Watashi mo ikimasu. Kopī o shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "コピーは いくらですか。",
+      "reading": "Kopī wa ikura desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いちまい 10円です。たっきゅうびんも ありますよ。",
+      "reading": "Ichimai jū en desu. Takkyūbin mo arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "コンビニは べんりですね。",
+      "reading": "Konbini wa benri desu ne."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-B8-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.heya",
+      "text": "へや",
+      "reading": "heya"
+    },
+    {
+      "id": "ja.daidokoro",
+      "text": "だいどころ",
+      "reading": "daidokoro"
+    },
+    {
+      "id": "ja.genkan",
+      "text": "げんかん",
+      "reading": "genkan"
+    },
+    {
+      "id": "ja.niwa",
+      "text": "にわ",
+      "reading": "niwa"
+    },
+    {
+      "id": "ja.apaato",
+      "text": "アパート",
+      "reading": "apāto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、どうぞ。ここが げんかんです。",
+      "reading": "Yuki-san, dōzo. Koko ga genkan desu."
+    },
+    {
+      "speaker": "c",
+      "text": "おじゃまします。おおきい うちですね。へやは いくつ ありますか。",
+      "reading": "Ojama shimasu. Ōkii uchi desu ne. Heya wa ikutsu arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いつつ あります。あそこに だいどころが あります。",
+      "reading": "Itsutsu arimasu. Asoko ni daidokoro ga arimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "にわも ありますね。",
+      "reading": "Niwa mo arimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。にわに ははの はなが たくさん あります。",
+      "reading": "Hai. Niwa ni haha no hana ga takusan arimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしの うちは ちいさい アパートです。",
+      "reading": "Ii desu ne. Watashi no uchi wa chiisai apāto desu."
+    }
+  ]
+}

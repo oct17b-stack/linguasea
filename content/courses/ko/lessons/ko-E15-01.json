@@ -1,0 +1,91 @@
+{
+  "id": "ko-E15-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bongsa-hwaldong",
+      "text": "봉사 활동",
+      "reading": "bongsa hwaldong",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jawonbongsaja",
+      "text": "자원봉사자",
+      "reading": "jawonbongsaja"
+    },
+    {
+      "id": "ko.bokjigwan",
+      "text": "복지관",
+      "reading": "bokjigwan"
+    },
+    {
+      "id": "ko.jumin",
+      "text": "주민",
+      "reading": "jumin"
+    },
+    {
+      "id": "ko.dokgeonoin",
+      "text": "독거노인",
+      "reading": "dokgeonoin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 주 토요일 오전에 시간 있어요? 같이 운동할래요?",
+      "reading": "Nam ssi, ibeon ju toyoil ojeone sigan isseoyo? Gachi undonghallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "미안해요. 토요일 오전에는 복지관에서 봉사 활동을 하기로 되어 있어요.",
+      "reading": "Mianhaeyo. Toyoil ojeoneneun bokjigwaneseo bongsa hwaldongeul hagiro doeeo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "봉사 활동이요? 무슨 일을 해요?",
+      "reading": "Bongsa hwaldongiyo? Museun ireul haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "동네 독거노인 분들께 도시락을 배달해 드리기로 되어 있어요.",
+      "reading": "Dongne dokgeonoin bundeulkke dosirageul baedalhae deurigiro doeeo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 좋은 일을 하네요. 언제부터 자원봉사자로 활동했어요?",
+      "reading": "Wa, joeun ireul haneyo. Eonjebuteo jawonbongsajaro hwaldonghaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지난달부터요. 복지관에서 외국인 자원봉사자도 모집했거든요.",
+      "reading": "Jinandalbuteoyo. Bokjigwaneseo oegugin jawonbongsajado mojipaetgeodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저도 할 수 있을까요?",
+      "reading": "Jeodo hal su isseulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그럼요. 다음 달에 주민 축제를 하기로 되어 있는데 일손이 필요하대요.",
+      "reading": "Geureomyo. Daeum dare jumin chukjereul hagiro doeeo inneunde ilsoni piryohadaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 저도 신청할게요. 언제까지 신청하면 돼요?",
+      "reading": "Geureom jeodo sincheonghalgeyo. Eonjekkaji sincheonghamyeon dwaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이번 주 금요일까지예요. 제가 복지관에 말해 놓을게요.",
+      "reading": "Ibeon ju geumyoilkkajiyeyo. Jega bokjigwane malhae noeulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 축제 날 같이 가요!",
+      "reading": "Gomawoyo. Chukje nal gachi gayo!"
+    }
+  ]
+}

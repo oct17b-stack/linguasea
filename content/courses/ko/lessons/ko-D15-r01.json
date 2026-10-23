@@ -1,0 +1,96 @@
+{
+  "id": "ko-D15-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.gongyong",
+      "text": "공용",
+      "reading": "gongyong"
+    },
+    {
+      "id": "ko.chwichim",
+      "text": "취침",
+      "reading": "chwichim"
+    },
+    {
+      "id": "ko.geumyeon",
+      "text": "금연",
+      "reading": "geumyeon"
+    },
+    {
+      "id": "ko.sodeung",
+      "text": "소등",
+      "reading": "sodeung"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "바다 게스트하우스 이용 안내",
+        "reading": "Bada geseuteuhauseu iyong annae"
+      },
+      {
+        "text": "저희 게스트하우스를 찾아 주셔서 감사해요.",
+        "reading": "Jeohui geseuteuhauseureul chaja jusyeoseo gamsahaeyo."
+      },
+      {
+        "text": "모두가 편하게 지내기 위해서 아래 규칙을 지켜 주세요.",
+        "reading": "Moduga pyeonhage jinaegi wihaeseo arae gyuchigeul jikyeo juseyo."
+      }
+    ],
+    [
+      {
+        "text": "공용 주방은 아침 일곱 시부터 밤 열 시까지 이용할 수 있어요.",
+        "reading": "Gongyong jubangeun achim ilgop sibuteo bam yeol sikkaji iyonghal su isseoyo."
+      },
+      {
+        "text": "요리한 후에는 그릇을 깨끗하게 씻어 주세요.",
+        "reading": "Yorihan hueneun geureuseul kkaekkeutage ssiseo juseyo."
+      },
+      {
+        "text": "취침 시간은 밤 열한 시부터예요.",
+        "reading": "Chwichim siganeun bam yeolhan sibuteoyeyo."
+      },
+      {
+        "text": "밤 열한 시에 주방은 소등해요.",
+        "reading": "Bam yeolhan sie jubangeun sodeunghaeyo."
+      },
+      {
+        "text": "그 후에는 방에서 조용히 해 주세요.",
+        "reading": "Geu hueneun bangeseo joyonghi hae juseyo."
+      },
+      {
+        "text": "게스트하우스 안은 모두 금연이에요.",
+        "reading": "Geseuteuhauseu aneun modu geumyeonieyo."
+      }
+    ],
+    [
+      {
+        "text": "체크아웃은 오전 열한 시까지예요.",
+        "reading": "Chekeuauseun ojeon yeolhan sikkajiyeyo."
+      },
+      {
+        "text": "체크아웃 후에는 짐 보관소에 짐을 맡길 수 있어요.",
+        "reading": "Chekeuaut hueneun jim bogwansoe jimeul matgil su isseoyo."
+      },
+      {
+        "text": "필요한 게 있으면 언제든지 프런트에 말씀해 주세요.",
+        "reading": "Piryohan ge isseumyeon eonjedeunji peureonteue malsseumhae juseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

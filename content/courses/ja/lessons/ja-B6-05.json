@@ -1,0 +1,70 @@
+{
+  "id": "ja-B6-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kyoudai",
+      "text": "きょうだい",
+      "reading": "kyōdai"
+    },
+    {
+      "id": "ja.ane",
+      "text": "あね",
+      "reading": "ane"
+    },
+    {
+      "id": "ja.otouto",
+      "text": "おとうと",
+      "reading": "otōto"
+    },
+    {
+      "id": "ja.imoutosan",
+      "text": "いもうとさん",
+      "reading": "imōtosan"
+    },
+    {
+      "id": "ja.hitori",
+      "text": "ひとり",
+      "reading": "hitori"
+    },
+    {
+      "id": "ja.futari",
+      "text": "ふたり",
+      "reading": "futari"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは きょうだいが いますか。",
+      "reading": "Namu-san wa kyōdai ga imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、いもうとが ひとり います。17さいです。",
+      "reading": "Hai, imōto ga hitori imasu. Jūnanasai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いもうとさんの おなまえは？",
+      "reading": "Imōtosan no onamae wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "ファーです。ゆきさんは？",
+      "reading": "Fā desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "あにが ひとり います。やまだせんせいは？",
+      "reading": "Ani ga hitori imasu. Yamada-sensei wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "わたしは あねが ひとりと おとうとが ふたり います。",
+      "reading": "Watashi wa ane ga hitori to otōto ga futari imasu."
+    }
+  ]
+}

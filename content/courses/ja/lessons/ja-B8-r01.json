@@ -1,0 +1,65 @@
+{
+  "id": "ja-B8-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.wanruumu",
+      "text": "ワンルーム",
+      "reading": "wanrūmu"
+    },
+    {
+      "id": "ja.manshon",
+      "text": "マンション",
+      "reading": "manshon"
+    },
+    {
+      "id": "ja.beranda",
+      "text": "ベランダ",
+      "reading": "beranda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさん、あには いま とうきょうの ワンルームマンションに います。",
+        "reading": "Namu-san, ani wa ima Tōkyō no wanrūmu manshon ni imasu."
+      },
+      {
+        "text": "マンションは 駅の ちかくです。",
+        "reading": "Manshon wa eki no chikaku desu."
+      },
+      {
+        "text": "へやは せまいですが、べんりです。",
+        "reading": "Heya wa semai desu ga, benri desu."
+      }
+    ],
+    [
+      {
+        "text": "へやに ベッドと テーブルが あります。",
+        "reading": "Heya ni beddo to tēburu ga arimasu."
+      },
+      {
+        "text": "ちいさい ベランダも あります。",
+        "reading": "Chiisai beranda mo arimasu."
+      },
+      {
+        "text": "へやは 7まん円です。",
+        "reading": "Heya wa nanaman en desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

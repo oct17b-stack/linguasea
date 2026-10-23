@@ -1,0 +1,93 @@
+{
+  "id": "ko-D11-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.seongbyeol",
+      "text": "성별",
+      "reading": "seongbyeol"
+    },
+    {
+      "id": "ko.jungseonghwa",
+      "text": "중성화",
+      "reading": "jungseonghwa"
+    },
+    {
+      "id": "ko.ttareuda",
+      "text": "따르다",
+      "reading": "ttareuda"
+    },
+    {
+      "id": "ko.yebang-jeopjong",
+      "kind": "phrase",
+      "text": "예방 접종",
+      "reading": "yebang jeopjong"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "새 가족을 기다리는 고양이 나비예요.",
+        "reading": "Sae gajogeul gidarineun goyangi Nabiyeyo."
+      },
+      {
+        "text": "나비는 두 살이고 성별은 여자예요.",
+        "reading": "Nabineun du sarigo seongbyeoreun yeojayeyo."
+      },
+      {
+        "text": "예방 접종을 모두 했고 중성화도 했어요.",
+        "reading": "Yebang jeopjongeul modu haetgo jungseonghwado haesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "나비는 처음에는 조금 겁이 많아요.",
+        "reading": "Nabineun cheoeumeneun jogeum geobi manayo."
+      },
+      {
+        "text": "하지만 며칠이 지나면 사람을 아주 잘 따라요.",
+        "reading": "Hajiman myeochiri jinamyeon sarameul aju jal ttarayo."
+      },
+      {
+        "text": "다른 고양이하고도 잘 지내요.",
+        "reading": "Dareun goyangihagodo jal jinaeyo."
+      },
+      {
+        "text": "장난감을 좋아해서 혼자 잘 놀아요.",
+        "reading": "Jangnangameul joahaeseo honja jal norayo."
+      },
+      {
+        "text": "털이 짧아서 털이 많이 빠지지 않아요.",
+        "reading": "Teori jjalbaseo teori mani ppajiji anayo."
+      }
+    ],
+    [
+      {
+        "text": "나비와 평생 함께할 가족을 찾고 있어요.",
+        "reading": "Nabiwa pyeongsaeng hamkkehal gajogeul chatgo isseoyo."
+      },
+      {
+        "text": "입양하고 싶으시면 보호소로 연락해 주세요.",
+        "reading": "Ibyanghago sipeusimyeon bohosoro yeollakae juseyo."
+      },
+      {
+        "text": "주말에는 직접 와서 나비를 만날 수 있어요.",
+        "reading": "Jumareneun jikjeop waseo Nabireul mannal su isseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

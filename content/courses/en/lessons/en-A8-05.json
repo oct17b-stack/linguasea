@@ -1,0 +1,51 @@
+{
+  "id": "en-A8-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.new",
+      "text": "new",
+      "reading": "nuː"
+    },
+    {
+      "id": "en.old",
+      "text": "old",
+      "reading": "oʊld"
+    },
+    {
+      "id": "en.nice",
+      "text": "nice",
+      "reading": "naɪs"
+    },
+    {
+      "id": "en.i-like-your",
+      "kind": "phrase",
+      "text": "I like your …",
+      "reading": "aɪ ˈlaɪk jʊr …"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, I like your watch!",
+      "reading": "ˈɛmə, aɪ ˈlaɪk jʊr ˈwɑːtʃ!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks! It's new.",
+      "reading": "ˈθæŋks! ɪts ˈnuː."
+    },
+    {
+      "speaker": "a",
+      "text": "It's very nice. My watch is old.",
+      "reading": "ɪts ˈvɛri ˈnaɪs. maɪ ˈwɑːtʃ ɪz ˈoʊld."
+    },
+    {
+      "speaker": "c",
+      "text": "Your watch is nice, too!",
+      "reading": "jʊr ˈwɑːtʃ ɪz ˈnaɪs, ˈtuː!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D13-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gyotong",
+      "text": "교통",
+      "reading": "gyotong"
+    },
+    {
+      "id": "ko.bokjap-hada",
+      "text": "복잡하다",
+      "reading": "bokjapada"
+    },
+    {
+      "id": "ko.mulga",
+      "text": "물가",
+      "reading": "mulga"
+    },
+    {
+      "id": "ko.gonggi",
+      "text": "공기",
+      "reading": "gonggi"
+    },
+    {
+      "id": "ko.dosim",
+      "text": "도심",
+      "reading": "dosim"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "방콕도 서울만큼 복잡해요?",
+      "reading": "Bangkokdo Seoulmankeum bokjapaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 서울만큼 복잡해요. 특히 도심은 길이 정말 많이 막혀요.",
+      "reading": "Ne, Seoulmankeum bokjapaeyo. Teuki dosimeun giri jeongmal mani makyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "교통은 어때요? 지하철이 있어요?",
+      "reading": "Gyotongeun eottaeyo? Jihacheori isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 있어요. 그런데 서울만큼 많지 않아요.",
+      "reading": "Ne, isseoyo. Geureonde Seoulmankeum manchi anayo."
+    },
+    {
+      "speaker": "c",
+      "text": "물가는 어때요? 서울보다 싸요?",
+      "reading": "Mulganeun eottaeyo? Seoulboda ssayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음식은 서울보다 훨씬 싸요. 하지만 도심에 있는 쇼핑몰은 서울만큼 비싸요.",
+      "reading": "Eumsigeun Seoulboda hwolssin ssayo. Hajiman dosime inneun syopingmoreun Seoulmankeum bissayo."
+    },
+    {
+      "speaker": "c",
+      "text": "공기는 어때요?",
+      "reading": "Gonggineun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공기는 별로 안 좋아요. 건기에는 공기가 나쁠 때가 있어요.",
+      "reading": "Gonggineun byeollo an joayo. Geongieneun gonggiga nappeul ttaega isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "날씨는요? 서울의 여름만큼 더워요?",
+      "reading": "Nalssineunyo? Seourui yeoreummankeum deowoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방콕이 훨씬 더워요. 방콕은 겨울도 서울의 여름만큼 더워요!",
+      "reading": "Bangkogi hwolssin deowoyo. Bangkogeun gyeouldo Seourui yeoreummankeum deowoyo!"
+    }
+  ]
+}

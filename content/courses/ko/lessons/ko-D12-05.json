@@ -1,0 +1,86 @@
+{
+  "id": "ko-D12-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gyedan",
+      "text": "계단",
+      "reading": "gyedan"
+    },
+    {
+      "id": "ko.ellibeiteo",
+      "text": "엘리베이터",
+      "reading": "ellibeiteo"
+    },
+    {
+      "id": "ko.georeo-danida",
+      "kind": "phrase",
+      "text": "걸어 다니다",
+      "reading": "georeo danida"
+    },
+    {
+      "id": "ko.cheryeok",
+      "text": "체력",
+      "reading": "cheryeok"
+    },
+    {
+      "id": "ko.gireuda",
+      "text": "기르다",
+      "reading": "gireuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 운동은 자주 해요?",
+      "reading": "Nam ssi, undongeun jaju haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 시간이 없어서 거의 못 해요.",
+      "reading": "Aniyo, sigani eopseoseo geoui mot haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 지하철역에서 학교까지 걸어 다니는 건 어때요?",
+      "reading": "Geureom jihacheollyeogeseo hakgyokkaji georeo danineun geon eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "보통 버스를 타요. 걸으면 이십 분쯤 걸려요.",
+      "reading": "Botong beoseureul tayo. Georeumyeon isip bunjjeum geollyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋네요. 학교에 오는 길에 걷고, 집에 가는 길에도 걸으세요.",
+      "reading": "Jonneyo. Hakgyoe oneun gire geotgo, jibe ganeun giredo georeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그리고 엘리베이터를 타는 대신에 계단으로 올라갈게요.",
+      "reading": "Ne. Geurigo ellibeiteoreul taneun daesine gyedaneuro ollagalgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아주 좋아요. 그렇게 하면 체력도 기를 수 있어요.",
+      "reading": "Aju joayo. Geureoke hamyeon cheryeokdo gireul su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "요즘 계단을 조금만 올라가도 힘들어요.",
+      "reading": "Yojeum gyedaneul jogeumman ollagado himdeureoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그러니까 꾸준히 걸어 다니는 게 중요해요.",
+      "reading": "Geureonikka kkujunhi georeo danineun ge jungyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 오늘 집에 가는 길에 바로 시작할게요.",
+      "reading": "Algesseoyo. Oneul jibe ganeun gire baro sijakalgeyo."
+    }
+  ]
+}

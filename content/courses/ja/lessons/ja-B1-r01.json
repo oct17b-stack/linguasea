@@ -1,0 +1,78 @@
+{
+  "id": "ja-B1-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.hagaki",
+      "text": "はがき",
+      "reading": "hagaki"
+    },
+    {
+      "id": "ja.minasan",
+      "text": "みなさん",
+      "reading": "minasan"
+    },
+    {
+      "id": "ja.kondo",
+      "text": "こんど",
+      "reading": "kondo"
+    },
+    {
+      "id": "ja.gyuudon",
+      "text": "ぎゅうどん",
+      "reading": "gyūdon"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさんへ",
+        "reading": "Namu-san e"
+      },
+      {
+        "text": "みなさん、おげんきですか。",
+        "reading": "Minasan, ogenki desu ka."
+      },
+      {
+        "text": "きょうとから はがきを かきます。",
+        "reading": "Kyōto kara hagaki o kakimasu."
+      }
+    ],
+    [
+      {
+        "text": "きょうとは とても さむいです。",
+        "reading": "Kyōto wa totemo samui desu."
+      },
+      {
+        "text": "でも、ふるい おしろと とりいが きれいです。",
+        "reading": "Demo, furui oshiro to torii ga kirei desu."
+      },
+      {
+        "text": "ぎゅうどんが おいしいですから、きょうも ぎゅうどんを たべます。",
+        "reading": "Gyūdon ga oishii desu kara, kyō mo gyūdon o tabemasu."
+      },
+      {
+        "text": "こんどは ナムさんも きょうとへ！",
+        "reading": "Kondo wa Namu-san mo Kyōto e!"
+      },
+      {
+        "text": "ゆきより",
+        "reading": "Yuki yori"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

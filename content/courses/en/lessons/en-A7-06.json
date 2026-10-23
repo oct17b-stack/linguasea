@@ -1,0 +1,53 @@
+{
+  "id": "en-A7-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.how-do-you-spell-that",
+      "kind": "phrase",
+      "text": "How do you spell that?",
+      "reading": "ˈhaʊ duː juː ˈspɛl ðæt?"
+    },
+    {
+      "id": "en.again-please",
+      "kind": "phrase",
+      "text": "Again, please.",
+      "reading": "əˈɡɛn, ˈpliːz."
+    },
+    {
+      "id": "en.write",
+      "text": "write",
+      "reading": "raɪt"
+    },
+    {
+      "id": "en.is-it-or",
+      "kind": "phrase",
+      "text": "Is it … or …?",
+      "reading": "ɪz ɪt … ɔːr …?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Gavin? How do you spell that?",
+      "reading": "ˈɡævɪn? ˈhaʊ duː juː ˈspɛl ðæt?"
+    },
+    {
+      "speaker": "b",
+      "text": "G-A-V-I-N.",
+      "reading": "ˈdʒiː ˈeɪ ˈviː ˈaɪ ˈɛn."
+    },
+    {
+      "speaker": "a",
+      "text": "Again, please. Is it B or V?",
+      "reading": "əˈɡɛn, ˈpliːz. ɪz ɪt ˈbiː ɔːr ˈviː?"
+    },
+    {
+      "speaker": "b",
+      "text": "V. G-A-V-I-N.",
+      "reading": "ˈviː. ˈdʒiː ˈeɪ ˈviː ˈaɪ ˈɛn."
+    }
+  ]
+}

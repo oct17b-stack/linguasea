@@ -1,0 +1,47 @@
+{
+  "lesson": "en-A8-04",
+  "title": "อยู่ตรงไหน",
+  "intro": "บอกตำแหน่งของด้วย in, on, under และถามว่าของอยู่ที่ไหน (ในบทสนทนา น้ำหาโทรศัพท์ไม่เจอในร้านกาแฟ)",
+  "items": {
+    "en.in": {
+      "meaning": "ใน",
+      "translit": "อิน"
+    },
+    "en.on": {
+      "meaning": "บน",
+      "translit": "ออน"
+    },
+    "en.under": {
+      "meaning": "ใต้",
+      "translit": "อันเดอร์"
+    },
+    "en.table": {
+      "meaning": "โต๊ะ",
+      "translit": "เทเบิล"
+    },
+    "en.wheres-my": {
+      "meaning": "…ของฉันอยู่ไหน",
+      "translit": "แวร์ส มาย …"
+    }
+  },
+  "dialogue": [
+    "เอ็มม่า โทรศัพท์ฉันอยู่ไหน",
+    "อยู่บนโต๊ะหรือเปล่า",
+    "ไม่อยู่",
+    "อ้าว อยู่ใต้โต๊ะนี่เอง! นี่ไง"
+  ],
+  "notes": [
+    {
+      "title": "in, on, under",
+      "body": "in = ข้างใน, on = บน (วางแตะพื้นผิว), under = ข้างใต้ ลำดับคำเหมือนภาษาไทย: on the table = บนโต๊ะ"
+    },
+    {
+      "title": "the",
+      "body": "the table คือโต๊ะตัวที่ทั้งสองคนรู้อยู่แล้วว่าตัวไหน ภาษาไทยไม่มีคำแบบนี้ the พูดเบา ๆ สั้น ๆ ว่า เธอะ"
+    },
+    {
+      "title": "Where's = Where is",
+      "body": "Where's my phone? ย่อมาจาก Where is my phone? ตอบด้วย It's + ตำแหน่ง เช่น It's under the table."
+    }
+  ]
+}

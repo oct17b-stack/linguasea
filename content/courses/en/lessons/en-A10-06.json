@@ -1,0 +1,56 @@
+{
+  "id": "en-A10-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.language",
+      "text": "language",
+      "reading": "ˈlæŋɡwɪdʒ"
+    },
+    {
+      "id": "en.do-you-speak",
+      "kind": "phrase",
+      "text": "Do you speak …?",
+      "reading": "duː juː ˈspiːk …?"
+    },
+    {
+      "id": "en.well",
+      "text": "well",
+      "reading": "wɛl"
+    },
+    {
+      "id": "en.french",
+      "text": "French",
+      "reading": "frɛntʃ"
+    },
+    {
+      "id": "en.spanish",
+      "text": "Spanish",
+      "reading": "ˈspænɪʃ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How many languages do you speak?",
+      "reading": "ˈhaʊ ˈmɛni ˈlæŋɡwɪdʒɪz duː juː ˈspiːk?"
+    },
+    {
+      "speaker": "b",
+      "text": "Three: English, French, and Spanish.",
+      "reading": "ˈθriː: ˈɪŋɡlɪʃ, ˈfrɛntʃ, ənd ˈspænɪʃ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Do you speak Thai, too?",
+      "reading": "ˈoʊ! duː juː ˈspiːk ˈtaɪ, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, a little. But not very well!",
+      "reading": "ˈjɛs, ə ˈlɪtəl. bʌt ˈnɑːt ˈvɛri ˈwɛl!"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ko-E5-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sugang-sincheong",
+      "kind": "phrase",
+      "text": "수강 신청",
+      "reading": "sugang sincheong"
+    },
+    {
+      "id": "ko.hakjeom",
+      "text": "학점",
+      "reading": "hakjeom"
+    },
+    {
+      "id": "ko.gyoyang",
+      "text": "교양",
+      "reading": "gyoyang"
+    },
+    {
+      "id": "ko.pilsu-gwamok",
+      "kind": "phrase",
+      "text": "필수 과목",
+      "reading": "pilsu gwamok"
+    },
+    {
+      "id": "ko.janghakgeum",
+      "text": "장학금",
+      "reading": "janghakgeum"
+    },
+    {
+      "id": "ko.joreop-yogeon",
+      "kind": "phrase",
+      "text": "졸업 요건",
+      "reading": "joreop yogeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "교수님, 다음 학기 수강 신청 때문에 왔습니다.",
+      "reading": "Gyosunim, daeum hakgi sugang sincheong ttaemune watseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 앉으세요. 몇 학점을 들을 생각이에요?",
+      "reading": "Ne, anjeuseyo. Myeot hakjeomeul deureul saenggagieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "십팔 학점을 듣고 싶어요. 그런데 어떤 과목을 들어야 할지 잘 모르겠어요.",
+      "reading": "Sippal hakjeomeul deutgo sipeoyo. Geureonde eotteon gwamogeul deureoya halji jal moreugesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "먼저 필수 과목부터 신청하세요. 필수 과목은 졸업 요건이에요.",
+      "reading": "Meonjeo pilsu gwamokbuteo sincheonghaseyo. Pilsu gwamogeun joreop yogeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "교양 과목도 들어야 해요?",
+      "reading": "Gyoyang gwamokdo deureoya haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 교양도 몇 과목 들어야 해요. 제가 좋은 과목을 추천해 줄 테니까 그중에서 고르세요.",
+      "reading": "Ne, gyoyangdo myeot gwamok deureoya haeyo. Jega joeun gwamogeul chucheonhae jul tenikka geujungeseo goreuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그리고 장학금을 받으려면 성적이 몇 점 이상이어야 해요?",
+      "reading": "Gamsahamnida. Geurigo janghakgeumeul badeuryeomyeon seongjeogi myeot jeom isangieoya haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "평균 3.5 이상이어야 해요.",
+      "reading": "Pyeonggyun sam jeom o isangieoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "열심히 할게요. 수강 신청은 인터넷으로 하지요?",
+      "reading": "Yeolsimhi halgeyo. Sugang sincheongeun inteoneseuro hajiyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 신청하는 날에는 사람이 많을 테니까 미리 준비하세요.",
+      "reading": "Ne. Sincheonghaneun nareneun sarami maneul tenikka miri junbihaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠습니다. 시간 내 주셔서 감사합니다.",
+      "reading": "Ne, algetseumnida. Sigan nae jusyeoseo gamsahamnida."
+    }
+  ]
+}

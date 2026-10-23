@@ -1,0 +1,101 @@
+{
+  "id": "ko-E5-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gwaje",
+      "text": "과제",
+      "reading": "gwaje"
+    },
+    {
+      "id": "ko.ripoteu",
+      "text": "리포트",
+      "reading": "ripoteu"
+    },
+    {
+      "id": "ko.magamil",
+      "text": "마감일",
+      "reading": "magamil"
+    },
+    {
+      "id": "ko.bameul-saeuda",
+      "kind": "phrase",
+      "text": "밤을 새우다",
+      "reading": "bameul saeuda"
+    },
+    {
+      "id": "ko.jettae",
+      "text": "제때",
+      "reading": "jettae"
+    },
+    {
+      "id": "ko.byeorakchigi",
+      "text": "벼락치기",
+      "reading": "byeorakchigi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 리포트를 아직 안 냈네요. 마감일이 어제였어요.",
+      "reading": "Nam ssi, ripoteureul ajik an naenneyo. Magamiri eojeyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "죄송합니다, 교수님. 다른 과목 시험 공부를 하느라고 리포트를 다 못 썼어요.",
+      "reading": "Joesonghamnida, gyosunim. Dareun gwamok siheom gongbureul haneurago ripoteureul da mot sseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "이번 주에 과제가 많았어요?",
+      "reading": "Ibeon jue gwajega manasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 과제가 세 개나 있었어요. 그리고 주말에는 아르바이트를 하느라 시간이 없었어요.",
+      "reading": "Ne, gwajega se gaena isseosseoyo. Geurigo jumareneun areubaiteureul haneura sigani eopseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "바쁜 건 알지만, 과제는 제때 내야 해요.",
+      "reading": "Bappeun geon aljiman, gwajeneun jettae naeya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알고 있습니다. 어젯밤에도 밤을 새웠는데 다 못 끝냈어요.",
+      "reading": "Ne, algo itseumnida. Eojetbamedo bameul saewonneunde da mot kkeunnaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "혹시 시험도 벼락치기로 공부했어요?",
+      "reading": "Hoksi siheomdo byeorakchigiro gongbuhaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네... 시간이 없어서 벼락치기를 했어요.",
+      "reading": "Ne... Sigani eopseoseo byeorakchigireul haesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "벼락치기는 좋지 않아요. 미리 계획을 세우세요.",
+      "reading": "Byeorakchigineun jochi anayo. Miri gyehoegeul seuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 앞으로는 미리 하겠습니다. 리포트는 언제까지 내면 될까요?",
+      "reading": "Ne, apeuroneun miri hagetseumnida. Ripoteuneun eonjekkaji naemyeon doelkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이번 한 번만 내일까지 받아 줄게요.",
+      "reading": "Ibeon han beonman naeilkkaji bada julgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다, 교수님. 내일 아침까지 꼭 내겠습니다.",
+      "reading": "Gamsahamnida, gyosunim. Naeil achimkkaji kkok naegetseumnida."
+    }
+  ]
+}

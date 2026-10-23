@@ -1,0 +1,60 @@
+{
+  "id": "ja-B8-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.petto",
+      "text": "ペット",
+      "reading": "petto"
+    },
+    {
+      "id": "ja.doa",
+      "text": "ドア",
+      "reading": "doa"
+    },
+    {
+      "id": "ja.nangai",
+      "text": "なんがい",
+      "reading": "nangai"
+    },
+    {
+      "id": "ja.erebeetaa",
+      "text": "エレベーター",
+      "reading": "erebētā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ペットは いますか。",
+      "reading": "Namu-san, petto wa imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ねこが います。いま、2かいの いもうとの へやに います。",
+      "reading": "Hai, neko ga imasu. Ima, nikai no imōto no heya ni imasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさんの へやは なんがいですか。",
+      "reading": "Namu-san no heya wa nangai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしの へやも 2かいです。ゆきさんの アパートは？",
+      "reading": "Watashi no heya mo nikai desu. Yuki-san no apāto wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "5かいです。でも、エレベーターが ありますから、だいじょうぶです。",
+      "reading": "Gokai desu. Demo, erebētā ga arimasu kara, daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ねこです！ドアの まえに いますよ。",
+      "reading": "A, neko desu! Doa no mae ni imasu yo."
+    }
+  ]
+}

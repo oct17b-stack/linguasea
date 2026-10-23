@@ -1,0 +1,49 @@
+{
+  "id": "en-A9-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.sit-down",
+      "kind": "phrase",
+      "text": "Sit down.",
+      "reading": "ˈsɪt ˈdaʊn."
+    },
+    {
+      "id": "en.stand-up",
+      "kind": "phrase",
+      "text": "Stand up.",
+      "reading": "ˈstænd ˈʌp."
+    },
+    {
+      "id": "en.come-here",
+      "kind": "phrase",
+      "text": "Come here.",
+      "reading": "ˈkʌm ˈhɪr."
+    },
+    {
+      "id": "en.write-your-name",
+      "kind": "phrase",
+      "text": "Write your name.",
+      "reading": "ˈraɪt jʊr ˈneɪm."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, come here, please. Write your name.",
+      "reading": "ˈnɑːm, ˈkʌm ˈhɪr, ˈpliːz. ˈraɪt jʊr ˈneɪm."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. N-A-M.",
+      "reading": "oʊˈkeɪ. ˈɛn ˈeɪ ˈɛm."
+    },
+    {
+      "speaker": "b",
+      "text": "Thank you, Nam. Sit down, please.",
+      "reading": "ˈθæŋk juː, ˈnɑːm. ˈsɪt ˈdaʊn, ˈpliːz."
+    }
+  ]
+}

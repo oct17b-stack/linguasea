@@ -1,0 +1,65 @@
+{
+  "id": "ja-B4-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.seeru",
+      "text": "セール",
+      "reading": "sēru"
+    },
+    {
+      "id": "ja.tokubai",
+      "text": "とくばい",
+      "reading": "tokubai"
+    },
+    {
+      "id": "ja.atarashii",
+      "text": "あたらしい",
+      "reading": "atarashii"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "かばんの セールです！",
+        "reading": "Kaban no sēru desu!"
+      },
+      {
+        "text": "あしたから にちようびまでです。",
+        "reading": "Ashita kara nichiyōbi made desu."
+      },
+      {
+        "text": "あたらしい かばんも たくさん あります。",
+        "reading": "Atarashii kaban mo takusan arimasu."
+      }
+    ],
+    [
+      {
+        "text": "くろい かばんは とくばいで 6,000円です！",
+        "reading": "Kuroi kaban wa tokubai de rokusen en desu!"
+      },
+      {
+        "text": "ちいさい かばんは 2,000円です。",
+        "reading": "Chiisai kaban wa nisen en desu."
+      },
+      {
+        "text": "カードも だいじょうぶです。",
+        "reading": "Kādo mo daijōbu desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

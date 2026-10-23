@@ -1,0 +1,80 @@
+{
+  "id": "ko-D10-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jangnangam",
+      "text": "장난감",
+      "reading": "jangnangam"
+    },
+    {
+      "id": "ko.inhyeong",
+      "text": "인형",
+      "reading": "inhyeong"
+    },
+    {
+      "id": "ko.manhwa",
+      "text": "만화",
+      "reading": "manhwa"
+    },
+    {
+      "id": "ko.hagwon",
+      "text": "학원",
+      "reading": "hagwon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 어렸을 때 어떤 장난감을 좋아했어요?",
+      "reading": "Nam ssineun eoryeosseul ttae eotteon jangnangameul joahaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 인형을 좋아했어요. 인형이 열 개쯤 있었어요.",
+      "reading": "Jeoneun inhyeongeul joahaesseoyo. Inhyeongi yeol gaejjeum isseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 인형은 한 번도 가지고 논 적이 없어요. 만화만 봤어요.",
+      "reading": "Jeoneun inhyeongeun han beondo gajigo non jeogi eopseoyo. Manhwaman bwasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 만화를 좋아했어요. 그런데 한국 만화는 한 번도 못 봤어요.",
+      "reading": "Jeodo manhwareul joahaesseoyo. Geureonde Hanguk manhwaneun han beondo mot bwasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국 아이들은 만화를 볼 시간이 별로 없어요. 학원에 많이 다니거든요.",
+      "reading": "Hanguk aideureun manhwareul bol sigani byeollo eopseoyo. Hagwone mani danigeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨도 학원에 다녔어요?",
+      "reading": "Minjun ssido hagwone danyeosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 초등학교 때부터 영어 학원하고 수학 학원에 다녔어요.",
+      "reading": "Ne, chodeunghakgyo ttaebuteo yeongeo hagwonhago suhak hagwone danyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 학원에 한 번도 안 갔어요. 집에서 엄마가 가르쳐 주셨어요.",
+      "reading": "Jeoneun hagwone han beondo an gasseoyo. Jibeseo eommaga gareuchyeo jusyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 어머니가 선생님이시니까 좋았겠어요.",
+      "reading": "Wa, eomeoniga seonsaengnimisinikka joatgesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그런데 숙제가 정말 많았어요. 하하.",
+      "reading": "Ne, geureonde sukjega jeongmal manasseoyo. Haha."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "en-A2-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.ship",
+      "text": "ship",
+      "reading": "ʃɪp"
+    },
+    {
+      "id": "en.sheep",
+      "text": "sheep",
+      "reading": "ʃiːp"
+    },
+    {
+      "id": "en.live",
+      "text": "live",
+      "reading": "lɪv"
+    },
+    {
+      "id": "en.leave",
+      "text": "leave",
+      "reading": "liːv"
+    },
+    {
+      "id": "en.sit",
+      "text": "sit",
+      "reading": "sɪt"
+    },
+    {
+      "id": "en.seat",
+      "text": "seat",
+      "reading": "siːt"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.ship",
+      "options": [
+        "en.sheep"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.sheep",
+      "options": [
+        "en.ship"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.live",
+      "options": [
+        "en.leave"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.leave",
+      "options": [
+        "en.live"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.sit",
+      "options": [
+        "en.seat"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.seat",
+      "options": [
+        "en.sit"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.ship"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.sheep"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.live"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.leave"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.sit"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.seat"
+    },
+    {
+      "type": "speak",
+      "item": "en.live"
+    },
+    {
+      "type": "speak",
+      "item": "en.sheep"
+    }
+  ]
+}

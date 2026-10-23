@@ -1,0 +1,85 @@
+{
+  "id": "ko-D14-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.miyongsil",
+      "text": "미용실",
+      "reading": "miyongsil"
+    },
+    {
+      "id": "ko.jareuda",
+      "text": "자르다",
+      "reading": "jareuda"
+    },
+    {
+      "id": "ko.pama-hada",
+      "text": "파마하다",
+      "reading": "pamahada"
+    },
+    {
+      "id": "ko.yeomsaek-hada",
+      "text": "염색하다",
+      "reading": "yeomsaekada"
+    },
+    {
+      "id": "ko.ammeori",
+      "text": "앞머리",
+      "reading": "ammeori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 처음 오셨어요?",
+      "reading": "Eoseo oseyo. Cheoeum osyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 친구가 이 미용실을 추천해 줬어요. 머리를 좀 자르고 싶어요.",
+      "reading": "Ne, chinguga i miyongsireul chucheonhae jwosseoyo. Meorireul jom jareugo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어떻게 잘라 드릴까요?",
+      "reading": "Eotteoke jalla deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "끝만 조금 잘라 주세요. 너무 짧게 자르지 말아 주세요.",
+      "reading": "Kkeunman jogeum jalla juseyo. Neomu jjalge jareuji mara juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 알겠어요. 앞머리는 어떻게 해 드릴까요?",
+      "reading": "Ne, algesseoyo. Ammeorineun eotteoke hae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "앞머리는 자르지 말아 주세요. 요즘 기르고 있어요.",
+      "reading": "Ammeorineun jareuji mara juseyo. Yojeum gireugo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘 파마하실 거예요? 아니면 염색하실 거예요?",
+      "reading": "Oneul pamahasil geoyeyo? Animyeon yeomsaekasil geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "염색만 할게요. 너무 밝게 하지 말아 주세요.",
+      "reading": "Yeomsaengman halgeyo. Neomu balge haji mara juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 이 색깔은 어때요? 많이 밝지 않아요.",
+      "reading": "Geureom i saekkkareun eottaeyo? Mani bakji anayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 그 색깔이 마음에 들어요.",
+      "reading": "Joayo. Geu saekkkari maeume deureoyo."
+    }
+  ]
+}

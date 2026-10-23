@@ -1,0 +1,93 @@
+{
+  "id": "ko-E15-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.boramchada",
+      "text": "보람차다",
+      "reading": "boramchada"
+    },
+    {
+      "id": "ko.damunhwa-gajok",
+      "text": "다문화 가족",
+      "reading": "damunhwa gajok",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.tongyeok-bongsa",
+      "text": "통역 봉사",
+      "reading": "tongyeok bongsa",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.mento",
+      "text": "멘토",
+      "reading": "mento"
+    },
+    {
+      "id": "ko.jagi-gyebal",
+      "text": "자기 계발",
+      "reading": "jagi gyebal",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 왜 봉사 활동을 시작했어요?",
+      "reading": "Nam ssineun wae bongsa hwaldongeul sijakaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다른 사람도 도울 겸 한국어도 연습할 겸 시작했어요.",
+      "reading": "Dareun saramdo doul gyeom hangugeodo yeonseupal gyeom sijakaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "앞으로 어떤 봉사를 하고 싶어요?",
+      "reading": "Apeuro eotteon bongsareul hago sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국어하고 영어를 할 수 있어서 통역 봉사를 하고 싶어요.",
+      "reading": "Taegugeohago yeongeoreul hal su isseoseo tongyeok bongsareul hago sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "마침 잘됐네요. 우리 복지관에 태국 출신 다문화 가족이 많아요.",
+      "reading": "Machim jaldwaenneyo. Uri bokjigwane Taeguk chulsin damunhwa gajogi manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 그분들께 도움이 되면 좋겠어요.",
+      "reading": "Jeongmaryo? Geubundeulkke doumi doemyeon jokesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 다문화 가족 아이들의 멘토도 필요해요. 일주일에 한 번 숙제를 도와주는 일이에요.",
+      "reading": "Geurigo damunhwa gajok aideurui mentodo piryohaeyo. Iljuire han beon sukjereul dowajuneun irieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "재미있겠네요. 아이들도 가르칠 겸 제 공부도 할 겸 해 볼게요.",
+      "reading": "Jaemiitgenneyo. Aideuldo gareuchil gyeom je gongbudo hal gyeom hae bolgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "자기 계발에도 도움이 될 거예요.",
+      "reading": "Jagi gyebaredo doumi doel geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 바쁘겠지만 정말 보람찰 것 같아요.",
+      "reading": "Ne, bappeugetjiman jeongmal boramchal geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 다음 주 화요일부터 시작합시다.",
+      "reading": "Geureom daeum ju hwayoilbuteo sijakapsida."
+    }
+  ]
+}

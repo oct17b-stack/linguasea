@@ -1,0 +1,131 @@
+{
+  "id": "en-A7-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.letter-b",
+      "kind": "letter",
+      "text": "B",
+      "reading": "biː"
+    },
+    {
+      "id": "en.letter-c",
+      "kind": "letter",
+      "text": "C",
+      "reading": "siː"
+    },
+    {
+      "id": "en.letter-d",
+      "kind": "letter",
+      "text": "D",
+      "reading": "diː"
+    },
+    {
+      "id": "en.letter-e",
+      "kind": "letter",
+      "text": "E",
+      "reading": "iː"
+    },
+    {
+      "id": "en.letter-g",
+      "kind": "letter",
+      "text": "G",
+      "reading": "dʒiː"
+    },
+    {
+      "id": "en.letter-p",
+      "kind": "letter",
+      "text": "P",
+      "reading": "piː"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.letter-b",
+      "options": [
+        "en.letter-p",
+        "en.letter-d",
+        "en.letter-v"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-b"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-c",
+      "options": [
+        "en.letter-z",
+        "en.letter-t",
+        "en.letter-e"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-c"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-d",
+      "options": [
+        "en.letter-b",
+        "en.letter-t",
+        "en.letter-g"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-d"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-e",
+      "options": [
+        "en.letter-i",
+        "en.letter-a"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-e"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-g",
+      "options": [
+        "en.letter-j",
+        "en.letter-z",
+        "en.letter-d"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-g"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-p",
+      "options": [
+        "en.letter-b",
+        "en.letter-t",
+        "en.letter-d"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-p"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-g"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-e"
+    }
+  ]
+}

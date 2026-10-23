@@ -1,0 +1,60 @@
+{
+  "id": "ja-B8-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.beddo",
+      "text": "ベッド",
+      "reading": "beddo"
+    },
+    {
+      "id": "ja.tsukue",
+      "text": "つくえ",
+      "reading": "tsukue"
+    },
+    {
+      "id": "ja.teeburu",
+      "text": "テーブル",
+      "reading": "tēburu"
+    },
+    {
+      "id": "ja.sofa",
+      "text": "ソファ",
+      "reading": "sofa"
+    },
+    {
+      "id": "ja.kaaten",
+      "text": "カーテン",
+      "reading": "kāten"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ここが わたしの へやです。どうぞ。",
+      "reading": "Yuki-san, koko ga watashi no heya desu. Dōzo."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ、へやに ベッドと つくえと ソファが ありますね。",
+      "reading": "Hē, heya ni beddo to tsukue to sofa ga arimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。テーブルも ありますよ。",
+      "reading": "Hai. Tēburu mo arimasu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "カーテンが きれいですね。",
+      "reading": "Kāten ga kirei desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。いもうとの へやにも おなじ カーテンが あります。",
+      "reading": "Arigatō gozaimasu. Imōto no heya ni mo onaji kāten ga arimasu."
+    }
+  ]
+}

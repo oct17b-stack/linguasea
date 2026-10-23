@@ -1,0 +1,86 @@
+{
+  "id": "ko-D16-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jeokseong",
+      "text": "적성",
+      "reading": "jeokseong"
+    },
+    {
+      "id": "ko.bunya",
+      "text": "분야",
+      "reading": "bunya"
+    },
+    {
+      "id": "ko.jaeneung",
+      "text": "재능",
+      "reading": "jaeneung"
+    },
+    {
+      "id": "ko.yeonghyangeul-batda",
+      "kind": "phrase",
+      "text": "영향을 받다",
+      "reading": "yeonghyangeul batda"
+    },
+    {
+      "id": "ko.jongyeong-hada",
+      "text": "존경하다",
+      "reading": "jongyeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨는 왜 통역사가 되고 싶어요?",
+      "reading": "Nam ssineun wae tongyeoksaga doego sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어머니의 영향을 많이 받았어요. 어머니가 영어 선생님이시거든요.",
+      "reading": "Eomeoniui yeonghyangeul mani badasseoyo. Eomeoniga yeongeo seonsaengnimisigeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇군요. 어머니를 존경해요?",
+      "reading": "Geureokunyo. Eomeonireul jongyeonghaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 존경해요. 저도 어머니처럼 외국어를 잘했으면 좋겠어요.",
+      "reading": "Ne, jeongmal jongyeonghaeyo. Jeodo eomeonicheoreom oegugeoreul jalhaesseumyeon jokesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨는 언어에 재능이 있어요. 통역이 적성에 잘 맞을 거예요.",
+      "reading": "Nam ssineun eoneoe jaeneungi isseoyo. Tongyeogi jeokseonge jal majeul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그런데 어느 분야에서 일하고 싶은지 아직 모르겠어요.",
+      "reading": "Gamsahamnida. Geureonde eoneu bunyaeseo ilhago sipeunji ajik moreugesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "관심이 있는 분야가 있어요?",
+      "reading": "Gwansimi inneun bunyaga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "관광 분야에 관심이 많아요. 한국 사람들이 태국을 더 많이 알았으면 좋겠어요.",
+      "reading": "Gwangwang bunyae gwansimi manayo. Hanguk saramdeuri Taegugeul deo mani arasseumyeon jokesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋은 생각이에요. 남 씨가 꼭 그 분야에서 일했으면 좋겠어요.",
+      "reading": "Joeun saenggagieyo. Nam ssiga kkok geu bunyaeseo ilhaesseumyeon jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다, 선생님. 더 열심히 할게요.",
+      "reading": "Gamsahamnida, seonsaengnim. Deo yeolsimhi halgeyo."
+    }
+  ]
+}

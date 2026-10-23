@@ -1,0 +1,85 @@
+{
+  "id": "ko-D14-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.setakso",
+      "text": "세탁소",
+      "reading": "setakso"
+    },
+    {
+      "id": "ko.deuraikeullining",
+      "text": "드라이클리닝",
+      "reading": "deuraikeullining"
+    },
+    {
+      "id": "ko.matgida",
+      "text": "맡기다",
+      "reading": "matgida"
+    },
+    {
+      "id": "ko.chajagada",
+      "text": "찾아가다",
+      "reading": "chajagada"
+    },
+    {
+      "id": "ko.darimjil",
+      "text": "다림질",
+      "reading": "darimjil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 이 코트를 맡기려고 왔어요.",
+      "reading": "Annyeonghaseyo. I koteureul matgiryeogo wasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 드라이클리닝을 해 드릴까요?",
+      "reading": "Ne, deuraikeulliningeul hae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 금요일까지 될까요? 토요일에 중요한 약속이 있어요.",
+      "reading": "Ne. Geumyoilkkaji doelkkayo? Toyoire jungyohan yaksogi isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "요즘 손님이 많아서 금요일까지는 좀 어려워요. 토요일 아침까지 해 드릴게요.",
+      "reading": "Yojeum sonnimi manaseo geumyoilkkajineun jom eoryeowoyo. Toyoil achimkkaji hae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "토요일 몇 시까지 돼요? 열한 시에 나가야 돼요.",
+      "reading": "Toyoil myeot sikkaji dwaeyo? Yeolhan sie nagaya dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "열 시까지 해 드릴게요. 그때 찾아가세요.",
+      "reading": "Yeol sikkaji hae deurilgeyo. Geuttae chajagaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 그리고 이 셔츠는 다림질만 해 주세요.",
+      "reading": "Joayo. Geurigo i syeocheuneun darimjilman hae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "셔츠는 내일까지 돼요.",
+      "reading": "Syeocheuneun naeilkkaji dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 동네에 세탁소가 있어서 정말 편해요.",
+      "reading": "Gamsahamnida. Dongnee setaksoga isseoseo jeongmal pyeonhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "찾아가실 때 이 영수증을 꼭 가져오세요.",
+      "reading": "Chajagasil ttae i yeongsujeungeul kkok gajyeooseyo."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ko-D10-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.byeon-hada",
+      "text": "변하다",
+      "reading": "byeonhada"
+    },
+    {
+      "id": "ko.geudaero",
+      "text": "그대로",
+      "reading": "geudaero"
+    },
+    {
+      "id": "ko.chueok",
+      "text": "추억",
+      "reading": "chueok"
+    },
+    {
+      "id": "ko.gieoge-namda",
+      "kind": "phrase",
+      "text": "기억에 남다",
+      "reading": "gieoge namda"
+    },
+    {
+      "id": "ko.yennal",
+      "text": "옛날",
+      "reading": "yennal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 사진에서는 정말 얌전해 보여요.",
+      "reading": "Nam ssi, i sajineseoneun jeongmal yamjeonhae boyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그때는 얌전했는데 지금은 아주 활발해요.",
+      "reading": "Ne, geuttaeneun yamjeonhaenneunde jigeumeun aju hwalbalhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 맞아요. 옛날하고 많이 변했네요.",
+      "reading": "Haha, majayo. Yennalhago mani byeonhaenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨는요? 어렸을 때하고 많이 달라요?",
+      "reading": "Minjun ssineunyo? Eoryeosseul ttaehago mani dallayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 옛날에는 키가 작았는데 지금은 커요. 그런데 얼굴은 그대로예요.",
+      "reading": "Jeoneun yennareneun kiga jaganneunde jigeumeun keoyo. Geureonde eolgureun geudaeroyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 그러네요. 어린 시절 추억 중에서 뭐가 제일 기억에 남아요?",
+      "reading": "Jeongmal geureoneyo. Eorin sijeol chueok jungeseo mwoga jeil gieoge namayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "초등학교 때 바다에 처음 간 게 제일 기억에 남아요.",
+      "reading": "Chodeunghakgyo ttae badae cheoeum gan ge jeil gieoge namayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 할머니 댁에서 보낸 여름이 기억에 남아요.",
+      "reading": "Jeoneun halmeoni daegeseo bonaen yeoreumi gieoge namayo."
+    },
+    {
+      "speaker": "b",
+      "text": "할머니 댁은 지금도 그대로예요?",
+      "reading": "Halmeoni daegeun jigeumdo geudaeroyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 옛날에는 작은 나무 집이었는데 지금은 큰 집으로 변했어요.",
+      "reading": "Aniyo, yennareneun jageun namu jibieonneunde jigeumeun keun jibeuro byeonhaesseoyo."
+    }
+  ]
+}

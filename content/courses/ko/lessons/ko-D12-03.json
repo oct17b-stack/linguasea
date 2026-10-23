@@ -1,0 +1,87 @@
+{
+  "id": "ko-D12-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.seuteureseureul-batda",
+      "kind": "phrase",
+      "text": "스트레스를 받다",
+      "reading": "seuteureseureul batda"
+    },
+    {
+      "id": "ko.seuteureseureul-pulda",
+      "kind": "phrase",
+      "text": "스트레스를 풀다",
+      "reading": "seuteureseureul pulda"
+    },
+    {
+      "id": "ko.hyusik",
+      "text": "휴식",
+      "reading": "hyusik"
+    },
+    {
+      "id": "ko.myeongsang",
+      "text": "명상",
+      "reading": "myeongsang"
+    },
+    {
+      "id": "ko.chungbunhi",
+      "text": "충분히",
+      "reading": "chungbunhi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 요즘 스트레스를 많이 받아요?",
+      "reading": "Nam ssi, yojeum seuteureseureul mani badayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 시험하고 아르바이트 때문에 스트레스를 많이 받아요.",
+      "reading": "Ne, siheomhago areubaiteu ttaemune seuteureseureul mani badayo."
+    },
+    {
+      "speaker": "c",
+      "text": "스트레스는 어떻게 풀어요?",
+      "reading": "Seuteureseuneun eotteoke pureoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "보통 매운 음식을 먹거나 노래방에 가요.",
+      "reading": "Botong maeun eumsigeul meokgeona noraebange gayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그것도 좋아요. 하지만 충분히 쉴 필요가 있어요. 휴식도 정말 중요해요.",
+      "reading": "Geugeotdo joayo. Hajiman chungbunhi swil piryoga isseoyo. Hyusikdo jeongmal jungyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "쉴 필요는 있는데 시간이 없어요. 주말에도 일해야 돼요.",
+      "reading": "Swil piryoneun inneunde sigani eopseoyo. Jumaredo ilhaeya dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "오래 쉴 필요는 없어요. 하루에 십 분이라도 명상을 해 보세요.",
+      "reading": "Orae swil piryoneun eopseoyo. Harue sip bunirado myeongsangeul hae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "명상이요? 저는 해 본 적이 없어요.",
+      "reading": "Myeongsangiyo? Jeoneun hae bon jeogi eopseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어렵지 않아요. 조용한 곳에 앉아서 눈을 감고 있으면 돼요.",
+      "reading": "Eoryeopji anayo. Joyonghan gose anjaseo nuneul gamgo isseumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 오늘 밤에 한번 해 볼게요.",
+      "reading": "Geureom oneul bame hanbeon hae bolgeyo."
+    }
+  ]
+}

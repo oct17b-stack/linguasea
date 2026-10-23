@@ -1,0 +1,87 @@
+{
+  "id": "ko-D16-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.mirae",
+      "text": "미래",
+      "reading": "mirae"
+    },
+    {
+      "id": "ko.seonggong-hada",
+      "text": "성공하다",
+      "reading": "seonggonghada"
+    },
+    {
+      "id": "ko.doneul-beolda",
+      "kind": "phrase",
+      "text": "돈을 벌다",
+      "reading": "doneul beolda"
+    },
+    {
+      "id": "ko.jarireul-japda",
+      "kind": "phrase",
+      "text": "자리를 잡다",
+      "reading": "jarireul japda"
+    },
+    {
+      "id": "ko.pyeongbeom-hada",
+      "text": "평범하다",
+      "reading": "pyeongbeomhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오 년 후에는 뭘 하고 있을 거예요?",
+      "reading": "Nam ssi, o nyeon hueneun mwol hago isseul geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아마 서울에서 통역사로 일하고 있을 거예요.",
+      "reading": "Ama Seoureseo tongyeoksaro ilhago isseul geoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋네요. 어떤 미래를 생각하고 있어요?",
+      "reading": "Jonneyo. Eotteon miraereul saenggakago isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "회사에서 자리를 잡고 열심히 일하고 있을 거예요.",
+      "reading": "Hoesaeseo jarireul japgo yeolsimhi ilhago isseul geoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "돈도 많이 벌고 싶어요?",
+      "reading": "Dondo mani beolgo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "돈은 조금만 벌어도 괜찮아요.",
+      "reading": "Doneun jogeumman beoreodo gwaenchanayo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨에게 성공은 뭐예요?",
+      "reading": "Nam ssiege seonggongeun mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "평범하지만 행복하게 사는 거예요. 꼭 크게 성공하지 않아도 괜찮아요.",
+      "reading": "Pyeongbeomhajiman haengbokage saneun geoyeyo. Kkok keuge seonggonghaji anado gwaenchanayo."
+    },
+    {
+      "speaker": "c",
+      "text": "멋진 생각이에요. 그때 저는 뭘 하고 있을까요?",
+      "reading": "Meotjin saenggagieyo. Geuttae jeoneun mwol hago isseulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "선생님은 아마 지금처럼 학생들을 가르치고 계실 거예요.",
+      "reading": "Seonsaengnimeun ama jigeumcheoreom haksaengdeureul gareuchigo gyesil geoyeyo."
+    }
+  ]
+}

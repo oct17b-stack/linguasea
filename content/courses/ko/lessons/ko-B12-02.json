@@ -1,0 +1,60 @@
+{
+  "id": "ko-B12-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jjajangmyeon",
+      "text": "짜장면",
+      "reading": "jjajangmyeon"
+    },
+    {
+      "id": "ko.jjamppong",
+      "text": "짬뽕",
+      "reading": "jjamppong"
+    },
+    {
+      "id": "ko.tangsuyuk",
+      "text": "탕수육",
+      "reading": "tangsuyuk"
+    },
+    {
+      "id": "ko.mandu",
+      "text": "만두",
+      "reading": "mandu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 먹고 싶어요?",
+      "reading": "Nam ssi, mwo meokgo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 짬뽕 먹고 싶어요. 민준 씨는요?",
+      "reading": "Jeoneun jjamppong meokgo sipeoyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 짜장면이요. 탕수육도 먹고 싶어요.",
+      "reading": "Jeoneun jjajangmyeoniyo. Tangsuyukdo meokgo sipeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 만두도 같이 먹어요.",
+      "reading": "Joayo! Mandudo gachi meogeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저기요! 짜장면 하나, 짬뽕 하나 주세요. 탕수육하고 만두도 주세요.",
+      "reading": "Jeogiyo! Jjajangmyeon hana, jjamppong hana juseyo. Tangsuyukhago mandudo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 잠깐만요!",
+      "reading": "Ne, jamkkanmanyo!"
+    }
+  ]
+}

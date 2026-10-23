@@ -1,0 +1,86 @@
+{
+  "id": "ko-D12-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.dambaereul-piuda",
+      "kind": "phrase",
+      "text": "담배를 피우다",
+      "reading": "dambaereul piuda"
+    },
+    {
+      "id": "ko.kkeunta",
+      "text": "끊다",
+      "reading": "kkeunta"
+    },
+    {
+      "id": "ko.jurida",
+      "text": "줄이다",
+      "reading": "jurida"
+    },
+    {
+      "id": "ko.gwasik-hada",
+      "text": "과식하다",
+      "reading": "gwasikada"
+    },
+    {
+      "id": "ko.gungeotjil",
+      "text": "군것질",
+      "reading": "gungeotjil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 요즘 담배를 안 피워요?",
+      "reading": "Minjun ssi, yojeum dambaereul an piwoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 지난달에 끊었어요. 기침이 너무 심해서 끊을 수밖에 없었어요.",
+      "reading": "Ne, jinandare kkeuneosseoyo. Gichimi neomu simhaeseo kkeuneul subakke eopseosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 잘했어요. 힘들지 않았어요?",
+      "reading": "Wa, jeongmal jalhaesseoyo. Himdeulji anasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "처음에는 힘들었어요. 그래서 군것질을 많이 했어요.",
+      "reading": "Cheoeumeneun himdeureosseoyo. Geuraeseo gungeotjireul mani haesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 군것질이 문제예요. 밤에 과자를 자주 먹어요.",
+      "reading": "Jeodo gungeotjiri munjeyeyo. Bame gwajareul jaju meogeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 남 씨는 과식도 자주 하지요? 어제도 과식했지요?",
+      "reading": "Geurigo Nam ssineun gwasikdo jaju hajiyo? Eojedo gwasikaetjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 친구들하고 먹으면 과식할 수밖에 없어요. 음식이 너무 맛있거든요.",
+      "reading": "Majayo. Chingudeulhago meogeumyeon gwasikal subakke eopseoyo. Eumsigi neomu masitgeodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하. 그럼 군것질부터 줄여 보세요.",
+      "reading": "Haha. Geureom gungeotjilbuteo juryeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 바지가 작아져서 줄일 수밖에 없어요.",
+      "reading": "Ne, bajiga jagajyeoseo juril subakke eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "우리 같이 노력해요!",
+      "reading": "Uri gachi noryeokaeyo!"
+    }
+  ]
+}

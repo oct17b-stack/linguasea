@@ -1,0 +1,97 @@
+{
+  "id": "ko-E5-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.eunsa",
+      "text": "은사",
+      "reading": "eunsa"
+    },
+    {
+      "id": "ko.dongchang",
+      "text": "동창",
+      "reading": "dongchang"
+    },
+    {
+      "id": "ko.joreopsik",
+      "text": "졸업식",
+      "reading": "joreopsik"
+    },
+    {
+      "id": "ko.hakchang-sijeol",
+      "kind": "phrase",
+      "text": "학창 시절",
+      "reading": "hakchang sijeol"
+    },
+    {
+      "id": "ko.damim-seonsaengnim",
+      "kind": "phrase",
+      "text": "담임 선생님",
+      "reading": "damim seonsaengnim"
+    },
+    {
+      "id": "ko.mogyo",
+      "text": "모교",
+      "reading": "mogyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준아, 주말에 뭐 했어?",
+      "reading": "Minjuna, jumare mwo haesseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "고등학교 동창들을 만났어. 같이 모교에도 갔다 왔어.",
+      "reading": "Godeunghakgyo dongchangdeureul mannasseo. Gachi mogyoedo gatda wasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 오랜만에 모교에 가니까 어땠어?",
+      "reading": "Wa, oraenmane mogyoe ganikka eottaesseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "우리가 공부하던 교실이 그대로 있어서 정말 신기했어.",
+      "reading": "Uriga gongbuhadeon gyosiri geudaero isseoseo jeongmal singihaesseo."
+    },
+    {
+      "speaker": "a",
+      "text": "담임 선생님도 만났어?",
+      "reading": "Damim seonsaengnimdo mannasseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "응, 삼 학년 때 담임 선생님을 만났어. 나한테는 은사 같은 분이야.",
+      "reading": "Eung, sam hangnyeon ttae damim seonsaengnimeul mannasseo. Nahanteneun eunsa gateun buniya."
+    },
+    {
+      "speaker": "a",
+      "text": "좋았겠다. 나도 학창 시절이 그리워.",
+      "reading": "Joatgetda. Nado hakchang sijeori geuriwo."
+    },
+    {
+      "speaker": "b",
+      "text": "너는 학창 시절에 어떤 학생이었어?",
+      "reading": "Neoneun hakchang sijeore eotteon haksaengieosseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "얌전한 학생이었어. 매일 친구들하고 가던 학교 앞 식당이 아직도 생각나.",
+      "reading": "Yamjeonhan haksaengieosseo. Maeil chingudeulhago gadeon hakgyo ap sikdangi ajikdo saenggangna."
+    },
+    {
+      "speaker": "b",
+      "text": "나도 그래. 그리고 졸업식 날 친구들하고 울던 기억이 나.",
+      "reading": "Nado geurae. Geurigo joreopsik nal chingudeulhago uldeon gieogi na."
+    },
+    {
+      "speaker": "a",
+      "text": "졸업식 때 울었어? 하하, 그때 너 귀여웠겠다.",
+      "reading": "Joreopsik ttae ureosseo? Haha, geuttae neo gwiyeowotgetda."
+    }
+  ]
+}

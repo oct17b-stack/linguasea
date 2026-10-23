@@ -1,0 +1,92 @@
+{
+  "id": "ko-D14-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.keoteu",
+      "text": "커트",
+      "reading": "keoteu"
+    },
+    {
+      "id": "ko.yeyakje",
+      "text": "예약제",
+      "reading": "yeyakje"
+    },
+    {
+      "id": "ko.haksaengjeung",
+      "text": "학생증",
+      "reading": "haksaengjeung"
+    },
+    {
+      "id": "ko.gibon",
+      "text": "기본",
+      "reading": "gibon"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "신촌 미용실 요금 안내",
+        "reading": "Sinchon miyongsil yogeum annae"
+      },
+      {
+        "text": "커트는 기본 만 오천 원이에요.",
+        "reading": "Keoteuneun gibon man ocheon wonieyo."
+      },
+      {
+        "text": "파마는 기본 오만 원부터예요.",
+        "reading": "Pamaneun gibon oman wonbuteoyeyo."
+      },
+      {
+        "text": "염색은 기본 육만 원부터예요.",
+        "reading": "Yeomsaegeun gibon yungman wonbuteoyeyo."
+      },
+      {
+        "text": "머리가 길면 요금이 추가돼요.",
+        "reading": "Meoriga gilmyeon yogeumi chugadwaeyo."
+      }
+    ],
+    [
+      {
+        "text": "저희 미용실은 예약제예요.",
+        "reading": "Jeohui miyongsireun yeyakjeyeyo."
+      },
+      {
+        "text": "전화나 앱으로 미리 예약해 주세요.",
+        "reading": "Jeonhwana aebeuro miri yeyakae juseyo."
+      },
+      {
+        "text": "예약 시간보다 십 분 이상 늦으시면 예약이 취소될 수 있어요.",
+        "reading": "Yeyak siganboda sip bun isang neujeusimyeon yeyagi chwisodoel su isseoyo."
+      },
+      {
+        "text": "학생증을 보여 주시면 커트 요금을 삼천 원 할인해 드려요.",
+        "reading": "Haksaengjeungeul boyeo jusimyeon keoteu yogeumeul samcheon won harinhae deuryeoyo."
+      }
+    ],
+    [
+      {
+        "text": "영업시간은 오전 열 시부터 오후 여덟 시까지예요.",
+        "reading": "Yeongeopsiganeun ojeon yeol sibuteo ohu yeodeol sikkajiyeyo."
+      },
+      {
+        "text": "매주 화요일은 쉬어요.",
+        "reading": "Maeju hwayoireun swieoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

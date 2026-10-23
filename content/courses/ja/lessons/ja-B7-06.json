@@ -1,0 +1,65 @@
+{
+  "id": "ja-B7-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.pinku",
+      "text": "ピンク",
+      "reading": "pinku"
+    },
+    {
+      "id": "ja.orenji",
+      "text": "オレンジ",
+      "reading": "orenji"
+    },
+    {
+      "id": "ja.guree",
+      "text": "グレー",
+      "reading": "gurē"
+    },
+    {
+      "id": "ja.beeju",
+      "text": "ベージュ",
+      "reading": "bēju"
+    },
+    {
+      "id": "ja.shinpuru",
+      "text": "シンプル",
+      "reading": "shinpuru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、この ピンクの シャツは どうですか。",
+      "reading": "Namu-san, kono pinku no shatsu wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ピンクは ちょっと…。わたしは シンプルな ふくが すきです。",
+      "reading": "Pinku wa chotto… Watashi wa shinpuru na fuku ga suki desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、この グレーの セーターは？",
+      "reading": "Jā, kono gurē no sētā wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。ベージュの ズボンも かいます。",
+      "reading": "Ii desu ne. Bēju no zubon mo kaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは オレンジの スカートを かいます。",
+      "reading": "Watashi wa orenji no sukāto o kaimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "あかるい いろですね。よく にあいますよ。",
+      "reading": "Akarui iro desu ne. Yoku niaimasu yo."
+    }
+  ]
+}

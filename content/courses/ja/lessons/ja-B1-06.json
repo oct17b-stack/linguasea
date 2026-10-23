@@ -1,0 +1,70 @@
+{
+  "id": "ja-B1-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.toukyou",
+      "text": "とうきょう",
+      "reading": "Tōkyō"
+    },
+    {
+      "id": "ja.kyouto",
+      "text": "きょうと",
+      "reading": "Kyōto"
+    },
+    {
+      "id": "ja.oosaka",
+      "text": "おおさか",
+      "reading": "Ōsaka"
+    },
+    {
+      "id": "ja.hokkaidou",
+      "text": "ほっかいどう",
+      "reading": "Hokkaidō"
+    },
+    {
+      "id": "ja.chuugoku",
+      "text": "ちゅうごく",
+      "reading": "Chūgoku"
+    },
+    {
+      "id": "ja.kankoku",
+      "text": "かんこく",
+      "reading": "Kankoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ほっかいどうは さむいですか。",
+      "reading": "Yuki-san, Hokkaidō wa samui desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ふゆは とても さむいです。ゆきが たくさん ふります。",
+      "reading": "Hai, fuyu wa totemo samui desu. Yuki ga takusan furimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "とうきょうと おおさかも さむいですか。",
+      "reading": "Tōkyō to Ōsaka mo samui desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、さむいです。でも、ゆきは すこしです。",
+      "reading": "Hai, samui desu. Demo, yuki wa sukoshi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "かんこくと ちゅうごくは？",
+      "reading": "Kankoku to Chūgoku wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ふゆは さむいですよ。タイは あついですね。",
+      "reading": "Fuyu wa samui desu yo. Tai wa atsui desu ne."
+    }
+  ]
+}

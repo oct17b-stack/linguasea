@@ -1,0 +1,57 @@
+{
+  "id": "en-A8-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.whats-this",
+      "kind": "phrase",
+      "text": "What's this?",
+      "reading": "ˈwʌts ˈðɪs?"
+    },
+    {
+      "id": "en.its-a",
+      "kind": "phrase",
+      "text": "It's a …",
+      "reading": "ɪts ə …"
+    },
+    {
+      "id": "en.phone",
+      "text": "phone",
+      "reading": "foʊn"
+    },
+    {
+      "id": "en.watch",
+      "text": "watch",
+      "reading": "wɑːtʃ"
+    },
+    {
+      "id": "en.umbrella",
+      "text": "umbrella",
+      "reading": "ʌmˈbrɛlə"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what's this in English?",
+      "reading": "ˈɛmə, ˈwʌts ˈðɪs ɪn ˈɪŋɡlɪʃ?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's an umbrella.",
+      "reading": "ɪts ən ʌmˈbrɛlə."
+    },
+    {
+      "speaker": "a",
+      "text": "An umbrella. And this?",
+      "reading": "ən ʌmˈbrɛlə. ənd ˈðɪs?"
+    },
+    {
+      "speaker": "c",
+      "text": "It's a watch… and a phone, too!",
+      "reading": "ɪts ə ˈwɑːtʃ… ənd ə ˈfoʊn, ˈtuː!"
+    }
+  ]
+}

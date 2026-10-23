@@ -1,0 +1,60 @@
+{
+  "id": "ja-B10-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kafe",
+      "text": "カフェ",
+      "reading": "kafe"
+    },
+    {
+      "id": "ja.menyuu",
+      "text": "メニュー",
+      "reading": "menyū"
+    },
+    {
+      "id": "ja.kauntaa",
+      "text": "カウンター",
+      "reading": "kauntā"
+    },
+    {
+      "id": "ja.nanmeisama",
+      "text": "なんめいさま",
+      "reading": "nanmeisama"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、この カフェは ケーキが おいしいですよ。",
+      "reading": "Namu-san, kono kafe wa kēki ga oishii desu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。なんめいさまですか。",
+      "reading": "Irasshaimase. Nanmeisama desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ふたりです。",
+      "reading": "Futari desu."
+    },
+    {
+      "speaker": "b",
+      "text": "カウンターで いいですか。",
+      "reading": "Kauntā de ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、だいじょうぶです。すみません、メニューを ください。",
+      "reading": "Hai, daijōbu desu. Sumimasen, menyū o kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    }
+  ]
+}

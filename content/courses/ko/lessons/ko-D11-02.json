@@ -1,0 +1,85 @@
+{
+  "id": "ko-D11-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.meogi",
+      "text": "먹이",
+      "reading": "meogi"
+    },
+    {
+      "id": "ko.saryo",
+      "text": "사료",
+      "reading": "saryo"
+    },
+    {
+      "id": "ko.sanchaeksikida",
+      "text": "산책시키다",
+      "reading": "sanchaeksikida"
+    },
+    {
+      "id": "ko.deryeogada",
+      "text": "데려가다",
+      "reading": "deryeogada"
+    },
+    {
+      "id": "ko.mogyoksikida",
+      "text": "목욕시키다",
+      "reading": "mogyoksikida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 이번 주말에 우리 강아지 좀 봐 줄 수 있어요? 가족 여행을 가는데 강아지를 데려갈 수 없어요.",
+      "reading": "Nam ssi, ibeon jumare uri gangaji jom bwa jul su isseoyo? Gajok yeohaengeul ganeunde gangajireul deryeogal su eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요. 제가 뭘 하면 돼요?",
+      "reading": "Ne, joayo. Jega mwol hamyeon dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아침하고 저녁에 먹이를 주세요. 사료는 제가 가져갈게요.",
+      "reading": "Achimhago jeonyeoge meogireul juseyo. Saryoneun jega gajyeogalgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한 번에 얼마나 줘요?",
+      "reading": "Han beone eolmana jwoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "한 컵씩 주면 돼요. 그리고 저녁에는 꼭 산책시켜 주세요.",
+      "reading": "Han keopssik jumyeon dwaeyo. Geurigo jeonyeogeneun kkok sanchaeksikyeo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어디로 데려가면 돼요?",
+      "reading": "Eodiro deryeogamyeon dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "집 앞 공원에 데려가면 돼요. 물도 가져가세요.",
+      "reading": "Jip ap gongwone deryeogamyeon dwaeyo. Muldo gajyeogaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "목욕시켜야 돼요?",
+      "reading": "Mogyoksikyeoya dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 목욕은 어제 시켰어요. 일요일 저녁에 제가 데리러 올게요.",
+      "reading": "Aniyo, mogyogeun eoje sikyeosseoyo. Iryoil jeonyeoge jega derireo olgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 걱정하지 마세요. 잘 데리고 있을게요.",
+      "reading": "Ne, geokjeonghaji maseyo. Jal derigo isseulgeyo."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D14-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.suseon-hada",
+      "text": "수선하다",
+      "reading": "suseonhada"
+    },
+    {
+      "id": "ko.giri",
+      "text": "길이",
+      "reading": "giri"
+    },
+    {
+      "id": "ko.jipeo",
+      "text": "지퍼",
+      "reading": "jipeo"
+    },
+    {
+      "id": "ko.gudu",
+      "text": "구두",
+      "reading": "gudu"
+    },
+    {
+      "id": "ko.gup",
+      "text": "굽",
+      "reading": "gup"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이 바지 길이가 너무 길어요. 어디에서 수선할 수 있어요?",
+      "reading": "Minjun ssi, i baji giriga neomu gireoyo. Eodieseo suseonhal su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "세탁소에서 할 수 있을걸요. 우리 동네 세탁소에서도 수선해요.",
+      "reading": "Setaksoeseo hal su isseulgeoryo. Uri dongne setaksoeseodo suseonhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘 맡기면 언제 찾을 수 있어요?",
+      "reading": "Oneul matgimyeon eonje chajeul su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "길이만 줄이면 내일 될걸요. 어렵지 않으니까요.",
+      "reading": "Giriman jurimyeon naeil doelgeoryo. Eoryeopji aneunikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 이 가방 지퍼도 고장 났어요.",
+      "reading": "Geurigo i gabang jipeodo gojang nasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지퍼는 조금 더 오래 걸릴걸요. 새 지퍼로 바꿔야 하거든요.",
+      "reading": "Jipeoneun jogeum deo orae geollilgeoryo. Sae jipeoro bakkwoya hageodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그리고 제 구두도요. 굽 하나가 떨어졌어요.",
+      "reading": "A, geurigo je gududoyo. Gup hanaga tteoreojyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "구두는 세탁소에서 안 할걸요. 구두 수선 가게에 가야 돼요.",
+      "reading": "Guduneun setaksoeseo an halgeoryo. Gudu suseon gagee gaya dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런 가게가 어디에 있어요?",
+      "reading": "Geureon gagega eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지하철역 안에 있을걸요. 같이 가 봐요.",
+      "reading": "Jihacheollyeok ane isseulgeoryo. Gachi ga bwayo."
+    }
+  ]
+}

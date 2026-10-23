@@ -1,0 +1,56 @@
+{
+  "id": "en-A8-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.my",
+      "text": "my",
+      "reading": "maɪ"
+    },
+    {
+      "id": "en.your",
+      "text": "your",
+      "reading": "jʊr"
+    },
+    {
+      "id": "en.is-this-your",
+      "kind": "phrase",
+      "text": "Is this your …?",
+      "reading": "ɪz ˈðɪs jʊr …?"
+    },
+    {
+      "id": "en.money",
+      "text": "money",
+      "reading": "ˈmʌni"
+    },
+    {
+      "id": "en.hat",
+      "text": "hat",
+      "reading": "hæt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, is this your hat?",
+      "reading": "ˈɛmə, ɪz ðɪs jʊr ˈhæt?"
+    },
+    {
+      "speaker": "c",
+      "text": "No. My hat is white.",
+      "reading": "ˈnoʊ. maɪ ˈhæt ɪz ˈwaɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. And is this your money?",
+      "reading": "oʊˈkeɪ. ənd ɪz ðɪs jʊr ˈmʌni?"
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, yes! Thank you, Nam!",
+      "reading": "ˈoʊ, ˈjɛs! ˈθæŋk juː, ˈnɑːm!"
+    }
+  ]
+}

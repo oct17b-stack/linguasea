@@ -1,0 +1,56 @@
+{
+  "id": "en-A8-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.that",
+      "text": "that",
+      "reading": "ðæt"
+    },
+    {
+      "id": "en.these",
+      "text": "these",
+      "reading": "ðiːz"
+    },
+    {
+      "id": "en.those",
+      "text": "those",
+      "reading": "ðoʊz"
+    },
+    {
+      "id": "en.what-are-these",
+      "kind": "phrase",
+      "text": "What are these?",
+      "reading": "ˈwʌt ər ˈðiːz?"
+    },
+    {
+      "id": "en.socks",
+      "text": "socks",
+      "reading": "sɑːks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what are these?",
+      "reading": "ˈɛmə, ˈwʌt ər ˈðiːz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Socks! They're for my dad.",
+      "reading": "ˈsɑːks! ðɛr fər maɪ ˈdæd."
+    },
+    {
+      "speaker": "a",
+      "text": "And those?",
+      "reading": "ənd ˈðoʊz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Those are for my brother.",
+      "reading": "ˈðoʊz ər fər maɪ ˈbrʌðər."
+    }
+  ]
+}

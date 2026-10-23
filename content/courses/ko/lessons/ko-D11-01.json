@@ -1,0 +1,85 @@
+{
+  "id": "ko-D11-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.ballyeodongmul",
+      "text": "반려동물",
+      "reading": "ballyeodongmul"
+    },
+    {
+      "id": "ko.gangaji",
+      "text": "강아지",
+      "reading": "gangaji"
+    },
+    {
+      "id": "ko.goyangi",
+      "text": "고양이",
+      "reading": "goyangi"
+    },
+    {
+      "id": "ko.kiuda",
+      "text": "키우다",
+      "reading": "kiuda"
+    },
+    {
+      "id": "ko.saekki",
+      "text": "새끼",
+      "reading": "saekki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 반려동물을 키워 본 적이 있어요?",
+      "reading": "Nam ssi, ballyeodongmureul kiwo bon jeogi isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 방콕 집에 강아지가 있어요. 지금은 동생이 키우고 있어요.",
+      "reading": "Ne, Bangkok jibe gangajiga isseoyo. Jigeumeun dongsaengi kiugo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "사진 있어요? 보고 싶어요!",
+      "reading": "Sajin isseoyo? Bogo sipeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "여기요. 아직 새끼라서 정말 작아요.",
+      "reading": "Yeogiyo. Ajik saekkiraseo jeongmal jagayo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 귀여워요! 저도 고양이를 키우고 싶은데 아직 학생이라서 키울 시간이 없어요.",
+      "reading": "Wa, gwiyeowoyo! Jeodo goyangireul kiugo sipeunde ajik haksaengiraseo kiul sigani eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 그럼 고양이 카페에 가 보는 게 어때요?",
+      "reading": "A, geuraeyo? Geureom goyangi kapee ga boneun ge eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요! 이번 주말이 연휴라서 시간이 있어요.",
+      "reading": "Joayo! Ibeon jumari yeonhyuraseo sigani isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 이번 주말에는 아르바이트가 없어요.",
+      "reading": "Jeodo ibeon jumareneun areubaiteuga eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 토요일 오후에 같이 가요.",
+      "reading": "Geureom toyoil ohue gachi gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 고양이들이 우리를 좋아하면 좋겠어요.",
+      "reading": "Joayo. Goyangideuri urireul joahamyeon jokesseoyo."
+    }
+  ]
+}

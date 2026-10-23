@@ -1,0 +1,87 @@
+{
+  "id": "ko-D12-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.jeomgeom",
+      "text": "점검",
+      "reading": "jeomgeom"
+    },
+    {
+      "id": "ko.gaeseon-hada",
+      "text": "개선하다",
+      "reading": "gaeseonhada"
+    },
+    {
+      "id": "ko.subun",
+      "text": "수분",
+      "reading": "subun"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘 남 씨는 학교 보건소에서 생활 습관 점검을 받았어요.",
+        "reading": "Oneul Nam ssineun hakgyo bogeonsoeseo saenghwal seupgwan jeomgeomeul badasseoyo."
+      },
+      {
+        "text": "선생님이 질문하고 남 씨가 대답했어요.",
+        "reading": "Seonsaengnimi jilmunhago Nam ssiga daedapaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "선생님: 하루에 물을 얼마나 마셔요?",
+        "reading": "Seonsaengnim: Harue mureul eolmana masyeoyo?"
+      },
+      {
+        "text": "남: 커피는 많이 마시는데 물은 두 잔쯤 마셔요.",
+        "reading": "Nam: Keopineun mani masineunde mureun du janjjeum masyeoyo."
+      },
+      {
+        "text": "선생님: 물을 많이 마시면 몸에 수분이 충분해서 덜 피곤해요.",
+        "reading": "Seonsaengnim: Mureul mani masimyeon mome subuni chungbunhaeseo deol pigonhaeyo."
+      },
+      {
+        "text": "선생님: 잠은 보통 몇 시간 자요?",
+        "reading": "Seonsaengnim: Jameun botong myeot sigan jayo?"
+      },
+      {
+        "text": "남: 다섯 시간쯤 자고 시험 기간에는 더 적게 자요.",
+        "reading": "Nam: Daseot siganjjeum jago siheom giganeneun deo jeokge jayo."
+      },
+      {
+        "text": "선생님: 그럼 수면 습관을 개선할 필요가 있어요.",
+        "reading": "Seonsaengnim: Geureom sumyeon seupgwaneul gaeseonhal piryoga isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "점검이 끝난 후에 남 씨는 목표를 세웠어요.",
+        "reading": "Jeomgeomi kkeunnan hue Nam ssineun mokpyoreul sewosseoyo."
+      },
+      {
+        "text": "하루에 물을 여덟 잔 마시고 일곱 시간 이상 자기로 했어요.",
+        "reading": "Harue mureul yeodeol jan masigo ilgop sigan isang jagiro haesseoyo."
+      },
+      {
+        "text": "한 달 후에 다시 점검을 받을 거예요.",
+        "reading": "Han dal hue dasi jeomgeomeul badeul geoyeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-B7-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tenin",
+      "text": "てんいん",
+      "reading": "ten'in"
+    },
+    {
+      "id": "ja.erabimasu",
+      "text": "えらびます",
+      "reading": "erabimasu"
+    },
+    {
+      "id": "ja.karui",
+      "text": "かるい",
+      "reading": "karui"
+    },
+    {
+      "id": "ja.omoi",
+      "text": "おもい",
+      "reading": "omoi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさんは こんど ほっかいどうへ いきます。",
+        "reading": "Namu-san wa kondo Hokkaidō e ikimasu."
+      },
+      {
+        "text": "きょうは みせで てんいんと コートを えらびます。",
+        "reading": "Kyō wa mise de ten'in to kōto o erabimasu."
+      }
+    ],
+    [
+      {
+        "text": "くろい コートは かるいです。",
+        "reading": "Kuroi kōto wa karui desu."
+      },
+      {
+        "text": "あかい コートは きれいです。",
+        "reading": "Akai kōto wa kirei desu."
+      },
+      {
+        "text": "でも、とても おもいです。",
+        "reading": "Demo, totemo omoi desu."
+      },
+      {
+        "text": "ナムさんは Lの かるい コートを えらびます。",
+        "reading": "Namu-san wa eru no karui kōto o erabimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

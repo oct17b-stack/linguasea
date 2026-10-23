@@ -1,0 +1,70 @@
+{
+  "id": "ja-B5-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kitaguchi",
+      "text": "北口",
+      "reading": "kitaguchi"
+    },
+    {
+      "id": "ja.deguchi",
+      "text": "出口",
+      "reading": "deguchi"
+    },
+    {
+      "id": "ja.magarimasu",
+      "text": "まがります",
+      "reading": "magarimasu"
+    },
+    {
+      "id": "ja.kado",
+      "text": "かど",
+      "reading": "kado"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさん、どようびは わたしの いえへ どうぞ！",
+        "reading": "Namu-san, doyōbi wa watashi no ie e dōzo!"
+      },
+      {
+        "text": "なかの駅で でんしゃを おります。",
+        "reading": "Nakano-eki de densha o orimasu."
+      }
+    ],
+    [
+      {
+        "text": "出口は 北口です。",
+        "reading": "Deguchi wa kitaguchi desu."
+      },
+      {
+        "text": "北口から まっすぐです。",
+        "reading": "Kitaguchi kara massugu desu."
+      },
+      {
+        "text": "ぎんこうの かどを みぎに まがります。",
+        "reading": "Ginkō no kado o migi ni magarimasu."
+      },
+      {
+        "text": "わたしの いえは コンビニの となりです。",
+        "reading": "Watashi no ie wa konbini no tonari desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

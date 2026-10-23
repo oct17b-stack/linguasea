@@ -1,0 +1,60 @@
+{
+  "id": "ja-B3-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.tsuitachi",
+      "text": "ついたち",
+      "reading": "tsuitachi"
+    },
+    {
+      "id": "ja.futsuka",
+      "text": "ふつか",
+      "reading": "futsuka"
+    },
+    {
+      "id": "ja.mikka",
+      "text": "みっか",
+      "reading": "mikka"
+    },
+    {
+      "id": "ja.tooka",
+      "text": "とおか",
+      "reading": "tōka"
+    },
+    {
+      "id": "ja.hatsuka",
+      "text": "はつか",
+      "reading": "hatsuka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、7月1日に ふじさんに のぼります。ナムさんも のぼりますか。",
+      "reading": "Namu-san, shichigatsu tsuitachi ni Fujisan ni noborimasu. Namu-san mo noborimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ついたちですか。すみません、1日から 3日まで テストです。",
+      "reading": "Tsuitachi desu ka. Sumimasen, tsuitachi kara mikka made tesuto desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、20日は どうですか。",
+      "reading": "Jā, hatsuka wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はつかですか。だいじょうぶです！",
+      "reading": "Hatsuka desu ka. Daijōbu desu!"
+    },
+    {
+      "speaker": "c",
+      "text": "よかった！じゃあ、7月20日ですね。",
+      "reading": "Yokatta! Jā, shichigatsu hatsuka desu ne."
+    }
+  ]
+}

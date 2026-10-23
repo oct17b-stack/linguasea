@@ -1,0 +1,60 @@
+{
+  "id": "en-A4-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.age",
+      "text": "age",
+      "reading": "eɪdʒ"
+    },
+    {
+      "id": "en.baby",
+      "text": "baby",
+      "reading": "ˈbeɪbi"
+    },
+    {
+      "id": "en.child",
+      "text": "child",
+      "reading": "tʃaɪld"
+    },
+    {
+      "id": "en.children",
+      "text": "children",
+      "reading": "ˈtʃɪldrən"
+    },
+    {
+      "id": "en.adult",
+      "text": "adult",
+      "reading": "əˈdʌlt"
+    },
+    {
+      "id": "en.young",
+      "text": "young",
+      "reading": "jʌŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! How many adults and children?",
+      "reading": "ˈhaɪ! ˈhaʊ ˈmɛni əˈdʌlts ənd ˈtʃɪldrən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Two adults and two children, please.",
+      "reading": "ˈtuː əˈdʌlts ənd ˈtuː ˈtʃɪldrən, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "How old are the children?",
+      "reading": "ˈhaʊ ˈoʊld ər ðə ˈtʃɪldrən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Ten and seven. Oh, and a baby!",
+      "reading": "ˈtɛn ənd ˈsɛvən. ˈoʊ, ənd ə ˈbeɪbi!"
+    }
+  ]
+}

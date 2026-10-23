@@ -1,0 +1,94 @@
+{
+  "id": "ko-D16-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.hyeonjae",
+      "text": "현재",
+      "reading": "hyeonjae"
+    },
+    {
+      "id": "ko.damdang-hada",
+      "text": "담당하다",
+      "reading": "damdanghada"
+    },
+    {
+      "id": "ko.gyeongheomeul-ssata",
+      "kind": "phrase",
+      "text": "경험을 쌓다",
+      "reading": "gyeongheomeul ssata"
+    },
+    {
+      "id": "ko.oegukgye-hoesa",
+      "kind": "phrase",
+      "text": "외국계 회사",
+      "reading": "oegukgye hoesa"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "솜차이 씨는 서울에서 일하는 태국 통역사예요.",
+        "reading": "Somchai ssineun Seoureseo ilhaneun Taeguk tongyeoksayeyo."
+      },
+      {
+        "text": "고향은 치앙마이예요.",
+        "reading": "Gohyangeun Chiangmaiyeyo."
+      },
+      {
+        "text": "대학교에서 한국어를 전공했어요.",
+        "reading": "Daehakgyoeseo hangugeoreul jeongonghaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "졸업한 후에 방콕에 있는 외국계 회사에서 삼 년 동안 일했어요.",
+        "reading": "Joreopan hue Bangkoge inneun oegukgye hoesaeseo sam nyeon dongan ilhaesseoyo."
+      },
+      {
+        "text": "그 회사에서 한국 손님들의 통역을 담당했어요.",
+        "reading": "Geu hoesaeseo Hanguk sonnimdeurui tongyeogeul damdanghaesseoyo."
+      },
+      {
+        "text": "거기에서 경험을 쌓은 후에 한국에 왔어요.",
+        "reading": "Geogieseo gyeongheomeul ssaeun hue Hanguge wasseoyo."
+      },
+      {
+        "text": "현재는 서울에 있는 병원에서 태국 환자들을 위해 통역을 하고 있어요.",
+        "reading": "Hyeonjaeneun Seoure inneun byeongwoneseo Taeguk hwanjadeureul wihae tongyeogeul hago isseoyo."
+      },
+      {
+        "text": "의사 선생님의 말을 환자에게 잘 전하는 게 제일 중요해요.",
+        "reading": "Uisa seonsaengnimui mareul hwanjaege jal jeonhaneun ge jeil jungyohaeyo."
+      }
+    ],
+    [
+      {
+        "text": "일이 힘들 때도 있지만 보람이 있어요.",
+        "reading": "Iri himdeul ttaedo itjiman borami isseoyo."
+      },
+      {
+        "text": "솜차이 씨는 언젠가 통역사가 되고 싶은 태국 학생들을 가르치고 싶어 해요.",
+        "reading": "Somchai ssineun eonjenga tongyeoksaga doego sipeun Taeguk haksaengdeureul gareuchigo sipeo haeyo."
+      },
+      {
+        "text": "솜차이 씨는 자기 일을 정말 사랑해요.",
+        "reading": "Somchai ssineun jagi ireul jeongmal saranghaeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

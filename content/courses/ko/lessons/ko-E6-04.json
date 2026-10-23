@@ -1,0 +1,93 @@
+{
+  "id": "ko-E6-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.mise-meonji",
+      "kind": "phrase",
+      "text": "미세 먼지",
+      "reading": "mise meonji"
+    },
+    {
+      "id": "ko.maseukeu",
+      "text": "마스크",
+      "reading": "maseukeu"
+    },
+    {
+      "id": "ko.maeyeon",
+      "text": "매연",
+      "reading": "maeyeon"
+    },
+    {
+      "id": "ko.daegi-oyeom",
+      "kind": "phrase",
+      "text": "대기 오염",
+      "reading": "daegi oyeom"
+    },
+    {
+      "id": "ko.sumeul-swida",
+      "kind": "phrase",
+      "text": "숨을 쉬다",
+      "reading": "sumeul swida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 오늘 미세 먼지가 정말 많아. 밖에 나갈 때 마스크 써.",
+      "reading": "Nama, oneul mise meonjiga jeongmal mana. Bakke nagal ttae maseukeu sseo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 하늘이 회색이구나.",
+      "reading": "Geuraeseo haneuri hoesaegiguna."
+    },
+    {
+      "speaker": "b",
+      "text": "응. 오늘 같은 날은 숨을 쉬는 것도 힘들어.",
+      "reading": "Eung. Oneul gateun nareun sumeul swineun geotdo himdeureo."
+    },
+    {
+      "speaker": "a",
+      "text": "밖에서 일하는 사람들은 정말 힘들 텐데.",
+      "reading": "Bakkeseo ilhaneun saramdeureun jeongmal himdeul tende."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아. 배달하는 사람들은 하루 종일 밖에 있을 텐데 걱정이야.",
+      "reading": "Maja. Baedalhaneun saramdeureun haru jongil bakke isseul tende geokjeongiya."
+    },
+    {
+      "speaker": "a",
+      "text": "미세 먼지는 왜 이렇게 많이 생겨?",
+      "reading": "Mise meonjineun wae ireoke mani saenggyeo?"
+    },
+    {
+      "speaker": "b",
+      "text": "자동차 매연 때문에 많이 생긴다고 해. 다른 나라에서 날아오는 것도 있고.",
+      "reading": "Jadongcha maeyeon ttaemune mani saenggindago hae. Dareun naraeseo naraoneun geotdo itgo."
+    },
+    {
+      "speaker": "a",
+      "text": "방콕도 대기 오염 때문에 문제야. 특히 건기에는 미세 먼지가 많아.",
+      "reading": "Bangkokdo daegi oyeom ttaemune munjeya. Teuki geongieneun mise meonjiga mana."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 너희 가족도 걱정되겠다.",
+      "reading": "Geureom neohui gajokdo geokjeongdoegetda."
+    },
+    {
+      "speaker": "a",
+      "text": "응. 부모님이 매일 학교에 출근하실 텐데, 마스크를 꼭 쓰시라고 해야겠어.",
+      "reading": "Eung. Bumonimi maeil hakgyoe chulgeunhasil tende, maseukeureul kkok sseusirago haeyagesseo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 생각이야. 지금 바로 메시지 보내.",
+      "reading": "Joeun saenggagiya. Jigeum baro mesiji bonae."
+    }
+  ]
+}

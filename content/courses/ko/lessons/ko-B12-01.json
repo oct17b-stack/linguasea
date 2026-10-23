@@ -1,0 +1,60 @@
+{
+  "id": "ko-B12-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.sundae",
+      "text": "순대",
+      "reading": "sundae"
+    },
+    {
+      "id": "ko.eomuk",
+      "text": "어묵",
+      "reading": "eomuk"
+    },
+    {
+      "id": "ko.hotteok",
+      "text": "호떡",
+      "reading": "hotteok"
+    },
+    {
+      "id": "ko.bungeoppang",
+      "text": "붕어빵",
+      "reading": "bungeoppang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "이모, 어묵 하나 얼마예요?",
+      "reading": "Imo, eomuk hana eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "천 원이에요. 맛있어요!",
+      "reading": "Cheon wonieyo. Masisseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "어묵 두 개 주세요. 호떡도 있어요?",
+      "reading": "Eomuk du gae juseyo. Hotteokdo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 호떡하고 붕어빵 있어요. 순대는 없어요.",
+      "reading": "Ne, hotteokhago bungeoppang isseoyo. Sundaeneun eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "호떡 하나하고 붕어빵 세 개 주세요.",
+      "reading": "Hotteok hanahago bungeoppang se gae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 모두 오천 원이에요.",
+      "reading": "Ne, modu ocheon wonieyo."
+    }
+  ]
+}

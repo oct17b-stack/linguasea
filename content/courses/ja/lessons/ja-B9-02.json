@@ -1,0 +1,60 @@
+{
+  "id": "ja-B9-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.atatamemasu",
+      "text": "あたためます",
+      "reading": "atatamemasu"
+    },
+    {
+      "id": "ja.ohashi",
+      "text": "おはし",
+      "reading": "ohashi"
+    },
+    {
+      "id": "ja.irimasu",
+      "text": "いります",
+      "reading": "irimasu"
+    },
+    {
+      "id": "ja.supuun",
+      "text": "スプーン",
+      "reading": "supūn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "おべんとうは あたためますか。",
+      "reading": "Obentō wa atatamemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。",
+      "reading": "Hai, onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おはしは いりますか。",
+      "reading": "Ohashi wa irimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、いりません。スプーンを おねがいします。",
+      "reading": "Iie, irimasen. Supūn o onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。アイスの スプーンも いりますか。",
+      "reading": "Hai. Aisu no supūn mo irimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。",
+      "reading": "Hai, onegaishimasu."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "en-A10-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.laos",
+      "text": "Laos",
+      "reading": "laʊs"
+    },
+    {
+      "id": "en.cambodia",
+      "text": "Cambodia",
+      "reading": "kæmˈboʊdiə"
+    },
+    {
+      "id": "en.myanmar",
+      "text": "Myanmar",
+      "reading": "ˈmjɑːnmɑːr"
+    },
+    {
+      "id": "en.malaysia",
+      "text": "Malaysia",
+      "reading": "məˈleɪʒə"
+    },
+    {
+      "id": "en.singapore",
+      "text": "Singapore",
+      "reading": "ˈsɪŋəpɔːr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi! Where are you from?",
+      "reading": "ˈhaɪ! ˈwɛr ər juː ˈfrʌm?"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm from Myanmar.",
+      "reading": "aɪm frəm ˈmjɑːnmɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "And your friends?",
+      "reading": "ənd jʊr ˈfrɛndz?"
+    },
+    {
+      "speaker": "b",
+      "text": "They're from Laos and Cambodia.",
+      "reading": "ðɛr frəm ˈlaʊs ənd kæmˈboʊdiə."
+    }
+  ]
+}

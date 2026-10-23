@@ -1,0 +1,52 @@
+{
+  "id": "en-A3-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.where-do-you-live",
+      "kind": "phrase",
+      "text": "Where do you live?",
+      "reading": "ˈwɛr duː juː ˈlɪv?"
+    },
+    {
+      "id": "en.i-live-in",
+      "kind": "phrase",
+      "text": "I live in …",
+      "reading": "aɪ ˈlɪv ɪn …"
+    },
+    {
+      "id": "en.city",
+      "text": "city",
+      "reading": "ˈsɪti"
+    },
+    {
+      "id": "en.bangkok",
+      "text": "Bangkok",
+      "reading": "ˈbæŋkɑːk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, where do you live?",
+      "reading": "ˈnɑːm, ˈwɛr duː juː ˈlɪv?"
+    },
+    {
+      "speaker": "a",
+      "text": "I live in Bangkok. And you?",
+      "reading": "aɪ ˈlɪv ɪn ˈbæŋkɑːk. ənd ˈjuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "Toronto. It's a city in Canada.",
+      "reading": "təˈrɑːntoʊ. ɪts ə ˈsɪti ɪn ˈkænədə."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! My friend Emma is from Canada!",
+      "reading": "ˈoʊ! maɪ ˈfrɛnd ˈɛmə ɪz frəm ˈkænədə!"
+    }
+  ]
+}

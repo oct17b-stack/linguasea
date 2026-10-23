@@ -1,0 +1,71 @@
+{
+  "id": "ko-B12-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ribyu",
+      "text": "리뷰",
+      "reading": "ribyu"
+    },
+    {
+      "id": "ko.basakaeyo",
+      "text": "바삭해요",
+      "reading": "basakaeyo"
+    },
+    {
+      "id": "ko.pujimhaeyo",
+      "text": "푸짐해요",
+      "reading": "pujimhaeyo"
+    },
+    {
+      "id": "ko.byeolloyeyo",
+      "kind": "phrase",
+      "text": "별로예요",
+      "reading": "byeolloyeyo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "치킨이 정말 바삭해요.",
+        "reading": "Chikini jeongmal basakaeyo."
+      },
+      {
+        "text": "그리고 아주 푸짐해요!",
+        "reading": "Geurigo aju pujimhaeyo!"
+      }
+    ],
+    [
+      {
+        "text": "짬뽕이 너무 매워요.",
+        "reading": "Jjamppongi neomu maewoyo."
+      },
+      {
+        "text": "저는 별로예요.",
+        "reading": "Jeoneun byeolloyeyo."
+      },
+      {
+        "text": "그래도 배달원 아저씨, 감사합니다!",
+        "reading": "Geuraedo baedarwon ajeossi, gamsahamnida!"
+      },
+      {
+        "text": "배달이 정말 빨리 와요.",
+        "reading": "Baedari jeongmal ppalli wayo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

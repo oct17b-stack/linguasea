@@ -1,0 +1,53 @@
+{
+  "id": "ko-A11-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.namja-chingu",
+      "kind": "phrase",
+      "text": "남자 친구",
+      "reading": "namja chingu"
+    },
+    {
+      "id": "ko.yeoja-chingu",
+      "kind": "phrase",
+      "text": "여자 친구",
+      "reading": "yeoja chingu"
+    },
+    {
+      "id": "ko.ban-chingu",
+      "kind": "phrase",
+      "text": "반 친구",
+      "reading": "ban chingu"
+    },
+    {
+      "id": "ko.chinhaeyo",
+      "text": "친해요",
+      "reading": "chinhaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이게 누구예요? 여자 친구예요?",
+      "reading": "Minjun ssi, ige nuguyeyo? Yeoja chinguyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 여자 친구가 아니에요. 반 친구예요.",
+      "reading": "Aniyo, yeoja chinguga anieyo. Ban chinguyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 친해요?",
+      "reading": "A, chinhaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 친해요. 그 사람 남자 친구도 제 친구예요.",
+      "reading": "Ne, chinhaeyo. Geu saram namja chingudo je chinguyeyo."
+    }
+  ]
+}

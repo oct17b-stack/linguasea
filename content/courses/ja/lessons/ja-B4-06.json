@@ -1,0 +1,65 @@
+{
+  "id": "ja-B4-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kaado",
+      "text": "カード",
+      "reading": "kādo"
+    },
+    {
+      "id": "ja.haraimasu",
+      "text": "はらいます",
+      "reading": "haraimasu"
+    },
+    {
+      "id": "ja.osatsu",
+      "text": "おさつ",
+      "reading": "osatsu"
+    },
+    {
+      "id": "ja.kozeni",
+      "text": "こぜに",
+      "reading": "kozeni"
+    },
+    {
+      "id": "ja.otsuri",
+      "text": "おつり",
+      "reading": "otsuri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "800円です。",
+      "reading": "Happyaku en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "カードで はらいます。いいですか。",
+      "reading": "Kādo de haraimasu. Ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "すみません、カードは ちょっと…。",
+      "reading": "Sumimasen, kādo wa chotto…"
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。こぜにが ありません。おさつで いいですか。",
+      "reading": "Sō desu ka. Kozeni ga arimasen. Osatsu de ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、だいじょうぶです。9,200円の おつりです。",
+      "reading": "Hai, daijōbu desu. Kyūsen nihyaku en no otsuri desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

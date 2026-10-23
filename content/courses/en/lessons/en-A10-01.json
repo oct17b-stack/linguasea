@@ -1,0 +1,55 @@
+{
+  "id": "en-A10-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.japan",
+      "text": "Japan",
+      "reading": "dʒəˈpæn"
+    },
+    {
+      "id": "en.japanese",
+      "text": "Japanese",
+      "reading": "ˌdʒæpəˈniːz"
+    },
+    {
+      "id": "en.korea",
+      "text": "Korea",
+      "reading": "kəˈriːə"
+    },
+    {
+      "id": "en.korean",
+      "text": "Korean",
+      "reading": "kəˈriːən"
+    },
+    {
+      "id": "en.country",
+      "text": "country",
+      "reading": "ˈkʌntri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! What country are you from?",
+      "reading": "ˈhaɪ! ˈwʌt ˈkʌntri ər juː ˈfrʌm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Thailand. Are you from Korea?",
+      "reading": "ˈtaɪlænd. ər juː frəm kəˈriːə?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I'm not Korean. I'm from Japan.",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt kəˈriːən. aɪm frəm dʒəˈpæn."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! I like Japanese food!",
+      "reading": "ˈoʊ! aɪ ˈlaɪk ˌdʒæpəˈniːz ˈfuːd!"
+    }
+  ]
+}

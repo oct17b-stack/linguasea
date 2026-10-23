@@ -1,0 +1,65 @@
+{
+  "id": "ja-B8-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.terebi",
+      "text": "テレビ",
+      "reading": "terebi"
+    },
+    {
+      "id": "ja.reizouko",
+      "text": "れいぞうこ",
+      "reading": "reizōko"
+    },
+    {
+      "id": "ja.eakon",
+      "text": "エアコン",
+      "reading": "eakon"
+    },
+    {
+      "id": "ja.denki",
+      "text": "でんき",
+      "reading": "denki"
+    },
+    {
+      "id": "ja.mado",
+      "text": "まど",
+      "reading": "mado"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "タイは あついですね。この へやに エアコンは ありますか。",
+      "reading": "Tai wa atsui desu ne. Kono heya ni eakon wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、この へやに エアコンは ありません。",
+      "reading": "Sumimasen, kono heya ni eakon wa arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "だいじょうぶです。まどが おおきいですから、すずしいです。",
+      "reading": "Daijōbu desu. Mado ga ōkii desu kara, suzushii desu."
+    },
+    {
+      "speaker": "a",
+      "text": "れいぞうこに つめたい おちゃが ありますよ。どうぞ。",
+      "reading": "Reizōko ni tsumetai ocha ga arimasu yo. Dōzo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。あ、おおきい テレビですね。",
+      "reading": "Arigatō. A, ōkii terebi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ちちの テレビです。ちちは テレビが だいすきです。",
+      "reading": "Chichi no terebi desu. Chichi wa terebi ga daisuki desu."
+    }
+  ]
+}

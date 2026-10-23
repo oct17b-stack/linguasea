@@ -1,0 +1,85 @@
+{
+  "id": "ko-D13-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gwangwangji",
+      "text": "관광지",
+      "reading": "gwangwangji"
+    },
+    {
+      "id": "ko.myeongso",
+      "text": "명소",
+      "reading": "myeongso"
+    },
+    {
+      "id": "ko.gung",
+      "text": "궁",
+      "reading": "gung"
+    },
+    {
+      "id": "ko.sawon",
+      "text": "사원",
+      "reading": "sawon"
+    },
+    {
+      "id": "ko.yasijang",
+      "text": "야시장",
+      "reading": "yasijang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 방콕에서 꼭 가 봐야 하는 관광지가 어디예요?",
+      "reading": "Nam ssi, Bangkogeseo kkok ga bwaya haneun gwangwangjiga eodiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방콕에 있는 큰 궁이 제일 유명해요. 태국에서 가장 유명한 명소 중 하나예요.",
+      "reading": "Bangkoge inneun keun gungi jeil yumyeonghaeyo. Taegugeseo gajang yumyeonghan myeongso jung hanayeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "사원도 많지요?",
+      "reading": "Sawondo manchiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 방콕에는 사원이 아주 많아요. 왓포는 방콕에서 가장 오래된 사원 중 하나예요.",
+      "reading": "Ne, Bangkogeneun sawoni aju manayo. Watponeun Bangkogeseo gajang oraedoen sawon jung hanayeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "거기에서 뭘 할 수 있어요?",
+      "reading": "Geogieseo mwol hal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국 마사지를 받을 수 있어요. 왓포는 태국 마사지로도 유명해요.",
+      "reading": "Taeguk masajireul badeul su isseoyo. Watponeun Taeguk masajirodo yumyeonghaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "재미있네요. 저녁에는 어디가 좋아요?",
+      "reading": "Jaemiinneyo. Jeonyeogeneun eodiga joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "야시장에 가 보세요. 방콕에서 가장 재미있는 곳 중 하나예요.",
+      "reading": "Yasijange ga boseyo. Bangkogeseo gajang jaemiinneun got jung hanayeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "야시장에서는 뭘 해요?",
+      "reading": "Yasijangeseoneun mwol haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "맛있는 음식을 먹고 싼 옷도 살 수 있어요. 저도 방콕에 가면 꼭 가요.",
+      "reading": "Masinneun eumsigeul meokgo ssan otdo sal su isseoyo. Jeodo Bangkoge gamyeon kkok gayo."
+    }
+  ]
+}

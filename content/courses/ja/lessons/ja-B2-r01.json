@@ -1,0 +1,61 @@
+{
+  "id": "ja-B2-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.fesutibaru",
+      "text": "フェスティバル",
+      "reading": "fesutibaru"
+    },
+    {
+      "id": "ja.suteeji",
+      "text": "ステージ",
+      "reading": "sutēji"
+    },
+    {
+      "id": "ja.shoo",
+      "text": "ショー",
+      "reading": "shō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "あしたから とうきょうで タイ フェスティバルです！",
+        "reading": "Ashita kara Tōkyō de Tai fesutibaru desu!"
+      },
+      {
+        "text": "なにを たべますか。",
+        "reading": "Nani o tabemasu ka."
+      },
+      {
+        "text": "トムヤムクンと パッタイです！",
+        "reading": "Tomuyamukun to pattai desu!"
+      }
+    ],
+    [
+      {
+        "text": "ステージは タイの おどりの ショーです。",
+        "reading": "Sutēji wa Tai no odori no shō desu."
+      },
+      {
+        "text": "みなさん、どうぞ！",
+        "reading": "Minasan, dōzo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

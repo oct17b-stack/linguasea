@@ -1,0 +1,57 @@
+{
+  "id": "en-A4-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.how-many",
+      "kind": "phrase",
+      "text": "How many …?",
+      "reading": "ˈhaʊ ˈmɛni …?"
+    },
+    {
+      "id": "en.people",
+      "text": "people",
+      "reading": "ˈpiːpəl"
+    },
+    {
+      "id": "en.number",
+      "text": "number",
+      "reading": "ˈnʌmbər"
+    },
+    {
+      "id": "en.only",
+      "text": "only",
+      "reading": "ˈoʊnli"
+    },
+    {
+      "id": "en.a-table-for",
+      "kind": "phrase",
+      "text": "A table for …, please.",
+      "reading": "ə ˈteɪbəl fər …, ˈpliːz."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good evening! How many people? Six?",
+      "reading": "ɡʊd ˈiːvnɪŋ! ˈhaʊ ˈmɛni ˈpiːpəl? ˈsɪks?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, only two. A table for two, please.",
+      "reading": "ˈnoʊ, ˈoʊnli ˈtuː. ə ˈteɪbəl fər ˈtuː, ˈpliːz."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Your number is twelve.",
+      "reading": "oʊˈkeɪ. jʊr ˈnʌmbər ɪz ˈtwɛlv."
+    },
+    {
+      "speaker": "a",
+      "text": "Twelve. Thank you!",
+      "reading": "ˈtwɛlv. ˈθæŋk juː!"
+    }
+  ]
+}

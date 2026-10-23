@@ -1,0 +1,94 @@
+{
+  "id": "ko-D10-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.gireul-ilta",
+      "kind": "phrase",
+      "text": "길을 잃다",
+      "reading": "gireul ilta"
+    },
+    {
+      "id": "ko.mia",
+      "text": "미아",
+      "reading": "mia"
+    },
+    {
+      "id": "ko.ansim-hada",
+      "text": "안심하다",
+      "reading": "ansimhada"
+    },
+    {
+      "id": "ko.ureumeul-teotteurida",
+      "kind": "phrase",
+      "text": "울음을 터뜨리다",
+      "reading": "ureumeul teotteurida"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준 씨가 일곱 살 때의 일이에요.",
+        "reading": "Minjun ssiga ilgop sal ttaeui irieyo."
+      },
+      {
+        "text": "주말에 민준 씨는 어머니하고 같이 큰 시장에 갔어요.",
+        "reading": "Jumare Minjun ssineun eomeonihago gachi keun sijange gasseoyo."
+      },
+      {
+        "text": "시장에는 사람이 정말 많았어요.",
+        "reading": "Sijangeneun sarami jeongmal manasseoyo."
+      },
+      {
+        "text": "민준 씨는 장난감 가게 앞에서 구경을 하다가 어머니를 놓쳤어요.",
+        "reading": "Minjun ssineun jangnangam gage apeseo gugyeongeul hadaga eomeonireul notchyeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "어머니를 찾았지만 어디에도 안 계셨어요.",
+        "reading": "Eomeonireul chajatjiman eodiedo an gyesyeosseoyo."
+      },
+      {
+        "text": "길을 잃은 민준 씨는 결국 울음을 터뜨렸어요.",
+        "reading": "Gireul ireun Minjun ssineun gyeolguk ureumeul teotteuryeosseoyo."
+      },
+      {
+        "text": "그때 시장에서 일하는 아주머니가 와서 민준 씨의 이름을 물었어요.",
+        "reading": "Geuttae sijangeseo ilhaneun ajumeoniga waseo Minjun ssiui ireumeul mureosseoyo."
+      },
+      {
+        "text": "아주머니는 미아가 된 민준 씨에게 과자를 주고 같이 기다려 주셨어요.",
+        "reading": "Ajumeonineun miaga doen Minjun ssiege gwajareul jugo gachi gidaryeo jusyeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "삼십 분 후에 어머니가 민준 씨를 찾으러 오셨어요.",
+        "reading": "Samsip bun hue eomeoniga Minjun ssireul chajeureo osyeosseoyo."
+      },
+      {
+        "text": "어머니를 보자마자 민준 씨는 안심했어요.",
+        "reading": "Eomeonireul bojamaja Minjun ssineun ansimhaesseoyo."
+      },
+      {
+        "text": "그날부터 민준 씨는 시장에 갈 때마다 어머니 손을 꼭 잡았어요.",
+        "reading": "Geunalbuteo Minjun ssineun sijange gal ttaemada eomeoni soneul kkok jabasseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

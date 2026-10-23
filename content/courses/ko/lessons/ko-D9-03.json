@@ -1,0 +1,87 @@
+{
+  "id": "ko-D9-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.daneojang",
+      "text": "단어장",
+      "reading": "daneojang"
+    },
+    {
+      "id": "ko.banbok-hada",
+      "text": "반복하다",
+      "reading": "banbokada"
+    },
+    {
+      "id": "ko.keun-soriro",
+      "kind": "phrase",
+      "text": "큰 소리로",
+      "reading": "keun soriro"
+    },
+    {
+      "id": "ko.nogeum-hada",
+      "text": "녹음하다",
+      "reading": "nogeumhada"
+    },
+    {
+      "id": "ko.ttara-ikda",
+      "kind": "phrase",
+      "text": "따라 읽다",
+      "reading": "ttara ikda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 다음 주에 한국어로 발표해야 돼요. 그런데 발음이 너무 걱정돼요.",
+      "reading": "Minjun ssi, daeum jue hangugeoro balpyohaeya dwaeyo. Geureonde bareumi neomu geokjeongdwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 매일 큰 소리로 연습하지 그래요?",
+      "reading": "Geureom maeil keun soriro yeonseupaji geuraeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "해 봤어요. 그런데 제 발음이 맞는지 잘 모르겠어요.",
+      "reading": "Hae bwasseoyo. Geureonde je bareumi manneunji jal moreugesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 연습할 때 녹음하지 그래요? 들어 보면 틀린 발음을 알 수 있어요.",
+      "reading": "Geureom yeonseupal ttae nogeumhaji geuraeyo? Deureo bomyeon teullin bareumeul al su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 좋은 생각이에요. 또 어떻게 해요?",
+      "reading": "A, joeun saenggagieyo. Tto eotteoke haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "책에 있는 대화를 들으면서 따라 읽어 보세요. 몇 번 반복하면 발음이 좋아져요.",
+      "reading": "Chaege inneun daehwareul deureumyeonseo ttara ilgeo boseyo. Myeot beon banbokamyeon bareumi joajyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "단어는요? 저는 단어를 외우기가 너무 어려워요.",
+      "reading": "Daneoneunyo? Jeoneun daneoreul oeugiga neomu eoryeowoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "단어장을 만들지 그래요? 가방에 넣고 다니면서 지하철에서 보세요.",
+      "reading": "Daneojangeul mandeulji geuraeyo? Gabange neoko danimyeonseo jihacheoreseo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "단어장은 있어요. 그런데 집에만 있어요.",
+      "reading": "Daneojangeun isseoyo. Geureonde jibeman isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 그럼 내일부터 꼭 가지고 다니세요!",
+      "reading": "Haha, geureom naeilbuteo kkok gajigo daniseyo!"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "ko-E16-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.bandeusi",
+      "text": "반드시",
+      "reading": "bandeusi"
+    },
+    {
+      "id": "ko.jicham-hada",
+      "text": "지참하다",
+      "reading": "jichamhada"
+    },
+    {
+      "id": "ko.buriik",
+      "text": "불이익",
+      "reading": "buriik"
+    },
+    {
+      "id": "ko.haedangdoeda",
+      "text": "해당되다",
+      "reading": "haedangdoeda"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "체류 기간 연장 방문 예약 안내",
+        "reading": "Cheryu gigan yeonjang bangmun yeyak annae"
+      },
+      {
+        "text": "출입국 관리 사무소는 방문 예약을 한 분만 이용할 수 있습니다.",
+        "reading": "Churipguk gwalli samusoneun bangmun yeyageul han bunman iyonghal su itseumnida."
+      },
+      {
+        "text": "방문하기 전에 반드시 인터넷으로 방문 예약을 하시기 바랍니다.",
+        "reading": "Bangmunhagi jeone bandeusi inteoneseuro bangmun yeyageul hasigi baramnida."
+      },
+      {
+        "text": "예약 없이 방문하시면 업무를 처리할 수 없습니다.",
+        "reading": "Yeyak eopsi bangmunhasimyeon eommureul cheorihal su eopseumnida."
+      }
+    ],
+    [
+      {
+        "text": "방문할 때 지참할 서류는 다음과 같습니다.",
+        "reading": "Bangmunhal ttae jichamhal seoryuneun daeumgwa gatseumnida."
+      },
+      {
+        "text": "여권과 외국인 등록증은 반드시 원본을 지참할 것.",
+        "reading": "Yeogwongwa oegugin deungnokjeungeun bandeusi wonboneul jichamhal geot."
+      },
+      {
+        "text": "신청서는 미리 작성하여 가지고 올 것.",
+        "reading": "Sincheongseoneun miri jakseonghayeo gajigo ol geot."
+      },
+      {
+        "text": "유학생은 재학 증명서와 성적 증명서도 함께 제출할 것.",
+        "reading": "Yuhaksaengeun jaehak jeungmyeongseowa seongjeok jeungmyeongseodo hamkke jechulhal geot."
+      },
+      {
+        "text": "외국어로 된 서류는 한국어 번역본을 함께 지참할 것.",
+        "reading": "Oegugeoro doen seoryuneun hangugeo beonyeokboneul hamkke jichamhal geot."
+      }
+    ],
+    [
+      {
+        "text": "체류 기간이 만료된 후에 신청하면 불이익을 받을 수 있습니다.",
+        "reading": "Cheryu gigani mallyodoen hue sincheonghamyeon buriigeul badeul su itseumnida."
+      },
+      {
+        "text": "이 경우 벌금을 내야 할 수도 있으니 주의하시기 바랍니다.",
+        "reading": "I gyeongu beolgeumeul naeya hal sudo isseuni juuihasigi baramnida."
+      },
+      {
+        "text": "연장 신청은 만료일 4개월 전부터 할 수 있습니다.",
+        "reading": "Yeonjang sincheongeun mallyoil sa gaewol jeonbuteo hal su itseumnida."
+      }
+    ],
+    [
+      {
+        "text": "학교나 주소가 바뀐 경우에 해당되는 분은 서류를 추가로 제출해야 합니다.",
+        "reading": "Hakgyona jusoga bakkwin gyeongue haedangdoeneun buneun seoryureul chugaro jechulhaeya hamnida."
+      },
+      {
+        "text": "문의 사항이 있으면 안내 센터로 전화하십시오.",
+        "reading": "Munui sahangi isseumyeon annae senteoro jeonhwahasipsio."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

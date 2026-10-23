@@ -1,0 +1,60 @@
+{
+  "id": "ko-B12-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jokbal",
+      "text": "족발",
+      "reading": "jokbal"
+    },
+    {
+      "id": "ko.bossam",
+      "text": "보쌈",
+      "reading": "bossam"
+    },
+    {
+      "id": "ko.jumeokbap",
+      "text": "주먹밥",
+      "reading": "jumeokbap"
+    },
+    {
+      "id": "ko.rabokki",
+      "text": "라볶이",
+      "reading": "rabokki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 라볶이 먹어요? 여기 라볶이가 정말 맛있어요.",
+      "reading": "Nam ssi, rabokki meogeoyo? Yeogi rabokkiga jeongmal masisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "라볶이는 매워요?",
+      "reading": "Rabokkineun maewoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "조금 매워요. 주먹밥하고 같이 먹어요.",
+      "reading": "Jogeum maewoyo. Jumeokbaphago gachi meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 그리고 내일은 족발 먹고 싶어요.",
+      "reading": "Joayo! Geurigo naeireun jokbal meokgo sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "족발이요? 저는 보쌈이 더 좋아요.",
+      "reading": "Jokbariyo? Jeoneun bossami deo joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 내일 족발 일 인분, 보쌈 일 인분 주문해요!",
+      "reading": "Geuraeyo? Naeil jokbal il inbun, bossam il inbun jumunhaeyo!"
+    }
+  ]
+}

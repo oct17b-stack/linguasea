@@ -1,0 +1,81 @@
+{
+  "id": "ko-D15-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.chekeuin",
+      "text": "체크인",
+      "reading": "chekeuin"
+    },
+    {
+      "id": "ko.chekeuaut",
+      "text": "체크아웃",
+      "reading": "chekeuaut"
+    },
+    {
+      "id": "ko.peureonteu",
+      "text": "프런트",
+      "reading": "peureonteu"
+    },
+    {
+      "id": "ko.kadeu-ki",
+      "kind": "phrase",
+      "text": "카드 키",
+      "reading": "kadeu ki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 체크인하시겠어요?",
+      "reading": "Eoseo oseyo. Chekeuinhasigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 예약했어요. 이름은 남이에요.",
+      "reading": "Ne, yeyakaesseoyo. Ireumeun Namieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 확인했어요. 여권 좀 보여 주시겠어요?",
+      "reading": "Ne, hwaginhaesseoyo. Yeogwon jom boyeo jusigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여기 있어요. 체크아웃은 몇 시예요?",
+      "reading": "Yeogi isseoyo. Chekeuauseun myeot siyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "오전 열한 시예요. 이게 카드 키예요. 짐은 프런트에 맡기시겠어요?",
+      "reading": "Ojeon yeolhan siyeyo. Ige kadeu kiyeyo. Jimeun peureonteue matgisigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 방으로 가지고 갈게요.",
+      "reading": "Aniyo, bangeuro gajigo galgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "조식은 일곱 시부터예요. 내일 몇 시에 드시겠어요?",
+      "reading": "Josigeun ilgop sibuteoyeyo. Naeil myeot sie deusigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여덟 시쯤 먹을게요. 그리고 와이파이 비밀번호는 뭐예요?",
+      "reading": "Yeodeol sijjeum meogeulgeyo. Geurigo waipai bimilbeonhoneun mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "카드 키 뒤에 있어요. 필요한 게 있으시면 언제든지 프런트로 전화해 주세요.",
+      "reading": "Kadeu ki dwie isseoyo. Piryohan ge isseusimyeon eonjedeunji peureonteuro jeonhwahae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다.",
+      "reading": "Ne, gamsahamnida."
+    }
+  ]
+}

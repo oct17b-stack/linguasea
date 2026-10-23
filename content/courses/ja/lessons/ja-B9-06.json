@@ -1,0 +1,60 @@
+{
+  "id": "ja-B9-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hoshii",
+      "text": "ほしい",
+      "reading": "hoshii"
+    },
+    {
+      "id": "ja.chokoreeto",
+      "text": "チョコレート",
+      "reading": "chokorēto"
+    },
+    {
+      "id": "ja.gamu",
+      "text": "ガム",
+      "reading": "gamu"
+    },
+    {
+      "id": "ja.juusu",
+      "text": "ジュース",
+      "reading": "jūsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "あついですね。ナムさんは なにが ほしいですか。",
+      "reading": "Atsui desu ne. Namu-san wa nani ga hoshii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "つめたい ジュースが ほしいです。ゆきさんは？",
+      "reading": "Tsumetai jūsu ga hoshii desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは チョコレートが ほしいです。",
+      "reading": "Watashi wa chokorēto ga hoshii desu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、ジュースと チョコレートを かいます。",
+      "reading": "Jā, jūsu to chokorēto o kaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ガムも かいますか。",
+      "reading": "Gamu mo kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、ガムは いりません。",
+      "reading": "Iie, gamu wa irimasen."
+    }
+  ]
+}

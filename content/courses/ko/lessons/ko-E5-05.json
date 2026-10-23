@@ -1,0 +1,95 @@
+{
+  "id": "ko-E5-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.ipsi",
+      "text": "입시",
+      "reading": "ipsi"
+    },
+    {
+      "id": "ko.suneung",
+      "text": "수능",
+      "reading": "suneung"
+    },
+    {
+      "id": "ko.gyeongjaeng",
+      "text": "경쟁",
+      "reading": "gyeongjaeng"
+    },
+    {
+      "id": "ko.sagyoyuk",
+      "text": "사교육",
+      "reading": "sagyoyuk"
+    },
+    {
+      "id": "ko.chiyeol-hada",
+      "text": "치열하다",
+      "reading": "chiyeolhada"
+    },
+    {
+      "id": "ko.hakbeol",
+      "text": "학벌",
+      "reading": "hakbeol"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 어제 뉴스에서 수능을 보는 학생들을 봤어요. 다들 정말 긴장한 것 같았어요.",
+      "reading": "Seonsaengnim, eoje nyuseueseo suneungeul boneun haksaengdeureul bwasseoyo. Dadeul jeongmal ginjanghan geot gatasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 수능은 대학 입시에서 가장 중요한 시험이에요.",
+      "reading": "Ne, suneungeun daehak ipsieseo gajang jungyohan siheomieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한국은 입시 경쟁이 정말 치열하다고 들었어요.",
+      "reading": "Hangugeun ipsi gyeongjaengi jeongmal chiyeolhadago deureosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 좋은 대학에 가려는 학생이 많을수록 경쟁은 더 치열해져요.",
+      "reading": "Majayo. Joeun daehage garyeoneun haksaengi maneulsurok gyeongjaengeun deo chiyeolhaejyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 학원에 다니는 학생도 많아요?",
+      "reading": "Geuraeseo hagwone danineun haksaengdo manayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 사교육을 많이 받아요. 학년이 올라갈수록 사교육에 돈도 더 많이 들어요.",
+      "reading": "Ne, sagyoyugeul mani badayo. Hangnyeoni ollagalsurok sagyoyuge dondo deo mani deureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜 그렇게 좋은 대학에 가고 싶어 해요?",
+      "reading": "Wae geureoke joeun daehage gago sipeo haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "한국에서는 학벌을 중요하게 생각하는 사람이 많거든요.",
+      "reading": "Hangugeseoneun hakbeoreul jungyohage saenggakaneun sarami mankeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국도 비슷해요. 유명한 대학을 나올수록 취업이 쉽다고 해요.",
+      "reading": "Taegukdo biseutaeyo. Yumyeonghan daehageul naolsurok chwieobi swipdago haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래도 요즘은 학벌보다 실력을 보는 회사가 늘고 있어요.",
+      "reading": "Geuraedo yojeumeun hakbeolboda sillyeogeul boneun hoesaga neulgo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이네요. 공부는 하면 할수록 재미있어야 하는데요.",
+      "reading": "Dahaengineyo. Gongbuneun hamyeon halsurok jaemiisseoya haneundeyo."
+    }
+  ]
+}

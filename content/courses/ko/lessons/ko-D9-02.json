@@ -1,0 +1,85 @@
+{
+  "id": "ko-D9-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.oeuda",
+      "text": "외우다",
+      "reading": "oeuda"
+    },
+    {
+      "id": "ko.hetgallida",
+      "text": "헷갈리다",
+      "reading": "hetgallida"
+    },
+    {
+      "id": "ko.teullida",
+      "text": "틀리다",
+      "reading": "teullida"
+    },
+    {
+      "id": "ko.machida",
+      "text": "맞히다",
+      "reading": "machida"
+    },
+    {
+      "id": "ko.matchumbeop",
+      "text": "맞춤법",
+      "reading": "matchumbeop"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 어제 받아쓰기 시험 어땠어요?",
+      "reading": "Nam ssi, eoje badasseugi siheom eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열 문제 중에서 여섯 개만 맞혔어요. 네 개는 틀렸어요.",
+      "reading": "Yeol munje jungeseo yeoseot gaeman machyeosseoyo. Ne gaeneun teullyeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "뭐가 제일 어려웠어요?",
+      "reading": "Mwoga jeil eoryeowosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "맞춤법이요. 한국어 맞춤법은 정말 틀리기 쉬워요.",
+      "reading": "Matchumbeobiyo. Hangugeo matchumbeobeun jeongmal teulligi swiwoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 발음이 같아서 헷갈리기 쉬워요.",
+      "reading": "Majayo. Bareumi gataseo hetgalligi swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, '돼요'하고 '되요'가 항상 헷갈려요.",
+      "reading": "Ne, 'dwaeyo'hago 'doeyo'ga hangsang hetgallyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그건 한국 사람들도 자주 틀려요. 단어는 어때요? 외우기 어려워요?",
+      "reading": "Geugeon Hanguk saramdeuldo jaju teullyeoyo. Daneoneun eottaeyo? Oeugi eoryeowoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 단어는 외우기 쉬워요. 그런데 금방 잊어버려요.",
+      "reading": "Aniyo, daneoneun oeugi swiwoyo. Geureonde geumbang ijeobeoryeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 매일 조금씩 복습하세요. 그러면 기억하기 쉬워요.",
+      "reading": "Geureom maeil jogeumssik bokseupaseyo. Geureomyeon gieokagi swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘부터 해 볼게요.",
+      "reading": "Ne, oneulbuteo hae bolgeyo."
+    }
+  ]
+}

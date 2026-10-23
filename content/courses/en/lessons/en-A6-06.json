@@ -1,0 +1,61 @@
+{
+  "id": "en-A6-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.spoon",
+      "text": "spoon",
+      "reading": "spuːn"
+    },
+    {
+      "id": "en.fork",
+      "text": "fork",
+      "reading": "fɔːrk"
+    },
+    {
+      "id": "en.knife",
+      "text": "knife",
+      "reading": "naɪf"
+    },
+    {
+      "id": "en.chopsticks",
+      "text": "chopsticks",
+      "reading": "ˈtʃɑːpstɪks"
+    },
+    {
+      "id": "en.plate",
+      "text": "plate",
+      "reading": "pleɪt"
+    },
+    {
+      "id": "en.im-full",
+      "kind": "phrase",
+      "text": "I'm full.",
+      "reading": "aɪm ˈfʊl."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, a spoon and a fork? No knife?",
+      "reading": "ˈnɑːm, ə ˈspuːn ənd ə ˈfɔːrk? ˈnoʊ ˈnaɪf?"
+    },
+    {
+      "speaker": "a",
+      "text": "Right. We eat with a spoon and fork.",
+      "reading": "ˈraɪt. wiː ˈiːt wɪð ə ˈspuːn ənd ˈfɔːrk."
+    },
+    {
+      "speaker": "c",
+      "text": "And chopsticks?",
+      "reading": "ənd ˈtʃɑːpstɪks?"
+    },
+    {
+      "speaker": "a",
+      "text": "Chopsticks are for noodles.",
+      "reading": "ˈtʃɑːpstɪks ər fər ˈnuːdəlz."
+    }
+  ]
+}

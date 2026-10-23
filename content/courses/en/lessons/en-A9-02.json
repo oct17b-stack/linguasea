@@ -1,0 +1,55 @@
+{
+  "id": "en-A9-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.school",
+      "text": "school",
+      "reading": "skuːl"
+    },
+    {
+      "id": "en.class",
+      "text": "class",
+      "reading": "klæs"
+    },
+    {
+      "id": "en.book",
+      "text": "book",
+      "reading": "bʊk"
+    },
+    {
+      "id": "en.desk",
+      "text": "desk",
+      "reading": "dɛsk"
+    },
+    {
+      "id": "en.chair",
+      "text": "chair",
+      "reading": "tʃɛr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Excuse me. Is this your desk?",
+      "reading": "ɪkˈskjuːz miː. ɪz ðɪs jʊr ˈdɛsk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. My book is on it.",
+      "reading": "ˈjɛs. maɪ ˈbʊk ɪz ˈɑːn ɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, sorry! I'm new in this class.",
+      "reading": "ˈoʊ, ˈsɑːri! aɪm ˈnuː ɪn ðɪs ˈklæs."
+    },
+    {
+      "speaker": "a",
+      "text": "No problem. Welcome to the class!",
+      "reading": "ˈnoʊ ˈprɑːbləm. ˈwɛlkəm tə ðə ˈklæs!"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ko-E5-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jobyeol-gwaje",
+      "kind": "phrase",
+      "text": "조별 과제",
+      "reading": "jobyeol gwaje"
+    },
+    {
+      "id": "ko.jaryo",
+      "text": "자료",
+      "reading": "jaryo"
+    },
+    {
+      "id": "ko.josa-hada",
+      "text": "조사하다",
+      "reading": "josahada"
+    },
+    {
+      "id": "ko.bundam-hada",
+      "text": "분담하다",
+      "reading": "bundamhada"
+    },
+    {
+      "id": "ko.chamgo-munheon",
+      "kind": "phrase",
+      "text": "참고 문헌",
+      "reading": "chamgo munheon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "우리 조별 과제부터 이야기하자. 발표가 언제지?",
+      "reading": "Uri jobyeol gwajebuteo iyagihaja. Balpyoga eonjeji?"
+    },
+    {
+      "speaker": "b",
+      "text": "다음 달 십 일이야. 시간이 별로 없으니까 일을 분담하는 게 어때?",
+      "reading": "Daeum dal sip iriya. Sigani byeollo eopseunikka ireul bundamhaneun ge eottae?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아. 모두 참여할 수 있도록 일을 똑같이 나누자.",
+      "reading": "Joa. Modu chamyeohal su itdorok ireul ttokgachi nanuja."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 나는 자료를 조사할게.",
+      "reading": "Geureom naneun jaryoreul josahalge."
+    },
+    {
+      "speaker": "b",
+      "text": "나는 발표 자료를 만들게. 뒤에 앉은 사람도 잘 볼 수 있도록 글씨를 크게 할게.",
+      "reading": "Naneun balpyo jaryoreul mandeulge. Dwie anjeun saramdo jal bol su itdorok geulssireul keuge halge."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 나는 참고 문헌을 정리하고 보고서를 쓸게.",
+      "reading": "Geureom naneun chamgo munheoneul jeongnihago bogoseoreul sseulge."
+    },
+    {
+      "speaker": "c",
+      "text": "다른 학생들이 이해하기 쉽도록 내용을 짧게 정리해 줘.",
+      "reading": "Dareun haksaengdeuri ihaehagi swipdorok naeyongeul jjalge jeongnihae jwo."
+    },
+    {
+      "speaker": "a",
+      "text": "알았어. 금요일까지 다 끝낼 수 있도록 노력할게.",
+      "reading": "Arasseo. Geumyoilkkaji da kkeunnael su itdorok noryeokalge."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 목요일 밤에 한 번 더 만나서 확인하자.",
+      "reading": "Geureom mogyoil bame han beon deo mannaseo hwaginhaja."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아. 다들 늦지 않도록 조심해!",
+      "reading": "Joa. Dadeul neutji antorok josimhae!"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ko-E15-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.nanum",
+      "text": "나눔",
+      "reading": "nanum"
+    },
+    {
+      "id": "ko.gibu-hada",
+      "text": "기부하다",
+      "reading": "gibuhada"
+    },
+    {
+      "id": "ko.mogeum",
+      "text": "모금",
+      "reading": "mogeum"
+    },
+    {
+      "id": "ko.huwon-hada",
+      "text": "후원하다",
+      "reading": "huwonhada"
+    },
+    {
+      "id": "ko.yeontan",
+      "text": "연탄",
+      "reading": "yeontan"
+    },
+    {
+      "id": "ko.seonggeum",
+      "text": "성금",
+      "reading": "seonggeum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 달 말에 연탄 나눔 행사가 있어요. 참여할 수 있어요?",
+      "reading": "Nam ssi, ibeon dal mare yeontan nanum haengsaga isseoyo. Chamyeohal su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 할 수 있어요. 그런데 연탄은 어디에 써요?",
+      "reading": "Ne, hal su isseoyo. Geureonde yeontaneun eodie sseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아직도 연탄으로 방을 따뜻하게 하는 집이 있어요. 혼자 사시는 할머니, 할아버지들이 많아요.",
+      "reading": "Ajikdo yeontaneuro bangeul ttatteutage haneun jibi isseoyo. Honja sasineun halmeoni, harabeojideuri manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇군요. 연탄은 누가 사요?",
+      "reading": "Geureokunyo. Yeontaneun nuga sayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "회사와 주민들이 기부한 성금으로 사요. 지난달에 모금을 해서 백만 원이 모였어요.",
+      "reading": "Hoesawa jumindeuri gibuhan seonggeumeuro sayo. Jinandare mogeumeul haeseo baengman woni moyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 조금 기부하고 싶어요.",
+      "reading": "Jeodo jogeum gibuhago sipeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 매달 조금씩 후원하는 방법도 있어요.",
+      "reading": "Gomawoyo. Maedal jogeumssik huwonhaneun bangbeopdo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 그날 비가 올 경우에는 어떻게 해요?",
+      "reading": "Geureonde geunal biga ol gyeongueneun eotteoke haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "비가 올 경우에는 행사가 다음 주로 연기돼요.",
+      "reading": "Biga ol gyeongueneun haengsaga daeum juro yeongidwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 혹시 제가 못 갈 경우에는 미리 연락드릴게요.",
+      "reading": "Algesseoyo. Hoksi jega mot gal gyeongueneun miri yeollakdeurilgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 고마워요. 작은 나눔이 큰 힘이 돼요.",
+      "reading": "Ne, gomawoyo. Jageun nanumi keun himi dwaeyo."
+    }
+  ]
+}

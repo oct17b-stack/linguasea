@@ -1,0 +1,60 @@
+{
+  "id": "ja-B10-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.okaikei",
+      "text": "おかいけい",
+      "reading": "okaikei"
+    },
+    {
+      "id": "ja.zeikomi",
+      "text": "ぜいこみ",
+      "reading": "zeikomi"
+    },
+    {
+      "id": "ja.issho-ni",
+      "text": "いっしょに",
+      "reading": "issho ni"
+    },
+    {
+      "id": "ja.chippu",
+      "text": "チップ",
+      "reading": "chippu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、おかいけい、いっしょに おねがいします。",
+      "reading": "Sumimasen, okaikei, issho ni onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ぜんぶで 2,800円です。",
+      "reading": "Hai. Zenbu de nisen happyaku en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ぜいこみですか。",
+      "reading": "Zeikomi desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ぜいこみです。",
+      "reading": "Hai, zeikomi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきさん、チップは いりますか。",
+      "reading": "Yuki-san, chippu wa irimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、にほんでは チップは いりません。",
+      "reading": "Iie, Nihon de wa chippu wa irimasen."
+    }
+  ]
+}

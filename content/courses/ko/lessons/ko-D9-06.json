@@ -1,0 +1,85 @@
+{
+  "id": "ko-D9-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.mokpyo",
+      "text": "목표",
+      "reading": "mokpyo"
+    },
+    {
+      "id": "ko.seuda",
+      "text": "세우다",
+      "reading": "seuda"
+    },
+    {
+      "id": "ko.pogi-hada",
+      "text": "포기하다",
+      "reading": "pogihada"
+    },
+    {
+      "id": "ko.gyesok",
+      "text": "계속",
+      "reading": "gyesok"
+    },
+    {
+      "id": "ko.geeureuda",
+      "text": "게으르다",
+      "reading": "geeureuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 학기 목표를 세웠어요?",
+      "reading": "Nam ssi, ibeon hakgi mokpyoreul sewosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 이번 학기 목표는 토픽 합격이에요. 그런데 요즘 너무 게을러요.",
+      "reading": "Ne, ibeon hakgi mokpyoneun Topik hapgyeogieyo. Geureonde yojeum neomu geeulleoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "왜요? 무슨 일 있어요?",
+      "reading": "Waeyo? Museun il isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "주말 아르바이트 때문에 피곤해서 공부를 계속 미뤘어요.",
+      "reading": "Jumal areubaiteu ttaemune pigonhaeseo gongbureul gyesok mirwosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 이제 어떻게 할 거예요?",
+      "reading": "Geureom ije eotteoke hal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이제 매일 아침 한 시간씩 공부해야겠어요. 게임은 주말에만 해야겠어요.",
+      "reading": "Ije maeil achim han siganssik gongbuhaeyagesseoyo. Geimeun jumareman haeyagesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 생각이에요. 하지만 너무 어려운 목표는 세우지 마세요. 포기하기 쉬워요.",
+      "reading": "Joeun saenggagieyo. Hajiman neomu eoryeoun mokpyoneun seuji maseyo. Pogihagi swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 저는 지난번에도 일주일 만에 포기했어요.",
+      "reading": "Majayo. Jeoneun jinanbeonedo iljuil mane pogihaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 그럼 작은 목표부터 세우고 꾸준히 노력해 보세요.",
+      "reading": "Haha, geureom jageun mokpyobuteo seugo kkujunhi noryeokae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 이번에는 포기하지 않고 계속 공부해야겠어요!",
+      "reading": "Ne, ibeoneneun pogihaji anko gyesok gongbuhaeyagesseoyo!"
+    }
+  ]
+}

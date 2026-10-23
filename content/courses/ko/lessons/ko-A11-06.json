@@ -1,0 +1,55 @@
+{
+  "id": "ko-A11-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.jeomwon",
+      "text": "점원",
+      "reading": "jeomwon"
+    },
+    {
+      "id": "ko.gyeongbiwon",
+      "text": "경비원",
+      "reading": "gyeongbiwon"
+    },
+    {
+      "id": "ko.baedarwon",
+      "text": "배달원",
+      "reading": "baedarwon"
+    },
+    {
+      "id": "ko.yorisa",
+      "text": "요리사",
+      "reading": "yorisa"
+    },
+    {
+      "id": "ko.gunin",
+      "text": "군인",
+      "reading": "gunin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이분은 누구예요?",
+      "reading": "Minjun ssi, ibuneun nuguyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "제 친구예요. 요리사예요.",
+      "reading": "Je chinguyeyo. Yorisayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 이분도 요리사예요?",
+      "reading": "Wa, ibundo yorisayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 그 사람은 군인이에요.",
+      "reading": "Aniyo, geu sarameun guninieyo."
+    }
+  ]
+}

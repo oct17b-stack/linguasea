@@ -1,0 +1,66 @@
+{
+  "id": "ja-B10-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.dorinku",
+      "text": "ドリンク",
+      "reading": "dorinku"
+    },
+    {
+      "id": "ja.sarada",
+      "text": "サラダ",
+      "reading": "sarada"
+    },
+    {
+      "id": "ja.pasuta",
+      "text": "パスタ",
+      "reading": "pasuta"
+    },
+    {
+      "id": "ja.pankeeki",
+      "text": "パンケーキ",
+      "reading": "pankēki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ランチセットは 11時から 2時までです。",
+        "reading": "Ranchi setto wa jūichiji kara niji made desu."
+      },
+      {
+        "text": "セットには サラダと ドリンクが あります。",
+        "reading": "Setto ni wa sarada to dorinku ga arimasu."
+      }
+    ],
+    [
+      {
+        "text": "パスタの セットは 1,200円です。",
+        "reading": "Pasuta no setto wa sen nihyaku en desu."
+      },
+      {
+        "text": "パンケーキの セットは 1,000円です。",
+        "reading": "Pankēki no setto wa sen en desu."
+      },
+      {
+        "text": "ぜんぶ ぜいこみです。",
+        "reading": "Zenbu zeikomi desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-B1-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.zasshi",
+      "text": "ざっし",
+      "reading": "zasshi"
+    },
+    {
+      "id": "ja.shinbun",
+      "text": "しんぶん",
+      "reading": "shinbun"
+    },
+    {
+      "id": "ja.jisho",
+      "text": "じしょ",
+      "reading": "jisho"
+    },
+    {
+      "id": "ja.tegami",
+      "text": "てがみ",
+      "reading": "tegami"
+    },
+    {
+      "id": "ja.fuutou",
+      "text": "ふうとう",
+      "reading": "fūtō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは しんぶんを よみますか。",
+      "reading": "Namu-san wa shinbun o yomimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、タイの しんぶんを よみます。にほんごの ざっしも よみます。",
+      "reading": "Hai, Tai no shinbun o yomimasu. Nihongo no zasshi mo yomimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ、にほんごの ざっしは むずかしいですか。",
+      "reading": "Hē, Nihongo no zasshi wa muzukashii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すこし。でも、じしょは わたしの ともだちです。",
+      "reading": "Hai, sukoshi. Demo, jisho wa watashi no tomodachi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "えらいですね！にほんごで てがみも かきますか。",
+      "reading": "Erai desu ne! Nihongo de tegami mo kakimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、てがみは まだまだです。",
+      "reading": "Iie, tegami wa madamada desu."
+    }
+  ]
+}

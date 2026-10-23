@@ -1,0 +1,98 @@
+{
+  "id": "ko-D15-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.yeyak-beonho",
+      "kind": "phrase",
+      "text": "예약 번호",
+      "reading": "yeyak beonho"
+    },
+    {
+      "id": "ko.hwakjeongdoeda",
+      "text": "확정되다",
+      "reading": "hwakjeongdoeda"
+    },
+    {
+      "id": "ko.tusukgaek",
+      "text": "투숙객",
+      "reading": "tusukgaek"
+    },
+    {
+      "id": "ko.chwiso-gyujeong",
+      "kind": "phrase",
+      "text": "취소 규정",
+      "reading": "chwiso gyujeong"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 님, 안녕하세요.",
+        "reading": "Nam nim, annyeonghaseyo."
+      },
+      {
+        "text": "부산 바다 호텔 예약이 확정됐어요.",
+        "reading": "Busan Bada hotel yeyagi hwakjeongdwaesseoyo."
+      },
+      {
+        "text": "예약 번호는 이 메일 아래에 있어요.",
+        "reading": "Yeyak beonhoneun i meil araee isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "체크인은 칠월 이십오일 오후 세 시부터예요.",
+        "reading": "Chekeuineun chirwol isiboil ohu se sibuteoyeyo."
+      },
+      {
+        "text": "체크아웃은 칠월 이십칠일 오전 열한 시까지예요.",
+        "reading": "Chekeuauseun chirwol isipchiril ojeon yeolhan sikkajiyeyo."
+      },
+      {
+        "text": "투숙객은 한 명이에요.",
+        "reading": "Tusukgaegeun han myeongieyo."
+      },
+      {
+        "text": "객실은 바다 쪽 객실이고 조식이 포함되어 있어요.",
+        "reading": "Gaeksireun bada jjok gaeksirigo josigi pohamdoeeo isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "취소 규정을 꼭 확인해 주세요.",
+        "reading": "Chwiso gyujeongeul kkok hwaginhae juseyo."
+      },
+      {
+        "text": "칠월 이십이일까지는 무료로 취소할 수 있어요.",
+        "reading": "Chirwol isibiilkkajineun muryoro chwisohal su isseoyo."
+      },
+      {
+        "text": "그 후에 취소하시면 숙박 요금의 반을 내셔야 해요.",
+        "reading": "Geu hue chwisohasimyeon sukbak yogeumui baneul naesyeoya haeyo."
+      },
+      {
+        "text": "예약을 변경하고 싶으시면 앱에서 해 주세요.",
+        "reading": "Yeyageul byeongyeonghago sipeusimyeon aebeseo hae juseyo."
+      },
+      {
+        "text": "즐거운 여행 되세요!",
+        "reading": "Jeulgeoun yeohaeng doeseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

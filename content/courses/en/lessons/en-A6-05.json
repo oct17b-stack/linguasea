@@ -1,0 +1,60 @@
+{
+  "id": "en-A6-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.eat",
+      "text": "eat",
+      "reading": "iːt"
+    },
+    {
+      "id": "en.drink",
+      "text": "drink",
+      "reading": "drɪŋk"
+    },
+    {
+      "id": "en.meat",
+      "text": "meat",
+      "reading": "miːt"
+    },
+    {
+      "id": "en.beef",
+      "text": "beef",
+      "reading": "biːf"
+    },
+    {
+      "id": "en.egg",
+      "text": "egg",
+      "reading": "ɛɡ"
+    },
+    {
+      "id": "en.vegetables",
+      "text": "vegetables",
+      "reading": "ˈvɛdʒtəbəlz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, do you eat meat?",
+      "reading": "ˈnɑːm, duː juː ˈiːt ˈmiːt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, but I don't eat beef.",
+      "reading": "ˈjɛs, bʌt aɪ ˈdoʊnt ˈiːt ˈbiːf."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. Chicken, eggs, and vegetables?",
+      "reading": "oʊˈkeɪ. ˈtʃɪkən, ˈɛɡz, ənd ˈvɛdʒtəbəlz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, please! Thank you, Emma!",
+      "reading": "ˈjɛs, ˈpliːz! ˈθæŋk juː, ˈɛmə!"
+    }
+  ]
+}

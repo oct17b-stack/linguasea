@@ -1,0 +1,80 @@
+{
+  "id": "ko-D13-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.bolgeori",
+      "text": "볼거리",
+      "reading": "bolgeori"
+    },
+    {
+      "id": "ko.meogeulgeori",
+      "text": "먹을거리",
+      "reading": "meogeulgeori"
+    },
+    {
+      "id": "ko.teuksanmul",
+      "text": "특산물",
+      "reading": "teuksanmul"
+    },
+    {
+      "id": "ko.ginyeompum",
+      "text": "기념품",
+      "reading": "ginyeompum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 태국에서 먹어 볼 만한 음식을 추천해 주세요.",
+      "reading": "Nam ssi, Taegugeseo meogeo bol manhan eumsigeul chucheonhae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "똠얌꿍은 꼭 먹어 볼 만해요. 쏨땀도 맛있어요.",
+      "reading": "Ttomyamkkungeun kkok meogeo bol manhaeyo. Ssomttamdo masisseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "방콕 밖에서는 어디가 가 볼 만해요?",
+      "reading": "Bangkok bakkeseoneun eodiga ga bol manhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아유타야에 가 보세요. 옛날에 태국의 수도였어요. 그래서 볼거리가 정말 많아요.",
+      "reading": "Ayutayae ga boseyo. Yennare Taegugui sudoyeosseoyo. Geuraeseo bolgeoriga jeongmal manayo."
+    },
+    {
+      "speaker": "c",
+      "text": "먹을거리는요?",
+      "reading": "Meogeulgeorineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아유타야는 국수하고 새우 요리로 유명해요.",
+      "reading": "Ayutayaneun guksuhago saeu yoriro yumyeonghaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "기념품으로 뭘 사면 좋을까요?",
+      "reading": "Ginyeompumeuro mwol samyeon joeulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "치앙마이 커피가 살 만해요. 치앙마이의 특산물이에요.",
+      "reading": "Chiangmai keopiga sal manhaeyo. Chiangmaiui teuksanmurieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋네요. 친구들 선물로도 좋겠어요.",
+      "reading": "Jonneyo. Chingudeul seonmullodo jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그리고 공항보다 시장에서 사는 게 훨씬 싸요.",
+      "reading": "Ne, geurigo gonghangboda sijangeseo saneun ge hwolssin ssayo."
+    }
+  ]
+}

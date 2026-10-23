@@ -1,0 +1,66 @@
+{
+  "id": "ja-B9-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shake",
+      "text": "しゃけ",
+      "reading": "shake"
+    },
+    {
+      "id": "ja.tsuna",
+      "text": "ツナ",
+      "reading": "tsuna"
+    },
+    {
+      "id": "ja.mayoneezu",
+      "text": "マヨネーズ",
+      "reading": "mayonēzu"
+    },
+    {
+      "id": "ja.shinshouhin",
+      "text": "しんしょうひん",
+      "reading": "shinshōhin"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "しんしょうひんです！",
+        "reading": "Shinshōhin desu!"
+      },
+      {
+        "text": "あたらしい おにぎりが ふたつ あります。",
+        "reading": "Atarashii onigiri ga futatsu arimasu."
+      }
+    ],
+    [
+      {
+        "text": "しゃけの おにぎりは 150円です。",
+        "reading": "Shake no onigiri wa hyaku gojū en desu."
+      },
+      {
+        "text": "ツナと マヨネーズの おにぎりは 160円です。",
+        "reading": "Tsuna to mayonēzu no onigiri wa hyaku rokujū en desu."
+      },
+      {
+        "text": "おちゃも いかがですか。",
+        "reading": "Ocha mo ikaga desu ka."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

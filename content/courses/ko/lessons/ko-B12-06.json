@@ -1,0 +1,60 @@
+{
+  "id": "ko-B12-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.kalguksu",
+      "text": "칼국수",
+      "reading": "kalguksu"
+    },
+    {
+      "id": "ko.janchiguksu",
+      "text": "잔치국수",
+      "reading": "janchiguksu"
+    },
+    {
+      "id": "ko.sujebi",
+      "text": "수제비",
+      "reading": "sujebi"
+    },
+    {
+      "id": "ko.udong",
+      "text": "우동",
+      "reading": "udong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 여기 우동 있어요?",
+      "reading": "Seonsaengnim, yeogi udong isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 우동은 없어요. 칼국수가 맛있어요.",
+      "reading": "Aniyo, udongeun eopseoyo. Kalguksuga masisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 저는 칼국수 먹어요. 선생님은요?",
+      "reading": "Joayo. Jeoneun kalguksu meogeoyo. Seonsaengnimeunyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "저는 잔치국수요. 수제비도 같이 먹어요.",
+      "reading": "Jeoneun janchiguksuyo. Sujebido gachi meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 칼국수가 너무 뜨거워요!",
+      "reading": "Wa, kalguksuga neomu tteugeowoyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "천천히 먹어요.",
+      "reading": "Cheoncheonhi meogeoyo."
+    }
+  ]
+}

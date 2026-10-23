@@ -1,0 +1,68 @@
+{
+  "id": "ja-B8-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ue",
+      "text": "上",
+      "reading": "ue",
+      "say": "うえ"
+    },
+    {
+      "id": "ja.shita",
+      "text": "下",
+      "reading": "shita",
+      "say": "した"
+    },
+    {
+      "id": "ja.naka",
+      "text": "中",
+      "reading": "naka",
+      "say": "なか"
+    },
+    {
+      "id": "ja.yoko",
+      "text": "よこ",
+      "reading": "yoko"
+    },
+    {
+      "id": "ja.ushiro",
+      "text": "うしろ",
+      "reading": "ushiro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、わたしの かぎは どこに ありますか。",
+      "reading": "Namu-san, watashi no kagi wa doko ni arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "テーブルの 上に ありますよ。",
+      "reading": "Tēburu no ue ni arimasu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありませんよ。かばんの 中にも ありません。",
+      "reading": "Arimasen yo. Kaban no naka ni mo arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、ソファの うしろは？",
+      "reading": "Jā, sofa no ushiro wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "うしろにも ありません。",
+      "reading": "Ushiro ni mo arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ソファの 下に ありますよ！",
+      "reading": "A, sofa no shita ni arimasu yo!"
+    }
+  ]
+}

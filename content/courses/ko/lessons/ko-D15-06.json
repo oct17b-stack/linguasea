@@ -1,0 +1,80 @@
+{
+  "id": "ko-D15-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.hugi",
+      "text": "후기",
+      "reading": "hugi"
+    },
+    {
+      "id": "ko.wichi",
+      "text": "위치",
+      "reading": "wichi"
+    },
+    {
+      "id": "ko.jeonmang",
+      "text": "전망",
+      "reading": "jeonmang"
+    },
+    {
+      "id": "ko.manjok-hada",
+      "text": "만족하다",
+      "reading": "manjokada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 부산 호텔은 어땠어요?",
+      "reading": "Nam ssi, Busan hotereun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지금 호텔 후기를 쓰고 있어요. 방이 깨끗하기는 깨끗했어요.",
+      "reading": "Jigeum hotel hugireul sseugo isseoyo. Bangi kkaekkeutagineun kkaekkeutaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데요? 뭐가 별로였어요?",
+      "reading": "Geureondeyo? Mwoga byeolloyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방이 좀 좁았어요. 그리고 처음에 담배 냄새가 났어요.",
+      "reading": "Bangi jom jobasseoyo. Geurigo cheoeume dambae naemsaega nasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "위치는 어땠어요?",
+      "reading": "Wichineun eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "위치는 정말 좋았어요. 해운대 바로 앞이었어요.",
+      "reading": "Wichineun jeongmal joasseoyo. Haeundae baro apieosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 전망도 좋았겠네요.",
+      "reading": "Geureom jeonmangdo joatgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "전망이 좋기는 좋았어요. 그런데 창문이 작았어요.",
+      "reading": "Jeonmangi jokineun joasseoyo. Geureonde changmuni jagasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 만족했어요?",
+      "reading": "Geureom manjokaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "비싸기는 비쌌지만 만족해요. 별을 네 개 줄 거예요.",
+      "reading": "Bissagineun bissatjiman manjokaeyo. Byeoreul ne gae jul geoyeyo."
+    }
+  ]
+}

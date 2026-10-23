@@ -1,0 +1,65 @@
+{
+  "id": "ja-B10-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ranchi",
+      "text": "ランチ",
+      "reading": "ranchi"
+    },
+    {
+      "id": "ja.setto",
+      "text": "セット",
+      "reading": "setto"
+    },
+    {
+      "id": "ja.misoshiru",
+      "text": "みそしる",
+      "reading": "misoshiru"
+    },
+    {
+      "id": "ja.karaage",
+      "text": "からあげ",
+      "reading": "karaage"
+    },
+    {
+      "id": "ja.tonkatsu",
+      "text": "とんかつ",
+      "reading": "tonkatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ランチセットは どうですか。",
+      "reading": "Namu-san, ranchi setto wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。どんな セットが ありますか。",
+      "reading": "Ii desu ne. Donna setto ga arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "からあげの セットと とんかつの セットです。",
+      "reading": "Karaage no setto to tonkatsu no setto desu."
+    },
+    {
+      "speaker": "a",
+      "text": "みそしるも ありますか。",
+      "reading": "Misoshiru mo arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ごはんと みそしるも セットです。",
+      "reading": "Hai, gohan to misoshiru mo setto desu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、とんかつの セットに します。",
+      "reading": "Jā, tonkatsu no setto ni shimasu."
+    }
+  ]
+}

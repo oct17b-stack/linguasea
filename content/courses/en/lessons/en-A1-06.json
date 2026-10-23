@@ -1,0 +1,60 @@
+{
+  "id": "en-A1-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.pardon",
+      "kind": "phrase",
+      "text": "Pardon?",
+      "reading": "ˈpɑːrdən?"
+    },
+    {
+      "id": "en.no-problem",
+      "kind": "phrase",
+      "text": "No problem.",
+      "reading": "ˈnoʊ ˈprɑːbləm."
+    },
+    {
+      "id": "en.sure",
+      "kind": "phrase",
+      "text": "Sure.",
+      "reading": "ˈʃʊr."
+    },
+    {
+      "id": "en.me-too",
+      "kind": "phrase",
+      "text": "Me too.",
+      "reading": "ˈmiː ˈtuː."
+    },
+    {
+      "id": "en.welcome",
+      "kind": "phrase",
+      "text": "Welcome!",
+      "reading": "ˈwɛlkəm!"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Excuse me.",
+      "reading": "ɪkˈskjuːz miː."
+    },
+    {
+      "speaker": "a",
+      "text": "Pardon?",
+      "reading": "ˈpɑːrdən?"
+    },
+    {
+      "speaker": "b",
+      "text": "Excuse me, please.",
+      "reading": "ɪkˈskjuːz miː, ˈpliːz."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Sure. Sorry!",
+      "reading": "ˈoʊ! ˈʃʊr. ˈsɑːri!"
+    }
+  ]
+}

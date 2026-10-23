@@ -1,0 +1,95 @@
+{
+  "id": "ko-E6-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.hwangyeong",
+      "text": "환경",
+      "reading": "hwangyeong"
+    },
+    {
+      "id": "ko.ilhoeyongpum",
+      "text": "일회용품",
+      "reading": "ilhoeyongpum"
+    },
+    {
+      "id": "ko.ssaida",
+      "text": "쌓이다",
+      "reading": "ssaida"
+    },
+    {
+      "id": "ko.binilbongji",
+      "text": "비닐봉지",
+      "reading": "binilbongji"
+    },
+    {
+      "id": "ko.ppaldae",
+      "text": "빨대",
+      "reading": "ppaldae"
+    },
+    {
+      "id": "ko.neomchida",
+      "text": "넘치다",
+      "reading": "neomchida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "안녕하세요. 저는 환경 동아리 학생이에요. 잠깐 질문해도 될까요?",
+      "reading": "Annyeonghaseyo. Jeoneun hwangyeong dongari haksaengieyo. Jamkkan jilmunhaedo doelkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 괜찮아요.",
+      "reading": "Ne, gwaenchanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하루에 일회용품을 얼마나 써요?",
+      "reading": "Harue ilhoeyongpumeul eolmana sseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음... 커피를 자주 마셔서 일회용 컵하고 빨대를 매일 써요.",
+      "reading": "Eum... Keopireul jaju masyeoseo ilhoeyong keophago ppaldaereul maeil sseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그렇군요. 요즘 길에서도 쓰레기가 많이 보이지요?",
+      "reading": "Geureokunyo. Yojeum gireseodo sseuregiga mani boijiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 학교 앞 쓰레기통은 항상 쓰레기가 넘쳐요.",
+      "reading": "Ne, hakgyo ap sseuregitongeun hangsang sseuregiga neomchyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 배달 음식 때문에 플라스틱 쓰레기도 많이 쌓여요.",
+      "reading": "Majayo. Baedal eumsik ttaemune peullaseutik sseuregido mani ssayeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국도 비슷해요. 시장에서 물건을 사면 다 비닐봉지에 넣어 줘요.",
+      "reading": "Taegukdo biseutaeyo. Sijangeseo mulgeoneul samyeon da binilbongjie neoeo jwoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "한국에서는 큰 마트에서 비닐봉지를 주지 않아요. 그래서 요즘은 장바구니가 많이 팔려요.",
+      "reading": "Hangugeseoneun keun mateueseo binilbongjireul juji anayo. Geuraeseo yojeumeun jangbaguniga mani pallyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 저도 비닐봉지를 덜 써야겠어요.",
+      "reading": "Geuraeyo? Jeodo binilbongjireul deol sseoyagesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "감사합니다. 환경을 위해서 우리 모두 조금씩 노력해요!",
+      "reading": "Gamsahamnida. Hwangyeongeul wihaeseo uri modu jogeumssik noryeokaeyo!"
+    }
+  ]
+}

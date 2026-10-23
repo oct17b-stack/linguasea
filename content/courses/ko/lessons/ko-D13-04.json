@@ -1,0 +1,88 @@
+{
+  "id": "ko-D13-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gyotong-chejeung",
+      "kind": "phrase",
+      "text": "교통 체증",
+      "reading": "gyotong chejeung"
+    },
+    {
+      "id": "ko.chultoegeun-sigan",
+      "kind": "phrase",
+      "text": "출퇴근 시간",
+      "reading": "chultoegeun sigan"
+    },
+    {
+      "id": "ko.otobai",
+      "text": "오토바이",
+      "reading": "otobai"
+    },
+    {
+      "id": "ko.susang-beoseu",
+      "kind": "phrase",
+      "text": "수상 버스",
+      "reading": "susang beoseu"
+    },
+    {
+      "id": "ko.jisangcheol",
+      "text": "지상철",
+      "reading": "jisangcheol"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "공항에서 도심까지 가는 데 얼마나 걸려요?",
+      "reading": "Gonghangeseo dosimkkaji ganeun de eolmana geollyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "택시로 가면 한 시간쯤 걸려요. 그런데 출퇴근 시간에는 두 시간이 걸릴 때도 있어요.",
+      "reading": "Taeksiro gamyeon han siganjjeum geollyeoyo. Geureonde chultoegeun siganeneun du sigani geollil ttaedo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "왜 그렇게 오래 걸려요?",
+      "reading": "Wae geureoke orae geollyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "교통 체증이 아주 심하거든요. 그래서 저는 보통 지상철을 타요.",
+      "reading": "Gyotong chejeungi aju simhageodeunyo. Geuraeseo jeoneun botong jisangcheoreul tayo."
+    },
+    {
+      "speaker": "c",
+      "text": "지상철로 가는 데 돈은 얼마나 들어요?",
+      "reading": "Jisangcheollo ganeun de doneun eolmana deureoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공항에서 도심까지 가는 데 사십오 바트쯤 들어요. 한국 돈으로 이천 원이 안 돼요.",
+      "reading": "Gonghangeseo dosimkkaji ganeun de sasibo bateujjeum deureoyo. Hanguk doneuro icheon woni an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "싸네요! 다른 건 뭐가 있어요?",
+      "reading": "Ssaneyo! Dareun geon mwoga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "짜오프라야강에서는 수상 버스를 탈 수 있어요. 경치가 정말 좋아요.",
+      "reading": "Jjaopeurayagangeseoneun susang beoseureul tal su isseoyo. Gyeongchiga jeongmal joayo."
+    },
+    {
+      "speaker": "c",
+      "text": "오토바이 택시도 있지요?",
+      "reading": "Otobai taeksido itjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 길이 막힐 때 편해요. 하지만 저는 좀 무서워요.",
+      "reading": "Ne, giri makil ttae pyeonhaeyo. Hajiman jeoneun jom museowoyo."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ko-D15-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.moningkol",
+      "text": "모닝콜",
+      "reading": "moningkol"
+    },
+    {
+      "id": "ko.chuga-yogeum",
+      "kind": "phrase",
+      "text": "추가 요금",
+      "reading": "chuga yogeum"
+    },
+    {
+      "id": "ko.yeonjang-hada",
+      "text": "연장하다",
+      "reading": "yeonjanghada"
+    },
+    {
+      "id": "ko.jim-bogwanso",
+      "kind": "phrase",
+      "text": "짐 보관소",
+      "reading": "jim bogwanso"
+    },
+    {
+      "id": "ko.muryo",
+      "text": "무료",
+      "reading": "muryo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "내일 아침 여섯 시에 모닝콜을 해 주실 수 있어요?",
+      "reading": "Naeil achim yeoseot sie moningkoreul hae jusil su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여섯 시로 해 드릴게요.",
+      "reading": "Ne, yeoseot siro hae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 체크아웃이 몇 시로 되어 있어요?",
+      "reading": "Geurigo chekeuausi myeot siro doeeo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "체크아웃은 열한 시로 되어 있어요.",
+      "reading": "Chekeuauseun yeolhan siro doeeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오후 한 시까지 연장할 수 있어요?",
+      "reading": "Ohu han sikkaji yeonjanghal su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 하지만 추가 요금이 있어요. 한 시간에 만 원이에요.",
+      "reading": "Ne, hajiman chuga yogeumi isseoyo. Han sigane man wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 연장하지 않을게요. 대신 짐을 맡길 수 있어요?",
+      "reading": "Geureom yeonjanghaji aneulgeyo. Daesin jimeul matgil su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 일 층에 짐 보관소가 있어요. 무료로 이용하실 수 있어요.",
+      "reading": "Ne, il cheunge jim bogwansoga isseoyo. Muryoro iyonghasil su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 시까지 찾아가야 돼요?",
+      "reading": "Myeot sikkaji chajagaya dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "짐 보관은 오후 여섯 시까지로 되어 있어요.",
+      "reading": "Jim bogwaneun ohu yeoseot sikkajiro doeeo isseoyo."
+    }
+  ]
+}

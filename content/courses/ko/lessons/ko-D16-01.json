@@ -1,0 +1,86 @@
+{
+  "id": "ko-D16-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.kkum",
+      "text": "꿈",
+      "reading": "kkum"
+    },
+    {
+      "id": "ko.jangnae-huimang",
+      "kind": "phrase",
+      "text": "장래 희망",
+      "reading": "jangnae huimang"
+    },
+    {
+      "id": "ko.tongyeoksa",
+      "text": "통역사",
+      "reading": "tongyeoksa"
+    },
+    {
+      "id": "ko.beonyeokga",
+      "text": "번역가",
+      "reading": "beonyeokga"
+    },
+    {
+      "id": "ko.seungmuwon",
+      "text": "승무원",
+      "reading": "seungmuwon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 오늘은 남 씨의 꿈에 대해서 이야기해 봐요.",
+      "reading": "Nam ssi, oneureun Nam ssiui kkume daehaeseo iyagihae bwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요.",
+      "reading": "Ne, joayo."
+    },
+    {
+      "speaker": "c",
+      "text": "어렸을 때 장래 희망이 뭐였어요?",
+      "reading": "Eoryeosseul ttae jangnae huimangi mwoyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "초등학교 때는 아이돌이 되고 싶었어요. 중학교 때는 승무원이 꿈이었어요.",
+      "reading": "Chodeunghakgyo ttaeneun aidori doego sipeosseoyo. Junghakgyo ttaeneun seungmuwoni kkumieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "왜 승무원이 되고 싶었어요?",
+      "reading": "Wae seungmuwoni doego sipeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "비행기를 타고 여러 나라에 가고 싶었거든요.",
+      "reading": "Bihaenggireul tago yeoreo narae gago sipeotgeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "지금은요?",
+      "reading": "Jigeumeunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지금은 통역사가 되고 싶어요. 그래서 요즘 통역과 번역에 대해서 많이 알아보고 있어요.",
+      "reading": "Jigeumeun tongyeoksaga doego sipeoyo. Geuraeseo yojeum tongyeokgwa beonyeoge daehaeseo mani arabogo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "번역가는 어때요? 남 씨는 글을 잘 쓰니까 번역가도 잘 어울릴 거예요.",
+      "reading": "Beonyeokganeun eottaeyo? Nam ssineun geureul jal sseunikka beonyeokgado jal eoullil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 그럼 번역가에 대해서도 더 알아볼게요.",
+      "reading": "Jeongmaryo? Geureom beonyeokgae daehaeseodo deo arabolgeyo."
+    }
+  ]
+}

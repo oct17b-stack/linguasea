@@ -1,0 +1,55 @@
+{
+  "id": "en-A9-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.question",
+      "text": "question",
+      "reading": "ˈkwɛstʃən"
+    },
+    {
+      "id": "en.answer",
+      "text": "answer",
+      "reading": "ˈænsər"
+    },
+    {
+      "id": "en.page",
+      "text": "page",
+      "reading": "peɪdʒ"
+    },
+    {
+      "id": "en.easy",
+      "text": "easy",
+      "reading": "ˈiːzi"
+    },
+    {
+      "id": "en.difficult",
+      "text": "difficult",
+      "reading": "ˈdɪfɪkəlt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, page twelve, question five. What's the answer?",
+      "reading": "ˈnɑːm, ˈpeɪdʒ ˈtwɛlv, ˈkwɛstʃən ˈfaɪv. ˈwʌts ði ˈænsər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I don't know. It's difficult!",
+      "reading": "ˈsɑːri, aɪ ˈdoʊnt ˈnoʊ. ɪts ˈdɪfɪkəlt!"
+    },
+    {
+      "speaker": "b",
+      "text": "It's easy! Look at the board.",
+      "reading": "ɪts ˈiːzi! ˈlʊk ət ðə ˈbɔːrd."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! Yes, it's easy.",
+      "reading": "ˈoʊ! ˈjɛs, ɪts ˈiːzi."
+    }
+  ]
+}

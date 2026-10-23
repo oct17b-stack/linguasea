@@ -1,0 +1,152 @@
+{
+  "id": "en-A7-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.letter-f",
+      "kind": "letter",
+      "text": "F",
+      "reading": "ɛf"
+    },
+    {
+      "id": "en.letter-l",
+      "kind": "letter",
+      "text": "L",
+      "reading": "ɛl"
+    },
+    {
+      "id": "en.letter-m",
+      "kind": "letter",
+      "text": "M",
+      "reading": "ɛm"
+    },
+    {
+      "id": "en.letter-n",
+      "kind": "letter",
+      "text": "N",
+      "reading": "ɛn"
+    },
+    {
+      "id": "en.letter-s",
+      "kind": "letter",
+      "text": "S",
+      "reading": "ɛs"
+    },
+    {
+      "id": "en.letter-x",
+      "kind": "letter",
+      "text": "X",
+      "reading": "ɛks"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam… N-A-N?",
+      "reading": "ˈnɑːm… ˈɛn ˈeɪ ˈɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, Mr. Brown. N-A-M.",
+      "reading": "ˈnoʊ, ˈmɪstər ˈbraʊn. ˈɛn ˈeɪ ˈɛm."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, M! Sorry. N-A-M.",
+      "reading": "ˈoʊ, ˈɛm! ˈsɑːri. ˈɛn ˈeɪ ˈɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! Thank you.",
+      "reading": "ˈjɛs! ˈθæŋk juː."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.letter-f",
+      "options": [
+        "en.letter-s",
+        "en.letter-x",
+        "en.letter-l"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-f"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-l",
+      "options": [
+        "en.letter-n",
+        "en.letter-r",
+        "en.letter-m"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-l"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-m",
+      "options": [
+        "en.letter-n",
+        "en.letter-l"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-m"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-n",
+      "options": [
+        "en.letter-m",
+        "en.letter-l"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-n"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-s",
+      "options": [
+        "en.letter-f",
+        "en.letter-x",
+        "en.letter-c"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-s"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-x",
+      "options": [
+        "en.letter-s",
+        "en.letter-f",
+        "en.letter-k"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-x"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-l"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-x"
+    }
+  ]
+}

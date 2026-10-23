@@ -1,0 +1,61 @@
+{
+  "id": "ko-B12-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.baedal",
+      "text": "배달",
+      "reading": "baedal"
+    },
+    {
+      "id": "ko.baedalbi",
+      "text": "배달비",
+      "reading": "baedalbi"
+    },
+    {
+      "id": "ko.mun-ape-noa-juseyo",
+      "kind": "phrase",
+      "text": "문 앞에 놓아 주세요",
+      "reading": "mun ape noa juseyo"
+    },
+    {
+      "id": "ko.choinjong",
+      "text": "초인종",
+      "reading": "choinjong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "네, 여보세요.",
+      "reading": "Ne, yeoboseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "짜장면 두 개하고 탕수육 하나 배달해 주세요.",
+      "reading": "Jjajangmyeon du gaehago tangsuyuk hana baedalhae juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 어디예요?",
+      "reading": "Ne, eodiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교 앞 아파트 이백일 호예요. 배달비가 얼마예요?",
+      "reading": "Hakgyo ap apateu ibaegil hoyeyo. Baedalbiga eolmayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "삼천 원이에요.",
+      "reading": "Samcheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 문 앞에 놓아 주세요. 초인종이 고장이에요.",
+      "reading": "Ne. Mun ape noa juseyo. Choinjongi gojangieyo."
+    }
+  ]
+}

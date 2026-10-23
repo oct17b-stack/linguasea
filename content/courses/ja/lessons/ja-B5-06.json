@@ -1,0 +1,60 @@
+{
+  "id": "ja-B5-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.norimasu",
+      "text": "のります",
+      "reading": "norimasu"
+    },
+    {
+      "id": "ja.orimasu",
+      "text": "おります",
+      "reading": "orimasu"
+    },
+    {
+      "id": "ja.norikae",
+      "text": "のりかえ",
+      "reading": "norikae"
+    },
+    {
+      "id": "ja.jitensha",
+      "text": "じてんしゃ",
+      "reading": "jitensha"
+    },
+    {
+      "id": "ja.nanbansen",
+      "text": "なんばんせん",
+      "reading": "nanbansen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、うえのは なんばんせんですか。",
+      "reading": "Sumimasen, Ueno wa nanbansen desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "3ばんせんです。でも、とうきょうで のりかえですよ。",
+      "reading": "Sanbansen desu. Demo, Tōkyō de norikae desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "とうきょうで でんしゃを おりますね。",
+      "reading": "Tōkyō de densha o orimasu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。それから、5ばんせんの でんしゃに のります。",
+      "reading": "Hai. Sorekara, gobansen no densha ni norimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "5ばんせんですね。ありがとうございます。",
+      "reading": "Gobansen desu ne. Arigatō gozaimasu."
+    }
+  ]
+}

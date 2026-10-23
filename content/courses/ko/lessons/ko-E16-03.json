@@ -1,0 +1,95 @@
+{
+  "id": "ko-E16-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jeolcha",
+      "text": "절차",
+      "reading": "jeolcha"
+    },
+    {
+      "id": "ko.cheoridoeda",
+      "text": "처리되다",
+      "reading": "cheoridoeda"
+    },
+    {
+      "id": "ko.seungin",
+      "text": "승인",
+      "reading": "seungin"
+    },
+    {
+      "id": "ko.geobudoeda",
+      "text": "거부되다",
+      "reading": "geobudoeda"
+    },
+    {
+      "id": "ko.damdangja",
+      "text": "담당자",
+      "reading": "damdangja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 지난주에 신청한 체류 기간 연장에 관해서 여쭤보고 싶습니다.",
+      "reading": "Annyeonghaseyo. Jinanjue sincheonghan cheryu gigan yeonjange gwanhaeseo yeojjwobogo sipseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 성함이 어떻게 되십니까?",
+      "reading": "Ne, seonghami eotteoke doesimnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서 온 유학생 남입니다.",
+      "reading": "Taegugeseo on yuhaksaeng Namimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "잠시만 기다려 주십시오. 아직 처리되지 않았습니다. 지금 담당자가 검토하고 있습니다.",
+      "reading": "Jamsiman gidaryeo jusipsio. Ajik cheoridoeji anatseumnida. Jigeum damdangjaga geomtohago itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "승인까지 보통 얼마나 걸립니까?",
+      "reading": "Seunginkkaji botong eolmana geollimnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "보통 이 주 정도 걸립니다.",
+      "reading": "Botong i ju jeongdo geollimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "혹시 신청이 거부되는 경우도 있습니까?",
+      "reading": "Hoksi sincheongi geobudoeneun gyeongudo itseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "서류에 문제가 있으면 거부될 수도 있습니다.",
+      "reading": "Seoryue munjega isseumyeon geobudoel sudo itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "연장 절차에 관한 안내는 어디에서 볼 수 있습니까?",
+      "reading": "Yeonjang jeolchae gwanhan annaeneun eodieseo bol su itseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "인터넷 공지 사항에서 보실 수 있습니다.",
+      "reading": "Inteonet gongji sahangeseo bosil su itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 결과가 나오면 연락을 주십니까?",
+      "reading": "Gamsahamnida. Gyeolgwaga naomyeon yeollageul jusimnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 처리되는 대로 문자로 알려 드리겠습니다.",
+      "reading": "Ne, cheoridoeneun daero munjaro allyeo deurigetseumnida."
+    }
+  ]
+}

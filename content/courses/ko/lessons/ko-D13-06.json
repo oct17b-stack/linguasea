@@ -1,0 +1,85 @@
+{
+  "id": "ko-D13-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jangjeom",
+      "text": "장점",
+      "reading": "jangjeom"
+    },
+    {
+      "id": "ko.danjeom",
+      "text": "단점",
+      "reading": "danjeom"
+    },
+    {
+      "id": "ko.anjeon-hada",
+      "text": "안전하다",
+      "reading": "anjeonhada"
+    },
+    {
+      "id": "ko.jeong",
+      "text": "정",
+      "reading": "jeong"
+    },
+    {
+      "id": "ko.chian",
+      "text": "치안",
+      "reading": "chian"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨는 서울하고 방콕 중에서 어디가 더 좋아요?",
+      "reading": "Nam ssineun Seoulhago Bangkok jungeseo eodiga deo joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "둘 다 좋아요. 서울은 편리하기는 하지만 사람들이 너무 바빠요.",
+      "reading": "Dul da joayo. Seoureun pyeollihagineun hajiman saramdeuri neomu bappayo."
+    },
+    {
+      "speaker": "c",
+      "text": "서울의 장점은 뭐예요?",
+      "reading": "Seourui jangjeomeun mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "치안이 좋아요. 밤에 혼자 다녀도 안전해요.",
+      "reading": "Chiani joayo. Bame honja danyeodo anjeonhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "방콕은 어때요?",
+      "reading": "Bangkogeun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방콕도 안전하기는 하지만 밤에는 조심해야 돼요.",
+      "reading": "Bangkokdo anjeonhagineun hajiman bameneun josimhaeya dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "방콕의 장점은요?",
+      "reading": "Bangkogui jangjeomeunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "사람들이 정이 많아요. 처음 만난 사람하고도 금방 이야기해요.",
+      "reading": "Saramdeuri jeongi manayo. Cheoeum mannan saramhagodo geumbang iyagihaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "단점도 있어요?",
+      "reading": "Danjeomdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "덥기는 하지만 그건 단점이 아니에요. 저는 더운 날씨를 좋아하거든요!",
+      "reading": "Deopgineun hajiman geugeon danjeomi anieyo. Jeoneun deoun nalssireul joahageodeunyo!"
+    }
+  ]
+}

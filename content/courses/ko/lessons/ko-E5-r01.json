@@ -1,0 +1,102 @@
+{
+  "id": "ko-E5-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.haksa-iljeong",
+      "kind": "phrase",
+      "text": "학사 일정",
+      "reading": "haksa iljeong"
+    },
+    {
+      "id": "ko.chogwa-hada",
+      "text": "초과하다",
+      "reading": "chogwahada"
+    },
+    {
+      "id": "ko.jeongjeong",
+      "text": "정정",
+      "reading": "jeongjeong"
+    },
+    {
+      "id": "ko.hyuhak",
+      "text": "휴학",
+      "reading": "hyuhak"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "수강 신청 안내",
+        "reading": "Sugang sincheong annae"
+      },
+      {
+        "text": "학사 일정에 따라 다음 학기 수강 신청을 아래와 같이 진행합니다.",
+        "reading": "Haksa iljeonge ttara daeum hakgi sugang sincheongeul araewa gachi jinhaenghamnida."
+      },
+      {
+        "text": "수강 신청 기간은 2월 11일부터 13일까지입니다.",
+        "reading": "Sugang sincheong giganeun iwol sibil ilbuteo sipsam ilkkajiimnida."
+      },
+      {
+        "text": "신청은 학교 앱에서만 할 수 있습니다.",
+        "reading": "Sincheongeun hakgyo aebeseoman hal su itseumnida."
+      }
+    ],
+    [
+      {
+        "text": "한 학기에 신청할 수 있는 학점은 18학점까지입니다.",
+        "reading": "Han hakgie sincheonghal su inneun hakjeomeun sippal hakjeomkkajiimnida."
+      },
+      {
+        "text": "18학점을 초과해서 신청할 수 없습니다.",
+        "reading": "Sippal hakjeomeul chogwahaeseo sincheonghal su eopseumnida."
+      },
+      {
+        "text": "하지만 지난 학기 평균 성적이 4.0 이상인 학생은 21학점까지 신청할 수 있습니다.",
+        "reading": "Hajiman jinan hakgi pyeonggyun seongjeogi sa jeom yeong isangin haksaengeun isibil hakjeomkkaji sincheonghal su itseumnida."
+      }
+    ],
+    [
+      {
+        "text": "수강 신청 정정 기간은 개강 후 일주일입니다.",
+        "reading": "Sugang sincheong jeongjeong giganeun gaegang hu iljuirimnida."
+      },
+      {
+        "text": "이 기간에는 과목을 추가하거나 취소할 수 있습니다.",
+        "reading": "I giganeneun gwamogeul chugahageona chwisohal su itseumnida."
+      },
+      {
+        "text": "정정 기간이 끝난 후에는 과목을 바꿀 수 없습니다.",
+        "reading": "Jeongjeong gigani kkeunnan hueneun gwamogeul bakkul su eopseumnida."
+      }
+    ],
+    [
+      {
+        "text": "다음 학기에 휴학하려는 학생은 수강 신청 기간 전에 학과에 먼저 연락하십시오.",
+        "reading": "Daeum hakgie hyuhakaryeoneun haksaengeun sugang sincheong gigan jeone hakgwae meonjeo yeollakasipsio."
+      },
+      {
+        "text": "유학생은 휴학하기 전에 유학생 센터에 꼭 문의하시기 바랍니다.",
+        "reading": "Yuhaksaengeun hyuhakagi jeone yuhaksaeng senteoe kkok munuihasigi baramnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

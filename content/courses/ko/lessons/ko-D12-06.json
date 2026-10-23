@@ -1,0 +1,86 @@
+{
+  "id": "ko-D12-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.geongang-geomjin",
+      "kind": "phrase",
+      "text": "건강 검진",
+      "reading": "geongang geomjin"
+    },
+    {
+      "id": "ko.hyeorap",
+      "text": "혈압",
+      "reading": "hyeorap"
+    },
+    {
+      "id": "ko.bitamin",
+      "text": "비타민",
+      "reading": "bitamin"
+    },
+    {
+      "id": "ko.haeropda",
+      "text": "해롭다",
+      "reading": "haeropda"
+    },
+    {
+      "id": "ko.jeongsang",
+      "text": "정상",
+      "reading": "jeongsang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 건강 검진에서 모두 정상이 나왔어요.",
+      "reading": "Nam ssi, geongang geomjineseo modu jeongsangi nawasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 다행이에요. 혈압도 괜찮아요?",
+      "reading": "Jeongmaryo? Dahaengieyo. Hyeorapdo gwaenchanayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 혈압도 정상이에요. 아주 건강하네요.",
+      "reading": "Ne, hyeorapdo jeongsangieyo. Aju geonganghaneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "건강하기는요. 요즘 너무 피곤해요.",
+      "reading": "Geonganghagineunyo. Yojeum neomu pigonhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "비타민은 먹어요?",
+      "reading": "Bitamineun meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 매일 먹어요. 그런데 커피를 하루에 다섯 잔 마셔요.",
+      "reading": "Ne, maeil meogeoyo. Geureonde keopireul harue daseot jan masyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다섯 잔이요? 커피를 너무 많이 마시면 몸에 해로워요. 두 잔 정도만 마시는 게 좋겠어요.",
+      "reading": "Daseot janiyo? Keopireul neomu mani masimyeon mome haerowoyo. Du jan jeongdoman masineun ge jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "노력할게요. 선생님은 정말 건강해 보이세요.",
+      "reading": "Noryeokalgeyo. Seonsaengnimeun jeongmal geonganghae boiseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "저요? 건강하기는요. 저도 커피를 좋아해서 걱정이에요.",
+      "reading": "Jeoyo? Geonganghagineunyo. Jeodo keopireul joahaeseo geokjeongieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 그럼 우리 같이 줄여요.",
+      "reading": "Haha, geureom uri gachi juryeoyo."
+    }
+  ]
+}

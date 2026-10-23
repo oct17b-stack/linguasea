@@ -1,0 +1,55 @@
+{
+  "id": "en-A9-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.pen",
+      "text": "pen",
+      "reading": "pɛn"
+    },
+    {
+      "id": "en.pencil",
+      "text": "pencil",
+      "reading": "ˈpɛnsəl"
+    },
+    {
+      "id": "en.eraser",
+      "text": "eraser",
+      "reading": "ɪˈreɪsər"
+    },
+    {
+      "id": "en.ruler",
+      "text": "ruler",
+      "reading": "ˈruːlər"
+    },
+    {
+      "id": "en.notebook",
+      "text": "notebook",
+      "reading": "ˈnoʊtbʊk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, can I have a pen, please?",
+      "reading": "ˈɛmə, kən aɪ ˈhæv ə ˈpɛn, ˈpliːz?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sure. A pen or a pencil?",
+      "reading": "ˈʃʊr. ə ˈpɛn ɔːr ə ˈpɛnsəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "A pencil, please. And an eraser?",
+      "reading": "ə ˈpɛnsəl, ˈpliːz. ənd ən ɪˈreɪsər?"
+    },
+    {
+      "speaker": "c",
+      "text": "Here you are.",
+      "reading": "ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

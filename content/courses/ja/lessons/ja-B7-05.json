@@ -1,0 +1,61 @@
+{
+  "id": "ja-B7-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.shichakushitsu",
+      "text": "しちゃくしつ",
+      "reading": "shichakushitsu"
+    },
+    {
+      "id": "ja.niaimasu",
+      "text": "にあいます",
+      "reading": "niaimasu"
+    },
+    {
+      "id": "ja.ikaga-desu-ka",
+      "kind": "phrase",
+      "text": "いかがですか",
+      "reading": "ikaga desu ka"
+    },
+    {
+      "id": "ja.jiinzu",
+      "text": "ジーンズ",
+      "reading": "jīnzu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、この ジーンズの Mは ありますか。",
+      "reading": "Sumimasen, kono jīnzu no emu wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。しちゃくしつは あそこです。",
+      "reading": "Hai, dōzo. Shichakushitsu wa asoko desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いかがですか。",
+      "reading": "Ikaga desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ぴったりです。じゃあ、これに します。",
+      "reading": "Pittari desu. Jā, kore ni shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "よく にあいますよ。ありがとうございます。",
+      "reading": "Yoku niaimasu yo. Arigatō gozaimasu."
+    }
+  ]
+}

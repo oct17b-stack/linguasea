@@ -1,0 +1,85 @@
+{
+  "id": "ko-D11-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.ibyang-hada",
+      "text": "입양하다",
+      "reading": "ibyanghada"
+    },
+    {
+      "id": "ko.yugigyeon",
+      "text": "유기견",
+      "reading": "yugigyeon"
+    },
+    {
+      "id": "ko.bohoso",
+      "text": "보호소",
+      "reading": "bohoso"
+    },
+    {
+      "id": "ko.chaegim",
+      "text": "책임",
+      "reading": "chaegim"
+    },
+    {
+      "id": "ko.pyeongsaeng",
+      "text": "평생",
+      "reading": "pyeongsaeng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 고양이는 어디에서 사려고 해요?",
+      "reading": "Nam ssi, goyangineun eodieseo saryeogo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "사는 대신에 보호소에서 입양하려고 해요.",
+      "reading": "Saneun daesine bohosoeseo ibyangharyeogo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "보호소요? 거기에는 어떤 동물들이 있어요?",
+      "reading": "Bohosoyo? Geogieneun eotteon dongmuldeuri isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "주인이 버린 고양이하고 유기견이 많아요.",
+      "reading": "Juini beorin goyangihago yugigyeoni manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋은 생각이에요. 요즘 동물을 사는 대신에 입양하는 사람이 많아요.",
+      "reading": "Joeun saenggagieyo. Yojeum dongmureul saneun daesine ibyanghaneun sarami manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 입양하기 전에 보호소에 몇 번 가서 고양이를 만나야 해요.",
+      "reading": "Ne. Geureonde ibyanghagi jeone bohosoe myeot beon gaseo goyangireul mannaya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "동물을 키우는 건 책임이 커요. 평생 같이 살아야 하니까요.",
+      "reading": "Dongmureul kiuneun geon chaegimi keoyo. Pyeongsaeng gachi saraya hanikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 그래서 저녁에 친구들을 만나는 대신에 고양이하고 집에서 시간을 보낼 거예요.",
+      "reading": "Majayo. Geuraeseo jeonyeoge chingudeureul mannaneun daesine goyangihago jibeseo siganeul bonael geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 남 씨는 벌써 좋은 주인이네요.",
+      "reading": "Haha, Nam ssineun beolsseo joeun juinineyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 평생 잘 키울게요!",
+      "reading": "Ne, pyeongsaeng jal kiulgeyo!"
+    }
+  ]
+}

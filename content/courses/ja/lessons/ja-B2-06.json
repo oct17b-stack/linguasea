@@ -1,0 +1,65 @@
+{
+  "id": "ja-B2-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.bankoku",
+      "text": "バンコク",
+      "reading": "Bankoku"
+    },
+    {
+      "id": "ja.chenmai",
+      "text": "チェンマイ",
+      "reading": "Chenmai"
+    },
+    {
+      "id": "ja.puuketto",
+      "text": "プーケット",
+      "reading": "Pūketto"
+    },
+    {
+      "id": "ja.tomuyamukun",
+      "text": "トムヤムクン",
+      "reading": "tomuyamukun"
+    },
+    {
+      "id": "ja.pattai",
+      "text": "パッタイ",
+      "reading": "pattai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、タイの どこが すきですか。",
+      "reading": "Namu-san, Tai no doko ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "チェンマイが だいすきです。すずしいですから。",
+      "reading": "Chenmai ga daisuki desu. Suzushii desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは プーケットが すきです。うみが きれいです。",
+      "reading": "Watashi wa Pūketto ga suki desu. Umi ga kirei desu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの りょうりは なにが すきですか。",
+      "reading": "Tai no ryōri wa nani ga suki desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "パッタイです。トムヤムクンは とても からいです。",
+      "reading": "Pattai desu. Tomuyamukun wa totemo karai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。でも、バンコクの トムヤムクンは おいしいですよ。",
+      "reading": "Sō desu ne. Demo, Bankoku no tomuyamukun wa oishii desu yo."
+    }
+  ]
+}

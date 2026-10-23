@@ -1,0 +1,50 @@
+{
+  "id": "en-A10-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.america",
+      "text": "America",
+      "reading": "əˈmɛrɪkə"
+    },
+    {
+      "id": "en.american",
+      "text": "American",
+      "reading": "əˈmɛrɪkən"
+    },
+    {
+      "id": "en.england",
+      "text": "England",
+      "reading": "ˈɪŋɡlənd"
+    },
+    {
+      "id": "en.british",
+      "text": "British",
+      "reading": "ˈbrɪtɪʃ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi! Are you from America?",
+      "reading": "ˈhaɪ! ər juː frəm əˈmɛrɪkə?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I'm from England. I'm British.",
+      "reading": "ˈnoʊ, aɪm frəm ˈɪŋɡlənd. aɪm ˈbrɪtɪʃ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh! And your friend? Is she British, too?",
+      "reading": "ˈoʊ! ənd jʊr ˈfrɛnd? ɪz ʃiː ˈbrɪtɪʃ, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, she's American.",
+      "reading": "ˈnoʊ, ʃiːz əˈmɛrɪkən."
+    }
+  ]
+}

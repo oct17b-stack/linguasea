@@ -1,0 +1,65 @@
+{
+  "id": "ja-B5-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kouen",
+      "text": "こうえん",
+      "reading": "kōen"
+    },
+    {
+      "id": "ja.toshokan",
+      "text": "としょかん",
+      "reading": "toshokan"
+    },
+    {
+      "id": "ja.suupaa",
+      "text": "スーパー",
+      "reading": "sūpā"
+    },
+    {
+      "id": "ja.depaato",
+      "text": "デパート",
+      "reading": "depāto"
+    },
+    {
+      "id": "ja.chikaku",
+      "text": "ちかく",
+      "reading": "chikaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、としょかんは どこですか。",
+      "reading": "Sumimasen, toshokan wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "としょかんですか。こうえんの ちかくです。",
+      "reading": "Toshokan desu ka. Kōen no chikaku desu."
+    },
+    {
+      "speaker": "a",
+      "text": "こうえんは どこですか。",
+      "reading": "Kōen wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "あの デパートの となりです。",
+      "reading": "Ano depāto no tonari desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。スーパーも ちかくですか。",
+      "reading": "Arigatō gozaimasu. Sūpā mo chikaku desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。スーパーは 駅の ちかくです。",
+      "reading": "Hai. Sūpā wa eki no chikaku desu."
+    }
+  ]
+}

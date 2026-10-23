@@ -1,0 +1,86 @@
+{
+  "id": "ko-D15-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.sugeon",
+      "text": "수건",
+      "reading": "sugeon"
+    },
+    {
+      "id": "ko.onsu",
+      "text": "온수",
+      "reading": "onsu"
+    },
+    {
+      "id": "ko.deuraieo",
+      "text": "드라이어",
+      "reading": "deuraieo"
+    },
+    {
+      "id": "ko.rimokeon",
+      "text": "리모컨",
+      "reading": "rimokeon"
+    },
+    {
+      "id": "ko.naemsaega-nada",
+      "kind": "phrase",
+      "text": "냄새가 나다",
+      "reading": "naemsaega nada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "네, 프런트예요. 뭘 도와드릴까요?",
+      "reading": "Ne, peureonteuyeyo. Mwol dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "칠백오 호인데요. 화장실에 수건이 없어요. 수건을 좀 받을 수 있을까요?",
+      "reading": "Chilbaego hoindeyo. Hwajangsire sugeoni eopseoyo. Sugeoneul jom badeul su isseulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "죄송합니다. 바로 가져다 드릴게요.",
+      "reading": "Joesonghamnida. Baro gajyeoda deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 온수가 잘 안 나와요. 드라이어하고 리모컨도 안 돼요.",
+      "reading": "Geurigo onsuga jal an nawayo. Deuraieohago rimokeondo an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "정말 죄송합니다. 직원을 보내서 확인해 드릴게요.",
+      "reading": "Jeongmal joesonghamnida. Jigwoneul bonaeseo hwaginhae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 방에서 담배 냄새가 나요. 다른 방으로 바꿀 수 있을까요?",
+      "reading": "Geurigo bangeseo dambae naemsaega nayo. Dareun bangeuro bakkul su isseulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 바꿔 드릴게요. 팔 층에 깨끗한 방이 있어요.",
+      "reading": "Ne, bakkwo deurilgeyo. Pal cheunge kkaekkeutan bangi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "지금 바로 옮길 수 있을까요?",
+      "reading": "Jigeum baro omgil su isseulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 지금 새 카드 키를 가지고 올라갈게요.",
+      "reading": "Ne, jigeum sae kadeu kireul gajigo ollagalgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다. 기다릴게요.",
+      "reading": "Ne, gamsahamnida. Gidarilgeyo."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "en-A7-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.letter-o",
+      "kind": "letter",
+      "text": "O",
+      "reading": "oʊ"
+    },
+    {
+      "id": "en.letter-r",
+      "kind": "letter",
+      "text": "R",
+      "reading": "ɑːr"
+    },
+    {
+      "id": "en.alphabet",
+      "text": "alphabet",
+      "reading": "ˈælfəbɛt"
+    },
+    {
+      "id": "en.vowel",
+      "text": "vowel",
+      "reading": "ˈvaʊəl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, how many vowels are in the alphabet?",
+      "reading": "ˈnɑːm, ˈhaʊ ˈmɛni ˈvaʊəlz ər ɪn ði ˈælfəbɛt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Five: A, E, I, O, and U.",
+      "reading": "ˈfaɪv: ˈeɪ, ˈiː, ˈaɪ, ˈoʊ, ənd ˈjuː."
+    },
+    {
+      "speaker": "b",
+      "text": "Right! And is R a vowel?",
+      "reading": "ˈraɪt! ənd ɪz ˈɑːr ə ˈvaʊəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, R isn't a vowel.",
+      "reading": "ˈnoʊ, ˈɑːr ˈɪzənt ə ˈvaʊəl."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.letter-o",
+      "options": [
+        "en.letter-u",
+        "en.letter-a",
+        "en.letter-r"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-o"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-r",
+      "options": [
+        "en.letter-l",
+        "en.letter-i",
+        "en.letter-o"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-r"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.alphabet"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.vowel"
+    },
+    {
+      "type": "listen-choose",
+      "item": "en.vowel"
+    },
+    {
+      "type": "choose-text",
+      "item": "en.alphabet"
+    },
+    {
+      "type": "choose-text",
+      "item": "en.vowel"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-r"
+    },
+    {
+      "type": "speak",
+      "item": "en.alphabet"
+    }
+  ]
+}

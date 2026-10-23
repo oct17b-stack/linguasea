@@ -1,0 +1,60 @@
+{
+  "id": "ja-B10-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.koohii",
+      "text": "コーヒー",
+      "reading": "kōhī"
+    },
+    {
+      "id": "ja.miruku",
+      "text": "ミルク",
+      "reading": "miruku"
+    },
+    {
+      "id": "ja.satou",
+      "text": "さとう",
+      "reading": "satō"
+    },
+    {
+      "id": "ja.kaferate",
+      "text": "カフェラテ",
+      "reading": "kaferate"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、なにに しますか。",
+      "reading": "Namu-san, nani ni shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "アイスコーヒーに します。ゆきさんは？",
+      "reading": "Aisu kōhī ni shimasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは カフェラテに します。",
+      "reading": "Watashi wa kaferate ni shimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "アイスコーヒーと カフェラテですね。ミルクと さとうは いりますか。",
+      "reading": "Aisu kōhī to kaferate desu ne. Miruku to satō wa irimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ミルクを おねがいします。さとうは いりません。",
+      "reading": "Miruku o onegaishimasu. Satō wa irimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。おまちください。",
+      "reading": "Hai. Omachi kudasai."
+    }
+  ]
+}

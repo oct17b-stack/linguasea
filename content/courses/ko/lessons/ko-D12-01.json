@@ -1,0 +1,86 @@
+{
+  "id": "ko-D12-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.seupgwan",
+      "text": "습관",
+      "reading": "seupgwan"
+    },
+    {
+      "id": "ko.jami-deulda",
+      "kind": "phrase",
+      "text": "잠이 들다",
+      "reading": "jami deulda"
+    },
+    {
+      "id": "ko.sumyeon",
+      "text": "수면",
+      "reading": "sumyeon"
+    },
+    {
+      "id": "ko.bulmyeonjeung",
+      "text": "불면증",
+      "reading": "bulmyeonjeung"
+    },
+    {
+      "id": "ko.piro",
+      "text": "피로",
+      "reading": "piro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 요즘 수면 습관은 어때요? 보통 몇 시에 자요?",
+      "reading": "Nam ssi, yojeum sumyeon seupgwaneun eottaeyo? Botong myeot sie jayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "보통 열두 시에 누워요. 그런데 잠이 안 들 때가 있어요.",
+      "reading": "Botong yeoldu sie nuwoyo. Geureonde jami an deul ttaega isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "얼마나 자주 그래요?",
+      "reading": "Eolmana jaju geuraeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일주일에 두세 번쯤이요. 새벽 세 시까지 못 잘 때도 있어요.",
+      "reading": "Iljuire duse beonjjeumiyo. Saebyeok se sikkaji mot jal ttaedo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 낮에 피로 때문에 힘들겠네요.",
+      "reading": "Geureom naje piro ttaemune himdeulgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 수업 시간에 졸 때가 있어요.",
+      "reading": "Ne, sueop sigane jol ttaega isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "자기 전에 스마트폰을 봐요?",
+      "reading": "Jagi jeone seumateuponeul bwayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네… 침대에서 한 시간쯤 봐요.",
+      "reading": "Ne… Chimdaeeseo han siganjjeum bwayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그게 문제일 수도 있어요. 불면증이 되기 전에 습관을 바꾸세요.",
+      "reading": "Geuge munjeil sudo isseoyo. Bulmyeonjeungi doegi jeone seupgwaneul bakkuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘부터 자기 전에는 스마트폰을 안 볼게요.",
+      "reading": "Ne, oneulbuteo jagi jeoneneun seumateuponeul an bolgeyo."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "en-A9-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.what-does-mean",
+      "kind": "phrase",
+      "text": "What does … mean?",
+      "reading": "ˈwʌt dʌz … ˈmiːn?"
+    },
+    {
+      "id": "en.how-do-you-say-in-english",
+      "kind": "phrase",
+      "text": "How do you say … in English?",
+      "reading": "ˈhaʊ duː juː ˈseɪ … ɪn ˈɪŋɡlɪʃ?"
+    },
+    {
+      "id": "en.word",
+      "text": "word",
+      "reading": "wɜːrd"
+    },
+    {
+      "id": "en.i-dont-know",
+      "kind": "phrase",
+      "text": "I don't know.",
+      "reading": "aɪ ˈdoʊnt ˈnoʊ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "How do you say \"kreng jai\" in English?",
+      "reading": "ˈhaʊ duː juː ˈseɪ \"ˈkrɛŋ ˈdʒaɪ\" ɪn ˈɪŋɡlɪʃ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Sorry, I don't know! What does it mean?",
+      "reading": "ˈsɑːri, aɪ ˈdoʊnt ˈnoʊ! ˈwʌt dʌz ɪt ˈmiːn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hmm… It's a very Thai word!",
+      "reading": "ˈhm… ɪts ə ˈvɛri ˈtaɪ ˈwɜːrd!"
+    },
+    {
+      "speaker": "c",
+      "text": "OK! \"Kreng jai.\" I like it!",
+      "reading": "oʊˈkeɪ! \"ˈkrɛŋ ˈdʒaɪ.\" aɪ ˈlaɪk ɪt!"
+    }
+  ]
+}

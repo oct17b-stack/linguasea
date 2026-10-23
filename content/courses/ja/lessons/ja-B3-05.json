@@ -1,0 +1,65 @@
+{
+  "id": "ja-B3-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kinou",
+      "text": "きのう",
+      "reading": "kinō"
+    },
+    {
+      "id": "ja.ototoi",
+      "text": "おととい",
+      "reading": "ototoi"
+    },
+    {
+      "id": "ja.asatte",
+      "text": "あさって",
+      "reading": "asatte"
+    },
+    {
+      "id": "ja.konban",
+      "text": "こんばん",
+      "reading": "konban"
+    },
+    {
+      "id": "ja.kesa",
+      "text": "けさ",
+      "reading": "kesa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、おはようございます。けさは さむいですね。",
+      "reading": "Yuki-san, ohayō gozaimasu. Kesa wa samui desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですね。ナムさん、きのうは やすみでしたか。",
+      "reading": "Sō desu ne. Namu-san, kinō wa yasumi deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。きのうと おとといは やすみでした。",
+      "reading": "Hai. Kinō to ototoi wa yasumi deshita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。あさっては テストですよ。",
+      "reading": "Ii desu ne. Asatte wa tesuto desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですか。じゃあ、こんばん がんばります！",
+      "reading": "Hontō desu ka. Jā, konban ganbarimasu!"
+    },
+    {
+      "speaker": "c",
+      "text": "がんばって！",
+      "reading": "Ganbatte!"
+    }
+  ]
+}

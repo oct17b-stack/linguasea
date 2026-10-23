@@ -1,0 +1,55 @@
+{
+  "id": "en-A5-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.husband",
+      "text": "husband",
+      "reading": "ˈhʌzbənd"
+    },
+    {
+      "id": "en.wife",
+      "text": "wife",
+      "reading": "waɪf"
+    },
+    {
+      "id": "en.son",
+      "text": "son",
+      "reading": "sʌn"
+    },
+    {
+      "id": "en.daughter",
+      "text": "daughter",
+      "reading": "ˈdɔːtər"
+    },
+    {
+      "id": "en.married",
+      "text": "married",
+      "reading": "ˈmærid"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is your aunt married?",
+      "reading": "ˈnɑːm, ɪz jʊr ˈænt ˈmærid?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. This is her husband.",
+      "reading": "ˈjɛs. ðɪs ɪz hɜːr ˈhʌzbənd."
+    },
+    {
+      "speaker": "c",
+      "text": "Do they have children?",
+      "reading": "duː ðeɪ ˈhæv ˈtʃɪldrən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, a son and a daughter.",
+      "reading": "ˈjɛs, ə ˈsʌn ənd ə ˈdɔːtər."
+    }
+  ]
+}

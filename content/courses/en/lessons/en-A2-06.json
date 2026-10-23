@@ -1,0 +1,114 @@
+{
+  "id": "en-A2-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.tell",
+      "text": "tell",
+      "reading": "tɛl"
+    },
+    {
+      "id": "en.rise",
+      "text": "rise",
+      "reading": "raɪz"
+    },
+    {
+      "id": "en.bed",
+      "text": "bed",
+      "reading": "bɛd"
+    },
+    {
+      "id": "en.bet",
+      "text": "bet",
+      "reading": "bɛt"
+    },
+    {
+      "id": "en.thin",
+      "text": "thin",
+      "reading": "θɪn"
+    },
+    {
+      "id": "en.thing",
+      "text": "thing",
+      "reading": "θɪŋ"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.tell",
+      "options": [
+        "en.ten"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.rise",
+      "options": [
+        "en.rice"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.bed",
+      "options": [
+        "en.bet"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.bet",
+      "options": [
+        "en.bed"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.thin",
+      "options": [
+        "en.thing"
+      ]
+    },
+    {
+      "type": "listen-text",
+      "item": "en.thing",
+      "options": [
+        "en.thin"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.tell"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.rise"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.bed"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.bet"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.thin"
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.thing"
+    },
+    {
+      "type": "speak",
+      "item": "en.tell"
+    },
+    {
+      "type": "speak",
+      "item": "en.rise"
+    }
+  ]
+}

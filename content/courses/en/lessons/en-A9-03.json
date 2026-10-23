@@ -1,0 +1,54 @@
+{
+  "id": "en-A9-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.listen-and-repeat",
+      "kind": "phrase",
+      "text": "Listen and repeat.",
+      "reading": "ˈlɪsən ənd rɪˈpiːt."
+    },
+    {
+      "id": "en.look-at-the-board",
+      "kind": "phrase",
+      "text": "Look at the board.",
+      "reading": "ˈlʊk ət ðə ˈbɔːrd."
+    },
+    {
+      "id": "en.open-your-book",
+      "kind": "phrase",
+      "text": "Open your book.",
+      "reading": "ˈoʊpən jʊr ˈbʊk."
+    },
+    {
+      "id": "en.close-your-book",
+      "kind": "phrase",
+      "text": "Close your book.",
+      "reading": "ˈkloʊz jʊr ˈbʊk."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good morning, class! Open your book, please.",
+      "reading": "ɡʊd ˈmɔːrnɪŋ, ˈklæs! ˈoʊpən jʊr ˈbʊk, ˈpliːz."
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry! I don't have my book.",
+      "reading": "ˈsɑːri! aɪ ˈdoʊnt ˈhæv maɪ ˈbʊk."
+    },
+    {
+      "speaker": "b",
+      "text": "That's OK. Look at the board, please.",
+      "reading": "ðæts oʊˈkeɪ. ˈlʊk ət ðə ˈbɔːrd, ˈpliːz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Thank you!",
+      "reading": "oʊˈkeɪ. ˈθæŋk juː!"
+    }
+  ]
+}

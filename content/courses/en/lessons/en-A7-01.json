@@ -1,0 +1,131 @@
+{
+  "id": "en-A7-01",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.letter-a",
+      "kind": "letter",
+      "text": "A",
+      "reading": "eɪ",
+      "say": "ay"
+    },
+    {
+      "id": "en.letter-h",
+      "kind": "letter",
+      "text": "H",
+      "reading": "eɪtʃ"
+    },
+    {
+      "id": "en.letter-j",
+      "kind": "letter",
+      "text": "J",
+      "reading": "dʒeɪ"
+    },
+    {
+      "id": "en.letter-k",
+      "kind": "letter",
+      "text": "K",
+      "reading": "keɪ"
+    },
+    {
+      "id": "en.letter-i",
+      "kind": "letter",
+      "text": "I",
+      "reading": "aɪ"
+    },
+    {
+      "id": "en.letter-y",
+      "kind": "letter",
+      "text": "Y",
+      "reading": "waɪ"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.letter-a",
+      "options": [
+        "en.letter-e",
+        "en.letter-i",
+        "en.letter-h"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-a"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-h",
+      "options": [
+        "en.letter-a",
+        "en.letter-j"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-h"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-j",
+      "options": [
+        "en.letter-g",
+        "en.letter-k",
+        "en.letter-a"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-j"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-k",
+      "options": [
+        "en.letter-j",
+        "en.letter-q",
+        "en.letter-a"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-k"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-i",
+      "options": [
+        "en.letter-e",
+        "en.letter-y",
+        "en.letter-a"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-i"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-y",
+      "options": [
+        "en.letter-i",
+        "en.letter-a"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-y"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-a"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-j"
+    }
+  ]
+}

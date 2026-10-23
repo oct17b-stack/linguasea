@@ -1,0 +1,65 @@
+{
+  "id": "ja-B9-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ippon",
+      "text": "いっぽん",
+      "reading": "ippon"
+    },
+    {
+      "id": "ja.sanbon",
+      "text": "さんぼん",
+      "reading": "sanbon"
+    },
+    {
+      "id": "ja.nanbon",
+      "text": "なんぼん",
+      "reading": "nanbon"
+    },
+    {
+      "id": "ja.ichimai",
+      "text": "いちまい",
+      "reading": "ichimai"
+    },
+    {
+      "id": "ja.nanmai",
+      "text": "なんまい",
+      "reading": "nanmai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、おちゃは なんぼん かいますか。",
+      "reading": "Namu-san, ocha wa nanbon kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "さんぼん かいます。みずも いっぽん かいます。",
+      "reading": "Sanbon kaimasu. Mizu mo ippon kaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "きっても かいますか。",
+      "reading": "Kitte mo kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。すみません、きってを ください。",
+      "reading": "Hai. Sumimasen, kitte o kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "なんまいですか。",
+      "reading": "Nanmai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いちまい おねがいします。",
+      "reading": "Ichimai onegaishimasu."
+    }
+  ]
+}

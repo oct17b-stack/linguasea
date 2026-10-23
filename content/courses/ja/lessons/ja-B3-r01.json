@@ -1,0 +1,65 @@
+{
+  "id": "ja-B3-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.maishuu",
+      "text": "まいしゅう",
+      "reading": "maishū"
+    },
+    {
+      "id": "ja.choudo",
+      "text": "ちょうど",
+      "reading": "chōdo"
+    },
+    {
+      "id": "ja.isogimasu",
+      "text": "いそぎます",
+      "reading": "isogimasu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "まいしゅう すいようびは にほんごの じゅぎょうです。",
+        "reading": "Maishū suiyōbi wa Nihongo no jugyō desu."
+      },
+      {
+        "text": "じゅぎょうは 9時から 10時半までです。",
+        "reading": "Jugyō wa kuji kara jūji han made desu."
+      }
+    ],
+    [
+      {
+        "text": "きょうは すいようびです。",
+        "reading": "Kyō wa suiyōbi desu."
+      },
+      {
+        "text": "でも、いま 8時半です！",
+        "reading": "Demo, ima hachiji han desu!"
+      },
+      {
+        "text": "ナムさんは いそぎます。",
+        "reading": "Namu-san wa isogimasu."
+      },
+      {
+        "text": "ちょうど 9時に きょうしつに はいります。",
+        "reading": "Chōdo kuji ni kyōshitsu ni hairimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

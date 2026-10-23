@@ -1,0 +1,90 @@
+{
+  "id": "ko-E6-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.oyeom",
+      "text": "오염",
+      "reading": "oyeom"
+    },
+    {
+      "id": "ko.beoryeojida",
+      "text": "버려지다",
+      "reading": "beoryeojida"
+    },
+    {
+      "id": "ko.sseokda",
+      "text": "썩다",
+      "reading": "sseokda"
+    },
+    {
+      "id": "ko.bunhaedoeda",
+      "text": "분해되다",
+      "reading": "bunhaedoeda"
+    },
+    {
+      "id": "ko.haeyang",
+      "text": "해양",
+      "reading": "haeyang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 어제 텔레비전에서 바다 쓰레기에 대한 프로그램 봤어?",
+      "reading": "Nama, eoje tellebijeoneseo bada sseuregie daehan peurogeuraem bwasseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "응, 봤어. 해양 오염이 그렇게 큰 문제인 줄 몰랐어.",
+      "reading": "Eung, bwasseo. Haeyang oyeomi geureoke keun munjein jul mollasseo."
+    },
+    {
+      "speaker": "b",
+      "text": "플라스틱은 바다에서 몇백 년이 지나도 잘 안 썩는다고 해.",
+      "reading": "Peullaseutigeun badaeseo myeotbaek nyeoni jinado jal an sseongneundago hae."
+    },
+    {
+      "speaker": "a",
+      "text": "분해되는 데 정말 오래 걸리는구나.",
+      "reading": "Bunhaedoeneun de jeongmal orae geollineunguna."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 매일 수많은 플라스틱이 만들어지고 버려져.",
+      "reading": "Geureonde maeil sumaneun peullaseutigi mandeureojigo beoryeojyeo."
+    },
+    {
+      "speaker": "a",
+      "text": "버려진 플라스틱은 결국 다 바다로 가?",
+      "reading": "Beoryeojin peullaseutigeun gyeolguk da badaro ga?"
+    },
+    {
+      "speaker": "b",
+      "text": "다는 아니지만, 강에 버려진 쓰레기가 바다까지 가기도 해.",
+      "reading": "Daneun anijiman, gange beoryeojin sseuregiga badakkaji gagido hae."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 바다에 사는 동물들이 플라스틱을 먹을 수도 있겠다.",
+      "reading": "Geureom badae saneun dongmuldeuri peullaseutigeul meogeul sudo itgetda."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아. 물고기 몸에서도 작은 플라스틱이 나왔다고 해.",
+      "reading": "Maja. Mulgogi momeseodo jageun peullaseutigi nawatdago hae."
+    },
+    {
+      "speaker": "a",
+      "text": "무섭다. 그 물고기를 우리가 먹잖아.",
+      "reading": "Museopda. Geu mulgogireul uriga meokjana."
+    },
+    {
+      "speaker": "b",
+      "text": "그러니까 오늘부터 플라스틱을 덜 쓰자.",
+      "reading": "Geureonikka oneulbuteo peullaseutigeul deol sseuja."
+    }
+  ]
+}

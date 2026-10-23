@@ -1,0 +1,60 @@
+{
+  "id": "ja-B8-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hiroi",
+      "text": "ひろい",
+      "reading": "hiroi"
+    },
+    {
+      "id": "ja.semai",
+      "text": "せまい",
+      "reading": "semai"
+    },
+    {
+      "id": "ja.benri",
+      "text": "べんり",
+      "reading": "benri"
+    },
+    {
+      "id": "ja.kitanai",
+      "text": "きたない",
+      "reading": "kitanai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの へやは ひろいですね。",
+      "reading": "Namu-san no heya wa hiroi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、ひろくないですよ。いもうとの へやは ひろいです。",
+      "reading": "Iie, hirokunai desu yo. Imōto no heya wa hiroi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、きれいな へやですね。",
+      "reading": "Demo, kirei na heya desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "きょうは きれいです。いつもは ちょっと きたないです。",
+      "reading": "Kyō wa kirei desu. Itsumo wa chotto kitanai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしの アパートは せまいですが、べんりです。",
+      "reading": "Watashi no apāto wa semai desu ga, benri desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしの うちは とおいですから、べんりじゃ ありません。",
+      "reading": "Watashi no uchi wa tōi desu kara, benri ja arimasen."
+    }
+  ]
+}

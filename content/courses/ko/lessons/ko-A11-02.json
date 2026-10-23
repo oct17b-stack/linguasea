@@ -1,0 +1,51 @@
+{
+  "id": "ko-A11-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ibun",
+      "text": "이분",
+      "reading": "ibun"
+    },
+    {
+      "id": "ko.geubun",
+      "text": "그분",
+      "reading": "geubun"
+    },
+    {
+      "id": "ko.jeobun",
+      "text": "저분",
+      "reading": "jeobun"
+    },
+    {
+      "id": "ko.geu-saram",
+      "kind": "phrase",
+      "text": "그 사람",
+      "reading": "geu saram"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 저분은 누구예요?",
+      "reading": "Nam ssi, jeobuneun nuguyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 선생님이에요. 제 선생님이에요.",
+      "reading": "I seonsaengnimieyo. Je seonsaengnimieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그분이 이 선생님이에요?",
+      "reading": "A, geubuni I seonsaengnimieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 선생님, 안녕하세요!",
+      "reading": "Ne! Seonsaengnim, annyeonghaseyo!"
+    }
+  ]
+}

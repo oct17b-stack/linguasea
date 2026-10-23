@@ -1,0 +1,61 @@
+{
+  "id": "en-A3-06",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.first-name",
+      "text": "first name",
+      "reading": "ˈfɜːrst ˌneɪm"
+    },
+    {
+      "id": "en.last-name",
+      "text": "last name",
+      "reading": "ˈlæst ˌneɪm"
+    },
+    {
+      "id": "en.nickname",
+      "text": "nickname",
+      "reading": "ˈnɪkneɪm"
+    },
+    {
+      "id": "en.call-me",
+      "kind": "phrase",
+      "text": "Call me …",
+      "reading": "ˈkɔːl miː …"
+    },
+    {
+      "id": "en.mr",
+      "text": "Mr.",
+      "reading": "ˈmɪstər"
+    },
+    {
+      "id": "en.ms",
+      "text": "Ms.",
+      "reading": "mɪz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello! I'm Tom Miller.",
+      "reading": "həˈloʊ! aɪm ˈtɑːm ˈmɪlər."
+    },
+    {
+      "speaker": "a",
+      "text": "Nice to meet you, Mr. Miller.",
+      "reading": "ˈnaɪs tə ˈmiːt juː, ˈmɪstər ˈmɪlər."
+    },
+    {
+      "speaker": "b",
+      "text": "Call me Tom! What's your first name?",
+      "reading": "ˈkɔːl miː ˈtɑːm! ˈwʌts jʊr ˈfɜːrst ˌneɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's very long. My nickname is Nam.",
+      "reading": "ɪts ˈvɛri ˈlɔːŋ. maɪ ˈnɪkneɪm ɪz ˈnɑːm."
+    }
+  ]
+}

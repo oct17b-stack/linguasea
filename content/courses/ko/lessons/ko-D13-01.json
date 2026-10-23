@@ -1,0 +1,85 @@
+{
+  "id": "ko-D13-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gohyang",
+      "text": "고향",
+      "reading": "gohyang"
+    },
+    {
+      "id": "ko.dosi",
+      "text": "도시",
+      "reading": "dosi"
+    },
+    {
+      "id": "ko.sudo",
+      "text": "수도",
+      "reading": "sudo"
+    },
+    {
+      "id": "ko.ingu",
+      "text": "인구",
+      "reading": "ingu"
+    },
+    {
+      "id": "ko.jibang",
+      "text": "지방",
+      "reading": "jibang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 고향이 어디예요?",
+      "reading": "Nam ssi, gohyangi eodiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제 고향은 방콕이에요. 태국의 수도예요.",
+      "reading": "Je gohyangeun Bangkogieyo. Taegugui sudoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "방콕은 어떤 도시예요?",
+      "reading": "Bangkogeun eotteon dosiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아주 큰 도시예요. 인구가 천만 명쯤 돼요.",
+      "reading": "Aju keun dosiyeyo. Inguga cheonman myeongjjeum dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "방콕은 뭐로 유명해요?",
+      "reading": "Bangkogeun mworo yumyeonghaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방콕은 맛있는 음식으로 유명해요. 그리고 쇼핑으로도 유명해요.",
+      "reading": "Bangkogeun masinneun eumsigeuro yumyeonghaeyo. Geurigo syopingeurodo yumyeonghaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "태국의 지방 도시 중에서는 어디가 유명해요?",
+      "reading": "Taegugui jibang dosi jungeseoneun eodiga yumyeonghaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "치앙마이가 유명해요. 치앙마이는 산하고 커피로 유명해요.",
+      "reading": "Chiangmaiga yumyeonghaeyo. Chiangmaineun sanhago keopiro yumyeonghaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "커피요? 저는 커피를 정말 좋아해요.",
+      "reading": "Keopiyo? Jeoneun keopireul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 꼭 가 보세요. 치앙마이는 겨울에 날씨가 시원하고 조용해요.",
+      "reading": "Geureom kkok ga boseyo. Chiangmaineun gyeoure nalssiga siwonhago joyonghaeyo."
+    }
+  ]
+}

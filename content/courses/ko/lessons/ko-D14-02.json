@@ -1,0 +1,85 @@
+{
+  "id": "ko-D14-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.seutail",
+      "text": "스타일",
+      "reading": "seutail"
+    },
+    {
+      "id": "ko.dadeumda",
+      "text": "다듬다",
+      "reading": "dadeumda"
+    },
+    {
+      "id": "ko.sut",
+      "text": "숱",
+      "reading": "sut"
+    },
+    {
+      "id": "ko.deurai-hada",
+      "text": "드라이하다",
+      "reading": "deuraihada"
+    },
+    {
+      "id": "ko.eoullida",
+      "text": "어울리다",
+      "reading": "eoullida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "손님, 어떤 스타일로 해 드릴까요?",
+      "reading": "Sonnim, eotteon seutaillo hae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 사진처럼 하고 싶어요.",
+      "reading": "I sajincheoreom hago sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "음, 손님은 숱이 많아서 이 스타일이 잘 어울릴 거예요.",
+      "reading": "Eum, sonnimeun suchi manaseo i seutairi jal eoullil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 그럼 이 스타일로 해 주세요.",
+      "reading": "Jeongmaryo? Geureom i seutaillo hae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "숱도 좀 정리해 드릴까요?",
+      "reading": "Sutdo jom jeongnihae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 숱도 정리해 주세요. 그리고 끝도 좀 다듬어 주세요.",
+      "reading": "Ne, sutdo jeongnihae juseyo. Geurigo kkeutdo jom dadeumeo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다 됐어요. 마지막으로 드라이해 드릴까요?",
+      "reading": "Da dwaesseoyo. Majimageuro deuraihae deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 드라이해 주세요. 와, 마음에 들어요!",
+      "reading": "Ne, deuraihae juseyo. Wa, maeume deureoyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "손님한테 정말 잘 어울려요. 다음에는 파마도 해 보세요.",
+      "reading": "Sonnimhante jeongmal jal eoullyeoyo. Daeumeneun pamado hae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 다음에는 짧은 머리로 해 볼게요.",
+      "reading": "Joayo. Daeumeneun jjalbeun meoriro hae bolgeyo."
+    }
+  ]
+}

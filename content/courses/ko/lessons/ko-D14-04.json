@@ -1,0 +1,86 @@
+{
+  "id": "ko-D14-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.surijeom",
+      "text": "수리점",
+      "reading": "surijeom"
+    },
+    {
+      "id": "ko.aekjeong",
+      "text": "액정",
+      "reading": "aekjeong"
+    },
+    {
+      "id": "ko.geumi-gada",
+      "kind": "phrase",
+      "text": "금이 가다",
+      "reading": "geumi gada"
+    },
+    {
+      "id": "ko.suribi",
+      "text": "수리비",
+      "reading": "suribi"
+    },
+    {
+      "id": "ko.bupum",
+      "text": "부품",
+      "reading": "bupum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 스마트폰에 문제가 있으세요?",
+      "reading": "Eoseo oseyo. Seumateupone munjega isseuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 어제 스마트폰이 떨어졌는데 화면이 안 나와요.",
+      "reading": "Ne, eoje seumateuponi tteoreojyeonneunde hwamyeoni an nawayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좀 볼게요. 액정에 금이 갔네요. 세게 떨어졌나 봐요.",
+      "reading": "Jom bolgeyo. Aekjeonge geumi ganneyo. Sege tteoreojyeonna bwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 계단에서 떨어졌어요.",
+      "reading": "Ne, gyedaneseo tteoreojyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "소리도 안 나요. 안에 있는 부품도 고장 났나 봐요.",
+      "reading": "Sorido an nayo. Ane inneun bupumdo gojang nanna bwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "수리비가 얼마나 들어요?",
+      "reading": "Suribiga eolmana deureoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "액정하고 부품을 다 바꾸면 이십만 원쯤 들어요.",
+      "reading": "Aekjeonghago bupumeul da bakkumyeon isimman wonjjeum deureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "생각보다 비싸네요. 그래도 여기가 다른 수리점보다 싼가 봐요. 손님이 정말 많네요.",
+      "reading": "Saenggakboda bissaneyo. Geuraedo yeogiga dareun surijeomboda ssanga bwayo. Sonnimi jeongmal manneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 저희가 이 동네에서 제일 싸요.",
+      "reading": "Ne, jeohuiga i dongneeseo jeil ssayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 여기에서 고칠게요. 언제까지 돼요?",
+      "reading": "Geureom yeogieseo gochilgeyo. Eonjekkaji dwaeyo?"
+    }
+  ]
+}

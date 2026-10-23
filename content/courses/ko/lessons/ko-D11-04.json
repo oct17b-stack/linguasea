@@ -1,0 +1,86 @@
+{
+  "id": "ko-D11-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.dongmul-byeongwon",
+      "kind": "phrase",
+      "text": "동물 병원",
+      "reading": "dongmul byeongwon"
+    },
+    {
+      "id": "ko.suuisa",
+      "text": "수의사",
+      "reading": "suuisa"
+    },
+    {
+      "id": "ko.teol",
+      "text": "털",
+      "reading": "teol"
+    },
+    {
+      "id": "ko.ppajida",
+      "text": "빠지다",
+      "reading": "ppajida"
+    },
+    {
+      "id": "ko.jitda",
+      "text": "짖다",
+      "reading": "jitda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저, 이 고양이를 키우고 싶은데요. 걱정이 좀 있어요.",
+      "reading": "Jeo, i goyangireul kiugo sipeundeyo. Geokjeongi jom isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 뭐든지 물어보세요.",
+      "reading": "Ne, mwodeunji mureoboseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고양이가 아프면 어떡해요? 저는 동물 병원을 잘 몰라요.",
+      "reading": "Goyangiga apeumyeon eotteokaeyo? Jeoneun dongmul byeongwoneul jal mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "걱정하지 마세요. 근처에 좋은 동물 병원이 있어요. 수의사 선생님도 아주 친절하세요.",
+      "reading": "Geokjeonghaji maseyo. Geuncheoe joeun dongmul byeongwoni isseoyo. Suuisa seonsaengnimdo aju chinjeolhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "털이 많이 빠지면 어떡해요? 집이 작아서 청소가 걱정이에요.",
+      "reading": "Teori mani ppajimyeon eotteokaeyo? Jibi jagaseo cheongsoga geokjeongieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "이 고양이는 털이 별로 안 빠져요. 청소를 자주 하면 괜찮아요.",
+      "reading": "I goyangineun teori byeollo an ppajyeoyo. Cheongsoreul jaju hamyeon gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "밤에 고양이가 울면 어떡해요? 이웃이 싫어할 수도 있어요.",
+      "reading": "Bame goyangiga ulmyeon eotteokaeyo? Iusi sireohal sudo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고양이는 강아지처럼 짖지 않아서 괜찮아요. 아주 조용해요.",
+      "reading": "Goyangineun gangajicheoreom jitji anaseo gwaenchanayo. Aju joyonghaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이네요. 그럼 다음 주에 다시 와도 돼요?",
+      "reading": "Dahaengineyo. Geureom daeum jue dasi wado dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 언제든지 오세요. 기다릴게요.",
+      "reading": "Ne, eonjedeunji oseyo. Gidarilgeyo."
+    }
+  ]
+}

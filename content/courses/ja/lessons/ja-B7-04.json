@@ -1,0 +1,61 @@
+{
+  "id": "ja-B7-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.mou-sukoshi",
+      "kind": "phrase",
+      "text": "もう すこし",
+      "reading": "mō sukoshi"
+    },
+    {
+      "id": "ja.ookime",
+      "text": "おおきめ",
+      "reading": "ōkime"
+    },
+    {
+      "id": "ja.chiisame",
+      "text": "ちいさめ",
+      "reading": "chiisame"
+    },
+    {
+      "id": "ja.pittari",
+      "text": "ぴったり",
+      "reading": "pittari"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、この コートの Mは ありますか。",
+      "reading": "Sumimasen, kono kōto no emu wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、こちらです。どうぞ。",
+      "reading": "Hai, kochira desu. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと ちいさめですね。もう すこし おおきめのは ありますか。",
+      "reading": "Chotto chiisame desu ne. Mō sukoshi ōkime no wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、Lです。どうぞ。",
+      "reading": "Hai, eru desu. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ぴったりです！",
+      "reading": "A, pittari desu!"
+    },
+    {
+      "speaker": "c",
+      "text": "よかったです。",
+      "reading": "Yokatta desu."
+    }
+  ]
+}

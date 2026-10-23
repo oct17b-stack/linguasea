@@ -1,0 +1,70 @@
+{
+  "id": "ja-B6-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ryoushin",
+      "text": "りょうしん",
+      "reading": "ryōshin"
+    },
+    {
+      "id": "ja.souji",
+      "text": "そうじ",
+      "reading": "sōji"
+    },
+    {
+      "id": "ja.araimasu",
+      "text": "あらいます",
+      "reading": "araimasu"
+    },
+    {
+      "id": "ja.hirune",
+      "text": "ひるね",
+      "reading": "hirune"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "にちようびは いつも 10時ごろ おきます。",
+        "reading": "Nichiyōbi wa itsumo jūji goro okimasu."
+      },
+      {
+        "text": "ごぜんは うちを そうじします。",
+        "reading": "Gozen wa uchi o sōji shimasu."
+      },
+      {
+        "text": "ごごは ちちの くるまを あらいます。",
+        "reading": "Gogo wa chichi no kuruma o araimasu."
+      },
+      {
+        "text": "それから、すこし ひるねを します。",
+        "reading": "Sorekara, sukoshi hirune o shimasu."
+      }
+    ],
+    [
+      {
+        "text": "よる 7時に りょうしんと いもうとの ファーと ばんごはんを たべます。",
+        "reading": "Yoru shichiji ni ryōshin to imōto no Fā to bangohan o tabemasu."
+      },
+      {
+        "text": "にちようびの ばんごはんは いつも にぎやかです。",
+        "reading": "Nichiyōbi no bangohan wa itsumo nigiyaka desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

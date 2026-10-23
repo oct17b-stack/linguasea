@@ -1,0 +1,56 @@
+{
+  "id": "en-A8-04",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.in",
+      "text": "in",
+      "reading": "ɪn"
+    },
+    {
+      "id": "en.on",
+      "text": "on",
+      "reading": "ɑːn"
+    },
+    {
+      "id": "en.under",
+      "text": "under",
+      "reading": "ˈʌndər"
+    },
+    {
+      "id": "en.table",
+      "text": "table",
+      "reading": "ˈteɪbəl"
+    },
+    {
+      "id": "en.wheres-my",
+      "kind": "phrase",
+      "text": "Where's my …?",
+      "reading": "ˈwɛrz maɪ …?"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, where's my phone?",
+      "reading": "ˈɛmə, ˈwɛrz maɪ ˈfoʊn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Is it on the table?",
+      "reading": "ɪz ɪt ɑːn ðə ˈteɪbəl?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it isn't.",
+      "reading": "ˈnoʊ, ɪt ˈɪzənt."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh, it's under the table! Here you are.",
+      "reading": "ˈoʊ, ɪts ˈʌndər ðə ˈteɪbəl! ˈhɪr juː ˈɑːr."
+    }
+  ]
+}

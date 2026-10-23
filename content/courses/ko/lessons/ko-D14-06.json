@@ -1,0 +1,80 @@
+{
+  "id": "ko-D14-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.yogeum",
+      "text": "요금",
+      "reading": "yogeum"
+    },
+    {
+      "id": "ko.yeongeopsigan",
+      "text": "영업시간",
+      "reading": "yeongeopsigan"
+    },
+    {
+      "id": "ko.kupon",
+      "text": "쿠폰",
+      "reading": "kupon"
+    },
+    {
+      "id": "ko.jeongnip-hada",
+      "text": "적립하다",
+      "reading": "jeongnipada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "오늘 요금은 모두 칠만 원이에요.",
+      "reading": "Oneul yogeumeun modu chilman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "카드로 해 주세요. 그리고 이 쿠폰에 적립해 주시겠어요?",
+      "reading": "Kadeuro hae juseyo. Geurigo i kupone jeongnipae jusigesseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 열 번 적립하면 다음에 만 원 할인해 드려요.",
+      "reading": "Ne. Yeol beon jeongnipamyeon daeume man won harinhae deuryeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋네요. 혹시 영업시간이 어떻게 돼요?",
+      "reading": "Jonneyo. Hoksi yeongeopsigani eotteoke dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "오전 열 시부터 밤 아홉 시까지예요. 화요일은 쉬어요.",
+      "reading": "Ojeon yeol sibuteo bam ahop sikkajiyeyo. Hwayoireun swieoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다음 주 토요일 오후에 예약해 주실 수 있어요?",
+      "reading": "Daeum ju toyoil ohue yeyakae jusil su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 몇 시가 좋으세요?",
+      "reading": "Ne, myeot siga joeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 시로 해 주세요.",
+      "reading": "Du siro hae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 예약됐어요. 늦으시면 꼭 전화해 주세요.",
+      "reading": "Ne, yeyakdwaesseoyo. Neujeusimyeon kkok jeonhwahae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다. 그리고 다음에는 앞머리를 너무 짧게 자르지 말아 주세요. 하하.",
+      "reading": "Ne, gamsahamnida. Geurigo daeumeneun ammeorireul neomu jjalge jareuji mara juseyo. Haha."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-B10-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.fooku",
+      "text": "フォーク",
+      "reading": "fōku"
+    },
+    {
+      "id": "ja.naifu",
+      "text": "ナイフ",
+      "reading": "naifu"
+    },
+    {
+      "id": "ja.kozara",
+      "text": "こざら",
+      "reading": "kozara"
+    },
+    {
+      "id": "ja.napukin",
+      "text": "ナプキン",
+      "reading": "napukin"
+    },
+    {
+      "id": "ja.tsumayouji",
+      "text": "つまようじ",
+      "reading": "tsumayōji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、フォークと ナイフを ください。",
+      "reading": "Sumimasen, fōku to naifu o kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    },
+    {
+      "speaker": "c",
+      "text": "すみません、こざらを もう ひとつ おねがいします。",
+      "reading": "Sumimasen, kozara o mō hitotsu onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、こざらですね。",
+      "reading": "Hai, kozara desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、ナプキンと つまようじは ありますか。",
+      "reading": "Sorekara, napukin to tsumayōji wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "テーブルの 上に ありますよ。",
+      "reading": "Tēburu no ue ni arimasu yo."
+    }
+  ]
+}

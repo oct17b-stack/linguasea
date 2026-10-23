@@ -1,0 +1,60 @@
+{
+  "id": "ja-B7-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kooto",
+      "text": "コート",
+      "reading": "kōto"
+    },
+    {
+      "id": "ja.jaketto",
+      "text": "ジャケット",
+      "reading": "jaketto"
+    },
+    {
+      "id": "ja.seetaa",
+      "text": "セーター",
+      "reading": "sētā"
+    },
+    {
+      "id": "ja.buutsu",
+      "text": "ブーツ",
+      "reading": "būtsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、こんど ほっかいどうへ いきますね。",
+      "reading": "Namu-san, kondo Hokkaidō e ikimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、コートが ありません。",
+      "reading": "Hai. Demo, kōto ga arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "ほっかいどうは とても さむいですよ。",
+      "reading": "Hokkaidō wa totemo samui desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。さむいですから、コートと セーターを かいます。",
+      "reading": "Sō desu ne. Samui desu kara, kōto to sētā o kaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ブーツも かいますか。ゆきが たくさん ふりますよ。",
+      "reading": "Būtsu mo kaimasu ka. Yuki ga takusan furimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ブーツも かいます。ジャケットは ちちの ジャケットを きます。",
+      "reading": "Hai, būtsu mo kaimasu. Jaketto wa chichi no jaketto o kimasu."
+    }
+  ]
+}

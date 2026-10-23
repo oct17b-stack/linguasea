@@ -1,0 +1,53 @@
+{
+  "id": "ko-A11-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gin-meori",
+      "kind": "phrase",
+      "text": "긴 머리",
+      "reading": "gin meori"
+    },
+    {
+      "id": "ko.jjalbeun-meori",
+      "kind": "phrase",
+      "text": "짧은 머리",
+      "reading": "jjalbeun meori"
+    },
+    {
+      "id": "ko.angyeongeul-sseoyo",
+      "kind": "phrase",
+      "text": "안경을 써요",
+      "reading": "angyeongeul sseoyo"
+    },
+    {
+      "id": "ko.useoyo",
+      "text": "웃어요",
+      "reading": "useoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨 반 친구는 누구예요?",
+      "reading": "Nam ssi ban chinguneun nuguyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "안경을 써요. 웃어요.",
+      "reading": "Angyeongeul sseoyo. Useoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 짧은 머리 남자예요?",
+      "reading": "A, jjalbeun meori namjayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 긴 머리 여자예요!",
+      "reading": "Aniyo, gin meori yeojayeyo!"
+    }
+  ]
+}

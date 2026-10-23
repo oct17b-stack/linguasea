@@ -1,0 +1,70 @@
+{
+  "id": "ja-B4-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.sono",
+      "text": "その",
+      "reading": "sono"
+    },
+    {
+      "id": "ja.ano",
+      "text": "あの",
+      "reading": "ano"
+    },
+    {
+      "id": "ja.dono",
+      "text": "どの",
+      "reading": "dono"
+    },
+    {
+      "id": "ja.hoka",
+      "text": "ほか",
+      "reading": "hoka"
+    },
+    {
+      "id": "ja.man",
+      "text": "まん",
+      "reading": "man"
+    },
+    {
+      "id": "ja.kaimasu",
+      "text": "かいます",
+      "reading": "kaimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、どの かばんを かいますか。",
+      "reading": "Namu-san, dono kaban o kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あの しろい かばんです。すみません、あれは いくらですか。",
+      "reading": "Ano shiroi kaban desu. Sumimasen, are wa ikura desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "12,000円です。",
+      "reading": "Ichiman nisen en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと たかいですね。その くろい かばんは？",
+      "reading": "Chotto takai desu ne. Sono kuroi kaban wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "これは 8,000円です。ほかの いろも ありますよ。",
+      "reading": "Kore wa hassen en desu. Hoka no iro mo arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、その あおい かばんを かいます。",
+      "reading": "Jā, sono aoi kaban o kaimasu."
+    }
+  ]
+}

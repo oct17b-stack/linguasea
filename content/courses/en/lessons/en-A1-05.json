@@ -1,0 +1,60 @@
+{
+  "id": "en-A1-05",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.nice-to-see-you",
+      "kind": "phrase",
+      "text": "Nice to see you.",
+      "reading": "ˈnaɪs tə ˈsiː juː."
+    },
+    {
+      "id": "en.have-a-nice-day",
+      "kind": "phrase",
+      "text": "Have a nice day!",
+      "reading": "ˈhæv ə ˈnaɪs ˈdeɪ!"
+    },
+    {
+      "id": "en.you-too",
+      "kind": "phrase",
+      "text": "You too.",
+      "reading": "ˈjuː ˈtuː."
+    },
+    {
+      "id": "en.take-care",
+      "kind": "phrase",
+      "text": "Take care.",
+      "reading": "ˈteɪk ˈkɛr."
+    },
+    {
+      "id": "en.see-you-tomorrow",
+      "kind": "phrase",
+      "text": "See you tomorrow.",
+      "reading": "ˈsiː juː təˈmɑːroʊ."
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma! Nice to see you.",
+      "reading": "ˈhaɪ, ˈɛmə! ˈnaɪs tə ˈsiː juː."
+    },
+    {
+      "speaker": "c",
+      "text": "You too, Nam! Have a nice day!",
+      "reading": "ˈjuː ˈtuː, ˈnɑːm! ˈhæv ə ˈnaɪs ˈdeɪ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks, you too! See you tomorrow.",
+      "reading": "ˈθæŋks, ˈjuː ˈtuː! ˈsiː juː təˈmɑːroʊ."
+    },
+    {
+      "speaker": "c",
+      "text": "Bye! Take care.",
+      "reading": "ˈbaɪ! ˈteɪk ˈkɛr."
+    }
+  ]
+}

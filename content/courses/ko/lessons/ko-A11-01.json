@@ -1,0 +1,50 @@
+{
+  "id": "ko-A11-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.namja",
+      "text": "남자",
+      "reading": "namja"
+    },
+    {
+      "id": "ko.yeoja",
+      "text": "여자",
+      "reading": "yeoja"
+    },
+    {
+      "id": "ko.eorini",
+      "text": "어린이",
+      "reading": "eorini"
+    },
+    {
+      "id": "ko.saramdeul",
+      "text": "사람들",
+      "reading": "saramdeul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이게 누구예요? 남자예요? 여자예요?",
+      "reading": "Nam ssi, ige nuguyeyo? Namjayeyo? Yeojayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여자예요. 제 친구예요.",
+      "reading": "Yeojayeyo. Je chinguyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 남자들은요?",
+      "reading": "A, namjadeureunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "몰라요. 한국 사람들이에요.",
+      "reading": "Mollayo. Hanguk saramdeurieyo."
+    }
+  ]
+}

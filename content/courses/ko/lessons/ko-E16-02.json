@@ -1,0 +1,90 @@
+{
+  "id": "ko-E16-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sincheongseo",
+      "text": "신청서",
+      "reading": "sincheongseo"
+    },
+    {
+      "id": "ko.jakseong-hada",
+      "text": "작성하다",
+      "reading": "jakseonghada"
+    },
+    {
+      "id": "ko.gijae-hada",
+      "text": "기재하다",
+      "reading": "gijaehada"
+    },
+    {
+      "id": "ko.sabon",
+      "text": "사본",
+      "reading": "sabon"
+    },
+    {
+      "id": "ko.wonbon",
+      "text": "원본",
+      "reading": "wonbon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어떻게 오셨습니까?",
+      "reading": "Eotteoke osyeotseumnikka?"
+    },
+    {
+      "speaker": "a",
+      "text": "체류 기간을 연장했으면 합니다. 학생 비자입니다.",
+      "reading": "Cheryu giganeul yeonjanghaesseumyeon hamnida. Haksaeng bijaimnida."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 먼저 이 신청서를 작성해 주십시오.",
+      "reading": "Ne, meonjeo i sincheongseoreul jakseonghae jusipsio."
+    },
+    {
+      "speaker": "a",
+      "text": "여기에 주소도 기재해야 합니까?",
+      "reading": "Yeogie jusodo gijaehaeya hamnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 한국 주소를 기재하시고, 연락처도 써 주십시오.",
+      "reading": "Ne, Hanguk jusoreul gijaehasigo, yeollakcheodo sseo jusipsio."
+    },
+    {
+      "speaker": "a",
+      "text": "여권 사본도 필요합니까?",
+      "reading": "Yeogwon sabondo piryohamnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여권 원본과 사본을 같이 제출해 주십시오.",
+      "reading": "Ne, yeogwon wonbongwa saboneul gachi jechulhae jusipsio."
+    },
+    {
+      "speaker": "a",
+      "text": "죄송하지만 사본을 안 가지고 왔습니다. 여기에서 만들 수 있습니까?",
+      "reading": "Joesonghajiman saboneul an gajigo watseumnida. Yeogieseo mandeul su itseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 일 층에서 만들 수 있습니다.",
+      "reading": "Ne, il cheungeseo mandeul su itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 가능하면 오늘 접수했으면 합니다.",
+      "reading": "Geurigo ganeunghamyeon oneul jeopsuhaesseumyeon hamnida."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 사본을 가지고 오시면 바로 접수해 드리겠습니다.",
+      "reading": "Ne, saboneul gajigo osimyeon baro jeopsuhae deurigetseumnida."
+    }
+  ]
+}

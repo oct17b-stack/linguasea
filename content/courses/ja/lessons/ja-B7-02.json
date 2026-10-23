@@ -1,0 +1,65 @@
+{
+  "id": "ja-B7-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kimasu-wear",
+      "text": "きます",
+      "reading": "kimasu"
+    },
+    {
+      "id": "ja.hakimasu",
+      "text": "はきます",
+      "reading": "hakimasu"
+    },
+    {
+      "id": "ja.kaburimasu",
+      "text": "かぶります",
+      "reading": "kaburimasu"
+    },
+    {
+      "id": "ja.boushi",
+      "text": "ぼうし",
+      "reading": "bōshi"
+    },
+    {
+      "id": "ja.kutsushita",
+      "text": "くつした",
+      "reading": "kutsushita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "きょうは あついですね。ナムさんは ぼうしを かぶりますか。",
+      "reading": "Kyō wa atsui desu ne. Namu-san wa bōshi o kaburimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、かぶります。ゆきさんは？",
+      "reading": "Hai, kaburimasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも かぶります。それから、しろい シャツを きます。",
+      "reading": "Watashi mo kaburimasu. Sorekara, shiroi shatsu o kimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは Tシャツを きます。それから、くろい ズボンを はきます。",
+      "reading": "Watashi wa tīshatsu o kimasu. Sorekara, kuroi zubon o hakimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "くつしたも はきますか。",
+      "reading": "Kutsushita mo hakimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、くつしたは はきません。あついですから。",
+      "reading": "Iie, kutsushita wa hakimasen. Atsui desu kara."
+    }
+  ]
+}

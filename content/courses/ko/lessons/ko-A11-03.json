@@ -1,0 +1,50 @@
+{
+  "id": "ko-A11-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.yeoreobun",
+      "text": "여러분",
+      "reading": "yeoreobun"
+    },
+    {
+      "id": "ko.ajumeoni",
+      "text": "아주머니",
+      "reading": "ajumeoni"
+    },
+    {
+      "id": "ko.agassi",
+      "text": "아가씨",
+      "reading": "agassi"
+    },
+    {
+      "id": "ko.sonnim",
+      "text": "손님",
+      "reading": "sonnim"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "손님 여러분, 떡볶이 맛있어요!",
+      "reading": "Sonnim yeoreobun, tteokbokki masisseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아주머니, 떡볶이 하나 주세요.",
+      "reading": "Ajumeoni, tteokbokki hana juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 손님. 여기요. 맛있게 드세요!",
+      "reading": "Ne, sonnim. Yeogiyo. Masitge deuseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 수고하세요!",
+      "reading": "Gamsahamnida. Sugohaseyo!"
+    }
+  ]
+}

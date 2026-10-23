@@ -1,0 +1,132 @@
+{
+  "id": "en-A7-03",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.letter-t",
+      "kind": "letter",
+      "text": "T",
+      "reading": "tiː"
+    },
+    {
+      "id": "en.letter-v",
+      "kind": "letter",
+      "text": "V",
+      "reading": "viː"
+    },
+    {
+      "id": "en.letter-z",
+      "kind": "letter",
+      "text": "Z",
+      "reading": "ziː",
+      "say": "zee"
+    },
+    {
+      "id": "en.letter-q",
+      "kind": "letter",
+      "text": "Q",
+      "reading": "kjuː"
+    },
+    {
+      "id": "en.letter-u",
+      "kind": "letter",
+      "text": "U",
+      "reading": "juː"
+    },
+    {
+      "id": "en.letter-w",
+      "kind": "letter",
+      "text": "W",
+      "reading": "ˈdʌbəljuː"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "listen-text",
+      "item": "en.letter-t",
+      "options": [
+        "en.letter-d",
+        "en.letter-p",
+        "en.letter-c"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-t"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-v",
+      "options": [
+        "en.letter-b",
+        "en.letter-z",
+        "en.letter-e"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-v"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-z",
+      "options": [
+        "en.letter-c",
+        "en.letter-g",
+        "en.letter-e"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-z"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-q",
+      "options": [
+        "en.letter-u",
+        "en.letter-k",
+        "en.letter-w"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-q"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-u",
+      "options": [
+        "en.letter-q",
+        "en.letter-w"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-u"
+    },
+    {
+      "type": "listen-text",
+      "item": "en.letter-w",
+      "options": [
+        "en.letter-u",
+        "en.letter-y",
+        "en.letter-v"
+      ]
+    },
+    {
+      "type": "choose-meaning",
+      "item": "en.letter-w"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-v"
+    },
+    {
+      "type": "speak",
+      "item": "en.letter-z"
+    }
+  ]
+}

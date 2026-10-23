@@ -1,0 +1,65 @@
+{
+  "id": "ja-B2-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.amerika",
+      "text": "アメリカ",
+      "reading": "Amerika"
+    },
+    {
+      "id": "ja.igirisu",
+      "text": "イギリス",
+      "reading": "Igirisu"
+    },
+    {
+      "id": "ja.furansu",
+      "text": "フランス",
+      "reading": "Furansu"
+    },
+    {
+      "id": "ja.betonamu",
+      "text": "ベトナム",
+      "reading": "Betonamu"
+    },
+    {
+      "id": "ja.myanmaa",
+      "text": "ミャンマー",
+      "reading": "Myanmā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの ともだちは どこから きましたか。",
+      "reading": "Namu-san no tomodachi wa doko kara kimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ベトナムと ミャンマーから きました。",
+      "reading": "Betonamu to Myanmā kara kimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。わたしの ともだちは アメリカと イギリスから きました。",
+      "reading": "Sō desu ka. Watashi no tomodachi wa Amerika to Igirisu kara kimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。ゆきさんは えいごを はなしますか。",
+      "reading": "Hē. Yuki-san wa eigo o hanashimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、すこし。フランスごも すこし はなします。",
+      "reading": "Hai, sukoshi. Furansugo mo sukoshi hanashimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね！",
+      "reading": "Ii desu ne!"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-B9-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.obentou",
+      "text": "おべんとう",
+      "reading": "obentō"
+    },
+    {
+      "id": "ja.onigiri",
+      "text": "おにぎり",
+      "reading": "onigiri"
+    },
+    {
+      "id": "ja.pan",
+      "text": "パン",
+      "reading": "pan"
+    },
+    {
+      "id": "ja.sandoitchi",
+      "text": "サンドイッチ",
+      "reading": "sandoitchi"
+    },
+    {
+      "id": "ja.aisu",
+      "text": "アイス",
+      "reading": "aisu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、ひるごはんは なにを かいますか。",
+      "reading": "Namu-san, hirugohan wa nani o kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "おにぎりと サンドイッチです。ゆきさんは？",
+      "reading": "Onigiri to sandoitchi desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは おべんとうを かいます。それから、アイスも！",
+      "reading": "Watashi wa obentō o kaimasu. Sorekara, aisu mo!"
+    },
+    {
+      "speaker": "a",
+      "text": "パンも かいます。すみません、パンは どこですか。",
+      "reading": "Pan mo kaimasu. Sumimasen, pan wa doko desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "パンは あそこです。ドアの よこですよ。",
+      "reading": "Pan wa asoko desu. Doa no yoko desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

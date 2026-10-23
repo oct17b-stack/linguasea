@@ -1,0 +1,85 @@
+{
+  "id": "ko-D9-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.hapgyeok-hada",
+      "text": "합격하다",
+      "reading": "hapgyeokada"
+    },
+    {
+      "id": "ko.tteoreojida",
+      "text": "떨어지다",
+      "reading": "tteoreojida"
+    },
+    {
+      "id": "ko.jeomsu",
+      "text": "점수",
+      "reading": "jeomsu"
+    },
+    {
+      "id": "ko.mouigosa",
+      "text": "모의고사",
+      "reading": "mouigosa"
+    },
+    {
+      "id": "ko.eungsi-hada",
+      "text": "응시하다",
+      "reading": "eungsihada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 이번 토픽에 응시할 거예요?",
+      "reading": "Nam ssi, ibeon Topige eungsihal geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 다음 달에 처음 응시해요. 합격하기 위해서 매일 준비하고 있어요.",
+      "reading": "Ne, daeum dare cheoeum eungsihaeyo. Hapgyeokagi wihaeseo maeil junbihago isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어떻게 준비하고 있어요?",
+      "reading": "Eotteoke junbihago isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일주일에 한 번 모의고사를 봐요. 그런데 점수가 별로 안 좋아요.",
+      "reading": "Iljuire han beon mouigosareul bwayo. Geureonde jeomsuga byeollo an joayo."
+    },
+    {
+      "speaker": "c",
+      "text": "듣기 점수는 어때요?",
+      "reading": "Deutgi jeomsuneun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "듣기는 괜찮은데 읽기 점수가 낮아요.",
+      "reading": "Deutgineun gwaenchaneunde ilgi jeomsuga najayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 읽기 점수를 올리기 위해서 매일 한국어 책을 조금씩 읽어 보세요.",
+      "reading": "Geureom ilgi jeomsureul olligi wihaeseo maeil hangugeo chaegeul jogeumssik ilgeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그렇게 할게요. 부모님을 위해서도 꼭 합격하고 싶어요.",
+      "reading": "Ne, geureoke halgeyo. Bumonimeul wihaeseodo kkok hapgyeokago sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "너무 걱정하지 마세요. 떨어져도 다음에 다시 응시하면 돼요.",
+      "reading": "Neomu geokjeonghaji maseyo. Tteoreojyeodo daeume dasi eungsihamyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 감사합니다. 더 열심히 할게요!",
+      "reading": "Ne, gamsahamnida. Deo yeolsimhi halgeyo!"
+    }
+  ]
+}

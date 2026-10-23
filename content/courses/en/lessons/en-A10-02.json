@@ -1,0 +1,50 @@
+{
+  "id": "en-A10-02",
+  "target": "en",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "en.china",
+      "text": "China",
+      "reading": "ˈtʃaɪnə"
+    },
+    {
+      "id": "en.chinese",
+      "text": "Chinese",
+      "reading": "ˌtʃaɪˈniːz"
+    },
+    {
+      "id": "en.vietnam",
+      "text": "Vietnam",
+      "reading": "ˌviːɛtˈnɑːm"
+    },
+    {
+      "id": "en.vietnamese",
+      "text": "Vietnamese",
+      "reading": "viˌɛtnəˈmiːz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Are you from China?",
+      "reading": "ˈhaɪ! ər juː frəm ˈtʃaɪnə?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I'm Thai. Are you Chinese?",
+      "reading": "ˈnoʊ, aɪm ˈtaɪ. ər juː ˌtʃaɪˈniːz?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I'm Vietnamese.",
+      "reading": "ˈnoʊ, aɪm viˌɛtnəˈmiːz."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, from Vietnam! Nice to meet you!",
+      "reading": "ˈoʊ, frəm ˌviːɛtˈnɑːm! ˈnaɪs tə ˈmiːt juː!"
+    }
+  ]
+}

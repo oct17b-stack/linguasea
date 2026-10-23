@@ -1,0 +1,86 @@
+{
+  "id": "ko-D10-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.norigongwon",
+      "text": "놀이공원",
+      "reading": "norigongwon"
+    },
+    {
+      "id": "ko.norigigu",
+      "text": "놀이기구",
+      "reading": "norigigu"
+    },
+    {
+      "id": "ko.geobi-manta",
+      "kind": "phrase",
+      "text": "겁이 많다",
+      "reading": "geobi manta"
+    },
+    {
+      "id": "ko.yonggi",
+      "text": "용기",
+      "reading": "yonggi"
+    },
+    {
+      "id": "ko.rolleokoseuteo",
+      "text": "롤러코스터",
+      "reading": "rolleokoseuteo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 한국 놀이공원에 간 적이 있어요?",
+      "reading": "Nam ssi, Hanguk norigongwone gan jeogi isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 아직 간 적이 없어요. 태국에서는 가족하고 자주 갔었어요.",
+      "reading": "Aniyo, ajik gan jeogi eopseoyo. Taegugeseoneun gajokhago jaju gasseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 롤러코스터를 탄 적도 있어요?",
+      "reading": "Geureom rolleokoseuteoreul tan jeokdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 저는 겁이 많아서 못 타요.",
+      "reading": "Aniyo, jeoneun geobi manaseo mot tayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 저도 어렸을 때는 겁이 많았어요. 그런데 중학교 때 용기를 내서 처음 탔어요.",
+      "reading": "Haha, jeodo eoryeosseul ttaeneun geobi manasseoyo. Geureonde junghakgyo ttae yonggireul naeseo cheoeum tasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어땠어요? 무섭지 않았어요?",
+      "reading": "Eottaesseoyo? Museopji anasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "처음에는 무서웠지만 정말 재미있었어요. 그다음부터 놀이기구를 다 좋아해요.",
+      "reading": "Cheoeumeneun museowotjiman jeongmal jaemiisseosseoyo. Geudaeumbuteo norigigureul da joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 멋있어요. 저는 무서운 놀이기구를 탄 적이 없어요.",
+      "reading": "Wa, meosisseoyo. Jeoneun museoun norigigureul tan jeogi eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다음 주말에 같이 가요! 저랑 같이 타면 괜찮을 거예요.",
+      "reading": "Daeum jumare gachi gayo! Jeorang gachi tamyeon gwaenchaneul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "음… 좋아요. 이번에는 저도 용기를 내 볼게요!",
+      "reading": "Eum… Joayo. Ibeoneneun jeodo yonggireul nae bolgeyo!"
+    }
+  ]
+}

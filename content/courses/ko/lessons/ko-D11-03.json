@@ -1,0 +1,85 @@
+{
+  "id": "ko-D11-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.dongmurwon",
+      "text": "동물원",
+      "reading": "dongmurwon"
+    },
+    {
+      "id": "ko.kokkiri",
+      "text": "코끼리",
+      "reading": "kokkiri"
+    },
+    {
+      "id": "ko.horangi",
+      "text": "호랑이",
+      "reading": "horangi"
+    },
+    {
+      "id": "ko.wonsungi",
+      "text": "원숭이",
+      "reading": "wonsungi"
+    },
+    {
+      "id": "ko.saja",
+      "text": "사자",
+      "reading": "saja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 동물원에서 뭐부터 보고 싶어요?",
+      "reading": "Nam ssi, dongmurwoneseo mwobuteo bogo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 뭐든지 좋아요. 민준 씨가 정하세요.",
+      "reading": "Jeoneun mwodeunji joayo. Minjun ssiga jeonghaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 사자부터 봐요. 사자는 오후에 많이 자거든요.",
+      "reading": "Geureom sajabuteo bwayo. Sajaneun ohue mani jageodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 사자가 정말 크네요! 호랑이는 어디에 있어요?",
+      "reading": "Wa, sajaga jeongmal keuneyo! Horangineun eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "호랑이는 사자 옆에 있어요. 원숭이는 그 뒤에 있어요.",
+      "reading": "Horangineun saja yeope isseoyo. Wonsungineun geu dwie isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "코끼리도 있어요? 태국 사람들은 코끼리를 정말 좋아해요.",
+      "reading": "Kokkirido isseoyo? Taeguk saramdeureun kokkirireul jeongmal joahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 그럼 코끼리도 꼭 봐요. 태국에는 코끼리가 많아요?",
+      "reading": "Geuraeyo? Geureom kokkirido kkok bwayo. Taegugeneun kokkiriga manayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국에서는 어디든지 코끼리 그림이 있어요. 옷에도 있고 가방에도 있어요.",
+      "reading": "Ne, Taegugeseoneun eodideunji kokkiri geurimi isseoyo. Osedo itgo gabangedo isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 재미있네요. 다음에 태국 동물원에도 같이 가요.",
+      "reading": "Haha, jaemiinneyo. Daeume Taeguk dongmurwonedo gachi gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 민준 씨가 오면 언제든지 안내할게요.",
+      "reading": "Joayo! Minjun ssiga omyeon eonjedeunji annaehalgeyo."
+    }
+  ]
+}

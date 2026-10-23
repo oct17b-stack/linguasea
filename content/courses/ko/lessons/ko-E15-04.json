@@ -1,0 +1,90 @@
+{
+  "id": "ko-E15-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.daesang",
+      "text": "대상",
+      "reading": "daesang"
+    },
+    {
+      "id": "ko.seonchaksun",
+      "text": "선착순",
+      "reading": "seonchaksun"
+    },
+    {
+      "id": "ko.munuicheo",
+      "text": "문의처",
+      "reading": "munuicheo"
+    },
+    {
+      "id": "ko.chamgabi",
+      "text": "참가비",
+      "reading": "chamgabi"
+    },
+    {
+      "id": "ko.myeongdan",
+      "text": "명단",
+      "reading": "myeongdan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 태국 요리 교실 안내문 다 썼어요?",
+      "reading": "Nam ssi, Taeguk yori gyosil annaemun da sseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 한번 봐 주세요. \"대상: 동네 주민 누구나. 참가비: 오천 원.\"",
+      "reading": "Ne, hanbeon bwa juseyo. \"Daesang: dongne jumin nuguna. Chamgabi: ocheon won.\""
+    },
+    {
+      "speaker": "b",
+      "text": "좋네요. 신청은 어떻게 받아요?",
+      "reading": "Jonneyo. Sincheongeun eotteoke badayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "\"선착순 스무 명, 신청 받음.\" 이렇게 썼어요.",
+      "reading": "\"Seonchaksun seumu myeong, sincheong badeum.\" ireoke sseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "짧은 안내문이니까 '-음'을 잘 썼네요.",
+      "reading": "Jjalbeun annaemuninikka '-eum'eul jal sseonneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 \"재료는 복지관에서 준비함. 점심은 제공하지 않음.\"도 넣었어요.",
+      "reading": "Geurigo \"Jaeryoneun bokjigwaneseo junbiham. Jeomsimeun jegonghaji aneum.\"do neoeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "문의처도 있어야 해요.",
+      "reading": "Munuicheodo isseoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 맞다. \"문의처: 복지관\"으로 쓸게요.",
+      "reading": "A, matda. \"Munuicheo: bokjigwan\"euro sseulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "신청한 사람 명단은 누가 정리해요?",
+      "reading": "Sincheonghan saram myeongdaneun nuga jeongnihaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제가 정리해서 금요일까지 드릴게요.",
+      "reading": "Jega jeongnihaeseo geumyoilkkaji deurilgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 그럼 오늘 오후에 주민들에게 알릴게요.",
+      "reading": "Joayo. Geureom oneul ohue jumindeurege allilgeyo."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "ko-E16-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.jaehak-jeungmyeongseo",
+      "text": "재학 증명서",
+      "reading": "jaehak jeungmyeongseo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.seongjeok-jeungmyeongseo",
+      "text": "성적 증명서",
+      "reading": "seongjeok jeungmyeongseo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jango-jeungmyeongseo",
+      "text": "잔고 증명서",
+      "reading": "jango jeungmyeongseo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.dojangeul-jjikda",
+      "text": "도장을 찍다",
+      "reading": "dojangeul jjikda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.beonyeokbon",
+      "text": "번역본",
+      "reading": "beonyeokbon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "연장 신청을 하시려면 서류를 모두 준비하셔야 합니다.",
+      "reading": "Yeonjang sincheongeul hasiryeomyeon seoryureul modu junbihasyeoya hamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "어떤 서류가 필요합니까?",
+      "reading": "Eotteon seoryuga piryohamnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "재학 증명서와 성적 증명서, 그리고 잔고 증명서가 필요합니다.",
+      "reading": "Jaehak jeungmyeongseowa seongjeok jeungmyeongseo, geurigo jango jeungmyeongseoga piryohamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "잔고 증명서는 은행에서 받습니까?",
+      "reading": "Jango jeungmyeongseoneun eunhaengeseo batseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그렇습니다. 서류가 모두 있어야만 접수할 수 있습니다.",
+      "reading": "Ne, geureoseumnida. Seoryuga modu isseoyaman jeopsuhal su itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "태국 은행 서류도 괜찮습니까?",
+      "reading": "Taeguk eunhaeng seoryudo gwaenchanseumnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 하지만 한국어나 영어 번역본을 같이 내셔야 받을 수 있습니다.",
+      "reading": "Ne, hajiman hangugeona yeongeo beonyeokboneul gachi naesyeoya badeul su itseumnida."
+    },
+    {
+      "speaker": "a",
+      "text": "번역본에는 무엇이 필요합니까?",
+      "reading": "Beonyeokboneneun mueosi piryohamnikka?"
+    },
+    {
+      "speaker": "b",
+      "text": "번역한 사람이 이름을 쓰고 도장을 찍어야 합니다.",
+      "reading": "Beonyeokan sarami ireumeul sseugo dojangeul jjigeoya hamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 도장이 없는데요.",
+      "reading": "Jeoneun dojangi eomneundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 서명을 하셔도 됩니다. 서류가 다 맞아야 빨리 처리됩니다.",
+      "reading": "Geureom seomyeongeul hasyeodo doemnida. Seoryuga da majaya ppalli cheoridoemnida."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 다 준비해서 다시 오겠습니다.",
+      "reading": "Algetseumnida. Da junbihaeseo dasi ogetseumnida."
+    }
+  ]
+}

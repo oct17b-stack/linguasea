@@ -1,0 +1,65 @@
+{
+  "id": "ja-B6-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.itsumo",
+      "text": "いつも",
+      "reading": "itsumo"
+    },
+    {
+      "id": "ja.yoku",
+      "text": "よく",
+      "reading": "yoku"
+    },
+    {
+      "id": "ja.tokidoki",
+      "text": "ときどき",
+      "reading": "tokidoki"
+    },
+    {
+      "id": "ja.shawaa",
+      "text": "シャワー",
+      "reading": "shawā"
+    },
+    {
+      "id": "ja.abimasu",
+      "text": "あびます",
+      "reading": "abimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは あさごはんを たべますか。",
+      "reading": "Namu-san wa asagohan o tabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、あまり たべません。よく ぎゅうにゅうを のみます。",
+      "reading": "Iie, amari tabemasen. Yoku gyūnyū o nomimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。シャワーは いつ あびますか。",
+      "reading": "Sō desu ka. Shawā wa itsu abimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いつも あさと よる あびます。タイは あついですから。",
+      "reading": "Itsumo asa to yoru abimasu. Tai wa atsui desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは あさ ときどき あびます。よるは おふろに はいります。",
+      "reading": "Watashi wa asa tokidoki abimasu. Yoru wa ofuro ni hairimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの いえは おふろが あまり ありません。",
+      "reading": "Tai no ie wa ofuro ga amari arimasen."
+    }
+  ]
+}

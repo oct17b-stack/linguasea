@@ -1,0 +1,65 @@
+{
+  "id": "ja-B10-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.soba",
+      "text": "そば",
+      "reading": "soba"
+    },
+    {
+      "id": "ja.udon",
+      "text": "うどん",
+      "reading": "udon"
+    },
+    {
+      "id": "ja.tenpura",
+      "text": "てんぷら",
+      "reading": "tenpura"
+    },
+    {
+      "id": "ja.raamen",
+      "text": "ラーメン",
+      "reading": "rāmen"
+    },
+    {
+      "id": "ja.karee",
+      "text": "カレー",
+      "reading": "karē"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、この みせは そばと うどんが おいしいですよ。",
+      "reading": "Namu-san, kono mise wa soba to udon ga oishii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、てんぷらうどんに します。",
+      "reading": "Jā, tenpura udon ni shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも。すみません、てんぷらうどんを ふたつ おねがいします。",
+      "reading": "Watashi mo. Sumimasen, tenpura udon o futatsu onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、てんぷらうどん ふたつですね。",
+      "reading": "Hai, tenpura udon futatsu desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ラーメンと カレーも ありますね。",
+      "reading": "Yuki-san, rāmen to karē mo arimasu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。この みせは カレーうどんも ゆうめいですよ。",
+      "reading": "Hai. Kono mise wa karē udon mo yūmei desu yo."
+    }
+  ]
+}

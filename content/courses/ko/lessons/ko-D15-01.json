@@ -1,0 +1,85 @@
+{
+  "id": "ko-D15-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gaeksil",
+      "text": "객실",
+      "reading": "gaeksil"
+    },
+    {
+      "id": "ko.sukbak",
+      "text": "숙박",
+      "reading": "sukbak"
+    },
+    {
+      "id": "ko.josik",
+      "text": "조식",
+      "reading": "josik"
+    },
+    {
+      "id": "ko.seongsugi",
+      "text": "성수기",
+      "reading": "seongsugi"
+    },
+    {
+      "id": "ko.bisugi",
+      "text": "비수기",
+      "reading": "bisugi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "여보세요, 다음 주 금요일에 객실이 있나요?",
+      "reading": "Yeoboseyo, daeum ju geumyoire gaeksiri innayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 있어요. 며칠 숙박하실 거예요?",
+      "reading": "Ne, isseoyo. Myeochil sukbakasil geoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이틀이요. 금요일하고 토요일이요. 요금이 얼마인가요?",
+      "reading": "Iteuriyo. Geumyoilhago toyoiriyo. Yogeumi eolmaingayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지금은 비수기라서 하루에 팔만 원이에요.",
+      "reading": "Jigeumeun bisugiraseo harue palman wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "성수기에는 더 비싼가요?",
+      "reading": "Seongsugieneun deo bissangayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여름 성수기에는 이십만 원이 넘어요.",
+      "reading": "Ne, yeoreum seongsugieneun isimman woni neomeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "조식도 포함되나요?",
+      "reading": "Josikdo pohamdoenayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 조식도 포함돼요. 아침 일곱 시부터 열 시까지 드실 수 있어요.",
+      "reading": "Ne, josikdo pohamdwaeyo. Achim ilgop sibuteo yeol sikkaji deusil su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "바다 쪽 객실도 있나요?",
+      "reading": "Bada jjok gaeksildo innayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 있어요. 그 방은 만 원을 더 내셔야 해요.",
+      "reading": "Ne, isseoyo. Geu bangeun man woneul deo naesyeoya haeyo."
+    }
+  ]
+}

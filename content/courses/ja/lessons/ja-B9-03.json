@@ -1,0 +1,65 @@
+{
+  "id": "ja-B9-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ikko",
+      "text": "いっこ",
+      "reading": "ikko"
+    },
+    {
+      "id": "ja.rokko",
+      "text": "ろっこ",
+      "reading": "rokko"
+    },
+    {
+      "id": "ja.hakko",
+      "text": "はっこ",
+      "reading": "hakko"
+    },
+    {
+      "id": "ja.jukko",
+      "text": "じゅっこ",
+      "reading": "jukko"
+    },
+    {
+      "id": "ja.nanko",
+      "text": "なんこ",
+      "reading": "nanko"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、おにぎりは なんこ かいますか。",
+      "reading": "Namu-san, onigiri wa nanko kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ろっこ かいます。あした、ともだちと こうえんで たべます。",
+      "reading": "Rokko kaimasu. Ashita, tomodachi to kōen de tabemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。パンも かいますか。",
+      "reading": "Ii desu ne. Pan mo kaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、いっこ かいます。それから、アイスも いっこ。",
+      "reading": "Hai, ikko kaimasu. Sorekara, aisu mo ikko."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、ぜんぶで はっこですね。",
+      "reading": "Jā, zenbu de hakko desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、ゆきさんの アイスも いっこ！",
+      "reading": "A, Yuki-san no aisu mo ikko!"
+    }
+  ]
+}
