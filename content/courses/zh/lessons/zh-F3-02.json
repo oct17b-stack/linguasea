@@ -1,0 +1,95 @@
+{
+  "id": "zh-F3-02",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.neng-fou",
+      "text": "能否",
+      "reading": "néngfǒu"
+    },
+    {
+      "id": "zh.xiang-xi",
+      "text": "详细",
+      "reading": "xiángxì"
+    },
+    {
+      "id": "zh.xiang-mu",
+      "text": "项目",
+      "reading": "xiàngmù"
+    },
+    {
+      "id": "zh.liao-jie",
+      "text": "了解",
+      "reading": "liǎojiě"
+    },
+    {
+      "id": "zh.zi-liao",
+      "text": "资料",
+      "reading": "zīliào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "您好，这里是国际学院办公室。",
+      "reading": "Nín hǎo, zhèlǐ shì guójì xuéyuàn bàngōngshì."
+    },
+    {
+      "speaker": "a",
+      "text": "您好！我是泰国留学生，想了解一下你们的暑假翻译班。",
+      "reading": "Nín hǎo! Wǒ shì Tàiguó liúxuéshēng, xiǎng liǎojiě yīxià nǐmen de shǔjià fānyì bān."
+    },
+    {
+      "speaker": "b",
+      "text": "好的。您想了解哪些方面？",
+      "reading": "Hǎo de. Nín xiǎng liǎojiě nǎxiē fāngmiàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "能否请您介绍一下这个项目的详细情况？比如上课时间和费用。",
+      "reading": "Néngfǒu qǐng nín jièshào yīxià zhège xiàngmù de xiángxì qíngkuàng? Bǐrú shàngkè shíjiān hé fèiyòng."
+    },
+    {
+      "speaker": "b",
+      "text": "这个项目七月一号开始，一共两个星期。每天上午上课，下午去公司参观。",
+      "reading": "Zhège xiàngmù qī yuè yī hào kāishǐ, yīgòng liǎng ge xīngqī. Měitiān shàngwǔ shàngkè, xiàwǔ qù gōngsī cānguān."
+    },
+    {
+      "speaker": "a",
+      "text": "学费是多少？学校能安排住宿吗？",
+      "reading": "Xuéfèi shì duōshao? Xuéxiào néng ānpái zhùsù ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "学费三千块，住宿要自己安排。详细的资料都在我们的网站上。",
+      "reading": "Xuéfèi sānqiān kuài, zhùsù yào zìjǐ ānpái. Xiángxì de zīliào dōu zài wǒmen de wǎngzhàn shang."
+    },
+    {
+      "speaker": "a",
+      "text": "我看过网站，可是有些地方还不太清楚。能否把资料发到我的邮件地址？",
+      "reading": "Wǒ kàn guo wǎngzhàn, kěshì yǒuxiē dìfang hái bù tài qīngchu. Néngfǒu bǎ zīliào fā dào wǒ de yóujiàn dìzhǐ?"
+    },
+    {
+      "speaker": "b",
+      "text": "没问题。请您把邮件地址用短信发给我。",
+      "reading": "Méi wèntí. Qǐng nín bǎ yóujiàn dìzhǐ yòng duǎnxìn fā gěi wǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我马上发。",
+      "reading": "Hǎo de, wǒ mǎshàng fā."
+    },
+    {
+      "speaker": "b",
+      "text": "收到以后，我会尽快把资料发给您。",
+      "reading": "Shōudào yǐhòu, wǒ huì jǐnkuài bǎ zīliào fā gěi nín."
+    },
+    {
+      "speaker": "a",
+      "text": "太感谢了！",
+      "reading": "Tài gǎnxiè le!"
+    }
+  ]
+}

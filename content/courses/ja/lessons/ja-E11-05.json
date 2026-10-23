@@ -1,0 +1,100 @@
+{
+  "id": "ja-E11-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.keidai",
+      "text": "けいだい",
+      "reading": "keidai"
+    },
+    {
+      "id": "ja.sanpai",
+      "text": "さんぱい",
+      "reading": "sanpai"
+    },
+    {
+      "id": "ja.inshoku",
+      "text": "飲食",
+      "reading": "inshoku"
+    },
+    {
+      "id": "ja.seishuku",
+      "text": "せいしゅく",
+      "reading": "seishuku"
+    },
+    {
+      "id": "ja.dosoku",
+      "text": "土足",
+      "reading": "dosoku"
+    },
+    {
+      "id": "ja.tachiiru",
+      "text": "立ち入る",
+      "reading": "tachiiru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このかんばん見て。「さんぱいのみなさまへ」だって。",
+      "reading": "Namu, kono kanban mite. \"Sanpai no minasama e\" da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "なにがかいてあるの？",
+      "reading": "Nani ga kaite aru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "「けいだいでは、せいしゅくにすること」。しずかにしてください、ということ。",
+      "reading": "\"Keidai de wa, seishuku ni suru koto.\" Shizuka ni shite kudasai, to iu koto."
+    },
+    {
+      "speaker": "a",
+      "text": "「すること」でおわると、ルールになるんだね。",
+      "reading": "\"Suru koto\" de owaru to, rūru ni naru n da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。かんばんやきそくで、よくつかうかき方だよ。「けいだいでの飲食はしないこと」とも、かいてある。",
+      "reading": "Un. Kanban ya kisoku de, yoku tsukau kakikata da yo. \"Keidai de no inshoku wa shinai koto\" to mo, kaite aru."
+    },
+    {
+      "speaker": "a",
+      "text": "飲食って、のんだりたべたりすることだよね。",
+      "reading": "Inshoku tte, nondari tabetari suru koto da yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そう。それから、「おてらの中には、土足で立ち入らないこと」。",
+      "reading": "Sō. Sore kara, \"otera no naka ni wa, dosoku de tachiiranai koto.\""
+    },
+    {
+      "speaker": "a",
+      "text": "土足？",
+      "reading": "Dosoku?"
+    },
+    {
+      "speaker": "c",
+      "text": "くつをはいたまま、ってこと。中にはいるときは、くつをぬがなきゃだめなの。",
+      "reading": "Kutsu o haita mama, tte koto. Naka ni hairu toki wa, kutsu o nuganakya dame na no."
+    },
+    {
+      "speaker": "a",
+      "text": "タイのおてらと同じだね。タイでも、おまいりするへやには、くつをぬいではいるよ。",
+      "reading": "Tai no otera to onaji da ne. Tai de mo, omairi suru heya ni wa, kutsu o nuide hairu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。さんぱいの作法は、にているんだね。",
+      "reading": "Sō na n da. Sanpai no sahō wa, nite iru n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。じゃあ、かんばんのとおりに、しずかにさんぱいしよう。",
+      "reading": "Un. Jā, kanban no tōri ni, shizuka ni sanpai shiyō."
+    }
+  ]
+}

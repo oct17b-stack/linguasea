@@ -1,0 +1,101 @@
+{
+  "id": "ja-E11-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.mane",
+      "text": "真似",
+      "reading": "mane"
+    },
+    {
+      "id": "ja.kansatsu",
+      "text": "観察",
+      "reading": "kansatsu"
+    },
+    {
+      "id": "ja.mawari",
+      "text": "まわり",
+      "reading": "mawari"
+    },
+    {
+      "id": "ja.ki-o-kubaru",
+      "kind": "phrase",
+      "text": "気を配る",
+      "reading": "ki o kubaru"
+    },
+    {
+      "id": "ja.haji",
+      "text": "恥",
+      "reading": "haji"
+    },
+    {
+      "id": "ja.tazuneru",
+      "text": "たずねる",
+      "reading": "tazuneru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、タイで、れいぎのしっぱいをしないためには、どうすればいいですか。",
+      "reading": "Namu-san, Tai de, reigi no shippai o shinai tame ni wa, dō sureba ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "まず、まわりの人をよく観察することです。",
+      "reading": "Mazu, mawari no hito o yoku kansatsu suru koto desu."
+    },
+    {
+      "speaker": "b",
+      "text": "観察、ですか。",
+      "reading": "Kansatsu, desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイの人がどうしているかを見て、同じように真似することです。",
+      "reading": "Hai. Tai no hito ga dō shite iru ka o mite, onaji yō ni mane suru koto desu."
+    },
+    {
+      "speaker": "b",
+      "text": "でも、真似しても、まちがえたら、はずかしいです。",
+      "reading": "Demo, mane shite mo, machigaetara, hazukashii desu."
+    },
+    {
+      "speaker": "a",
+      "text": "まちがえるのは、恥ではありません。わからないことがあったら、すぐにたずねることです。",
+      "reading": "Machigaeru no wa, haji de wa arimasen. Wakaranai koto ga attara, sugu ni tazuneru koto desu."
+    },
+    {
+      "speaker": "b",
+      "text": "人にたずねるのは、ちょっとゆうきがいりますね。",
+      "reading": "Hito ni tazuneru no wa, chotto yūki ga irimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶです。りゅうがくせいがたずねると、タイの人は喜んでおしえてくれますよ。",
+      "reading": "Daijōbu desu. Ryūgakusei ga tazuneru to, Tai no hito wa yorokonde oshiete kuremasu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "ほかに、気をつけることはありますか。",
+      "reading": "Hoka ni, ki o tsukeru koto wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いつも、まわりの人に気を配ることです。たとえば、おとしよりがいたら、「さきにどうぞ」と言うとか。",
+      "reading": "Itsumo, mawari no hito ni ki o kubaru koto desu. Tatoeba, otoshiyori ga itara, \"saki ni dōzo\" to iu toka."
+    },
+    {
+      "speaker": "b",
+      "text": "気を配る…。にほんでも、同じですね。",
+      "reading": "Ki o kubaru…. Nihon de mo, onaji desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。それから、えがおをわすれないことです。えがおは、タイでいちばんのれいぎですから。",
+      "reading": "Hai. Sore kara, egao o wasurenai koto desu. Egao wa, Tai de ichiban no reigi desu kara."
+    }
+  ]
+}

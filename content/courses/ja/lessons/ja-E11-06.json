@@ -1,0 +1,95 @@
+{
+  "id": "ja-E11-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tsukiai",
+      "text": "付き合い",
+      "reading": "tsukiai"
+    },
+    {
+      "id": "ja.nomikai",
+      "text": "飲み会",
+      "reading": "nomikai"
+    },
+    {
+      "id": "ja.kanpai",
+      "text": "かんぱい",
+      "reading": "kanpai"
+    },
+    {
+      "id": "ja.giri",
+      "text": "ぎり",
+      "reading": "giri"
+    },
+    {
+      "id": "ja.oseji",
+      "text": "お世辞",
+      "reading": "oseji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、つかれたかおしてるね。どうしたの？",
+      "reading": "Namu, tsukareta kao shiteru ne. Dō shita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "きのう、インターンの会社の飲み会があったの。",
+      "reading": "Kinō, intān no kaisha no nomikai ga atta no."
+    },
+    {
+      "speaker": "c",
+      "text": "あー、会社の付き合いね。たのしかった？",
+      "reading": "Ā, kaisha no tsukiai ne. Tanoshikatta?"
+    },
+    {
+      "speaker": "a",
+      "text": "うーん…。部長にさそわれたから、行かないわけにはいかなかったの。",
+      "reading": "Ūn…. Buchō ni sasowareta kara, ikanai wake ni wa ikanakatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "わかる。かんぱいのときも、のまないわけにはいかないしね。",
+      "reading": "Wakaru. Kanpai no toki mo, nomanai wake ni wa ikanai shi ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなの。わたし、おさけによわいのに、部長が「どうぞ、どうぞ」って、おさけをくれて…。",
+      "reading": "Sō na no. Watashi, osake ni yowai no ni, buchō ga \"dōzo, dōzo\" tte, osake o kurete…."
+    },
+    {
+      "speaker": "c",
+      "text": "ことわれなかったの？",
+      "reading": "Kotowarenakatta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "部長がくれたおさけを、ことわるわけにはいかないと思って、すこしだけのんだ。",
+      "reading": "Buchō ga kureta osake o, kotowaru wake ni wa ikanai to omotte, sukoshi dake nonda."
+    },
+    {
+      "speaker": "c",
+      "text": "タイでは、そういうぎりの付き合いはないの？",
+      "reading": "Tai de wa, sō iu giri no tsukiai wa nai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "あるよ。でも、タイでは、のめないなら、はっきりことわってもだいじょうぶ。",
+      "reading": "Aru yo. Demo, Tai de wa, nomenai nara, hakkiri kotowatte mo daijōbu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいなあ。にほんでは、じょうしにお世辞を言ったりもするからね。",
+      "reading": "Ii nā. Nihon de wa, jōshi ni oseji o ittari mo suru kara ne."
+    },
+    {
+      "speaker": "a",
+      "text": "お世辞かあ。わたしも、「部長のおはなし、とてもおもしろいです」って、言っちゃった。",
+      "reading": "Oseji kā. Watashi mo, \"buchō no ohanashi, totemo omoshiroi desu\" tte, itchatta."
+    }
+  ]
+}
