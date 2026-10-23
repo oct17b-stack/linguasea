@@ -1,0 +1,75 @@
+{
+  "id": "zh-C15-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.suan",
+      "text": "酸",
+      "reading": "suān"
+    },
+    {
+      "id": "zh.xian-salty",
+      "text": "咸",
+      "reading": "xián"
+    },
+    {
+      "id": "zh.ku",
+      "text": "苦",
+      "reading": "kǔ"
+    },
+    {
+      "id": "zh.xiang-fragrant",
+      "text": "香",
+      "reading": "xiāng"
+    },
+    {
+      "id": "zh.wei-dao",
+      "text": "味道",
+      "reading": "wèidao"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你尝尝我做的炒饭！",
+      "reading": "Xiǎonán, nǐ chángchang wǒ zuò de chǎofàn!"
+    },
+    {
+      "speaker": "a",
+      "text": "好香啊！我尝尝……太咸了！",
+      "reading": "Hǎo xiāng a! Wǒ chángchang…… tài xián le!"
+    },
+    {
+      "speaker": "b",
+      "text": "太咸了？我放了很多盐。",
+      "reading": "Tài xián le? Wǒ fàng le hěn duō yán."
+    },
+    {
+      "speaker": "a",
+      "text": "下次别放那么多。可是味道不错。",
+      "reading": "Xiàcì bié fàng nàme duō. Kěshì wèidao bùcuò."
+    },
+    {
+      "speaker": "b",
+      "text": "辣不辣？你们泰国人喜欢辣的。",
+      "reading": "Là bù là? Nǐmen Tàiguó rén xǐhuan là de."
+    },
+    {
+      "speaker": "a",
+      "text": "不太辣。我喜欢酸一点儿、辣一点儿的。",
+      "reading": "Bù tài là. Wǒ xǐhuan suān yīdiǎnr, là yīdiǎnr de."
+    },
+    {
+      "speaker": "b",
+      "text": "好，下次我再做。喝点儿茶吧。",
+      "reading": "Hǎo, xiàcì wǒ zài zuò. Hē diǎnr chá ba."
+    },
+    {
+      "speaker": "a",
+      "text": "这个茶有点儿苦，可是很香。",
+      "reading": "Zhège chá yǒudiǎnr kǔ, kěshì hěn xiāng."
+    }
+  ]
+}

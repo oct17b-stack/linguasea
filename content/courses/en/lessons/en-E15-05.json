@@ -1,0 +1,98 @@
+{
+  "id": "en-E15-05",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.doubtful",
+      "text": "doubtful",
+      "reading": "ˈdaʊtfəl"
+    },
+    {
+      "id": "en.unlikely",
+      "text": "unlikely",
+      "reading": "ʌnˈlaɪkli"
+    },
+    {
+      "id": "en.no-way",
+      "kind": "phrase",
+      "text": "no way",
+      "reading": "ˌnoʊ ˈweɪ"
+    },
+    {
+      "id": "en.i-bet",
+      "kind": "phrase",
+      "text": "I bet",
+      "reading": "aɪ ˈbɛt"
+    },
+    {
+      "id": "en.who-knows",
+      "kind": "phrase",
+      "text": "Who knows?",
+      "reading": "ˌhuː ˈnoʊz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Here's a fun one. Will cars fly by 2050?",
+      "reading": "hɪrz ə ˈfʌn ˈwʌn. wɪl ˈkɑːrz ˈflaɪ baɪ ˈtwɛnti ˈfɪfti?"
+    },
+    {
+      "speaker": "a",
+      "text": "I doubt that cars will fly. It's too dangerous.",
+      "reading": "aɪ ˈdaʊt ðæt ˈkɑːrz wɪl ˈflaɪ. ɪts ˈtuː ˈdeɪndʒərəs."
+    },
+    {
+      "speaker": "b",
+      "text": "So you think it's unlikely?",
+      "reading": "soʊ juː ˈθɪŋk ɪts ʌnˈlaɪkli?"
+    },
+    {
+      "speaker": "a",
+      "text": "Very unlikely. But I'm sure that robots will do our housework.",
+      "reading": "ˈvɛri ʌnˈlaɪkli. bʌt aɪm ˈʃʊr ðæt ˈroʊbɑːts wɪl ˈduː aʊr ˈhaʊswɜːrk."
+    },
+    {
+      "speaker": "b",
+      "text": "Will robots teach English, too?",
+      "reading": "wɪl ˈroʊbɑːts ˈtiːtʃ ˈɪŋɡlɪʃ, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "No way! I'm sure students will still need real teachers like you.",
+      "reading": "ˈnoʊ ˈweɪ! aɪm ˈʃʊr ˈstuːdənts wɪl ˈstɪl ˈniːd ˈriːəl ˈtiːtʃərz laɪk ˈjuː."
+    },
+    {
+      "speaker": "b",
+      "text": "Thank you, Nam. And will Thailand win the World Cup by 2050?",
+      "reading": "ˈθæŋk juː, ˈnɑːm. ənd wɪl ˈtaɪlænd ˈwɪn ðə ˈwɜːrld ˈkʌp baɪ ˈtwɛnti ˈfɪfti?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hmm, I'm doubtful about that. But who knows?",
+      "reading": "ˈhm, aɪm ˈdaʊtfəl əˈbaʊt ˈðæt. bʌt huː ˈnoʊz?"
+    },
+    {
+      "speaker": "b",
+      "text": "Well, I bet Bangkok will host the Asian Games again.",
+      "reading": "ˈwɛl, aɪ ˈbɛt ˈbæŋkɑːk wɪl ˈhoʊst ði ˈeɪʒən ˈɡeɪmz əˈɡɛn."
+    },
+    {
+      "speaker": "a",
+      "text": "I bet it will, too. Bangkok has hosted them four times already.",
+      "reading": "aɪ ˈbɛt ɪt wɪl, ˈtuː. ˈbæŋkɑːk hæz ˈhoʊstɪd ðɛm ˈfɔːr ˈtaɪmz ɔːlˈrɛdi."
+    },
+    {
+      "speaker": "b",
+      "text": "Last question: will people still be learning English in 2050?",
+      "reading": "ˈlæst ˈkwɛstʃən: wɪl ˈpiːpəl ˈstɪl bi ˈlɜːrnɪŋ ˈɪŋɡlɪʃ ɪn ˈtwɛnti ˈfɪfti?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm sure they will. Maybe AI will translate everything, but I doubt that people will stop learning languages.",
+      "reading": "aɪm ˈʃʊr ðeɪ ˈwɪl. ˈmeɪbi ˌeɪˈaɪ wɪl trænsˈleɪt ˈɛvriθɪŋ, bʌt aɪ ˈdaʊt ðæt ˈpiːpəl wɪl ˈstɑːp ˈlɜːrnɪŋ ˈlæŋɡwɪdʒɪz."
+    }
+  ]
+}

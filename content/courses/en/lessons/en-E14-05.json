@@ -1,0 +1,97 @@
+{
+  "id": "en-E14-05",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.rural",
+      "text": "rural",
+      "reading": "ˈrʊrəl"
+    },
+    {
+      "id": "en.in-need",
+      "kind": "phrase",
+      "text": "in need",
+      "reading": "ɪn ˈniːd"
+    },
+    {
+      "id": "en.disabled",
+      "text": "disabled",
+      "reading": "dɪsˈeɪbəld"
+    },
+    {
+      "id": "en.nursing-home",
+      "text": "nursing home",
+      "reading": "ˈnɜːrsɪŋ ˌhoʊm"
+    },
+    {
+      "id": "en.special-needs",
+      "kind": "phrase",
+      "text": "special needs",
+      "reading": "ˌspɛʃəl ˈniːdz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, tell me about the school you volunteer at.",
+      "reading": "ˈnɑːm, ˈtɛl miː əˈbaʊt ðə ˈskuːl juː ˌvɑːlənˈtɪr ˈæt."
+    },
+    {
+      "speaker": "a",
+      "text": "It's a small school in a rural part of Nan. Most of the families there are in need.",
+      "reading": "ɪts ə ˈsmɔːl ˈskuːl ɪn ə ˈrʊrəl ˈpɑːrt əv ˈnɑːn. ˈmoʊst əv ðə ˈfæməliz ðɛr ər ɪn ˈniːd."
+    },
+    {
+      "speaker": "c",
+      "text": "And the children you teach? How old are they?",
+      "reading": "ənd ðə ˈtʃɪldrən juː ˈtiːtʃ? ˈhaʊ ˈoʊld ər ðeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "From seven to twelve. They're shy, but they love games.",
+      "reading": "frəm ˈsɛvən tə ˈtwɛlv. ðɛr ˈʃaɪ, bʌt ðeɪ ˈlʌv ˈɡeɪmz."
+    },
+    {
+      "speaker": "c",
+      "text": "Who do you work with?",
+      "reading": "ˈhuː duː juː ˈwɜːrk ˈwɪð?"
+    },
+    {
+      "speaker": "a",
+      "text": "A local teacher, Ms. Daeng. She's the person I learn the most from.",
+      "reading": "ə ˈloʊkəl ˈtiːtʃər, ˈmɪz ˈdɛŋ. ʃiːz ðə ˈpɜːrsən aɪ ˈlɜːrn ðə ˈmoʊst ˈfrʌm."
+    },
+    {
+      "speaker": "c",
+      "text": "Are there any children with special needs?",
+      "reading": "ər ðɛr ˈɛni ˈtʃɪldrən wɪð ˈspɛʃəl ˈniːdz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, two. One boy is disabled and can't walk, but he's the best at math in the class!",
+      "reading": "ˈjɛs, ˈtuː. ˈwʌn ˈbɔɪ ɪz dɪsˈeɪbəld ənd ˈkænt ˈwɔːk, bʌt hiːz ðə ˈbɛst ət ˈmæθ ɪn ðə ˈklæs!"
+    },
+    {
+      "speaker": "c",
+      "text": "That's great. By the way, the nursing home I volunteer at needs more people, too.",
+      "reading": "ðæts ˈɡreɪt. baɪ ðə ˈweɪ, ðə ˈnɜːrsɪŋ ˌhoʊm aɪ ˌvɑːlənˈtɪr ət ˈniːdz ˈmɔːr ˈpiːpəl, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Which one? The one near our house?",
+      "reading": "ˈwɪtʃ ˈwʌn? ðə ˈwʌn ˈnɪr aʊr ˈhaʊs?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, the one I told you about. The old people there love visitors.",
+      "reading": "ˈjɛs, ðə ˈwʌn aɪ ˈtoʊld juː əˈbaʊt. ði ˈoʊld ˈpiːpəl ðɛr ˈlʌv ˈvɪzɪtərz."
+    },
+    {
+      "speaker": "a",
+      "text": "Then I'll come with you next Wednesday evening.",
+      "reading": "ˈðɛn aɪl ˈkʌm wɪð juː ˈnɛkst ˈwɛnzdeɪ ˈiːvnɪŋ."
+    }
+  ]
+}

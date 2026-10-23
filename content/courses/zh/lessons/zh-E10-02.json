@@ -1,0 +1,97 @@
+{
+  "id": "zh-E10-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.chi-jing",
+      "text": "吃惊",
+      "reading": "chījīng"
+    },
+    {
+      "id": "zh.hao-qi",
+      "text": "好奇",
+      "reading": "hàoqí"
+    },
+    {
+      "id": "zh.gen-ben",
+      "text": "根本",
+      "reading": "gēnběn"
+    },
+    {
+      "id": "zh.wen-hua-chong-ji",
+      "kind": "phrase",
+      "text": "文化冲击",
+      "reading": "wénhuà chōngjī"
+    },
+    {
+      "id": "zh.shui-bu-zhao",
+      "kind": "phrase",
+      "text": "睡不着",
+      "reading": "shuì bu zháo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你这几天怎么样？看起来没睡好。",
+      "reading": "Nǐ zhè jǐ tiān zěnmeyàng? Kàn qilai méi shuìhǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "我晚上怎么也睡不着，总是想很多事情。",
+      "reading": "Wǒ wǎnshang zěnme yě shuì bu zháo, zǒngshì xiǎng hěn duō shìqing."
+    },
+    {
+      "speaker": "a",
+      "text": "是不是文化冲击？刚来的时候，很多人都会这样。",
+      "reading": "Shì bù shì wénhuà chōngjī? Gāng lái de shíhou, hěn duō rén dōu huì zhèyàng."
+    },
+    {
+      "speaker": "b",
+      "text": "可能是吧。这里有很多事情让我很吃惊。",
+      "reading": "Kěnéng shì ba. Zhèlǐ yǒu hěn duō shìqing ràng wǒ hěn chījīng."
+    },
+    {
+      "speaker": "a",
+      "text": "什么事情让你吃惊？",
+      "reading": "Shénme shìqing ràng nǐ chījīng?"
+    },
+    {
+      "speaker": "b",
+      "text": "早上我去食堂，发现大家早饭都吃包子和鸡蛋，根本没有人吃米饭。",
+      "reading": "Zǎoshang wǒ qù shítáng, fāxiàn dàjiā zǎofàn dōu chī bāozi hé jīdàn, gēnběn méiyǒu rén chī mǐfàn."
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，我刚来的时候也很吃惊。不过现在我每天早上都吃包子。",
+      "reading": "Hāhā, wǒ gāng lái de shíhou yě hěn chījīng. Bùguò xiànzài wǒ měitiān zǎoshang dōu chī bāozi."
+    },
+    {
+      "speaker": "b",
+      "text": "还有，这里的人说话又快又大声，我怎么也听不懂。",
+      "reading": "Háiyǒu, zhèlǐ de rén shuōhuà yòu kuài yòu dàshēng, wǒ zěnme yě tīng bu dǒng."
+    },
+    {
+      "speaker": "a",
+      "text": "别担心，他们不是生气，北京人说话就是这样。",
+      "reading": "Bié dānxīn, tāmen bù shì shēngqì, Běijīng rén shuōhuà jiùshì zhèyàng."
+    },
+    {
+      "speaker": "b",
+      "text": "不过我对这里的一切都很好奇，想到处去看看。",
+      "reading": "Bùguò wǒ duì zhèlǐ de yīqiè dōu hěn hàoqí, xiǎng dàochù qù kànkan."
+    },
+    {
+      "speaker": "a",
+      "text": "好奇是好事！这个周末我带你去吃烤鸭吧。",
+      "reading": "Hàoqí shì hǎoshì! Zhège zhōumò wǒ dài nǐ qù chī kǎoyā ba."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！吃饱了，晚上也许就睡得着了。",
+      "reading": "Tài hǎo le! Chībǎo le, wǎnshang yěxǔ jiù shuì de zháo le."
+    }
+  ]
+}

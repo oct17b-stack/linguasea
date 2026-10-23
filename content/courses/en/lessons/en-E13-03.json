@@ -1,0 +1,92 @@
+{
+  "id": "en-E13-03",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.convenience",
+      "text": "convenience",
+      "reading": "kənˈviːniəns"
+    },
+    {
+      "id": "en.browse",
+      "text": "browse",
+      "reading": "braʊz"
+    },
+    {
+      "id": "en.in-person",
+      "kind": "phrase",
+      "text": "in person",
+      "reading": "ɪn ˈpɜːrsən"
+    },
+    {
+      "id": "en.window-shopping",
+      "text": "window-shopping",
+      "reading": "ˈwɪndoʊ ˌʃɑːpɪŋ"
+    },
+    {
+      "id": "en.physical-store",
+      "kind": "phrase",
+      "text": "physical store",
+      "reading": "ˌfɪzɪkəl ˈstɔːr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Thanks for waiting. Next question: do you prefer shopping online or in stores?",
+      "reading": "ˈθæŋks fər ˈweɪtɪŋ. ˈnɛkst ˈkwɛstʃən: duː juː prɪˈfɜːr ˈʃɑːpɪŋ ˌɑːnˈlaɪn ɔːr ɪn ˈstɔːrz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Usually, I prefer shopping online to going to the mall.",
+      "reading": "ˈjuːʒuəli, aɪ prɪˈfɜːr ˈʃɑːpɪŋ ˌɑːnˈlaɪn tə ˈɡoʊɪŋ tə ðə ˈmɔːl."
+    },
+    {
+      "speaker": "b",
+      "text": "Why is that?",
+      "reading": "ˈwaɪ ɪz ˈðæt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Convenience, mainly. I can browse a hundred shops from my bed!",
+      "reading": "kənˈviːniəns, ˈmeɪnli. aɪ kən ˈbraʊz ə ˈhʌndrəd ˈʃɑːps frəm maɪ ˈbɛd!"
+    },
+    {
+      "speaker": "b",
+      "text": "Is there anything you prefer to buy in person?",
+      "reading": "ɪz ðɛr ˈɛniθɪŋ juː prɪˈfɜːr tə ˈbaɪ ɪn ˈpɜːrsən?"
+    },
+    {
+      "speaker": "a",
+      "text": "Shoes. I prefer trying them on in a physical store. Sizes online aren't always right.",
+      "reading": "ˈʃuːz. aɪ prɪˈfɜːr ˈtraɪɪŋ ðɛm ɑːn ɪn ə ˈfɪzɪkəl ˈstɔːr. ˈsaɪzɪz ˌɑːnˈlaɪn ˈɑːrənt ˈɔːlweɪz ˈraɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you ever go window-shopping?",
+      "reading": "duː juː ˈɛvər ˈɡoʊ ˈwɪndoʊ ˌʃɑːpɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sometimes, with my friends. We look at everything but buy nothing!",
+      "reading": "ˈsʌmtaɪmz, wɪð maɪ ˈfrɛndz. wiː ˈlʊk ət ˈɛvriθɪŋ bʌt ˈbaɪ ˈnʌθɪŋ!"
+    },
+    {
+      "speaker": "b",
+      "text": "So, do you prefer online stores to physical stores for most things?",
+      "reading": "soʊ, duː juː prɪˈfɜːr ˌɑːnˈlaɪn ˈstɔːrz tə ˈfɪzɪkəl ˈstɔːrz fər ˈmoʊst ˈθɪŋz?"
+    },
+    {
+      "speaker": "a",
+      "text": "For most things, yes. But I prefer the mall to my phone when I want to relax with friends.",
+      "reading": "fər ˈmoʊst ˈθɪŋz, ˈjɛs. bʌt aɪ prɪˈfɜːr ðə ˈmɔːl tə maɪ ˈfoʊn wɛn aɪ ˈwɑːnt tə rɪˈlæks wɪð ˈfrɛndz."
+    },
+    {
+      "speaker": "b",
+      "text": "Interesting. Many young people say the same.",
+      "reading": "ˈɪntrəstɪŋ. ˈmɛni ˈjʌŋ ˈpiːpəl ˈseɪ ðə ˈseɪm."
+    }
+  ]
+}

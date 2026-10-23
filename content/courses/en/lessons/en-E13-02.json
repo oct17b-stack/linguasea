@@ -1,0 +1,102 @@
+{
+  "id": "en-E13-02",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.online-shopping",
+      "kind": "phrase",
+      "text": "online shopping",
+      "reading": "ˌɑːnlaɪn ˈʃɑːpɪŋ"
+    },
+    {
+      "id": "en.courier",
+      "text": "courier",
+      "reading": "ˈkʊriər"
+    },
+    {
+      "id": "en.cart",
+      "text": "cart",
+      "reading": "kɑːrt"
+    },
+    {
+      "id": "en.track",
+      "text": "track",
+      "reading": "træk"
+    },
+    {
+      "id": "en.try-on",
+      "kind": "phrase",
+      "text": "try on",
+      "reading": "ˌtraɪ ˈɑːn"
+    },
+    {
+      "id": "en.doorstep",
+      "text": "doorstep",
+      "reading": "ˈdɔːrstɛp"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, why didn't you come to the mall with us yesterday?",
+      "reading": "ˈnɑːm, ˈwaɪ ˈdɪdənt juː ˈkʌm tə ðə ˈmɔːl wɪð ʌs ˈjɛstərdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I don't go to the mall much now. I love online shopping.",
+      "reading": "aɪ ˈdoʊnt ˈɡoʊ tə ðə ˈmɔːl ˈmʌtʃ ˈnaʊ. aɪ ˈlʌv ˌɑːnˈlaɪn ˈʃɑːpɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "What about clothes?",
+      "reading": "ˈwʌt əˈbaʊt ˈkloʊðz?"
+    },
+    {
+      "speaker": "a",
+      "text": "I put things in my cart, pay, and have them delivered the next day.",
+      "reading": "aɪ ˈpʊt ˈθɪŋz ɪn maɪ ˈkɑːrt, ˈpeɪ, ənd ˈhæv ðɛm dɪˈlɪvərd ðə ˈnɛkst ˈdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "But you can't try on clothes online!",
+      "reading": "bʌt juː ˈkænt ˈtraɪ ɑːn ˈkloʊðz ˌɑːnˈlaɪn!"
+    },
+    {
+      "speaker": "a",
+      "text": "True. If they don't fit, I have them picked up by a courier and get a refund.",
+      "reading": "ˈtruː. ɪf ðeɪ ˈdoʊnt ˈfɪt, aɪ ˈhæv ðɛm ˈpɪkt ˈʌp baɪ ə ˈkʊriər ənd ˈɡɛt ə ˈriːfʌnd."
+    },
+    {
+      "speaker": "c",
+      "text": "Is that free?",
+      "reading": "ɪz ˈðæt ˈfriː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Usually. And I can track my package on the app, so I know when it will arrive.",
+      "reading": "ˈjuːʒuəli. ənd aɪ kən ˈtræk maɪ ˈpækɪdʒ ɑːn ði ˈæp, soʊ aɪ ˈnoʊ wɛn ɪt wɪl əˈraɪv."
+    },
+    {
+      "speaker": "c",
+      "text": "I don't trust couriers. Last month, one left my package on the doorstep, and someone stole it!",
+      "reading": "aɪ ˈdoʊnt ˈtrʌst ˈkʊriərz. ˈlæst ˈmʌnθ, ˈwʌn ˈlɛft maɪ ˈpækɪdʒ ɑːn ðə ˈdɔːrstɛp, ənd ˈsʌmwʌn ˈstoʊl ɪt!"
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! That's why I always have my packages delivered to the front desk of my building.",
+      "reading": "ˈoʊ ˈnoʊ! ðæts ˈwaɪ aɪ ˈɔːlweɪz ˈhæv maɪ ˈpækɪdʒɪz dɪˈlɪvərd tə ðə ˌfrʌnt ˈdɛsk əv maɪ ˈbɪldɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "Smart. By the way, did you get your phone fixed?",
+      "reading": "ˈsmɑːrt. baɪ ðə ˈweɪ, dɪd juː ˈɡɛt jʊr ˈfoʊn ˈfɪkst?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I had it fixed at a little shop near my building. It looks new!",
+      "reading": "ˈjɛs, aɪ hæd ɪt ˈfɪkst ət ə ˈlɪtəl ˈʃɑːp ˈnɪr maɪ ˈbɪldɪŋ. ɪt ˈlʊks ˈnuː!"
+    }
+  ]
+}

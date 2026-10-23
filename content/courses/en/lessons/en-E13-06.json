@@ -1,0 +1,96 @@
+{
+  "id": "en-E13-06",
+  "target": "en",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.terms-and-conditions",
+      "kind": "phrase",
+      "text": "terms and conditions",
+      "reading": "ˌtɜːrmz ən kənˈdɪʃənz"
+    },
+    {
+      "id": "en.membership",
+      "text": "membership",
+      "reading": "ˈmɛmbərʃɪp"
+    },
+    {
+      "id": "en.loyalty-card",
+      "text": "loyalty card",
+      "reading": "ˈlɔɪəlti ˌkɑːrd"
+    },
+    {
+      "id": "en.valid",
+      "text": "valid",
+      "reading": "ˈvælɪd"
+    },
+    {
+      "id": "en.expire",
+      "text": "expire",
+      "reading": "ɪkˈspaɪər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hello. Do you have a loyalty card with us?",
+      "reading": "həˈloʊ. duː juː ˈhæv ə ˈlɔɪəlti ˌkɑːrd wɪð ˈʌs?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I don't. Is it free?",
+      "reading": "ˈnoʊ, aɪ ˈdoʊnt. ɪz ɪt ˈfriː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. The membership is free, as long as you spend over five hundred baht today.",
+      "reading": "ˈjɛs. ðə ˈmɛmbərʃɪp ɪz ˈfriː, əz ˈlɔːŋ əz juː ˈspɛnd ˈoʊvər ˈfaɪv ˈhʌndrəd ˈbɑːt təˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. What do I get with it?",
+      "reading": "oʊˈkeɪ. ˈwʌt duː aɪ ˈɡɛt wɪð ɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "You get points every time you shop, and a discount on your birthday.",
+      "reading": "juː ˈɡɛt ˈpɔɪnts ˈɛvri ˈtaɪm juː ˈʃɑːp, ənd ə ˈdɪskaʊnt ɑːn jʊr ˈbɜːrθdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Do the points expire?",
+      "reading": "ˈduː ðə ˈpɔɪnts ɪkˈspaɪər?"
+    },
+    {
+      "speaker": "c",
+      "text": "They're valid for one year, so use them before they expire.",
+      "reading": "ðɛr ˈvælɪd fər ˈwʌn ˈjɪr, ˈsoʊ ˈjuːz ðɛm bɪˈfɔːr ðeɪ ɪkˈspaɪər."
+    },
+    {
+      "speaker": "a",
+      "text": "And can I return things if they don't fit?",
+      "reading": "ənd kən aɪ rɪˈtɜːrn ˈθɪŋz ɪf ðeɪ ˈdoʊnt ˈfɪt?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, as long as you bring the receipt and the price tag is still on.",
+      "reading": "ˈjɛs, əz ˈlɔːŋ əz juː ˈbrɪŋ ðə rɪˈsiːt ənd ðə ˈpraɪs ˌtæɡ ɪz ˈstɪl ˈɑːn."
+    },
+    {
+      "speaker": "a",
+      "text": "How long do I have?",
+      "reading": "ˈhaʊ ˈlɔːŋ duː aɪ ˈhæv?"
+    },
+    {
+      "speaker": "c",
+      "text": "Thirty days. You can read the full terms and conditions on our app.",
+      "reading": "ˈθɜːrti ˈdeɪz. juː kən ˈriːd ðə ˈfʊl ˈtɜːrmz ənd kənˈdɪʃənz ɑːn aʊr ˈæp."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. As long as I don't have to read all of it, I'm happy!",
+      "reading": "ˈɡreɪt. əz ˈlɔːŋ əz aɪ ˈdoʊnt ˈhæf tə ˈriːd ˈɔːl əv ɪt, aɪm ˈhæpi!"
+    }
+  ]
+}

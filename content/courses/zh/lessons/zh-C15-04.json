@@ -1,0 +1,70 @@
+{
+  "id": "zh-C15-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ran-hou",
+      "text": "然后",
+      "reading": "ránhòu"
+    },
+    {
+      "id": "zh.shu-cooked",
+      "text": "熟",
+      "reading": "shú"
+    },
+    {
+      "id": "zh.jia-add",
+      "text": "加",
+      "reading": "jiā"
+    },
+    {
+      "id": "zh.cai-liao",
+      "text": "材料",
+      "reading": "cáiliào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，泰式炒米粉怎么做？",
+      "reading": "Xiǎonán, Tàishì chǎo mǐfěn zěnme zuò?"
+    },
+    {
+      "speaker": "a",
+      "text": "不难。先准备材料：米粉、鸡蛋，还有一点儿糖。",
+      "reading": "Bù nán. Xiān zhǔnbèi cáiliào: mǐfěn, jīdàn, hái yǒu yīdiǎnr táng."
+    },
+    {
+      "speaker": "b",
+      "text": "准备好了。然后呢？",
+      "reading": "Zhǔnbèi hǎo le. Ránhòu ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "先放油，再炒鸡蛋，然后加米粉。",
+      "reading": "Xiān fàng yóu, zài chǎo jīdàn, ránhòu jiā mǐfěn."
+    },
+    {
+      "speaker": "b",
+      "text": "糖什么时候加？",
+      "reading": "Táng shénme shíhou jiā?"
+    },
+    {
+      "speaker": "a",
+      "text": "加米粉以后，再加一点儿糖。",
+      "reading": "Jiā mǐfěn yǐhòu, zài jiā yīdiǎnr táng."
+    },
+    {
+      "speaker": "b",
+      "text": "最后呢？",
+      "reading": "Zuìhòu ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "最后再炒两分钟，米粉熟了就可以吃了！",
+      "reading": "Zuìhòu zài chǎo liǎng fēnzhōng, mǐfěn shú le jiù kěyǐ chī le!"
+    }
+  ]
+}
