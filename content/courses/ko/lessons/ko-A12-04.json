@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.orenji",
+      "text": "오렌지",
+      "reading": "orenji"
+    },
+    {
+      "id": "ko.remon",
+      "text": "레몬",
+      "reading": "remon"
+    },
+    {
+      "id": "ko.kiwi",
+      "text": "키위",
+      "reading": "kiwi"
+    },
+    {
+      "id": "ko.tomato",
+      "text": "토마토",
+      "reading": "tomato"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "노란색이에요. 뭐예요?",
+      "reading": "Noransaegieyo. Mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "레몬이에요!",
+      "reading": "Remonieyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요! 빨간색이에요. 사과가 아니에요.",
+      "reading": "Majayo! Ppalgansaegieyo. Sagwaga anieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 토마토예요!",
+      "reading": "A, tomatoyeyo!"
+    }
+  ]
+}

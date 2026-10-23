@@ -1,0 +1,60 @@
+{
+  "id": "ko-B13-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.hotel",
+      "text": "호텔",
+      "reading": "hotel"
+    },
+    {
+      "id": "ko.yeyak",
+      "text": "예약",
+      "reading": "yeyak"
+    },
+    {
+      "id": "ko.minbak",
+      "text": "민박",
+      "reading": "minbak"
+    },
+    {
+      "id": "ko.harutbam",
+      "text": "하룻밤",
+      "reading": "harutbam"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요! 하룻밤 예약했어요. 남이에요.",
+      "reading": "Annyeonghaseyo! Harutbam yeyakaesseoyo. Namieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 남 씨! 어서 오세요. 방은 이 층이에요.",
+      "reading": "A, Nam ssi! Eoseo oseyo. Bangeun i cheungieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 아침도 있어요?",
+      "reading": "Gamsahamnida. Achimdo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 아침은 여덟 시예요.",
+      "reading": "Ne, achimeun yeodeol siyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "방이 정말 깨끗해요! 호텔은 비싸요. 민박이 좋아요.",
+      "reading": "Bangi jeongmal kkaekkeutaeyo! Hotereun bissayo. Minbagi joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "감사합니다. 푹 쉬세요!",
+      "reading": "Gamsahamnida. Puk swiseyo!"
+    }
+  ]
+}

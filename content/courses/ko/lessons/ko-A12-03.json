@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.chokollit",
+      "text": "초콜릿",
+      "reading": "chokollit"
+    },
+    {
+      "id": "ko.kuki",
+      "text": "쿠키",
+      "reading": "kuki"
+    },
+    {
+      "id": "ko.jelli",
+      "text": "젤리",
+      "reading": "jelli"
+    },
+    {
+      "id": "ko.chijeu",
+      "text": "치즈",
+      "reading": "chijeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 초콜릿 먹어요?",
+      "reading": "Nam ssi, chokollit meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 고마워요. 와, 달아요!",
+      "reading": "Ne, gomawoyo. Wa, darayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "쿠키도 먹어요? 치즈 쿠키예요.",
+      "reading": "Kukido meogeoyo? Chijeu kukiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 음, 고소해요. 젤리도 주세요!",
+      "reading": "Ne! Eum, gosohaeyo. Jellido juseyo!"
+    }
+  ]
+}

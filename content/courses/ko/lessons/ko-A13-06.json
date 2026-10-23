@@ -1,0 +1,50 @@
+{
+  "id": "ko-A13-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sangchu",
+      "text": "상추",
+      "reading": "sangchu"
+    },
+    {
+      "id": "ko.kkaennip",
+      "text": "깻잎",
+      "reading": "kkaennip"
+    },
+    {
+      "id": "ko.kongnamul",
+      "text": "콩나물",
+      "reading": "kongnamul"
+    },
+    {
+      "id": "ko.sigeumchi",
+      "text": "시금치",
+      "reading": "sigeumchi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 삼겹살은 상추하고 먹어요.",
+      "reading": "Nam ssi, samgyeopsareun sangchuhago meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "깻잎도요?",
+      "reading": "Kkaennipdoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 깻잎도요. 콩나물하고 시금치도 맛있어요.",
+      "reading": "Ne, kkaennipdoyo. Kongnamulhago sigeumchido masisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저기요! 상추하고 깻잎 더 주세요!",
+      "reading": "Jeogiyo! Sangchuhago kkaennip deo juseyo!"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.keompyuteo",
+      "text": "컴퓨터",
+      "reading": "keompyuteo"
+    },
+    {
+      "id": "ko.noteubuk",
+      "text": "노트북",
+      "reading": "noteubuk"
+    },
+    {
+      "id": "ko.mauseu",
+      "text": "마우스",
+      "reading": "mauseu"
+    },
+    {
+      "id": "ko.ieopon",
+      "text": "이어폰",
+      "reading": "ieopon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 컴퓨터 빌려주세요.",
+      "reading": "Minjun ssi, keompyuteo billyeojuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "노트북 괜찮아요?",
+      "reading": "Noteubuk gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 괜찮아요. 마우스하고 이어폰도 빌려주세요.",
+      "reading": "Ne, gwaenchanayo. Mauseuhago ieopondo billyeojuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    }
+  ]
+}

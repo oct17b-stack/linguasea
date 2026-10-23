@@ -1,0 +1,62 @@
+{
+  "id": "ko-B13-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.sajin-jom-jjigeo-juseyo",
+      "kind": "phrase",
+      "text": "사진 좀 찍어 주세요",
+      "reading": "sajin jom jjigeo juseyo"
+    },
+    {
+      "id": "ko.han-jang-deo",
+      "kind": "phrase",
+      "text": "한 장 더",
+      "reading": "han jang deo"
+    },
+    {
+      "id": "ko.areumdawoyo",
+      "text": "아름다워요",
+      "reading": "areumdawoyo"
+    },
+    {
+      "id": "ko.gaideu",
+      "text": "가이드",
+      "reading": "gaideu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 사진 좀 찍어 주세요.",
+      "reading": "Jeogiyo, sajin jom jjigeo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 좋아요. 하나, 둘, 셋!",
+      "reading": "Ne, joayo. Hana, dul, set!"
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 한 장 더 찍어 주세요.",
+      "reading": "Gamsahamnida. Han jang deo jjigeo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네! 여기 해변이 정말 아름다워요. 여행 중이에요?",
+      "reading": "Ne! Yeogi haebyeoni jeongmal areumdawoyo. Yeohaeng jungieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 저는 태국 사람이에요.",
+      "reading": "Ne, jeoneun Taeguk saramieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "반가워요! 저는 부산 가이드예요. 저기 시장 음식도 맛있어요!",
+      "reading": "Bangawoyo! Jeoneun Busan gaideuyeyo. Jeogi sijang eumsikdo masisseoyo!"
+    }
+  ]
+}

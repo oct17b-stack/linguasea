@@ -1,0 +1,60 @@
+{
+  "id": "ko-B13-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.seoul",
+      "text": "서울",
+      "reading": "Seoul"
+    },
+    {
+      "id": "ko.busan",
+      "text": "부산",
+      "reading": "Busan"
+    },
+    {
+      "id": "ko.jejudo",
+      "text": "제주도",
+      "reading": "Jejudo"
+    },
+    {
+      "id": "ko.haebyeon",
+      "text": "해변",
+      "reading": "haebyeon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 서울이 좋아요?",
+      "reading": "Nam ssi, Seouri joayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요. 그런데 부산에도 가고 싶어요.",
+      "reading": "Ne, joayo. Geureonde Busanedo gago sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "부산이요? 부산에서 뭐 하고 싶어요?",
+      "reading": "Busaniyo? Busaneseo mwo hago sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "해변에서 쉬고 싶어요. 시장 음식도 먹고 싶어요.",
+      "reading": "Haebyeoneseo swigo sipeoyo. Sijang eumsikdo meokgo sipeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요! 제주도도 정말 예뻐요.",
+      "reading": "Joayo! Jejudodo jeongmal yeppeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 다음 달에 제주도에 가요.",
+      "reading": "Ne! Daeum dare Jejudoe gayo."
+    }
+  ]
+}

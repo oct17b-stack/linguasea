@@ -1,0 +1,91 @@
+{
+  "id": "ko-E7-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.ganpyeon-hada",
+      "text": "간편하다",
+      "reading": "ganpyeonhada"
+    },
+    {
+      "id": "ko.muin",
+      "text": "무인",
+      "reading": "muin"
+    },
+    {
+      "id": "ko.kioseukeu",
+      "text": "키오스크",
+      "reading": "kioseukeu"
+    },
+    {
+      "id": "ko.bakodeu",
+      "text": "바코드",
+      "reading": "bakodeu"
+    },
+    {
+      "id": "ko.gyejwa-iche",
+      "kind": "phrase",
+      "text": "계좌 이체",
+      "reading": "gyejwa iche"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준아, 이 무인 카페에서는 어떻게 주문해? 직원이 없네.",
+      "reading": "Minjuna, i muin kapeeseoneun eotteoke jumunhae? Jigwoni eomne."
+    },
+    {
+      "speaker": "b",
+      "text": "저기 키오스크에서 주문하면 돼. 메뉴를 고르기만 하면 돼.",
+      "reading": "Jeogi kioseukeueseo jumunhamyeon dwae. Menyureul goreugiman hamyeon dwae."
+    },
+    {
+      "speaker": "a",
+      "text": "돈은 어떻게 내? 현금은 안 돼?",
+      "reading": "Doneun eotteoke nae? Hyeongeumeun an dwae?"
+    },
+    {
+      "speaker": "b",
+      "text": "여기는 카드만 돼. 아니면 휴대폰 앱의 바코드를 찍기만 하면 돼.",
+      "reading": "Yeogineun kadeuman dwae. Animyeon hyudaepon aebui bakodeureul jjikgiman hamyeon dwae."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 간편하다.",
+      "reading": "Wa, jeongmal ganpyeonhada."
+    },
+    {
+      "speaker": "b",
+      "text": "친구한테 돈을 보낼 때도 앱으로 계좌 이체를 해. 비밀번호만 누르면 돼.",
+      "reading": "Chinguhante doneul bonael ttaedo aebeuro gyejwa ichereul hae. Bimilbeonhoman nureumyeon dwae."
+    },
+    {
+      "speaker": "a",
+      "text": "태국도 요즘은 시장에서도 휴대폰으로 돈을 내.",
+      "reading": "Taegukdo yojeumeun sijangeseodo hyudaeponeuro doneul nae."
+    },
+    {
+      "speaker": "b",
+      "text": "그래? 그럼 너도 금방 익숙해지겠다.",
+      "reading": "Geurae? Geureom neodo geumbang iksukaejigetda."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 나이 많은 사람들은 키오스크를 어려워하지 않아?",
+      "reading": "Geureonde nai maneun saramdeureun kioseukeureul eoryeowohaji ana?"
+    },
+    {
+      "speaker": "b",
+      "text": "맞아. 우리 할머니도 버튼을 누르기만 하면 되는데 어렵다고 하셔.",
+      "reading": "Maja. Uri halmeonido beoteuneul nureugiman hamyeon doeneunde eoryeopdago hasyeo."
+    },
+    {
+      "speaker": "a",
+      "text": "다음에 할머니 오시면 우리가 같이 도와드리자.",
+      "reading": "Daeume halmeoni osimyeon uriga gachi dowadeurija."
+    }
+  ]
+}

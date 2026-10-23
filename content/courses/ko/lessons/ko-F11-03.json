@@ -1,0 +1,95 @@
+{
+  "id": "ko-F11-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jurimmal",
+      "text": "줄임말",
+      "reading": "jurimmal"
+    },
+    {
+      "id": "ko.sinjoeo",
+      "text": "신조어",
+      "reading": "sinjoeo"
+    },
+    {
+      "id": "ko.yuhaengeo",
+      "text": "유행어",
+      "reading": "yuhaengeo"
+    },
+    {
+      "id": "ko.euneo",
+      "text": "은어",
+      "reading": "euneo"
+    },
+    {
+      "id": "ko.oeraeeo",
+      "text": "외래어",
+      "reading": "oeraeeo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "저는 겨울에도 얼죽아예요.",
+      "reading": "Jeoneun gyeouredo eoljugayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "얼죽아라고요? 그게 무슨 뜻이에요?",
+      "reading": "Eoljugaragoyo? Geuge museun tteusieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "'얼어 죽어도 아이스 아메리카노'의 줄임말이에요. 추워도 아이스 커피만 마신다는 뜻이에요.",
+      "reading": "'Eoreo jugeodo aiseu amerikano'ui jurimmarieyo. Chuwodo aiseu keopiman masindaneun tteusieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "추워도 아이스만 마신다고요? 대단하네요. 이런 말도 신조어예요?",
+      "reading": "Chuwodo aiseuman masindagoyo? Daedanhaneyo. Ireon maldo sinjoeoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 요즘 이런 신조어가 정말 많아요. 그런데 친구끼리 쓰는 은어 같은 말이라서 어른들은 잘 모르세요.",
+      "reading": "Ne, yojeum ireon sinjoeoga jeongmal manayo. Geureonde chingukkiri sseuneun euneo gateun mariraseo eoreundeureun jal moreuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 저는 어디서 이런 유행어를 배울 수 있어요?",
+      "reading": "Geureom jeoneun eodiseo ireon yuhaengeoreul baeul su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "드라마나 예능을 보면 금방 배울 수 있어요. 대신 외래어도 많이 섞여 있어서 좀 헷갈릴 거예요.",
+      "reading": "Deuramana yeneungeul bomyeon geumbang baeul su isseoyo. Daesin oeraeeodo mani seokkyeo isseoseo jom hetgallil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. '아이스'나 '아메리카노'도 다 외래어네요.",
+      "reading": "Majayo. 'Aiseu'na 'amerikano'do da oeraeeoneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "태국에도 이런 유행어가 있어요?",
+      "reading": "Taegugedo ireon yuhaengeoga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 예를 들면 요즘 '빵'이라는 말을 '정말 멋지다'는 뜻으로 써요.",
+      "reading": "Ne, yereul deulmyeon yojeum 'ppang'iraneun mareul 'jeongmal meotjida'neun tteuseuro sseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "빵이라고요? 먹는 빵이요?",
+      "reading": "Ppangiragoyo? Meongneun ppangiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 소리는 비슷한데 뜻은 완전히 달라요.",
+      "reading": "Haha, sorineun biseutande tteuseun wanjeonhi dallayo."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ko-A13-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ttalgi",
+      "text": "딸기",
+      "reading": "ttalgi"
+    },
+    {
+      "id": "ko.subak",
+      "text": "수박",
+      "reading": "subak"
+    },
+    {
+      "id": "ko.gyul",
+      "text": "귤",
+      "reading": "gyul"
+    },
+    {
+      "id": "ko.boksunga",
+      "text": "복숭아",
+      "reading": "boksunga"
+    },
+    {
+      "id": "ko.chamoe",
+      "text": "참외",
+      "reading": "chamoe"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아저씨, 이게 뭐예요?",
+      "reading": "Ajeossi, ige mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "참외예요. 달아요!",
+      "reading": "Chamoeyeyo. Darayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "참외 하나 주세요. 복숭아도 주세요.",
+      "reading": "Chamoe hana juseyo. Boksungado juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요. 수박도 맛있어요!",
+      "reading": "Ne, yeogiyo. Subakdo masisseoyo!"
+    }
+  ]
+}

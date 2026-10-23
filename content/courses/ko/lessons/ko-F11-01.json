@@ -1,0 +1,90 @@
+{
+  "id": "ko-F11-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.eohwi",
+      "text": "어휘",
+      "reading": "eohwi"
+    },
+    {
+      "id": "ko.nanmal",
+      "text": "낱말",
+      "reading": "nanmal"
+    },
+    {
+      "id": "ko.tteut-hada",
+      "text": "뜻하다",
+      "reading": "tteutada"
+    },
+    {
+      "id": "ko.uimi",
+      "text": "의미",
+      "reading": "uimi"
+    },
+    {
+      "id": "ko.gaenyeom",
+      "text": "개념",
+      "reading": "gaenyeom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 한국어를 공부하면서 번역하기 어려운 어휘가 있었어요?",
+      "reading": "Nam ssi, hangugeoreul gongbuhamyeonseo beonyeokagi eoryeoun eohwiga isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, '정'이라는 낱말이 제일 어려웠어요. 사전에는 '사랑'이라고 쓰여 있는데 좀 달라요.",
+      "reading": "Ne, 'jeong'iraneun nanmari jeil eoryeowosseoyo. Sajeoneneun 'sarang'irago sseuyeo inneunde jom dallayo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 정은 오랫동안 함께 지내면서 생기는 따뜻한 마음을 뜻해요.",
+      "reading": "Majayo. Jeongeun oraetdongan hamkke jinaemyeonseo saenggineun ttatteutan maeumeul tteutaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 '정이 들다'라는 표현도 있는 거죠?",
+      "reading": "Geuraeseo 'jeongi deulda'raneun pyohyeondo inneun geojyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 좋아하지 않던 사람이라도 오래 보면 정이 들 수 있어요. 태국어에도 이런 개념이 있어요?",
+      "reading": "Ne, joahaji anteon saramirado orae bomyeon jeongi deul su isseoyo. Taegugeoedo ireon gaenyeomi isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "똑같은 건 없지만, 태국에는 '끄렝짜이'라는 말이 있어요.",
+      "reading": "Ttokgateun geon eopjiman, Taegugeneun 'kkeurengjjai'raneun mari isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "끄렝짜이요? 그건 무슨 의미예요?",
+      "reading": "Kkeurengjjaiyo? Geugeon museun uimiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다른 사람에게 폐를 끼치고 싶지 않아서 하고 싶은 말도 참는 마음이에요.",
+      "reading": "Dareun saramege pyereul kkichigo sipji anaseo hago sipeun maldo chamneun maeumieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 한국의 '눈치'라는 개념하고 조금 비슷하네요.",
+      "reading": "A, Hangugui 'nunchi'raneun gaenyeomhago jogeum biseutaneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그런데 끄렝짜이는 다른 사람을 배려하는 마음이 더 강해요.",
+      "reading": "Ne, geureonde kkeurengjjaineun dareun sarameul baeryeohaneun maeumi deo ganghaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "재미있네요. 낱말 하나에도 그 나라의 문화가 들어 있군요.",
+      "reading": "Jaemiinneyo. Nanmal hanaedo geu naraui munhwaga deureo itgunyo."
+    }
+  ]
+}

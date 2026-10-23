@@ -1,0 +1,55 @@
+{
+  "id": "ko-A13-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.pa",
+      "text": "파",
+      "reading": "pa"
+    },
+    {
+      "id": "ko.hobak",
+      "text": "호박",
+      "reading": "hobak"
+    },
+    {
+      "id": "ko.kong",
+      "text": "콩",
+      "reading": "kong"
+    },
+    {
+      "id": "ko.singsinghaeyo",
+      "text": "싱싱해요",
+      "reading": "singsinghaeyo"
+    },
+    {
+      "id": "ko.jeil",
+      "text": "제일",
+      "reading": "jeil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아저씨, 파하고 콩 주세요.",
+      "reading": "Ajeossi, pahago kong juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 호박도 싱싱해요!",
+      "reading": "Ne. Hobakdo singsinghaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "뭐가 제일 맛있어요?",
+      "reading": "Mwoga jeil masisseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "호박이 제일 맛있어요! 달아요.",
+      "reading": "Hobagi jeil masisseoyo! Darayo."
+    }
+  ]
+}

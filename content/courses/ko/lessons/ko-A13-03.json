@@ -1,0 +1,50 @@
+{
+  "id": "ko-A13-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.danggeun",
+      "text": "당근",
+      "reading": "danggeun"
+    },
+    {
+      "id": "ko.gamja",
+      "text": "감자",
+      "reading": "gamja"
+    },
+    {
+      "id": "ko.yangpa",
+      "text": "양파",
+      "reading": "yangpa"
+    },
+    {
+      "id": "ko.saenggang",
+      "text": "생강",
+      "reading": "saenggang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아저씨, 당근하고 감자 주세요.",
+      "reading": "Ajeossi, danggeunhago gamja juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요. 양파도요?",
+      "reading": "Ne, yeogiyo. Yangpadoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 아, 이게 뭐예요?",
+      "reading": "Ne! A, ige mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "생강이에요. 생강차 맛있어요!",
+      "reading": "Saenggangieyo. Saenggangcha masisseoyo!"
+    }
+  ]
+}

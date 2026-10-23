@@ -1,0 +1,65 @@
+{
+  "id": "ko-B13-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yeohaeng",
+      "text": "여행",
+      "reading": "yeohaeng"
+    },
+    {
+      "id": "ko.gonghang",
+      "text": "공항",
+      "reading": "gonghang"
+    },
+    {
+      "id": "ko.bihaenggi",
+      "text": "비행기",
+      "reading": "bihaenggi"
+    },
+    {
+      "id": "ko.jim",
+      "text": "짐",
+      "reading": "jim"
+    },
+    {
+      "id": "ko.bihaenggipyo",
+      "text": "비행기표",
+      "reading": "bihaenggipyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 짐이 많아요! 어디 가요?",
+      "reading": "Nam ssi, jimi manayo! Eodi gayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "일본에 여행 가요. 지금 공항에 가요.",
+      "reading": "Ilbone yeohaeng gayo. Jigeum gonghange gayo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 좋아요! 비행기표 비싸요?",
+      "reading": "Wa, joayo! Bihaenggipyo bissayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 이번 달은 비행기표가 싸요.",
+      "reading": "Aniyo, ibeon dareun bihaenggipyoga ssayo."
+    },
+    {
+      "speaker": "b",
+      "text": "몇 시 비행기예요?",
+      "reading": "Myeot si bihaenggiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 시에 비행기를 타요. 다음 주에 만나요!",
+      "reading": "Du sie bihaenggireul tayo. Daeum jue mannayo!"
+    }
+  ]
+}

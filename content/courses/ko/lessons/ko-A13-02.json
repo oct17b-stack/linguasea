@@ -1,0 +1,51 @@
+{
+  "id": "ko-A13-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.yonggwa",
+      "text": "용과",
+      "reading": "yonggwa"
+    },
+    {
+      "id": "ko.painaepeul",
+      "text": "파인애플",
+      "reading": "painaepeul"
+    },
+    {
+      "id": "ko.bae",
+      "text": "배",
+      "reading": "bae"
+    },
+    {
+      "id": "ko.saenggwail-juseu",
+      "kind": "phrase",
+      "text": "생과일 주스",
+      "reading": "saenggwail juseu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 생과일 주스 하나 주세요.",
+      "reading": "Jeogiyo, saenggwail juseu hana juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 파인애플이에요? 용과예요?",
+      "reading": "Ne. Painaepeurieyo? Yonggwayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "용과 주세요. 아, 배도 맛있어요?",
+      "reading": "Yonggwa juseyo. A, baedo masisseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 배 주스는 달아요!",
+      "reading": "Ne, bae juseuneun darayo!"
+    }
+  ]
+}

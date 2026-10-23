@@ -1,0 +1,95 @@
+{
+  "id": "ko-E7-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.oryu",
+      "text": "오류",
+      "reading": "oryu"
+    },
+    {
+      "id": "ko.meomchuda",
+      "text": "멈추다",
+      "reading": "meomchuda"
+    },
+    {
+      "id": "ko.jeojang-hada",
+      "text": "저장하다",
+      "reading": "jeojanghada"
+    },
+    {
+      "id": "ko.naragada",
+      "text": "날아가다",
+      "reading": "naragada"
+    },
+    {
+      "id": "ko.bokgu-hada",
+      "text": "복구하다",
+      "reading": "bokguhada"
+    },
+    {
+      "id": "ko.baegeop",
+      "text": "백업",
+      "reading": "baegeop"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 왜 이렇게 늦었어? 수업 벌써 끝났어.",
+      "reading": "Nama, wae ireoke neujeosseo? Sueop beolsseo kkeunnasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "미안해. 아침에 노트북이 갑자기 멈추는 바람에 늦었어.",
+      "reading": "Mianhae. Achime noteubugi gapjagi meomchuneun barame neujeosseo."
+    },
+    {
+      "speaker": "b",
+      "text": "왜? 고장 났어?",
+      "reading": "Wae? Gojang nasseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "업데이트하는 중에 오류가 생겼어. 그리고 컴퓨터가 꺼지는 바람에 어젯밤에 쓴 보고서가 다 날아갔어.",
+      "reading": "Eopdeiteuhaneun junge oryuga saenggyeosseo. Geurigo keompyuteoga kkeojineun barame eojetbame sseun bogoseoga da naragasseo."
+    },
+    {
+      "speaker": "b",
+      "text": "저장 안 했어?",
+      "reading": "Jeojang an haesseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "응, 중간에 한 번도 저장하지 않았어.",
+      "reading": "Eung, junggane han beondo jeojanghaji anasseo."
+    },
+    {
+      "speaker": "b",
+      "text": "백업은 해 놨어?",
+      "reading": "Baegeobeun hae nwasseo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니. 복구할 수 있는 방법이 있을까?",
+      "reading": "Ani. Bokguhal su inneun bangbeobi isseulkka?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 컴퓨터실에 가 보자. 아는 선배가 거기에서 일해.",
+      "reading": "Hakgyo keompyuteosire ga boja. Aneun seonbaega geogieseo ilhae."
+    },
+    {
+      "speaker": "a",
+      "text": "정말? 다행이다. 앞으로는 자주 저장하고 백업도 꼭 할게.",
+      "reading": "Jeongmal? Dahaengida. Apeuroneun jaju jeojanghago baegeopdo kkok halge."
+    },
+    {
+      "speaker": "b",
+      "text": "그래. 그리고 다음부터는 늦을 것 같으면 미리 연락해.",
+      "reading": "Geurae. Geurigo daeumbuteoneun neujeul geot gateumyeon miri yeollakae."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ko-E7-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geulja-keugi",
+      "kind": "phrase",
+      "text": "글자 크기",
+      "reading": "geulja keugi"
+    },
+    {
+      "id": "ko.hwakdae-hada",
+      "text": "확대하다",
+      "reading": "hwakdaehada"
+    },
+    {
+      "id": "ko.eumseong-insik",
+      "kind": "phrase",
+      "text": "음성 인식",
+      "reading": "eumseong insik"
+    },
+    {
+      "id": "ko.jadong",
+      "text": "자동",
+      "reading": "jadong"
+    },
+    {
+      "id": "ko.sayongja",
+      "text": "사용자",
+      "reading": "sayongja"
+    },
+    {
+      "id": "ko.jangaein",
+      "text": "장애인",
+      "reading": "jangaein"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 할아버지 휴대폰 설정 좀 도와줄래?",
+      "reading": "Nama, harabeoji hyudaepon seoljeong jom dowajullae?"
+    },
+    {
+      "speaker": "a",
+      "text": "그래. 할아버지가 뭐가 어렵다고 하셔?",
+      "reading": "Geurae. Harabeojiga mwoga eoryeopdago hasyeo?"
+    },
+    {
+      "speaker": "b",
+      "text": "글씨가 너무 작아서 잘 안 보인다고 하셔.",
+      "reading": "Geulssiga neomu jagaseo jal an boindago hasyeo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 글자 크기를 크게 바꿔 드리자. 잘 보이게.",
+      "reading": "Geureom geulja keugireul keuge bakkwo deurija. Jal boige."
+    },
+    {
+      "speaker": "b",
+      "text": "사진은 어떻게 크게 봐?",
+      "reading": "Sajineun eotteoke keuge bwa?"
+    },
+    {
+      "speaker": "a",
+      "text": "화면을 두 번 누르면 사진을 확대할 수 있어.",
+      "reading": "Hwamyeoneul du beon nureumyeon sajineul hwakdaehal su isseo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 문자를 쓰는 것도 힘들어하셔.",
+      "reading": "Geurigo munjareul sseuneun geotdo himdeureohasyeo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 음성 인식 기능을 켜 드리자. 말로 하면 자동으로 글씨가 써져.",
+      "reading": "Geureom eumseong insik gineungeul kyeo deurija. Mallo hamyeon jadongeuro geulssiga sseojyeo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 이건 몰랐네. 정말 편리하다.",
+      "reading": "Wa, igeon mollanne. Jeongmal pyeollihada."
+    },
+    {
+      "speaker": "a",
+      "text": "이런 기능은 노인뿐만 아니라 장애인 사용자도 편하게 쓸 수 있게 만들어졌어.",
+      "reading": "Ireon gineungeun noinppunman anira jangaein sayongjado pyeonhage sseul su itge mandeureojyeosseo."
+    },
+    {
+      "speaker": "b",
+      "text": "모든 사람이 쉽게 쓸 수 있게 기술이 발달해야 해.",
+      "reading": "Modeun sarami swipge sseul su itge gisuri baldalhaeya hae."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아. 이제 할아버지도 편하게 쓰실 수 있을 거야.",
+      "reading": "Maja. Ije harabeojido pyeonhage sseusil su isseul geoya."
+    }
+  ]
+}

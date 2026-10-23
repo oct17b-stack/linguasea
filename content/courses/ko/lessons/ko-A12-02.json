@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.haembeogeo",
+      "text": "햄버거",
+      "reading": "haembeogeo"
+    },
+    {
+      "id": "ko.saendeuwichi",
+      "text": "샌드위치",
+      "reading": "saendeuwichi"
+    },
+    {
+      "id": "ko.saelleodeu",
+      "text": "샐러드",
+      "reading": "saelleodeu"
+    },
+    {
+      "id": "ko.seupageti",
+      "text": "스파게티",
+      "reading": "seupageti"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 햄버거 먹어요?",
+      "reading": "Nam ssi, haembeogeo meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 샌드위치 먹어요. 민준 씨는요?",
+      "reading": "Aniyo, saendeuwichi meogeoyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 스파게티하고 샐러드 먹어요.",
+      "reading": "Jeoneun seupagetihago saelleodeu meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저기요! 샌드위치 하나, 스파게티 하나, 샐러드 하나 주세요.",
+      "reading": "Jeogiyo! Saendeuwichi hana, seupageti hana, saelleodeu hana juseyo."
+    }
+  ]
+}

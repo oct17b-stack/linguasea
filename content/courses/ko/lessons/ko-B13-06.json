@@ -1,0 +1,60 @@
+{
+  "id": "ko-B13-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.hwanjeon",
+      "text": "환전",
+      "reading": "hwanjeon"
+    },
+    {
+      "id": "ko.myeonsejeom",
+      "text": "면세점",
+      "reading": "myeonsejeom"
+    },
+    {
+      "id": "ko.jipye",
+      "text": "지폐",
+      "reading": "jipye"
+    },
+    {
+      "id": "ko.wonhwa",
+      "text": "원화",
+      "reading": "wonhwa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 환전해 주세요. 이거 원화로 바꿔 주세요.",
+      "reading": "Annyeonghaseyo. Hwanjeonhae juseyo. Igeo wonhwaro bakkwo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 오만 원 지폐 괜찮아요?",
+      "reading": "Ne. Oman won jipye gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 만 원 지폐로 주세요.",
+      "reading": "Aniyo, man won jipyero juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 여기 있어요.",
+      "reading": "Ne, yeogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그런데 면세점은 어디에 있어요?",
+      "reading": "Gamsahamnida. Geureonde myeonsejeomeun eodie isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "저기 오른쪽에 있어요.",
+      "reading": "Jeogi oreunjjoge isseoyo."
+    }
+  ]
+}

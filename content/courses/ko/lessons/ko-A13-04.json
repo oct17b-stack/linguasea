@@ -1,0 +1,50 @@
+{
+  "id": "ko-A13-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.gochu",
+      "text": "고추",
+      "reading": "gochu"
+    },
+    {
+      "id": "ko.beoseot",
+      "text": "버섯",
+      "reading": "beoseot"
+    },
+    {
+      "id": "ko.baechu",
+      "text": "배추",
+      "reading": "baechu"
+    },
+    {
+      "id": "ko.oksusu",
+      "text": "옥수수",
+      "reading": "oksusu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "아저씨, 고추 매워요?",
+      "reading": "Ajeossi, gochu maewoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 매워요!",
+      "reading": "Ne, maewoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 고추는 괜찮아요. 버섯하고 옥수수 주세요.",
+      "reading": "A, gochuneun gwaenchanayo. Beoseothago oksusu juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요. 배추도 맛있어요!",
+      "reading": "Ne, yeogiyo. Baechudo masisseoyo!"
+    }
+  ]
+}

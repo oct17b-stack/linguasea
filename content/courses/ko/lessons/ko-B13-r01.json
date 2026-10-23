@@ -1,0 +1,70 @@
+{
+  "id": "ko-B13-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.cheonnal",
+      "text": "첫날",
+      "reading": "cheonnal"
+    },
+    {
+      "id": "ko.haeundae",
+      "text": "해운대",
+      "reading": "Haeundae"
+    },
+    {
+      "id": "ko.hoe",
+      "text": "회",
+      "reading": "hoe"
+    },
+    {
+      "id": "ko.galmaegi",
+      "text": "갈매기",
+      "reading": "galmaegi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘은 부산 여행 첫날이에요.",
+        "reading": "Oneureun Busan yeohaeng cheonnarieyo."
+      },
+      {
+        "text": "아침에 서울에서 기차를 타요.",
+        "reading": "Achime Seoureseo gichareul tayo."
+      },
+      {
+        "text": "민박은 해운대 해변 옆에 있어요.",
+        "reading": "Minbageun Haeundae haebyeon yeope isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "저녁에 시장에서 회를 먹어요.",
+        "reading": "Jeonyeoge sijangeseo hoereul meogeoyo."
+      },
+      {
+        "text": "해변에는 갈매기가 정말 많아요!",
+        "reading": "Haebyeoneneun galmaegiga jeongmal manayo!"
+      },
+      {
+        "text": "부산에 또 오고 싶어요!",
+        "reading": "Busane tto ogo sipeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

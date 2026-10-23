@@ -1,0 +1,96 @@
+{
+  "id": "ko-E7-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.uijon-hada",
+      "text": "의존하다",
+      "reading": "uijonhada"
+    },
+    {
+      "id": "ko.jipjung-hada",
+      "text": "집중하다",
+      "reading": "jipjunghada"
+    },
+    {
+      "id": "ko.siryeok",
+      "text": "시력",
+      "reading": "siryeok"
+    },
+    {
+      "id": "ko.dijiteol-ditokseu",
+      "kind": "phrase",
+      "text": "디지털 디톡스",
+      "reading": "dijiteol ditokseu"
+    },
+    {
+      "id": "ko.seupgwanjeogeuro",
+      "text": "습관적으로",
+      "reading": "seupgwanjeogeuro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 하루에 스마트폰을 얼마나 써요?",
+      "reading": "Nam ssi, harue seumateuponeul eolmana sseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음... 일곱 시간쯤이요. 스마트폰 없이는 아무것도 못 해요.",
+      "reading": "Eum... Ilgop siganjjeumiyo. Seumateupon eopsineun amugeotdo mot haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "스마트폰에 너무 의존하는 것 같네요.",
+      "reading": "Seumateupone neomu uijonhaneun geot ganneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 습관적으로 계속 보게 돼요. 그래서 공부할 때도 집중하기 어려워요.",
+      "reading": "Ne. Seupgwanjeogeuro gyesok boge dwaeyo. Geuraeseo gongbuhal ttaedo jipjunghagi eoryeowoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "눈도 피곤하지요? 시력이 나빠질 수도 있어요.",
+      "reading": "Nundo pigonhajiyo? Siryeogi nappajil sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 요즘 시력이 많이 나빠졌어요.",
+      "reading": "Majayo. Yojeum siryeogi mani nappajyeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 '디지털 디톡스'를 해 보는 게 어때요?",
+      "reading": "Geureom 'dijiteol ditokseu'reul hae boneun ge eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그게 뭐예요?",
+      "reading": "Geuge mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "정해진 시간 동안 스마트폰 없이 지내는 거예요. 저는 주말 아침에는 휴대폰 없이 산책해요.",
+      "reading": "Jeonghaejin sigan dongan seumateupon eopsi jinaeneun geoyeyo. Jeoneun jumal achimeneun hyudaepon eopsi sanchaekaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "휴대폰 없이 산책하면 심심하지 않아요?",
+      "reading": "Hyudaepon eopsi sanchaekamyeon simsimhaji anayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "처음에는 그랬는데, 지금은 머리가 맑아지는 것 같아요.",
+      "reading": "Cheoeumeneun geuraenneunde, jigeumeun meoriga malgajineun geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 오늘부터 잘 때는 휴대폰 없이 자 볼게요.",
+      "reading": "Jeodo oneulbuteo jal ttaeneun hyudaepon eopsi ja bolgeyo."
+    }
+  ]
+}

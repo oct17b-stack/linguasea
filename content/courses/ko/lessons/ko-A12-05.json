@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.selka",
+      "text": "셀카",
+      "reading": "selka"
+    },
+    {
+      "id": "ko.konsenteu",
+      "text": "콘센트",
+      "reading": "konsenteu"
+    },
+    {
+      "id": "ko.nyuseu",
+      "text": "뉴스",
+      "reading": "nyuseu"
+    },
+    {
+      "id": "ko.seupocheu",
+      "text": "스포츠",
+      "reading": "seupocheu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 제 핸드폰… 콘센트 찾아요.",
+      "reading": "Minjun ssi, je haendeupon… Konsenteu chajayo."
+    },
+    {
+      "speaker": "b",
+      "text": "콘센트는 텔레비전 아래예요.",
+      "reading": "Konsenteuneun tellebijeon araeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요! 아, 뉴스예요?",
+      "reading": "Gomawoyo! A, nyuseuyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 스포츠 뉴스예요.",
+      "reading": "Ne, seupocheu nyuseuyeyo."
+    }
+  ]
+}

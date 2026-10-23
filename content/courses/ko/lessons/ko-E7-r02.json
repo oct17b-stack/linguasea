@@ -1,0 +1,104 @@
+{
+  "id": "ko-E7-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.hoewon-gaip",
+      "kind": "phrase",
+      "text": "회원 가입",
+      "reading": "hoewon gaip"
+    },
+    {
+      "id": "ko.injeung",
+      "text": "인증",
+      "reading": "injeung"
+    },
+    {
+      "id": "ko.bonin",
+      "text": "본인",
+      "reading": "bonin"
+    },
+    {
+      "id": "ko.imnyeok-hada",
+      "text": "입력하다",
+      "reading": "imnyeokada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남: 민준아, 네가 말한 새 배달 앱 설치했어.",
+        "reading": "Nam: Minjuna, nega malhan sae baedal aep seolchihaesseo."
+      },
+      {
+        "text": "남: 그런데 회원 가입이 좀 어려워.",
+        "reading": "Nam: Geureonde hoewon gaibi jom eoryeowo."
+      },
+      {
+        "text": "민준: 어디에서 막혔어?",
+        "reading": "Minjun: Eodieseo makyeosseo?"
+      },
+      {
+        "text": "남: 본인 인증을 하라는데 어떻게 하는지 모르겠어.",
+        "reading": "Nam: Bonin injeungeul haraneunde eotteoke haneunji moreugesseo."
+      }
+    ],
+    [
+      {
+        "text": "민준: 먼저 네 이름하고 전화번호를 입력해.",
+        "reading": "Minjun: Meonjeo ne ireumhago jeonhwabeonhoreul imnyeokae."
+      },
+      {
+        "text": "민준: 그러면 문자로 인증 번호가 올 거야.",
+        "reading": "Minjun: Geureomyeon munjaro injeung beonhoga ol geoya."
+      },
+      {
+        "text": "남: 왔어! 여섯 자리 숫자야.",
+        "reading": "Nam: Wasseo! Yeoseot jari sutjaya."
+      },
+      {
+        "text": "민준: 그 번호를 삼 분 안에 입력하면 돼.",
+        "reading": "Minjun: Geu beonhoreul sam bun ane imnyeokamyeon dwae."
+      }
+    ],
+    [
+      {
+        "text": "남: 됐다! 그런데 이번에는 여권 번호도 입력하라고 해.",
+        "reading": "Nam: Dwaetda! Geureonde ibeoneneun yeogwon beonhodo imnyeokarago hae."
+      },
+      {
+        "text": "민준: 외국인은 그것도 필요해. 여권 번호를 입력하면 돼.",
+        "reading": "Minjun: Oegugineun geugeotdo piryohae. Yeogwon beonhoreul imnyeokamyeon dwae."
+      },
+      {
+        "text": "남: 다 했어. 회원 가입 끝! 이제 주문할 수 있어.",
+        "reading": "Nam: Da haesseo. Hoewon gaip kkeut! Ije jumunhal su isseo."
+      },
+      {
+        "text": "민준: 잘했어. 첫 주문은 할인 쿠폰도 있으니까 꼭 써.",
+        "reading": "Minjun: Jalhaesseo. Cheot jumuneun harin kupondo isseunikka kkok sseo."
+      },
+      {
+        "text": "남: 고마워! 오늘 저녁은 내가 시킬게. 같이 먹자!",
+        "reading": "Nam: Gomawo! Oneul jeonyeogeun naega sikilge. Gachi meokja!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

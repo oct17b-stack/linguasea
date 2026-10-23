@@ -1,0 +1,50 @@
+{
+  "id": "ko-A12-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.noteu",
+      "text": "노트",
+      "reading": "noteu"
+    },
+    {
+      "id": "ko.pen",
+      "text": "펜",
+      "reading": "pen"
+    },
+    {
+      "id": "ko.teipeu",
+      "text": "테이프",
+      "reading": "teipeu"
+    },
+    {
+      "id": "ko.seutikeo",
+      "text": "스티커",
+      "reading": "seutikeo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 노트 하나 주세요. 스티커도 주세요.",
+      "reading": "Jeogiyo, noteu hana juseyo. Seutikeodo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 여기요. 펜도요?",
+      "reading": "Ne, yeogiyo. Pendoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 까만색 펜하고 테이프 주세요.",
+      "reading": "Ne, kkamansaek penhago teipeu juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 여기요. 감사합니다!",
+      "reading": "Ne, yeogiyo. Gamsahamnida!"
+    }
+  ]
+}
