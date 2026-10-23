@@ -1,0 +1,95 @@
+{
+  "id": "en-F12-02",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.unavailable",
+      "text": "unavailable",
+      "reading": "ˌʌnəˈveɪləbəl"
+    },
+    {
+      "id": "en.technical",
+      "text": "technical",
+      "reading": "ˈtɛknɪkəl"
+    },
+    {
+      "id": "en.router",
+      "text": "router",
+      "reading": "ˈraʊtər"
+    },
+    {
+      "id": "en.signal",
+      "text": "signal",
+      "reading": "ˈsɪɡnəl"
+    },
+    {
+      "id": "en.connection",
+      "text": "connection",
+      "reading": "kəˈnɛkʃən"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Thank you for waiting, Nam. I'm afraid there's a technical problem in your neighborhood.",
+      "reading": "ˈθæŋk juː fər ˈweɪtɪŋ, ˈnɑːm. aɪm əˈfreɪd ðɛrz ə ˈtɛknɪkəl ˈprɑːbləm ɪn jʊr ˈneɪbərhʊd."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no. Is that why I don't have a connection?",
+      "reading": "ˈoʊ ˈnoʊ. ɪz ðæt ˈwaɪ aɪ ˈdoʊnt ˈhæv ə kəˈnɛkʃən?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Unfortunately, our engineers can't fix it today.",
+      "reading": "ˈjɛs. ʌnˈfɔːrtʃənətli, aʊr ˌɛndʒɪˈnɪrz ˈkænt ˈfɪks ɪt təˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Really? I need the internet for my online classes.",
+      "reading": "ˈriːli? aɪ ˈniːd ði ˈɪntərnɛt fər maɪ ˌɑːnˈlaɪn ˈklæsɪz."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry, but I can't do anything about that. Just to check, have you tried restarting your router?",
+      "reading": "aɪm ˈsɑːri, bʌt aɪ ˈkænt ˈduː ˈɛniθɪŋ əˈbaʊt ˈðæt. ˈdʒʌst tə ˈtʃɛk, hæv juː ˈtraɪd ˌriːˈstɑːrtɪŋ jʊr ˈraʊtər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, three times. The lights are on, but there's no signal.",
+      "reading": "ˈjɛs, ˈθriː ˈtaɪmz. ðə ˈlaɪts ər ˈɑːn, bʌt ðɛrz ˈnoʊ ˈsɪɡnəl."
+    },
+    {
+      "speaker": "b",
+      "text": "I see. Then a technician needs to check it.",
+      "reading": "aɪ ˈsiː. ˈðɛn ə tɛkˈnɪʃən ˈniːdz tə ˈtʃɛk ɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Can someone come today?",
+      "reading": "kən ˈsʌmwʌn ˈkʌm təˈdeɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm afraid all our technicians are unavailable today. Tomorrow is fully booked, too.",
+      "reading": "aɪm əˈfreɪd ˈɔːl aʊr tɛkˈnɪʃənz ər ˌʌnəˈveɪləbəl təˈdeɪ. təˈmɑːroʊ ɪz ˈfʊli ˈbʊkt, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "That's terrible! What's the earliest day?",
+      "reading": "ðæts ˈtɛrəbəl! ˈwʌts ði ˈɜːrliɪst ˈdeɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Unfortunately, the earliest is Friday afternoon. Is that OK?",
+      "reading": "ʌnˈfɔːrtʃənətli, ði ˈɜːrliɪst ɪz ˈfraɪdeɪ ˌæftərˈnuːn. ɪz ðæt oʊˈkeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I don't have any other option, so please book Friday.",
+      "reading": "aɪ ˈdoʊnt ˈhæv ˈɛni ˈʌðər ˈɑːpʃən, soʊ ˈpliːz ˈbʊk ˈfraɪdeɪ."
+    }
+  ]
+}

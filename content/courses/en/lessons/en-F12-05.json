@@ -1,0 +1,100 @@
+{
+  "id": "en-F12-05",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.hold-on",
+      "kind": "phrase",
+      "text": "hold on",
+      "reading": "ˌhoʊld ˈɑːn"
+    },
+    {
+      "id": "en.put-through",
+      "kind": "phrase",
+      "text": "put through",
+      "reading": "ˌpʊt ˈθruː"
+    },
+    {
+      "id": "en.get-through",
+      "kind": "phrase",
+      "text": "get through",
+      "reading": "ˌɡɛt ˈθruː"
+    },
+    {
+      "id": "en.cut-off",
+      "kind": "phrase",
+      "text": "cut off",
+      "reading": "ˌkʌt ˈɔːf"
+    },
+    {
+      "id": "en.on-hold",
+      "kind": "phrase",
+      "text": "on hold",
+      "reading": "ɑːn ˈhoʊld"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "CityNet customer service. How can I help you?",
+      "reading": "ˈsɪti ˌnɛt ˈkʌstəmər ˈsɜːrvɪs. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi. I was talking to an agent called Linda, but we got cut off.",
+      "reading": "ˈhaɪ. aɪ wʌz ˈtɔːkɪŋ tu ən ˈeɪdʒənt ˈkɔːld ˈlɪndə, bʌt wiː ˈɡɑːt ˈkʌt ˈɔːf."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry about that. Which department does she work in?",
+      "reading": "aɪm ˈsɑːri əˈbaʊt ˈðæt. ˈwɪtʃ dɪˈpɑːrtmənt dʌz ʃiː ˈwɜːrk ˈɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Customer service, I think. I tried to call her back, but I couldn't get through.",
+      "reading": "ˈkʌstəmər ˈsɜːrvɪs, aɪ ˈθɪŋk. aɪ ˈtraɪd tə ˈkɔːl hɜːr ˈbæk, bʌt aɪ ˈkʊdənt ˈɡɛt ˈθruː."
+    },
+    {
+      "speaker": "b",
+      "text": "No problem. Hold on, please. I'll put you through to her.",
+      "reading": "ˈnoʊ ˈprɑːbləm. ˈhoʊld ˈɑːn, ˈpliːz. aɪl ˈpʊt juː ˈθruː tə hɜːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you.",
+      "reading": "ˈθæŋk juː."
+    },
+    {
+      "speaker": "b",
+      "text": "Sorry, her line is busy. Do you mind being on hold for a few minutes?",
+      "reading": "ˈsɑːri, hɜːr ˈlaɪn ɪz ˈbɪzi. duː juː ˈmaɪnd ˈbiːɪŋ ɑːn ˈhoʊld fər ə ˈfjuː ˈmɪnɪts?"
+    },
+    {
+      "speaker": "a",
+      "text": "That's OK. I've been on hold for an hour this week already!",
+      "reading": "ðæts oʊˈkeɪ. aɪv bɪn ɑːn ˈhoʊld fər ən ˈaʊər ðɪs ˈwiːk ɔːlˈrɛdi!"
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry. I can ask her to call you back instead, if you prefer.",
+      "reading": "aɪm ˈsɑːri. aɪ kən ˈæsk hɜːr tə ˈkɔːl juː ˈbæk ɪnˈstɛd, ɪf juː prɪˈfɜːr."
+    },
+    {
+      "speaker": "a",
+      "text": "No, please put me through. I don't want to miss her again.",
+      "reading": "ˈnoʊ, ˈpliːz ˈpʊt miː ˈθruː. aɪ ˈdoʊnt ˈwɑːnt tə ˈmɪs hɜːr əˈɡɛn."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. Hold on… You're through now. Go ahead.",
+      "reading": "oʊˈkeɪ. ˈhoʊld ˈɑːn… jʊr ˈθruː ˈnaʊ. ˈɡoʊ əˈhɛd."
+    },
+    {
+      "speaker": "c",
+      "text": "Hi, Nam, it's Linda again. I'm sorry we got cut off!",
+      "reading": "ˈhaɪ, ˈnɑːm, ɪts ˈlɪndə əˈɡɛn. aɪm ˈsɑːri wiː ˈɡɑːt ˈkʌt ˈɔːf!"
+    }
+  ]
+}

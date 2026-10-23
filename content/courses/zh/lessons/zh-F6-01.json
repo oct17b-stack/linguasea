@@ -1,0 +1,95 @@
+{
+  "id": "zh-F6-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.yu-suan",
+      "text": "预算",
+      "reading": "yùsuàn"
+    },
+    {
+      "id": "zh.zhi-chu",
+      "text": "支出",
+      "reading": "zhīchū"
+    },
+    {
+      "id": "zh.ji-zhang",
+      "text": "记账",
+      "reading": "jìzhàng"
+    },
+    {
+      "id": "zh.guan-manage",
+      "text": "管",
+      "reading": "guǎn"
+    },
+    {
+      "id": "zh.diao",
+      "text": "掉",
+      "reading": "diào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你能借我五百块钱吗？我这个月的钱都花掉了。",
+      "reading": "Xiǎonán, nǐ néng jiè wǒ wǔbǎi kuài qián ma? Wǒ zhège yuè de qián dōu huādiào le."
+    },
+    {
+      "speaker": "a",
+      "text": "什么？今天才二十五号！你的工资呢？",
+      "reading": "Shénme? Jīntiān cái èrshíwǔ hào! Nǐ de gōngzī ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我也不知道。好像一发工资，钱就没了。",
+      "reading": "Wǒ yě bù zhīdào. Hǎoxiàng yī fā gōngzī, qián jiù méi le."
+    },
+    {
+      "speaker": "a",
+      "text": "你都买了什么？有没有记账？",
+      "reading": "Nǐ dōu mǎi le shénme? Yǒu méiyǒu jìzhàng?"
+    },
+    {
+      "speaker": "b",
+      "text": "没有。不过我想想……请朋友吃饭，买了一部新手机，还交了健身房的钱。",
+      "reading": "Méiyǒu. Bùguò wǒ xiǎngxiang… qǐng péngyou chīfàn, mǎi le yī bù xīn shǒujī, hái jiāo le jiànshēnfáng de qián."
+    },
+    {
+      "speaker": "a",
+      "text": "新手机？你的旧手机不是还能用吗？",
+      "reading": "Xīn shǒujī? Nǐ de jiù shǒujī bù shì hái néng yòng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "旧手机太慢了，我就把它卖掉了。",
+      "reading": "Jiù shǒujī tài màn le, wǒ jiù bǎ tā màidiào le."
+    },
+    {
+      "speaker": "a",
+      "text": "我觉得你应该做一个预算。每个月先想好哪些支出是必须的，比如房租和吃饭。",
+      "reading": "Wǒ juéde nǐ yīnggāi zuò yī ge yùsuàn. Měi ge yuè xiān xiǎnghǎo nǎxiē zhīchū shì bìxū de, bǐrú fángzū hé chīfàn."
+    },
+    {
+      "speaker": "b",
+      "text": "那剩下的钱呢？",
+      "reading": "Nà shèngxia de qián ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "剩下的钱先存一部分，再决定花多少。我每天都用手机记账。",
+      "reading": "Shèngxia de qián xiān cún yī bùfen, zài juédìng huā duōshao. Wǒ měitiān dōu yòng shǒujī jìzhàng."
+    },
+    {
+      "speaker": "b",
+      "text": "看来我得学会管钱了。",
+      "reading": "Kànlái wǒ děi xuéhuì guǎn qián le."
+    },
+    {
+      "speaker": "a",
+      "text": "对！管好了钱，就不用跟别人借钱了。这五百块，下个月记得还我！",
+      "reading": "Duì! Guǎnhǎo le qián, jiù bùyòng gēn biéren jiè qián le. Zhè wǔbǎi kuài, xià ge yuè jìde huán wǒ!"
+    }
+  ]
+}

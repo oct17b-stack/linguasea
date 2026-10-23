@@ -1,0 +1,95 @@
+{
+  "id": "ja-E15-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.sanmi",
+      "text": "さんみ",
+      "reading": "sanmi"
+    },
+    {
+      "id": "ja.amami",
+      "text": "あまみ",
+      "reading": "amami"
+    },
+    {
+      "id": "ja.koushinryou",
+      "text": "こうしんりょう",
+      "reading": "kōshinryō"
+    },
+    {
+      "id": "ja.haabu",
+      "text": "ハーブ",
+      "reading": "hābu"
+    },
+    {
+      "id": "ja.choumiryou",
+      "text": "調味料",
+      "reading": "chōmiryō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、タイりょうりの味って、どんなとくちょうがあるの？",
+      "reading": "Namu, Tai ryōri no aji tte, donna tokuchō ga aru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "タイりょうりは、からさもあれば、あまみもあるの。さんみもあるよ。",
+      "reading": "Tai ryōri wa, karasa mo areba, amami mo aru no. Sanmi mo aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ひとつのりょうりに？",
+      "reading": "Hitotsu no ryōri ni?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。たとえば、トムヤムクンは、からくもあれば、すっぱくもあるの。",
+      "reading": "Un. Tatoeba, tomuyamukun wa, karaku mo areba, suppaku mo aru no."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして、そんな味になるの？",
+      "reading": "Dōshite, sonna aji ni naru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "こうしんりょうや、ハーブを、たくさんつかうからだよ。",
+      "reading": "Kōshinryō ya, hābu o, takusan tsukau kara da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "調味料は？",
+      "reading": "Chōmiryō wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "さかなから作る調味料や、さとうを、よくつかうの。",
+      "reading": "Sakana kara tsukuru chōmiryō ya, satō o, yoku tsukau no."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんの調味料とは、ずいぶん違うね。",
+      "reading": "Nihon no chōmiryō to wa, zuibun chigau ne."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんりょうりは、やさしい味のものが、おおいよね。",
+      "reading": "Nihon ryōri wa, yasashii aji no mono ga, ōi yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。タイりょうりは、いろいろな味がいっしょになっていて、おもしろいね。",
+      "reading": "Un. Tai ryōri wa, iroiro na aji ga issho ni natte ite, omoshiroi ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。あまいものもあれば、にがいものもある。それが、タイりょうりのみりょくなの。",
+      "reading": "Sō. Amai mono mo areba, nigai mono mo aru. Sore ga, Tai ryōri no miryoku na no."
+    }
+  ]
+}

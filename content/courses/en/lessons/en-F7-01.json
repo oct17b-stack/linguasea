@@ -1,0 +1,91 @@
+{
+  "id": "en-F7-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.work-life-balance",
+      "kind": "phrase",
+      "text": "work-life balance",
+      "reading": "ˌwɜːrk ˈlaɪf ˌbæləns"
+    },
+    {
+      "id": "en.boundary",
+      "text": "boundary",
+      "reading": "ˈbaʊndəri"
+    },
+    {
+      "id": "en.workload",
+      "text": "workload",
+      "reading": "ˈwɜːrkloʊd"
+    },
+    {
+      "id": "en.overworked",
+      "text": "overworked",
+      "reading": "ˌoʊvərˈwɜːrkt"
+    },
+    {
+      "id": "en.demanding",
+      "text": "demanding",
+      "reading": "dɪˈmændɪŋ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, are you OK? You look exhausted.",
+      "reading": "ˈnɑːm, ər juː oʊˈkeɪ? juː ˈlʊk ɪɡˈzɔːstɪd."
+    },
+    {
+      "speaker": "a",
+      "text": "I am. My workload has been crazy this month.",
+      "reading": "aɪ ˈæm. maɪ ˈwɜːrkloʊd hæz bɪn ˈkreɪzi ðɪs ˈmʌnθ."
+    },
+    {
+      "speaker": "b",
+      "text": "Is it the new project?",
+      "reading": "ɪz ɪt ðə ˈnuː ˈprɑːdʒɛkt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, and my manager is very demanding. He emails me at eleven at night and wants an answer right away.",
+      "reading": "ˈjɛs, ənd maɪ ˈmænɪdʒər ɪz ˈvɛri dɪˈmændɪŋ. hiː ˈiːmeɪlz miː ət ɪˈlɛvən ət ˈnaɪt ənd ˈwɑːnts ən ˈænsər ˈraɪt əˈweɪ."
+    },
+    {
+      "speaker": "b",
+      "text": "That's not OK. You need some boundaries.",
+      "reading": "ðæts ˈnɑːt oʊˈkeɪ. juː ˈniːd sʌm ˈbaʊndəriz."
+    },
+    {
+      "speaker": "a",
+      "text": "I know. I'd rather he didn't email me after work. But it's hard to say no to your boss.",
+      "reading": "aɪ ˈnoʊ. aɪd ˈræðər hiː ˈdɪdənt ˈiːmeɪl miː ˈæftər ˈwɜːrk. bʌt ɪts ˈhɑːrd tə ˈseɪ ˈnoʊ tə jʊr ˈbɔːs."
+    },
+    {
+      "speaker": "b",
+      "text": "Talk to him. Tell him you'd rather he sent emails during the day.",
+      "reading": "ˈtɔːk tə hɪm. ˈtɛl hɪm juːd ˈræðər hiː ˈsɛnt ˈiːmeɪlz ˈdʊrɪŋ ðə ˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Maybe. I'd rather we talked about it in person.",
+      "reading": "ˈmeɪbi. aɪd ˈræðər wiː ˈtɔːkt əˈbaʊt ɪt ɪn ˈpɜːrsən."
+    },
+    {
+      "speaker": "b",
+      "text": "Good idea. Everyone here is overworked. We all need a better work-life balance.",
+      "reading": "ˈɡʊd aɪˈdiːə. ˈɛvriwʌn ˈhɪr ɪz ˌoʊvərˈwɜːrkt. wiː ˈɔːl ˈniːd ə ˈbɛtər ˈwɜːrk ˈlaɪf ˈbæləns."
+    },
+    {
+      "speaker": "a",
+      "text": "You're right. I'll talk to him tomorrow.",
+      "reading": "jʊr ˈraɪt. aɪl ˈtɔːk tə hɪm təˈmɑːroʊ."
+    },
+    {
+      "speaker": "b",
+      "text": "And tonight, don't check your email!",
+      "reading": "ənd təˈnaɪt, ˈdoʊnt ˈtʃɛk jʊr ˈiːmeɪl!"
+    }
+  ]
+}

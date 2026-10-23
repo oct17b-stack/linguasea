@@ -1,0 +1,95 @@
+{
+  "id": "en-F2-02",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.description",
+      "text": "description",
+      "reading": "dɪˈskrɪpʃən"
+    },
+    {
+      "id": "en.misleading",
+      "text": "misleading",
+      "reading": "ˌmɪsˈliːdɪŋ"
+    },
+    {
+      "id": "en.inaccurate",
+      "text": "inaccurate",
+      "reading": "ɪnˈækjərət"
+    },
+    {
+      "id": "en.false",
+      "text": "false",
+      "reading": "fɔːls"
+    },
+    {
+      "id": "en.state",
+      "text": "state",
+      "reading": "steɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good morning, customer relations. This is Karen. How can I help you?",
+      "reading": "ˈɡʊd ˈmɔːrnɪŋ, ˈkʌstəmər rɪˈleɪʃənz. ðɪs ɪz ˈkærən. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Good morning. I'm calling about a hotel I booked on your website. It wasn't as described.",
+      "reading": "ˈɡʊd ˈmɔːrnɪŋ. aɪm ˈkɔːlɪŋ əˈbaʊt ə hoʊˈtɛl aɪ ˈbʊkt ɑːn jʊr ˈwɛbsaɪt. ɪt ˈwʌzənt əz dɪˈskraɪbd."
+    },
+    {
+      "speaker": "c",
+      "text": "I'm sorry to hear that. What was the problem?",
+      "reading": "aɪm ˈsɑːri tə ˈhɪr ˈðæt. ˈwʌt wʌz ðə ˈprɑːbləm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I was told that my room had a sea view. But from my window, I could only see a parking lot.",
+      "reading": "aɪ wʌz ˈtoʊld ðæt maɪ ˈruːm ˈhæd ə ˈsiː ˈvjuː. bʌt frəm maɪ ˈwɪndoʊ, aɪ kʊd ˈoʊnli ˈsiː ə ˈpɑːrkɪŋ ˌlɑːt."
+    },
+    {
+      "speaker": "c",
+      "text": "I see. What does the description on our website say?",
+      "reading": "aɪ ˈsiː. ˈwʌt dʌz ðə dɪˈskrɪpʃən ɑːn aʊr ˈwɛbsaɪt ˈseɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It states that every room has a sea view. That's false.",
+      "reading": "ɪt ˈsteɪts ðæt ˈɛvri ˈruːm ˈhæz ə ˈsiː ˈvjuː. ðæts ˈfɔːls."
+    },
+    {
+      "speaker": "c",
+      "text": "Was anything else inaccurate?",
+      "reading": "wʌz ˈɛniθɪŋ ˈɛls ɪnˈækjərət?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I was promised free breakfast, but I had to pay for it. I was also told that the beach was five minutes away. It was thirty minutes by car!",
+      "reading": "ˈjɛs. aɪ wʌz ˈprɑːmɪst ˈfriː ˈbrɛkfəst, bʌt aɪ ˈhæd tə ˈpeɪ fər ɪt. aɪ wʌz ˈɔːlsoʊ ˈtoʊld ðæt ðə ˈbiːtʃ wʌz ˈfaɪv ˈmɪnɪts əˈweɪ. ɪt wʌz ˈθɜːrti ˈmɪnɪts baɪ ˈkɑːr!"
+    },
+    {
+      "speaker": "c",
+      "text": "I'm very sorry. I'm afraid the hotels write their own descriptions.",
+      "reading": "aɪm ˈvɛri ˈsɑːri. aɪm əˈfreɪd ðə hoʊˈtɛlz ˈraɪt ðɛr ˈoʊn dɪˈskrɪpʃənz."
+    },
+    {
+      "speaker": "a",
+      "text": "But you put them on your website. A misleading description like that isn't fair to customers.",
+      "reading": "bʌt juː ˈpʊt ðɛm ɑːn jʊr ˈwɛbsaɪt. ə ˌmɪsˈliːdɪŋ dɪˈskrɪpʃən ˈlaɪk ðæt ˈɪzənt ˈfɛr tə ˈkʌstəmərz."
+    },
+    {
+      "speaker": "c",
+      "text": "You're right. Could you send us your booking information by email? Our manager will look at it.",
+      "reading": "jʊr ˈraɪt. kʊd juː ˈsɛnd ʌs jʊr ˈbʊkɪŋ ˌɪnfərˈmeɪʃən baɪ ˈiːmeɪl? aʊr ˈmænɪdʒər wɪl ˈlʊk ət ɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Of course. I'll send it this afternoon.",
+      "reading": "əv ˈkɔːrs. aɪl ˈsɛnd ɪt ðɪs ˌæftərˈnuːn."
+    }
+  ]
+}

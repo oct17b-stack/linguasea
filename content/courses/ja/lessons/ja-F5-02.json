@@ -1,0 +1,95 @@
+{
+  "id": "ja-F5-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kouji",
+      "text": "工事",
+      "reading": "kōji"
+    },
+    {
+      "id": "ja.okure",
+      "text": "遅れ",
+      "reading": "okure"
+    },
+    {
+      "id": "ja.genjitsu",
+      "text": "現実",
+      "reading": "genjitsu"
+    },
+    {
+      "id": "ja.kansei",
+      "text": "完成",
+      "reading": "kansei"
+    },
+    {
+      "id": "ja.soutei",
+      "text": "想定",
+      "reading": "sōtei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、カフェはもうひらいた？",
+      "reading": "Namu, kafe wa mō hiraita?"
+    },
+    {
+      "speaker": "a",
+      "text": "それが、まだなの。4月にひらくはずだったんだけど。",
+      "reading": "Sore ga, mada na no. Shigatsu ni hiraku hazu datta n da kedo."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして？なにかあったの？",
+      "reading": "Dōshite? Nanika atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "てんぽの工事に遅れがでて…。3月に完成するはずだったのに、まだおわっていないんだ。",
+      "reading": "Tenpo no kōji ni okure ga dete…. Sangatsu ni kansei suru hazu datta noni, mada owatte inai n da."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんだね。なにか問題があったの？",
+      "reading": "Taihen da ne. Nanika mondai ga atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "工事をするひとが足りないらしい。それに、ざいりょうも想定よりたかくなって。",
+      "reading": "Kōji o suru hito ga tarinai rashii. Sore ni, zairyō mo sōtei yori takaku natte."
+    },
+    {
+      "speaker": "c",
+      "text": "資金はだいじょうぶ？",
+      "reading": "Shikin wa daijōbu?"
+    },
+    {
+      "speaker": "a",
+      "text": "よさんより10まん円もおおくかかりそう。",
+      "reading": "Yosan yori jūman'en mo ōku kakarisō."
+    },
+    {
+      "speaker": "c",
+      "text": "開業って、想定どおりにはいかないんだね。",
+      "reading": "Kaigyō tte, sōtei dōri ni wa ikanai n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ゆめだけじゃなくて、現実もみないとね。",
+      "reading": "Un. Yume dake ja nakute, genjitsu mo minai to ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ひらく日がきまったら、おしえてね。いちばんにいくから。",
+      "reading": "Hiraku hi ga kimattara, oshiete ne. Ichiban ni iku kara."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう！5月のはじめには、ひらけるはずだよ。",
+      "reading": "Arigatō! Gogatsu no hajime ni wa, hirakeru hazu da yo."
+    }
+  ]
+}

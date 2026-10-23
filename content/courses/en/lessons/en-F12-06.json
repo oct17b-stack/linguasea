@@ -1,0 +1,96 @@
+{
+  "id": "en-F12-06",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.data-plan",
+      "text": "data plan",
+      "reading": "ˈdeɪtə ˌplæn"
+    },
+    {
+      "id": "en.monthly-fee",
+      "kind": "phrase",
+      "text": "monthly fee",
+      "reading": "ˌmʌnθli ˈfiː"
+    },
+    {
+      "id": "en.renew",
+      "text": "renew",
+      "reading": "rɪˈnuː"
+    },
+    {
+      "id": "en.switch",
+      "text": "switch",
+      "reading": "swɪtʃ"
+    },
+    {
+      "id": "en.provider",
+      "text": "provider",
+      "reading": "prəˈvaɪdər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi. I was wondering if you could help me with my contract.",
+      "reading": "ˈhaɪ. aɪ wʌz ˈwʌndərɪŋ ɪf juː kʊd ˈhɛlp miː wɪð maɪ ˈkɑːntrækt."
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. What would you like to know?",
+      "reading": "əv ˈkɔːrs. ˈwʌt wʊd juː ˈlaɪk tə ˈnoʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It ends next month, and I'm not sure whether to renew it.",
+      "reading": "ɪt ˈɛndz ˈnɛkst ˈmʌnθ, ənd aɪm ˈnɑːt ˈʃʊr ˈwɛðər tə rɪˈnuː ɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "I see. Is there a problem with your service?",
+      "reading": "aɪ ˈsiː. ɪz ðɛr ə ˈprɑːbləm wɪð jʊr ˈsɜːrvɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "Well, after last week, I'm thinking about switching to another provider.",
+      "reading": "ˈwɛl, ˈæftər ˈlæst ˈwiːk, aɪm ˈθɪŋkɪŋ əˈbaʊt ˈswɪtʃɪŋ tu əˈnʌðər prəˈvaɪdər."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry to hear that. I was wondering if I could offer you a better deal.",
+      "reading": "aɪm ˈsɑːri tə ˈhɪr ˈðæt. aɪ wʌz ˈwʌndərɪŋ ɪf aɪ kʊd ˈɔːfər juː ə ˈbɛtər ˈdiːl."
+    },
+    {
+      "speaker": "a",
+      "text": "Maybe. My monthly fee is 900 baht, and other providers are cheaper.",
+      "reading": "ˈmeɪbi. maɪ ˈmʌnθli ˈfiː ɪz ˈnaɪn ˈhʌndrəd ˈbɑːt, ənd ˈʌðər prəˈvaɪdərz ər ˈtʃiːpər."
+    },
+    {
+      "speaker": "b",
+      "text": "If you renew today, we can reduce your monthly fee to 700 baht.",
+      "reading": "ɪf juː rɪˈnuː təˈdeɪ, wiː kən rɪˈduːs jʊr ˈmʌnθli ˈfiː tə ˈsɛvən ˈhʌndrəd ˈbɑːt."
+    },
+    {
+      "speaker": "a",
+      "text": "That's better. I was wondering if you could improve my data plan, too.",
+      "reading": "ðæts ˈbɛtər. aɪ wʌz ˈwʌndərɪŋ ɪf juː kʊd ɪmˈpruːv maɪ ˈdeɪtə ˌplæn, ˈtuː."
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, I can double the data on your phone at no extra cost.",
+      "reading": "ˈjɛs, aɪ kən ˈdʌbəl ðə ˈdeɪtə ɑːn jʊr ˈfoʊn ət ˈnoʊ ˈɛkstrə ˈkɔːst."
+    },
+    {
+      "speaker": "a",
+      "text": "Then I'll renew. I was wondering if you could send me the details by email.",
+      "reading": "ˈðɛn aɪl rɪˈnuː. aɪ wʌz ˈwʌndərɪŋ ɪf juː kʊd ˈsɛnd miː ðə ˈdiːteɪlz baɪ ˈiːmeɪl."
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. You'll receive them in a few minutes.",
+      "reading": "əv ˈkɔːrs. juːl rɪˈsiːv ðɛm ɪn ə ˈfjuː ˈmɪnɪts."
+    }
+  ]
+}

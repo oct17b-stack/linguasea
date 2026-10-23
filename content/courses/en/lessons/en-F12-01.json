@@ -1,0 +1,101 @@
+{
+  "id": "en-F12-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.customer-service",
+      "kind": "phrase",
+      "text": "customer service",
+      "reading": "ˌkʌstəmər ˈsɜːrvɪs"
+    },
+    {
+      "id": "en.agent",
+      "text": "agent",
+      "reading": "ˈeɪdʒənt"
+    },
+    {
+      "id": "en.account-number",
+      "text": "account number",
+      "reading": "əˈkaʊnt ˌnʌmbər"
+    },
+    {
+      "id": "en.security-question",
+      "text": "security question",
+      "reading": "sɪˈkjʊrəti ˌkwɛstʃən"
+    },
+    {
+      "id": "en.line",
+      "text": "line",
+      "reading": "laɪn"
+    },
+    {
+      "id": "en.internet",
+      "text": "internet",
+      "reading": "ˈɪntərnɛt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Thank you for calling CityNet customer service. My name is Kevin. How can I help you today?",
+      "reading": "ˈθæŋk juː fər ˈkɔːlɪŋ ˈsɪti ˌnɛt ˈkʌstəmər ˈsɜːrvɪs. maɪ ˈneɪm ɪz ˈkɛvɪn. ˈhaʊ kən aɪ ˈhɛlp juː təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi, Kevin. I'm so happy to speak to a real agent! I waited for twenty minutes.",
+      "reading": "ˈhaɪ, ˈkɛvɪn. aɪm soʊ ˈhæpi tə ˈspiːk tu ə ˈriːəl ˈeɪdʒənt! aɪ ˈweɪtɪd fər ˈtwɛnti ˈmɪnɪts."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry about the wait. Do you mind if I record this call? It's company policy.",
+      "reading": "aɪm ˈsɑːri əˈbaʊt ðə ˈweɪt. duː juː ˈmaɪnd ɪf aɪ rɪˈkɔːrd ðɪs ˈkɔːl? ɪts ˈkʌmpəni ˈpɑːləsi."
+    },
+    {
+      "speaker": "a",
+      "text": "No, I don't mind. My home internet hasn't worked for two days.",
+      "reading": "ˈnoʊ, aɪ ˈdoʊnt ˈmaɪnd. maɪ ˈhoʊm ˈɪntərnɛt ˈhæzənt ˈwɜːrkt fər ˈtuː ˈdeɪz."
+    },
+    {
+      "speaker": "b",
+      "text": "I'm sorry to hear that. Could I have your account number, please?",
+      "reading": "aɪm ˈsɑːri tə ˈhɪr ˈðæt. kʊd aɪ ˈhæv jʊr əˈkaʊnt ˌnʌmbər, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. It's four, five, seven, two, nine, one.",
+      "reading": "ˈʃʊr. ɪts ˈfɔːr, ˈfaɪv, ˈsɛvən, ˈtuː, ˈnaɪn, ˈwʌn."
+    },
+    {
+      "speaker": "b",
+      "text": "Thank you. Now I just need to ask you a security question. What city were you born in?",
+      "reading": "ˈθæŋk juː. ˈnaʊ aɪ ˈdʒʌst ˈniːd tu ˈæsk juː ə sɪˈkjʊrəti ˌkwɛstʃən. ˈwʌt ˈsɪti wɜːr juː ˈbɔːrn ˈɪn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Bangkok.",
+      "reading": "ˈbæŋkɑːk."
+    },
+    {
+      "speaker": "b",
+      "text": "That's correct. Would you mind if I checked your line now? It'll only take a minute.",
+      "reading": "ðæts kəˈrɛkt. wʊd juː ˈmaɪnd ɪf aɪ ˈtʃɛkt jʊr ˈlaɪn ˈnaʊ? ɪtəl ˈoʊnli ˈteɪk ə ˈmɪnɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Not at all. Go ahead.",
+      "reading": "ˈnɑːt ət ˈɔːl. ˈɡoʊ əˈhɛd."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. I can see a problem with the lines in your neighborhood.",
+      "reading": "oʊˈkeɪ. aɪ kən ˈsiː ə ˈprɑːbləm wɪð ðə ˈlaɪnz ɪn jʊr ˈneɪbərhʊd."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no. Do you mind if I ask how long it will take to fix?",
+      "reading": "ˈoʊ ˈnoʊ. duː juː ˈmaɪnd ɪf aɪ ˈæsk ˈhaʊ ˈlɔːŋ ɪt wɪl ˈteɪk tə ˈfɪks?"
+    }
+  ]
+}

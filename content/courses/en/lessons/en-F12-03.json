@@ -1,0 +1,97 @@
+{
+  "id": "en-F12-03",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.home-visit",
+      "kind": "phrase",
+      "text": "home visit",
+      "reading": "ˌhoʊm ˈvɪzɪt"
+    },
+    {
+      "id": "en.reschedule",
+      "text": "reschedule",
+      "reading": "ˌriːˈskɛdʒuːl"
+    },
+    {
+      "id": "en.preferred",
+      "text": "preferred",
+      "reading": "prɪˈfɜːrd"
+    },
+    {
+      "id": "en.in-the-meantime",
+      "kind": "phrase",
+      "text": "in the meantime",
+      "reading": "ɪn ðə ˈmiːntaɪm"
+    },
+    {
+      "id": "en.automatically",
+      "text": "automatically",
+      "reading": "ˌɔːtəˈmætɪkli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello, Nam. This is Kevin from CityNet. I'm calling about your home visit on Friday.",
+      "reading": "həˈloʊ, ˈnɑːm. ðɪs ɪz ˈkɛvɪn frəm ˈsɪti ˌnɛt. aɪm ˈkɔːlɪŋ əˈbaʊt jʊr ˈhoʊm ˈvɪzɪt ɑːn ˈfraɪdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, hi, Kevin. Is everything OK?",
+      "reading": "ˈoʊ, ˈhaɪ, ˈkɛvɪn. ɪz ˈɛvriθɪŋ oʊˈkeɪ?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes. Our technician will be arriving at around two. Will you be home then?",
+      "reading": "ˈjɛs. aʊr tɛkˈnɪʃən wɪl bi əˈraɪvɪŋ ət əˈraʊnd ˈtuː. wɪl juː bi ˈhoʊm ˈðɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "Actually, I have an exam on Friday afternoon. Could I reschedule the visit?",
+      "reading": "ˈæktʃuəli, aɪ ˈhæv ən ɪɡˈzæm ɑːn ˈfraɪdeɪ ˌæftərˈnuːn. kʊd aɪ ˌriːˈskɛdʒuːl ðə ˈvɪzɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. What's your preferred time?",
+      "reading": "əv ˈkɔːrs. ˈwʌts jʊr prɪˈfɜːrd ˈtaɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Saturday morning would be great. Will the technician be bringing a new router?",
+      "reading": "ˈsætərdeɪ ˈmɔːrnɪŋ wʊd bi ˈɡreɪt. wɪl ðə tɛkˈnɪʃən bi ˈbrɪŋɪŋ ə ˈnuː ˈraʊtər?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, he will. Your new router will connect to the internet automatically.",
+      "reading": "ˈjɛs, hiː ˈwɪl. jʊr ˈnuː ˈraʊtər wɪl kəˈnɛkt tə ði ˈɪntərnɛt ˌɔːtəˈmætɪkli."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. What should I do in the meantime?",
+      "reading": "ˈɡreɪt. ˈwʌt ʃʊd aɪ ˈduː ɪn ðə ˈmiːntaɪm?"
+    },
+    {
+      "speaker": "b",
+      "text": "In the meantime, we'll give you free internet on your phone. It'll be added to your account automatically.",
+      "reading": "ɪn ðə ˈmiːntaɪm, wiːl ˈɡɪv juː ˈfriː ˈɪntərnɛt ɑːn jʊr ˈfoʊn. ɪtəl bi ˈædɪd tə jʊr əˈkaʊnt ˌɔːtəˈmætɪkli."
+    },
+    {
+      "speaker": "a",
+      "text": "That's very helpful. Thank you.",
+      "reading": "ðæts ˈvɛri ˈhɛlpfəl. ˈθæŋk juː."
+    },
+    {
+      "speaker": "b",
+      "text": "You're welcome. Will you be needing anything else today?",
+      "reading": "jʊr ˈwɛlkəm. wɪl juː bi ˈniːdɪŋ ˈɛniθɪŋ ˈɛls təˈdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, that's all. Thanks for your help.",
+      "reading": "ˈnoʊ, ðæts ˈɔːl. ˈθæŋks fər jʊr ˈhɛlp."
+    }
+  ]
+}

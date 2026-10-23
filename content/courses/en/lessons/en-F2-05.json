@@ -1,0 +1,97 @@
+{
+  "id": "en-F2-05",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.regarding",
+      "text": "regarding",
+      "reading": "rɪˈɡɑːrdɪŋ"
+    },
+    {
+      "id": "en.as-requested",
+      "kind": "phrase",
+      "text": "as requested",
+      "reading": "æz rɪˈkwɛstɪd"
+    },
+    {
+      "id": "en.in-response-to",
+      "kind": "phrase",
+      "text": "in response to",
+      "reading": "ɪn rɪˈspɑːns tuː"
+    },
+    {
+      "id": "en.booking-reference",
+      "text": "booking reference",
+      "reading": "ˈbʊkɪŋ ˌrɛfərəns"
+    },
+    {
+      "id": "en.invoice",
+      "text": "invoice",
+      "reading": "ˈɪnvɔɪs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Good afternoon, customer relations. This is Karen speaking.",
+      "reading": "ˈɡʊd ˌæftərˈnuːn, ˈkʌstəmər rɪˈleɪʃənz. ðɪs ɪz ˈkærən ˈspiːkɪŋ."
+    },
+    {
+      "speaker": "a",
+      "text": "Good afternoon. I'm calling in response to your email from yesterday.",
+      "reading": "ˈɡʊd ˌæftərˈnuːn. aɪm ˈkɔːlɪŋ ɪn rɪˈspɑːns tə jʊr ˈiːmeɪl frəm ˈjɛstərdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Of course. What is it regarding?",
+      "reading": "əv ˈkɔːrs. ˈwʌt ɪz ɪt rɪˈɡɑːrdɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It's regarding my complaint about the hotel in Krabi. You asked for my booking reference and the hotel invoice.",
+      "reading": "ɪts rɪˈɡɑːrdɪŋ maɪ kəmˈpleɪnt əˈbaʊt ðə hoʊˈtɛl ɪn ˈkrɑːbi. juː ˈæskt fər maɪ ˈbʊkɪŋ ˌrɛfərəns ənd ðə hoʊˈtɛl ˈɪnvɔɪs."
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. Have you sent them?",
+      "reading": "ˈjɛs. hæv juː ˈsɛnt ðɛm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I sent them this morning, as requested. Did you receive them?",
+      "reading": "ˈjɛs, aɪ ˈsɛnt ðɛm ðɪs ˈmɔːrnɪŋ, əz rɪˈkwɛstɪd. dɪd juː rɪˈsiːv ðɛm?"
+    },
+    {
+      "speaker": "c",
+      "text": "Let me check… Yes, I can see them. But I'm afraid the invoice isn't very clear.",
+      "reading": "ˈlɛt miː ˈtʃɛk… ˈjɛs, aɪ kən ˈsiː ðɛm. bʌt aɪm əˈfreɪd ði ˈɪnvɔɪs ˈɪzənt ˈvɛri ˈklɪr."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, sorry. I took a photo of it with my phone.",
+      "reading": "ˈoʊ, ˈsɑːri. aɪ ˈtʊk ə ˈfoʊtoʊ əv ɪt wɪð maɪ ˈfoʊn."
+    },
+    {
+      "speaker": "c",
+      "text": "Could you scan it and send it again, please?",
+      "reading": "kʊd juː ˈskæn ɪt ənd ˈsɛnd ɪt əˈɡɛn, ˈpliːz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Of course. I'll send a clearer copy this afternoon.",
+      "reading": "əv ˈkɔːrs. aɪl ˈsɛnd ə ˈklɪrər ˈkɑːpi ðɪs ˌæftərˈnuːn."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. With regard to your refund, Mr. Turner will call you this week.",
+      "reading": "ˈθæŋk juː. wɪð rɪˈɡɑːrd tə jʊr ˈriːfʌnd, ˈmɪstər ˈtɜːrnər wɪl ˈkɔːl juː ðɪs ˈwiːk."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. I look forward to hearing from him.",
+      "reading": "ˈθæŋk juː. aɪ ˈlʊk ˈfɔːrwərd tə ˈhɪrɪŋ frəm hɪm."
+    }
+  ]
+}

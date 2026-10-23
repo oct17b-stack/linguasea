@@ -1,0 +1,91 @@
+{
+  "id": "en-F1-05",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.so-far",
+      "kind": "phrase",
+      "text": "so far",
+      "reading": "ˌsoʊ ˈfɑːr"
+    },
+    {
+      "id": "en.qualification",
+      "text": "qualification",
+      "reading": "ˌkwɑːlɪfɪˈkeɪʃən"
+    },
+    {
+      "id": "en.qualified",
+      "text": "qualified",
+      "reading": "ˈkwɑːlɪfaɪd"
+    },
+    {
+      "id": "en.skilled",
+      "text": "skilled",
+      "reading": "skɪld"
+    },
+    {
+      "id": "en.work-experience",
+      "text": "work experience",
+      "reading": "ˈwɜːrk ɪkˌspɪriəns"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "OK, Nam. The form asks about your work experience. How many jobs have you had so far?",
+      "reading": "oʊˈkeɪ, ˈnɑːm. ðə ˈfɔːrm ˈæsks əˈbaʊt jʊr ˈwɜːrk ɪkˌspɪriəns. ˈhaʊ ˈmɛni ˈdʒɑːbz hæv juː ˈhæd soʊ ˈfɑːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Three. I've worked at a restaurant, a supermarket and a travel company.",
+      "reading": "ˈθriː. aɪv ˈwɜːrkt ət ə ˈrɛstərɑːnt, ə ˈsuːpərmɑːrkɪt ənd ə ˈtrævəl ˈkʌmpəni."
+    },
+    {
+      "speaker": "c",
+      "text": "And what qualifications do you have?",
+      "reading": "ənd ˈwʌt ˌkwɑːlɪfɪˈkeɪʃənz duː juː ˈhæv?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'll get my degree in English soon. Up to now, I've passed two English tests with high scores.",
+      "reading": "aɪl ˈɡɛt maɪ dɪˈɡriː ɪn ˈɪŋɡlɪʃ ˈsuːn. ˈʌp tə ˈnaʊ, aɪv ˈpæst ˈtuː ˈɪŋɡlɪʃ ˈtɛsts wɪð ˈhaɪ ˈskɔːrz."
+    },
+    {
+      "speaker": "c",
+      "text": "Great. Are you qualified to teach English, too?",
+      "reading": "ˈɡreɪt. ər juː ˈkwɑːlɪfaɪd tə ˈtiːtʃ ˈɪŋɡlɪʃ, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not yet. I need a teaching certificate for that.",
+      "reading": "ˈnɑːt ˈjɛt. aɪ ˈniːd ə ˈtiːtʃɪŋ sərˈtɪfɪkət fər ˈðæt."
+    },
+    {
+      "speaker": "c",
+      "text": "What about computer skills?",
+      "reading": "ˈwʌt əˈbaʊt kəmˈpjuːtər ˈskɪlz?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm quite skilled at making videos. I made a lot of them at my internship.",
+      "reading": "aɪm ˈkwaɪt ˈskɪld ət ˈmeɪkɪŋ ˈvɪdioʊz. aɪ ˈmeɪd ə ˈlɑːt əv ðɛm ət maɪ ˈɪntɜːrnʃɪp."
+    },
+    {
+      "speaker": "c",
+      "text": "How many projects have you worked on so far?",
+      "reading": "ˈhaʊ ˈmɛni ˈprɑːdʒɛkts hæv juː ˈwɜːrkt ˈɑːn soʊ ˈfɑːr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Three: two at my internship and one for a class at university.",
+      "reading": "ˈθriː: ˈtuː ət maɪ ˈɪntɜːrnʃɪp ənd ˈwʌn fər ə ˈklæs ət ˌjuːnɪˈvɜːrsəti."
+    },
+    {
+      "speaker": "c",
+      "text": "Perfect! You're more qualified than you think.",
+      "reading": "ˈpɜːrfɪkt! jʊr ˈmɔːr ˈkwɑːlɪfaɪd ðən juː ˈθɪŋk."
+    }
+  ]
+}

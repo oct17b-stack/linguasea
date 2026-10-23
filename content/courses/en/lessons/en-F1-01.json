@@ -1,0 +1,95 @@
+{
+  "id": "en-F1-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.candidate",
+      "text": "candidate",
+      "reading": "ˈkændɪdət"
+    },
+    {
+      "id": "en.position",
+      "text": "position",
+      "reading": "pəˈzɪʃən"
+    },
+    {
+      "id": "en.vacancy",
+      "text": "vacancy",
+      "reading": "ˈveɪkənsi"
+    },
+    {
+      "id": "en.job-description",
+      "text": "job description",
+      "reading": "ˈdʒɑːb dɪˌskrɪpʃən"
+    },
+    {
+      "id": "en.interviewer",
+      "text": "interviewer",
+      "reading": "ˈɪntərvjuːər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam! How was your job interview?",
+      "reading": "ˈnɑːm! ˈhaʊ wʌz jʊr ˈdʒɑːb ˈɪntərvjuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not bad, I think. There were three interviewers, and they asked me a lot of questions.",
+      "reading": "ˈnɑːt ˈbæd, aɪ ˈθɪŋk. ðɛr wɜːr ˈθriː ˈɪntərvjuːərz, ənd ðeɪ ˈæskt miː ə ˈlɑːt əv ˈkwɛstʃənz."
+    },
+    {
+      "speaker": "c",
+      "text": "What did they ask you?",
+      "reading": "ˈwʌt dɪd ðeɪ ˈæsk juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "First, they asked me why I wanted the position. Then they asked what I knew about the company.",
+      "reading": "ˈfɜːrst, ðeɪ ˈæskt miː ˈwaɪ aɪ ˈwɑːntɪd ðə pəˈzɪʃən. ˈðɛn ðeɪ ˈæskt ˈwʌt aɪ ˈnuː əˈbaʊt ðə ˈkʌmpəni."
+    },
+    {
+      "speaker": "c",
+      "text": "Did you know much about it?",
+      "reading": "dɪd juː ˈnoʊ ˈmʌtʃ əˈbaʊt ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I read the job description three times before the interview!",
+      "reading": "ˈjɛs. aɪ ˈrɛd ðə ˈdʒɑːb dɪˌskrɪpʃən ˈθriː ˈtaɪmz bɪˈfɔːr ði ˈɪntərvjuː!"
+    },
+    {
+      "speaker": "c",
+      "text": "Smart! What else did they ask?",
+      "reading": "ˈsmɑːrt! ˈwʌt ˈɛls dɪd ðeɪ ˈæsk?"
+    },
+    {
+      "speaker": "a",
+      "text": "One interviewer asked me what I wanted to do in five years. That was a hard question!",
+      "reading": "ˈwʌn ˈɪntərvjuːər ˈæskt miː ˈwʌt aɪ ˈwɑːntɪd tə ˈduː ɪn ˈfaɪv ˈjɪrz. ðæt wʌz ə ˈhɑːrd ˈkwɛstʃən!"
+    },
+    {
+      "speaker": "c",
+      "text": "How many candidates are there?",
+      "reading": "ˈhaʊ ˈmɛni ˈkændɪdəts ər ˈðɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "I asked them that, too. They said there were twenty candidates for one vacancy.",
+      "reading": "aɪ ˈæskt ðɛm ˈðæt, ˈtuː. ðeɪ ˈsɛd ðɛr wɜːr ˈtwɛnti ˈkændɪdəts fər ˈwʌn ˈveɪkənsi."
+    },
+    {
+      "speaker": "c",
+      "text": "Twenty? Wow. Well, I hope you get it. Fingers crossed!",
+      "reading": "ˈtwɛnti? ˈwaʊ. ˈwɛl, aɪ ˈhoʊp juː ˈɡɛt ɪt. ˈfɪŋɡərz ˈkrɔːst!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks! They asked me when I could start, so I hope that's good news.",
+      "reading": "ˈθæŋks! ðeɪ ˈæskt miː wɛn aɪ kʊd ˈstɑːrt, soʊ aɪ ˈhoʊp ðæts ˈɡʊd ˈnuːz."
+    }
+  ]
+}

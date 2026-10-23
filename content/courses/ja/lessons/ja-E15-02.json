@@ -1,0 +1,96 @@
+{
+  "id": "ja-E15-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ajitsuke",
+      "text": "味付け",
+      "reading": "ajitsuke"
+    },
+    {
+      "id": "ja.amakuchi",
+      "text": "あまくち",
+      "reading": "amakuchi"
+    },
+    {
+      "id": "ja.karakuchi",
+      "text": "からくち",
+      "reading": "karakuchi"
+    },
+    {
+      "id": "ja.honba",
+      "text": "本場",
+      "reading": "honba"
+    },
+    {
+      "id": "ja.kuchi-ni-au",
+      "kind": "phrase",
+      "text": "口に合う",
+      "reading": "kuchi ni au"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このカレー、こども向けのあまくちなんだって。",
+      "reading": "Namu, kono karē, kodomo muke no amakuchi na n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "あまくち？わたしには、ちょっとあまいかも。からくちはある？",
+      "reading": "Amakuchi? Watashi ni wa, chotto amai kamo. Karakuchi wa aru?"
+    },
+    {
+      "speaker": "c",
+      "text": "あるよ。これは、おとな向けのからくち。",
+      "reading": "Aru yo. Kore wa, otona muke no karakuchi."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。でも、にほんのからくちは、タイのからさとは、ぜんぜん違うよ。",
+      "reading": "Yokatta. Demo, Nihon no karakuchi wa, Tai no karasa to wa, zenzen chigau yo."
+    },
+    {
+      "speaker": "c",
+      "text": "タイのカレーは、そんなにからいの？",
+      "reading": "Tai no karē wa, sonna ni karai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。本場のタイのカレーは、にほんじんの口に合わないかもしれない。",
+      "reading": "Un. Honba no Tai no karē wa, Nihonjin no kuchi ni awanai kamo shirenai."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんのタイりょうりのみせは、にほんじん向けの味付けなんだね。",
+      "reading": "Nihon no Tai ryōri no mise wa, Nihonjin muke no ajitsuke na n da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。あまくて、あまりからくないの。わたしは、本場の味のほうがすきだけど。",
+      "reading": "Sō. Amakute, amari karaku nai no. Watashi wa, honba no aji no hō ga suki da kedo."
+    },
+    {
+      "speaker": "c",
+      "text": "このみせのカレーは、どう？",
+      "reading": "Kono mise no karē wa, dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "このからくちは、ちょうどいいよ。わたしの口に合う。",
+      "reading": "Kono karakuchi wa, chōdo ii yo. Watashi no kuchi ni au."
+    },
+    {
+      "speaker": "c",
+      "text": "このみせは、がくせい向きだね。やすくて、おおもりもできるし。",
+      "reading": "Kono mise wa, gakusei muki da ne. Yasukute, ōmori mo dekiru shi."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。いそがしいがくせいには、ぴったりだね。",
+      "reading": "Un. Isogashii gakusei ni wa, pittari da ne."
+    }
+  ]
+}

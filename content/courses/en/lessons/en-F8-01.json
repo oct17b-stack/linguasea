@@ -1,0 +1,96 @@
+{
+  "id": "en-F8-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.regret",
+      "text": "regret",
+      "reading": "rɪˈɡrɛt"
+    },
+    {
+      "id": "en.consequence",
+      "text": "consequence",
+      "reading": "ˈkɑːnsəkwɛns"
+    },
+    {
+      "id": "en.mess-up",
+      "kind": "phrase",
+      "text": "mess up",
+      "reading": "ˌmɛs ˈʌp"
+    },
+    {
+      "id": "en.blame",
+      "text": "blame",
+      "reading": "bleɪm"
+    },
+    {
+      "id": "en.fault",
+      "text": "fault",
+      "reading": "fɔːlt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Emma, what's wrong? You sound upset.",
+      "reading": "ˈɛmə, ˈwʌts ˈrɔːŋ? juː ˈsaʊnd ˌʌpˈsɛt."
+    },
+    {
+      "speaker": "c",
+      "text": "I messed up at work, Nam. I made a really big mistake.",
+      "reading": "aɪ ˈmɛst ˈʌp ət ˈwɜːrk, ˈnɑːm. aɪ ˈmeɪd ə ˈriːli ˈbɪɡ mɪˈsteɪk."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no. What happened?",
+      "reading": "ˈoʊ ˈnoʊ. ˈwʌt ˈhæpənd?"
+    },
+    {
+      "speaker": "c",
+      "text": "I ordered T-shirts for our company's sports day. We needed five hundred, but I typed five thousand.",
+      "reading": "aɪ ˈɔːrdərd ˈtiːʃɜːrts fər aʊr ˈkʌmpəniz ˈspɔːrts ˌdeɪ. wiː ˈniːdɪd ˈfaɪv ˈhʌndrəd, bʌt aɪ ˈtaɪpt ˈfaɪv ˈθaʊzənd."
+    },
+    {
+      "speaker": "a",
+      "text": "Five thousand? Didn't anyone notice?",
+      "reading": "ˈfaɪv ˈθaʊzənd? ˈdɪdənt ˈɛniwʌn ˈnoʊtɪs?"
+    },
+    {
+      "speaker": "c",
+      "text": "No. If I had noticed the extra zero, I would have fixed it. But it's too late now. They've printed them all.",
+      "reading": "ˈnoʊ. ɪf aɪ hæd ˈnoʊtɪst ði ˈɛkstrə ˈzɪroʊ, aɪ wʊd hæv ˈfɪkst ɪt. bʌt ɪts ˈtuː ˈleɪt ˈnaʊ. ðeɪv ˈprɪntɪd ðɛm ˈɔːl."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, Emma. What did your boss say?",
+      "reading": "ˈoʊ, ˈɛmə. ˈwʌt dɪd jʊr ˈbɔːs ˈseɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "He was furious. And it's all my fault. I can't blame anyone else.",
+      "reading": "hiː wʌz ˈfjʊriəs. ənd ɪts ˈɔːl maɪ ˈfɔːlt. aɪ ˈkænt ˈbleɪm ˈɛniwʌn ˈɛls."
+    },
+    {
+      "speaker": "a",
+      "text": "Don't be so hard on yourself.",
+      "reading": "ˈdoʊnt bi soʊ ˈhɑːrd ɑːn jərˈsɛlf."
+    },
+    {
+      "speaker": "c",
+      "text": "I really regret it. And the consequences are terrible. The company has to pay for all of them.",
+      "reading": "aɪ ˈriːli rɪˈɡrɛt ɪt. ənd ðə ˈkɑːnsəkwɛnsɪz ər ˈtɛrəbəl. ðə ˈkʌmpəni ˈhæs tə ˈpeɪ fər ˈɔːl əv ðɛm."
+    },
+    {
+      "speaker": "a",
+      "text": "If I had known you were so busy, I would have helped you check it.",
+      "reading": "ɪf aɪ hæd ˈnoʊn juː wɜːr soʊ ˈbɪzi, aɪ wʊd hæv ˈhɛlpt juː ˈtʃɛk ɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks, Nam. If I had been less tired that day, I would have seen the mistake.",
+      "reading": "ˈθæŋks, ˈnɑːm. ɪf aɪ hæd bɪn ˈlɛs ˈtaɪərd ðæt ˈdeɪ, aɪ wʊd hæv ˈsiːn ðə mɪˈsteɪk."
+    }
+  ]
+}

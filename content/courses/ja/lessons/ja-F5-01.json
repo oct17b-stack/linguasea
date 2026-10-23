@@ -1,0 +1,95 @@
+{
+  "id": "ja-F5-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kaigyou",
+      "text": "開業",
+      "reading": "kaigyō"
+    },
+    {
+      "id": "ja.tenpo",
+      "text": "てんぽ",
+      "reading": "tenpo"
+    },
+    {
+      "id": "ja.shikin",
+      "text": "資金",
+      "reading": "shikin"
+    },
+    {
+      "id": "ja.mokuteki",
+      "text": "もくてき",
+      "reading": "mokuteki"
+    },
+    {
+      "id": "ja.kakugo",
+      "text": "かくご",
+      "reading": "kakugo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、カフェを開業するって、本気？",
+      "reading": "Namu, kafe o kaigyō suru tte, honki?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、本気だよ。おおさかで、プロイといっしょに、タイのカフェをひらくつもり。",
+      "reading": "Un, honki da yo. Ōsaka de, Puroi to issho ni, Tai no kafe o hiraku tsumori."
+    },
+    {
+      "speaker": "c",
+      "text": "プロイさんって、おおさかのタイりょうりのみせではたらいているともだちだよね。",
+      "reading": "Puroi-san tte, Ōsaka no Tai ryōri no mise de hataraite iru tomodachi da yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。プロイがりょうりをたんとうして、わたしはメニューやおきゃくさんのことをたんとうするの。",
+      "reading": "Sō. Puroi ga ryōri o tantō shite, watashi wa menyū ya okyakusan no koto o tantō suru no."
+    },
+    {
+      "speaker": "c",
+      "text": "てんぽは、もうきまったの？",
+      "reading": "Tenpo wa, mō kimatta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。10年つづけるつもりで、駅のちかくのちいさなてんぽをえらんだんだ。",
+      "reading": "Un. Jūnen tsuzukeru tsumori de, eki no chikaku no chiisana tenpo o eranda n da."
+    },
+    {
+      "speaker": "c",
+      "text": "資金はどうするの？おおきなおかねがいるでしょう？",
+      "reading": "Shikin wa dō suru no? Ōkina okane ga iru deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "ふたりでちょきんしたおかねと、ぎんこうからかりるおかねではじめる。",
+      "reading": "Futari de chokin shita okane to, ginkō kara kariru okane de hajimeru."
+    },
+    {
+      "speaker": "c",
+      "text": "しっぱいしたら、どうするの？かくごはできているの？",
+      "reading": "Shippai shitara, dō suru no? Kakugo wa dekite iru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "かくごはできているよ。いまは、店長になったつもりで、プロイのみせでしごとを学んでいるんだ。",
+      "reading": "Kakugo wa dekite iru yo. Ima wa, tenchō ni natta tsumori de, Puroi no mise de shigoto o manande iru n da."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。カフェのもくてきは、おかねをかせぐこと？",
+      "reading": "Sō na n da. Kafe no mokuteki wa, okane o kasegu koto?"
+    },
+    {
+      "speaker": "a",
+      "text": "ううん。タイのほんとうの味を、日本のひとにしってもらうことが、いちばんのもくてきなの。",
+      "reading": "Ūn. Tai no hontō no aji o, Nihon no hito ni shitte morau koto ga, ichiban no mokuteki na no."
+    }
+  ]
+}

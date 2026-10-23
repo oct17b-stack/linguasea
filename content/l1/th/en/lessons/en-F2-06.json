@@ -1,0 +1,51 @@
+{
+  "lesson": "en-F2-06",
+  "title": "ใช้ receive ไม่ใช้ get ใช้ purchase ไม่ใช้ buy",
+  "intro": "ครูบราวน์ช่วยน้ำแก้คำในอีเมลให้เป็นทางการขึ้น ฝึกเลือกคำทางการแทนคำทั่วไป",
+  "items": {
+    "en.purchase": {
+      "meaning": "ซื้อ (ภาษาทางการ), การซื้อ",
+      "translit": "เพอร์เชิส"
+    },
+    "en.sufficient": {
+      "meaning": "เพียงพอ (ภาษาทางการ)",
+      "translit": "ซะฟิเชินท์"
+    },
+    "en.assist": {
+      "meaning": "ช่วยเหลือ (ภาษาทางการ)",
+      "translit": "อะซิสต์"
+    },
+    "en.inform": {
+      "meaning": "แจ้งให้ทราบ",
+      "translit": "อินฟอร์ม"
+    },
+    "en.require": {
+      "meaning": "ต้องการ, ต้องมี (ภาษาทางการ)",
+      "translit": "รีไควเออร์"
+    }
+  },
+  "dialogue": [
+    "น้ำ อีเมลอ่านเข้าใจง่ายดี แต่บางคำไม่เป็นทางการเกินไป",
+    "จริงเหรอ คำไหนบ้าง",
+    "ตรงนี้น้ำเขียนว่า \"I bought a three-night stay.\" ถ้าเป็นอีเมลทางการ ให้เขียนว่า \"I purchased a three-night stay.\"",
+    "\"Purchased\" โอเค มีอะไรอีก",
+    "\"I got your email\" ควรเป็น \"I received your email.\" และอย่าเขียนว่า \"Can you help me?\" ให้เขียนว่า \"Could you assist me?\"",
+    "ฉันยังเขียนว่า \"Please tell me what you decide.\" ด้วย",
+    "ลองเขียนว่า \"Please inform me of your decision.\" แบบนี้เป็นทางการกว่า",
+    "แล้วตรงนี้ \"The hotel didn't have enough staff.\"",
+    "ภาษาเขียนทางการใช้ \"The hotel did not have sufficient staff.\" สังเกตว่าใช้ did not ไม่ใช่ didn't",
+    "แล้ว \"I need a copy of the invoice\" ล่ะ",
+    "เขียนว่า \"I require a copy of the invoice.\" ก็ได้ แต่อย่าใช้คำทางการเยอะเกินไป เขียนให้ชัดเจนไว้",
+    "เข้าใจแล้ว ทางการแต่ชัดเจน!"
+  ],
+  "notes": [
+    {
+      "title": "คำทางการกับคำทั่วไป",
+      "body": "ในจดหมายทางการให้เลือกคำที่เป็นทางการกว่า: buy → purchase, get → receive, help → assist, tell → inform, need → require, enough → sufficient, ask for → request และไม่ย่อคำ (did not แทน didn't) เหมือนภาษาไทยที่มีคำทางการ เช่น ได้รับ แทน ได้ หรือ รับประทาน แทน กิน แต่ไม่ควรใช้คำยากทุกคำจนอ่านเข้าใจยาก"
+    },
+    {
+      "title": "inform someone of…",
+      "body": "inform + คน + of/about + เรื่อง = แจ้งให้…ทราบเรื่อง…: Please inform me of your decision. ส่วน require = ต้องการ ต้องมี มักใช้ในเอกสารและกฎ: A passport is required. = ต้องมีหนังสือเดินทาง"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-F5-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.uriage",
+      "text": "売り上げ",
+      "reading": "uriage"
+    },
+    {
+      "id": "ja.kyousou",
+      "text": "きょうそう",
+      "reading": "kyōsō"
+    },
+    {
+      "id": "ja.senden",
+      "text": "せんでん",
+      "reading": "senden"
+    },
+    {
+      "id": "ja.koukoku",
+      "text": "広告",
+      "reading": "kōkoku"
+    },
+    {
+      "id": "ja.kokyaku",
+      "text": "こきゃく",
+      "reading": "kokyaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "では、カフェの計画について、おしえてください。",
+      "reading": "Dewa, kafe no keikaku ni tsuite, oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。1日の売り上げは、5まん円ぐらいをもくひょうにしています。",
+      "reading": "Hai. Ichinichi no uriage wa, goman'en gurai o mokuhyō ni shite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "もし売り上げがもくひょうどおりだったとしても、1年めはきびしいと思いますよ。",
+      "reading": "Moshi uriage ga mokuhyō dōri datta to shite mo, ichinenme wa kibishii to omoimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "どうしてですか。",
+      "reading": "Dōshite desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "てんぽのやちんやざいりょうのひようがかかりますから。それに、ちかくのみせとのきょうそうもあります。",
+      "reading": "Tenpo no yachin ya zairyō no hiyō ga kakarimasu kara. Sore ni, chikaku no mise to no kyōsō mo arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。だから、せんでんに力をいれるつもりです。",
+      "reading": "Hai. Dakara, senden ni chikara o ireru tsumori desu."
+    },
+    {
+      "speaker": "b",
+      "text": "どんなせんでんですか。",
+      "reading": "Donna senden desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "SNSに広告をだすことを考えています。おかねがあまりかからないので。",
+      "reading": "Esuenuesu ni kōkoku o dasu koto o kangaete imasu. Okane ga amari kakaranai node."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。でも、もし広告をみてくるひとがおおかったとしても、またきてもらえるかどうかが重要です。",
+      "reading": "Ii desu ne. Demo, moshi kōkoku o mite kuru hito ga ōkatta to shite mo, mata kite moraeru ka dō ka ga jūyō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。こきゃくのこえをきいて、メニューをよくしていきたいです。",
+      "reading": "Hai. Kokyaku no koe o kiite, menyū o yoku shite ikitai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。では、つぎは1年間の売り上げの計画を持ってきてください。",
+      "reading": "Wakarimashita. Dewa, tsugi wa ichinenkan no uriage no keikaku o motte kite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。よろしくおねがいいたします。",
+      "reading": "Wakarimashita. Yoroshiku onegai itashimasu."
+    }
+  ]
+}

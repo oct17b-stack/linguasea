@@ -1,0 +1,97 @@
+{
+  "id": "en-F15-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.negotiate",
+      "text": "negotiate",
+      "reading": "nɪˈɡoʊʃieɪt"
+    },
+    {
+      "id": "en.negotiation",
+      "text": "negotiation",
+      "reading": "nɪˌɡoʊʃiˈeɪʃən"
+    },
+    {
+      "id": "en.agreement",
+      "text": "agreement",
+      "reading": "əˈɡriːmənt"
+    },
+    {
+      "id": "en.provided-that",
+      "kind": "phrase",
+      "text": "provided that",
+      "reading": "prəˈvaɪdɪd ðæt"
+    },
+    {
+      "id": "en.agree-on",
+      "kind": "phrase",
+      "text": "agree on",
+      "reading": "əˈɡriː ɑːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam, I wanted to talk to you about next year. I'm going to raise the rent by 1,000 baht a month.",
+      "reading": "ˈnɑːm, aɪ ˈwɑːntɪd tə ˈtɔːk tə juː əˈbaʊt ˈnɛkst ˈjɪr. aɪm ˈɡoʊɪŋ tə ˈreɪz ðə ˈrɛnt baɪ ˈwʌn ˈθaʊzənd ˈbɑːt ə ˈmʌnθ."
+    },
+    {
+      "speaker": "a",
+      "text": "A thousand baht? That's a big increase. Can we negotiate?",
+      "reading": "ə ˈθaʊzənd ˈbɑːt? ðæts ə ˈbɪɡ ɪnˈkriːs. kən wiː nɪˈɡoʊʃieɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Of course. I'm always open to negotiation.",
+      "reading": "əv ˈkɔːrs. aɪm ˈɔːlweɪz ˈoʊpən tə nɪˌɡoʊʃiˈeɪʃən."
+    },
+    {
+      "speaker": "a",
+      "text": "Well, I'd accept a smaller increase, provided that you fix the air conditioner in the bedroom.",
+      "reading": "ˈwɛl, aɪd əkˈsɛpt ə ˈsmɔːlər ɪnˈkriːs, prəˈvaɪdɪd ðæt juː ˈfɪks ði ˈɛr kənˈdɪʃənər ɪn ðə ˈbɛdruːm."
+    },
+    {
+      "speaker": "b",
+      "text": "That's fair. It needs fixing anyway.",
+      "reading": "ðæts ˈfɛr. ɪt ˈniːdz ˈfɪksɪŋ ˈɛniweɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "And I'd like the kitchen painted, too.",
+      "reading": "ənd aɪd ˈlaɪk ðə ˈkɪtʃən ˈpeɪntɪd, ˈtuː."
+    },
+    {
+      "speaker": "b",
+      "text": "OK, I'll paint it, on condition that you sign a two-year contract.",
+      "reading": "oʊˈkeɪ, aɪl ˈpeɪnt ɪt, ɑːn kənˈdɪʃən ðæt juː ˈsaɪn ə ˈtuː ˈjɪr ˈkɑːntrækt."
+    },
+    {
+      "speaker": "a",
+      "text": "Two years is fine, provided that the rent stays the same for both years.",
+      "reading": "ˈtuː ˈjɪrz ɪz ˈfaɪn, prəˈvaɪdɪd ðæt ðə ˈrɛnt ˈsteɪz ðə ˈseɪm fər ˈboʊθ ˈjɪrz."
+    },
+    {
+      "speaker": "b",
+      "text": "I think we can agree on that. So, how big an increase would you accept?",
+      "reading": "aɪ ˈθɪŋk wiː kən əˈɡriː ɑːn ˈðæt. soʊ, ˈhaʊ ˈbɪɡ ən ɪnˈkriːs wʊd juː əkˈsɛpt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Can we talk about the amount next week? I need to check my budget first.",
+      "reading": "kən wiː ˈtɔːk əˈbaʊt ði əˈmaʊnt ˈnɛkst ˈwiːk? aɪ ˈniːd tə ˈtʃɛk maɪ ˈbʌdʒɪt ˈfɜːrst."
+    },
+    {
+      "speaker": "b",
+      "text": "Sure. I'll write down everything we've agreed on so far.",
+      "reading": "ˈʃʊr. aɪl ˈraɪt ˈdaʊn ˈɛvriθɪŋ wiːv əˈɡriːd ɑːn ˈsoʊ ˈfɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. When we've agreed on the price, we can sign the agreement.",
+      "reading": "ˈɡreɪt. wɛn wiːv əˈɡriːd ɑːn ðə ˈpraɪs, wiː kən ˈsaɪn ði əˈɡriːmənt."
+    }
+  ]
+}

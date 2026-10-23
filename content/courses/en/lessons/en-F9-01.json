@@ -1,0 +1,102 @@
+{
+  "id": "en-F9-01",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.legal",
+      "text": "legal",
+      "reading": "ˈliːɡəl"
+    },
+    {
+      "id": "en.regulation",
+      "text": "regulation",
+      "reading": "ˌrɛɡjəˈleɪʃən"
+    },
+    {
+      "id": "en.obey",
+      "text": "obey",
+      "reading": "oʊˈbeɪ"
+    },
+    {
+      "id": "en.break-the-law",
+      "kind": "phrase",
+      "text": "break the law",
+      "reading": "ˌbreɪk ðə ˈlɔː"
+    },
+    {
+      "id": "en.speed-limit",
+      "text": "speed limit",
+      "reading": "ˈspiːd ˌlɪmɪt"
+    },
+    {
+      "id": "en.pay-a-fine",
+      "kind": "phrase",
+      "text": "pay a fine",
+      "reading": "ˌpeɪ ə ˈfaɪn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi, Nam. Before we start, all phones must be switched off. It's one of our group's rules.",
+      "reading": "ˈhaɪ, ˈnɑːm. bɪˈfɔːr wiː ˈstɑːrt, ˈɔːl ˈfoʊnz mʌst bi ˈswɪtʃt ˈɔːf. ɪts ˈwʌn əv aʊr ˈɡruːps ˈruːlz."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh, sorry! Mine's off now. So, what's today's topic?",
+      "reading": "ˈoʊ, ˈsɑːri! ˈmaɪnz ˈɔːf ˈnaʊ. soʊ, ˈwʌts təˈdeɪz ˈtɑːpɪk?"
+    },
+    {
+      "speaker": "b",
+      "text": "Laws and regulations. Can you tell us about a law in Thailand?",
+      "reading": "ˈlɔːz ənd ˌrɛɡjəˈleɪʃənz. kən juː ˈtɛl ʌs əˈbaʊt ə ˈlɔː ɪn ˈtaɪlænd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure. On motorcycles, helmets must be worn by everyone, even passengers.",
+      "reading": "ˈʃʊr. ɑːn ˈmoʊtərsaɪkəlz, ˈhɛlmɪts mʌst bi ˈwɔːrn baɪ ˈɛvriwʌn, ˈiːvən ˈpæsɪndʒərz."
+    },
+    {
+      "speaker": "b",
+      "text": "And do people obey that law?",
+      "reading": "ənd duː ˈpiːpəl oʊˈbeɪ ðæt ˈlɔː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not always. Lots of people break the law when they're only going a short distance.",
+      "reading": "ˈnɑːt ˈɔːlweɪz. ˈlɑːts əv ˈpiːpəl ˈbreɪk ðə ˈlɔː wɛn ðɛr ˈoʊnli ˈɡoʊɪŋ ə ˈʃɔːrt ˈdɪstəns."
+    },
+    {
+      "speaker": "b",
+      "text": "What happens if the police stop them?",
+      "reading": "ˈwʌt ˈhæpənz ɪf ðə pəˈliːs ˈstɑːp ðɛm?"
+    },
+    {
+      "speaker": "a",
+      "text": "They have to pay a fine. But I think the dangers should be explained in schools, too.",
+      "reading": "ðeɪ ˈhæf tə ˈpeɪ ə ˈfaɪn. bʌt aɪ ˈθɪŋk ðə ˈdeɪndʒərz ʃʊd bi ɪkˈspleɪnd ɪn ˈskuːlz, ˈtuː."
+    },
+    {
+      "speaker": "b",
+      "text": "Good point. And what about speed limits? Are they obeyed?",
+      "reading": "ˈɡʊd ˈpɔɪnt. ənd ˈwʌt əˈbaʊt ˈspiːd ˌlɪmɪts? ər ðeɪ oʊˈbeɪd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really. Speed cameras can't be put on every road, so some drivers go really fast.",
+      "reading": "ˈnɑːt ˈriːli. ˈspiːd ˈkæmərəz ˈkænt bi ˈpʊt ɑːn ˈɛvri ˈroʊd, soʊ sʌm ˈdraɪvərz ˈɡoʊ ˈriːli ˈfæst."
+    },
+    {
+      "speaker": "b",
+      "text": "Is it legal to ride a motorcycle on the sidewalk?",
+      "reading": "ɪz ɪt ˈliːɡəl tə ˈraɪd ə ˈmoʊtərsaɪkəl ɑːn ðə ˈsaɪdwɔːk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it isn't. But in traffic jams, some people do it anyway.",
+      "reading": "ˈnoʊ, ɪt ˈɪzənt. bʌt ɪn ˈtræfɪk ˌdʒæmz, sʌm ˈpiːpəl ˈduː ɪt ˈɛniweɪ."
+    }
+  ]
+}

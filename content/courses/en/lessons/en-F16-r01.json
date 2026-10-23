@@ -1,0 +1,116 @@
+{
+  "id": "en-F16-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "en.introvert",
+      "text": "introvert",
+      "reading": "ˈɪntrəvɜːrt"
+    },
+    {
+      "id": "en.extrovert",
+      "text": "extrovert",
+      "reading": "ˈɛkstrəvɜːrt"
+    },
+    {
+      "id": "en.comfort-zone",
+      "text": "comfort zone",
+      "reading": "ˈkʌmfərt ˌzoʊn"
+    },
+    {
+      "id": "en.small-world",
+      "kind": "phrase",
+      "text": "small world",
+      "reading": "ˌsmɔːl ˈwɜːrld"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Emma! I went to my first networking event last night.",
+        "reading": "ˈɛmə! aɪ ˈwɛnt tə maɪ ˈfɜːrst ˈnɛtwɜːrkɪŋ ɪˈvɛnt ˈlæst ˈnaɪt."
+      },
+      {
+        "text": "You know I'm an introvert, so I almost stayed home.",
+        "reading": "juː ˈnoʊ aɪm ən ˈɪntrəvɜːrt, soʊ aɪ ˈɔːlmoʊst ˈsteɪd ˈhoʊm."
+      },
+      {
+        "text": "But I decided to step out of my comfort zone.",
+        "reading": "bʌt aɪ dɪˈsaɪdɪd tə ˈstɛp ˈaʊt əv maɪ ˈkʌmfərt ˌzoʊn."
+      }
+    ],
+    [
+      {
+        "text": "Good for you! How was it?",
+        "reading": "ˈɡʊd fər juː! ˈhaʊ wʌz ɪt?"
+      },
+      {
+        "text": "Did you talk to anyone, or did you stand in a corner all night?",
+        "reading": "dɪd juː ˈtɔːk tu ˈɛniwʌn, ɔːr dɪd juː ˈstænd ɪn ə ˈkɔːrnər ˈɔːl ˈnaɪt?"
+      }
+    ],
+    [
+      {
+        "text": "Ha! I talked to lots of people.",
+        "reading": "ˈhɑː! aɪ ˈtɔːkt tə ˈlɑːts əv ˈpiːpəl."
+      },
+      {
+        "text": "First, I met Chris. He's a real extrovert, and he knows everyone.",
+        "reading": "ˈfɜːrst, aɪ ˈmɛt ˈkrɪs. hiːz ə ˈriːəl ˈɛkstrəvɜːrt, ənd hiː ˈnoʊz ˈɛvriwʌn."
+      },
+      {
+        "text": "Then I met Hannah from Melbourne. Her Thai is better than mine!",
+        "reading": "ˈðɛn aɪ ˈmɛt ˈhænə frəm ˈmɛlbərn. hɜːr ˈtaɪ ɪz ˈbɛtər ðən ˈmaɪn!"
+      },
+      {
+        "text": "And you won't believe this:",
+        "reading": "ənd juː ˈwoʊnt bɪˈliːv ˈðɪs:"
+      },
+      {
+        "text": "Hannah knows Mr. Brown! What a small world!",
+        "reading": "ˈhænə ˈnoʊz ˈmɪstər ˈbraʊn! ˈwʌt ə ˈsmɔːl ˈwɜːrld!"
+      }
+    ],
+    [
+      {
+        "text": "No way! That's amazing.",
+        "reading": "ˈnoʊ ˈweɪ! ðæts əˈmeɪzɪŋ."
+      },
+      {
+        "text": "I'm so proud of you. Introverts can be great at networking, because they're good listeners.",
+        "reading": "aɪm soʊ ˈpraʊd əv juː. ˈɪntrəvɜːrts kən bi ˈɡreɪt ət ˈnɛtwɜːrkɪŋ, bɪˈkɔːz ðɛr ˈɡʊd ˈlɪsənərz."
+      },
+      {
+        "text": "Will you go again?",
+        "reading": "wɪl juː ˈɡoʊ əˈɡɛn?"
+      }
+    ],
+    [
+      {
+        "text": "Definitely! Hannah's friend runs a language school, and I'm meeting her next week.",
+        "reading": "ˈdɛfənətli! ˈhænəz ˈfrɛnd ˈrʌnz ə ˈlæŋɡwɪdʒ ˌskuːl, ənd aɪm ˈmiːtɪŋ hɜːr ˈnɛkst ˈwiːk."
+      },
+      {
+        "text": "Stepping out of my comfort zone was the best decision I've made this year!",
+        "reading": "ˈstɛpɪŋ ˈaʊt əv maɪ ˈkʌmfərt ˌzoʊn wʌz ðə ˈbɛst dɪˈsɪʒən aɪv ˈmeɪd ðɪs ˈjɪr!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

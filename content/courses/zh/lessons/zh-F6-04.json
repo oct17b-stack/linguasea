@@ -1,0 +1,95 @@
+{
+  "id": "zh-F6-04",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.chong-dong",
+      "text": "冲动",
+      "reading": "chōngdòng"
+    },
+    {
+      "id": "zh.bi-xu-pin",
+      "text": "必需品",
+      "reading": "bìxūpǐn"
+    },
+    {
+      "id": "zh.shi-yong-practical",
+      "text": "实用",
+      "reading": "shíyòng"
+    },
+    {
+      "id": "zh.xu-qiu",
+      "text": "需求",
+      "reading": "xūqiú"
+    },
+    {
+      "id": "zh.xian-zhi",
+      "text": "限制",
+      "reading": "xiànzhì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你在看什么？这么认真。",
+      "reading": "Wáng Míng, nǐ zài kàn shénme? Zhème rènzhēn."
+    },
+    {
+      "speaker": "b",
+      "text": "双十一快到了，我在网上看打折的东西。你看，我的购物车里已经有二十多件了。",
+      "reading": "Shuāng Shíyī kuài dào le, wǒ zài wǎngshang kàn dǎzhé de dōngxi. Nǐ kàn, wǒ de gòuwùchē li yǐjīng yǒu èrshí duō jiàn le."
+    },
+    {
+      "speaker": "a",
+      "text": "二十多件！你真的都需要吗？",
+      "reading": "Èrshí duō jiàn! Nǐ zhēnde dōu xūyào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "打折这么多，不买太可惜了。",
+      "reading": "Dǎzhé zhème duō, bù mǎi tài kěxī le."
+    },
+    {
+      "speaker": "a",
+      "text": "打折的时候，人最容易冲动。",
+      "reading": "Dǎzhé de shíhou, rén zuì róngyì chōngdòng."
+    },
+    {
+      "speaker": "b",
+      "text": "那你说，我应该怎么买？",
+      "reading": "Nà nǐ shuō, wǒ yīnggāi zěnme mǎi?"
+    },
+    {
+      "speaker": "a",
+      "text": "该买的买，不该买的别买。先想想自己有哪些需求。",
+      "reading": "Gāi mǎi de mǎi, bù gāi mǎi de bié mǎi. Xiān xiǎngxiang zìjǐ yǒu nǎxiē xūqiú."
+    },
+    {
+      "speaker": "b",
+      "text": "那什么是该买的？",
+      "reading": "Nà shénme shì gāi mǎi de?"
+    },
+    {
+      "speaker": "a",
+      "text": "比如牙膏、纸巾这些必需品，还有平时用得上的实用东西。",
+      "reading": "Bǐrú yágāo, zhǐjīn zhèxiē bìxūpǐn, hái yǒu píngshí yòng de shàng de shíyòng dōngxi."
+    },
+    {
+      "speaker": "b",
+      "text": "那这个游戏呢？现在买只要九十九块。",
+      "reading": "Nà zhège yóuxì ne? Xiànzài mǎi zhǐ yào jiǔshíjiǔ kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "你上个月买的游戏，玩了几次？",
+      "reading": "Nǐ shàng ge yuè mǎi de yóuxì, wán le jǐ cì?"
+    },
+    {
+      "speaker": "b",
+      "text": "……好吧。我给自己限制一下：这次购物，最多花五百块。",
+      "reading": "… Hǎo ba. Wǒ gěi zìjǐ xiànzhì yīxià: zhè cì gòuwù, zuì duō huā wǔbǎi kuài."
+    }
+  ]
+}

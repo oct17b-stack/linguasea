@@ -1,0 +1,95 @@
+{
+  "id": "ja-F11-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.chirashi",
+      "text": "チラシ",
+      "reading": "chirashi"
+    },
+    {
+      "id": "ja.haifu",
+      "text": "はいふ",
+      "reading": "haifu"
+    },
+    {
+      "id": "ja.bokin",
+      "text": "ぼきん",
+      "reading": "bokin"
+    },
+    {
+      "id": "ja.yobikake",
+      "text": "呼びかけ",
+      "reading": "yobikake"
+    },
+    {
+      "id": "ja.kifu",
+      "text": "寄付",
+      "reading": "kifu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、きょうは、てつだいにきてくれて、ありがとう。",
+      "reading": "Namu-san, kyō wa, tetsudai ni kite kurete, arigatō."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。わたしは、なにをしたらいいですか。",
+      "reading": "Iie. Watashi wa, nani o shitara ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "こんどの国際交流フェスティバルのチラシを、たくさんのひとにくばりたいんです。",
+      "reading": "Kondo no kokusaikōryū fesutibaru no chirashi o, takusan no hito ni kubaritai n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。ごごに、えきのちかくのぎんこうにいくので、そのついでに、えきでくばりましょうか。",
+      "reading": "Wakarimashita. Gogo ni, eki no chikaku no ginkō ni iku node, sono tsuide ni, eki de kubarimashō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "たすかります。えきのまえでのはいふは、もうきょかをもらっています。",
+      "reading": "Tasukarimasu. Eki no mae de no haifu wa, mō kyoka o moratte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "なんまいぐらい、くばればいいですか。",
+      "reading": "Nanmai gurai, kubareba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "200まいぐらいです。それから、くばるついでに、ぼきんの呼びかけもしてもらえますか。",
+      "reading": "Nihyakumai gurai desu. Sorekara, kubaru tsuide ni, bokin no yobikake mo shite moraemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ぼきん、ですか。",
+      "reading": "Bokin, desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。フェスティバルのおかねがたりないので、みなさんに寄付をおねがいしているんです。",
+      "reading": "Ē. Fesutibaru no okane ga tarinai node, minasan ni kifu o onegai shite iru n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。「寄付をおねがいします」と、こえをかければいいですね。",
+      "reading": "Wakarimashita. \"Kifu o onegai shimasu\" to, koe o kakereba ii desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。チラシにも、寄付のことがかいてありますから。",
+      "reading": "Hai. Chirashi ni mo, kifu no koto ga kaite arimasu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、ぎんこうのついでに、コンビニでチラシのコピーもしてきますね。",
+      "reading": "Jā, ginkō no tsuide ni, konbini de chirashi no kopī mo shite kimasu ne."
+    }
+  ]
+}

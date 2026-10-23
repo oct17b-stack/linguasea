@@ -1,0 +1,97 @@
+{
+  "id": "en-F12-04",
+  "target": "en",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "en.look-into",
+      "kind": "phrase",
+      "text": "look into",
+      "reading": "ˌlʊk ˈɪntuː"
+    },
+    {
+      "id": "en.status",
+      "text": "status",
+      "reading": "ˈsteɪtəs"
+    },
+    {
+      "id": "en.priority",
+      "text": "priority",
+      "reading": "praɪˈɔːrəti"
+    },
+    {
+      "id": "en.case-number",
+      "text": "case number",
+      "reading": "ˈkeɪs ˌnʌmbər"
+    },
+    {
+      "id": "en.as-soon-as-possible",
+      "kind": "phrase",
+      "text": "as soon as possible",
+      "reading": "æz ˌsuːn æz ˈpɑːsəbəl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "CityNet customer service, Linda speaking. How can I help you?",
+      "reading": "ˈsɪti ˌnɛt ˈkʌstəmər ˈsɜːrvɪs, ˈlɪndə ˈspiːkɪŋ. ˈhaʊ kən aɪ ˈhɛlp juː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Hi, Linda. A technician was supposed to come at ten o'clock, but it's twelve now, and nobody has come.",
+      "reading": "ˈhaɪ, ˈlɪndə. ə tɛkˈnɪʃən wʌz səˈpoʊst tə ˈkʌm ət ˈtɛn əˈklɑːk, bʌt ɪts ˈtwɛlv ˈnaʊ, ənd ˈnoʊbɑːdi hæz ˈkʌm."
+    },
+    {
+      "speaker": "c",
+      "text": "I'm very sorry about that. Do you have a case number?",
+      "reading": "aɪm ˈvɛri ˈsɑːri əˈbaʊt ˈðæt. duː juː ˈhæv ə ˈkeɪs ˌnʌmbər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, it's five, three, one, nine.",
+      "reading": "ˈjɛs, ɪts ˈfaɪv, ˈθriː, ˈwʌn, ˈnaɪn."
+    },
+    {
+      "speaker": "c",
+      "text": "Thank you. Let me check the status of your visit.",
+      "reading": "ˈθæŋk juː. ˈlɛt miː ˈtʃɛk ðə ˈsteɪtəs əv jʊr ˈvɪzɪt."
+    },
+    {
+      "speaker": "a",
+      "text": "Thanks. I've been waiting at home all morning.",
+      "reading": "ˈθæŋks. aɪv bɪn ˈweɪtɪŋ ət ˈhoʊm ˈɔːl ˈmɔːrnɪŋ."
+    },
+    {
+      "speaker": "c",
+      "text": "I see the problem. His last job took longer than expected. I'll look into it right away.",
+      "reading": "aɪ ˈsiː ðə ˈprɑːbləm. hɪz ˈlæst ˈdʒɑːb ˈtʊk ˈlɔːŋər ðən ɪkˈspɛktɪd. aɪl ˈlʊk ˈɪntuː ɪt ˈraɪt əˈweɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Please do. I've had no internet for five days!",
+      "reading": "ˈpliːz ˈduː. aɪv ˈhæd ˈnoʊ ˈɪntərnɛt fər ˈfaɪv ˈdeɪz!"
+    },
+    {
+      "speaker": "c",
+      "text": "I understand. I'll make your case a priority, and I'll make sure someone comes today.",
+      "reading": "aɪ ˌʌndərˈstænd. aɪl ˈmeɪk jʊr ˈkeɪs ə praɪˈɔːrəti, ənd aɪl ˈmeɪk ˈʃʊr ˈsʌmwʌn ˈkʌmz təˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Today? Are you sure?",
+      "reading": "təˈdeɪ? ər juː ˈʃʊr?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. I'll call the technician myself, and I'll call you back as soon as possible.",
+      "reading": "ˈjɛs. aɪl ˈkɔːl ðə tɛkˈnɪʃən maɪˈsɛlf, ənd aɪl ˈkɔːl juː ˈbæk æz ˈsuːn æz ˈpɑːsəbəl."
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you. I'll be waiting.",
+      "reading": "ˈθæŋk juː. aɪl bi ˈweɪtɪŋ."
+    }
+  ]
+}

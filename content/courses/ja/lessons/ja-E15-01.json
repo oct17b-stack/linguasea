@@ -1,0 +1,100 @@
+{
+  "id": "ja-E15-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.katayoru",
+      "text": "かたよる",
+      "reading": "katayoru"
+    },
+    {
+      "id": "ja.yasaibusoku",
+      "text": "やさいぶそく",
+      "reading": "yasaibusoku"
+    },
+    {
+      "id": "ja.shokuseikatsu",
+      "text": "食生活",
+      "reading": "shokuseikatsu"
+    },
+    {
+      "id": "ja.shokuyoku",
+      "text": "食欲",
+      "reading": "shokuyoku"
+    },
+    {
+      "id": "ja.henshoku",
+      "text": "へんしょく",
+      "reading": "henshoku"
+    },
+    {
+      "id": "ja.kamu",
+      "text": "かむ",
+      "reading": "kamu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、しつもんしてもいい？だいがくのしゅくだいで、タイの人の食生活について、しらべているの。",
+      "reading": "Namu, shitsumon shite mo ii? Daigaku no shukudai de, Tai no hito no shokuseikatsu ni tsuite, shirabete iru no."
+    },
+    {
+      "speaker": "a",
+      "text": "いいよ。でも、わたしの食生活は、いま、あまりよくないよ。",
+      "reading": "Ii yo. Demo, watashi no shokuseikatsu wa, ima, amari yoku nai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして？",
+      "reading": "Dōshite?"
+    },
+    {
+      "speaker": "a",
+      "text": "試験がつづいていて、いそがしいから、ごはんをぬきがちなの。",
+      "reading": "Shiken ga tsuzuite ite, isogashii kara, gohan o nukigachi na no."
+    },
+    {
+      "speaker": "c",
+      "text": "わかる。いそがしいがくせいは、食事をぬきがちだよね。",
+      "reading": "Wakaru. Isogashii gakusei wa, shokuji o nukigachi da yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それに、コンビニのおべんとうばかりで、えいようも、かたよりがち。",
+      "reading": "Sore ni, konbini no obentō bakari de, eiyō mo, katayorigachi."
+    },
+    {
+      "speaker": "c",
+      "text": "やさいぶそくになっていない？",
+      "reading": "Yasaibusoku ni natte inai?"
+    },
+    {
+      "speaker": "a",
+      "text": "なってる。タイにいたときは、やさいをたくさんたべていたんだけど。",
+      "reading": "Natteru. Tai ni ita toki wa, yasai o takusan tabete ita n da kedo."
+    },
+    {
+      "speaker": "c",
+      "text": "タイりょうりは、やさいがおおいもんね。食欲は、ある？",
+      "reading": "Tai ryōri wa, yasai ga ōi mon ne. Shokuyoku wa, aru?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、食欲はあるよ。でも、いそがしいと、すきなものばかりたべて、へんしょくしがちなの。",
+      "reading": "Un, shokuyoku wa aru yo. Demo, isogashii to, suki na mono bakari tabete, henshoku shigachi na no."
+    },
+    {
+      "speaker": "c",
+      "text": "それに、いそいでたべると、あまりかまないよね。",
+      "reading": "Sore ni, isoide taberu to, amari kamanai yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうそう。よくかんでたべるのも、けんこうには重要だよね。気をつけなきゃ。",
+      "reading": "Sō sō. Yoku kande taberu no mo, kenkō ni wa jūyō da yo ne. Ki o tsukenakya."
+    }
+  ]
+}

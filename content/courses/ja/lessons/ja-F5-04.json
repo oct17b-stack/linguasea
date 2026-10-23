@@ -1,0 +1,95 @@
+{
+  "id": "ja-F5-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.shousai",
+      "text": "しょうさい",
+      "reading": "shōsai"
+    },
+    {
+      "id": "ja.kettei",
+      "text": "決定",
+      "reading": "kettei"
+    },
+    {
+      "id": "ja.hizuke",
+      "text": "日付",
+      "reading": "hizuke"
+    },
+    {
+      "id": "ja.houkoku",
+      "text": "報告",
+      "reading": "hōkoku"
+    },
+    {
+      "id": "ja.mitsumori",
+      "text": "見積もり",
+      "reading": "mitsumori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "もしもし、カフェのナムと申します。いつもお世話になっております。",
+      "reading": "Moshimoshi, kafe no Namu to mōshimasu. Itsumo osewa ni natte orimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ナムさん、こちらこそ、いつもありがとうございます。",
+      "reading": "Namu-san, kochira koso, itsumo arigatō gozaimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "この間おねがいしたかんばんの見積もりは、もうできましたか。",
+      "reading": "Konoaida onegai shita kanban no mitsumori wa, mō dekimashita ka."
+    },
+    {
+      "speaker": "b",
+      "text": "もうしわけありません。いま作っているところです。でき次第、メールでおおくりします。",
+      "reading": "Mōshiwake arimasen. Ima tsukutte iru tokoro desu. Deki shidai, mēru de ōkuri shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。それから、見積もりに、工事の日付もかいていただけますか。",
+      "reading": "Arigatō gozaimasu. Sorekara, mitsumori ni, kōji no hizuke mo kaite itadakemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "工事の日にちは、まだきまっていないんです。大家さんとそうだんして、きまり次第、ご報告します。",
+      "reading": "Kōji no hinichi wa, mada kimatte inai n desu. Ōya-san to sōdan shite, kimari shidai, go hōkoku shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よろしくおねがいします。開業の日も、それによって決定しますので。",
+      "reading": "Yoroshiku onegai shimasu. Kaigyō no hi mo, sore ni yotte kettei shimasu node."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。工事のしょうさいも、見積もりといっしょにおおくりします。",
+      "reading": "Wakarimashita. Kōji no shōsai mo, mitsumori to issho ni ōkuri shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "たすかります。なにか問題があったら、すぐにお知らせください。",
+      "reading": "Tasukarimasu. Nanika mondai ga attara, sugu ni oshirase kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。日付がきまり次第、見積もりにかいて、すぐにおおくりします。",
+      "reading": "Hai. Hizuke ga kimari shidai, mitsumori ni kaite, sugu ni ōkuri shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。では、ごれんらくをおまちしております。",
+      "reading": "Arigatō gozaimasu. Dewa, go renraku o omachi shite orimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。しつれいいたします。",
+      "reading": "Hai. Shitsurei itashimasu."
+    }
+  ]
+}
