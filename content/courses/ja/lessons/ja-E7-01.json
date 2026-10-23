@@ -1,0 +1,95 @@
+{
+  "id": "ja-E7-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.senkou",
+      "text": "選考",
+      "reading": "senkō"
+    },
+    {
+      "id": "ja.naitei",
+      "text": "内定",
+      "reading": "naitei"
+    },
+    {
+      "id": "ja.setsumeikai",
+      "text": "説明会",
+      "reading": "setsumeikai"
+    },
+    {
+      "id": "ja.entoriishiito",
+      "text": "エントリーシート",
+      "reading": "entorīshīto"
+    },
+    {
+      "id": "ja.kigyou",
+      "text": "きぎょう",
+      "reading": "kigyō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、しゅうしょくかつどうはどう？",
+      "reading": "Namu, shūshokukatsudō wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "先月、にほんのきぎょうの説明会にいって、エントリーシートをていしゅつしたよ。",
+      "reading": "Sengetsu, Nihon no kigyō no setsumeikai ni itte, entorīshīto o teishutsu shita yo."
+    },
+    {
+      "speaker": "c",
+      "text": "どこのきぎょう？",
+      "reading": "Doko no kigyō?"
+    },
+    {
+      "speaker": "a",
+      "text": "バンコクにじむしょがある、にほんの旅行会社。",
+      "reading": "Bankoku ni jimusho ga aru, Nihon no ryokōgaisha."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね！選考のけっかは、もうでたの？",
+      "reading": "Ii ne! Senkō no kekka wa, mō deta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "まだ。来週までに、メールがくるはずなんだけど…。",
+      "reading": "Mada. Raishū made ni, mēru ga kuru hazu na n da kedo…."
+    },
+    {
+      "speaker": "c",
+      "text": "さいしょの選考は、エントリーシートだけ？",
+      "reading": "Saisho no senkō wa, entorīshīto dake?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。そのあと、めんせつが2かいあるはず。",
+      "reading": "Un. Sono ato, mensetsu ga nikai aru hazu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムは、にほんごもタイごもできるから、だいじょうぶなはずだよ。",
+      "reading": "Namu wa, nihongo mo Taigo mo dekiru kara, daijōbu na hazu da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。でも、内定をもらうまでは、しんぱいで…。",
+      "reading": "Arigatō. Demo, naitei o morau made wa, shinpai de…."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだよね。わたしも、来年はしゅうしょくかつどうだから、いろいろおしえてね。",
+      "reading": "Sō da yo ne. Watashi mo, rainen wa shūshokukatsudō da kara, iroiro oshiete ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。…あ、メールがきた！きぎょうからだ！",
+      "reading": "Un. …A, mēru ga kita! Kigyō kara da!"
+    }
+  ]
+}
