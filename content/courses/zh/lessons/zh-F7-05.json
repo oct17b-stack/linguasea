@@ -1,0 +1,95 @@
+{
+  "id": "zh-F7-05",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.yi-zhao",
+      "text": "依照",
+      "reading": "yīzhào"
+    },
+    {
+      "id": "zh.quan-yi",
+      "text": "权益",
+      "reading": "quányì"
+    },
+    {
+      "id": "zh.he-fa",
+      "text": "合法",
+      "reading": "héfǎ"
+    },
+    {
+      "id": "zh.zheng-ju",
+      "text": "证据",
+      "reading": "zhèngjù"
+    },
+    {
+      "id": "zh.ying-de",
+      "text": "赢得",
+      "reading": "yíngdé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "律师您好，我想问一个问题。我搬家了，可是房东不还我押金。",
+      "reading": "Lǜshī nín hǎo, wǒ xiǎng wèn yī ge wèntí. Wǒ bānjiā le, kěshì fángdōng bù huán wǒ yājīn."
+    },
+    {
+      "speaker": "c",
+      "text": "他说了是什么原因吗？",
+      "reading": "Tā shuō le shì shénme yuányīn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "他说房间里的桌子坏了，是我用坏的。可是桌子本来就是坏的。",
+      "reading": "Tā shuō fángjiān li de zhuōzi huài le, shì wǒ yònghuài de. Kěshì zhuōzi běnlái jiù shì huài de."
+    },
+    {
+      "speaker": "c",
+      "text": "你有证据吗？",
+      "reading": "Nǐ yǒu zhèngjù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有！我搬进去的时候拍了照片，照片上桌子就已经坏了。",
+      "reading": "Yǒu! Wǒ bān jìnqù de shíhou pāi le zhàopiàn, zhàopiàn shang zhuōzi jiù yǐjīng huài le."
+    },
+    {
+      "speaker": "c",
+      "text": "很好。依照合同和法律规定，房东不能用这个理由不还你押金。",
+      "reading": "Hěn hǎo. Yīzhào hétong hé fǎlǜ guīdìng, fángdōng bù néng yòng zhège lǐyóu bù huán nǐ yājīn."
+    },
+    {
+      "speaker": "a",
+      "text": "我不是中国人，法律也保护我的权益吗？",
+      "reading": "Wǒ bù shì Zhōngguó rén, fǎlǜ yě bǎohù wǒ de quányì ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "当然。只要你是合法租房子的，法律就保护你的权益。",
+      "reading": "Dāngrán. Zhǐyào nǐ shì héfǎ zū fángzi de, fǎlǜ jiù bǎohù nǐ de quányì."
+    },
+    {
+      "speaker": "a",
+      "text": "那我应该怎么做？",
+      "reading": "Nà wǒ yīnggāi zěnme zuò?"
+    },
+    {
+      "speaker": "c",
+      "text": "先把照片发给房东，跟他好好说。如果他还不还，你可以去法院。",
+      "reading": "Xiān bǎ zhàopiàn fā gěi fángdōng, gēn tā hǎohǎo shuō. Rúguǒ tā hái bù huán, nǐ kěyǐ qù fǎyuàn."
+    },
+    {
+      "speaker": "a",
+      "text": "去法院的话，我能赢吗？",
+      "reading": "Qù fǎyuàn dehuà, wǒ néng yíng ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "证据这么清楚，你一定能赢得法官的支持。",
+      "reading": "Zhèngjù zhème qīngchu, nǐ yīdìng néng yíngdé fǎguān de zhīchí."
+    }
+  ]
+}

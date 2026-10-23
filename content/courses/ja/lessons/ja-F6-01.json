@@ -1,0 +1,95 @@
+{
+  "id": "ja-F6-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.teigi",
+      "text": "ていぎ",
+      "reading": "teigi"
+    },
+    {
+      "id": "ja.yougo",
+      "text": "用語",
+      "reading": "yōgo"
+    },
+    {
+      "id": "ja.kiiwaado",
+      "text": "キーワード",
+      "reading": "kīwādo"
+    },
+    {
+      "id": "ja.gutaiteki",
+      "text": "ぐたいてき",
+      "reading": "gutaiteki"
+    },
+    {
+      "id": "ja.chuushouteki",
+      "text": "ちゅうしょうてき",
+      "reading": "chūshōteki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、来週のはっぴょうのじゅんびはどうですか。",
+      "reading": "Namu-san, raishū no happyō no junbi wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "だいがくせいのスマホのつかい方について、ちょうさしました。",
+      "reading": "Daigakusei no sumaho no tsukaikata ni tsuite, chōsa shimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。はっぴょうでつかうキーワードは、なんですか。",
+      "reading": "Ii desu ne. Happyō de tsukau kīwādo wa, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "「デジタルデトックス」です。",
+      "reading": "\"Dejitaru detokkusu\" desu."
+    },
+    {
+      "speaker": "b",
+      "text": "その用語をしらないひともいるでしょう。さいしょに、ていぎをしてください。",
+      "reading": "Sono yōgo o shiranai hito mo iru deshō. Saisho ni, teigi o shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。「デジタルデトックスとは、スマホやパソコンをつかわない時間を、わざと作ることです」。",
+      "reading": "Hai. \"Dejitaru detokkusu to wa, sumaho ya pasokon o tsukawanai jikan o, wazato tsukuru koto desu\"."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。でも、「時間を作る」は、すこしちゅうしょうてきですね。",
+      "reading": "Ii desu ne. Demo, \"Jikan o tsukuru\" wa, sukoshi chūshōteki desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "では、「1日に2時間、スマホをつかわないこと」はどうですか。",
+      "reading": "Dewa, \"Ichinichi ni nijikan, sumaho o tsukawanai koto\" wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "それならわかりやすいです。ていぎは、ぐたいてきなほうがいいんですよ。",
+      "reading": "Sore nara wakariyasui desu. Teigi wa, gutaiteki na hō ga ii n desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。ほかの用語も、ぐたいてきにていぎしてみます。",
+      "reading": "Wakarimashita. Hoka no yōgo mo, gutaiteki ni teigi shite mimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "たとえば、「スマホいぞん」とは、なんですか。",
+      "reading": "Tatoeba, \"Sumaho izon\" to wa, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "「スマホいぞんとは、スマホがないと、不安になってしまうことです」。",
+      "reading": "\"Sumaho izon to wa, sumaho ga nai to, fuan ni natte shimau koto desu\"."
+    }
+  ]
+}

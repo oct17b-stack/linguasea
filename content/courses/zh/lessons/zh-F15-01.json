@@ -1,0 +1,95 @@
+{
+  "id": "zh-F15-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.mao-yi-trade",
+      "text": "贸易",
+      "reading": "màoyì"
+    },
+    {
+      "id": "zh.nong-chan-pin",
+      "text": "农产品",
+      "reading": "nóngchǎnpǐn"
+    },
+    {
+      "id": "zh.liu-lian-durian",
+      "text": "榴莲",
+      "reading": "liúlián"
+    },
+    {
+      "id": "zh.zhi-jian",
+      "text": "之间",
+      "reading": "zhījiān"
+    },
+    {
+      "id": "zh.jiao-yi",
+      "text": "交易",
+      "reading": "jiāoyì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，我是记者。请问，你在这儿做什么工作？",
+      "reading": "Nǐ hǎo, wǒ shì jìzhě. Qǐngwèn, nǐ zài zhèr zuò shénme gōngzuò?"
+    },
+    {
+      "speaker": "a",
+      "text": "你好！我是泰国留学生，今天在一家水果公司帮忙做翻译。",
+      "reading": "Nǐ hǎo! Wǒ shì Tàiguó liúxuéshēng, jīntiān zài yī jiā shuǐguǒ gōngsī bāngmáng zuò fānyì."
+    },
+    {
+      "speaker": "b",
+      "text": "你们公司卖什么？",
+      "reading": "Nǐmen gōngsī mài shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "主要是泰国的农产品，比如榴莲、芒果和大米。",
+      "reading": "Zhǔyào shì Tàiguó de nóngchǎnpǐn, bǐrú liúlián, mángguǒ hé dàmǐ."
+    },
+    {
+      "speaker": "b",
+      "text": "我知道，中国人特别喜欢泰国榴莲。",
+      "reading": "Wǒ zhīdào, Zhōngguó rén tèbié xǐhuan Tàiguó liúlián."
+    },
+    {
+      "speaker": "a",
+      "text": "对，泰国的榴莲大部分都卖到了中国。",
+      "reading": "Duì, Tàiguó de liúlián dàbùfen dōu màidào le Zhōngguó."
+    },
+    {
+      "speaker": "b",
+      "text": "除了水果，两国之间还有哪些贸易？",
+      "reading": "Chúle shuǐguǒ, liǎng guó zhījiān hái yǒu nǎxiē màoyì?"
+    },
+    {
+      "speaker": "a",
+      "text": "在贸易方面，两国合作很多。泰国卖给中国很多农产品，中国卖给泰国手机、电脑和汽车。",
+      "reading": "Zài màoyì fāngmiàn, liǎng guó hézuò hěn duō. Tàiguó màigěi Zhōngguó hěn duō nóngchǎnpǐn, Zhōngguó màigěi Tàiguó shǒujī, diànnǎo hé qìchē."
+    },
+    {
+      "speaker": "b",
+      "text": "今天的交易会上，你们的生意怎么样？",
+      "reading": "Jīntiān de jiāoyìhuì shang, nǐmen de shēngyi zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "很好！上午就有三家中国公司跟我们签了合同。",
+      "reading": "Hěn hǎo! Shàngwǔ jiù yǒu sān jiā Zhōngguó gōngsī gēn wǒmen qiān le hétong."
+    },
+    {
+      "speaker": "b",
+      "text": "最后一个问题：你觉得两国之间的合作以后会怎么样？",
+      "reading": "Zuìhòu yī ge wèntí: nǐ juéde liǎng guó zhījiān de hézuò yǐhòu huì zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "会越来越多。除了贸易方面，在旅游和教育方面，两国也会有更多的合作。",
+      "reading": "Huì yuèláiyuè duō. Chúle màoyì fāngmiàn, zài lǚyóu hé jiàoyù fāngmiàn, liǎng guó yě huì yǒu gèng duō de hézuò."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "ja-E16-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.setai",
+      "text": "せたい",
+      "reading": "setai"
+    },
+    {
+      "id": "ja.setainushi",
+      "text": "せたいぬし",
+      "reading": "setainushi"
+    },
+    {
+      "id": "ja.dairinin",
+      "text": "代理人",
+      "reading": "dairinin"
+    },
+    {
+      "id": "ja.ininjou",
+      "text": "いにんじょう",
+      "reading": "ininjō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "転入のとどけをだす方へ",
+        "reading": "Tennyū no todoke o dasu kata e"
+      },
+      {
+        "text": "ほかのまちからひっこしてきた方は、ひっこした日から14日いないに、転入のとどけをだしてください。",
+        "reading": "Hoka no machi kara hikkoshite kita kata wa, hikkoshita hi kara jūyokka inai ni, tennyū no todoke o dashite kudasai."
+      }
+    ],
+    [
+      {
+        "text": "とどけをだす際には、下のものを、お持ちください。",
+        "reading": "Todoke o dasu sai ni wa, shita no mono o, omochi kudasai."
+      },
+      {
+        "text": "・まえのまちのくやくしょでもらった、転出のしょうめいしょ",
+        "reading": "・Mae no machi no kuyakusho de moratta, tenshutsu no shōmeisho"
+      },
+      {
+        "text": "・在留カード（にほんのこくせきがない方だけ）",
+        "reading": "・Zairyūkādo (Nihon no kokuseki ga nai kata dake)"
+      },
+      {
+        "text": "・本人確認ができる、みぶんしょうめいしょ",
+        "reading": "・Honninkakunin ga dekiru, mibunshōmeisho"
+      }
+    ],
+    [
+      {
+        "text": "せたいぬしと同じせたいにはいる場合は、せたいぬしのなまえも、かいてください。",
+        "reading": "Setainushi to onaji setai ni hairu baai wa, setainushi no namae mo, kaite kudasai."
+      },
+      {
+        "text": "本人がこられないときは、代理人が、とどけをだすこともできます。",
+        "reading": "Honnin ga korarenai toki wa, dairinin ga, todoke o dasu koto mo dekimasu."
+      },
+      {
+        "text": "その場合は、本人がかいた、いにんじょうがひつようです。",
+        "reading": "Sono baai wa, honnin ga kaita, ininjō ga hitsuyō desu."
+      },
+      {
+        "text": "同じせたいの人がくる場合は、いにんじょうはいりません。",
+        "reading": "Onaji setai no hito ga kuru baai wa, ininjō wa irimasen."
+      }
+    ],
+    [
+      {
+        "text": "まどぐちは、へいじつのごぜん8時30分から、ごご5時までです。",
+        "reading": "Madoguchi wa, heijitsu no gozen hachiji sanjuppun kara, gogo goji made desu."
+      },
+      {
+        "text": "どようび、にちようび、しゅくじつは、おやすみです。",
+        "reading": "Doyōbi, nichiyōbi, shukujitsu wa, oyasumi desu."
+      },
+      {
+        "text": "わからないことがあれば、1かいのあんないで、おたずねください。",
+        "reading": "Wakaranai koto ga areba, ikkai no annai de, otazune kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

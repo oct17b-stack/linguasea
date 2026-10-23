@@ -1,0 +1,100 @@
+{
+  "id": "ja-F6-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.bai",
+      "text": "ばい",
+      "reading": "bai"
+    },
+    {
+      "id": "ja.heikin",
+      "text": "へいきん",
+      "reading": "heikin"
+    },
+    {
+      "id": "ja.miman",
+      "text": "未満",
+      "reading": "miman"
+    },
+    {
+      "id": "ja.hansuu",
+      "text": "半数",
+      "reading": "hansū"
+    },
+    {
+      "id": "ja.kaitou",
+      "text": "回答",
+      "reading": "kaitō"
+    },
+    {
+      "id": "ja.hijou-ni",
+      "text": "非常に",
+      "reading": "hijō ni"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "では、スマホをつかう時間のけっかを、おねがいします。",
+      "reading": "Dewa, sumaho o tsukau jikan no kekka o, onegai shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。1日にスマホをつかう時間のへいきんは、約4時間でした。",
+      "reading": "Hai. Ichinichi ni sumaho o tsukau jikan no heikin wa, yaku yojikan deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "4時間ですか。",
+      "reading": "Yojikan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。5時間いじょうつかう学生は、3割でした。",
+      "reading": "Hai. Gojikan ijō tsukau gakusei wa, sanwari deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "1時間未満の学生は、いましたか。",
+      "reading": "Ichijikan miman no gakusei wa, imashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、いました。でも、回答した学生の5%だけでした。",
+      "reading": "Hai, imashita. Demo, kaitō shita gakusei no gopāsento dake deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "ほとんどの学生が、1時間いじょうつかっているんですね。",
+      "reading": "Hotondo no gakusei ga, ichijikan ijō tsukatte iru n desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。それから、半数の学生が、「ねるまえにスマホをみる」と回答しました。",
+      "reading": "Hai. Sore kara, hansū no gakusei ga, \"Neru mae ni sumaho o miru\" to kaitō shimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "半数ですか。それは非常におおいですね。",
+      "reading": "Hansū desu ka. Sore wa hijōni ōi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。また、日本の学生とくらべると、タイの学生のほうが、SNSをつかう時間が約2ばいながいです。",
+      "reading": "Hai. Mata, Nihon no gakusei to kuraberu to, Tai no gakusei no hō ga, Esuenuesu o tsukau jikan ga yaku nibai nagai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "2ばいですか。おもしろいけっかですね。",
+      "reading": "Nibai desu ka. Omoshiroi kekka desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。このけっかは、非常に重要だと思います。",
+      "reading": "Hai. Kono kekka wa, hijōni jūyō da to omoimasu."
+    }
+  ]
+}

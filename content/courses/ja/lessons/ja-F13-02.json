@@ -1,0 +1,95 @@
+{
+  "id": "ja-F13-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kyuugyou",
+      "text": "休業",
+      "reading": "kyūgyō"
+    },
+    {
+      "id": "ja.eigyoujikan",
+      "text": "えいぎょうじかん",
+      "reading": "eigyōjikan"
+    },
+    {
+      "id": "ja.koukeisha",
+      "text": "こうけいしゃ",
+      "reading": "kōkeisha"
+    },
+    {
+      "id": "ja.shoutengai",
+      "text": "しょうてんがい",
+      "reading": "shōtengai"
+    },
+    {
+      "id": "ja.akiya",
+      "text": "空き家",
+      "reading": "akiya"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、このみせのはりがみ、なんてかいてあるの？「店主こうれいにつき、休業いたします」。",
+      "reading": "Yuki, kono mise no harigami, nante kaite aru no? \"Tenshu kōrei ni tsuki, kyūgyō itashimasu.\""
+    },
+    {
+      "speaker": "c",
+      "text": "「店主がこうれいしゃになったので、みせをやめます」っていういみだよ。",
+      "reading": "\"Tenshu ga kōreisha ni natta node, mise o yamemasu\" tte iu imi da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "「につき」って、なに？",
+      "reading": "\"Ni tsuki\" tte, nani?"
+    },
+    {
+      "speaker": "c",
+      "text": "「〜のため」とおなじいみ。はりがみやお知らせで、よくつかう、かたいことばなの。",
+      "reading": "\"No tame\" to onaji imi. Harigami ya oshirase de, yoku tsukau, katai kotoba na no."
+    },
+    {
+      "speaker": "a",
+      "text": "なるほど。あそこのみせには、「工事中につき、えいぎょうじかんを変えます」ってかいてある。",
+      "reading": "Naruhodo. Asoko no mise ni wa, \"Kōjichū ni tsuki, eigyōjikan o kaemasu\" tte kaite aru."
+    },
+    {
+      "speaker": "c",
+      "text": "このしょうてんがいは、しまっているみせが、ほんとうにおおいね。",
+      "reading": "Kono shōtengai wa, shimatte iru mise ga, hontō ni ōi ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん、はんぶんぐらいしまってる。どうしてかな。",
+      "reading": "Un, hanbun gurai shimatteru. Dōshite ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "みせをつづけるこうけいしゃが、いないんだと思う。こどもたちは、みんな都市ではたらいているから。",
+      "reading": "Mise o tsuzukeru kōkeisha ga, inai n da to omou. Kodomotachi wa, minna toshi de hataraite iru kara."
+    },
+    {
+      "speaker": "a",
+      "text": "みせのうえのいえも、空き家になっているのかな。",
+      "reading": "Mise no ue no ie mo, akiya ni natte iru no ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "たぶんね。いなかでは、空き家がふえて、もんだいになっているんだって。",
+      "reading": "Tabun ne. Inaka de wa, akiya ga fuete, mondai ni natte iru n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "タイでも、いなかのわかいひとは、バンコクにでていくことがおおいよ。",
+      "reading": "Tai demo, inaka no wakai hito wa, Bankoku ni dete iku koto ga ōi yo."
+    },
+    {
+      "speaker": "c",
+      "text": "どこのくにもおなじだね。このしょうてんがいも、むかしはにぎやかだったんだろうな。",
+      "reading": "Doko no kuni mo onaji da ne. Kono shōtengai mo, mukashi wa nigiyaka datta n darō na."
+    }
+  ]
+}

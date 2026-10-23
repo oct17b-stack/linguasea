@@ -1,0 +1,95 @@
+{
+  "id": "zh-F7-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.bu-de",
+      "text": "不得",
+      "reading": "bùdé"
+    },
+    {
+      "id": "zh.chuang-rush",
+      "text": "闯",
+      "reading": "chuǎng"
+    },
+    {
+      "id": "zh.gui-ze",
+      "text": "规则",
+      "reading": "guīzé"
+    },
+    {
+      "id": "zh.wei-fan",
+      "text": "违反",
+      "reading": "wéifǎn"
+    },
+    {
+      "id": "zh.che-liang",
+      "text": "车辆",
+      "reading": "chēliàng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你刚才骑自行车闯红灯了！太危险了！",
+      "reading": "Nǐ gāngcái qí zìxíngchē chuǎng hóngdēng le! Tài wēixiǎn le!"
+    },
+    {
+      "speaker": "b",
+      "text": "我看路上没有车辆，就骑过去了。",
+      "reading": "Wǒ kàn lùshang méiyǒu chēliàng, jiù qí guòqù le."
+    },
+    {
+      "speaker": "a",
+      "text": "没有车也不行。这是交通规则：骑自行车的人不得闯红灯。",
+      "reading": "Méiyǒu chē yě bùxíng. Zhè shì jiāotōng guīzé: qí zìxíngchē de rén bùdé chuǎng hóngdēng."
+    },
+    {
+      "speaker": "b",
+      "text": "“不得”是什么意思？",
+      "reading": "\"Bùdé\" shì shénme yìsi?"
+    },
+    {
+      "speaker": "a",
+      "text": "就是“不能”，是很正式的词，路边的牌子上常常写着。",
+      "reading": "Jiù shì \"bù néng\", shì hěn zhèngshì de cí, lùbiān de páizi shang chángcháng xiě zhe."
+    },
+    {
+      "speaker": "b",
+      "text": "你看，那个牌子上写着“车辆不得进入”。",
+      "reading": "Nǐ kàn, nàge páizi shang xiě zhe \"chēliàng bùdé jìnrù\"."
+    },
+    {
+      "speaker": "a",
+      "text": "对，意思是车不能开进去。",
+      "reading": "Duì, yìsi shì chē bù néng kāi jìnqù."
+    },
+    {
+      "speaker": "b",
+      "text": "在曼谷，很多人骑车的时候不太注意这些规则。",
+      "reading": "Zài Màngǔ, hěn duō rén qí chē de shíhou bù tài zhùyì zhèxiē guīzé."
+    },
+    {
+      "speaker": "a",
+      "text": "所以你更要小心。在北京，违反交通规则是要罚款的。",
+      "reading": "Suǒyǐ nǐ gèng yào xiǎoxīn. Zài Běijīng, wéifǎn jiāotōng guīzé shì yào fákuǎn de."
+    },
+    {
+      "speaker": "b",
+      "text": "罚款多少钱？",
+      "reading": "Fákuǎn duōshao qián?"
+    },
+    {
+      "speaker": "a",
+      "text": "骑自行车闯红灯，一般罚款二十块。钱不多，可是安全最重要。",
+      "reading": "Qí zìxíngchē chuǎng hóngdēng, yībān fákuǎn èrshí kuài. Qián bù duō, kěshì ānquán zuì zhòngyào."
+    },
+    {
+      "speaker": "b",
+      "text": "明白了。我以后再也不闯红灯了！",
+      "reading": "Míngbai le. Wǒ yǐhòu zàiyě bù chuǎng hóngdēng le!"
+    }
+  ]
+}

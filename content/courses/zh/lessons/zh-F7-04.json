@@ -1,0 +1,100 @@
+{
+  "id": "zh-F7-04",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.wei-not-yet",
+      "text": "未",
+      "reading": "wèi"
+    },
+    {
+      "id": "zh.cheng-dan",
+      "text": "承担",
+      "reading": "chéngdān"
+    },
+    {
+      "id": "zh.fa-yuan",
+      "text": "法院",
+      "reading": "fǎyuàn"
+    },
+    {
+      "id": "zh.shu-yu",
+      "text": "属于",
+      "reading": "shǔyú"
+    },
+    {
+      "id": "zh.nei-inside",
+      "text": "内",
+      "reading": "nèi"
+    },
+    {
+      "id": "zh.fa-guan",
+      "text": "法官",
+      "reading": "fǎguān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我租房子的合同下个月就结束了，房东给了我一份新合同。你帮我看看吧。",
+      "reading": "Wáng Míng, wǒ zū fángzi de hétong xià ge yuè jiù jiéshù le, fángdōng gěi le wǒ yī fèn xīn hétong. Nǐ bāng wǒ kànkan ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好。“合同时间内，房东不得随便进入房间。”这条对你有好处。",
+      "reading": "Hǎo. \"Hétong shíjiān nèi, fángdōng bùdé suíbiàn jìnrù fángjiān.\" Zhè tiáo duì nǐ yǒu hǎochu."
+    },
+    {
+      "speaker": "a",
+      "text": "这条我不太明白：“房租未按时交的，要多交百分之五。”",
+      "reading": "Zhè tiáo wǒ bù tài míngbai: \"Fángzū wèi ànshí jiāo de, yào duō jiāo bǎi fēn zhī wǔ.\""
+    },
+    {
+      "speaker": "b",
+      "text": "“未”就是“没有”，是书面语。意思是如果你没有按时交房租，就要多交百分之五。",
+      "reading": "\"Wèi\" jiù shì \"méiyǒu\", shì shūmiànyǔ. Yìsi shì rúguǒ nǐ méiyǒu ànshí jiāo fángzū, jiù yào duō jiāo bǎi fēn zhī wǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "明白了。那这条呢？“房间里的家具属于房东，家具用坏了，由租房子的人承担费用。”",
+      "reading": "Míngbai le. Nà zhè tiáo ne? \"Fángjiān li de jiājù shǔyú fángdōng, jiājù yònghuài le, yóu zū fángzi de rén chéngdān fèiyòng.\""
+    },
+    {
+      "speaker": "b",
+      "text": "意思是，家具是房东的。如果是你用坏的，你得出钱修。",
+      "reading": "Yìsi shì, jiājù shì fángdōng de. Rúguǒ shì nǐ yònghuài de, nǐ děi chū qián xiū."
+    },
+    {
+      "speaker": "a",
+      "text": "可是有的家具本来就很旧了，坏了也是我的责任吗？",
+      "reading": "Kěshì yǒude jiājù běnlái jiù hěn jiù le, huài le yě shì wǒ de zérèn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "那不是你的责任。你最好现在把家具都拍下来，以免以后说不清楚。",
+      "reading": "Nà bù shì nǐ de zérèn. Nǐ zuìhǎo xiànzài bǎ jiājù dōu pāi xialai, yǐmiǎn yǐhòu shuō bu qīngchu."
+    },
+    {
+      "speaker": "a",
+      "text": "好主意。要是以后我们有了矛盾，怎么办？",
+      "reading": "Hǎo zhǔyi. Yàoshi yǐhòu wǒmen yǒu le máodùn, zěnme bàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "合同最后写着：双方先自己商量，商量不了，可以去法院。",
+      "reading": "Hétong zuìhòu xiě zhe: shuāngfāng xiān zìjǐ shāngliang, shāngliang bu liǎo, kěyǐ qù fǎyuàn."
+    },
+    {
+      "speaker": "a",
+      "text": "去法院？还要请法官决定，太麻烦了！",
+      "reading": "Qù fǎyuàn? Hái yào qǐng fǎguān juédìng, tài máfan le!"
+    },
+    {
+      "speaker": "b",
+      "text": "所以签合同以前，一定要把每一条都看清楚。",
+      "reading": "Suǒyǐ qiān hétong yǐqián, yīdìng yào bǎ měi yī tiáo dōu kàn qīngchu."
+    }
+  ]
+}

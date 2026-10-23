@@ -1,0 +1,95 @@
+{
+  "id": "zh-E15-05",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.shui-mian",
+      "text": "睡眠",
+      "reading": "shuìmián"
+    },
+    {
+      "id": "zh.meng",
+      "text": "梦",
+      "reading": "mèng"
+    },
+    {
+      "id": "zh.xing-wake",
+      "text": "醒",
+      "reading": "xǐng"
+    },
+    {
+      "id": "zh.tang-lie-down",
+      "text": "躺",
+      "reading": "tǎng"
+    },
+    {
+      "id": "zh.zuo-meng",
+      "text": "做梦",
+      "reading": "zuòmèng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，周末你做什么了？我给你发消息，你一直没回。",
+      "reading": "Wáng Míng, zhōumò nǐ zuò shénme le? Wǒ gěi nǐ fā xiāoxi, nǐ yīzhí méi huí."
+    },
+    {
+      "speaker": "b",
+      "text": "不好意思，我在睡觉。星期六我一睡就睡了十二个小时！",
+      "reading": "Bù hǎoyìsi, wǒ zài shuìjiào. Xīngqīliù wǒ yī shuì jiù shuì le shí'èr ge xiǎoshí!"
+    },
+    {
+      "speaker": "a",
+      "text": "十二个小时？你太累了吧。",
+      "reading": "Shí'èr ge xiǎoshí? Nǐ tài lèi le ba."
+    },
+    {
+      "speaker": "b",
+      "text": "是啊。前几天压力太大，我的睡眠很不好，晚上常常醒。",
+      "reading": "Shì a. Qián jǐ tiān yālì tài dà, wǒ de shuìmián hěn bù hǎo, wǎnshang chángcháng xǐng."
+    },
+    {
+      "speaker": "a",
+      "text": "醒了以后呢？还能睡着吗？",
+      "reading": "Xǐng le yǐhòu ne? Hái néng shuìzháo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "很难。我一躺下就开始想工作的事，常常一想就想一两个小时。",
+      "reading": "Hěn nán. Wǒ yī tǎngxià jiù kāishǐ xiǎng gōngzuò de shì, chángcháng yī xiǎng jiù xiǎng yī-liǎng ge xiǎoshí."
+    },
+    {
+      "speaker": "a",
+      "text": "你是不是还经常做梦？",
+      "reading": "Nǐ shì bù shì hái jīngcháng zuòmèng?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，我常常做梦，梦到报告没写完，领导很生气。",
+      "reading": "Duì, wǒ chángcháng zuòmèng, mèngdào bàogào méi xiěwán, lǐngdǎo hěn shēngqì."
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，现在报告写完了，这个梦也该结束了。",
+      "reading": "Hāhā, xiànzài bàogào xiěwán le, zhège mèng yě gāi jiéshù le."
+    },
+    {
+      "speaker": "b",
+      "text": "希望是这样。你有什么好办法，让我睡得好一点儿吗？",
+      "reading": "Xīwàng shì zhèyàng. Nǐ yǒu shénme hǎo bànfǎ, ràng wǒ shuì de hǎo yīdiǎnr ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "别看手机。我以前一看手机就看一个多小时，现在睡觉前只读一会儿书。",
+      "reading": "Bié kàn shǒujī. Wǒ yǐqián yī kàn shǒujī jiù kàn yī ge duō xiǎoshí, xiànzài shuìjiào qián zhǐ dú yīhuìr shū."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我今天晚上就试试，十一点准时睡觉！",
+      "reading": "Hǎo, wǒ jīntiān wǎnshang jiù shìshi, shíyī diǎn zhǔnshí shuìjiào!"
+    }
+  ]
+}

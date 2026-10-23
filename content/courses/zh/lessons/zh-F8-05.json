@@ -1,0 +1,96 @@
+{
+  "id": "zh-F8-05",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.jie-shi",
+      "text": "解释",
+      "reading": "jiěshì"
+    },
+    {
+      "id": "zh.hu-tu",
+      "text": "糊涂",
+      "reading": "hútu"
+    },
+    {
+      "id": "zh.gao-do",
+      "text": "搞",
+      "reading": "gǎo"
+    },
+    {
+      "id": "zh.huang-ran-da-wu",
+      "kind": "phrase",
+      "text": "恍然大悟",
+      "reading": "huǎngrán dàwù"
+    },
+    {
+      "id": "zh.cai-guess",
+      "text": "猜",
+      "reading": "cāi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "下一个，谁来讲？",
+      "reading": "Xià yī ge, shéi lái jiǎng?"
+    },
+    {
+      "speaker": "a",
+      "text": "我来讲一个误会。我刚来北京的时候，第一次去饭馆吃饺子。",
+      "reading": "Wǒ lái jiǎng yī ge wùhuì. Wǒ gāng lái Běijīng de shíhou, dì-yī cì qù fànguǎn chī jiǎozi."
+    },
+    {
+      "speaker": "b",
+      "text": "让我猜猜：服务员是不是问你“要几两”？",
+      "reading": "Ràng wǒ cāicai: fúwùyuán shì bù shì wèn nǐ \"yào jǐ liǎng\"?"
+    },
+    {
+      "speaker": "a",
+      "text": "你怎么猜到的？对！我以为“两”就是“两个”，就说：“我要两个。”",
+      "reading": "Nǐ zěnme cāidào de? Duì! Wǒ yǐwéi \"liǎng\" jiù shì \"liǎng ge\", jiù shuō: \"Wǒ yào liǎng ge.\""
+    },
+    {
+      "speaker": "b",
+      "text": "她一定被你搞糊涂了。",
+      "reading": "Tā yīdìng bèi nǐ gǎo hútu le."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊。她说饺子不能只买两个，我就更糊涂了。",
+      "reading": "Shì a. Tā shuō jiǎozi bù néng zhǐ mǎi liǎng ge, wǒ jiù gèng hútu le."
+    },
+    {
+      "speaker": "b",
+      "text": "那她是怎么解释的？",
+      "reading": "Nà tā shì zěnme jiěshì de?"
+    },
+    {
+      "speaker": "a",
+      "text": "她说：“饺子是按两卖的，一两大概有六个。”我这才明白，“两”在这儿是重量。",
+      "reading": "Tā shuō: \"Jiǎozi shì àn liǎng mài de, yī liǎng dàgài yǒu liù ge.\" Wǒ zhè cái míngbai, \"liǎng\" zài zhèr shì zhòngliàng."
+    },
+    {
+      "speaker": "b",
+      "text": "后来你要了几两？",
+      "reading": "Hòulái nǐ yào le jǐ liǎng?"
+    },
+    {
+      "speaker": "a",
+      "text": "我说：“那我要两两！”服务员笑着说：“是‘二两’！”",
+      "reading": "Wǒ shuō: \"Nà wǒ yào liǎng liǎng!\" Fúwùyuán xiào zhe shuō: \"Shì 'èr liǎng'!\""
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，那你一定恍然大悟了吧？",
+      "reading": "Hāhā, nà nǐ yīdìng huǎngrán dàwù le ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！那天我不但吃饱了，还学会了说“二两”。",
+      "reading": "Duì! Nà tiān wǒ bùdàn chībǎo le, hái xuéhuì le shuō \"èr liǎng\"."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-F13-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.shudan",
+      "text": "手段",
+      "reading": "shudan"
+    },
+    {
+      "id": "ja.fujiyuu",
+      "text": "不自由",
+      "reading": "fujiyū"
+    },
+    {
+      "id": "ja.jikayousha",
+      "text": "自家用車",
+      "reading": "jikayōsha"
+    },
+    {
+      "id": "ja.rosenbasu",
+      "text": "ろせんバス",
+      "reading": "rosenbasu"
+    },
+    {
+      "id": "ja.haishi",
+      "text": "はいし",
+      "reading": "haishi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "おばあさんのいなかのろせんバスが、来月ではいしになるんだって。",
+      "reading": "Obāsan no inaka no rosenbasu ga, raigetsu de haishi ni naru n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、じゃあ、まちのひとは、どうやってえきへいくの？",
+      "reading": "E, jā, machi no hito wa, dō yatte eki e iku no?"
+    },
+    {
+      "speaker": "c",
+      "text": "自家用車しか、手段がないの。",
+      "reading": "Jikayōsha shika, shudan ga nai no."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、おとしよりにしたら、たいへんだよね。運転をやめたひともいるでしょう？",
+      "reading": "Demo, otoshiyori ni shitara, taihen da yo ne. Unten o yameta hito mo iru deshō?"
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの。おじいさんも、目がわるくなって、運転をやめたから、いまはとても不自由なんだ。",
+      "reading": "Sō na no. Ojiisan mo, me ga waruku natte, unten o yameta kara, ima wa totemo fujiyū na n da."
+    },
+    {
+      "speaker": "a",
+      "text": "バス会社にすれば、のるひとがすくないバスをつづけるのは、むずかしいのかもしれないけど…。",
+      "reading": "Basugaisha ni sureba, noru hito ga sukunai basu o tsuzukeru no wa, muzukashii no kamo shirenai kedo…."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。でも、まちのひとにしたら、生活の手段がなくなるのとおなじだよ。",
+      "reading": "Un. Demo, machi no hito ni shitara, seikatsu no shudan ga nakunaru no to onaji da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "タイのいなかでも、バスがすくないから、かぞくがくるまでおくっていくことがおおいよ。",
+      "reading": "Tai no inaka demo, basu ga sukunai kara, kazoku ga kuruma de okutte iku koto ga ōi yo."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんでも、こどもがちかくにすんでいればいいけど、とおくにいることがおおいから…。",
+      "reading": "Nihon demo, kodomo ga chikaku ni sunde ireba ii kedo, tōku ni iru koto ga ōi kara…."
+    },
+    {
+      "speaker": "a",
+      "text": "バスの代わりになるものは、ないの？",
+      "reading": "Basu no kawari ni naru mono wa, nai no?"
+    },
+    {
+      "speaker": "c",
+      "text": "まちのひとが、ボランティアでくるまをだす計画があるみたい。",
+      "reading": "Machi no hito ga, borantia de kuruma o dasu keikaku ga aru mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "それはいいね。わたしも、なにかてつだえたらいいな。",
+      "reading": "Sore wa ii ne. Watashi mo, nanika tetsudaetara ii na."
+    }
+  ]
+}

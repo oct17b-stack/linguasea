@@ -1,0 +1,95 @@
+{
+  "id": "ja-E16-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shoyoujikan",
+      "text": "所要時間",
+      "reading": "shoyōjikan"
+    },
+    {
+      "id": "ja.yoyakusei",
+      "text": "予約制",
+      "reading": "yoyakusei"
+    },
+    {
+      "id": "ja.annaiban",
+      "text": "あんないばん",
+      "reading": "annaiban"
+    },
+    {
+      "id": "ja.machijikan",
+      "text": "待ち時間",
+      "reading": "machijikan"
+    },
+    {
+      "id": "ja.seiriken",
+      "text": "せいりけん",
+      "reading": "seiriken"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "こんにちは。ごようけんを、うかがいます。",
+      "reading": "Konnichiwa. Goyōken o, ukagaimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いんかんのとうろくを、したいんですが。",
+      "reading": "Inkan no tōroku o, shitai n desu ga."
+    },
+    {
+      "speaker": "c",
+      "text": "かしこまりました。あちらで、せいりけんをおとりになって、おまちください。",
+      "reading": "Kashikomarimashita. Achira de, seiriken o otori ni natte, omachi kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "待ち時間は、どのくらいですか。",
+      "reading": "Machijikan wa, dono kurai desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ただいま、30分ほどでございます。あちらのあんないばんに、ばんごうがでますので、ごらんください。",
+      "reading": "Tadaima, sanjuppun hodo de gozaimasu. Achira no annaiban ni, bangō ga demasu node, goran kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "30分ですか…。てつづきの所要時間は、どのくらいでしょうか。",
+      "reading": "Sanjuppun desu ka…. Tetsuzuki no shoyōjikan wa, dono kurai deshō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "てつづきは、15分ほどでおわります。",
+      "reading": "Tetsuzuki wa, jūgofun hodo de owarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "予約は、できますか。",
+      "reading": "Yoyaku wa, dekimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "もうしわけございません。こちらのまどぐちは、予約制ではございません。",
+      "reading": "Mōshiwake gozaimasen. Kochira no madoguchi wa, yoyakusei de wa gozaimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。では、まちます。",
+      "reading": "Sō desu ka. Dewa, machimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いんかんは、お持ちでいらっしゃいますか。",
+      "reading": "Inkan wa, omochi de irasshaimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。きょう、持ってまいりました。",
+      "reading": "Hai. Kyō, motte mairimashita."
+    }
+  ]
+}

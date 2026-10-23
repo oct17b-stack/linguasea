@@ -1,0 +1,95 @@
+{
+  "id": "ja-F6-05",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.suuji",
+      "text": "数字",
+      "reading": "sūji"
+    },
+    {
+      "id": "ja.hyou",
+      "text": "表",
+      "reading": "hyō"
+    },
+    {
+      "id": "ja.zu",
+      "text": "図",
+      "reading": "zu"
+    },
+    {
+      "id": "ja.gurafu",
+      "text": "グラフ",
+      "reading": "gurafu"
+    },
+    {
+      "id": "ja.engurafu",
+      "text": "円グラフ",
+      "reading": "engurafu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "こちらの円グラフをごらんください。学生がスマホでなにをしているかを示しています。",
+      "reading": "Kochira no engurafu o goran kudasai. Gakusei ga sumaho de nani o shite iru ka o shimeshite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いちばんおおいのは、SNSですね。",
+      "reading": "Ichiban ōi no wa, Esuenuesu desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。このグラフからすると、学生はSNSに最も時間をつかっていると言えます。",
+      "reading": "Hai. Kono gurafu kara suruto, gakusei wa Esuenuesu ni mottomo jikan o tsukatte iru to iemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさん、しつもんしてもいいですか。表の数字とグラフの数字が、ちがうようですが。",
+      "reading": "Namu-san, shitsumon shite mo ii desu ka. Hyō no sūji to gurafu no sūji ga, chigau yō desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、表の数字は「なんにん」で、グラフは「割合」です。",
+      "reading": "A, hyō no sūji wa \"Nannin\" de, gurafu wa \"Wariai\" desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。ありがとうございます。",
+      "reading": "Wakarimashita. Arigatō gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "では、次の図をみてみましょう。",
+      "reading": "Dewa, tsugi no zu o mite mimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "この図は、スマホをつかう時間と、ねる時間のかんけいを示しています。",
+      "reading": "Kono zu wa, sumaho o tsukau jikan to, neru jikan no kankei o shimeshite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。この図から見ると、スマホをながくつかう学生ほど、ねる時間がすくないですね。",
+      "reading": "Naruhodo. Kono zu kara miru to, sumaho o nagaku tsukau gakusei hodo, neru jikan ga sukunai desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。せんせいの立場から見ると、じゅぎょうにもえいきょうがあると思います。",
+      "reading": "Hai. Sensei no tachiba kara miru to, jugyō ni mo eikyō ga aru to omoimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "学生の立場からすると、ちょっと耳がいたいですね。",
+      "reading": "Gakusei no tachiba kara suruto, chotto mimi ga itai desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしもそう思います。わたしも、ねるまえはスマホをみないようにします。",
+      "reading": "Watashi mo sō omoimasu. Watashi mo, neru mae wa sumaho o minai yō ni shimasu."
+    }
+  ]
+}
