@@ -16,12 +16,12 @@
       "translit": "ทราย"
     },
     "en.dish": {
-      "meaning": "อาหาร (แต่ละจาน แต่ละอย่าง)",
+      "meaning": "เมนู, อาหารแต่ละจาน",
       "translit": "ดิช"
     },
     "en.insect": {
       "meaning": "แมลง",
-      "translit": "อินเซ็คท์"
+      "translit": "อินเซ็กต์"
     }
   },
   "dialogue": [
@@ -46,8 +46,8 @@
       "body": "try ใช้กับอาหารได้ หมายถึง ลองกิน: Have you ever tried durian? (เคยลองทุเรียนไหม) ช่อง 2 และช่อง 3 ของ try คือ tried"
     },
     {
-      "title": "local / street food",
-      "body": "local = ของท้องถิ่น: a local dish (อาหารพื้นเมือง) ส่วน street food = อาหารริมทาง หรือสตรีทฟู้ด ที่คนไทยคุ้นเคย"
+      "title": "local / dish / street food",
+      "body": "local = ของท้องถิ่น: a local dish (อาหารพื้นเมือง) ส่วน street food = อาหารริมทาง หรือสตรีทฟู้ด ที่คนไทยคุ้นเคย dish ในที่นี้คืออาหารแต่ละจานแต่ละเมนู แต่ยังแปลว่า จาน ได้ด้วย เช่น do the dishes (ล้างจาน)"
     }
   ]
 }
