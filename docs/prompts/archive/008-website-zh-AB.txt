@@ -1,0 +1,24 @@
+# 官网 · zh-AB · 2026-10-22 17:42 UTC · agent a70f85b921028ea3f
+
+You are building the public website pages for LinguaSEA (working name), a subscription mobile app (iOS + Android) that teaches Thai speakers Chinese, English, Japanese and Korean, with explanations in Thai; first market Thailand, later Vietnam, Indonesia and the rest of Southeast Asia. Repo: /home/user/Test. Read docs/PLAN.md (Chinese) for the product, docs/CONTENT.md for the curriculum (stages A–B, aligned to HSK 1 / JLPT N5 / TOPIK I / CEFR A1), and skim app/src (screens) so nothing you write overpromises. Features that exist: four languages, Thai explanations and Thai transliteration, lessons with listening/reading/speaking questions, spaced-repetition review, streaks and XP, pronunciation scoring (Azure), an AI conversation partner that role-plays each unit (Claude), subscription with a 7-day free trial on the yearly plan. Prices are not final — do not print prices.
+
+The API server (Fastify) serves the folder server/public at the site root, so server/public/index.html is the home page. Another person is writing server/public/legal/** (privacy-th.html, privacy-en.html, terms-th.html, terms-en.html, delete-account-th.html, delete-account-en.html) — link to those paths but do not create or edit anything in server/public/legal/.
+
+You own only: server/public/index.html, server/public/en/index.html, server/public/support.html, server/public/en/support.html, server/public/assets/** (CSS/SVG/images you create), and server/public/robots.txt. Do not edit anything else; do not run npm install; do not run git commands that change state.
+
+## Pages
+1. Home (Thai at /, English at /en/): what the app is, who it's for, the four languages, how a lesson works, the AI partner and pronunciation scoring, exam alignment, a short FAQ (free vs Premium, cancel anytime via App Store/Google Play, which levels exist now), App Store / Google Play badges as placeholders (plain styled links with "เร็ว ๆ นี้ / Coming soon", no official artwork), language switch, footer with links to support, privacy, terms, account deletion.
+2. Support (Thai /support.html, English /en/support.html): how to contact (placeholder email marked [TBD: support email] / [รอกรอก: อีเมลซัพพอร์ต]), how to restore purchases, how to cancel a subscription on iPhone and Android (accurate current steps), how to delete data (in-app Settings → delete my data, or the deletion page), audio/microphone troubleshooting, and a link to the privacy policy. Apple requires this support URL.
+
+## Constraints
+- Plain static HTML + one shared CSS file in server/public/assets/; no JavaScript frameworks, no external scripts, fonts or trackers (privacy). Use system font stacks that render Thai well (e.g. "Noto Sans Thai", "Sarabun", system-ui …) with fallbacks.
+- Mobile-first, looks good at 360 px and on desktop; light and dark mode via prefers-color-scheme; accessible (semantic HTML, alt text, contrast, lang attributes th/en).
+- A simple, friendly visual identity: you may draw a small inline-SVG logo mark and illustrations (abstract shapes, speech bubbles, the four scripts 中 A あ 한) — no stock photos.
+- Natural Thai written for Thai teens and adults; accurate English.
+- Name appears as "LinguaSEA" (working name — keep it in one obvious place per page so it is easy to replace).
+
+## Verify
+Serve the folder (`cd /home/user/Test/server/public && python3 -m http.server <free port>` in the background) and check every page and link in Chromium with Playwright (global install: require(`${execSync('npm root -g').toString().trim()}/playwright`); Chromium is preinstalled) at 360×800 and 1280×800, in light and dark color schemes; no horizontal scroll, no broken internal links (links into /legal/ may 404 until the other writer finishes — note that). Save screenshots to <SCRATCH>/site-shots/ and look at them.
+
+## Report (short)
+Files written, placeholders left, anything you assumed.

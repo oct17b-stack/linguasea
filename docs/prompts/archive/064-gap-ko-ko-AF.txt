@@ -1,0 +1,23 @@
+# 韩语补词 · ko-AF · 2026-10-23 02:20 UTC · agent aa9f1d55c0ff0800e
+
+You are the vocabulary editor for the Korean course of LinguaSEA, an app teaching Thai speakers Korean with explanations in Thai. Repo: /home/user/Test. All 720 Korean lessons and readers (stages A–F) are written and validate. Problem: the writers had to use some everyday words in dialogues and readers that no lesson ever teaches as an item (e.g. 요즘, 어제, 열심히, 힘들다, 이야기, 이야기하다, 생각하다, 생활, 훨씬, 갑자기, 경우, 편하다, 원하다…). Your job: find these gaps and teach each such word once, in the right place. You are the only one editing the Korean course now.
+
+Read first: docs/CONTENT.md (rules, item kinds, ids), packages/contract/src/schema.ts, content/_review/ko.md (romanization and Thai transliteration conventions) and the writers' review notes content/_review/ko-*.md — several list the untaught words they used (search them for 대강/대본 lists, "basic words", "基础词", "not taught", "不在任何大纲" etc.).
+
+## Find the gaps
+1. Collect the candidate list from the review notes.
+2. Add your own scan: a script over all dialogue lines and reader passages (content/courses/ko/lessons/*.json, in course order from content/courses/ko/course.json) that splits text into words, strips common particles and endings heuristically, and reports frequent stems (used in 2+ lessons) that match no item text (items are listed per lesson; also accept an item whose text is the dictionary form of the stem, e.g. 생각하다 covers 생각해요/생각했어요). Review the output by hand — the heuristic will have noise.
+3. Keep words a learner really needs (TOPIK I/II core vocabulary, frequent function words like 아까, 그냥, 정말 if missing); skip proper nouns, numbers, and grammar endings that lessons already teach as grammar points. Expect roughly 80–200 words.
+
+## Teach each word once
+- Find the first lesson in course order whose dialogue or passage uses the word. Add the word as a new item to that lesson; if it already has 6 items (readers: 5 glossary items), add it to the nearest earlier lesson of the same unit that has room (it then comes just before its first use). Never add to a lesson after the first use.
+- Item: id `ko.<romanization>` following the existing id style (check `npm run dupes -- --target ko` and existing ids so it doesn't clash; suffix a short gloss for homonyms), text in dictionary form for verbs/adjectives (생각하다), kind "word" or "phrase", reading in Revised Romanization of the actual pronunciation as in ko.md.
+- Thai layer of that lesson: add the item's meaning and translit, worded so no two items in the course share the same meaning (`npm run dupes -- --target ko --meanings` must stay "no shared meanings").
+- Don't change dialogues, passages, notes or other items. Don't add exercises (the standard set is generated). Don't edit course.json or the plans.
+- Edit the lesson JSON files with a script (UTF-8, ensure_ascii=False, indent=2), keeping key order; helper scripts in <SCRATCH>/ko-gapfill/. No git commands, no npm install.
+
+## Check
+`cd /home/user/Test && npm run validate -- --target ko` must print "content OK (ko)", and `npm run dupes -- --target ko --meanings` must report no duplicate words and no shared meanings (the existing deliberate repeat ko.biga-oda is fine). Write content/_review/ko-gapfill.md: one line per added word (`- [lesson] word (id): first used in …`), plus anything you were unsure about.
+
+## Report (short)
+How many words you added, by stage; anything notable.

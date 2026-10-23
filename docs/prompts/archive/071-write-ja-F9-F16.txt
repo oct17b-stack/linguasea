@@ -1,0 +1,28 @@
+# 写课 · ja-F9-F16 · 2026-10-23 02:40 UTC · agent a3c7584bb31c7c4f6
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers Japanese with explanations in Thai. Repo: /home/user/Test. Your assignment: write every lesson and graded reader of **units ja-F9 … ja-F16 (stage F, CEFR B1+, JLPT N3)** of the Japanese course, following the syllabus plan exactly. Other writers are writing the other units of this course at the same time — touch only your own files.
+
+Read first: docs/CONTENT.md (all of it: rules, cast and Nam's fixed profile, §4.1 stage targets, §4.4 readers), packages/contract/src/schema.ts, the plan content/_plan/ja-CF.json (for your units: topic, grammar point and the exact items of every lesson and reader), content/_review/ja.md (Thai transliteration and romaji conventions the reviewer settled — follow them; e.g. word-final せん is written เซ็น, never เซ็ง, and えん is เอ็น, never เอ็ง), and a few reviewed lessons for style (content/courses/ja/lessons/ja-B5-0*.json, ja-B6-0*.json and their Thai layer in content/l1/th/ja/lessons/; stage C–E lessons on disk show the upper-level style and the storyline so far).
+
+## Files
+Create, for every lesson/reader id in your units: content/courses/ja/lessons/<id>.json and content/l1/th/ja/lessons/<id>.json; plus content/_review/ja-F9-16.md for your open questions (format `- [id] item/sentence: question`). Do not edit course.json files (the structure is already set), other units, the plans or anything else. No git commands, no npm install. Helper scripts go in <SCRATCH>/write-ja-F9-16/ (writing JSON from a Python script that holds the data is efficient; UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson (…-01 … -06)
+- Target layer: id, target "ja", stage "F", minutes 11, items = the plan's items exactly (same id/text/reading/kind), a dialogue of 8–12 lines (speakers: "a" = ナム the Thai student, "b" = a man such as やまだせんせい, "c" = a woman such as ゆき) that uses the lesson's grammar point and new items and otherwise only vocabulary the learner already knows (everything in stages A–E on disk, plus plan items of stages C–E not yet written and of earlier F units/lessons) and common function words/particles. Use grammar the plan has taught before your lesson (see the grammar fields of earlier lessons) plus the lesson's own point. Omit "exercises" (the standard set is generated).
+- Thai layer: title, one-sentence intro, every item's meaning + translit, one natural Thai translation per dialogue line, 1–3 notes — the first explains the lesson's grammar point with its pattern and an example from the dialogue, comparing with Thai where helpful.
+
+## Each reader (…-r01, -r02)
+- Target layer: kind "reader", stage "F", minutes 15, items = the plan's glossary items, a passage of 14–24 sentences in 3–5 paragraphs (genre and topic per plan) using known vocabulary plus the glossary items, and 3–4 comprehension questions (`answer` = index of the right option).
+- Thai layer: title, intro, glossary meanings + translit, passage translations with exactly the same paragraph/sentence shape, and for each question a Thai prompt with 3–4 Thai options.
+
+## Language notes
+Stage F mixes polite conversation, keigo for work and formal occasions, and the written style (だ／である) in articles, essays and formal letters — follow the plan's genres; explain each register briefly the first time it appears in your units. Nam and Yuki talk in plain style as friends (as from C7 on). Write normal Japanese **without** spaces between phrases (as in stage E). Script: write every item exactly as the plan writes it; in dialogues and readers use kanji for N5–N3 words the course has taught in kanji, kana for the rest. Readings: Hepburn romaji with macrons per content/_review/ja.md, word-separated as before. Keep Nam's profile consistent (see docs/CONTENT.md: she is female — Thai translations of her lines use ฉัน, never ผม; family of four with younger sister Fah, parents teachers in Bangkok, birthday 5 June; in stages A–B she studies in Bangkok and works weekends at a restaurant, from stage C she studies in Japan as the plan's scenarios and the lessons already written describe).
+
+## Quality
+Correct, natural Japanese at B1+; Thai natural for a Thai adult, neutral tone (no ครับ/ค่ะ in explanations); a transliteration must never spell an awkward or rude Thai word; meanings of different items must be distinguishable (add a short parenthetical; `npm run dupes -- --target ja --meanings` lists shared meanings). If a plan item is wrong (typo, reading, level), fix it in your lesson and note it in your review file — don't edit the plan. Don't invent new items except at most one per lesson when a dialogue truly needs it (check it with `npm run dupes -- --target ja`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target ja --only 'ja-F(9|1[0-6])-'` must print "content OK" when you finish (it shows only your units). Then re-read all your lessons end to end as a strict reviewer and fix what you find.
+
+## Report (short)
+Lessons/readers written, notable choices, number of open questions.

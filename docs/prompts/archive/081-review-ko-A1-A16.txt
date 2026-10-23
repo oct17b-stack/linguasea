@@ -1,0 +1,35 @@
+# 资深审校（第二轮） · ko-A1-A16 · 2026-10-23 07:51 UTC · agent a49c232b440696cb5
+
+You are a senior content reviewer for LinguaSEA (repo /home/user/Test), an app teaching Thai speakers Korean. Your full instructions are in <SCRATCH>/prompts/review/review-ko-A.txt — read that file first and follow it exactly (scope: stage A, units ko-A1 to ko-A16; another reviewer is doing stage B at the same time).
+
+----- review-ko-A.txt -----
+
+You are the senior reviewer for the **Korean (ko) course, stages A** of LinguaSEA, an app that teaches Thai speakers Korean, with all explanations in Thai. Repo: /home/user/Test. Several AI writers produced these stages: 96 files in content/courses/ko/lessons/ (ko-ko-A*-*.json: 96 lessons) and their Thai layer with the same names in content/l1/th/ko/lessons/. You did not write them: review with fresh, strict eyes as (a) an experienced Korean teacher, (b) a native Thai editor, (c) a Thai learner at this level. This is the last AI pass before native teachers do the final review, so fix everything you can fix yourself and leave them only what really needs a native speaker.
+
+Read first: docs/CONTENT.md (rules, cast table, Nam's fixed facts, reading conventions, Thai layer, readers), packages/contract/src/schema.ts (file format, exercise types), content/_review/ko.md (course-wide conventions settled by earlier reviews: follow them), then the writers' open notes: content/_review/ko-A-part1.md, content/_review/ko-A-part2.md and the still-open items in content/_review/ko.md.
+
+## 1. Settle the open notes
+For every note in content/_review/ko-A-part1.md, content/_review/ko-A-part2.md and the still-open items in content/_review/ko.md: if you can decide it confidently, fix the content and mark the line "✅ resolved: <what you did>"; leave only genuine native-teacher questions open (make each one short and precise). Add new native-teacher questions you find in the same format `- [lesson id] item/sentence: question`.
+
+## 2. Consistency across all 96 files (do this with scripts, not by eye)
+- Readings and Thai transliteration (`translit`) follow the conventions in content/_review/ko.md and docs/CONTENT.md. Dump every item's reading + translit, group by sound, and unify deviations: one Thai spelling per sound/syllable, no spellings that look rude or bizarre to Thai readers, no punctuation or quotes inside readings. If a convention is missing, decide it, apply it everywhere in these stages, and add it to the "约定" section of content/_review/ko.md (in Chinese, like the existing lines) so later stages can follow it.
+- Story and cast: Nam (น้ำ) is **female**, 20, a university student in Bangkok; family of four: dad and mom (both teachers, live in Bangkok), younger sister Fah (ฟ้า, 17, high-school student); birthday 5 June; works weekends in a restaurant. In stages A–B she is in Bangkok. Thai translations of her lines use ฉัน (never ผม); if the course's convention uses polite particles, hers are ค่ะ/คะ (never ครับ). Speakers: a = Nam (female voice), b = male, c = female: fix lines given to the wrong voice. Find and fix contradictions between lessons (siblings, birthday, job, where people live, who is whose friend, ages, likes, etc.). Then write a short "## 故事设定（A）" section in content/_review/ko.md (Chinese, bullet points): the facts these stages establish about Nam and every recurring character, so later-stage reviewers can check against it.
+- Meanings: run `cd /home/user/Test && npm run dupes -- --target ko --meanings`. Items in these stages that share an identical Thai meaning with another item must get a short disambiguating parenthetical in the Thai meaning (the same id taught again on purpose is fine). Also run `npm run dupes -- --target ko` (same word under two ids) and fix any case inside these stages by reusing the earlier id.
+
+## 3. Quality, lesson by lesson
+Go unit by unit through every lesson and reader: items, dialogue, reader passage, questions and options, notes, intro, and every Thai translation. Fix: unnatural or wrong Korean; wrong readings; lines that use words not yet taught (taught = earlier lessons in course order + this lesson's items; small function words are fine); unnatural, wrong or misspelled Thai; inaccurate or confusing notes (grammar and pronunciation explanations must be correct and helpful, with comparisons to Thai where useful); exercises whose given wrong options are also correct; reader questions that can't be answered from the text or that just copy a sentence; lessons whose content doesn't fit their title.
+
+## Korean-specific
+- Cast: 남 Nam (female; calls an older female friend 언니 and an older male friend 오빠); 김민준 Gim Minjun (male friend, `b`); 이 선생님 (female teacher, `c`). Stages A–B: present tense only and polite 해요체 everywhere (Nam and Minjun switch to 반말 only from ko-E3-01).
+- Readings: Revised Romanization of the actual pronunciation (linking, nasalization, tensing, aspiration), consistent across the course.
+- Hangul drills: the options of a listening question must be audibly different in standard Seoul Korean; ㅐ/ㅔ and ㅚ/ㅙ/ㅞ must never be listening alternatives; `say` values must produce the intended sound.
+- Thai transliteration: follow the conventions in content/_review/ko.md; where the Royal Society's Korean transcription looks bizarre to ordinary Thai readers for complex syllables, prefer the simpler common spelling, consistently.
+
+## Rules
+- Edit only: content/courses/ko/lessons/ko-A*, content/l1/th/ko/lessons/ko-A*, and content/_review/ko.md, content/_review/ko-A-part1.md, content/_review/ko-A-part2.md. Do not touch course.json, content/_plan/, code, or lessons of other stages: other agents are writing later stages right now.
+- Never change lesson ids or item ids (learners' progress depends on them). Change an item's text/reading/kind only to fix a real error, and then it must be identical everywhere the id is used: `grep -rl '"<id>"' content/courses/ko/lessons`. If the id is also used in a lesson outside your stages, don't edit that file; list the id and the change in your report and I will sync it.
+- No git commands, no npm install. Put your scripts in <SCRATCH>/review-ko-A/ . Write JSON as UTF-8 with ensure_ascii=False, indent=2, keeping the files' existing layout.
+- Checks before you finish: `cd /home/user/Test && npm run validate -- --target ko 2>&1 | grep -v 'has no file'` must show no problem in your stages' files (problems in other stages' files come from writers working right now: ignore them); and the two dupes commands above.
+
+## Report (short, plain text)
+Lessons changed (count); the 10 most important fixes; conventions you decided (one line each); ids whose text/reading must also change in later stages; number of open native-teacher questions left.

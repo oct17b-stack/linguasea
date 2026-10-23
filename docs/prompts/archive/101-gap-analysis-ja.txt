@@ -1,0 +1,27 @@
+# 补词分析 · ja · 2026-10-23 12:44 UTC · agent ae352475dbdc627d3
+
+You are the vocabulary analyst for the Japanese course of LinguaSEA (repo /home/user/Test). Your full instructions are in <SCRATCH>/prompts/review/gap-ja.txt — read that file first and follow it exactly. All 720 Japanese lessons and readers exist (the last F units are being polished by their writer, and reviewers are editing earlier stages), so you only analyse and write content/_review/ja-gapfill.md (no lesson edits). Reviewers will apply your proposals as soon as the file exists, so write it in one go when your analysis is done, and keep readings and Thai transliterations consistent with the 约定 section of content/_review/ja.md. Work quickly: the D and E reviewers are running now and will check for your file before they finish.
+
+----- gap-ja.txt -----
+
+You are the vocabulary analyst for the **Japanese (ja) course** of LinguaSEA (repo /home/user/Test), an app that teaches Thai speakers Japanese. The course has 6 stages (A–F), 16 units each; lessons are content/courses/ja/lessons/*.json (items = the words a lesson teaches; dialogue and reader passages use them) with a Thai layer in content/l1/th/ja/lessons/. Read docs/CONTENT.md and packages/contract/src/schema.ts first.
+
+## Goal
+Find **basic words that lessons use without ever teaching them** (they are never an item anywhere in the course), so they never enter the learner's review and are never explained. Example from the Korean course: the adverb 다 (all) was used in 92 lessons but never taught. You only ANALYSE and PROPOSE: do not edit any lesson file (reviewers are editing them right now and will apply your proposals).
+
+## Method
+1. Build the set of taught words: every item's text across all lessons (and their inflected/conjugated forms where relevant).
+2. Tokenize every dialogue line and reader passage with a morphological analyzer (e.g. `pip install fugashi unidic-lite` or `sudachipy sudachidict_core`); remember text is kana-only for words not taught in kanji, and stages A–D put spaces between phrases, lemmatize, drop names, numbers, and what is clearly a grammar pattern explained in that lesson's notes, and find lemmas that are not taught. Keep those used in at least 2 lessons, or that are very basic.
+3. Judge each candidate by hand: is it a basic, useful word at this level (CEFR A1–B1 / JLPT N5–N3)? Skip rare one-offs, proper nouns, and words that are transparent compounds of taught words (say why).
+4. For each word you keep, choose where to teach it: the lesson where it is first used (course order is A1-01, A1-02 … A1-06, then the unit's readers, then A2-01 …; stage B–F units also have readers r01/r02 after lesson 06). Lessons should have 4–6 items, but a basic word may be a 7th item; if a lesson already has 7, take the nearest earlier lesson of the same unit with room. Never place it after its first use.
+5. Write each proposal fully so a reviewer can paste it in: id (follow the course's id style, e.g. `ja.tsukuru`; check with `grep -r '"<id>"' content/courses/ja` that it is new and that the word has no other id), text, reading (course conventions in content/_review/ja.md), kind, Thai meaning (short, natural, distinct from every other item's meaning in the course: check with a script), Thai translit (if the course's items have one at that stage), and the lessons where it is used.
+
+## Output
+Write content/_review/ja-gapfill.md (Chinese headings and comments, like the other review files): a short intro on method, then a table or list grouped by stage and lesson: `- [lesson id] text (reading) — id — kind — Thai meaning — translit — used in: lesson ids`. Then a section of candidates you deliberately skipped, with the reason. Put your scripts in <SCRATCH>/gap-ja/ (a Python venv there is fine for tokenizers: `python3 -m venv`, `pip install …`). No git commands; edit nothing except content/_review/ja-gapfill.md.
+
+## Japanese notes
+- Already known gaps to confirm: つくる, もつ, おもう, いう, しる, もう, まだ, もっと (すむ and はたらく were added in D9-03 and D16-06).
+- Verbs: propose the dictionary form as the item text, as the course does for other verbs.
+
+## Report (short)
+How many words you propose per stage, the 15 most important ones, and anything unusual.

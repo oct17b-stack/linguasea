@@ -1,0 +1,45 @@
+# 大纲规划 · ja-CF · 2026-10-22 18:14 UTC · agent a597a0b31aa19580c
+
+You are the curriculum planner for the **Japanese (ja) course, stages C–F**, of LinguaSEA — a subscription app teaching Thai speakers Chinese/English/Japanese/Korean. Repo: /home/user/Test. Goal of the whole course: about 200 study hours per language (see docs/CONTENT.md §4 and §6). Writers will later write every lesson from your plan in parallel, so the plan must be complete, consistent and free of duplicates.
+
+Read first: /home/user/Test/docs/CONTENT.md (all of it — structure §4.1, C seed topics §4.3, readers §4.4, cast of characters, id rules, Japanese script rules) and packages/contract/src/schema.ts. Stages A–B (pre-A1/A1, JLPT N5) are being written by someone else right now under content/courses/ja/ — glance at whatever exists, but do not wait for it: assume A–B teach hiragana, katakana and the core JLPT N5 survival vocabulary (greetings, self-introduction, numbers, time, dates, weekdays, family, food & drink, shopping & prices, places & transport, daily routine, basic adjectives). Do not plan those again.
+
+## Output
+One file you own: /home/user/Test/content/_plan/ja-CF.json (create it; touch nothing else in the repo; no git commands; helper scripts go in <SCRATCH>/plan-ja/). Shape:
+
+```json
+{
+  "target": "ja",
+  "stages": [
+    { "id": "C", "cefr": "A2", "exam": "JLPT N4", "minutes": 8, "readerMinutes": 10,
+      "units": [
+        { "id": "ja-C1",
+          "title_th": "งานอดิเรก", "goal_th": "เล่าเรื่องงานอดิเรกและบอกสิ่งที่ทำได้",
+          "scenario": "English, 1–2 sentences: the role-play the AI tutor plays for this unit (who B is, what Nam must achieve)",
+          "lessons": [
+            { "id": "ja-C1-01", "topic": "English: what the lesson is about",
+              "grammar": "one grammar point with a pattern, e.g. 〜ことが できます",
+              "items": [ { "id": "ja.shumi", "text": "しゅみ", "reading": "shumi", "kind": "word" } ] },
+            … 6 lessons ja-C1-01 … ja-C1-06 …,
+            { "id": "ja-C1-r01", "kind": "reader", "genre": "story|diary|message|email|notice|dialogue-text|profile|article",
+              "topic": "English: what the text is about", "items": [ 3–5 glossary items ] },
+            { "id": "ja-C1-r02", … }
+          ] }
+      ] }
+  ]
+}
+```
+
+## Requirements
+- Stages and exams: C = A2 / JLPT N4 (first half) (lesson minutes 8, readers 10, reader 6–10 sentences); D = A2+ / JLPT N4 (9 / 12, 8–14 sentences); E = B1 / JLPT N3 (first half) (10 / 14, 10–18 sentences); F = B1+ / JLPT N3 (11 / 15, 14–24 sentences). Put minutes in the stage object as shown.
+- Every stage: exactly 16 units (ja-C1 … ja-C16), each with exactly 6 lessons (…-01 … -06) followed by 2 readers (…-r01, -r02). That is 64 units, 384 lessons, 128 readers.
+- Unit topics: cover what a Thai adult needs at each level (C1–C6 as in §4.3, then e.g. seasons & weather, clothes, part-time work, the post office/bank, sports, festivals, invitations, giving/receiving (あげる/もらう/くれる), cooking, the internet; D–F progressively: travel problems, keigo at work, environment, technology, education, careers, culture & manners, media & news, health habits, relationships, money, Thai–Japanese comparisons, opinions, anecdotes, formal letters, etc.). No two units on the same topic.
+- Items: 4–6 per lesson (kind "word" or "phrase"), 3–5 per reader. Draw from JLPT N4 and N3 lists plus genuinely useful words for Thai learners. Target new items: C ≈ 500, D ≈ 600, E ≈ 650, F ≈ 600 (≈ 2,350). Each item appears once in the whole plan (unique id AND unique text+reading); skip N5 survival words A–B teach.
+- Script: from stage C, write words the way Japanese adults normally write them, introducing N4 kanji in C–D and N3 kanji in E–F (e.g. 学校, 先生, 電車, 病院); keep the kana spelling for words normally written in kana. Reading: Hepburn romaji with macrons (gakkō, byōin), particles は/へ/を as wa/e/o, spaces between words.
+- Grammar: each lesson a grammar point in a sensible JLPT order (C: ます/ません past, 〜たい, て-form uses, 〜ている, 〜てもいい/〜てはいけない, 〜ことができる, 〜たことがある, plain form; D: 〜と思います, 〜つもり, 〜たら, 〜ば, potential, volitional, giving/receiving, 〜ながら, 〜そう; E–F: passive, causative, 〜ように, 〜ようにする, 〜らしい, 〜はず, 〜ため, 〜のに, keigo basics, 〜ば〜ほど, etc.). Do not repeat a grammar point except as a deliberate review lesson (mark "review" in topic).
+- Ids: ja. + Hepburn romaji without macrons, lowercase, hyphen between words (ja.gakkou or ja.gakko — pick one convention: write long vowels as ou/uu, e.g. ja.byouin), add a short suffix only for real clashes.
+- Characters from the cast table only (ナム the Thai student, たなか ゆき, やまだせんせい) plus unnamed passers-by.
+- Before finishing, write and run a checker script: counts per stage/unit/lesson, unique ids, unique text+reading, ids match ^ja\.[a-z0-9-]+$, lesson ids match the unit, valid JSON. Fix everything it finds. Then read the plan end-to-end as a strict JLPT teacher and fix level mistakes and romaji errors.
+
+## Report (short)
+Item counts per stage, list of the 64 unit titles (Thai) one line each, anything uncertain.

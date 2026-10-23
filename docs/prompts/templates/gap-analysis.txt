@@ -1,0 +1,17 @@
+You are the vocabulary analyst for the **{LANG} ({T}) course** of LinguaSEA (repo /home/user/Test), an app that teaches Thai speakers {LANG}. The course has 6 stages (A–F), 16 units each; lessons are content/courses/{T}/lessons/*.json (items = the words a lesson teaches; dialogue and reader passages use them) with a Thai layer in content/l1/th/{T}/lessons/. Read docs/CONTENT.md and packages/contract/src/schema.ts first.
+
+## Goal
+Find **basic words that lessons use without ever teaching them** (they are never an item anywhere in the course), so they never enter the learner's review and are never explained. Example from the Korean course: the adverb 다 (all) was used in 92 lessons but never taught. You only ANALYSE and PROPOSE: do not edit any lesson file (reviewers are editing them right now and will apply your proposals).
+
+## Method
+1. Build the set of taught words: every item's text across all lessons (and their inflected/conjugated forms where relevant).
+2. Tokenize every dialogue line and reader passage{TOOLS}, lemmatize, drop names, numbers, and what is clearly a grammar pattern explained in that lesson's notes, and find lemmas that are not taught. Keep those used in at least 2 lessons, or that are very basic.
+3. Judge each candidate by hand: is it a basic, useful word at this level (CEFR A1–B1 / {EXAMS})? Skip rare one-offs, proper nouns, and words that are transparent compounds of taught words (say why).
+4. For each word you keep, choose where to teach it: the lesson where it is first used (course order is A1-01, A1-02 … A1-06, then the unit's readers, then A2-01 …; stage B–F units also have readers r01/r02 after lesson 06). Lessons should have 4–6 items, but a basic word may be a 7th item; if a lesson already has 7, take the nearest earlier lesson of the same unit with room. Never place it after its first use.
+5. Write each proposal fully so a reviewer can paste it in: id (follow the course's id style, e.g. `{IDEX}`; check with `grep -r '"<id>"' content/courses/{T}` that it is new and that the word has no other id), text, reading (course conventions in content/_review/{T}.md), kind, Thai meaning (short, natural, distinct from every other item's meaning in the course: check with a script), Thai translit (if the course's items have one at that stage), and the lessons where it is used.
+
+## Output
+Write content/_review/{T}-gapfill.md (Chinese headings and comments, like the other review files): a short intro on method, then a table or list grouped by stage and lesson: `- [lesson id] text (reading) — id — kind — Thai meaning — translit — used in: lesson ids`. Then a section of candidates you deliberately skipped, with the reason. Put your scripts in <SCRATCH>/gap-{T}/ (a Python venv there is fine for tokenizers: `python3 -m venv`, `pip install …`). No git commands; edit nothing except content/_review/{T}-gapfill.md.
+{EXTRA}
+## Report (short)
+How many words you propose per stage, the 15 most important ones, and anything unusual.

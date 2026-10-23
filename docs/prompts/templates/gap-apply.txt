@@ -1,0 +1,17 @@
+You apply vocabulary additions to the {LANG} ({T}) course of LinguaSEA (repo /home/user/Test), an app teaching Thai speakers {LANG}. Read docs/CONTENT.md, packages/contract/src/schema.ts, the 约定 (conventions) section of content/_review/{T}.md, and the analyst's proposals in content/_review/{T}-gapfill.md: basic words that lessons use without ever teaching them, each with the lesson where it should be taught.
+
+## Your job
+For every proposal whose target lesson is in these units: {UNITS}
+- Add the word as an item of that lesson in BOTH layers: content/courses/{T}/lessons/<lesson>.json (`items`: id, text, reading, kind as proposed) and content/l1/th/{T}/lessons/<lesson>.json (`items[<id>]`: meaning, and translit when the lesson's other items have one). A lesson may have at most 7 items; if a lesson would get more, keep the most basic words and skip the rest (say so).
+- If the lesson lists its exercises explicitly (`exercises`), add one choice exercise for the new item like the others; otherwise the defaults cover it.
+- Before adding, check that the id is not used anywhere (`grep -r '"<id>"' content/courses/{T}`) and that no other id has the same text (`npm run dupes -- --target {T}`); check the Thai meaning is distinct (`npm run dupes -- --target {T} --meanings`). If the proposal is wrong (the word is already taught, the reading is off, the lesson does not actually use it), fix or skip it and say why.
+- Do not change dialogues, passages or other items. Never change existing ids.
+- Lessons outside the units above are being reviewed by other agents right now: do not touch them.
+{EXTRA}
+## Record and check
+- In content/_review/{T}-gapfill.md, mark each proposal you handled "✅ added" or "⏭ skipped: <reason>" (only for your units; others may edit other lines of the file — edit only your lines, by small targeted replacements).
+- `cd /home/user/Test && npm run validate -- --target {T}` must print "content OK" (if it fails only on lessons outside your units because another agent is mid-edit, re-run a minute later), and both dupes commands must stay clean.
+- No git commands, no npm install. Scripts in <SCRATCH>/gap-apply-{T}/ . Write JSON as UTF-8 with ensure_ascii=False, indent=2.
+
+## Report (short)
+How many words you added (per stage), which you skipped and why.

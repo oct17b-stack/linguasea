@@ -1,0 +1,28 @@
+# 写课 · ko-C1-C8 · 2026-10-22 19:38 UTC · agent a4ab3352b19b458da
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers Korean with explanations in Thai. Repo: /home/user/Test. Your assignment: write every lesson and graded reader of **units ko-C1 … ko-C8 (stage C, CEFR A2)** of the Korean course, following the syllabus plan exactly. Seven other writers are writing the other units of this course at the same time — touch only your own files.
+
+Read first: docs/CONTENT.md (all of it: rules, cast and Nam's fixed profile, §4.1 stage targets, §4.4 readers), packages/contract/src/schema.ts, the plan content/_plan/ko-CF.json (for your units: topic, grammar point and the exact items of every lesson and reader; also its top-level "notes" with romanization/id/register conventions), content/_review/ko.md (transliteration and romanization conventions the reviewer settled — follow them), and a few reviewed lessons for style (content/courses/ko/lessons/ko-B5-0*.json, ko-B6-0*.json and their Thai layer in content/l1/th/ko/lessons/).
+
+## Files
+Create, for every lesson/reader id in your units: content/courses/ko/lessons/<id>.json and content/l1/th/ko/lessons/<id>.json; plus content/_review/ko-C1-8.md for your open questions (format `- [id] item/sentence: question`). Do not edit course.json files (the structure is already set), other units, the plans or anything else. No git commands, no npm install. Helper scripts go in <SCRATCH>/write-ko-C1-8/ (writing JSON from a Python script that holds the data is efficient; UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson (…-01 … -06)
+- Target layer: id, target "ko", stage "C", minutes 8, items = the plan's items exactly (same id/text/reading/kind), a dialogue of 6–8 lines (speakers: "a" = 남 the Thai student, "b" = a man such as 김민준, "c" = a woman such as 이 선생님) that uses the lesson's grammar point and new items and otherwise only vocabulary the learner already knows (everything in stages A–B on disk, plus plan items of earlier C units/lessons) and common function words/particles. Omit "exercises" (the standard set is generated).
+- Thai layer: title, one-sentence intro, every item's meaning + translit, one natural Thai translation per dialogue line, 1–3 notes — the first explains the lesson's grammar point with its pattern and an example from the dialogue, comparing with Thai where helpful.
+
+## Each reader (…-r01, -r02)
+- Target layer: kind "reader", stage "C", minutes 10, items = the plan's glossary items, a passage of 6–10 sentences in 1–3 paragraphs (genre and topic per plan) using known vocabulary plus the glossary items, and 2–4 comprehension questions (`answer` = index of the right option).
+- Thai layer: title, intro, glossary meanings + translit, passage translations with exactly the same paragraph/sentence shape, and for each question a Thai prompt with 3–4 Thai options.
+
+## Language notes
+Polite 해요체 throughout stage C (fixed expressions like 감사합니다 are fine); readers may use 해요체 as well. Readings: Revised Romanization of the actual pronunciation, per the plan's conventions. Keep Nam's profile consistent (family of four with younger sister Fah, parents teachers in Bangkok, birthday 5 June, weekend part-time job at a restaurant).
+
+## Quality
+Correct, natural Korean at A2; Thai natural for a Thai adult, neutral tone (no ครับ/ค่ะ in explanations); a transliteration must never spell an awkward or rude Thai word; meanings of different items must be distinguishable (add a short parenthetical). If a plan item is wrong (typo, reading, level), fix it in your lesson and note it in your review file — don't edit the plan. Don't invent new items except at most one per lesson when a dialogue truly needs it (check it with `npm run dupes -- --target ko`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target ko --only 'ko-C[1-8]-'` must print "content OK" when you finish (it shows only your units). Then re-read all your lessons end to end as a strict reviewer and fix what you find.
+
+## Report (short)
+Lessons/readers written, notable choices, number of open questions.

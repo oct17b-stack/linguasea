@@ -1,0 +1,34 @@
+# A–B 初稿写手（MVP） · zh-AB · 2026-10-22 17:24 UTC · agent aa1902bcaa4d66cc5
+
+You are writing course content for LinguaSEA, a subscription app that teaches Thai speakers Chinese, English, Japanese and Korean (repo at /home/user/Test). Your job: the complete **Chinese (zh) course, stages A and B**, with Thai explanations. Three other writers are doing en/ja/ko at the same time in the same directory — touch ONLY your own files.
+
+## Read first
+1. /home/user/Test/docs/CONTENT.md — the authoring rules, cast of characters, and the A–B syllabus table. Follow it exactly (it is in Chinese; the Thai layer you write is in Thai).
+2. /home/user/Test/packages/contract/src/schema.ts and exercises.ts — the data format and the standard exercise set.
+3. The existing files content/courses/zh/ and content/l1/th/zh/ (2 prototype lessons). You may rewrite or replace them; nothing is published yet. zh-A1-01 (greetings) can stay as a base; zh-B1-01 is currently "numbers 1–5" and must become the first lesson of the B1 unit (time/dates) — numbers belong in A4.
+
+## Files you own (create/overwrite only these)
+- content/courses/zh/course.json and content/courses/zh/lessons/*.json
+- content/l1/th/zh/course.json and content/l1/th/zh/lessons/*.json
+- content/_review/zh.md (notes for the native-speaker reviewer: anything you are unsure about, format `- [lesson id] item/sentence: question`)
+Do NOT edit anything else (no packages/, app/, other languages, ui.json, docs). Do NOT run git commands that change state (no add/commit/checkout/stash). Put any helper scripts in <SCRATCH>/content-zh/ (create it), never in the repo. Writing the JSON with a Python script that holds the data is the efficient way; make sure output is UTF-8 with ensure_ascii=False and indent=2.
+
+## What to produce
+12 units × 4 lessons = 48 lessons: zh-A1 … zh-A6 (stage A, free, cefr "pre-A1", exam "HSK 1") and zh-B1 … zh-B6 (stage B, not free, cefr "A1", exam "HSK 1"), lesson ids zh-A1-01 … zh-B6-04, following the zh column of the syllabus table:
+A1 greetings & politeness · A2 pinyin & tones (lesson 1: the four tones; 2: b p m f d t n l; 3: g k h j q x; 4: zh ch sh r z c s) · A3 introducing yourself · A4 numbers 0–10, age · A5 family · A6 eating & drinking · B1 time, dates, weekdays · B2 shopping, prices · B3 places, directions · B4 daily routine · B5 weather, feelings · B6 transport, getting around.
+- 4–6 items per lesson (pinyin lessons may have up to 8 syllable items), minutes 5–8, choose common HSK 1 words; roughly 220+ distinct items overall. Use kind "phrase" for useful whole expressions (我叫……, 多少钱？).
+- Pinyin lessons: items kind "syllable", text = the pinyin syllable with tone mark (mā), reading same, `say` = one common character whose isolated standard reading is exactly that syllable and tone (mā→妈, má→麻, mǎ→马, mà→骂, bā→八, pà→怕 …). Double-check every `say` character. Meaning in Thai describes the sound/tone (e.g. "เสียงที่ 1 (ระดับสูง)", "b — คล้าย ป ไม่พ่นลม"). The tones lesson must use explicit exercises: `listen-text` with `options` = the other three tones of the same syllable, plus `choose-meaning`, plus 1–2 `speak`. In other pinyin lessons use explicit `listen-text` options for confusable pairs (b/p, d/t, g/k, j/q, zh/z, ch/c, sh/s, …) where it helps; otherwise the standard set is fine. Remember: if a lesson has `exercises`, only those run, so list a choice question for every item.
+- Vocabulary lessons: normally omit `exercises` (standard set). Dialogues (2–8 lines, speakers "a" = 小南 the Thai student, "b" = the other person per the cast table) use only words taught so far plus basic function words; stage A lines ≤ 10 characters, stage B ≤ 12 words.
+- Reading: Hanyu Pinyin with tone marks, word-segmented, neutral tone unmarked, citation tones (explain 不/一/third-tone sandhi in notes where they first matter).
+- Thai layer for every lesson: natural title, one-sentence intro, meaning + Thai transliteration (translit) for every item, a natural Thai translation for every dialogue line, 1–3 short notes that compare with Thai where useful (tones, measure words like 个 vs ลักษณนาม, question particle 吗 vs ไหม). Neutral friendly tone, no ครับ/ค่ะ in explanations. Meanings of different items must be distinguishable within the course (add a short parenthetical when two items would otherwise share a meaning).
+- l1/th/zh/course.json: course name "ภาษาจีน", stage A/B title + description, every unit's title + goal (can-do statement in Thai).
+- course.json keeps target "zh", voice "zh-CN", reading "pinyin".
+
+## Quality bar
+Accuracy matters more than volume: tones and pinyin must be correct (check each syllable), Thai must read naturally to a Thai adult, and translit should follow common Thai textbook practice (你好 หนี่ห่าว, 谢谢 เซี่ยเซีย). Before finishing, re-read every lesson you wrote end to end as a strict reviewer and fix problems.
+
+## Check
+Run `cd /home/user/Test && npm run validate -- --target zh` until it prints "content OK (zh)". It reports problems for your files only. Do not run `npm run check` or tests (other writers are editing concurrently).
+
+## Final report (keep it short)
+Number of lessons and distinct items, one line per unit (title + items), anything you could not do, and the count of open questions in content/_review/zh.md.

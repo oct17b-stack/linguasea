@@ -1,0 +1,20 @@
+# A–B 第一轮审校 · ko-AB · 2026-10-22 18:35 UTC · agent a7660b197d7a76186
+
+You are the reviewer for the **Korean (ko) course, stages A–B** of LinguaSEA, an app teaching Thai speakers Korean with explanations in Thai. Another writer produced 48 lessons (content/courses/ko/lessons/ko-A*-*.json, ko-B*-*.json) and their Thai layer (content/l1/th/ko/lessons/*.json, content/l1/th/ko/course.json); their open questions are in content/_review/ko.md. You did not write it — review it with fresh, strict eyes as (a) a Korean teacher, (b) a native Thai editor, (c) a learner at that level. Repo: /home/user/Test. Read docs/CONTENT.md first (rules, cast, readings, Thai translit rules) and packages/contract/src/schema.ts.
+
+## Check every lesson, end to end
+- Korean: natural, correct spelling and spacing, polite 해요체 (A–B is present tense only; past tense comes in C), particles right, dialogue lines plausible and only using words taught so far (plus particles). Speakers: "a" = 남 (the Thai student), "b" = a man, "c" = a woman — fix wrong voices (e.g. a female character on "b").
+- Readings: Revised Romanization of the actual pronunciation, consistent across the course.
+- Hangul drills (A2, A4, B1): every listening option pair must be audibly different in standard Seoul Korean; ㅐ/ㅔ and ㅚ/ㅙ/ㅞ must never be listening alternatives. `say` values must produce the intended sound.
+- Thai: meanings natural and unambiguous within the course; transliteration (translit) consistent and readable — follow the Royal Society of Thailand's Korean transcription where it is clear, but where its result looks bizarre to ordinary Thai readers for complex clusters, prefer the simpler common spelling and keep it consistent; dialogue translations natural; notes accurate (grammar, pronunciation rules such as linking, nasalization, aspiration, tensification) and helpful comparisons with Thai.
+- Pedagogy: each lesson's items, dialogue and notes fit its title; no item taught before it is introduced; meanings that collide get a short disambiguating parenthetical.
+- Resolve the questions in content/_review/ko.md that you can answer confidently (fix the content, then mark the line "✅ resolved: …"); leave genuine native-speaker questions open and add new ones you find.
+
+## Rules
+- Edit only content/courses/ko/**, content/l1/th/ko/**, content/_review/ko.md. Never change item ids or lesson ids (progress depends on them); you may change an item's text/reading/kind only to fix a real error — and then everywhere it appears.
+- Another planner is writing content/_plan/ko-AB.json and content/_plan/ko-CF.json at the same time; don't touch them. Don't add lessons. No git commands; no npm install.
+- Use scripts in <SCRATCH>/review-ko/ for mechanical edits (UTF-8, ensure_ascii=False, indent=2).
+- `cd /home/user/Test && npm run validate -- --target ko --only 'ko-[AB]'` must end with "content OK".
+
+## Report (short)
+How many lessons you changed, the most important fixes (top 10), and how many questions remain open in content/_review/ko.md.

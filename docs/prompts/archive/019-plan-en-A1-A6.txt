@@ -1,0 +1,36 @@
+# 大纲规划 · en-A1-A6 · 2026-10-22 18:53 UTC · agent a6842d6752b8596d6
+
+You are the curriculum planner extending the **English (en) course, stages A and B**, of LinguaSEA (an app teaching Thai speakers English; Thai explanations). Repo: /home/user/Test. The whole course must reach about 200 study hours (docs/CONTENT.md §4.1 and §6): every stage has 16 units × 6 lessons, and stage B also has 1 graded reader per unit. Stages A–B currently have units en-A1…en-A6 and en-B1…en-B6 with 4 lessons each (content/courses/en/, Thai layer in content/l1/th/en/; writer notes in content/_review/en.md). Another planner is planning stages C–F in content/_plan/en-CF.json (may still be in progress — read it when it exists and avoid its vocabulary).
+
+Read first: docs/CONTENT.md (all), packages/contract/src/schema.ts, content/courses/en/course.json, all existing en lessons (to know every item already taught), content/l1/th/en/course.json (unit titles) and content/_review/en.md.
+
+**Working note:** never print long word lists copied from an external source in your messages or tool outputs (an API output filter cuts such runs off); keep lists in files, process with scripts, print counts and short samples only.
+
+## Output
+One file you own: /home/user/Test/content/_plan/en-AB.json (touch nothing else; no git; helper scripts in <SCRATCH>/plan-en-ab/). Shape:
+
+```json
+{ "target": "en", "stages": [
+  { "id": "A", "cefr": "pre-A1", "exam": "CEFR pre-A1", "minutes": 6,
+    "units": [
+      { "id": "en-A1", "title_th": "(existing title)", "goal_th": "(existing or new goal)", "scenario": "…",
+        "lessons": [ { "id": "en-A1-05", "topic": "…", "grammar": "…", "items": [ {"id":"…","text":"…","reading":"…","kind":"word"} ] },
+                     { "id": "en-A1-06", … } ] },
+      … units en-A2 … en-A6: only their new lessons 05 and 06 …,
+      { "id": "en-A7", "title_th": "…", "goal_th": "…", "scenario": "…", "lessons": [ 6 lessons en-A7-01 … -06 ] },
+      … up to en-A16 …
+  ] },
+  { "id": "B", "cefr": "A1", "exam": "CEFR A1", "minutes": 7, "readerMinutes": 8,
+    "units": [ units en-B1 … en-B6 with lessons 05, 06 and reader en-Bn-r01; units en-B7 … en-B16 with 6 lessons and reader -r01 ] }
+] }
+```
+
+## Requirements
+- Existing units en-A1…A6 / en-B1…B6 get lessons 05 and 06 that continue their topic (review + extension; A2 sound units: more minimal pairs and word-final sounds; B1: telling the time with half past / quarter / minutes, ordinal numbers and saying dates — the writer noted these are missing). Stage B units all get one reader (-r01, 4–6 sentences, 3–5 glossary items, genre varied: short story, diary, message, notice, menu, sign).
+- New units A7–A16 (pre-A1) and B7–B16 (A1): survival topics not yet covered by A1–A6/B1–B6, e.g. colours & things, clothes, body, house & rooms, classroom & study, simple hobbies, animals, the convenience store/café, phone & messaging, simple health, the calendar & holidays, likes/dislikes, describing people, jobs, simple instructions & signs, the alphabet & spelling your name (A), countries & nationalities beyond Thailand/Canada. Keep A simpler (words, short phrases, present simple of be/have/like) and B at A1 (present simple and continuous, can/can't, there is/are, imperatives, some/any, how much/how many). No two units on the same topic; C–F topics are covered there at a higher level, so keep A–B to survival language.
+- Items: 4–6 per lesson, 3–5 per reader. Each item appears once in the whole course: no repeat of any item in the existing A–B lessons or in en-CF.json (compare text+reading). Ids: en. + word/phrase lowercase with hyphens; check no collision with existing ids.
+- Readings: American IPA with stress marks, no slashes.
+- Before finishing, write and run a checker: counts (A: 6 units×2 + 10 units×6 = 72 lessons; B: 72 lessons + 16 readers), unique ids/text across plan + existing lessons + en-CF.json, id formats, valid JSON. Then run `cd /home/user/Test && npm run dupes -- --target en` and fix anything reported for your plan.
+
+## Report (short)
+New units (titles), item counts, anything uncertain.

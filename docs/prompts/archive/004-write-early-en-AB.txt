@@ -1,0 +1,33 @@
+# A–B 初稿写手（MVP） · en-AB · 2026-10-22 17:24 UTC · agent af5833b037b2deba1
+
+You are writing course content for LinguaSEA, a subscription app that teaches Thai speakers Chinese, English, Japanese and Korean (repo at /home/user/Test). Your job: the complete **English (en) course, stages A and B**, with Thai explanations. Three other writers are doing zh/ja/ko at the same time in the same directory — touch ONLY your own files.
+
+## Read first
+1. /home/user/Test/docs/CONTENT.md — the authoring rules, cast of characters, and the A–B syllabus table. Follow it exactly (it is in Chinese; the Thai layer you write is in Thai).
+2. /home/user/Test/packages/contract/src/schema.ts and exercises.ts — the data format and the standard exercise set.
+3. The existing files content/courses/en/ and content/l1/th/en/ (2 prototype lessons). You may rewrite or replace them; nothing is published yet. en-A1-01 (greetings) can stay as a base; en-B1-01 is currently "numbers 1–5" and must become the first lesson of the B1 unit (time/dates) — numbers belong in A4.
+
+## Files you own (create/overwrite only these)
+- content/courses/en/course.json and content/courses/en/lessons/*.json
+- content/l1/th/en/course.json and content/l1/th/en/lessons/*.json
+- content/_review/en.md (notes for the native-speaker reviewer: anything you are unsure about, format `- [lesson id] item/sentence: question`)
+Do NOT edit anything else (no packages/, app/, other languages, ui.json, docs). Do NOT run git commands that change state (no add/commit/checkout/stash). Put any helper scripts in <SCRATCH>/content-en/ (create it), never in the repo. Writing the JSON with a Python script that holds the data is the efficient way; make sure output is UTF-8 with ensure_ascii=False and indent=2.
+
+## What to produce
+12 units × 4 lessons = 48 lessons: en-A1 … en-A6 (stage A, free, cefr "pre-A1", no exam field or "CEFR pre-A1") and en-B1 … en-B6 (stage B, not free, cefr "A1", exam "CEFR A1"), lesson ids en-A1-01 … en-B6-04, following the en column of the syllabus table:
+A1 greetings & politeness · A2 sounds Thai speakers find hard (lesson 1: th /θ ð/ vs s/t/d; 2: v vs w, f; 3: r vs l; 4: sh vs s/ch, and final consonants such as -s/-z, -t/-d) · A3 introducing yourself · A4 numbers 1–20, age · A5 family · A6 eating & drinking · B1 time, dates, weekdays · B2 shopping, prices · B3 places, asking the way · B4 daily routine (present simple) · B5 weather, feelings · B6 transport, travel.
+- A2 sound lessons: real, common words arranged in minimal pairs (think/sink, three/tree, vest/west, very/wary, right/light, rice/lice, she/see, ship/sip, eyes/ice …), kind "word", 6–8 items per lesson. Use explicit exercises: `listen-text` with `options` = the minimal-pair partner(s), plus `choose-meaning` for each word, plus 1–2 `speak`. Remember: if a lesson has `exercises`, only those run, so list a choice question for every item. Avoid pairs that are homophones in American English. Prefer everyday words; if a pair needs a less common word, say so in the Thai meaning.
+- Vocabulary lessons: normally omit `exercises` (standard set). 4–6 items per lesson, minutes 5–8; use kind "phrase" for whole expressions ("Nice to meet you.", "How much is it?"). Dialogues (2–8 lines, speakers "a" = Nam the Thai student, "b" = the other person per the cast table) use only words taught so far plus basic function words; stage A lines ≤ 8 words, stage B ≤ 12 words. American English.
+- Reading: American IPA without slashes (həˈloʊ), stress marks included.
+- Thai layer for every lesson: natural title, one-sentence intro, meaning + Thai transliteration (translit, common Thai loanword spelling: Hello เฮลโล) for every item, a natural Thai translation for every dialogue line, 1–3 short notes comparing with Thai where useful (final consonants Thai drops or changes, no tense marking in Thai vs -s/-ed, articles a/the, word stress). Neutral friendly tone, no ครับ/ค่ะ in explanations. Meanings of different items must be distinguishable within the course (add a short parenthetical when two items would otherwise share a meaning).
+- l1/th/en/course.json: course name "ภาษาอังกฤษ", stage A/B title + description, every unit's title + goal (can-do statement in Thai).
+- course.json keeps target "en", voice "en-US", reading "IPA".
+
+## Quality bar
+Accuracy matters more than volume: correct IPA, natural English, natural Thai for a Thai adult. Before finishing, re-read every lesson you wrote end to end as a strict reviewer and fix problems.
+
+## Check
+Run `cd /home/user/Test && npm run validate -- --target en` until it prints "content OK (en)". It reports problems for your files only. Do not run `npm run check` or tests (other writers are editing concurrently).
+
+## Final report (keep it short)
+Number of lessons and distinct items, one line per unit (title + items), anything you could not do, and the count of open questions in content/_review/en.md.

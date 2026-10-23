@@ -1,0 +1,30 @@
+# 写课 · zh-F1-F8 · 2026-10-23 02:30 UTC · agent ae122055ad75872a4
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers Mandarin Chinese with explanations in Thai. Repo: /home/user/Test. Your assignment: write every lesson and graded reader of **units zh-F1 … zh-F8 (stage F, CEFR B1+, HSK 4)** of the Chinese course, following the syllabus plan exactly. Other writers are writing the other units of this course at the same time — touch only your own files.
+
+**Working note (important):** an API output filter blocks responses that reproduce long word lists (such as HSK or textbook vocabulary lists); several runs on this course were cut off that way. So never print or retype the plan's item lists: your build script must copy each lesson's items from content/_plan/zh-CF.json by lesson id, and your own data files hold only what you write yourself — dialogues, passages, questions, Thai meanings and transliterations keyed by item id, notes. Work one unit at a time with one small data file per unit, and print only short samples (at most 10 words) and check results. Two more things keep you clear of it: write dialogues and readers that are clearly original — built around our cast's own lives (Nam, Wang Ming, Li laoshi) with concrete Thai/Chinese details — and never reuse or paraphrase dialogues or texts from published textbooks (HSK Standard Course etc.); and never type out pinyin tables or character-to-pinyin mappings — get draft pinyin for your sentences from the helper <SCRATCH>/zh-tools/pinyin_line.py (usage in its docstring), then fix polyphonic characters and names by hand. Write one lesson per tool call and keep your messages short.
+
+Read first: docs/CONTENT.md (all of it: rules, cast and Nam's fixed profile, §4.1 stage targets, §4.4 readers), packages/contract/src/schema.ts, the plan content/_plan/zh-CF.json (for your units: topic, grammar point and the exact items of every lesson and reader — inspect it unit by unit with a script), content/_review/zh.md (Thai transliteration and pinyin conventions the reviewer settled — follow them; never let a transliteration contain ไอ้ — write ài as อ้าย), and a few reviewed lessons for style (content/courses/zh/lessons/zh-B5-0*.json, zh-B6-0*.json and their Thai layer in content/l1/th/zh/lessons/; stage C–E lessons on disk show the storyline so far).
+
+## Files
+Create, for every lesson/reader id in your units: content/courses/zh/lessons/<id>.json and content/l1/th/zh/lessons/<id>.json; plus content/_review/zh-F1-8.md for your open questions (format `- [id] item/sentence: question`). Do not edit course.json files (the structure is already set), other units, the plans or anything else. No git commands, no npm install. Helper scripts go in <SCRATCH>/write-zh-F1-8/ (UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson (…-01 … -06)
+- Target layer: id, target "zh", stage "F", minutes 11, items = the plan's items exactly (same id/text/reading/kind), a dialogue of 8–12 lines (speakers: "a" = 小南 the Thai student Nam, "b" = a man such as 王明, "c" = a woman such as 李老师; other people stay unnamed) that uses the lesson's grammar point and new items and otherwise only vocabulary the learner already knows (stages A–E on disk, plus plan items of stages A–E not yet written and of earlier F units/lessons) and common function words. Use grammar the plan has taught before your lesson (see the grammar fields of earlier lessons) plus the lesson's own point. Omit "exercises" (the standard set is generated).
+- Thai layer: title, one-sentence intro, every item's meaning + translit, one natural Thai translation per dialogue line, 1–3 notes — the first explains the lesson's grammar point with its pattern and an example from the dialogue, comparing with Thai where helpful.
+
+## Each reader (…-r01, -r02)
+- Target layer: kind "reader", stage "F", minutes 15, items = the plan's glossary items, a passage of 14–24 sentences in 3–5 paragraphs (genre and topic per plan) using known vocabulary plus the glossary items, and 3–4 comprehension questions (`answer` = index of the right option).
+- Thai layer: title, intro, glossary meanings + translit, passage translations with exactly the same paragraph/sentence shape, and for each question a Thai prompt with 3–4 Thai options.
+
+## Language notes
+Stage F mixes everyday conversation with formal speech (meetings, interviews) and written Chinese (articles, essays, formal letters) — follow the plan's genres; explain register differences briefly the first time they appear in your units. Readings: Hanyu Pinyin with tone marks, word-segmented, citation tones (不 bù, 一 yī written as citation tones), neutral tone unmarked, as in the plan and the existing lessons; Thai transliterations follow content/_review/zh.md (they may show the spoken 不/一 tone changes). Keep Nam's profile consistent (see docs/CONTENT.md: she is female — Thai translations of her lines use ฉัน, never ผม; Chinese third person 她; family of four with younger sister Fah, parents teachers in Bangkok, birthday 5 June; in stages A–B she studies in Bangkok and works weekends at a restaurant, from stage C she studies in China as the plan's scenarios and the lessons already written describe).
+
+## Quality
+Correct, natural Mandarin at B1+; Thai natural for a Thai adult, neutral tone (no ครับ/ค่ะ in explanations); a transliteration must never spell an awkward or rude Thai word; meanings of different items must be distinguishable (add a short parenthetical; `npm run dupes -- --target zh --meanings` lists shared meanings). If a plan item is wrong (typo, reading, level), fix it in your lesson and note it in your review file — don't edit the plan. Don't invent new items except at most one per lesson when a dialogue truly needs it (check it with `npm run dupes -- --target zh`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target zh --only 'zh-F[1-8]-'` must print "content OK" when you finish (it shows only your units). Then re-read all your lessons end to end as a strict reviewer and fix what you find.
+
+## Report (short)
+Lessons/readers written, notable choices, number of open questions.

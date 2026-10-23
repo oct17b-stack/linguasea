@@ -1,0 +1,34 @@
+# 大纲规划 · ko-A1-A6 · 2026-10-22 18:35 UTC · agent a4ebc957b7f9a1a37
+
+You are the curriculum planner extending the **Korean (ko) course, stages A and B**, of LinguaSEA (an app teaching Thai speakers Korean; Thai explanations). Repo: /home/user/Test. The whole course must reach about 200 study hours (docs/CONTENT.md §4.1 and §6): every stage has 16 units × 6 lessons, and stage B also has 1 graded reader per unit. Stages A–B currently have units ko-A1…ko-A6 and ko-B1…ko-B6 with 4 lessons each (content/courses/ko/, Thai layer in content/l1/th/ko/). Another planner is planning stages C–F in content/_plan/ko-CF.json (may still be in progress — read it when it exists and avoid its vocabulary).
+
+Read first: docs/CONTENT.md (all), packages/contract/src/schema.ts, content/courses/ko/course.json, all existing ko lessons (to know every item already taught) and content/l1/th/ko/course.json (unit titles).
+
+## Output
+One file you own: /home/user/Test/content/_plan/ko-AB.json (touch nothing else; no git; helper scripts in <SCRATCH>/plan-ko-ab/). Same shape as the C–F plans:
+
+```json
+{ "target": "ko", "stages": [
+  { "id": "A", "cefr": "pre-A1", "exam": "TOPIK I", "minutes": 6,
+    "units": [
+      { "id": "ko-A1", "title_th": "(existing title)", "goal_th": "(existing or new goal)", "scenario": "…",
+        "lessons": [ { "id": "ko-A1-05", "topic": "…", "grammar": "…", "items": [ {"id":"…","text":"…","reading":"…","kind":"word"} ] },
+                     { "id": "ko-A1-06", … } ] },
+      … units ko-A2 … ko-A6: only their new lessons 05 and 06 …,
+      { "id": "ko-A7", "title_th": "…", "goal_th": "…", "scenario": "…", "lessons": [ 6 lessons ko-A7-01 … -06 ] },
+      … up to ko-A16 …
+  ] },
+  { "id": "B", "cefr": "A1", "exam": "TOPIK I", "minutes": 7, "readerMinutes": 8,
+    "units": [ units ko-B1 … ko-B6 with lessons 05, 06 and reader ko-Bn-r01; units ko-B7 … ko-B16 with 6 lessons and reader -r01 ] }
+] }
+```
+
+## Requirements
+- Existing units ko-A1…A6 / ko-B1…B6 get lessons 05 and 06 that continue their topic (review + extension: e.g. more greetings and classroom phrases; for hangul units: syllable reading practice and common words using the taught letters). Stage B units all get one reader (-r01, 4–6 sentences, 3–5 glossary items, genre varied: short story, diary, message, notice).
+- New units A7–A16 (pre-A1) and B7–B16 (A1): survival topics a Thai beginner needs that A1–A6/B1–B6 don't cover yet, e.g. colours, clothes, body, house & rooms, classroom & study, hobbies (simple), weather & seasons (simple), animals, directions & transport (basic), the convenience store/café, phone & messaging, health (simple), the calendar & holidays, likes/dislikes, describing people, Korean culture basics (K-pop/drama words). Keep A simpler (words + short phrases, present tense) and B at A1 (short sentences, 해요체, basic particles 이/가, 은/는, 을/를, 에, 에서, 도, 하고; -고 싶어요; -지 않아요/안; numbers with counters). No two units on the same topic; stage C–F topics are covered there at a higher level, so keep A–B to survival language.
+- Items: 4–6 per lesson, 3–5 per reader. Each item appears once in the whole course: it must not repeat any item in the existing A–B lessons or in ko-CF.json (compare text+reading). Ids: ko. + Revised Romanization, lowercase, hyphens between words; check none collides with an existing id.
+- Readings: Revised Romanization of the pronunciation.
+- Before finishing, write and run a checker: counts (A: 6 units×2 + 10 units×6 = 72 lessons; B: 72 lessons + 16 readers), unique ids/text across plan + existing lessons + ko-CF.json, id formats, valid JSON. Then run `cd /home/user/Test && npm run dupes -- --target ko` (it compares content and all plans) and fix anything reported for your plan.
+
+## Report (short)
+New units (titles), item counts, anything uncertain.

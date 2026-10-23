@@ -1,0 +1,33 @@
+# A–B 初稿写手（MVP） · ko-AB · 2026-10-22 17:24 UTC · agent a4022d38b2bfe8fc5
+
+You are writing course content for LinguaSEA, a subscription app that teaches Thai speakers Chinese, English, Japanese and Korean (repo at /home/user/Test). Your job: the complete **Korean (ko) course, stages A and B**, with Thai explanations. Three other writers are doing zh/en/ja at the same time in the same directory — touch ONLY your own files.
+
+## Read first
+1. /home/user/Test/docs/CONTENT.md — the authoring rules, cast of characters, and the A–B syllabus table. Follow it exactly (it is in Chinese; the Thai layer you write is in Thai).
+2. /home/user/Test/packages/contract/src/schema.ts and exercises.ts — the data format and the standard exercise set.
+3. The existing files content/courses/ko/ and content/l1/th/ko/ (2 prototype lessons). You may rewrite or replace them; nothing is published yet. ko-A1-01 (greetings) can stay as a base; ko-B1-01 is currently "numbers 1–5" and must become the first lesson of the B1 unit (batchim & linking) — numbers belong in A5.
+
+## Files you own (create/overwrite only these)
+- content/courses/ko/course.json and content/courses/ko/lessons/*.json
+- content/l1/th/ko/course.json and content/l1/th/ko/lessons/*.json
+- content/_review/ko.md (notes for the native-speaker reviewer: anything you are unsure about, format `- [lesson id] item/sentence: question`)
+Do NOT edit anything else (no packages/, app/, other languages, ui.json, docs). Do NOT run git commands that change state (no add/commit/checkout/stash). Put any helper scripts in <SCRATCH>/content-ko/ (create it), never in the repo. Writing the JSON with a Python script that holds the data is the efficient way; make sure output is UTF-8 with ensure_ascii=False and indent=2.
+
+## What to produce
+12 units × 4 lessons = 48 lessons: ko-A1 … ko-A6 (stage A, free, cefr "pre-A1", exam "TOPIK I") and ko-B1 … ko-B6 (stage B, not free, cefr "A1", exam "TOPIK I"), lesson ids ko-A1-01 … ko-B6-04, following the ko column of the syllabus table:
+A1 greetings & politeness · A2 hangul 1 (basic vowels + ㄱ ㄴ ㄷ ㄹ ㅁ) · A3 introducing yourself · A4 hangul 2 (remaining basic consonants, aspirated ㅋ ㅌ ㅍ ㅊ, tense ㄲ ㄸ ㅃ ㅆ ㅉ, compound vowels) · A5 numbers (Sino-Korean and native), age · A6 eating & drinking · B1 batchim (final consonants) and linking · B2 time, dates, weekdays · B3 shopping, prices · B4 places, transport · B5 daily routine · B6 family, feelings.
+- Hangul lessons: drill with syllables (kind "syllable": 가, 나, 거 …) and vowel letters (kind "letter": ㅏ with `say` "아", reading "a"); do not use bare consonant letters as items (TTS would read the letter's name). Up to 10 items per lesson, plus optionally 1–2 easy words (kind "word") using only taught letters. Meaning in Thai describes the sound (e.g. "เสียง กา", "สระ อา"). Use explicit `listen-text` options for confusable sets — plain/aspirated/tense triples (가/카/까, 다/타/따, 바/파/빠, 자/차/짜, 사/싸) and ㅓ/ㅗ, ㅐ/ㅔ — that's the key listening skill for Thai learners. Remember: if a lesson has `exercises`, only those run, so list a choice question for every item. Explicit `options` on listen-* exercises must never sound the same as the answer (ㅐ/ㅔ are near-identical in modern Seoul speech — use them in choose-meaning, not listen-text).
+- Vocabulary lessons: normally omit `exercises` (standard set). Dialogues (2–8 lines, speakers "a" = 남 the Thai student, "b" = the other person per the cast table) use only words taught so far plus basic particles; stage A lines ≤ 8 words, stage B ≤ 12 words. Use polite 해요체 (and fixed 합니다 expressions like 감사합니다) throughout A–B.
+- Reading: Revised Romanization following actual pronunciation (gamsahamnida, annyeonghaseyo), spaces between words.
+- Thai layer for every lesson: natural title, one-sentence intro, meaning + Thai transliteration (translit, following the Royal Society of Thailand's principles for Korean: 안녕하세요 อันนย็องฮาเซโย) for every item, a natural Thai translation for every dialogue line, 1–3 short notes comparing with Thai where useful (Thai also distinguishes ก/ค/ข-like aspiration — great anchor for 가/카/까; politeness levels vs ครับ/ค่ะ; SOV order; particles). Neutral friendly tone, no ครับ/ค่ะ in explanations. Meanings of different items must be distinguishable within the course (add a short parenthetical when two items would otherwise share a meaning).
+- l1/th/ko/course.json: course name "ภาษาเกาหลี", stage A/B title + description, every unit's title + goal (can-do statement in Thai).
+- course.json keeps target "ko", voice "ko-KR", reading "revised romanization".
+
+## Quality bar
+Accuracy matters more than volume: hangul, romanization, natural Korean, natural Thai for a Thai adult. Before finishing, re-read every lesson you wrote end to end as a strict reviewer and fix problems.
+
+## Check
+Run `cd /home/user/Test && npm run validate -- --target ko` until it prints "content OK (ko)". It reports problems for your files only. Do not run `npm run check` or tests (other writers are editing concurrently).
+
+## Final report (keep it short)
+Number of lessons and distinct items, one line per unit (title + items), anything you could not do, and the count of open questions in content/_review/ko.md.

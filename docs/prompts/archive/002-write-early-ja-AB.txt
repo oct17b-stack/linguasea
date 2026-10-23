@@ -1,0 +1,34 @@
+# A–B 初稿写手（MVP） · ja-AB · 2026-10-22 17:24 UTC · agent a625041493b0c8f9a
+
+You are writing course content for LinguaSEA, a subscription app that teaches Thai speakers Chinese, English, Japanese and Korean (repo at /home/user/Test). Your job: the complete **Japanese (ja) course, stages A and B**, with Thai explanations. Three other writers are doing zh/en/ko at the same time in the same directory — touch ONLY your own files.
+
+## Read first
+1. /home/user/Test/docs/CONTENT.md — the authoring rules, cast of characters, and the A–B syllabus table. Follow it exactly (it is in Chinese; the Thai layer you write is in Thai).
+2. /home/user/Test/packages/contract/src/schema.ts and exercises.ts — the data format and the standard exercise set.
+3. The existing files content/courses/ja/ and content/l1/th/ja/ (2 prototype lessons). You may rewrite or replace them; nothing is published yet. ja-A1-01 (greetings) can stay as a base; ja-B1-01 is currently "numbers 1–5" and must become the first lesson of the B1 unit (hiragana 3) — numbers belong in A5.
+
+## Files you own (create/overwrite only these)
+- content/courses/ja/course.json and content/courses/ja/lessons/*.json
+- content/l1/th/ja/course.json and content/l1/th/ja/lessons/*.json
+- content/_review/ja.md (notes for the native-speaker reviewer: anything you are unsure about, format `- [lesson id] item/sentence: question`)
+Do NOT edit anything else (no packages/, app/, other languages, ui.json, docs). Do NOT run git commands that change state (no add/commit/checkout/stash). Put any helper scripts in <SCRATCH>/content-ja/ (create it), never in the repo. Writing the JSON with a Python script that holds the data is the efficient way; make sure output is UTF-8 with ensure_ascii=False and indent=2.
+
+## What to produce
+12 units × 4 lessons = 48 lessons: ja-A1 … ja-A6 (stage A, free, cefr "pre-A1", exam "JLPT N5") and ja-B1 … ja-B6 (stage B, not free, cefr "A1", exam "JLPT N5"), lesson ids ja-A1-01 … ja-B6-04, following the ja column of the syllabus table:
+A1 greetings & politeness · A2 hiragana 1 (あ か さ た な rows) · A3 introducing yourself · A4 hiragana 2 (は ま や ら わ rows, を, ん) · A5 numbers, age · A6 eating & drinking · B1 hiragana 3 (dakuten/handakuten, small っ, ゃゅょ, long vowels) · B2 katakana (all 46 basic katakana, taught with loanwords) · B3 time, dates, weekdays · B4 shopping, prices · B5 places, transport · B6 daily routine, family.
+- Kana lessons: items kind "letter" for single kana (text あ, reading "a"), up to 12 per lesson, plus optionally 1–2 easy words (kind "word") written only in kana already taught. Meaning in Thai describes the sound (e.g. "เสียง อะ"). Use explicit `listen-text` options for look-alike or confusable kana (さ/ち, ぬ/め, わ/ね/れ, シ/ツ, ソ/ン …) where it helps; otherwise the standard set. Remember: if a lesson has `exercises`, only those run, so list a choice question for every item. Hiragana and katakana with the same sound have the same reading — that is fine (heard-only questions automatically avoid sound-alike answers), but explicit `options` on listen-* exercises must never sound the same as the answer.
+- Stage A uses hiragana only (katakana allowed only for names such as ナム and タイ). Stage B may use a few very common N5 kanji in vocabulary, with romaji reading as usual; mention the kana reading in the Thai meaning or a note.
+- Vocabulary lessons: normally omit `exercises` (standard set). Dialogues (2–8 lines, speakers "a" = ナム the Thai student, "b" = the other person per the cast table) use only words taught so far plus basic particles; stage A lines ≤ 8 words, stage B ≤ 12 words. Use polite です/ます style throughout A–B.
+- Reading: Hepburn romaji with macrons for long vowels (arigatō, sū), particles は/へ/を written wa/e/o, spaces between words.
+- Thai layer for every lesson: natural title, one-sentence intro, meaning + Thai transliteration (translit, following the Royal Society of Thailand's principles for Japanese: こんにちは คนนิจิวะ) for every item, a natural Thai translation for every dialogue line, 1–3 short notes comparing with Thai where useful (politeness levels vs ครับ/ค่ะ, word order SOV vs Thai SVO, particles). Neutral friendly tone, no ครับ/ค่ะ in explanations. Meanings of different items must be distinguishable within the course (add a short parenthetical when two items would otherwise share a meaning, e.g. あ "เสียง อะ (ฮิรางานะ)" vs ア "เสียง อะ (คาตากานะ)").
+- l1/th/ja/course.json: course name "ภาษาญี่ปุ่น", stage A/B title + description, every unit's title + goal (can-do statement in Thai).
+- course.json keeps target "ja", voice "ja-JP", reading "romaji".
+
+## Quality bar
+Accuracy matters more than volume: romaji, kana, natural Japanese, natural Thai for a Thai adult. Before finishing, re-read every lesson you wrote end to end as a strict reviewer and fix problems.
+
+## Check
+Run `cd /home/user/Test && npm run validate -- --target ja` until it prints "content OK (ja)". It reports problems for your files only. Do not run `npm run check` or tests (other writers are editing concurrently).
+
+## Final report (keep it short)
+Number of lessons and distinct items, one line per unit (title + items), anything you could not do, and the count of open questions in content/_review/ja.md.

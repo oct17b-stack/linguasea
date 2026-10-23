@@ -1,0 +1,45 @@
+# 大纲规划 · en-CF · 2026-10-22 18:14 UTC · agent a3ebbfea2cb9d14dc
+
+You are the curriculum planner for the **English (en) course, stages C–F**, of LinguaSEA — a subscription app teaching Thai speakers Chinese/English/Japanese/Korean. Repo: /home/user/Test. Goal of the whole course: about 200 study hours per language (see docs/CONTENT.md §4 and §6). Writers will later write every lesson from your plan in parallel, so the plan must be complete, consistent and free of duplicates.
+
+Read first: /home/user/Test/docs/CONTENT.md (all of it — structure §4.1, C seed topics §4.3, readers §4.4, cast of characters, id rules) and packages/contract/src/schema.ts. Stages A–B (pre-A1/A1) are being written by someone else right now under content/courses/en/ — glance at whatever exists, but do not wait for it: assume A–B teach the core A1 survival vocabulary (greetings, self-introduction, numbers, time, dates, weekdays, family, food & drink, shopping & prices, places & directions, daily routine in the present simple, weather & feelings, transport). Do not plan those again.
+
+## Output
+One file you own: /home/user/Test/content/_plan/en-CF.json (create it; touch nothing else in the repo; no git commands; helper scripts go in <SCRATCH>/plan-en/). Shape:
+
+```json
+{
+  "target": "en",
+  "stages": [
+    { "id": "C", "cefr": "A2", "exam": "CEFR A2", "minutes": 8, "readerMinutes": 10,
+      "units": [
+        { "id": "en-C1",
+          "title_th": "งานอดิเรก", "goal_th": "เล่าเรื่องงานอดิเรกและบอกสิ่งที่ทำได้",
+          "scenario": "English, 1–2 sentences: the role-play the AI tutor plays for this unit (who B is, what Nam must achieve)",
+          "lessons": [
+            { "id": "en-C1-01", "topic": "what the lesson is about",
+              "grammar": "one grammar point with a pattern, e.g. like + -ing",
+              "items": [ { "id": "en.hobby", "text": "hobby", "reading": "ˈhɑːbi", "kind": "word" } ] },
+            … 6 lessons en-C1-01 … en-C1-06 …,
+            { "id": "en-C1-r01", "kind": "reader", "genre": "story|diary|message|email|notice|dialogue-text|profile|article",
+              "topic": "what the text is about", "items": [ 3–5 glossary items ] },
+            { "id": "en-C1-r02", … }
+          ] }
+      ] }
+  ]
+}
+```
+
+## Requirements
+- Stages: C = A2 (lesson minutes 8, readers 10, reader 6–10 sentences); D = A2+ (9 / 12, 8–14 sentences); E = B1 (10 / 14, 10–18 sentences); F = B1+ (11 / 15, 14–24 sentences); exam field "CEFR A2", "CEFR A2+", "CEFR B1", "CEFR B1+". Put minutes in the stage object as shown.
+- Every stage: exactly 16 units (en-C1 … en-C16), each with exactly 6 lessons (…-01 … -06) followed by 2 readers (…-r01, -r02). That is 64 units, 384 lessons, 128 readers.
+- Unit topics: cover what a Thai adult needs at each level (C1–C6 as in §4.3, then e.g. seasons & weather, clothes, renting a room, the bank/post office, sports, holidays & festivals (Songkran, Christmas), invitations, cooking, the internet, jobs; D–F progressively: travel problems, the workplace and emails, environment, technology, education, careers and interviews, culture & manners, media & news, health habits, relationships, money, Thai–English-speaking world comparisons, opinions and arguments, anecdotes, formal letters, etc.). No two units on the same topic.
+- Items: 4–6 per lesson (kind "word" or "phrase"; collocations and useful chunks are welcome as phrases), 3–5 per reader. Use the English Vocabulary Profile / Oxford 3000 for A2–B1 as the guide. Target new items: C ≈ 500, D ≈ 600, E ≈ 650, F ≈ 600 (≈ 2,350). Each item appears once in the whole plan (unique id AND unique text+reading); skip the A1 survival words A–B teach. Homographs with different meanings (e.g. "light" adjective vs noun): plan only one, or give different text such as a phrase.
+- Reading: American IPA without slashes, with stress marks (ˈhɑːbi). American spelling.
+- Grammar: each lesson a grammar point in a sensible order (C: past simple regular/irregular, going to, will, comparatives/superlatives, can/could, should, have to, countable/uncountable, present continuous for plans; D: present perfect (ever/never, for/since), past continuous, first conditional, too/enough, used to, relative clauses who/which/that, gerunds vs infinitives; E–F: second conditional, passive (present/past), reported speech, present perfect continuous, modals of deduction, third conditional basics, phrasal verbs, linking words for opinions, etc.). Do not repeat a grammar point except as a deliberate review lesson (mark "review" in topic).
+- Ids: en. + the word or phrase in lowercase with hyphens (en.hobby, en.take-up); add a short suffix only for real clashes.
+- Characters from the cast table only (Nam the Thai student, Emma, Mr. Brown) plus unnamed passers-by.
+- Before finishing, write and run a checker script: counts per stage/unit/lesson, unique ids, unique text+reading, ids match ^en\.[a-z0-9-]+$, lesson ids match the unit, valid JSON. Fix everything it finds. Then read the plan end-to-end as a strict CEFR teacher and fix level mistakes and IPA errors.
+
+## Report (short)
+Item counts per stage, list of the 64 unit titles (Thai) one line each, anything uncertain.

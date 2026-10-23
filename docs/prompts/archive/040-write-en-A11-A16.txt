@@ -1,0 +1,21 @@
+# 写课 · en-A11-A16 · 2026-10-22 20:27 UTC · agent a58fbbc2271af56c9
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers English with explanations in Thai. Repo: /home/user/Test. Your assignment (stage A, pre-A1, free stage): write **all lessons of units en-A11 … en-A16** of the English course, following the syllabus plan content/_plan/en-AB.json exactly. Other writers are writing other units of this course at the same time — touch only your own files.
+
+Read first: docs/CONTENT.md (all: rules, cast and Nam's fixed profile, §4.1 stage targets), packages/contract/src/schema.ts and exercises.ts, the plan content/_plan/en-AB.json (your lessons: topic, grammar/notes field and exact items), content/_review/en.md (the reviewer's conventions: IPA style, Thai transliteration of "th" with ธ, etc. — follow them), and the existing reviewed lessons of units en-A1 … en-A6 (content/courses/en/lessons/en-A*-0[1-4].json and their Thai layer) for style. Units A7–A10 are being written right now by another writer (their items are in the plan; use them as known vocabulary).
+
+## Files
+Create, for each of your lesson ids: content/courses/en/lessons/<id>.json and content/l1/th/en/lessons/<id>.json; plus content/_review/en-A-part2.md for open questions. Don't edit course.json files (structure already set), other lessons, plans, or anything else. No git; no npm install. Helper scripts in <SCRATCH>/write-en-A2/ (UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson
+- Target layer: id, target "en", stage "A", minutes 6, items = the plan's items exactly (same id/text/reading/kind). Omit "exercises" (the standard set is generated). Dialogues: at most 4 lines (speakers "a" = Nam, "b" = a man such as Mr. Brown, "c" = a woman such as Emma), using only vocabulary taught so far in course order (A1–A10: lessons on disk plus the plan's items) plus this lesson's items. **Units A7–A16 come before B1–B6**, so B vocabulary is not available in your dialogues. Present simple of be/have/like and the other simple patterns the plan's grammar fields introduce only.
+- Thai layer: title, one-sentence intro, every item's meaning + translit, dialogue translations, 1–3 short notes comparing with Thai where helpful.
+
+## Quality
+Correct, natural American English; IPA per conventions; Thai natural, neutral tone; a transliteration must never spell an awkward or rude Thai word; meanings distinguishable within the course. If a plan item is wrong, fix it in your lesson and note it in your review file (don't edit the plan); no new items except at most one per lesson if truly needed (check with `npm run dupes -- --target en`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target en --only 'en-A1[1-6]-'` must print "content OK". Re-read your lessons as a strict reviewer before finishing.
+
+## Report (short)
+Lessons written, notable choices, open questions count.

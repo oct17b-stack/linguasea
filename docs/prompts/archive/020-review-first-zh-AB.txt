@@ -1,0 +1,20 @@
+# A–B 第一轮审校 · zh-AB · 2026-10-22 19:20 UTC · agent aa8f0f1cb533918bc
+
+You are the reviewer for the **Chinese (zh) course, stages A–B** of LinguaSEA, an app teaching Thai speakers Mandarin Chinese with explanations in Thai. Another writer produced 48 lessons (content/courses/zh/lessons/zh-A*-*.json, zh-B*-*.json) and their Thai layer (content/l1/th/zh/lessons/*.json, content/l1/th/zh/course.json); their open questions are in content/_review/zh.md. You did not write it — review it with fresh, strict eyes as (a) a Chinese teacher for Thai learners, (b) a native Thai editor, (c) a learner at that level. Repo: /home/user/Test. Read docs/CONTENT.md first (rules, the fixed cast and Nam's profile, readings, Thai translit rules) and packages/contract/src/schema.ts.
+
+## Check every lesson, end to end
+- Chinese: natural Mandarin (simplified characters), correct measure words, word order and particles; dialogues plausible and only using words taught so far (plus function words). Speakers: "a" = 小南 (the Thai student), "b" = a man (王明), "c" = a woman (李老师) — fix wrong voices. Nam's profile (family of four, younger sister Fah 17, parents both teachers in Bangkok, birthday 6月5号) must not be contradicted.
+- Pinyin: Hanyu Pinyin with citation tones, correct tone marks on the right vowel, neutral tones unmarked where standard (e.g. 前面 qiánmian vs qiánmiàn — follow 《现代汉语词典》 and keep one convention), word segmentation consistent (中国人 Zhōngguó rén vs Zhōngguórén — pick one convention and apply it everywhere), proper nouns capitalised.
+- Pinyin drills (A2): every `say` character's standard isolated reading has exactly the item's syllable and tone; listening options are audibly different; explicit exercise lists cover every item.
+- Thai: meanings natural and unambiguous within the course; transliteration consistent — follow common Thai textbook practice (你好 หนี่ห่าว, 谢谢 เซี่ยเซีย); decide and document (top of content/_review/zh.md) whether translit shows tone sandhi of 不/一 and third tones, and apply it consistently; never let a transliteration spell an awkward or rude Thai word. Dialogue translations natural; notes accurate (tones vs Thai tones, measure words vs ลักษณนาม, 吗 vs ไหม, sandhi) and helpful.
+- Pedagogy: items, dialogue and notes fit each lesson's title; nothing used before it is taught; colliding meanings get a short parenthetical.
+- Resolve the questions in content/_review/zh.md that you can answer confidently (fix the content, mark the line "✅ resolved: …"); leave genuine native-speaker questions open and add new ones.
+
+## Rules
+- Edit only content/courses/zh/**, content/l1/th/zh/**, content/_review/zh.md. Never change item ids or lesson ids; change an item's text/reading/kind only to fix a real error — and then everywhere it appears. Keep zh-A1-01, zh-B1-01 and items zh.ni-hao (tests use them).
+- Others are writing content/_plan/zh-*.json at the same time; don't touch them. Don't add lessons. No git; no npm install.
+- Mechanical edits via scripts in <SCRATCH>/review-zh/ (UTF-8, ensure_ascii=False, indent=2). The writer's generator is in <SCRATCH>/content-zh/ — you may use its checks, but edit the JSON files (not the generator).
+- `cd /home/user/Test && npm run validate -- --target zh --only 'zh-[AB]'` must end with "content OK".
+
+## Report (short)
+How many lessons you changed, the most important fixes (top 10), how many questions remain open.

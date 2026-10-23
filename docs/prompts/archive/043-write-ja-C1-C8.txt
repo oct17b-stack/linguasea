@@ -1,0 +1,28 @@
+# 写课 · ja-C1-C8 · 2026-10-22 20:29 UTC · agent a8d65e545e28742d8
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers Japanese with explanations in Thai. Repo: /home/user/Test. Your assignment: write every lesson and graded reader of **units ja-C1 … ja-C8 (stage C, CEFR A2, JLPT N4, first half)** of the Japanese course, following the syllabus plan exactly. Other writers are writing the other units of this course at the same time — touch only your own files.
+
+Read first: docs/CONTENT.md (all of it: rules, cast and Nam's fixed profile, §4.1 stage targets, §4.4 readers), packages/contract/src/schema.ts, the plan content/_plan/ja-CF.json (for your units: topic, grammar point and the exact items of every lesson and reader), content/_review/ja.md (Thai transliteration and romaji conventions the reviewer settled — follow them), and a few reviewed lessons for style (content/courses/ja/lessons/ja-B5-0*.json, ja-B6-0*.json and their Thai layer in content/l1/th/ja/lessons/).
+
+## Files
+Create, for every lesson/reader id in your units: content/courses/ja/lessons/<id>.json and content/l1/th/ja/lessons/<id>.json; plus content/_review/ja-C1-8.md for your open questions (format `- [id] item/sentence: question`). Do not edit course.json files (the structure is already set), other units, the plans or anything else. No git commands, no npm install. Helper scripts go in <SCRATCH>/write-ja-C1-8/ (writing JSON from a Python script that holds the data is efficient; UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson (…-01 … -06)
+- Target layer: id, target "ja", stage "C", minutes 8, items = the plan's items exactly (same id/text/reading/kind), a dialogue of 6–8 lines (speakers: "a" = ナム the Thai student, "b" = a man such as やまだせんせい, "c" = a woman such as ゆき) that uses the lesson's grammar point and new items and otherwise only vocabulary the learner already knows (everything in stages A–B on disk plus the plan content/_plan/ja-AB.json, whose new A–B lessons are being written right now, plus plan items of earlier C units/lessons) and common function words/particles. Use grammar the plan has taught before your lesson (see the grammar fields of earlier lessons) plus the lesson's own point. Omit "exercises" (the standard set is generated).
+- Thai layer: title, one-sentence intro, every item's meaning + translit, one natural Thai translation per dialogue line, 1–3 notes — the first explains the lesson's grammar point with its pattern and an example from the dialogue, comparing with Thai where helpful.
+
+## Each reader (…-r01, -r02)
+- Target layer: kind "reader", stage "C", minutes 10, items = the plan's glossary items, a passage of 6–10 sentences in 1–3 paragraphs (genre and topic per plan) using known vocabulary plus the glossary items, and 2–4 comprehension questions (`answer` = index of the right option).
+- Thai layer: title, intro, glossary meanings + translit, passage translations with exactly the same paragraph/sentence shape, and for each question a Thai prompt with 3–4 Thai options.
+
+## Language notes
+Dialogues in です/ます style, except where the plan's grammar teaches plain forms: the dictionary form and other plain forms appear in the lessons that teach them, and from C7 (casual speech) Nam and Yuki may talk in plain style as friends; teachers, staff and strangers stay polite. Readers in です/ます (a diary or message after C7 may be plain — say so in a note the first time). Script: write every item exactly as the plan writes it; in dialogues and readers use kanji only for N5–N4 words the course has already taught in kanji (the plan's item texts show which), kana for everything else; keep the spaces between phrases (分かち書き) as in the A–B lessons. Readings: Hepburn romaji with macrons per content/_review/ja.md. Keep Nam's profile consistent (family of four with younger sister Fah, parents teachers in Bangkok, birthday 5 June, weekend part-time job at a restaurant).
+
+## Quality
+Correct, natural Japanese at A2; Thai natural for a Thai adult, neutral tone (no ครับ/ค่ะ in explanations); a transliteration must never spell an awkward or rude Thai word; meanings of different items must be distinguishable (add a short parenthetical). If a plan item is wrong (typo, reading, level), fix it in your lesson and note it in your review file — don't edit the plan. Don't invent new items except at most one per lesson when a dialogue truly needs it (check it with `npm run dupes -- --target ja`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target ja --only 'ja-C[1-8]-'` must print "content OK" when you finish (it shows only your units). Then re-read all your lessons end to end as a strict reviewer and fix what you find.
+
+## Report (short)
+Lessons/readers written, notable choices, number of open questions.

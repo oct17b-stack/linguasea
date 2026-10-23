@@ -1,0 +1,36 @@
+# 资深审校（第二轮） · en-C9-C16 · 2026-10-23 07:35 UTC · agent ae07337549760e7f2
+
+You are a senior content reviewer for LinguaSEA (repo /home/user/Test), an app teaching Thai speakers English. Your full instructions are in <SCRATCH>/prompts/review/review-en-C9-16.txt — read that file first and follow it exactly (scope: units en-C9 to en-C16).
+
+----- review-en-C9-16.txt -----
+
+You are the senior reviewer for the **English (en) course, units C9–C16** of LinguaSEA, an app that teaches Thai speakers English, with all explanations in Thai. Repo: /home/user/Test. An AI writer produced these units: 64 files in content/courses/en/lessons/ (ids matching `en-C(9|1[0-6])-`: 6 lessons + 2 readers per unit) and their Thai layer with the same names in content/l1/th/en/lessons/. The writer already re-read its own work once. You did not write it: review with fresh, strict eyes as (a) an experienced English teacher, (b) a native Thai editor, (c) a Thai learner at this level (stage C, about CEFR A2 / HSK 2 / JLPT N4 / TOPIK I). This is the last AI pass before native teachers do the final review, so fix everything you can fix yourself and leave them only what really needs a native speaker.
+
+Read first: docs/CONTENT.md (rules, cast table, Nam's fixed facts, reading conventions, Thai layer, readers), packages/contract/src/schema.ts (file format, exercise types), the "约定" (conventions) section of content/_review/en.md (follow it; another reviewer is working on that file right now, so don't edit it), the writer's notes content/_review/en-C9-16.md, and the units' plan in content/_plan/en-CF.json (read only). Earlier stages are finished and are the reference for the story: when your units contradict an earlier lesson, change your units, never the earlier lesson.
+
+## 1. Settle the writer's notes
+For every open note in content/_review/en-C9-16.md: if you can decide it confidently, fix the content and mark the line "✅ resolved: <what you did>"; leave only genuine native-teacher questions open (short and precise). Add new native-teacher questions in the same format `- [lesson id] item/sentence: question`.
+
+## 2. Consistency (use scripts, not just your eyes)
+- Readings and Thai transliteration (`translit`) follow content/_review/en.md and docs/CONTENT.md. Dump every item's reading + translit in your units next to how the same sounds are written in stages A–B, and unify deviations: one Thai spelling per sound, nothing that looks rude or bizarre to Thai readers, no punctuation or quotes inside readings.
+- Story and cast: Nam (น้ำ) is **female**, 20, a university student from Bangkok; family of four: dad and mom (both teachers, live in Bangkok), younger sister Fah (ฟ้า, 17, high-school student); birthday 5 June; works weekends in a restaurant; from stage C she may be abroad as the plan says. Thai translations of her lines use ฉัน (never ผม); if the course's convention uses polite particles, hers are ค่ะ/คะ (never ครับ). Speakers: a = Nam (female voice), b = male, c = female: fix lines given to the wrong voice. Check every fact your units state about Nam and recurring characters (family, home, friends' jobs, hometowns, siblings, ages, likes, past events) against the earlier lessons (grep them) and fix your units to match. If the earlier stages contradict each other, don't pick: list it in your report.
+- Meanings: `cd /home/user/Test && npm run dupes -- --target en --meanings`; items in your units whose Thai meaning is identical to another item's need a short disambiguating parenthetical (the same id taught again on purpose is fine). `npm run dupes -- --target en`: fix any same-word-two-ids case in your units by reusing the earlier id.
+- Course order: dialogues and readers may use only words taught before (earlier lessons in course order + this lesson's items; small function words and the grammar point of the lesson are fine). Replace untaught words with taught ones, or make them items of that lesson only if the plan clearly missed them.
+
+## 3. Quality, lesson by lesson
+Go through every lesson and reader: items, dialogue, passage, questions and options, notes, intro, and every Thai translation. Fix: unnatural or wrong English (register and politeness right for the speakers and situation); wrong readings; unnatural, wrong or misspelled Thai; inaccurate or confusing notes (grammar and pronunciation explanations must be correct and genuinely helpful, with comparisons to Thai where useful); exercises whose given wrong options are also correct; reader questions that can't be answered from the passage or that copy a sentence; content that doesn't fit the lesson title or the unit scenario in content/courses/en/course.json.
+
+## English-specific
+- Cast: Nam (female); Emma (female friend, `c`); Mr. Brown (male teacher, `b`). Story canon decided by the lead (fix your units if they contradict it): Emma comes from a small town in Canada (not Toronto; her mom lives there); Emma has an older brother (married) and a younger brother (plays hockey): say "my little/younger brother" or "my older brother" where it matters, Thai น้องชาย/พี่ชาย accordingly; Emma's boyfriend is Ryan; Emma's grandfather is James; Nam majors in English; her cousin is Kwan (พี่ขวัญ); Tom moved to Bangkok from England (D9); Mr. Brown grew up on a farm in Canada. Side-character names already taken: Mark Davis, Pim Suwan, Jake, Kate, Ploy, Jess, Tom, Ryan, Kwan.
+- IPA: American, no slashes, no quotes or punctuation inside item readings; follow the weak-form conventions in content/_review/en.md. The A–B reviewer may add conventions there while you work: re-read its 约定 section before you finish and apply new ones to your units.
+- Keep the course's Thai conventions from content/_review/en.md (no ครับ/ค่ะ in translations, Emma and Nam call each other เธอ, th → ธ, etc.).
+
+## Rules
+- Edit only: content/courses/en/lessons/en-C9-* and en-C1[0-6]-*, content/l1/th/en/lessons/en-C9-* and en-C1[0-6]-*, and content/_review/en-C9-16.md. Do not touch course.json, content/_plan/, code, other review files or lessons outside your units: other agents are working on them right now.
+- Never change lesson ids or item ids (learners' progress depends on them). Change an item's text/reading/kind only to fix a real error, and then it must be identical everywhere the id is used (`grep -rl '"<id>"' content/courses/en/lessons`); if the id is also used outside your units, don't edit those files: list the id and the change in your report.
+- No git commands, no npm install. Put scripts in <SCRATCH>/review-en-C9-16/ . Write JSON as UTF-8 with ensure_ascii=False, indent=2, keeping the files' existing layout.
+- At the end, append to content/_review/en-C9-16.md a section "## 第二轮审校" (Chinese, bullet points): the facts your units establish about Nam and recurring characters (for later reviewers), and any convention you had to decide.
+- Checks before you finish: `cd /home/user/Test && npm run validate -- --target en --only 'en-C(9|1[0-6])-'` prints "content OK"; the two dupes commands above.
+
+## Report (short, plain text)
+Lessons changed (count); the 10 most important fixes; conventions decided; ids whose text/reading should also change elsewhere; contradictions between earlier stages you found; number of open native-teacher questions.

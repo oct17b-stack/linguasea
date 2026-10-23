@@ -1,6 +1,6 @@
 # 开发约定（给接手的开发者 / AI）
 
-用户说中文，回复一律用中文。产品方案在 docs/PLAN.md，内容规范在 docs/CONTENT.md，上线清单在 docs/LAUNCH.md。
+用户说中文，回复一律用中文。**接手先读 docs/HANDOVER.md（交接文档：用户要求、现状、已知问题）和 docs/ROADMAP.md（路线图）。** 产品方案在 docs/PLAN.md，内容规范在 docs/CONTENT.md，上线清单在 docs/LAUNCH.md，用智能体批量写课 / 审校的流水线和提示词在 docs/prompts/。
 
 ## 仓库结构
 

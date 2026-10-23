@@ -1,0 +1,44 @@
+# 大纲规划 · zh-CF · 2026-10-22 18:14 UTC · agent a77cf3e2c954b06ac
+
+You are the curriculum planner for the **Chinese (zh) course, stages C–F**, of LinguaSEA — a subscription app teaching Thai speakers Chinese/English/Japanese/Korean. Repo: /home/user/Test. Goal of the whole course: about 200 study hours per language (see docs/CONTENT.md §4 and §6). Writers will later write every lesson from your plan in parallel, so the plan must be complete, consistent and free of duplicates.
+
+Read first: /home/user/Test/docs/CONTENT.md (all of it — structure §4.1, C seed topics §4.3, readers §4.4, cast of characters, id rules) and packages/contract/src/schema.ts. Stages A–B (pre-A1/A1, HSK 1) are being written by someone else right now under content/courses/zh/ — glance at whatever exists, but do not wait for it: assume A–B teach the HSK 1 core vocabulary (≈ 500 words of the HSK 3.0 level-1 list / the old 150-word HSK 1 list plus everyday survival words: greetings, pronouns, numbers, time, dates, family, food & drink, shopping & prices, places & directions, daily routine, weather & feelings, transport). Do not plan those again.
+
+## Output
+One file you own: /home/user/Test/content/_plan/zh-CF.json (create it; touch nothing else in the repo; no git commands; helper scripts go in <SCRATCH>/plan-zh/). Shape:
+
+```json
+{
+  "target": "zh",
+  "stages": [
+    { "id": "C", "cefr": "A2", "exam": "HSK 2", "minutes": 8, "readerMinutes": 10,
+      "units": [
+        { "id": "zh-C1",
+          "title_th": "งานอดิเรก", "goal_th": "เล่าเรื่องงานอดิเรกและชวนเพื่อนทำกิจกรรมได้",
+          "scenario": "English, 1–2 sentences: the role-play the AI tutor plays for this unit (who B is, what Nam must achieve)",
+          "lessons": [
+            { "id": "zh-C1-01", "topic": "English: what the lesson is about",
+              "grammar": "one grammar point with a pattern, e.g. 喜欢 + V",
+              "items": [ { "id": "zh.xi-huan", "text": "喜欢", "reading": "xǐhuan", "kind": "word" } ] },
+            … 6 lessons zh-C1-01 … zh-C1-06 …,
+            { "id": "zh-C1-r01", "kind": "reader", "genre": "story|diary|message|email|notice|dialogue-text|profile|article",
+              "topic": "English: what the text is about", "items": [ 3–5 glossary items ] },
+            { "id": "zh-C1-r02", … }
+          ] }
+      ] }
+  ]
+}
+```
+
+## Requirements
+- Stages and exams: C = A2 / HSK 2 (lesson minutes 8, readers 10, reader 6–10 sentences); D = A2+ / HSK 3 (9 / 12, 8–14 sentences); E = B1 / HSK 3–4 (10 / 14, 10–18 sentences); F = B1+ / HSK 4 (11 / 15, 14–24 sentences). Put minutes in the stage object as shown.
+- Every stage: exactly 16 units (zh-C1 … zh-C16), each with exactly 6 lessons (…-01 … -06) followed by 2 readers (…-r01, -r02). That is 64 units, 384 lessons, 128 readers.
+- Unit topics: cover what a Thai adult needs at each CEFR level (C: hobbies, health/doctor, school & work, phone & appointments, comparing, past experiences — use §4.3 for C1–C6 —, then e.g. weather & seasons, clothes, renting a room, the post office/bank, sports, holidays & festivals, invitations, directions in a city, cooking, the internet; D–F progressively: travel problems, environment, technology, education, work & careers, culture & customs, media & news, health habits, relationships, money & consumer issues, Thai–Chinese comparisons, opinions and arguments, stories and anecdotes, formal letters, etc.). No two units on the same topic; vary everyday, social, study/work and "public" domains.
+- Items: 4–6 per lesson (phrases count; kind "word" or "phrase"), 3–5 per reader. Draw from the HSK 2–4 lists (HSK 3.0 levels 2–4 where you know them), plus genuinely useful everyday words for Thai learners (e.g. Thai-related: 泰国菜, 泼水节). Target new items: C ≈ 500, D ≈ 600, E ≈ 650, F ≈ 600 (≈ 2,350 total). Each item appears once in the whole plan (unique id AND unique text+reading); do not plan HSK-1 survival words that A–B already teach.
+- Grammar: each lesson a grammar point in a sensible HSK order (C: 了/过/在/着 basics, 比, 吧, 要/想/会/能, 因为…所以…; D: 把, 被, complements of result/direction/degree, 一边…一边…, 越来越; E–F: 虽然…但是…, 如果…就…, 不但…而且…, 除了…以外, 连…都, 是…的, 既…又…, 尽管, 只要/只有…才…, etc.). Do not repeat a grammar point except as a deliberate review lesson (mark "review" in topic).
+- Ids: lowercase toneless pinyin with hyphens between syllables (zh.xi-huan, zh.da-lan-qiu); add a suffix only for real clashes (zh.hui-meeting vs zh.hui-can is ugly — prefer zh.hui-yi / zh.hui). Readings: Hanyu Pinyin with tone marks, word-segmented, neutral tone unmarked, citation tones.
+- Characters from the cast table only (小南 the Thai student, 王明, 李老师) plus unnamed passers-by.
+- Before finishing, write and run a checker script: counts per stage/unit/lesson, unique ids, unique text+reading, every id matches ^zh\.[a-z0-9-]+$, lesson ids match the unit, valid JSON. Fix everything it finds. Then read the plan once end-to-end as a strict HSK teacher and fix level mistakes (e.g. an HSK 5 word in stage C) and pinyin/tone errors.
+
+## Report (short)
+Item counts per stage, list of the 64 unit titles (Thai) in one line each, anything uncertain.

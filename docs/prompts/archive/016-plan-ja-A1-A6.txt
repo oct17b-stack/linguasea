@@ -1,0 +1,34 @@
+# 大纲规划 · ja-A1-A6 · 2026-10-22 18:42 UTC · agent a6c665afab1e90eb3
+
+You are the curriculum planner extending the **Japanese (ja) course, stages A and B**, of LinguaSEA (an app teaching Thai speakers Japanese; Thai explanations). Repo: /home/user/Test. The whole course must reach about 200 study hours (docs/CONTENT.md §4.1 and §6): every stage has 16 units × 6 lessons, and stage B also has 1 graded reader per unit. Stages A–B currently have units ja-A1…ja-A6 and ja-B1…ja-B6 with 4 lessons each (content/courses/ja/, Thai layer in content/l1/th/ja/). Another planner is planning stages C–F in content/_plan/ja-CF.json (may still be in progress — read it when it exists and avoid its vocabulary).
+
+Read first: docs/CONTENT.md (all), packages/contract/src/schema.ts, content/courses/ja/course.json, all existing ja lessons (to know every item already taught) and content/l1/th/ja/course.json (unit titles).
+
+## Output
+One file you own: /home/user/Test/content/_plan/ja-AB.json (touch nothing else; no git; helper scripts in <SCRATCH>/plan-ja-ab/). Shape:
+
+```json
+{ "target": "ja", "stages": [
+  { "id": "A", "cefr": "pre-A1", "exam": "JLPT N5", "minutes": 6,
+    "units": [
+      { "id": "ja-A1", "title_th": "(existing title)", "goal_th": "(existing or new goal)", "scenario": "…",
+        "lessons": [ { "id": "ja-A1-05", "topic": "…", "grammar": "…", "items": [ {"id":"…","text":"…","reading":"…","kind":"word"} ] },
+                     { "id": "ja-A1-06", … } ] },
+      … units ja-A2 … ja-A6: only their new lessons 05 and 06 …,
+      { "id": "ja-A7", "title_th": "…", "goal_th": "…", "scenario": "…", "lessons": [ 6 lessons ja-A7-01 … -06 ] },
+      … up to ja-A16 …
+  ] },
+  { "id": "B", "cefr": "A1", "exam": "JLPT N5", "minutes": 7, "readerMinutes": 8,
+    "units": [ units ja-B1 … ja-B6 with lessons 05, 06 and reader ja-Bn-r01; units ja-B7 … ja-B16 with 6 lessons and reader -r01 ] }
+] }
+```
+
+## Requirements
+- Existing units ja-A1…A6 / ja-B1…B6 get lessons 05 and 06 that continue their topic (review + extension; for kana units: reading practice with common words using the taught kana). Stage B units all get one reader (-r01, 4–6 sentences, 3–5 glossary items, genre varied: short story, diary, message, notice).
+- New units A7–A16 (pre-A1, hiragana only except names) and B7–B16 (A1, a few N5 kanji): survival topics not yet covered by A1–A6/B1–B6, e.g. colours, clothes, body, house & rooms, classroom & study, simple hobbies, weather & seasons, animals, the convenience store/café, phone & messaging, simple health, the calendar & holidays, likes/dislikes (すき/きらい), describing people (adjectives), Japanese culture basics (anime, onsen, matsuri words). Keep A simpler (words, short phrases, present tense) and B at A1 (です/ます, ません, ました introduced late in B if needed, basic particles は が を に で へ と も, 〜たい, counters). No two units on the same topic; stage C–F topics are covered there at a higher level, so keep A–B to survival language.
+- Items: 4–6 per lesson, 3–5 per reader. Each item appears once in the whole course: no repeat of any item in the existing A–B lessons or in ja-CF.json (compare text+reading). Ids: ja. + romaji without macrons (long vowels as ou/uu), lowercase, hyphens between words; check no collision with existing ids.
+- Readings: Hepburn romaji with macrons, particles wa/e/o.
+- Before finishing, write and run a checker: counts (A: 6 units×2 + 10 units×6 = 72 lessons; B: 72 lessons + 16 readers), unique ids/text across plan + existing lessons + ja-CF.json, id formats, valid JSON. Then run `cd /home/user/Test && npm run dupes -- --target ja` and fix anything reported for your plan.
+
+## Report (short)
+New units (titles), item counts, anything uncertain.

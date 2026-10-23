@@ -1,0 +1,34 @@
+You are the curriculum planner extending the **Chinese (zh) course, stages A and B**, of LinguaSEA (an app teaching Thai speakers Mandarin; Thai explanations). Repo: /home/user/Test. The whole course must reach about 200 study hours (docs/CONTENT.md §4.1 and §6): every stage has 16 units × 6 lessons, and stage B also has 1 graded reader per unit. Stages A–B currently have units zh-A1…zh-A6 and zh-B1…zh-B6 with 4 lessons each (content/courses/zh/, Thai layer in content/l1/th/zh/, writer notes in content/_review/zh.md). Another planner is planning stages C–F in content/_plan/zh-CF.json (may still be in progress — read it when it exists and avoid its vocabulary).
+
+Read first: docs/CONTENT.md (all, incl. the fixed cast and Nam's profile), packages/contract/src/schema.ts, content/courses/zh/course.json, all existing zh lessons (to know every item already taught) and content/l1/th/zh/course.json (unit titles).
+
+**Working note:** never print long word lists copied from an external source (e.g. HSK lists) in your messages or tool outputs — an API output filter cuts such runs off. Keep lists in files, process with scripts, print counts and short samples (≤ 20 words) only.
+
+## Output
+One file you own: /home/user/Test/content/_plan/zh-AB.json (touch nothing else; no git; helper scripts in <SCRATCH>/plan-zh-ab/). Shape:
+
+```json
+{ "target": "zh", "stages": [
+  { "id": "A", "cefr": "pre-A1", "exam": "HSK 1", "minutes": 6,
+    "units": [
+      { "id": "zh-A1", "title_th": "(existing title)", "goal_th": "(existing or new goal)", "scenario": "…",
+        "lessons": [ { "id": "zh-A1-05", "topic": "…", "grammar": "…", "items": [ {"id":"…","text":"…","reading":"…","kind":"word"} ] },
+                     { "id": "zh-A1-06", … } ] },
+      … units zh-A2 … zh-A6: only their new lessons 05 and 06 …,
+      { "id": "zh-A7", "title_th": "…", "goal_th": "…", "scenario": "…", "lessons": [ 6 lessons zh-A7-01 … -06 ] },
+      … up to zh-A16 …
+  ] },
+  { "id": "B", "cefr": "A1", "exam": "HSK 1", "minutes": 7, "readerMinutes": 8,
+    "units": [ units zh-B1 … zh-B6 with lessons 05, 06 and reader zh-Bn-r01; units zh-B7 … zh-B16 with 6 lessons and reader -r01 ] }
+] }
+```
+
+## Requirements
+- Existing units zh-A1…A6 / zh-B1…B6 get lessons 05 and 06 that continue their topic (review + extension; for A2 pinyin: finals/compound finals, the er-hua and tone-pair practice with real words; items kind "syllable" with `say` where needed — the writer's note in content/_review/zh.md explains the conventions). Stage B units all get one reader (-r01, 4–6 sentences, 3–5 glossary items, genre varied: short story, diary, message, notice, menu, sign).
+- New units A7–A16 (pre-A1) and B7–B16 (A1): survival topics not yet covered by A1–A6/B1–B6, e.g. colours & things, clothes, body, house & rooms, classroom & study, simple hobbies, animals, the convenience store/café, phone & WeChat/LINE messages, simple health, the calendar & holidays (春节, 泼水节), likes/dislikes, describing people, jobs, simple signs and instructions, countries & languages. Keep A simpler (words, short phrases) and B at A1 (是/有/在 sentences, 吗/呢 questions, 想/要/会/能 basics, measure words, 了 for completed actions only as needed). No two units on the same topic; C–F topics are covered there at a higher level, so keep A–B to survival language.
+- Items: 4–6 per lesson, 3–5 per reader. Each item appears once in the whole course: no repeat of any item in the existing A–B lessons or in zh-CF.json (compare text+reading). Ids: lowercase toneless pinyin, hyphen between syllables; check no collision with existing ids.
+- Readings: Hanyu Pinyin with citation tones, word-segmented, neutral tone unmarked.
+- Before finishing, write and run a checker: counts (A: 6 units×2 + 10 units×6 = 72 lessons; B: 72 lessons + 16 readers), unique ids/text across plan + existing lessons + zh-CF.json, id formats, valid JSON. Then run `cd /home/user/Test && npm run dupes -- --target zh` and fix anything reported for your plan.
+
+## Report (short)
+New units (titles), item counts, anything uncertain.

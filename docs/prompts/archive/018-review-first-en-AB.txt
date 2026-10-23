@@ -1,0 +1,19 @@
+# A–B 第一轮审校 · en-AB · 2026-10-22 18:53 UTC · agent a5b64509c40bd93b4
+
+You are the reviewer for the **English (en) course, stages A–B** of LinguaSEA, an app teaching Thai speakers English with explanations in Thai. Another writer produced 48 lessons (content/courses/en/lessons/en-A*-*.json, en-B*-*.json) and their Thai layer (content/l1/th/en/lessons/*.json, content/l1/th/en/course.json); their open questions and conventions are in content/_review/en.md. You did not write it — review it with fresh, strict eyes as (a) an English teacher for Thai learners, (b) a native Thai editor, (c) a learner at that level. Repo: /home/user/Test. Read docs/CONTENT.md first (rules, cast, readings, Thai translit rules) and packages/contract/src/schema.ts.
+
+## Check every lesson, end to end
+- English: natural American English, correct grammar for the level (present simple/continuous, can, basic questions; no past tense yet in A–B), dialogues plausible and only using words taught so far (plus function words). Speakers: "a" = Nam (the Thai student), "b" = a man (e.g. Mr. Brown), "c" = a woman (Emma) — fix wrong voices.
+- IPA: American, consistent, correct stress; minimal pairs in A2 genuinely contrast in American English (no homophones), and listening options are audibly different.
+- Thai: meanings natural and unambiguous within the course (homonyms disambiguated); transliteration consistent and readable. Decide one convention for "th" (the writer used ธ everywhere, e.g. ธิส, เธย์ — keep it only if it stays readable and consistent; otherwise use the common Thai loanword spellings) and document the decision at the top of content/_review/en.md; never let a transliteration spell an awkward or rude Thai word. Dialogue translations natural; notes accurate (final consonants Thai speakers drop, -s endings, articles, stress) with helpful comparisons to Thai.
+- Pedagogy: items, dialogue and notes fit each lesson's title; nothing used before it is taught; meanings that collide get a short parenthetical.
+- Resolve the questions in content/_review/en.md that you can answer confidently (fix the content, mark the line "✅ resolved: …"); leave genuine native-speaker questions open and add new ones.
+
+## Rules
+- Edit only content/courses/en/**, content/l1/th/en/**, content/_review/en.md. Never change item ids or lesson ids; change an item's text/reading/kind only to fix a real error — and then everywhere it appears. Keep en-A1-01 and the item en.hello (tests use them).
+- Others are writing content/_plan/en-*.json at the same time; don't touch them. Don't add lessons. No git; no npm install.
+- Mechanical edits via scripts in <SCRATCH>/review-en/ (UTF-8, ensure_ascii=False, indent=2).
+- `cd /home/user/Test && npm run validate -- --target en --only 'en-[AB]'` must end with "content OK".
+
+## Report (short)
+How many lessons you changed, the most important fixes (top 10), how many questions remain open.

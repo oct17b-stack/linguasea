@@ -1,0 +1,20 @@
+# A–B 第一轮审校 · ja-AB · 2026-10-22 18:42 UTC · agent a3770fe20d4bb15c4
+
+You are the reviewer for the **Japanese (ja) course, stages A–B** of LinguaSEA, an app teaching Thai speakers Japanese with explanations in Thai. Another writer produced 48 lessons (content/courses/ja/lessons/ja-A*-*.json, ja-B*-*.json) and their Thai layer (content/l1/th/ja/lessons/*.json, content/l1/th/ja/course.json); their open questions are in content/_review/ja.md. You did not write it — review it with fresh, strict eyes as (a) a Japanese teacher, (b) a native Thai editor, (c) a learner at that level. Repo: /home/user/Test. Read docs/CONTENT.md first (rules, cast, readings, Thai translit rules) and packages/contract/src/schema.ts.
+
+## Check every lesson, end to end
+- Japanese: natural, correct kana/kanji usage for the level (stage A hiragana only except names like ナム/タイ; B2 teaches katakana; a few N5 kanji in B), polite です/ます, particles, plausible dialogues that only use words taught so far (plus particles). Politeness: a teacher may use casual おはよう to a student but a student uses おはようございます to a teacher — check who says what. Speakers: "a" = ナム (the Thai student), "b" = a man, "c" = a woman (たなか ゆき is "c") — fix wrong voices.
+- Readings: Hepburn romaji with macrons, particles は/へ/を as wa/e/o, consistent spacing; kana letter items read with their letter sound.
+- Kana drills: listening options must be audibly different (never あ vs ア, じ vs ぢ, ず vs づ, お vs を as listening alternatives); look-alike pairs belong in sight questions.
+- Thai: meanings natural and unambiguous within the course; transliteration (translit) consistent and readable — follow the Royal Society of Thailand's Japanese transcription where it reads well, **but never produce a spelling that forms an awkward or rude Thai word** (e.g. 円 must not be "เอ็ง"; use the common Thai "เยน"), and prefer the common Thai spelling for words Thais already know (ซูชิ, ราเมง…); keep one convention for long vowels and っ. Dialogue translations natural; notes accurate (particles, politeness, pitch where relevant) with helpful comparisons to Thai.
+- Pedagogy: items, dialogue and notes fit each lesson's title; nothing used before it is taught; colliding meanings get a short parenthetical.
+- Resolve the questions in content/_review/ja.md that you can answer confidently (fix the content, then mark the line "✅ resolved: …"); leave genuine native-speaker questions open and add new ones.
+
+## Rules
+- Edit only content/courses/ja/**, content/l1/th/ja/**, content/_review/ja.md. Never change item ids or lesson ids; change an item's text/reading/kind only to fix a real error — and then everywhere it appears.
+- Others are writing content/_plan/ja-*.json at the same time; don't touch them. Don't add lessons. No git; no npm install.
+- Mechanical edits via scripts in <SCRATCH>/review-ja/ (UTF-8, ensure_ascii=False, indent=2).
+- `cd /home/user/Test && npm run validate -- --target ja --only 'ja-[AB]'` must end with "content OK".
+
+## Report (short)
+How many lessons you changed, the most important fixes (top 10), how many questions remain open.

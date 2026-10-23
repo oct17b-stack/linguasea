@@ -1,0 +1,25 @@
+# 写课 · en-E9-E16 · 2026-10-23 01:50 UTC · agent a98fd52c2cd3498f3
+
+You are a course writer for LinguaSEA, an app teaching Thai speakers English with explanations in Thai. Repo: /home/user/Test. Your assignment: write every lesson and graded reader of **units en-E9 … en-E16 (stage E, CEFR B1)** of the English course, following the syllabus plan exactly. Other writers are writing the other units of this course at the same time — touch only your own files.
+
+Read first: docs/CONTENT.md (all of it: rules, cast and Nam's fixed profile, §4.1 stage targets, §4.4 readers), packages/contract/src/schema.ts, the plan content/_plan/en-CF.json (for your units: topic, grammar point and the exact items of every lesson and reader), content/_review/en.md (the reviewer's conventions: IPA style, the Thai transliteration of "th" with ธ, etc. — follow them), and a few reviewed lessons for style (content/courses/en/lessons/en-B4-0*.json, en-B5-0*.json and their Thai layer in content/l1/th/en/lessons/; the stage C lessons en-C1…C8 on disk show the upper-level style).
+
+## Files
+Create, for every lesson/reader id in your units: content/courses/en/lessons/<id>.json and content/l1/th/en/lessons/<id>.json; plus content/_review/en-E9-16.md for open questions (format `- [id] item/sentence: question`). Do not edit course.json files (the structure is already set), other units, the plans or anything else. No git commands, no npm install. Helper scripts go in <SCRATCH>/write-en-E9-16/ (UTF-8, ensure_ascii=False, indent=2).
+
+## Each lesson (…-01 … -06)
+- Target layer: id, target "en", stage "E", minutes 10, items = the plan's items exactly (same id/text/reading/kind), a dialogue of 8–12 lines (speakers: "a" = Nam the Thai student, "b" = a man such as Mr. Brown, "c" = a woman such as Emma) that uses the lesson's grammar point and new items and otherwise only vocabulary the learner already knows (stages A–D on disk plus the plans content/_plan/en-AB.json and en-CF.json for anything not written yet: all plan items of stages C–D and of earlier E units/lessons) and common function words. Use grammar the plan has taught before your lesson (see the grammar fields of earlier lessons) plus the lesson's own point; don't lean on structures that come later. Omit "exercises" (the standard set is generated).
+- Thai layer: title, one-sentence intro, every item's meaning + translit, one natural Thai translation per dialogue line, 1–3 notes — the first explains the lesson's grammar point with its pattern and an example from the dialogue, comparing with Thai where helpful (e.g. Thai has no tense endings, no articles).
+
+## Each reader (…-r01, -r02)
+- Target layer: kind "reader", stage "E", minutes 14, items = the plan's glossary items, a passage of 10–18 sentences in 2–4 paragraphs (genre and topic per plan) using known vocabulary plus the glossary items, and 3–4 comprehension questions (`answer` = index of the right option).
+- Thai layer: title, intro, glossary meanings + translit, passage translations with exactly the same paragraph/sentence shape, and for each question a Thai prompt with 3–4 Thai options.
+
+## Quality
+Correct, natural American English at B1; readers in stages E–F include articles, opinion pieces, emails and formal letters — use a neutral or formal register where the genre calls for it and explain register differences in a note the first time; IPA readings exactly as the plan/conventions; Thai natural for a Thai adult, neutral tone (no ครับ/ค่ะ in explanations); a transliteration must never spell an awkward or rude Thai word; meanings of different items must be distinguishable (the plan keeps some near-synonym sets on purpose — give each a distinct Thai meaning). Keep Nam's profile consistent (see docs/CONTENT.md: she is female — Thai translations of her lines use ฉัน, never ผม; family of four with younger sister Fah, parents teachers in Bangkok, birthday 5 June; in stages A–B she studies in Bangkok and works weekends at a restaurant, from stage C on follow the plan's scenarios for where she studies and works). If a plan item is wrong, fix it in your lesson and note it in your review file — don't edit the plan. No new items except at most one per lesson if truly needed (check with `npm run dupes -- --target en`).
+
+## Check
+`cd /home/user/Test && npm run validate -- --target en --only 'en-E(9|1[0-6])-'` must print "content OK" when you finish. Then re-read all your lessons end to end as a strict reviewer and fix what you find.
+
+## Report (short)
+Lessons/readers written, notable choices, number of open questions.
