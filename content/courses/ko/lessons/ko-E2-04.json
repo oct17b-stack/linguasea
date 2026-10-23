@@ -33,13 +33,18 @@
       "id": "ko.meolli",
       "text": "멀리",
       "reading": "meolli"
+    },
+    {
+      "id": "ko.ttokgatda",
+      "text": "똑같다",
+      "reading": "ttokgatda"
     }
   ],
   "dialogue": [
     {
       "speaker": "a",
-      "text": "민준 씨, 할머니 댁에 처음 초대받아서 좀 긴장돼요.",
-      "reading": "Minjun ssi, halmeoni daege cheoeum chodaebadaseo jom ginjangdwaeyo."
+      "text": "민준 씨, 할머니 댁에 초대받아서 좀 긴장돼요.",
+      "reading": "Minjun ssi, halmeoni daege chodaebadaseo jom ginjangdwaeyo."
     },
     {
       "speaker": "b",
@@ -48,8 +53,8 @@
     },
     {
       "speaker": "a",
-      "text": "한국 집에 들어갈 때 꼭 하지 않으면 안 되는 게 있어요?",
-      "reading": "Hanguk jibe deureogal ttae kkok haji aneumyeon an doeneun ge isseoyo?"
+      "text": "어른 댁에 갈 때 꼭 하지 않으면 안 되는 게 있어요?",
+      "reading": "Eoreun daege gal ttae kkok haji aneumyeon an doeneun ge isseoyo?"
     },
     {
       "speaker": "b",

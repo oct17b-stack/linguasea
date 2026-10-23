@@ -28,6 +28,11 @@
       "id": "ja.kikensei",
       "text": "危険性",
       "reading": "kikensei"
+    },
+    {
+      "id": "ja.basho",
+      "text": "ばしょ",
+      "reading": "basho"
     }
   ],
   "dialogue": [
@@ -38,8 +43,8 @@
     },
     {
       "speaker": "a",
-      "text": "あ、しゃしんに駅のなまえがうつっているよ。",
-      "reading": "A, shashin ni eki no namae ga utsutte iru yo."
+      "text": "あ、しゃしんに、駅のなまえがみえるよ。",
+      "reading": "A, shashin ni, eki no namae ga mieru yo."
     },
     {
       "speaker": "c",
@@ -73,8 +78,8 @@
     },
     {
       "speaker": "c",
-      "text": "そこまで考えなきゃいけないのか。はるかに、すぐつたえるね。",
-      "reading": "Soko made kangaenakya ikenai no ka. Haruka ni, sugu tsutaeru ne."
+      "text": "そこまで考えなきゃいけないんだね。はるかに、すぐつたえるね。",
+      "reading": "Soko made kangaenakya ikenai n da ne. Haruka ni, sugu tsutaeru ne."
     },
     {
       "speaker": "a",

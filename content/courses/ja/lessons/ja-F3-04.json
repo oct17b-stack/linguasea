@@ -28,13 +28,19 @@
       "id": "ja.gimon",
       "text": "疑問",
       "reading": "gimon"
+    },
+    {
+      "id": "ja.shuukan-week",
+      "text": "週間",
+      "reading": "shūkan",
+      "say": "しゅうかん"
     }
   ],
   "dialogue": [
     {
       "speaker": "c",
       "text": "はるかが、SNSでみた「1週間で5キロやせるほうほう」を、やってみているの。",
-      "reading": "Haruka ga, Esuenuesu de mita \"Isshūkan de gokiro yaseru hōhō\" o, yatte mite iru no."
+      "reading": "Haruka ga, Esuenuesu de mita “Isshūkan de gokiro yaseru hōhō” o, yatte mite iru no."
     },
     {
       "speaker": "a",
@@ -43,12 +49,12 @@
     },
     {
       "speaker": "c",
-      "text": "「いいね」がいちまんもついているから、ほんとうだっていうの。",
-      "reading": "\"Ii ne\" ga ichiman mo tsuite iru kara, hontō da tte iu no."
+      "text": "「いいね」が1まんもついているから、ほんとうだっていうの。",
+      "reading": "“Ii ne” ga ichiman mo tsuite iru kara, hontō da tte iu no."
     },
     {
       "speaker": "a",
-      "text": "人気があるからといって、正しいとはかぎらないよ。",
+      "text": "人気があるからといって、正しいとは限らないよ。",
       "reading": "Ninki ga aru kara to itte, tadashii to wa kagiranai yo."
     },
     {
@@ -79,7 +85,7 @@
     {
       "speaker": "a",
       "text": "じゃあ、「ほんとうにそうかな？」って、疑問を持つようにいってみたら？",
-      "reading": "Jā, \"Hontō ni sō kana?\" tte, gimon o motsu yō ni itte mitara?"
+      "reading": "Jā, “Hontō ni sō kana?” tte, gimon o motsu yō ni itte mitara?"
     },
     {
       "speaker": "c",

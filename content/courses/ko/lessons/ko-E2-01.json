@@ -34,6 +34,11 @@
       "kind": "phrase",
       "text": "소리를 내다",
       "reading": "sorireul naeda"
+    },
+    {
+      "id": "ko.guk",
+      "text": "국",
+      "reading": "guk"
     }
   ],
   "dialogue": [
@@ -44,8 +49,8 @@
     },
     {
       "speaker": "a",
-      "text": "와, 음식이 정말 많네요. 그런데 한국 식사 예절을 잘 몰라서 걱정이에요.",
-      "reading": "Wa, eumsigi jeongmal manneyo. Geureonde Hanguk siksa yejeoreul jal mollaseo geokjeongieyo."
+      "text": "와, 음식이 정말 많네요. 그런데 한국 식사 예절을 아직 잘 몰라서 걱정이에요.",
+      "reading": "Wa, eumsigi jeongmal manneyo. Geureonde Hanguk siksa yejeoreul ajik jal mollaseo geokjeongieyo."
     },
     {
       "speaker": "b",
@@ -64,13 +69,13 @@
     },
     {
       "speaker": "a",
-      "text": "그건 태국도 똑같아요.",
-      "reading": "Geugeon Taegukdo ttokgatayo."
+      "text": "그건 태국에서도 그래요.",
+      "reading": "Geugeon Taegugeseodo geuraeyo."
     },
     {
       "speaker": "c",
-      "text": "남 씨, 많이 먹어요. 입에 맞는지 모르겠네요.",
-      "reading": "Nam ssi, mani meogeoyo. Ibe manneunji moreugenneyo."
+      "text": "남 씨, 많이 먹어요. 맛이 괜찮은지 모르겠네요.",
+      "reading": "Nam ssi, mani meogeoyo. Masi gwaenchaneunji moreugenneyo."
     },
     {
       "speaker": "a",
