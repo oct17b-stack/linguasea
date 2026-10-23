@@ -1,0 +1,95 @@
+{
+  "id": "ja-E3-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.fumu",
+      "text": "ふむ",
+      "reading": "fumu"
+    },
+    {
+      "id": "ja.manindensha",
+      "text": "満員電車",
+      "reading": "man'indensha"
+    },
+    {
+      "id": "ja.higaisha",
+      "text": "ひがいしゃ",
+      "reading": "higaisha"
+    },
+    {
+      "id": "ja.monku",
+      "text": "もんく",
+      "reading": "monku"
+    },
+    {
+      "id": "ja.hittakuri",
+      "text": "ひったくり",
+      "reading": "hittakuri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、どうしたの？ぬれているよ。",
+      "reading": "Namu, dō shita no? Nurete iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "駅からあるいていたら、とつぜんあめにふられちゃって…。",
+      "reading": "Eki kara aruite itara, totsuzen ame ni furarechatte…."
+    },
+    {
+      "speaker": "c",
+      "text": "かさは？",
+      "reading": "Kasa wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "持っていなかったの。それに、満員電車で足をふまれて、まだいたいんだ。",
+      "reading": "Motte inakatta no. Sore ni, man'indensha de ashi o fumarete, mada itai n da."
+    },
+    {
+      "speaker": "c",
+      "text": "ひどいね。あやまってくれた？",
+      "reading": "Hidoi ne. Ayamatte kureta?"
+    },
+    {
+      "speaker": "a",
+      "text": "ううん。それに、おりるとき、うしろのひとにもんくをいわれた。",
+      "reading": "Uun. Sore ni, oriru toki, ushiro no hito ni monku o iwareta."
+    },
+    {
+      "speaker": "c",
+      "text": "あさから、さいあくだね。",
+      "reading": "Asa kara, saiaku da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、わたしはまだいいほうだよ。けさ、駅のちかくでひったくりがあったって。",
+      "reading": "Demo, watashi wa mada ii hō da yo. Kesa, eki no chikaku de hittakuri ga atta tte."
+    },
+    {
+      "speaker": "c",
+      "text": "こわい！ひがいしゃは、だいじょうぶだったの？",
+      "reading": "Kowai! Higaisha wa, daijōbu datta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "おばあさんが、うしろからかばんをとられたんだって。けがはなかったみたい。",
+      "reading": "Obāsan ga, ushiro kara kaban o torareta n da tte. Kega wa nakatta mitai."
+    },
+    {
+      "speaker": "c",
+      "text": "よかった…。わたしたちも、きをつけないとね。",
+      "reading": "Yokatta…. Watashitachi mo, ki o tsukenai to ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。じゃあ、あたたかいコーヒーをたのもうかな。",
+      "reading": "Un. Jā, atatakai kōhī o tanomō ka na."
+    }
+  ]
+}

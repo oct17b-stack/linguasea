@@ -1,0 +1,100 @@
+{
+  "id": "ja-E3-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tsukamaru",
+      "text": "捕まる",
+      "reading": "tsukamaru"
+    },
+    {
+      "id": "ja.tsukamaeru",
+      "text": "捕まえる",
+      "reading": "tsukamaeru"
+    },
+    {
+      "id": "ja.taiho",
+      "text": "たいほ",
+      "reading": "taiho"
+    },
+    {
+      "id": "ja.hannin",
+      "text": "犯人",
+      "reading": "hannin"
+    },
+    {
+      "id": "ja.jiken",
+      "text": "事件",
+      "reading": "jiken"
+    },
+    {
+      "id": "ja.yougisha",
+      "text": "容疑者",
+      "reading": "yōgisha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このニュースみた？駅前のコンビニのどろぼうが捕まったって。",
+      "reading": "Namu, kono nyūsu mita? Ekimae no konbini no dorobō ga tsukamatta tte."
+    },
+    {
+      "speaker": "a",
+      "text": "ううん、まだ。どんな事件？",
+      "reading": "Uun, mada. Donna jiken?"
+    },
+    {
+      "speaker": "c",
+      "text": "先週、レジのおかねがぬすまれたでしょう？あの事件。",
+      "reading": "Senshū, reji no okane ga nusumareta deshō? Ano jiken."
+    },
+    {
+      "speaker": "a",
+      "text": "ああ、あの事件ね。犯人は、だれだったの？",
+      "reading": "Ā, ano jiken ne. Hannin wa, dare datta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "きのう、はたちの男が、けいさつにたいほされたんだって。",
+      "reading": "Kinō, hatachi no otoko ga, keisatsu ni taiho sareta n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。けいさつが捕まえたの？",
+      "reading": "Yokatta. Keisatsu ga tsukamaeta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、さいしょに捕まえたのは、コンビニのてんいんさんなんだって。",
+      "reading": "Uun, saisho ni tsukamaeta no wa, konbini no ten'in-san na n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！こわくなかったのかな。",
+      "reading": "Sugoi! Kowaku nakatta no ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "てんいんさんは、犯人におされて、すこしけがをしたって。",
+      "reading": "Ten'in-san wa, hannin ni osarete, sukoshi kega o shita tte."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへん…。容疑者は、どうしておかねをぬすんだの？",
+      "reading": "Taihen…. Yōgisha wa, dōshite okane o nusunda no?"
+    },
+    {
+      "speaker": "c",
+      "text": "まだわからないみたい。でも、てんいんさんは、まちのひとたちにかんしゃされているよ。",
+      "reading": "Mada wakaranai mitai. Demo, ten'in-san wa, machi no hitotachi ni kansha sarete iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだろうね。わたしも、ありがとうっていいたいな。",
+      "reading": "Sō darō ne. Watashi mo, arigatō tte iitai na."
+    }
+  ]
+}

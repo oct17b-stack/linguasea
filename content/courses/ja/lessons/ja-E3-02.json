@@ -1,0 +1,90 @@
+{
+  "id": "ja-E3-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.yushutsu",
+      "text": "ゆしゅつ",
+      "reading": "yushutsu"
+    },
+    {
+      "id": "ja.yunyuu",
+      "text": "ゆにゅう",
+      "reading": "yunyū"
+    },
+    {
+      "id": "ja.seihin",
+      "text": "せいひん",
+      "reading": "seihin"
+    },
+    {
+      "id": "ja.koujou",
+      "text": "工場",
+      "reading": "kōjō"
+    },
+    {
+      "id": "ja.hanbai",
+      "text": "はんばい",
+      "reading": "hanbai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、このくるまは、どこで作られていると思いますか。",
+      "reading": "Namu-san, kono kuruma wa, doko de tsukurarete iru to omoimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "にほんの会社のくるまですから、にほんですか。",
+      "reading": "Nihon no kaisha no kuruma desu kara, Nihon desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "じつは、タイの工場で作られているんですよ。",
+      "reading": "Jitsu wa, Tai no kōjō de tsukurarete iru n desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんですか！タイには、にほんの会社の工場がたくさんありますからね。",
+      "reading": "Sō na n desu ka! Tai ni wa, Nihon no kaisha no kōjō ga takusan arimasu kara ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。タイで作られたくるまは、ほかのくににもたくさんゆしゅつされています。",
+      "reading": "Ē. Tai de tsukurareta kuruma wa, hoka no kuni ni mo takusan yushutsu sarete imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイのツナのかんも、にほんにたくさんゆにゅうされていますよね。スーパーでよくはんばいされています。",
+      "reading": "Tai no tsuna no kan mo, Nihon ni takusan yunyū sarete imasu yo ne. Sūpā de yoku hanbai sarete imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですね。では、にほんのせいひんで、タイで人気があるものはなんですか。",
+      "reading": "Sō desu ne. Dewa, Nihon no seihin de, Tai de ninki ga aru mono wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "マンガやアニメです。にほんのマンガは、世界中で読まれていますから。",
+      "reading": "Manga ya anime desu. Nihon no manga wa, sekaijū de yomarete imasu kara."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですね。にほんのアニメも、いろいろなことばにやくされていますね。",
+      "reading": "Sō desu ne. Nihon no anime mo, iroiro na kotoba ni yakusarete imasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイでも、にほんのアニメは、タイごでみられています。",
+      "reading": "Hai. Tai demo, Nihon no anime wa, Taigo de mirarete imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ゆしゅつやゆにゅうで、タイとにほんは、しっかりつながっているんですね。",
+      "reading": "Yushutsu ya yunyū de, Tai to Nihon wa, shikkari tsunagatte iru n desu ne."
+    }
+  ]
+}

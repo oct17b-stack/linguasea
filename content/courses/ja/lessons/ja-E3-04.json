@@ -1,0 +1,100 @@
+{
+  "id": "ja-E3-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ippan",
+      "text": "いっぱん",
+      "reading": "ippan"
+    },
+    {
+      "id": "ja.senmonka",
+      "text": "せんもんか",
+      "reading": "senmonka"
+    },
+    {
+      "id": "ja.kenkyuu",
+      "text": "研究",
+      "reading": "kenkyū"
+    },
+    {
+      "id": "ja.setsu",
+      "text": "説",
+      "reading": "setsu"
+    },
+    {
+      "id": "ja.konkyo",
+      "text": "こんきょ",
+      "reading": "konkyo"
+    },
+    {
+      "id": "ja.chousa",
+      "text": "ちょうさ",
+      "reading": "chōsa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このざっしみて。「トムヤムクンはからだにいい」ってかいてあるよ。",
+      "reading": "Namu, kono zasshi mite. \"Tomuyamukun wa karada ni ii\" tte kaite aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。タイでも、トムヤムクンはかぜにいいといわれているよ。",
+      "reading": "Hē. Tai demo, tomuyamukun wa kaze ni ii to iwarete iru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとう？どうして？",
+      "reading": "Hontō? Dōshite?"
+    },
+    {
+      "speaker": "a",
+      "text": "からいものをたべると、あせがでるからだと思う。",
+      "reading": "Karai mono o taberu to, ase ga deru kara da to omou."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、それはいっぱんにいわれていることでしょう？こんきょはあるの？",
+      "reading": "Demo, sore wa ippan ni iwarete iru koto deshō? Konkyo wa aru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "ざっしには、せんもんかの研究があるってかいてあるよ。",
+      "reading": "Zasshi ni wa, senmonka no kenkyū ga aru tte kaite aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "どんな研究？",
+      "reading": "Donna kenkyū?"
+    },
+    {
+      "speaker": "a",
+      "text": "トムヤムクンのざいりょうには、からだをあたためる力があると考えられているんだって。",
+      "reading": "Tomuyamukun no zairyō ni wa, karada o atatameru chikara ga aru to kangaerarete iru n da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "なるほど。でも、それはまだ説でしょう？",
+      "reading": "Naruhodo. Demo, sore wa mada setsu deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ひとをたいしょうにしたちょうさは、まだすくないみたい。",
+      "reading": "Un. Hito o taishō ni shita chōsa wa, mada sukunai mitai."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなんだ。でも、おいしいものが、からだにいいといわれると、うれしいね。",
+      "reading": "Sō na n da. Demo, oishii mono ga, karada ni ii to iwareru to, ureshii ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。こんど、いっしょに作ろうか。",
+      "reading": "Sō da ne. Kondo, issho ni tsukurō ka."
+    }
+  ]
+}

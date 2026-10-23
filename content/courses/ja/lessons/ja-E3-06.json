@@ -1,0 +1,100 @@
+{
+  "id": "ja-E3-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.seiji",
+      "text": "政治",
+      "reading": "seiji"
+    },
+    {
+      "id": "ja.seifu",
+      "text": "せいふ",
+      "reading": "seifu"
+    },
+    {
+      "id": "ja.senkyo",
+      "text": "せんきょ",
+      "reading": "senkyo"
+    },
+    {
+      "id": "ja.shushou",
+      "text": "首相",
+      "reading": "shushō"
+    },
+    {
+      "id": "ja.bukka",
+      "text": "ぶっか",
+      "reading": "bukka"
+    },
+    {
+      "id": "ja.shinbunsha",
+      "text": "新聞社",
+      "reading": "shinbunsha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、さいきんのタイのニュースで、なにか気になることはありますか。",
+      "reading": "Namu-san, saikin no Tai no nyūsu de, nanika ki ni naru koto wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。タイのせんきょにかんするニュースが気になっています。",
+      "reading": "Hai. Tai no senkyo ni kansuru nyūsu ga ki ni natte imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "どんなニュースですか。",
+      "reading": "Donna nyūsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あたらしい首相とせいふが、ぶっかにかんして、いろいろなやくそくをしています。",
+      "reading": "Atarashii shushō to seifu ga, bukka ni kanshite, iroiro na yakusoku o shite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。にほんでも、ぶっかにかんするニュースがおおいですよ。",
+      "reading": "Sō desu ka. Nihon demo, bukka ni kansuru nyūsu ga ōi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。にほんでも、やさいがたかくなっていますね。",
+      "reading": "Sō desu ne. Nihon demo, yasai ga takaku natte imasu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。ナムさんは、政治にかんするニュースを、どこで読んでいますか。",
+      "reading": "Ē. Namu-san wa, seiji ni kansuru nyūsu o, doko de yonde imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "スマホで、タイの新聞社のホームページを読んでいます。",
+      "reading": "Sumaho de, Tai no shinbunsha no hōmupēji o yonde imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんのしんぶんも読みますか。",
+      "reading": "Nihon no shinbun mo yomimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、政治にかんしては、むずかしいことばがおおくて、まだよくわかりません。",
+      "reading": "Hai. Demo, seiji ni kanshite wa, muzukashii kotoba ga ōkute, mada yoku wakarimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "わからないことばがあったら、いつでもしつもんしてくださいね。",
+      "reading": "Wakaranai kotoba ga attara, itsu demo shitsumon shite kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。こんど、にほんのせんきょについても、おしえてください。",
+      "reading": "Arigatō gozaimasu. Kondo, Nihon no senkyo ni tsuite mo, oshiete kudasai."
+    }
+  ]
+}
