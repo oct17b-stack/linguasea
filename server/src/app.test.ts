@@ -65,6 +65,18 @@ test('progress from two devices is merged, not overwritten', async () => {
   assert.deepEqual(get.json(), res.json());
 });
 
+test('takes the progress of a learner far into all four courses (over 1 MB)', async () => {
+  const { app, auth } = await setup();
+  const card = { due: '2026-11-20T09:00:00.000Z', stability: 31.26219, difficulty: 5.312345, elapsed_days: 12, scheduled_days: 31, learning_steps: 0, reps: 7, lapses: 1, state: 2, last_review: '2026-10-20T09:00:00.000Z' };
+  const progress = emptyProgress();
+  for (const t of ['zh', 'en', 'ja', 'ko']) for (let i = 0; i < 3500; i++) progress.cards[`${t}.word-${i}`] = card;
+  const payload = JSON.stringify(progress);
+  assert.ok(payload.length > 2_500_000);
+  const res = await app.inject({ method: 'PUT', url: '/v1/progress', headers: { ...auth, 'content-type': 'application/json' }, payload });
+  assert.equal(res.statusCode, 200);
+  assert.equal(Object.keys(res.json().cards).length, 14_000);
+});
+
 test('rejects malformed progress', async () => {
   const { app, auth } = await setup();
   const res = await app.inject({ method: 'PUT', url: '/v1/progress', headers: auth, payload: { xp: -1 } });

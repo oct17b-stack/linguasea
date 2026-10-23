@@ -76,6 +76,7 @@ const RevenueCatBody = z.object({
 });
 
 const MAX_RECORDING_BYTES = 2 * 1024 * 1024;
+const MAX_PROGRESS_BYTES = 8 * 1024 * 1024;
 
 const TutorBody = z.object({
   target: Target,
@@ -173,7 +174,9 @@ export function buildServer({
   });
 
   // The device sends what it has; the server merges and returns the result for the device to adopt.
-  app.put('/v1/progress', async (req, reply) => {
+  // A course has 3,000–3,500 words and each review card is ~220 bytes, so someone far into several
+  // courses sends a few MB: more than Fastify's 1 MB default.
+  app.put('/v1/progress', { bodyLimit: MAX_PROGRESS_BYTES }, async (req, reply) => {
     const acc = await account(req);
     if (!acc) return reply.code(401).send({ error: 'unauthorized' });
     const body = ProgressBody.safeParse(req.body);
