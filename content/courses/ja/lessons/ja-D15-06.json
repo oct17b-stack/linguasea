@@ -1,0 +1,85 @@
+{
+  "id": "ja-D15-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.tsunami",
+      "text": "つなみ",
+      "reading": "tsunami"
+    },
+    {
+      "id": "ja.kouzui",
+      "text": "こうずい",
+      "reading": "kōzui"
+    },
+    {
+      "id": "ja.funka",
+      "text": "ふんか",
+      "reading": "funka"
+    },
+    {
+      "id": "ja.saigai",
+      "text": "さいがい",
+      "reading": "saigai"
+    },
+    {
+      "id": "ja.kunren",
+      "text": "くんれん",
+      "reading": "kunren"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "きょうは さいがいの くんれんです。はじめに、じしんが あった ときの ことを 考えましょう。",
+      "reading": "Kyō wa saigai no kunren desu. Hajime ni, jishin ga atta toki no koto o kangaemashō."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ゆれて いる ときは、つくえの 下に はいります。",
+      "reading": "Hai. Yurete iru toki wa, tsukue no shita ni hairimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですね。うみの ちかくに いる ときは、どう しますか。",
+      "reading": "Sō desu ne. Umi no chikaku ni iru toki wa, dō shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "つなみが くるかもしれませんから、すぐ たかい ほうへ にげます。",
+      "reading": "Tsunami ga kuru kamoshiremasen kara, sugu takai hō e nigemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。それから、ひなんじょへ いく ときは、ガスを 止めてから でて ください。",
+      "reading": "Hai. Sorekara, hinanjo e iku toki wa, gasu o tomete kara dete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ひなんじょに はいった ときは、なにを すれば いいですか。",
+      "reading": "Hinanjo ni haitta toki wa, nani o sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "うけつけで なまえを かいて ください。かぞくが さがす とき、べんりですから。",
+      "reading": "Uketsuke de namae o kaite kudasai. Kazoku ga sagasu toki, benri desu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。タイでは じしんは あまり ありませんが、こうずいが よく あります。",
+      "reading": "Wakarimashita. Tai de wa jishin wa amari arimasen ga, kōzui ga yoku arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。にほんでは やまの ふんかも あります。やまに のぼる ときは、ニュースを よく みて くださいね。",
+      "reading": "Sō desu ka. Nihon de wa yama no funka mo arimasu. Yama ni noboru toki wa, nyūsu o yoku mite kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。いろいろな さいがいに そなえないと いけませんね。",
+      "reading": "Hai. Iroiro na saigai ni sonaenai to ikemasen ne."
+    }
+  ]
+}

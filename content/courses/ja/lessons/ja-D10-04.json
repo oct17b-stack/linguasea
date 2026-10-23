@@ -1,0 +1,92 @@
+{
+  "id": "ja-D10-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.souon",
+      "text": "そうおん",
+      "reading": "sōon"
+    },
+    {
+      "id": "ja.ashioto",
+      "text": "足音",
+      "reading": "ashioto"
+    },
+    {
+      "id": "ja.kujou",
+      "text": "くじょう",
+      "reading": "kujō"
+    },
+    {
+      "id": "ja.otagaisama",
+      "kind": "phrase",
+      "text": "おたがいさま",
+      "reading": "otagaisama"
+    },
+    {
+      "id": "ja.enryo-naku",
+      "kind": "phrase",
+      "text": "えんりょなく",
+      "reading": "enryo naku"
+    },
+    {
+      "id": "ja.shikata",
+      "text": "仕方",
+      "reading": "shikata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、ねむそうだね。",
+      "reading": "Namu, nemusō da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。上の へやの 足音が うるさくて、ねられなかったんだ。",
+      "reading": "Un. Ue no heya no ashioto ga urusakute, nerarenakatta n da."
+    },
+    {
+      "speaker": "c",
+      "text": "そうおんの もんだいは よく あるよね。かんりにんさんに くじょうを いったら？",
+      "reading": "Sōon no mondai wa yoku aru yo ne. Kanrininsan ni kujō o ittara?"
+    },
+    {
+      "speaker": "a",
+      "text": "うーん、くじょうは ちょっと…。こどもが いる かぞくだから、仕方が ないよ。",
+      "reading": "Ūn, kujō wa chotto… Kodomo ga iru kazoku da kara, shikata ga nai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。アパートだから、すこしは しょうが ないよね。",
+      "reading": "Sō da ne. Apāto da kara, sukoshi wa shō ga nai yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。おたがいさまだしね。わたしも よる シャワーを あびるし。",
+      "reading": "Un. Otagaisama da shi ne. Watashi mo yoru shawā o abiru shi."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、ねられないのは つらいよね。",
+      "reading": "Demo, nerarenai no wa tsurai yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。どう したら いいと おもう？",
+      "reading": "Sō na n da. Dō shitara ii to omou?"
+    },
+    {
+      "speaker": "c",
+      "text": "一度 えんりょなく はなして みたら？ 「よる 11時からは しずかに して ください」って。",
+      "reading": "Ichido enryo naku hanashite mitara? “Yoru jūichiji kara wa shizuka ni shite kudasai” tte."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。仕方が ないって あきらめないで、はなして みる。",
+      "reading": "Sō da ne. Shikata ga nai tte akiramenaide, hanashite miru."
+    }
+  ]
+}

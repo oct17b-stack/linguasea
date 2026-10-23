@@ -1,0 +1,85 @@
+{
+  "id": "ja-D15-02",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.hinan",
+      "text": "ひなん",
+      "reading": "hinan"
+    },
+    {
+      "id": "ja.hinanjo",
+      "text": "ひなんじょ",
+      "reading": "hinanjo"
+    },
+    {
+      "id": "ja.hijouguchi",
+      "text": "ひじょうぐち",
+      "reading": "hijōguchi"
+    },
+    {
+      "id": "ja.hiroba",
+      "text": "広場",
+      "reading": "hiroba"
+    },
+    {
+      "id": "ja.chikazuku",
+      "text": "近づく",
+      "reading": "chikazuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、じしんの とき、どう すれば いいですか。",
+      "reading": "Sumimasen, jishin no toki, dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はじめに、つくえの 下に はいって ください。ゆれなく なったら すぐ、そとに でて ください。",
+      "reading": "Hajime ni, tsukue no shita ni haitte kudasai. Yurenaku nattara sugu, soto ni dete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "エレベーターを つかっても いいですか。",
+      "reading": "Erebētā o tsukatte mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ、だめです。ひじょうぐちから でて ください。",
+      "reading": "Iie, dame desu. Hijōguchi kara dete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "そとに でたら、どこへ いけば いいですか。",
+      "reading": "Soto ni detara, doko e ikeba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ちかくの 広場へ いって ください。ふるい いえや かべには 近づかないで ください。",
+      "reading": "Chikaku no hiroba e itte kudasai. Furui ie ya kabe ni wa chikazukanaide kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ひなんじょは どこですか。",
+      "reading": "Hinanjo wa doko desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ちかくの がっこうです。おおきな じしんが おわると すぐ、ひなんじょが あきます。",
+      "reading": "Chikaku no gakkō desu. Ōkina jishin ga owaru to sugu, hinanjo ga akimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。へやが あぶない ときは、そこへ ひなんすれば いいですね。",
+      "reading": "Wakarimashita. Heya ga abunai toki wa, soko e hinan sureba ii desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "そうです。ふだんから ひなんじょまでの みちを たしかめて おいて くださいね。",
+      "reading": "Sō desu. Fudan kara hinanjo made no michi o tashikamete oite kudasai ne."
+    }
+  ]
+}

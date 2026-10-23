@@ -1,0 +1,80 @@
+{
+  "id": "ja-D11-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.warikan",
+      "text": "わりかん",
+      "reading": "warikan"
+    },
+    {
+      "id": "ja.betsubetsu",
+      "text": "べつべつ",
+      "reading": "betsubetsu"
+    },
+    {
+      "id": "ja.reshiito",
+      "text": "レシート",
+      "reading": "reshīto"
+    },
+    {
+      "id": "ja.gochisou",
+      "text": "ごちそう",
+      "reading": "gochisō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。ご注文は おきまりですか。",
+      "reading": "Irasshaimase. Gochūmon wa okimari desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ふたりとも ラーメンで おねがいします。",
+      "reading": "Hai. Futari tomo rāmen de onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おふたりとも ラーメンですね。おまちください。",
+      "reading": "Ofutari tomo rāmen desu ne. Omachi kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆき、きょうは わたしが ごちそうするよ。この間 ひっこしを てつだって くれたから。",
+      "reading": "Yuki, kyō wa watashi ga gochisō suru yo. Konoaida hikkoshi o tetsudatte kureta kara."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、いいよ。わりかんに しようよ。",
+      "reading": "E, ii yo. Warikan ni shiyō yo."
+    },
+    {
+      "speaker": "a",
+      "text": "だめ。きょうは わたしの おれいだから。",
+      "reading": "Dame. Kyō wa watashi no orei da kara."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、ごちそうに なるね。ありがとう。",
+      "reading": "Jā, gochisō ni naru ne. Arigatō."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、おかいけいを おねがいします。",
+      "reading": "Sumimasen, okaikei o onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。おかいけいは べつべつですか。",
+      "reading": "Hai. Okaikei wa betsubetsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、いっしょで おねがいします。あと、レシートも ください。",
+      "reading": "Iie, issho de onegaishimasu. Ato, reshīto mo kudasai."
+    }
+  ]
+}

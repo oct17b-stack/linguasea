@@ -1,0 +1,91 @@
+{
+  "id": "ja-D10-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.sodaigomi",
+      "text": "そだいごみ",
+      "reading": "sodaigomi"
+    },
+    {
+      "id": "ja.yuuryou",
+      "text": "有料",
+      "reading": "yūryō"
+    },
+    {
+      "id": "ja.zenjitsu",
+      "text": "前日",
+      "reading": "zenjitsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゴミの すてかたに ついての お知らせです。",
+        "reading": "Gomi no sutekata ni tsuite no oshirase desu."
+      },
+      {
+        "text": "もえる ゴミは まいしゅう かようびと きんようびに すてて ください。",
+        "reading": "Moeru gomi wa maishū kayōbi to kin'yōbi ni sutete kudasai."
+      },
+      {
+        "text": "しげんゴミ（かん・びん・ペットボトル）は すいようびです。",
+        "reading": "Shigen gomi (kan, bin, pettobotoru) wa suiyōbi desu."
+      },
+      {
+        "text": "もえない ゴミは つきに 2かいです。",
+        "reading": "Moenai gomi wa tsuki ni nikai desu."
+      },
+      {
+        "text": "カレンダーで たしかめて ください。",
+        "reading": "Karendā de tashikamete kudasai."
+      }
+    ],
+    [
+      {
+        "text": "ゴミは あさ 8時までに すてて ください。",
+        "reading": "Gomi wa asa hachiji made ni sutete kudasai."
+      },
+      {
+        "text": "前日の よるに すてては いけません。",
+        "reading": "Zenjitsu no yoru ni sutete wa ikemasen."
+      },
+      {
+        "text": "ルールを まもらない ゴミは、しゅうしゅうしない ことに なって います。",
+        "reading": "Rūru o mamoranai gomi wa, shūshū shinai koto ni natte imasu."
+      }
+    ],
+    [
+      {
+        "text": "つくえや いすなどの おおきい ゴミは そだいごみです。",
+        "reading": "Tsukue ya isu nado no ōkii gomi wa sodaigomi desu."
+      },
+      {
+        "text": "そだいごみは 有料です。",
+        "reading": "Sodaigomi wa yūryō desu."
+      },
+      {
+        "text": "すてる まえに、かならず かんりにんに そうだんして ください。",
+        "reading": "Suteru mae ni, kanarazu kanrinin ni sōdan shite kudasai."
+      },
+      {
+        "text": "みなさん、よろしく おねがいします。",
+        "reading": "Minasan, yoroshiku onegaishimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

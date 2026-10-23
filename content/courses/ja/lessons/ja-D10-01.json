@@ -1,0 +1,85 @@
+{
+  "id": "ja-D10-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.gomi",
+      "text": "ゴミ",
+      "reading": "gomi"
+    },
+    {
+      "id": "ja.moeru",
+      "text": "もえる",
+      "reading": "moeru"
+    },
+    {
+      "id": "ja.shigen",
+      "text": "しげん",
+      "reading": "shigen"
+    },
+    {
+      "id": "ja.bunbetsu",
+      "text": "分別",
+      "reading": "bunbetsu"
+    },
+    {
+      "id": "ja.shuushuu",
+      "text": "しゅうしゅう",
+      "reading": "shūshū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、ゴミの すてかたを ききたいんですが…。",
+      "reading": "Sumimasen, gomi no sutekata o kikitai n desu ga…"
+    },
+    {
+      "speaker": "b",
+      "text": "はい。この アパートでは、ゴミを 分別する ことに なって います。",
+      "reading": "Hai. Kono apāto de wa, gomi o bunbetsu suru koto ni natte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "どんな ゴミが ありますか。",
+      "reading": "Donna gomi ga arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "もえる ゴミと もえない ゴミと しげんゴミです。もえる ゴミは かようびと きんようびに すてる ことに なって います。",
+      "reading": "Moeru gomi to moenai gomi to shigen gomi desu. Moeru gomi wa kayōbi to kin'yōbi ni suteru koto ni natte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "もえない ゴミは？",
+      "reading": "Moenai gomi wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "つきに 2かいです。カレンダーを みて ください。",
+      "reading": "Tsuki ni nikai desu. Karendā o mite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "しんぶんや ざっしは どう すれば いいですか。",
+      "reading": "Shinbun ya zasshi wa dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "それは しげんゴミです。しゅうしゅうは すいようびです。",
+      "reading": "Sore wa shigen gomi desu. Shūshū wa suiyōbi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "なんじまでに すてれば いいですか。",
+      "reading": "Nanji made ni sutereba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "あさ 8時までです。まえの ばんに すてては いけない ことに なって いますから、きを つけて くださいね。",
+      "reading": "Asa hachiji made desu. Mae no ban ni sutete wa ikenai koto ni natte imasu kara, ki o tsukete kudasai ne."
+    }
+  ]
+}

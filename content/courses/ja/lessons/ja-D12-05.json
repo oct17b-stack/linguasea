@@ -1,0 +1,85 @@
+{
+  "id": "ja-D12-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.pointo",
+      "text": "ポイント",
+      "reading": "pointo"
+    },
+    {
+      "id": "ja.muryou",
+      "text": "むりょう",
+      "reading": "muryō"
+    },
+    {
+      "id": "ja.chakubarai",
+      "text": "ちゃくばらい",
+      "reading": "chakubarai"
+    },
+    {
+      "id": "ja.kuupon",
+      "text": "クーポン",
+      "reading": "kūpon"
+    },
+    {
+      "id": "ja.daikin",
+      "text": "代金",
+      "reading": "daikin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "もうしわけありませんが、その しょうひんは いま 品切れです。",
+      "reading": "Mōshiwake arimasen ga, sono shōhin wa ima shinagire desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。じゃあ、へんきんして いただけますか。",
+      "reading": "Sō desu ka. Jā, henkin shite itadakemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。代金を へんきんする かわりに、ポイントに する ことも できます。",
+      "reading": "Hai. Daikin o henkin suru kawari ni, pointo ni suru koto mo dekimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ポイントだと、なにか いい ことが ありますか。",
+      "reading": "Pointo da to, nanika ii koto ga arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。へんきんの かわりに ポイントを えらぶと、500円の クーポンも さしあげます。",
+      "reading": "Hai. Henkin no kawari ni pointo o erabu to, gohyaku en no kūpon mo sashiagemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。ポイントは いつまで つかえますか。",
+      "reading": "Ii desu ne. Pointo wa itsu made tsukaemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "1ねんです。それから、へんぴんの 送料は むりょうです。",
+      "reading": "Ichinen desu. Sorekara, henpin no sōryō wa muryō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ちゃくばらいで おくって いいですか。",
+      "reading": "Chakubarai de okutte ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ちゃくばらいで おくって ください。",
+      "reading": "Hai, chakubarai de okutte kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。じゃあ、へんきんの かわりに ポイントで おねがいします。",
+      "reading": "Wakarimashita. Jā, henkin no kawari ni pointo de onegaishimasu."
+    }
+  ]
+}

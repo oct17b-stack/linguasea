@@ -1,0 +1,85 @@
+{
+  "id": "ja-D10-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.fukuro",
+      "text": "ふくろ",
+      "reading": "fukuro"
+    },
+    {
+      "id": "ja.kan",
+      "text": "かん",
+      "reading": "kan"
+    },
+    {
+      "id": "ja.bin",
+      "text": "びん",
+      "reading": "bin"
+    },
+    {
+      "id": "ja.pettobotoru",
+      "text": "ペットボトル",
+      "reading": "pettobotoru"
+    },
+    {
+      "id": "ja.tsubusu",
+      "text": "つぶす",
+      "reading": "tsubusu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、この ふくろに ぜんぶ いれても いい？",
+      "reading": "Yuki, kono fukuro ni zenbu irete mo ii?"
+    },
+    {
+      "speaker": "c",
+      "text": "あっ、まって！ かんと びんを いっしょに いれちゃ だめだよ。",
+      "reading": "A! Matte! Kan to bin o issho ni irecha dame da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、そうなの？ じゃあ、ペットボトルは？",
+      "reading": "E, sō na no? Jā, pettobotoru wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ペットボトルは かるく つぶして、ほかの ふくろに いれるの。",
+      "reading": "Pettobotoru wa karuku tsubushite, hoka no fukuro ni ireru no."
+    },
+    {
+      "speaker": "a",
+      "text": "かんも つぶすの？",
+      "reading": "Kan mo tsubusu no?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん。かんは つぶしちゃ いけないって。この まちの きそくだよ。",
+      "reading": "Uun. Kan wa tsubushicha ikenai tte. Kono machi no kisoku da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、むずかしいね。びんは？",
+      "reading": "Hē, muzukashii ne. Bin wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "びんは あらってから すてて。あらわないで すてちゃ だめだよ。",
+      "reading": "Bin wa aratte kara sutete. Arawanaide sutecha dame da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかった。じゃあ、この ふるい かさは？",
+      "reading": "Wakatta. Jā, kono furui kasa wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "それは もえない ゴミ。きょうは すてちゃ だめ。カレンダーを みてね。",
+      "reading": "Sore wa moenai gomi. Kyō wa sutecha dame. Karendā o mite ne."
+    }
+  ]
+}

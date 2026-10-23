@@ -1,0 +1,87 @@
+{
+  "id": "ja-D11-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.suupu",
+      "text": "スープ",
+      "reading": "sūpu"
+    },
+    {
+      "id": "ja.men",
+      "text": "めん",
+      "reading": "men"
+    },
+    {
+      "id": "ja.noukou",
+      "text": "のうこう",
+      "reading": "nōkō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "こんにちは、ナムです。",
+        "reading": "Konnichiwa, Namu desu."
+      },
+      {
+        "text": "きょうは だいがくの ちかくの やすくて おいしい ラーメンやを おしえます。",
+        "reading": "Kyō wa daigaku no chikaku no yasukute oishii rāmen'ya o oshiemasu."
+      },
+      {
+        "text": "みせの なまえは 「ラーメン たろう」です。",
+        "reading": "Mise no namae wa “Rāmen Tarō” desu."
+      },
+      {
+        "text": "駅の 東口から あるいて 5ふんです。",
+        "reading": "Eki no higashiguchi kara aruite gofun desu."
+      }
+    ],
+    [
+      {
+        "text": "いちばん 人気の ラーメンは 600円です。",
+        "reading": "Ichiban ninki no rāmen wa roppyaku en desu."
+      },
+      {
+        "text": "スープは とても のうこうで、ぶたの 味が します。",
+        "reading": "Sūpu wa totemo nōkō de, buta no aji ga shimasu."
+      },
+      {
+        "text": "めんは かたくて、スープに よく あいます。",
+        "reading": "Men wa katakute, sūpu ni yoku aimasu."
+      },
+      {
+        "text": "ボリュームも あって、がくせいに 人気が あります。",
+        "reading": "Boryūmu mo atte, gakusei ni ninki ga arimasu."
+      }
+    ],
+    [
+      {
+        "text": "でも、ひるは いつも ぎょうれつが できて います。",
+        "reading": "Demo, hiru wa itsumo gyōretsu ga dekite imasu."
+      },
+      {
+        "text": "11時半までに いけば、あまり またないで たべられますよ。",
+        "reading": "Jūichiji han made ni ikeba, amari matanaide taberaremasu yo."
+      },
+      {
+        "text": "みなさんも いって みて くださいね。",
+        "reading": "Minasan mo itte mite kudasai ne."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

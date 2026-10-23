@@ -1,0 +1,90 @@
+{
+  "id": "ja-D14-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.uso",
+      "text": "うそ",
+      "reading": "uso"
+    },
+    {
+      "id": "ja.kenka",
+      "text": "けんか",
+      "reading": "kenka"
+    },
+    {
+      "id": "ja.yurusu",
+      "text": "ゆるす",
+      "reading": "yurusu"
+    },
+    {
+      "id": "ja.iiwake",
+      "text": "いいわけ",
+      "reading": "iiwake"
+    },
+    {
+      "id": "ja.wazato",
+      "text": "わざと",
+      "reading": "wazato"
+    },
+    {
+      "id": "ja.wakareru",
+      "text": "別れる",
+      "reading": "wakareru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、げんきが ないね。どうしたの？",
+      "reading": "Yuki, genki ga nai ne. Dō shita no?"
+    },
+    {
+      "speaker": "c",
+      "text": "きのう、かれと けんかしたの。",
+      "reading": "Kinō, kare to kenka shita no."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、どうして？",
+      "reading": "E, dōshite?"
+    },
+    {
+      "speaker": "c",
+      "text": "よる でんわする やくそくだったけど、でんわが こなかったの。",
+      "reading": "Yoru denwa suru yakusoku datta kedo, denwa ga konakatta no."
+    },
+    {
+      "speaker": "a",
+      "text": "わすれちゃったのかな。",
+      "reading": "Wasurechatta no ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "かれは 「でんわする つもりだったけど、ねて しまった」って。でも、いいわけみたい。",
+      "reading": "Kare wa “denwa suru tsumori datta kedo, nete shimatta” tte. Demo, iiwake mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "わざとじゃ ないと おもうよ。かれは うそを いう ひとじゃ ないよね。",
+      "reading": "Wazato ja nai to omou yo. Kare wa uso o iu hito ja nai yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん…。わたしも ゆるす つもりだったけど、また おこっちゃった。",
+      "reading": "Un… Watashi mo yurusu tsumori datta kedo, mata okotchatta."
+    },
+    {
+      "speaker": "a",
+      "text": "そっか。でも、別れたく ないよね？",
+      "reading": "Sokka. Demo, wakaretaku nai yo ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。きょう、もう 一度 ゆっくり はなす つもり。",
+      "reading": "Un. Kyō, mō ichido yukkuri hanasu tsumori."
+    }
+  ]
+}

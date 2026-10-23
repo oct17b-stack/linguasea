@@ -1,0 +1,85 @@
+{
+  "id": "ja-D11-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.dezaato",
+      "text": "デザート",
+      "reading": "dezāto"
+    },
+    {
+      "id": "ja.tabehoudai",
+      "text": "たべほうだい",
+      "reading": "tabehōdai"
+    },
+    {
+      "id": "ja.nomihoudai",
+      "text": "のみほうだい",
+      "reading": "nomihōdai"
+    },
+    {
+      "id": "ja.betsubara",
+      "text": "べつばら",
+      "reading": "betsubara"
+    },
+    {
+      "id": "ja.seigen",
+      "text": "せいげん",
+      "reading": "seigen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、きのうの パーティーは どうでしたか。",
+      "reading": "Namu-san, kinō no pātī wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしかったです。たべほうだいと のみほうだいの みせでした。",
+      "reading": "Tanoshikatta desu. Tabehōdai to nomihōdai no mise deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。じかんの せいげんは ありましたか。",
+      "reading": "Ii desu ne. Jikan no seigen wa arimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、2じかんでした。ゆきさんは ラーメンを 3ばいも たべて、デザートまで たべました。",
+      "reading": "Hai, nijikan deshita. Yuki-san wa rāmen o sanbai mo tabete, dezāto made tabemashita."
+    },
+    {
+      "speaker": "b",
+      "text": "えっ、デザートまでですか。",
+      "reading": "E, dezāto made desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。「デザートは べつばらだから」と いって いました。",
+      "reading": "Hai. “Dezāto wa betsubara da kara” to itte imashita."
+    },
+    {
+      "speaker": "b",
+      "text": "はは、べつばらですか。ナムさんは？",
+      "reading": "Haha, betsubara desu ka. Namu-san wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは まんぷくで、デザートは たべられませんでした。でも、ゆきさんは わたしの デザートまで たべたんです。",
+      "reading": "Watashi wa manpuku de, dezāto wa taberaremasen deshita. Demo, Yuki-san wa watashi no dezāto made tabeta n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "すごいですね。タイにも たべほうだいの みせは ありますか。",
+      "reading": "Sugoi desu ne. Tai ni mo tabehōdai no mise wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、たくさん あります。タイでも とても 人気が ありますよ。",
+      "reading": "Hai, takusan arimasu. Tai de mo totemo ninki ga arimasu yo."
+    }
+  ]
+}

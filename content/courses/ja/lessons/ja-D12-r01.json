@@ -1,0 +1,88 @@
+{
+  "id": "ja-D12-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.chuumonbangou",
+      "text": "ちゅうもんばんごう",
+      "reading": "chūmonbangō"
+    },
+    {
+      "id": "ja.hassou",
+      "text": "発送",
+      "reading": "hassō"
+    },
+    {
+      "id": "ja.otodoke-yoteibi",
+      "kind": "phrase",
+      "text": "おとどけよていび",
+      "reading": "otodoke yoteibi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさま",
+        "reading": "Namu-sama"
+      },
+      {
+        "text": "さくらで ご注文 いただき、ありがとうございます。",
+        "reading": "Sakura de gochūmon itadaki, arigatō gozaimasu."
+      },
+      {
+        "text": "ご注文の しょうひんは くろい ジャケット 1まいです。",
+        "reading": "Gochūmon no shōhin wa kuroi jaketto ichimai desu."
+      },
+      {
+        "text": "ちゅうもんばんごうは この メールの いちばん 下に あります。",
+        "reading": "Chūmonbangō wa kono mēru no ichiban shita ni arimasu."
+      }
+    ],
+    [
+      {
+        "text": "代金は 送料を ふくめて 8,500円です。",
+        "reading": "Daikin wa sōryō o fukumete hassen gohyaku en desu."
+      },
+      {
+        "text": "しょうひんは あした 発送します。",
+        "reading": "Shōhin wa ashita hassō shimasu."
+      },
+      {
+        "text": "おとどけよていびは 10月12日です。",
+        "reading": "Otodoke yoteibi wa jūgatsu jūninichi desu."
+      },
+      {
+        "text": "発送したら、また メールを おくります。",
+        "reading": "Hassō shitara, mata mēru o okurimasu."
+      }
+    ],
+    [
+      {
+        "text": "へんぴんや こうかんは、しょうひんが とどいてから 7日の あいだに おねがいします。",
+        "reading": "Henpin ya kōkan wa, shōhin ga todoite kara nanoka no aida ni onegaishimasu."
+      },
+      {
+        "text": "わからない ことが あったら、この メールに へんじを ください。",
+        "reading": "Wakaranai koto ga attara, kono mēru ni henji o kudasai."
+      },
+      {
+        "text": "これからも さくらを よろしく おねがいします。",
+        "reading": "Korekara mo Sakura o yoroshiku onegaishimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ja-D15-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.shitei",
+      "text": "してい",
+      "reading": "shitei"
+    },
+    {
+      "id": "ja.anpi",
+      "text": "あんぴ",
+      "reading": "anpi"
+    },
+    {
+      "id": "ja.houhou",
+      "text": "ほうほう",
+      "reading": "hōhō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "これは さくらまちの ぼうさいの お知らせです。",
+        "reading": "Kore wa Sakuramachi no bōsai no oshirase desu."
+      },
+      {
+        "text": "おおきな じしんの ときは、はじめに あたまを まもって ください。",
+        "reading": "Ōkina jishin no toki wa, hajime ni atama o mamotte kudasai."
+      },
+      {
+        "text": "ゆれなく なったら、ちかくの 広場に 集まって ください。",
+        "reading": "Yurenaku nattara, chikaku no hiroba ni atsumatte kudasai."
+      }
+    ],
+    [
+      {
+        "text": "まちの してい ひなんじょは、さくらこうえんと さくら だいがくです。",
+        "reading": "Machi no shitei hinanjo wa, Sakura kōen to Sakura daigaku desu."
+      },
+      {
+        "text": "ひなんじょには、みずや ひじょうしょく、もうふが あります。",
+        "reading": "Hinanjo ni wa, mizu ya hijōshoku, mōfu ga arimasu."
+      },
+      {
+        "text": "ペットと いっしょに ひなんする ことも できます。",
+        "reading": "Petto to issho ni hinan suru koto mo dekimasu."
+      }
+    ],
+    [
+      {
+        "text": "さいがいの ときは、でんわが つながりにくく なります。",
+        "reading": "Saigai no toki wa, denwa ga tsunagarinikuku narimasu."
+      },
+      {
+        "text": "かぞくの あんぴを たしかめる ほうほうを、まえから きめて おきましょう。",
+        "reading": "Kazoku no anpi o tashikameru hōhō o, mae kara kimete okimashō."
+      },
+      {
+        "text": "「いち なな いち」に でんわすると、こえで メッセージを のこす ことが できます。",
+        "reading": "“Ichi nana ichi” ni denwa suru to, koe de messēji o nokosu koto ga dekimasu."
+      },
+      {
+        "text": "SNSに あんぴを かく ほうほうも あります。",
+        "reading": "Esu enu esu ni anpi o kaku hōhō mo arimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

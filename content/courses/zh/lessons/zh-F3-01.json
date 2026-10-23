@@ -1,0 +1,95 @@
+{
+  "id": "zh-F3-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.ci-zhi-closing",
+      "text": "此致",
+      "reading": "cǐzhì"
+    },
+    {
+      "id": "zh.jing-li-salute",
+      "text": "敬礼",
+      "reading": "jìnglǐ"
+    },
+    {
+      "id": "zh.fu-jian",
+      "text": "附件",
+      "reading": "fùjiàn"
+    },
+    {
+      "id": "zh.ci-this",
+      "text": "此",
+      "reading": "cǐ"
+    },
+    {
+      "id": "zh.ge-shi",
+      "text": "格式",
+      "reading": "géshì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，我要给一个暑假翻译班的负责老师写邮件，您能帮我看看吗？",
+      "reading": "Lǐ lǎoshī, wǒ yào gěi yī ge shǔjià fānyì bān de fùzé lǎoshī xiě yóujiàn, nín néng bāng wǒ kànkan ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "当然可以。正式的邮件跟给朋友发消息不一样，格式很重要。",
+      "reading": "Dāngrán kěyǐ. Zhèngshì de yóujiàn gēn gěi péngyou fā xiāoxi bù yīyàng, géshì hěn zhòngyào."
+    },
+    {
+      "speaker": "a",
+      "text": "我是这样写的：“老师，你好！我叫小南。”可以吗？",
+      "reading": "Wǒ shì zhèyàng xiě de: \"Lǎoshī, nǐ hǎo! Wǒ jiào Xiǎonán.\" Kěyǐ ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "有点儿随便。最好写“尊敬的老师：您好！”，然后再介绍自己。",
+      "reading": "Yǒudiǎnr suíbiàn. Zuìhǎo xiě \"Zūnjìng de lǎoshī: Nín hǎo!\", ránhòu zài jièshào zìjǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "那最后呢？我写的是“谢谢！再见！”",
+      "reading": "Nà zuìhòu ne? Wǒ xiě de shì \"Xièxie! Zàijiàn!\""
+    },
+    {
+      "speaker": "c",
+      "text": "正式的信最后常常写“此致”“敬礼”，表示尊敬。",
+      "reading": "Zhèngshì de xìn zuìhòu chángcháng xiě \"cǐzhì\" \"jìnglǐ\", biǎoshì zūnjìng."
+    },
+    {
+      "speaker": "a",
+      "text": "“此致”的“此”是什么意思？",
+      "reading": "\"Cǐzhì\" de \"cǐ\" shì shénme yìsi?"
+    },
+    {
+      "speaker": "c",
+      "text": "“此”就是“这”，是很正式的词。比如“在此表示感谢”，就是“在这里表示感谢”。",
+      "reading": "\"Cǐ\" jiù shì \"zhè\", shì hěn zhèngshì de cí. Bǐrú \"zài cǐ biǎoshì gǎnxiè\", jiù shì \"zài zhèlǐ biǎoshì gǎnxiè\"."
+    },
+    {
+      "speaker": "a",
+      "text": "明白了。我还要把成绩单发给他们。",
+      "reading": "Míngbai le. Wǒ hái yào bǎ chéngjìdān fā gěi tāmen."
+    },
+    {
+      "speaker": "c",
+      "text": "那就放在附件里，并在邮件里写一句“成绩单见附件”。",
+      "reading": "Nà jiù fàng zài fùjiàn li, bìng zài yóujiàn li xiě yī jù \"chéngjìdān jiàn fùjiàn\"."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我改完以后再发给您。在此先表示感谢！",
+      "reading": "Hǎo de, wǒ gǎi wán yǐhòu zài fā gěi nín. Zài cǐ xiān biǎoshì gǎnxiè!"
+    },
+    {
+      "speaker": "c",
+      "text": "哈哈，学得真快！",
+      "reading": "Hāhā, xué de zhēn kuài!"
+    }
+  ]
+}

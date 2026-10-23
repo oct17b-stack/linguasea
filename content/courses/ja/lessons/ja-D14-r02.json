@@ -1,0 +1,85 @@
+{
+  "id": "ja-D14-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.nayami",
+      "text": "なやみ",
+      "reading": "nayami"
+    },
+    {
+      "id": "ja.hanashiau",
+      "text": "はなしあう",
+      "reading": "hanashiau"
+    },
+    {
+      "id": "ja.yuzuru",
+      "text": "ゆずる",
+      "reading": "yuzuru"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "わたしの なやみを きいて ください。",
+        "reading": "Watashi no nayami o kiite kudasai."
+      },
+      {
+        "text": "こいびとと こうさいして 2ねんに なりますが、さいきん よく けんかを します。",
+        "reading": "Koibito to kōsai shite ninen ni narimasu ga, saikin yoku kenka o shimasu."
+      },
+      {
+        "text": "けんかの あとは、いつも わたしから あやまります。",
+        "reading": "Kenka no ato wa, itsumo watashi kara ayamarimasu."
+      },
+      {
+        "text": "でも、かれは ぜんぜん あやまりません。",
+        "reading": "Demo, kare wa zenzen ayamarimasen."
+      },
+      {
+        "text": "どうしたら いいでしょうか。",
+        "reading": "Dō shitara ii deshō ka."
+      }
+    ],
+    [
+      {
+        "text": "おてがみ ありがとうございます。",
+        "reading": "Otegami arigatō gozaimasu."
+      },
+      {
+        "text": "けんかを する ことは わるい ことでは ありません。",
+        "reading": "Kenka o suru koto wa warui koto de wa arimasen."
+      },
+      {
+        "text": "いちばん いいのは、けんかの あとで ふたりで はなしあう ことです。",
+        "reading": "Ichiban ii no wa, kenka no ato de futari de hanashiau koto desu."
+      },
+      {
+        "text": "いつも あなたが ゆずって いると、あなたが つかれて しまいます。",
+        "reading": "Itsumo anata ga yuzutte iru to, anata ga tsukarete shimaimasu."
+      },
+      {
+        "text": "一度 れいせいに、あなたの 気持ちを はなして みて ください。",
+        "reading": "Ichido reisei ni, anata no kimochi o hanashite mite kudasai."
+      },
+      {
+        "text": "かれも わかって くれると おもいますよ。",
+        "reading": "Kare mo wakatte kureru to omoimasu yo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ja-D10-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kairanban",
+      "text": "かいらんばん",
+      "reading": "kairanban"
+    },
+    {
+      "id": "ja.chounaikai",
+      "text": "ちょうないかい",
+      "reading": "chōnaikai"
+    },
+    {
+      "id": "ja.keijiban",
+      "text": "けいじばん",
+      "reading": "keijiban"
+    },
+    {
+      "id": "ja.bouhan",
+      "text": "ぼうはん",
+      "reading": "bōhan"
+    },
+    {
+      "id": "ja.chiiki",
+      "text": "ちいき",
+      "reading": "chiiki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、これ、かいらんばんですよ。",
+      "reading": "Namu-san, kore, kairanban desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "かいらんばん？ なんですか。",
+      "reading": "Kairanban? Nan desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ちょうないかいの お知らせです。よんだら、となりの へやに とどけなければ なりません。",
+      "reading": "Chōnaikai no oshirase desu. Yondara, tonari no heya ni todokenakereba narimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "なまえを かかなければ なりませんか。",
+      "reading": "Namae o kakanakereba narimasen ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、かかなくても いいですよ。ここに チェックを して ください。",
+      "reading": "Iie, kakanakute mo ii desu yo. Koko ni chekku o shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。あ、「ぼうはん」って かいて ありますね。",
+      "reading": "Wakarimashita. A, “bōhan” tte kaite arimasu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。さいきん この ちいきに どろぼうが でたんです。",
+      "reading": "Ē. Saikin kono chiiki ni dorobō ga deta n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、こわいですね。",
+      "reading": "E, kowai desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ですから、へやを でる ときは、かならず かぎを かけなければ なりません。まどを あけた まま でては いけませんよ。",
+      "reading": "Desukara, heya o deru toki wa, kanarazu kagi o kakenakereba narimasen. Mado o aketa mama dete wa ikemasen yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。駅前の けいじばんも みて おきます。",
+      "reading": "Wakarimashita. Ekimae no keijiban mo mite okimasu."
+    }
+  ]
+}

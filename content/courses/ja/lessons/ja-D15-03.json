@@ -1,0 +1,90 @@
+{
+  "id": "ja-D15-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.garasu",
+      "text": "ガラス",
+      "reading": "garasu"
+    },
+    {
+      "id": "ja.kotei",
+      "text": "こてい",
+      "reading": "kotei"
+    },
+    {
+      "id": "ja.teiden",
+      "text": "ていでん",
+      "reading": "teiden"
+    },
+    {
+      "id": "ja.gasu",
+      "text": "ガス",
+      "reading": "gasu"
+    },
+    {
+      "id": "ja.suidou",
+      "text": "水道",
+      "reading": "suidō"
+    },
+    {
+      "id": "ja.tomeru",
+      "text": "止める",
+      "reading": "tomeru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、へやの たなは こていして ある？",
+      "reading": "Namu, heya no tana wa kotei shite aru?"
+    },
+    {
+      "speaker": "a",
+      "text": "こてい？ して いないよ。",
+      "reading": "Kotei? Shite inai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "じしんの とき、たなが たおれるかもしれないから、こていした ほうが いいよ。",
+      "reading": "Jishin no toki, tana ga taoreru kamoshirenai kara, kotei shita hō ga ii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そっか。ほかに なにに きを つければ いい？",
+      "reading": "Sokka. Hoka ni nani ni ki o tsukereba ii?"
+    },
+    {
+      "speaker": "c",
+      "text": "まどの ガラスに きを つけて。われると あぶないから。",
+      "reading": "Mado no garasu ni ki o tsukete. Wareru to abunai kara."
+    },
+    {
+      "speaker": "a",
+      "text": "わかった。じしんの あとは、ていでんする ことも ある？",
+      "reading": "Wakatta. Jishin no ato wa, teiden suru koto mo aru?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。ガスや 水道も つかえなく なる ことが あるよ。",
+      "reading": "Un. Gasu ya suidō mo tsukaenaku naru koto ga aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "こわいね。ガスは どう すれば いい？",
+      "reading": "Kowai ne. Gasu wa dō sureba ii?"
+    },
+    {
+      "speaker": "c",
+      "text": "ゆれなく なったら、ガスを 止めて。それから、火事に きを つけてね。",
+      "reading": "Yurenaku nattara, gasu o tomete. Sorekara, kaji ni ki o tsukete ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。きょう かえったら、すぐ たなを こていする。",
+      "reading": "Un. Kyō kaettara, sugu tana o kotei suru."
+    }
+  ]
+}

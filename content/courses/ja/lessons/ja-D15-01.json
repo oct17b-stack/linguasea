@@ -1,0 +1,85 @@
+{
+  "id": "ja-D15-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.jishin",
+      "text": "じしん",
+      "reading": "jishin"
+    },
+    {
+      "id": "ja.yureru",
+      "text": "ゆれる",
+      "reading": "yureru"
+    },
+    {
+      "id": "ja.nigeru",
+      "text": "にげる",
+      "reading": "nigeru"
+    },
+    {
+      "id": "ja.kaji",
+      "text": "火事",
+      "reading": "kaji"
+    },
+    {
+      "id": "ja.shoubousha",
+      "text": "しょうぼうしゃ",
+      "reading": "shōbōsha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、きょうの ニュースで 「にげろ！」と いう ことばを ききました。",
+      "reading": "Sensei, kyō no nyūsu de “Nigero!” to iu kotoba o kikimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "それは 「にげる」の つよい いいかたです。「にげなさい」よりも つよいですよ。",
+      "reading": "Sore wa “nigeru” no tsuyoi iikata desu. “Nigenasai” yori mo tsuyoi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "どんな ときに つかいますか。",
+      "reading": "Donna toki ni tsukaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "じしんや 火事の とき、「はやく にげろ！」とか 「止まれ！」とか いいます。",
+      "reading": "Jishin ya kaji no toki, “Hayaku nigero!” toka “Tomare!” toka iimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "じしんで ゆれて いる ときは、どう いいますか。",
+      "reading": "Jishin de yurete iru toki wa, dō iimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "「つくえの 下に はいれ！」「あたまを まもれ！」です。",
+      "reading": "“Tsukue no shita ni haire!” “Atama o mamore!” desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと こわい いいかたですね。",
+      "reading": "Chotto kowai iikata desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。でも、あぶない ときは、みじかい ことばの ほうが すぐ わかるんです。",
+      "reading": "Ē. Demo, abunai toki wa, mijikai kotoba no hō ga sugu wakaru n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "しょうぼうしゃの ひとも そう いいますか。",
+      "reading": "Shōbōsha no hito mo sō iimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "火事の ときは いう ことも あります。でも、ふつうの ときに つかうと しつれいですから、きを つけて くださいね。",
+      "reading": "Kaji no toki wa iu koto mo arimasu. Demo, futsū no toki ni tsukau to shitsurei desu kara, ki o tsukete kudasai ne."
+    }
+  ]
+}

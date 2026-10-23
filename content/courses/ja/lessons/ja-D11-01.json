@@ -1,0 +1,90 @@
+{
+  "id": "ja-D11-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.teishoku",
+      "text": "ていしょく",
+      "reading": "teishoku"
+    },
+    {
+      "id": "ja.chuumon",
+      "text": "注文",
+      "reading": "chūmon"
+    },
+    {
+      "id": "ja.osusume",
+      "text": "おすすめ",
+      "reading": "osusume"
+    },
+    {
+      "id": "ja.oumori",
+      "text": "おおもり",
+      "reading": "ōmori"
+    },
+    {
+      "id": "ja.shokken",
+      "text": "しょっけん",
+      "reading": "shokken"
+    },
+    {
+      "id": "ja.umai",
+      "text": "うまい",
+      "reading": "umai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、この みせは しょっけんを かってから 注文するんだよ。",
+      "reading": "Namu, kono mise wa shokken o katte kara chūmon suru n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、けんばいきで かうんだね。どれが おすすめ？",
+      "reading": "Hē, kenbaiki de kau n da ne. Dore ga osusume?"
+    },
+    {
+      "speaker": "c",
+      "text": "からあげていしょくが うまいよ。",
+      "reading": "Karaage teishoku ga umai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "からあげより、さかなの ほうが いいな。きょうは さかなが たべたい。",
+      "reading": "Karaage yori, sakana no hō ga ii na. Kyō wa sakana ga tabetai."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、さかなの ていしょくだね。ごはんは おおもりに できるよ。",
+      "reading": "Jā, sakana no teishoku da ne. Gohan wa ōmori ni dekiru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "おおもりより ふつうの ほうが いい。そんなに たくさん たべられないから。",
+      "reading": "Ōmori yori futsū no hō ga ii. Sonna ni takusan taberarenai kara."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは からあげていしょくの おおもり！ おなかが ぺこぺこなんだ。",
+      "reading": "Watashi wa karaage teishoku no ōmori! Onaka ga pekopeko na n da."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆき、よく たべるね。",
+      "reading": "Yuki, yoku taberu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "だって、ここの ごはんは ほんとうに うまいから。",
+      "reading": "Datte, koko no gohan wa hontō ni umai kara."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。じゃあ、わたしも やっぱり おおもりの ほうが いいかな。",
+      "reading": "Sō na n da. Jā, watashi mo yappari ōmori no hō ga ii ka na."
+    }
+  ]
+}

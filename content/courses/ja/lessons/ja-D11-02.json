@@ -1,0 +1,90 @@
+{
+  "id": "ja-D11-02",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.nuku",
+      "text": "ぬく",
+      "reading": "nuku"
+    },
+    {
+      "id": "ja.sukuname",
+      "text": "少なめ",
+      "reading": "sukuname"
+    },
+    {
+      "id": "ja.yawarakai",
+      "text": "やわらかい",
+      "reading": "yawarakai"
+    },
+    {
+      "id": "ja.katai",
+      "text": "かたい",
+      "reading": "katai"
+    },
+    {
+      "id": "ja.pakuchii",
+      "text": "パクチー",
+      "reading": "pakuchī"
+    },
+    {
+      "id": "ja.tekitou",
+      "text": "てきとう",
+      "reading": "tekitō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。ご注文は おきまりですか。",
+      "reading": "Irasshaimase. Gochūmon wa okimari desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。パクチーラーメンを ふたつ ください。",
+      "reading": "Hai. Pakuchī rāmen o futatsu kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "あ、ナム、わたし パクチーが ちょっと にがてなんだ。",
+      "reading": "A, Namu, watashi pakuchī ga chotto nigate na n da."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、ひとつは パクチーを ぬいて ください。",
+      "reading": "Jā, hitotsu wa pakuchī o nuite kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。かたさは どう しますか。",
+      "reading": "Hai. Katasa wa dō shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしのは かたく して ください。",
+      "reading": "Watashi no wa kataku shite kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは やわらかく して ください。それから、ねぎを 少なめに して ください。",
+      "reading": "Watashi wa yawarakaku shite kudasai. Sorekara, negi o sukuname ni shite kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "からさは どう しますか。",
+      "reading": "Karasa wa dō shimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、てきとうに きめて いいよ。でも、わたしのは あまり からく しないでね。",
+      "reading": "Namu, tekitō ni kimete ii yo. Demo, watashi no wa amari karaku shinaide ne."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、わたしのは からく して、こちらは ふつうに して ください。",
+      "reading": "Jā, watashi no wa karaku shite, kochira wa futsū ni shite kudasai."
+    }
+  ]
+}

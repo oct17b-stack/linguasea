@@ -1,0 +1,85 @@
+{
+  "id": "ja-D13-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.seikaku",
+      "text": "せいかく",
+      "reading": "seikaku"
+    },
+    {
+      "id": "ja.otonashii",
+      "text": "大人しい",
+      "reading": "otonashii"
+    },
+    {
+      "id": "ja.kashikoi",
+      "text": "かしこい",
+      "reading": "kashikoi"
+    },
+    {
+      "id": "ja.okubyou",
+      "text": "おくびょう",
+      "reading": "okubyō"
+    },
+    {
+      "id": "ja.wagamama",
+      "text": "わがまま",
+      "reading": "wagamama"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきの いえの 子犬は どんな せいかく？",
+      "reading": "Yuki no ie no koinu wa donna seikaku?"
+    },
+    {
+      "speaker": "c",
+      "text": "それが、ねこみたいな いぬなの。",
+      "reading": "Sore ga, neko mitai na inu na no."
+    },
+    {
+      "speaker": "a",
+      "text": "ねこみたい？ どうして？",
+      "reading": "Neko mitai? Dōshite?"
+    },
+    {
+      "speaker": "c",
+      "text": "あまり なかないし、大人しいし、ねこみたいに ソファの 上に のぼるの。",
+      "reading": "Amari nakanai shi, otonashii shi, neko mitai ni sofa no ue ni noboru no."
+    },
+    {
+      "speaker": "a",
+      "text": "おもしろいね。かしこい？",
+      "reading": "Omoshiroi ne. Kashikoi?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん、とても かしこいよ。でも、おくびょうで、かみなりの 音が すると、わたしの ベッドの 下に はいって でて こないの。",
+      "reading": "Un, totemo kashikoi yo. Demo, okubyō de, kaminari no oto ga suru to, watashi no beddo no shita ni haitte dete konai no."
+    },
+    {
+      "speaker": "a",
+      "text": "かわいい。ちいさい こどもみたいだね。",
+      "reading": "Kawaii. Chiisai kodomo mitai da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "それに、ごはんの ときは わがままで、すきな ものしか たべないの。",
+      "reading": "Soreni, gohan no toki wa wagamama de, suki na mono shika tabenai no."
+    },
+    {
+      "speaker": "a",
+      "text": "それも こどもみたい。",
+      "reading": "Sore mo kodomo mitai."
+    },
+    {
+      "speaker": "c",
+      "text": "かぞくが みんな こどもみたいに かわいがって いるからかな。",
+      "reading": "Kazoku ga minna kodomo mitai ni kawaigatte iru kara ka na."
+    }
+  ]
+}

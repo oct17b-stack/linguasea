@@ -1,0 +1,83 @@
+{
+  "id": "ja-D9-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.kanrihi",
+      "text": "かんりひ",
+      "reading": "kanrihi"
+    },
+    {
+      "id": "ja.chikunensuu",
+      "text": "ちくねんすう",
+      "reading": "chikunensū"
+    },
+    {
+      "id": "ja.moyorieki",
+      "text": "もよりえき",
+      "reading": "moyorieki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "さくら駅の ちかくの アパートです。",
+        "reading": "Sakura eki no chikaku no apāto desu."
+      },
+      {
+        "text": "もよりえきは さくら駅で、駅から とほ 7ふんです。",
+        "reading": "Moyorieki wa Sakura eki de, eki kara toho nanafun desu."
+      },
+      {
+        "text": "まどりは ワンルームで、へやは 2かいに あります。",
+        "reading": "Madori wa wanrūmu de, heya wa nikai ni arimasu."
+      },
+      {
+        "text": "ちくねんすうは 15ねんですが、きょねん だいどころが あたらしく なりました。",
+        "reading": "Chikunensū wa jūgonen desu ga, kyonen daidokoro ga atarashiku narimashita."
+      }
+    ],
+    [
+      {
+        "text": "やちんは 4まん8せん円で、かんりひは 3せん円です。",
+        "reading": "Yachin wa yonman hassen en de, kanrihi wa sanzen en desu."
+      },
+      {
+        "text": "かんりひは アパートの そうじなどに つかいます。",
+        "reading": "Kanrihi wa apāto no sōji nado ni tsukaimasu."
+      },
+      {
+        "text": "しききんは やちんと おなじで、れいきんは ありません。",
+        "reading": "Shikikin wa yachin to onaji de, reikin wa arimasen."
+      }
+    ],
+    [
+      {
+        "text": "ペットは きんしです。",
+        "reading": "Petto wa kinshi desu."
+      },
+      {
+        "text": "がくせいの ひとは、ほしょうにんが ひつようです。",
+        "reading": "Gakusei no hito wa, hoshōnin ga hitsuyō desu."
+      },
+      {
+        "text": "へやを みたい ひとは、いつでも 駅前の ふどうさんやに れんらくして ください。",
+        "reading": "Heya o mitai hito wa, itsudemo ekimae no fudōsan'ya ni renraku shite kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ja-D12-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.haisou",
+      "text": "はいそう",
+      "reading": "haisō"
+    },
+    {
+      "id": "ja.saihaitatsu",
+      "text": "さいはいたつ",
+      "reading": "saihaitatsu"
+    },
+    {
+      "id": "ja.fuzai",
+      "text": "ふざい",
+      "reading": "fuzai"
+    },
+    {
+      "id": "ja.okihai",
+      "text": "おきはい",
+      "reading": "okihai"
+    },
+    {
+      "id": "ja.takuhaibin",
+      "text": "たくはいびん",
+      "reading": "takuhaibin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、へやの まえに これが あったんだけど…。",
+      "reading": "Yuki, heya no mae ni kore ga atta n da kedo…"
+    },
+    {
+      "speaker": "c",
+      "text": "ああ、ふざいの お知らせだね。たくはいびんが きたけど、ナムが いなかったんだよ。",
+      "reading": "Ā, fuzai no oshirase da ne. Takuhaibin ga kita kedo, Namu ga inakatta n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、どう すれば いい？",
+      "reading": "E, dō sureba ii?"
+    },
+    {
+      "speaker": "c",
+      "text": "ここに でんわすると、さいはいたつの じかんを きめられるよ。",
+      "reading": "Koko ni denwa suru to, saihaitatsu no jikan o kimerareru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、よる 7時ごろに しよう。",
+      "reading": "Jā, yoru shichiji goro ni shiyō."
+    },
+    {
+      "speaker": "c",
+      "text": "はいそうの とき、へやに いない ことが おおいなら、おきはいに したら？",
+      "reading": "Haisō no toki, heya ni inai koto ga ōi nara, okihai ni shitara?"
+    },
+    {
+      "speaker": "a",
+      "text": "おきはいって なに？",
+      "reading": "Okihai tte nani?"
+    },
+    {
+      "speaker": "c",
+      "text": "へやに いなくても、ドアの まえに にもつを のこして いって くれるんだよ。",
+      "reading": "Heya ni inakute mo, doa no mae ni nimotsu o nokoshite itte kureru n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "べんりだね。でも、だれかが とったら こまるよ。",
+      "reading": "Benri da ne. Demo, dareka ga tottara komaru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。たかい ものなら、へやで まった ほうが いいね。",
+      "reading": "Sō da ne. Takai mono nara, heya de matta hō ga ii ne."
+    }
+  ]
+}

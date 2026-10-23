@@ -1,0 +1,90 @@
+{
+  "id": "ja-D9-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kinjo",
+      "text": "きんじょ",
+      "reading": "kinjo"
+    },
+    {
+      "id": "ja.aisatsu",
+      "text": "あいさつ",
+      "reading": "aisatsu"
+    },
+    {
+      "id": "ja.ouya",
+      "text": "大家",
+      "reading": "ōya"
+    },
+    {
+      "id": "ja.kanrinin",
+      "text": "かんりにん",
+      "reading": "kanrinin"
+    },
+    {
+      "id": "ja.juumin",
+      "text": "じゅうみん",
+      "reading": "jūmin"
+    },
+    {
+      "id": "ja.sumu",
+      "text": "すむ",
+      "reading": "sumu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ごめんください。となりの へやの ナムです。あいさつに きました。",
+      "reading": "Gomen kudasai. Tonari no heya no Namu desu. Aisatsu ni kimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "あら、こんにちは。",
+      "reading": "Ara, konnichiwa."
+    },
+    {
+      "speaker": "a",
+      "text": "きのう ひっこして きた ばかりです。これ、つまらない ものですが…。",
+      "reading": "Kinō hikkoshite kita bakari desu. Kore, tsumaranai mono desu ga…"
+    },
+    {
+      "speaker": "c",
+      "text": "まあ、ありがとうございます。にほんにも きた ばかりなんですか。",
+      "reading": "Mā, arigatō gozaimasu. Nihon ni mo kita bakari na n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、にほんには きょねん きました。でも、アパートに すむのは はじめてです。",
+      "reading": "Iie, Nihon ni wa kyonen kimashita. Demo, apāto ni sumu no wa hajimete desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。この アパートの じゅうみんは みんな 親切ですよ。",
+      "reading": "Sō desu ka. Kono apāto no jūmin wa minna shinsetsu desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。大家さんも ここに すんで いますか。",
+      "reading": "Yokatta desu. Ōyasan mo koko ni sunde imasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ、大家さんは 駅の ちかくに すんで います。こまった ときは、1かいの かんりにんさんに きいて くださいね。",
+      "reading": "Iie, ōyasan wa eki no chikaku ni sunde imasu. Komatta toki wa, ikkai no kanrininsan ni kiite kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。いろいろ ありがとうございます。",
+      "reading": "Wakarimashita. Iroiro arigatō gozaimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ。この きんじょで わからない ことが あったら、また きいて くださいね。",
+      "reading": "Iie. Kono kinjo de wakaranai koto ga attara, mata kiite kudasai ne."
+    }
+  ]
+}

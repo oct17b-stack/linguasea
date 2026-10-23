@@ -1,0 +1,88 @@
+{
+  "id": "ja-D16-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.osewa-ni-narimashita",
+      "kind": "phrase",
+      "text": "お世話になりました",
+      "reading": "osewa ni narimashita"
+    },
+    {
+      "id": "ja.hikitsuzuki",
+      "text": "ひきつづき",
+      "reading": "hikitsuzuki"
+    },
+    {
+      "id": "ja.kongo",
+      "text": "今後",
+      "reading": "kongo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "やまだせんせい、こんにちは。ナムです。",
+        "reading": "Yamada-sensei, konnichiwa. Namu desu."
+      },
+      {
+        "text": "この 1ねん、ほんとうに お世話になりました。",
+        "reading": "Kono ichinen, hontō ni osewa ni narimashita."
+      },
+      {
+        "text": "にほんに きた ときは、にほんごが あまり はなせませんでした。",
+        "reading": "Nihon ni kita toki wa, Nihongo ga amari hanasemasen deshita."
+      },
+      {
+        "text": "でも、せんせいの おかげで、いまは いろいろな ひとと はなせるように なりました。",
+        "reading": "Demo, sensei no okage de, ima wa iroiro na hito to hanaseru yō ni narimashita."
+      }
+    ],
+    [
+      {
+        "text": "3月に 帰国して、タイの だいがくを そつぎょうする よていです。",
+        "reading": "Sangatsu ni kikoku shite, Tai no daigaku o sotsugyō suru yotei desu."
+      },
+      {
+        "text": "そして、来年の あきに また にほんへ きて、大学院で べんきょうする つもりです。",
+        "reading": "Soshite, rainen no aki ni mata Nihon e kite, daigakuin de benkyō suru tsumori desu."
+      },
+      {
+        "text": "大学院では、アルバイトで つうやくを しながら べんきょうを つづけたいと おもって います。",
+        "reading": "Daigakuin de wa, arubaito de tsūyaku o shinagara benkyō o tsuzuketai to omotte imasu."
+      },
+      {
+        "text": "今後も わからない ことが あったら、せんせいに そうだんしても いいですか。",
+        "reading": "Kongo mo wakaranai koto ga attara, sensei ni sōdan shite mo ii desu ka."
+      }
+    ],
+    [
+      {
+        "text": "さむい ひが つづきますので、おからだに きを つけて ください。",
+        "reading": "Samui hi ga tsuzukimasu node, okarada ni ki o tsukete kudasai."
+      },
+      {
+        "text": "ひきつづき よろしく おねがいします。",
+        "reading": "Hikitsuzuki yoroshiku onegaishimasu."
+      },
+      {
+        "text": "ナムより",
+        "reading": "Namu yori"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

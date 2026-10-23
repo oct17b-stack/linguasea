@@ -1,0 +1,85 @@
+{
+  "id": "ja-D12-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kizu",
+      "text": "きず",
+      "reading": "kizu"
+    },
+    {
+      "id": "ja.yogoreru",
+      "text": "よごれる",
+      "reading": "yogoreru"
+    },
+    {
+      "id": "ja.yabureru",
+      "text": "やぶれる",
+      "reading": "yabureru"
+    },
+    {
+      "id": "ja.furyouhin",
+      "text": "ふりょうひん",
+      "reading": "furyōhin"
+    },
+    {
+      "id": "ja.hekomu",
+      "text": "へこむ",
+      "reading": "hekomu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "おでんわ ありがとうございます。さくらの オペレーターです。",
+      "reading": "Odenwa arigatō gozaimasu. Sakura no operētā desu."
+    },
+    {
+      "speaker": "a",
+      "text": "きのう とどいた にもつの ことなんですが、ダンボールが へこんで いて、中の ふくろも やぶれて いたんです。",
+      "reading": "Kinō todoita nimotsu no koto na n desu ga, danbōru ga hekonde ite, naka no fukuro mo yaburete ita n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "もうしわけありません。しょうひんは だいじょうぶでしたか。",
+      "reading": "Mōshiwake arimasen. Shōhin wa daijōbu deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。かばんに きずが あって、すこし よごれて いました。",
+      "reading": "Iie. Kaban ni kizu ga atte, sukoshi yogorete imashita."
+    },
+    {
+      "speaker": "b",
+      "text": "それは ふりょうひんですね。すぐ あたらしい ものと とりかえます。",
+      "reading": "Sore wa furyōhin desu ne. Sugu atarashii mono to torikaemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。ふるい ものは どう すれば いいですか。",
+      "reading": "Arigatō gozaimasu. Furui mono wa dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "あたらしい しょうひんと いっしょに、へんぴんの ふくろが いれて あります。",
+      "reading": "Atarashii shōhin to issho ni, henpin no fukuro ga irete arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "その ふくろに いれて、おくれば いいですか。",
+      "reading": "Sono fukuro ni irete, okureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。あてさきも もう かいて ありますから、そのまま おくって ください。",
+      "reading": "Hai. Atesaki mo mō kaite arimasu kara, sono mama okutte kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。よろしく おねがいします。",
+      "reading": "Wakarimashita. Yoroshiku onegaishimasu."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ja-D12-02",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.toiawase",
+      "text": "といあわせ",
+      "reading": "toiawase"
+    },
+    {
+      "id": "ja.taiou",
+      "text": "たいおう",
+      "reading": "taiō"
+    },
+    {
+      "id": "ja.tantousha",
+      "text": "たんとうしゃ",
+      "reading": "tantōsha"
+    },
+    {
+      "id": "ja.opereetaa",
+      "text": "オペレーター",
+      "reading": "operētā"
+    },
+    {
+      "id": "ja.fukuzatsu",
+      "text": "ふくざつ",
+      "reading": "fukuzatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、どうしたの？ げんきが ないね。",
+      "reading": "Namu, dō shita no? Genki ga nai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "きのうから みせに といあわせを して いるんだけど、いくら でんわしても つながらないの。",
+      "reading": "Kinō kara mise ni toiawase o shite iru n da kedo, ikura denwa shite mo tsunagaranai no."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、ずっと？",
+      "reading": "E, zutto?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。いくら まっても、オペレーターが でないんだ。",
+      "reading": "Un. Ikura matte mo, operētā ga denai n da."
+    },
+    {
+      "speaker": "c",
+      "text": "メールでは きいた？",
+      "reading": "Mēru de wa kiita?"
+    },
+    {
+      "speaker": "a",
+      "text": "きいた。でも、「たんとうしゃから れんらくします」って へんじしか こなかった。",
+      "reading": "Kiita. Demo, “Tantōsha kara renraku shimasu” tte henji shika konakatta."
+    },
+    {
+      "speaker": "c",
+      "text": "たいおうが よくないね。",
+      "reading": "Taiō ga yokunai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それに、ホームページの せつめいも ふくざつで、いくら よんでも わからないの。",
+      "reading": "Soreni, hōmupēji no setsumei mo fukuzatsu de, ikura yonde mo wakaranai no."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、わたしが いっしょに よんで あげるよ。",
+      "reading": "Jā, watashi ga issho ni yonde ageru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとう？ ありがとう、たすかる！",
+      "reading": "Hontō? Arigatō, tasukaru!"
+    }
+  ]
+}

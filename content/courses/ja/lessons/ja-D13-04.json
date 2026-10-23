@@ -1,0 +1,90 @@
+{
+  "id": "ja-D13-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.doubutsubyouin",
+      "text": "動物病院",
+      "reading": "dōbutsubyōin"
+    },
+    {
+      "id": "ja.juui",
+      "text": "じゅうい",
+      "reading": "jūi"
+    },
+    {
+      "id": "ja.ikimono",
+      "text": "生き物",
+      "reading": "ikimono"
+    },
+    {
+      "id": "ja.inochi",
+      "text": "いのち",
+      "reading": "inochi"
+    },
+    {
+      "id": "ja.sekinin",
+      "text": "せきにん",
+      "reading": "sekinin"
+    },
+    {
+      "id": "ja.ikiru",
+      "text": "生きる",
+      "reading": "ikiru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "はい、もう だいじょうぶですよ。おだいじに。",
+      "reading": "Hai, mō daijōbu desu yo. Odaiji ni."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございました。",
+      "reading": "Arigatō gozaimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせい、すこし しつもんしても いいですか。いもうとが うさぎを そだてたいと いって いるんです。",
+      "reading": "Sensei, sukoshi shitsumon shite mo ii desu ka. Imōto ga usagi o sodatetai to itte iru n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いもうとさんは うさぎを そだてた ことが ありますか。",
+      "reading": "Imōtosan wa usagi o sodateta koto ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、はじめてです。はじめての ひとでも そだてられますか。",
+      "reading": "Iie, hajimete desu. Hajimete no hito demo sodateraremasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。うさぎは こどもでも 世話が できますよ。でも、生き物ですから、せきにんが ありますね。",
+      "reading": "Ē. Usagi wa kodomo demo sewa ga dekimasu yo. Demo, ikimono desu kara, sekinin ga arimasu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですね。いのちを あずかるんですから。",
+      "reading": "Sō desu ne. Inochi o azukaru n desu kara."
+    },
+    {
+      "speaker": "b",
+      "text": "うさぎは 8ねんから 10ねんぐらい 生きますよ。",
+      "reading": "Usagi wa hachinen kara jūnen gurai ikimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そんなに 生きるんですか。びょうきの ときは どう すれば いいですか。",
+      "reading": "Sonna ni ikiru n desu ka. Byōki no toki wa dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ちかくの 動物病院で、じゅういに みて もらって ください。",
+      "reading": "Chikaku no dōbutsubyōin de, jūi ni mite moratte kudasai."
+    }
+  ]
+}

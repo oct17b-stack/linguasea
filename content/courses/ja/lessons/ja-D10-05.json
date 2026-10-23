@@ -1,0 +1,85 @@
+{
+  "id": "ja-D10-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.chokusetsu",
+      "text": "ちょくせつ",
+      "reading": "chokusetsu"
+    },
+    {
+      "id": "ja.kanrigaisha",
+      "text": "かんりがいしゃ",
+      "reading": "kanrigaisha"
+    },
+    {
+      "id": "ja.kaizen",
+      "text": "かいぜん",
+      "reading": "kaizen"
+    },
+    {
+      "id": "ja.aite",
+      "text": "あいて",
+      "reading": "aite"
+    },
+    {
+      "id": "ja.reisei",
+      "text": "れいせい",
+      "reading": "reisei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、上の へやの ことで ちょっと そうだんが あるんですが…。",
+      "reading": "Sumimasen, ue no heya no koto de chotto sōdan ga aru n desu ga…"
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どう しましたか。",
+      "reading": "Hai, dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "まいばん、よる 12時ごろまで 足音が するんです。",
+      "reading": "Maiban, yoru jūniji goro made ashioto ga suru n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ああ、上の へやは ちいさい こどもが いるじゃ ないですか。",
+      "reading": "Ā, ue no heya wa chiisai kodomo ga iru ja nai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ええ、わかって います。でも、よるは しずかじゃ ないですか。だから、ちいさい 音も よく 聞こえるんです。",
+      "reading": "Ē, wakatte imasu. Demo, yoru wa shizuka ja nai desu ka. Dakara, chiisai oto mo yoku kikoeru n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "たしかに そうですね。あいてに ちょくせつ はなしましたか。",
+      "reading": "Tashika ni sō desu ne. Aite ni chokusetsu hanashimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。ちょくせつ いうのは ちょっと…。",
+      "reading": "Iie. Chokusetsu iu no wa chotto…"
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。では、わたしから かんりがいしゃに れんらくして、かいぜんを おねがいして みます。",
+      "reading": "Wakarimashita. Dewa, watashi kara kanrigaisha ni renraku shite, kaizen o onegai shite mimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。たすかります。",
+      "reading": "Arigatō gozaimasu. Tasukarimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ。こんな ときは、れいせいに はなすのが いちばんですよ。",
+      "reading": "Iie. Konna toki wa, reisei ni hanasu no ga ichiban desu yo."
+    }
+  ]
+}

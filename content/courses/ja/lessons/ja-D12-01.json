@@ -1,0 +1,90 @@
+{
+  "id": "ja-D12-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.henpin",
+      "text": "へんぴん",
+      "reading": "henpin"
+    },
+    {
+      "id": "ja.koukan",
+      "text": "こうかん",
+      "reading": "kōkan"
+    },
+    {
+      "id": "ja.henkin",
+      "text": "へんきん",
+      "reading": "henkin"
+    },
+    {
+      "id": "ja.zaiko",
+      "text": "ざいこ",
+      "reading": "zaiko"
+    },
+    {
+      "id": "ja.shinagire",
+      "text": "品切れ",
+      "reading": "shinagire"
+    },
+    {
+      "id": "ja.torikaeru",
+      "text": "とりかえる",
+      "reading": "torikaeru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、その くつ、インターネットで かったの？",
+      "reading": "Namu, sono kutsu, intānetto de katta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、サイズが ちょっと ちいさかったんだ。",
+      "reading": "Un. Demo, saizu ga chotto chiisakatta n da."
+    },
+    {
+      "speaker": "c",
+      "text": "そっか。へんぴんするか こうかんするか、きめた？",
+      "reading": "Sokka. Henpin suru ka kōkan suru ka, kimeta?"
+    },
+    {
+      "speaker": "a",
+      "text": "まだ。おおきい サイズに とりかえたいけど、ざいこが あるか わからなくて。",
+      "reading": "Mada. Ōkii saizu ni torikaetai kedo, zaiko ga aru ka wakaranakute."
+    },
+    {
+      "speaker": "c",
+      "text": "ホームページで しらべて みたら？",
+      "reading": "Hōmupēji de shirabete mitara?"
+    },
+    {
+      "speaker": "a",
+      "text": "…あ、おおきい サイズは 品切れだって。",
+      "reading": "… A, ōkii saizu wa shinagire da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、へんぴんして、へんきんして もらったら？",
+      "reading": "Jā, henpin shite, henkin shite morattara?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、へんきんは 1しゅうかんぐらい かかるって。",
+      "reading": "Un. Demo, henkin wa isshūkan gurai kakaru tte."
+    },
+    {
+      "speaker": "c",
+      "text": "ほかの いろなら、ざいこが あるかも しれないよ。",
+      "reading": "Hoka no iro nara, zaiko ga aru kamoshirenai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうだ！ くろなら ある。くろに こうかんするか、へんぴんするか、もう すこし 考える。",
+      "reading": "Hontō da! Kuro nara aru. Kuro ni kōkan suru ka, henpin suru ka, mō sukoshi kangaeru."
+    }
+  ]
+}

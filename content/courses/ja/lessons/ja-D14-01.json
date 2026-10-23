@@ -1,0 +1,86 @@
+{
+  "id": "ja-D14-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.koibito",
+      "text": "こいびと",
+      "reading": "koibito"
+    },
+    {
+      "id": "ja.kataomoi",
+      "text": "かたおもい",
+      "reading": "kataomoi"
+    },
+    {
+      "id": "ja.kokuhaku",
+      "text": "こくはく",
+      "reading": "kokuhaku"
+    },
+    {
+      "id": "ja.umaku-iku",
+      "kind": "phrase",
+      "text": "うまくいく",
+      "reading": "umaku iku"
+    },
+    {
+      "id": "ja.deai",
+      "text": "出会い",
+      "reading": "deai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、ちょっと きいて。わたし、すきな ひとが いるの。",
+      "reading": "Namu, chotto kiite. Watashi, suki na hito ga iru no."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、だれ？",
+      "reading": "E, dare?"
+    },
+    {
+      "speaker": "c",
+      "text": "サークルの せんぱい。でも、まだ かたおもいなんだ。",
+      "reading": "Sākuru no senpai. Demo, mada kataomoi na n da."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。出会いは？",
+      "reading": "Sō na n da. Deai wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "4月の かんげいかい。いっしょに しゃしんを とったの。",
+      "reading": "Shigatsu no kangeikai. Issho ni shashin o totta no."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね。こくはくするの？",
+      "reading": "Ii ne. Kokuhaku suru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん、こんどの 花火大会で しようと おもって いるの。",
+      "reading": "Un, kondo no hanabi taikai de shiyō to omotte iru no."
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！ うまく いくと いいね。",
+      "reading": "Sugoi! Umaku iku to ii ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。せんぱいの こいびとに なれたら いいな。",
+      "reading": "Arigatō. Senpai no koibito ni naretara ii na."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきなら だいじょうぶだよ。がんばって！",
+      "reading": "Yuki nara daijōbu da yo. Ganbatte!"
+    }
+  ]
+}

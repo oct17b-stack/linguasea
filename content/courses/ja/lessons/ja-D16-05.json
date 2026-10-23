@@ -1,0 +1,85 @@
+{
+  "id": "ja-D16-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kikoku",
+      "text": "帰国",
+      "reading": "kikoku"
+    },
+    {
+      "id": "ja.shuushokukatsudou",
+      "text": "しゅうしょくかつどう",
+      "reading": "shūshokukatsudō"
+    },
+    {
+      "id": "ja.shakaijin",
+      "text": "社会人",
+      "reading": "shakaijin"
+    },
+    {
+      "id": "ja.mirai",
+      "text": "みらい",
+      "reading": "mirai"
+    },
+    {
+      "id": "ja.hitorigurashi",
+      "text": "ひとりぐらし",
+      "reading": "hitorigurashi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、これからの よていを おしえて ください。",
+      "reading": "Namu-san, korekara no yotei o oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。3月に 帰国する よていです。",
+      "reading": "Hai. Sangatsu ni kikoku suru yotei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "タイに かえったら、どう しますか。",
+      "reading": "Tai ni kaettara, dō shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "だいがくを そつぎょうしたら、にほんの 大学院に いく ことに しました。",
+      "reading": "Daigaku o sotsugyō shitara, Nihon no daigakuin ni iku koto ni shimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。しゅうしょくかつどうは しないんですか。",
+      "reading": "Sō desu ka. Shūshokukatsudō wa shinai n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。大学院を でたら、つうやくの しごとを しようと おもって います。",
+      "reading": "Hai. Daigakuin o detara, tsūyaku no shigoto o shiyō to omotte imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。ゆきさんは 4月から 社会人ですね。",
+      "reading": "Ii desu ne. Yuki-san wa shigatsu kara shakaijin desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ゆきさんは しごとを はじめても、えいごの べんきょうを つづける つもりだそうです。",
+      "reading": "Hai. Yuki-san wa shigoto o hajimete mo, eigo no benkyō o tsuzukeru tsumori da sō desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。ナムさんは 大学院でも ひとりぐらしですか。",
+      "reading": "Sō desu ka. Namu-san wa daigakuin de mo hitorigurashi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。大学院の ちかくで ひとりぐらしを する つもりです。みらいの ことを 考えると、わくわくします。",
+      "reading": "Hai. Daigakuin no chikaku de hitorigurashi o suru tsumori desu. Mirai no koto o kangaeru to, wakuwaku shimasu."
+    }
+  ]
+}

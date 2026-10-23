@@ -1,0 +1,85 @@
+{
+  "id": "ja-D11-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.boryuumu",
+      "text": "ボリューム",
+      "reading": "boryūmu"
+    },
+    {
+      "id": "ja.nokosu",
+      "text": "のこす",
+      "reading": "nokosu"
+    },
+    {
+      "id": "ja.mochikaeri",
+      "text": "持ち帰り",
+      "reading": "mochikaeri"
+    },
+    {
+      "id": "ja.ippai",
+      "text": "いっぱい",
+      "reading": "ippai"
+    },
+    {
+      "id": "ja.manpuku",
+      "text": "まんぷく",
+      "reading": "manpuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、この ていしょく、ボリュームが すごいね。",
+      "reading": "Namu, kono teishoku, boryūmu ga sugoi ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。おおすぎて、ぜんぶ たべられない…。",
+      "reading": "Un. Ōsugite, zenbu taberarenai…"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも もう おなかが いっぱい。",
+      "reading": "Watashi mo mō onaka ga ippai."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、のこすのは よくないよね。",
+      "reading": "Demo, nokosu no wa yokunai yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "持ち帰りが できるか、きいて みよう。",
+      "reading": "Mochikaeri ga dekiru ka, kiite miyō."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、これ、持ち帰りに できますか。",
+      "reading": "Sumimasen, kore, mochikaeri ni dekimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、できますよ。すぐ 用意します。",
+      "reading": "Hai, dekimasu yo. Sugu yōi shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "よかった。あー、まんぷく。たべすぎて、ねむく なっちゃった。",
+      "reading": "Yokatta. Ā, manpuku. Tabesugite, nemuku natchatta."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしも。たべすぎて、うごけないよ。",
+      "reading": "Watashi mo. Tabesugite, ugokenai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "こんどは ふたりで ひとつに しようね。",
+      "reading": "Kondo wa futari de hitotsu ni shiyō ne."
+    }
+  ]
+}

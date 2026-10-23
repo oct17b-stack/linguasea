@@ -1,0 +1,85 @@
+{
+  "id": "ja-D11-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.ichininmae",
+      "text": "一人前",
+      "reading": "ichininmae"
+    },
+    {
+      "id": "ja.torizara",
+      "text": "とりざら",
+      "reading": "torizara"
+    },
+    {
+      "id": "ja.namabiiru",
+      "text": "生ビール",
+      "reading": "namabīru"
+    },
+    {
+      "id": "ja.waribashi",
+      "text": "わりばし",
+      "reading": "waribashi"
+    },
+    {
+      "id": "ja.oshibori",
+      "text": "おしぼり",
+      "reading": "oshibori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。なんめいさまですか。",
+      "reading": "Irasshaimase. Nanmeisama desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "よにんです。",
+      "reading": "Yonin desu."
+    },
+    {
+      "speaker": "b",
+      "text": "こちらへ どうぞ。おしぼりです。",
+      "reading": "Kochira e dōzo. Oshibori desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。生ビールを 3ばいと、つめたい おちゃを ひとつ ください。",
+      "reading": "Arigatō gozaimasu. Namabīru o sanbai to, tsumetai ocha o hitotsu kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。おりょうりは？",
+      "reading": "Hai. Oryōri wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "からあげを 2人前と、やきとりを 一人前 おねがいします。",
+      "reading": "Karaage o nininmae to, yakitori o ichininmae onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "さしみも たべたいな。",
+      "reading": "Sashimi mo tabetai na."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、さしみを ふたさら ください。あと、とりざらを よっつ おねがいします。",
+      "reading": "Jā, sashimi o futasara kudasai. Ato, torizara o yottsu onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。わりばしは テーブルの 上に ありますので、どうぞ。",
+      "reading": "Hai. Waribashi wa tēburu no ue ni arimasu node, dōzo."
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、注文するの、なれて いるね。",
+      "reading": "Namu, chūmon suru no, narete iru ne."
+    }
+  ]
+}

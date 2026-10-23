@@ -1,0 +1,86 @@
+{
+  "id": "ja-D14-02",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.ki-ni-naru",
+      "kind": "phrase",
+      "text": "気になる",
+      "reading": "ki ni naru"
+    },
+    {
+      "id": "ja.hitomebore",
+      "text": "ひとめぼれ",
+      "reading": "hitomebore"
+    },
+    {
+      "id": "ja.tereru",
+      "text": "てれる",
+      "reading": "tereru"
+    },
+    {
+      "id": "ja.konomi",
+      "text": "このみ",
+      "reading": "konomi"
+    },
+    {
+      "id": "ja.taipu",
+      "text": "タイプ",
+      "reading": "taipu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、せんぱいの ことが すきに なったのは いつ？",
+      "reading": "Yuki, senpai no koto ga suki ni natta no wa itsu?"
+    },
+    {
+      "speaker": "c",
+      "text": "はじめて あった とき。ひとめぼれだったの。",
+      "reading": "Hajimete atta toki. Hitomebore datta no."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。せんぱいの どこが すきなの？",
+      "reading": "Hē. Senpai no doko ga suki na no?"
+    },
+    {
+      "speaker": "c",
+      "text": "わらった かおが すてきなの。いつも せんぱいの ことが 気に なって、べんきょうに 集中できないよ。",
+      "reading": "Waratta kao ga suteki na no. Itsumo senpai no koto ga ki ni natte, benkyō ni shūchū dekinai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆき、かおが あかいよ。てれて いるの？",
+      "reading": "Yuki, kao ga akai yo. Terete iru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "もう！ ナムは どうなの？ 気に なる ひとは いないの？",
+      "reading": "Mō! Namu wa dō na no? Ki ni naru hito wa inai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "いない、いない。",
+      "reading": "Inai, inai."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとう？ じゃあ、ナムの このみは？ どんな ひとが タイプ？",
+      "reading": "Hontō? Jā, Namu no konomi wa? Donna hito ga taipu?"
+    },
+    {
+      "speaker": "a",
+      "text": "うーん、やさしくて、いっしょに いて たのしい ひとかな。",
+      "reading": "Ūn, yasashikute, issho ni ite tanoshii hito ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "あ、ナム、てれてる！",
+      "reading": "A, Namu, tereteru!"
+    }
+  ]
+}
