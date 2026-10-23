@@ -1,0 +1,95 @@
+{
+  "id": "ja-E14-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.chuushin",
+      "text": "中心",
+      "reading": "chūshin"
+    },
+    {
+      "id": "ja.kankouchi",
+      "text": "観光地",
+      "reading": "kankōchi"
+    },
+    {
+      "id": "ja.midokoro",
+      "text": "見どころ",
+      "reading": "midokoro"
+    },
+    {
+      "id": "ja.shuuhen",
+      "text": "しゅうへん",
+      "reading": "shūhen"
+    },
+    {
+      "id": "ja.sansaku",
+      "text": "さんさく",
+      "reading": "sansaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、きょうは、どこを見ればいいですか。",
+      "reading": "Namu-san, kyō wa, doko o mireba ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きょうは、しまの中にあるいせきを中心に、あんないします。",
+      "reading": "Kyō wa, shima no naka ni aru iseki o chūshin ni, annai shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "しま？アユタヤは、しまなんですか。",
+      "reading": "Shima? Ayutaya wa, shima na n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。みっつのかわのあいだにあって、まちの中心が、しまのようになっているんです。",
+      "reading": "Hai. Mittsu no kawa no aida ni atte, machi no chūshin ga, shima no yō ni natte iru n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "おもしろいですね。見どころは、どこですか。",
+      "reading": "Omoshiroi desu ne. Midokoro wa, doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いちばんの見どころは、王さまのおてらだった、ワット・プラシーサンペットです。",
+      "reading": "Ichiban no midokoro wa, ōsama no otera datta, Watto Purashīsanpetto desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ほかの観光地にも、行けますか。",
+      "reading": "Hoka no kankōchi ni mo, ikemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ごごは、しまのしゅうへんにあるおてらにも、行きましょう。ゆうがたは、かわのちかくをさんさくするのも、おすすめです。",
+      "reading": "Hai. Gogo wa, shima no shūhen ni aru otera ni mo, ikimashō. Yūgata wa, kawa no chikaku o sansaku suru no mo, osusume desu."
+    },
+    {
+      "speaker": "c",
+      "text": "さんさく、いいですね。アユタヤは、人気がある観光地なんでしょう？",
+      "reading": "Sansaku, ii desu ne. Ayutaya wa, ninki ga aru kankōchi na n deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、バンコクからちかいので、日帰りの人がおおいです。",
+      "reading": "Hai. Demo, Bankoku kara chikai node, higaeri no hito ga ōi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは、いっぱくして、ゆっくり見るつもりです。",
+      "reading": "Watashi wa, ippaku shite, yukkuri miru tsumori desu."
+    },
+    {
+      "speaker": "a",
+      "text": "それなら、よるのいせきもおすすめです。あかるいときと違って、とてもきれいですよ。",
+      "reading": "Sore nara, yoru no iseki mo osusume desu. Akarui toki to chigatte, totemo kirei desu yo."
+    }
+  ]
+}

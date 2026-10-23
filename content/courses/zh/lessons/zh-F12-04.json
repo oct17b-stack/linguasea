@@ -1,0 +1,91 @@
+{
+  "id": "zh-F12-04",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.shi-shang",
+      "text": "时尚",
+      "reading": "shíshàng"
+    },
+    {
+      "id": "zh.luo-wu",
+      "text": "落伍",
+      "reading": "luòwǔ"
+    },
+    {
+      "id": "zh.chao-liu",
+      "text": "潮流",
+      "reading": "cháoliú"
+    },
+    {
+      "id": "zh.nian-qing-yi-dai",
+      "kind": "phrase",
+      "text": "年轻一代",
+      "reading": "niánqīng yī dài"
+    },
+    {
+      "id": "zh.tao-yan",
+      "text": "讨厌",
+      "reading": "tǎoyàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你看，王明的头发怎么是黄色的？我真看不惯。",
+      "reading": "Xiǎonán, nǐ kàn, Wáng Míng de tóufa zěnme shì huángsè de? Wǒ zhēn kàn bù guàn."
+    },
+    {
+      "speaker": "a",
+      "text": "爷爷，现在很多年轻人都这样，这是一种潮流。",
+      "reading": "Yéye, xiànzài hěn duō niánqīng rén dōu zhèyàng, zhè shì yī zhǒng cháoliú."
+    },
+    {
+      "speaker": "b",
+      "text": "潮流？我年轻的时候，大家都穿一样的衣服，没有人这么打扮。",
+      "reading": "Cháoliú? Wǒ niánqīng de shíhou, dàjiā dōu chuān yīyàng de yīfu, méiyǒu rén zhème dǎban."
+    },
+    {
+      "speaker": "a",
+      "text": "时代不一样了。年轻一代都喜欢跟别人不一样。",
+      "reading": "Shídài bù yīyàng le. Niánqīng yī dài dōu xǐhuan gēn biéren bù yīyàng."
+    },
+    {
+      "speaker": "b",
+      "text": "还有他的裤子，这么贵，怎么到处都是破的？",
+      "reading": "Hái yǒu tā de kùzi, zhème guì, zěnme dàochù dōu shì pò de?"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，那是故意的。现在这样很时尚。",
+      "reading": "Hāhā, nà shì gùyì de. Xiànzài zhèyàng hěn shíshàng."
+    },
+    {
+      "speaker": "b",
+      "text": "时尚？我看是浪费钱。是不是我太落伍了？",
+      "reading": "Shíshàng? Wǒ kàn shì làngfèi qián. Shì bù shì wǒ tài luòwǔ le?"
+    },
+    {
+      "speaker": "a",
+      "text": "不会的，爷爷。您不是还会在手机上发红包吗？这一点儿也不落伍！",
+      "reading": "Bù huì de, yéye. Nín bù shì hái huì zài shǒujī shang fā hóngbāo ma? Zhè yīdiǎnr yě bù luòwǔ!"
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，你说得对。不过，年轻人的音乐我还是听不惯，太吵了。",
+      "reading": "Hāhā, nǐ shuō de duì. Bùguò, niánqīng rén de yīnyuè wǒ háishi tīng bù guàn, tài chǎo le."
+    },
+    {
+      "speaker": "a",
+      "text": "我也讨厌太吵的音乐。我们一起听京剧吧！",
+      "reading": "Wǒ yě tǎoyàn tài chǎo de yīnyuè. Wǒmen yīqǐ tīng jīngjù ba!"
+    },
+    {
+      "speaker": "b",
+      "text": "好啊！你一个泰国姑娘，比我孙子还听得惯京剧！",
+      "reading": "Hǎo a! Nǐ yī ge Tàiguó gūniang, bǐ wǒ sūnzi hái tīng de guàn jīngjù!"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "ja-E13-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.me-o-sorasu",
+      "kind": "phrase",
+      "text": "目をそらす",
+      "reading": "me o sorasu"
+    },
+    {
+      "id": "ja.shiranpuri",
+      "text": "知らんぷり",
+      "reading": "shiranpuri"
+    },
+    {
+      "id": "ja.kikinagasu",
+      "text": "聞き流す",
+      "reading": "kikinagasu"
+    },
+    {
+      "id": "ja.tobokeru",
+      "text": "とぼける",
+      "reading": "tobokeru"
+    },
+    {
+      "id": "ja.uso-o-tsuku",
+      "kind": "phrase",
+      "text": "うそをつく",
+      "reading": "uso o tsuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、かれと、はなしてみた？",
+      "reading": "Yuki, kare to, hanashite mita?"
+    },
+    {
+      "speaker": "c",
+      "text": "それが…。きのう、だいがくでかれを見たんだけど、わたしを見て、すぐに目をそらしたの。",
+      "reading": "Sore ga…. Kinō, daigaku de kare o mita n da kedo, watashi o mite, sugu ni me o sorashita no."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、見ないふりをしたの？",
+      "reading": "E, minai furi o shita no?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。わたしに気づかないふりをして、知らんぷりで行っちゃった。",
+      "reading": "Un. Watashi ni kizukanai furi o shite, shiranpuri de itchatta."
+    },
+    {
+      "speaker": "a",
+      "text": "ひどい。それで、どうしたの？",
+      "reading": "Hidoi. Sore de, dō shita no?"
+    },
+    {
+      "speaker": "c",
+      "text": "よるにでんわして、かげぐちのことをきいたの。でも、かれは「なんのこと？」って、とぼけるの。",
+      "reading": "Yoru ni denwa shite, kageguchi no koto o kiita no. Demo, kare wa \"nan no koto?\" tte, tobokeru no."
+    },
+    {
+      "speaker": "a",
+      "text": "わからないふりをしたんだね。",
+      "reading": "Wakaranai furi o shita n da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そう。わたしがはなしても、聞き流して、まじめにきいてくれないし。",
+      "reading": "Sō. Watashi ga hanashite mo, kikinagashite, majime ni kiite kurenai shi."
+    },
+    {
+      "speaker": "a",
+      "text": "それは、こまるね。",
+      "reading": "Sore wa, komaru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "さいごには、「そんなこと、言ってない」って、うそをついたの。ともだちが、ぜんぶきいていたのに。",
+      "reading": "Saigo ni wa, \"sonna koto, ittenai\" tte, uso o tsuita no. Tomodachi ga, zenbu kiite ita no ni."
+    },
+    {
+      "speaker": "a",
+      "text": "うそをつくのは、よくないね。でも、かれにも、なにか事情があるのかもしれないよ。",
+      "reading": "Uso o tsuku no wa, yoku nai ne. Demo, kare ni mo, nanika jijō ga aru no kamo shirenai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうかなあ…。もう一度だけ、はなしてみる。",
+      "reading": "Sō ka nā…. Mō ichido dake, hanashite miru."
+    }
+  ]
+}

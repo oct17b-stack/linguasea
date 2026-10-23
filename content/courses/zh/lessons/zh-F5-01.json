@@ -1,0 +1,95 @@
+{
+  "id": "zh-F5-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.zhu-chi",
+      "text": "主持",
+      "reading": "zhǔchí"
+    },
+    {
+      "id": "zh.jin-xing",
+      "text": "进行",
+      "reading": "jìnxíng"
+    },
+    {
+      "id": "zh.ti-yi",
+      "text": "提议",
+      "reading": "tíyì"
+    },
+    {
+      "id": "zh.can-yu",
+      "text": "参与",
+      "reading": "cānyù"
+    },
+    {
+      "id": "zh.duo-shu",
+      "text": "多数",
+      "reading": "duōshù"
+    },
+    {
+      "id": "zh.fang-an",
+      "text": "方案",
+      "reading": "fāng'àn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "大家好，今天的会由我来主持。我们就上海公司下个星期来访问的事进行讨论。",
+      "reading": "Dàjiā hǎo, jīntiān de huì yóu wǒ lái zhǔchí. Wǒmen jiù Shànghǎi gōngsī xià ge xīngqī lái fǎngwèn de shì jìnxíng tǎolùn."
+    },
+    {
+      "speaker": "b",
+      "text": "经理，他们这次来，主要想买什么？",
+      "reading": "Jīnglǐ, tāmen zhè cì lái, zhǔyào xiǎng mǎi shénme?"
+    },
+    {
+      "speaker": "c",
+      "text": "他们想买我们的椰子，而且今年想多买一些。",
+      "reading": "Tāmen xiǎng mǎi wǒmen de yēzi, érqiě jīnnián xiǎng duō mǎi yīxiē."
+    },
+    {
+      "speaker": "a",
+      "text": "我提议先请他们参观我们的工厂，然后再回公司开会。",
+      "reading": "Wǒ tíyì xiān qǐng tāmen cānguān wǒmen de gōngchǎng, ránhòu zài huí gōngsī kāihuì."
+    },
+    {
+      "speaker": "c",
+      "text": "这个提议不错。还有别的方案吗？",
+      "reading": "Zhège tíyì bùcuò. Hái yǒu biéde fāng'àn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "我觉得应该先开会讨论价格，再去参观。",
+      "reading": "Wǒ juéde yīnggāi xiān kāihuì tǎolùn jiàgé, zài qù cānguān."
+    },
+    {
+      "speaker": "c",
+      "text": "两个方案都有道理。我们举手决定吧：同意第一个方案的，请举手。",
+      "reading": "Liǎng ge fāng'àn dōu yǒu dàoli. Wǒmen jǔshǒu juédìng ba: tóngyì dì-yī ge fāng'àn de, qǐng jǔshǒu."
+    },
+    {
+      "speaker": "b",
+      "text": "多数人都同意先去参观。",
+      "reading": "Duōshù rén dōu tóngyì xiān qù cānguān."
+    },
+    {
+      "speaker": "c",
+      "text": "好，那就这样决定。小南，这次接待你也参与，给我们当翻译。",
+      "reading": "Hǎo, nà jiù zhèyàng juédìng. Xiǎonán, zhè cì jiēdài nǐ yě cānyù, gěi wǒmen dāng fānyì."
+    },
+    {
+      "speaker": "a",
+      "text": "没问题！我一定好好准备。",
+      "reading": "Méi wèntí! Wǒ yīdìng hǎohǎo zhǔnbèi."
+    },
+    {
+      "speaker": "c",
+      "text": "下次开会，我们再就价格问题进行讨论。",
+      "reading": "Xiàcì kāihuì, wǒmen zài jiù jiàgé wèntí jìnxíng tǎolùn."
+    }
+  ]
+}

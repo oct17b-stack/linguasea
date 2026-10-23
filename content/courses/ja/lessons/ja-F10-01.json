@@ -1,0 +1,95 @@
+{
+  "id": "ja-F10-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.saikai",
+      "text": "さいかい",
+      "reading": "saikai"
+    },
+    {
+      "id": "ja.hisabisa",
+      "text": "ひさびさ",
+      "reading": "hisabisa"
+    },
+    {
+      "id": "ja.dousoukai",
+      "text": "同窓会",
+      "reading": "dōsōkai"
+    },
+    {
+      "id": "ja.kinkyou",
+      "text": "きんきょう",
+      "reading": "kinkyō"
+    },
+    {
+      "id": "ja.aikawarazu",
+      "text": "相変わらず",
+      "reading": "aikawarazu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、しゅうまつの同窓会、どうだった？",
+      "reading": "Yuki, shūmatsu no dōsōkai, dō datta?"
+    },
+    {
+      "speaker": "c",
+      "text": "すごく楽しかった！高校のクラスのみんなと、5年ぶりにさいかいしたんだ。",
+      "reading": "Sugoku tanoshikatta! Kōkō no kurasu no minna to, gonen buri ni saikai shita n da."
+    },
+    {
+      "speaker": "a",
+      "text": "5年ぶり？ひさびさだね。みんな、かわってた？",
+      "reading": "Gonen buri? Hisabisa da ne. Minna, kawatteta?"
+    },
+    {
+      "speaker": "c",
+      "text": "ううん、みんな相変わらずだった。でも、きんきょうをきいたら、びっくりすることもあったよ。",
+      "reading": "Uun, minna aikawarazu datta. Demo, kinkyō o kiitara, bikkuri suru koto mo atta yo."
+    },
+    {
+      "speaker": "a",
+      "text": "どんなこと？",
+      "reading": "Donna koto?"
+    },
+    {
+      "speaker": "c",
+      "text": "クラスでいちばんしずかだったさとうくんが、いま、バンコクのにっけいきぎょうではたらいてるんだって。",
+      "reading": "Kurasu de ichiban shizuka datta Satō-kun ga, ima, Bankoku no nikkeikigyō de hataraiteru n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、バンコクで？すごいぐうぜん！",
+      "reading": "E, Bankoku de? Sugoi gūzen!"
+    },
+    {
+      "speaker": "c",
+      "text": "でしょう？タイりょうりがだいすきになって、まいにちからいものをたべてるって。",
+      "reading": "Deshō? Tai ryōri ga daisuki ni natte, mainichi karai mono o tabeteru tte."
+    },
+    {
+      "speaker": "a",
+      "text": "いいなあ。わたしも、ひさびさにバンコクのともだちにあいたくなっちゃった。",
+      "reading": "Ii nā. Watashi mo, hisabisa ni Bankoku no tomodachi ni aitaku natchatta."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムは、ふゆやすみにかえるんでしょう？",
+      "reading": "Namu wa, fuyuyasumi ni kaeru n deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。半年ぶりにかえるよ。かぞくにも、高校のともだちにもあうよてい。",
+      "reading": "Un. Hantoshi buri ni kaeru yo. Kazoku ni mo, kōkō no tomodachi ni mo au yotei."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。みんなとのさいかい、楽しみだね。",
+      "reading": "Ii ne. Minna to no saikai, tanoshimi da ne."
+    }
+  ]
+}

@@ -43,9 +43,9 @@ async function waitFor(url, ms = 30_000) {
   }
 }
 
-/** Starts the API server on a free port. Returns { url, stop }. */
-export async function startApi(env = {}) {
-  const port = await freePort();
+/** Starts the API server (on `port`, or a free one). Returns { url, stop }. */
+export async function startApi(env = {}, port) {
+  port ??= await freePort();
   const child = spawn(process.execPath, ['--import', 'tsx', 'server/src/main.ts'], {
     cwd: root,
     env: { ...process.env, PORT: String(port), DATABASE_URL: '', ANTHROPIC_API_KEY: '', AZURE_SPEECH_KEY: '', ...env },

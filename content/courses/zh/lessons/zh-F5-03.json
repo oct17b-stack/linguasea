@@ -1,0 +1,90 @@
+{
+  "id": "zh-F5-03",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.chu-fei",
+      "text": "除非",
+      "reading": "chúfēi"
+    },
+    {
+      "id": "zh.jiang-di",
+      "text": "降低",
+      "reading": "jiàngdī"
+    },
+    {
+      "id": "zh.qian-sign",
+      "text": "签",
+      "reading": "qiān"
+    },
+    {
+      "id": "zh.bao-jia",
+      "text": "报价",
+      "reading": "bàojià"
+    },
+    {
+      "id": "zh.cheng-ben",
+      "text": "成本",
+      "reading": "chéngběn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你们的椰子质量很好，可是报价有点儿高。",
+      "reading": "Nǐmen de yēzi zhìliàng hěn hǎo, kěshì bàojià yǒudiǎnr gāo."
+    },
+    {
+      "speaker": "a",
+      "text": "我们的报价是每个十五块人民币，这已经是很合理的价格了。",
+      "reading": "Wǒmen de bàojià shì měi ge shíwǔ kuài rénmínbì, zhè yǐjīng shì hěn hélǐ de jiàgé le."
+    },
+    {
+      "speaker": "b",
+      "text": "我们一次要买二十万个，能不能降低一点儿？",
+      "reading": "Wǒmen yī cì yào mǎi èrshí wàn ge, néng bù néng jiàngdī yīdiǎnr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我们的成本也很高。今年天气不好，椰子比去年少了很多。",
+      "reading": "Wǒmen de chéngběn yě hěn gāo. Jīnnián tiānqì bù hǎo, yēzi bǐ qùnián shǎo le hěn duō."
+    },
+    {
+      "speaker": "b",
+      "text": "我明白。不过除非价格降低到十二块，否则我们很难签合同。",
+      "reading": "Wǒ míngbai. Bùguò chúfēi jiàgé jiàngdī dào shí'èr kuài, fǒuzé wǒmen hěn nán qiān hétong."
+    },
+    {
+      "speaker": "a",
+      "text": "十二块太便宜了，我得跟经理商量一下。",
+      "reading": "Shí'èr kuài tài piányi le, wǒ děi gēn jīnglǐ shāngliang yīxià."
+    },
+    {
+      "speaker": "c",
+      "text": "如果你们一次订二十万个，我们可以降低到十三块五。",
+      "reading": "Rúguǒ nǐmen yī cì dìng èrshí wàn ge, wǒmen kěyǐ jiàngdī dào shísān kuài wǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "十三块五……那我们要先看看质量。除非每个椰子都很新鲜，否则我们不会签。",
+      "reading": "Shísān kuài wǔ… nà wǒmen yào xiān kànkan zhìliàng. Chúfēi měi ge yēzi dōu hěn xīnxiān, fǒuzé wǒmen bù huì qiān."
+    },
+    {
+      "speaker": "a",
+      "text": "这个您放心。参观工厂的时候，您也看到了，我们的椰子都是最新鲜的。",
+      "reading": "Zhège nín fàngxīn. Cānguān gōngchǎng de shíhou, nín yě kàndào le, wǒmen de yēzi dōu shì zuì xīnxiān de."
+    },
+    {
+      "speaker": "b",
+      "text": "好吧，那就十三块五。我们今天就签合同。",
+      "reading": "Hǎo ba, nà jiù shísān kuài wǔ. Wǒmen jīntiān jiù qiān hétong."
+    },
+    {
+      "speaker": "c",
+      "text": "太好了！合作愉快！",
+      "reading": "Tài hǎo le! Hézuò yúkuài!"
+    }
+  ]
+}

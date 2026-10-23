@@ -1,0 +1,100 @@
+{
+  "id": "zh-F5-02",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.ke-hu",
+      "text": "客户",
+      "reading": "kèhù"
+    },
+    {
+      "id": "zh.shi-chang",
+      "text": "市场",
+      "reading": "shìchǎng"
+    },
+    {
+      "id": "zh.pin-pai",
+      "text": "品牌",
+      "reading": "pǐnpái"
+    },
+    {
+      "id": "zh.tui-chu",
+      "text": "推出",
+      "reading": "tuīchū"
+    },
+    {
+      "id": "zh.shang-ye",
+      "text": "商业",
+      "reading": "shāngyè"
+    },
+    {
+      "id": "zh.xiao-shou",
+      "text": "销售",
+      "reading": "xiāoshòu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "欢迎您来我们公司！我先给您介绍一下我们的产品。",
+      "reading": "Huānyíng nín lái wǒmen gōngsī! Wǒ xiān gěi nín jièshào yīxià wǒmen de chǎnpǐn."
+    },
+    {
+      "speaker": "b",
+      "text": "好的，谢谢。听说你们的椰子在泰国很有名。",
+      "reading": "Hǎo de, xièxie. Tīngshuō nǐmen de yēzi zài Tàiguó hěn yǒumíng."
+    },
+    {
+      "speaker": "a",
+      "text": "对。我们的产品以新鲜椰子为主，也有椰子水和椰子糖。",
+      "reading": "Duì. Wǒmen de chǎnpǐn yǐ xīnxiān yēzi wéi zhǔ, yě yǒu yēzishuǐ hé yēzitáng."
+    },
+    {
+      "speaker": "b",
+      "text": "你们的客户主要在哪儿？",
+      "reading": "Nǐmen de kèhù zhǔyào zài nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "我们的客户以中国的超市为主，在泰国本地的市场也卖一部分。",
+      "reading": "Wǒmen de kèhù yǐ Zhōngguó de chāoshì wéi zhǔ, zài Tàiguó běndì de shìchǎng yě mài yī bùfen."
+    },
+    {
+      "speaker": "b",
+      "text": "你们有自己的品牌吗？",
+      "reading": "Nǐmen yǒu zìjǐ de pǐnpái ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。去年我们推出了自己的椰子水品牌，在中国卖得很好。",
+      "reading": "Yǒu. Qùnián wǒmen tuīchū le zìjǐ de yēzishuǐ pǐnpái, zài Zhōngguó mài de hěn hǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "销售情况怎么样？",
+      "reading": "Xiāoshòu qíngkuàng zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "去年的销售比前一年增加了百分之三十。",
+      "reading": "Qùnián de xiāoshòu bǐ qián yī nián zēngjiā le bǎi fēn zhī sānshí."
+    },
+    {
+      "speaker": "b",
+      "text": "不错。现在中国的年轻人很喜欢喝椰子水，商业前景很好。",
+      "reading": "Bùcuò. Xiànzài Zhōngguó de niánqīngrén hěn xǐhuan hē yēzishuǐ, shāngyè qiánjǐng hěn hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "是的。我们的目标客户也以年轻人为主。",
+      "reading": "Shì de. Wǒmen de mùbiāo kèhù yě yǐ niánqīngrén wéi zhǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "很好。参观完工厂以后，我们再详细讨论一下合作。",
+      "reading": "Hěn hǎo. Cānguān wán gōngchǎng yǐhòu, wǒmen zài xiángxì tǎolùn yīxià hézuò."
+    }
+  ]
+}

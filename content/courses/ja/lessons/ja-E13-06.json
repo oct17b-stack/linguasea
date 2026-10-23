@@ -1,0 +1,100 @@
+{
+  "id": "ja-E13-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.ikichigai",
+      "text": "行き違い",
+      "reading": "ikichigai"
+    },
+    {
+      "id": "ja.surechigai",
+      "text": "すれ違い",
+      "reading": "surechigai"
+    },
+    {
+      "id": "ja.hanashiai",
+      "text": "話し合い",
+      "reading": "hanashiai"
+    },
+    {
+      "id": "ja.shazai",
+      "text": "しゃざい",
+      "reading": "shazai"
+    },
+    {
+      "id": "ja.hansei",
+      "text": "はんせい",
+      "reading": "hansei"
+    },
+    {
+      "id": "ja.oreru",
+      "text": "折れる",
+      "reading": "oreru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、かおがあかるくなったね。かれとは、どうなったの？",
+      "reading": "Yuki, kao ga akaruku natta ne. Kare to wa, dō natta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "きのう、ゆっくり話し合いをしたの。そうしたら、けんかというより、行き違いだったことがわかったの。",
+      "reading": "Kinō, yukkuri hanashiai o shita no. Sō shitara, kenka to iu yori, ikichigai datta koto ga wakatta no."
+    },
+    {
+      "speaker": "a",
+      "text": "行き違い？",
+      "reading": "Ikichigai?"
+    },
+    {
+      "speaker": "c",
+      "text": "かげぐちは、じつは、ともだちの前でわたしのりょうりのはなしをして、みんなでわらっていただけなんだって。悪口というより、じょうだんだったみたい。",
+      "reading": "Kageguchi wa, jitsu wa, tomodachi no mae de watashi no ryōri no hanashi o shite, minna de waratte ita dake na n da tte. Warukuchi to iu yori, jōdan datta mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだったんだ。でも、目をそらしたのは？",
+      "reading": "Sō datta n da. Demo, me o sorashita no wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしがおこっていると思って、話しかけるのがこわかったんだって。",
+      "reading": "Watashi ga okotte iru to omotte, hanashikakeru no ga kowakatta n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "なるほど。ふたりとも、すれ違いがあったんだね。",
+      "reading": "Naruhodo. Futaritomo, surechigai ga atta n da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。かれが、ていねいにしゃざいしてくれたの。",
+      "reading": "Un. Kare ga, teinei ni shazai shite kureta no."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったね。",
+      "reading": "Yokatta ne."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも、すぐにわるいほうに考えたことを、はんせいしたよ。",
+      "reading": "Watashi mo, sugu ni warui hō ni kangaeta koto o, hansei shita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "それで、どっちが折れたの？",
+      "reading": "Sore de, dotchi ga oreta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしが折れたというより、ふたりとも、すこしずつゆずったかな。",
+      "reading": "Watashi ga oreta to iu yori, futaritomo, sukoshi zutsu yuzutta ka na."
+    }
+  ]
+}

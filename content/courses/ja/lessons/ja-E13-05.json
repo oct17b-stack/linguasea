@@ -1,0 +1,95 @@
+{
+  "id": "ja-E13-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.fuman",
+      "text": "不満",
+      "reading": "fuman"
+    },
+    {
+      "id": "ja.erasou",
+      "text": "偉そう",
+      "reading": "erasō"
+    },
+    {
+      "id": "ja.kuchidake",
+      "text": "口だけ",
+      "reading": "kuchidake"
+    },
+    {
+      "id": "ja.semeru",
+      "text": "責める",
+      "reading": "semeru"
+    },
+    {
+      "id": "ja.namaiki",
+      "text": "生意気",
+      "reading": "namaiki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、かれとはなせた？",
+      "reading": "Yuki, kare to hanaseta?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん、きのうはなした。でも、不満がいっぱいあって、なかなかおわらなかった。",
+      "reading": "Un, kinō hanashita. Demo, fuman ga ippai atte, nakanaka owaranakatta."
+    },
+    {
+      "speaker": "a",
+      "text": "どんな不満？",
+      "reading": "Donna fuman?"
+    },
+    {
+      "speaker": "c",
+      "text": "かれ、いつも「いそがしい」って言うくせに、一日中ゲームばかりしているの。",
+      "reading": "Kare, itsumo \"isogashii\" tte iu kuse ni, ichinichijū gēmu bakari shite iru no."
+    },
+    {
+      "speaker": "a",
+      "text": "それは、こまるね。",
+      "reading": "Sore wa, komaru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "それに、りょうりもできないくせに、わたしのりょうりに、偉そうにもんくを言うの。",
+      "reading": "Sore ni, ryōri mo dekinai kuse ni, watashi no ryōri ni, erasō ni monku o iu no."
+    },
+    {
+      "speaker": "a",
+      "text": "かれは、作らないくせにね。",
+      "reading": "Kare wa, tsukuranai kuse ni ne."
+    },
+    {
+      "speaker": "c",
+      "text": "「こんどはてつだう」って言うけど、いつも口だけなの。",
+      "reading": "\"Kondo wa tetsudau\" tte iu kedo, itsumo kuchidake na no."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、かれをあまり責めると、けんかになっちゃうよ。",
+      "reading": "Demo, kare o amari semeru to, kenka ni natchau yo."
+    },
+    {
+      "speaker": "c",
+      "text": "わかってる。でも、わたしがすこし言っただけで、「生意気だ」って言うんだよ。",
+      "reading": "Wakatteru. Demo, watashi ga sukoshi itta dake de, \"namaiki da\" tte iu n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "それは、ゆきがわるいわけじゃないよ。",
+      "reading": "Sore wa, Yuki ga warui wake ja nai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。ナムにはなしたら、すこしすっきりした。",
+      "reading": "Arigatō. Namu ni hanashitara, sukoshi sukkiri shita."
+    }
+  ]
+}

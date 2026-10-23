@@ -1,0 +1,96 @@
+{
+  "id": "zh-F5-04",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.jiao-huo",
+      "text": "交货",
+      "reading": "jiāohuò"
+    },
+    {
+      "id": "zh.fu-kuan",
+      "text": "付款",
+      "reading": "fùkuǎn"
+    },
+    {
+      "id": "zh.yun-shu",
+      "text": "运输",
+      "reading": "yùnshū"
+    },
+    {
+      "id": "zh.ru-qi",
+      "kind": "phrase",
+      "text": "如期",
+      "reading": "rúqī"
+    },
+    {
+      "id": "zh.an",
+      "text": "按",
+      "reading": "àn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "价格没问题了，我们再说说交货的时间吧。",
+      "reading": "Jiàgé méi wèntí le, wǒmen zài shuōshuo jiāohuò de shíjiān ba."
+    },
+    {
+      "speaker": "a",
+      "text": "您希望什么时候交货？",
+      "reading": "Nín xīwàng shénme shíhou jiāohuò?"
+    },
+    {
+      "speaker": "b",
+      "text": "九月有中秋节，超市需要很多椰子。你们能在八月二十号以前交货吗？",
+      "reading": "Jiǔ yuè yǒu Zhōngqiūjié, chāoshì xūyào hěn duō yēzi. Nǐmen néng zài bā yuè èrshí hào yǐqián jiāohuò ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没问题，我们会如期交货。",
+      "reading": "Méi wèntí, wǒmen huì rúqī jiāohuò."
+    },
+    {
+      "speaker": "b",
+      "text": "运输怎么安排？椰子很怕热。",
+      "reading": "Yùnshū zěnme ānpái? Yēzi hěn pà rè."
+    },
+    {
+      "speaker": "a",
+      "text": "我们用船运输，大约七天就能到上海。路上我们会保证椰子新鲜。",
+      "reading": "Wǒmen yòng chuán yùnshū, dàyuē qī tiān jiù néng dào Shànghǎi. Lùshang wǒmen huì bǎozhèng yēzi xīnxiān."
+    },
+    {
+      "speaker": "b",
+      "text": "好。那付款方式呢？",
+      "reading": "Hǎo. Nà fùkuǎn fāngshì ne?"
+    },
+    {
+      "speaker": "c",
+      "text": "按我们公司的规定，签合同以后先付百分之三十，收到椰子以后再付剩下的钱。",
+      "reading": "Àn wǒmen gōngsī de guīdìng, qiān hétong yǐhòu xiān fù bǎi fēn zhī sānshí, shōudào yēzi yǐhòu zài fù shèngxia de qián."
+    },
+    {
+      "speaker": "b",
+      "text": "可以。不过，如果你们不能如期交货，怎么办？",
+      "reading": "Kěyǐ. Bùguò, rúguǒ nǐmen bù néng rúqī jiāohuò, zěnme bàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "按合同，晚一天交货，价格就便宜百分之一。",
+      "reading": "Àn hétong, wǎn yī tiān jiāohuò, jiàgé jiù piányi bǎi fēn zhī yī."
+    },
+    {
+      "speaker": "b",
+      "text": "好，这样我就放心了。",
+      "reading": "Hǎo, zhèyàng wǒ jiù fàngxīn le."
+    },
+    {
+      "speaker": "c",
+      "text": "请放心，我们一定按时交货。",
+      "reading": "Qǐng fàngxīn, wǒmen yīdìng ànshí jiāohuò."
+    }
+  ]
+}

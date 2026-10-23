@@ -1,0 +1,100 @@
+{
+  "id": "ja-E13-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.jijou",
+      "text": "事情",
+      "reading": "jijō"
+    },
+    {
+      "id": "ja.nattoku",
+      "text": "なっとく",
+      "reading": "nattoku"
+    },
+    {
+      "id": "ja.douri-de",
+      "text": "道理で",
+      "reading": "dōri de"
+    },
+    {
+      "id": "ja.yousuruni",
+      "text": "要するに",
+      "reading": "yōsuruni"
+    },
+    {
+      "id": "ja.haikei",
+      "text": "背景",
+      "reading": "haikei"
+    },
+    {
+      "id": "ja.ikisatsu",
+      "text": "いきさつ",
+      "reading": "ikisatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、どうして3日もへんじをくれなかったの？しんぱいしたんだよ。",
+      "reading": "Namu, dōshite mikka mo henji o kurenakatta no? Shinpai shita n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ごめんね。じつは、事情があって…。スマホをおふろにおとして、こわしちゃったの。",
+      "reading": "Gomen ne. Jitsu wa, jijō ga atte…. Sumaho o ofuro ni otoshite, kowashichatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "えっ、おふろに？",
+      "reading": "E, ofuro ni?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。しゅうりをたのんだら、なおるまで3日かかるって言われて。そのあいだ、ゆきのメッセージも見られなかったの。",
+      "reading": "Un. Shūri o tanondara, naoru made mikka kakaru tte iwarete. Sono aida, Yuki no messēji mo mirarenakatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだったんだ。道理で、きどくにならなかったわけだ。",
+      "reading": "Sō datta n da. Dōri de, kidoku ni naranakatta wake da."
+    },
+    {
+      "speaker": "a",
+      "text": "パソコンから、れんらくしようと思ったんだけど、パスワードがわからなくて…。",
+      "reading": "Pasokon kara, renraku shiyō to omotta n da kedo, pasuwādo ga wakaranakute…."
+    },
+    {
+      "speaker": "c",
+      "text": "要するに、れんらくしたくても、できなかったってこと？",
+      "reading": "Yōsuruni, renraku shitakute mo, dekinakatta tte koto?"
+    },
+    {
+      "speaker": "a",
+      "text": "そういうこと。ほんとうにごめんね。",
+      "reading": "Sō iu koto. Hontō ni gomen ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そういう背景があったんだね。いきさつがわかって、なっとくしたよ。ナムがおこっているのかと思った。",
+      "reading": "Sō iu haikei ga atta n da ne. Ikisatsu ga wakatte, nattoku shita yo. Namu ga okotte iru no ka to omotta."
+    },
+    {
+      "speaker": "a",
+      "text": "そんなことないよ！でも、ゆきからメッセージがたくさんきていて、びっくりした。",
+      "reading": "Sonna koto nai yo! Demo, Yuki kara messēji ga takusan kite ite, bikkuri shita."
+    },
+    {
+      "speaker": "c",
+      "text": "だって、その3日のあいだに、わたしのたんじょうびがあったんだもん。",
+      "reading": "Datte, sono mikka no aida ni, watashi no tanjōbi ga atta n da mon."
+    },
+    {
+      "speaker": "a",
+      "text": "あっ…！それで、メッセージがおおかったわけか。",
+      "reading": "A…! Sore de, messēji ga ōkatta wake ka."
+    }
+  ]
+}

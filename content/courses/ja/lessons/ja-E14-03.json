@@ -1,0 +1,100 @@
+{
+  "id": "ja-E14-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.jiki",
+      "text": "時期",
+      "reading": "jiki"
+    },
+    {
+      "id": "ja.migoro",
+      "text": "みごろ",
+      "reading": "migoro"
+    },
+    {
+      "id": "ja.hizashi",
+      "text": "日差し",
+      "reading": "hizashi"
+    },
+    {
+      "id": "ja.hiyakedome",
+      "text": "ひやけどめ",
+      "reading": "hiyakedome"
+    },
+    {
+      "id": "ja.kankoukyaku",
+      "text": "観光客",
+      "reading": "kankōkyaku"
+    },
+    {
+      "id": "ja.nenjuu",
+      "text": "年中",
+      "reading": "nenjū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、アユタヤにくるなら、いつがいちばんいい時期ですか。",
+      "reading": "Namu-san, Ayutaya ni kuru nara, itsu ga ichiban ii jiki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "11月から2月にかけてが、いちばんいいと思います。あまりあつくなくて、あめもすくないですから。",
+      "reading": "Jūichigatsu kara nigatsu ni kakete ga, ichiban ii to omoimasu. Amari atsuku nakute, ame mo sukunai desu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "3月から5月にかけては、どうですか。",
+      "reading": "Sangatsu kara gogatsu ni kakete wa, dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "その時期は、一年でいちばんあついです。日差しがとてもつよいので、ひやけどめがひつようです。",
+      "reading": "Sono jiki wa, ichinen de ichiban atsui desu. Hizashi ga totemo tsuyoi node, hiyakedome ga hitsuyō desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いまも、日差しがつよいですね。ひやけどめを、持ってくればよかった。",
+      "reading": "Ima mo, hizashi ga tsuyoi desu ne. Hiyakedome o, motte kureba yokatta."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったら、わたしのを、つかってください。",
+      "reading": "Yokattara, watashi no o, tsukatte kudasai."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。6月から10月にかけては？",
+      "reading": "Arigatō gozaimasu. Rokugatsu kara jūgatsu ni kakete wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "あめのきせつです。でも、あめのあとは、まちのみどりが、とてもきれいなんですよ。",
+      "reading": "Ame no kisetsu desu. Demo, ame no ato wa, machi no midori ga, totemo kirei na n desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "タイは、年中あついんですね。",
+      "reading": "Tai wa, nenjū atsui n desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、あつい時期には、タイのくにのはなが、みごろになります。きいろくて、とてもきれいですよ。",
+      "reading": "Hai. Demo, atsui jiki ni wa, Tai no kuni no hana ga, migoro ni narimasu. Kiirokute, totemo kirei desu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "観光客は、いつがおおいですか。",
+      "reading": "Kankōkyaku wa, itsu ga ōi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "12月から1月にかけてが、いちばんおおいです。にほんからの観光客も、その時期がおおいですよ。",
+      "reading": "Jūnigatsu kara ichigatsu ni kakete ga, ichiban ōi desu. Nihon kara no kankōkyaku mo, sono jiki ga ōi desu yo."
+    }
+  ]
+}

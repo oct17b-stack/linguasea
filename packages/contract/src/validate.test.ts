@@ -1,4 +1,4 @@
-import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
@@ -11,12 +11,23 @@ import { validate } from './validate';
 const temps: string[] = [];
 afterEach(() => temps.splice(0).forEach((d) => rmSync(d, { recursive: true, force: true })));
 
-/** A scratch copy of the real content that a test can break. */
-function copy(): string {
+/**
+ * A scratch copy of the real content that a test can break: only the given courses (with their
+ * explanation layers), since copying and validating all of them takes a long time.
+ */
+function copy(...targets: string[]): string {
   const dir = mkdtempSync(join(tmpdir(), 'content-'));
   temps.push(dir);
-  // Generated audio is large and irrelevant to validation.
-  cpSync(contentRoot, dir, { recursive: true, filter: (src) => !src.includes(`${contentRoot}/audio/`) });
+  for (const t of targets) cpSync(join(contentRoot, 'courses', t), join(dir, 'courses', t), { recursive: true });
+  for (const l1 of readdirSync(join(contentRoot, 'l1'))) {
+    const from = join(contentRoot, 'l1', l1);
+    for (const f of ['meta.json', 'ui.json']) cpSync(join(from, f), join(dir, 'l1', l1, f));
+    for (const t of targets) if (existsSync(join(from, t))) cpSync(join(from, t), join(dir, 'l1', l1, t), { recursive: true });
+    // Only the copied courses can be released.
+    edit(join(dir, 'l1', l1, 'meta.json'), (m) => {
+      if (Array.isArray(m.released)) m.released = m.released.filter((t: string) => targets.includes(t));
+    });
+  }
   return dir;
 }
 
@@ -48,13 +59,13 @@ describe('content', () => {
 
 describe('validate', () => {
   it('catches a lesson listed in the course but missing', () => {
-    const root = copy();
+    const root = copy('zh');
     rmSync(join(root, 'courses/zh/lessons/zh-B1-01.json'));
     expect(messages(root)).toContain('courses/zh/course.json: lesson zh-B1-01 has no file');
   });
 
   it('catches an item id reused with a different text', () => {
-    const root = copy();
+    const root = copy('zh');
     const word = firstWord(root, 'zh', 'zh-A1-01');
     edit(join(root, 'courses/zh/lessons/zh-B1-01.json'), (l) => {
       l.items.push({ ...word, text: `${word.text}吗` });
@@ -63,7 +74,7 @@ describe('validate', () => {
   });
 
   it('catches an exercise on a word the lesson does not teach', () => {
-    const root = copy();
+    const root = copy('ja');
     const other = firstWord(root, 'ja', 'ja-B1-01');
     edit(join(root, 'courses/ja/lessons/ja-A1-01.json'), (l) => {
       l.exercises = [...(l.exercises ?? []), { type: 'speak', item: other.id }];
@@ -74,7 +85,7 @@ describe('validate', () => {
   });
 
   it('catches a missing explanation in a released course', () => {
-    const root = copy();
+    const root = copy('ko');
     const word = firstWord(root, 'ko', 'ko-A1-01');
     const lines = read(join(root, 'courses/ko/lessons/ko-A1-01.json')).dialogue.length;
     edit(join(root, 'l1/th/ko/lessons/ko-A1-01.json'), (g) => {
@@ -87,13 +98,13 @@ describe('validate', () => {
   });
 
   it('catches a lesson without explanation in a released course', () => {
-    const root = copy();
+    const root = copy('en');
     rmSync(join(root, 'l1/th/en/lessons/en-B1-01.json'));
     expect(messages(root)).toContain('l1/th/en: released but lesson en-B1-01 has no explanation');
   });
 
   it('requires every L1 to have the same UI keys as Thai', () => {
-    const root = copy();
+    const root = copy('en');
     cpSync(join(root, 'l1/th'), join(root, 'l1/vi'), { recursive: true });
     edit(join(root, 'l1/vi/meta.json'), (m) => {
       m.l1 = 'vi';
@@ -106,7 +117,7 @@ describe('validate', () => {
   });
 
   it('reports schema errors with the field path', () => {
-    const root = copy();
+    const root = copy('en');
     edit(join(root, 'courses/en/lessons/en-A1-01.json'), (l) => {
       l.items[0].id = 'Hello';
     });
@@ -116,7 +127,7 @@ describe('validate', () => {
 
 describe('exercises', () => {
   it('rejects a wrong answer of another kind or one that sounds the same', () => {
-    const root = copy();
+    const root = copy('zh');
     const word = firstWord(root, 'zh', 'zh-A1-01');
     edit(join(root, 'courses/zh/lessons/zh-A1-01.json'), (l) => {
       l.items.push({ id: 'zh.test-he', text: '他测', reading: 'tā cè' }, { id: 'zh.test-she', text: '她测', reading: 'tā cè' });
@@ -193,7 +204,7 @@ describe('readers', () => {
   }
 
   it('checks the passage translation shape and the answer index', () => {
-    const root = copy();
+    const root = copy('zh');
     addReader(root, { passage: [['แม่ไปตลาด', 'เกิน']] });
     const m = messages(root);
     expect(m).toContain('l1/th/zh/lessons/zh-B1-r09.json: passage translations [2] do not match the passage\'s paragraphs/sentences [1]');
@@ -201,7 +212,7 @@ describe('readers', () => {
   });
 
   it('accepts a well-formed reader', () => {
-    const root = copy();
+    const root = copy('zh');
     addReader(root, { questions: [{ prompt: 'ใครไปตลาด', options: ['พ่อ', 'แม่', 'น้อง'] }] });
     expect(messages(root).filter((m) => m.includes('zh-B1-r09'))).toEqual([]);
   });
