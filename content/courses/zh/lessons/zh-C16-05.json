@@ -1,0 +1,71 @@
+{
+  "id": "zh-C16-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.xiu",
+      "text": "修",
+      "reading": "xiū"
+    },
+    {
+      "id": "zh.mei-dian",
+      "kind": "phrase",
+      "text": "没电",
+      "reading": "méi diàn"
+    },
+    {
+      "id": "zh.guan-ji",
+      "text": "关机",
+      "reading": "guānjī"
+    },
+    {
+      "id": "zh.kai-ji",
+      "text": "开机",
+      "reading": "kāijī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我的手机坏了，怎么办？",
+      "reading": "Wáng Míng, wǒ de shǒujī huài le, zěnme bàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "别着急。怎么了？",
+      "reading": "Bié zháojí. Zěnme le?"
+    },
+    {
+      "speaker": "a",
+      "text": "刚才手机自己关机了，现在不能开机了。",
+      "reading": "Gāngcái shǒujī zìjǐ guānjī le, xiànzài bù néng kāijī le."
+    },
+    {
+      "speaker": "b",
+      "text": "是不是没电了？",
+      "reading": "Shì bù shì méi diàn le?"
+    },
+    {
+      "speaker": "a",
+      "text": "不会吧？我早上充电了。",
+      "reading": "Bù huì ba? Wǒ zǎoshang chōngdiàn le."
+    },
+    {
+      "speaker": "b",
+      "text": "你用我的充电器试试。",
+      "reading": "Nǐ yòng wǒ de chōngdiànqì shìshi."
+    },
+    {
+      "speaker": "a",
+      "text": "……开机了！真的是没电了。",
+      "reading": "…… kāijī le! Zhēnde shì méi diàn le."
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，你的手机没坏，不用修了！",
+      "reading": "Hāhā, nǐ de shǒujī méi huài, bùyòng xiū le!"
+    }
+  ]
+}

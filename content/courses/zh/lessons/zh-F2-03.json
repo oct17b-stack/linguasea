@@ -1,0 +1,86 @@
+{
+  "id": "zh-F2-03",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.da-yue",
+      "text": "大约",
+      "reading": "dàyuē"
+    },
+    {
+      "id": "zh.xia-jiang",
+      "text": "下降",
+      "reading": "xiàjiàng"
+    },
+    {
+      "id": "zh.bi-li",
+      "text": "比例",
+      "reading": "bǐlì"
+    },
+    {
+      "id": "zh.shu-ju",
+      "text": "数据",
+      "reading": "shùjù"
+    },
+    {
+      "id": "zh.bai-fen-zhi",
+      "kind": "phrase",
+      "text": "百分之",
+      "reading": "bǎi fēn zhī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你知道吗？调查显示，大约百分之三十的年轻人经常不吃早饭。",
+      "reading": "Xiǎonán, nǐ zhīdào ma? Diàochá xiǎnshì, dàyuē bǎi fēn zhī sānshí de niánqīngrén jīngcháng bù chī zǎofàn."
+    },
+    {
+      "speaker": "a",
+      "text": "百分之三十？这个比例比我想的高多了。这些数据是从哪儿来的？",
+      "reading": "Bǎi fēn zhī sānshí? Zhège bǐlì bǐ wǒ xiǎng de gāo duō le. Zhèxiē shùjù shì cóng nǎr lái de?"
+    },
+    {
+      "speaker": "b",
+      "text": "是一所大学做的调查，问了五千多个十八到三十岁的人。",
+      "reading": "Shì yī suǒ dàxué zuò de diàochá, wèn le wǔqiān duō ge shíbā dào sānshí suì de rén."
+    },
+    {
+      "speaker": "a",
+      "text": "他们为什么不吃早饭？",
+      "reading": "Tāmen wèi shénme bù chī zǎofàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "一半的人说早上起不来，还有百分之二十的人说没有时间。",
+      "reading": "Yībàn de rén shuō zǎoshang qǐ bu lái, hái yǒu bǎi fēn zhī èrshí de rén shuō méiyǒu shíjiān."
+    },
+    {
+      "speaker": "a",
+      "text": "我以前也是这样。可是来北京以后，我每天都吃早饭。",
+      "reading": "Wǒ yǐqián yě shì zhèyàng. Kěshì lái Běijīng yǐhòu, wǒ měitiān dōu chī zǎofàn."
+    },
+    {
+      "speaker": "b",
+      "text": "报道里还有一个数据：跟十年前相比，每天吃早饭的年轻人的比例下降了百分之十。",
+      "reading": "Bàodào li hái yǒu yī ge shùjù: gēn shí nián qián xiāngbǐ, měitiān chī zǎofàn de niánqīngrén de bǐlì xiàjiàng le bǎi fēn zhī shí."
+    },
+    {
+      "speaker": "a",
+      "text": "这可不是好消息。不吃早饭对身体很不好。",
+      "reading": "Zhè kě bù shì hǎo xiāoxi. Bù chī zǎofàn duì shēntǐ hěn bù hǎo."
+    },
+    {
+      "speaker": "b",
+      "text": "所以我才约你周末一起出来吃早饭啊！",
+      "reading": "Suǒyǐ wǒ cái yuē nǐ zhōumò yīqǐ chūlái chī zǎofàn a!"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，谢谢！那今天的包子我请客。",
+      "reading": "Hāhā, xièxie! Nà jīntiān de bāozi wǒ qǐngkè."
+    }
+  ]
+}
