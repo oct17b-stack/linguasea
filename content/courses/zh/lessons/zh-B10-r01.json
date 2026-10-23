@@ -1,0 +1,61 @@
+{
+  "id": "zh-B10-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.cao-chang",
+      "text": "操场",
+      "reading": "cāochǎng"
+    },
+    {
+      "id": "zh.pao",
+      "text": "跑",
+      "reading": "pǎo"
+    },
+    {
+      "id": "zh.zui-hou",
+      "text": "最后",
+      "reading": "zuìhòu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "这个星期五下午，我们班去操场跑。",
+        "reading": "Zhège xīngqīwǔ xiàwǔ, wǒmen bān qù cāochǎng pǎo."
+      },
+      {
+        "text": "男生两点跑，女生三点跑。",
+        "reading": "Nánshēng liǎng diǎn pǎo, nǚshēng sān diǎn pǎo."
+      },
+      {
+        "text": "最后，四点，老师和同学一起跑！",
+        "reading": "Zuìhòu, sì diǎn, lǎoshī hé tóngxué yīqǐ pǎo!"
+      }
+    ],
+    [
+      {
+        "text": "请大家一点半在操场见。",
+        "reading": "Qǐng dàjiā yī diǎn bàn zài cāochǎng jiàn."
+      },
+      {
+        "text": "请早一点儿来！",
+        "reading": "Qǐng zǎo yīdiǎnr lái!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

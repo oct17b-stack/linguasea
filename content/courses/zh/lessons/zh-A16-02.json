@@ -1,0 +1,51 @@
+{
+  "id": "zh-A16-02",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.zhen-de",
+      "text": "真的",
+      "reading": "zhēnde"
+    },
+    {
+      "id": "zh.shi-ma",
+      "kind": "phrase",
+      "text": "是吗？",
+      "reading": "shì ma?"
+    },
+    {
+      "id": "zh.mei-cuo",
+      "text": "没错",
+      "reading": "méicuò"
+    },
+    {
+      "id": "zh.ye-xu",
+      "text": "也许",
+      "reading": "yěxǔ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是你的新手机吗？",
+      "reading": "Xiǎonán, zhè shì nǐ de xīn shǒujī ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没错！我爸爸送我的。",
+      "reading": "Méicuò! Wǒ bàba sòng wǒ de."
+    },
+    {
+      "speaker": "b",
+      "text": "是吗？我也要新手机……",
+      "reading": "Shì ma? Wǒ yě yào xīn shǒujī……"
+    },
+    {
+      "speaker": "a",
+      "text": "也许你爸爸也送你！",
+      "reading": "Yěxǔ nǐ bàba yě sòng nǐ!"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "zh-D5-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.dao-qian",
+      "text": "道歉",
+      "reading": "dàoqiàn"
+    },
+    {
+      "id": "zh.wu-hui",
+      "text": "误会",
+      "reading": "wùhuì"
+    },
+    {
+      "id": "zh.zhu-dong",
+      "text": "主动",
+      "reading": "zhǔdòng"
+    },
+    {
+      "id": "zh.he-hao",
+      "text": "和好",
+      "reading": "héhǎo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南搬进新家的第二天，楼下的邻居来敲她的门。",
+        "reading": "Xiǎonán bān jìn xīn jiā de dì-èr tiān, lóuxià de línjū lái qiāo tā de mén."
+      },
+      {
+        "text": "他说小南的朋友半夜太吵，还敲了他的门。",
+        "reading": "Tā shuō Xiǎonán de péngyou bànyè tài chǎo, hái qiāo le tā de mén."
+      },
+      {
+        "text": "小南道歉了，可是她知道，敲门的人不是她的朋友。",
+        "reading": "Xiǎonán dàoqiàn le, kěshì tā zhīdào, qiāo mén de rén bù shì tā de péngyou."
+      }
+    ],
+    [
+      {
+        "text": "第二天，小南主动去楼下找邻居，还给他带了一些泰国咖啡。",
+        "reading": "Dì-èr tiān, Xiǎonán zhǔdòng qù lóuxià zhǎo línjū, hái gěi tā dài le yīxiē Tàiguó kāfēi."
+      },
+      {
+        "text": "她说：“那天晚上我们太吵了，真对不起。”",
+        "reading": "Tā shuō: \"Nà tiān wǎnshang wǒmen tài chǎo le, zhēn duìbuqǐ.\""
+      },
+      {
+        "text": "“可是半夜敲门的人不是我们。”",
+        "reading": "\"Kěshì bànyè qiāo mén de rén bù shì wǒmen.\""
+      },
+      {
+        "text": "邻居说：“对不起，是我误会你们了。”",
+        "reading": "Línjū shuō: \"Duìbuqǐ, shì wǒ wùhuì nǐmen le.\""
+      }
+    ],
+    [
+      {
+        "text": "从那天以后，他们常常在楼梯上打招呼。",
+        "reading": "Cóng nà tiān yǐhòu, tāmen chángcháng zài lóutī shang dǎ zhāohu."
+      },
+      {
+        "text": "邻居是医生，小南感冒的时候，他还给她送了药。",
+        "reading": "Línjū shì yīshēng, Xiǎonán gǎnmào de shíhou, tā hái gěi tā sòng le yào."
+      },
+      {
+        "text": "他们和好了，现在是好朋友。",
+        "reading": "Tāmen héhǎo le, xiànzài shì hǎo péngyou."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}
