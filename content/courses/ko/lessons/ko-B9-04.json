@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.dae",
+      "text": "대",
+      "reading": "dae"
+    },
+    {
+      "id": "ko.jadongcha",
+      "text": "자동차",
+      "reading": "jadongcha"
+    },
+    {
+      "id": "ko.jajeongeo",
+      "text": "자전거",
+      "reading": "jajeongeo"
+    },
+    {
+      "id": "ko.kikbodeu",
+      "text": "킥보드",
+      "reading": "kikbodeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨 집에 자동차 있어요?",
+      "reading": "Minjun ssi jibe jadongcha isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 자동차 한 대 있어요. 아버지 거예요.",
+      "reading": "Ne, jadongcha han dae isseoyo. Abeoji geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "자전거도 있어요?",
+      "reading": "Jajeongeodo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "자전거는 두 대 있어요. 저는 매일 자전거를 타요.",
+      "reading": "Jajeongeoneun du dae isseoyo. Jeoneun maeil jajeongeoreul tayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 킥보드를 타요. 학교 앞에 킥보드가 많아요.",
+      "reading": "Jeoneun kikbodeureul tayo. Hakgyo ape kikbodeuga manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 킥보드요? 재미있어요?",
+      "reading": "Wa, kikbodeuyo? Jaemiisseoyo?"
+    }
+  ]
+}

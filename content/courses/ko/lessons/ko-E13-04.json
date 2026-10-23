@@ -1,0 +1,87 @@
+{
+  "id": "ko-E13-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gibun-jeonhwan",
+      "text": "기분 전환",
+      "reading": "gibun jeonhwan",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.uul-hada",
+      "text": "우울하다",
+      "reading": "uulhada"
+    },
+    {
+      "id": "ko.honjanmal",
+      "text": "혼잣말",
+      "reading": "honjanmal"
+    },
+    {
+      "id": "ko.wiro-hada",
+      "text": "위로하다",
+      "reading": "wirohada"
+    },
+    {
+      "id": "ko.giuneul-naeda",
+      "text": "기운을 내다",
+      "reading": "giuneul naeda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 우울할 때는 보통 뭐 해요?",
+      "reading": "Nam ssi, uulhal ttaeneun botong mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 한강에 가서 산책하곤 해요. 강을 보면 기분 전환이 돼요.",
+      "reading": "Jeoneun Hangange gaseo sanchaekagon haeyo. Gangeul bomyeon gibun jeonhwani dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋네요. 저는 노래방에 가서 큰 소리로 노래를 부르곤 해요.",
+      "reading": "Jonneyo. Jeoneun noraebange gaseo keun soriro noraereul bureugon haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 스트레스가 다 풀리겠네요.",
+      "reading": "Haha, seuteureseuga da pulligenneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 가끔 혼잣말도 해요. \"민준아, 힘내!\" 이렇게요.",
+      "reading": "Geurigo gakkeum honjanmaldo haeyo. \"Minjuna, himnae!\" ireokeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 혼잣말을 하곤 해요. 태국어로요.",
+      "reading": "Jeodo honjanmareul hagon haeyo. Taegugeoroyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 친구가 우울할 때는 어떻게 위로해요?",
+      "reading": "Geureom chinguga uulhal ttaeneun eotteoke wirohaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "옆에서 이야기를 들어 줘요. 그리고 맛있는 걸 사 주곤 해요.",
+      "reading": "Yeopeseo iyagireul deureo jwoyo. Geurigo masinneun geol sa jugon haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨 같은 친구가 있으면 기운이 나겠어요.",
+      "reading": "Nam ssi gateun chinguga isseumyeon giuni nagesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨도 힘들 때는 혼자 있지 말고 연락하세요. 같이 기운을 내요!",
+      "reading": "Minjun ssido himdeul ttaeneun honja itji malgo yeollakaseyo. Gachi giuneul naeyo!"
+    }
+  ]
+}

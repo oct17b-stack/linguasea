@@ -1,0 +1,70 @@
+{
+  "id": "ko-B11-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.deuseyo",
+      "text": "드세요",
+      "reading": "deuseyo"
+    },
+    {
+      "id": "ko.siksa",
+      "text": "식사",
+      "reading": "siksa"
+    },
+    {
+      "id": "ko.mullyak",
+      "text": "물약",
+      "reading": "mullyak"
+    },
+    {
+      "id": "ko.unjeon",
+      "text": "운전",
+      "reading": "unjeon"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "이 약은 하루에 세 번 드세요.",
+        "reading": "I yageun harue se beon deuseyo."
+      },
+      {
+        "text": "식사 후에 드세요.",
+        "reading": "Siksa hue deuseyo."
+      },
+      {
+        "text": "물약은 밤에 한 번 드세요.",
+        "reading": "Mullyageun bame han beon deuseyo."
+      }
+    ],
+    [
+      {
+        "text": "물을 많이 드세요.",
+        "reading": "Mureul mani deuseyo."
+      },
+      {
+        "text": "운전하지 마세요.",
+        "reading": "Unjeonhaji maseyo."
+      },
+      {
+        "text": "그리고 집에서 푹 쉬세요.",
+        "reading": "Geurigo jibeseo puk swiseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ko-E14-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geomto-hada",
+      "text": "검토하다",
+      "reading": "geomtohada"
+    },
+    {
+      "id": "ko.sujeong-hada",
+      "text": "수정하다",
+      "reading": "sujeonghada"
+    },
+    {
+      "id": "ko.geupi",
+      "text": "급히",
+      "reading": "geupi"
+    },
+    {
+      "id": "ko.daesin-hada",
+      "text": "대신하다",
+      "reading": "daesinhada"
+    },
+    {
+      "id": "ko.singyeong-sseuda",
+      "text": "신경 쓰다",
+      "reading": "singyeong sseuda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 바쁜데 미안해요. 이 자료 좀 검토해 줬으면 해요.",
+      "reading": "Nam ssi, bappeunde mianhaeyo. I jaryo jom geomtohae jwosseumyeon haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 선배님. 언제까지 해 드리면 될까요?",
+      "reading": "Ne, seonbaenim. Eonjekkaji hae deurimyeon doelkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "급히 필요해서 오늘 오후까지 봐 줬으면 좋겠어요. 태국어로 쓴 곳을 특히 신경 써 주세요.",
+      "reading": "Geupi piryohaeseo oneul ohukkaji bwa jwosseumyeon jokesseoyo. Taegugeoro sseun goseul teuki singyeong sseo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 틀린 데가 있으면 바로 수정할까요?",
+      "reading": "Algetseumnida. Teullin dega isseumyeon baro sujeonghalkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 남 씨가 직접 수정해 주면 좋겠어요.",
+      "reading": "Ne, Nam ssiga jikjeop sujeonghae jumyeon jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 선배님, 저도 부탁이 하나 있어요.",
+      "reading": "Geurigo seonbaenim, jeodo butagi hana isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "뭔데요?",
+      "reading": "Mwondeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제가 쓴 보고서의 한국어를 한번 봐 줬으면 해요. 아직 맞춤법에 자신이 없어서요.",
+      "reading": "Jega sseun bogoseoui hangugeoreul hanbeon bwa jwosseumyeon haeyo. Ajik matchumbeobe jasini eopseoseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼요. 그리고 내일 회의는 제가 대신할 테니까 남 씨는 그 자료에만 신경 쓰세요.",
+      "reading": "Geureomyo. Geurigo naeil hoeuineun jega daesinhal tenikka Nam ssineun geu jaryoeman singyeong sseuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 감사합니다. 오후 네 시까지 보내 드릴게요.",
+      "reading": "Jeongmal gamsahamnida. Ohu ne sikkaji bonae deurilgeyo."
+    }
+  ]
+}

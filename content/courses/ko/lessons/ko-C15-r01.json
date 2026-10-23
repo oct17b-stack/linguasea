@@ -1,0 +1,79 @@
+{
+  "id": "ko-C15-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.remongeuraseu",
+      "text": "레몬그라스",
+      "reading": "remongeuraseu"
+    },
+    {
+      "id": "ko.hyang",
+      "text": "향",
+      "reading": "hyang"
+    },
+    {
+      "id": "ko.gosu",
+      "text": "고수",
+      "reading": "gosu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "똠얌꿍은 태국 사람들이 정말 좋아하는 음식이에요.",
+        "reading": "Ttomyamkkungeun Taeguk saramdeuri jeongmal joahaneun eumsigieyo."
+      },
+      {
+        "text": "맛이 맵고 향이 정말 좋아요.",
+        "reading": "Masi maepgo hyangi jeongmal joayo."
+      }
+    ],
+    [
+      {
+        "text": "재료는 새우, 버섯, 레몬그라스, 고추예요.",
+        "reading": "Jaeryoneun saeu, beoseot, remongeuraseu, gochuyeyo."
+      },
+      {
+        "text": "먼저 냄비에 물을 붓고 레몬그라스를 넣으세요.",
+        "reading": "Meonjeo naembie mureul butgo remongeuraseureul neoeuseyo."
+      },
+      {
+        "text": "물을 끓이고 새우하고 버섯을 넣으세요.",
+        "reading": "Mureul kkeurigo saeuhago beoseoseul neoeuseyo."
+      },
+      {
+        "text": "오 분 정도 더 끓이세요.",
+        "reading": "O bun jeongdo deo kkeuriseyo."
+      },
+      {
+        "text": "마지막으로 고수를 넣으세요.",
+        "reading": "Majimageuro gosureul neoeuseyo."
+      }
+    ],
+    [
+      {
+        "text": "고수 향을 싫어하는 사람은 고수를 넣지 마세요.",
+        "reading": "Gosu hyangeul sireohaneun sarameun gosureul neochi maseyo."
+      },
+      {
+        "text": "똠얌꿍은 밥하고 같이 먹어요.",
+        "reading": "Ttomyamkkungeun baphago gachi meogeoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

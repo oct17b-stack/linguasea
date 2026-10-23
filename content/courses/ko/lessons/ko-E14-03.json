@@ -1,0 +1,90 @@
+{
+  "id": "ko-E14-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.geojeol-hada",
+      "text": "거절하다",
+      "reading": "geojeolhada"
+    },
+    {
+      "id": "ko.seonyak",
+      "text": "선약",
+      "reading": "seonyak"
+    },
+    {
+      "id": "ko.aswipda",
+      "text": "아쉽다",
+      "reading": "aswipda"
+    },
+    {
+      "id": "ko.gyeopchida",
+      "text": "겹치다",
+      "reading": "gyeopchida"
+    },
+    {
+      "id": "ko.pinggye",
+      "text": "핑계",
+      "reading": "pinggye"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 토요일에 출근할 수 있어요? 행사 준비 때문에 일손이 필요해요.",
+      "reading": "Nam ssi, ibeon toyoire chulgeunhal su isseoyo? Haengsa junbi ttaemune ilsoni piryohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 도와 드리고 싶은데 어떡하죠? 그날 선약이 있어요.",
+      "reading": "A, dowa deurigo sipeunde eotteokajyo? Geunal seonyagi isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 무슨 약속인데요?",
+      "reading": "Geuraeyo? Museun yaksogindeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "토요일 오후마다 식당에서 아르바이트를 하는데, 시간이 겹쳐요.",
+      "reading": "Toyoil ohumada sikdangeseo areubaiteureul haneunde, sigani gyeopchyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그렇군요. 아쉽네요.",
+      "reading": "A, geureokunyo. Aswimneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 죄송해요. 핑계가 아니라 정말 일이 있어서 그래요.",
+      "reading": "Jeongmal joesonghaeyo. Pinggyega anira jeongmal iri isseoseo geuraeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 거절하기 어려웠을 텐데 솔직하게 말해 줘서 고마워요.",
+      "reading": "Gwaenchanayo. Geojeolhagi eoryeowosseul tende soljikage malhae jwoseo gomawoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "대신 금요일에 늦게까지 남아서 준비를 도와 드리면 안 될까요?",
+      "reading": "Daesin geumyoire neutgekkaji namaseo junbireul dowa deurimyeon an doelkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 정말 고맙죠. 그런데 금요일 저녁에 다른 약속은 없어요?",
+      "reading": "Geureom jeongmal gomapjyo. Geureonde geumyoil jeonyeoge dareun yaksogeun eopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 없어요. 그런데 저녁을 못 먹을 것 같은데 어떡하죠?",
+      "reading": "Ne, eopseoyo. Geureonde jeonyeogeul mot meogeul geot gateunde eotteokajyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 걱정 마세요. 저녁은 제가 살게요.",
+      "reading": "Haha, geokjeong maseyo. Jeonyeogeun jega salgeyo."
+    }
+  ]
+}

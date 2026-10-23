@@ -1,0 +1,71 @@
+{
+  "id": "ko-C16-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.rogeuin-hada",
+      "text": "로그인하다",
+      "reading": "rogeuinhada"
+    },
+    {
+      "id": "ko.aidi",
+      "text": "아이디",
+      "reading": "aidi"
+    },
+    {
+      "id": "ko.gaein-jeongbo",
+      "kind": "phrase",
+      "text": "개인 정보",
+      "reading": "gaein jeongbo"
+    },
+    {
+      "id": "ko.haeking",
+      "text": "해킹",
+      "reading": "haeking"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이 앱에 로그인할 때 아이디가 필요해요?",
+      "reading": "Minjun ssi, i aebe rogeuinhal ttae aidiga piryohaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 아이디하고 비밀번호가 필요해요.",
+      "reading": "Ne, aidihago bimilbeonhoga piryohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "비밀번호는 생일로 할까요? 생일은 잊어버리지 않아요.",
+      "reading": "Bimilbeonhoneun saengillo halkkayo? Saengireun ijeobeoriji anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "생일은 쓰지 않는 게 좋아요. 다른 사람이 알 수도 있어요.",
+      "reading": "Saengireun sseuji anneun ge joayo. Dareun sarami al sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 맞아요.",
+      "reading": "A, majayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 개인 정보는 다른 사람한테 보내지 않는 게 좋아요.",
+      "reading": "Geurigo gaein jeongboneun dareun saramhante bonaeji anneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "해킹이 많지요?",
+      "reading": "Haekingi manchiyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 그래서 비밀번호를 자주 바꾸는 게 좋아요.",
+      "reading": "Ne. Geuraeseo bimilbeonhoreul jaju bakkuneun ge joayo."
+    }
+  ]
+}

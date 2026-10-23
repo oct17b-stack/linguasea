@@ -1,0 +1,68 @@
+{
+  "id": "ko-B8-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yeoboseyo",
+      "kind": "phrase",
+      "text": "여보세요",
+      "reading": "yeoboseyo"
+    },
+    {
+      "id": "ko.jeonhwahaeyo",
+      "text": "전화해요",
+      "reading": "jeonhwahaeyo"
+    },
+    {
+      "id": "ko.badayo",
+      "text": "받아요",
+      "reading": "badayo"
+    },
+    {
+      "id": "ko.nuguseyo",
+      "kind": "phrase",
+      "text": "누구세요?",
+      "reading": "nuguseyo?"
+    },
+    {
+      "id": "ko.bakkwo-juseyo",
+      "kind": "phrase",
+      "text": "바꿔 주세요",
+      "reading": "bakkwo juseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여보세요?",
+      "reading": "Yeoboseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여보세요? 거기 민준 씨 집이에요?",
+      "reading": "Yeoboseyo? Geogi Minjun ssi jibieyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 누구세요?",
+      "reading": "Ne, nuguseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 민준 씨 친구 남이에요. 민준 씨 좀 바꿔 주세요.",
+      "reading": "Jeoneun Minjun ssi chingu Namieyo. Minjun ssi jom bakkwo juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "지금 없어요. 저녁에 남 씨한테 전화해요.",
+      "reading": "Jigeum eopseoyo. Jeonyeoge Nam ssihante jeonhwahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠어요. 저녁에 전화 받아요!",
+      "reading": "Ne, algesseoyo. Jeonyeoge jeonhwa badayo!"
+    }
+  ]
+}

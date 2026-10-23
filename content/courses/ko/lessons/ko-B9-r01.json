@@ -1,0 +1,70 @@
+{
+  "id": "ko-B9-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.mongnok",
+      "text": "목록",
+      "reading": "mongnok"
+    },
+    {
+      "id": "ko.junbimul",
+      "text": "준비물",
+      "reading": "junbimul"
+    },
+    {
+      "id": "ko.gaessik",
+      "text": "개씩",
+      "reading": "gaessik"
+    },
+    {
+      "id": "ko.mojarayo",
+      "text": "모자라요",
+      "reading": "mojarayo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "토요일 저녁에 제 방에서 같이 먹어요!",
+        "reading": "Toyoil jeonyeoge je bangeseo gachi meogeoyo!"
+      },
+      {
+        "text": "준비물 목록은 치킨 세 마리, 콜라 열 캔, 쿠키 두 봉지, 종이컵 스무 개예요.",
+        "reading": "Junbimul mongnogeun chikin se mari, kolla yeol kaen, kuki du bongji, jongikeop seumu gaeyeyo."
+      },
+      {
+        "text": "한 사람이 한 개씩 사요.",
+        "reading": "Han sarami han gaessik sayo."
+      }
+    ],
+    [
+      {
+        "text": "그런데 콜라가 모자라요!",
+        "reading": "Geureonde kollaga mojarayo!"
+      },
+      {
+        "text": "그래서 민준 씨가 콜라를 다섯 캔 더 사요.",
+        "reading": "Geuraeseo Minjun ssiga kollareul daseot kaen deo sayo."
+      },
+      {
+        "text": "민준 씨, 고마워요!",
+        "reading": "Minjun ssi, gomawoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

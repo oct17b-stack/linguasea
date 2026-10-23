@@ -1,0 +1,70 @@
+{
+  "id": "ko-B2-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hyugang",
+      "text": "휴강",
+      "reading": "hyugang"
+    },
+    {
+      "id": "ko.modeun",
+      "text": "모든",
+      "reading": "modeun"
+    },
+    {
+      "id": "ko.chamgahaeyo",
+      "text": "참가해요",
+      "reading": "chamgahaeyo"
+    },
+    {
+      "id": "ko.cheheom",
+      "text": "체험",
+      "reading": "cheheom"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "한국어 수업은 월요일부터 금요일까지예요.",
+        "reading": "Hangugeo sueobeun woryoilbuteo geumyoilkkajiyeyo."
+      },
+      {
+        "text": "시간은 아홉 시부터 열두 시까지예요.",
+        "reading": "Siganeun ahop sibuteo yeoldu sikkajiyeyo."
+      },
+      {
+        "text": "다음 주 수요일은 휴강이에요.",
+        "reading": "Daeum ju suyoireun hyugangieyo."
+      }
+    ],
+    [
+      {
+        "text": "다음 주 금요일 두 시부터 네 시까지 한국 음식 체험이 있어요.",
+        "reading": "Daeum ju geumyoil du sibuteo ne sikkaji Hanguk eumsik cheheomi isseoyo."
+      },
+      {
+        "text": "김밥하고 떡볶이 체험이에요.",
+        "reading": "Gimbaphago tteokbokki cheheomieyo."
+      },
+      {
+        "text": "모든 학생이 참가해요.",
+        "reading": "Modeun haksaengi chamgahaeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

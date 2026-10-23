@@ -1,0 +1,66 @@
+{
+  "id": "ko-B3-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.mateu",
+      "text": "마트",
+      "reading": "mateu"
+    },
+    {
+      "id": "ko.gyesanhae-juseyo",
+      "kind": "phrase",
+      "text": "계산해 주세요",
+      "reading": "gyesanhae juseyo"
+    },
+    {
+      "id": "ko.kateu",
+      "text": "카트",
+      "reading": "kateu"
+    },
+    {
+      "id": "ko.pointeu",
+      "text": "포인트",
+      "reading": "pointeu"
+    },
+    {
+      "id": "ko.gyeolje",
+      "text": "결제",
+      "reading": "gyeolje"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 카트에 물건이 너무 많아요!",
+      "reading": "Nam ssi, kateue mulgeoni neomu manayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 마트가 싸요! 저기요, 계산해 주세요.",
+      "reading": "Gwaenchanayo. Mateuga ssayo! Jeogiyo, gyesanhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 포인트 카드 있어요?",
+      "reading": "Ne. Pointeu kadeu isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 없어요.",
+      "reading": "Aniyo, eopseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "모두 오만 원이에요. 결제는 카드예요?",
+      "reading": "Modu oman wonieyo. Gyeoljeneun kadeuyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 카드예요. 여기요.",
+      "reading": "Ne, kadeuyeyo. Yeogiyo."
+    }
+  ]
+}

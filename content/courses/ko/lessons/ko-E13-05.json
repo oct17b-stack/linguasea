@@ -1,0 +1,90 @@
+{
+  "id": "ko-E13-05",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.beokchada",
+      "text": "벅차다",
+      "reading": "beokchada"
+    },
+    {
+      "id": "ko.beogeopda",
+      "text": "버겁다",
+      "reading": "beogeopda"
+    },
+    {
+      "id": "ko.honjaseo",
+      "text": "혼자서",
+      "reading": "honjaseo"
+    },
+    {
+      "id": "ko.ilson",
+      "text": "일손",
+      "reading": "ilson"
+    },
+    {
+      "id": "ko.bullyang-amount",
+      "text": "분량",
+      "reading": "bullyang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 요즘 많이 바빠요?",
+      "reading": "Nam ssi, yojeum mani bappayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 선생님. 이번 주에 과제가 세 개나 있어요. 혼자서 하기에는 너무 벅차요.",
+      "reading": "Ne, seonsaengnim. Ibeon jue gwajega se gaena isseoyo. Honjaseo hagieneun neomu beokchayo."
+    },
+    {
+      "speaker": "c",
+      "text": "과제 분량이 많아요?",
+      "reading": "Gwaje bullyangi manayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 리포트 하나가 열 장이에요. 게다가 주말에는 식당에서 아르바이트도 해요.",
+      "reading": "Ne, ripoteu hanaga yeol jangieyo. Gedaga jumareneun sikdangeseo areubaiteudo haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아르바이트를 좀 쉴 수는 없어요?",
+      "reading": "Areubaiteureul jom swil suneun eopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "요즘 식당에 일손이 모자라서 쉬기 어려워요.",
+      "reading": "Yojeum sikdange ilsoni mojaraseo swigi eoryeowoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그건 남 씨가 혼자 다 하기에는 버거운 일이에요. 사장님께 솔직하게 말해 보세요.",
+      "reading": "Geugeon Nam ssiga honja da hagieneun beogeoun irieyo. Sajangnimkke soljikage malhae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 될까요?",
+      "reading": "Geuraedo doelkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요. 그리고 조별 과제는 조원들하고 일을 나눠서 하세요.",
+      "reading": "Geureomyo. Geurigo jobyeol gwajeneun jowondeulhago ireul nanwoseo haseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 혼자 다 하기에는 시간이 너무 모자라요.",
+      "reading": "Majayo. Honja da hagieneun sigani neomu mojarayo."
+    },
+    {
+      "speaker": "c",
+      "text": "할 수 있는 만큼만 하세요. 건강이 제일 중요해요.",
+      "reading": "Hal su inneun mankeumman haseyo. Geongangi jeil jungyohaeyo."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ko-F5-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jeungsang",
+      "text": "증상",
+      "reading": "jeungsang"
+    },
+    {
+      "id": "ko.dutong",
+      "text": "두통",
+      "reading": "dutong"
+    },
+    {
+      "id": "ko.sohwa-bullyang",
+      "text": "소화 불량",
+      "reading": "sohwa bullyang",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.sigyok",
+      "text": "식욕",
+      "reading": "sigyok"
+    },
+    {
+      "id": "ko.uuljeung",
+      "text": "우울증",
+      "reading": "uuljeung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 지난주보다 좀 괜찮아졌어요?",
+      "reading": "Nam ssi, jinanjuboda jom gwaenchanajyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "잠은 조금 잘 자는데, 요즘은 두통이 자주 있어요.",
+      "reading": "Jameun jogeum jal janeunde, yojeumeun dutongi jaju isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다른 증상도 있어요?",
+      "reading": "Dareun jeungsangdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "밥을 먹으면 소화 불량이 생기고, 식욕도 없어요.",
+      "reading": "Babeul meogeumyeon sohwa bullyangi saenggigo, sigyokdo eopseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇군요. 스트레스가 몸에 쌓인 듯해요.",
+      "reading": "Geureokunyo. Seuteureseuga mome ssain deutaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "스트레스 때문에 몸이 아플 수도 있어요?",
+      "reading": "Seuteureseu ttaemune momi apeul sudo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 스트레스를 오래 받으면 두통이나 소화 불량 같은 증상이 생기기 쉬워요.",
+      "reading": "Ne, seuteureseureul orae badeumyeon dutongina sohwa bullyang gateun jeungsangi saenggigi swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "혹시 제가 우울증인가요? 요즘 기분이 계속 안 좋아서 걱정돼요.",
+      "reading": "Hoksi jega uuljeungingayo? Yojeum gibuni gyesok an joaseo geokjeongdwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "지금 이야기를 들어 보니 우울증은 아닌 듯해요. 시험 스트레스 때문인 듯하고요.",
+      "reading": "Jigeum iyagireul deureo boni uuljeungeun anin deutaeyo. Siheom seuteureseu ttaemunin deutagoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 그럼 어떻게 해야 해요?",
+      "reading": "Dahaengieyo. Geureom eotteoke haeya haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "먼저 규칙적으로 자고 먹는 게 중요해요. 그래도 증상이 계속되면 병원에 가 보는 게 좋겠어요.",
+      "reading": "Meonjeo gyuchikjeogeuro jago meongneun ge jungyohaeyo. Geuraedo jeungsangi gyesokdoemyeon byeongwone ga boneun ge jokesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘부터 해 볼게요.",
+      "reading": "Ne, oneulbuteo hae bolgeyo."
+    }
+  ]
+}

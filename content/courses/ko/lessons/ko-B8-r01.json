@@ -1,0 +1,74 @@
+{
+  "id": "ko-B8-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.danche-sajin",
+      "kind": "phrase",
+      "text": "단체 사진",
+      "reading": "danche sajin"
+    },
+    {
+      "id": "ko.sigan-dwaeyo",
+      "kind": "phrase",
+      "text": "시간 돼요?",
+      "reading": "sigan dwaeyo?"
+    },
+    {
+      "id": "ko.eodijjeumieyo",
+      "kind": "phrase",
+      "text": "어디쯤이에요?",
+      "reading": "eodijjeumieyo?"
+    },
+    {
+      "id": "ko.gomawo",
+      "kind": "phrase",
+      "text": "고마워",
+      "reading": "gomawo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 토요일 두 시에 반 단체 사진이 있어요.",
+        "reading": "Minjun: Toyoil du sie ban danche sajini isseoyo."
+      },
+      {
+        "text": "민준: 여러분, 시간 돼요?",
+        "reading": "Minjun: Yeoreobun, sigan dwaeyo?"
+      }
+    ],
+    [
+      {
+        "text": "민준: 남 씨, 지금 어디쯤이에요?",
+        "reading": "Minjun: Nam ssi, jigeum eodijjeumieyo?"
+      },
+      {
+        "text": "남: 학교 앞 정류장이에요!",
+        "reading": "Nam: Hakgyo ap jeongnyujangieyo!"
+      },
+      {
+        "text": "남: 여러분, 단체 사진 보내요!",
+        "reading": "Nam: Yeoreobun, danche sajin bonaeyo!"
+      },
+      {
+        "text": "모두 “고마워!” 이모티콘을 보내요.",
+        "reading": "Modu “gomawo!” imotikoneul bonaeyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

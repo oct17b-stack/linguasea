@@ -1,0 +1,87 @@
+{
+  "id": "ko-F10-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.uimu",
+      "text": "의무",
+      "reading": "uimu"
+    },
+    {
+      "id": "ko.gwolli",
+      "text": "권리",
+      "reading": "gwolli"
+    },
+    {
+      "id": "ko.geullo-gyeyakseo",
+      "kind": "phrase",
+      "text": "근로 계약서",
+      "reading": "geullo gyeyakseo"
+    },
+    {
+      "id": "ko.choejeo-imgeum",
+      "kind": "phrase",
+      "text": "최저 임금",
+      "reading": "choejeo imgeum"
+    },
+    {
+      "id": "ko.bojang-hada",
+      "text": "보장하다",
+      "reading": "bojanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "네, 외국인 근로자 센터입니다. 무엇을 도와드릴까요?",
+      "reading": "Ne, oegugin geulloja senteoimnida. Mueoseul dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 태국 친구 대신 전화했는데요. 친구가 공장에서 일하는데 근로 계약서를 안 썼대요.",
+      "reading": "Annyeonghaseyo. Taeguk chingu daesin jeonhwahaenneundeyo. Chinguga gongjangeseo ilhaneunde geullo gyeyakseoreul an sseotdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "사장님은 일을 시작하기 전에 근로 계약서를 쓰도록 되어 있어요. 그건 회사의 의무예요.",
+      "reading": "Sajangnimeun ireul sijakagi jeone geullo gyeyakseoreul sseudorok doeeo isseoyo. Geugeon hoesaui uimuyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇군요. 그리고 시급이 구천 원이라는데 이건 괜찮아요?",
+      "reading": "Geureokunyo. Geurigo sigeubi gucheon woniraneunde igeon gwaenchanayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 그건 최저 임금보다 적어요. 외국인도 최저 임금 이상을 받도록 되어 있어요.",
+      "reading": "Aniyo, geugeon choejeo imgeumboda jeogeoyo. Oegugindo choejeo imgeum isangeul batdorok doeeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "외국인도 한국 사람하고 똑같은 권리가 있는 거예요?",
+      "reading": "Oegugindo Hanguk saramhago ttokgateun gwolliga inneun geoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 법으로 보장하고 있어요. 어느 나라 사람이든 상관없이 모든 근로자의 권리를 보장하도록 되어 있어요.",
+      "reading": "Ne, beobeuro bojanghago isseoyo. Eoneu nara saramideun sanggwaneopsi modeun geullojaui gwollireul bojanghadorok doeeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이네요. 그럼 친구는 이제 어떻게 해야 해요?",
+      "reading": "Dahaengineyo. Geureom chinguneun ije eotteoke haeya haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "먼저 사장님께 계약서를 써 달라고 요청하세요. 그건 친구분의 당연한 권리예요.",
+      "reading": "Meonjeo sajangnimkke gyeyakseoreul sseo dallago yocheonghaseyo. Geugeon chingubunui dangyeonhan gwolliyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠습니다. 친구한테 바로 전할게요. 감사합니다.",
+      "reading": "Ne, algetseumnida. Chinguhante baro jeonhalgeyo. Gamsahamnida."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ko-B10-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.imeil",
+      "text": "이메일",
+      "reading": "imeil"
+    },
+    {
+      "id": "ko.hyudaepon-beonho",
+      "kind": "phrase",
+      "text": "휴대폰 번호",
+      "reading": "hyudaepon beonho"
+    },
+    {
+      "id": "ko.hangeullo",
+      "text": "한글로",
+      "reading": "hangeullo"
+    },
+    {
+      "id": "ko.binkan",
+      "text": "빈칸",
+      "reading": "binkan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "이름은 영문으로 써요. 한글로도 써요.",
+      "reading": "Ireumeun yeongmuneuro sseoyo. Hangeullodo sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한글로도요? 네, 알겠어요.",
+      "reading": "Hangeullodoyo? Ne, algesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 휴대폰 번호하고 이메일도 써요.",
+      "reading": "Geurigo hyudaepon beonhohago imeildo sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어, 여기 빈칸이 있어요. 이메일이에요.",
+      "reading": "Eo, yeogi binkani isseoyo. Imeirieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 죄송합니다! 지금 써요.",
+      "reading": "A, joesonghamnida! Jigeum sseoyo."
+    }
+  ]
+}

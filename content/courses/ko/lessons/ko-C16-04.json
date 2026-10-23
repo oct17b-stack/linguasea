@@ -1,0 +1,70 @@
+{
+  "id": "ko-C16-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.geomsaek-hada",
+      "text": "검색하다",
+      "reading": "geomsaekada"
+    },
+    {
+      "id": "ko.daunrodeu-hada",
+      "text": "다운로드하다",
+      "reading": "daunrodeuhada"
+    },
+    {
+      "id": "ko.eopdeiteu",
+      "text": "업데이트",
+      "reading": "eopdeiteu"
+    },
+    {
+      "id": "ko.pyeolli-hada",
+      "text": "편리하다",
+      "reading": "pyeollihada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 한국 생활에 좋은 앱이 있어요?",
+      "reading": "Seonsaengnim, Hanguk saenghware joeun aebi isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "지도 앱이 있어요. 길을 찾기 좋아요.",
+      "reading": "Jido aebi isseoyo. Gireul chatgi joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "식당도 검색할 수 있어요?",
+      "reading": "Sikdangdo geomsaekal su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 식당을 검색하기 편해요. 이 앱을 다운로드하세요.",
+      "reading": "Ne, sikdangeul geomsaekagi pyeonhaeyo. I aebeul daunrodeuhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다운로드했어요. 그런데 업데이트가 필요해요.",
+      "reading": "Daunrodeuhaesseoyo. Geureonde eopdeiteuga piryohaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "업데이트는 기숙사 와이파이로 하세요.",
+      "reading": "Eopdeiteuneun gisuksa waipairo haseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그리고 한국어 공부 앱도 있어요?",
+      "reading": "Ne. Geurigo hangugeo gongbu aepdo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 이 단어 앱이 정말 편리해요. 버스에서 공부하기 좋아요.",
+      "reading": "Ne, i daneo aebi jeongmal pyeollihaeyo. Beoseueseo gongbuhagi joayo."
+    }
+  ]
+}

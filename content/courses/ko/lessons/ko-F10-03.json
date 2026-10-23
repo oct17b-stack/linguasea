@@ -1,0 +1,91 @@
+{
+  "id": "ko-F10-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.geojuja",
+      "text": "거주자",
+      "reading": "geojuja"
+    },
+    {
+      "id": "ko.jiwongeum",
+      "text": "지원금",
+      "reading": "jiwongeum"
+    },
+    {
+      "id": "ko.musang",
+      "text": "무상",
+      "reading": "musang"
+    },
+    {
+      "id": "ko.jehandoeda",
+      "text": "제한되다",
+      "reading": "jehandoeda"
+    },
+    {
+      "id": "ko.chwiyak-gyecheung",
+      "kind": "phrase",
+      "text": "취약 계층",
+      "reading": "chwiyak gyecheung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "실례합니다. 인터넷에서 무상 한국어 수업 안내문을 봤는데요.",
+      "reading": "Sillyehamnida. Inteoneseseo musang hangugeo sueop annaemuneul bwanneundeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 그 수업은 이 지역 거주자에 한해서 신청할 수 있어요.",
+      "reading": "Ne, geu sueobeun i jiyeok geojujae hanhaeseo sincheonghal su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 유학생인데 이 동네에 살아요. 외국인도 신청할 수 있어요?",
+      "reading": "Jeoneun yuhaksaenginde i dongnee sarayo. Oegugindo sincheonghal su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요. 외국인 등록증에 이 지역 주소가 있으면 돼요.",
+      "reading": "Geureomyo. Oegugin deungnokjeunge i jiyeok jusoga isseumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘됐네요. 그리고 생활 지원금도 받을 수 있나요?",
+      "reading": "Jaldwaenneyo. Geurigo saenghwal jiwongeumdo badeul su innayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "지원금은 대상이 제한되어 있어요. 소득이 낮은 취약 계층에 한해서 드려요.",
+      "reading": "Jiwongeumeun daesangi jehandoeeo isseoyo. Sodeugi najeun chwiyak gyecheunge hanhaeseo deuryeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "취약 계층이면 어떤 사람들이에요?",
+      "reading": "Chwiyak gyecheungimyeon eotteon saramdeurieyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "혼자 사는 노인이나 장애인, 소득이 거의 없는 가족 같은 분들이에요.",
+      "reading": "Honja saneun noinina jangaein, sodeugi geoui eomneun gajok gateun bundeurieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇군요. 한국어 수업은 정말 무상이에요? 책값도 안 내요?",
+      "reading": "Geureokunyo. Hangugeo sueobeun jeongmal musangieyo? Chaekgapdo an naeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 교재도 무료로 드려요. 다만 인원이 이십 명으로 제한되니까 빨리 신청하세요.",
+      "reading": "Ne, gyojaedo muryoro deuryeoyo. Daman inwoni isip myeongeuro jehandoenikka ppalli sincheonghaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 지금 바로 신청할게요!",
+      "reading": "Ne, jigeum baro sincheonghalgeyo!"
+    }
+  ]
+}

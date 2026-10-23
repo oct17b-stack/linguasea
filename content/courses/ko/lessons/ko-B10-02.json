@@ -1,0 +1,61 @@
+{
+  "id": "ko-B10-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.saengnyeonworil",
+      "text": "생년월일",
+      "reading": "saengnyeonworil"
+    },
+    {
+      "id": "ko.naljja",
+      "text": "날짜",
+      "reading": "naljja"
+    },
+    {
+      "id": "ko.nyeon",
+      "text": "년",
+      "reading": "nyeon"
+    },
+    {
+      "id": "ko.man-nai",
+      "kind": "phrase",
+      "text": "만 나이",
+      "reading": "man nai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "여기 오늘 날짜하고 생년월일을 써요.",
+      "reading": "Yeogi oneul naljjahago saengnyeonworireul sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 생년월일은 이천육 년 유월 오일이에요.",
+      "reading": "Ne. Saengnyeonworireun icheonnyuk nyeon yuwol oirieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 만 나이는 스무 살이에요.",
+      "reading": "Ne, man naineun seumu sarieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "만 나이요? 한국 나이는요?",
+      "reading": "Man naiyo? Hanguk naineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지금은 한국도 만 나이를 써요.",
+      "reading": "Jigeumeun Hangukdo man naireul sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 알겠어요!",
+      "reading": "A, geuraeyo? Algesseoyo!"
+    }
+  ]
+}

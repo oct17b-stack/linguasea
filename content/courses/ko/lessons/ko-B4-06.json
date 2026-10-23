@@ -1,0 +1,66 @@
+{
+  "id": "ko-B4-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.naeryeoyo",
+      "text": "내려요",
+      "reading": "naeryeoyo"
+    },
+    {
+      "id": "ko.garatayo",
+      "text": "갈아타요",
+      "reading": "garatayo"
+    },
+    {
+      "id": "ko.jeongnyujang",
+      "text": "정류장",
+      "reading": "jeongnyujang"
+    },
+    {
+      "id": "ko.hoseon",
+      "text": "호선",
+      "reading": "hoseon"
+    },
+    {
+      "id": "ko.gyotong-kadeu",
+      "kind": "phrase",
+      "text": "교통 카드",
+      "reading": "gyotong kadeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 동대문 시장에 어떻게 가요?",
+      "reading": "Minjun ssi, Dongdaemun sijange eotteoke gayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "학교 앞 정류장에서 칠 번 버스를 타요.",
+      "reading": "Hakgyo ap jeongnyujangeseo chil beon beoseureul tayo."
+    },
+    {
+      "speaker": "a",
+      "text": "버스가 동대문까지 가요?",
+      "reading": "Beoseuga Dongdaemunkkaji gayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 역에서 지하철 일 호선으로 갈아타요.",
+      "reading": "Aniyo, yeogeseo jihacheol il hoseoneuro garatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "동대문에서 내려요?",
+      "reading": "Dongdaemuneseo naeryeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 아, 교통 카드 있어요?",
+      "reading": "Ne. A, gyotong kadeu isseoyo?"
+    }
+  ]
+}

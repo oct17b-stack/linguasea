@@ -1,0 +1,68 @@
+{
+  "id": "ko-B8-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.beonho",
+      "text": "번호",
+      "reading": "beonho"
+    },
+    {
+      "id": "ko.allyeo-juseyo",
+      "kind": "phrase",
+      "text": "알려 주세요",
+      "reading": "allyeo juseyo"
+    },
+    {
+      "id": "ko.chingu-chuga",
+      "kind": "phrase",
+      "text": "친구 추가",
+      "reading": "chingu chuga"
+    },
+    {
+      "id": "ko.peuropil",
+      "text": "프로필",
+      "reading": "peuropil"
+    },
+    {
+      "id": "ko.jeonhwa-juseyo",
+      "kind": "phrase",
+      "text": "전화 주세요",
+      "reading": "jeonhwa juseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 번호 좀 알려 주세요.",
+      "reading": "Nam ssi, beonho jom allyeo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 공일공, 이삼사오, 육칠팔구예요.",
+      "reading": "Ne. Gongilgong, isamsao, yukchilpalguyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "고마워요. 카톡도 있어요?",
+      "reading": "Gomawoyo. Katokdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 친구 추가해 주세요.",
+      "reading": "Ne, chingu chugahae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 프로필 사진 예뻐요!",
+      "reading": "Wa, peuropil sajin yeppeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 고마워요. 주말에 전화 주세요!",
+      "reading": "Haha, gomawoyo. Jumare jeonhwa juseyo!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.beol",
+      "text": "벌",
+      "reading": "beol"
+    },
+    {
+      "id": "ko.kyeolle",
+      "text": "켤레",
+      "reading": "kyeolle"
+    },
+    {
+      "id": "ko.yangmal",
+      "text": "양말",
+      "reading": "yangmal"
+    },
+    {
+      "id": "ko.undonghwa",
+      "text": "운동화",
+      "reading": "undonghwa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요!",
+      "reading": "Eoseo oseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "양말 있어요?",
+      "reading": "Yangmal isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 양말 세 켤레에 오천 원이에요.",
+      "reading": "Ne, yangmal se kyeollee ocheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "세 켤레 주세요. 운동화도 있어요?",
+      "reading": "Se kyeolle juseyo. Undonghwado isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 저기 있어요. 옷도 한 벌 어때요?",
+      "reading": "Ne, jeogi isseoyo. Otdo han beol eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 옷은 괜찮아요.",
+      "reading": "Haha, oseun gwaenchanayo."
+    }
+  ]
+}

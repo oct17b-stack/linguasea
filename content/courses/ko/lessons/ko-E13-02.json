@@ -1,0 +1,87 @@
+{
+  "id": "ko-E13-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.kkeungkkeung-alta",
+      "text": "끙끙 앓다",
+      "reading": "kkeungkkeung alta",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.uinon-hada",
+      "text": "의논하다",
+      "reading": "uinonhada"
+    },
+    {
+      "id": "ko.doumeul-cheong-hada",
+      "text": "도움을 청하다",
+      "reading": "doumeul cheonghada",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.sumgida",
+      "text": "숨기다",
+      "reading": "sumgida"
+    },
+    {
+      "id": "ko.soksang-hada",
+      "text": "속상하다",
+      "reading": "soksanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 지난 학기에 성적 때문에 많이 힘들었다면서요?",
+      "reading": "Nam ssi, jinan hakgie seongjeok ttaemune mani himdeureotdamyeonseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네… 사실 혼자 끙끙 앓았어요.",
+      "reading": "Ne… Sasil honja kkeungkkeung arasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "왜 아무한테도 말 안 했어요? 저하고 의논하지 그랬어요.",
+      "reading": "Wae amuhantedo mal an haesseoyo? Jeohago uinonhaji geuraesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님이 걱정하실까 봐 말하지 못했어요.",
+      "reading": "Seonsaengnimi geokjeonghasilkka bwa malhaji motaesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "부모님께는요?",
+      "reading": "Bumonimkkeneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "부모님께도 숨겼어요. 속상해하실까 봐서요.",
+      "reading": "Bumonimkkedo sumgyeosseoyo. Soksanghaehasilkka bwaseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래도 도움을 청하지 그랬어요. 혼자 해결하려고 하면 더 힘들어요.",
+      "reading": "Geuraedo doumeul cheonghaji geuraesseoyo. Honja haegyeolharyeogo hamyeon deo himdeureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 지금 생각하면 친구들한테라도 이야기할걸 그랬어요.",
+      "reading": "Majayo. Jigeum saenggakamyeon chingudeulhanterado iyagihalgeol geuraesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다음에는 꼭 친구나 선생님과 의논하세요.",
+      "reading": "Daeumeneun kkok chinguna seonsaengnimgwa uinonhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그럴게요. 이제 속상한 일이 있으면 숨기지 않을게요.",
+      "reading": "Ne, geureolgeyo. Ije soksanghan iri isseumyeon sumgiji aneulgeyo."
+    }
+  ]
+}

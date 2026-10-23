@@ -1,0 +1,66 @@
+{
+  "id": "ko-B5-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.ssiseoyo",
+      "text": "씻어요",
+      "reading": "ssiseoyo"
+    },
+    {
+      "id": "ko.syawohaeyo",
+      "text": "샤워해요",
+      "reading": "syawohaeyo"
+    },
+    {
+      "id": "ko.ireul-dakkayo",
+      "kind": "phrase",
+      "text": "이를 닦아요",
+      "reading": "ireul dakkayo"
+    },
+    {
+      "id": "ko.hwajanghaeyo",
+      "text": "화장해요",
+      "reading": "hwajanghaeyo"
+    },
+    {
+      "id": "ko.nagayo",
+      "text": "나가요",
+      "reading": "nagayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 아침에 보통 뭐 해요?",
+      "reading": "Nam ssineun achime botong mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "샤워해요. 그리고 이를 닦아요.",
+      "reading": "Syawohaeyo. Geurigo ireul dakkayo."
+    },
+    {
+      "speaker": "b",
+      "text": "화장도 해요?",
+      "reading": "Hwajangdo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 화장해요. 일곱 시 반에 나가요. 민준 씨는요?",
+      "reading": "Ne, hwajanghaeyo. Ilgop si bane nagayo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 씻어요. 그리고 나가요. 오 분이에요!",
+      "reading": "Jeoneun ssiseoyo. Geurigo nagayo. O bunieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "오 분이요? 진짜요?",
+      "reading": "O buniyo? Jinjjayo?"
+    }
+  ]
+}

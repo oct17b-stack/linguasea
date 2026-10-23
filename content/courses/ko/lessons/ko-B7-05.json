@@ -1,0 +1,67 @@
+{
+  "id": "ko-B7-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.bongji",
+      "text": "봉지",
+      "reading": "bongji"
+    },
+    {
+      "id": "ko.piryohaeyo",
+      "text": "필요해요",
+      "reading": "piryohaeyo"
+    },
+    {
+      "id": "ko.dewo-juseyo",
+      "kind": "phrase",
+      "text": "데워 주세요",
+      "reading": "dewo juseyo"
+    },
+    {
+      "id": "ko.jeonjareinji",
+      "text": "전자레인지",
+      "reading": "jeonjareinji"
+    },
+    {
+      "id": "ko.won-peulleoseu-won",
+      "kind": "phrase",
+      "text": "원 플러스 원",
+      "reading": "won peulleoseu won"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 이 우유 원 플러스 원이에요?",
+      "reading": "Jeogiyo, i uyu won peulleoseu wonieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 원 플러스 원이에요. 하나 더 가져가세요.",
+      "reading": "Ne, won peulleoseu wonieyo. Hana deo gajyeogaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 감사합니다! 삼각김밥도 데워 주세요.",
+      "reading": "Wa, gamsahamnida! Samgakgimbapdo dewo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "전자레인지는 저기 있어요. 봉지 필요해요?",
+      "reading": "Jeonjareinjineun jeogi isseoyo. Bongji piryohaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 괜찮아요. 가방 있어요.",
+      "reading": "Aniyo, gwaenchanayo. Gabang isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 모두 오천 원이에요.",
+      "reading": "Ne, modu ocheon wonieyo."
+    }
+  ]
+}

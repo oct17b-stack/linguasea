@@ -1,0 +1,65 @@
+{
+  "id": "ko-B1-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.imnida",
+      "text": "입니다",
+      "reading": "imnida"
+    },
+    {
+      "id": "ko.hangungmal",
+      "text": "한국말",
+      "reading": "hangungmal"
+    },
+    {
+      "id": "ko.bangmulgwan",
+      "text": "박물관",
+      "reading": "bangmulgwan"
+    },
+    {
+      "id": "ko.mangnae",
+      "text": "막내",
+      "reading": "mangnae"
+    },
+    {
+      "id": "ko.konmul",
+      "text": "콧물",
+      "reading": "konmul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 발음 연습해요. 따라 하세요. 저는 태국 사람입니다.",
+      "reading": "Nam ssi, bareum yeonseupaeyo. Ttara haseyo. Jeoneun Taeguk saramimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 태국 사람입니다.",
+      "reading": "Jeoneun Taeguk saramimnida."
+    },
+    {
+      "speaker": "c",
+      "text": "잘했어요! 한국말, 박물관, 막내, 콧물.",
+      "reading": "Jalhaesseoyo! Hangungmal, bangmulgwan, mangnae, konmul."
+    },
+    {
+      "speaker": "a",
+      "text": "한국말, 박물관, 막내, 콧물.",
+      "reading": "Hangungmal, bangmulgwan, mangnae, konmul."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 발음 최고예요!",
+      "reading": "Wa, bareum choegoyeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "정말이에요? 감사합니다, 선생님!",
+      "reading": "Jeongmarieyo? Gamsahamnida, seonsaengnim!"
+    }
+  ]
+}

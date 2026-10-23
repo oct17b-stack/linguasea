@@ -1,0 +1,65 @@
+{
+  "id": "ko-B2-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.buteo",
+      "text": "부터",
+      "reading": "buteo"
+    },
+    {
+      "id": "ko.kkaji",
+      "text": "까지",
+      "reading": "kkaji"
+    },
+    {
+      "id": "ko.jjeum",
+      "text": "쯤",
+      "reading": "jjeum"
+    },
+    {
+      "id": "ko.bam",
+      "text": "밤",
+      "reading": "bam"
+    },
+    {
+      "id": "ko.neujeoyo",
+      "text": "늦어요",
+      "reading": "neujeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 내일 수업이 몇 시부터 몇 시까지예요?",
+      "reading": "Nam ssi, naeil sueobi myeot sibuteo myeot sikkajiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아홉 시부터 세 시까지예요.",
+      "reading": "Ahop sibuteo se sikkajiyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 다섯 시까지예요. 다섯 시 반쯤 괜찮아요?",
+      "reading": "Jeoneun daseot sikkajiyeyo. Daseot si banjjeum gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 괜찮아요. 밤 열 시까지 시간 있어요.",
+      "reading": "Ne, gwaenchanayo. Bam yeol sikkaji sigan isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 열 시는 늦어요!",
+      "reading": "Haha, yeol sineun neujeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 다섯 시 반에 또 만나요!",
+      "reading": "Algesseoyo. Daseot si bane tto mannayo!"
+    }
+  ]
+}

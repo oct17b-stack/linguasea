@@ -1,0 +1,60 @@
+{
+  "id": "ko-B10-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jigeop",
+      "text": "직업",
+      "reading": "jigeop"
+    },
+    {
+      "id": "ko.gihon",
+      "text": "기혼",
+      "reading": "gihon"
+    },
+    {
+      "id": "ko.mihon",
+      "text": "미혼",
+      "reading": "mihon"
+    },
+    {
+      "id": "ko.daehagwonsaeng",
+      "text": "대학원생",
+      "reading": "daehagwonsaeng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "직업이 뭐예요?",
+      "reading": "Jigeobi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "학생이에요.",
+      "reading": "Haksaengieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "대학원생이에요?",
+      "reading": "Daehagwonsaengieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 대학원생이 아니에요. 대학생이에요.",
+      "reading": "Aniyo, daehagwonsaengi anieyo. Daehaksaengieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 여기 기혼, 미혼이 있어요.",
+      "reading": "Ne. Yeogi gihon, mihoni isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 미혼이에요. 스무 살이에요!",
+      "reading": "Jeoneun mihonieyo. Seumu sarieyo!"
+    }
+  ]
+}

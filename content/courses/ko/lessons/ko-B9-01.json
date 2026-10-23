@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gwon",
+      "text": "권",
+      "reading": "gwon"
+    },
+    {
+      "id": "ko.jang",
+      "text": "장",
+      "reading": "jang"
+    },
+    {
+      "id": "ko.jaru",
+      "text": "자루",
+      "reading": "jaru"
+    },
+    {
+      "id": "ko.peiji",
+      "text": "페이지",
+      "reading": "peiji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 문구점에서 뭐 사요?",
+      "reading": "Nam ssi, mungujeomeseo mwo sayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "공책 두 권하고 연필 세 자루 사요.",
+      "reading": "Gongchaek du gwonhago yeonpil se jaru sayo."
+    },
+    {
+      "speaker": "b",
+      "text": "종이도 필요해요?",
+      "reading": "Jongido piryohaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 종이 열 장도 필요해요.",
+      "reading": "Ne, jongi yeol jangdo piryohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 숙제가 많아요?",
+      "reading": "Wa, sukjega manayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 숙제가 삼십 페이지예요!",
+      "reading": "Ne! Sukjega samsip peijiyeyo!"
+    }
+  ]
+}

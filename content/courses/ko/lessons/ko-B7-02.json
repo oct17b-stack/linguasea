@@ -1,0 +1,67 @@
+{
+  "id": "ko-B7-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.aiseu",
+      "text": "아이스",
+      "reading": "aiseu"
+    },
+    {
+      "id": "ko.ttatteutan-geo",
+      "kind": "phrase",
+      "text": "따뜻한 거",
+      "reading": "ttatteutan geo"
+    },
+    {
+      "id": "ko.chagaun-geo",
+      "kind": "phrase",
+      "text": "차가운 거",
+      "reading": "chagaun geo"
+    },
+    {
+      "id": "ko.tteugeowoyo",
+      "text": "뜨거워요",
+      "reading": "tteugeowoyo"
+    },
+    {
+      "id": "ko.chagawoyo",
+      "text": "차가워요",
+      "reading": "chagawoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "주문하시겠어요?",
+      "reading": "Jumunhasigesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아이스 아메리카노 한 잔 주세요.",
+      "reading": "Aiseu amerikano han jan juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 라테 한 잔 주세요. 따뜻한 거요.",
+      "reading": "Jeoneun rate han jan juseyo. Ttatteutan geoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 여기요. 라테 뜨거워요!",
+      "reading": "Ne. Yeogiyo. Rate tteugeowoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "와, 아메리카노 진짜 차가워요!",
+      "reading": "Wa, amerikano jinjja chagawoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 민준 씨는 차가운 거 좋아해요!",
+      "reading": "Haha, Minjun ssineun chagaun geo joahaeyo!"
+    }
+  ]
+}

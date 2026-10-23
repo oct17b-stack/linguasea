@@ -1,0 +1,65 @@
+{
+  "id": "ko-B11-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yakguk",
+      "text": "약국",
+      "reading": "yakguk"
+    },
+    {
+      "id": "ko.yak",
+      "text": "약",
+      "reading": "yak"
+    },
+    {
+      "id": "ko.jintongje",
+      "text": "진통제",
+      "reading": "jintongje"
+    },
+    {
+      "id": "ko.sohwaje",
+      "text": "소화제",
+      "reading": "sohwaje"
+    },
+    {
+      "id": "ko.haeyeolje",
+      "text": "해열제",
+      "reading": "haeyeolje"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 어디가 아파요?",
+      "reading": "Eoseo oseyo. Eodiga apayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "배가 아파요. 소화제 있어요?",
+      "reading": "Baega apayo. Sohwaje isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 있어요. 하루에 세 번 먹어요.",
+      "reading": "Ne, isseoyo. Harue se beon meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "진통제도 있어요? 이가 아파요.",
+      "reading": "Jintongjedo isseoyo? Iga apayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 여기요. 모두 팔천 원이에요.",
+      "reading": "Ne, yeogiyo. Modu palcheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다.",
+      "reading": "Gamsahamnida."
+    }
+  ]
+}

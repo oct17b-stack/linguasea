@@ -1,0 +1,96 @@
+{
+  "id": "ko-F5-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jeongsin-geongang",
+      "text": "정신 건강",
+      "reading": "jeongsin geongang",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.buran-hada",
+      "text": "불안하다",
+      "reading": "buranhada"
+    },
+    {
+      "id": "ko.yemin-hada",
+      "text": "예민하다",
+      "reading": "yeminhada"
+    },
+    {
+      "id": "ko.apbakgam",
+      "text": "압박감",
+      "reading": "apbakgam"
+    },
+    {
+      "id": "ko.budamgam",
+      "text": "부담감",
+      "reading": "budamgam"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 오늘은 어떤 일로 오셨어요?",
+      "reading": "Eoseo oseyo. Oneureun eotteon illo osyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "요즘 기말고사 때문에 스트레스를 너무 많이 받아서요.",
+      "reading": "Yojeum gimalgosa ttaemune seuteureseureul neomu mani badaseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇군요. 시험 기간에는 정신 건강이 나빠지기 쉬워요.",
+      "reading": "Geureokunyo. Siheom giganeneun jeongsin geongangi nappajigi swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 시험을 잘 봐야 한다는 압박감 탓에 밤에 잠도 잘 못 자요.",
+      "reading": "Ne, siheomeul jal bwaya handaneun apbakgam tase bame jamdo jal mot jayo."
+    },
+    {
+      "speaker": "c",
+      "text": "잠을 못 자는 탓에 낮에도 피곤하겠어요.",
+      "reading": "Jameul mot janeun tase najedo pigonhagesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 그리고 작은 일에도 예민해져서 룸메이트하고 싸웠어요.",
+      "reading": "Majayo. Geurigo jageun iredo yeminhaejyeoseo rummeiteuhago ssawosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "많이 힘들었겠네요. 혹시 다른 걱정도 있어요?",
+      "reading": "Mani himdeureotgenneyo. Hoksi dareun geokjeongdo isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "장학금을 받아야 해서 부담감도 커요. 성적이 떨어지면 부모님께 죄송하잖아요.",
+      "reading": "Janghakgeumeul badaya haeseo budamgamdo keoyo. Seongjeogi tteoreojimyeon bumonimkke joesonghajanayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그런 마음 때문에 더 불안했군요.",
+      "reading": "Geureon maeum ttaemune deo buranhaetgunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 요즘은 시험을 생각하면 가슴이 뛰고 불안해요.",
+      "reading": "Ne, yojeumeun siheomeul saenggakamyeon gaseumi ttwigo buranhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "잘 말해 줬어요. 혼자 참는 탓에 문제가 더 커지는 경우가 많아요. 오늘부터 같이 방법을 찾아봐요.",
+      "reading": "Jal malhae jwosseoyo. Honja chamneun tase munjega deo keojineun gyeonguga manayo. Oneulbuteo gachi bangbeobeul chajabwayo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 이야기하니까 조금 편해졌어요.",
+      "reading": "Gamsahamnida. Iyagihanikka jogeum pyeonhaejyeosseoyo."
+    }
+  ]
+}

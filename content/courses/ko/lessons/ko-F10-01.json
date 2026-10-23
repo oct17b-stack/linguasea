@@ -1,0 +1,85 @@
+{
+  "id": "ko-F10-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.wiban-hada",
+      "text": "위반하다",
+      "reading": "wibanhada"
+    },
+    {
+      "id": "ko.dansok",
+      "text": "단속",
+      "reading": "dansok"
+    },
+    {
+      "id": "ko.bulbeop",
+      "text": "불법",
+      "reading": "bulbeop"
+    },
+    {
+      "id": "ko.hapbeop",
+      "text": "합법",
+      "reading": "hapbeop"
+    },
+    {
+      "id": "ko.cheobeol",
+      "text": "처벌",
+      "reading": "cheobeol"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 제 태국 친구가 관광 비자로 한국에 왔는데 식당에서 일해 보고 싶대요.",
+      "reading": "Seonsaengnim, je Taeguk chinguga gwangwang bijaro Hanguge wanneunde sikdangeseo ilhae bogo sipdaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그건 안 돼요. 관광 비자로는 절대 일해서는 안 돼요. 불법이에요.",
+      "reading": "Geugeon an dwaeyo. Gwangwang bijaroneun jeoldae ilhaeseoneun an dwaeyo. Bulbeobieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 며칠만 일하는 것도 안 돼요?",
+      "reading": "Jeongmaryo? Myeochilman ilhaneun geotdo an dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 하루라도 비자 조건을 위반해서는 안 돼요. 요즘은 단속도 자주 해요.",
+      "reading": "Ne, harurado bija jogeoneul wibanhaeseoneun an dwaeyo. Yojeumeun dansokdo jaju haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "단속에 걸리면 어떻게 돼요?",
+      "reading": "Dansoge geollimyeon eotteoke dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "벌금을 내거나 처벌을 받을 수 있어요. 다시 한국에 못 들어올 수도 있고요.",
+      "reading": "Beolgeumeul naegeona cheobeoreul badeul su isseoyo. Dasi Hanguge mot deureool sudo itgoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 주말마다 식당에서 아르바이트하는 저는 괜찮아요?",
+      "reading": "Geureom jumalmada sikdangeseo areubaiteuhaneun jeoneun gwaenchanayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨는 출입국 관리 사무소에서 미리 허락을 받았으니까 합법이에요.",
+      "reading": "Nam ssineun churipguk gwalli samusoeseo miri heorageul badasseunikka hapbeobieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "하지만 정해진 시간보다 많이 일해서는 안 돼요. 그것도 규칙을 위반하는 거예요.",
+      "reading": "Hajiman jeonghaejin siganboda mani ilhaeseoneun an dwaeyo. Geugeotdo gyuchigeul wibanhaneun geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 친구한테도 꼭 말해 줄게요.",
+      "reading": "Algetseumnida. Chinguhantedo kkok malhae julgeyo."
+    }
+  ]
+}

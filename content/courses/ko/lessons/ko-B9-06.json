@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gaewol",
+      "text": "개월",
+      "reading": "gaewol"
+    },
+    {
+      "id": "ko.dongan",
+      "text": "동안",
+      "reading": "dongan"
+    },
+    {
+      "id": "ko.iljuil",
+      "text": "일주일",
+      "reading": "iljuil"
+    },
+    {
+      "id": "ko.maedal",
+      "text": "매달",
+      "reading": "maedal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 한국에 얼마 동안 있어요?",
+      "reading": "Nam ssineun Hanguge eolma dongan isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "육 개월 있어요.",
+      "reading": "Yuk gaewol isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "육 개월 동안 한국어 공부해요?",
+      "reading": "Yuk gaewol dongan hangugeo gongbuhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 다음 달에는 일주일 동안 방콕에 가요.",
+      "reading": "Ne. Daeum dareneun iljuil dongan Bangkoge gayo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 가족 만나요? 좋아요!",
+      "reading": "Wa, gajok mannayo? Joayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 엄마가 매달 태국 음식을 보내요. 엄마 음식이 최고예요!",
+      "reading": "Ne! Eommaga maedal Taeguk eumsigeul bonaeyo. Eomma eumsigi choegoyeyo!"
+    }
+  ]
+}

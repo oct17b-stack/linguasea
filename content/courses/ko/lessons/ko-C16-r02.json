@@ -1,0 +1,75 @@
+{
+  "id": "ko-C16-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.sayong-hada",
+      "text": "사용하다",
+      "reading": "sayonghada"
+    },
+    {
+      "id": "ko.jungdok",
+      "text": "중독",
+      "reading": "jungdok"
+    },
+    {
+      "id": "ko.pyeonggyun",
+      "text": "평균",
+      "reading": "pyeonggyun"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "우리 반은 대학생 스무 명한테 스마트폰 사용 시간을 물어봤어요.",
+        "reading": "Uri baneun daehaksaeng seumu myeonghante seumateupon sayong siganeul mureobwasseoyo."
+      },
+      {
+        "text": "한국 학생들은 하루 평균 다섯 시간 스마트폰을 사용해요.",
+        "reading": "Hanguk haksaengdeureun haru pyeonggyun daseot sigan seumateuponeul sayonghaeyo."
+      },
+      {
+        "text": "태국 학생들은 하루 평균 여섯 시간 사용해요.",
+        "reading": "Taeguk haksaengdeureun haru pyeonggyun yeoseot sigan sayonghaeyo."
+      }
+    ],
+    [
+      {
+        "text": "학생들은 스마트폰으로 메시지를 보내고 음악을 들어요.",
+        "reading": "Haksaengdeureun seumateuponeuro mesijireul bonaego eumageul deureoyo."
+      },
+      {
+        "text": "공부할 때도 스마트폰을 사용해요.",
+        "reading": "Gongbuhal ttaedo seumateuponeul sayonghaeyo."
+      }
+    ],
+    [
+      {
+        "text": "그런데 스마트폰 중독도 문제예요.",
+        "reading": "Geureonde seumateupon jungdokdo munjeyeyo."
+      },
+      {
+        "text": "잘 때도 스마트폰을 보는 학생이 많아요.",
+        "reading": "Jal ttaedo seumateuponeul boneun haksaengi manayo."
+      },
+      {
+        "text": "하루에 한 시간은 스마트폰을 쓰지 않는 게 좋아요.",
+        "reading": "Harue han siganeun seumateuponeul sseuji anneun ge joayo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

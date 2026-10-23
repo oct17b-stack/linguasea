@@ -1,0 +1,70 @@
+{
+  "id": "ko-C15-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.yoribeop",
+      "text": "요리법",
+      "reading": "yoribeop"
+    },
+    {
+      "id": "ko.jaeryo",
+      "text": "재료",
+      "reading": "jaeryo"
+    },
+    {
+      "id": "ko.bokkeumbap",
+      "text": "볶음밥",
+      "reading": "bokkeumbap"
+    },
+    {
+      "id": "ko.bokda",
+      "text": "볶다",
+      "reading": "bokda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 김치볶음밥 만드는 법을 알아요?",
+      "reading": "Minjun ssi, gimchibokkeumbap mandeuneun beobeul arayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 알아요. 정말 쉬워요.",
+      "reading": "Ne, arayo. Jeongmal swiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "재료가 뭐예요?",
+      "reading": "Jaeryoga mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "밥하고 김치, 그리고 고기가 필요해요.",
+      "reading": "Baphago gimchi, geurigo gogiga piryohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어떻게 만들어요? 요리법을 가르쳐 주세요.",
+      "reading": "Eotteoke mandeureoyo? Yoribeobeul gareuchyeo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "먼저 김치하고 고기를 볶아요. 그다음에 밥도 같이 볶아요.",
+      "reading": "Meonjeo gimchihago gogireul bokkayo. Geudaeume bapdo gachi bokkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그게 다예요? 정말 쉽네요!",
+      "reading": "Geuge dayeyo? Jeongmal swimneyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 이번 주말에 같이 만들어요. 제가 볶는 법도 가르쳐 줄게요.",
+      "reading": "Ne. Ibeon jumare gachi mandeureoyo. Jega bongneun beopdo gareuchyeo julgeyo."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ko-F5-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.holgabun-hada",
+      "text": "홀가분하다",
+      "reading": "holgabunhada"
+    },
+    {
+      "id": "ko.huryeon-hada",
+      "text": "후련하다",
+      "reading": "huryeonhada"
+    },
+    {
+      "id": "ko.maeumi-gabyeopda",
+      "text": "마음이 가볍다",
+      "reading": "maeumi gabyeopda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.hoebok-hada",
+      "text": "회복하다",
+      "reading": "hoebokada"
+    },
+    {
+      "id": "ko.eungeori",
+      "text": "응어리",
+      "reading": "eungeori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 상담 받고 왔어요? 어땠어요?",
+      "reading": "Minjun ssi, oneul sangdam batgo wasseoyo? Eottaesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "처음에는 긴장했는데, 이야기를 다 하고 나니까 정말 후련했어요.",
+      "reading": "Cheoeumeneun ginjanghaenneunde, iyagireul da hago nanikka jeongmal huryeonhaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 무슨 이야기를 했어요?",
+      "reading": "Dahaengieyo. Museun iyagireul haesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "면접에 떨어질까 봐 걱정한 거랑 부모님께 말하지 못한 것들을 다 말했어요.",
+      "reading": "Myeonjeobe tteoreojilkka bwa geokjeonghan georang bumonimkke malhaji motan geotdeureul da malhaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "마음속에 응어리가 있었군요.",
+      "reading": "Maeumsoge eungeoriga isseotgunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 오랫동안 쌓인 응어리가 있었던 것 같아요. 다 말하고 나니까 마음이 가벼워졌어요.",
+      "reading": "Ne, oraetdongan ssain eungeoriga isseotdeon geot gatayo. Da malhago nanikka maeumi gabyeowojyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "원래 힘든 이야기는 한번 하고 나면 홀가분해지잖아요.",
+      "reading": "Wollae himdeun iyagineun hanbeon hago namyeon holgabunhaejijanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 상담사 선생님도 감정을 표현하고 나면 회복이 빨라진다고 하셨어요.",
+      "reading": "Majayo. Sangdamsa seonsaengnimdo gamjeongeul pyohyeonhago namyeon hoebogi ppallajindago hasyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "이번 면접도 끝나고 나면 더 홀가분해질 거예요.",
+      "reading": "Ibeon myeonjeopdo kkeunnago namyeon deo holgabunhaejil geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 면접이 끝나고 나면 남 씨한테 맛있는 거 살게요.",
+      "reading": "Ne, myeonjeobi kkeunnago namyeon Nam ssihante masinneun geo salgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 그때까지 건강 조심하고 빨리 회복하세요.",
+      "reading": "Joayo! Geuttaekkaji geongang josimhago ppalli hoebokaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 남 씨 덕분에 힘이 나요.",
+      "reading": "Gomawoyo. Nam ssi deokbune himi nayo."
+    }
+  ]
+}

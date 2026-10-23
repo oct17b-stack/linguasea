@@ -1,0 +1,70 @@
+{
+  "id": "ko-B7-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ibenteu",
+      "text": "이벤트",
+      "reading": "ibenteu"
+    },
+    {
+      "id": "ko.dojang",
+      "text": "도장",
+      "reading": "dojang"
+    },
+    {
+      "id": "ko.bingsu",
+      "text": "빙수",
+      "reading": "bingsu"
+    },
+    {
+      "id": "ko.eoreum",
+      "text": "얼음",
+      "reading": "eoreum"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "이번 달부터 딸기 빙수가 있어요!",
+        "reading": "Ibeon dalbuteo ttalgi bingsuga isseoyo!"
+      },
+      {
+        "text": "얼음이 더 필요해요?",
+        "reading": "Eoreumi deo piryohaeyo?"
+      },
+      {
+        "text": "얼음은 서비스예요!",
+        "reading": "Eoreumeun seobiseuyeyo!"
+      }
+    ],
+    [
+      {
+        "text": "커피 한 잔에 도장이 한 개예요.",
+        "reading": "Keopi han jane dojangi han gaeyeyo."
+      },
+      {
+        "text": "도장 열 개는 아메리카노 한 잔 서비스예요!",
+        "reading": "Dojang yeol gaeneun amerikano han jan seobiseuyeyo!"
+      },
+      {
+        "text": "그리고 금요일에는 원 플러스 원 이벤트가 있어요!",
+        "reading": "Geurigo geumyoireneun won peulleoseu won ibenteuga isseoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

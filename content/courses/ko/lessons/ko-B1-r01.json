@@ -1,0 +1,70 @@
+{
+  "id": "ko-B1-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hajiman",
+      "text": "하지만",
+      "reading": "hajiman"
+    },
+    {
+      "id": "ko.geuraeseo",
+      "text": "그래서",
+      "reading": "geuraeseo"
+    },
+    {
+      "id": "ko.hwabun",
+      "text": "화분",
+      "reading": "hwabun"
+    },
+    {
+      "id": "ko.aneukaeyo",
+      "text": "아늑해요",
+      "reading": "aneukaeyo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "제 방은 좁아요.",
+        "reading": "Je bangeun jobayo."
+      },
+      {
+        "text": "하지만 아늑해요.",
+        "reading": "Hajiman aneukaeyo."
+      },
+      {
+        "text": "창문 앞에 침대하고 화분이 있어요.",
+        "reading": "Changmun ape chimdaehago hwabuni isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "텔레비전은 없어요.",
+        "reading": "Tellebijeoneun eopseoyo."
+      },
+      {
+        "text": "하지만 책상 위에 한국어 책이 많아요.",
+        "reading": "Hajiman chaeksang wie hangugeo chaegi manayo."
+      },
+      {
+        "text": "그래서 제 방이 최고예요!",
+        "reading": "Geuraeseo je bangi choegoyeyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

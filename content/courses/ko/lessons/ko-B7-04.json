@@ -1,0 +1,66 @@
+{
+  "id": "ko-B7-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.samgakgimbap",
+      "text": "삼각김밥",
+      "reading": "samgakgimbap"
+    },
+    {
+      "id": "ko.keomnamyeon",
+      "text": "컵라면",
+      "reading": "keomnamyeon"
+    },
+    {
+      "id": "ko.aiseukeurim",
+      "text": "아이스크림",
+      "reading": "aiseukeurim"
+    },
+    {
+      "id": "ko.banana-uyu",
+      "kind": "phrase",
+      "text": "바나나 우유",
+      "reading": "banana uyu"
+    },
+    {
+      "id": "ko.hatba",
+      "text": "핫바",
+      "reading": "hatba"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 먹어요?",
+      "reading": "Nam ssi, mwo meogeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 삼각김밥하고 컵라면 먹어요.",
+      "reading": "Jeoneun samgakgimbaphago keomnamyeon meogeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 핫바 먹어요. 바나나 우유도 마셔요!",
+      "reading": "Jeoneun hatba meogeoyo. Banana uyudo masyeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "바나나 우유요? 맛있어요?",
+      "reading": "Banana uyuyo? Masisseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 진짜 맛있어요! 한국 사람들 모두 좋아해요.",
+      "reading": "Ne, jinjja masisseoyo! Hanguk saramdeul modu joahaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 저도 하나 마셔요. 아이스크림도 먹어요!",
+      "reading": "Geuraeyo? Jeodo hana masyeoyo. Aiseukeurimdo meogeoyo!"
+    }
+  ]
+}

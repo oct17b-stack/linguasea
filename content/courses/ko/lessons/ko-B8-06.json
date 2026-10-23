@@ -1,0 +1,61 @@
+{
+  "id": "ko-B8-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.keuge-malhae-juseyo",
+      "kind": "phrase",
+      "text": "크게 말해 주세요",
+      "reading": "keuge malhae juseyo"
+    },
+    {
+      "id": "ko.sori",
+      "text": "소리",
+      "reading": "sori"
+    },
+    {
+      "id": "ko.belsori",
+      "text": "벨소리",
+      "reading": "belsori"
+    },
+    {
+      "id": "ko.deullyeoyo",
+      "text": "들려요",
+      "reading": "deullyeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여러분, 들려요?",
+      "reading": "Yeoreobun, deullyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "선생님, 소리가 좀 작아요. 크게 말해 주세요.",
+      "reading": "Seonsaengnim, soriga jom jagayo. Keuge malhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 지금은 들려요?",
+      "reading": "Ne. Jigeumeun deullyeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 잘 들려요!",
+      "reading": "Ne, jal deullyeoyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "어? 이거 누구 벨소리예요?",
+      "reading": "Eo? Igeo nugu belsoriyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 제 핸드폰이에요. 죄송합니다!",
+      "reading": "A, je haendeuponieyo. Joesonghamnida!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ko-C15-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.jeotda-stir",
+      "text": "젓다",
+      "reading": "jeotda"
+    },
+    {
+      "id": "ko.butda",
+      "text": "붓다",
+      "reading": "butda"
+    },
+    {
+      "id": "ko.seokda",
+      "text": "섞다",
+      "reading": "seokda"
+    },
+    {
+      "id": "ko.geureut",
+      "text": "그릇",
+      "reading": "geureut"
+    },
+    {
+      "id": "ko.gukja",
+      "text": "국자",
+      "reading": "gukja"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 냄비에 물을 조금 더 부어 주세요.",
+      "reading": "Minjun ssi, naembie mureul jogeum deo bueo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 부었어요. 그다음에는요?",
+      "reading": "Ne, bueosseoyo. Geudaeumeneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "국자로 천천히 저어 주세요.",
+      "reading": "Gukjaro cheoncheonhi jeoeo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "얼마나 저어요?",
+      "reading": "Eolmana jeoeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "삼 분쯤 저으세요. 그리고 고추를 넣고 잘 섞으세요.",
+      "reading": "Sam bunjjeum jeoeuseyo. Geurigo gochureul neoko jal seokkeuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다 했어요! 그다음에는 뭐 해요?",
+      "reading": "Da haesseoyo! Geudaeumeneun mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그릇에 국자로 똠얌꿍을 부으세요.",
+      "reading": "Geureuse gukjaro ttomyamkkungeul bueuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 냄새가 정말 좋네요! 빨리 먹고 싶어요.",
+      "reading": "Wa, naemsaega jeongmal jonneyo! Ppalli meokgo sipeoyo."
+    }
+  ]
+}

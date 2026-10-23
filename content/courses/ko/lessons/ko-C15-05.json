@@ -1,0 +1,70 @@
+{
+  "id": "ko-C15-05",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.gupda",
+      "text": "굽다",
+      "reading": "gupda"
+    },
+    {
+      "id": "ko.ikda",
+      "text": "익다",
+      "reading": "ikda"
+    },
+    {
+      "id": "ko.gireum",
+      "text": "기름",
+      "reading": "gireum"
+    },
+    {
+      "id": "ko.peuraipaen",
+      "text": "프라이팬",
+      "reading": "peuraipaen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 고기는 어떻게 구워요?",
+      "reading": "Minjun ssi, gogineun eotteoke guwoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "먼저 프라이팬에 기름을 조금 넣으세요.",
+      "reading": "Meonjeo peuraipaene gireumeul jogeum neoeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "기름은 얼마나 넣어요?",
+      "reading": "Gireumeun eolmana neoeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "한 숟가락 정도 넣으세요.",
+      "reading": "Han sutgarak jeongdo neoeuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고기는 몇 분 정도 구워요?",
+      "reading": "Gogineun myeot bun jeongdo guwoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "십 분 정도 구우세요.",
+      "reading": "Sip bun jeongdo guuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 냄새가 좋네요. 고기가 다 익었어요?",
+      "reading": "Wa, naemsaega jonneyo. Gogiga da igeosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 다 익었어요. 맛있게 먹어요!",
+      "reading": "Ne, da igeosseoyo. Masitge meogeoyo!"
+    }
+  ]
+}

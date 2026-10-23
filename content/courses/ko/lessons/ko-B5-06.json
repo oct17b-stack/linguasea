@@ -1,0 +1,65 @@
+{
+  "id": "ko-B5-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.deureowayo",
+      "text": "들어와요",
+      "reading": "deureowayo"
+    },
+    {
+      "id": "ko.cheongsohaeyo",
+      "text": "청소해요",
+      "reading": "cheongsohaeyo"
+    },
+    {
+      "id": "ko.sukjehaeyo",
+      "text": "숙제해요",
+      "reading": "sukjehaeyo"
+    },
+    {
+      "id": "ko.iljjik",
+      "text": "일찍",
+      "reading": "iljjik"
+    },
+    {
+      "id": "ko.neutge",
+      "text": "늦게",
+      "reading": "neutge"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 저녁에 몇 시에 들어와요?",
+      "reading": "Nam ssineun jeonyeoge myeot sie deureowayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "보통 여섯 시에 들어와요. 그리고 청소해요.",
+      "reading": "Botong yeoseot sie deureowayo. Geurigo cheongsohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "매일 청소해요? 와, 대단해요!",
+      "reading": "Maeil cheongsohaeyo? Wa, daedanhaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 네. 그리고 숙제해요. 숙제가 많아요.",
+      "reading": "Haha, ne. Geurigo sukjehaeyo. Sukjega manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "몇 시에 자요? 저는 일찍 자요. 열 시예요.",
+      "reading": "Myeot sie jayo? Jeoneun iljjik jayo. Yeol siyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 늦게 자요. 열두 시예요.",
+      "reading": "Jeoneun neutge jayo. Yeoldu siyeyo."
+    }
+  ]
+}

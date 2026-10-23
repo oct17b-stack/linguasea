@@ -1,0 +1,80 @@
+{
+  "id": "ko-E14-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.machim",
+      "text": "마침",
+      "reading": "machim"
+    },
+    {
+      "id": "ko.banggeum",
+      "text": "방금",
+      "reading": "banggeum"
+    },
+    {
+      "id": "ko.yeollakdeurida",
+      "text": "연락드리다",
+      "reading": "yeollakdeurida"
+    },
+    {
+      "id": "ko.taiming",
+      "text": "타이밍",
+      "reading": "taiming"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여보세요, 남 씨? 김 팀장이에요.",
+      "reading": "Yeoboseyo, Nam ssi? Gim timjangieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 팀장님! 마침 저도 연락드리려던 참이었어요.",
+      "reading": "A, timjangnim! Machim jeodo yeollakdeuriryeodeon chamieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래요? 무슨 일로요?",
+      "reading": "Geuraeyo? Museun illoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "방금 보고서를 다 써서 보내 드리려던 참이었어요.",
+      "reading": "Banggeum bogoseoreul da sseoseo bonae deuriryeodeon chamieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 타이밍이 정말 좋네요. 저도 그 보고서 때문에 전화했어요.",
+      "reading": "Wa, taimingi jeongmal jonneyo. Jeodo geu bogoseo ttaemune jeonhwahaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "혹시 무슨 문제가 있어요?",
+      "reading": "Hoksi museun munjega isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 내일 아침 회의 시간이 바뀌어서 오늘까지 받아야 하거든요.",
+      "reading": "Aniyo, naeil achim hoeui sigani bakkwieoseo oneulkkaji badaya hageodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 지금 바로 이메일로 보내 드릴게요.",
+      "reading": "Geureom jigeum baro imeillo bonae deurilgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "고마워요. 그리고 다음 주 출장 일정도 같이 보내 줄 수 있어요?",
+      "reading": "Gomawoyo. Geurigo daeum ju chuljang iljeongdo gachi bonae jul su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 마침 출장 일정도 정리하려던 참이었어요. 같이 보내 드릴게요.",
+      "reading": "Ne, machim chuljang iljeongdo jeongniharyeodeon chamieosseoyo. Gachi bonae deurilgeyo."
+    }
+  ]
+}

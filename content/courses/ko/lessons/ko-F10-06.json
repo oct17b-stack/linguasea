@@ -1,0 +1,90 @@
+{
+  "id": "ko-F10-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.johang",
+      "text": "조항",
+      "reading": "johang"
+    },
+    {
+      "id": "ko.gyujeong",
+      "text": "규정",
+      "reading": "gyujeong"
+    },
+    {
+      "id": "ko.junsu-hada",
+      "text": "준수하다",
+      "reading": "junsuhada"
+    },
+    {
+      "id": "ko.yeoe",
+      "text": "예외",
+      "reading": "yeoe"
+    },
+    {
+      "id": "ko.myeongsidoeda",
+      "text": "명시되다",
+      "reading": "myeongsidoeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 기숙사에 들어오기 전에 이 규정을 꼭 읽어 보세요.",
+      "reading": "Nam ssi, gisuksae deureoogi jeone i gyujeongeul kkok ilgeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 조항이 너무 많아요. 제일 중요한 게 뭐예요?",
+      "reading": "Ne. Geureonde johangi neomu manayo. Jeil jungyohan ge mwoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "삼 조를 보세요. '밤 열두 시부터는 조용히 할 것'이라고 명시되어 있죠?",
+      "reading": "Sam joreul boseyo. 'Bam yeoldu sibuteoneun joyonghi hal geot'irago myeongsidoeeo itjyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 친구가 놀러 와도 되는지는 어디에 쓰여 있어요?",
+      "reading": "Ne. Chinguga nolleo wado doeneunjineun eodie sseuyeo isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "오 조예요. 가족이나 친구도 방에 들어갈 수 없도록 되어 있어요.",
+      "reading": "O joyeyo. Gajogina chingudo bange deureogal su eopdorok doeeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "예외는 없어요? 부모님이 태국에서 오시면요?",
+      "reading": "Yeoeneun eopseoyo? Bumonimi Taegugeseo osimyeonyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "일 층에서는 만날 수 있어요. 그것만 예외예요.",
+      "reading": "Il cheungeseoneun mannal su isseoyo. Geugeonman yeoeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "규정을 위반할 시 어떻게 되는지도 쓰여 있네요. '세 번 위반하면 기숙사에서 나가야 한다.'",
+      "reading": "Gyujeongeul wibanhal si eotteoke doeneunjido sseuyeo inneyo. 'Se beon wibanhamyeon gisuksaeseo nagaya handa.'"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 이 규정은 모든 학생이 편하게 지낼 수 있도록 만들어졌어요. 그러니까 꼭 준수해 주세요.",
+      "reading": "Majayo. I gyujeongeun modeun haksaengi pyeonhage jinael su itdorok mandeureojyeosseoyo. Geureonikka kkok junsuhae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 다 읽고 나서 여기에 서명하면 되죠?",
+      "reading": "Algetseumnida. Da ikgo naseo yeogie seomyeonghamyeon doejyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 규정을 준수하겠다는 뜻으로 서명해 주세요.",
+      "reading": "Ne, gyujeongeul junsuhagetdaneun tteuseuro seomyeonghae juseyo."
+    }
+  ]
+}

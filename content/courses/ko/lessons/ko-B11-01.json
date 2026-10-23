@@ -1,0 +1,60 @@
+{
+  "id": "ko-B11-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.apayo",
+      "text": "아파요",
+      "reading": "apayo"
+    },
+    {
+      "id": "ko.gamgi",
+      "text": "감기",
+      "reading": "gamgi"
+    },
+    {
+      "id": "ko.gichim",
+      "text": "기침",
+      "reading": "gichim"
+    },
+    {
+      "id": "ko.jaechaegi",
+      "text": "재채기",
+      "reading": "jaechaegi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 괜찮아요? 기침을 많이 해요.",
+      "reading": "Nam ssi, gwaenchanayo? Gichimeul mani haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감기에 걸렸어요. 재채기도 많이 해요.",
+      "reading": "Gamgie geollyeosseoyo. Jaechaegido mani haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고! 배도 아파요?",
+      "reading": "Aigo! Baedo apayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 배는 안 아파요. 좀 피곤해요.",
+      "reading": "Aniyo, baeneun an apayo. Jom pigonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "오늘은 집에서 쉬어요.",
+      "reading": "Oneureun jibeseo swieoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 고마워요.",
+      "reading": "Ne, gomawoyo."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ko-B7-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.nokcha",
+      "text": "녹차",
+      "reading": "nokcha"
+    },
+    {
+      "id": "ko.kolla",
+      "text": "콜라",
+      "reading": "kolla"
+    },
+    {
+      "id": "ko.saengsu",
+      "text": "생수",
+      "reading": "saengsu"
+    },
+    {
+      "id": "ko.byeong",
+      "text": "병",
+      "reading": "byeong"
+    },
+    {
+      "id": "ko.masigo-sipeoyo",
+      "kind": "phrase",
+      "text": "마시고 싶어요",
+      "reading": "masigo sipeoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 마시고 싶어요?",
+      "reading": "Nam ssi, mwo masigo sipeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 녹차 마시고 싶어요. 민준 씨는요?",
+      "reading": "Jeoneun nokcha masigo sipeoyo. Minjun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 콜라요. 아, 생수도 사요.",
+      "reading": "Jeoneun kollayo. A, saengsudo sayo."
+    },
+    {
+      "speaker": "a",
+      "text": "생수 몇 병 사요?",
+      "reading": "Saengsu myeot byeong sayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "두 병 사요. 그리고 라면도 먹고 싶어요!",
+      "reading": "Du byeong sayo. Geurigo ramyeondo meokgo sipeoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 저도 먹고 싶어요!",
+      "reading": "Haha, jeodo meokgo sipeoyo!"
+    }
+  ]
+}

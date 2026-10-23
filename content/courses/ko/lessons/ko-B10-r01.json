@@ -1,0 +1,70 @@
+{
+  "id": "ko-B10-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.deungnok",
+      "text": "등록",
+      "reading": "deungnok"
+    },
+    {
+      "id": "ko.sugangnyo",
+      "text": "수강료",
+      "reading": "sugangnyo"
+    },
+    {
+      "id": "ko.jeogeoyo",
+      "text": "적어요",
+      "reading": "jeogeoyo"
+    },
+    {
+      "id": "ko.jeopsucheo",
+      "text": "접수처",
+      "reading": "jeopsucheo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "한국어 수업 등록은 접수처에서 해요.",
+        "reading": "Hangugeo sueop deungnogeun jeopsucheoeseo haeyo."
+      },
+      {
+        "text": "접수처는 일 층에 있어요.",
+        "reading": "Jeopsucheoneun il cheunge isseoyo."
+      },
+      {
+        "text": "영문 이름, 생년월일, 휴대폰 번호를 적어 주세요.",
+        "reading": "Yeongmun ireum, saengnyeonworil, hyudaepon beonhoreul jeogeo juseyo."
+      }
+    ],
+    [
+      {
+        "text": "수강료는 한 달에 삼십만 원이에요.",
+        "reading": "Sugangnyoneun han dare samsimman wonieyo."
+      },
+      {
+        "text": "수업은 다음 달 오일부터 시작해요.",
+        "reading": "Sueobeun daeum dal oilbuteo sijakaeyo."
+      },
+      {
+        "text": "질문은 접수처에 물어보세요.",
+        "reading": "Jilmuneun jeopsucheoe mureoboseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "ko-E14-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bulpyeon",
+      "text": "불편",
+      "reading": "bulpyeon"
+    },
+    {
+      "id": "ko.pyereul-kkichida",
+      "text": "폐를 끼치다",
+      "reading": "pyereul kkichida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yongseo-hada",
+      "text": "용서하다",
+      "reading": "yongseohada"
+    },
+    {
+      "id": "ko.silmangsikida",
+      "text": "실망시키다",
+      "reading": "silmangsikida"
+    },
+    {
+      "id": "ko.neogeureopda",
+      "text": "너그럽다",
+      "reading": "neogeureopda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선배님, 늦어서 정말 죄송해요. 오래 기다리게 해서 죄송합니다.",
+      "reading": "Seonbaenim, neujeoseo jeongmal joesonghaeyo. Orae gidarige haeseo joesonghamnida."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 무슨 일 있었어요?",
+      "reading": "Gwaenchanayo. Museun il isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지하철이 고장 나서 지하철 안에서 삼십 분이나 기다렸어요.",
+      "reading": "Jihacheori gojang naseo jihacheol aneseo samsip bunina gidaryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 남 씨가 더 힘들었겠네요.",
+      "reading": "Aigo, Nam ssiga deo himdeureotgenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 선배님께 폐를 끼쳐서 죄송해요.",
+      "reading": "Geuraedo seonbaenimkke pyereul kkichyeoseo joesonghaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "폐는요. 저도 덕분에 책을 읽었어요.",
+      "reading": "Pyeneunyo. Jeodo deokbune chaegeul ilgeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "선배님은 정말 너그러우시네요.",
+      "reading": "Seonbaenimeun jeongmal neogeureousineyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 남 씨, 지난번 보고서 때문에 팀장님을 실망시켰다고 걱정했지요?",
+      "reading": "Geureonde Nam ssi, jinanbeon bogoseo ttaemune timjangnimeul silmangsikyeotdago geokjeonghaetjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네… 팀장님께 불편을 드린 것 같아서 마음이 안 좋았어요.",
+      "reading": "Ne… Timjangnimkke bulpyeoneul deurin geot gataseo maeumi an joasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "팀장님은 벌써 용서하셨어요. 남 씨가 진심으로 사과했잖아요.",
+      "reading": "Timjangnimeun beolsseo yongseohasyeosseoyo. Nam ssiga jinsimeuro sagwahaetjanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 다시는 걱정하게 하지 않을게요.",
+      "reading": "Dahaengieyo. Dasineun geokjeonghage haji aneulgeyo."
+    }
+  ]
+}

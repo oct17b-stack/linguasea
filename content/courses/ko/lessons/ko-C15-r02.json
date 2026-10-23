@@ -1,0 +1,80 @@
+{
+  "id": "ko-C15-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.taeuda",
+      "text": "태우다",
+      "reading": "taeuda"
+    },
+    {
+      "id": "ko.maseul-boda",
+      "kind": "phrase",
+      "text": "맛을 보다",
+      "reading": "maseul boda"
+    },
+    {
+      "id": "ko.ppudeut-hada",
+      "text": "뿌듯하다",
+      "reading": "ppudeutada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘 처음으로 남 씨한테 한국 음식을 만들어 줬어요.",
+        "reading": "Oneul cheoeumeuro Nam ssihante Hanguk eumsigeul mandeureo jwosseoyo."
+      },
+      {
+        "text": "메뉴는 불고기하고 된장찌개였어요.",
+        "reading": "Menyuneun bulgogihago doenjangjjigaeyeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "그런데 불고기를 굽고 있을 때 전화가 왔어요.",
+        "reading": "Geureonde bulgogireul gupgo isseul ttae jeonhwaga wasseoyo."
+      },
+      {
+        "text": "저는 전화를 오래 했어요.",
+        "reading": "Jeoneun jeonhwareul orae haesseoyo."
+      },
+      {
+        "text": "그래서 고기를 태웠어요.",
+        "reading": "Geuraeseo gogireul taewosseoyo."
+      },
+      {
+        "text": "저는 다시 고기를 굽고 먼저 맛을 봤어요.",
+        "reading": "Jeoneun dasi gogireul gupgo meonjeo maseul bwasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 \"정말 맛있어요!\"라고 했어요.",
+        "reading": "Nam ssineun \"Jeongmal masisseoyo!\"rago haesseoyo."
+      },
+      {
+        "text": "그리고 맛있게 다 먹었어요.",
+        "reading": "Geurigo masitge da meogeosseoyo."
+      },
+      {
+        "text": "정말 뿌듯했어요.",
+        "reading": "Jeongmal ppudeutaesseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

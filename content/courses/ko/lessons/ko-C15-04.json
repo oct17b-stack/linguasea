@@ -1,0 +1,75 @@
+{
+  "id": "ko-C15-04",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sogeum",
+      "text": "소금",
+      "reading": "sogeum"
+    },
+    {
+      "id": "ko.seoltang",
+      "text": "설탕",
+      "reading": "seoltang"
+    },
+    {
+      "id": "ko.ganjang",
+      "text": "간장",
+      "reading": "ganjang"
+    },
+    {
+      "id": "ko.gochutgaru",
+      "text": "고춧가루",
+      "reading": "gochutgaru"
+    },
+    {
+      "id": "ko.yangnyeom",
+      "text": "양념",
+      "reading": "yangnyeom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 양념은 뭐가 필요해요?",
+      "reading": "Nam ssi, yangnyeomeun mwoga piryohaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "간장하고 설탕, 그리고 고춧가루가 필요해요. 소금도 조금 넣어요.",
+      "reading": "Ganjanghago seoltang, geurigo gochutgaruga piryohaeyo. Sogeumdo jogeum neoeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고춧가루를 많이 넣어요? 저는 맵게 먹는 걸 좋아해요!",
+      "reading": "Gochutgarureul mani neoeoyo? Jeoneun maepge meongneun geol joahaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 고춧가루를 많이 넣을게요. 저는 조금 달게 먹어요.",
+      "reading": "Geureom gochutgarureul mani neoeulgeyo. Jeoneun jogeum dalge meogeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "태국 음식은 정말 달아요?",
+      "reading": "Taeguk eumsigeun jeongmal darayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국 사람들은 맵고 달게 먹어요. 설탕을 많이 넣어요.",
+      "reading": "Ne, Taeguk saramdeureun maepgo dalge meogeoyo. Seoltangeul mani neoeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 맛있게 만들어 주세요!",
+      "reading": "Wa, masitge mandeureo juseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 맛있게 만들게요. 많이 드세요!",
+      "reading": "Ne, masitge mandeulgeyo. Mani deuseyo!"
+    }
+  ]
+}

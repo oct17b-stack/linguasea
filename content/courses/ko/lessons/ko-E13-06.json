@@ -1,0 +1,85 @@
+{
+  "id": "ko-E13-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.nuguna",
+      "text": "누구나",
+      "reading": "nuguna"
+    },
+    {
+      "id": "ko.silpae",
+      "text": "실패",
+      "reading": "silpae"
+    },
+    {
+      "id": "ko.jachaek-hada",
+      "text": "자책하다",
+      "reading": "jachaekada"
+    },
+    {
+      "id": "ko.wanbyeok-hada",
+      "text": "완벽하다",
+      "reading": "wanbyeokada"
+    },
+    {
+      "id": "ko.seongjang-hada",
+      "text": "성장하다",
+      "reading": "seongjanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 오늘 발표를 망쳤어요. 너무 긴장해서 중간에 할 말을 잊어버렸어요.",
+      "reading": "Seonsaengnim, oneul balpyoreul mangchyeosseoyo. Neomu ginjanghaeseo junggane hal mareul ijeobeoryeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "처음 하는 발표는 누구나 긴장하기 마련이에요.",
+      "reading": "Cheoeum haneun balpyoneun nuguna ginjanghagi maryeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 너무 창피했어요. 계속 제 자신을 자책하게 돼요.",
+      "reading": "Geuraedo neomu changpihaesseoyo. Gyesok je jasineul jachaekage dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "너무 자책하지 마세요. 사람은 누구나 실수하기 마련이에요.",
+      "reading": "Neomu jachaekaji maseyo. Sarameun nuguna silsuhagi maryeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 완벽하게 하고 싶었어요.",
+      "reading": "Jeoneun wanbyeokage hago sipeosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "완벽한 사람은 없어요. 실패를 통해서 성장하는 거예요.",
+      "reading": "Wanbyeokan sarameun eopseoyo. Silpaereul tonghaeseo seongjanghaneun geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님도 실패한 적이 있으세요?",
+      "reading": "Seonsaengnimdo silpaehan jeogi isseuseyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요, 많아요. 처음 수업했을 때는 학생들 앞에서 울 뻔했어요.",
+      "reading": "Geureomyo, manayo. Cheoeum sueopaesseul ttaeneun haksaengdeul apeseo ul ppeonhaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 상상이 안 돼요.",
+      "reading": "Jeongmaryo? Sangsangi an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "경험이 쌓이면 실력도 늘기 마련이에요. 다음 발표는 더 잘할 거예요.",
+      "reading": "Gyeongheomi ssaimyeon sillyeokdo neulgi maryeonieyo. Daeum balpyoneun deo jalhal geoyeyo."
+    }
+  ]
+}

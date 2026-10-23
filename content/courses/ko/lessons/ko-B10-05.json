@@ -1,0 +1,61 @@
+{
+  "id": "ko-B10-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.seomyeong",
+      "text": "서명",
+      "reading": "seomyeong"
+    },
+    {
+      "id": "ko.sseo-juseyo",
+      "kind": "phrase",
+      "text": "써 주세요",
+      "reading": "sseo juseyo"
+    },
+    {
+      "id": "ko.chekeu",
+      "text": "체크",
+      "reading": "chekeu"
+    },
+    {
+      "id": "ko.pyosi",
+      "text": "표시",
+      "reading": "pyosi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "여기에 이름을 써 주세요.",
+      "reading": "Yeogie ireumeul sseo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 여기는요?",
+      "reading": "Ne. Yeogineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "거기는 서명해 주세요.",
+      "reading": "Geogineun seomyeonghae juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "서명이요? 네. 이 네모는 뭐예요?",
+      "reading": "Seomyeongiyo? Ne. I nemoneun mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "수업 요일이에요. 수업 요일에 체크하세요.",
+      "reading": "Sueop yoirieyo. Sueop yoire chekeuhaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 월요일하고 수요일에 표시해요.",
+      "reading": "Ne, woryoilhago suyoire pyosihaeyo."
+    }
+  ]
+}

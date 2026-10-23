@@ -1,0 +1,97 @@
+{
+  "id": "ko-F5-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.mugiryeok-hada",
+      "text": "무기력하다",
+      "reading": "mugiryeokada"
+    },
+    {
+      "id": "ko.singyeongi-sseuida",
+      "text": "신경이 쓰이다",
+      "reading": "singyeongi sseuida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.hansum",
+      "text": "한숨",
+      "reading": "hansum"
+    },
+    {
+      "id": "ko.jameul-seolchida",
+      "text": "잠을 설치다",
+      "reading": "jameul seolchida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.neureojida",
+      "text": "늘어지다",
+      "reading": "neureojida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 왜 이렇게 한숨을 쉬어요?",
+      "reading": "Minjun ssi, wae ireoke hansumeul swieoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "요즘 너무 피곤해서 아침에 일어나기 힘들 지경이에요.",
+      "reading": "Yojeum neomu pigonhaeseo achime ireonagi himdeul jigyeongieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "무슨 일 있어요?",
+      "reading": "Museun il isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "다음 주에 취업 면접이 있는데, 너무 신경이 쓰여서 밤마다 잠을 설쳐요.",
+      "reading": "Daeum jue chwieop myeonjeobi inneunde, neomu singyeongi sseuyeoseo bammada jameul seolchyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 얼굴이 안 좋았군요.",
+      "reading": "Geuraeseo eolguri an joatgunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 하루 종일 몸이 늘어지고 아무것도 하기 싫어요. 정말 무기력해요.",
+      "reading": "Ne, haru jongil momi neureojigo amugeotdo hagi sireoyo. Jeongmal mugiryeokaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "밥은 잘 먹어요?",
+      "reading": "Babeun jal meogeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 밥 생각이 없어서 하루에 한 번만 먹을 지경이에요.",
+      "reading": "Aniyo, bap saenggagi eopseoseo harue han beonman meogeul jigyeongieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그러면 건강이 더 나빠질 거예요. 면접 준비도 중요하지만 몸부터 생각해야 해요.",
+      "reading": "Geureomyeon geongangi deo nappajil geoyeyo. Myeonjeop junbido jungyohajiman mombuteo saenggakaeya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "알아요. 그런데 면접을 생각하면 걱정이 돼서 잠을 잘 수가 없어요.",
+      "reading": "Arayo. Geureonde myeonjeobeul saenggakamyeon geokjeongi dwaeseo jameul jal suga eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘은 같이 밖에서 좀 걸어요. 산책하면 기분이 나아질 거예요.",
+      "reading": "Oneureun gachi bakkeseo jom georeoyo. Sanchaekamyeon gibuni naajil geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 남 씨 말을 들으니까 조금 힘이 나네요.",
+      "reading": "Gomawoyo. Nam ssi mareul deureunikka jogeum himi naneyo."
+    }
+  ]
+}

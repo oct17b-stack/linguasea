@@ -1,0 +1,116 @@
+{
+  "id": "ko-F10-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.gongdong-jutaek",
+      "kind": "phrase",
+      "text": "공동 주택",
+      "reading": "gongdong jutaek"
+    },
+    {
+      "id": "ko.heubyeon",
+      "text": "흡연",
+      "reading": "heubyeon"
+    },
+    {
+      "id": "ko.ballyeogyeon",
+      "text": "반려견",
+      "reading": "ballyeogyeon"
+    },
+    {
+      "id": "ko.eomgyeoki",
+      "text": "엄격히",
+      "reading": "eomgyeoki"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "우리 아파트 관리 사무소에서 알려 드립니다.",
+        "reading": "Uri apateu gwalli samusoeseo allyeo deurimnida."
+      },
+      {
+        "text": "아파트는 많은 사람이 함께 사는 공동 주택입니다.",
+        "reading": "Apateuneun maneun sarami hamkke saneun gongdong jutaegimnida."
+      },
+      {
+        "text": "모든 주민이 편하게 생활할 수 있도록 다음 규칙을 지켜 주시기 바랍니다.",
+        "reading": "Modeun jumini pyeonhage saenghwalhal su itdorok daeum gyuchigeul jikyeo jusigi baramnida."
+      }
+    ],
+    [
+      {
+        "text": "먼저 층간 소음에 주의해 주십시오.",
+        "reading": "Meonjeo cheunggan soeume juuihae jusipsio."
+      },
+      {
+        "text": "밤 열 시부터 아침 여섯 시까지는 세탁기나 청소기를 사용하지 마십시오.",
+        "reading": "Bam yeol sibuteo achim yeoseot sikkajineun setakgina cheongsogireul sayonghaji masipsio."
+      },
+      {
+        "text": "집 안에서 뛰거나 큰 소리로 음악을 듣는 것도 삼가 주시기 바랍니다.",
+        "reading": "Jip aneseo ttwigeona keun soriro eumageul deunneun geotdo samga jusigi baramnida."
+      }
+    ],
+    [
+      {
+        "text": "다음으로 반려견을 키우는 주민께서는 다음 사항을 지켜 주십시오.",
+        "reading": "Daeumeuro ballyeogyeoneul kiuneun juminkkeseoneun daeum sahangeul jikyeo jusipsio."
+      },
+      {
+        "text": "엘리베이터를 탈 때는 반려견을 반드시 안고 타야 합니다.",
+        "reading": "Ellibeiteoreul tal ttaeneun ballyeogyeoneul bandeusi ango taya hamnida."
+      },
+      {
+        "text": "산책시킬 때는 반드시 줄을 사용해야 하며, 반려견이 밤늦게 짖지 않도록 주의해야 합니다.",
+        "reading": "Sanchaeksikil ttaeneun bandeusi jureul sayonghaeya hamyeo, ballyeogyeoni bamneutge jitji antorok juuihaeya hamnida."
+      }
+    ],
+    [
+      {
+        "text": "마지막으로 아파트 안에서의 흡연은 엄격히 금지되어 있습니다.",
+        "reading": "Majimageuro apateu aneseoui heubyeoneun eomgyeoki geumjidoeeo itseumnida."
+      },
+      {
+        "text": "집 안이나 계단에서 흡연할 시 연기와 냄새가 다른 집으로 들어가기 때문입니다.",
+        "reading": "Jip anina gyedaneseo heubyeonhal si yeongiwa naemsaega dareun jibeuro deureogagi ttaemunimnida."
+      },
+      {
+        "text": "특히 계단과 엘리베이터에서 흡연하다가 적발될 경우 과태료가 부과될 수 있습니다.",
+        "reading": "Teuki gyedangwa ellibeiteoeseo heubyeonhadaga jeokbaldoel gyeongu gwataeryoga bugwadoel su itseumnida."
+      }
+    ],
+    [
+      {
+        "text": "공동 주택에서는 서로 배려하는 마음이 가장 중요합니다.",
+        "reading": "Gongdong jutaegeseoneun seoro baeryeohaneun maeumi gajang jungyohamnida."
+      },
+      {
+        "text": "규칙을 지키지 않는 주민이 있으면 관리 사무소로 연락해 주십시오.",
+        "reading": "Gyuchigeul jikiji anneun jumini isseumyeon gwalli samusoro yeollakae jusipsio."
+      },
+      {
+        "text": "모든 주민의 협조를 부탁드립니다.",
+        "reading": "Modeun juminui hyeopjoreul butakdeurimnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

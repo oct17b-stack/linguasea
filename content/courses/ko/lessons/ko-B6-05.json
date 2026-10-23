@@ -1,0 +1,65 @@
+{
+  "id": "ko-B6-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.halmeoni",
+      "text": "할머니",
+      "reading": "halmeoni"
+    },
+    {
+      "id": "ko.harabeoji",
+      "text": "할아버지",
+      "reading": "harabeoji"
+    },
+    {
+      "id": "ko.eomma",
+      "text": "엄마",
+      "reading": "eomma"
+    },
+    {
+      "id": "ko.adeul",
+      "text": "아들",
+      "reading": "adeul"
+    },
+    {
+      "id": "ko.ttal",
+      "text": "딸",
+      "reading": "ttal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이분은 누구예요?",
+      "reading": "Nam ssi, ibuneun nuguyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "우리 할머니예요. 방콕에 계세요.",
+      "reading": "Uri halmeoniyeyo. Bangkoge gyeseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "할아버지도 방콕에 계세요?",
+      "reading": "Harabeojido Bangkoge gyeseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 이분은 우리 엄마예요. 아빠하고 엄마 모두 선생님이에요.",
+      "reading": "Ne. Ibuneun uri eommayeyo. Appahago eomma modu seonsaengnimieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 그래요? 우리 집은 딸 한 명, 아들 두 명이에요.",
+      "reading": "Wa, geuraeyo? Uri jibeun ttal han myeong, adeul du myeongieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 민준 씨 누나하고 남동생!",
+      "reading": "A, Minjun ssi nunahago namdongsaeng!"
+    }
+  ]
+}

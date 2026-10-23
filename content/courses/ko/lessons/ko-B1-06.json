@@ -1,0 +1,65 @@
+{
+  "id": "ko-B1-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.manayo",
+      "text": "많아요",
+      "reading": "manayo"
+    },
+    {
+      "id": "ko.sireoyo",
+      "text": "싫어요",
+      "reading": "sireoyo"
+    },
+    {
+      "id": "ko.noayo",
+      "text": "놓아요",
+      "reading": "noayo"
+    },
+    {
+      "id": "ko.motaeyo",
+      "text": "못해요",
+      "reading": "motaeyo"
+    },
+    {
+      "id": "ko.sillae",
+      "text": "실내",
+      "reading": "sillae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "와, 남 씨 방에 책이 많아요!",
+      "reading": "Wa, Nam ssi bange chaegi manayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 한국어 책이에요. 저는 한국어 잘 못해요.",
+      "reading": "Ne, hangugeo chaegieyo. Jeoneun hangugeo jal motaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아니에요, 잘해요!",
+      "reading": "Anieyo, jalhaeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 민준 씨, 커피 마셔요?",
+      "reading": "Gomawoyo. Minjun ssi, keopi masyeoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 커피는 싫어요. 물 주세요.",
+      "reading": "Aniyo, keopineun sireoyo. Mul juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 물은 테이블 위에 놓아요.",
+      "reading": "Ne. Mureun teibeul wie noayo."
+    }
+  ]
+}

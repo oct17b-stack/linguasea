@@ -1,0 +1,92 @@
+{
+  "id": "ko-F4-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.yeoncha",
+      "text": "연차",
+      "reading": "yeoncha"
+    },
+    {
+      "id": "ko.hyugareul-naeda",
+      "text": "휴가를 내다",
+      "reading": "hyugareul naeda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jaetaekgeunmu",
+      "text": "재택근무",
+      "reading": "jaetaekgeunmu"
+    },
+    {
+      "id": "ko.jumal-chulgeun",
+      "text": "주말 출근",
+      "reading": "jumal chulgeun",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "준호 씨, 주말 잘 보냈어요?",
+      "reading": "Junho ssi, jumal jal bonaesseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "쉬기는커녕 주말 출근을 했어요.",
+      "reading": "Swigineunkeonyeong jumal chulgeuneul haesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "또요? 지난주에도 주말에 일했잖아요.",
+      "reading": "Ttoyo? Jinanjuedo jumare ilhaetjanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 다음 주까지 끝내야 하는 일이 있어서요. 일요일에도 집에서 재택근무를 했어요.",
+      "reading": "Ne, daeum jukkaji kkeunnaeya haneun iri isseoseoyo. Iryoiredo jibeseo jaetaekgeunmureul haesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 언제 쉬어요? 연차는 안 써요?",
+      "reading": "Geureom eonje swieoyo? Yeonchaneun an sseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "연차가 십오 일 있는데, 올해는 하루도 못 썼어요.",
+      "reading": "Yeonchaga sibo il inneunde, olhaeneun harudo mot sseosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜요? 휴가를 내기 어려워요?",
+      "reading": "Waeyo? Hyugareul naegi eoryeowoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "휴가를 내기는커녕 점심시간에도 쉬기 어려워요. 팀에 사람이 부족해서요.",
+      "reading": "Hyugareul naegineunkeonyeong jeomsimsiganedo swigi eoryeowoyo. Time sarami bujokaeseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서는 송끄란 때 다들 휴가를 내고 고향에 가요.",
+      "reading": "Taegugeseoneun songkkeuran ttae dadeul hyugareul naego gohyange gayo."
+    },
+    {
+      "speaker": "b",
+      "text": "부럽네요. 저도 이번 일이 끝나면 꼭 연차를 내서 여행을 갈 거예요.",
+      "reading": "Bureomneyo. Jeodo ibeon iri kkeunnamyeon kkok yeonchareul naeseo yeohaengeul gal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 태국에 오면 제가 맛있는 식당을 소개해 줄게요.",
+      "reading": "Joayo. Taeguge omyeon jega masinneun sikdangeul sogaehae julgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말요? 그 말을 들으니까 힘이 나네요.",
+      "reading": "Jeongmaryo? Geu mareul deureunikka himi naneyo."
+    }
+  ]
+}

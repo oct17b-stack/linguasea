@@ -1,0 +1,70 @@
+{
+  "id": "ko-C16-01",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.seumateupon",
+      "text": "스마트폰",
+      "reading": "seumateupon"
+    },
+    {
+      "id": "ko.aep",
+      "text": "앱",
+      "reading": "aep"
+    },
+    {
+      "id": "ko.seolchi-hada",
+      "text": "설치하다",
+      "reading": "seolchihada"
+    },
+    {
+      "id": "ko.seoljeong",
+      "text": "설정",
+      "reading": "seoljeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이 앱을 어떻게 설치하는지 알아요?",
+      "reading": "Minjun ssi, i aebeul eotteoke seolchihaneunji arayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 알아요. 스마트폰 좀 주세요.",
+      "reading": "Ne, arayo. Seumateupon jom juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "여기요. 그리고 앱 소리를 어떻게 끄는지 몰라요.",
+      "reading": "Yeogiyo. Geurigo aep sorireul eotteoke kkeuneunji mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "설정에서 끌 수 있어요. 여기 있어요.",
+      "reading": "Seoljeongeseo kkeul su isseoyo. Yeogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 그런데 이 앱으로 뭘 할 수 있는지 알아요?",
+      "reading": "Gomawoyo. Geureonde i aebeuro mwol hal su inneunji arayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이 앱으로 버스가 언제 오는지 알 수 있어요.",
+      "reading": "I aebeuro beoseuga eonje oneunji al su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 좋네요!",
+      "reading": "Wa, jeongmal jonneyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 한국 생활에 꼭 필요한 앱이에요.",
+      "reading": "Ne, Hanguk saenghware kkok piryohan aebieyo."
+    }
+  ]
+}

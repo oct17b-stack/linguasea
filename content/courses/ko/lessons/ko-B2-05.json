@@ -1,0 +1,69 @@
+{
+  "id": "ko-B2-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.ibeon-ju",
+      "kind": "phrase",
+      "text": "이번 주",
+      "reading": "ibeon ju"
+    },
+    {
+      "id": "ko.daeum-ju",
+      "kind": "phrase",
+      "text": "다음 주",
+      "reading": "daeum ju"
+    },
+    {
+      "id": "ko.ibeon-dal",
+      "kind": "phrase",
+      "text": "이번 달",
+      "reading": "ibeon dal"
+    },
+    {
+      "id": "ko.daeum-dal",
+      "kind": "phrase",
+      "text": "다음 달",
+      "reading": "daeum dal"
+    },
+    {
+      "id": "ko.pyeongil",
+      "text": "평일",
+      "reading": "pyeongil"
+    },
+    {
+      "id": "ko.more",
+      "text": "모레",
+      "reading": "more"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이번 주 토요일에 시간 있어요?",
+      "reading": "Nam ssi, ibeon ju toyoire sigan isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 이번 주는 바빠요. 모레 시험이 있어요.",
+      "reading": "Aniyo, ibeon juneun bappayo. More siheomi isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 다음 주 토요일은요?",
+      "reading": "A, geuraeyo? Daeum ju toyoireunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다음 주 토요일은 괜찮아요. 평일은 수업이 많아요.",
+      "reading": "Daeum ju toyoireun gwaenchanayo. Pyeongireun sueobi manayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 다음 주 토요일에 한국어하고 태국어 연습해요!",
+      "reading": "Ne, daeum ju toyoire hangugeohago taegugeo yeonseupaeyo!"
+    }
+  ]
+}

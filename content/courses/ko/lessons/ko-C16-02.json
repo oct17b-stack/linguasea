@@ -1,0 +1,70 @@
+{
+  "id": "ko-C16-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.inteonet",
+      "text": "인터넷",
+      "reading": "inteonet"
+    },
+    {
+      "id": "ko.waipai",
+      "text": "와이파이",
+      "reading": "waipai"
+    },
+    {
+      "id": "ko.yeongyeoldoeda",
+      "text": "연결되다",
+      "reading": "yeongyeoldoeda"
+    },
+    {
+      "id": "ko.jeopsok-hada",
+      "text": "접속하다",
+      "reading": "jeopsokada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 뭘 도와드릴까요?",
+      "reading": "Eoseo oseyo. Mwol dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제 스마트폰이 인터넷에 연결되지 않아요.",
+      "reading": "Je seumateuponi inteonese yeongyeoldoeji anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "언제부터 그래요?",
+      "reading": "Eonjebuteo geuraeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "오늘 아침부터요. 기숙사에서 영화를 보고 있었어요. 그런데 인터넷이 안 됐어요.",
+      "reading": "Oneul achimbuteoyo. Gisuksaeseo yeonghwareul bogo isseosseoyo. Geureonde inteonesi an dwaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와이파이에 접속하고 있었어요?",
+      "reading": "Waipaie jeopsokago isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 기숙사 와이파이에 접속하고 있었어요.",
+      "reading": "Ne, gisuksa waipaie jeopsokago isseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "잠깐만요. 설정을 바꿨어요. 지금은 연결됐어요.",
+      "reading": "Jamkkanmanyo. Seoljeongeul bakkwosseoyo. Jigeumeun yeongyeoldwaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 감사합니다!",
+      "reading": "Wa, gamsahamnida!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ko-B10-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.mandeureoyo",
+      "text": "만들어요",
+      "reading": "mandeureoyo"
+    },
+    {
+      "id": "ko.balgeup",
+      "text": "발급",
+      "reading": "balgeup"
+    },
+    {
+      "id": "ko.hwagin",
+      "text": "확인",
+      "reading": "hwagin"
+    },
+    {
+      "id": "ko.changgu",
+      "text": "창구",
+      "reading": "changgu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 학생 카드를 만들어요.",
+      "reading": "Nam ssi, haksaeng kadeureul mandeureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘 발급해요?",
+      "reading": "Oneul balgeupaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 오늘 발급해요. 사진 있어요?",
+      "reading": "Ne, oneul balgeupaeyo. Sajin isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여기요.",
+      "reading": "Ne, yeogiyo."
+    },
+    {
+      "speaker": "b",
+      "text": "이름 확인해 주세요. 카드는 삼 번 창구에서 받아요.",
+      "reading": "Ireum hwaginhae juseyo. Kadeuneun sam beon changgueseo badayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 맞아요. 감사합니다!",
+      "reading": "Ne, majayo. Gamsahamnida!"
+    }
+  ]
+}

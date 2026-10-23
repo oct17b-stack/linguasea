@@ -1,0 +1,65 @@
+{
+  "id": "ko-B7-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yeogiseo",
+      "text": "여기서",
+      "reading": "yeogiseo"
+    },
+    {
+      "id": "ko.pojang",
+      "text": "포장",
+      "reading": "pojang"
+    },
+    {
+      "id": "ko.gajyeogayo",
+      "text": "가져가요",
+      "reading": "gajyeogayo"
+    },
+    {
+      "id": "ko.ppang",
+      "text": "빵",
+      "reading": "ppang"
+    },
+    {
+      "id": "ko.wapeul",
+      "text": "와플",
+      "reading": "wapeul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 주문하시겠어요?",
+      "reading": "Eoseo oseyo. Jumunhasigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "와플 하나하고 아메리카노 한 잔 주세요.",
+      "reading": "Wapeul hanahago amerikano han jan juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "여기서 드세요? 포장이에요?",
+      "reading": "Yeogiseo deuseyo? Pojangieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "와플은 여기서 먹어요. 커피는 가져가요.",
+      "reading": "Wapeureun yeogiseo meogeoyo. Keopineun gajyeogayo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 이 빵도 맛있어요!",
+      "reading": "Ne. I ppangdo masisseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 괜찮아요. 감사합니다.",
+      "reading": "Haha, gwaenchanayo. Gamsahamnida."
+    }
+  ]
+}

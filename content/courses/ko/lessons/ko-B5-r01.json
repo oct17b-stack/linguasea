@@ -1,0 +1,70 @@
+{
+  "id": "ko-B5-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ilgi",
+      "text": "일기",
+      "reading": "ilgi"
+    },
+    {
+      "id": "ko.haru",
+      "text": "하루",
+      "reading": "haru"
+    },
+    {
+      "id": "ko.jamkkan",
+      "text": "잠깐",
+      "reading": "jamkkan"
+    },
+    {
+      "id": "ko.aju",
+      "text": "아주",
+      "reading": "aju"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "오늘은 여섯 시 반에 일어나요.",
+        "reading": "Oneureun yeoseot si bane ireonayo."
+      },
+      {
+        "text": "오전에는 학교에서 공부해요.",
+        "reading": "Ojeoneneun hakgyoeseo gongbuhaeyo."
+      },
+      {
+        "text": "오후에는 민준 씨를 잠깐 만나요.",
+        "reading": "Ohueneun Minjun ssireul jamkkan mannayo."
+      }
+    ],
+    [
+      {
+        "text": "저녁에는 방을 청소해요.",
+        "reading": "Jeonyeogeneun bangeul cheongsohaeyo."
+      },
+      {
+        "text": "그리고 밤 열두 시에 일기를 써요.",
+        "reading": "Geurigo bam yeoldu sie ilgireul sseoyo."
+      },
+      {
+        "text": "오늘 하루는 아주 길어요!",
+        "reading": "Oneul harueun aju gireoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

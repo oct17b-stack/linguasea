@@ -1,0 +1,72 @@
+{
+  "id": "ko-B6-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.saranghaneun",
+      "text": "사랑하는",
+      "reading": "saranghaneun"
+    },
+    {
+      "id": "ko.geuraedo",
+      "text": "그래도",
+      "reading": "geuraedo"
+    },
+    {
+      "id": "ko.geokjeonghaji-maseyo",
+      "kind": "phrase",
+      "text": "걱정하지 마세요",
+      "reading": "geokjeonghaji maseyo"
+    },
+    {
+      "id": "ko.geonganghaseyo",
+      "kind": "phrase",
+      "text": "건강하세요",
+      "reading": "geonganghaseyo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "사랑하는 엄마, 저는 한국에서 잘 지내요.",
+        "reading": "Saranghaneun eomma, jeoneun Hangugeseo jal jinaeyo."
+      },
+      {
+        "text": "한국 친구들이 아주 좋아요.",
+        "reading": "Hanguk chingudeuri aju joayo."
+      },
+      {
+        "text": "가끔 가족이 많이 보고 싶어요.",
+        "reading": "Gakkeum gajogi mani bogo sipeoyo."
+      },
+      {
+        "text": "그래도 저는 행복해요.",
+        "reading": "Geuraedo jeoneun haengbokaeyo."
+      }
+    ],
+    [
+      {
+        "text": "엄마, 걱정하지 마세요.",
+        "reading": "Eomma, geokjeonghaji maseyo."
+      },
+      {
+        "text": "건강하세요!",
+        "reading": "Geonganghaseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

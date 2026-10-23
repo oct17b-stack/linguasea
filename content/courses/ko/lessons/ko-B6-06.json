@@ -1,0 +1,65 @@
+{
+  "id": "ko-B6-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gippeoyo",
+      "text": "기뻐요",
+      "reading": "gippeoyo"
+    },
+    {
+      "id": "ko.hwanayo",
+      "text": "화나요",
+      "reading": "hwanayo"
+    },
+    {
+      "id": "ko.simsimhaeyo",
+      "text": "심심해요",
+      "reading": "simsimhaeyo"
+    },
+    {
+      "id": "ko.geokjeongdwaeyo",
+      "text": "걱정돼요",
+      "reading": "geokjeongdwaeyo"
+    },
+    {
+      "id": "ko.ginjangdwaeyo",
+      "text": "긴장돼요",
+      "reading": "ginjangdwaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 혼자 심심해요?",
+      "reading": "Nam ssi, honja simsimhaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 안 심심해요. 한국 친구가 많아요. 그래서 기뻐요.",
+      "reading": "Aniyo, an simsimhaeyo. Hanguk chinguga manayo. Geuraeseo gippeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "가족이 걱정돼요?",
+      "reading": "Gajogi geokjeongdwaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 가끔 걱정돼요. 그리고 다음 주에 시험이 있어요. 긴장돼요!",
+      "reading": "Ne, gakkeum geokjeongdwaeyo. Geurigo daeum jue siheomi isseoyo. Ginjangdwaeyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "저도 시험이 있어요. 숙제도 너무 많아요. 진짜 화나요!",
+      "reading": "Jeodo siheomi isseoyo. Sukjedo neomu manayo. Jinjja hwanayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 힘내세요!",
+      "reading": "Haha, himnaeseyo!"
+    }
+  ]
+}

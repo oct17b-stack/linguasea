@@ -1,0 +1,75 @@
+{
+  "id": "ko-C16-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.dantokbang",
+      "text": "단톡방",
+      "reading": "dantokbang"
+    },
+    {
+      "id": "ko.ringkeu",
+      "text": "링크",
+      "reading": "ringkeu"
+    },
+    {
+      "id": "ko.gongyu-hada",
+      "text": "공유하다",
+      "reading": "gongyuhada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "이 선생님: 여러분, 안녕하세요.",
+        "reading": "I seonsaengnim: Yeoreobun, annyeonghaseyo."
+      },
+      {
+        "text": "숙제 앱 링크를 단톡방에 공유할게요.",
+        "reading": "Sukje aep ringkeureul dantokbange gongyuhalgeyo."
+      },
+      {
+        "text": "금요일까지 앱으로 숙제를 보내 주세요.",
+        "reading": "Geumyoilkkaji aebeuro sukjereul bonae juseyo."
+      }
+    ],
+    [
+      {
+        "text": "남: 선생님, 링크가 안 열려요.",
+        "reading": "Nam: Seonsaengnim, ringkeuga an yeollyeoyo."
+      },
+      {
+        "text": "앱을 먼저 설치하는 게 좋아요?",
+        "reading": "Aebeul meonjeo seolchihaneun ge joayo?"
+      }
+    ],
+    [
+      {
+        "text": "이 선생님: 네, 먼저 앱을 설치하세요.",
+        "reading": "I seonsaengnim: Ne, meonjeo aebeul seolchihaseyo."
+      },
+      {
+        "text": "그다음에 링크를 다시 눌러 보세요.",
+        "reading": "Geudaeume ringkeureul dasi nulleo boseyo."
+      },
+      {
+        "text": "남: 지금 됐어요! 감사합니다.",
+        "reading": "Nam: Jigeum dwaesseoyo! Gamsahamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

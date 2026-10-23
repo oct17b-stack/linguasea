@@ -1,0 +1,66 @@
+{
+  "id": "ko-B8-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.katok",
+      "text": "카톡",
+      "reading": "katok"
+    },
+    {
+      "id": "ko.mesiji",
+      "text": "메시지",
+      "reading": "mesiji"
+    },
+    {
+      "id": "ko.bonaeyo",
+      "text": "보내요",
+      "reading": "bonaeyo"
+    },
+    {
+      "id": "ko.imotikon",
+      "text": "이모티콘",
+      "reading": "imotikon"
+    },
+    {
+      "id": "ko.sajin-bonae-juseyo",
+      "kind": "phrase",
+      "text": "사진 보내 주세요",
+      "reading": "sajin bonae juseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 카톡 있어요?",
+      "reading": "Nam ssi, katok isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 있어요. 왜요?",
+      "reading": "Ne, isseoyo. Waeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오늘 사진이 많아요. 남 씨한테 사진을 보내요.",
+      "reading": "Oneul sajini manayo. Nam ssihante sajineul bonaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 고마워요! 사진 보내 주세요!",
+      "reading": "Wa, gomawoyo! Sajin bonae juseyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "지금 보내요. 메시지 봐요!",
+      "reading": "Jigeum bonaeyo. Mesiji bwayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 이모티콘도 있어요! 재미있어요!",
+      "reading": "Haha, imotikondo isseoyo! Jaemiisseoyo!"
+    }
+  ]
+}

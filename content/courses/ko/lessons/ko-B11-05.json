@@ -1,0 +1,63 @@
+{
+  "id": "ko-B11-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.geongang",
+      "text": "건강",
+      "reading": "geongang"
+    },
+    {
+      "id": "ko.puk-swiseyo",
+      "kind": "phrase",
+      "text": "푹 쉬세요",
+      "reading": "puk swiseyo"
+    },
+    {
+      "id": "ko.ppalli-naeuseyo",
+      "kind": "phrase",
+      "text": "빨리 나으세요",
+      "reading": "ppalli naeuseyo"
+    },
+    {
+      "id": "ko.josimhaseyo",
+      "kind": "phrase",
+      "text": "조심하세요",
+      "reading": "josimhaseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 감기 괜찮아요?",
+      "reading": "Nam ssi, gamgi gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 기침을 많이 해요.",
+      "reading": "Aniyo, gichimeul mani haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아이고, 오늘은 집에서 푹 쉬세요.",
+      "reading": "Aigo, oneureun jibeseo puk swiseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 선생님. 감사합니다.",
+      "reading": "Ne, seonsaengnim. Gamsahamnida."
+    },
+    {
+      "speaker": "c",
+      "text": "빨리 나으세요. 건강이 제일이에요!",
+      "reading": "Ppalli naeuseyo. Geongangi jeirieyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 선생님도 감기 조심하세요.",
+      "reading": "Ne! Seonsaengnimdo gamgi josimhaseyo."
+    }
+  ]
+}

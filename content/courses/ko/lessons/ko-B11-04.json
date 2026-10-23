@@ -1,0 +1,65 @@
+{
+  "id": "ko-B11-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.byeongwon",
+      "text": "병원",
+      "reading": "byeongwon"
+    },
+    {
+      "id": "ko.uisa",
+      "text": "의사",
+      "reading": "uisa"
+    },
+    {
+      "id": "ko.ganhosa",
+      "text": "간호사",
+      "reading": "ganhosa"
+    },
+    {
+      "id": "ko.jusa",
+      "text": "주사",
+      "reading": "jusa"
+    },
+    {
+      "id": "ko.boheom",
+      "text": "보험",
+      "reading": "boheom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 기침을 많이 해요. 병원에 가요.",
+      "reading": "Nam ssi, gichimeul mani haeyo. Byeongwone gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "병원이요? 그런데 주사는 싫어요.",
+      "reading": "Byeongwoniyo? Geureonde jusaneun sireoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 의사 선생님하고 간호사 선생님이 정말 좋아요.",
+      "reading": "Gwaenchanayo. Uisa seonsaengnimhago ganhosa seonsaengnimi jeongmal joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요?",
+      "reading": "A, geuraeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 보험 있어요?",
+      "reading": "Ne. Boheom isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 학생 보험 있어요. 같이 가요!",
+      "reading": "Ne, haksaeng boheom isseoyo. Gachi gayo!"
+    }
+  ]
+}

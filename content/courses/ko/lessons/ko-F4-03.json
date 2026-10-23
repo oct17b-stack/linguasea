@@ -1,0 +1,97 @@
+{
+  "id": "ko-F4-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.bulman",
+      "text": "불만",
+      "reading": "bulman"
+    },
+    {
+      "id": "ko.sapyoreul-naeda",
+      "text": "사표를 내다",
+      "reading": "sapyoreul naeda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.ijik-hada",
+      "text": "이직하다",
+      "reading": "ijikada"
+    },
+    {
+      "id": "ko.toesa-hada",
+      "text": "퇴사하다",
+      "reading": "toesahada"
+    },
+    {
+      "id": "ko.jikjang-saenghwal",
+      "text": "직장 생활",
+      "reading": "jikjang saenghwal",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "준호 씨, 오늘 기분이 안 좋아 보여요.",
+      "reading": "Junho ssi, oneul gibuni an joa boyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "회사 때문에 스트레스를 너무 많이 받아요. 사표를 내고 싶을 정도예요.",
+      "reading": "Hoesa ttaemune seuteureseureul neomu mani badayo. Sapyoreul naego sipeul jeongdoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "무슨 일이 있었어요?",
+      "reading": "Museun iri isseosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "팀장님이 매일 퇴근하기 바로 전에 일을 주세요. 그래서 거의 매일 야근해요.",
+      "reading": "Timjangnimi maeil toegeunhagi baro jeone ireul juseyo. Geuraeseo geoui maeil yageunhaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "팀장님께 불만을 말해 봤어요?",
+      "reading": "Timjangnimkke bulmaneul malhae bwasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "말해 봤자 달라지는 게 없어요. 팀장님도 위에서 시키는 일이니까요.",
+      "reading": "Malhae bwatja dallajineun ge eopseoyo. Timjangnimdo wieseo sikineun irinikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 이직하는 건 어때요?",
+      "reading": "Geureom ijikaneun geon eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "생각은 해 봤는데, 지금 이직해 봤자 다른 회사도 비슷할 것 같아요.",
+      "reading": "Saenggageun hae bwanneunde, jigeum ijikae bwatja dareun hoesado biseutal geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 몸이 아프면 아무리 돈을 많이 벌어 봤자 의미가 없어요.",
+      "reading": "Geuraedo momi apeumyeon amuri doneul mani beoreo bwatja uimiga eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 사실 저와 같이 입사한 동료 중에 벌써 퇴사한 사람도 많아요.",
+      "reading": "Majayo. Sasil jeowa gachi ipsahan dongnyo junge beolsseo toesahan saramdo manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "직장 생활은 어느 나라나 쉽지 않네요.",
+      "reading": "Jikjang saenghwareun eoneu narana swipji anneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래도 남 씨한테 이야기하니까 기분이 좀 나아졌어요.",
+      "reading": "Geuraedo Nam ssihante iyagihanikka gibuni jom naajyeosseoyo."
+    }
+  ]
+}

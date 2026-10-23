@@ -1,0 +1,118 @@
+{
+  "id": "ko-F10-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.eogul-hada",
+      "text": "억울하다",
+      "reading": "eogulhada"
+    },
+    {
+      "id": "ko.haegyeoldoeda",
+      "text": "해결되다",
+      "reading": "haegyeoldoeda"
+    },
+    {
+      "id": "ko.sangdam-senteo",
+      "kind": "phrase",
+      "text": "상담 센터",
+      "reading": "sangdam senteo"
+    },
+    {
+      "id": "ko.jungjae-hada",
+      "text": "중재하다",
+      "reading": "jungjaehada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남의 태국 친구 아논은 한국의 한 공장에서 일한다.",
+        "reading": "Namui Taeguk chingu Anoneun Hangugui han gongjangeseo ilhanda."
+      },
+      {
+        "text": "아논은 지난 석 달 동안 밤늦게까지 초과 근무를 했지만 그 임금을 받지 못했다.",
+        "reading": "Anoneun jinan seok dal dongan bamneutgekkaji chogwa geunmureul haetjiman geu imgeumeul batji motaetda."
+      },
+      {
+        "text": "사장님에게 여러 번 이야기했지만 사장님은 \"다음 달에 주겠다\"는 말만 반복했다.",
+        "reading": "Sajangnimege yeoreo beon iyagihaetjiman sajangnimeun \"daeum dare jugetda\"neun malman banbokaetda."
+      },
+      {
+        "text": "아논은 너무 억울했지만 한국어를 잘 못해서 어떻게 해야 할지 몰랐다.",
+        "reading": "Anoneun neomu eogulhaetjiman hangugeoreul jal motaeseo eotteoke haeya halji mollatda."
+      }
+    ],
+    [
+      {
+        "text": "아논의 이야기를 들은 남은 외국인 근로자 상담 센터에 전화를 걸었다.",
+        "reading": "Anonui iyagireul deureun Nameun oegugin geulloja sangdam senteoe jeonhwareul georeotda."
+      },
+      {
+        "text": "상담 센터 직원은 남의 설명을 듣고 임금 체불은 불법이라고 말했다.",
+        "reading": "Sangdam senteo jigwoneun Namui seolmyeongeul deutgo imgeum chebureun bulbeobirago malhaetda."
+      },
+      {
+        "text": "그리고 근로 계약서와 일한 시간을 적은 메모를 준비하라고 했다.",
+        "reading": "Geurigo geullo gyeyakseowa ilhan siganeul jeogeun memoreul junbiharago haetda."
+      },
+      {
+        "text": "다행히 아논은 매일 일한 시간을 스마트폰에 메모해 두었다.",
+        "reading": "Dahaenghi Anoneun maeil ilhan siganeul seumateupone memohae dueotda."
+      }
+    ],
+    [
+      {
+        "text": "다음 주에 남과 아논은 함께 상담 센터를 방문했다.",
+        "reading": "Daeum jue Namgwa Anoneun hamkke sangdam senteoreul bangmunhaetda."
+      },
+      {
+        "text": "직원은 사장님에게 연락해서 두 사람 사이를 중재해 주었다.",
+        "reading": "Jigwoneun sajangnimege yeollakaeseo du saram saireul jungjaehae jueotda."
+      },
+      {
+        "text": "처음에 사장님은 회사 사정이 어렵다고 했지만, 직원이 노동청에 신고할 수 있다고 설명하자 태도가 달라졌다.",
+        "reading": "Cheoeume sajangnimeun hoesa sajeongi eoryeopdago haetjiman, jigwoni nodongcheonge singohal su itdago seolmyeonghaja taedoga dallajyeotda."
+      },
+      {
+        "text": "결국 사장님은 아논이 받지 못한 임금을 이번 달 안에 모두 주겠다고 약속했다.",
+        "reading": "Gyeolguk sajangnimeun Anoni batji motan imgeumeul ibeon dal ane modu jugetdago yaksokaetda."
+      }
+    ],
+    [
+      {
+        "text": "한 달 후, 아논의 통장에 임금이 모두 들어왔다.",
+        "reading": "Han dal hu, Anonui tongjange imgeumi modu deureowatda."
+      },
+      {
+        "text": "문제가 해결되자 아논은 남에게 몇 번이나 고맙다고 말했다.",
+        "reading": "Munjega haegyeoldoeja Anoneun Namege myeot beonina gomapdago malhaetda."
+      },
+      {
+        "text": "남은 이번 일을 통해 외국인 근로자도 한국 근로자와 같은 권리가 있다는 것을 알게 되었다.",
+        "reading": "Nameun ibeon ireul tonghae oegugin geullojado Hanguk geullojawa gateun gwolliga itdaneun geoseul alge doeeotda."
+      },
+      {
+        "text": "그리고 억울한 일이 생겼을 때는 혼자 참지 말고 도움을 청해야 한다고 생각했다.",
+        "reading": "Geurigo eogulhan iri saenggyeosseul ttaeneun honja chamji malgo doumeul cheonghaeya handago saenggakaetda."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

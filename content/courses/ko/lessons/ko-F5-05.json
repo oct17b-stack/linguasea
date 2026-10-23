@@ -1,0 +1,95 @@
+{
+  "id": "ko-F5-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sungmyeon",
+      "text": "숙면",
+      "reading": "sungmyeon"
+    },
+    {
+      "id": "ko.hoheup",
+      "text": "호흡",
+      "reading": "hoheup"
+    },
+    {
+      "id": "ko.maeumchaenggim",
+      "text": "마음챙김",
+      "reading": "maeumchaenggim"
+    },
+    {
+      "id": "ko.gamjeong",
+      "text": "감정",
+      "reading": "gamjeong"
+    },
+    {
+      "id": "ko.daseurida",
+      "text": "다스리다",
+      "reading": "daseurida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨도 알다시피 스트레스를 줄이는 데는 잠이 아주 중요해요.",
+      "reading": "Nam ssido aldasipi seuteureseureul jurineun deneun jami aju jungyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 요즘 잠을 잘 못 자서 더 예민해진 것 같아요.",
+      "reading": "Ne, yojeum jameul jal mot jaseo deo yeminhaejin geot gatayo."
+    },
+    {
+      "speaker": "c",
+      "text": "숙면을 위해서는 자기 한 시간 전부터 스마트폰을 보지 않는 게 좋아요.",
+      "reading": "Sungmyeoneul wihaeseoneun jagi han sigan jeonbuteo seumateuponeul boji anneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그게 제일 어려워요. 누워서 계속 영상을 보게 돼요.",
+      "reading": "Geuge jeil eoryeowoyo. Nuwoseo gyesok yeongsangeul boge dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "대신 호흡 연습을 해 보세요. 천천히 깊게 숨을 쉬는 거예요.",
+      "reading": "Daesin hoheup yeonseubeul hae boseyo. Cheoncheonhi gipge sumeul swineun geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그것만으로도 도움이 돼요?",
+      "reading": "Geugeonmaneurodo doumi dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 보다시피 저도 지금 천천히 숨을 쉬고 있잖아요. 마음이 편해지지요?",
+      "reading": "Ne, bodasipi jeodo jigeum cheoncheonhi sumeul swigo itjanayo. Maeumi pyeonhaejijiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "정말 그러네요. 마음챙김도 비슷한 거예요?",
+      "reading": "Jeongmal geureoneyo. Maeumchaenggimdo biseutan geoyeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 마음챙김은 지금 내 감정을 있는 그대로 보는 거예요. 짜증이 나도 '아, 내가 지금 짜증이 났구나' 하고 알아차리는 거죠.",
+      "reading": "Ne, maeumchaenggimeun jigeum nae gamjeongeul inneun geudaero boneun geoyeyo. Jjajeungi nado 'a, naega jigeum jjajeungi natguna' hago aracharineun geojyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇게 하면 감정을 다스리기 쉬워요?",
+      "reading": "Geureoke hamyeon gamjeongeul daseurigi swiwoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 많은 사람들이 경험해서 알다시피 감정은 참기만 하면 더 커져요. 먼저 알아차리는 게 중요해요.",
+      "reading": "Ne, maneun saramdeuri gyeongheomhaeseo aldasipi gamjeongeun chamgiman hamyeon deo keojyeoyo. Meonjeo aracharineun ge jungyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오늘 밤부터 호흡 연습하고 마음챙김을 해 볼게요.",
+      "reading": "Oneul bambuteo hoheup yeonseupago maeumchaenggimeul hae bolgeyo."
+    }
+  ]
+}

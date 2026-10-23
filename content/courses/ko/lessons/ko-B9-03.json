@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.mari",
+      "text": "마리",
+      "reading": "mari"
+    },
+    {
+      "id": "ko.songi",
+      "text": "송이",
+      "reading": "songi"
+    },
+    {
+      "id": "ko.jangmi",
+      "text": "장미",
+      "reading": "jangmi"
+    },
+    {
+      "id": "ko.mulgogi",
+      "text": "물고기",
+      "reading": "mulgogi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "와, 민준 씨, 물고기가 많아요!",
+      "reading": "Wa, Minjun ssi, mulgogiga manayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 물고기 일곱 마리 있어요. 토끼도 한 마리 있어요.",
+      "reading": "Ne, mulgogi ilgop mari isseoyo. Tokkido han mari isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "진짜요? 아, 이 장미는 어머니 거예요.",
+      "reading": "Jinjjayo? A, i jangmineun eomeoni geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 장미 몇 송이예요?",
+      "reading": "Wa, jangmi myeot songiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "열 송이예요.",
+      "reading": "Yeol songiyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요! 우리 엄마가 장미 좋아해요.",
+      "reading": "Gomawoyo! Uri eommaga jangmi joahaeyo."
+    }
+  ]
+}

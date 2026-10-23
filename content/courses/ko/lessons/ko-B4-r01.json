@@ -1,0 +1,70 @@
+{
+  "id": "ko-B4-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.geureonde",
+      "text": "그런데",
+      "reading": "geureonde"
+    },
+    {
+      "id": "ko.geonmul",
+      "text": "건물",
+      "reading": "geonmul"
+    },
+    {
+      "id": "ko.hue",
+      "text": "후에",
+      "reading": "hue"
+    },
+    {
+      "id": "ko.deudieo",
+      "text": "드디어",
+      "reading": "deudieo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 씨는 지하철 이 호선을 타요.",
+        "reading": "Nam ssineun jihacheol i hoseoneul tayo."
+      },
+      {
+        "text": "민준 씨 집은 은행 옆 건물이에요.",
+        "reading": "Minjun ssi jibeun eunhaeng yeop geonmurieyo."
+      },
+      {
+        "text": "그런데 역 밖에 은행이 없어요!",
+        "reading": "Geureonde yeok bakke eunhaengi eopseoyo!"
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 사거리에서 길을 건너요.",
+        "reading": "Nam ssineun sageorieseo gireul geonneoyo."
+      },
+      {
+        "text": "모퉁이에서 왼쪽으로 가요.",
+        "reading": "Motungieseo oenjjogeuro gayo."
+      },
+      {
+        "text": "이십 분 후에 드디어 민준 씨 집이에요!",
+        "reading": "Isip bun hue deudieo Minjun ssi jibieyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

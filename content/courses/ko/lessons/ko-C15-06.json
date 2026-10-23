@@ -1,0 +1,70 @@
+{
+  "id": "ko-C15-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.ssal",
+      "text": "쌀",
+      "reading": "ssal"
+    },
+    {
+      "id": "ko.milgaru",
+      "text": "밀가루",
+      "reading": "milgaru"
+    },
+    {
+      "id": "ko.guksu",
+      "text": "국수",
+      "reading": "guksu"
+    },
+    {
+      "id": "ko.saeu",
+      "text": "새우",
+      "reading": "saeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 태국 사람들은 쌀을 많이 먹지요?",
+      "reading": "Nam ssi, Taeguk saramdeureun ssareul mani meokjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 밥도 먹고 쌀국수도 많이 먹어요.",
+      "reading": "Ne, bapdo meokgo ssalguksudo mani meogeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "쌀국수는 쌀로 만들어요?",
+      "reading": "Ssalguksuneun ssallo mandeureoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 쌀로 만든 국수예요. 팟타이도 쌀국수로 만들어요.",
+      "reading": "Ne, ssallo mandeun guksuyeyo. Pattaido ssalguksuro mandeureoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "팟타이에는 뭐가 있어요?",
+      "reading": "Pattaieneun mwoga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "새우가 있어요. 정말 맛있어요.",
+      "reading": "Saeuga isseoyo. Jeongmal masisseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국의 칼국수는 밀가루로 만들어요. 떡은 쌀로 만들어요.",
+      "reading": "Hangugui kalguksuneun milgaruro mandeureoyo. Tteogeun ssallo mandeureoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 한국하고 태국 모두 쌀로 만든 음식이 많네요!",
+      "reading": "Geureom Hangukhago Taeguk modu ssallo mandeun eumsigi manneyo!"
+    }
+  ]
+}

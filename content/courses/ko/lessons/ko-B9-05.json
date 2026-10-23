@@ -1,0 +1,60 @@
+{
+  "id": "ko-B9-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.inbun",
+      "text": "인분",
+      "reading": "inbun"
+    },
+    {
+      "id": "ko.jeopsi",
+      "text": "접시",
+      "reading": "jeopsi"
+    },
+    {
+      "id": "ko.pan",
+      "text": "판",
+      "reading": "pan"
+    },
+    {
+      "id": "ko.kaen",
+      "text": "캔",
+      "reading": "kaen"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 피자 몇 판 사요?",
+      "reading": "Nam ssi, pija myeot pan sayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 판 사요. 삼겹살도 삼 인분 사요.",
+      "reading": "Du pan sayo. Samgyeopsaldo sam inbun sayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요! 콜라는요?",
+      "reading": "Joayo! Kollaneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "콜라는 열 캔 사요.",
+      "reading": "Kollaneun yeol kaen sayo."
+    },
+    {
+      "speaker": "b",
+      "text": "접시도 필요해요. 집에 접시 있어요?",
+      "reading": "Jeopsido piryohaeyo. Jibe jeopsi isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 접시는 많아요!",
+      "reading": "Ne, jeopsineun manayo!"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ko-F4-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.worabael",
+      "text": "워라밸",
+      "reading": "worabael"
+    },
+    {
+      "id": "ko.geunmu-sigan",
+      "text": "근무 시간",
+      "reading": "geunmu sigan",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.chogwa-geunmu",
+      "text": "초과 근무",
+      "reading": "chogwa geunmu",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.kaltoegeun",
+      "text": "칼퇴근",
+      "reading": "kaltoegeun"
+    },
+    {
+      "id": "ko.yuyeon-geunmu",
+      "text": "유연 근무",
+      "reading": "yuyeon geunmu",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "준호 씨, 요즘 회사 일은 어때요? 민준 씨가 준호 씨는 매일 늦게 퇴근한다고 하던데요.",
+      "reading": "Junho ssi, yojeum hoesa ireun eottaeyo? Minjun ssiga Junho ssineun maeil neutge toegeunhandago hadeondeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 근무 시간은 아홉 시부터 여섯 시까지인데, 거의 매일 초과 근무를 해요.",
+      "reading": "Ne, geunmu siganeun ahop sibuteo yeoseot sikkajiinde, geoui maeil chogwa geunmureul haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "힘들겠어요. 요즘 한국에서는 워라밸이 중요하다고 들었어요.",
+      "reading": "Himdeulgesseoyo. Yojeum Hangugeseoneun worabaeri jungyohadago deureosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 워라밸은 일과 생활의 균형을 말해요. 그래서 저도 일이 너무 많지 않은 한 칼퇴근을 하려고 해요.",
+      "reading": "Majayo. Worabaereun ilgwa saenghwarui gyunhyeongeul malhaeyo. Geuraeseo jeodo iri neomu manchi aneun han kaltoegeuneul haryeogo haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "칼퇴근이요? 칼처럼 빨리 퇴근하는 거예요?",
+      "reading": "Kaltoegeuniyo? Kalcheoreom ppalli toegeunhaneun geoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 맞아요. 여섯 시가 되자마자 바로 퇴근하는 거예요.",
+      "reading": "Haha, majayo. Yeoseot siga doejamaja baro toegeunhaneun geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 상사가 아직 일하고 있으면 먼저 퇴근하기 어렵지 않아요?",
+      "reading": "Geureonde sangsaga ajik ilhago isseumyeon meonjeo toegeunhagi eoryeopji anayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "전에는 그랬어요. 요즘은 우리 회사도 유연 근무를 해서 일찍 출근하면 일찍 퇴근할 수 있어요.",
+      "reading": "Jeoneneun geuraesseoyo. Yojeumeun uri hoesado yuyeon geunmureul haeseo iljjik chulgeunhamyeon iljjik toegeunhal su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋네요. 저는 주말에 식당에서 아르바이트를 하는데, 끝나는 시간이 정해져 있어서 편해요.",
+      "reading": "Jonneyo. Jeoneun jumare sikdangeseo areubaiteureul haneunde, kkeunnaneun sigani jeonghaejyeo isseoseo pyeonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그게 제일 좋죠. 저도 건강에 문제가 없는 한 열심히 일할 거예요.",
+      "reading": "Geuge jeil jochyo. Jeodo geongange munjega eomneun han yeolsimhi ilhal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 건강해야 일도 잘할 수 있으니까요.",
+      "reading": "Majayo. Geonganghaeya ildo jalhal su isseunikkayo."
+    }
+  ]
+}

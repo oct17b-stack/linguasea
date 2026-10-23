@@ -1,0 +1,90 @@
+{
+  "id": "ko-F10-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.imgeum",
+      "text": "임금",
+      "reading": "imgeum"
+    },
+    {
+      "id": "ko.chebul",
+      "text": "체불",
+      "reading": "chebul"
+    },
+    {
+      "id": "ko.goyongju",
+      "text": "고용주",
+      "reading": "goyongju"
+    },
+    {
+      "id": "ko.nodongcheong",
+      "text": "노동청",
+      "reading": "nodongcheong"
+    },
+    {
+      "id": "ko.budang-hada",
+      "text": "부당하다",
+      "reading": "budanghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "외국인 근로자 센터입니다. 무엇을 도와드릴까요?",
+      "reading": "Oegugin geulloja senteoimnida. Mueoseul dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지난번에 전화했던 남이에요. 제 친구가 석 달 동안 초과 근무한 임금을 못 받았대요.",
+      "reading": "Jinanbeone jeonhwahaetdeon Namieyo. Je chinguga seok dal dongan chogwa geunmuhan imgeumeul mot badatdaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그건 임금 체불입니다. 고용주에게 이야기해 봤나요?",
+      "reading": "Geugeon imgeum cheburimnida. Goyongjuege iyagihae bwannayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 여러 번 말했는데 회사 사정이 어려우니까 기다리라고만 한대요.",
+      "reading": "Ne, yeoreo beon malhaenneunde hoesa sajeongi eoryeounikka gidariragoman handaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그건 부당합니다. 일한 만큼 임금을 받는 것은 근로자의 권리이므로 꼭 받아야 합니다.",
+      "reading": "Geugeon budanghamnida. Ilhan mankeum imgeumeul banneun geoseun geullojaui gwolliimeuro kkok badaya hamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 친구가 어디에 신고하면 돼요?",
+      "reading": "Geureom chinguga eodie singohamyeon dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "노동청에 신고하면 됩니다. 안내문에도 '임금 체불은 불법이므로 노동청에 신고할 수 있다'라고 쓰여 있어요.",
+      "reading": "Nodongcheonge singohamyeon doemnida. Annaemunedo 'imgeum chebureun bulbeobimeuro nodongcheonge singohal su itda'rago sseuyeo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "친구가 외국인이라서 신고하면 불이익이 있을까 봐 걱정하고 있어요.",
+      "reading": "Chinguga oeguginiraseo singohamyeon buriigi isseulkka bwa geokjeonghago isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "신고한 근로자에게 불이익을 주는 것도 불법이므로 걱정하지 않으셔도 됩니다.",
+      "reading": "Singohan geullojaege buriigeul juneun geotdo bulbeobimeuro geokjeonghaji aneusyeodo doemnida."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 다행이에요. 필요한 서류도 알려 주실 수 있어요?",
+      "reading": "Jeongmal dahaengieyo. Piryohan seoryudo allyeo jusil su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 근로 계약서와 일한 시간을 적은 메모를 준비하세요. 문자로도 보내 드리겠습니다.",
+      "reading": "Ne, geullo gyeyakseowa ilhan siganeul jeogeun memoreul junbihaseyo. Munjarodo bonae deurigetseumnida."
+    }
+  ]
+}

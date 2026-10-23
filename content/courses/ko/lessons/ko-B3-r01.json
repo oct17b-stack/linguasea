@@ -1,0 +1,70 @@
+{
+  "id": "ko-B3-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.dongdaemun",
+      "text": "동대문",
+      "reading": "Dongdaemun"
+    },
+    {
+      "id": "ko.gagyeok",
+      "text": "가격",
+      "reading": "gagyeok"
+    },
+    {
+      "id": "ko.ssage",
+      "text": "싸게",
+      "reading": "ssage"
+    },
+    {
+      "id": "ko.gollayo",
+      "text": "골라요",
+      "reading": "gollayo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준 씨, 저 지금 동대문 시장이에요!",
+        "reading": "Minjun ssi, jeo jigeum Dongdaemun sijangieyo!"
+      },
+      {
+        "text": "가게가 진짜 많아요.",
+        "reading": "Gagega jinjja manayo."
+      },
+      {
+        "text": "가격도 싸요.",
+        "reading": "Gagyeokdo ssayo."
+      },
+      {
+        "text": "옷이 한 개에 오천 원이에요!",
+        "reading": "Osi han gaee ocheon wonieyo!"
+      }
+    ],
+    [
+      {
+        "text": "그래서 저는 두 개 싸게 사요.",
+        "reading": "Geuraeseo jeoneun du gae ssage sayo."
+      },
+      {
+        "text": "민준 씨 거는 무슨 색으로 골라요?",
+        "reading": "Minjun ssi geoneun museun saegeuro gollayo?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

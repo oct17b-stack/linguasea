@@ -1,0 +1,65 @@
+{
+  "id": "ko-B4-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.gil",
+      "text": "길",
+      "reading": "gil"
+    },
+    {
+      "id": "ko.jjuk",
+      "text": "쭉",
+      "reading": "jjuk"
+    },
+    {
+      "id": "ko.geonneoyo",
+      "text": "건너요",
+      "reading": "geonneoyo"
+    },
+    {
+      "id": "ko.sageori",
+      "text": "사거리",
+      "reading": "sageori"
+    },
+    {
+      "id": "ko.motungi",
+      "text": "모퉁이",
+      "reading": "motungi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 은행이 어디에 있어요?",
+      "reading": "Jeogiyo, eunhaengi eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이 길로 사거리까지 쭉 가세요.",
+      "reading": "I gillo sageorikkaji jjuk gaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "사거리까지요? 길도 건너요?",
+      "reading": "Sageorikkajiyo? Gildo geonneoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 길을 건너세요. 은행은 모퉁이에 있어요.",
+      "reading": "Ne, gireul geonneoseyo. Eunhaengeun motungie isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왼쪽 모퉁이예요?",
+      "reading": "Oenjjok motungiyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 오른쪽으로 가세요. 편의점 옆이에요.",
+      "reading": "Aniyo, oreunjjogeuro gaseyo. Pyeonuijeom yeopieyo."
+    }
+  ]
+}

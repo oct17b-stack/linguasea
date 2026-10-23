@@ -1,0 +1,105 @@
+{
+  "id": "ko-E13-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.nakdam-hada",
+      "text": "낙담하다",
+      "reading": "nakdamhada"
+    },
+    {
+      "id": "ko.daeumbeon",
+      "text": "다음번",
+      "reading": "daeumbeon"
+    },
+    {
+      "id": "ko.teolgo-ireonada",
+      "text": "털고 일어나다",
+      "reading": "teolgo ireonada",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 남 씨, 저 자격증 시험에 떨어졌어요.",
+        "reading": "Minjun: Nam ssi, jeo jagyeokjeung siheome tteoreojyeosseoyo."
+      },
+      {
+        "text": "3개월이나 준비했는데 너무 속상해요.",
+        "reading": "Sam gaeworina junbihaenneunde neomu soksanghaeyo."
+      },
+      {
+        "text": "이제 아무것도 하기 싫어요.",
+        "reading": "Ije amugeotdo hagi sireoyo."
+      }
+    ],
+    [
+      {
+        "text": "남: 아, 정말 속상하겠어요.",
+        "reading": "Nam: A, jeongmal soksanghagesseoyo."
+      },
+      {
+        "text": "그동안 얼마나 열심히 공부했는지 제가 알아요.",
+        "reading": "Geudongan eolmana yeolsimhi gongbuhaenneunji jega arayo."
+      },
+      {
+        "text": "그래도 너무 낙담하지 마세요.",
+        "reading": "Geuraedo neomu nakdamhaji maseyo."
+      },
+      {
+        "text": "시험은 누구나 떨어질 수 있어요.",
+        "reading": "Siheomeun nuguna tteoreojil su isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "민준: 고마워요.",
+        "reading": "Minjun: Gomawoyo."
+      },
+      {
+        "text": "그런데 다음번에도 떨어질까 봐 무서워요.",
+        "reading": "Geureonde daeumbeonedo tteoreojilkka bwa museowoyo."
+      }
+    ],
+    [
+      {
+        "text": "남: 이번에 공부한 건 없어지지 않아요.",
+        "reading": "Nam: Ibeone gongbuhan geon eopseojiji anayo."
+      },
+      {
+        "text": "실패를 통해서 성장하는 거라고 이 선생님도 말씀하셨잖아요.",
+        "reading": "Silpaereul tonghaeseo seongjanghaneun georago I seonsaengnimdo malsseumhasyeotjanayo."
+      },
+      {
+        "text": "오늘은 맛있는 거 먹고 푹 쉬어요.",
+        "reading": "Oneureun masinneun geo meokgo puk swieoyo."
+      },
+      {
+        "text": "그리고 내일은 털고 일어나서 다시 시작해요!",
+        "reading": "Geurigo naeireun teolgo ireonaseo dasi sijakaeyo!"
+      },
+      {
+        "text": "오늘 저녁은 제가 떡볶이 살게요!",
+        "reading": "Oneul jeonyeogeun jega tteokbokki salgeyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

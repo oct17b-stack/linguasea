@@ -1,0 +1,90 @@
+{
+  "id": "ko-E13-01",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.gomin",
+      "text": "고민",
+      "reading": "gomin"
+    },
+    {
+      "id": "ko.sangdam-hada",
+      "text": "상담하다",
+      "reading": "sangdamhada"
+    },
+    {
+      "id": "ko.teoreonota",
+      "text": "털어놓다",
+      "reading": "teoreonota"
+    },
+    {
+      "id": "ko.oeropda",
+      "text": "외롭다",
+      "reading": "oeropda"
+    },
+    {
+      "id": "ko.hyangsubyeong",
+      "text": "향수병",
+      "reading": "hyangsubyeong"
+    },
+    {
+      "id": "ko.geurium",
+      "text": "그리움",
+      "reading": "geurium"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 요즘 무슨 고민이 있어요? 얼굴이 안 좋아 보여요.",
+      "reading": "Nam ssi, yojeum museun gomini isseoyo? Eolguri an joa boyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "선생님, 사실 상담하고 싶은 게 있어요.",
+      "reading": "Seonsaengnim, sasil sangdamhago sipeun ge isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래요. 편하게 털어놓아 보세요.",
+      "reading": "Geuraeyo. Pyeonhage teoreonoa boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "요즘 향수병에 걸린 것 같아요. 가족이 얼마나 보고 싶은지 몰라요.",
+      "reading": "Yojeum hyangsubyeonge geollin geot gatayo. Gajogi eolmana bogo sipeunji mollayo."
+    },
+    {
+      "speaker": "c",
+      "text": "혼자 지내니까 외롭지요?",
+      "reading": "Honja jinaenikka oeropjiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 지난 추석 연휴 때 얼마나 외로웠는지 몰라요. 친구들이 다 고향에 갔거든요.",
+      "reading": "Ne, jinan chuseok yeonhyu ttae eolmana oerowonneunji mollayo. Chingudeuri da gohyange gatgeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "가족에 대한 그리움은 당연한 거예요.",
+      "reading": "Gajoge daehan geuriumeun dangyeonhan geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "동생이 보내 준 사진을 보면 마음이 더 아파요.",
+      "reading": "Dongsaengi bonae jun sajineul bomyeon maeumi deo apayo."
+    },
+    {
+      "speaker": "c",
+      "text": "가족하고 영상 통화를 자주 해 보세요. 그리고 힘들 때는 저한테 언제든지 이야기하세요.",
+      "reading": "Gajokhago yeongsang tonghwareul jaju hae boseyo. Geurigo himdeul ttaeneun jeohante eonjedeunji iyagihaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 선생님께 털어놓으니까 마음이 얼마나 가벼운지 몰라요.",
+      "reading": "Gamsahamnida. Seonsaengnimkke teoreonoeunikka maeumi eolmana gabyeounji mollayo."
+    }
+  ]
+}

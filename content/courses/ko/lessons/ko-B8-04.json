@@ -1,0 +1,60 @@
+{
+  "id": "ko-B8-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jeonhwagi",
+      "text": "전화기",
+      "reading": "jeonhwagi"
+    },
+    {
+      "id": "ko.yusim",
+      "text": "유심",
+      "reading": "yusim"
+    },
+    {
+      "id": "ko.tongsinsa",
+      "text": "통신사",
+      "reading": "tongsinsa"
+    },
+    {
+      "id": "ko.gaetong",
+      "text": "개통",
+      "reading": "gaetong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 뭐 찾으세요?",
+      "reading": "Eoseo oseyo. Mwo chajeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "유심이 필요해요. 전화기는 있어요.",
+      "reading": "Yusimi piryohaeyo. Jeonhwagineun isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 통신사가 세 개 있어요. 이거 어때요?",
+      "reading": "Ne. Tongsinsaga se gae isseoyo. Igeo eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "얼마예요?",
+      "reading": "Eolmayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "한 달에 삼만 원이에요. 개통은 오늘 해요.",
+      "reading": "Han dare samman wonieyo. Gaetongeun oneul haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 이거 주세요.",
+      "reading": "Joayo! Igeo juseyo."
+    }
+  ]
+}

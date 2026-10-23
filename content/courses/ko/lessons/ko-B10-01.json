@@ -1,0 +1,65 @@
+{
+  "id": "ko-B10-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.seong",
+      "text": "성",
+      "reading": "seong"
+    },
+    {
+      "id": "ko.gukjeok",
+      "text": "국적",
+      "reading": "gukjeok"
+    },
+    {
+      "id": "ko.yeongmun",
+      "text": "영문",
+      "reading": "yeongmun"
+    },
+    {
+      "id": "ko.namseong",
+      "text": "남성",
+      "reading": "namseong"
+    },
+    {
+      "id": "ko.yeoseong",
+      "text": "여성",
+      "reading": "yeoseong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "성이 뭐예요?",
+      "reading": "Seongi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "제 성은 좀 길어요. 영문으로 써요?",
+      "reading": "Je seongeun jom gireoyo. Yeongmuneuro sseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 영문으로 써요. 국적은 태국이에요?",
+      "reading": "Ne, yeongmuneuro sseoyo. Gukjeogeun Taegugieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국이에요. 이거는 뭐예요?",
+      "reading": "Ne, Taegugieyo. Igeoneun mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "남성, 여성이에요. 남자, 여자예요.",
+      "reading": "Namseong, yeoseongieyo. Namja, yeojayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 알겠어요!",
+      "reading": "A, algesseoyo!"
+    }
+  ]
+}

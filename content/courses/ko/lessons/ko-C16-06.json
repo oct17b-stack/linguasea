@@ -1,0 +1,71 @@
+{
+  "id": "ko-C16-06",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.daetgeul",
+      "text": "댓글",
+      "reading": "daetgeul"
+    },
+    {
+      "id": "ko.gesimul",
+      "text": "게시물",
+      "reading": "gesimul"
+    },
+    {
+      "id": "ko.ollida",
+      "text": "올리다",
+      "reading": "ollida"
+    },
+    {
+      "id": "ko.joayoreul-nureuda",
+      "kind": "phrase",
+      "text": "좋아요를 누르다",
+      "reading": "joayoreul nureuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨가 오늘 올린 게시물 봤어요!",
+      "reading": "Nam ssiga oneul ollin gesimul bwasseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 봤어요? 한강에서 찍은 사진이에요.",
+      "reading": "A, bwasseoyo? Hangangeseo jjigeun sajinieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 정말 예뻤어요. 그래서 좋아요를 눌렀어요.",
+      "reading": "Ne, jeongmal yeppeosseoyo. Geuraeseo joayoreul nulleosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 댓글도 써 주세요!",
+      "reading": "Gomawoyo. Daetgeuldo sseo juseyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "벌써 썼어요. 제 댓글 못 봤어요?",
+      "reading": "Beolsseo sseosseoyo. Je daetgeul mot bwasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 지금 봤어요. \"다음에는 같이 가요!\"",
+      "reading": "A, jigeum bwasseoyo. \"Daeumeneun gachi gayo!\""
+    },
+    {
+      "speaker": "b",
+      "text": "네! 다음 주말에 같이 한강에 가요. 저는 자전거를 탈 거예요.",
+      "reading": "Ne! Daeum jumare gachi Hangange gayo. Jeoneun jajeongeoreul tal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 그날 찍은 사진도 같이 올려요.",
+      "reading": "Joayo! Geunal jjigeun sajindo gachi ollyeoyo."
+    }
+  ]
+}

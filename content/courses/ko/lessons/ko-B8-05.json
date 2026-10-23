@@ -1,0 +1,66 @@
+{
+  "id": "ko-B8-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.tonghwa",
+      "text": "통화",
+      "reading": "tonghwa"
+    },
+    {
+      "id": "ko.ittaga",
+      "text": "이따가",
+      "reading": "ittaga"
+    },
+    {
+      "id": "ko.najunge",
+      "text": "나중에",
+      "reading": "najunge"
+    },
+    {
+      "id": "ko.dasi",
+      "text": "다시",
+      "reading": "dasi"
+    },
+    {
+      "id": "ko.an-badayo",
+      "kind": "phrase",
+      "text": "안 받아요",
+      "reading": "an badayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "여보세요?",
+      "reading": "Yeoboseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨! 왜 전화를 안 받아요?",
+      "reading": "Nam ssi! Wae jeonhwareul an badayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "미안해요. 지금 수업 중이에요.",
+      "reading": "Mianhaeyo. Jigeum sueop jungieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 지금 통화 괜찮아요?",
+      "reading": "A, geuraeyo? Jigeum tonghwa gwaenchanayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요. 이따가 다시 전화해요.",
+      "reading": "Aniyo. Ittaga dasi jeonhwahaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 알겠어요. 나중에 통화해요!",
+      "reading": "Ne, algesseoyo. Najunge tonghwahaeyo!"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ko-B3-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.sijang",
+      "text": "시장",
+      "reading": "sijang"
+    },
+    {
+      "id": "ko.sayo",
+      "text": "사요",
+      "reading": "sayo"
+    },
+    {
+      "id": "ko.parayo",
+      "text": "팔아요",
+      "reading": "parayo"
+    },
+    {
+      "id": "ko.chaeso",
+      "text": "채소",
+      "reading": "chaeso"
+    },
+    {
+      "id": "ko.seobiseu",
+      "text": "서비스",
+      "reading": "seobiseu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요! 채소하고 과일 싸요!",
+      "reading": "Eoseo oseyo! Chaesohago gwail ssayo!"
+    },
+    {
+      "speaker": "a",
+      "text": "감자 얼마예요?",
+      "reading": "Gamja eolmayeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "다섯 개에 삼천 원이에요.",
+      "reading": "Daseot gaee samcheon wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감자 다섯 개 사요. 양파도 팔아요?",
+      "reading": "Gamja daseot gae sayo. Yangpado parayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 팔아요. 양파 하나는 서비스예요!",
+      "reading": "Ne, parayo. Yangpa hananeun seobiseuyeyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "와, 감사합니다! 시장 최고예요!",
+      "reading": "Wa, gamsahamnida! Sijang choegoyeyo!"
+    }
+  ]
+}

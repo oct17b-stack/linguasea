@@ -1,0 +1,66 @@
+{
+  "id": "ko-B11-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.eodiga-apayo",
+      "kind": "phrase",
+      "text": "어디가 아파요?",
+      "reading": "eodiga apayo?"
+    },
+    {
+      "id": "ko.baetal",
+      "text": "배탈",
+      "reading": "baetal"
+    },
+    {
+      "id": "ko.tohaeyo",
+      "text": "토해요",
+      "reading": "tohaeyo"
+    },
+    {
+      "id": "ko.pi",
+      "text": "피",
+      "reading": "pi"
+    },
+    {
+      "id": "ko.baendeu",
+      "text": "밴드",
+      "reading": "baendeu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어디가 아파요?",
+      "reading": "Nam ssi, eodiga apayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "배가 아파요. 배탈이에요.",
+      "reading": "Baega apayo. Baetarieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 토해요?",
+      "reading": "Aigo, tohaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 안 토해요. 어머, 민준 씨! 피!",
+      "reading": "Aniyo, an tohaeyo. Eomeo, Minjun ssi! Pi!"
+    },
+    {
+      "speaker": "b",
+      "text": "아, 괜찮아요. 조금 아파요.",
+      "reading": "A, gwaenchanayo. Jogeum apayo."
+    },
+    {
+      "speaker": "a",
+      "text": "잠깐만요. 여기 밴드 있어요.",
+      "reading": "Jamkkanmanyo. Yeogi baendeu isseoyo."
+    }
+  ]
+}

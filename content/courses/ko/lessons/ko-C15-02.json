@@ -1,0 +1,75 @@
+{
+  "id": "ko-C15-02",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.sseolda",
+      "text": "썰다",
+      "reading": "sseolda"
+    },
+    {
+      "id": "ko.neota",
+      "text": "넣다",
+      "reading": "neota"
+    },
+    {
+      "id": "ko.kkeurida",
+      "text": "끓이다",
+      "reading": "kkeurida"
+    },
+    {
+      "id": "ko.naembi",
+      "text": "냄비",
+      "reading": "naembi"
+    },
+    {
+      "id": "ko.kal",
+      "text": "칼",
+      "reading": "kal"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 태국 음식 만드는 법을 가르쳐 주세요.",
+      "reading": "Nam ssi, oneul Taeguk eumsik mandeuneun beobeul gareuchyeo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 오늘은 똠얌꿍을 만들어요. 먼저 냄비에 물을 넣고 끓이세요.",
+      "reading": "Joayo. Oneureun ttomyamkkungeul mandeureoyo. Meonjeo naembie mureul neoko kkeuriseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네. 그다음에는요?",
+      "reading": "Ne. Geudaeumeneunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 칼로 버섯을 써세요.",
+      "reading": "I kallo beoseoseul sseoseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다 썰었어요. 그다음에 뭐 해요?",
+      "reading": "Da sseoreosseoyo. Geudaeume mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "와, 민준 씨는 써는 걸 정말 잘하네요! 그럼 버섯을 냄비에 넣으세요.",
+      "reading": "Wa, Minjun ssineun sseoneun geol jeongmal jalhaneyo! Geureom beoseoseul naembie neoeuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "알겠어요. 남 씨 어머니도 똠얌꿍을 자주 만드세요?",
+      "reading": "Algesseoyo. Nam ssi eomeonido ttomyamkkungeul jaju mandeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 우리 엄마가 만드는 똠얌꿍이 제일 맛있어요!",
+      "reading": "Ne, uri eommaga mandeuneun ttomyamkkungi jeil masisseoyo!"
+    }
+  ]
+}

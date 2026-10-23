@@ -1,0 +1,65 @@
+{
+  "id": "ko-B7-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.kape",
+      "text": "카페",
+      "reading": "kape"
+    },
+    {
+      "id": "ko.amerikano",
+      "text": "아메리카노",
+      "reading": "amerikano"
+    },
+    {
+      "id": "ko.rate",
+      "text": "라테",
+      "reading": "rate"
+    },
+    {
+      "id": "ko.jan",
+      "text": "잔",
+      "reading": "jan"
+    },
+    {
+      "id": "ko.jumun",
+      "text": "주문",
+      "reading": "jumun"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 카페 라테가 진짜 맛있어요.",
+      "reading": "Nam ssi, i kape ratega jinjja masisseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 저는 아메리카노 좋아해요.",
+      "reading": "Geuraeyo? Jeoneun amerikano joahaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 주문하시겠어요?",
+      "reading": "Eoseo oseyo. Jumunhasigesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "라테 한 잔하고 아메리카노 한 잔 주세요.",
+      "reading": "Rate han janhago amerikano han jan juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 모두 구천오백 원이에요.",
+      "reading": "Ne, modu gucheonobaek wonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "여기요, 카드요.",
+      "reading": "Yeogiyo, kadeuyo."
+    }
+  ]
+}

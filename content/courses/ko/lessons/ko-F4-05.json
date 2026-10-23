@@ -1,0 +1,96 @@
+{
+  "id": "ko-F4-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.beonaut",
+      "text": "번아웃",
+      "reading": "beonaut"
+    },
+    {
+      "id": "ko.jichida",
+      "text": "지치다",
+      "reading": "jichida"
+    },
+    {
+      "id": "ko.jaechungjeon-hada",
+      "text": "재충전하다",
+      "reading": "jaechungjeonhada"
+    },
+    {
+      "id": "ko.chwimi-saenghwal",
+      "text": "취미 생활",
+      "reading": "chwimi saenghwal",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yeoga",
+      "text": "여가",
+      "reading": "yeoga"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "준호 씨, 어제 일찍 퇴근했다면서요?",
+      "reading": "Junho ssi, eoje iljjik toegeunhaetdamyeonseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 너무 피곤하고 머리도 아프고 해서 조퇴했어요.",
+      "reading": "Ne, neomu pigonhago meorido apeugo haeseo jotoehaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요? 요즘 일이 많아서 많이 지쳤죠?",
+      "reading": "Gwaenchanayo? Yojeum iri manaseo mani jichyeotjyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 아침에 일어나도 아무것도 하기 싫어요. 번아웃이 온 것 같아요.",
+      "reading": "Ne, achime ireonado amugeotdo hagi sireoyo. Beonausi on geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "번아웃이요? 그럼 좀 쉬어야 해요.",
+      "reading": "Beonausiyo? Geureom jom swieoya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래서 이번 주말에는 일 생각을 안 하고 재충전하려고요.",
+      "reading": "Geuraeseo ibeon jumareneun il saenggageul an hago jaechungjeonharyeogoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋은 생각이에요. 요즘 취미 생활은 해요?",
+      "reading": "Joeun saenggagieyo. Yojeum chwimi saenghwareun haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "전에는 기타를 쳤는데, 바쁘고 피곤하고 해서 요즘은 못 쳐요.",
+      "reading": "Jeoneneun gitareul chyeonneunde, bappeugo pigonhago haeseo yojeumeun mot chyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "여가 시간에 좋아하는 걸 하면 스트레스가 풀릴 거예요.",
+      "reading": "Yeoga sigane joahaneun geol hamyeon seuteureseuga pullil geoyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 날씨도 좋고 해서 주말에 한강에 가서 기타를 칠까 해요.",
+      "reading": "Majayo. Nalssido joko haeseo jumare Hangange gaseo gitareul chilkka haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 같이 가도 돼요? 음악 듣는 걸 좋아하거든요.",
+      "reading": "Jeodo gachi gado dwaeyo? Eumak deunneun geol joahageodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "물론이죠. 남 씨랑 같이 가면 더 재미있을 거예요.",
+      "reading": "Mullonijyo. Nam ssirang gachi gamyeon deo jaemiisseul geoyeyo."
+    }
+  ]
+}

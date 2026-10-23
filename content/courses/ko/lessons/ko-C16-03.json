@@ -1,0 +1,71 @@
+{
+  "id": "ko-C16-03",
+  "target": "ko",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.baeteori",
+      "text": "배터리",
+      "reading": "baeteori"
+    },
+    {
+      "id": "ko.chungjeon-hada",
+      "text": "충전하다",
+      "reading": "chungjeonhada"
+    },
+    {
+      "id": "ko.chungjeongi",
+      "text": "충전기",
+      "reading": "chungjeongi"
+    },
+    {
+      "id": "ko.gojang-nada",
+      "kind": "phrase",
+      "text": "고장 나다",
+      "reading": "gojang nada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 제 스마트폰 배터리가 금방 없어져요.",
+      "reading": "Minjun ssi, je seumateupon baeteoriga geumbang eopseojyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "언제 충전했어요?",
+      "reading": "Eonje chungjeonhaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아침에 충전했어요. 그런데 벌써 배터리가 조금밖에 없어요.",
+      "reading": "Achime chungjeonhaesseoyo. Geureonde beolsseo baeteoriga jogeumbakke eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "스마트폰이 고장 났을 수도 있어요. 휴대폰 가게에 가 보세요.",
+      "reading": "Seumateuponi gojang nasseul sudo isseoyo. Hyudaepon gagee ga boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 내일 가 볼게요.",
+      "reading": "Ne, naeil ga bolgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그런데 지금 충전기 있어요? 배터리가 금방 다 없어질 수도 있어요.",
+      "reading": "Geureonde jigeum chungjeongi isseoyo? Baeteoriga geumbang da eopseojil sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 충전기가 없어요.",
+      "reading": "A, chungjeongiga eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 제 충전기로 충전하세요. 여기 있어요.",
+      "reading": "Geureom je chungjeongiro chungjeonhaseyo. Yeogi isseoyo."
+    }
+  ]
+}
