@@ -1,0 +1,70 @@
+{
+  "id": "zh-C16-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shi-pin",
+      "text": "视频",
+      "reading": "shìpín"
+    },
+    {
+      "id": "zh.tu-pian",
+      "text": "图片",
+      "reading": "túpiàn"
+    },
+    {
+      "id": "zh.xia-zai",
+      "text": "下载",
+      "reading": "xiàzài"
+    },
+    {
+      "id": "zh.lu-record",
+      "text": "录",
+      "reading": "lù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你看，我妹妹又给我发了一个视频！",
+      "reading": "Wáng Míng, nǐ kàn, wǒ mèimei yòu gěi wǒ fā le yī ge shìpín!"
+    },
+    {
+      "speaker": "b",
+      "text": "她在跳舞！真可爱。",
+      "reading": "Tā zài tiàowǔ! Zhēn kě'ài."
+    },
+    {
+      "speaker": "a",
+      "text": "她每天都录一个，发给我看。",
+      "reading": "Tā měitiān dōu lù yī ge, fā gěi wǒ kàn."
+    },
+    {
+      "speaker": "b",
+      "text": "你也给她录一个吧！",
+      "reading": "Nǐ yě gěi tā lù yī ge ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！可是今天下雨，明天再录吧。",
+      "reading": "Hǎo a! Kěshì jīntiān xiàyǔ, míngtiān zài lù ba."
+    },
+    {
+      "speaker": "b",
+      "text": "那今天你先给她发几张图片。",
+      "reading": "Nà jīntiān nǐ xiān gěi tā fā jǐ zhāng túpiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "好。对了，我想下载妹妹的视频，怎么下载？",
+      "reading": "Hǎo. Duì le, wǒ xiǎng xiàzǎi mèimei de shìpín, zěnme xiàzǎi?"
+    },
+    {
+      "speaker": "b",
+      "text": "很容易，我帮你下载。以后她再发，你就自己下载吧。",
+      "reading": "Hěn róngyì, wǒ bāng nǐ xiàzǎi. Yǐhòu tā zài fā, nǐ jiù zìjǐ xiàzǎi ba."
+    }
+  ]
+}
