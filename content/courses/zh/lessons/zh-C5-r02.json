@@ -1,0 +1,79 @@
+{
+  "id": "zh-C5-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.gong-neng",
+      "text": "功能",
+      "reading": "gōngnéng"
+    },
+    {
+      "id": "zh.hao-yong",
+      "text": "好用",
+      "reading": "hǎoyòng"
+    },
+    {
+      "id": "zh.jia-qian",
+      "text": "价钱",
+      "reading": "jiàqian"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南的旧手机坏了，她想买一个新手机。",
+        "reading": "Xiǎonán de jiù shǒujī huài le, tā xiǎng mǎi yī ge xīn shǒujī."
+      },
+      {
+        "text": "星期六，王明跟她一起去商店。",
+        "reading": "Xīngqīliù, Wáng Míng gēn tā yīqǐ qù shāngdiàn."
+      }
+    ],
+    [
+      {
+        "text": "王明：你看，这两个手机的样子差不多。",
+        "reading": "Wáng Míng: Nǐ kàn, zhè liǎng ge shǒujī de yàngzi chàbuduō."
+      },
+      {
+        "text": "小南：对。这个两千块，那个三千块。功能一样吗？",
+        "reading": "Xiǎonán: Duì. Zhège liǎngqiān kuài, nàge sānqiān kuài. Gōngnéng yīyàng ma?"
+      },
+      {
+        "text": "王明：功能差不多，可是那个的照相功能更好。",
+        "reading": "Wáng Míng: Gōngnéng chàbuduō, kěshì nàge de zhàoxiàng gōngnéng gèng hǎo."
+      },
+      {
+        "text": "小南：我最喜欢照相，可是三千块太贵了。",
+        "reading": "Xiǎonán: Wǒ zuì xǐhuan zhàoxiàng, kěshì sānqiān kuài tài guì le."
+      },
+      {
+        "text": "王明：这个也很好用，比那个轻，价钱也便宜多了。",
+        "reading": "Wáng Míng: Zhège yě hěn hǎoyòng, bǐ nàge qīng, jiàqian yě piányi duō le."
+      },
+      {
+        "text": "小南：好，我选这个！",
+        "reading": "Xiǎonán: Hǎo, wǒ xuǎn zhège!"
+      }
+    ],
+    [
+      {
+        "text": "小南很喜欢她的新手机。",
+        "reading": "Xiǎonán hěn xǐhuan tā de xīn shǒujī."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "zh-C5-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.nan-fang",
+      "text": "南方",
+      "reading": "nánfāng"
+    },
+    {
+      "id": "zh.bei-fang",
+      "text": "北方",
+      "reading": "běifāng"
+    },
+    {
+      "id": "zh.qi-hou",
+      "text": "气候",
+      "reading": "qìhòu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "北京和曼谷都是首都，也都是很大的城市。",
+        "reading": "Běijīng hé Màngǔ dōu shì shǒudū, yě dōu shì hěn dà de chéngshì."
+      },
+      {
+        "text": "北京在中国的北方，曼谷在泰国的中部。",
+        "reading": "Běijīng zài Zhōngguó de běifāng, Màngǔ zài Tàiguó de zhōngbù."
+      },
+      {
+        "text": "北京的人口比曼谷多，有两千多万。",
+        "reading": "Běijīng de rénkǒu bǐ Màngǔ duō, yǒu liǎngqiān duō wàn."
+      }
+    ],
+    [
+      {
+        "text": "两个城市的气候很不一样。",
+        "reading": "Liǎng ge chéngshì de qìhòu hěn bù yīyàng."
+      },
+      {
+        "text": "一月的北京很冷，可是曼谷一年都很热。",
+        "reading": "Yī yuè de Běijīng hěn lěng, kěshì Màngǔ yī nián dōu hěn rè."
+      },
+      {
+        "text": "曼谷没有北京冷，但是比北京热多了。",
+        "reading": "Màngǔ méiyǒu Běijīng lěng, dànshì bǐ Běijīng rè duō le."
+      },
+      {
+        "text": "很多中国南方人说，曼谷的气候跟广州差不多。",
+        "reading": "Hěn duō Zhōngguó nánfāng rén shuō, Màngǔ de qìhòu gēn Guǎngzhōu chàbuduō."
+      }
+    ],
+    [
+      {
+        "text": "北京和曼谷都很热闹，都有很多好吃的东西。",
+        "reading": "Běijīng hé Màngǔ dōu hěn rènao, dōu yǒu hěn duō hǎochī de dōngxi."
+      },
+      {
+        "text": "你更喜欢哪个城市？",
+        "reading": "Nǐ gèng xǐhuan nǎge chéngshì?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

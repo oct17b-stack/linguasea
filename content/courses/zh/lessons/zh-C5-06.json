@@ -1,0 +1,70 @@
+{
+  "id": "zh-C5-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shi-jie",
+      "text": "世界",
+      "reading": "shìjiè"
+    },
+    {
+      "id": "zh.shou-du",
+      "text": "首都",
+      "reading": "shǒudū"
+    },
+    {
+      "id": "zh.quan-guo",
+      "text": "全国",
+      "reading": "quánguó"
+    },
+    {
+      "id": "zh.ren-kou",
+      "text": "人口",
+      "reading": "rénkǒu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，泰国的首都是曼谷吧？",
+      "reading": "Xiǎonán, Tàiguó de shǒudū shì Màngǔ ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，曼谷是泰国最大的城市。",
+      "reading": "Duì, Màngǔ shì Tàiguó zuì dà de chéngshì."
+    },
+    {
+      "speaker": "c",
+      "text": "曼谷的人口多吗？",
+      "reading": "Màngǔ de rénkǒu duō ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很多，差不多一千万。全国的人口差不多七千万。",
+      "reading": "Hěn duō, chàbuduō yīqiān wàn. Quánguó de rénkǒu chàbuduō qīqiān wàn."
+    },
+    {
+      "speaker": "c",
+      "text": "曼谷什么地方最有名？",
+      "reading": "Màngǔ shénme dìfang zuì yǒumíng?"
+    },
+    {
+      "speaker": "a",
+      "text": "有名的地方很多。我觉得曼谷的菜最好吃！",
+      "reading": "Yǒumíng de dìfang hěn duō. Wǒ juéde Màngǔ de cài zuì hǎochī!"
+    },
+    {
+      "speaker": "c",
+      "text": "曼谷是世界上最热的城市吗？",
+      "reading": "Màngǔ shì shìjiè shang zuì rè de chéngshì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我不知道，可是四月的曼谷真的最热！",
+      "reading": "Wǒ bù zhīdào, kěshì sì yuè de Màngǔ zhēnde zuì rè!"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "zh-C5-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.geng",
+      "text": "更",
+      "reading": "gèng"
+    },
+    {
+      "id": "zh.ke-ai",
+      "text": "可爱",
+      "reading": "kě'ài"
+    },
+    {
+      "id": "zh.bi-jiao",
+      "text": "比较",
+      "reading": "bǐjiào"
+    },
+    {
+      "id": "zh.xuan",
+      "text": "选",
+      "reading": "xuǎn"
+    },
+    {
+      "id": "zh.ren-wei",
+      "text": "认为",
+      "reading": "rènwéi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我想去泰国旅游。曼谷和清迈，你认为我应该去哪儿？",
+      "reading": "Xiǎonán, wǒ xiǎng qù Tàiguó lǚyóu. Màngǔ hé Qīngmài, nǐ rènwéi wǒ yīnggāi qù nǎr?"
+    },
+    {
+      "speaker": "a",
+      "text": "你喜欢热闹的地方还是安静的地方？",
+      "reading": "Nǐ xǐhuan rènao de dìfang háishi ānjìng de dìfang?"
+    },
+    {
+      "speaker": "b",
+      "text": "我比较喜欢安静的地方。",
+      "reading": "Wǒ bǐjiào xǐhuan ānjìng de dìfang."
+    },
+    {
+      "speaker": "a",
+      "text": "那你去清迈吧。清迈比曼谷安静，也更漂亮。",
+      "reading": "Nà nǐ qù Qīngmài ba. Qīngmài bǐ Màngǔ ānjìng, yě gèng piàoliang."
+    },
+    {
+      "speaker": "b",
+      "text": "你呢？你更喜欢曼谷还是清迈？",
+      "reading": "Nǐ ne? Nǐ gèng xǐhuan Màngǔ háishi Qīngmài?"
+    },
+    {
+      "speaker": "a",
+      "text": "我是曼谷人，可是我更喜欢清迈。那儿的人很可爱。",
+      "reading": "Wǒ shì Màngǔ rén, kěshì wǒ gèng xǐhuan Qīngmài. Nàr de rén hěn kě'ài."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我选清迈！",
+      "reading": "Hǎo, wǒ xuǎn Qīngmài!"
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！我给你介绍几个好地方。",
+      "reading": "Tài hǎo le! Wǒ gěi nǐ jièshào jǐ ge hǎo dìfang."
+    }
+  ]
+}

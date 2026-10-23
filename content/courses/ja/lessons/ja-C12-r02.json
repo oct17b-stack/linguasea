@@ -1,0 +1,79 @@
+{
+  "id": "ja-C12-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.zeikan",
+      "text": "ぜいかん",
+      "reading": "zeikan"
+    },
+    {
+      "id": "ja.tsuiseki",
+      "text": "ついせき",
+      "reading": "tsuiseki"
+    },
+    {
+      "id": "ja.buji",
+      "text": "ぶじ",
+      "reading": "buji"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "来月は ナムさんの おかあさんの たんじょうびです。",
+        "reading": "Raigetsu wa Namu-san no okāsan no tanjōbi desu."
+      },
+      {
+        "text": "ナムさんは にほんの おかしと きれいな ふくを かいました。",
+        "reading": "Namu-san wa Nihon no okashi to kirei na fuku o kaimashita."
+      },
+      {
+        "text": "ゆうびんきょくから こうくうびんで おくりました。",
+        "reading": "Yūbinkyoku kara kōkūbin de okurimashita."
+      }
+    ],
+    [
+      {
+        "text": "ナムさんは まいにち インターネットで こづつみを ついせきしました。",
+        "reading": "Namu-san wa mainichi intānetto de kozutsumi o tsuiseki shimashita."
+      },
+      {
+        "text": "こづつみは ぜいかんで すこし じかんが かかりました。",
+        "reading": "Kozutsumi wa zeikan de sukoshi jikan ga kakarimashita."
+      },
+      {
+        "text": "ナムさんは とても しんぱいしました。",
+        "reading": "Namu-san wa totemo shinpai shimashita."
+      }
+    ],
+    [
+      {
+        "text": "でも、おかあさんの たんじょうびの まえに、ぶじに とどきました。",
+        "reading": "Demo, okāsan no tanjōbi no mae ni, buji ni todokimashita."
+      },
+      {
+        "text": "おかあさんから「ありがとう」の メッセージが きました。",
+        "reading": "Okāsan kara “arigatō” no messēji ga kimashita."
+      },
+      {
+        "text": "ナムさんは 安心しました。",
+        "reading": "Namu-san wa anshin shimashita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

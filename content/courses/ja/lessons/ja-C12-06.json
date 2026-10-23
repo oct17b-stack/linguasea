@@ -1,0 +1,75 @@
+{
+  "id": "ja-C12-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.hikidasu",
+      "text": "ひきだす",
+      "reading": "hikidasu"
+    },
+    {
+      "id": "ja.azukeru",
+      "text": "あずける",
+      "reading": "azukeru"
+    },
+    {
+      "id": "ja.ryougae",
+      "text": "りょうがえ",
+      "reading": "ryōgae"
+    },
+    {
+      "id": "ja.genkin",
+      "text": "げんきん",
+      "reading": "genkin"
+    },
+    {
+      "id": "ja.tesuuryou",
+      "text": "てすうりょう",
+      "reading": "tesūryō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。ATMで 1日に いくらまで ひきだす ことが できますか。",
+      "reading": "Sumimasen. Ētīemu de ichinichi ni ikura made hikidasu koto ga dekimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "1日に 50まん円いかです。それいじょうは、まどぐちで おねがいします。",
+      "reading": "Ichinichi ni gojūman en ika desu. Sore ijō wa, madoguchi de onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "てすうりょうは かかりますか。",
+      "reading": "Tesūryō wa kakarimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ごぜん 8時45ふんから ごご 6時までは かかりません。",
+      "reading": "Gozen hachiji yonjūgofun kara gogo rokuji made wa kakarimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの おかねに りょうがえする ことも できますか。",
+      "reading": "Tai no okane ni ryōgae suru koto mo dekimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。げんきんの りょうがえは、10まん円いないで おねがいします。",
+      "reading": "Hai. Genkin no ryōgae wa, jūman en inai de onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。それから、この 3まん円を こうざに あずけたいんですが。",
+      "reading": "Wakarimashita. Sorekara, kono sanman en o kōza ni azuketai n desu ga."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。あずける ときは、てすうりょうは かかりません。",
+      "reading": "Hai. Azukeru toki wa, tesūryō wa kakarimasen."
+    }
+  ]
+}

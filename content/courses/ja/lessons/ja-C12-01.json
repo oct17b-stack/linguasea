@@ -1,0 +1,75 @@
+{
+  "id": "ja-C12-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kozutsumi",
+      "text": "こづつみ",
+      "reading": "kozutsumi"
+    },
+    {
+      "id": "ja.souryou",
+      "text": "送料",
+      "reading": "sōryō"
+    },
+    {
+      "id": "ja.todoku",
+      "text": "とどく",
+      "reading": "todoku"
+    },
+    {
+      "id": "ja.atesaki",
+      "text": "あてさき",
+      "reading": "atesaki"
+    },
+    {
+      "id": "ja.madoguchi",
+      "text": "まどぐち",
+      "reading": "madoguchi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、この こづつみを タイに おくりたいんですが。",
+      "reading": "Sumimasen, kono kozutsumi o Tai ni okuritai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、こちらの まどぐちへ どうぞ。",
+      "reading": "Hai, kochira no madoguchi e dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "送料も ききたいんですが。",
+      "reading": "Sōryō mo kikitai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "あてさきは タイの どこですか。",
+      "reading": "Atesaki wa Tai no doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "バンコクです。ははの うちです。",
+      "reading": "Bankoku desu. Haha no uchi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "送料は 2,800円です。",
+      "reading": "Sōryō wa nisen happyaku en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いつ とどきますか。",
+      "reading": "Itsu todokimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "来週の きんようびごろ とどきます。",
+      "reading": "Raishū no kin'yōbi goro todokimasu."
+    }
+  ]
+}

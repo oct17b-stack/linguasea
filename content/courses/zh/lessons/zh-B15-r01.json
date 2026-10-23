@@ -1,0 +1,65 @@
+{
+  "id": "zh-B15-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.wu-zi-room",
+      "text": "屋子",
+      "reading": "wūzi"
+    },
+    {
+      "id": "zh.cai-se",
+      "text": "彩色",
+      "reading": "cǎisè"
+    },
+    {
+      "id": "zh.shou-yin-ji",
+      "text": "收音机",
+      "reading": "shōuyīnjī"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "妹妹，我在沙美岛！",
+        "reading": "Mèimei, wǒ zài Shāměi Dǎo!"
+      },
+      {
+        "text": "我们的屋子很小，也很干净。",
+        "reading": "Wǒmen de wūzi hěn xiǎo, yě hěn gānjìng."
+      },
+      {
+        "text": "屋子里没有电视，有一个收音机。",
+        "reading": "Wūzi lǐ méiyǒu diànshì, yǒu yī ge shōuyīnjī."
+      }
+    ],
+    [
+      {
+        "text": "海水很干净，海里有很多彩色的鱼。",
+        "reading": "Hǎishuǐ hěn gānjìng, hǎi lǐ yǒu hěn duō cǎisè de yú."
+      },
+      {
+        "text": "星期天我回家。",
+        "reading": "Xīngqītiān wǒ huí jiā."
+      },
+      {
+        "text": "姐姐：小南",
+        "reading": "Jiějie: Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

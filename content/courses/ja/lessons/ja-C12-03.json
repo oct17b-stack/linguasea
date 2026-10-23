@@ -1,0 +1,75 @@
+{
+  "id": "ja-C12-03",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.waremono",
+      "text": "われもの",
+      "reading": "waremono"
+    },
+    {
+      "id": "ja.tsutsumu",
+      "text": "つつむ",
+      "reading": "tsutsumu"
+    },
+    {
+      "id": "ja.omosa",
+      "text": "重さ",
+      "reading": "omosa"
+    },
+    {
+      "id": "ja.hakaru",
+      "text": "はかる",
+      "reading": "hakaru"
+    },
+    {
+      "id": "ja.kiro",
+      "text": "キロ",
+      "reading": "kiro"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。なかみは われものです。",
+      "reading": "Sumimasen. Nakami wa waremono desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。では、もう すこし つつみましょうか。",
+      "reading": "Sō desu ka. Dewa, mō sukoshi tsutsumimashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。もう いちど つつんで くださいませんか。",
+      "reading": "Hai. Mō ichido tsutsunde kudasaimasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。それから、重さを はかりますね。",
+      "reading": "Wakarimashita. Sorekara, omosa o hakarimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "なんキロですか。",
+      "reading": "Nan kiro desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "3キロです。",
+      "reading": "Sankiro desu."
+    },
+    {
+      "speaker": "a",
+      "text": "すみませんが、送料も しらべて くださいませんか。",
+      "reading": "Sumimasen ga, sōryō mo shirabete kudasaimasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。3,500円です。",
+      "reading": "Hai. Sanzen gohyaku en desu."
+    }
+  ]
+}

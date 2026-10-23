@@ -1,0 +1,70 @@
+{
+  "id": "ja-C12-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.juusho",
+      "text": "じゅうしょ",
+      "reading": "jūsho"
+    },
+    {
+      "id": "ja.yuubinbangou",
+      "text": "ゆうびんばんごう",
+      "reading": "yūbinbangō"
+    },
+    {
+      "id": "ja.shomei",
+      "text": "しょめい",
+      "reading": "shomei"
+    },
+    {
+      "id": "ja.nakami",
+      "text": "なかみ",
+      "reading": "nakami"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ここに あてさきの じゅうしょと なまえを かいて ください。",
+      "reading": "Koko ni atesaki no jūsho to namae o kaite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。…かきました。",
+      "reading": "Hai. …Kakimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "じゅうしょは かいて ありますが、ゆうびんばんごうが かいて ありませんね。",
+      "reading": "Jūsho wa kaite arimasu ga, yūbinbangō ga kaite arimasen ne."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、すみません。…はい、これで いいですか。",
+      "reading": "A, sumimasen. …Hai, kore de ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。なかみは なんですか。ここに かいて ください。",
+      "reading": "Hai. Nakami wa nan desu ka. Koko ni kaite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ふくと おかしです。…しょめいも いりますか。",
+      "reading": "Fuku to okashi desu. …Shomei mo irimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ここに しょめいを おねがいします。タイごでも いいですよ。",
+      "reading": "Hai, koko ni shomei o onegaishimasu. Taigo de mo ii desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

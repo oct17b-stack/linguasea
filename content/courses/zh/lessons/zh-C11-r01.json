@@ -1,0 +1,76 @@
+{
+  "id": "zh-C11-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.pai-qiu",
+      "text": "排球",
+      "reading": "páiqiú"
+    },
+    {
+      "id": "zh.shou-huan-ying",
+      "kind": "phrase",
+      "text": "受欢迎",
+      "reading": "shòu huānyíng"
+    },
+    {
+      "id": "zh.teng-qiu",
+      "text": "藤球",
+      "reading": "téngqiú"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "泰国人喜欢很多运动。",
+        "reading": "Tàiguó rén xǐhuan hěn duō yùndòng."
+      },
+      {
+        "text": "足球很受欢迎，很多人晚上在电视上看足球比赛。",
+        "reading": "Zúqiú hěn shòu huānyíng, hěn duō rén wǎnshang zài diànshì shàng kàn zúqiú bǐsài."
+      },
+      {
+        "text": "泰拳也很有名，很多孩子七八岁就开始学泰拳。",
+        "reading": "Tàiquán yě hěn yǒumíng, hěn duō háizi qī bā suì jiù kāishǐ xué Tàiquán."
+      }
+    ],
+    [
+      {
+        "text": "排球在泰国也很受欢迎。",
+        "reading": "Páiqiú zài Tàiguó yě hěn shòu huānyíng."
+      },
+      {
+        "text": "很多泰国人喜欢看排球比赛，也喜欢自己打。",
+        "reading": "Hěn duō Tàiguó rén xǐhuan kàn páiqiú bǐsài, yě xǐhuan zìjǐ dǎ."
+      }
+    ],
+    [
+      {
+        "text": "藤球是东南亚很有意思的运动。",
+        "reading": "Téngqiú shì Dōngnányà hěn yǒu yìsi de yùndòng."
+      },
+      {
+        "text": "踢藤球不能用手，要用脚和头。",
+        "reading": "Tī téngqiú bù néng yòng shǒu, yào yòng jiǎo hé tóu."
+      },
+      {
+        "text": "在泰国，你常常能看见学生们在学校里踢藤球。",
+        "reading": "Zài Tàiguó, nǐ chángcháng néng kànjiàn xuésheng men zài xuéxiào lǐ tī téngqiú."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

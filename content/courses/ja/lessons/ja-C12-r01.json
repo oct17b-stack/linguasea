@@ -1,0 +1,71 @@
+{
+  "id": "ja-C12-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.riyou",
+      "text": "りよう",
+      "reading": "riyō"
+    },
+    {
+      "id": "ja.shukujitsu",
+      "text": "しゅくじつ",
+      "reading": "shukujitsu"
+    },
+    {
+      "id": "ja.heijitsu",
+      "text": "へいじつ",
+      "reading": "heijitsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ATMの りよう じかんは、まいにち ごぜん 7時から ごご 11時までです。",
+        "reading": "Ētīemu no riyō jikan wa, mainichi gozen shichiji kara gogo jūichiji made desu."
+      },
+      {
+        "text": "しゅくじつも りよう できます。",
+        "reading": "Shukujitsu mo riyō dekimasu."
+      }
+    ],
+    [
+      {
+        "text": "へいじつの ごぜん 8時45ふんから ごご 6時までは、てすうりょうが かかりません。",
+        "reading": "Heijitsu no gozen hachiji yonjūgofun kara gogo rokuji made wa, tesūryō ga kakarimasen."
+      },
+      {
+        "text": "ごご 6時から 11時までは、てすうりょうが 110円 かかります。",
+        "reading": "Gogo rokuji kara jūichiji made wa, tesūryō ga hyaku jū en kakarimasu."
+      },
+      {
+        "text": "土日と しゅくじつは、いつも 110円 かかります。",
+        "reading": "Donichi to shukujitsu wa, itsumo hyaku jū en kakarimasu."
+      }
+    ],
+    [
+      {
+        "text": "1日に ひきだす ことが できる おかねは、50まん円いかです。",
+        "reading": "Ichinichi ni hikidasu koto ga dekiru okane wa, gojūman en ika desu."
+      },
+      {
+        "text": "カードを なくした ばあいは、まどぐちか でんわで れんらくして ください。",
+        "reading": "Kādo o nakushita baai wa, madoguchi ka denwa de renraku shite kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

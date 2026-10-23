@@ -1,0 +1,70 @@
+{
+  "id": "ja-C12-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kouza",
+      "text": "こうざ",
+      "reading": "kōza"
+    },
+    {
+      "id": "ja.tsuuchou",
+      "text": "つうちょう",
+      "reading": "tsūchō"
+    },
+    {
+      "id": "ja.anshoubangou",
+      "text": "あんしょうばんごう",
+      "reading": "anshōbangō"
+    },
+    {
+      "id": "ja.saihakkou",
+      "text": "さいはっこう",
+      "reading": "saihakkō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "こうざを 作りたいんですが。",
+      "reading": "Kōza o tsukuritai n desu ga."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。こちらが つうちょうです。カードは あとで うちに とどきます。",
+      "reading": "Hai. Kochira ga tsūchō desu. Kādo wa atode uchi ni todokimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。あんしょうばんごうを わすれた ばあいは、どう しますか。",
+      "reading": "Wakarimashita. Anshōbangō o wasureta baai wa, dō shimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "その ばあいは、まどぐちに きて ください。",
+      "reading": "Sono baai wa, madoguchi ni kite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "カードを なくした ばあいは？",
+      "reading": "Kādo o nakushita baai wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "この ばんごうに でんわして ください。24じかん だいじょうぶです。",
+      "reading": "Kono bangō ni denwa shite kudasai. Nijūyojikan daijōbu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "カードの さいはっこうは できますか。",
+      "reading": "Kādo no saihakkō wa dekimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。さいはっこうの ばあいは、1,100円 かかります。",
+      "reading": "Hai. Saihakkō no baai wa, sen hyaku en kakarimasu."
+    }
+  ]
+}

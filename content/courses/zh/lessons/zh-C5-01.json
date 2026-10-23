@@ -1,0 +1,70 @@
+{
+  "id": "zh-C5-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ai-short",
+      "text": "矮",
+      "reading": "ǎi"
+    },
+    {
+      "id": "zh.pang",
+      "text": "胖",
+      "reading": "pàng"
+    },
+    {
+      "id": "zh.shou-thin",
+      "text": "瘦",
+      "reading": "shòu"
+    },
+    {
+      "id": "zh.ge-zi",
+      "text": "个子",
+      "reading": "gèzi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这是你家人的照片吗？",
+      "reading": "Xiǎonán, zhè shì nǐ jiārén de zhàopiàn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对。这是我爸爸妈妈，这是我妹妹。",
+      "reading": "Duì. Zhè shì wǒ bàba māma, zhè shì wǒ mèimei."
+    },
+    {
+      "speaker": "b",
+      "text": "你妹妹比你高吧？",
+      "reading": "Nǐ mèimei bǐ nǐ gāo ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，她比我小三岁，可是个子比我高，也比我瘦。",
+      "reading": "Duì, tā bǐ wǒ xiǎo sān suì, kěshì gèzi bǐ wǒ gāo, yě bǐ wǒ shòu."
+    },
+    {
+      "speaker": "b",
+      "text": "你爸爸个子也很高。",
+      "reading": "Nǐ bàba gèzi yě hěn gāo."
+    },
+    {
+      "speaker": "a",
+      "text": "我爸爸比我妈妈高，也比她胖。",
+      "reading": "Wǒ bàba bǐ wǒ māma gāo, yě bǐ tā pàng."
+    },
+    {
+      "speaker": "b",
+      "text": "那你们家你最矮吧？",
+      "reading": "Nà nǐmen jiā nǐ zuì ǎi ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "不对！我妈妈比我矮！",
+      "reading": "Bù duì! Wǒ māma bǐ wǒ ǎi!"
+    }
+  ]
+}

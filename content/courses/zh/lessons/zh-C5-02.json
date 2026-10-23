@@ -1,0 +1,70 @@
+{
+  "id": "zh-C5-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.jiu-old",
+      "text": "旧",
+      "reading": "jiù"
+    },
+    {
+      "id": "zh.qing-light",
+      "text": "轻",
+      "reading": "qīng"
+    },
+    {
+      "id": "zh.jia-ge",
+      "text": "价格",
+      "reading": "jiàgé"
+    },
+    {
+      "id": "zh.zhi-liang",
+      "text": "质量",
+      "reading": "zhìliàng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "你好，你想买什么？",
+      "reading": "Nǐ hǎo, nǐ xiǎng mǎi shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我想买一个书包，我的旧书包坏了。",
+      "reading": "Wǒ xiǎng mǎi yī ge shūbāo, wǒ de jiù shūbāo huài le."
+    },
+    {
+      "speaker": "b",
+      "text": "这两个书包怎么样？这个两百块，那个三百块。",
+      "reading": "Zhè liǎng ge shūbāo zěnmeyàng? Zhège liǎngbǎi kuài, nàge sānbǎi kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "那个比这个贵多了！为什么？",
+      "reading": "Nàge bǐ zhège guì duō le! Wèi shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "那个质量很好，也比这个轻一点儿。",
+      "reading": "Nàge zhìliàng hěn hǎo, yě bǐ zhège qīng yīdiǎnr."
+    },
+    {
+      "speaker": "a",
+      "text": "价格有点儿高。",
+      "reading": "Jiàgé yǒudiǎnr gāo."
+    },
+    {
+      "speaker": "b",
+      "text": "这个也不错，价格便宜，质量也可以。",
+      "reading": "Zhège yě bùcuò, jiàgé piányi, zhìliàng yě kěyǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好，我买这个！",
+      "reading": "Hǎo, wǒ mǎi zhège!"
+    }
+  ]
+}

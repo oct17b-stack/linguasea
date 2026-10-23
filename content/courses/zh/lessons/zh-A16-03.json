@@ -1,0 +1,53 @@
+{
+  "id": "zh-A16-03",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.tai-bang-le",
+      "kind": "phrase",
+      "text": "太棒了",
+      "reading": "tài bàng le"
+    },
+    {
+      "id": "zh.zao-gao",
+      "text": "糟糕",
+      "reading": "zāogāo"
+    },
+    {
+      "id": "zh.tian-na",
+      "kind": "phrase",
+      "text": "天哪",
+      "reading": "tiān na"
+    },
+    {
+      "id": "zh.suan-le",
+      "kind": "phrase",
+      "text": "算了",
+      "reading": "suàn le"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "糟糕！我的手机呢？",
+      "reading": "Zāogāo! Wǒ de shǒujī ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "天哪！包里没有吗？",
+      "reading": "Tiān na! Bāo li méiyǒu ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "啊，有了！",
+      "reading": "À, yǒu le!"
+    },
+    {
+      "speaker": "b",
+      "text": "太棒了！",
+      "reading": "Tài bàng le!"
+    }
+  ]
+}

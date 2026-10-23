@@ -1,0 +1,70 @@
+{
+  "id": "ja-C12-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.koukuubin",
+      "text": "こうくうびん",
+      "reading": "kōkūbin"
+    },
+    {
+      "id": "ja.funabin",
+      "text": "ふなびん",
+      "reading": "funabin"
+    },
+    {
+      "id": "ja.sokutatsu",
+      "text": "そくたつ",
+      "reading": "sokutatsu"
+    },
+    {
+      "id": "ja.kakitome",
+      "text": "かきとめ",
+      "reading": "kakitome"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "この こづつみを タイに おくります。こうくうびんで なんにち かかりますか。",
+      "reading": "Kono kozutsumi o Tai ni okurimasu. Kōkūbin de nannichi kakarimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "7日ぐらい かかります。送料は 3,500円です。",
+      "reading": "Nanoka gurai kakarimasu. Sōryō wa sanzen gohyaku en desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ふなびんは いくら かかりますか。",
+      "reading": "Funabin wa ikura kakarimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ふなびんは 2,000円で、やすいですが、じかんが とても かかります。",
+      "reading": "Funabin wa nisen en de, yasui desu ga, jikan ga totemo kakarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、こうくうびんで おねがいします。それから、この てがみは あした とどきますか。",
+      "reading": "Jā, kōkūbin de onegaishimasu. Sorekara, kono tegami wa ashita todokimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そくたつは 300円 かかりますが、あした とどきます。",
+      "reading": "Sokutatsu wa sanbyaku en kakarimasu ga, ashita todokimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、そくたつで おねがいします。かきとめにも できますか。",
+      "reading": "Jā, sokutatsu de onegaishimasu. Kakitome ni mo dekimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。かきとめは 480円です。",
+      "reading": "Hai. Kakitome wa yonhyaku hachijū en desu."
+    }
+  ]
+}

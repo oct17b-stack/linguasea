@@ -1,0 +1,80 @@
+{
+  "id": "zh-C5-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.an-jing",
+      "text": "安静",
+      "reading": "ānjìng"
+    },
+    {
+      "id": "zh.re-nao",
+      "text": "热闹",
+      "reading": "rènao"
+    },
+    {
+      "id": "zh.na-me",
+      "text": "那么",
+      "reading": "nàme"
+    },
+    {
+      "id": "zh.cheng-shi",
+      "text": "城市",
+      "reading": "chéngshì"
+    },
+    {
+      "id": "zh.dan-shi",
+      "text": "但是",
+      "reading": "dànshì"
+    },
+    {
+      "id": "zh.bu-guo",
+      "text": "不过",
+      "reading": "bùguò"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，曼谷这个城市怎么样？",
+      "reading": "Xiǎonán, Màngǔ zhège chéngshì zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "曼谷很热闹，人很多，晚上也很热闹。",
+      "reading": "Màngǔ hěn rènao, rén hěn duō, wǎnshang yě hěn rènao."
+    },
+    {
+      "speaker": "b",
+      "text": "曼谷比北京热闹吗？",
+      "reading": "Màngǔ bǐ Běijīng rènao ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "北京也很热闹。但是曼谷没有北京冷！",
+      "reading": "Běijīng yě hěn rènao. Dànshì Màngǔ méiyǒu Běijīng lěng!"
+    },
+    {
+      "speaker": "b",
+      "text": "清迈呢？清迈也那么热闹吗？",
+      "reading": "Qīngmài ne? Qīngmài yě nàme rènao ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "清迈没有曼谷那么热闹，很安静，不过很漂亮。",
+      "reading": "Qīngmài méiyǒu Màngǔ nàme rènao, hěn ānjìng, bùguò hěn piàoliang."
+    },
+    {
+      "speaker": "b",
+      "text": "清迈也没有曼谷那么热吧？",
+      "reading": "Qīngmài yě méiyǒu Màngǔ nàme rè ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，十二月的清迈很舒服！",
+      "reading": "Duì, shí'èr yuè de Qīngmài hěn shūfu!"
+    }
+  ]
+}
