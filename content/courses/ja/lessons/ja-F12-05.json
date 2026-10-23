@@ -1,0 +1,97 @@
+{
+  "id": "ja-F12-05",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.kowagari",
+      "text": "怖がり",
+      "reading": "kowagari"
+    },
+    {
+      "id": "ja.ki-no-sei",
+      "kind": "phrase",
+      "text": "気のせい",
+      "reading": "ki no sei"
+    },
+    {
+      "id": "ja.shinjikomu",
+      "text": "信じ込む",
+      "reading": "shinjikomu"
+    },
+    {
+      "id": "ja.kimi-ga-warui",
+      "kind": "phrase",
+      "text": "気味が悪い",
+      "reading": "kimi ga warui"
+    },
+    {
+      "id": "ja.kurayami",
+      "text": "くらやみ",
+      "reading": "kurayami"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、こんどのきんようび、ホラーえいがをみにいかない？",
+      "reading": "Namu, kondo no kin'yōbi, horā eiga o mi ni ikanai?"
+    },
+    {
+      "speaker": "a",
+      "text": "いやだ。いかない。",
+      "reading": "Iya da. Ikanai."
+    },
+    {
+      "speaker": "c",
+      "text": "どうして？",
+      "reading": "Dōshite?"
+    },
+    {
+      "speaker": "a",
+      "text": "だって、こわいんだもん。わたし、怖がりなの。",
+      "reading": "Datte, kowai n da mon. Watashi, kowagari na no."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムが怖がりだなんて、意外。",
+      "reading": "Namu ga kowagari da nante, igai."
+    },
+    {
+      "speaker": "a",
+      "text": "タイのホラーえいがをみたとき、1しゅうかん、ひとりでねられなかったんだもん。",
+      "reading": "Tai no horā eiga o mita toki, isshūkan, hitori de nerarenakatta n da mon."
+    },
+    {
+      "speaker": "c",
+      "text": "でも、えいがは作り話でしょう？",
+      "reading": "Demo, eiga wa tsukuribanashi deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "わかってるよ。でも、よる、くらやみのなかで、なにかがうごいた気がするんだもん。",
+      "reading": "Wakatteru yo. Demo, yoru, kurayami no naka de, nanika ga ugoita ki ga suru n da mon."
+    },
+    {
+      "speaker": "c",
+      "text": "それは、気のせいだよ。",
+      "reading": "Sore wa, ki no sei da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "このまえも、まどのそとに、しろいものがみえたの。ほんとうに気味が悪かった。",
+      "reading": "Kono mae mo, mado no soto ni, shiroi mono ga mieta no. Hontō ni kimi ga warukatta."
+    },
+    {
+      "speaker": "c",
+      "text": "それ、となりのいえのタオルじゃない？ナムは、なんでもすぐ信じ込むんだから。",
+      "reading": "Sore, tonari no ie no taoru ja nai? Namu wa, nan demo sugu shinjikomu n da kara."
+    },
+    {
+      "speaker": "a",
+      "text": "そうかもしれないけど…。ごめんね。怖がりなものだから、ホラーだけはむりなの。",
+      "reading": "Sō kamo shirenai kedo…. Gomen ne. Kowagari na mono da kara, horā dake wa muri na no."
+    }
+  ]
+}

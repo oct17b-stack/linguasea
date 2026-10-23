@@ -1,0 +1,100 @@
+{
+  "id": "ja-F12-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.iitsutae",
+      "text": "言い伝え",
+      "reading": "iitsutae"
+    },
+    {
+      "id": "ja.densetsu",
+      "text": "伝説",
+      "reading": "densetsu"
+    },
+    {
+      "id": "ja.yuurei",
+      "text": "ゆうれい",
+      "reading": "yūrei"
+    },
+    {
+      "id": "ja.kamisama",
+      "text": "神様",
+      "reading": "kamisama"
+    },
+    {
+      "id": "ja.obake",
+      "text": "お化け",
+      "reading": "obake"
+    },
+    {
+      "id": "ja.ki-tree",
+      "text": "木",
+      "reading": "ki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このじんじゃには、ふるい言い伝えがあるそうだよ。",
+      "reading": "Namu, kono jinja ni wa, furui iitsutae ga aru sō da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "どんな言い伝え？",
+      "reading": "Donna iitsutae?"
+    },
+    {
+      "speaker": "c",
+      "text": "むかし、この木に神様がおりてきたらしいの。だから、この木のまえでいのると、ゆめがかなうんだって。",
+      "reading": "Mukashi, kono ki ni kamisama ga orite kita rashii no. Dakara, kono ki no mae de inoru to, yume ga kanau n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、すてきな伝説だね。タイにも、木に神様がいるという言い伝えがあるよ。",
+      "reading": "Hē, suteki na densetsu da ne. Tai ni mo, ki ni kamisama ga iru to iu iitsutae ga aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの？",
+      "reading": "Sō na no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。おおきな木に、きれいなかざりがついていたら、神様がいるとされている木なんだ。",
+      "reading": "Un. Ōki na ki ni, kirei na kazari ga tsuite itara, kamisama ga iru to sarete iru ki na n da."
+    },
+    {
+      "speaker": "c",
+      "text": "おもしろいね。あ、あそこに、ひとがたくさんならんでいるね。なにかあるようだね。",
+      "reading": "Omoshiroi ne. A, asoko ni, hito ga takusan narande iru ne. Nanika aru yō da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "お守りを、うっているみたい。",
+      "reading": "Omamori o, utte iru mitai."
+    },
+    {
+      "speaker": "c",
+      "text": "そういえば、このじんじゃのうしろのもりには、よるになるとお化けがでるらしいよ。",
+      "reading": "Sō ieba, kono jinja no ushiro no mori ni wa, yoru ni naru to obake ga deru rashii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "えっ、お化け？ゆうれいとは、ちがうの？",
+      "reading": "E, obake? Yūrei to wa, chigau no?"
+    },
+    {
+      "speaker": "c",
+      "text": "ゆうれいは、もとはひとだったものだけど、お化けは、いろいろなかたちをしているんだって。",
+      "reading": "Yūrei wa, moto wa hito datta mono da kedo, obake wa, iroiro na katachi o shite iru n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "こわい！よるには、ここにこないようにしよう。",
+      "reading": "Kowai! Yoru ni wa, koko ni konai yō ni shiyō."
+    }
+  ]
+}

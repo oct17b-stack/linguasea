@@ -1,0 +1,95 @@
+{
+  "id": "zh-E15-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.tuo-yan",
+      "text": "拖延",
+      "reading": "tuōyán"
+    },
+    {
+      "id": "zh.qi-xian",
+      "text": "期限",
+      "reading": "qīxiàn"
+    },
+    {
+      "id": "zh.hou-guo",
+      "text": "后果",
+      "reading": "hòuguǒ"
+    },
+    {
+      "id": "zh.zhong-dian",
+      "text": "重点",
+      "reading": "zhòngdiǎn"
+    },
+    {
+      "id": "zh.jia-kuai",
+      "text": "加快",
+      "reading": "jiākuài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你的三件事，哪件的期限最早？",
+      "reading": "Wáng Míng, nǐ de sān jiàn shì, nǎ jiàn de qīxiàn zuì zǎo?"
+    },
+    {
+      "speaker": "b",
+      "text": "工作报告，星期三就要交。可是我还没开始写。",
+      "reading": "Gōngzuò bàogào, xīngqīsān jiù yào jiāo. Kěshì wǒ hái méi kāishǐ xiě."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么还没开始？",
+      "reading": "Wèi shénme hái méi kāishǐ?"
+    },
+    {
+      "speaker": "b",
+      "text": "我总是想“明天再写吧”，结果一个星期就过去了。",
+      "reading": "Wǒ zǒngshì xiǎng \"míngtiān zài xiě ba\", jiéguǒ yī ge xīngqī jiù guòqu le."
+    },
+    {
+      "speaker": "a",
+      "text": "这就是拖延。你以前也这样吗？",
+      "reading": "Zhè jiùshì tuōyán. Nǐ yǐqián yě zhèyàng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "上个月也是。我一直拖延，结果最后一天熬夜写到早上五点。",
+      "reading": "Shàng ge yuè yě shì. Wǒ yīzhí tuōyán, jiéguǒ zuìhòu yī tiān áoyè xiědào zǎoshang wǔ diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "那后果呢？",
+      "reading": "Nà hòuguǒ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "报告写得不好，领导很不满意，我自己也累病了。",
+      "reading": "Bàogào xiě de bù hǎo, lǐngdǎo hěn bù mǎnyì, wǒ zìjǐ yě lèibìng le."
+    },
+    {
+      "speaker": "a",
+      "text": "所以这次不能再拖延了。你先想想报告的重点是什么。",
+      "reading": "Suǒyǐ zhè cì bù néng zài tuōyán le. Nǐ xiān xiǎngxiang bàogào de zhòngdiǎn shì shénme."
+    },
+    {
+      "speaker": "b",
+      "text": "重点是我们部门今年的成绩。",
+      "reading": "Zhòngdiǎn shì wǒmen bùmén jīnnián de chéngjì."
+    },
+    {
+      "speaker": "a",
+      "text": "好。你今天先写最重要的内容，明天再加快速度，星期二就能写完。",
+      "reading": "Hǎo. Nǐ jīntiān xiān xiě zuì zhòngyào de nèiróng, míngtiān zài jiākuài sùdù, xīngqī'èr jiù néng xiěwán."
+    },
+    {
+      "speaker": "b",
+      "text": "好主意！我现在就开始写，否则结果又跟上次一样。",
+      "reading": "Hǎo zhǔyi! Wǒ xiànzài jiù kāishǐ xiě, fǒuzé jiéguǒ yòu gēn shàngcì yīyàng."
+    }
+  ]
+}

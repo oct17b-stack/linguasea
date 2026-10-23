@@ -1,0 +1,95 @@
+{
+  "id": "ja-F12-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.fukitsu",
+      "text": "ふきつ",
+      "reading": "fukitsu"
+    },
+    {
+      "id": "ja.kouun",
+      "text": "幸運",
+      "reading": "kōun"
+    },
+    {
+      "id": "ja.meishin",
+      "text": "迷信",
+      "reading": "meishin"
+    },
+    {
+      "id": "ja.uranai",
+      "text": "うらない",
+      "reading": "uranai"
+    },
+    {
+      "id": "ja.omamori",
+      "text": "お守り",
+      "reading": "omamori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "せんせい、にほんのびょういんには、4ばんのへやがないって、ほんとうですか。",
+      "reading": "Sensei, Nihon no byōin ni wa, yonban no heya ga nai tte, hontō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、そういうびょういんもありますね。にほんでは、4はふきつな数字だとされているんです。",
+      "reading": "Ē, sō iu byōin mo arimasu ne. Nihon de wa, yon wa fukitsu na sūji da to sarete iru n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "どうしてですか。",
+      "reading": "Dōshite desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "4は「し」ともよみますね。それが、あまりいいたくないことばとおなじ音なんです。",
+      "reading": "Yon wa \"shi\" to mo yomimasu ne. Sore ga, amari iitaku nai kotoba to onaji oto na n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、いのちがおわるという「し」ですね。9はどうですか。",
+      "reading": "A, inochi ga owaru to iu \"shi\" desu ne. Kyū wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "9も「く」とよむと、「くるしい」の「く」とおなじなので、ふきつだとされています。",
+      "reading": "Kyū mo \"ku\" to yomu to, \"kurushii\" no \"ku\" to onaji na node, fukitsu da to sarete imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "おもしろいですね。タイでは、9は幸運の数字だとされているんですよ。",
+      "reading": "Omoshiroi desu ne. Tai de wa, kyū wa kōun no sūji da to sarete iru n desu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "へえ、それはどうしてですか。",
+      "reading": "Hē, sore wa dōshite desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "タイごの「9」は、「まえに進む」ということばと、にた音だからです。",
+      "reading": "Taigo no \"kyū\" wa, \"mae ni susumu\" to iu kotoba to, nita oto da kara desu."
+    },
+    {
+      "speaker": "b",
+      "text": "くにによって、ずいぶんちがうんですね。ナムさんは、迷信をしんじますか。",
+      "reading": "Kuni ni yotte, zuibun chigau n desu ne. Namu-san wa, meishin o shinjimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すこしだけ。うらないは、よくみます。それに、タイのお守りを、いつも持っています。",
+      "reading": "Sukoshi dake. Uranai wa, yoku mimasu. Sore ni, Tai no omamori o, itsumo motte imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "迷信だとわかっていても、お守りがあると、安心できますよね。",
+      "reading": "Meishin da to wakatte ite mo, omamori ga aru to, anshin dekimasu yo ne."
+    }
+  ]
+}

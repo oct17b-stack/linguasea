@@ -1,0 +1,95 @@
+{
+  "id": "ja-F12-03",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.yokogiru",
+      "text": "横切る",
+      "reading": "yokogiru"
+    },
+    {
+      "id": "ja.zenchou",
+      "text": "ぜんちょう",
+      "reading": "zenchō"
+    },
+    {
+      "id": "ja.yokan",
+      "text": "予感",
+      "reading": "yokan"
+    },
+    {
+      "id": "ja.fuun",
+      "text": "不運",
+      "reading": "fuun"
+    },
+    {
+      "id": "ja.kuroneko",
+      "text": "黒猫",
+      "reading": "kuroneko"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、げんきないね。どうしたの？",
+      "reading": "Namu, genki nai ne. Dō shita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "きのうは、ほんとうに不運な日だったの。",
+      "reading": "Kinō wa, hontō ni fuun na hi datta no."
+    },
+    {
+      "speaker": "c",
+      "text": "なにがあったの？",
+      "reading": "Nani ga atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "あさ、いえをでようとしたところに、黒猫がまえを横切ったの。",
+      "reading": "Asa, ie o deyō to shita tokoro ni, kuroneko ga mae o yokogitta no."
+    },
+    {
+      "speaker": "c",
+      "text": "黒猫？西洋では、ふきつなぜんちょうだとされているよね。",
+      "reading": "Kuroneko? Seiyō de wa, fukitsu na zenchō da to sarete iru yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。いやな予感がしたんだけど、やっぱり…。えきにはしってきたところへ、でんしゃのドアがしまっちゃったの。",
+      "reading": "Sō. Iya na yokan ga shita n da kedo, yappari…. Eki ni hashitte kita tokoro e, densha no doa ga shimatchatta no."
+    },
+    {
+      "speaker": "c",
+      "text": "それは、ざんねんだったね。",
+      "reading": "Sore wa, zannen datta ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それだけじゃないの。やっとだいがくについたところに、「きょうのじゅぎょうはやすみです」って、せんせいからメールがきたの。",
+      "reading": "Sore dake ja nai no. Yatto daigaku ni tsuita tokoro ni, \"Kyō no jugyō wa yasumi desu\" tte, sensei kara mēru ga kita no."
+    },
+    {
+      "speaker": "c",
+      "text": "ははは。でも、それは黒猫のせいじゃないと思うよ。",
+      "reading": "Hahaha. Demo, sore wa kuroneko no sei ja nai to omou yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わかってるけど、黒猫をみると、気になっちゃう。",
+      "reading": "Wakatteru kedo, kuroneko o miru to, ki ni natchau."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんでは、黒猫は幸運をよぶとも、いわれているんだよ。",
+      "reading": "Nihon de wa, kuroneko wa kōun o yobu to mo, iwarete iru n da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとう？じゃあ、きのうの黒猫も、いいぜんちょうだったのかもね。",
+      "reading": "Hontō? Jā, kinō no kuroneko mo, ii zenchō datta no kamo ne."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-E16-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.mibunshoumeisho",
+      "text": "みぶんしょうめいしょ",
+      "reading": "mibunshōmeisho"
+    },
+    {
+      "id": "ja.honninkakunin",
+      "text": "本人確認",
+      "reading": "honninkakunin"
+    },
+    {
+      "id": "ja.genpon",
+      "text": "原本",
+      "reading": "genpon"
+    },
+    {
+      "id": "ja.utsushi",
+      "text": "写し",
+      "reading": "utsushi"
+    },
+    {
+      "id": "ja.yuukou",
+      "text": "ゆうこう",
+      "reading": "yūkō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、こうざを作りたいんですが。",
+      "reading": "Sumimasen, kōza o tsukuritai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "かしこまりました。みぶんしょうめいしょを、お持ちですか。",
+      "reading": "Kashikomarimashita. Mibunshōmeisho o, omochi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、在留カードです。",
+      "reading": "Hai, zairyūkādo desu."
+    },
+    {
+      "speaker": "b",
+      "text": "本人確認のため、はいけんします。…あ、こちらは、まえのごじゅうしょですね。",
+      "reading": "Honninkakunin no tame, haiken shimasu. …A, kochira wa, mae no gojūsho desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。先週、ひっこしたばかりで…。",
+      "reading": "Hai. Senshū, hikkoshita bakari de…."
+    },
+    {
+      "speaker": "b",
+      "text": "もうしわけありませんが、在留カードのじゅうしょを、あたらしいじゅうしょに変えてからでないと、こうざは作れないんです。",
+      "reading": "Mōshiwake arimasen ga, zairyūkādo no jūsho o, atarashii jūsho ni kaete kara de nai to, kōza wa tsukurenai n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんですか。じゃあ、くやくしょで、とどけをだしてからでなければ、だめなんですね。",
+      "reading": "Sō na n desu ka. Jā, kuyakusho de, todoke o dashite kara de nakereba, dame na n desu ne."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。それから、じゅうみんひょうも、おねがいします。写しはつかえませんので、原本をお持ちください。",
+      "reading": "Hai. Sore kara, jūminhyō mo, onegai shimasu. Utsushi wa tsukaemasen node, genpon o omochi kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "原本ですね。じゅうみんひょうは、いつまでゆうこうですか。",
+      "reading": "Genpon desu ne. Jūminhyō wa, itsu made yūkō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "3か月いないにもらったものなら、ゆうこうです。",
+      "reading": "Sankagetsu inai ni moratta mono nara, yūkō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。くやくしょに行ってから、また、きます。",
+      "reading": "Wakarimashita. Kuyakusho ni itte kara, mata, kimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おまちしております。",
+      "reading": "Omachi shite orimasu."
+    }
+  ]
+}

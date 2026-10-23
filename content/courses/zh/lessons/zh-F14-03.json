@@ -1,0 +1,100 @@
+{
+  "id": "zh-F14-03",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.zu-cheng",
+      "text": "组成",
+      "reading": "zǔchéng"
+    },
+    {
+      "id": "zh.yuan-li",
+      "text": "原理",
+      "reading": "yuánlǐ"
+    },
+    {
+      "id": "zh.wu-li",
+      "text": "物理",
+      "reading": "wùlǐ"
+    },
+    {
+      "id": "zh.hua-xue",
+      "text": "化学",
+      "reading": "huàxué"
+    },
+    {
+      "id": "zh.ce-shi",
+      "text": "测试",
+      "reading": "cèshì"
+    },
+    {
+      "id": "zh.jie-gou",
+      "text": "结构",
+      "reading": "jiégòu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南姐姐，你上中学的时候，物理和化学学得好吗？",
+      "reading": "Xiǎonán jiějie, nǐ shàng zhōngxué de shíhou, wùlǐ hé huàxué xué de hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "物理还可以，化学我最怕了。怎么了？",
+      "reading": "Wùlǐ hái kěyǐ, huàxué wǒ zuì pà le. Zěnme le?"
+    },
+    {
+      "speaker": "c",
+      "text": "明天有一个科学测试，我有很多地方不懂。",
+      "reading": "Míngtiān yǒu yī ge kēxué cèshì, wǒ yǒu hěn duō dìfang bù dǒng."
+    },
+    {
+      "speaker": "a",
+      "text": "我看看……这道题问：人的身体主要由什么组成？",
+      "reading": "Wǒ kànkan… Zhè dào tí wèn: rén de shēntǐ zhǔyào yóu shénme zǔchéng?"
+    },
+    {
+      "speaker": "c",
+      "text": "是水！我们的身体大部分是由水组成的，大约百分之六十。",
+      "reading": "Shì shuǐ! Wǒmen de shēntǐ dàbùfen shì yóu shuǐ zǔchéng de, dàyuē bǎi fēn zhī liùshí."
+    },
+    {
+      "speaker": "a",
+      "text": "你比我记得清楚。还有什么题？",
+      "reading": "Nǐ bǐ wǒ jìde qīngchu. Hái yǒu shénme tí?"
+    },
+    {
+      "speaker": "c",
+      "text": "这道题问冰箱的原理。姐姐，你知道冰箱是怎么让东西变冷的吗？",
+      "reading": "Zhè dào tí wèn bīngxiāng de yuánlǐ. Jiějie, nǐ zhīdào bīngxiāng shì zěnme ràng dōngxi biàn lěng de ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "冰箱的原理我说不清楚。不过，我可以教你一个学汉字的原理。",
+      "reading": "Bīngxiāng de yuánlǐ wǒ shuō bù qīngchu. Bùguò, wǒ kěyǐ jiāo nǐ yī ge xué Hànzì de yuánlǐ."
+    },
+    {
+      "speaker": "c",
+      "text": "学汉字也有原理？",
+      "reading": "Xué Hànzì yě yǒu yuánlǐ?"
+    },
+    {
+      "speaker": "a",
+      "text": "有啊。很多汉字由两个部分组成，一个部分表示意思，一个部分表示声音。比如“妈”，左边是“女”，右边是“马”。",
+      "reading": "Yǒu a. Hěn duō Hànzì yóu liǎng ge bùfen zǔchéng, yī ge bùfen biǎoshì yìsi, yī ge bùfen biǎoshì shēngyīn. Bǐrú \"mā\", zuǒbian shì \"nǚ\", yòubian shì \"mǎ\"."
+    },
+    {
+      "speaker": "c",
+      "text": "原来汉字的结构这么有意思！可是姐姐，我明天考的是科学，不是汉语……",
+      "reading": "Yuánlái Hànzì de jiégòu zhème yǒu yìsi! Kěshì jiějie, wǒ míngtiān kǎo de shì kēxué, bù shì Hànyǔ…"
+    },
+    {
+      "speaker": "a",
+      "text": "哈哈，那我们还是先复习科学吧！",
+      "reading": "Hāhā, nà wǒmen háishi xiān fùxí kēxué ba!"
+    }
+  ]
+}

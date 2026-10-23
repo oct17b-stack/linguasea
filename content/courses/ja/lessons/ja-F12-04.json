@@ -1,0 +1,95 @@
+{
+  "id": "ja-F12-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.un-luck",
+      "text": "運",
+      "reading": "un"
+    },
+    {
+      "id": "ja.unsei",
+      "text": "うんせい",
+      "reading": "unsei"
+    },
+    {
+      "id": "ja.daikichi",
+      "text": "だいきち",
+      "reading": "daikichi"
+    },
+    {
+      "id": "ja.omikuji",
+      "text": "おみくじ",
+      "reading": "omikuji"
+    },
+    {
+      "id": "ja.negaigoto",
+      "text": "願い事",
+      "reading": "negaigoto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、おみくじをひいてみない？",
+      "reading": "Namu, omikuji o hiite minai?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん、ひいてみたい！だいきちがでないかな。",
+      "reading": "Un, hiite mitai! Daikichi ga denai ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは、今年のうんせいが気になる。",
+      "reading": "Watashi wa, kotoshi no unsei ga ki ni naru."
+    },
+    {
+      "speaker": "a",
+      "text": "…あっ、やった！だいきちだ！",
+      "reading": "…A, yatta! Daikichi da!"
+    },
+    {
+      "speaker": "c",
+      "text": "いいなあ。わたしは、だいきちじゃなかった。",
+      "reading": "Ii nā. Watashi wa, daikichi ja nakatta."
+    },
+    {
+      "speaker": "a",
+      "text": "なんてかいてあるの？",
+      "reading": "Nante kaite aru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "「願い事は、すこしまてば、かなう」だって。はやくかなわないかな。",
+      "reading": "\"Negaigoto wa, sukoshi mateba, kanau\" da tte. Hayaku kanawanai ka na."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきの願い事って、なに？",
+      "reading": "Yuki no negaigoto tte, nani?"
+    },
+    {
+      "speaker": "c",
+      "text": "それは、いえないよ。でも、テレワークができるしごとがないかなって、さいきんずっと考えてるの。",
+      "reading": "Sore wa, ienai yo. Demo, terewāku ga dekiru shigoto ga nai ka na tte, saikin zutto kangaeteru no."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。わたしのは「運がいい年。あたらしいことをはじめるとよい」だって。",
+      "reading": "Sō na n da. Watashi no wa \"Un ga ii toshi. Atarashii koto o hajimeru to yoi\" da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "よかったね。おみくじは、持ってかえるの？ここの木につけていくひともいるよ。",
+      "reading": "Yokatta ne. Omikuji wa, motte kaeru no? Koko no ki ni tsukete iku hito mo iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "だいきちだから、持ってかえる！はやく、いいことがおきないかな。",
+      "reading": "Daikichi da kara, motte kaeru! Hayaku, ii koto ga okinai ka na."
+    }
+  ]
+}

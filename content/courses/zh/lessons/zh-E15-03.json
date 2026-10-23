@@ -1,0 +1,95 @@
+{
+  "id": "zh-E15-03",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.jin-kuai",
+      "text": "尽快",
+      "reading": "jǐnkuài"
+    },
+    {
+      "id": "zh.qing-dan",
+      "text": "清单",
+      "reading": "qīngdān"
+    },
+    {
+      "id": "zh.que-ding",
+      "text": "确定",
+      "reading": "quèdìng"
+    },
+    {
+      "id": "zh.ji-suan",
+      "text": "计算",
+      "reading": "jìsuàn"
+    },
+    {
+      "id": "zh.que-bao",
+      "text": "确保",
+      "reading": "quèbǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我们来做一个这个星期的清单吧。",
+      "reading": "Wáng Míng, wǒmen lái zuò yī ge zhège xīngqī de qīngdān ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好。先写什么？",
+      "reading": "Hǎo. Xiān xiě shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "先写你要做的三件事，然后确定哪件事最急。",
+      "reading": "Xiān xiě nǐ yào zuò de sān jiàn shì, ránhòu quèdìng nǎ jiàn shì zuì jí."
+    },
+    {
+      "speaker": "b",
+      "text": "报告最急，星期三就要交，我得尽快写完。",
+      "reading": "Bàogào zuì jí, xīngqīsān jiù yào jiāo, wǒ děi jǐnkuài xiěwán."
+    },
+    {
+      "speaker": "a",
+      "text": "对，你要尽快完成报告。创业计划什么时候要？",
+      "reading": "Duì, nǐ yào jǐnkuài wánchéng bàogào. Chuàngyè jìhuà shénme shíhou yào?"
+    },
+    {
+      "speaker": "b",
+      "text": "下个星期五。表妹的面试是这个星期六。",
+      "reading": "Xià ge xīngqīwǔ. Biǎomèi de miànshì shì zhège xīngqīliù."
+    },
+    {
+      "speaker": "a",
+      "text": "那我们计算一下，写报告要多长时间？",
+      "reading": "Nà wǒmen jìsuàn yīxià, xiě bàogào yào duō cháng shíjiān?"
+    },
+    {
+      "speaker": "b",
+      "text": "大概要十个小时，今天写四个小时，明天写六个小时。",
+      "reading": "Dàgài yào shí ge xiǎoshí, jīntiān xiě sì ge xiǎoshí, míngtiān xiě liù ge xiǎoshí."
+    },
+    {
+      "speaker": "a",
+      "text": "好。不过你要确保每天睡七个小时，不能再熬夜了。",
+      "reading": "Hǎo. Bùguò nǐ yào quèbǎo měitiān shuì qī ge xiǎoshí, bù néng zài áoyè le."
+    },
+    {
+      "speaker": "b",
+      "text": "可是如果写不完，怎么办？",
+      "reading": "Kěshì rúguǒ xiě bu wán, zěnme bàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "那就先把重点写好。其他的事情，可以的话就请别人帮忙。",
+      "reading": "Nà jiù xiān bǎ zhòngdiǎn xiěhǎo. Qítā de shìqing, kěyǐ dehuà jiù qǐng biéren bāngmáng."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我现在就开始写报告，尽快把它写完！",
+      "reading": "Hǎo, wǒ xiànzài jiù kāishǐ xiě bàogào, jǐnkuài bǎ tā xiěwán!"
+    }
+  ]
+}

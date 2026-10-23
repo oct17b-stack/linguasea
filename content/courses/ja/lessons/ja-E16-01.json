@@ -1,0 +1,100 @@
+{
+  "id": "ja-E16-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kuyakusho",
+      "text": "くやくしょ",
+      "reading": "kuyakusho"
+    },
+    {
+      "id": "ja.tennyuu",
+      "text": "転入",
+      "reading": "tennyū"
+    },
+    {
+      "id": "ja.tenshutsu",
+      "text": "転出",
+      "reading": "tenshutsu"
+    },
+    {
+      "id": "ja.todoke",
+      "text": "とどけ",
+      "reading": "todoke"
+    },
+    {
+      "id": "ja.juuminhyou",
+      "text": "じゅうみんひょう",
+      "reading": "jūminhyō"
+    },
+    {
+      "id": "ja.zairyuukaado",
+      "text": "在留カード",
+      "reading": "zairyūkādo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "こんにちは。きょうは、どのようなごようけんでしょうか。",
+      "reading": "Konnichiwa. Kyō wa, dono yō na goyōken deshō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "先週ひっこしてきたので、じゅうしょのとどけを、だしたいんですが。",
+      "reading": "Senshū hikkoshite kita node, jūsho no todoke o, dashitai n desu ga."
+    },
+    {
+      "speaker": "c",
+      "text": "転入のとどけですね。まえのごじゅうしょは、どちらでしたか。",
+      "reading": "Tennyū no todoke desu ne. Mae no gojūsho wa, dochira deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "となりのまちです。",
+      "reading": "Tonari no machi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "では、まえのくやくしょで、転出のとどけは、おだしになりましたか。",
+      "reading": "Dewa, mae no kuyakusho de, tenshutsu no todoke wa, odashi ni narimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、ひっこしのまえに、だしました。これが、そのときにもらったしょるいです。",
+      "reading": "Hai, hikkoshi no mae ni, dashimashita. Kore ga, sono toki ni moratta shorui desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。転入のとどけをだす際には、在留カードもひつようです。",
+      "reading": "Arigatō gozaimasu. Tennyū no todoke o dasu sai ni wa, zairyūkādo mo hitsuyō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、持ってきました。",
+      "reading": "Hai, motte kimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "ひっこしの際は、14日いないに、とどけをだしてください。ナムさんは、だいじょうぶですね。",
+      "reading": "Hikkoshi no sai wa, jūyokka inai ni, todoke o dashite kudasai. Namu-san wa, daijōbu desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。じゅうみんひょうも、もらえますか。アルバイトのみせに、だすひつようがあるんです。",
+      "reading": "Yokatta desu. Jūminhyō mo, moraemasu ka. Arubaito no mise ni, dasu hitsuyō ga aru n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。じゅうみんひょうをもうしこむ際は、こちらのしょるいに、ごきにゅうください。",
+      "reading": "Hai. Jūminhyō o mōshikomu sai wa, kochira no shorui ni, gokinyū kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。すぐにかきます。",
+      "reading": "Wakarimashita. Sugu ni kakimasu."
+    }
+  ]
+}

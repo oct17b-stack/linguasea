@@ -1,0 +1,95 @@
+{
+  "id": "ja-F12-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.tamesu",
+      "text": "試す",
+      "reading": "tamesu"
+    },
+    {
+      "id": "ja.hanshinhangi",
+      "text": "半信半疑",
+      "reading": "hanshinhangi"
+    },
+    {
+      "id": "ja.kikime",
+      "text": "ききめ",
+      "reading": "kikime"
+    },
+    {
+      "id": "ja.ataru",
+      "text": "当たる",
+      "reading": "ataru"
+    },
+    {
+      "id": "ja.hazureru",
+      "text": "外れる",
+      "reading": "hazureru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、試験、どうだった？",
+      "reading": "Namu, shiken, dō datta?"
+    },
+    {
+      "speaker": "a",
+      "text": "ごうかくしたよ！",
+      "reading": "Gōkaku shita yo!"
+    },
+    {
+      "speaker": "c",
+      "text": "おめでとう！がんばったもんね。",
+      "reading": "Omedetō! Ganbatta mon ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。じつは、ゆきにもらったお守りを、試験のときに持っていったの。",
+      "reading": "Arigatō. Jitsu wa, Yuki ni moratta omamori o, shiken no toki ni motte itta no."
+    },
+    {
+      "speaker": "c",
+      "text": "あのお守り？ききめがあったんだね！",
+      "reading": "Ano omamori? Kikime ga atta n da ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "さいしょは半信半疑だったんだけど、持ってみると、ふしぎとおちついたんだ。",
+      "reading": "Saisho wa hanshinhangi datta n da kedo, motte miru to, fushigi to ochitsuita n da."
+    },
+    {
+      "speaker": "c",
+      "text": "よかった。そういえば、うらないは？まえに、みてもらったでしょう？",
+      "reading": "Yokatta. Sō ieba, uranai wa? Mae ni, mite moratta deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。「なつにいいことがある」っていわれたけど、外れたよ。なつは、ずっとかぜをひいていたから。",
+      "reading": "Un. \"Natsu ni ii koto ga aru\" tte iwareta kedo, hazureta yo. Natsu wa, zutto kaze o hiite ita kara."
+    },
+    {
+      "speaker": "c",
+      "text": "ははは。わたしも、ネットのうらないを試してみたら、けっこう当たっていて、びっくりしたことがあるよ。",
+      "reading": "Hahaha. Watashi mo, netto no uranai o tameshite mitara, kekkō atatte ite, bikkuri shita koto ga aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "どんなことが当たったの？",
+      "reading": "Donna koto ga atatta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "「しごとでなやみがある」って。でも、それは、だれにでも当たるよね。",
+      "reading": "\"Shigoto de nayami ga aru\" tte. Demo, sore wa, dare ni demo ataru yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "たしかに。でも、やってみると、けっこう楽しいね。",
+      "reading": "Tashika ni. Demo, yatte miru to, kekkō tanoshii ne."
+    }
+  ]
+}
