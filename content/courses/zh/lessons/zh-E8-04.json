@@ -1,0 +1,100 @@
+{
+  "id": "zh-E8-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.shi-fou",
+      "text": "是否",
+      "reading": "shìfǒu"
+    },
+    {
+      "id": "zh.zhen-shi",
+      "text": "真实",
+      "reading": "zhēnshí"
+    },
+    {
+      "id": "zh.jia-fake",
+      "text": "假",
+      "reading": "jiǎ"
+    },
+    {
+      "id": "zh.yao-yan",
+      "text": "谣言",
+      "reading": "yáoyán"
+    },
+    {
+      "id": "zh.chuan-spread",
+      "text": "传",
+      "reading": "chuán"
+    },
+    {
+      "id": "zh.shi-shi-shang",
+      "text": "事实上",
+      "reading": "shìshíshàng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你看我发到群里的新闻了吗？曼谷那个有名的夜市要关门了！",
+      "reading": "Xiǎonán, nǐ kàn wǒ fā dào qún lǐ de xīnwén le ma? Màngǔ nàge yǒumíng de yèshì yào guānmén le!"
+    },
+    {
+      "speaker": "a",
+      "text": "看了。不过这条新闻是否真实，还很难说。",
+      "reading": "Kàn le. Bùguò zhè tiáo xīnwén shìfǒu zhēnshí, hái hěn nán shuō."
+    },
+    {
+      "speaker": "b",
+      "text": "为什么？很多人都在传，已经有几万人看过了。",
+      "reading": "Wèi shénme? Hěn duō rén dōu zài chuán, yǐjīng yǒu jǐ wàn rén kàn guo le."
+    },
+    {
+      "speaker": "a",
+      "text": "看的人多，不一定就是真的。你看，新闻里没有写消息是从哪儿来的。",
+      "reading": "Kàn de rén duō, bù yīdìng jiù shì zhēnde. Nǐ kàn, xīnwén lǐ méiyǒu xiě xiāoxi shì cóng nǎr lái de."
+    },
+    {
+      "speaker": "b",
+      "text": "是啊，我没仔细看就发给大家了。",
+      "reading": "Shì a, wǒ méi zǐxì kàn jiù fā gěi dàjiā le."
+    },
+    {
+      "speaker": "a",
+      "text": "而且照片上的人都穿着冬天的衣服，曼谷哪有这么冷？",
+      "reading": "Érqiě zhàopiàn shang de rén dōu chuān zhe dōngtiān de yīfu, Màngǔ nǎ yǒu zhème lěng?"
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，对！那照片一定是假的。",
+      "reading": "Hāhā, duì! Nà zhàopiàn yīdìng shì jiǎ de."
+    },
+    {
+      "speaker": "a",
+      "text": "我刚才问了我在曼谷的朋友，她说事实上夜市每天都开，人特别多。",
+      "reading": "Wǒ gāngcái wèn le wǒ zài Màngǔ de péngyou, tā shuō shìshíshàng yèshì měitiān dōu kāi, rén tèbié duō."
+    },
+    {
+      "speaker": "b",
+      "text": "原来是谣言！那我应该怎么办？",
+      "reading": "Yuánlái shì yáoyán! Nà wǒ yīnggāi zěnme bàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "你最好在群里告诉大家，这个消息是假的。",
+      "reading": "Nǐ zuìhǎo zài qún lǐ gàosu dàjiā, zhège xiāoxi shì jiǎ de."
+    },
+    {
+      "speaker": "b",
+      "text": "好，我马上说。以后发消息以前，我一定先看看是否真实。",
+      "reading": "Hǎo, wǒ mǎshàng shuō. Yǐhòu fā xiāoxi yǐqián, wǒ yīdìng xiān kànkan shìfǒu zhēnshí."
+    },
+    {
+      "speaker": "a",
+      "text": "对，别让谣言越传越远。",
+      "reading": "Duì, bié ràng yáoyán yuè chuán yuè yuǎn."
+    }
+  ]
+}

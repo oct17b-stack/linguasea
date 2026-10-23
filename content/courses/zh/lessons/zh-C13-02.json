@@ -1,0 +1,70 @@
+{
+  "id": "zh-C13-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yi-ding",
+      "text": "一定",
+      "reading": "yīdìng"
+    },
+    {
+      "id": "zh.dang-ran",
+      "text": "当然",
+      "reading": "dāngrán"
+    },
+    {
+      "id": "zh.ke-xi",
+      "text": "可惜",
+      "reading": "kěxī"
+    },
+    {
+      "id": "zh.ken-ding",
+      "text": "肯定",
+      "reading": "kěndìng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "李老师，六月五号是我的生日，我想请您来我家吃饭。",
+      "reading": "Lǐ lǎoshī, liù yuè wǔ hào shì wǒ de shēngrì, wǒ xiǎng qǐng nín lái wǒ jiā chīfàn."
+    },
+    {
+      "speaker": "c",
+      "text": "谢谢你！我当然想去，可是那天下午我要开会。",
+      "reading": "Xièxie nǐ! Wǒ dāngrán xiǎng qù, kěshì nà tiānxià? Wǒ yào kāihuì."
+    },
+    {
+      "speaker": "a",
+      "text": "太可惜了……",
+      "reading": "Tài kěxī le……"
+    },
+    {
+      "speaker": "c",
+      "text": "你们几点吃饭？",
+      "reading": "Nǐmen jǐ diǎn chīfàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "晚上六点。",
+      "reading": "Wǎnshang liù diǎn."
+    },
+    {
+      "speaker": "c",
+      "text": "开会以后，我一定去！可能七点到。",
+      "reading": "Kāihuì yǐhòu, wǒ yīdìng qù! Kěnéng qī diǎn dào."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！可是您那天肯定很累吧？",
+      "reading": "Tài hǎo le! Kěshì nín nà tiān kěndìng hěn lèi ba?"
+    },
+    {
+      "speaker": "c",
+      "text": "没关系，学生的生日，老师当然要去！",
+      "reading": "Méi guānxi, xuésheng de shēngrì, lǎoshī dāngrán yào qù!"
+    }
+  ]
+}
