@@ -1,0 +1,70 @@
+{
+  "id": "zh-C6-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yi-jing",
+      "text": "已经",
+      "reading": "yǐjīng"
+    },
+    {
+      "id": "zh.xi-guan",
+      "text": "习惯",
+      "reading": "xíguàn"
+    },
+    {
+      "id": "zh.sheng-huo",
+      "text": "生活",
+      "reading": "shēnghuó"
+    },
+    {
+      "id": "zh.shi-ying",
+      "text": "适应",
+      "reading": "shìyìng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你来北京多长时间了？",
+      "reading": "Xiǎonán, nǐ lái Běijīng duō cháng shíjiān le?"
+    },
+    {
+      "speaker": "a",
+      "text": "我已经来北京三个月了。",
+      "reading": "Wǒ yǐjīng lái Běijīng sān ge yuè le."
+    },
+    {
+      "speaker": "c",
+      "text": "时间真快！你习惯这儿的生活了吗？",
+      "reading": "Shíjiān zhēn kuài! Nǐ xíguàn zhèr de shēnghuó le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "已经习惯了。我很喜欢北京的生活。",
+      "reading": "Yǐjīng xíguàn le. Wǒ hěn xǐhuan Běijīng de shēnghuó."
+    },
+    {
+      "speaker": "c",
+      "text": "北京的天气呢？你适应了吗？",
+      "reading": "Běijīng de tiānqì ne? Nǐ shìyìng le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还没适应。现在已经很冷了，我每天都穿很多衣服！",
+      "reading": "Hái méi shìyìng. Xiànzài yǐjīng hěn lěng le, wǒ měitiān dōu chuān hěn duō yīfu!"
+    },
+    {
+      "speaker": "c",
+      "text": "北京的菜呢？",
+      "reading": "Běijīng de cài ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我已经习惯了，可是我更喜欢辣的菜。",
+      "reading": "Wǒ yǐjīng xíguàn le, kěshì wǒ gèng xǐhuan là de cài."
+    }
+  ]
+}

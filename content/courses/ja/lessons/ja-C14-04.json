@@ -1,0 +1,70 @@
+{
+  "id": "ja-C14-04",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kakigouri",
+      "text": "かきごおり",
+      "reading": "kakigōri"
+    },
+    {
+      "id": "ja.kingyosukui",
+      "text": "金魚すくい",
+      "reading": "kingyosukui"
+    },
+    {
+      "id": "ja.konzatsu",
+      "text": "こんざつ",
+      "reading": "konzatsu"
+    },
+    {
+      "id": "ja.hitogomi",
+      "text": "ひとごみ",
+      "reading": "hitogomi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ひとごみが すごいね。ナム、だいじょうぶ？",
+      "reading": "Hitogomi ga sugoi ne. Namu, daijōbu?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、あついね。かきごおりでも たべない？",
+      "reading": "Un. Demo, atsui ne. Kakigōri demo tabenai?"
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。あの 屋台は どう？",
+      "reading": "Ii ne. Ano yatai wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "あの 屋台は こんざつして いるね。となりの 屋台に しない？",
+      "reading": "Ano yatai wa konzatsu shite iru ne. Tonari no yatai ni shinai?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。…おいしい！ あ、金魚すくいが ある！",
+      "reading": "Un. …Oishii! A, kingyosukui ga aru!"
+    },
+    {
+      "speaker": "a",
+      "text": "金魚すくいは した ことが ない。",
+      "reading": "Kingyosukui wa shita koto ga nai."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、して みて！ かんたんだよ。",
+      "reading": "Jā, shite mite! Kantan da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "うん！ その あとで、やきとりでも たべない？",
+      "reading": "Un! Sono ato de, yakitori demo tabenai?"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "zh-D7-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.dong-wu",
+      "text": "动物",
+      "reading": "dòngwù"
+    },
+    {
+      "id": "zh.xiong-mao",
+      "text": "熊猫",
+      "reading": "xióngmāo"
+    },
+    {
+      "id": "zh.lao-hu",
+      "text": "老虎",
+      "reading": "lǎohǔ"
+    },
+    {
+      "id": "zh.hou-zi",
+      "text": "猴子",
+      "reading": "hóuzi"
+    },
+    {
+      "id": "zh.shen-me-de",
+      "text": "什么的",
+      "reading": "shénmede"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，北京动物园到了。你想先看什么动物？",
+      "reading": "Xiǎonán, Běijīng Dòngwùyuán dào le. Nǐ xiǎng xiān kàn shénme dòngwù?"
+    },
+    {
+      "speaker": "a",
+      "text": "当然是熊猫！在泰国，我只在电视上看过熊猫。",
+      "reading": "Dāngrán shì xióngmāo! Zài Tàiguó, wǒ zhǐ zài diànshì shang kàn guo xióngmāo."
+    },
+    {
+      "speaker": "b",
+      "text": "熊猫在那儿。你看，熊猫在吃东西呢！",
+      "reading": "Xióngmāo zài nàr. Nǐ kàn, xióngmāo zài chī dōngxi ne!"
+    },
+    {
+      "speaker": "a",
+      "text": "太可爱了！熊猫吃东西的样子真好玩。",
+      "reading": "Tài kě'ài le! Xióngmāo chī dōngxi de yàngzi zhēn hǎowán."
+    },
+    {
+      "speaker": "b",
+      "text": "这儿还有很多别的动物，老虎、狮子、猴子什么的。",
+      "reading": "Zhèr hái yǒu hěn duō biéde dòngwù, lǎohǔ, shīzi, hóuzi shénmede."
+    },
+    {
+      "speaker": "a",
+      "text": "我想看猴子。泰国有一个城市，街上有很多猴子。",
+      "reading": "Wǒ xiǎng kàn hóuzi. Tàiguó yǒu yī ge chéngshì, jiē shang yǒu hěn duō hóuzi."
+    },
+    {
+      "speaker": "b",
+      "text": "真的吗？那儿的猴子怕人吗？",
+      "reading": "Zhēnde ma? Nàr de hóuzi pà rén ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "一点儿也不怕！那儿的猴子常常拿游客的帽子、眼镜、吃的什么的。",
+      "reading": "Yīdiǎnr yě bù pà! Nàr de hóuzi chángcháng ná yóukè de màozi, yǎnjìng, chī de shénmede."
+    },
+    {
+      "speaker": "b",
+      "text": "太有意思了！我们先去看老虎吧。",
+      "reading": "Tài yǒu yìsi le! Wǒmen xiān qù kàn lǎohǔ ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好！看完老虎，我们再回来看熊猫。",
+      "reading": "Hǎo! Kànwán lǎohǔ, wǒmen zài huílái kàn xióngmāo."
+    }
+  ]
+}

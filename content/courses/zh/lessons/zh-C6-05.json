@@ -1,0 +1,72 @@
+{
+  "id": "zh-C6-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.bian",
+      "text": "遍",
+      "reading": "biàn"
+    },
+    {
+      "id": "zh.di-yi-ci",
+      "text": "第一次",
+      "reading": "dì-yī cì",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.hao-ji-ci",
+      "text": "好几次",
+      "reading": "hǎojǐ cì",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.guo-qu",
+      "text": "过去",
+      "reading": "guòqù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你去过几次长城？",
+      "reading": "Xiǎonán, nǐ qù guo jǐ cì Chángchéng?"
+    },
+    {
+      "speaker": "a",
+      "text": "去过两次。第一次是九月，第二次是上个星期。",
+      "reading": "Qù guo liǎng cì. Dì-yī cì shì jiǔ yuè, dì-èr cì shì shàng ge xīngqī."
+    },
+    {
+      "speaker": "c",
+      "text": "你很喜欢长城吧？",
+      "reading": "Nǐ hěn xǐhuan Chángchéng ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "对！王明去过好几次，他说十月的长城最漂亮。",
+      "reading": "Duì! Wáng Míng qù guo hǎojǐ cì, tā shuō shí yuè de Chángchéng zuì piàoliang."
+    },
+    {
+      "speaker": "c",
+      "text": "你看过中国电影吗？",
+      "reading": "Nǐ kàn guo Zhōngguó diànyǐng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "过去我很少看中国电影，现在经常看。有一个电影我看过三遍！",
+      "reading": "Guòqù wǒ hěn shǎo kàn Zhōngguó diànyǐng, xiànzài jīngcháng kàn. Yǒu yī ge diànyǐng wǒ kàn guo sān biàn!"
+    },
+    {
+      "speaker": "c",
+      "text": "三遍？什么电影？",
+      "reading": "Sān biàn? Shénme diànyǐng?"
+    },
+    {
+      "speaker": "a",
+      "text": "是一个泰国电影，在中国也很有名！",
+      "reading": "Shì yī ge Tàiguó diànyǐng, zài Zhōngguó yě hěn yǒumíng!"
+    }
+  ]
+}

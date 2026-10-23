@@ -1,0 +1,80 @@
+{
+  "id": "zh-D7-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.zhao-gu",
+      "text": "照顾",
+      "reading": "zhàogù"
+    },
+    {
+      "id": "zh.jiao-hand-over",
+      "text": "交",
+      "reading": "jiāo"
+    },
+    {
+      "id": "zh.chu-chai",
+      "text": "出差",
+      "reading": "chūchāi"
+    },
+    {
+      "id": "zh.fang-xin",
+      "text": "放心",
+      "reading": "fàngxīn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，下个星期我要去上海出差，我的鸟怎么办？",
+      "reading": "Xiǎonán, xià ge xīngqī wǒ yào qù Shànghǎi chūchāi, wǒ de niǎo zěnme bàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "你把它交给我吧，我帮你照顾。",
+      "reading": "Nǐ bǎ tā jiāo gěi wǒ ba, wǒ bāng nǐ zhàogù."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！谢谢你。明天我把鸟和它吃的东西一起送给你。",
+      "reading": "Tài hǎo le! Xièxie nǐ. Míngtiān wǒ bǎ niǎo hé tā chī de dōngxi yīqǐ sòng gěi nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "它每天吃几次？",
+      "reading": "Tā měitiān chī jǐ cì?"
+    },
+    {
+      "speaker": "b",
+      "text": "早上一次，晚上一次。水也要每天换。",
+      "reading": "Zǎoshang yī cì, wǎnshang yī cì. Shuǐ yě yào měitiān huàn."
+    },
+    {
+      "speaker": "a",
+      "text": "知道了。我还要带它出去晒太阳吗？",
+      "reading": "Zhīdào le. Wǒ hái yào dài tā chūqu shài tàiyáng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "天气好的时候，你可以把它放在阳台上。",
+      "reading": "Tiānqì hǎo de shíhou, nǐ kěyǐ bǎ tā fàng zài yángtái shang."
+    },
+    {
+      "speaker": "a",
+      "text": "好。你放心吧，我会仔细照顾它的。",
+      "reading": "Hǎo. Nǐ fàngxīn ba, wǒ huì zǐxì zhàogù tā de."
+    },
+    {
+      "speaker": "b",
+      "text": "我很放心。对了，回来以后，我把上海的小礼物送给你！",
+      "reading": "Wǒ hěn fàngxīn. Duì le, huílái yǐhòu, wǒ bǎ Shànghǎi de xiǎo lǐwù sòng gěi nǐ!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！祝你出差顺利！",
+      "reading": "Hǎo a! Zhù nǐ chūchāi shùnlì!"
+    }
+  ]
+}

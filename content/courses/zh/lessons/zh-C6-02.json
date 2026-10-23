@@ -1,0 +1,70 @@
+{
+  "id": "zh-C6-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.wan-finish",
+      "text": "完",
+      "reading": "wán"
+    },
+    {
+      "id": "zh.wan-cheng",
+      "text": "完成",
+      "reading": "wánchéng"
+    },
+    {
+      "id": "zh.shi-qing",
+      "text": "事情",
+      "reading": "shìqing"
+    },
+    {
+      "id": "zh.shou-shi",
+      "text": "收拾",
+      "reading": "shōushi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你吃晚饭了吗？我们一起去吃吧！",
+      "reading": "Xiǎonán, nǐ chī wǎnfàn le ma? Wǒmen yīqǐ qù chī ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "还没吃呢。可是我的作业还没完成呢。",
+      "reading": "Hái méi chī ne. Kěshì wǒ de zuòyè hái méi wánchéng ne."
+    },
+    {
+      "speaker": "b",
+      "text": "还有很多吗？",
+      "reading": "Hái yǒu hěn duō ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "不多，还有一个练习。我也还没收拾房间呢。",
+      "reading": "Bù duō, hái yǒu yī ge liànxí. Wǒ yě hái méi shōushi fángjiān ne."
+    },
+    {
+      "speaker": "b",
+      "text": "你的事情真多！那我们七点半去，好吗？",
+      "reading": "Nǐ de shìqing zhēn duō! Nà wǒmen qī diǎn bàn qù, hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "好。我先写完作业，再收拾房间。",
+      "reading": "Hǎo. Wǒ xiān xiěwán zuòyè, zài shōushi fángjiān."
+    },
+    {
+      "speaker": "b",
+      "text": "七点半我在楼下等你。",
+      "reading": "Qī diǎn bàn wǒ zài lóuxià děng nǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "好，一会儿见！",
+      "reading": "Hǎo, yīhuìr jiàn!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C14-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.omatsuri",
+      "text": "おまつり",
+      "reading": "omatsuri"
+    },
+    {
+      "id": "ja.sonkuraan",
+      "text": "ソンクラーン",
+      "reading": "Sonkurān"
+    },
+    {
+      "id": "ja.roikuraton",
+      "text": "ロイクラトン",
+      "reading": "Roikuraton"
+    },
+    {
+      "id": "ja.gyouji",
+      "text": "行事",
+      "reading": "gyōji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、タイには どんな おまつりが あるの？",
+      "reading": "Namu, Tai ni wa donna omatsuri ga aru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "4月に ソンクラーンと いう おまつりが あるよ。タイの おしょうがつ。",
+      "reading": "Shigatsu ni Sonkurān to iu omatsuri ga aru yo. Tai no oshōgatsu."
+    },
+    {
+      "speaker": "c",
+      "text": "ソンクラーン？ なにを するの？",
+      "reading": "Sonkurān? Nani o suru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "みんなで みずを かけるの。まちが とても にぎやかに なるよ。",
+      "reading": "Minna de mizu o kakeru no. Machi ga totemo nigiyaka ni naru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "おもしろいね！ ほかにも ある？",
+      "reading": "Omoshiroi ne! Hoka ni mo aru?"
+    },
+    {
+      "speaker": "a",
+      "text": "11月ごろに、ロイクラトンと いう 行事も あるよ。つきが きれいな よるの おまつり。",
+      "reading": "Jūichigatsu goro ni, Roikuraton to iu gyōji mo aru yo. Tsuki ga kirei na yoru no omatsuri."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんの なつにも、いろいろな おまつりが あるよ。",
+      "reading": "Nihon no natsu ni mo, iroiro na omatsuri ga aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしも いって みたい！",
+      "reading": "Watashi mo itte mitai!"
+    }
+  ]
+}

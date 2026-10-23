@@ -1,0 +1,79 @@
+{
+  "id": "ja-C14-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.yozora",
+      "text": "夜空",
+      "reading": "yozora"
+    },
+    {
+      "id": "ja.hakuryoku",
+      "text": "はくりょく",
+      "reading": "hakuryoku"
+    },
+    {
+      "id": "ja.kandou",
+      "text": "かんどう",
+      "reading": "kandō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きょうは ゆきの まちの なつまつりに いった。",
+        "reading": "Kyō wa Yuki no machi no natsumatsuri ni itta."
+      },
+      {
+        "text": "はじめて ゆかたを きて、ゆきと いっしょに 屋台で かきごおりを たべた。",
+        "reading": "Hajimete yukata o kite, Yuki to issho ni yatai de kakigōri o tabeta."
+      },
+      {
+        "text": "ぼんおどりも おどった。",
+        "reading": "Bon'odori mo odotta."
+      }
+    ],
+    [
+      {
+        "text": "よる 8時から、花火を みた。",
+        "reading": "Yoru hachiji kara, hanabi o mita."
+      },
+      {
+        "text": "夜空に おおきい 花火が たくさん ひかった。",
+        "reading": "Yozora ni ōkii hanabi ga takusan hikatta."
+      },
+      {
+        "text": "ちかくで みたから、すごい はくりょくだった。",
+        "reading": "Chikaku de mita kara, sugoi hakuryoku datta."
+      }
+    ],
+    [
+      {
+        "text": "わたしは とても かんどうした。",
+        "reading": "Watashi wa totemo kandō shita."
+      },
+      {
+        "text": "タイの ロイクラトンも きれいだが、にほんの 花火も すばらしい。",
+        "reading": "Tai no Roikuraton mo kirei da ga, Nihon no hanabi mo subarashii."
+      },
+      {
+        "text": "来年も ゆきと いきたい。",
+        "reading": "Rainen mo Yuki to ikitai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

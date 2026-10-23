@@ -1,0 +1,70 @@
+{
+  "id": "zh-C6-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.chang-cheng",
+      "text": "长城",
+      "reading": "Chángchéng"
+    },
+    {
+      "id": "zh.kao-ya",
+      "text": "烤鸭",
+      "reading": "kǎoyā"
+    },
+    {
+      "id": "zh.jing-ju",
+      "text": "京剧",
+      "reading": "jīngjù"
+    },
+    {
+      "id": "zh.gu-gong",
+      "text": "故宫",
+      "reading": "Gùgōng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，你去过长城吗？",
+      "reading": "Xiǎonán, nǐ qù guo Chángchéng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "去过！长城很漂亮，可是人太多了。",
+      "reading": "Qù guo! Chángchéng hěn piàoliang, kěshì rén tài duō le."
+    },
+    {
+      "speaker": "c",
+      "text": "故宫呢？你也去过吧？",
+      "reading": "Gùgōng ne? Nǐ yě qù guo ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "去过，故宫太大了！",
+      "reading": "Qù guo, Gùgōng tài dà le!"
+    },
+    {
+      "speaker": "c",
+      "text": "你吃过北京烤鸭吗？",
+      "reading": "Nǐ chī guo Běijīng kǎoyā ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "吃过，很好吃！老师，您去过泰国吗？",
+      "reading": "Chī guo, hěn hǎochī! Lǎoshī, nín qù guo Tàiguó ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "去过，我还吃过冬阴功。你看过京剧吗？",
+      "reading": "Qù guo, wǒ hái chī guo dōngyīngōng. Nǐ kàn guo jīngjù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还没有。我很想去看京剧！",
+      "reading": "Hái méiyǒu. Wǒ hěn xiǎng qù kàn jīngjù!"
+    }
+  ]
+}

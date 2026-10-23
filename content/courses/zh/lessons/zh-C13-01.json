@@ -1,0 +1,70 @@
+{
+  "id": "zh-C13-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.yao-qing",
+      "text": "邀请",
+      "reading": "yāoqǐng"
+    },
+    {
+      "id": "zh.ju-hui",
+      "text": "聚会",
+      "reading": "jùhuì"
+    },
+    {
+      "id": "zh.ju-xing",
+      "text": "举行",
+      "reading": "jǔxíng"
+    },
+    {
+      "id": "zh.qing-ke",
+      "text": "请客",
+      "reading": "qǐngkè"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，六月五号你有空儿吗？",
+      "reading": "Wáng Míng, liù yuè wǔ hào nǐ yǒu kòngr ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有空儿。有什么事？",
+      "reading": "Yǒu kòngr. Yǒu shénme shì?"
+    },
+    {
+      "speaker": "a",
+      "text": "那天是我的生日，我想请你来我家吃饭。",
+      "reading": "Nà tiān shì wǒ de shēngrì, wǒ xiǎng qǐng nǐ lái wǒ jiā chīfàn."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了，谢谢你邀请我！你还请了谁？",
+      "reading": "Tài hǎo le, xièxie nǐ yāoqǐng wǒ! Nǐ hái qǐng le shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "我还请了李老师和几个同学。聚会在我家举行。",
+      "reading": "Wǒ hái qǐng le Lǐ lǎoshī hé jǐ ge tóngxué. Jùhuì zài wǒ jiā jǔxíng."
+    },
+    {
+      "speaker": "b",
+      "text": "在中国，过生日的人要请客。泰国呢？",
+      "reading": "Zài Zhōngguó, guò shēngrì de rén yào qǐngkè. Tàiguó ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "泰国也一样！我请大家吃泰国菜。",
+      "reading": "Tàiguó yě yīyàng! Wǒ qǐng dàjiā chī Tàiguó cài."
+    },
+    {
+      "speaker": "b",
+      "text": "好啊！我很想吃你做的泰国菜！",
+      "reading": "Hǎo a! Wǒ hěn xiǎng chī nǐ zuò de Tàiguó cài!"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ja-C14-02",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.hanabi",
+      "text": "花火",
+      "reading": "hanabi"
+    },
+    {
+      "id": "ja.yatai",
+      "text": "屋台",
+      "reading": "yatai"
+    },
+    {
+      "id": "ja.bonodori",
+      "text": "ぼんおどり",
+      "reading": "bon'odori"
+    },
+    {
+      "id": "ja.yukata",
+      "text": "ゆかた",
+      "reading": "yukata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、にほんの なつの おまつりは どこで あるの？",
+      "reading": "Yuki, Nihon no natsu no omatsuri wa doko de aru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "いろいろだよ。来週の どようびに、わたしの まちの こうえんで おまつりが あるよ。",
+      "reading": "Iroiro da yo. Raishū no doyōbi ni, watashi no machi no kōen de omatsuri ga aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "なにが あるの？",
+      "reading": "Nani ga aru no?"
+    },
+    {
+      "speaker": "c",
+      "text": "屋台が たくさん あるよ。よる 8時から 花火も ある。",
+      "reading": "Yatai ga takusan aru yo. Yoru hachiji kara hanabi mo aru."
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！ ぼんおどりも ある？",
+      "reading": "Sugoi! Bon'odori mo aru?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。こうえんの まんなかで、みんなで おどるよ。",
+      "reading": "Un. Kōen no mannaka de, minna de odoru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆかたを きて いきたいな。",
+      "reading": "Yukata o kite ikitai na."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね！ わたしの うちに ゆかたが 2まい あるよ。",
+      "reading": "Ii ne! Watashi no uchi ni yukata ga nimai aru yo."
+    }
+  ]
+}

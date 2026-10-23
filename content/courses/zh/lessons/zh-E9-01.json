@@ -1,0 +1,95 @@
+{
+  "id": "zh-E9-01",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhong-yi",
+      "text": "中医",
+      "reading": "zhōngyī"
+    },
+    {
+      "id": "zh.xi-yi",
+      "text": "西医",
+      "reading": "xīyī"
+    },
+    {
+      "id": "zh.ju-shuo",
+      "text": "据说",
+      "reading": "jùshuō"
+    },
+    {
+      "id": "zh.you-xiao",
+      "text": "有效",
+      "reading": "yǒuxiào"
+    },
+    {
+      "id": "zh.mai-pulse",
+      "text": "脉",
+      "reading": "mài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你最近怎么了？看起来很累。",
+      "reading": "Xiǎonán, nǐ zuìjìn zěnme le? Kàn qilai hěn lèi."
+    },
+    {
+      "speaker": "a",
+      "text": "我这几个星期一直睡不好，胃也经常疼。",
+      "reading": "Wǒ zhè jǐ ge xīngqī yīzhí shuì bu hǎo, wèi yě jīngcháng téng."
+    },
+    {
+      "speaker": "b",
+      "text": "你去医院看过吗？",
+      "reading": "Nǐ qù yīyuàn kàn guo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "看过了。西医说问题不大，给了我一些药，可是吃了也没什么效果。",
+      "reading": "Kàn guo le. Xīyī shuō wèntí bù dà, gěi le wǒ yīxiē yào, kěshì chī le yě méi shénme xiàoguǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "那你去看看中医吧。据说中医对失眠很有效。",
+      "reading": "Nà nǐ qù kànkan zhōngyī ba. Jùshuō zhōngyī duì shīmián hěn yǒuxiào."
+    },
+    {
+      "speaker": "a",
+      "text": "中医？我听说中医看病不做什么检查，大夫只给病人把脉，是真的吗？",
+      "reading": "Zhōngyī? Wǒ tīngshuō zhōngyī kànbìng bù zuò shénme jiǎnchá, dàifu zhǐ gěi bìngrén bǎmài, shì zhēnde ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "差不多。大夫先给你把脉，再问你吃饭、睡觉怎么样。",
+      "reading": "Chàbuduō. Dàifu xiān gěi nǐ bǎmài, zài wèn nǐ chīfàn, shuìjiào zěnmeyàng."
+    },
+    {
+      "speaker": "a",
+      "text": "只把脉就能知道我哪儿不舒服吗？",
+      "reading": "Zhǐ bǎmài jiù néng zhīdào wǒ nǎr bù shūfu ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "据说有经验的大夫能知道。我奶奶以前胃不好，就是看中医看好的。",
+      "reading": "Jùshuō yǒu jīngyàn de dàifu néng zhīdào. Wǒ nǎinai yǐqián wèi bù hǎo, jiùshì kàn zhōngyī kànhǎo de."
+    },
+    {
+      "speaker": "a",
+      "text": "真的？那我也去试试。你知道哪儿有好的中医吗？",
+      "reading": "Zhēnde? Nà wǒ yě qù shìshi. Nǐ zhīdào nǎr yǒu hǎo de zhōngyī ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "学校旁边有一家中医医院，据说那儿的大夫都很有名。",
+      "reading": "Xuéxiào pángbiān yǒu yī jiā zhōngyī yīyuàn, jùshuō nàr de dàifu dōu hěn yǒumíng."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了，我这个周末就去看看。",
+      "reading": "Tài hǎo le, wǒ zhège zhōumò jiù qù kànkan."
+    }
+  ]
+}

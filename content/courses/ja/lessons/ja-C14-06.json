@@ -1,0 +1,71 @@
+{
+  "id": "ja-C14-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.shitsurei",
+      "text": "しつれい",
+      "reading": "shitsurei"
+    },
+    {
+      "id": "ja.omairi",
+      "text": "おまいり",
+      "reading": "omairi"
+    },
+    {
+      "id": "ja.te-o-awaseru",
+      "kind": "phrase",
+      "text": "てをあわせる",
+      "reading": "te o awaseru"
+    },
+    {
+      "id": "ja.seiza",
+      "text": "せいざ",
+      "reading": "seiza"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、タイの おてらでは くつを ぬぐの？",
+      "reading": "Namu, Tai no otera de wa kutsu o nugu no?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。くつを はいた まま はいるのは、しつれいだよ。",
+      "reading": "Un. Kutsu o haita mama hairu no wa, shitsurei da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんの うちと おなじだね。",
+      "reading": "Nihon no uchi to onaji da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、ぼうしを かぶった まま おまいりしない ほうが いいよ。",
+      "reading": "Sorekara, bōshi o kabutta mama omairi shinai hō ga ii yo."
+    },
+    {
+      "speaker": "c",
+      "text": "タイでは、どう おまいりするの？",
+      "reading": "Tai de wa, dō omairi suru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "てを あわせて、いのるよ。にほんも おなじ？",
+      "reading": "Te o awasete, inoru yo. Nihon mo onaji?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん、おなじだよ。それから、にほんの おてらでは、せいざを する ことも あるよ。",
+      "reading": "Un, onaji da yo. Sorekara, Nihon no otera de wa, seiza o suru koto mo aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "せいざは、足が いたく なるから にがて…。",
+      "reading": "Seiza wa, ashi ga itaku naru kara nigate…."
+    }
+  ]
+}

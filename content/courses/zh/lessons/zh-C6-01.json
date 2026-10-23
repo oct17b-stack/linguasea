@@ -1,0 +1,75 @@
+{
+  "id": "zh-C6-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.can-guan",
+      "text": "参观",
+      "reading": "cānguān"
+    },
+    {
+      "id": "zh.bo-wu-guan",
+      "text": "博物馆",
+      "reading": "bówùguǎn"
+    },
+    {
+      "id": "zh.dong-wu-yuan",
+      "text": "动物园",
+      "reading": "dòngwùyuán"
+    },
+    {
+      "id": "zh.guang",
+      "text": "逛",
+      "reading": "guàng"
+    },
+    {
+      "id": "zh.jian-dao",
+      "text": "见到",
+      "reading": "jiàndào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，周末你做什么了？",
+      "reading": "Xiǎonán, zhōumò nǐ zuò shénme le?"
+    },
+    {
+      "speaker": "a",
+      "text": "星期六我参观了国家博物馆，拍了很多照片。",
+      "reading": "Xīngqīliù wǒ cānguān le Guójiā Bówùguǎn, pāi le hěn duō zhàopiàn."
+    },
+    {
+      "speaker": "c",
+      "text": "星期天呢？",
+      "reading": "Xīngqītiān ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "星期天上午我跟王明去了动物园。",
+      "reading": "Xīngqītiān shàngwǔ wǒ gēn Wáng Míng qù le dòngwùyuán."
+    },
+    {
+      "speaker": "c",
+      "text": "动物园好玩吗？",
+      "reading": "Dòngwùyuán hǎowán ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "很好玩！我们还在那儿见到了班里的日本同学。",
+      "reading": "Hěn hǎowán! Wǒmen hái zài nàr jiàndào le bān lǐ de Rìběn tóngxué."
+    },
+    {
+      "speaker": "c",
+      "text": "下午呢？",
+      "reading": "Xiàwǔ ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "下午我们逛了商店，我买了一件新衣服。",
+      "reading": "Xiàwǔ wǒmen guàng le shāngdiàn, wǒ mǎi le yī jiàn xīn yīfu."
+    }
+  ]
+}

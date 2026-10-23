@@ -1,0 +1,76 @@
+{
+  "id": "zh-C6-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.pa",
+      "text": "爬",
+      "reading": "pá"
+    },
+    {
+      "id": "zh.feng-jing",
+      "text": "风景",
+      "reading": "fēngjǐng"
+    },
+    {
+      "id": "zh.lei-si-le",
+      "text": "累死了",
+      "reading": "lèi sǐ le",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "十月十二日，星期六，晴天。",
+        "reading": "Shí yuè shí'èr rì, xīngqīliù, qíngtiān."
+      },
+      {
+        "text": "今天我跟王明去了长城。",
+        "reading": "Jīntiān wǒ gēn Wáng Míng qù le Chángchéng."
+      },
+      {
+        "text": "我们早上七点出发，九点到了长城。",
+        "reading": "Wǒmen zǎoshang qī diǎn chūfā, jiǔ diǎn dào le Chángchéng."
+      }
+    ],
+    [
+      {
+        "text": "长城上的人很多，我们爬了三个小时。",
+        "reading": "Chángchéng shang de rén hěn duō, wǒmen pá le sān ge xiǎoshí."
+      },
+      {
+        "text": "山上的风景太漂亮了！我拍了很多照片。",
+        "reading": "Shān shang de fēngjǐng tài piàoliang le! Wǒ pāi le hěn duō zhàopiàn."
+      },
+      {
+        "text": "下午我的腿很疼，累死了！",
+        "reading": "Xiàwǔ wǒ de tuǐ hěn téng, lèi sǐ le!"
+      }
+    ],
+    [
+      {
+        "text": "晚上我很累，可是很高兴。",
+        "reading": "Wǎnshang wǒ hěn lèi, kěshì hěn gāoxìng."
+      },
+      {
+        "text": "下次我想带妹妹一起来！",
+        "reading": "Xiàcì wǒ xiǎng dài mèimei yīqǐ lái!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

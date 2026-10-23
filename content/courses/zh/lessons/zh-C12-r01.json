@@ -1,0 +1,76 @@
+{
+  "id": "zh-C12-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.bai-nian",
+      "text": "拜年",
+      "reading": "bàinián"
+    },
+    {
+      "id": "zh.fang-bian-pao",
+      "kind": "phrase",
+      "text": "放鞭炮",
+      "reading": "fàng biānpào"
+    },
+    {
+      "id": "zh.lao-jia",
+      "text": "老家",
+      "reading": "lǎojiā"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "春节是中国最大的节日。",
+        "reading": "Chūnjié shì Zhōngguó zuì dà de jiérì."
+      },
+      {
+        "text": "春节以前，很多人坐火车回老家，跟家人一起过年。",
+        "reading": "Chūnjié yǐqián, hěn duō rén zuò huǒchē huí lǎojiā, gēn jiārén yīqǐ guònián."
+      },
+      {
+        "text": "过年以前，大家都打扫房子，还买新衣服。",
+        "reading": "Guònián yǐqián, dàjiā dōu dǎsǎo fángzi, hái mǎi xīn yīfu."
+      }
+    ],
+    [
+      {
+        "text": "过年的时候，全家人一起吃饭、包饺子。",
+        "reading": "Guònián de shíhou, quánjiā rén yīqǐ chīfàn, bāo jiǎozi."
+      },
+      {
+        "text": "晚上十二点，很多人放鞭炮，非常热闹。",
+        "reading": "Wǎnshang shí'èr diǎn, hěn duō rén fàng biānpào, fēicháng rènao."
+      },
+      {
+        "text": "现在很多城市不能放鞭炮了。",
+        "reading": "Xiànzài hěn duō chéngshì bù néng fàng biānpào le."
+      }
+    ],
+    [
+      {
+        "text": "春节的时候，人们互相拜年，说“新年快乐”。",
+        "reading": "Chūnjié de shíhou, rénmen hùxiāng bàinián, shuō \"Xīnnián kuàilè\"."
+      },
+      {
+        "text": "孩子们给老人拜年，老人给孩子们红包。",
+        "reading": "Háizimen gěi lǎorén bàinián, lǎorén gěi háizimen hóngbāo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

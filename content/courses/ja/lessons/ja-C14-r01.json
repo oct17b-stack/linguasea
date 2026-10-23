@@ -1,0 +1,75 @@
+{
+  "id": "ja-C14-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.mangetsu",
+      "text": "まんげつ",
+      "reading": "mangetsu"
+    },
+    {
+      "id": "ja.nagasu",
+      "text": "ながす",
+      "reading": "nagasu"
+    },
+    {
+      "id": "ja.kansha",
+      "text": "かんしゃ",
+      "reading": "kansha"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ロイクラトンは、タイの でんとうの 行事です。",
+        "reading": "Roikuraton wa, Tai no dentō no gyōji desu."
+      },
+      {
+        "text": "11月ごろの まんげつの よるに あります。",
+        "reading": "Jūichigatsu goro no mangetsu no yoru ni arimasu."
+      }
+    ],
+    [
+      {
+        "text": "みんな、はなと ろうそくで ちいさい ふねを 作ります。",
+        "reading": "Minna, hana to rōsoku de chiisai fune o tsukurimasu."
+      },
+      {
+        "text": "この ふねは「クラトン」と いう ものです。",
+        "reading": "Kono fune wa “kuraton” to iu mono desu."
+      },
+      {
+        "text": "よる、かわに クラトンを ながします。",
+        "reading": "Yoru, kawa ni kuraton o nagashimasu."
+      },
+      {
+        "text": "かわや みずに かんしゃして、いのります。",
+        "reading": "Kawa ya mizu ni kansha shite, inorimasu."
+      }
+    ],
+    [
+      {
+        "text": "まんげつの よるの かわは、とても うつくしいです。",
+        "reading": "Mangetsu no yoru no kawa wa, totemo utsukushii desu."
+      },
+      {
+        "text": "11月に タイへ いく ひとは、ロイクラトンを みて ください。",
+        "reading": "Jūichigatsu ni Tai e iku hito wa, Roikuraton o mite kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

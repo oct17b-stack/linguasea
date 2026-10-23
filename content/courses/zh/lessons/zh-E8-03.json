@@ -1,0 +1,100 @@
+{
+  "id": "zh-E8-03",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.tui-xiao",
+      "text": "推销",
+      "reading": "tuīxiāo"
+    },
+    {
+      "id": "zh.xiao-fei-zhe",
+      "text": "消费者",
+      "reading": "xiāofèizhě"
+    },
+    {
+      "id": "zh.ming-xing",
+      "text": "明星",
+      "reading": "míngxīng"
+    },
+    {
+      "id": "zh.xuan-chuan",
+      "text": "宣传",
+      "reading": "xuānchuán"
+    },
+    {
+      "id": "zh.chan-pin",
+      "text": "产品",
+      "reading": "chǎnpǐn"
+    },
+    {
+      "id": "zh.chao-ji",
+      "text": "超级",
+      "reading": "chāojí"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我上个月买了一种减肥茶，现在后悔了。",
+      "reading": "Wáng Míng, wǒ shàng ge yuè mǎi le yī zhǒng jiǎnféi chá, xiànzài hòuhuǐ le."
+    },
+    {
+      "speaker": "b",
+      "text": "为什么买？是不是受广告的影响？",
+      "reading": "Wèi shénme mǎi? Shì bù shì shòu guǎnggào de yǐngxiǎng?"
+    },
+    {
+      "speaker": "a",
+      "text": "对。广告里有一个超级明星，她说喝了以后很快就能瘦。",
+      "reading": "Duì. Guǎnggào lǐ yǒu yī ge chāojí míngxīng, tā shuō hē le yǐhòu hěn kuài jiù néng shòu."
+    },
+    {
+      "speaker": "b",
+      "text": "明星做的宣传，很多人都会相信。",
+      "reading": "Míngxīng zuò de xuānchuán, hěn duō rén dōu huì xiāngxìn."
+    },
+    {
+      "speaker": "a",
+      "text": "我喝了一个月，一点儿也没瘦，还花了五百块。",
+      "reading": "Wǒ hē le yī ge yuè, yīdiǎnr yě méi shòu, hái huā le wǔbǎi kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "很多消费者都受过这样的骗。",
+      "reading": "Hěn duō xiāofèizhě dōu shòu guo zhèyàng de piàn."
+    },
+    {
+      "speaker": "a",
+      "text": "还有，最近总有人给我打电话推销产品。",
+      "reading": "Háiyǒu, zuìjìn zǒng yǒurén gěi wǒ dǎ diànhuà tuīxiāo chǎnpǐn."
+    },
+    {
+      "speaker": "b",
+      "text": "我也常接到这种电话，我一般说“不需要”，然后就不听了。",
+      "reading": "Wǒ yě cháng jiēdào zhè zhǒng diànhuà, wǒ yībān shuō \"bù xūyào\", ránhòu jiù bù tīng le."
+    },
+    {
+      "speaker": "a",
+      "text": "你觉得为什么大家这么容易受广告的影响？",
+      "reading": "Nǐ juéde wèi shénme dàjiā zhème róngyì shòu guǎnggào de yǐngxiǎng?"
+    },
+    {
+      "speaker": "b",
+      "text": "因为广告往往只说产品的好处，不说坏处。",
+      "reading": "Yīnwèi guǎnggào wǎngwǎng zhǐ shuō chǎnpǐn de hǎochu, bù shuō huàichu."
+    },
+    {
+      "speaker": "a",
+      "text": "以后买东西以前，我要先问问用过的朋友。",
+      "reading": "Yǐhòu mǎi dōngxi yǐqián, wǒ yào xiān wènwen yòng guo de péngyou."
+    },
+    {
+      "speaker": "b",
+      "text": "对，用过的人说的话，比明星说的更可靠。",
+      "reading": "Duì, yòng guo de rén shuō de huà, bǐ míngxīng shuō de gèng kěkào."
+    }
+  ]
+}

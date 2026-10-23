@@ -1,0 +1,85 @@
+{
+  "id": "zh-D7-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.chong-wu",
+      "text": "宠物",
+      "reading": "chǒngwù"
+    },
+    {
+      "id": "zh.zhi-measure",
+      "text": "只",
+      "reading": "zhī"
+    },
+    {
+      "id": "zh.tu-zi",
+      "text": "兔子",
+      "reading": "tùzi"
+    },
+    {
+      "id": "zh.niao",
+      "text": "鸟",
+      "reading": "niǎo"
+    },
+    {
+      "id": "zh.ta-it",
+      "text": "它",
+      "reading": "tā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我想养一只宠物。你养过宠物吗？",
+      "reading": "Xiǎonán, wǒ xiǎng yǎng yī zhī chǒngwù. Nǐ yǎng guo chǒngwù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "养过！我家有一只猫，我们养了五年了。",
+      "reading": "Yǎng guo! Wǒ jiā yǒu yī zhī māo, wǒmen yǎng le wǔ nián le."
+    },
+    {
+      "speaker": "b",
+      "text": "它叫什么名字？",
+      "reading": "Tā jiào shénme míngzi?"
+    },
+    {
+      "speaker": "a",
+      "text": "它叫“米饭”，因为它是白色的。",
+      "reading": "Tā jiào \"Mǐfàn\", yīnwèi tā shì báisè de."
+    },
+    {
+      "speaker": "b",
+      "text": "这个名字真有意思！你来中国以后，谁跟它玩？",
+      "reading": "Zhège míngzi zhēn yǒu yìsi! Nǐ lái Zhōngguó yǐhòu, shéi gēn tā wán?"
+    },
+    {
+      "speaker": "a",
+      "text": "我妹妹。她每天晚上都跟它一起睡觉。",
+      "reading": "Wǒ mèimei. Tā měitiān wǎnshang dōu gēn tā yīqǐ shuìjiào."
+    },
+    {
+      "speaker": "b",
+      "text": "我想养一只兔子或者一只鸟。",
+      "reading": "Wǒ xiǎng yǎng yī zhī tùzi huòzhě yī zhī niǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "兔子很可爱，可是你的房子太小了吧？",
+      "reading": "Tùzi hěn kě'ài, kěshì nǐ de fángzi tài xiǎo le ba?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，我住的地方很小。那就养一只鸟吧。",
+      "reading": "Duì, wǒ zhù de dìfang hěn xiǎo. Nà jiù yǎng yī zhī niǎo ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我学汉语学了两年了，我可以教它说“你好”！",
+      "reading": "Hǎo a! Wǒ xué Hànyǔ xué le liǎng nián le, wǒ kěyǐ jiāo tā shuō \"nǐ hǎo\"!"
+    }
+  ]
+}
