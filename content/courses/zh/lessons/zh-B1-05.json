@@ -1,0 +1,60 @@
+{
+  "id": "zh-B1-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ke-quarter",
+      "text": "刻",
+      "reading": "kè"
+    },
+    {
+      "id": "zh.cha-less",
+      "text": "差",
+      "reading": "chà"
+    },
+    {
+      "id": "zh.zao",
+      "text": "早",
+      "reading": "zǎo"
+    },
+    {
+      "id": "zh.wan-late",
+      "text": "晚",
+      "reading": "wǎn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，明天上午来我家喝咖啡吧！",
+      "reading": "Xiǎonán, míngtiān shàngwǔ lái wǒ jiā hē kāfēi ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！几点？",
+      "reading": "Hǎo a! Jǐ diǎn?"
+    },
+    {
+      "speaker": "b",
+      "text": "七点一刻，好吗？",
+      "reading": "Qī diǎn yī kè, hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "太早了！九点三刻吧。",
+      "reading": "Tài zǎo le! Jiǔ diǎn sān kè ba."
+    },
+    {
+      "speaker": "b",
+      "text": "太晚了！差一刻九点，好吗？",
+      "reading": "Tài wǎn le! Chà yī kè jiǔ diǎn, hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢！",
+      "reading": "Hǎo de, xièxie!"
+    }
+  ]
+}

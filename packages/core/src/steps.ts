@@ -1,6 +1,6 @@
 import { kindGroup, lessonExercises, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
 
-import { coursePool, sameGroup, soundsAlike, type Word } from './pool';
+import { coursePool, soundsAlike, type Word } from './pool';
 import { hashString, seededRandom, shuffle } from './rng';
 
 export type Choice = { id: string; label: string; correct: boolean };
@@ -87,6 +87,35 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
   return steps;
 }
 
+// Each pool's items split by question group (vocabulary vs sounds), in course order.
+const groups = new WeakMap<ReadonlyMap<string, Word>, Map<string, Word[]>>();
+
+function groupOf(pool: ReadonlyMap<string, Word>, w: Word): Word[] {
+  let byGroup = groups.get(pool);
+  if (!byGroup) {
+    byGroup = new Map();
+    for (const x of [...pool.values()].sort((a, b) => a.order - b.order)) {
+      const list = byGroup.get(kindGroup(x.kind)) ?? [];
+      list.push(x);
+      byGroup.set(kindGroup(x.kind), list);
+    }
+    groups.set(pool, byGroup);
+  }
+  return byGroup.get(kindGroup(w.kind)) ?? [];
+}
+
+/** How many items of `list` (in course order) are taught up to `upTo`. */
+function countUpTo(list: Word[], upTo: number): number {
+  let lo = 0;
+  let hi = list.length;
+  while (lo < hi) {
+    const mid = (lo + hi) >> 1;
+    if (list[mid].order <= upTo) lo = mid + 1;
+    else hi = mid;
+  }
+  return lo;
+}
+
 /**
  * A multiple-choice question. Wrong answers are the exercise's own options when given;
  * otherwise items of the same group, preferring ones already taught (up to `upTo` in course order).
@@ -108,23 +137,28 @@ export function chooseStep(
     // and "which word means …?" must not offer another word with the same meaning.
     const byEar = ex.type === 'listen-choose' || ex.type === 'listen-text';
     const byMeaning = ex.type === 'choose-text';
-    const candidates = [...pool.values()].filter(
-      (x) =>
-        x.id !== w.id &&
-        sameGroup(x, w) &&
-        label(x) !== label(w) &&
-        !(byEar && soundsAlike(x, w)) &&
-        !(byMeaning && x.meaning === w.meaning),
-    );
-    const known = shuffle(candidates.filter((x) => x.order <= upTo), rand);
-    const later = shuffle(candidates.filter((x) => x.order > upTo), rand);
+    const fits = (x: Word) =>
+      x.id !== w.id &&
+      label(x) !== label(w) &&
+      !(byEar && soundsAlike(x, w)) &&
+      !(byMeaning && x.meaning === w.meaning);
+    // Same-group items in course order: the ones taught up to `upTo` come first. A course has
+    // thousands of items, so pick at random from each part instead of shuffling all of them.
+    const group = groupOf(pool, w);
+    const known = countUpTo(group, upTo);
     wrong = [];
     const labels = new Set([label(w)]);
-    for (const x of [...known, ...later]) {
-      if (wrong.length === CHOICES - 1) break;
-      if (labels.has(label(x))) continue;
-      labels.add(label(x));
-      wrong.push(x);
+    for (const [from, to] of [[0, known], [known, group.length]]) {
+      const tried = new Set<number>();
+      while (wrong.length < CHOICES - 1 && tried.size < to - from) {
+        const i = from + Math.floor(rand() * (to - from));
+        if (tried.has(i)) continue;
+        tried.add(i);
+        const x = group[i];
+        if (!fits(x) || labels.has(label(x))) continue;
+        labels.add(label(x));
+        wrong.push(x);
+      }
     }
   }
   const choices = shuffle(

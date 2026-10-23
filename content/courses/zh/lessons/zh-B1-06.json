@@ -1,0 +1,61 @@
+{
+  "id": "zh-B1-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.shen-me-shi-hou",
+      "kind": "phrase",
+      "text": "什么时候",
+      "reading": "shénme shíhou"
+    },
+    {
+      "id": "zh.qu-nian",
+      "text": "去年",
+      "reading": "qùnián"
+    },
+    {
+      "id": "zh.ming-nian",
+      "text": "明年",
+      "reading": "míngnián"
+    },
+    {
+      "id": "zh.hou-tian",
+      "text": "后天",
+      "reading": "hòutiān"
+    },
+    {
+      "id": "zh.fang-jia",
+      "text": "放假",
+      "reading": "fàngjià"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你们什么时候放假？",
+      "reading": "Wáng Míng, nǐmen shénme shíhou fàngjià?"
+    },
+    {
+      "speaker": "b",
+      "text": "后天放假。你们呢？",
+      "reading": "Hòutiān fàngjià. Nǐmen ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "我们也后天放假！",
+      "reading": "Wǒmen yě hòutiān fàngjià!"
+    },
+    {
+      "speaker": "b",
+      "text": "太好了！明年放假，你来北京吧！",
+      "reading": "Tài hǎo le! Míngnián fàngjià, nǐ lái Běijīng ba!"
+    },
+    {
+      "speaker": "a",
+      "text": "好啊！我去年也想来北京！",
+      "reading": "Hǎo a! Wǒ qùnián yě xiǎng lái Běijīng!"
+    }
+  ]
+}

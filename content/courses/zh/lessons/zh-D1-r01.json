@@ -1,0 +1,92 @@
+{
+  "id": "zh-D1-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.qian-zheng",
+      "text": "签证",
+      "reading": "qiānzhèng"
+    },
+    {
+      "id": "zh.bing-ma-yong",
+      "text": "兵马俑",
+      "reading": "Bīngmǎyǒng"
+    },
+    {
+      "id": "zh.gu-dai",
+      "text": "古代",
+      "reading": "gǔdài"
+    },
+    {
+      "id": "zh.qi-jian",
+      "text": "期间",
+      "reading": "qījiān"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "王明，你好！",
+        "reading": "Wáng Míng, nǐ hǎo!"
+      },
+      {
+        "text": "我写好了我们的西安旅行计划，你看看怎么样。",
+        "reading": "Wǒ xiěhǎo le wǒmen de Xī'ān lǚxíng jìhuà, nǐ kànkan zěnmeyàng."
+      },
+      {
+        "text": "国庆节期间游客很多，所以我们二号出发，七号回来。",
+        "reading": "Guóqìngjié qījiān yóukè hěn duō, suǒyǐ wǒmen èr hào chūfā, qī hào huílái."
+      }
+    ],
+    [
+      {
+        "text": "二号下午到达西安以后，我们先去宾馆休息。",
+        "reading": "Èr hào xiàwǔ dàodá Xī'ān yǐhòu, wǒmen xiān qù bīnguǎn xiūxi."
+      },
+      {
+        "text": "三号我们去看兵马俑。",
+        "reading": "Sān hào wǒmen qù kàn Bīngmǎyǒng."
+      },
+      {
+        "text": "兵马俑有两千多年的历史，那儿的导游会给我们讲很多古代的故事。",
+        "reading": "Bīngmǎyǒng yǒu liǎngqiān duō nián de lìshǐ, nàr de dǎoyóu huì gěi wǒmen jiǎng hěn duō gǔdài de gùshi."
+      },
+      {
+        "text": "四号去华山，晚上住在山下的旅馆。",
+        "reading": "Sì hào qù Huàshān, wǎnshang zhù zài shān xià de lǚguǎn."
+      },
+      {
+        "text": "五号和六号是自由时间，我想去博物馆，还想多吃几次当地的面条。",
+        "reading": "Wǔ hào hé liù hào shì zìyóu shíjiān, wǒ xiǎng qù bówùguǎn, hái xiǎng duō chī jǐ cì dāngdì de miàntiáo."
+      }
+    ],
+    [
+      {
+        "text": "对了，我的签证没有问题，护照我也准备好了。",
+        "reading": "Duì le, wǒ de qiānzhèng méiyǒu wèntí, hùzhào wǒ yě zhǔnbèi hǎo le."
+      },
+      {
+        "text": "你有什么建议，请告诉我。",
+        "reading": "Nǐ yǒu shénme jiànyì, qǐng gàosu wǒ."
+      },
+      {
+        "text": "小南",
+        "reading": "Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

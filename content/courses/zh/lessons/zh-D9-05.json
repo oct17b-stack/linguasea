@@ -1,0 +1,86 @@
+{
+  "id": "zh-D9-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.mai-dan",
+      "text": "买单",
+      "reading": "mǎidān"
+    },
+    {
+      "id": "zh.da-bao",
+      "text": "打包",
+      "reading": "dǎbāo"
+    },
+    {
+      "id": "zh.lang-fei",
+      "text": "浪费",
+      "reading": "làngfèi"
+    },
+    {
+      "id": "zh.sheng-xia",
+      "text": "剩下",
+      "reading": "shèngxia"
+    },
+    {
+      "id": "zh.aa-zhi",
+      "kind": "phrase",
+      "text": "AA制",
+      "reading": "AA zhì"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，菜太多了，我们吃不了。",
+      "reading": "Xiǎonán, cài tài duō le, wǒmen chī bu liǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊，我点得太多了。剩下的菜怎么办？",
+      "reading": "Shì a, wǒ diǎn de tài duō le. Shèngxia de cài zěnme bàn?"
+    },
+    {
+      "speaker": "b",
+      "text": "打包吧。我妈最不喜欢浪费。",
+      "reading": "Dǎbāo ba. Wǒ mā zuì bù xǐhuan làngfèi."
+    },
+    {
+      "speaker": "a",
+      "text": "服务员，买单！另外，请帮我们把剩下的菜打包。",
+      "reading": "Fúwùyuán, mǎidān! Lìngwài, qǐng bāng wǒmen bǎ shèngxia de cài dǎbāo."
+    },
+    {
+      "speaker": "c",
+      "text": "好的，一共三百八十块。您用手机付吗？",
+      "reading": "Hǎo de, yīgòng sānbǎi bāshí kuài. Nín yòng shǒujī fù ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "小南，今天我们AA制吧，你一个人付太多了。",
+      "reading": "Xiǎonán, jīntiān wǒmen AA zhì ba, nǐ yī ge rén fù tài duō le."
+    },
+    {
+      "speaker": "a",
+      "text": "不行，今天是我请客！叔叔阿姨那么照顾我，我一定要请。",
+      "reading": "Bùxíng, jīntiān shì wǒ qǐngkè! Shūshu āyí nàme zhàogù wǒ, wǒ yīdìng yào qǐng."
+    },
+    {
+      "speaker": "b",
+      "text": "好吧，那下次我请你。",
+      "reading": "Hǎo ba, nà xiàcì wǒ qǐng nǐ."
+    },
+    {
+      "speaker": "c",
+      "text": "菜打包好了。这么多，你们拿得了吗？",
+      "reading": "Cài dǎbāo hǎo le. Zhème duō, nǐmen ná de liǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "拿得了，没问题。谢谢！",
+      "reading": "Ná de liǎo, méi wèntí. Xièxie!"
+    }
+  ]
+}
