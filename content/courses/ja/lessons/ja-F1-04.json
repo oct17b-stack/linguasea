@@ -1,0 +1,95 @@
+{
+  "id": "ja-F1-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.nemuke",
+      "text": "眠気",
+      "reading": "nemuke"
+    },
+    {
+      "id": "ja.tsukare",
+      "text": "疲れ",
+      "reading": "tsukare"
+    },
+    {
+      "id": "ja.yuuutsu",
+      "text": "ゆううつ",
+      "reading": "yūutsu"
+    },
+    {
+      "id": "ja.yasumiake",
+      "text": "休み明け",
+      "reading": "yasumiake"
+    },
+    {
+      "id": "ja.ningenkankei",
+      "text": "人間関係",
+      "reading": "ningenkankei"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、おはよう。あれ、ねむそうだね。",
+      "reading": "Yuki, ohayō. Are, nemusō da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "おはよう…。休み明けのげつようびは、ねむくてしかたがないの。",
+      "reading": "Ohayō…. Yasumiake no getsuyōbi wa, nemukute shikata ga nai no."
+    },
+    {
+      "speaker": "a",
+      "text": "わかる。わたしも、げつようびのあさは眠気がひどいよ。",
+      "reading": "Wakaru. Watashi mo, getsuyōbi no asa wa nemuke ga hidoi yo."
+    },
+    {
+      "speaker": "c",
+      "text": "それに、しゅうまつにあそびすぎて、疲れがでたみたい。",
+      "reading": "Sore ni, shūmatsu ni asobisugite, tsukare ga deta mitai."
+    },
+    {
+      "speaker": "a",
+      "text": "もしかして、しごとにいくのがゆううつなんじゃない？",
+      "reading": "Moshika shite, shigoto ni iku no ga yūutsu na n ja nai?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん、ちょっとね。会社にいくのが、ゆううつでしょうがない。",
+      "reading": "Un, chotto ne. Kaisha ni iku no ga, yūutsu de shō ga nai."
+    },
+    {
+      "speaker": "a",
+      "text": "どうして？しごとがきらいなの？",
+      "reading": "Dōshite? Shigoto ga kirai na no?"
+    },
+    {
+      "speaker": "c",
+      "text": "しごとはすきなんだけど、人間関係がね…。あたらしいじょうしが、こわくてしかたがないの。",
+      "reading": "Shigoto wa suki na n da kedo, ningenkankei ga ne…. Atarashii jōshi ga, kowakute shikata ga nai no."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんだ。どんなひと？",
+      "reading": "Sō nan da. Donna hito?"
+    },
+    {
+      "speaker": "c",
+      "text": "すぐおこるし、だれかがまちがえると、みんなのまえでしかるの。",
+      "reading": "Sugu okoru shi, dareka ga machigaeru to, minna no mae de shikaru no."
+    },
+    {
+      "speaker": "a",
+      "text": "それはつらいね。人間関係のなやみは、ひとりでがまんしないで、だれかにそうだんしてね。",
+      "reading": "Sore wa tsurai ne. Ningenkankei no nayami wa, hitori de gaman shinaide, dareka ni sōdan shite ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。ナムとはなしたら、すこしげんきになった！",
+      "reading": "Arigatō. Namu to hanashitara, sukoshi genki ni natta!"
+    }
+  ]
+}

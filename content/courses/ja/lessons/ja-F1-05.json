@@ -1,0 +1,95 @@
+{
+  "id": "ja-F1-05",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.hirou-fatigue",
+      "text": "疲労",
+      "reading": "hirō"
+    },
+    {
+      "id": "ja.suiminbusoku",
+      "text": "すいみんぶそく",
+      "reading": "suiminbusoku"
+    },
+    {
+      "id": "ja.undoubusoku",
+      "text": "運動不足",
+      "reading": "undōbusoku"
+    },
+    {
+      "id": "ja.zutsuu",
+      "text": "頭痛",
+      "reading": "zutsū"
+    },
+    {
+      "id": "ja.kyuuyou",
+      "text": "きゅうよう",
+      "reading": "kyūyō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "きょうは、どうしましたか。",
+      "reading": "Kyō wa, dō shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "さいきん、ちょっと疲れぎみで、あさおきるのがつらいんです。",
+      "reading": "Saikin, chotto tsukaregimi de, asa okiru no ga tsurai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。よるは、よくねられますか。",
+      "reading": "Sō desu ka. Yoru wa, yoku neraremasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ。レポートがおおくて、まいばん2時ごろまでおきています。",
+      "reading": "Iie. Repōto ga ōkute, maiban niji goro made okite imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それはすいみんぶそくですね。ほかに、しょうじょうはありますか。",
+      "reading": "Sore wa suiminbusoku desu ne. Hoka ni, shōjō wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ときどき頭痛がします。それに、すこしかぜぎみです。",
+      "reading": "Tokidoki zutsū ga shimasu. Sore ni, sukoshi kazegimi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "運動はしていますか。",
+      "reading": "Undō wa shite imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、さいきんはぜんぜん…。運動不足で、すこしふとりぎみなんです。",
+      "reading": "Iie, saikin wa zenzen…. Undōbusoku de, sukoshi futorigimi na n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "頭痛は、疲労とすいみんぶそくがげんいんだと思います。",
+      "reading": "Zutsū wa, hirō to suiminbusoku ga gen'in da to omoimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、来週までにレポートをださなければならないんです。",
+      "reading": "Demo, raishū made ni repōto o dasanakereba naranai n desu."
+    },
+    {
+      "speaker": "b",
+      "text": "むりをすると、もっとわるくなりますよ。今週はアルバイトをやすんで、しっかりきゅうようをとってください。",
+      "reading": "Muri o suru to, motto waruku narimasu yo. Konshū wa arubaito o yasunde, shikkari kyūyō o totte kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。きょうから、はやくねるようにします。",
+      "reading": "Wakarimashita. Kyō kara, hayaku neru yō ni shimasu."
+    }
+  ]
+}

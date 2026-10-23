@@ -1,0 +1,95 @@
+{
+  "id": "ja-F1-03",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.zaitakukinmu",
+      "text": "在宅勤務",
+      "reading": "zaitakukinmu"
+    },
+    {
+      "id": "ja.tsuukin",
+      "text": "通勤",
+      "reading": "tsūkin"
+    },
+    {
+      "id": "ja.terewaaku",
+      "text": "テレワーク",
+      "reading": "terewāku"
+    },
+    {
+      "id": "ja.shussha",
+      "text": "出社",
+      "reading": "shussha"
+    },
+    {
+      "id": "ja.idou",
+      "text": "いどう",
+      "reading": "idō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、きいて！来月から、うちの会社、週に2日は在宅勤務になるの。",
+      "reading": "Namu, kiite! Raigetsu kara, uchi no kaisha, shū ni futsuka wa zaitakukinmu ni naru no."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったね！テレワークなら、満員電車にのらずにすむね。",
+      "reading": "Yokatta ne! Terewāku nara, man'indensha ni norazu ni sumu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そう。通勤に1時間半かかるから、ほんとうにうれしい。",
+      "reading": "Sō. Tsūkin ni ichijikanhan kakaru kara, hontō ni ureshii."
+    },
+    {
+      "speaker": "a",
+      "text": "1時間半も？じゃあ、在宅勤務の日は、あさゆっくりできるね。",
+      "reading": "Ichijikanhan mo? Jā, zaitakukinmu no hi wa, asa yukkuri dekiru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。いどうの時間がいらないから、1時間ながくねられる。",
+      "reading": "Un. Idō no jikan ga iranai kara, ichijikan nagaku nerareru."
+    },
+    {
+      "speaker": "a",
+      "text": "いいなあ。でも、出社しないと、チームのひととはなすのがたいへんじゃない？",
+      "reading": "Ii nā. Demo, shussha shinai to, chīmu no hito to hanasu no ga taihen ja nai?"
+    },
+    {
+      "speaker": "c",
+      "text": "かいぎはビデオ通話でするから、だいじょうぶ。わざわざ会社までいかないですむし。",
+      "reading": "Kaigi wa bideotsūwa de suru kara, daijōbu. Wazawaza kaisha made ikanaide sumu shi."
+    },
+    {
+      "speaker": "a",
+      "text": "ほかにも、いいことある？",
+      "reading": "Hoka ni mo, ii koto aru?"
+    },
+    {
+      "speaker": "c",
+      "text": "そとでたかいランチをかわずにすむのも、うれしいな。",
+      "reading": "Soto de takai ranchi o kawazu ni sumu no mo, ureshii na."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、うちだと、ずっとはたらいちゃわない？",
+      "reading": "Demo, uchi da to, zutto hataraichawanai?"
+    },
+    {
+      "speaker": "c",
+      "text": "たしかに…。しごとがおわったら、パソコンを閉じることにしようかな。",
+      "reading": "Tashika ni…. Shigoto ga owattara, pasokon o tojiru koto ni shiyō kana."
+    },
+    {
+      "speaker": "a",
+      "text": "それがいいよ。出社する日も、在宅勤務の日も、むりしないでね。",
+      "reading": "Sore ga ii yo. Shussha suru hi mo, zaitakukinmu no hi mo, muri shinaide ne."
+    }
+  ]
+}

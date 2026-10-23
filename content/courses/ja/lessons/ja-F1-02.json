@@ -1,0 +1,95 @@
+{
+  "id": "ja-F1-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.zangyou",
+      "text": "残業",
+      "reading": "zangyō"
+    },
+    {
+      "id": "ja.futan",
+      "text": "ふたん",
+      "reading": "futan"
+    },
+    {
+      "id": "ja.zouka",
+      "text": "増加",
+      "reading": "zōka"
+    },
+    {
+      "id": "ja.genshou",
+      "text": "げんしょう",
+      "reading": "genshō"
+    },
+    {
+      "id": "ja.shinya",
+      "text": "深夜",
+      "reading": "shin'ya"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、けさのしんぶんを読みましたか。にほんの残業についての記事がありましたよ。",
+      "reading": "Namu-san, kesa no shinbun o yomimashita ka. Nihon no zangyō nitsuite no kiji ga arimashita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、まだです。どんな記事ですか。",
+      "reading": "Iie, mada desu. Donna kiji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はたらくひとのかずがげんしょうして、ひとりひとりのふたんはおおきくなる一方だそうです。",
+      "reading": "Hataraku hito no kazu ga genshō shite, hitori hitori no futan wa ōkiku naru ippō da sō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんですか。じつは、ゆきさんも、さいきん残業がふえる一方だといっていました。",
+      "reading": "Sō nan desu ka. Jitsu wa, Yuki-san mo, saikin zangyō ga fueru ippō da to itte imashita."
+    },
+    {
+      "speaker": "b",
+      "text": "ゆきさんは、エンジニアになったんでしたね。そんなにいそがしいんですか。",
+      "reading": "Yuki-san wa, enjinia ni natta n deshita ne. Sonnani isogashii n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。先週は、3日も深夜まで会社にいたそうです。",
+      "reading": "Hai. Senshū wa, mikka mo shin'ya made kaisha ni ita sō desu."
+    },
+    {
+      "speaker": "b",
+      "text": "それはしんぱいですね。記事によると、深夜までの残業も増加する一方だそうです。",
+      "reading": "Sore wa shinpai desu ne. Kiji ni yoru to, shin'ya made no zangyō mo zōka suru ippō da sō desu."
+    },
+    {
+      "speaker": "a",
+      "text": "タイでは、深夜まではたらくひとは、あまりいません。",
+      "reading": "Tai de wa, shin'ya made hataraku hito wa, amari imasen."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんでも、会社によっては、残業をへらす取り組みをしていますよ。",
+      "reading": "Nihon demo, kaisha ni yotte wa, zangyō o herasu torikumi o shite imasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "たとえば、どんな取り組みですか。",
+      "reading": "Tatoeba, donna torikumi desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "よる8時になると、パソコンがつかえなくなる会社もあるそうですよ。",
+      "reading": "Yoru hachiji ni naru to, pasokon ga tsukaenaku naru kaisha mo aru sō desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "おもしろいですね。ゆきさんの会社も、そうなるといいですね。",
+      "reading": "Omoshiroi desu ne. Yuki-san no kaisha mo, sō naru to ii desu ne."
+    }
+  ]
+}
