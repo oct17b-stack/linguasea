@@ -1,0 +1,75 @@
+{
+  "id": "zh-C7-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ke-neng",
+      "text": "可能",
+      "reading": "kěnéng"
+    },
+    {
+      "id": "zh.tai-yang",
+      "text": "太阳",
+      "reading": "tàiyáng"
+    },
+    {
+      "id": "zh.qi-wen",
+      "text": "气温",
+      "reading": "qìwēn"
+    },
+    {
+      "id": "zh.ling-xia",
+      "text": "零下",
+      "reading": "língxià"
+    },
+    {
+      "id": "zh.nuan-huo",
+      "text": "暖和",
+      "reading": "nuǎnhuo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，明天会下雪吗？",
+      "reading": "Wáng Míng, míngtiān huì xiàxuě ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "天气预报说，明天可能会下雪。",
+      "reading": "Tiānqì yùbào shuō, míngtiān kěnéng huì xiàxuě."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！我还没见过下雪！",
+      "reading": "Tài hǎo le! Wǒ hái méi jiàn guo xiàxuě!"
+    },
+    {
+      "speaker": "b",
+      "text": "明天的气温是零下五度，很冷。",
+      "reading": "Míngtiān de qìwēn shì língxià wǔ dù, hěn lěng."
+    },
+    {
+      "speaker": "a",
+      "text": "零下五度！那我要穿羽绒服。",
+      "reading": "Língxià wǔ dù! Nà wǒ yào chuān yǔróngfú."
+    },
+    {
+      "speaker": "b",
+      "text": "后天是晴天，有太阳，可能会暖和一点儿。",
+      "reading": "Hòutiān shì qíngtiān, yǒu tàiyáng, kěnéng huì nuǎnhuo yīdiǎnr."
+    },
+    {
+      "speaker": "a",
+      "text": "我不要暖和，我要看下雪！",
+      "reading": "Wǒ bù yào nuǎnhuo, wǒ yào kàn xiàxuě!"
+    },
+    {
+      "speaker": "b",
+      "text": "别急，北京的冬天会下雪！",
+      "reading": "Bié jí, Běijīng de dōngtiān huì xiàxuě!"
+    }
+  ]
+}

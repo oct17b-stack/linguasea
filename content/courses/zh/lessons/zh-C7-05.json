@@ -1,0 +1,71 @@
+{
+  "id": "zh-C7-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ting-shuo",
+      "text": "听说",
+      "reading": "tīngshuō"
+    },
+    {
+      "id": "zh.yu-ji",
+      "text": "雨季",
+      "reading": "yǔjì"
+    },
+    {
+      "id": "zh.yi-nian-si-ji",
+      "text": "一年四季",
+      "reading": "yī nián sì jì",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.yi-ban-usually",
+      "text": "一般",
+      "reading": "yībān"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，听说泰国一年四季都很热，是吗？",
+      "reading": "Xiǎonán, tīngshuō Tàiguó yī nián sì jì dōu hěn rè, shì ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "差不多。四月最热，十一月到二月不太热。",
+      "reading": "Chàbuduō. Sì yuè zuì rè, shíyī yuè dào èr yuè bù tài rè."
+    },
+    {
+      "speaker": "b",
+      "text": "听说雨季每天都下雨？",
+      "reading": "Tīngshuō yǔjì měitiān dōu xiàyǔ?"
+    },
+    {
+      "speaker": "a",
+      "text": "不是每天。雨季一般是下午下雨，雨很大。",
+      "reading": "Bù shì měitiān. Yǔjì yībān shì xiàwǔ xiàyǔ, yǔ hěn dà."
+    },
+    {
+      "speaker": "b",
+      "text": "我想十二月去，怎么样？",
+      "reading": "Wǒ xiǎng shí'èr yuè qù, zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "十二月最好！不太热，也不下雨。",
+      "reading": "Shí'èr yuè zuì hǎo! Bù tài rè, yě bù xiàyǔ."
+    },
+    {
+      "speaker": "b",
+      "text": "听说那时候去泰国的人很多？",
+      "reading": "Tīngshuō nà shíhou qù Tàiguó de rén hěn duō?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，很多外国人去旅游。你得早点儿买机票。",
+      "reading": "Duì, hěn duō wàiguó rén qù lǚyóu. Nǐ děi zǎo diǎnr mǎi jīpiào."
+    }
+  ]
+}

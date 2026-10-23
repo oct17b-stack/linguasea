@@ -1,0 +1,77 @@
+{
+  "id": "zh-C13-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.gai-should",
+      "text": "该",
+      "reading": "gāi"
+    },
+    {
+      "id": "zh.man-zou",
+      "kind": "phrase",
+      "text": "慢走",
+      "reading": "màn zǒu"
+    },
+    {
+      "id": "zh.lu-shang-xiao-xin",
+      "kind": "phrase",
+      "text": "路上小心",
+      "reading": "lùshang xiǎoxīn"
+    },
+    {
+      "id": "zh.da-rao",
+      "text": "打扰",
+      "reading": "dǎrǎo"
+    },
+    {
+      "id": "zh.li-kai",
+      "text": "离开",
+      "reading": "líkāi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "时间不早了，我该走了。",
+      "reading": "Shíjiān bù zǎo le, wǒ gāi zǒu le."
+    },
+    {
+      "speaker": "a",
+      "text": "已经十点了吗？",
+      "reading": "Yǐjīng shí diǎn le ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对，明天早上我还要上班。今天打扰你了！",
+      "reading": "Duì, míngtiān zǎoshang wǒ hái yào shàngbān. Jīntiān dǎrǎo nǐ le!"
+    },
+    {
+      "speaker": "a",
+      "text": "哪里，你来我很高兴！",
+      "reading": "Nǎlǐ, nǐ lái wǒ hěn gāoxìng!"
+    },
+    {
+      "speaker": "c",
+      "text": "我也该走了。谢谢你，小南！",
+      "reading": "Wǒ yě gāi zǒu le. Xièxie nǐ, Xiǎonán!"
+    },
+    {
+      "speaker": "a",
+      "text": "李老师，您慢走！王明，路上小心！",
+      "reading": "Lǐ lǎoshī, nín màn zǒu! Wáng Míng, lùshang xiǎoxīn!"
+    },
+    {
+      "speaker": "c",
+      "text": "我们离开以后，你早点儿休息吧。",
+      "reading": "Wǒmen líkāi yǐhòu, nǐ zǎo diǎnr xiūxi ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，谢谢大家！再见！",
+      "reading": "Hǎo de, xièxie dàjiā! Zàijiàn!"
+    }
+  ]
+}

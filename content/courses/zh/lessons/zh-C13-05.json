@@ -1,0 +1,71 @@
+{
+  "id": "zh-C13-05",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ke-ren",
+      "text": "客人",
+      "reading": "kèrén"
+    },
+    {
+      "id": "zh.zhu-ren",
+      "text": "主人",
+      "reading": "zhǔrén"
+    },
+    {
+      "id": "zh.sui-bian",
+      "text": "随便",
+      "reading": "suíbiàn"
+    },
+    {
+      "id": "zh.bie-ke-qi",
+      "kind": "phrase",
+      "text": "别客气",
+      "reading": "bié kèqi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，对不起，我来晚了！路上堵车。",
+      "reading": "Xiǎonán, duìbuqǐ, wǒ lái wǎn le! Lùshang dǔchē."
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，不用说对不起！快进来吧。",
+      "reading": "Méi guānxi, bùyòng shuō duìbuqǐ! Kuài jìnlái ba."
+    },
+    {
+      "speaker": "b",
+      "text": "这是我带的水果。",
+      "reading": "Zhè shì wǒ dài de shuǐguǒ."
+    },
+    {
+      "speaker": "a",
+      "text": "你太客气了！不用带东西。",
+      "reading": "Nǐ tài kèqi le! Bùyòng dài dōngxi."
+    },
+    {
+      "speaker": "b",
+      "text": "我是客人嘛。要脱鞋吗？",
+      "reading": "Wǒ shì kèrén ma. Yào tuō xié ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "要，这儿有拖鞋。随便坐！",
+      "reading": "Yào, zhèr yǒu tuōxié. Suíbiàn zuò!"
+    },
+    {
+      "speaker": "b",
+      "text": "你家真干净！今天你是主人，别太累了。",
+      "reading": "Nǐ jiā zhēn gānjìng! Jīntiān nǐ shì zhǔrén, bié tài lèi le."
+    },
+    {
+      "speaker": "a",
+      "text": "别客气！你想喝什么？",
+      "reading": "Bié kèqi! Nǐ xiǎng hē shénme?"
+    }
+  ]
+}

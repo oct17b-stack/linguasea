@@ -1,0 +1,75 @@
+{
+  "id": "zh-C7-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.du-che",
+      "text": "堵车",
+      "reading": "dǔchē"
+    },
+    {
+      "id": "zh.ting-stop",
+      "text": "停",
+      "reading": "tíng"
+    },
+    {
+      "id": "zh.chu-men",
+      "text": "出门",
+      "reading": "chūmén"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "王明：小南，我爸爸妈妈八月想去曼谷旅游。",
+        "reading": "Wáng Míng: Xiǎonán, wǒ bàba māma bā yuè xiǎng qù Màngǔ lǚyóu."
+      },
+      {
+        "text": "王明：听说八月是雨季，出门方便吗？",
+        "reading": "Wáng Míng: Tīngshuō bā yuè shì yǔjì, chūmén fāngbiàn ma?"
+      }
+    ],
+    [
+      {
+        "text": "小南：八月常常下雨，一般是下午和晚上。",
+        "reading": "Xiǎonán: Bā yuè chángcháng xiàyǔ, yībān shì xiàwǔ hé wǎnshang."
+      },
+      {
+        "text": "小南：雨很大，可是一个小时以后，雨一般会停。",
+        "reading": "Xiǎonán: Yǔ hěn dà, kěshì yī ge xiǎoshí yǐhòu, yǔ yībān huì tíng."
+      },
+      {
+        "text": "小南：下雨以后，路上常常堵车，打车很慢。",
+        "reading": "Xiǎonán: Xiàyǔ yǐhòu, lùshang chángcháng dǔchē, dǎchē hěn màn."
+      },
+      {
+        "text": "小南：你爸爸妈妈出门最好带伞，坐地铁比打车快。",
+        "reading": "Xiǎonán: Nǐ bàba māma chūmén zuìhǎo dài sǎn, zuò dìtiě bǐ dǎchē kuài."
+      }
+    ],
+    [
+      {
+        "text": "王明：谢谢！我告诉他们。",
+        "reading": "Wáng Míng: Xièxie! Wǒ gàosu tāmen."
+      },
+      {
+        "text": "小南：不客气！八月曼谷的水果很多，很好吃！",
+        "reading": "Xiǎonán: Bù kèqi! Bā yuè Màngǔ de shuǐguǒ hěn duō, hěn hǎochī!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

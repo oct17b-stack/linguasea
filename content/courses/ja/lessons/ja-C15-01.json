@@ -1,0 +1,70 @@
+{
+  "id": "ja-C15-01",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.purezento",
+      "text": "プレゼント",
+      "reading": "purezento"
+    },
+    {
+      "id": "ja.okurimono",
+      "text": "おくりもの",
+      "reading": "okurimono"
+    },
+    {
+      "id": "ja.hanataba",
+      "text": "はなたば",
+      "reading": "hanataba"
+    },
+    {
+      "id": "ja.omocha",
+      "text": "おもちゃ",
+      "reading": "omocha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、それ なに？",
+      "reading": "Namu, sore nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "ファーの たんじょうびの プレゼント。ファーに この かばんを あげるの。",
+      "reading": "Fā no tanjōbi no purezento. Fā ni kono kaban o ageru no."
+    },
+    {
+      "speaker": "c",
+      "text": "かわいい！ タイでは、どんな ときに プレゼントを あげるの？",
+      "reading": "Kawaii! Tai de wa, donna toki ni purezento o ageru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "たんじょうびとか…。それから、ともだちの そつぎょうしきに はなたばを あげるよ。",
+      "reading": "Tanjōbi toka…. Sorekara, tomodachi no sotsugyōshiki ni hanataba o ageru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ。にほんでも、そつぎょうしきに はなを おくる ことが あるよ。",
+      "reading": "Hē. Nihon de mo, sotsugyōshiki ni hana o okuru koto ga aru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきは さいきん、だれかに おくりものを した？",
+      "reading": "Yuki wa saikin, dareka ni okurimono o shita?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。となりの うちの こどもに、おもちゃを あげたよ。",
+      "reading": "Un. Tonari no uchi no kodomo ni, omocha o ageta yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきは やさしいね。",
+      "reading": "Yuki wa yasashii ne."
+    }
+  ]
+}

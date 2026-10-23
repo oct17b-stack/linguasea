@@ -1,0 +1,76 @@
+{
+  "id": "zh-C7-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.tian-qi-yu-bao",
+      "text": "天气预报",
+      "reading": "tiānqì yùbào",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.wen-du",
+      "text": "温度",
+      "reading": "wēndù"
+    },
+    {
+      "id": "zh.du-degree",
+      "text": "度",
+      "reading": "dù"
+    },
+    {
+      "id": "zh.yin-wei",
+      "text": "因为",
+      "reading": "yīnwèi"
+    },
+    {
+      "id": "zh.suo-yi",
+      "text": "所以",
+      "reading": "suǒyǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，星期六你们去爬山了吗？",
+      "reading": "Xiǎonán, xīngqīliù nǐmen qù páshān le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "没去。因为下雨，所以我们没去。",
+      "reading": "Méi qù. Yīnwèi xiàyǔ, suǒyǐ wǒmen méi qù."
+    },
+    {
+      "speaker": "c",
+      "text": "你们没看天气预报吗？",
+      "reading": "Nǐmen méi kàn tiānqì yùbào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "看了。天气预报说是晴天，可是早上突然下雨了！",
+      "reading": "Kàn le. Tiānqì yùbào shuō shì qíngtiān, kěshì zǎoshang tūrán xiàyǔ le!"
+    },
+    {
+      "speaker": "c",
+      "text": "北京秋天的天气常常变。",
+      "reading": "Běijīng qiūtiān de tiānqì chángcháng biàn."
+    },
+    {
+      "speaker": "a",
+      "text": "对。今天的温度是多少度？",
+      "reading": "Duì. Jīntiān de wēndù shì duōshao dù?"
+    },
+    {
+      "speaker": "c",
+      "text": "今天十度。因为风很大，所以你要多穿衣服。",
+      "reading": "Jīntiān shí dù. Yīnwèi fēng hěn dà, suǒyǐ nǐ yào duō chuān yīfu."
+    },
+    {
+      "speaker": "a",
+      "text": "十度！在曼谷，十度太冷了！",
+      "reading": "Shí dù! Zài Màngǔ, shí dù tài lěng le!"
+    }
+  ]
+}

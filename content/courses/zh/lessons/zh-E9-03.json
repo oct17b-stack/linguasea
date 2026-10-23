@@ -1,0 +1,95 @@
+{
+  "id": "zh-E9-03",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.gua-hao",
+      "text": "挂号",
+      "reading": "guàhào"
+    },
+    {
+      "id": "zh.yu-yue",
+      "text": "预约",
+      "reading": "yùyuē"
+    },
+    {
+      "id": "zh.ke-department",
+      "text": "科",
+      "reading": "kē"
+    },
+    {
+      "id": "zh.zhuan-jia",
+      "text": "专家",
+      "reading": "zhuānjiā"
+    },
+    {
+      "id": "zh.ren-yuan",
+      "text": "人员",
+      "reading": "rényuán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，听说你昨天去医院了，看得怎么样？",
+      "reading": "Xiǎonán, tīngshuō nǐ zuótiān qù yīyuàn le, kàn de zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "太累了！我早上七点就到了医院，等到十一点半才见到医生。",
+      "reading": "Tài lèi le! Wǒ zǎoshang qī diǎn jiù dào le yīyuàn, děngdào shíyī diǎn bàn cái jiàndào yīshēng."
+    },
+    {
+      "speaker": "c",
+      "text": "怎么等了那么长时间？你没有提前挂号吗？",
+      "reading": "Zěnme děng le nàme cháng shíjiān? Nǐ méiyǒu tíqián guàhào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "我是到了医院才挂号的。挂号的人特别多，我排了一个小时的队。",
+      "reading": "Wǒ shì dào le yīyuàn cái guàhào de. Guàhào de rén tèbié duō, wǒ pái le yī ge xiǎoshí de duì."
+    },
+    {
+      "speaker": "c",
+      "text": "在中国的大医院看病，最好先在网上预约。现在用手机就能预约挂号。",
+      "reading": "Zài Zhōngguó de dà yīyuàn kànbìng, zuìhǎo xiān zài wǎngshang yùyuē. Xiànzài yòng shǒujī jiù néng yùyuē guàhào."
+    },
+    {
+      "speaker": "a",
+      "text": "我不知道可以预约。而且我也不知道该挂哪个科，问了工作人员才知道。",
+      "reading": "Wǒ bù zhīdào kěyǐ yùyuē. Érqiě wǒ yě bù zhīdào gāi guà nǎge kē, wèn le gōngzuò rényuán cái zhīdào."
+    },
+    {
+      "speaker": "c",
+      "text": "你挂的是专家号吗？",
+      "reading": "Nǐ guà de shì zhuānjiāhào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，专家号贵一点儿，可是我想让专家给我好好检查一下。",
+      "reading": "Duì, zhuānjiāhào guì yīdiǎnr, kěshì wǒ xiǎng ràng zhuānjiā gěi wǒ hǎohǎo jiǎnchá yīxià."
+    },
+    {
+      "speaker": "c",
+      "text": "专家怎么说？",
+      "reading": "Zhuānjiā zěnme shuō?"
+    },
+    {
+      "speaker": "a",
+      "text": "他说没什么大问题，主要是压力大，让我好好休息。",
+      "reading": "Tā shuō méi shénme dà wèntí, zhǔyào shì yālì dà, ràng wǒ hǎohǎo xiūxi."
+    },
+    {
+      "speaker": "c",
+      "text": "那就好。下次记得早点儿预约，就不用等到中午了。",
+      "reading": "Nà jiù hǎo. Xiàcì jìde zǎo diǎnr yùyuē, jiù bùyòng děngdào zhōngwǔ le."
+    },
+    {
+      "speaker": "a",
+      "text": "知道了。我还要告诉王明，他上次等到下午三点才看完病！",
+      "reading": "Zhīdào le. Wǒ hái yào gàosu Wáng Míng, tā shàngcì děngdào xiàwǔ sān diǎn cái kànwán bìng!"
+    }
+  ]
+}

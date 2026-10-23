@@ -1,0 +1,96 @@
+{
+  "id": "ja-E5-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shoushou",
+      "text": "しょうしょう",
+      "reading": "shōshō"
+    },
+    {
+      "id": "ja.mamonaku",
+      "text": "間もなく",
+      "reading": "mamonaku"
+    },
+    {
+      "id": "ja.kakari",
+      "text": "係",
+      "reading": "kakari"
+    },
+    {
+      "id": "ja.bangoufuda",
+      "text": "ばんごうふだ",
+      "reading": "bangōfuda"
+    },
+    {
+      "id": "ja.omatase-shimashita",
+      "kind": "phrase",
+      "text": "お待たせしました",
+      "reading": "omatase shimashita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "すみません、チェックアウトしたいんですが。",
+      "reading": "Sumimasen, chekkuauto shitai n desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "もうしわけありません。いま、とてもこんでいますので、こちらのばんごうふだをおとりください。",
+      "reading": "Mōshiwake arimasen. Ima, totemo konde imasu node, kochira no bangōfuda o otori kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "どのくらいまちますか。",
+      "reading": "Dono kurai machimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "10ぷんぐらいです。あちらのソファで、しょうしょうおまちください。",
+      "reading": "Juppun gurai desu. Achira no sofa de, shōshō omachi kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。",
+      "reading": "Wakarimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "25ばんのお客様、お待たせしました。こちらへどうぞ。",
+      "reading": "Nijūgoban no okyakusama, omatase shimashita. Kochira e dōzo."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。かぎは、ここでいいですか。",
+      "reading": "Hai. Kagi wa, koko de ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、こちらにおいてください。",
+      "reading": "Hai, kochira ni oite kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "これから、タクシーで駅までいきたいんですが。",
+      "reading": "Korekara, takushī de eki made ikitai n desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "間もなく、駅行きのホテルのバスがでます。よろしければ、ごりようください。",
+      "reading": "Mamonaku, eki-iki no hoteru no basu ga demasu. Yoroshikereba, goriyō kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "それはべんりですね。",
+      "reading": "Sore wa benri desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "バスは、げんかんのまえからでます。係がいますので、なんでもおききください。",
+      "reading": "Basu wa, genkan no mae kara demasu. Kakari ga imasu node, nan demo okiki kudasai."
+    }
+  ]
+}

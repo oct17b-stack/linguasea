@@ -1,0 +1,86 @@
+{
+  "id": "zh-D8-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jing-shen",
+      "text": "精神",
+      "reading": "jīngshen"
+    },
+    {
+      "id": "zh.kun",
+      "text": "困",
+      "reading": "kùn"
+    },
+    {
+      "id": "zh.shi-mian",
+      "text": "失眠",
+      "reading": "shīmián"
+    },
+    {
+      "id": "zh.zao-shui-zao-qi",
+      "text": "早睡早起",
+      "reading": "zǎo shuì zǎo qǐ",
+      "kind": "phrase"
+    },
+    {
+      "id": "zh.shui-zhao",
+      "text": "睡着",
+      "reading": "shuìzháo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，你看起来很困。昨天晚上睡得好吗？",
+      "reading": "Wáng Míng, nǐ kàn qilai hěn kùn. Zuótiān wǎnshang shuì de hǎo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "睡得不好。我十二点就上床了，可是三点才睡着。",
+      "reading": "Shuì de bù hǎo. Wǒ shí'èr diǎn jiù shàng chuáng le, kěshì sān diǎn cái shuìzháo."
+    },
+    {
+      "speaker": "a",
+      "text": "你是不是失眠了？",
+      "reading": "Nǐ shì bù shì shīmián le?"
+    },
+    {
+      "speaker": "b",
+      "text": "可能是。考试快到了，我每天想得太多了。",
+      "reading": "Kěnéng shì. Kǎoshì kuài dào le, wǒ měitiān xiǎng de tài duō le."
+    },
+    {
+      "speaker": "a",
+      "text": "我最近睡得很好，每天晚上十一点睡觉，早上七点起床。",
+      "reading": "Wǒ zuìjìn shuì de hěn hǎo, měitiān wǎnshang shíyī diǎn shuìjiào, zǎoshang qī diǎn qǐchuáng."
+    },
+    {
+      "speaker": "b",
+      "text": "你起得真早！",
+      "reading": "Nǐ qǐ de zhēn zǎo!"
+    },
+    {
+      "speaker": "a",
+      "text": "早睡早起，身体好。你看，我每天都很精神。",
+      "reading": "Zǎo shuì zǎo qǐ, shēntǐ hǎo. Nǐ kàn, wǒ měitiān dōu hěn jīngshen."
+    },
+    {
+      "speaker": "b",
+      "text": "我也想早睡早起，可是晚上总是很晚才睡着。",
+      "reading": "Wǒ yě xiǎng zǎo shuì zǎo qǐ, kěshì wǎnshang zǒngshì hěn wǎn cái shuìzháo."
+    },
+    {
+      "speaker": "a",
+      "text": "睡觉以前别看手机，可以喝一杯热牛奶。",
+      "reading": "Shuìjiào yǐqián bié kàn shǒujī, kěyǐ hē yī bēi rè niúnǎi."
+    },
+    {
+      "speaker": "b",
+      "text": "好，今天晚上我试试，明天告诉你我睡得怎么样。",
+      "reading": "Hǎo, jīntiān wǎnshang wǒ shìshi, míngtiān gàosu nǐ wǒ shuì de zěnmeyàng."
+    }
+  ]
+}

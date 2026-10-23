@@ -1,0 +1,80 @@
+{
+  "id": "ja-C15-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kubaru",
+      "text": "くばる",
+      "reading": "kubaru"
+    },
+    {
+      "id": "ja.ryokousaki",
+      "text": "旅行先",
+      "reading": "ryokōsaki"
+    },
+    {
+      "id": "ja.ki-o-tsukau",
+      "kind": "phrase",
+      "text": "きをつかう",
+      "reading": "ki o tsukau"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムさんは なつやすみに、ゆきさんと ほっかいどうへ りょこうしました。",
+        "reading": "Namu-san wa natsuyasumi ni, Yuki-san to Hokkaidō e ryokō shimashita."
+      },
+      {
+        "text": "旅行先で、ダンスサークルの みんなに おかしを かいました。",
+        "reading": "Ryokōsaki de, dansu sākuru no minna ni okashi o kaimashita."
+      }
+    ],
+    [
+      {
+        "text": "にほんでは、りょこうの あとで、ともだちや しごとの なかまに おみやげを くばります。",
+        "reading": "Nihon de wa, ryokō no ato de, tomodachi ya shigoto no nakama ni omiyage o kubarimasu."
+      },
+      {
+        "text": "ひとりに ひとつずつ あげる ことが おおいです。",
+        "reading": "Hitori ni hitotsu zutsu ageru koto ga ōi desu."
+      },
+      {
+        "text": "りょこうの あいだ、ナムさんは サークルの れんしゅうを やすみました。",
+        "reading": "Ryokō no aida, Namu-san wa sākuru no renshū o yasumimashita."
+      },
+      {
+        "text": "おみやげは、みんなへの「ありがとう」の 気持ちです。",
+        "reading": "Omiyage wa, minna e no “arigatō” no kimochi desu."
+      }
+    ],
+    [
+      {
+        "text": "タイでは、おみやげを みんなで いっしょに たべる ことが おおいです。",
+        "reading": "Tai de wa, omiyage o minna de issho ni taberu koto ga ōi desu."
+      },
+      {
+        "text": "にほんじんは、ほんとうに きを つかいますね。",
+        "reading": "Nihonjin wa, hontō ni ki o tsukaimasu ne."
+      },
+      {
+        "text": "サークルの みんなは、ナムさんの おかしを よろこびました。",
+        "reading": "Sākuru no minna wa, Namu-san no okashi o yorokobimashita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

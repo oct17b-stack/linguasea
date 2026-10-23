@@ -1,0 +1,70 @@
+{
+  "id": "ja-C15-06",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.meibutsu",
+      "text": "名物",
+      "reading": "meibutsu"
+    },
+    {
+      "id": "ja.jimoto",
+      "text": "地元",
+      "reading": "jimoto"
+    },
+    {
+      "id": "ja.teiban",
+      "text": "ていばん",
+      "reading": "teiban"
+    },
+    {
+      "id": "ja.nedan",
+      "text": "ねだん",
+      "reading": "nedan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "サークルの みんなの おみやげ、なにが いいかな。",
+      "reading": "Sākuru no minna no omiyage, nani ga ii kana."
+    },
+    {
+      "speaker": "c",
+      "text": "この まちの 名物は、この おかしだよ。",
+      "reading": "Kono machi no meibutsu wa, kono okashi da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ。地元の ひとも よく たべるの？",
+      "reading": "Hē. Jimoto no hito mo yoku taberu no?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。おみやげの ていばんだよ。",
+      "reading": "Un. Omiyage no teiban da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ねだんは…2,000円か。ちょっと たかいかな。",
+      "reading": "Nedan wa… nisen en ka. Chotto takai kana."
+    },
+    {
+      "speaker": "c",
+      "text": "こちらは 1,000円で、20こ はいって いるよ。",
+      "reading": "Kochira wa sen en de, nijukko haitte iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "サークルは 15にんだから、ちょうど いいかな。",
+      "reading": "Sākuru wa jūgonin da kara, chōdo ii kana."
+    },
+    {
+      "speaker": "c",
+      "text": "うん、それが いいよ！",
+      "reading": "Un, sore ga ii yo!"
+    }
+  ]
+}

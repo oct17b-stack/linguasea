@@ -1,0 +1,75 @@
+{
+  "id": "zh-C13-04",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.gan-bei",
+      "text": "干杯",
+      "reading": "gānbēi"
+    },
+    {
+      "id": "zh.zhu-he",
+      "text": "祝贺",
+      "reading": "zhùhè"
+    },
+    {
+      "id": "zh.you-yi",
+      "text": "友谊",
+      "reading": "yǒuyì"
+    },
+    {
+      "id": "zh.cheng-gong",
+      "text": "成功",
+      "reading": "chénggōng"
+    },
+    {
+      "id": "zh.wei-for",
+      "text": "为",
+      "reading": "wèi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "大家好！今天是小南的生日，我们为小南干杯！",
+      "reading": "Dàjiā hǎo! Jīntiān shì Xiǎonán de shēngrì, wǒmen wèi Xiǎonán gānbēi!"
+    },
+    {
+      "speaker": "c",
+      "text": "干杯！小南，生日快乐！",
+      "reading": "Gānbēi! Xiǎonán, shēngrì kuàilè!"
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢大家！我也想为我们的友谊干杯！",
+      "reading": "Xièxie dàjiā! Wǒ yě xiǎng wèi wǒmen de yǒuyì gānbēi!"
+    },
+    {
+      "speaker": "b",
+      "text": "好！为友谊干杯！",
+      "reading": "Hǎo! Wèi yǒuyì gānbēi!"
+    },
+    {
+      "speaker": "c",
+      "text": "小南，祝贺你！你来北京快一年了，中文进步很快。",
+      "reading": "Xiǎonán, zhùhè nǐ! Nǐ lái Běijīng kuài yī nián le, Zhōngwén jìnbù hěn kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢李老师，也谢谢大家的帮助！",
+      "reading": "Xièxie Lǐ lǎoshī, yě xièxie dàjiā de bāngzhù!"
+    },
+    {
+      "speaker": "b",
+      "text": "今天的聚会很成功，小南做的泰国菜也太好吃了！",
+      "reading": "Jīntiān de jùhuì hěn chénggōng, Xiǎonán zuò de Tàiguó cài yě tài hǎochī le!"
+    },
+    {
+      "speaker": "c",
+      "text": "那我们再为小南的泰国菜干杯！",
+      "reading": "Nà wǒmen zài wèi Xiǎonán de Tàiguó cài gānbēi!"
+    }
+  ]
+}

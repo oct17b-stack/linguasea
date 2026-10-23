@@ -1,0 +1,100 @@
+{
+  "id": "zh-E9-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.bao-xian",
+      "text": "保险",
+      "reading": "bǎoxiǎn"
+    },
+    {
+      "id": "zh.bao-xiao",
+      "text": "报销",
+      "reading": "bàoxiāo"
+    },
+    {
+      "id": "zh.yi-liao",
+      "text": "医疗",
+      "reading": "yīliáo"
+    },
+    {
+      "id": "zh.zhu-yuan",
+      "text": "住院",
+      "reading": "zhùyuàn"
+    },
+    {
+      "id": "zh.shou-shu",
+      "text": "手术",
+      "reading": "shǒushù"
+    },
+    {
+      "id": "zh.zu-gou",
+      "text": "足够",
+      "reading": "zúgòu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你上次去医院花了多少钱？",
+      "reading": "Xiǎonán, nǐ shàngcì qù yīyuàn huā le duōshao qián?"
+    },
+    {
+      "speaker": "a",
+      "text": "挂号、检查和药，一共花了八百多块。",
+      "reading": "Guàhào, jiǎnchá hé yào, yīgòng huā le bā bǎi duō kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "这么贵！你有医疗保险吗？",
+      "reading": "Zhème guì! Nǐ yǒu yīliáo bǎoxiǎn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "有。学校要求留学生都要买保险，可是我不知道看病的钱能不能报销。",
+      "reading": "Yǒu. Xuéxiào yāoqiú liúxuéshēng dōu yào mǎi bǎoxiǎn, kěshì wǒ bù zhīdào kànbìng de qián néng bù néng bàoxiāo."
+    },
+    {
+      "speaker": "b",
+      "text": "我听说住院和手术都能报销，看小病就不一定了。",
+      "reading": "Wǒ tīngshuō zhùyuàn hé shǒushù dōu néng bàoxiāo, kàn xiǎo bìng jiù bù yīdìng le."
+    },
+    {
+      "speaker": "a",
+      "text": "那这次可能报销不了。不过我的保险一年只要八百块，足够吗？",
+      "reading": "Nà zhè cì kěnéng bàoxiāo bu liǎo. Bùguò wǒ de bǎoxiǎn yī nián zhǐyào bā bǎi kuài, zúgòu ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "对留学生来说应该足够了。最重要的是一定要有保险。",
+      "reading": "Duì liúxuéshēng lái shuō yīnggāi zúgòu le. Zuì zhòngyào de shì yīdìng yào yǒu bǎoxiǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么？我身体一直很好啊。",
+      "reading": "Wèi shénme? Wǒ shēntǐ yīzhí hěn hǎo a."
+    },
+    {
+      "speaker": "b",
+      "text": "谁都不知道明天会怎么样。万一住院了，有保险就不用担心。",
+      "reading": "Shéi dōu bù zhīdào míngtiān huì zěnmeyàng. Wànyī zhùyuàn le, yǒu bǎoxiǎn jiù bùyòng dānxīn."
+    },
+    {
+      "speaker": "a",
+      "text": "说得对。万一要做手术，没有保险可能要花几万块。",
+      "reading": "Shuō de duì. Wànyī yào zuò shǒushù, méiyǒu bǎoxiǎn kěnéng yào huā jǐ wàn kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "对。很多中国人除了国家的医疗保险，还会自己再买一份。",
+      "reading": "Duì. Hěn duō Zhōngguó rén chúle guójiā de yīliáo bǎoxiǎn, hái huì zìjǐ zài mǎi yī fèn."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国也一样，我爸爸妈妈每个人都买了两份保险。",
+      "reading": "Tàiguó yě yīyàng, wǒ bàba māma měi ge rén dōu mǎi le liǎng fèn bǎoxiǎn."
+    }
+  ]
+}

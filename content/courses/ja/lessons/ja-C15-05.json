@@ -1,0 +1,70 @@
+{
+  "id": "ja-C15-05",
+  "target": "ja",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.tegaki",
+      "text": "手書き",
+      "reading": "tegaki"
+    },
+    {
+      "id": "ja.kimochi",
+      "text": "気持ち",
+      "reading": "kimochi"
+    },
+    {
+      "id": "ja.kokoro",
+      "text": "心",
+      "reading": "kokoro"
+    },
+    {
+      "id": "ja.hotto",
+      "text": "ほっと",
+      "reading": "hotto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、なにか いい ことが あった？",
+      "reading": "Namu, nanika ii koto ga atta?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ファーから 手書きの てがみが きたの。",
+      "reading": "Un. Fā kara tegaki no tegami ga kita no."
+    },
+    {
+      "speaker": "c",
+      "text": "手書き？ いいね。",
+      "reading": "Tegaki? Ii ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ファーの 気持ちが わかって、うれしかった。",
+      "reading": "Fā no kimochi ga wakatte, ureshikatta."
+    },
+    {
+      "speaker": "c",
+      "text": "てがみに なにが かいて あったの？",
+      "reading": "Tegami ni nani ga kaite atta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "「だいがくの 試験に ごうかくしました」。ずっと しんぱいして いたから、ほっとした。",
+      "reading": "“Daigaku no shiken ni gōkaku shimashita.” Zutto shinpai shite ita kara, hotto shita."
+    },
+    {
+      "speaker": "c",
+      "text": "ファーちゃんが ごうかくして よかったね！ 手書きの てがみは、心が あたたかく なるね。",
+      "reading": "Fā-chan ga gōkaku shite yokatta ne! Tegaki no tegami wa, kokoro ga atatakaku naru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。わたしも へんじを 手書きで かく。",
+      "reading": "Un. Watashi mo henji o tegaki de kaku."
+    }
+  ]
+}

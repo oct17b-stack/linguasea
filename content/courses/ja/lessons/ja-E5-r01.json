@@ -1,0 +1,107 @@
+{
+  "id": "ja-E5-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.shikyuu",
+      "text": "しきゅう",
+      "reading": "shikyū"
+    },
+    {
+      "id": "ja.ruumukii",
+      "text": "ルームキー",
+      "reading": "rūmukī"
+    },
+    {
+      "id": "ja.yobi",
+      "text": "予備",
+      "reading": "yobi"
+    },
+    {
+      "id": "ja.moushideru",
+      "text": "申し出る",
+      "reading": "mōshideru"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "お客様：すみません、ルームキーをなくしてしまったんですが。",
+        "reading": "Okyakusama: Sumimasen, rūmukī o nakushite shimatta n desu ga."
+      },
+      {
+        "text": "ナム：それは、おこまりですね。",
+        "reading": "Namu: Sore wa, okomari desu ne."
+      },
+      {
+        "text": "ナム：恐れ入りますが、おなまえとおへやのばんごうを、おねがいできますか。",
+        "reading": "Namu: Osoreirimasu ga, onamae to oheya no bangō o, onegai dekimasu ka."
+      },
+      {
+        "text": "お客様：やまもとです。へやは512です。",
+        "reading": "Okyakusama: Yamamoto desu. Heya wa gohyakujūni desu."
+      }
+    ],
+    [
+      {
+        "text": "ナム：やまもとさまですね。さいごにルームキーをおつかいになったのは、いつですか。",
+        "reading": "Namu: Yamamoto-sama desu ne. Saigo ni rūmukī o otsukai ni natta no wa, itsu desu ka."
+      },
+      {
+        "text": "お客様：けさ、へやをでるときです。そのあと、駅のちかくのカフェにいきました。",
+        "reading": "Okyakusama: Kesa, heya o deru toki desu. Sono ato, eki no chikaku no kafe ni ikimashita."
+      },
+      {
+        "text": "ナム：カフェにわすれたかもしれませんね。カフェにでんわしてみましょうか。",
+        "reading": "Namu: Kafe ni wasureta kamoshiremasen ne. Kafe ni denwa shite mimashō ka."
+      },
+      {
+        "text": "お客様：いえ、いますぐへやにはいりたいので、しきゅうおねがいします。",
+        "reading": "Okyakusama: Ie, ima sugu heya ni hairitai node, shikyū onegaishimasu."
+      }
+    ],
+    [
+      {
+        "text": "ナム：しょうちしました。では、こちらの予備のルームキーをおつかいください。",
+        "reading": "Namu: Shōchi shimashita. Dewa, kochira no yobi no rūmukī o otsukai kudasai."
+      },
+      {
+        "text": "ナム：なくしたキーがみつかったら、フロントにお申し出ください。",
+        "reading": "Namu: Nakushita kī ga mitsukattara, furonto ni omōshide kudasai."
+      },
+      {
+        "text": "お客様：わかりました。キーがみつからなかったら、おかねをはらうんですか。",
+        "reading": "Okyakusama: Wakarimashita. Kī ga mitsukaranakattara, okane o harau n desu ka."
+      },
+      {
+        "text": "ナム：はい、もうしわけございませんが、そのばあいは1,000円いただきます。",
+        "reading": "Namu: Hai, mōshiwake gozaimasen ga, sono baai wa sen en itadakimasu."
+      },
+      {
+        "text": "お客様：わかりました。ていねいにたいおうしてくださって、ありがとう。",
+        "reading": "Okyakusama: Wakarimashita. Teinei ni taiō shite kudasatte, arigatō."
+      },
+      {
+        "text": "ナム：いいえ。どうぞ、ごゆっくりおやすみください。",
+        "reading": "Namu: Iie. Dōzo, goyukkuri oyasumi kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

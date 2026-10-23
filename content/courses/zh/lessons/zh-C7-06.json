@@ -1,0 +1,75 @@
+{
+  "id": "zh-C7-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.kong-qi",
+      "text": "空气",
+      "reading": "kōngqì"
+    },
+    {
+      "id": "zh.shi-wet",
+      "text": "湿",
+      "reading": "shī"
+    },
+    {
+      "id": "zh.gan-zao",
+      "text": "干燥",
+      "reading": "gānzào"
+    },
+    {
+      "id": "zh.ji-le",
+      "text": "极了",
+      "reading": "jíle"
+    },
+    {
+      "id": "zh.liang-kuai",
+      "text": "凉快",
+      "reading": "liángkuai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "小南，最近天气一天比一天冷了。",
+      "reading": "Xiǎonán, zuìjìn tiānqì yī tiān bǐ yī tiān lěng le."
+    },
+    {
+      "speaker": "a",
+      "text": "是啊，北京的空气也一天比一天干燥。",
+      "reading": "Shì a, Běijīng de kōngqì yě yī tiān bǐ yī tiān gānzào."
+    },
+    {
+      "speaker": "c",
+      "text": "曼谷的空气呢？",
+      "reading": "Màngǔ de kōngqì ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "曼谷的空气很湿，一年四季都很热。",
+      "reading": "Màngǔ de kōngqì hěn shī, yī nián sì jì dōu hěn rè."
+    },
+    {
+      "speaker": "c",
+      "text": "你喜欢北京的天气还是曼谷的天气？",
+      "reading": "Nǐ xǐhuan Běijīng de tiānqì háishi Màngǔ de tiānqì?"
+    },
+    {
+      "speaker": "a",
+      "text": "九月的北京凉快极了，我很喜欢。可是现在太冷了！",
+      "reading": "Jiǔ yuè de Běijīng liángkuai jíle, wǒ hěn xǐhuan. Kěshì xiànzài tài lěng le!"
+    },
+    {
+      "speaker": "c",
+      "text": "冬天你要多喝水，北京太干燥了。",
+      "reading": "Dōngtiān nǐ yào duō hē shuǐ, Běijīng tài gānzào le."
+    },
+    {
+      "speaker": "a",
+      "text": "好的。我每天都喝热水，现在我也是“中国人”了！",
+      "reading": "Hǎo de. Wǒ měitiān dōu hē rèshuǐ, xiànzài wǒ yě shì \"Zhōngguó rén\" le!"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "zh-E9-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhong-yao-herbal",
+      "text": "中药",
+      "reading": "zhōngyào"
+    },
+    {
+      "id": "zh.zuo-yong",
+      "text": "作用",
+      "reading": "zuòyòng"
+    },
+    {
+      "id": "zh.fu-zuo-yong",
+      "text": "副作用",
+      "reading": "fùzuòyòng"
+    },
+    {
+      "id": "zh.ao",
+      "text": "熬",
+      "reading": "áo"
+    },
+    {
+      "id": "zh.chang-qi",
+      "text": "长期",
+      "reading": "chángqī"
+    },
+    {
+      "id": "zh.yao-wu",
+      "text": "药物",
+      "reading": "yàowù"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "我给你把了脉，你的问题主要是压力太大，胃也不太好。",
+      "reading": "Wǒ gěi nǐ bǎ le mài, nǐ de wèntí zhǔyào shì yālì tài dà, wèi yě bù tài hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "大夫，那我需要吃中药吗？",
+      "reading": "Dàifu, nà wǒ xūyào chī zhōngyào ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "需要。你先吃七天中药，这几种药对失眠和胃疼都有作用。",
+      "reading": "Xūyào. Nǐ xiān chī qī tiān zhōngyào, zhè jǐ zhǒng yào duì shīmián hé wèi téng dōu yǒu zuòyòng."
+    },
+    {
+      "speaker": "a",
+      "text": "中药要怎么吃？要自己熬吗？",
+      "reading": "Zhōngyào yào zěnme chī? Yào zìjǐ áo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "要熬一个小时左右。不过你也可以让我们帮你熬好。",
+      "reading": "Yào áo yī ge xiǎoshí zuǒyòu. Bùguò nǐ yě kěyǐ ràng wǒmen bāng nǐ áohǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "那太好了，我家里没有熬药的锅。中药有副作用吗？",
+      "reading": "Nà tài hǎo le, wǒ jiālǐ méiyǒu áo yào de guō. Zhōngyào yǒu fùzuòyòng ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "副作用比较小，但是也不能长期吃。吃完七天再来看看。",
+      "reading": "Fùzuòyòng bǐjiào xiǎo, dànshì yě bù néng chángqī chī. Chīwán qī tiān zài lái kànkan."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么不能长期吃呢？",
+      "reading": "Wèi shénme bù néng chángqī chī ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "不管什么药物，吃多了都对身体不好。",
+      "reading": "Bùguǎn shénme yàowù, chī duō le dōu duì shēntǐ bù hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "除了吃药，我自己还能做些什么？",
+      "reading": "Chúle chī yào, wǒ zìjǐ hái néng zuò xiē shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "晚上出去散散步，早点儿睡觉。运动对失眠也有很大的作用。",
+      "reading": "Wǎnshang chūqù sànsan bù, zǎo diǎnr shuìjiào. Yùndòng duì shīmián yě yǒu hěn dà de zuòyòng."
+    },
+    {
+      "speaker": "a",
+      "text": "好的，我一定试试。谢谢大夫！",
+      "reading": "Hǎo de, wǒ yīdìng shìshi. Xièxie dàifu!"
+    }
+  ]
+}

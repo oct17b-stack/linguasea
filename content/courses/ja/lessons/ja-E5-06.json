@@ -1,0 +1,96 @@
+{
+  "id": "ja-E5-06",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.teinei",
+      "text": "ていねい",
+      "reading": "teinei"
+    },
+    {
+      "id": "ja.homeru",
+      "text": "ほめる",
+      "reading": "homeru"
+    },
+    {
+      "id": "ja.kokorozukai",
+      "text": "こころづかい",
+      "reading": "kokorozukai"
+    },
+    {
+      "id": "ja.inshou",
+      "text": "いんしょう",
+      "reading": "inshō"
+    },
+    {
+      "id": "ja.yorokonde",
+      "kind": "phrase",
+      "text": "喜んで",
+      "reading": "yorokonde"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、きのうチェックアウトされたきむらさまが、ナムさんのことを、ほめてくださいましたよ。",
+      "reading": "Namu-san, kinō chekkuauto sareta Kimura-sama ga, Namu-san no koto o, homete kudasaimashita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですか！なんとおっしゃっていましたか。",
+      "reading": "Hontō desu ka! Nan to osshatte imashita ka."
+    },
+    {
+      "speaker": "c",
+      "text": "「ナムさんのたいおうが、とてもていねいだった」とおっしゃっていました。",
+      "reading": "\"Namu-san no taiō ga, totemo teinei datta\" to osshatte imashita."
+    },
+    {
+      "speaker": "a",
+      "text": "うれしいです。きむらさまには、おおさかのことを、いろいろおしえていただいたんです。",
+      "reading": "Ureshii desu. Kimura-sama ni wa, Ōsaka no koto o, iroiro oshiete itadaita n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。ナムさんの手書きのメッセージも、とてもうれしかったとおっしゃっていましたよ。",
+      "reading": "Sō desu ka. Namu-san no tegaki no messēji mo, totemo ureshikatta to osshatte imashita yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、へやにおいたカードですね。",
+      "reading": "A, heya ni oita kādo desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。「こころづかいがうれしかった」と、メールまでおくってくださったんですよ。",
+      "reading": "Ē. \"Kokorozukai ga ureshikatta\" to, mēru made okutte kudasatta n desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいいんしょうを持っていただけて、よかったです。",
+      "reading": "Ii inshō o motte itadakete, yokatta desu."
+    },
+    {
+      "speaker": "c",
+      "text": "また、とまりにきてくださるそうですよ。",
+      "reading": "Mata, tomari ni kite kudasaru sō desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "うれしいです！そのときも、喜んであんないします。",
+      "reading": "Ureshii desu! Sono toki mo, yorokonde annai shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "その気持ちを、わすれないでくださいね。",
+      "reading": "Sono kimochi o, wasurenaide kudasai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。これからも、お客様にていねいにたいおうするようにします。",
+      "reading": "Hai. Korekara mo, okyakusama ni teinei ni taiō suru yō ni shimasu."
+    }
+  ]
+}

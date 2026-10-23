@@ -1,0 +1,81 @@
+{
+  "id": "zh-C13-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.dao-shi-hou",
+      "kind": "phrase",
+      "text": "到时候",
+      "reading": "dào shíhou"
+    },
+    {
+      "id": "zh.bie-wang-le",
+      "kind": "phrase",
+      "text": "别忘了",
+      "reading": "bié wàng le"
+    },
+    {
+      "id": "zh.hui-fu",
+      "text": "回复",
+      "reading": "huífù"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "大家好！",
+        "reading": "Dàjiā hǎo!"
+      },
+      {
+        "text": "六月五号是我的生日，我想请大家来我家吃饭。",
+        "reading": "Liù yuè wǔ hào shì wǒ de shēngrì, wǒ xiǎng qǐng dàjiā lái wǒ jiā chīfàn."
+      }
+    ],
+    [
+      {
+        "text": "时间：六月五号晚上六点。",
+        "reading": "Shíjiān: liù yuè wǔ hào wǎnshang liù diǎn."
+      },
+      {
+        "text": "地址：学校东门对面的小区，三号楼十五层。",
+        "reading": "Dìzhǐ: xuéxiào dōngmén duìmiàn de xiǎoqū, sān hào lóu shíwǔ céng."
+      },
+      {
+        "text": "我会做泰国菜，大家不用带东西。",
+        "reading": "Wǒ huì zuò Tàiguó cài, dàjiā bùyòng dài dōngxi."
+      },
+      {
+        "text": "到时候，我们一起吃蛋糕、唱歌！",
+        "reading": "Dào shíhou, wǒmen yīqǐ chī dàngāo, chànggē!"
+      }
+    ],
+    [
+      {
+        "text": "能来的同学，请星期三以前回复我。",
+        "reading": "Néng lái de tóngxué, qǐng xīngqīsān yǐqián huífù wǒ."
+      },
+      {
+        "text": "别忘了，到了楼下给我打电话！",
+        "reading": "Bié wàng le, dào le lóuxià gěi wǒ dǎ diànhuà!"
+      },
+      {
+        "text": "小南",
+        "reading": "Xiǎonán"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

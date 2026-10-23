@@ -1,0 +1,95 @@
+{
+  "id": "ja-E5-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.buchou",
+      "text": "部長",
+      "reading": "buchō"
+    },
+    {
+      "id": "ja.kachou",
+      "text": "かちょう",
+      "reading": "kachō"
+    },
+    {
+      "id": "ja.joushi",
+      "text": "じょうし",
+      "reading": "jōshi"
+    },
+    {
+      "id": "ja.torihikisaki",
+      "text": "取引先",
+      "reading": "torihikisaki"
+    },
+    {
+      "id": "ja.raikyaku",
+      "text": "来客",
+      "reading": "raikyaku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "すみません、あした、このホテルで、取引先のひととかいぎをしたいんですが。",
+      "reading": "Sumimasen, ashita, kono hoteru de, torihikisaki no hito to kaigi o shitai n desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、かいぎしつのよやくですね。なんめいさまですか。",
+      "reading": "Hai, kaigishitsu no yoyaku desu ne. Nanmeisama desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "4にんです。わたしと、じょうしの部長、それから、取引先のかちょうがふたりです。",
+      "reading": "Yonin desu. Watashi to, jōshi no buchō, sorekara, torihikisaki no kachō ga futari desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。部長は、なんじごろこられますか。",
+      "reading": "Wakarimashita. Buchō wa, nanji goro koraremasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "とうきょうからしんかんせんでくるので、10時ごろとうちゃくすると思います。",
+      "reading": "Tōkyō kara shinkansen de kuru node, jūji goro tōchaku suru to omoimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "取引先のかちょうは、なんじにこられますか。",
+      "reading": "Torihikisaki no kachō wa, nanji ni koraremasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "10時半です。それから、かいぎのあとで、みんなでひるごはんをたべたいんですが。",
+      "reading": "Jūji han desu. Sorekara, kaigi no ato de, minna de hirugohan o tabetai n desu ga."
+    },
+    {
+      "speaker": "a",
+      "text": "では、レストランもよやくされますか。",
+      "reading": "Dewa, resutoran mo yoyaku saremasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "おねがいします。部長は、からいものがすこしにがてなんです。",
+      "reading": "Onegaishimasu. Buchō wa, karai mono ga sukoshi nigate na n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。レストランに、つたえておきます。",
+      "reading": "Wakarimashita. Resutoran ni, tsutaete okimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとう。あしたは来客がおおいので、よろしくおねがいします。",
+      "reading": "Arigatō. Ashita wa raikyaku ga ōi node, yoroshiku onegaishimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。部長がとうちゃくされたら、すぐにでんわでれんらくしますね。",
+      "reading": "Hai. Buchō ga tōchaku saretara, sugu ni denwa de renraku shimasu ne."
+    }
+  ]
+}

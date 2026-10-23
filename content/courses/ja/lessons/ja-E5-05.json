@@ -1,0 +1,97 @@
+{
+  "id": "ja-E5-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kashikomarimashita",
+      "kind": "phrase",
+      "text": "かしこまりました",
+      "reading": "kashikomarimashita"
+    },
+    {
+      "id": "ja.osoreirimasu",
+      "kind": "phrase",
+      "text": "恐れ入ります",
+      "reading": "osoreirimasu"
+    },
+    {
+      "id": "ja.shouchi",
+      "text": "しょうち",
+      "reading": "shōchi"
+    },
+    {
+      "id": "ja.ainiku",
+      "text": "あいにく",
+      "reading": "ainiku"
+    },
+    {
+      "id": "ja.honjitsu",
+      "text": "本日",
+      "reading": "honjitsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "はい、フロントでございます。",
+      "reading": "Hai, furonto de gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "すみません、あしたの朝食は、なんじからですか。",
+      "reading": "Sumimasen, ashita no chōshoku wa, nanji kara desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "恐れ入りますが、おへやのばんごうをおねがいできますか。",
+      "reading": "Osoreirimasu ga, oheya no bangō o onegai dekimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "305です。",
+      "reading": "Sanbyakugo desu."
+    },
+    {
+      "speaker": "a",
+      "text": "きむらさまですね。朝食は、6時半から9時半まででございます。1かいのレストランでございます。",
+      "reading": "Kimura-sama desu ne. Chōshoku wa, rokuji han kara kuji han made de gozaimasu. Ikkai no resutoran de gozaimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。きょうの夕食も、そこでたべられますか。",
+      "reading": "Wakarimashita. Kyō no yūshoku mo, soko de taberaremasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "本日の夕食は、あいにくまんせきでございます。もうしわけございません。",
+      "reading": "Honjitsu no yūshoku wa, ainiku manseki de gozaimasu. Mōshiwake gozaimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。じゃあ、そとでたべます。あと、タオルをもう2まい、おねがいできますか。",
+      "reading": "Sō desu ka. Jā, soto de tabemasu. Ato, taoru o mō nimai, onegai dekimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "かしこまりました。すぐに、おへやにとどけます。",
+      "reading": "Kashikomarimashita. Sugu ni, oheya ni todokemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それから、あしたのあさ7時に、タクシーをよんでください。",
+      "reading": "Sorekara, ashita no asa shichiji ni, takushī o yonde kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、しょうちしました。7時に、げんかんのまえでございます。ほかに、なにかございますか。",
+      "reading": "Hai, shōchi shimashita. Shichiji ni, genkan no mae de gozaimasu. Hoka ni, nanika gozaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いえ、それだけです。ありがとう。",
+      "reading": "Ie, sore dake desu. Arigatō."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-E5-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.okyakusama",
+      "text": "お客様",
+      "reading": "okyakusama"
+    },
+    {
+      "id": "ja.gozonji",
+      "text": "ご存じ",
+      "reading": "gozonji"
+    },
+    {
+      "id": "ja.otaku",
+      "text": "お宅",
+      "reading": "otaku"
+    },
+    {
+      "id": "ja.meue",
+      "text": "目上",
+      "reading": "meue"
+    },
+    {
+      "id": "ja.keigo",
+      "text": "けいご",
+      "reading": "keigo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "さとうさん、店長は、もうおかえりになりましたか。",
+      "reading": "Satō-san, tenchō wa, mō okaeri ni narimashita ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ、さっきおかえりになりましたよ。どうしたんですか。",
+      "reading": "Ē, sakki okaeri ni narimashita yo. Dō shita n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "お客様が、店長にあいたいとおっしゃっているんです。",
+      "reading": "Okyakusama ga, tenchō ni aitai to osshatte iru n desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。そのお客様は、店長をご存じなんですね。",
+      "reading": "Sō desu ka. Sono okyakusama wa, tenchō o gozonji na n desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。店長のおともだちだそうです。",
+      "reading": "Hai. Tenchō no otomodachi da sō desu."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、店長のお宅にでんわしてみます。お客様には、ロビーでおまちになるように、いってください。",
+      "reading": "Jā, tenchō no otaku ni denwa shite mimasu. Okyakusama ni wa, robī de omachi ni naru yō ni, itte kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。お客様には、なんといえばいいですか。",
+      "reading": "Wakarimashita. Okyakusama ni wa, nan to ieba ii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "「こちらで、おまちになりますか」と、きいてください。",
+      "reading": "\"Kochira de, omachi ni narimasu ka\" to, kiite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "けいごは、ほんとうにむずかしいですね。",
+      "reading": "Keigo wa, hontō ni muzukashii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "目上のひとやお客様とはなすときは、けいごがひつようですからね。",
+      "reading": "Meue no hito ya okyakusama to hanasu toki wa, keigo ga hitsuyō desu kara ne."
+    },
+    {
+      "speaker": "a",
+      "text": "タイごにも、目上のひとにつかうことばがありますが、にほんごのほうが、ずっとふくざつです。",
+      "reading": "Taigo ni mo, meue no hito ni tsukau kotoba ga arimasu ga, nihongo no hō ga, zutto fukuzatsu desu."
+    },
+    {
+      "speaker": "c",
+      "text": "すぐになれますよ。わからないことがあったら、いつでもきいてくださいね。",
+      "reading": "Sugu ni naremasu yo. Wakaranai koto ga attara, itsu demo kiite kudasai ne."
+    }
+  ]
+}

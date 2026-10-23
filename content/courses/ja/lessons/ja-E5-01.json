@@ -1,0 +1,96 @@
+{
+  "id": "ja-E5-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.irassharu",
+      "text": "いらっしゃる",
+      "reading": "irassharu"
+    },
+    {
+      "id": "ja.ossharu",
+      "text": "おっしゃる",
+      "reading": "ossharu"
+    },
+    {
+      "id": "ja.meshiagaru",
+      "text": "めしあがる",
+      "reading": "meshiagaru"
+    },
+    {
+      "id": "ja.goran-ni-naru",
+      "kind": "phrase",
+      "text": "ごらんになる",
+      "reading": "goran ni naru"
+    },
+    {
+      "id": "ja.nasaru",
+      "text": "なさる",
+      "reading": "nasaru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "いらっしゃいませ。きむらさまでいらっしゃいますか。",
+      "reading": "Irasshaimase. Kimura-sama de irasshaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、きむらです。きょうから2はく、よやくしています。",
+      "reading": "Hai, Kimura desu. Kyō kara nihaku, yoyaku shite imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、2はくですね。きょうは、どちらからいらっしゃいましたか。",
+      "reading": "Hai, nihaku desu ne. Kyō wa, dochira kara irasshaimashita ka."
+    },
+    {
+      "speaker": "b",
+      "text": "おおさかからです。しごとで、このちかくの会社にいくんです。",
+      "reading": "Ōsaka kara desu. Shigoto de, kono chikaku no kaisha ni iku n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。ばんごはんは、ホテルのレストランでめしあがりますか。",
+      "reading": "Sō desu ka. Bangohan wa, hoteru no resutoran de meshiagarimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ、そとでたべようと思っています。このちかくに、いいみせはありますか。",
+      "reading": "Iie, soto de tabeyō to omotte imasu. Kono chikaku ni, ii mise wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。こちらのちずを、ごらんになりますか。",
+      "reading": "Hai. Kochira no chizu o, goran ni narimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとう。おすすめのみせは、どこですか。",
+      "reading": "Arigatō. Osusume no mise wa, doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "駅前のすしやが人気です。さかなは、めしあがりますか。",
+      "reading": "Ekimae no sushiya ga ninki desu. Sakana wa, meshiagarimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、だいすきです。",
+      "reading": "Ē, daisuki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "では、よやくをなさいますか。なんじがいいか、おっしゃってください。",
+      "reading": "Dewa, yoyaku o nasaimasu ka. Nanji ga ii ka, osshatte kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "7時に、ふたりでおねがいします。",
+      "reading": "Shichiji ni, futari de onegaishimasu."
+    }
+  ]
+}

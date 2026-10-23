@@ -1,0 +1,79 @@
+{
+  "id": "zh-C7-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ye-zi",
+      "text": "叶子",
+      "reading": "yèzi"
+    },
+    {
+      "id": "zh.kai-hua",
+      "text": "开花",
+      "reading": "kāihuā"
+    },
+    {
+      "id": "zh.liang-cool",
+      "text": "凉",
+      "reading": "liáng"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "北京一年有四个季节：春天、夏天、秋天和冬天。",
+        "reading": "Běijīng yī nián yǒu sì ge jìjié: chūntiān, xiàtiān, qiūtiān hé dōngtiān."
+      },
+      {
+        "text": "春天天气暖和了，公园里的很多树都开花了。",
+        "reading": "Chūntiān tiānqì nuǎnhuo le, gōngyuán lǐ de hěn duō shù dōu kāihuā le."
+      },
+      {
+        "text": "夏天很热，也常常下雨。",
+        "reading": "Xiàtiān hěn rè, yě chángcháng xiàyǔ."
+      }
+    ],
+    [
+      {
+        "text": "秋天是北京最好的季节，不冷也不热。",
+        "reading": "Qiūtiān shì Běijīng zuì hǎo de jìjié, bù lěng yě bù rè."
+      },
+      {
+        "text": "秋天早上和晚上有点儿凉，要多穿一点儿衣服。",
+        "reading": "Qiūtiān zǎoshang hé wǎnshang yǒudiǎnr liáng, yào duō chuān yīdiǎnr yīfu."
+      },
+      {
+        "text": "十月山上的叶子很漂亮，很多人去爬山。",
+        "reading": "Shí yuè shān shang de yèzi hěn piàoliang, hěn duō rén qù páshān."
+      }
+    ],
+    [
+      {
+        "text": "冬天很冷，有时候气温是零下十度。",
+        "reading": "Dōngtiān hěn lěng, yǒushíhou qìwēn shì língxià shí dù."
+      },
+      {
+        "text": "北京的冬天很干燥，有时候会下雪。",
+        "reading": "Běijīng de dōngtiān hěn gānzào, yǒushíhou huì xiàxuě."
+      },
+      {
+        "text": "你最喜欢北京的哪个季节？",
+        "reading": "Nǐ zuì xǐhuan Běijīng de nǎge jìjié?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

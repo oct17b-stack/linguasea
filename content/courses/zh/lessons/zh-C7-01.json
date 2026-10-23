@@ -1,0 +1,80 @@
+{
+  "id": "zh-C7-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.ji-jie",
+      "text": "季节",
+      "reading": "jìjié"
+    },
+    {
+      "id": "zh.chun-tian",
+      "text": "春天",
+      "reading": "chūntiān"
+    },
+    {
+      "id": "zh.xia-tian",
+      "text": "夏天",
+      "reading": "xiàtiān"
+    },
+    {
+      "id": "zh.qiu-tian",
+      "text": "秋天",
+      "reading": "qiūtiān"
+    },
+    {
+      "id": "zh.dong-tian",
+      "text": "冬天",
+      "reading": "dōngtiān"
+    },
+    {
+      "id": "zh.bian-change",
+      "text": "变",
+      "reading": "biàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，天冷了！",
+      "reading": "Wáng Míng, tiān lěng le!"
+    },
+    {
+      "speaker": "b",
+      "text": "对，已经是秋天了。",
+      "reading": "Duì, yǐjīng shì qiūtiān le."
+    },
+    {
+      "speaker": "a",
+      "text": "北京有四个季节，可是泰国没有冬天。",
+      "reading": "Běijīng yǒu sì ge jìjié, kěshì Tàiguó méiyǒu dōngtiān."
+    },
+    {
+      "speaker": "b",
+      "text": "你最喜欢哪个季节？",
+      "reading": "Nǐ zuì xǐhuan nǎge jìjié?"
+    },
+    {
+      "speaker": "a",
+      "text": "我最喜欢秋天，不冷也不热。你呢？",
+      "reading": "Wǒ zuì xǐhuan qiūtiān, bù lěng yě bù rè. Nǐ ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "我喜欢春天。夏天太热，冬天太冷。",
+      "reading": "Wǒ xǐhuan chūntiān. Xiàtiān tài rè, dōngtiān tài lěng."
+    },
+    {
+      "speaker": "a",
+      "text": "你看，天气变了，刮风了！",
+      "reading": "Nǐ kàn, tiānqì biàn le, guāfēng le!"
+    },
+    {
+      "speaker": "b",
+      "text": "我们回去吧，你穿的衣服太少了！",
+      "reading": "Wǒmen huíqù ba, nǐ chuān de yīfu tài shǎo le!"
+    }
+  ]
+}
