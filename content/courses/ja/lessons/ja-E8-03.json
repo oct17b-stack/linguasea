@@ -1,0 +1,95 @@
+{
+  "id": "ja-E8-03",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.hinshitsu",
+      "text": "品質",
+      "reading": "hinshitsu"
+    },
+    {
+      "id": "ja.kakaku",
+      "text": "かかく",
+      "reading": "kakaku"
+    },
+    {
+      "id": "ja.otoku",
+      "text": "お得",
+      "reading": "otoku"
+    },
+    {
+      "id": "ja.chuuko",
+      "text": "中古",
+      "reading": "chūko"
+    },
+    {
+      "id": "ja.koukyuu",
+      "text": "こうきゅう",
+      "reading": "kōkyū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、このみせ、中古のものがたくさんあるね。",
+      "reading": "Namu, kono mise, chūko no mono ga takusan aru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ここは、品質のわりに、かかくがやすいんだって。",
+      "reading": "Un. Koko wa, hinshitsu no wari ni, kakaku ga yasui n da tte."
+    },
+    {
+      "speaker": "c",
+      "text": "このかばん、中古なのに、きれいだね。",
+      "reading": "Kono kaban, chūko na noni, kirei da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうだ。3,000円？ねだんのわりに、しっかりしているね。",
+      "reading": "Hontō da. Sanzen en? Nedan no wari ni, shikkari shite iru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "こっちのコートは、こうきゅうなものみたい。15,000円だって。",
+      "reading": "Kotchi no kōto wa, kōkyū na mono mitai. Ichiman gosen en da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "あたらしいものだと、5まん円ぐらいするはずだよ。",
+      "reading": "Atarashii mono da to, goman en gurai suru hazu da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "それは、お得だね！でも、ちょっとふるいかな。",
+      "reading": "Sore wa, otoku da ne! Demo, chotto furui ka na."
+    },
+    {
+      "speaker": "a",
+      "text": "ふるいわりに、ぜんぜんよごれていないよ。",
+      "reading": "Furui wari ni, zenzen yogorete inai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとうだ。じゃあ、かおうかな。ナムは、なにかかう？",
+      "reading": "Hontō da. Jā, kaō ka na. Namu wa, nanika kau?"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは、このほんにする。100円のわりに、とてもきれいだから。",
+      "reading": "Watashi wa, kono hon ni suru. Hyaku en no wari ni, totemo kirei da kara."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。中古のものも、えらべばお得だね。",
+      "reading": "Ii ne. Chūko no mono mo, erabeba otoku da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。また、いっしょにこよう！",
+      "reading": "Un. Mata, issho ni koyō!"
+    }
+  ]
+}

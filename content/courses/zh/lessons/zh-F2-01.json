@@ -1,0 +1,95 @@
+{
+  "id": "zh-F2-01",
+  "target": "zh",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "zh.ju-according-to",
+      "text": "据",
+      "reading": "jù"
+    },
+    {
+      "id": "zh.biao-ti",
+      "text": "标题",
+      "reading": "biāotí"
+    },
+    {
+      "id": "zh.fa-bu",
+      "text": "发布",
+      "reading": "fābù"
+    },
+    {
+      "id": "zh.zui-xin",
+      "text": "最新",
+      "reading": "zuìxīn"
+    },
+    {
+      "id": "zh.mu-qian",
+      "text": "目前",
+      "reading": "mùqián"
+    },
+    {
+      "id": "zh.lai-yuan",
+      "text": "来源",
+      "reading": "láiyuán"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你一边吃早饭一边看手机，在看什么呢？",
+      "reading": "Xiǎonán, nǐ yībiān chī zǎofàn yībiān kàn shǒujī, zài kàn shénme ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "在看今天的新闻标题。你看这条：“来中国留学的泰国学生越来越多”。",
+      "reading": "Zài kàn jīntiān de xīnwén biāotí. Nǐ kàn zhè tiáo: \"Lái Zhōngguó liúxué de Tàiguó xuésheng yuèláiyuè duō\"."
+    },
+    {
+      "speaker": "b",
+      "text": "这跟你有关系啊！新闻里怎么说？",
+      "reading": "Zhè gēn nǐ yǒu guānxi a! Xīnwén li zěnme shuō?"
+    },
+    {
+      "speaker": "a",
+      "text": "据新闻报道，目前在中国学习的泰国学生有两万多人。",
+      "reading": "Jù xīnwén bàodào, mùqián zài Zhōngguó xuéxí de Tàiguó xuésheng yǒu liǎng wàn duō rén."
+    },
+    {
+      "speaker": "b",
+      "text": "两万多？这条消息是谁发布的？来源可靠吗？",
+      "reading": "Liǎng wàn duō? Zhè tiáo xiāoxi shì shéi fābù de? Láiyuán kěkào ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是一家很有名的报纸发布的。你还记得你上次发给我的假新闻吗？",
+      "reading": "Shì yī jiā hěn yǒumíng de bàozhǐ fābù de. Nǐ hái jìde nǐ shàngcì fā gěi wǒ de jiǎ xīnwén ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，别说了！从那以后，我看新闻都先看来源。",
+      "reading": "Hāhā, bié shuō le! Cóng nà yǐhòu, wǒ kàn xīnwén dōu xiān kàn láiyuán."
+    },
+    {
+      "speaker": "a",
+      "text": "还有一条最新消息：据网上的报道，曼谷昨天下了一场大雨，很多路都堵了。",
+      "reading": "Hái yǒu yī tiáo zuìxīn xiāoxi: jù wǎngshang de bàodào, Màngǔ zuótiān xià le yī chǎng dà yǔ, hěn duō lù dōu dǔ le."
+    },
+    {
+      "speaker": "b",
+      "text": "你家人没事吧？",
+      "reading": "Nǐ jiārén méishì ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "没事。我妈刚给我发了消息，说她和我爸都在家，很安全。",
+      "reading": "Méishì. Wǒ mā gāng gěi wǒ fā le xiāoxi, shuō tā hé wǒ bà dōu zài jiā, hěn ānquán."
+    },
+    {
+      "speaker": "b",
+      "text": "那就好。快吃吧，包子都凉了。",
+      "reading": "Nà jiù hǎo. Kuài chī ba, bāozi dōu liáng le."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "zh-C16-03",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.fu",
+      "text": "付",
+      "reading": "fù"
+    },
+    {
+      "id": "zh.sao",
+      "text": "扫",
+      "reading": "sǎo"
+    },
+    {
+      "id": "zh.er-wei-ma",
+      "text": "二维码",
+      "reading": "èrwéimǎ"
+    },
+    {
+      "id": "zh.xian-jin",
+      "text": "现金",
+      "reading": "xiànjīn"
+    },
+    {
+      "id": "zh.zhi-only",
+      "text": "只",
+      "reading": "zhǐ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你买水果，用现金还是用手机？",
+      "reading": "Xiǎonán, nǐ mǎi shuǐguǒ, yòng xiànjīn háishi yòng shǒujī?"
+    },
+    {
+      "speaker": "a",
+      "text": "我只有现金。我还不会用手机付钱。",
+      "reading": "Wǒ zhǐ yǒu xiànjīn. Wǒ hái bù huì yòng shǒujī fù qián."
+    },
+    {
+      "speaker": "b",
+      "text": "很容易！你的手机里有银行卡吧？",
+      "reading": "Hěn róngyì! Nǐ de shǒujī lǐ yǒu yínhángkǎ ba?"
+    },
+    {
+      "speaker": "a",
+      "text": "有，我办了一张银行卡。",
+      "reading": "Yǒu, wǒ bàn le yī zhāng yínhángkǎ."
+    },
+    {
+      "speaker": "b",
+      "text": "那你扫一下这个二维码，然后付十五块。",
+      "reading": "Nà nǐ sǎo yīxià zhège èrwéimǎ, ránhòu fù shíwǔ kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "扫好了……付了！",
+      "reading": "Sǎohǎo le…… fù le!"
+    },
+    {
+      "speaker": "b",
+      "text": "你看，多方便！现在很多中国人只用手机付钱。",
+      "reading": "Nǐ kàn, duō fāngbiàn! Xiànzài hěn duō Zhōngguó rén zhǐ yòng shǒujī fù qián."
+    },
+    {
+      "speaker": "a",
+      "text": "那我以后也只带手机，不带钱包了！",
+      "reading": "Nà wǒ yǐhòu yě zhǐ dài shǒujī, bù dài qiánbāo le!"
+    }
+  ]
+}

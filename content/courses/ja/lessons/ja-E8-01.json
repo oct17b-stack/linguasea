@@ -1,0 +1,95 @@
+{
+  "id": "ja-E8-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.chokin",
+      "text": "ちょきん",
+      "reading": "chokin"
+    },
+    {
+      "id": "ja.shakkin",
+      "text": "借金",
+      "reading": "shakkin"
+    },
+    {
+      "id": "ja.kyuuryoubi",
+      "text": "給料日",
+      "reading": "kyūryōbi"
+    },
+    {
+      "id": "ja.tariru",
+      "text": "足りる",
+      "reading": "tariru"
+    },
+    {
+      "id": "ja.akaji",
+      "text": "赤字",
+      "reading": "akaji"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、きいて。今月も、給料日のまえに、おかねがなくなっちゃった。",
+      "reading": "Namu, kiite. Kongetsu mo, kyūryōbi no mae ni, okane ga nakunatchatta."
+    },
+    {
+      "speaker": "a",
+      "text": "また？先月もそうだったよね。",
+      "reading": "Mata? Sengetsu mo sō datta yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "うん。アルバイトをがんばったのに、ぜんぜん足りないの。",
+      "reading": "Un. Arubaito o ganbatta noni, zenzen tarinai no."
+    },
+    {
+      "speaker": "a",
+      "text": "今月は、なにかたかいものをかったの？",
+      "reading": "Kongetsu wa, nanika takai mono o katta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "あたらしいスマホ。半年もちょきんしたのに、足りなくて…。親に借金しちゃった。",
+      "reading": "Atarashii sumaho. Hantoshi mo chokin shita noni, tarinakute…. Oya ni shakkin shichatta."
+    },
+    {
+      "speaker": "a",
+      "text": "借金はよくないよ。まいつき、赤字なの？",
+      "reading": "Shakkin wa yoku nai yo. Maitsuki, akaji na no?"
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの。むだづかいしないように、きをつけているのに…。",
+      "reading": "Sō na no. Mudazukai shinai yō ni, ki o tsukete iru noni…."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきは、カフェによくいくでしょう？1かい600円でも、まいにちだと、30日で18,000円だよ。",
+      "reading": "Yuki wa, kafe ni yoku iku deshō? Ikkai roppyaku en demo, mainichi da to, sanjūnichi de ichiman hassen en da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "そんなに！？ぜんぜん考えていなかった…。",
+      "reading": "Sonna ni!? Zenzen kangaete inakatta…."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは、給料日に、すぐ10,000円をちょきんするようにしているよ。",
+      "reading": "Watashi wa, kyūryōbi ni, sugu ichiman en o chokin suru yō ni shite iru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "えらいね。でも、そうすると、のこりのおかねで足りる？",
+      "reading": "Erai ne. Demo, sō suru to, nokori no okane de tariru?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。のこったおかねだけで生活するから、だいじょうぶ。ゆきも、来月からそうしてみたら？",
+      "reading": "Un. Nokotta okane dake de seikatsu suru kara, daijōbu. Yuki mo, raigetsu kara sō shite mitara?"
+    }
+  ]
+}

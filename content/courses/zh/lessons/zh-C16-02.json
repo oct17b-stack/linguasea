@@ -1,0 +1,70 @@
+{
+  "id": "zh-C16-02",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.wei-xin",
+      "text": "微信",
+      "reading": "Wēixìn"
+    },
+    {
+      "id": "zh.liao-tian",
+      "text": "聊天",
+      "reading": "liáotiān"
+    },
+    {
+      "id": "zh.xiao-xi",
+      "text": "消息",
+      "reading": "xiāoxi"
+    },
+    {
+      "id": "zh.qun",
+      "text": "群",
+      "reading": "qún"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你的新手机上有微信了没有？",
+      "reading": "Xiǎonán, nǐ de xīn shǒujī shang yǒu Wēixìn le méiyǒu?"
+    },
+    {
+      "speaker": "a",
+      "text": "有了。可是以前的聊天都没有了。",
+      "reading": "Yǒu le. Kěshì yǐqián de liáotiān dōu méiyǒu le."
+    },
+    {
+      "speaker": "b",
+      "text": "没关系，我先加你。我给你发了一个消息，你收到了没有？",
+      "reading": "Méi guānxi, wǒ xiān jiā nǐ. Wǒ gěi nǐ fā le yī ge xiāoxi, nǐ shōudào le méiyǒu?"
+    },
+    {
+      "speaker": "a",
+      "text": "收到了！你还发了一个笑脸。",
+      "reading": "Shōudào le! Nǐ hái fā le yī ge xiàoliǎn."
+    },
+    {
+      "speaker": "b",
+      "text": "我们打篮球的朋友有一个微信群，你想进吗？",
+      "reading": "Wǒmen dǎ lánqiú de péngyou yǒu yī ge Wēixìn qún, nǐ xiǎng jìn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "想！群里有多少人？",
+      "reading": "Xiǎng! Qún lǐ yǒu duōshao rén?"
+    },
+    {
+      "speaker": "b",
+      "text": "二十个人左右。好了，你看看，你进群了没有？",
+      "reading": "Èrshí ge rén zuǒyòu. Hǎo le, nǐ kànkan, nǐ jìn qún le méiyǒu?"
+    },
+    {
+      "speaker": "a",
+      "text": "进了！大家都说“欢迎小南”！",
+      "reading": "Jìn le! Dàjiā dōu shuō \"Huānyíng Xiǎonán\"!"
+    }
+  ]
+}

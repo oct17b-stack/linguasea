@@ -1,0 +1,95 @@
+{
+  "id": "ja-E8-04",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.burando",
+      "text": "ブランド",
+      "reading": "burando"
+    },
+    {
+      "id": "ja.teika",
+      "text": "ていか",
+      "reading": "teika"
+    },
+    {
+      "id": "ja.hangaku",
+      "text": "はんがく",
+      "reading": "hangaku"
+    },
+    {
+      "id": "ja.nebiki",
+      "text": "値引き",
+      "reading": "nebiki"
+    },
+    {
+      "id": "ja.shoudougai",
+      "text": "しょうどうがい",
+      "reading": "shōdōgai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "みて！このブランドのかばん、はんがくだって！",
+      "reading": "Mite! Kono burando no kaban, hangaku da tte!"
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうだ。ていかは4まん円なのに、2まん円になっている。",
+      "reading": "Hontō da. Teika wa yonman en na noni, niman en ni natte iru."
+    },
+    {
+      "speaker": "c",
+      "text": "ブランドのかばんにしては、やすいよね。",
+      "reading": "Burando no kaban ni shite wa, yasui yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。でも、ブランドのものにしては、デザインがシンプルだね。",
+      "reading": "Sō da ne. Demo, burando no mono ni shite wa, dezain ga shinpuru da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そこがいいの！それに、きょうは、レジでもう1,000円値引きしてくれるんだって。",
+      "reading": "Soko ga ii no! Sore ni, kyō wa, reji de mō sen en nebiki shite kureru n da tte."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆき、まさか、かうの？",
+      "reading": "Yuki, masaka, kau no?"
+    },
+    {
+      "speaker": "c",
+      "text": "…かっちゃおうかな。",
+      "reading": "…Katchaō ka na."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっとまって！先週も、しょうどうがいをして、こうかいしていたでしょう？",
+      "reading": "Chotto matte! Senshū mo, shōdōgai o shite, kōkai shite ita deshō?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん…。でも、こんなにお得なのに…。",
+      "reading": "Un…. Demo, konna ni otoku na noni…."
+    },
+    {
+      "speaker": "a",
+      "text": "今月は、もう赤字なんでしょう？",
+      "reading": "Kongetsu wa, mō akaji na n deshō?"
+    },
+    {
+      "speaker": "c",
+      "text": "そうだった…。じゃあ、きょうは、かわないでおく。",
+      "reading": "Sō datta…. Jā, kyō wa, kawanaide oku."
+    },
+    {
+      "speaker": "a",
+      "text": "えらい！ゆきにしては、すごいがまんだね。",
+      "reading": "Erai! Yuki ni shite wa, sugoi gaman da ne."
+    }
+  ]
+}

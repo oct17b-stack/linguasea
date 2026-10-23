@@ -1,0 +1,95 @@
+{
+  "id": "ja-E8-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.seikatsuhi",
+      "text": "生活費",
+      "reading": "seikatsuhi"
+    },
+    {
+      "id": "ja.kakeibo",
+      "text": "かけいぼ",
+      "reading": "kakeibo"
+    },
+    {
+      "id": "ja.kounetsuhi",
+      "text": "光熱費",
+      "reading": "kōnetsuhi"
+    },
+    {
+      "id": "ja.shokuhi",
+      "text": "食費",
+      "reading": "shokuhi"
+    },
+    {
+      "id": "ja.shishutsu",
+      "text": "支出",
+      "reading": "shishutsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、にほんで生活するのに、まいつき、いくらぐらいひつよう？",
+      "reading": "Namu, Nihon de seikatsu suru noni, maitsuki, ikura gurai hitsuyō?"
+    },
+    {
+      "speaker": "a",
+      "text": "生活費は、やちんをいれると、10まん円ぐらいかな。",
+      "reading": "Seikatsuhi wa, yachin o ireru to, jūman en gurai ka na."
+    },
+    {
+      "speaker": "c",
+      "text": "やちんのほかには？",
+      "reading": "Yachin no hoka ni wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "食費が3まん円、光熱費が1まん円ぐらい。スマホの料金もあるよ。",
+      "reading": "Shokuhi ga sanman en, kōnetsuhi ga ichiman en gurai. Sumaho no ryōkin mo aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "よくわかるね。わたしは、なにに、いくらつかったか、ぜんぜんわからない。",
+      "reading": "Yoku wakaru ne. Watashi wa, nani ni, ikura tsukatta ka, zenzen wakaranai."
+    },
+    {
+      "speaker": "a",
+      "text": "まいにち、かけいぼをかいているからだよ。このアプリは、支出をきろくするのにべんりなの。",
+      "reading": "Mainichi, kakeibo o kaite iru kara da yo. Kono apuri wa, shishutsu o kiroku suru noni benri na no."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ。どうつかうの？",
+      "reading": "Hē. Dō tsukau no?"
+    },
+    {
+      "speaker": "a",
+      "text": "レシートのしゃしんをとるだけ。食費や光熱費に、アプリが分けてくれるの。",
+      "reading": "Reshīto no shashin o toru dake. Shokuhi ya kōnetsuhi ni, apuri ga wakete kureru no."
+    },
+    {
+      "speaker": "c",
+      "text": "べんりだね！わたしもつかってみたい。でも、アプリはおかねがかかる？",
+      "reading": "Benri da ne! Watashi mo tsukatte mitai. Demo, apuri wa okane ga kakaru?"
+    },
+    {
+      "speaker": "a",
+      "text": "むりょうのアプリもあるよ。生活費をへらすのにも、やくにたつよ。",
+      "reading": "Muryō no apuri mo aru yo. Seikatsuhi o herasu noni mo, yaku ni tatsu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、きょうからはじめてみる。いちばんおかねをつかっているのはなにか、しらべてみるね。",
+      "reading": "Jā, kyō kara hajimete miru. Ichiban okane o tsukatte iru no wa nani ka, shirabete miru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。30日ぐらいつづけると、よくわかるよ。",
+      "reading": "Un. Sanjūnichi gurai tsuzukeru to, yoku wakaru yo."
+    }
+  ]
+}

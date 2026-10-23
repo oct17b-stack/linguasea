@@ -1,0 +1,70 @@
+{
+  "id": "zh-C16-01",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.wang-zhan",
+      "text": "网站",
+      "reading": "wǎngzhàn"
+    },
+    {
+      "id": "zh.xin-xi",
+      "text": "信息",
+      "reading": "xìnxī"
+    },
+    {
+      "id": "zh.cha-check",
+      "text": "查",
+      "reading": "chá"
+    },
+    {
+      "id": "zh.xin-wen",
+      "text": "新闻",
+      "reading": "xīnwén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你每天上网做什么？",
+      "reading": "Xiǎonán, nǐ měitiān shàngwǎng zuò shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "我在网上看泰国新闻，也查汉字。",
+      "reading": "Wǒ zài wǎngshang kàn Tàiguó xīnwén, yě chá Hànzì."
+    },
+    {
+      "speaker": "b",
+      "text": "你用什么网站查汉字？",
+      "reading": "Nǐ yòng shénme wǎngzhàn chá Hànzì?"
+    },
+    {
+      "speaker": "a",
+      "text": "我用一个学中文的网站，信息很多，也很好用。",
+      "reading": "Wǒ yòng yī ge xué Zhōngwén de wǎngzhàn, xìnxī hěn duō, yě hěn hǎoyòng."
+    },
+    {
+      "speaker": "b",
+      "text": "我也常常在网上看新闻，还在网上买东西。",
+      "reading": "Wǒ yě chángcháng zài wǎngshang kàn xīnwén, hái zài wǎngshang mǎi dōngxi."
+    },
+    {
+      "speaker": "a",
+      "text": "我也想在网上买东西，可是我还不会。",
+      "reading": "Wǒ yě xiǎng zài wǎngshang mǎi dōngxi, kěshì wǒ hái bù huì."
+    },
+    {
+      "speaker": "b",
+      "text": "没关系，我教你！不难。",
+      "reading": "Méi guānxi, wǒ jiāo nǐ! Bù nán."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！我还想在网上查一下去西安的火车票。",
+      "reading": "Tài hǎo le! Wǒ hái xiǎng zài wǎngshang chá yīxià qù Xī'ān de huǒchēpiào."
+    }
+  ]
+}

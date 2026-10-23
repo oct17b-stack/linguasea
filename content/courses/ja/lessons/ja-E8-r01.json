@@ -1,0 +1,104 @@
+{
+  "id": "ja-E8-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ja.kyasshuresu",
+      "text": "キャッシュレス",
+      "reading": "kyasshuresu"
+    },
+    {
+      "id": "ja.fukyuu",
+      "text": "ふきゅう",
+      "reading": "fukyū"
+    },
+    {
+      "id": "ja.denshimanee",
+      "text": "電子マネー",
+      "reading": "denshimanē"
+    },
+    {
+      "id": "ja.kessai",
+      "text": "決済",
+      "reading": "kessai"
+    },
+    {
+      "id": "ja.qr-koodo",
+      "text": "QRコード",
+      "reading": "kyūāru kōdo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "タイとにほんのキャッシュレス決済",
+        "reading": "Tai to Nihon no kyasshuresu kessai"
+      },
+      {
+        "text": "タイでは、スマホのQRコードでお金をはらうのが、ふつうになった。",
+        "reading": "Tai de wa, sumaho no kyūāru kōdo de okane o harau no ga, futsū ni natta."
+      },
+      {
+        "text": "屋台でも、QRコードがつかえるみせがおおい。",
+        "reading": "Yatai demo, kyūāru kōdo ga tsukaeru mise ga ōi."
+      },
+      {
+        "text": "タイでは、キャッシュレスがとてもはやくふきゅうしたのだ。",
+        "reading": "Tai de wa, kyasshuresu ga totemo hayaku fukyū shita no da."
+      }
+    ],
+    [
+      {
+        "text": "にほんでは、ながいあいだ、げんきんでしはらうひとがおおかった。",
+        "reading": "Nihon de wa, nagai aida, genkin de shiharau hito ga ōkatta."
+      },
+      {
+        "text": "しかし、さいきんは、にほんでもキャッシュレス決済がふえている。",
+        "reading": "Shikashi, saikin wa, Nihon demo kyasshuresu kessai ga fuete iru."
+      },
+      {
+        "text": "駅やコンビニでは、ICカードの電子マネーが、よくつかわれている。",
+        "reading": "Eki ya konbini de wa, aishī kādo no denshimanē ga, yoku tsukawarete iru."
+      },
+      {
+        "text": "また、QRコードの決済も、わかいひとのあいだで人気がある。",
+        "reading": "Mata, kyūāru kōdo no kessai mo, wakai hito no aida de ninki ga aru."
+      }
+    ],
+    [
+      {
+        "text": "それでも、ちいさなみせやレストランの中には、げんきんしかつかえないところもある。",
+        "reading": "Sore demo, chiisana mise ya resutoran no naka ni wa, genkin shika tsukaenai tokoro mo aru."
+      },
+      {
+        "text": "タイからきたひとは、にほんでげんきんがひつようなことに、おどろくことがおおい。",
+        "reading": "Tai kara kita hito wa, Nihon de genkin ga hitsuyō na koto ni, odoroku koto ga ōi."
+      },
+      {
+        "text": "キャッシュレスはべんりだが、スマホのバッテリーがなくなると、なにもかえない。",
+        "reading": "Kyasshuresu wa benri da ga, sumaho no batterī ga nakunaru to, nani mo kaenai."
+      },
+      {
+        "text": "げんきんとキャッシュレスを、うまくつかい分けるのがいいだろう。",
+        "reading": "Genkin to kyasshuresu o, umaku tsukaiwakeru no ga ii darō."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 1
+    }
+  ]
+}
