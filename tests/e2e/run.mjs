@@ -66,7 +66,11 @@ async function newPage(seed) {
   });
   return session;
 }
-const state = async (page) => JSON.parse((await page.evaluate(() => localStorage.getItem('linguasea/state/v1'))) ?? 'null');
+// The app saves its state at most once a second.
+const state = async (page) => {
+  await page.waitForTimeout(1200);
+  return JSON.parse((await page.evaluate(() => localStorage.getItem('linguasea/state/v1'))) ?? 'null');
+};
 const account = async (page) => JSON.parse((await page.evaluate(() => localStorage.getItem('linguasea.account'))) ?? 'null');
 async function until(fn, ms = 8000) {
   const end = Date.now() + ms;

@@ -1,4 +1,3 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { courseKey, type CourseBundle, type L1, type Target } from '@linguasea/contract';
 import {
   completeLesson,
@@ -17,6 +16,7 @@ import * as api from '@/lib/api';
 import { translate } from '@/lib/i18n';
 import { deviceL1 } from '@/lib/locale';
 import { forgetPurchaser, identify, startPurchases } from '@/lib/purchases';
+import { clearState, loadState, saveState } from '@/lib/state-store';
 import {
   cancelReminder,
   reminderPermitted,
@@ -25,13 +25,14 @@ import {
   scheduleReminder,
 } from '@/lib/reminders';
 
-const STORAGE_KEY = 'linguasea/state/v1';
 
 /** Wait after a finished lesson / a reviewed card before syncing, so a review session sends one update. */
 const SYNC_AFTER_LESSON_MS = 500;
 const SYNC_AFTER_REVIEW_MS = 3000;
 /** Coming back to the app syncs again, at most this often. */
 const FOREGROUND_SYNC_MS = 60_000;
+/** Each review answer changes the state; with thousands of cards, writing it every time would stutter. */
+const SAVE_MS = 1000;
 
 export type Reminder = { on: boolean; hour: number; minute: number };
 
@@ -157,15 +158,43 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   }, [saved]);
 
   useEffect(() => {
-    AsyncStorage.getItem(STORAGE_KEY)
+    loadState()
       .then((raw) => setSaved(revive(raw)))
       .catch(() => {})
       .finally(() => setReady(true));
   }, []);
 
+  // Saved at most every SAVE_MS, one write at a time, and at once when the app leaves the foreground.
+  const saving = useRef({
+    timer: undefined as ReturnType<typeof setTimeout> | undefined,
+    dirty: false,
+    writes: Promise.resolve(),
+  });
+  const flush = useCallback(() => {
+    const w = saving.current;
+    clearTimeout(w.timer);
+    w.timer = undefined;
+    if (w.dirty) {
+      w.dirty = false;
+      const raw = JSON.stringify(latest.current);
+      w.writes = w.writes.then(() => saveState(raw)).catch(() => {});
+    }
+    return w.writes;
+  }, []);
+
   useEffect(() => {
-    if (ready) AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(saved)).catch(() => {});
-  }, [saved, ready]);
+    if (!ready) return;
+    const w = saving.current;
+    w.dirty = true;
+    w.timer ??= setTimeout(flush, SAVE_MS);
+  }, [saved, ready, flush]);
+
+  useEffect(() => {
+    const sub = SystemAppState.addEventListener('change', (state) => {
+      if (state !== 'active') void flush();
+    });
+    return () => sub.remove();
+  }, [flush]);
 
   /**
    * Sends local progress, adopts the server's merge, and merges it with what changed locally in the
@@ -311,7 +340,13 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       return false;
     }
     await cancelReminder().catch(() => {});
-    await AsyncStorage.removeItem(STORAGE_KEY).catch(() => {});
+    // A pending save must not write the old state back after it is cleared.
+    const w = saving.current;
+    clearTimeout(w.timer);
+    w.timer = undefined;
+    w.dirty = false;
+    await w.writes;
+    await clearState().catch(() => {});
     setSaved((cur) => fresh(cur.l1));
     s.paused = false;
     return true;
