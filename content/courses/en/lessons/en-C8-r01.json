@@ -1,0 +1,76 @@
+{
+  "id": "en-C8-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.fitting-room",
+      "text": "fitting room",
+      "reading": "ˈfɪtɪŋ ˌruːm"
+    },
+    {
+      "id": "en.fit",
+      "text": "fit",
+      "reading": "fɪt"
+    },
+    {
+      "id": "en.it-suits-you",
+      "kind": "phrase",
+      "text": "It suits you",
+      "reading": "ɪt ˈsuːts juː"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Nam and Emma are shopping at the mall.",
+        "reading": "ˈnɑːm ənd ˈɛmə ər ˈʃɑːpɪŋ ət ðə ˈmɔːl."
+      },
+      {
+        "text": "Nam likes a green jacket, so she takes it to the fitting room.",
+        "reading": "ˈnɑːm ˈlaɪks ə ˈɡriːn ˈdʒækɪt, soʊ ʃiː ˈteɪks ɪt tə ðə ˈfɪtɪŋ ˌruːm."
+      }
+    ],
+    [
+      {
+        "text": "\"It doesn't fit. It's too big,\" Nam says.",
+        "reading": "ɪt ˈdʌzənt ˈfɪt. ɪts ˈtuː ˈbɪɡ, ˈnɑːm ˈsɛz."
+      },
+      {
+        "text": "\"Excuse me, do you have a smaller size?\" she says to the woman at the shop.",
+        "reading": "ɪkˈskjuːz miː, duː juː ˈhæv ə ˈsmɔːlər ˈsaɪz? ʃiː ˈsɛz tə ðə ˈwʊmən ət ðə ˈʃɑːp."
+      },
+      {
+        "text": "\"Yes, here's a small,\" the woman says.",
+        "reading": "ˈjɛs, hɪrz ə ˈsmɔːl, ðə ˈwʊmən ˈsɛz."
+      }
+    ],
+    [
+      {
+        "text": "Nam tries on the small jacket, and it fits perfectly.",
+        "reading": "ˈnɑːm ˈtraɪz ˈɑːn ðə ˈsmɔːl ˈdʒækɪt, ənd ɪt ˈfɪts ˈpɜːrfɪktli."
+      },
+      {
+        "text": "Emma says, \"It suits you, Nam! Green is your color.\"",
+        "reading": "ˈɛmə ˈsɛz, ɪt ˈsuːts juː, ˈnɑːm! ˈɡriːn ɪz jʊr ˈkʌlər."
+      },
+      {
+        "text": "Nam is very happy, and she buys the jacket.",
+        "reading": "ˈnɑːm ɪz ˈvɛri ˈhæpi, ənd ʃiː ˈbaɪz ðə ˈdʒækɪt."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

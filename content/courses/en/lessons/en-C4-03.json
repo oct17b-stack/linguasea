@@ -1,0 +1,72 @@
+{
+  "id": "en-C4-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.the-day-after-tomorrow",
+      "kind": "phrase",
+      "text": "the day after tomorrow",
+      "reading": "ðə ˌdeɪ ˌæftər təˈmɑːroʊ"
+    },
+    {
+      "id": "en.future",
+      "text": "future",
+      "reading": "ˈfjuːtʃər"
+    },
+    {
+      "id": "en.someday",
+      "text": "someday",
+      "reading": "ˈsʌmdeɪ"
+    },
+    {
+      "id": "en.this-time-next-year",
+      "kind": "phrase",
+      "text": "this time next year",
+      "reading": "ˌðɪs ˌtaɪm nɛkst ˈjɪr"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, when is your trip to Chiang Mai?",
+      "reading": "ˈnɑːm, ˈwɛn ɪz jʊr ˈtrɪp tə ˈtʃjɑːŋ ˈmaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "The day after tomorrow! When are you going to go home to Canada?",
+      "reading": "ðə ˈdeɪ ˈæftər təˈmɑːroʊ! ˈwɛn ər juː ˈɡoʊɪŋ tə ˈɡoʊ ˈhoʊm tə ˈkænədə?"
+    },
+    {
+      "speaker": "c",
+      "text": "In two weeks, for the holidays.",
+      "reading": "ɪn ˈtuː ˈwiːks, fər ðə ˈhɑːlədeɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "How long are you going to stay there?",
+      "reading": "ˈhaʊ ˈlɔːŋ ər juː ˈɡoʊɪŋ tə ˈsteɪ ˈðɛr?"
+    },
+    {
+      "speaker": "c",
+      "text": "Three weeks. Then I'm going to return for my last semester.",
+      "reading": "ˈθriː ˈwiːks. ˈðɛn aɪm ˈɡoʊɪŋ tə rɪˈtɜːrn fər maɪ ˈlæst səˈmɛstər."
+    },
+    {
+      "speaker": "a",
+      "text": "And what are your plans for the future?",
+      "reading": "ənd ˈwʌt ər jʊr ˈplænz fər ðə ˈfjuːtʃər?"
+    },
+    {
+      "speaker": "c",
+      "text": "This time next year, I'm going to work in Bangkok!",
+      "reading": "ðɪs ˈtaɪm ˈnɛkst ˈjɪr, aɪm ˈɡoʊɪŋ tə ˈwɜːrk ɪn ˈbæŋkɑːk!"
+    },
+    {
+      "speaker": "a",
+      "text": "Great! And someday, I'm going to visit Canada.",
+      "reading": "ˈɡreɪt! ənd ˈsʌmdeɪ, aɪm ˈɡoʊɪŋ tə ˈvɪzɪt ˈkænədə."
+    }
+  ]
+}

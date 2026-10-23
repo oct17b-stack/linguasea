@@ -1,0 +1,50 @@
+{
+  "id": "ko-A14-01",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.ppangjip",
+      "text": "빵집",
+      "reading": "ppangjip"
+    },
+    {
+      "id": "ko.kkotjip",
+      "text": "꽃집",
+      "reading": "kkotjip"
+    },
+    {
+      "id": "ko.seojeom",
+      "text": "서점",
+      "reading": "seojeom"
+    },
+    {
+      "id": "ko.mungujeom",
+      "text": "문구점",
+      "reading": "mungujeom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 저거 빵집이에요?",
+      "reading": "Minjun ssi, jeogeo ppangjibieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 꽃집이에요. 빵집은 이 층이에요.",
+      "reading": "Aniyo, kkotjibieyo. Ppangjibeun i cheungieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "서점은요?",
+      "reading": "Seojeomeunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "서점은 삼 층이에요. 문구점도 삼 층이에요.",
+      "reading": "Seojeomeun sam cheungieyo. Mungujeomdo sam cheungieyo."
+    }
+  ]
+}

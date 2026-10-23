@@ -1,0 +1,96 @@
+{
+  "id": "ko-F6-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.poseuteo",
+      "text": "포스터",
+      "reading": "poseuteo"
+    },
+    {
+      "id": "ko.hyeondae-misul",
+      "text": "현대 미술",
+      "reading": "hyeondae misul",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.dokteuk-hada",
+      "text": "독특하다",
+      "reading": "dokteukada"
+    },
+    {
+      "id": "ko.chusangjeok",
+      "text": "추상적",
+      "reading": "chusangjeok"
+    },
+    {
+      "id": "ko.yeonggam",
+      "text": "영감",
+      "reading": "yeonggam"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 주말에 뭐 했어요?",
+      "reading": "Nam ssi, jumare mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "인사동을 걷다가 작은 미술관 앞에 있는 포스터가 너무 독특하길래 들어가 봤어요.",
+      "reading": "Insadongeul geotdaga jageun misulgwan ape inneun poseuteoga neomu dokteukagillae deureoga bwasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "무슨 전시였어요?",
+      "reading": "Museun jeonsiyeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "현대 미술 전시였어요. 그런데 작품들이 너무 추상적이라서 무엇을 그린 건지 잘 몰랐어요.",
+      "reading": "Hyeondae misul jeonsiyeosseoyo. Geureonde jakpumdeuri neomu chusangjeogiraseo mueoseul geurin geonji jal mollasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "현대 미술은 원래 이해하기 어려운 게 많아요.",
+      "reading": "Hyeondae misureun wollae ihaehagi eoryeoun ge manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 직원에게 물어봤더니 친절하게 설명해 줬어요.",
+      "reading": "Geuraeseo jigwonege mureobwatdeoni chinjeolhage seolmyeonghae jwosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다행이네요. 어떤 작품이 제일 기억에 남아요?",
+      "reading": "Dahaengineyo. Eotteon jakpumi jeil gieoge namayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "빨간색과 파란색만 있는 그림이었는데, 화가가 서울의 아침에서 영감을 받았대요.",
+      "reading": "Ppalgansaekgwa paransaengman inneun geurimieonneunde, hwagaga Seourui achimeseo yeonggameul badatdaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "재미있네요. 그런데 그 미술관은 입장료가 비싸지 않았어요?",
+      "reading": "Jaemiinneyo. Geureonde geu misulgwaneun ipjangnyoga bissaji anasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "입구에 '무료'라고 쓰여 있길래 부담 없이 들어갔어요.",
+      "reading": "Ipgue 'muryo'rago sseuyeo itgillae budam eopsi deureogasseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "저도 가 보고 싶네요. 사람이 많아요?",
+      "reading": "Jeodo ga bogo simneyo. Sarami manayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 조용하길래 한 시간 넘게 천천히 봤어요. 저도 그림을 보면서 영감을 받은 것 같아요.",
+      "reading": "Aniyo, joyonghagillae han sigan neomge cheoncheonhi bwasseoyo. Jeodo geurimeul bomyeonseo yeonggameul badeun geot gatayo."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "en-C4-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.plan",
+      "text": "plan",
+      "reading": "plæn"
+    },
+    {
+      "id": "en.relax",
+      "text": "relax",
+      "reading": "rɪˈlæks"
+    },
+    {
+      "id": "en.go-out",
+      "kind": "phrase",
+      "text": "go out",
+      "reading": "ˌɡoʊ ˈaʊt"
+    },
+    {
+      "id": "en.sleep-in",
+      "kind": "phrase",
+      "text": "sleep in",
+      "reading": "ˌsliːp ˈɪn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "There's no class on Monday! What are your plans?",
+      "reading": "ðɛrz ˈnoʊ ˈklæs ɑːn ˈmʌndeɪ! ˈwʌt ər jʊr ˈplænz?"
+    },
+    {
+      "speaker": "a",
+      "text": "On Saturday, I'm going to sleep in. Then I'm going to work.",
+      "reading": "ɑːn ˈsætərdeɪ, aɪm ˈɡoʊɪŋ tə ˈsliːp ˈɪn. ˈðɛn aɪm ˈɡoʊɪŋ tə ˈwɜːrk."
+    },
+    {
+      "speaker": "c",
+      "text": "And on Sunday?",
+      "reading": "ənd ɑːn ˈsʌndeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm going to see my grandparents with my family.",
+      "reading": "aɪm ˈɡoʊɪŋ tə ˈsiː maɪ ˈɡrænpɛrənts wɪð maɪ ˈfæməli."
+    },
+    {
+      "speaker": "c",
+      "text": "Nice! I'm going to go out with some friends on Monday. Come with us!",
+      "reading": "ˈnaɪs! aɪm ˈɡoʊɪŋ tə ˈɡoʊ ˈaʊt wɪð sʌm ˈfrɛndz ɑːn ˈmʌndeɪ. ˈkʌm wɪð ʌs!"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, I'm tired. I'm going to relax at home.",
+      "reading": "ˈsɑːri, aɪm ˈtaɪərd. aɪm ˈɡoʊɪŋ tə rɪˈlæks ət ˈhoʊm."
+    },
+    {
+      "speaker": "c",
+      "text": "But we're going to see a movie and have dinner!",
+      "reading": "bʌt wɪr ˈɡoʊɪŋ tə ˈsiː ə ˈmuːvi ənd ˈhæv ˈdɪnər!"
+    },
+    {
+      "speaker": "a",
+      "text": "Well… OK! I can relax on Tuesday evening.",
+      "reading": "ˈwɛl… oʊˈkeɪ! aɪ kən rɪˈlæks ɑːn ˈtuːzdeɪ ˈiːvnɪŋ."
+    }
+  ]
+}

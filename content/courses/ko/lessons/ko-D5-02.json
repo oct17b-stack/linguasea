@@ -1,0 +1,87 @@
+{
+  "id": "ko-D5-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.mesijireul-namgida",
+      "text": "메시지를 남기다",
+      "reading": "mesijireul namgida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jeon-hada",
+      "text": "전하다",
+      "reading": "jeonhada"
+    },
+    {
+      "id": "ko.oechul-hada",
+      "text": "외출하다",
+      "reading": "oechulhada"
+    },
+    {
+      "id": "ko.doraoda",
+      "text": "돌아오다",
+      "reading": "doraoda"
+    },
+    {
+      "id": "ko.jarireul-biuda",
+      "text": "자리를 비우다",
+      "reading": "jarireul biuda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "여보세요? 한빛 한국어 학교예요.",
+      "reading": "Yeoboseyo? Hanbit hangugeo hakgyoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 저 남인데요.",
+      "reading": "Annyeonghaseyo. Jeo Namindeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 남 씨. 조금 전에도 전화를 걸었어요? 미안해요. 제가 잠깐 자리를 비웠어요.",
+      "reading": "A, Nam ssi. Jogeum jeonedo jeonhwareul georeosseoyo? Mianhaeyo. Jega jamkkan jarireul biwosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 이 선생님 계세요?",
+      "reading": "Gwaenchanayo. I seonsaengnim gyeseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "선생님은 지금 외출 중이에요. 네 시쯤 돌아오세요.",
+      "reading": "Seonsaengnimeun jigeum oechul jungieyo. Ne sijjeum doraoseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 메시지를 남길 수 있어요?",
+      "reading": "Geureom mesijireul namgil su isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 제가 전해 드릴게요.",
+      "reading": "Ne, jega jeonhae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감기에 걸려서 내일 수업에 못 가요. 선생님께 전해 주세요.",
+      "reading": "Gamgie geollyeoseo naeil sueobe mot gayo. Seonsaengnimkke jeonhae juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 다 나을 때까지 푹 쉬세요. 선생님께 꼭 전해 드릴게요.",
+      "reading": "Aigo, da naeul ttaekkaji puk swiseyo. Seonsaengnimkke kkok jeonhae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 선생님 전화가 올 때까지 집에서 기다릴게요.",
+      "reading": "Gamsahamnida. Seonsaengnim jeonhwaga ol ttaekkaji jibeseo gidarilgeyo."
+    }
+  ]
+}

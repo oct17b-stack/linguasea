@@ -1,0 +1,90 @@
+{
+  "id": "ko-F12-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.deiteo",
+      "text": "데이터",
+      "reading": "deiteo"
+    },
+    {
+      "id": "ko.bunseok-hada",
+      "text": "분석하다",
+      "reading": "bunseokada"
+    },
+    {
+      "id": "ko.jadonghwa",
+      "text": "자동화",
+      "reading": "jadonghwa"
+    },
+    {
+      "id": "ko.daeche-hada",
+      "text": "대체하다",
+      "reading": "daechehada"
+    },
+    {
+      "id": "ko.ingan",
+      "text": "인간",
+      "reading": "ingan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "이 로봇은 사람들의 말을 듣고 감정을 알아내요.",
+      "reading": "I roboseun saramdeurui mareul deutgo gamjeongeul aranaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어떻게 감정을 알 수 있어요?",
+      "reading": "Eotteoke gamjeongeul al su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "수많은 대화 데이터를 분석함으로써 목소리와 말투의 차이를 배우는 거예요.",
+      "reading": "Sumaneun daehwa deiteoreul bunseokameurosseo moksoriwa maltuui chaireul baeuneun geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "인공 지능이 정말 똑똑해졌네요.",
+      "reading": "Ingong jineungi jeongmal ttokttokaejyeonneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 요즘은 공장이나 식당에서도 자동화가 빠르게 진행되고 있어요.",
+      "reading": "Ne, yojeumeun gongjangina sikdangeseodo jadonghwaga ppareuge jinhaengdoego isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 로봇이 인간의 일을 대체하게 되겠네요. 일자리가 없어질까 봐 걱정돼요.",
+      "reading": "Geureom robosi inganui ireul daechehage doegenneyo. Iljariga eopseojilkka bwa geokjeongdwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그런 걱정도 있지만, 위험한 일을 로봇에게 맡김으로써 사고를 줄일 수도 있어요.",
+      "reading": "Geureon geokjeongdo itjiman, wiheomhan ireul robosege matgimeurosseo sagoreul juril sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그건 좋은 점이네요.",
+      "reading": "A, geugeon joeun jeomineyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그리고 단순한 일을 자동화함으로써 사람은 더 창의적인 일에 집중할 수 있고요.",
+      "reading": "Geurigo dansunhan ireul jadonghwahameurosseo sarameun deo changuijeogin ire jipjunghal su itgoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 사람의 마음을 이해하는 일은 인간만 할 수 있지 않을까요?",
+      "reading": "Geuraedo saramui maeumeul ihaehaneun ireun inganman hal su itji aneulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "저도 그렇게 생각해요. 기술을 잘 활용함으로써 인간과 로봇이 함께 일하는 게 중요하겠죠.",
+      "reading": "Jeodo geureoke saenggakaeyo. Gisureul jal hwaryonghameurosseo ingangwa robosi hamkke ilhaneun ge jungyohagetjyo."
+    }
+  ]
+}

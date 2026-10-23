@@ -1,0 +1,51 @@
+{
+  "id": "ko-A14-02",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.syupeo",
+      "text": "슈퍼",
+      "reading": "syupeo"
+    },
+    {
+      "id": "ko.jeongyukjeom",
+      "text": "정육점",
+      "reading": "jeongyukjeom"
+    },
+    {
+      "id": "ko.angyeongjeom",
+      "text": "안경점",
+      "reading": "angyeongjeom"
+    },
+    {
+      "id": "ko.ot-gage",
+      "kind": "phrase",
+      "text": "옷 가게",
+      "reading": "ot gage"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 저거 정육점이에요?",
+      "reading": "Minjun ssi, jeogeo jeongyukjeomieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 안경점이에요. 정육점은 슈퍼 안이에요.",
+      "reading": "Aniyo, angyeongjeomieyo. Jeongyukjeomeun syupeo anieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 옷 가게는요?",
+      "reading": "A, ot gageneunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "옷 가게는 안경점 위예요.",
+      "reading": "Ot gageneun angyeongjeom wiyeyo."
+    }
+  ]
+}

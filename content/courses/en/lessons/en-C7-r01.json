@@ -1,0 +1,76 @@
+{
+  "id": "en-C7-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.warning",
+      "text": "warning",
+      "reading": "ˈwɔːrnɪŋ"
+    },
+    {
+      "id": "en.heavy-rain",
+      "kind": "phrase",
+      "text": "heavy rain",
+      "reading": "ˌhɛvi ˈreɪn"
+    },
+    {
+      "id": "en.indoors",
+      "text": "indoors",
+      "reading": "ˌɪnˈdɔːrz"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "This is a weather warning for Bangkok.",
+        "reading": "ðɪs ɪz ə ˈwɛðər ˈwɔːrnɪŋ fər ˈbæŋkɑːk."
+      },
+      {
+        "text": "There will be heavy rain on Saturday and Sunday.",
+        "reading": "ðɛr wɪl bi ˌhɛvi ˈreɪn ɑːn ˈsætərdeɪ ənd ˈsʌndeɪ."
+      },
+      {
+        "text": "Some streets might flood, and there may be storms with thunder.",
+        "reading": "sʌm ˈstriːts maɪt ˈflʌd, ənd ðɛr meɪ bi ˈstɔːrmz wɪð ˈθʌndər."
+      }
+    ],
+    [
+      {
+        "text": "Please stay indoors on Saturday night.",
+        "reading": "ˈpliːz ˈsteɪ ˌɪnˈdɔːrz ɑːn ˈsætərdeɪ ˈnaɪt."
+      },
+      {
+        "text": "If you have to go out, take the train, not your car.",
+        "reading": "ɪf juː ˈhæf tə ˈɡoʊ ˈaʊt, ˈteɪk ðə ˈtreɪn, ˈnɑːt jʊr ˈkɑːr."
+      },
+      {
+        "text": "Don't drive on flooded roads.",
+        "reading": "ˈdoʊnt ˈdraɪv ɑːn ˈflʌdɪd ˈroʊdz."
+      }
+    ],
+    [
+      {
+        "text": "The rain will probably stop on Monday morning.",
+        "reading": "ðə ˈreɪn wɪl ˈprɑːbəbli ˈstɑːp ɑːn ˈmʌndeɪ ˈmɔːrnɪŋ."
+      },
+      {
+        "text": "Please watch the weather forecast on TV.",
+        "reading": "ˈpliːz ˈwɑːtʃ ðə ˈwɛðər ˈfɔːrkæst ɑːn ˌtiːˈviː."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D7-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.bogwan-hada",
+      "text": "보관하다",
+      "reading": "bogwanhada"
+    },
+    {
+      "id": "ko.tteutda",
+      "text": "뜯다",
+      "reading": "tteutda"
+    },
+    {
+      "id": "ko.gihan",
+      "text": "기한",
+      "reading": "gihan"
+    },
+    {
+      "id": "ko.inae",
+      "text": "이내",
+      "reading": "inae"
+    },
+    {
+      "id": "ko.jepum",
+      "text": "제품",
+      "reading": "jepum"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 이 제품을 교환하고 싶은데요.",
+      "reading": "Jeogiyo, i jepumeul gyohwanhago sipeundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 상품을 받고 칠 일 이내에 교환할 수 있어요. 언제 받았어요?",
+      "reading": "Ne, sangpumeul batgo chil il inaee gyohwanhal su isseoyo. Eonje badasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "사흘 전에 받았어요.",
+      "reading": "Saheul jeone badasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 기한은 괜찮아요. 상자는 뜯었어요?",
+      "reading": "Geureom gihaneun gwaenchanayo. Sangjaneun tteudeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 상자는 뜯었는데 제품은 안 썼어요.",
+      "reading": "Ne, sangjaneun tteudeonneunde jepumeun an sseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 괜찮아요. 상자하고 영수증을 잘 보관해 두세요.",
+      "reading": "Geureom gwaenchanayo. Sangjahago yeongsujeungeul jal bogwanhae duseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "영수증은 벌써 사진을 찍어 놓았어요.",
+      "reading": "Yeongsujeungeun beolsseo sajineul jjigeo noasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 내일 택배 기사가 갈 거예요. 상자를 문 앞에 놓아 두세요.",
+      "reading": "Joayo. Naeil taekbae gisaga gal geoyeyo. Sangjareul mun ape noa duseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘 저녁에 미리 포장해 놓을게요.",
+      "reading": "Ne, oneul jeonyeoge miri pojanghae noeulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "감사합니다. 교환 상품은 사흘 이내에 보내 드릴게요.",
+      "reading": "Gamsahamnida. Gyohwan sangpumeun saheul inaee bonae deurilgeyo."
+    }
+  ]
+}

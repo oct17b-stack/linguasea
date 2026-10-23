@@ -1,0 +1,95 @@
+{
+  "id": "ko-F6-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jeonsihoe",
+      "text": "전시회",
+      "reading": "jeonsihoe"
+    },
+    {
+      "id": "ko.hwaga",
+      "text": "화가",
+      "reading": "hwaga"
+    },
+    {
+      "id": "ko.gwallam-hada",
+      "text": "관람하다",
+      "reading": "gwallamhada"
+    },
+    {
+      "id": "ko.jogak",
+      "text": "조각",
+      "reading": "jogak"
+    },
+    {
+      "id": "ko.misulgwan",
+      "text": "미술관",
+      "reading": "misulgwan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이번 주말에 시간 있어요? 같이 전시회에 갈래요?",
+      "reading": "Minjun ssi, ibeon jumare sigan isseoyo? Gachi jeonsihoee gallaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 무슨 전시회예요?",
+      "reading": "Joayo. Museun jeonsihoeyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "광화문 근처 미술관에서 하는 한국 현대 화가들의 전시회예요.",
+      "reading": "Gwanghwamun geuncheo misulgwaneseo haneun Hanguk hyeondae hwagadeurui jeonsihoeyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그림만 있어요?",
+      "reading": "Geurimman isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그림뿐만 아니라 조각 작품도 있대요. 작품이 많은 데다가 입장료도 무료래요.",
+      "reading": "Aniyo, geurimppunman anira jogak jakpumdo itdaeyo. Jakpumi maneun dedaga ipjangnyodo muryoraeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 볼 것도 많은 데다가 무료면 꼭 가야겠네요.",
+      "reading": "Wa, bol geotdo maneun dedaga muryomyeon kkok gayagenneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇죠? 그리고 토요일에는 화가가 직접 작품을 설명해 준대요.",
+      "reading": "Geureochyo? Geurigo toyoireneun hwagaga jikjeop jakpumeul seolmyeonghae jundaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 토요일에 가요. 관람 시간이 어떻게 돼요?",
+      "reading": "Geureom toyoire gayo. Gwallam sigani eotteoke dwaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "오전 열 시부터 오후 여섯 시까지 관람할 수 있대요. 주말에는 사람이 많은 데다가 단체로 오는 학생들도 많대요.",
+      "reading": "Ojeon yeol sibuteo ohu yeoseot sikkaji gwallamhal su itdaeyo. Jumareneun sarami maneun dedaga danchero oneun haksaengdeuldo mantaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 아침 일찍 가서 관람하고 나서 근처에서 같이 점심 먹어요.",
+      "reading": "Geureom achim iljjik gaseo gwallamhago naseo geuncheoeseo gachi jeomsim meogeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 토요일 아침 열 시에 미술관 입구에서 만나요.",
+      "reading": "Joayo! Toyoil achim yeol sie misulgwan ipgueseo mannayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 그때 봐요.",
+      "reading": "Ne, geuttae bwayo."
+    }
+  ]
+}

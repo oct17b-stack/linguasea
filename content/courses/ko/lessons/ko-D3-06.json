@@ -1,0 +1,87 @@
+{
+  "id": "ko-D3-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.bukkeureopda",
+      "text": "부끄럽다",
+      "reading": "bukkeureopda"
+    },
+    {
+      "id": "ko.gwichanta",
+      "text": "귀찮다",
+      "reading": "gwichanta"
+    },
+    {
+      "id": "ko.dapdap-hada",
+      "text": "답답하다",
+      "reading": "dapdapada"
+    },
+    {
+      "id": "ko.gojibi-seda",
+      "text": "고집이 세다",
+      "reading": "gojibi seda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jjajeungi-nada",
+      "text": "짜증이 나다",
+      "reading": "jjajeungi nada",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 어제 지훈이 어땠어요?",
+      "reading": "Nam ssi, eoje Jihuni eottaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋았어요. 그런데 지훈 씨가 좀 부끄러워했어요.",
+      "reading": "Joasseoyo. Geureonde Jihun ssiga jom bukkeureowohaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 지훈이는 처음 만나는 사람 앞에서 많이 부끄러워해요.",
+      "reading": "Haha, Jihunineun cheoeum mannaneun saram apeseo mani bukkeureowohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 처음에는 좀 부끄러웠어요.",
+      "reading": "Jeodo cheoeumeneun jom bukkeureowosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "사진도 같이 찍었어요?",
+      "reading": "Sajindo gachi jjigeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 제가 사진을 찍으려고 했는데 지훈 씨가 귀찮아했어요.",
+      "reading": "Aniyo, jega sajineul jjigeuryeogo haenneunde Jihun ssiga gwichanahaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지훈이는 고집이 세요. 싫으면 안 해요.",
+      "reading": "Jihunineun gojibi seyo. Sireumyeon an haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 식당에 사람이 너무 많아서 지훈 씨가 답답해했어요.",
+      "reading": "Geurigo sikdange sarami neomu manaseo Jihun ssiga dapdapaehaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 지훈이는 사람이 많으면 금방 짜증이 나요.",
+      "reading": "A, Jihunineun sarami maneumyeon geumbang jjajeungi nayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 다음에는 같이 산책해요.",
+      "reading": "Geureom daeumeneun gachi sanchaekaeyo."
+    }
+  ]
+}

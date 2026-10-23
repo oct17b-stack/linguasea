@@ -1,0 +1,85 @@
+{
+  "id": "ko-D8-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jeohui",
+      "text": "저희",
+      "reading": "jeohui"
+    },
+    {
+      "id": "ko.boepda",
+      "text": "뵙다",
+      "reading": "boepda"
+    },
+    {
+      "id": "ko.yeojjwoboda",
+      "text": "여쭤보다",
+      "reading": "yeojjwoboda"
+    },
+    {
+      "id": "ko.mosida",
+      "text": "모시다",
+      "reading": "mosida"
+    },
+    {
+      "id": "ko.malsseumdeurida",
+      "text": "말씀드리다",
+      "reading": "malsseumdeurida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "팀장님, 잠깐 말씀드릴 게 있어요.",
+      "reading": "Timjangnim, jamkkan malsseumdeuril ge isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 말해 보세요.",
+      "reading": "Ne, malhae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "오전에 한빛전자 최 부장님께서 전화하셨어요. 내일 오후에 팀장님을 뵙고 싶어하세요.",
+      "reading": "Ojeone Hanbitjeonja Choe bujangnimkkeseo jeonhwahasyeosseoyo. Naeil ohue timjangnimeul boepgo sipeohaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 몇 시에 오세요?",
+      "reading": "Geuraeyo? Myeot sie oseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "세 시쯤 오세요. 제가 회의실로 모실까요?",
+      "reading": "Se sijjeum oseyo. Jega hoeuisillo mosilkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 남 씨가 회의실로 모셔 주세요. 그리고 커피도 부탁해요.",
+      "reading": "Ne, Nam ssiga hoeuisillo mosyeo juseyo. Geurigo keopido butakaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 그런데 부장님께서 커피를 드시는지 차를 드시는지 여쭤볼까요?",
+      "reading": "Algesseoyo. Geureonde bujangnimkkeseo keopireul deusineunji chareul deusineunji yeojjwobolkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 오시면 여쭤보세요. 내일은 저희 팀도 같이 회의할 거예요.",
+      "reading": "Ne, osimyeon yeojjwoboseyo. Naeireun jeohui timdo gachi hoeuihal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 저희가 잘 준비할게요.",
+      "reading": "Ne, jeohuiga jal junbihalgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 내일 같이 최 부장님을 뵙고 인사해요.",
+      "reading": "Gomawoyo. Naeil gachi Choe bujangnimeul boepgo insahaeyo."
+    }
+  ]
+}

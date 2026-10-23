@@ -1,0 +1,98 @@
+{
+  "id": "ko-F12-03",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.gongsang-gwahak",
+      "kind": "phrase",
+      "text": "공상 과학",
+      "reading": "gongsang gwahak"
+    },
+    {
+      "id": "ko.silhyeondoeda",
+      "text": "실현되다",
+      "reading": "silhyeondoeda"
+    },
+    {
+      "id": "ko.jayul-juhaeng",
+      "kind": "phrase",
+      "text": "자율 주행",
+      "reading": "jayul juhaeng"
+    },
+    {
+      "id": "ko.deuron",
+      "text": "드론",
+      "reading": "deuron"
+    },
+    {
+      "id": "ko.gasang-hyeonsil",
+      "kind": "phrase",
+      "text": "가상 현실",
+      "reading": "gasang hyeonsil"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "이 영화 포스터 보세요. 오십 년 전에 나온 공상 과학 영화예요.",
+      "reading": "I yeonghwa poseuteo boseyo. Osip nyeon jeone naon gongsang gwahak yeonghwayeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "하늘을 나는 자동차가 나오네요. 그때는 상상에 불과했겠어요.",
+      "reading": "Haneureul naneun jadongchaga naoneyo. Geuttaeneun sangsange bulgwahaetgesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 그런데 지금은 그런 상상이 하나씩 실현되고 있어요.",
+      "reading": "Majayo. Geureonde jigeumeun geureon sangsangi hanassik silhyeondoego isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "자율 주행 자동차도 그중 하나죠?",
+      "reading": "Jayul juhaeng jadongchado geujung hanajyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 몇 년 전만 해도 꿈에 불과했는데, 지금은 자율 주행 버스가 다니는 도시도 있어요.",
+      "reading": "Ne, myeot nyeon jeonman haedo kkume bulgwahaenneunde, jigeumeun jayul juhaeng beoseuga danineun dosido isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저기 하늘을 날고 있는 건 드론이에요?",
+      "reading": "Jeogi haneureul nalgo inneun geon deuronieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 요즘은 드론으로 물건을 배달하는 서비스도 있어요.",
+      "reading": "Ne, yojeumeun deuroneuro mulgeoneul baedalhaneun seobiseudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 영화 같아요. 이 안경은 뭐예요?",
+      "reading": "Wa, jeongmal yeonghwa gatayo. I angyeongeun mwoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "가상 현실 안경이에요. 써 보면 진짜 우주에 있는 것 같아요.",
+      "reading": "Gasang hyeonsil angyeongieyo. Sseo bomyeon jinjja ujue inneun geot gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 정말 신기해요! 이것도 옛날에는 공상 과학에 불과했잖아요.",
+      "reading": "Wa, jeongmal singihaeyo! Igeotdo yennareneun gongsang gwahage bulgwahaetjanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그렇죠. 오늘의 공상 과학이 내일의 현실이 될 수도 있어요.",
+      "reading": "Geureochyo. Oneurui gongsang gwahagi naeirui hyeonsiri doel sudo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 하늘을 나는 자동차도 곧 실현될지도 모르겠네요.",
+      "reading": "Geureom haneureul naneun jadongchado got silhyeondoeljido moreugenneyo."
+    }
+  ]
+}

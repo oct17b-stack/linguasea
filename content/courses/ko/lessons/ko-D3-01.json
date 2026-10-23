@@ -1,0 +1,85 @@
+{
+  "id": "ko-D3-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.oemo",
+      "text": "외모",
+      "reading": "oemo"
+    },
+    {
+      "id": "ko.ki",
+      "text": "키",
+      "reading": "ki"
+    },
+    {
+      "id": "ko.nalssin-hada",
+      "text": "날씬하다",
+      "reading": "nalssinhada"
+    },
+    {
+      "id": "ko.tongtong-hada",
+      "text": "통통하다",
+      "reading": "tongtonghada"
+    },
+    {
+      "id": "ko.jeomda",
+      "text": "젊다",
+      "reading": "jeomda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 우리 누나 사진 볼래요?",
+      "reading": "Nam ssi, uri nuna sajin bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네! 와, 누나가 정말 젊어 보여요. 몇 살이에요?",
+      "reading": "Ne! Wa, nunaga jeongmal jeolmeo boyeoyo. Myeot sarieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 서른 살이에요.",
+      "reading": "Haha, seoreun sarieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 스무 살처럼 보여요.",
+      "reading": "Jeongmaryo? Seumu salcheoreom boyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "누나는 키가 작아요. 그래서 더 젊어 보여요.",
+      "reading": "Nunaneun kiga jagayo. Geuraeseo deo jeolmeo boyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요? 사진에서는 키가 커 보여요. 그리고 날씬해 보여요.",
+      "reading": "Geuraeyo? Sajineseoneun kiga keo boyeoyo. Geurigo nalssinhae boyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지금은 날씬하지만 전에는 좀 통통했어요.",
+      "reading": "Jigeumeun nalssinhajiman jeoneneun jom tongtonghaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 운동을 많이 했군요!",
+      "reading": "Jeongmaryo? Undongeul mani haetgunyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네. 그런데 남 씨는 외모를 많이 봐요?",
+      "reading": "Ne. Geureonde Nam ssineun oemoreul mani bwayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 저는 외모보다 마음이 좋은 사람이 좋아요.",
+      "reading": "Aniyo, jeoneun oemoboda maeumi joeun sarami joayo."
+    }
+  ]
+}

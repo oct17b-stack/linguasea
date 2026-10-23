@@ -1,0 +1,76 @@
+{
+  "id": "en-C5-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.suddenly",
+      "text": "suddenly",
+      "reading": "ˈsʌdənli"
+    },
+    {
+      "id": "en.honest",
+      "text": "honest",
+      "reading": "ˈɑːnɪst"
+    },
+    {
+      "id": "en.give-back",
+      "kind": "phrase",
+      "text": "give back",
+      "reading": "ˌɡɪv ˈbæk"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Last Friday, Emma and Nam took a taxi to the mall.",
+        "reading": "ˈlæst ˈfraɪdeɪ, ˈɛmə ənd ˈnɑːm ˈtʊk ə ˈtæksi tə ðə ˈmɔːl."
+      },
+      {
+        "text": "Emma paid the driver, and they walked into the mall.",
+        "reading": "ˈɛmə ˈpeɪd ðə ˈdraɪvər, ənd ðeɪ ˈwɔːkt ˈɪntuː ðə ˈmɔːl."
+      }
+    ],
+    [
+      {
+        "text": "Suddenly, Emma stopped.",
+        "reading": "ˈsʌdənli, ˈɛmə ˈstɑːpt."
+      },
+      {
+        "text": "\"My phone isn't in my bag!\" she said.",
+        "reading": "maɪ ˈfoʊn ˈɪzənt ɪn maɪ ˈbæɡ! ʃiː ˈsɛd."
+      },
+      {
+        "text": "Nam called Emma's phone, and it rang and rang.",
+        "reading": "ˈnɑːm ˈkɔːld ˈɛməz ˈfoʊn, ənd ɪt ˈræŋ ənd ˈræŋ."
+      }
+    ],
+    [
+      {
+        "text": "Twenty minutes later, the taxi driver returned to the mall.",
+        "reading": "ˈtwɛnti ˈmɪnɪts ˈleɪtər, ðə ˈtæksi ˈdraɪvər rɪˈtɜːrnd tə ðə ˈmɔːl."
+      },
+      {
+        "text": "He was an honest man, and he gave the phone back to Emma.",
+        "reading": "hiː wʌz ən ˈɑːnɪst ˈmæn, ənd hiː ˈɡeɪv ðə ˈfoʊn ˈbæk tu ˈɛmə."
+      },
+      {
+        "text": "Emma was so happy, and she bought him a coffee.",
+        "reading": "ˈɛmə wʌz ˈsoʊ ˈhæpi, ənd ʃiː ˈbɔːt hɪm ə ˈkɔːfi."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

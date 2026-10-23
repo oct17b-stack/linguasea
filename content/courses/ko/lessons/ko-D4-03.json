@@ -1,0 +1,87 @@
+{
+  "id": "ko-D4-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.sseuregi",
+      "text": "쓰레기",
+      "reading": "sseuregi"
+    },
+    {
+      "id": "ko.bullisugeo",
+      "text": "분리수거",
+      "reading": "bullisugeo"
+    },
+    {
+      "id": "ko.eumsingmul-sseuregi",
+      "text": "음식물 쓰레기",
+      "reading": "eumsingmul sseuregi",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jongnyangje-bongtu",
+      "text": "종량제 봉투",
+      "reading": "jongnyangje bongtu",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jaehwaryong",
+      "text": "재활용",
+      "reading": "jaehwaryong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 우리 집 쓰레기 규칙을 알아요?",
+      "reading": "Minjun ssi, uri jip sseuregi gyuchigeul arayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 몰라요. 그냥 버리면 안 돼요?",
+      "reading": "Aniyo, mollayo. Geunyang beorimyeon an dwaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그냥 버리면 안 돼요. 분리수거를 해야 해요.",
+      "reading": "Ne, geunyang beorimyeon an dwaeyo. Bullisugeoreul haeya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 분리수거요. 재활용 쓰레기는 어떻게 버려요?",
+      "reading": "A, bullisugeoyo. Jaehwaryong sseuregineun eotteoke beoryeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "재활용 쓰레기는 목요일에만 버릴 수 있어요. 다른 날에 버리면 안 돼요.",
+      "reading": "Jaehwaryong sseuregineun mogyoireman beoril su isseoyo. Dareun nare beorimyeon an dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "음식물 쓰레기는요?",
+      "reading": "Eumsingmul sseuregineunyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음식물 쓰레기는 종량제 봉투에 넣으면 안 돼요. 음식물 쓰레기 봉투에 버려야 해요.",
+      "reading": "Eumsingmul sseuregineun jongnyangje bongtue neoeumyeon an dwaeyo. Eumsingmul sseuregi bongtue beoryeoya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "종량제 봉투는 어디에서 사요?",
+      "reading": "Jongnyangje bongtuneun eodieseo sayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "편의점에서 살 수 있어요. 그리고 다른 봉투에 쓰레기를 버리면 안 돼요.",
+      "reading": "Pyeonuijeomeseo sal su isseoyo. Geurigo dareun bongtue sseuregireul beorimyeon an dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "규칙이 많네요! 잘 기억할게요.",
+      "reading": "Gyuchigi manneyo! Jal gieokalgeyo."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "en-C6-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.modern",
+      "text": "modern",
+      "reading": "ˈmɑːdərn"
+    },
+    {
+      "id": "en.dangerous",
+      "text": "dangerous",
+      "reading": "ˈdeɪndʒərəs"
+    },
+    {
+      "id": "en.comfortable",
+      "text": "comfortable",
+      "reading": "ˈkʌmftərbəl"
+    },
+    {
+      "id": "en.popular",
+      "text": "popular",
+      "reading": "ˈpɑːpjələr"
+    },
+    {
+      "id": "en.worse",
+      "text": "worse",
+      "reading": "wɜːrs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Which is more popular, Phuket or Chiang Mai?",
+      "reading": "ˈwɪtʃ ɪz ˈmɔːr ˈpɑːpjələr, puːˈkɛt ɔːr ˈtʃjɑːŋ ˈmaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Phuket is more popular, I think. It has beautiful beaches.",
+      "reading": "puːˈkɛt ɪz ˈmɔːr ˈpɑːpjələr, aɪ ˈθɪŋk. ɪt ˈhæz ˈbjuːtəfəl ˈbiːtʃɪz."
+    },
+    {
+      "speaker": "c",
+      "text": "Is Phuket more expensive?",
+      "reading": "ɪz puːˈkɛt ˈmɔːr ɪkˈspɛnsɪv?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. Hotels in Phuket are more expensive, but they're more modern and comfortable.",
+      "reading": "ˈjɛs. hoʊˈtɛlz ɪn puːˈkɛt ər ˈmɔːr ɪkˈspɛnsɪv, bʌt ðɛr ˈmɔːr ˈmɑːdərn ənd ˈkʌmftərbəl."
+    },
+    {
+      "speaker": "c",
+      "text": "And the sea? Is it dangerous?",
+      "reading": "ənd ðə ˈsiː? ɪz ɪt ˈdeɪndʒərəs?"
+    },
+    {
+      "speaker": "a",
+      "text": "In September, the sea is more dangerous.",
+      "reading": "ɪn sɛpˈtɛmbər, ðə ˈsiː ɪz ˈmɔːr ˈdeɪndʒərəs."
+    },
+    {
+      "speaker": "c",
+      "text": "Is the weather better in Chiang Mai?",
+      "reading": "ɪz ðə ˈwɛðər ˈbɛtər ɪn ˈtʃjɑːŋ ˈmaɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "In December, yes! It's cool and sunny. The weather in Bangkok is worse!",
+      "reading": "ɪn dɪˈsɛmbər, ˈjɛs! ɪts ˈkuːl ənd ˈsʌni. ðə ˈwɛðər ɪn ˈbæŋkɑːk ɪz ˈwɜːrs!"
+    }
+  ]
+}

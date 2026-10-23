@@ -1,0 +1,86 @@
+{
+  "id": "ko-D5-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.yeongsang-tonghwa",
+      "text": "영상 통화",
+      "reading": "yeongsang tonghwa",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.hwamyeon",
+      "text": "화면",
+      "reading": "hwamyeon"
+    },
+    {
+      "id": "ko.geuripda",
+      "text": "그립다",
+      "reading": "geuripda"
+    },
+    {
+      "id": "ko.sicha",
+      "text": "시차",
+      "reading": "sicha"
+    },
+    {
+      "id": "ko.geokjeong-hada",
+      "text": "걱정하다",
+      "reading": "geokjeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 가족이 보고 싶지 않아요?",
+      "reading": "Nam ssi, gajogi bogo sipji anayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "많이 보고 싶어요. 그래도 영상 통화 덕분에 괜찮아요.",
+      "reading": "Mani bogo sipeoyo. Geuraedo yeongsang tonghwa deokbune gwaenchanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "자주 영상 통화를 해요?",
+      "reading": "Jaju yeongsang tonghwareul haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 일주일에 세 번쯤 해요. 화면으로 부모님하고 동생을 볼 수 있어요.",
+      "reading": "Ne, iljuire se beonjjeum haeyo. Hwamyeoneuro bumonimhago dongsaengeul bol su isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "시차는 없어요?",
+      "reading": "Sichaneun eopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 시간 있어요. 한국이 아홉 시면 태국은 일곱 시예요.",
+      "reading": "Du sigan isseoyo. Hangugi ahop simyeon Taegugeun ilgop siyeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "부모님이 남 씨를 걱정하세요?",
+      "reading": "Bumonimi Nam ssireul geokjeonghaseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 부모님은 제가 밥을 잘 먹는지 걱정하세요.",
+      "reading": "Ne, bumonimeun jega babeul jal meongneunji geokjeonghaseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 우리 부모님도 그래요.",
+      "reading": "Haha, uri bumonimdo geuraeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 영상 통화를 할 때 같이 밥을 먹어요. 앱 덕분에 가족이 덜 그리워요.",
+      "reading": "Geuraeseo yeongsang tonghwareul hal ttae gachi babeul meogeoyo. Aep deokbune gajogi deol geuriwoyo."
+    }
+  ]
+}

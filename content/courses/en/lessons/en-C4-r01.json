@@ -1,0 +1,84 @@
+{
+  "id": "en-C4-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.cant-wait",
+      "kind": "phrase",
+      "text": "can't wait",
+      "reading": "ˌkænt ˈweɪt"
+    },
+    {
+      "id": "en.flight",
+      "text": "flight",
+      "reading": "flaɪt"
+    },
+    {
+      "id": "en.land",
+      "text": "land",
+      "reading": "lænd"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Hi, Nam! I'm at the airport now.",
+        "reading": "ˈhaɪ, ˈnɑːm! aɪm ət ði ˈɛrpɔːrt ˈnaʊ."
+      },
+      {
+        "text": "My flight is at 11:30 p.m., so I have two hours.",
+        "reading": "maɪ ˈflaɪt ɪz ət ɪˈlɛvən ˈθɜːrti ˌpiːˈɛm, soʊ aɪ ˈhæv ˈtuː ˈaʊərz."
+      },
+      {
+        "text": "My suitcase is very heavy because I have a lot of Thai snacks for my family!",
+        "reading": "maɪ ˈsuːtkeɪs ɪz ˈvɛri ˈhɛvi bɪˈkɔːz aɪ ˈhæv ə ˈlɑːt əv ˈtaɪ ˈsnæks fər maɪ ˈfæməli!"
+      }
+    ],
+    [
+      {
+        "text": "It's a long flight.",
+        "reading": "ɪts ə ˈlɔːŋ ˈflaɪt."
+      },
+      {
+        "text": "I'm going to land in Canada tomorrow afternoon.",
+        "reading": "aɪm ˈɡoʊɪŋ tə ˈlænd ɪn ˈkænədə təˈmɑːroʊ ˌæftərˈnuːn."
+      },
+      {
+        "text": "My mom and dad are going to pick me up at the airport.",
+        "reading": "maɪ ˈmɑːm ənd ˈdæd ər ˈɡoʊɪŋ tə ˈpɪk miː ˈʌp ət ði ˈɛrpɔːrt."
+      },
+      {
+        "text": "I can't wait to see them!",
+        "reading": "aɪ ˈkænt ˈweɪt tə ˈsiː ðɛm!"
+      }
+    ],
+    [
+      {
+        "text": "It's going to be very cold there, with a lot of snow.",
+        "reading": "ɪts ˈɡoʊɪŋ tə bi ˈvɛri ˈkoʊld ˈðɛr, wɪð ə ˈlɑːt əv ˈsnoʊ."
+      },
+      {
+        "text": "I'll text you when I land.",
+        "reading": "aɪl ˈtɛkst juː wɛn aɪ ˈlænd."
+      },
+      {
+        "text": "See you in three weeks!",
+        "reading": "ˈsiː juː ɪn ˈθriː ˈwiːks!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

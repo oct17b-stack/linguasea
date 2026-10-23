@@ -1,0 +1,85 @@
+{
+  "id": "ko-D3-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.damda",
+      "text": "닮다",
+      "reading": "damda"
+    },
+    {
+      "id": "ko.yeonyein",
+      "text": "연예인",
+      "reading": "yeonyein"
+    },
+    {
+      "id": "ko.model",
+      "text": "모델",
+      "reading": "model"
+    },
+    {
+      "id": "ko.insang",
+      "text": "인상",
+      "reading": "insang"
+    },
+    {
+      "id": "ko.ssangdungi",
+      "text": "쌍둥이",
+      "reading": "ssangdungi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 이 사진 보세요. 제 여동생이에요.",
+      "reading": "Minjun ssi, i sajin boseyo. Je yeodongsaengieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 남 씨하고 정말 닮았어요! 쌍둥이 같아요.",
+      "reading": "Wa, Nam ssihago jeongmal dalmasseoyo! Ssangdungi gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하, 쌍둥이 아니에요. 동생은 열일곱 살이에요.",
+      "reading": "Haha, ssangdungi anieyo. Dongsaengeun yeollilgop sarieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "동생이 키도 크고 날씬해서 모델 같아요.",
+      "reading": "Dongsaengi kido keugo nalssinhaeseo model gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 동생은 연예인이 되고 싶어해요.",
+      "reading": "Gomawoyo. Dongsaengeun yeonyeini doego sipeohaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말요? 인상이 좋아서 잘할 거예요.",
+      "reading": "Jeongmaryo? Insangi joaseo jalhal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨는 누구를 닮았어요?",
+      "reading": "Minjun ssineun nugureul dalmasseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 아버지를 닮았어요. 아버지 젊을 때 사진을 보면 꼭 저 같아요.",
+      "reading": "Jeoneun abeojireul dalmasseoyo. Abeoji jeolmeul ttae sajineul bomyeon kkok jeo gatayo."
+    },
+    {
+      "speaker": "a",
+      "text": "하하. 그럼 지훈 씨는요?",
+      "reading": "Haha. Geureom Jihun ssineunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지훈이는 잘생겨서 연예인 같아요.",
+      "reading": "Jihunineun jalsaenggyeoseo yeonyein gatayo."
+    }
+  ]
+}

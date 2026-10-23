@@ -1,0 +1,51 @@
+{
+  "id": "ko-A14-06",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.isipsa-sigan",
+      "kind": "phrase",
+      "text": "이십사 시간",
+      "reading": "isipsa sigan"
+    },
+    {
+      "id": "ko.baekhwajeom",
+      "text": "백화점",
+      "reading": "baekhwajeom"
+    },
+    {
+      "id": "ko.areubaiteusaeng",
+      "text": "아르바이트생",
+      "reading": "areubaiteusaeng"
+    },
+    {
+      "id": "ko.juin",
+      "text": "주인",
+      "reading": "juin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 저거 이십사 시간 가게예요.",
+      "reading": "Nam ssi, jeogeo isipsa sigan gageyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와! 저분은 주인이에요?",
+      "reading": "Wa! Jeobuneun juinieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 아르바이트생이에요. 제 반 친구예요.",
+      "reading": "Aniyo, areubaiteusaengieyo. Je ban chinguyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 저도 아르바이트생이에요!",
+      "reading": "A, jeodo areubaiteusaengieyo!"
+    }
+  ]
+}

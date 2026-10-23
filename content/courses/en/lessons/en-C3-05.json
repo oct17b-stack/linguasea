@@ -1,0 +1,76 @@
+{
+  "id": "en-C3-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.part-time-job",
+      "kind": "phrase",
+      "text": "part-time job",
+      "reading": "ˌpɑːrt taɪm ˈdʒɑːb"
+    },
+    {
+      "id": "en.customer",
+      "text": "customer",
+      "reading": "ˈkʌstəmər"
+    },
+    {
+      "id": "en.earn",
+      "text": "earn",
+      "reading": "ɜːrn"
+    },
+    {
+      "id": "en.shift",
+      "text": "shift",
+      "reading": "ʃɪft"
+    },
+    {
+      "id": "en.serve",
+      "text": "serve",
+      "reading": "sɜːrv"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Nam! Do you work here?",
+      "reading": "ˈnɑːm! duː juː ˈwɜːrk ˈhɪr?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, Mr. Brown. It's my part-time job. I work here on the weekend.",
+      "reading": "ˈjɛs, ˈmɪstər ˈbraʊn. ɪts maɪ ˌpɑːrt taɪm ˈdʒɑːb. aɪ ˈwɜːrk ˈhɪr ɑːn ðə ˈwiːkɛnd."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you usually serve customers?",
+      "reading": "duː juː ˈjuːʒuəli ˈsɜːrv ˈkʌstəmərz?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I usually serve customers. But today I'm working in the kitchen.",
+      "reading": "ˈjɛs, aɪ ˈjuːʒuəli ˈsɜːrv ˈkʌstəmərz. bʌt təˈdeɪ aɪm ˈwɜːrkɪŋ ɪn ðə ˈkɪtʃən."
+    },
+    {
+      "speaker": "b",
+      "text": "Is it a long shift?",
+      "reading": "ɪz ɪt ə ˈlɔːŋ ˈʃɪft?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, eight hours. Look, a lot of customers are waiting!",
+      "reading": "ˈjɛs, ˈeɪt ˈaʊərz. ˈlʊk, ə ˈlɑːt əv ˈkʌstəmərz ər ˈweɪtɪŋ!"
+    },
+    {
+      "speaker": "b",
+      "text": "Is it a good job?",
+      "reading": "ɪz ɪt ə ˈɡʊd ˈdʒɑːb?"
+    },
+    {
+      "speaker": "a",
+      "text": "I don't earn a lot, but I love it.",
+      "reading": "aɪ ˈdoʊnt ˈɜːrn ə ˈlɑːt, bʌt aɪ ˈlʌv ɪt."
+    }
+  ]
+}

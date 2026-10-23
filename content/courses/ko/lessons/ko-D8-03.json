@@ -1,0 +1,85 @@
+{
+  "id": "ko-D8-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.deusida",
+      "text": "드시다",
+      "reading": "deusida"
+    },
+    {
+      "id": "ko.jumusida",
+      "text": "주무시다",
+      "reading": "jumusida"
+    },
+    {
+      "id": "ko.gyesida",
+      "text": "계시다",
+      "reading": "gyesida"
+    },
+    {
+      "id": "ko.pyeonchaneusida",
+      "text": "편찮으시다",
+      "reading": "pyeonchaneusida"
+    },
+    {
+      "id": "ko.doragasida",
+      "text": "돌아가시다",
+      "reading": "doragasida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "팀장님, 점심 드셨어요?",
+      "reading": "Timjangnim, jeomsim deusyeosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 지금 먹으러 가요. 같이 갈래요?",
+      "reading": "Aniyo, jigeum meogeureo gayo. Gachi gallaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋아요! 그런데 팀장님, 좀 피곤해 보이세요.",
+      "reading": "Ne, joayo! Geureonde timjangnim, jom pigonhae boiseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어제 잘 못 잤어요. 아버지께서 좀 편찮으세요.",
+      "reading": "Eoje jal mot jasseoyo. Abeojikkeseo jom pyeonchaneuseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아이고, 많이 편찮으세요? 지금 어디 계세요?",
+      "reading": "Aigo, mani pyeonchaneuseyo? Jigeum eodi gyeseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "병원에 계세요. 저도 어제 병원에서 잤어요.",
+      "reading": "Byeongwone gyeseyo. Jeodo eoje byeongwoneseo jasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아버지께서는 밥을 잘 드세요?",
+      "reading": "Abeojikkeseoneun babeul jal deuseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 어제 저녁은 다 드셨어요. 그리고 아홉 시에 주무셨어요.",
+      "reading": "Ne, eoje jeonyeogeun da deusyeosseoyo. Geurigo ahop sie jumusyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 할아버지, 할머니께서도 건강하세요?",
+      "reading": "Dahaengieyo. Harabeoji, halmeonikkeseodo geonganghaseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "할머니께서는 건강하세요. 할아버지께서는 몇 년 전에 돌아가셨어요. 자, 우리 점심 먹으러 가요.",
+      "reading": "Halmeonikkeseoneun geonganghaseyo. Harabeojikkeseoneun myeot nyeon jeone doragasyeosseoyo. Ja, uri jeomsim meogeureo gayo."
+    }
+  ]
+}

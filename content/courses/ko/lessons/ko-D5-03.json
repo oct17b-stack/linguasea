@@ -1,0 +1,87 @@
+{
+  "id": "ko-D5-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jal-an-deullida",
+      "text": "잘 안 들리다",
+      "reading": "jal an deullida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.kkeunkida",
+      "text": "끊기다",
+      "reading": "kkeunkida"
+    },
+    {
+      "id": "ko.sinho",
+      "text": "신호",
+      "reading": "sinho"
+    },
+    {
+      "id": "ko.jalmot-geolda",
+      "text": "잘못 걸다",
+      "reading": "jalmot geolda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.moksori",
+      "text": "목소리",
+      "reading": "moksori"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "여보세요? 민준 씨, 제 목소리가 잘 들릴지 모르겠어요.",
+      "reading": "Yeoboseyo? Minjun ssi, je moksoriga jal deullilji moreugesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 목소리가 잘 안 들려요. 지금 어디예요?",
+      "reading": "Nam ssi, moksoriga jal an deullyeoyo. Jigeum eodiyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지하철역 안이에요. 신호가 안 좋아요.",
+      "reading": "Jihacheollyeok anieyo. Sinhoga an joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네? 전화가 끊기고 있어요.",
+      "reading": "Ne? Jeonhwaga kkeunkigo isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "여보세요?",
+      "reading": "Yeoboseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어? 민준 씨 전화 아니에요?",
+      "reading": "Eo? Minjun ssi jeonhwa anieyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 여기는 민준 씨 전화가 아니에요.",
+      "reading": "Aniyo, yeogineun Minjun ssi jeonhwaga anieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 죄송합니다. 제가 잘못 걸었어요.",
+      "reading": "A, joesonghamnida. Jega jalmot georeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "여보세요? 남 씨, 지금은 잘 들려요. 몇 시에 와요?",
+      "reading": "Yeoboseyo? Nam ssi, jigeumeun jal deullyeoyo. Myeot sie wayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 그런데 지하철이 안 와요. 몇 시에 도착할지 모르겠어요.",
+      "reading": "Dahaengieyo. Geureonde jihacheori an wayo. Myeot sie dochakalji moreugesseoyo."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "en-C5-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.miss-the-bus",
+      "kind": "phrase",
+      "text": "miss the bus",
+      "reading": "ˌmɪs ðə ˈbʌs"
+    },
+    {
+      "id": "en.lose",
+      "text": "lose",
+      "reading": "luːz"
+    },
+    {
+      "id": "en.wallet",
+      "text": "wallet",
+      "reading": "ˈwɑːlɪt"
+    },
+    {
+      "id": "en.key",
+      "text": "key",
+      "reading": "kiː"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Are you OK, Nam?",
+      "reading": "ər juː oʊˈkeɪ, ˈnɑːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really. I had a terrible day yesterday.",
+      "reading": "ˈnɑːt ˈriːli. aɪ ˈhæd ə ˈtɛrəbəl ˈdeɪ ˈjɛstərdeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! What was the problem?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwʌt wʌz ðə ˈprɑːbləm?"
+    },
+    {
+      "speaker": "a",
+      "text": "First, I missed the bus, so I didn't get to class on time.",
+      "reading": "ˈfɜːrst, aɪ ˈmɪst ðə ˈbʌs, soʊ aɪ ˈdɪdənt ˈɡɛt tə ˈklæs ɑːn ˈtaɪm."
+    },
+    {
+      "speaker": "c",
+      "text": "That's not so bad.",
+      "reading": "ðæts ˈnɑːt ˈsoʊ ˈbæd."
+    },
+    {
+      "speaker": "a",
+      "text": "Then I lost my wallet and my keys! I didn't have money for lunch.",
+      "reading": "ˈðɛn aɪ ˈlɔːst maɪ ˈwɑːlɪt ənd maɪ ˈkiːz! aɪ ˈdɪdənt ˈhæv ˈmʌni fər ˈlʌntʃ."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! Where are they now?",
+      "reading": "ˈoʊ ˈnoʊ! ˈwɛr ər ðeɪ ˈnaʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "In my bag! I didn't look in it.",
+      "reading": "ɪn maɪ ˈbæɡ! aɪ ˈdɪdənt ˈlʊk ɪn ɪt."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ko-D4-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.beolgeum",
+      "text": "벌금",
+      "reading": "beolgeum"
+    },
+    {
+      "id": "ko.jikida",
+      "text": "지키다",
+      "reading": "jikida"
+    },
+    {
+      "id": "ko.peullaseutik",
+      "text": "플라스틱",
+      "reading": "peullaseutik"
+    },
+    {
+      "id": "ko.baechul-hada",
+      "text": "배출하다",
+      "reading": "baechulhada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "행복아파트 쓰레기 배출 규칙이에요.",
+        "reading": "Haengbogapateu sseuregi baechul gyuchigieyo."
+      },
+      {
+        "text": "재활용 쓰레기는 매주 수요일 저녁 여섯 시부터 열 시까지 배출해 주세요.",
+        "reading": "Jaehwaryong sseuregineun maeju suyoil jeonyeok yeoseot sibuteo yeol sikkaji baechulhae juseyo."
+      },
+      {
+        "text": "플라스틱 안에 음식이 있으면 안 돼요.",
+        "reading": "Peullaseutik ane eumsigi isseumyeon an dwaeyo."
+      }
+    ],
+    [
+      {
+        "text": "음식물 쓰레기는 매일 버릴 수 있어요.",
+        "reading": "Eumsingmul sseuregineun maeil beoril su isseoyo."
+      },
+      {
+        "text": "다른 쓰레기는 종량제 봉투에 넣어서 배출해 주세요.",
+        "reading": "Dareun sseuregineun jongnyangje bongtue neoeoseo baechulhae juseyo."
+      },
+      {
+        "text": "종량제 봉투는 편의점에서 살 수 있어요.",
+        "reading": "Jongnyangje bongtuneun pyeonuijeomeseo sal su isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "그런데 규칙을 지키지 않는 분들이 많아요.",
+        "reading": "Geureonde gyuchigeul jikiji anneun bundeuri manayo."
+      },
+      {
+        "text": "다른 날에 재활용 쓰레기를 배출하면 안 돼요.",
+        "reading": "Dareun nare jaehwaryong sseuregireul baechulhamyeon an dwaeyo."
+      },
+      {
+        "text": "규칙을 지키지 않으면 벌금을 내야 해요.",
+        "reading": "Gyuchigeul jikiji aneumyeon beolgeumeul naeya haeyo."
+      },
+      {
+        "text": "벌금은 십만 원이에요.",
+        "reading": "Beolgeumeun simman wonieyo."
+      },
+      {
+        "text": "모두 규칙을 잘 지켜 주세요.",
+        "reading": "Modu gyuchigeul jal jikyeo juseyo."
+      },
+      {
+        "text": "감사합니다.",
+        "reading": "Gamsahamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

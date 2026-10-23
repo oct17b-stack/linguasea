@@ -1,0 +1,89 @@
+{
+  "id": "ko-D5-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.tonghwa-hada",
+      "text": "통화하다",
+      "reading": "tonghwahada"
+    },
+    {
+      "id": "ko.jeonhwareul-geolda",
+      "text": "전화를 걸다",
+      "reading": "jeonhwareul geolda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jeonhwareul-batda",
+      "text": "전화를 받다",
+      "reading": "jeonhwareul batda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.bakkwo-juda",
+      "text": "바꿔 주다",
+      "reading": "bakkwo juda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jamsimanyo",
+      "text": "잠시만요",
+      "reading": "jamsimanyo",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "여보세요? 한빛 한국어 학교예요.",
+      "reading": "Yeoboseyo? Hanbit hangugeo hakgyoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 저는 학생 남인데요. 이 선생님 좀 바꿔 주세요.",
+      "reading": "Annyeonghaseyo. Jeoneun haksaeng Namindeyo. I seonsaengnim jom bakkwo juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 잠시만요. 바꿔 드릴게요.",
+      "reading": "Ne, jamsimanyo. Bakkwo deurilgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "여보세요, 전화 바꿨어요. 이 선생님은 지금 수업 중인데요.",
+      "reading": "Yeoboseyo, jeonhwa bakkwosseoyo. I seonsaengnimeun jigeum sueop jungindeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 언제 통화할 수 있어요?",
+      "reading": "A, geuraeyo? Eonje tonghwahal su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "수업은 세 시까지예요. 세 시 반에는 전화를 받을 수 있을 거예요.",
+      "reading": "Sueobeun se sikkajiyeyo. Se si baneneun jeonhwareul badeul su isseul geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 세 시 반에 전화를 걸게요.",
+      "reading": "Geureom se si bane jeonhwareul geolgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 알겠어요.",
+      "reading": "Ne, algesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 안녕히 계세요.",
+      "reading": "Gamsahamnida. Annyeonghi gyeseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 안녕히 계세요.",
+      "reading": "Ne, annyeonghi gyeseyo."
+    }
+  ]
+}

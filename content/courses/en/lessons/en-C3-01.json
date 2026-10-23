@@ -1,0 +1,70 @@
+{
+  "id": "en-C3-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.subject",
+      "text": "subject",
+      "reading": "ˈsʌbdʒɪkt"
+    },
+    {
+      "id": "en.math",
+      "text": "math",
+      "reading": "mæθ"
+    },
+    {
+      "id": "en.history",
+      "text": "history",
+      "reading": "ˈhɪstəri"
+    },
+    {
+      "id": "en.science",
+      "text": "science",
+      "reading": "ˈsaɪəns"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what subjects do you study this year?",
+      "reading": "ˈnɑːm, ˈwʌt ˈsʌbdʒɪkts duː juː ˈstʌdi ðɪs ˈjɪr?"
+    },
+    {
+      "speaker": "a",
+      "text": "English, history, math and science.",
+      "reading": "ˈɪŋɡlɪʃ, ˈhɪstəri, ˈmæθ ənd ˈsaɪəns."
+    },
+    {
+      "speaker": "c",
+      "text": "Math and science? But you study English!",
+      "reading": "ˈmæθ ənd ˈsaɪəns? bʌt juː ˈstʌdi ˈɪŋɡlɪʃ!"
+    },
+    {
+      "speaker": "a",
+      "text": "I know. But every student has to study math and science.",
+      "reading": "aɪ ˈnoʊ. bʌt ˈɛvri ˈstuːdənt ˈhæs tə ˈstʌdi ˈmæθ ənd ˈsaɪəns."
+    },
+    {
+      "speaker": "c",
+      "text": "Do you like math?",
+      "reading": "duː juː ˈlaɪk ˈmæθ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Not really. It's difficult, but I have to study it.",
+      "reading": "ˈnɑːt ˈriːli. ɪts ˈdɪfɪkəlt, bʌt aɪ ˈhæf tə ˈstʌdi ɪt."
+    },
+    {
+      "speaker": "c",
+      "text": "What's your favorite subject?",
+      "reading": "ˈwʌts jʊr ˈfeɪvərɪt ˈsʌbdʒɪkt?"
+    },
+    {
+      "speaker": "a",
+      "text": "History! It's really interesting.",
+      "reading": "ˈhɪstəri! ɪts ˈriːli ˈɪntrəstɪŋ."
+    }
+  ]
+}

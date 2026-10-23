@@ -1,0 +1,55 @@
+{
+  "id": "ja-B11-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.moshimoshi",
+      "text": "もしもし",
+      "reading": "moshimoshi"
+    },
+    {
+      "id": "ja.kakemasu",
+      "text": "かけます",
+      "reading": "kakemasu"
+    },
+    {
+      "id": "ja.demasu",
+      "text": "でます",
+      "reading": "demasu"
+    },
+    {
+      "id": "ja.atode",
+      "text": "あとで",
+      "reading": "atode"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "もしもし、たなかです。",
+      "reading": "Moshimoshi, Tanaka desu."
+    },
+    {
+      "speaker": "a",
+      "text": "もしもし、ナムです。ゆきさんは いますか。",
+      "reading": "Moshimoshi, Namu desu. Yuki-san wa imasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ゆきは いま アルバイトです。9時まで でんわに でませんよ。",
+      "reading": "Yuki wa ima arubaito desu. Kuji made denwa ni demasen yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。あとで でんわを かけます。",
+      "reading": "Sō desu ka. Atode denwa o kakemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、すみません。",
+      "reading": "Hai, sumimasen."
+    }
+  ]
+}

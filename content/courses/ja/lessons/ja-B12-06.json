@@ -1,0 +1,55 @@
+{
+  "id": "ja-B12-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.yasumimasu",
+      "text": "やすみます",
+      "reading": "yasumimasu"
+    },
+    {
+      "id": "ja.narimasu",
+      "text": "なります",
+      "reading": "narimasu"
+    },
+    {
+      "id": "ja.naorimasu",
+      "text": "なおります",
+      "reading": "naorimasu"
+    },
+    {
+      "id": "ja.bansoukou",
+      "text": "ばんそうこう",
+      "reading": "bansōkō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、かぜは どうですか。",
+      "reading": "Namu-san, kaze wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "なおりません。あしたも だいがくを やすみます。",
+      "reading": "Naorimasen. Ashita mo daigaku o yasumimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんですね。くすりと ひざの ばんそうこうです。どうぞ。",
+      "reading": "Taihen desu ne. Kusuri to hiza no bansōkō desu. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう、ゆきさん。あさっては げんきに なりますよ。",
+      "reading": "Arigatō, Yuki-san. Asatte wa genki ni narimasu yo."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。おだいじに。",
+      "reading": "Hai. Odaiji ni."
+    }
+  ]
+}

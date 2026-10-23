@@ -1,0 +1,99 @@
+{
+  "id": "ko-F8-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sokdam",
+      "text": "속담",
+      "reading": "sokdam"
+    },
+    {
+      "id": "ko.sijagi-banida",
+      "text": "시작이 반이다",
+      "reading": "sijagi banida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.tikkeul-moa-taesan",
+      "text": "티끌 모아 태산",
+      "reading": "tikkeul moa taesan",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.wonsungido-namueseo-tteoreojinda",
+      "text": "원숭이도 나무에서 떨어진다",
+      "reading": "wonsungido namueseo tteoreojinda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.ppurin-daero-geodunda",
+      "text": "뿌린 대로 거둔다",
+      "reading": "ppurin daero geodunda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 한국 속담 중에서 아는 게 있어요?",
+      "reading": "Nam ssi, Hanguk sokdam jungeseo aneun ge isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "'시작이 반이다'를 알아요. 시작하면 벌써 반을 한 것과 같다는 뜻이죠?",
+      "reading": "'Sijagi banida'reul arayo. Sijakamyeon beolsseo baneul han geotgwa gatdaneun tteusijyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 무슨 일이든지 시작하기가 제일 어려운 법이에요.",
+      "reading": "Majayo. Museun irideunji sijakagiga jeil eoryeoun beobieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 한국어를 처음 배울 때 그랬어요. 시작하고 나니까 재미있었어요.",
+      "reading": "Jeodo hangugeoreul cheoeum baeul ttae geuraesseoyo. Sijakago nanikka jaemiisseosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "'티끌 모아 태산'도 있어요. 작은 것도 모으면 큰 것이 된다는 뜻이에요.",
+      "reading": "'Tikkeul moa taesan'do isseoyo. Jageun geotdo moeumyeon keun geosi doendaneun tteusieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 저축도 그렇겠네요. 매일 조금씩 모으면 큰돈이 되는 법이니까요.",
+      "reading": "A, jeochukdo geureokenneyo. Maeil jogeumssik moeumyeon keundoni doeneun beobinikkayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇죠. 그럼 '원숭이도 나무에서 떨어진다'는 무슨 뜻일까요?",
+      "reading": "Geureochyo. Geureom 'wonsungido namueseo tteoreojinda'neun museun tteusilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "잘하는 사람도 실수할 때가 있다는 뜻 같아요.",
+      "reading": "Jalhaneun saramdo silsuhal ttaega itdaneun tteut gatayo."
+    },
+    {
+      "speaker": "c",
+      "text": "정답이에요! 아무리 잘하는 사람도 실수하는 법이에요.",
+      "reading": "Jeongdabieyo! Amuri jalhaneun saramdo silsuhaneun beobieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 시험에서 실수해도 너무 슬퍼하지 말아야겠어요.",
+      "reading": "Geureom siheomeseo silsuhaedo neomu seulpeohaji marayagesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "하하, 그래도 열심히 공부해야 해요. '뿌린 대로 거둔다'는 속담도 있으니까요.",
+      "reading": "Haha, geuraedo yeolsimhi gongbuhaeya haeyo. 'Ppurin daero geodunda'neun sokdamdo isseunikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "노력한 만큼 결과가 나오는 법이네요. 열심히 할게요!",
+      "reading": "Noryeokan mankeum gyeolgwaga naoneun beobineyo. Yeolsimhi halgeyo!"
+    }
+  ]
+}

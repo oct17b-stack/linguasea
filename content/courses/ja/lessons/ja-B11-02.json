@@ -1,0 +1,60 @@
+{
+  "id": "ja-B11-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.zero",
+      "text": "ゼロ",
+      "reading": "zero"
+    },
+    {
+      "id": "ja.keitai",
+      "text": "けいたい",
+      "reading": "keitai"
+    },
+    {
+      "id": "ja.oshiemasu",
+      "text": "おしえます",
+      "reading": "oshiemasu"
+    },
+    {
+      "id": "ja.memo",
+      "text": "メモ",
+      "reading": "memo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんの けいたいの ばんごうは なんばんですか。",
+      "reading": "Namu-san no keitai no bangō wa nanban desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ゼロはちいちの にさんよんの ごろくななはちです。",
+      "reading": "Zero hachi ichi no ni san yon no go roku nana hachi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "メモします。ゼロはちいちの にさんよんの ごろくななはちですね。",
+      "reading": "Memo shimasu. Zero hachi ichi no ni san yon no go roku nana hachi desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、そうです。",
+      "reading": "Hai, sō desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。ゆきに ばんごうを おしえますね。",
+      "reading": "Arigatō. Yuki ni bangō o oshiemasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。",
+      "reading": "Hai, onegaishimasu."
+    }
+  ]
+}

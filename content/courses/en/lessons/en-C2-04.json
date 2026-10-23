@@ -1,0 +1,71 @@
+{
+  "id": "en-C2-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.rest",
+      "text": "rest",
+      "reading": "rɛst"
+    },
+    {
+      "id": "en.medicine",
+      "text": "medicine",
+      "reading": "ˈmɛdəsən"
+    },
+    {
+      "id": "en.stay-in-bed",
+      "kind": "phrase",
+      "text": "stay in bed",
+      "reading": "ˌsteɪ ɪn ˈbɛd"
+    },
+    {
+      "id": "en.advice",
+      "text": "advice",
+      "reading": "ədˈvaɪs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Doctor, what should I do?",
+      "reading": "ˈdɑːktər, ˈwʌt ʃʊd aɪ ˈduː?"
+    },
+    {
+      "speaker": "b",
+      "text": "You have a cold. You should rest and drink a lot of water.",
+      "reading": "juː ˈhæv ə ˈkoʊld. juː ʃʊd ˈrɛst ənd ˈdrɪŋk ə ˈlɑːt əv ˈwɔːtər."
+    },
+    {
+      "speaker": "a",
+      "text": "Should I go to class tomorrow?",
+      "reading": "ʃʊd aɪ ˈɡoʊ tə ˈklæs təˈmɑːroʊ?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, you shouldn't. You should stay in bed for two days.",
+      "reading": "ˈnoʊ, juː ˈʃʊdənt. juː ʃʊd ˈsteɪ ɪn ˈbɛd fər ˈtuː ˈdeɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "Can I work on the weekend?",
+      "reading": "kən aɪ ˈwɜːrk ɑːn ðə ˈwiːkɛnd?"
+    },
+    {
+      "speaker": "b",
+      "text": "I don't think so. You shouldn't work this weekend.",
+      "reading": "aɪ ˈdoʊnt ˈθɪŋk ˈsoʊ. juː ˈʃʊdənt ˈwɜːrk ðɪs ˈwiːkɛnd."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Thank you for your advice.",
+      "reading": "oʊˈkeɪ. ˈθæŋk juː fər jʊr ədˈvaɪs."
+    },
+    {
+      "speaker": "b",
+      "text": "And here's your medicine.",
+      "reading": "ənd hɪrz jʊr ˈmɛdəsən."
+    }
+  ]
+}

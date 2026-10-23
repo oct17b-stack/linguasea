@@ -1,0 +1,67 @@
+{
+  "id": "ja-B12-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.karada",
+      "text": "からだ",
+      "reading": "karada"
+    },
+    {
+      "id": "ja.te",
+      "text": "手",
+      "reading": "te",
+      "say": "て"
+    },
+    {
+      "id": "ja.ashi",
+      "text": "足",
+      "reading": "ashi",
+      "say": "あし"
+    },
+    {
+      "id": "ja.kata",
+      "text": "かた",
+      "reading": "kata"
+    },
+    {
+      "id": "ja.koshi",
+      "text": "こし",
+      "reading": "koshi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、すもうが すきですか。",
+      "reading": "Namu-san, sumō ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。すもうの ひとは からだが おおきいですね。",
+      "reading": "Hai. Sumō no hito wa karada ga ōkii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。手も 足も おおきいです。",
+      "reading": "Ē. Te mo ashi mo ōkii desu."
+    },
+    {
+      "speaker": "a",
+      "text": "かたも ひろいですね。",
+      "reading": "Kata mo hiroi desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "こしも つよいですよ。",
+      "reading": "Koshi mo tsuyoi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、そうですか。",
+      "reading": "Hē, sō desu ka."
+    }
+  ]
+}

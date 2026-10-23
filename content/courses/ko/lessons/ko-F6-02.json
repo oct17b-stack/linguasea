@@ -1,0 +1,96 @@
+{
+  "id": "ko-F6-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.yeongeuk",
+      "text": "연극",
+      "reading": "yeongeuk"
+    },
+    {
+      "id": "ko.myujikeol",
+      "text": "뮤지컬",
+      "reading": "myujikeol"
+    },
+    {
+      "id": "ko.gwangaek",
+      "text": "관객",
+      "reading": "gwangaek"
+    },
+    {
+      "id": "ko.gaekseok",
+      "text": "객석",
+      "reading": "gaekseok"
+    },
+    {
+      "id": "ko.magi-oreuda",
+      "text": "막이 오르다",
+      "reading": "magi oreuda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 큰일 났어요. 우리가 보려던 뮤지컬 표가 벌써 매진됐대요.",
+      "reading": "Nam ssi, keunil nasseoyo. Uriga boryeodeon myujikeol pyoga beolsseo maejindwaetdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네? 표를 판 지 한 시간밖에 안 됐는데 벌써 매진되다니요!",
+      "reading": "Ne? Pyoreul pan ji han siganbakke an dwaenneunde beolsseo maejindoedaniyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "유명한 배우가 나와서 그런지 인기가 정말 많대요.",
+      "reading": "Yumyeonghan baeuga nawaseo geureonji ingiga jeongmal mantaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말 아쉽네요. 한 달 동안 기다렸는데 못 보다니…",
+      "reading": "Jeongmal aswimneyo. Han dal dongan gidaryeonneunde mot bodani…"
+    },
+    {
+      "speaker": "b",
+      "text": "대신 다음 주에 대학로에서 하는 연극은 어때요? 그건 아직 표가 있대요.",
+      "reading": "Daesin daeum jue Daehangnoeseo haneun yeongeugeun eottaeyo? Geugeon ajik pyoga itdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "연극도 좋아요. 그런데 한국어를 다 알아들을 수 있을지 걱정돼요.",
+      "reading": "Yeongeukdo joayo. Geureonde hangugeoreul da aradeureul su isseulji geokjeongdwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 작은 극장이라서 배우들 목소리가 잘 들려요. 객석이 무대랑 아주 가깝거든요.",
+      "reading": "Gwaenchanayo. Jageun geukjangiraseo baeudeul moksoriga jal deullyeoyo. Gaekseogi mudaerang aju gakkapgeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 배우들을 그렇게 가까이에서 볼 수 있다니 신나네요.",
+      "reading": "Wa, baeudeureul geureoke gakkaieseo bol su itdani sinnaneyo."
+    },
+    {
+      "speaker": "b",
+      "text": "관객이 백 명밖에 안 들어가는 극장이라서 분위기도 아주 좋대요.",
+      "reading": "Gwangaegi baek myeongbakke an deureoganeun geukjangiraseo bunwigido aju jotaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 시에 막이 올라요?",
+      "reading": "Myeot sie magi ollayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저녁 일곱 시 반에 막이 올라요. 늦으면 못 들어가니까 일찍 만나요.",
+      "reading": "Jeonyeok ilgop si bane magi ollayo. Neujeumyeon mot deureoganikka iljjik mannayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 이번에는 매진되기 전에 지금 바로 예매해요!",
+      "reading": "Ne, ibeoneneun maejindoegi jeone jigeum baro yemaehaeyo!"
+    }
+  ]
+}

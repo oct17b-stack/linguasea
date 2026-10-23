@@ -1,0 +1,77 @@
+{
+  "id": "en-C2-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.whats-the-matter",
+      "kind": "phrase",
+      "text": "What's the matter?",
+      "reading": "wʌts ðə ˈmætər"
+    },
+    {
+      "id": "en.dizzy",
+      "text": "dizzy",
+      "reading": "ˈdɪzi"
+    },
+    {
+      "id": "en.itchy",
+      "text": "itchy",
+      "reading": "ˈɪtʃi"
+    },
+    {
+      "id": "en.weak",
+      "text": "weak",
+      "reading": "wiːk"
+    },
+    {
+      "id": "en.throw-up",
+      "kind": "phrase",
+      "text": "throw up",
+      "reading": "ˌθroʊ ˈʌp"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Good afternoon, Nam. What's the matter?",
+      "reading": "ɡʊd ˌæftərˈnuːn, ˈnɑːm. ˈwʌts ðə ˈmætər?"
+    },
+    {
+      "speaker": "a",
+      "text": "I feel dizzy, Doctor. And I feel very weak.",
+      "reading": "aɪ ˈfiːl ˈdɪzi, ˈdɑːktər. ənd aɪ ˈfiːl ˈvɛri ˈwiːk."
+    },
+    {
+      "speaker": "b",
+      "text": "Are you throwing up?",
+      "reading": "ər juː ˈθroʊɪŋ ˈʌp?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, sometimes. And I can't eat.",
+      "reading": "ˈjɛs, ˈsʌmtaɪmz. ənd aɪ ˈkænt ˈiːt."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you have a fever?",
+      "reading": "duː juː ˈhæv ə ˈfiːvər?"
+    },
+    {
+      "speaker": "a",
+      "text": "No. But my arms and legs are itchy.",
+      "reading": "ˈnoʊ. bʌt maɪ ˈɑːrmz ənd ˈlɛɡz ər ˈɪtʃi."
+    },
+    {
+      "speaker": "b",
+      "text": "Itchy, too? Can I see?",
+      "reading": "ˈɪtʃi, ˈtuː? kən aɪ ˈsiː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Look. They're very red.",
+      "reading": "ˈlʊk. ðɛr ˈvɛri ˈrɛd."
+    }
+  ]
+}

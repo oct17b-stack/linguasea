@@ -1,0 +1,100 @@
+{
+  "id": "ko-E8-02",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bangsong",
+      "text": "방송",
+      "reading": "bangsong"
+    },
+    {
+      "id": "ko.churyeon-hada",
+      "text": "출연하다",
+      "reading": "churyeonhada"
+    },
+    {
+      "id": "ko.inteobyu",
+      "text": "인터뷰",
+      "reading": "inteobyu"
+    },
+    {
+      "id": "ko.sicheongja",
+      "text": "시청자",
+      "reading": "sicheongja"
+    },
+    {
+      "id": "ko.jinhaengja",
+      "text": "진행자",
+      "reading": "jinhaengja"
+    },
+    {
+      "id": "ko.yeneung",
+      "text": "예능",
+      "reading": "yeneung"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 다음 주에 텔레비전에 출연한다면서요?",
+      "reading": "Nam ssi, daeum jue tellebijeone churyeonhandamyeonseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 어떻게 아셨어요? 외국인 유학생들이 나오는 예능 프로그램이에요.",
+      "reading": "Ne, eotteoke asyeosseoyo? Oegugin yuhaksaengdeuri naoneun yeneung peurogeuraemieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 대단해요! 무슨 방송이에요?",
+      "reading": "Wa, daedanhaeyo! Museun bangsongieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "유학생들이 한국 문화를 배우는 토요일 저녁 방송이에요.",
+      "reading": "Yuhaksaengdeuri Hanguk munhwareul baeuneun toyoil jeonyeok bangsongieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "진행자가 유명한 배우라면서요?",
+      "reading": "Jinhaengjaga yumyeonghan baeuramyeonseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 맞아요. 그래서 너무 떨려요. 인터뷰도 해야 해요.",
+      "reading": "Ne, majayo. Geuraeseo neomu tteollyeoyo. Inteobyudo haeya haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "어떤 인터뷰예요?",
+      "reading": "Eotteon inteobyuyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국에 온 이유하고 한국 생활에 대해서 물어본대요.",
+      "reading": "Hanguge on iyuhago Hanguk saenghware daehaeseo mureobondaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨는 한국어를 잘하니까 시청자들이 좋아할 거예요.",
+      "reading": "Nam ssineun hangugeoreul jalhanikka sicheongjadeuri joahal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그런데 선생님도 대학생 때 방송에 나오셨다면서요?",
+      "reading": "Gamsahamnida. Geureonde seonsaengnimdo daehaksaeng ttae bangsonge naosyeotdamyeonseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "하하, 누가 그래요? 옛날에 한 번 나간 적은 있어요.",
+      "reading": "Haha, nuga geuraeyo? Yennare han beon nagan jeogeun isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 꼭 보고 싶어요!",
+      "reading": "Wa, kkok bogo sipeoyo!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D4-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jeongu",
+      "text": "전구",
+      "reading": "jeongu"
+    },
+    {
+      "id": "ko.galda",
+      "text": "갈다",
+      "reading": "galda"
+    },
+    {
+      "id": "ko.gomujanggap",
+      "text": "고무장갑",
+      "reading": "gomujanggap"
+    },
+    {
+      "id": "ko.sikcho",
+      "text": "식초",
+      "reading": "sikcho"
+    },
+    {
+      "id": "ko.eolluk",
+      "text": "얼룩",
+      "reading": "eolluk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 화장실 전구가 고장 났어요.",
+      "reading": "Minjun ssi, hwajangsil jeonguga gojang nasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 그럼 전구를 갈면 돼요.",
+      "reading": "Geuraeyo? Geureom jeongureul galmyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 전구를 갈 줄 몰라요.",
+      "reading": "Jeoneun jeongureul gal jul mollayo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 전구를 빼고 다른 전구를 넣으면 돼요.",
+      "reading": "Gwaenchanayo. Jeongureul ppaego dareun jeongureul neoeumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "고마워요. 그리고 냉장고에 얼룩이 있는데 어떻게 해요?",
+      "reading": "Gomawoyo. Geurigo naengjanggoe eollugi inneunde eotteoke haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "물에 식초를 조금 넣어서 닦으면 돼요.",
+      "reading": "Mure sikchoreul jogeum neoeoseo dakkeumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "식초요? 그냥 물로 닦으면 안 돼요?",
+      "reading": "Sikchoyo? Geunyang mullo dakkeumyeon an dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "물로는 잘 안 돼요. 고무장갑을 끼고 식초로 닦으면 돼요.",
+      "reading": "Mulloneun jal an dwaeyo. Gomujanggabeul kkigo sikchoro dakkeumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그렇군요! 고무장갑은 어디에 있어요?",
+      "reading": "A, geureokunyo! Gomujanggabeun eodie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "부엌에 있어요. 세제 옆에 있어요.",
+      "reading": "Bueoke isseoyo. Seje yeope isseoyo."
+    }
+  ]
+}

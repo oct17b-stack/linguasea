@@ -1,0 +1,85 @@
+{
+  "id": "ko-D8-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.sangsa",
+      "text": "상사",
+      "reading": "sangsa"
+    },
+    {
+      "id": "ko.jikgeup",
+      "text": "직급",
+      "reading": "jikgeup"
+    },
+    {
+      "id": "ko.daeri",
+      "text": "대리",
+      "reading": "daeri"
+    },
+    {
+      "id": "ko.seungjin-hada",
+      "text": "승진하다",
+      "reading": "seungjinhada"
+    },
+    {
+      "id": "ko.bogo-hada",
+      "text": "보고하다",
+      "reading": "bogohada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 부장님께서 남 씨를 찾으셨어요.",
+      "reading": "Nam ssi, bujangnimkkeseo Nam ssireul chajeusyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네? 부장님께서 저를요?",
+      "reading": "Ne? Bujangnimkkeseo jeoreuryo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 오늘 오후에 부장님께 보고해야 해요.",
+      "reading": "Ne, oneul ohue bujangnimkke bogohaeya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "무엇을 보고해요?",
+      "reading": "Mueoseul bogohaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "어제 회의에서 한 일을 보고하면 돼요.",
+      "reading": "Eoje hoeuieseo han ireul bogohamyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 그런데 대리님, 회사 직급이 어떻게 돼요?",
+      "reading": "Algesseoyo. Geureonde daerinim, hoesa jikgeubi eotteoke dwaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "사원, 대리, 과장, 부장이 있어요. 제 상사는 박 과장님이에요.",
+      "reading": "Sawon, daeri, gwajang, bujangi isseoyo. Je sangsaneun Bak gwajangnimieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "대리님은 언제 승진하세요?",
+      "reading": "Daerinimeun eonje seungjinhaseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 그건 사장님께서 정하실 거예요.",
+      "reading": "Haha, geugeon sajangnimkkeseo jeonghasil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 나중에 꼭 승진하고 싶어요!",
+      "reading": "Jeodo najunge kkok seungjinhago sipeoyo!"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "ko-E8-04",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.peojida",
+      "text": "퍼지다",
+      "reading": "peojida"
+    },
+    {
+      "id": "ko.gajja-nyuseu",
+      "kind": "phrase",
+      "text": "가짜 뉴스",
+      "reading": "gajja nyuseu"
+    },
+    {
+      "id": "ko.jeongbo",
+      "text": "정보",
+      "reading": "jeongbo"
+    },
+    {
+      "id": "ko.sasil",
+      "text": "사실",
+      "reading": "sasil"
+    },
+    {
+      "id": "ko.chulcheo",
+      "text": "출처",
+      "reading": "chulcheo"
+    },
+    {
+      "id": "ko.geomjeung-hada",
+      "text": "검증하다",
+      "reading": "geomjeunghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남아, 이거 봐. 내일 학교가 쉰대!",
+      "reading": "Nama, igeo bwa. Naeil hakgyoga swindae!"
+    },
+    {
+      "speaker": "a",
+      "text": "정말? 그 소식을 어디에서 봤어?",
+      "reading": "Jeongmal? Geu sosigeul eodieseo bwasseo?"
+    },
+    {
+      "speaker": "b",
+      "text": "SNS를 통해서 친구한테 받았어.",
+      "reading": "Eseuenseureul tonghaeseo chinguhante badasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "그거 가짜 뉴스 아니야? 출처가 어디야?",
+      "reading": "Geugeo gajja nyuseu aniya? Chulcheoga eodiya?"
+    },
+    {
+      "speaker": "b",
+      "text": "출처는 잘 모르겠어. 그런데 벌써 많이 퍼졌어.",
+      "reading": "Chulcheoneun jal moreugesseo. Geureonde beolsseo mani peojyeosseo."
+    },
+    {
+      "speaker": "a",
+      "text": "요즘은 가짜 뉴스가 SNS를 통해 금방 퍼져. 먼저 사실인지 검증해야 해.",
+      "reading": "Yojeumeun gajja nyuseuga eseuenseureul tonghae geumbang peojyeo. Meonjeo sasirinji geomjeunghaeya hae."
+    },
+    {
+      "speaker": "b",
+      "text": "어떻게 검증해?",
+      "reading": "Eotteoke geomjeunghae?"
+    },
+    {
+      "speaker": "a",
+      "text": "학교 앱을 통해서 확인하면 돼.",
+      "reading": "Hakgyo aebeul tonghaeseo hwaginhamyeon dwae."
+    },
+    {
+      "speaker": "b",
+      "text": "잠깐만... 학교 앱에는 그런 정보가 없네.",
+      "reading": "Jamkkanman... Hakgyo aebeneun geureon jeongboga eomne."
+    },
+    {
+      "speaker": "a",
+      "text": "거 봐. 그건 사실이 아니야.",
+      "reading": "Geo bwa. Geugeon sasiri aniya."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 진짜 쉬고 싶었는데.",
+      "reading": "A, jinjja swigo sipeonneunde."
+    },
+    {
+      "speaker": "a",
+      "text": "앞으로는 정보를 공유하기 전에 꼭 출처를 확인해.",
+      "reading": "Apeuroneun jeongboreul gongyuhagi jeone kkok chulcheoreul hwaginhae."
+    }
+  ]
+}

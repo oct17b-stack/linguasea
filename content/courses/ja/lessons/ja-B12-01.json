@@ -1,0 +1,68 @@
+{
+  "id": "ja-B12-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.atama",
+      "text": "あたま",
+      "reading": "atama"
+    },
+    {
+      "id": "ja.kao",
+      "text": "かお",
+      "reading": "kao"
+    },
+    {
+      "id": "ja.me",
+      "text": "目",
+      "reading": "me",
+      "say": "め"
+    },
+    {
+      "id": "ja.mimi",
+      "text": "耳",
+      "reading": "mimi",
+      "say": "みみ"
+    },
+    {
+      "id": "ja.kuchi",
+      "text": "口",
+      "reading": "kuchi",
+      "say": "くち"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、だるまの 目は どこですか。",
+      "reading": "Yuki-san, daruma no me wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ここです。だるまの 目は しろいですよ。",
+      "reading": "Koko desu. Daruma no me wa shiroi desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "耳と 口は どこですか。",
+      "reading": "Mimi to kuchi wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "口は ここです。耳は ありません。",
+      "reading": "Kuchi wa koko desu. Mimi wa arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "だるまは あたまと かおが おおきいですね。",
+      "reading": "Daruma wa atama to kao ga ōkii desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ。かわいいですね。",
+      "reading": "Ē. Kawaii desu ne."
+    }
+  ]
+}

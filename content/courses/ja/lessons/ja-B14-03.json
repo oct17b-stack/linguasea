@@ -1,0 +1,65 @@
+{
+  "id": "ja-B14-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.supootsu",
+      "text": "スポーツ",
+      "reading": "supōtsu"
+    },
+    {
+      "id": "ja.tenisu",
+      "text": "テニス",
+      "reading": "tenisu"
+    },
+    {
+      "id": "ja.basukettobooru",
+      "text": "バスケットボール",
+      "reading": "basukettobōru"
+    },
+    {
+      "id": "ja.bareebooru",
+      "text": "バレーボール",
+      "reading": "barēbōru"
+    },
+    {
+      "id": "ja.heta",
+      "text": "へた",
+      "reading": "heta"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは スポーツを しますか。",
+      "reading": "Namu-san wa supōtsu o shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、バスケットボールを します。ゆきさんは？",
+      "reading": "Hai, basukettobōru o shimasu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは テニスを します。でも、へたです。",
+      "reading": "Watashi wa tenisu o shimasu. Demo, heta desu."
+    },
+    {
+      "speaker": "a",
+      "text": "バレーボールは しますか。",
+      "reading": "Barēbōru wa shimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ときどき します。ナムさんは？",
+      "reading": "Hai, tokidoki shimasu. Namu-san wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは しません。バレーボールは へたですから。",
+      "reading": "Watashi wa shimasen. Barēbōru wa heta desu kara."
+    }
+  ]
+}

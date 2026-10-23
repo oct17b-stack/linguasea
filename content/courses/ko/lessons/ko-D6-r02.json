@@ -1,0 +1,100 @@
+{
+  "id": "ko-D6-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.gisanim",
+      "text": "기사님",
+      "reading": "gisanim"
+    },
+    {
+      "id": "ko.yeongsujeung",
+      "text": "영수증",
+      "reading": "yeongsujeung"
+    },
+    {
+      "id": "ko.doechatda",
+      "text": "되찾다",
+      "reading": "doechatda"
+    },
+    {
+      "id": "ko.teureongkeu",
+      "text": "트렁크",
+      "reading": "teureongkeu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "금요일 저녁에 남 씨는 서울역에서 택시를 탔어요.",
+        "reading": "Geumyoil jeonyeoge Nam ssineun Seoullyeogeseo taeksireul tasseoyo."
+      },
+      {
+        "text": "남 씨는 여행 가방을 트렁크에 넣었어요.",
+        "reading": "Nam ssineun yeohaeng gabangeul teureongkeue neoeosseoyo."
+      },
+      {
+        "text": "집에 도착해서 카드로 계산하고 영수증을 받았어요.",
+        "reading": "Jibe dochakaeseo kadeuro gyesanhago yeongsujeungeul badasseoyo."
+      },
+      {
+        "text": "그런데 집에 들어와서 가방 생각이 났어요.",
+        "reading": "Geureonde jibe deureowaseo gabang saenggagi nasseoyo."
+      },
+      {
+        "text": "트렁크에 가방을 두고 내렸어요!",
+        "reading": "Teureongkeue gabangeul dugo naeryeosseoyo!"
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 너무 놀라서 아무것도 할 수 없었어요.",
+        "reading": "Nam ssineun neomu nollaseo amugeotdo hal su eopseosseoyo."
+      },
+      {
+        "text": "그런데 영수증 생각이 났어요.",
+        "reading": "Geureonde yeongsujeung saenggagi nasseoyo."
+      },
+      {
+        "text": "영수증에는 택시 전화번호가 있었어요.",
+        "reading": "Yeongsujeungeneun taeksi jeonhwabeonhoga isseosseoyo."
+      },
+      {
+        "text": "남 씨는 바로 그 번호로 전화를 걸어서 기사님하고 통화했어요.",
+        "reading": "Nam ssineun baro geu beonhoro jeonhwareul georeoseo gisanimhago tonghwahaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "한 시간 후에 그 택시가 남 씨 집 앞에 왔어요.",
+        "reading": "Han sigan hue geu taeksiga Nam ssi jip ape wasseoyo."
+      },
+      {
+        "text": "남 씨는 기사님 덕분에 가방을 되찾았어요.",
+        "reading": "Nam ssineun gisanim deokbune gabangeul doechajasseoyo."
+      },
+      {
+        "text": "남 씨는 감사해서 기사님께 커피를 드렸어요.",
+        "reading": "Nam ssineun gamsahaeseo gisanimkke keopireul deuryeosseoyo."
+      },
+      {
+        "text": "그날부터 남 씨는 택시를 타면 꼭 영수증을 받아요.",
+        "reading": "Geunalbuteo Nam ssineun taeksireul tamyeon kkok yeongsujeungeul badayo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

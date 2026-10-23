@@ -1,0 +1,85 @@
+{
+  "id": "ko-D3-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.seonggyeok",
+      "text": "성격",
+      "reading": "seonggyeok"
+    },
+    {
+      "id": "ko.chak-hada",
+      "text": "착하다",
+      "reading": "chakada"
+    },
+    {
+      "id": "ko.chinjeol-hada",
+      "text": "친절하다",
+      "reading": "chinjeolhada"
+    },
+    {
+      "id": "ko.hwalbal-hada",
+      "text": "활발하다",
+      "reading": "hwalbalhada"
+    },
+    {
+      "id": "ko.yamjeon-hada",
+      "text": "얌전하다",
+      "reading": "yamjeonhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 성격이 어때요?",
+      "reading": "Nam ssineun seonggyeogi eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 좀 얌전한 편이에요. 말을 많이 안 하는 편이에요.",
+      "reading": "Jeoneun jom yamjeonhan pyeonieyo. Mareul mani an haneun pyeonieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 제 생각에는 남 씨는 활발한 편이에요.",
+      "reading": "Geuraeyo? Je saenggageneun Nam ssineun hwalbalhan pyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "친구들하고 있으면 좀 활발해요. 그런데 처음 만나는 사람 앞에서는 얌전해요.",
+      "reading": "Chingudeulhago isseumyeon jom hwalbalhaeyo. Geureonde cheoeum mannaneun saram apeseoneun yamjeonhaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지훈이도 그래요. 처음에는 얌전한 편이에요.",
+      "reading": "Jihunido geuraeyo. Cheoeumeneun yamjeonhan pyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "지훈 씨는 어떤 사람이에요?",
+      "reading": "Jihun ssineun eotteon saramieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아주 착하고 친절해요. 모르는 사람한테도 친절한 편이에요.",
+      "reading": "Aju chakago chinjeolhaeyo. Moreuneun saramhantedo chinjeolhan pyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 좋네요. 저는 착한 사람이 좋아요.",
+      "reading": "Wa, jonneyo. Jeoneun chakan sarami joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고 운동을 자주 하는 편이에요.",
+      "reading": "Geurigo undongeul jaju haneun pyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 운동을 좋아하는 편이에요!",
+      "reading": "Jeodo undongeul joahaneun pyeonieyo!"
+    }
+  ]
+}

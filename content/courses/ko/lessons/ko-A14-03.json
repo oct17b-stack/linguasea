@@ -1,0 +1,50 @@
+{
+  "id": "ko-A14-03",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.bunsikjip",
+      "text": "분식집",
+      "reading": "bunsikjip"
+    },
+    {
+      "id": "ko.gogitjip",
+      "text": "고깃집",
+      "reading": "gogitjip"
+    },
+    {
+      "id": "ko.chikinjip",
+      "text": "치킨집",
+      "reading": "chikinjip"
+    },
+    {
+      "id": "ko.pojangmacha",
+      "text": "포장마차",
+      "reading": "pojangmacha"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 저거 포장마차예요?",
+      "reading": "Minjun ssi, jeogeo pojangmachayeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 분식집이에요. 떡볶이 맛있어요!",
+      "reading": "Aniyo, bunsikjibieyo. Tteokbokki masisseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "고깃집하고 치킨집은요?",
+      "reading": "Gogitjiphago chikinjibeunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "고깃집은 이 층이에요. 치킨집은 삼 층이에요.",
+      "reading": "Gogitjibeun i cheungieyo. Chikinjibeun sam cheungieyo."
+    }
+  ]
+}

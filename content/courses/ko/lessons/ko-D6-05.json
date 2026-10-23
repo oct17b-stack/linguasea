@@ -1,0 +1,86 @@
+{
+  "id": "ko-D6-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.eongmang",
+      "text": "엉망",
+      "reading": "eongmang"
+    },
+    {
+      "id": "ko.yesang-hada",
+      "text": "예상하다",
+      "reading": "yesanghada"
+    },
+    {
+      "id": "ko.byeongyeongdoeda",
+      "text": "변경되다",
+      "reading": "byeongyeongdoeda"
+    },
+    {
+      "id": "ko.silmang-hada",
+      "text": "실망하다",
+      "reading": "silmanghada"
+    },
+    {
+      "id": "ko.eojjeol-su-eopda",
+      "text": "어쩔 수 없다",
+      "reading": "eojjeol su eopda",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 부산 여행은 계획대로 됐어요?",
+      "reading": "Nam ssi, Busan yeohaengeun gyehoekdaero dwaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 계획대로 된 게 하나도 없어요. 엉망이었어요.",
+      "reading": "Aniyo, gyehoekdaero doen ge hanado eopseoyo. Eongmangieosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "왜요? 무슨 일이 있었어요?",
+      "reading": "Waeyo? Museun iri isseosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "먼저 열차를 놓쳤어요. 그리고 비가 많이 왔어요. 비는 예상하지 못했어요.",
+      "reading": "Meonjeo yeolchareul notchyeosseoyo. Geurigo biga mani wasseoyo. Bineun yesanghaji motaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고. 그럼 바다는 못 갔어요?",
+      "reading": "Aigo. Geureom badaneun mot gasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 날씨 때문에 일정이 다 변경됐어요.",
+      "reading": "Ne, nalssi ttaemune iljeongi da byeongyeongdwaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "많이 실망했겠어요.",
+      "reading": "Mani silmanghaetgesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "처음에는 실망했어요. 그런데 날씨는 어쩔 수 없어요.",
+      "reading": "Cheoeumeneun silmanghaesseoyo. Geureonde nalssineun eojjeol su eopseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 뭐 했어요?",
+      "reading": "Geureom mwo haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨 말대로 찜질방에 갔어요. 정말 좋았어요!",
+      "reading": "Minjun ssi maldaero jjimjilbange gasseoyo. Jeongmal joasseoyo!"
+    }
+  ]
+}

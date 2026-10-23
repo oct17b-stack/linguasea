@@ -1,0 +1,96 @@
+{
+  "id": "ko-F7-02",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.beseuteuselleo",
+      "text": "베스트셀러",
+      "reading": "beseuteuselleo"
+    },
+    {
+      "id": "ko.singan",
+      "text": "신간",
+      "reading": "singan"
+    },
+    {
+      "id": "ko.seopyeong",
+      "text": "서평",
+      "reading": "seopyeong"
+    },
+    {
+      "id": "ko.chucheon-doseo",
+      "text": "추천 도서",
+      "reading": "chucheon doseo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.ipsomun",
+      "text": "입소문",
+      "reading": "ipsomun"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이 책 좀 보세요. 요즘 제일 잘 팔리는 베스트셀러래요.",
+      "reading": "Nam ssi, i chaek jom boseyo. Yojeum jeil jal pallineun beseuteuselleoraeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 서점 앞에 크게 붙어 있던 그 신간이에요?",
+      "reading": "A, seojeom ape keuge buteo itdeon geu singanieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 입소문이 나서 벌써 십만 권이 팔렸대요.",
+      "reading": "Ne, ipsomuni naseo beolsseo simman gwoni pallyeotdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 베스트셀러라고 해서 다 재미있는 건 아니잖아요.",
+      "reading": "Geureonde beseuteuselleorago haeseo da jaemiinneun geon anijanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 지난번에 산 베스트셀러는 저한테 별로였어요.",
+      "reading": "Majayo. Jinanbeone san beseuteuselleoneun jeohante byeolloyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 서평을 먼저 읽어 보는 게 어때요?",
+      "reading": "Geureom seopyeongeul meonjeo ilgeo boneun ge eottaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 음, 서평을 보니까 이야기가 좀 뻔하다는 의견도 있네요.",
+      "reading": "Joayo. Eum, seopyeongeul bonikka iyagiga jom ppeonhadaneun uigyeondo inneyo."
+    },
+    {
+      "speaker": "a",
+      "text": "사람들이 많이 읽는다고 해서 저한테도 좋은 책은 아니죠. 저는 도서관 추천 도서를 자주 읽어요.",
+      "reading": "Saramdeuri mani ingneundago haeseo jeohantedo joeun chaegeun anijyo. Jeoneun doseogwan chucheon doseoreul jaju ilgeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "추천 도서는 누가 골라요?",
+      "reading": "Chucheon doseoneun nuga gollayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "도서관 선생님들이 매달 좋은 책을 골라서 소개해 줘요.",
+      "reading": "Doseogwan seonsaengnimdeuri maedal joeun chaegeul gollaseo sogaehae jwoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그거 좋네요. 비싸다고 해서 좋은 책도 아니니까 이번에는 저도 도서관에서 빌려 볼게요.",
+      "reading": "Geugeo jonneyo. Bissadago haeseo joeun chaekdo aninikka ibeoneneun jeodo doseogwaneseo billyeo bolgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 다 읽고 나면 서로 감상을 이야기해요.",
+      "reading": "Joayo. Da ilgo namyeon seoro gamsangeul iyagihaeyo."
+    }
+  ]
+}

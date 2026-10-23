@@ -1,0 +1,65 @@
+{
+  "id": "ja-B12-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kaze",
+      "text": "かぜ",
+      "reading": "kaze"
+    },
+    {
+      "id": "ja.byouki",
+      "text": "びょうき",
+      "reading": "byōki"
+    },
+    {
+      "id": "ja.kushami",
+      "text": "くしゃみ",
+      "reading": "kushami"
+    },
+    {
+      "id": "ja.arerugii",
+      "text": "アレルギー",
+      "reading": "arerugī"
+    },
+    {
+      "id": "ja.masuku",
+      "text": "マスク",
+      "reading": "masuku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、かぜですか。",
+      "reading": "Namu-san, kaze desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、かぜじゃ ありません。アレルギーです。",
+      "reading": "Iie, kaze ja arimasen. Arerugī desu."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。くしゃみが よく でますね。",
+      "reading": "Sō desu ka. Kushami ga yoku demasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あさは いつも くしゃみが でます。",
+      "reading": "Hai. Asa wa itsumo kushami ga demasu."
+    },
+    {
+      "speaker": "c",
+      "text": "マスクが ありますよ。どうぞ。",
+      "reading": "Masuku ga arimasu yo. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。びょうきじゃ ありませんが、マスクを します。",
+      "reading": "Arigatō. Byōki ja arimasen ga, masuku o shimasu."
+    }
+  ]
+}

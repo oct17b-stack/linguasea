@@ -1,0 +1,71 @@
+{
+  "id": "en-C1-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.knit",
+      "text": "knit",
+      "reading": "nɪt"
+    },
+    {
+      "id": "en.sew",
+      "text": "sew",
+      "reading": "soʊ"
+    },
+    {
+      "id": "en.skateboard",
+      "text": "skateboard",
+      "reading": "ˈskeɪtbɔːrd"
+    },
+    {
+      "id": "en.not-at-all",
+      "kind": "phrase",
+      "text": "not at all",
+      "reading": "ˌnɑːt ət ˈɔːl"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you knit?",
+      "reading": "ˈnɑːm, kən juː ˈnɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I can't. But my grandmother can.",
+      "reading": "ˈnoʊ, aɪ ˈkænt. bʌt maɪ ˈɡrænmʌðər ˈkæn."
+    },
+    {
+      "speaker": "c",
+      "text": "Can you sew?",
+      "reading": "kən juː ˈsoʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I can. My mom can sew, too.",
+      "reading": "ˈjɛs, aɪ ˈkæn. maɪ ˈmɑːm kən ˈsoʊ, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Great! And can you skateboard?",
+      "reading": "ˈɡreɪt! ənd kən juː ˈskeɪtbɔːrd?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, not at all! Can you?",
+      "reading": "ˈnoʊ, ˈnɑːt ət ˈɔːl! kən ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, I can. I can teach you!",
+      "reading": "ˈjɛs, aɪ ˈkæn. aɪ kən ˈtiːtʃ juː!"
+    },
+    {
+      "speaker": "a",
+      "text": "No, thanks. I'm scared!",
+      "reading": "ˈnoʊ, ˈθæŋks. aɪm ˈskɛrd!"
+    }
+  ]
+}

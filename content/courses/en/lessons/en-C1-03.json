@@ -1,0 +1,71 @@
+{
+  "id": "en-C1-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.play-the-guitar",
+      "kind": "phrase",
+      "text": "play the guitar",
+      "reading": "ˌpleɪ ðə ɡɪˈtɑːr"
+    },
+    {
+      "id": "en.piano",
+      "text": "piano",
+      "reading": "piˈænoʊ"
+    },
+    {
+      "id": "en.instrument",
+      "text": "instrument",
+      "reading": "ˈɪnstrəmənt"
+    },
+    {
+      "id": "en.chess",
+      "text": "chess",
+      "reading": "tʃɛs"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you play an instrument?",
+      "reading": "ˈnɑːm, kən juː ˈpleɪ ən ˈɪnstrəmənt?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I can play the guitar. And you?",
+      "reading": "ˈjɛs, aɪ kən ˈpleɪ ðə ɡɪˈtɑːr. ənd ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "I can play the piano, but I can't play the guitar.",
+      "reading": "aɪ kən ˈpleɪ ðə piˈænoʊ, bʌt aɪ ˈkænt ˈpleɪ ðə ɡɪˈtɑːr."
+    },
+    {
+      "speaker": "a",
+      "text": "My sister can play the piano, too.",
+      "reading": "maɪ ˈsɪstər kən ˈpleɪ ðə piˈænoʊ, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "And can you play chess?",
+      "reading": "ənd kən juː ˈpleɪ ˈtʃɛs?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I can't play chess. It's too difficult for me.",
+      "reading": "ˈnoʊ, aɪ ˈkænt ˈpleɪ ˈtʃɛs. ɪts ˈtuː ˈdɪfɪkəlt fər miː."
+    },
+    {
+      "speaker": "c",
+      "text": "It's easy! I can teach you.",
+      "reading": "ɪts ˈiːzi! aɪ kən ˈtiːtʃ juː."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! And I can teach you the guitar!",
+      "reading": "ˈɡreɪt! ənd aɪ kən ˈtiːtʃ ˈjuː ðə ɡɪˈtɑːr!"
+    }
+  ]
+}

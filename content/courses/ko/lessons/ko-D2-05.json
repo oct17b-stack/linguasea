@@ -1,0 +1,86 @@
+{
+  "id": "ko-D2-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.sikida",
+      "text": "시키다",
+      "reading": "sikida"
+    },
+    {
+      "id": "ko.baedal-eumsik",
+      "text": "배달 음식",
+      "reading": "baedal eumsik",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.namgida",
+      "text": "남기다",
+      "reading": "namgida"
+    },
+    {
+      "id": "ko.yasik",
+      "text": "야식",
+      "reading": "yasik"
+    },
+    {
+      "id": "ko.sikda",
+      "text": "식다",
+      "reading": "sikda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 배고프지 않아요? 야식 먹을까요?",
+      "reading": "Nam ssi, baegopeuji anayo? Yasik meogeulkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 밖에서 먹든지 배달 음식을 시키든지 해요.",
+      "reading": "Joayo! Bakkeseo meokdeunji baedal eumsigeul sikideunji haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "지금 밖은 너무 추워요. 배달 음식을 시켜요.",
+      "reading": "Jigeum bakkeun neomu chuwoyo. Baedal eumsigeul sikyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래요. 치킨을 시키든지 볶음밥을 시키든지 다 좋아요.",
+      "reading": "Geuraeyo. Chikineul sikideunji bokkeumbabeul sikideunji da joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 치킨을 시켜요. 그런데 다 먹을 수 있어요?",
+      "reading": "Geureom chikineul sikyeoyo. Geureonde da meogeul su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "남기면 내일 먹을게요.",
+      "reading": "Namgimyeon naeil meogeulgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요. 그런데 치킨은 식으면 맛이 없어요.",
+      "reading": "Geuraeyo. Geureonde chikineun sigeumyeon masi eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 식기 전에 다 먹어요!",
+      "reading": "Geureom sikgi jeone da meogeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 좋아요. 음료수도 시킬까요?",
+      "reading": "Haha, joayo. Eumnyosudo sikilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음료수는 시키든지 안 시키든지 괜찮아요. 집에 물이 있어요.",
+      "reading": "Eumnyosuneun sikideunji an sikideunji gwaenchanayo. Jibe muri isseoyo."
+    }
+  ]
+}

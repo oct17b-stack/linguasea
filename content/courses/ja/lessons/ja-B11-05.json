@@ -1,0 +1,60 @@
+{
+  "id": "ja-B11-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.waifai",
+      "text": "ワイファイ",
+      "reading": "waifai"
+    },
+    {
+      "id": "ja.tsunagarimasu",
+      "text": "つながります",
+      "reading": "tsunagarimasu"
+    },
+    {
+      "id": "ja.batterii",
+      "text": "バッテリー",
+      "reading": "batterī"
+    },
+    {
+      "id": "ja.tsukaemasu",
+      "text": "つかえます",
+      "reading": "tsukaemasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あとで しゃしんを おくりますね。",
+      "reading": "Namu-san, atode shashin o okurimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、いま けいたいの バッテリーが ありません。",
+      "reading": "Sumimasen, ima keitai no batterī ga arimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。パソコンは？",
+      "reading": "Sō desu ka. Pasokon wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "パソコンは ありますが、インターネットが つながりません。",
+      "reading": "Pasokon wa arimasu ga, intānetto ga tsunagarimasen."
+    },
+    {
+      "speaker": "c",
+      "text": "ここは ワイファイが つかえますよ。",
+      "reading": "Koko wa waifai ga tsukaemasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうですか。よかった！",
+      "reading": "Hontō desu ka. Yokatta!"
+    }
+  ]
+}

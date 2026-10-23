@@ -1,0 +1,85 @@
+{
+  "id": "ko-D7-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.bullyang",
+      "text": "불량",
+      "reading": "bullyang"
+    },
+    {
+      "id": "ko.kkaejida",
+      "text": "깨지다",
+      "reading": "kkaejida"
+    },
+    {
+      "id": "ko.jjijeojida",
+      "text": "찢어지다",
+      "reading": "jjijeojida"
+    },
+    {
+      "id": "ko.heumjip",
+      "text": "흠집",
+      "reading": "heumjip"
+    },
+    {
+      "id": "ko.sangtae",
+      "text": "상태",
+      "reading": "sangtae"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "네, 한빛쇼핑이에요.",
+      "reading": "Ne, Hanbitsyopingieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 어제 주문한 그릇이 왔는데요.",
+      "reading": "Annyeonghaseyo. Eoje jumunhan geureusi wanneundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 상품 상태가 어때요?",
+      "reading": "Ne, sangpum sangtaega eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "그릇 하나가 아니라 두 개가 깨졌어요.",
+      "reading": "Geureut hanaga anira du gaega kkaejyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말 죄송합니다. 다른 문제는 없어요?",
+      "reading": "Jeongmal joesonghamnida. Dareun munjeneun eopseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "색깔도 달라요. 빨간색이 아니라 파란색이 왔어요.",
+      "reading": "Saekkkaldo dallayo. Ppalgansaegi anira paransaegi wasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 상자는 괜찮았어요?",
+      "reading": "A, geuraeyo? Sangjaneun gwaenchanasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "상자도 찢어졌어요. 그리고 다른 그릇에도 흠집이 있어요.",
+      "reading": "Sangjado jjijeojyeosseoyo. Geurigo dareun geureusedo heumjibi isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 불량이네요. 다른 상품으로 다시 보내 드릴게요.",
+      "reading": "Geureom bullyangineyo. Dareun sangpumeuro dasi bonae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 제가 주문한 건 파란색이 아니라 빨간색이에요. 꼭 빨간색으로 보내 주세요!",
+      "reading": "Gamsahamnida. Jega jumunhan geon paransaegi anira ppalgansaegieyo. Kkok ppalgansaegeuro bonae juseyo!"
+    }
+  ]
+}

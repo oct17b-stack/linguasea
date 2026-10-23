@@ -1,0 +1,86 @@
+{
+  "id": "ko-D8-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.eoneu-bun",
+      "text": "어느 분",
+      "reading": "eoneu bun",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.gogaek",
+      "text": "고객",
+      "reading": "gogaek"
+    },
+    {
+      "id": "ko.bangmun-hada",
+      "text": "방문하다",
+      "reading": "bangmunhada"
+    },
+    {
+      "id": "ko.annae-hada",
+      "text": "안내하다",
+      "reading": "annaehada"
+    },
+    {
+      "id": "ko.myeongham",
+      "text": "명함",
+      "reading": "myeongham"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 어느 분을 만나러 오셨어요?",
+      "reading": "Annyeonghaseyo. Eoneu buneul mannareo osyeosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "김 팀장님을 뵈러 왔어요. 세 시에 약속이 있어요.",
+      "reading": "Gim timjangnimeul boereo wasseoyo. Se sie yaksogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "실례지만 어느 분이세요?",
+      "reading": "Sillyejiman eoneu buniseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "한빛전자 최정호예요. 여기 제 명함이에요.",
+      "reading": "Hanbitjeonja Choe Jeonghoyeyo. Yeogi je myeonghamieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 최 부장님이세요? 방문해 주셔서 감사합니다.",
+      "reading": "A, Choe bujangnimiseyo? Bangmunhae jusyeoseo gamsahamnida."
+    },
+    {
+      "speaker": "b",
+      "text": "처음 보는 분이네요. 신입 사원이세요?",
+      "reading": "Cheoeum boneun bunineyo. Sinip sawoniseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 인턴이에요. 남이라고 해요. 여기 제 명함이에요.",
+      "reading": "Aniyo, inteonieyo. Namirago haeyo. Yeogi je myeonghamieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 태국 분이세요? 한국어를 정말 잘하시네요.",
+      "reading": "A, Taeguk buniseyo? Hangugeoreul jeongmal jalhasineyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 팀장님께서 고객님을 기다리고 계세요. 회의실로 안내해 드릴게요.",
+      "reading": "Gamsahamnida. Timjangnimkkeseo gogaengnimeul gidarigo gyeseyo. Hoeuisillo annaehae deurilgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 고마워요.",
+      "reading": "Ne, gomawoyo."
+    }
+  ]
+}

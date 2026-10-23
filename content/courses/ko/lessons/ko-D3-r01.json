@@ -1,0 +1,101 @@
+{
+  "id": "ko-D3-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.soljik-hada",
+      "text": "솔직하다",
+      "reading": "soljikada"
+    },
+    {
+      "id": "ko.jangnangi",
+      "text": "장난기",
+      "reading": "jangnangi"
+    },
+    {
+      "id": "ko.mari-manta",
+      "text": "말이 많다",
+      "reading": "mari manta",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.neugeut-hada",
+      "text": "느긋하다",
+      "reading": "neugeutada"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "안녕하세요! 저는 김민준이에요.",
+        "reading": "Annyeonghaseyo! Jeoneun Gim Minjunieyo."
+      },
+      {
+        "text": "경영학을 공부하고 있어요.",
+        "reading": "Gyeongyeonghageul gongbuhago isseoyo."
+      },
+      {
+        "text": "언어 교환 동아리에서 태국어를 공부하고 싶어요.",
+        "reading": "Eoneo gyohwan dongarieseo taegugeoreul gongbuhago sipeoyo."
+      }
+    ],
+    [
+      {
+        "text": "저는 솔직한 편이에요.",
+        "reading": "Jeoneun soljikan pyeonieyo."
+      },
+      {
+        "text": "하고 싶은 말을 다 하는 편이에요.",
+        "reading": "Hago sipeun mareul da haneun pyeonieyo."
+      },
+      {
+        "text": "그리고 장난기가 많아요.",
+        "reading": "Geurigo jangnangiga manayo."
+      },
+      {
+        "text": "그래서 친구들이 저하고 있으면 재미있어해요.",
+        "reading": "Geuraeseo chingudeuri jeohago isseumyeon jaemiisseohaeyo."
+      },
+      {
+        "text": "그런데 말이 많아서 가끔 좀 시끄러워요.",
+        "reading": "Geureonde mari manaseo gakkeum jom sikkeureowoyo."
+      },
+      {
+        "text": "그리고 좀 느긋한 편이에요.",
+        "reading": "Geurigo jom neugeutan pyeonieyo."
+      },
+      {
+        "text": "그래서 수업에 가끔 지각해요.",
+        "reading": "Geuraeseo sueobe gakkeum jigakaeyo."
+      }
+    ],
+    [
+      {
+        "text": "저는 운동하고 사진 찍는 것을 좋아해요.",
+        "reading": "Jeoneun undonghago sajin jjingneun geoseul joahaeyo."
+      },
+      {
+        "text": "태국 음식도 정말 좋아해요.",
+        "reading": "Taeguk eumsikdo jeongmal joahaeyo."
+      },
+      {
+        "text": "저하고 언어 교환을 하고 싶으면 연락하세요!",
+        "reading": "Jeohago eoneo gyohwaneul hago sipeumyeon yeollakaseyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

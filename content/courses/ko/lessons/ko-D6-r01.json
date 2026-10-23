@@ -1,0 +1,93 @@
+{
+  "id": "ko-D6-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.tapseunggu",
+      "text": "탑승구",
+      "reading": "tapseunggu"
+    },
+    {
+      "id": "ko.annae-bangsong",
+      "text": "안내 방송",
+      "reading": "annae bangsong",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yanghae",
+      "text": "양해",
+      "reading": "yanghae"
+    },
+    {
+      "id": "ko.seunggaek",
+      "text": "승객",
+      "reading": "seunggaek"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "승객 여러분, 안녕하세요.",
+        "reading": "Seunggaek yeoreobun, annyeonghaseyo."
+      },
+      {
+        "text": "세 시에 방콕으로 출발하는 한빛항공 비행기는 날씨 때문에 한 시간 지연됐어요.",
+        "reading": "Se sie Bangkogeuro chulbalhaneun Hanbithanggong bihaenggineun nalssi ttaemune han sigan jiyeondwaesseoyo."
+      },
+      {
+        "text": "출발 시간은 네 시로 변경됐어요.",
+        "reading": "Chulbal siganeun ne siro byeongyeongdwaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "그리고 탑승구도 변경됐어요.",
+        "reading": "Geurigo tapseunggudo byeongyeongdwaesseoyo."
+      },
+      {
+        "text": "삼십이 번 탑승구로 가 주세요.",
+        "reading": "Samsibi beon tapseungguro ga juseyo."
+      },
+      {
+        "text": "탑승은 세 시 반에 시작해요.",
+        "reading": "Tapseungeun se si bane sijakaeyo."
+      },
+      {
+        "text": "승객 여러분은 탑승구 앞에서 기다려 주세요.",
+        "reading": "Seunggaek yeoreobuneun tapseunggu apeseo gidaryeo juseyo."
+      }
+    ],
+    [
+      {
+        "text": "출발이 지연돼서 정말 죄송합니다.",
+        "reading": "Chulbari jiyeondwaeseo jeongmal joesonghamnida."
+      },
+      {
+        "text": "승객 여러분의 양해를 부탁드립니다.",
+        "reading": "Seunggaek yeoreobunui yanghaereul butakdeurimnida."
+      },
+      {
+        "text": "또 변경되면 안내 방송을 다시 할게요.",
+        "reading": "Tto byeongyeongdoemyeon annae bangsongeul dasi halgeyo."
+      },
+      {
+        "text": "감사합니다.",
+        "reading": "Gamsahamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "en-C8-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.shoulder",
+      "text": "shoulder",
+      "reading": "ˈʃoʊldər"
+    },
+    {
+      "id": "en.polite",
+      "text": "polite",
+      "reading": "pəˈlaɪt"
+    },
+    {
+      "id": "en.shorts",
+      "text": "shorts",
+      "reading": "ʃɔːrts"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Are you going to visit a temple in Thailand?",
+        "reading": "ər juː ˈɡoʊɪŋ tə ˈvɪzɪt ə ˈtɛmpəl ɪn ˈtaɪlænd?"
+      },
+      {
+        "text": "Then please wear the right clothes.",
+        "reading": "ˈðɛn ˈpliːz ˈwɛr ðə ˈraɪt ˈkloʊðz."
+      }
+    ],
+    [
+      {
+        "text": "It's polite to cover your shoulders and your knees.",
+        "reading": "ɪts pəˈlaɪt tə ˈkʌvər jʊr ˈʃoʊldərz ənd jʊr ˈniːz."
+      },
+      {
+        "text": "Don't wear shorts or short skirts.",
+        "reading": "ˈdoʊnt ˈwɛr ˈʃɔːrts ɔːr ˈʃɔːrt ˈskɜːrts."
+      },
+      {
+        "text": "If your shirt doesn't cover your shoulders, wear a scarf over them.",
+        "reading": "ɪf jʊr ˈʃɜːrt ˈdʌzənt ˈkʌvər jʊr ˈʃoʊldərz, ˈwɛr ə ˈskɑːrf ˈoʊvər ðɛm."
+      },
+      {
+        "text": "You must take off your shoes before you go into the temple building.",
+        "reading": "juː mʌst ˈteɪk ˈɔːf jʊr ˈʃuːz bɪˈfɔːr juː ˈɡoʊ ˈɪntuː ðə ˈtɛmpəl ˌbɪldɪŋ."
+      }
+    ],
+    [
+      {
+        "text": "And please speak quietly in the temple.",
+        "reading": "ənd ˈpliːz ˈspiːk ˈkwaɪətli ɪn ðə ˈtɛmpəl."
+      },
+      {
+        "text": "If you follow these rules, you'll have a great visit.",
+        "reading": "ɪf juː ˈfɑːloʊ ðiːz ˈruːlz, juːl ˈhæv ə ˈɡreɪt ˈvɪzɪt."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

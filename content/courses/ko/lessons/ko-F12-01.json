@@ -1,0 +1,95 @@
+{
+  "id": "ko-F12-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.gwahakja",
+      "text": "과학자",
+      "reading": "gwahakja"
+    },
+    {
+      "id": "ko.uju",
+      "text": "우주",
+      "reading": "uju"
+    },
+    {
+      "id": "ko.tamsa",
+      "text": "탐사",
+      "reading": "tamsa"
+    },
+    {
+      "id": "ko.haengseong",
+      "text": "행성",
+      "reading": "haengseong"
+    },
+    {
+      "id": "ko.yecheuk-hada",
+      "text": "예측하다",
+      "reading": "yecheukada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "이쪽은 우주 탐사 전시관입니다. 화성 사진이 보이시죠?",
+      "reading": "Ijjogeun uju tamsa jeonsigwanimnida. Hwaseong sajini boisijyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 정말 신기하네요. 사람이 화성에 갈 수 있을까요?",
+      "reading": "Ne, jeongmal singihaneyo. Sarami Hwaseonge gal su isseulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "과학자들은 2030년대에 사람이 처음으로 화성에 도착할 것으로 예측하고 있어요.",
+      "reading": "Gwahakjadeureun icheonsamsip nyeondaee sarami cheoeumeuro Hwaseonge dochakal geoseuro yecheukago isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그렇게 빨리요? 화성은 아주 멀잖아요.",
+      "reading": "Geureoke ppalliyo? Hwaseongeun aju meoljanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 하지만 기술이 빠르게 발달하고 있어서 가능할 것으로 보입니다.",
+      "reading": "Ne, hajiman gisuri ppareuge baldalhago isseoseo ganeunghal geoseuro boimnida."
+    },
+    {
+      "speaker": "a",
+      "text": "화성 말고 사람이 살 수 있는 행성도 있어요?",
+      "reading": "Hwaseong malgo sarami sal su inneun haengseongdo isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "지구와 비슷한 행성을 여러 개 찾았지만, 너무 멀어서 아직 갈 수는 없어요.",
+      "reading": "Jiguwa biseutan haengseongeul yeoreo gae chajatjiman, neomu meoreoseo ajik gal suneun eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "우주 탐사에는 돈이 정말 많이 들 것 같아요.",
+      "reading": "Uju tamsaeneun doni jeongmal mani deul geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 그래서 앞으로는 여러 나라가 함께 탐사하는 경우가 늘어날 것으로 예상됩니다.",
+      "reading": "Majayo. Geuraeseo apeuroneun yeoreo naraga hamkke tamsahaneun gyeonguga neureonal geoseuro yesangdoemnida."
+    },
+    {
+      "speaker": "a",
+      "text": "2050년에는 보통 사람들도 우주여행을 할 수 있을까요?",
+      "reading": "Icheonosip nyeoneneun botong saramdeuldo ujuyeohaengeul hal su isseulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "전문가들은 그때쯤이면 우주여행이 지금의 해외여행처럼 될 것으로 보고 있어요. 물론 아주 비싸겠지만요.",
+      "reading": "Jeonmungadeureun geuttaejjeumimyeon ujuyeohaengi jigeumui haeoeyeohaengcheoreom doel geoseuro bogo isseoyo. Mullon aju bissagetjimanyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 저는 지금부터 돈을 모아야겠네요!",
+      "reading": "Geureom jeoneun jigeumbuteo doneul moayagenneyo!"
+    }
+  ]
+}

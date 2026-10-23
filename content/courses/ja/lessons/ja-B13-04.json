@@ -1,0 +1,60 @@
+{
+  "id": "ja-B13-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.karendaa",
+      "text": "カレンダー",
+      "reading": "karendā"
+    },
+    {
+      "id": "ja.nangatsu",
+      "text": "なんがつ",
+      "reading": "nangatsu"
+    },
+    {
+      "id": "ja.nannichi",
+      "text": "なんにち",
+      "reading": "nannichi"
+    },
+    {
+      "id": "ja.maitsuki",
+      "text": "まいつき",
+      "reading": "maitsuki"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "かわいい カレンダーですね。",
+      "reading": "Kawaii karendā desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ、まいつき ねこの しゃしんです。ナムさんの たんじょうびは なんがつですか。",
+      "reading": "Ē, maitsuki neko no shashin desu. Namu-san no tanjōbi wa nangatsu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "6月です。",
+      "reading": "Rokugatsu desu."
+    },
+    {
+      "speaker": "c",
+      "text": "なんにちですか。",
+      "reading": "Nannichi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "5日です。",
+      "reading": "Itsuka desu."
+    },
+    {
+      "speaker": "c",
+      "text": "6月の しゃしんは くろい ねこですよ。",
+      "reading": "Rokugatsu no shashin wa kuroi neko desu yo."
+    }
+  ]
+}

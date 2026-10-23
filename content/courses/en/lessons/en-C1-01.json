@@ -1,0 +1,77 @@
+{
+  "id": "en-C1-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.hobby",
+      "text": "hobby",
+      "reading": "ˈhɑːbi"
+    },
+    {
+      "id": "en.free-time",
+      "kind": "phrase",
+      "text": "free time",
+      "reading": "ˌfriː ˈtaɪm"
+    },
+    {
+      "id": "en.enjoy",
+      "text": "enjoy",
+      "reading": "ɪnˈdʒɔɪ"
+    },
+    {
+      "id": "en.take-photos",
+      "kind": "phrase",
+      "text": "take photos",
+      "reading": "ˌteɪk ˈfoʊtoʊz"
+    },
+    {
+      "id": "en.draw",
+      "text": "draw",
+      "reading": "drɔː"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "What do you do in your free time, Nam?",
+      "reading": "ˈwʌt duː juː ˈduː ɪn jʊr ˈfriː ˈtaɪm, ˈnɑːm?"
+    },
+    {
+      "speaker": "a",
+      "text": "I love taking photos. It's my favorite hobby.",
+      "reading": "aɪ ˈlʌv ˈteɪkɪŋ ˈfoʊtoʊz. ɪts maɪ ˈfeɪvərɪt ˈhɑːbi."
+    },
+    {
+      "speaker": "c",
+      "text": "Nice! What do you take photos of?",
+      "reading": "ˈnaɪs! ˈwʌt duː juː ˈteɪk ˈfoʊtoʊz ˈʌv?"
+    },
+    {
+      "speaker": "a",
+      "text": "Food and flowers. And you, Emma?",
+      "reading": "ˈfuːd ənd ˈflaʊərz. ənd ˈjuː, ˈɛmə?"
+    },
+    {
+      "speaker": "c",
+      "text": "I enjoy drawing. I draw every day.",
+      "reading": "aɪ ɪnˈdʒɔɪ ˈdrɔːɪŋ. aɪ ˈdrɔː ˈɛvri ˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Really? I like drawing, too, but I'm not very good.",
+      "reading": "ˈriːli? aɪ ˈlaɪk ˈdrɔːɪŋ, ˈtuː, bʌt aɪm ˈnɑːt ˈvɛri ˈɡʊd."
+    },
+    {
+      "speaker": "c",
+      "text": "Let's draw together after class tomorrow!",
+      "reading": "ˈlɛts ˈdrɔː təˈɡɛðər ˈæftər ˈklæs təˈmɑːroʊ!"
+    },
+    {
+      "speaker": "a",
+      "text": "OK! And I can take photos of you!",
+      "reading": "oʊˈkeɪ! ənd aɪ kən ˈteɪk ˈfoʊtoʊz əv ˈjuː!"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ja-B13-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.paatii",
+      "text": "パーティー",
+      "reading": "pātī"
+    },
+    {
+      "id": "ja.kurisumasu",
+      "text": "クリスマス",
+      "reading": "Kurisumasu"
+    },
+    {
+      "id": "ja.barentaindee",
+      "text": "バレンタインデー",
+      "reading": "Barentaindē"
+    },
+    {
+      "id": "ja.rousoku",
+      "text": "ろうそく",
+      "reading": "rōsoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、これは なんの パーティーですか。",
+      "reading": "Yuki-san, kore wa nan no pātī desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "クリスマスの パーティーです。にほんでは クリスマスに ケーキを たべます。",
+      "reading": "Kurisumasu no pātī desu. Nihon de wa Kurisumasu ni kēki o tabemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ケーキに ろうそくが ありますね。",
+      "reading": "Kēki ni rōsoku ga arimasu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、きれいですね。",
+      "reading": "Hai, kirei desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "バレンタインデーは どうですか。",
+      "reading": "Barentaindē wa dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "にほんでは おんなの ひとが チョコレートを おくります。",
+      "reading": "Nihon de wa onna no hito ga chokorēto o okurimasu."
+    }
+  ]
+}

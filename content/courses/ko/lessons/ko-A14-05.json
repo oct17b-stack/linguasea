@@ -1,0 +1,52 @@
+{
+  "id": "ko-A14-05",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.sinbal-gage",
+      "kind": "phrase",
+      "text": "신발 가게",
+      "reading": "sinbal gage"
+    },
+    {
+      "id": "ko.hwajangpum-gage",
+      "kind": "phrase",
+      "text": "화장품 가게",
+      "reading": "hwajangpum gage"
+    },
+    {
+      "id": "ko.gagujeom",
+      "text": "가구점",
+      "reading": "gagujeom"
+    },
+    {
+      "id": "ko.cheolmuljeom",
+      "text": "철물점",
+      "reading": "cheolmuljeom"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 저거 신발 가게예요?",
+      "reading": "Minjun ssi, jeogeo sinbal gageyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 화장품 가게예요. 신발 가게는 가구점 위예요.",
+      "reading": "Aniyo, hwajangpum gageyeyo. Sinbal gageneun gagujeom wiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 철물점은요?",
+      "reading": "A, cheolmuljeomeunyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "철물점은 가구점하고 화장품 가게 사이예요.",
+      "reading": "Cheolmuljeomeun gagujeomhago hwajangpum gage saiyeyo."
+    }
+  ]
+}

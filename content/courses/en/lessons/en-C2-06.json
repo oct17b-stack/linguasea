@@ -1,0 +1,72 @@
+{
+  "id": "en-C2-06",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.get-better",
+      "kind": "phrase",
+      "text": "get better",
+      "reading": "ˌɡɛt ˈbɛtər"
+    },
+    {
+      "id": "en.pain",
+      "text": "pain",
+      "reading": "peɪn"
+    },
+    {
+      "id": "en.flu",
+      "text": "flu",
+      "reading": "fluː"
+    },
+    {
+      "id": "en.get-well-soon",
+      "kind": "phrase",
+      "text": "Get well soon!",
+      "reading": "ˌɡɛt wɛl ˈsuːn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Hi, Emma. How do you feel today?",
+      "reading": "ˈhaɪ, ˈɛmə. ˈhaʊ duː juː ˈfiːl təˈdeɪ?"
+    },
+    {
+      "speaker": "c",
+      "text": "Not well. I have the flu.",
+      "reading": "ˈnɑːt ˈwɛl. aɪ ˈhæv ðə ˈfluː."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! Are you in a lot of pain?",
+      "reading": "ˈoʊ ˈnoʊ! ər juː ɪn ə ˈlɑːt əv ˈpeɪn?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes. My head and my back hurt.",
+      "reading": "ˈjɛs. maɪ ˈhɛd ənd maɪ ˈbæk ˈhɜːrt."
+    },
+    {
+      "speaker": "a",
+      "text": "Do you have any medicine?",
+      "reading": "duː juː ˈhæv ˈɛni ˈmɛdəsən?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, and it's very good. I'm getting better.",
+      "reading": "ˈjɛs, ənd ɪts ˈvɛri ˈɡʊd. aɪm ˈɡɛtɪŋ ˈbɛtər."
+    },
+    {
+      "speaker": "a",
+      "text": "That's good. Get well soon!",
+      "reading": "ðæts ˈɡʊd. ˈɡɛt ˈwɛl ˈsuːn!"
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks, Nam. You're a good friend.",
+      "reading": "ˈθæŋks, ˈnɑːm. jʊr ə ˈɡʊd ˈfrɛnd."
+    }
+  ]
+}

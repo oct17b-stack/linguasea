@@ -1,0 +1,75 @@
+{
+  "id": "en-C6-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.nightlife",
+      "text": "nightlife",
+      "reading": "ˈnaɪtlaɪf"
+    },
+    {
+      "id": "en.peaceful",
+      "text": "peaceful",
+      "reading": "ˈpiːsfəl"
+    },
+    {
+      "id": "en.scenery",
+      "text": "scenery",
+      "reading": "ˈsiːnəri"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Bangkok is the biggest and most modern city in Thailand.",
+        "reading": "ˈbæŋkɑːk ɪz ðə ˈbɪɡɪst ənd ˈmoʊst ˈmɑːdərn ˈsɪti ɪn ˈtaɪlænd."
+      },
+      {
+        "text": "It has great shopping and the best nightlife, but it's very noisy and crowded.",
+        "reading": "ɪt ˈhæz ˈɡreɪt ˈʃɑːpɪŋ ənd ðə ˈbɛst ˈnaɪtlaɪf, bʌt ɪts ˈvɛri ˈnɔɪzi ənd ˈkraʊdɪd."
+      }
+    ],
+    [
+      {
+        "text": "Chiang Mai is smaller and quieter than Bangkok.",
+        "reading": "ˈtʃjɑːŋ ˈmaɪ ɪz ˈsmɔːlər ənd ˈkwaɪətər ðən ˈbæŋkɑːk."
+      },
+      {
+        "text": "It's more peaceful, and the mountain scenery is beautiful.",
+        "reading": "ɪts ˈmɔːr ˈpiːsfəl, ənd ðə ˈmaʊntən ˈsiːnəri ɪz ˈbjuːtəfəl."
+      },
+      {
+        "text": "In December, the weather there is cool and comfortable.",
+        "reading": "ɪn dɪˈsɛmbər, ðə ˈwɛðər ˈðɛr ɪz ˈkuːl ənd ˈkʌmftərbəl."
+      }
+    ],
+    [
+      {
+        "text": "Phuket is the biggest island in Thailand, and it's the most popular place for beach vacations.",
+        "reading": "puːˈkɛt ɪz ðə ˈbɪɡɪst ˈaɪlənd ɪn ˈtaɪlænd, ənd ɪts ðə ˈmoʊst ˈpɑːpjələr ˈpleɪs fər ˈbiːtʃ veɪˈkeɪʃənz."
+      },
+      {
+        "text": "The sea is beautiful, but hotels are more expensive than in Chiang Mai.",
+        "reading": "ðə ˈsiː ɪz ˈbjuːtəfəl, bʌt hoʊˈtɛlz ər ˈmɔːr ɪkˈspɛnsɪv ðən ɪn ˈtʃjɑːŋ ˈmaɪ."
+      },
+      {
+        "text": "So, which is the best place for you?",
+        "reading": "soʊ, ˈwɪtʃ ɪz ðə ˈbɛst ˈpleɪs fər juː?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

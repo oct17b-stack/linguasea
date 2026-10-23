@@ -1,0 +1,85 @@
+{
+  "id": "ko-D2-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.chucheon-hada",
+      "text": "추천하다",
+      "reading": "chucheonhada"
+    },
+    {
+      "id": "ko.yumyeong-hada",
+      "text": "유명하다",
+      "reading": "yumyeonghada"
+    },
+    {
+      "id": "ko.matjip",
+      "text": "맛집",
+      "reading": "matjip"
+    },
+    {
+      "id": "ko.dangol",
+      "text": "단골",
+      "reading": "dangol"
+    },
+    {
+      "id": "ko.menyupan",
+      "text": "메뉴판",
+      "reading": "menyupan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "와, 사람이 정말 많군요!",
+      "reading": "Wa, sarami jeongmal mankunyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "여기는 이 동네에서 유명한 맛집이에요. 저는 여기 단골이에요.",
+      "reading": "Yeogineun i dongneeseo yumyeonghan matjibieyo. Jeoneun yeogi dangorieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "단골이에요? 그럼 자주 오는군요!",
+      "reading": "Dangorieyo? Geureom jaju oneungunyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 일주일에 두 번쯤 와요.",
+      "reading": "Ne, iljuire du beonjjeum wayo."
+    },
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 메뉴판 여기 있어요.",
+      "reading": "Eoseo oseyo. Menyupan yeogi isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "뭐가 맛있어요? 추천해 주세요.",
+      "reading": "Mwoga masisseoyo? Chucheonhae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "우리 집은 불고기가 제일 유명해요. 비빔밥도 인기가 많아요.",
+      "reading": "Uri jibeun bulgogiga jeil yumyeonghaeyo. Bibimbapdo ingiga manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 불고기 하나하고 비빔밥 하나 주세요.",
+      "reading": "Geureom bulgogi hanahago bibimbap hana juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 여기 불고기 나왔어요.",
+      "reading": "Ne, yeogi bulgogi nawasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 이게 그 유명한 불고기군요! 정말 맛있네요.",
+      "reading": "Wa, ige geu yumyeonghan bulgogigunyo! Jeongmal masinneyo."
+    }
+  ]
+}

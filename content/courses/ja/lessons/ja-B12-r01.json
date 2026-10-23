@@ -1,0 +1,66 @@
+{
+  "id": "ja-B12-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.nomikata",
+      "text": "のみかた",
+      "reading": "nomikata"
+    },
+    {
+      "id": "ja.ijou",
+      "text": "いじょう",
+      "reading": "ijō"
+    },
+    {
+      "id": "ja.jou",
+      "text": "じょう",
+      "reading": "jō"
+    },
+    {
+      "id": "ja.nemui",
+      "text": "ねむい",
+      "reading": "nemui"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "のみかた：15さい いじょうの ひとは 1かいに 2じょう のみます。",
+        "reading": "Nomikata: jūgosai ijō no hito wa ikkai ni nijō nomimasu."
+      },
+      {
+        "text": "1日 3かい、しょくごに のみます。",
+        "reading": "Ichinichi sankai, shokugo ni nomimasu."
+      },
+      {
+        "text": "14さいまでの こどもは のみません。",
+        "reading": "Jūyonsai made no kodomo wa nomimasen."
+      }
+    ],
+    [
+      {
+        "text": "この くすりは ねむく なります。",
+        "reading": "Kono kusuri wa nemuku narimasu."
+      },
+      {
+        "text": "おさけと いっしょに のみません。",
+        "reading": "Osake to issho ni nomimasen."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

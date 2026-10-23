@@ -1,0 +1,76 @@
+{
+  "id": "en-C2-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.symptom",
+      "text": "symptom",
+      "reading": "ˈsɪmptəm"
+    },
+    {
+      "id": "en.sneeze",
+      "text": "sneeze",
+      "reading": "sniːz"
+    },
+    {
+      "id": "en.runny-nose",
+      "kind": "phrase",
+      "text": "runny nose",
+      "reading": "ˌrʌni ˈnoʊz"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Nam is sick, so she goes to see a nurse at her university.",
+        "reading": "ˈnɑːm ɪz ˈsɪk, soʊ ʃiː ˈɡoʊz tə ˈsiː ə ˈnɜːrs ət hɜːr ˌjuːnɪˈvɜːrsəti."
+      },
+      {
+        "text": "\"Good morning. What are your symptoms?\" the nurse says.",
+        "reading": "ˈɡʊd ˈmɔːrnɪŋ. ˈwʌt ər jʊr ˈsɪmptəmz? ðə ˈnɜːrs ˈsɛz."
+      }
+    ],
+    [
+      {
+        "text": "\"I have a runny nose, and I sneeze all day,\" Nam says.",
+        "reading": "aɪ ˈhæv ə ˈrʌni ˈnoʊz, ənd aɪ ˈsniːz ˈɔːl ˈdeɪ, ˈnɑːm ˈsɛz."
+      },
+      {
+        "text": "\"My throat hurts, too, but I don't have a fever.\"",
+        "reading": "maɪ ˈθroʊt ˈhɜːrts, ˈtuː, bʌt aɪ ˈdoʊnt ˈhæv ə ˈfiːvər."
+      }
+    ],
+    [
+      {
+        "text": "\"I think you have a cold,\" the nurse says.",
+        "reading": "aɪ ˈθɪŋk juː ˈhæv ə ˈkoʊld, ðə ˈnɜːrs ˈsɛz."
+      },
+      {
+        "text": "\"You should rest and drink a lot of water.\"",
+        "reading": "juː ʃʊd ˈrɛst ənd ˈdrɪŋk ə ˈlɑːt əv ˈwɔːtər."
+      },
+      {
+        "text": "\"Here's some medicine for your runny nose.\"",
+        "reading": "hɪrz sʌm ˈmɛdəsən fər jʊr ˈrʌni ˈnoʊz."
+      },
+      {
+        "text": "\"Thank you! I feel better already,\" Nam says.",
+        "reading": "ˈθæŋk juː! aɪ ˈfiːl ˈbɛtər ɔːlˈrɛdi, ˈnɑːm ˈsɛz."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ko-D5-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.geup-hada",
+      "text": "급하다",
+      "reading": "geupada"
+    },
+    {
+      "id": "ko.hwagin-hada",
+      "text": "확인하다",
+      "reading": "hwaginhada"
+    },
+    {
+      "id": "ko.baro",
+      "text": "바로",
+      "reading": "baro"
+    },
+    {
+      "id": "ko.allim",
+      "text": "알림",
+      "reading": "allim"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "수업 후에 남 씨는 스마트폰을 확인했어요.",
+        "reading": "Sueop hue Nam ssineun seumateuponeul hwaginhaesseoyo."
+      },
+      {
+        "text": "알림이 세 개 있었어요.",
+        "reading": "Allimi se gae isseosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "하나는 이 선생님의 부재중 전화였어요.",
+        "reading": "Hananeun I seonsaengnimui bujaejung jeonhwayeosseoyo."
+      },
+      {
+        "text": "또 하나는 택배 알림이었어요.",
+        "reading": "Tto hananeun taekbae allimieosseoyo."
+      },
+      {
+        "text": "택배가 오후 두 시에 문 앞에 도착했어요.",
+        "reading": "Taekbaega ohu du sie mun ape dochakaesseoyo."
+      },
+      {
+        "text": "마지막 알림은 민준 씨의 문자였어요.",
+        "reading": "Majimak allimeun Minjun ssiui munjayeosseoyo."
+      },
+      {
+        "text": "문자는 ‘급한 일이 있어요. 바로 연락해 주세요!’였어요.",
+        "reading": "Munjaneun ‘geupan iri isseoyo. Baro yeollakae juseyo!’yeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 깜짝 놀라서 바로 민준 씨한테 전화를 걸었어요.",
+        "reading": "Nam ssineun kkamjjak nollaseo baro Minjun ssihante jeonhwareul georeosseoyo."
+      },
+      {
+        "text": "그런데 급한 일은 동아리 모임 장소였어요.",
+        "reading": "Geureonde geupan ireun dongari moim jangsoyeosseoyo."
+      },
+      {
+        "text": "모임 장소가 학교 앞 식당이 됐어요.",
+        "reading": "Moim jangsoga hakgyo ap sikdangi dwaesseoyo."
+      },
+      {
+        "text": "정말 급한 일이 아니었어요.",
+        "reading": "Jeongmal geupan iri anieosseoyo."
+      },
+      {
+        "text": "그리고 집에 가서 택배를 확인했어요.",
+        "reading": "Geurigo jibe gaseo taekbaereul hwaginhaesseoyo."
+      },
+      {
+        "text": "어머니가 보낸 태국 과자였어요.",
+        "reading": "Eomeoniga bonaen Taeguk gwajayeosseoyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

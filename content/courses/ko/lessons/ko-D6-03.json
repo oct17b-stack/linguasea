@@ -1,0 +1,85 @@
+{
+  "id": "ko-D6-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.hwanseung-hada",
+      "text": "환승하다",
+      "reading": "hwanseunghada"
+    },
+    {
+      "id": "ko.maepyoso",
+      "text": "매표소",
+      "reading": "maepyoso"
+    },
+    {
+      "id": "ko.siganpyo",
+      "text": "시간표",
+      "reading": "siganpyo"
+    },
+    {
+      "id": "ko.yeolcha",
+      "text": "열차",
+      "reading": "yeolcha"
+    },
+    {
+      "id": "ko.seunggangjang",
+      "text": "승강장",
+      "reading": "seunggangjang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 부산에 가는 열차를 놓쳤어요.",
+      "reading": "Jeogiyo, Busane ganeun yeolchareul notchyeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다음 열차를 타려면 표를 다시 사야 해요.",
+      "reading": "Daeum yeolchareul taryeomyeon pyoreul dasi saya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다음 열차는 몇 시에 있어요?",
+      "reading": "Daeum yeolchaneun myeot sie isseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "시간표를 볼게요. 다음 열차는 두 시 반이에요.",
+      "reading": "Siganpyoreul bolgeyo. Daeum yeolchaneun du si banieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "두 시 반이요? 저는 다섯 시까지 부산에 도착해야 하는데요.",
+      "reading": "Du si baniyo? Jeoneun daseot sikkaji Busane dochakaeya haneundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "다섯 시까지 가려면 한 시 사십 분 열차를 타고 동대구에서 환승하세요.",
+      "reading": "Daseot sikkaji garyeomyeon han si sasip bun yeolchareul tago Dongdaegueseo hwanseunghaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "표는 어디에서 사요?",
+      "reading": "Pyoneun eodieseo sayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "표를 사려면 저기 매표소로 가세요. 앱으로도 살 수 있어요.",
+      "reading": "Pyoreul saryeomyeon jeogi maepyosoro gaseyo. Aebeurodo sal su isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 번 승강장에서 타요?",
+      "reading": "Myeot beon seunggangjangeseo tayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오 번 승강장이에요. 열차를 또 놓치지 않으려면 지금 빨리 가세요!",
+      "reading": "O beon seunggangjangieyo. Yeolchareul tto notchiji aneuryeomyeon jigeum ppalli gaseyo!"
+    }
+  ]
+}

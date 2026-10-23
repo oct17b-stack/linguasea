@@ -1,0 +1,76 @@
+{
+  "id": "en-C2-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.catch",
+      "text": "catch",
+      "reading": "kætʃ"
+    },
+    {
+      "id": "en.mask",
+      "text": "mask",
+      "reading": "mæsk"
+    },
+    {
+      "id": "en.cover-your-mouth",
+      "kind": "phrase",
+      "text": "cover your mouth",
+      "reading": "ˌkʌvər jər ˈmaʊθ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Flu season is here, and a lot of students are sick.",
+        "reading": "ˈfluː ˌsiːzən ɪz ˈhɪr, ənd ə ˈlɑːt əv ˈstuːdənts ər ˈsɪk."
+      },
+      {
+        "text": "You can catch the flu in class, on the bus or at the mall.",
+        "reading": "juː kən ˈkætʃ ðə ˈfluː ɪn ˈklæs, ɑːn ðə ˈbʌs ɔːr ət ðə ˈmɔːl."
+      }
+    ],
+    [
+      {
+        "text": "Wash your hands before you eat.",
+        "reading": "ˈwɑːʃ jʊr ˈhændz bɪˈfɔːr juː ˈiːt."
+      },
+      {
+        "text": "Cover your mouth when you cough or sneeze.",
+        "reading": "ˈkʌvər jʊr ˈmaʊθ wɛn juː ˈkɔːf ɔːr ˈsniːz."
+      },
+      {
+        "text": "A mask can help on busy buses and trains.",
+        "reading": "ə ˈmæsk kən ˈhɛlp ɑːn ˈbɪzi ˈbʌsɪz ənd ˈtreɪnz."
+      },
+      {
+        "text": "If you have a fever, stay home and rest.",
+        "reading": "ɪf juː ˈhæv ə ˈfiːvər, ˈsteɪ ˈhoʊm ənd ˈrɛst."
+      }
+    ],
+    [
+      {
+        "text": "Do you feel sick?",
+        "reading": "duː juː ˈfiːl ˈsɪk?"
+      },
+      {
+        "text": "Our nurses are here from 8 a.m. to 5 p.m., Monday to Friday.",
+        "reading": "aʊr ˈnɜːrsɪz ər ˈhɪr frəm ˈeɪt ˌeɪˈɛm tə ˈfaɪv ˌpiːˈɛm, ˈmʌndeɪ tə ˈfraɪdeɪ."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D2-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.deol",
+      "text": "덜",
+      "reading": "deol"
+    },
+    {
+      "id": "ko.ppaeda",
+      "text": "빼다",
+      "reading": "ppaeda"
+    },
+    {
+      "id": "ko.chuga-hada",
+      "text": "추가하다",
+      "reading": "chugahada"
+    },
+    {
+      "id": "ko.gopppaegi",
+      "text": "곱빼기",
+      "reading": "gopppaegi"
+    },
+    {
+      "id": "ko.allereugi",
+      "text": "알레르기",
+      "reading": "allereugi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "뭐 드릴까요?",
+      "reading": "Mwo deurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "라면 하나 주세요. 그런데 덜 맵게 해 주세요.",
+      "reading": "Ramyeon hana juseyo. Geureonde deol maepge hae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 알겠어요.",
+      "reading": "Ne, algesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 라면에 떡을 추가할 수 있어요?",
+      "reading": "Geurigo ramyeone tteogeul chugahal su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 떡 추가는 천 원이에요.",
+      "reading": "Ne, tteok chuganeun cheon wonieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 김치볶음밥 곱빼기 주세요. 배가 많이 고파요.",
+      "reading": "Jeoneun gimchibokkeumbap gopppaegi juseyo. Baega mani gopayo."
+    },
+    {
+      "speaker": "c",
+      "text": "네. 알레르기 있으세요?",
+      "reading": "Ne. Allereugi isseuseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 저는 새우 알레르기가 있어요. 새우는 빼 주세요.",
+      "reading": "Ne, jeoneun saeu allereugiga isseoyo. Saeuneun ppae juseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 새우는 빼고 맛있게 만들어 드릴게요.",
+      "reading": "Ne, saeuneun ppaego masitge mandeureo deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 제 라면은 너무 짜지 않게 해 주세요!",
+      "reading": "A, je ramyeoneun neomu jjaji anke hae juseyo!"
+    }
+  ]
+}

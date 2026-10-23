@@ -1,0 +1,71 @@
+{
+  "id": "en-C5-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.chat",
+      "text": "chat",
+      "reading": "tʃæt"
+    },
+    {
+      "id": "en.laugh",
+      "text": "laugh",
+      "reading": "læf"
+    },
+    {
+      "id": "en.cry",
+      "text": "cry",
+      "reading": "kraɪ"
+    },
+    {
+      "id": "en.stay-up-late",
+      "kind": "phrase",
+      "text": "stay up late",
+      "reading": "ˌsteɪ ʌp ˈleɪt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, were you at home yesterday evening?",
+      "reading": "ˈnɑːm, wɜːr juː ət ˈhoʊm ˈjɛstərdeɪ ˈiːvnɪŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I cooked dinner with my mom.",
+      "reading": "ˈjɛs. aɪ ˈkʊkt ˈdɪnər wɪð maɪ ˈmɑːm."
+    },
+    {
+      "speaker": "c",
+      "text": "Nice! And after dinner?",
+      "reading": "ˈnaɪs! ənd ˈæftər ˈdɪnər?"
+    },
+    {
+      "speaker": "a",
+      "text": "I watched a movie with Fah. We laughed a lot.",
+      "reading": "aɪ ˈwɑːtʃt ə ˈmuːvi wɪð ˈfɑː. wiː ˈlæft ə ˈlɑːt."
+    },
+    {
+      "speaker": "c",
+      "text": "Was it a good movie?",
+      "reading": "wʌz ɪt ə ˈɡʊd ˈmuːvi?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, but it was sad, too. Fah cried!",
+      "reading": "ˈjɛs, bʌt ɪt wʌz ˈsæd, ˈtuː. ˈfɑː ˈkraɪd!"
+    },
+    {
+      "speaker": "c",
+      "text": "And then?",
+      "reading": "ənd ˈðɛn?"
+    },
+    {
+      "speaker": "a",
+      "text": "I chatted with friends on the phone. I stayed up late!",
+      "reading": "aɪ ˈtʃætɪd wɪð ˈfrɛndz ɑːn ðə ˈfoʊn. aɪ ˈsteɪd ˈʌp ˈleɪt!"
+    }
+  ]
+}

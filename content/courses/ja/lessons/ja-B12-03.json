@@ -1,0 +1,60 @@
+{
+  "id": "ja-B12-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.itai",
+      "text": "いたい",
+      "reading": "itai"
+    },
+    {
+      "id": "ja.hiza",
+      "text": "ひざ",
+      "reading": "hiza"
+    },
+    {
+      "id": "ja.mune",
+      "text": "むね",
+      "reading": "mune"
+    },
+    {
+      "id": "ja.mushiba",
+      "text": "むしば",
+      "reading": "mushiba"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、だいじょうぶですか。",
+      "reading": "Namu-san, daijōbu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、むしばが いたいです。",
+      "reading": "Iie, mushiba ga itai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "たいへんですね。ほかに どこが いたいですか。",
+      "reading": "Taihen desu ne. Hoka ni doko ga itai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ひざと むねも ちょっと いたいです。",
+      "reading": "Hiza to mune mo chotto itai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ほんとうですか。びょういんへ いきますか。",
+      "reading": "Hontō desu ka. Byōin e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、いきます。きょうは さいあくです。",
+      "reading": "Hai, ikimasu. Kyō wa saiaku desu."
+    }
+  ]
+}

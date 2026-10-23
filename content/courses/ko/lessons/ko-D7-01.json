@@ -1,0 +1,85 @@
+{
+  "id": "ko-D7-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.syopingmol",
+      "text": "쇼핑몰",
+      "reading": "syopingmol"
+    },
+    {
+      "id": "ko.jumun-hada",
+      "text": "주문하다",
+      "reading": "jumunhada"
+    },
+    {
+      "id": "ko.gyeolje-hada",
+      "text": "결제하다",
+      "reading": "gyeoljehada"
+    },
+    {
+      "id": "ko.sangpum",
+      "text": "상품",
+      "reading": "sangpum"
+    },
+    {
+      "id": "ko.jangbaguni",
+      "text": "장바구니",
+      "reading": "jangbaguni"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 뭐 해요?",
+      "reading": "Nam ssi, mwo haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "인터넷 쇼핑몰에서 신발을 주문하려고 해요.",
+      "reading": "Inteonet syopingmoreseo sinbareul jumunharyeogo haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그 쇼핑몰 어때요?",
+      "reading": "Geu syopingmol eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어제 처음 사용해 봤어요. 사용해 보니까 상품이 많고 싸요.",
+      "reading": "Eoje cheoeum sayonghae bwasseoyo. Sayonghae bonikka sangpumi manko ssayo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래요? 저도 한번 볼까요?",
+      "reading": "Geuraeyo? Jeodo hanbeon bolkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "이 신발 보세요. 장바구니에 넣었어요.",
+      "reading": "I sinbal boseyo. Jangbagunie neoeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "예쁘네요. 그런데 사이즈는 맞아요?",
+      "reading": "Yeppeuneyo. Geureonde saijeuneun majayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "전에 같은 신발을 신어 보니까 이백사십이 잘 맞았어요.",
+      "reading": "Jeone gateun sinbareul sineo bonikka ibaeksasibi jal majasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "결제는 어떻게 해요?",
+      "reading": "Gyeoljeneun eotteoke haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "카드로 했어요. 결제해 보니까 오 분도 안 걸렸어요!",
+      "reading": "Kadeuro haesseoyo. Gyeoljehae bonikka o bundo an geollyeosseoyo!"
+    }
+  ]
+}

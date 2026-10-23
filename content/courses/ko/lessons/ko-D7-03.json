@@ -1,0 +1,85 @@
+{
+  "id": "ko-D7-03",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gyohwan-hada",
+      "text": "교환하다",
+      "reading": "gyohwanhada"
+    },
+    {
+      "id": "ko.banpum-hada",
+      "text": "반품하다",
+      "reading": "banpumhada"
+    },
+    {
+      "id": "ko.hwanbul",
+      "text": "환불",
+      "reading": "hwanbul"
+    },
+    {
+      "id": "ko.sayu",
+      "text": "사유",
+      "reading": "sayu"
+    },
+    {
+      "id": "ko.taekbaebi",
+      "text": "택배비",
+      "reading": "taekbaebi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 그 원피스 어때요?",
+      "reading": "Nam ssi, geu wonpiseu eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "사이즈가 생각보다 커요. 작은 사이즈로 교환할까 해요.",
+      "reading": "Saijeuga saenggakboda keoyo. Jageun saijeuro gyohwanhalkka haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "작은 사이즈로 교환하면 되죠.",
+      "reading": "Jageun saijeuro gyohwanhamyeon doejyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 색깔도 사진하고 달라요. 그래서 그냥 반품할까 해요.",
+      "reading": "Geureonde saekkkaldo sajinhago dallayo. Geuraeseo geunyang banpumhalkka haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "반품하면 환불을 받을 수 있어요?",
+      "reading": "Banpumhamyeon hwanbureul badeul su isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 일주일 안에 반품하면 환불해 줘요.",
+      "reading": "Ne, iljuil ane banpumhamyeon hwanbulhae jwoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "택배비는 누가 내요?",
+      "reading": "Taekbaebineun nuga naeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "반품 사유가 사이즈나 색깔이면 제가 택배비를 내야 해요.",
+      "reading": "Banpum sayuga saijeuna saekkkarimyeon jega taekbaebireul naeya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아, 그래요? 택배비가 얼마예요?",
+      "reading": "A, geuraeyo? Taekbaebiga eolmayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "육천 원이에요. 그래서 그냥 방학에 태국에 갈 때 동생한테 줄까 해요.",
+      "reading": "Yukcheon wonieyo. Geuraeseo geunyang banghage Taeguge gal ttae dongsaenghante julkka haeyo."
+    }
+  ]
+}

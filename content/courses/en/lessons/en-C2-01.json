@@ -1,0 +1,77 @@
+{
+  "id": "en-C2-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.headache",
+      "text": "headache",
+      "reading": "ˈhɛdeɪk"
+    },
+    {
+      "id": "en.fever",
+      "text": "fever",
+      "reading": "ˈfiːvər"
+    },
+    {
+      "id": "en.have-a-cold",
+      "kind": "phrase",
+      "text": "have a cold",
+      "reading": "ˌhæv ə ˈkoʊld"
+    },
+    {
+      "id": "en.sore-throat",
+      "kind": "phrase",
+      "text": "sore throat",
+      "reading": "ˌsɔːr ˈθroʊt"
+    },
+    {
+      "id": "en.cough",
+      "text": "cough",
+      "reading": "kɔːf"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hello, Nam. What's wrong?",
+      "reading": "həˈloʊ, ˈnɑːm. ˈwʌts ˈrɔːŋ?"
+    },
+    {
+      "speaker": "a",
+      "text": "I have a headache, and I have a sore throat.",
+      "reading": "aɪ ˈhæv ə ˈhɛdeɪk, ənd aɪ ˈhæv ə ˈsɔːr ˈθroʊt."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you have a fever?",
+      "reading": "duː juː ˈhæv ə ˈfiːvər?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I think so. I feel hot.",
+      "reading": "ˈjɛs, aɪ ˈθɪŋk ˈsoʊ. aɪ ˈfiːl ˈhɑːt."
+    },
+    {
+      "speaker": "b",
+      "text": "Do you have a cough, too?",
+      "reading": "duː juː ˈhæv ə ˈkɔːf, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I cough a lot at night.",
+      "reading": "ˈjɛs. aɪ ˈkɔːf ə ˈlɑːt ət ˈnaɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "OK. I think you have a cold.",
+      "reading": "oʊˈkeɪ. aɪ ˈθɪŋk juː ˈhæv ə ˈkoʊld."
+    },
+    {
+      "speaker": "a",
+      "text": "Oh no! But I have class tomorrow.",
+      "reading": "ˈoʊ ˈnoʊ! bʌt aɪ ˈhæv ˈklæs təˈmɑːroʊ."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ko-D2-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jureul-seoda",
+      "text": "줄을 서다",
+      "reading": "jureul seoda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.daegi",
+      "text": "대기",
+      "reading": "daegi"
+    },
+    {
+      "id": "ko.inwon",
+      "text": "인원",
+      "reading": "inwon"
+    },
+    {
+      "id": "ko.changga",
+      "text": "창가",
+      "reading": "changga"
+    },
+    {
+      "id": "ko.beonhopyo",
+      "text": "번호표",
+      "reading": "beonhopyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어서 오세요. 인원이 어떻게 되세요?",
+      "reading": "Eoseo oseyo. Inwoni eotteoke doeseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 명이에요. 대기 시간이 얼마나 돼요?",
+      "reading": "Du myeongieyo. Daegi sigani eolmana dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "지금은 점심시간 때문에 사람이 많아요. 삼십 분 정도 기다려야 해요.",
+      "reading": "Jigeumeun jeomsimsigan ttaemune sarami manayo. Samsip bun jeongdo gidaryeoya haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "삼십 분이요? 그럼 여기에서 줄을 서야 해요?",
+      "reading": "Samsip buniyo? Geureom yeogieseo jureul seoya haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 번호표를 드릴게요. 밖에서 편하게 기다리세요.",
+      "reading": "Aniyo, beonhopyoreul deurilgeyo. Bakkeseo pyeonhage gidariseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 창가 쪽은 더 기다려야 해요?",
+      "reading": "Gamsahamnida. Changga jjogeun deo gidaryeoya haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 창가는 인기가 많기 때문에 사십 분쯤 걸려요.",
+      "reading": "Ne, changganeun ingiga manki ttaemune sasip bunjjeum geollyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "민준 씨, 어떻게 할까요?",
+      "reading": "Minjun ssi, eotteoke halkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "저는 배가 너무 고프기 때문에 아무 데나 괜찮아요.",
+      "reading": "Jeoneun baega neomu gopeugi ttaemune amu dena gwaenchanayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 창가 말고 아무 데나 괜찮아요.",
+      "reading": "Geureom changga malgo amu dena gwaenchanayo."
+    }
+  ]
+}

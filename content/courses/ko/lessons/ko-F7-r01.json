@@ -1,0 +1,115 @@
+{
+  "id": "ko-F7-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.daechul",
+      "text": "대출",
+      "reading": "daechul"
+    },
+    {
+      "id": "ko.bannap",
+      "text": "반납",
+      "reading": "bannap"
+    },
+    {
+      "id": "ko.dokseo-moim",
+      "text": "독서 모임",
+      "reading": "dokseo moim",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yeollamsil",
+      "text": "열람실",
+      "reading": "yeollamsil"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "한마음 도서관 이용 안내",
+        "reading": "Hanmaeum doseogwan iyong annae"
+      },
+      {
+        "text": "우리 도서관은 서울에 사는 외국인 주민도 회원으로 가입할 수 있습니다.",
+        "reading": "Uri doseogwaneun Seoure saneun oegugin jumindo hoewoneuro gaipal su itseumnida."
+      },
+      {
+        "text": "외국인 등록증을 가지고 일 층 안내실로 오시면 바로 회원증을 만들어 드립니다.",
+        "reading": "Oegugin deungnokjeungeul gajigo il cheung annaesillo osimyeon baro hoewonjeungeul mandeureo deurimnida."
+      }
+    ],
+    [
+      {
+        "text": "책은 한 번에 다섯 권까지 대출할 수 있습니다.",
+        "reading": "Chaegeun han beone daseot gwonkkaji daechulhal su itseumnida."
+      },
+      {
+        "text": "대출 기간은 이 주일이며, 한 번 연장할 수 있습니다.",
+        "reading": "Daechul giganeun i juirimyeo, han beon yeonjanghal su itseumnida."
+      },
+      {
+        "text": "반납 날짜를 넘기면 늦은 날만큼 대출을 할 수 없습니다.",
+        "reading": "Bannap naljjareul neomgimyeon neujeun nalmankeum daechureul hal su eopseumnida."
+      },
+      {
+        "text": "도서관이 문을 닫은 시간에는 입구 옆에 있는 반납함에 책을 넣어 주십시오.",
+        "reading": "Doseogwani muneul dadeun siganeneun ipgu yeope inneun bannaphame chaegeul neoeo jusipsio."
+      }
+    ],
+    [
+      {
+        "text": "이 층 열람실은 오전 아홉 시부터 밤 열 시까지 이용할 수 있습니다.",
+        "reading": "I cheung yeollamsireun ojeon ahop sibuteo bam yeol sikkaji iyonghal su itseumnida."
+      },
+      {
+        "text": "열람실에서는 조용히 해 주시고, 음식은 드시지 마십시오.",
+        "reading": "Yeollamsireseoneun joyonghi hae jusigo, eumsigeun deusiji masipsio."
+      },
+      {
+        "text": "휴대폰은 무음으로 해 주시기 바랍니다.",
+        "reading": "Hyudaeponeun mueumeuro hae jusigi baramnida."
+      }
+    ],
+    [
+      {
+        "text": "외국인 주민을 위한 '한국어 독서 모임'을 시작합니다.",
+        "reading": "Oegugin jumineul wihan 'hangugeo dokseo moim'eul sijakamnida."
+      },
+      {
+        "text": "매주 토요일 오후 두 시에 삼 층 작은 방에서 모입니다.",
+        "reading": "Maeju toyoil ohu du sie sam cheung jageun bangeseo moimnida."
+      },
+      {
+        "text": "쉬운 한국 소설과 수필을 함께 읽고 이야기를 나눕니다.",
+        "reading": "Swiun Hanguk soseolgwa supireul hamkke ilgo iyagireul nanumnida."
+      },
+      {
+        "text": "한국어로 책을 읽을 수 있으면 누구나 참여할 수 있습니다.",
+        "reading": "Hangugeoro chaegeul ilgeul su isseumyeon nuguna chamyeohal su itseumnida."
+      },
+      {
+        "text": "참가비는 없으며, 이번 달 이십일 일까지 전화나 안내실에서 신청하시면 됩니다.",
+        "reading": "Chamgabineun eopseumyeo, ibeon dal isibil ilkkaji jeonhwana annaesireseo sincheonghasimyeon doemnida."
+      },
+      {
+        "text": "많은 참여 바랍니다.",
+        "reading": "Maneun chamyeo baramnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

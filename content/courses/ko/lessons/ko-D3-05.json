@@ -1,0 +1,86 @@
+{
+  "id": "ko-D3-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.isanghyeong",
+      "text": "이상형",
+      "reading": "isanghyeong"
+    },
+    {
+      "id": "ko.yumeo-gamgak",
+      "text": "유머 감각",
+      "reading": "yumeo gamgak",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.seongsil-hada",
+      "text": "성실하다",
+      "reading": "seongsilhada"
+    },
+    {
+      "id": "ko.jasang-hada",
+      "text": "자상하다",
+      "reading": "jasanghada"
+    },
+    {
+      "id": "ko.dajeong-hada",
+      "text": "다정하다",
+      "reading": "dajeonghada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 이상형이 어떤 사람이에요?",
+      "reading": "Nam ssi, isanghyeongi eotteon saramieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "음… 유머 감각이 있으면 좋겠어요. 같이 있으면 재미있는 사람이 좋아요.",
+      "reading": "Eum… Yumeo gamgagi isseumyeon jokesseoyo. Gachi isseumyeon jaemiinneun sarami joayo."
+    },
+    {
+      "speaker": "b",
+      "text": "또 다른 건요?",
+      "reading": "Tto dareun geonyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "성실하면 좋겠어요. 그리고 다정하고 자상한 사람이면 좋겠어요.",
+      "reading": "Seongsilhamyeon jokesseoyo. Geurigo dajeonghago jasanghan saramimyeon jokesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "외모는요? 키가 커야 해요?",
+      "reading": "Oemoneunyo? Kiga keoya haeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 키는 상관없어요. 그냥 마음이 따뜻하면 좋겠어요.",
+      "reading": "Aniyo, kineun sanggwaneopseoyo. Geunyang maeumi ttatteutamyeon jokesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 지훈이를 꼭 만나 보세요! 지훈이는 성실하고 자상해요.",
+      "reading": "Geureom Jihunireul kkok manna boseyo! Jihunineun seongsilhago jasanghaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "정말요? 그럼 주말에 만날 수 있으면 좋겠어요.",
+      "reading": "Jeongmaryo? Geureom jumare mannal su isseumyeon jokesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 지훈이도 남 씨를 만나면 좋아할 거예요.",
+      "reading": "Joayo. Jihunido Nam ssireul mannamyeon joahal geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 좋은 친구가 생기면 좋겠어요.",
+      "reading": "Jeodo joeun chinguga saenggimyeon jokesseoyo."
+    }
+  ]
+}

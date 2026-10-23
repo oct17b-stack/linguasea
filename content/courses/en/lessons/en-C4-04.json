@@ -1,0 +1,76 @@
+{
+  "id": "en-C4-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.decide",
+      "text": "decide",
+      "reading": "dɪˈsaɪd"
+    },
+    {
+      "id": "en.carry",
+      "text": "carry",
+      "reading": "ˈkæri"
+    },
+    {
+      "id": "en.heavy",
+      "text": "heavy",
+      "reading": "ˈhɛvi"
+    },
+    {
+      "id": "en.pick-up",
+      "kind": "phrase",
+      "text": "pick up",
+      "reading": "ˌpɪk ˈʌp"
+    },
+    {
+      "id": "en.offer",
+      "text": "offer",
+      "reading": "ˈɔːfər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "I can't decide. Noodles or rice?",
+      "reading": "aɪ ˈkænt dɪˈsaɪd. ˈnuːdəlz ɔːr ˈraɪs?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'll have noodles.",
+      "reading": "aɪl ˈhæv ˈnuːdəlz."
+    },
+    {
+      "speaker": "c",
+      "text": "OK, I'll have noodles, too.",
+      "reading": "oʊˈkeɪ, aɪl ˈhæv ˈnuːdəlz, ˈtuː."
+    },
+    {
+      "speaker": "a",
+      "text": "Are your bags heavy? I'll carry them for you.",
+      "reading": "ər jʊr ˈbæɡz ˈhɛvi? aɪl ˈkæri ðɛm fər juː."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks for the offer, but I'm OK.",
+      "reading": "ˈθæŋks fər ði ˈɔːfər, bʌt aɪm oʊˈkeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Then I'll pick up our food. Sit down here.",
+      "reading": "ˈðɛn aɪl ˈpɪk ˈʌp aʊr ˈfuːd. ˈsɪt ˈdaʊn ˈhɪr."
+    },
+    {
+      "speaker": "c",
+      "text": "Thanks! I'll get the drinks.",
+      "reading": "ˈθæŋks! aɪl ˈɡɛt ðə ˈdrɪŋks."
+    },
+    {
+      "speaker": "a",
+      "text": "Great! An iced tea for me, please.",
+      "reading": "ˈɡreɪt! ən ˈaɪst ˈtiː fər miː, ˈpliːz."
+    }
+  ]
+}

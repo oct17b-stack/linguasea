@@ -1,0 +1,65 @@
+{
+  "id": "ja-B14-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.burogu",
+      "text": "ブログ",
+      "reading": "burogu"
+    },
+    {
+      "id": "ja.hajimemasu",
+      "text": "はじめます",
+      "reading": "hajimemasu"
+    },
+    {
+      "id": "ja.maiasa",
+      "text": "まいあさ",
+      "reading": "maiasa"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "先月、ヨガと この ブログを はじめました。",
+        "reading": "Sengetsu, yoga to kono burogu o hajimemashita."
+      },
+      {
+        "text": "まいあさ じゅぎょうの まえに ヨガを します。",
+        "reading": "Maiasa jugyō no mae ni yoga o shimasu."
+      },
+      {
+        "text": "からだが かるく なりました。",
+        "reading": "Karada ga karuku narimashita."
+      }
+    ],
+    [
+      {
+        "text": "どようびは ともだちと ボウリングに いきました。",
+        "reading": "Doyōbi wa tomodachi to bōringu ni ikimashita."
+      },
+      {
+        "text": "ボウリングは へたでしたが、たのしかったです。",
+        "reading": "Bōringu wa heta deshita ga, tanoshikatta desu."
+      },
+      {
+        "text": "来週も いきたいです。",
+        "reading": "Raishū mo ikitai desu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

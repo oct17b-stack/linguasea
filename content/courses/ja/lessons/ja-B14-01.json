@@ -1,0 +1,60 @@
+{
+  "id": "ja-B14-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.mimasu",
+      "text": "みます",
+      "reading": "mimasu"
+    },
+    {
+      "id": "ja.nyuusu",
+      "text": "ニュース",
+      "reading": "nyūsu"
+    },
+    {
+      "id": "ja.eigakan",
+      "text": "えいがかん",
+      "reading": "eigakan"
+    },
+    {
+      "id": "ja.komedii",
+      "text": "コメディー",
+      "reading": "komedī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさんは よく えいがを みますか。",
+      "reading": "Namu-san wa yoku eiga o mimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。にちようびの よる、よく えいがかんへ いきます。",
+      "reading": "Hai. Nichiyōbi no yoru, yoku eigakan e ikimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "どんな えいがが すきですか。",
+      "reading": "Donna eiga ga suki desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "コメディーが すきです。ゆきさんは？",
+      "reading": "Komedī ga suki desu. Yuki-san wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは えいがは あまり みません。テレビで ニュースを よく みます。",
+      "reading": "Watashi wa eiga wa amari mimasen. Terebi de nyūsu o yoku mimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。まじめですね。",
+      "reading": "Sō desu ka. Majime desu ne."
+    }
+  ]
+}

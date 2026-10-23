@@ -1,0 +1,60 @@
+{
+  "id": "ja-B13-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.konshuu",
+      "text": "今週",
+      "reading": "konshū"
+    },
+    {
+      "id": "ja.raishuu",
+      "text": "来週",
+      "reading": "raishū"
+    },
+    {
+      "id": "ja.senshuu",
+      "text": "先週",
+      "reading": "senshū"
+    },
+    {
+      "id": "ja.shuumatsu",
+      "text": "しゅうまつ",
+      "reading": "shūmatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、しゅうまつは なにを しますか。",
+      "reading": "Namu-san, shūmatsu wa nani o shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いつも レストランで アルバイトを します。",
+      "reading": "Itsumo resutoran de arubaito o shimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "今週も アルバイトですか。",
+      "reading": "Konshū mo arubaito desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、来週の どようびは やすみです。",
+      "reading": "Hai. Demo, raishū no doyōbi wa yasumi desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしは 先週から ひまです。",
+      "reading": "Ii desu ne. Watashi wa senshū kara hima desu."
+    },
+    {
+      "speaker": "a",
+      "text": "来週の どようびに いっしょに えいがは どうですか。",
+      "reading": "Raishū no doyōbi ni issho ni eiga wa dō desu ka."
+    }
+  ]
+}

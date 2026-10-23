@@ -1,0 +1,60 @@
+{
+  "id": "ja-B11-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.jisa",
+      "text": "じさ",
+      "reading": "jisa"
+    },
+    {
+      "id": "ja.jikan",
+      "text": "じかん",
+      "reading": "jikan"
+    },
+    {
+      "id": "ja.maiban",
+      "text": "まいばん",
+      "reading": "maiban"
+    },
+    {
+      "id": "ja.yuugata",
+      "text": "ゆうがた",
+      "reading": "yūgata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あした ビデオで でんわします。なんじが いいですか。",
+      "reading": "Namu-san, ashita bideo de denwa shimasu. Nanji ga ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆうがたは どうですか。タイの 6時です。",
+      "reading": "Yūgata wa dō desu ka. Tai no rokuji desu."
+    },
+    {
+      "speaker": "c",
+      "text": "タイと にほんの じさは 2じかんですね。にほんは 8時です。",
+      "reading": "Tai to Nihon no jisa wa nijikan desu ne. Nihon wa hachiji desu."
+    },
+    {
+      "speaker": "a",
+      "text": "8時は だいじょうぶですか。",
+      "reading": "Hachiji wa daijōbu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。わたしは まいばん 7時ごろ うちへ かえります。",
+      "reading": "Hai. Watashi wa maiban shichiji goro uchi e kaerimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。また あした！",
+      "reading": "Yokatta. Mata ashita!"
+    }
+  ]
+}

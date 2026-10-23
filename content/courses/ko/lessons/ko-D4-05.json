@@ -1,0 +1,86 @@
+{
+  "id": "ko-D4-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.seolgeoji-hada",
+      "text": "설거지하다",
+      "reading": "seolgeojihada"
+    },
+    {
+      "id": "ko.meonji",
+      "text": "먼지",
+      "reading": "meonji"
+    },
+    {
+      "id": "ko.hwangi-hada",
+      "text": "환기하다",
+      "reading": "hwangihada"
+    },
+    {
+      "id": "ko.kkalkkeum-hada",
+      "text": "깔끔하다",
+      "reading": "kkalkkeumhada"
+    },
+    {
+      "id": "ko.jeongni-jeongdon",
+      "text": "정리 정돈",
+      "reading": "jeongni jeongdon",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 설거지는 제가 할게요.",
+      "reading": "Nam ssi, seolgeojineun jega halgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아니에요. 민준 씨는 오늘 피곤하니까 설거지하지 않아도 돼요.",
+      "reading": "Anieyo. Minjun ssineun oneul pigonhanikka seolgeojihaji anado dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 제가 환기할게요.",
+      "reading": "Geureom jega hwangihalgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "환기는 아침에 했어요. 지금은 하지 않아도 돼요.",
+      "reading": "Hwangineun achime haesseoyo. Jigeumeun haji anado dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 먼지라도 닦을게요. 냉장고 위에 먼지가 많아요.",
+      "reading": "Geureom meonjirado dakkeulgeyo. Naengjanggo wie meonjiga manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그건 주말에 해요. 오늘 다 하지 않아도 돼요.",
+      "reading": "Geugeon jumare haeyo. Oneul da haji anado dwaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨는 정말 깔끔한 편이에요.",
+      "reading": "Nam ssineun jeongmal kkalkkeumhan pyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 정리 정돈을 좋아하거든요.",
+      "reading": "Jeoneun jeongni jeongdoneul joahageodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 정리 정돈을 잘 못해요.",
+      "reading": "Jeoneun jeongni jeongdoneul jal motaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "괜찮아요. 같이 하면 돼요!",
+      "reading": "Gwaenchanayo. Gachi hamyeon dwaeyo!"
+    }
+  ]
+}

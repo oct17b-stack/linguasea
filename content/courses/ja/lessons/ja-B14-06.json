@@ -1,0 +1,60 @@
+{
+  "id": "ja-B14-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.naraimasu",
+      "text": "ならいます",
+      "reading": "naraimasu"
+    },
+    {
+      "id": "ja.yoga",
+      "text": "ヨガ",
+      "reading": "yoga"
+    },
+    {
+      "id": "ja.eikaiwa",
+      "text": "えいかいわ",
+      "reading": "eikaiwa"
+    },
+    {
+      "id": "ja.kurabu",
+      "text": "クラブ",
+      "reading": "kurabu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさんは だいがくの クラブに はいりましたか。",
+      "reading": "Yuki-san wa daigaku no kurabu ni hairimashita ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いいえ。でも、ヨガを ならいます。",
+      "reading": "Iie. Demo, yoga o naraimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "へえ、どこで ならいますか。",
+      "reading": "Hē, doko de naraimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "駅の ちかくの きょうしつです。ナムさんは？",
+      "reading": "Eki no chikaku no kyōshitsu desu. Namu-san wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは えいかいわの クラブに はいりました。",
+      "reading": "Watashi wa eikaiwa no kurabu ni hairimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしも えいかいわを ならいたいです。",
+      "reading": "Ii desu ne. Watashi mo eikaiwa o naraitai desu."
+    }
+  ]
+}

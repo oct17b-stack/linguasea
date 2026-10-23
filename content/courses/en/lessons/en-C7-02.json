@@ -1,0 +1,75 @@
+{
+  "id": "en-C7-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.forecast",
+      "text": "forecast",
+      "reading": "ˈfɔːrkæst"
+    },
+    {
+      "id": "en.temperature",
+      "text": "temperature",
+      "reading": "ˈtɛmprətʃər"
+    },
+    {
+      "id": "en.celsius",
+      "text": "Celsius",
+      "reading": "ˈsɛlsiəs"
+    },
+    {
+      "id": "en.storm",
+      "text": "storm",
+      "reading": "stɔːrm"
+    },
+    {
+      "id": "en.thunder",
+      "text": "thunder",
+      "reading": "ˈθʌndər"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's the forecast for tomorrow?",
+      "reading": "ˈnɑːm, ˈwʌts ðə ˈfɔːrkæst fər təˈmɑːroʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "It might rain in the afternoon.",
+      "reading": "ɪt maɪt ˈreɪn ɪn ði ˌæftərˈnuːn."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh no! I want to go to the park.",
+      "reading": "ˈoʊ ˈnoʊ! aɪ ˈwɑːnt tə ˈɡoʊ tə ðə ˈpɑːrk."
+    },
+    {
+      "speaker": "a",
+      "text": "Go in the morning. It may be sunny then.",
+      "reading": "ˈɡoʊ ɪn ðə ˈmɔːrnɪŋ. ɪt meɪ bi ˈsʌni ˈðɛn."
+    },
+    {
+      "speaker": "c",
+      "text": "OK. What's the temperature?",
+      "reading": "oʊˈkeɪ. ˈwʌts ðə ˈtɛmprətʃər?"
+    },
+    {
+      "speaker": "a",
+      "text": "About 35°C.",
+      "reading": "əˈbaʊt ˌθɜːrti ˈfaɪv dɪˈɡriːz ˈsɛlsiəs."
+    },
+    {
+      "speaker": "c",
+      "text": "That's hot! Will there be a storm, too?",
+      "reading": "ðæts ˈhɑːt! wɪl ðɛr bi ə ˈstɔːrm, ˈtuː?"
+    },
+    {
+      "speaker": "a",
+      "text": "Maybe. There might be thunder in the evening.",
+      "reading": "ˈmeɪbi. ðɛr maɪt bi ˈθʌndər ɪn ði ˈiːvnɪŋ."
+    }
+  ]
+}

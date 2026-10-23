@@ -1,0 +1,71 @@
+{
+  "id": "en-C3-03",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.on-time",
+      "kind": "phrase",
+      "text": "on time",
+      "reading": "ɑːn ˈtaɪm"
+    },
+    {
+      "id": "en.absent",
+      "text": "absent",
+      "reading": "ˈæbsənt"
+    },
+    {
+      "id": "en.attend",
+      "text": "attend",
+      "reading": "əˈtɛnd"
+    },
+    {
+      "id": "en.assignment",
+      "text": "assignment",
+      "reading": "əˈsaɪnmənt"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "Mr. Brown, do I have to attend every class?",
+      "reading": "ˈmɪstər ˈbraʊn, duː aɪ ˈhæf tu əˈtɛnd ˈɛvri ˈklæs?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, you do. And please come on time.",
+      "reading": "ˈjɛs, juː ˈduː. ənd ˈpliːz ˈkʌm ɑːn ˈtaɪm."
+    },
+    {
+      "speaker": "a",
+      "text": "My friend Ploy is absent today. She's sick.",
+      "reading": "maɪ ˈfrɛnd ˈplɔɪ ɪz ˈæbsənt təˈdeɪ. ʃiːz ˈsɪk."
+    },
+    {
+      "speaker": "b",
+      "text": "Oh, I'm sorry.",
+      "reading": "ˈoʊ, aɪm ˈsɑːri."
+    },
+    {
+      "speaker": "a",
+      "text": "Does she have to do today's assignment?",
+      "reading": "dʌz ʃiː ˈhæf tə ˈduː təˈdeɪz əˈsaɪnmənt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Yes, she does. But she doesn't have to do it today.",
+      "reading": "ˈjɛs, ʃiː ˈdʌz. bʌt ʃiː ˈdʌzənt ˈhæf tə ˈduː ɪt təˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Then when does she have to do it?",
+      "reading": "ˈðɛn ˈwɛn dʌz ʃiː ˈhæf tə ˈduː ɪt?"
+    },
+    {
+      "speaker": "b",
+      "text": "Before next Monday. Can you tell her, please?",
+      "reading": "bɪˈfɔːr ˈnɛkst ˈmʌndeɪ. kən juː ˈtɛl hɜːr, ˈpliːz?"
+    }
+  ]
+}

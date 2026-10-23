@@ -1,0 +1,95 @@
+{
+  "id": "ko-F7-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.soseol",
+      "text": "소설",
+      "reading": "soseol"
+    },
+    {
+      "id": "ko.sijip",
+      "text": "시집",
+      "reading": "sijip"
+    },
+    {
+      "id": "ko.supil",
+      "text": "수필",
+      "reading": "supil"
+    },
+    {
+      "id": "ko.jakga",
+      "text": "작가",
+      "reading": "jakga"
+    },
+    {
+      "id": "ko.chulpansa",
+      "text": "출판사",
+      "reading": "chulpansa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "무엇을 도와드릴까요?",
+      "reading": "Mueoseul dowadeurilkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국 소설을 읽어 보고 싶은데, 어떤 책이 좋을지 몰라서요.",
+      "reading": "Hanguk soseoreul ilgeo bogo sipeunde, eotteon chaegi joeulji mollaseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "보통 어떤 책을 읽으세요?",
+      "reading": "Botong eotteon chaegeul ilgeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서는 소설하고 수필을 자주 읽었어요. 시집은 잘 안 읽고요.",
+      "reading": "Taegugeseoneun soseolhago supireul jaju ilgeosseoyo. Sijibeun jal an ilgoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "책을 정말 좋아하시네요. 혹시 작가가 되고 싶으세요?",
+      "reading": "Chaegeul jeongmal joahasineyo. Hoksi jakgaga doego sipeuseyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 그냥 책 읽는 걸 좋아할 뿐이에요. 독서는 제 취미일 뿐이에요.",
+      "reading": "Aniyo, geunyang chaek ingneun geol joahal ppunieyo. Dokseoneun je chwimiil ppunieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 이 작가의 소설은 어때요? 내용이 어렵지 않아서 외국인도 많이 읽어요.",
+      "reading": "Geureom i jakgaui soseoreun eottaeyo? Naeyongi eoryeopji anaseo oegugindo mani ilgeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "와, 책이 예쁘네요. 어느 출판사 책이에요?",
+      "reading": "Wa, chaegi yeppeuneyo. Eoneu chulpansa chaegieyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "'봄날 출판사'에서 나온 책이에요. 작은 출판사지만 좋은 책을 많이 내요.",
+      "reading": "'Bomnal chulpansa'eseo naon chaegieyo. Jageun chulpansajiman joeun chaegeul mani naeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 제 한국어 실력으로 다 이해할 수 있을지 모르겠어요.",
+      "reading": "Geureonde je hangugeo sillyeogeuro da ihaehal su isseulji moreugesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "걱정하지 마세요. 처음에 모르는 단어가 좀 많을 뿐이지 곧 익숙해질 거예요.",
+      "reading": "Geokjeonghaji maseyo. Cheoeume moreuneun daneoga jom maneul ppuniji got iksukaejil geoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다. 그럼 이 소설하고 짧은 수필집도 한 권 빌릴게요.",
+      "reading": "Gamsahamnida. Geureom i soseolhago jjalbeun supiljipdo han gwon billilgeyo."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ja-B13-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.goorudenwiiku",
+      "text": "ゴールデンウィーク",
+      "reading": "Gōruden Wīku"
+    },
+    {
+      "id": "ja.obon",
+      "text": "おぼん",
+      "reading": "Obon"
+    },
+    {
+      "id": "ja.haruyasumi",
+      "text": "はるやすみ",
+      "reading": "haruyasumi"
+    },
+    {
+      "id": "ja.natsuyasumi",
+      "text": "なつやすみ",
+      "reading": "natsuyasumi"
+    },
+    {
+      "id": "ja.fuyuyasumi",
+      "text": "ふゆやすみ",
+      "reading": "fuyuyasumi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、ゴールデンウィークは いつですか。",
+      "reading": "Yuki-san, Gōruden Wīku wa itsu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "5月です。",
+      "reading": "Gogatsu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "おぼんは？",
+      "reading": "Obon wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "おぼんは 8月13日から 16日までです。",
+      "reading": "Obon wa hachigatsu jūsannichi kara jūrokunichi made desu."
+    },
+    {
+      "speaker": "a",
+      "text": "だいがくの なつやすみは いつから いつまでですか。",
+      "reading": "Daigaku no natsuyasumi wa itsu kara itsu made desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "8月から 9月までです。はるやすみと ふゆやすみも ありますよ。",
+      "reading": "Hachigatsu kara kugatsu made desu. Haruyasumi to fuyuyasumi mo arimasu yo."
+    }
+  ]
+}

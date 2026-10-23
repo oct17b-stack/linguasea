@@ -1,0 +1,72 @@
+{
+  "id": "en-C1-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.be-good-at",
+      "kind": "phrase",
+      "text": "be good at",
+      "reading": "bi ˈɡʊd æt"
+    },
+    {
+      "id": "en.be-interested-in",
+      "kind": "phrase",
+      "text": "be interested in",
+      "reading": "bi ˈɪntrəstɪd ɪn"
+    },
+    {
+      "id": "en.talent",
+      "text": "talent",
+      "reading": "ˈtælənt"
+    },
+    {
+      "id": "en.photography",
+      "text": "photography",
+      "reading": "fəˈtɑːɡrəfi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "Hi! Are you interested in photography?",
+      "reading": "ˈhaɪ! ər juː ˈɪntrəstɪd ɪn fəˈtɑːɡrəfi?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes! I'm very interested in taking photos. But I'm not good at it.",
+      "reading": "ˈjɛs! aɪm ˈvɛri ˈɪntrəstɪd ɪn ˈteɪkɪŋ ˈfoʊtoʊz. bʌt aɪm ˈnɑːt ˈɡʊd ət ɪt."
+    },
+    {
+      "speaker": "b",
+      "text": "That's OK. We can teach you. What are you good at?",
+      "reading": "ðæts oʊˈkeɪ. wiː kən ˈtiːtʃ juː. ˈwʌt ər juː ˈɡʊd ˈæt?"
+    },
+    {
+      "speaker": "a",
+      "text": "I'm good at drawing. Look, this is my drawing.",
+      "reading": "aɪm ˈɡʊd ət ˈdrɔːɪŋ. ˈlʊk, ðɪs ɪz maɪ ˈdrɔːɪŋ."
+    },
+    {
+      "speaker": "b",
+      "text": "Wow! You have a real talent!",
+      "reading": "ˈwaʊ! juː ˈhæv ə ˈriːəl ˈtælənt!"
+    },
+    {
+      "speaker": "a",
+      "text": "Thank you! Are you good at drawing, too?",
+      "reading": "ˈθæŋk juː! ər juː ˈɡʊd ət ˈdrɔːɪŋ, ˈtuː?"
+    },
+    {
+      "speaker": "b",
+      "text": "No, I'm not. I'm only good at photography!",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt. aɪm ˈoʊnli ˈɡʊd ət fəˈtɑːɡrəfi!"
+    },
+    {
+      "speaker": "a",
+      "text": "Then you can teach me photography!",
+      "reading": "ˈðɛn juː kən ˈtiːtʃ miː fəˈtɑːɡrəfi!"
+    }
+  ]
+}

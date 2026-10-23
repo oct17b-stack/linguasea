@@ -1,0 +1,70 @@
+{
+  "id": "en-C6-01",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.quiet",
+      "text": "quiet",
+      "reading": "ˈkwaɪət"
+    },
+    {
+      "id": "en.noisy",
+      "text": "noisy",
+      "reading": "ˈnɔɪzi"
+    },
+    {
+      "id": "en.safe",
+      "text": "safe",
+      "reading": "seɪf"
+    },
+    {
+      "id": "en.narrow",
+      "text": "narrow",
+      "reading": "ˈnæroʊ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, is Chiang Mai bigger than Bangkok?",
+      "reading": "ˈnɑːm, ɪz ˈtʃjɑːŋ ˈmaɪ ˈbɪɡər ðən ˈbæŋkɑːk?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, it's smaller. And it's quieter.",
+      "reading": "ˈnoʊ, ɪts ˈsmɔːlər. ənd ɪts ˈkwaɪətər."
+    },
+    {
+      "speaker": "c",
+      "text": "Good! Bangkok is so noisy.",
+      "reading": "ˈɡʊd! ˈbæŋkɑːk ɪz ˈsoʊ ˈnɔɪzi."
+    },
+    {
+      "speaker": "a",
+      "text": "I know. Bangkok is noisier and hotter, too.",
+      "reading": "aɪ ˈnoʊ. ˈbæŋkɑːk ɪz ˈnɔɪziər ənd ˈhɑːtər, ˈtuː."
+    },
+    {
+      "speaker": "c",
+      "text": "Is Chiang Mai safe?",
+      "reading": "ɪz ˈtʃjɑːŋ ˈmaɪ ˈseɪf?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes. I think it's safer than Bangkok.",
+      "reading": "ˈjɛs. aɪ ˈθɪŋk ɪts ˈseɪfər ðən ˈbæŋkɑːk."
+    },
+    {
+      "speaker": "c",
+      "text": "And the streets?",
+      "reading": "ənd ðə ˈstriːts?"
+    },
+    {
+      "speaker": "a",
+      "text": "In the old city, they're narrower than in Bangkok. But they're nice for walking.",
+      "reading": "ɪn ði ˈoʊld ˈsɪti, ðɛr ˈnæroʊər ðən ɪn ˈbæŋkɑːk. bʌt ðɛr ˈnaɪs fər ˈwɔːkɪŋ."
+    }
+  ]
+}

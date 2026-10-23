@@ -1,0 +1,79 @@
+{
+  "id": "en-C1-r01",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.beginner",
+      "text": "beginner",
+      "reading": "bɪˈɡɪnər"
+    },
+    {
+      "id": "en.weekly",
+      "text": "weekly",
+      "reading": "ˈwiːkli"
+    },
+    {
+      "id": "en.camera",
+      "text": "camera",
+      "reading": "ˈkæmərə"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Do you love taking photos?",
+        "reading": "duː juː ˈlʌv ˈteɪkɪŋ ˈfoʊtoʊz?"
+      },
+      {
+        "text": "Join the Photo Club!",
+        "reading": "ˈdʒɔɪn ðə ˈfoʊtoʊ ˌklʌb!"
+      },
+      {
+        "text": "We meet once a week and take photos around the city.",
+        "reading": "wiː ˈmiːt ˈwʌns ə ˈwiːk ənd ˈteɪk ˈfoʊtoʊz əˈraʊnd ðə ˈsɪti."
+      },
+      {
+        "text": "Beginners are welcome, and you don't need an expensive camera.",
+        "reading": "bɪˈɡɪnərz ər ˈwɛlkəm, ənd juː ˈdoʊnt ˈniːd ən ɪkˈspɛnsɪv ˈkæmərə."
+      }
+    ],
+    [
+      {
+        "text": "Can you play an instrument?",
+        "reading": "kən juː ˈpleɪ ən ˈɪnstrəmənt?"
+      },
+      {
+        "text": "The Music Club practices three times a week, and once a month, we play music in the cafeteria.",
+        "reading": "ðə ˈmjuːzɪk ˌklʌb ˈpræktɪsɪz ˈθriː ˈtaɪmz ə ˈwiːk, ənd ˈwʌns ə ˈmʌnθ, wiː ˈpleɪ ˈmjuːzɪk ɪn ðə ˌkæfəˈtɪriə."
+      }
+    ],
+    [
+      {
+        "text": "Do you enjoy board games?",
+        "reading": "duː juː ɪnˈdʒɔɪ ˈbɔːrd ˌɡeɪmz?"
+      },
+      {
+        "text": "Come to our weekly game night on Wednesday evening!",
+        "reading": "ˈkʌm tu aʊr ˈwiːkli ˈɡeɪm ˈnaɪt ɑːn ˈwɛnzdeɪ ˈiːvnɪŋ!"
+      },
+      {
+        "text": "We play chess and many other games, and we can teach beginners.",
+        "reading": "wiː ˈpleɪ ˈtʃɛs ənd ˈmɛni ˈʌðər ˈɡeɪmz, ənd wiː kən ˈtiːtʃ bɪˈɡɪnərz."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

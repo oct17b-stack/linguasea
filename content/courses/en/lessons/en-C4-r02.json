@@ -1,0 +1,80 @@
+{
+  "id": "en-C4-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.to-do-list",
+      "kind": "phrase",
+      "text": "to-do list",
+      "reading": "təˈduː lɪst"
+    },
+    {
+      "id": "en.guest",
+      "text": "guest",
+      "reading": "ɡɛst"
+    },
+    {
+      "id": "en.tidy",
+      "text": "tidy",
+      "reading": "ˈtaɪdi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "It's Sunday night, and I'm tired after work.",
+        "reading": "ɪts ˈsʌndeɪ ˈnaɪt, ənd aɪm ˈtaɪərd ˈæftər ˈwɜːrk."
+      },
+      {
+        "text": "My cousin Bee from Chiang Mai is going to stay with us next weekend.",
+        "reading": "maɪ ˈkʌzən ˈbiː frəm ˈtʃjɑːŋ ˈmaɪ ɪz ˈɡoʊɪŋ tə ˈsteɪ wɪð ʌs ˈnɛkst ˈwiːkɛnd."
+      },
+      {
+        "text": "She's our guest, so the house has to be clean and tidy.",
+        "reading": "ʃiːz aʊr ˈɡɛst, soʊ ðə ˈhaʊs ˈhæs tə bi ˈkliːn ənd ˈtaɪdi."
+      }
+    ],
+    [
+      {
+        "text": "Here's my to-do list for this week.",
+        "reading": "hɪrz maɪ təˈduː lɪst fər ðɪs ˈwiːk."
+      },
+      {
+        "text": "On Monday and Tuesday, I'm going to tidy my room.",
+        "reading": "ɑːn ˈmʌndeɪ ənd ˈtuːzdeɪ, aɪm ˈɡoʊɪŋ tə ˈtaɪdi maɪ ˈruːm."
+      },
+      {
+        "text": "On Wednesday, I'm going to buy some fruit and snacks for her.",
+        "reading": "ɑːn ˈwɛnzdeɪ, aɪm ˈɡoʊɪŋ tə ˈbaɪ sʌm ˈfruːt ənd ˈsnæks fər hɜːr."
+      },
+      {
+        "text": "On Friday, I'm going to cook her favorite food.",
+        "reading": "ɑːn ˈfraɪdeɪ, aɪm ˈɡoʊɪŋ tə ˈkʊk hɜːr ˈfeɪvərɪt ˈfuːd."
+      }
+    ],
+    [
+      {
+        "text": "I'm not going to work next weekend, so we can go shopping together.",
+        "reading": "aɪm ˈnɑːt ˈɡoʊɪŋ tə ˈwɜːrk ˈnɛkst ˈwiːkɛnd, soʊ wiː kən ˈɡoʊ ˈʃɑːpɪŋ təˈɡɛðər."
+      },
+      {
+        "text": "I can't wait!",
+        "reading": "aɪ ˈkænt ˈweɪt!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

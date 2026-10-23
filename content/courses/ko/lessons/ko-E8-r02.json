@@ -1,0 +1,108 @@
+{
+  "id": "ko-E8-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 14,
+  "items": [
+    {
+      "id": "ko.johoesu",
+      "text": "조회수",
+      "reading": "johoesu"
+    },
+    {
+      "id": "ko.yeongsang",
+      "text": "영상",
+      "reading": "yeongsang"
+    },
+    {
+      "id": "ko.jojak-hada",
+      "text": "조작하다",
+      "reading": "jojakada"
+    },
+    {
+      "id": "ko.sasil-yeobu",
+      "kind": "phrase",
+      "text": "사실 여부",
+      "reading": "sasil yeobu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "민준: 남아, 이 영상 봤어? 조회수가 벌써 백만이 넘었어.",
+        "reading": "Minjun: Nama, i yeongsang bwasseo? Johoesuga beolsseo baengmani neomeosseo."
+      },
+      {
+        "text": "남: 무슨 영상인데?",
+        "reading": "Nam: Museun yeongsanginde?"
+      },
+      {
+        "text": "민준: 고양이가 피아노를 치면서 노래를 불러!",
+        "reading": "Minjun: Goyangiga pianoreul chimyeonseo noraereul bulleo!"
+      },
+      {
+        "text": "남: 에이, 그게 진짜야?",
+        "reading": "Nam: Ei, geuge jinjjaya?"
+      }
+    ],
+    [
+      {
+        "text": "민준: 진짜 같아. 댓글에도 다 신기하다고 해.",
+        "reading": "Minjun: Jinjja gata. Daetgeuredo da singihadago hae."
+      },
+      {
+        "text": "남: 잘 봐. 고양이 입하고 소리가 잘 안 맞아.",
+        "reading": "Nam: Jal bwa. Goyangi iphago soriga jal an maja."
+      },
+      {
+        "text": "남: 이건 누가 조작한 영상 같아.",
+        "reading": "Nam: Igeon nuga jojakan yeongsang gata."
+      },
+      {
+        "text": "민준: 그럼 사실 여부를 어떻게 알아?",
+        "reading": "Minjun: Geureom sasil yeobureul eotteoke ara?"
+      }
+    ],
+    [
+      {
+        "text": "남: 먼저 처음 올린 사람이 누군지 찾아봐.",
+        "reading": "Nam: Meonjeo cheoeum ollin sarami nugunji chajabwa."
+      },
+      {
+        "text": "남: 그리고 뉴스나 다른 기사에도 같은 내용이 있는지 확인해 봐.",
+        "reading": "Nam: Geurigo nyuseuna dareun gisaedo gateun naeyongi inneunji hwaginhae bwa."
+      },
+      {
+        "text": "민준: 아, 찾았다! 처음 올린 사람이 인공 지능으로 만든 영상이래.",
+        "reading": "Minjun: A, chajatda! Cheoeum ollin sarami ingong jineungeuro mandeun yeongsangirae."
+      },
+      {
+        "text": "남: 거 봐. 요즘은 진짜 같은 가짜 영상이 많아.",
+        "reading": "Nam: Geo bwa. Yojeumeun jinjja gateun gajja yeongsangi mana."
+      },
+      {
+        "text": "민준: 조회수가 많아도 가짜일 수 있구나.",
+        "reading": "Minjun: Johoesuga manado gajjail su itguna."
+      },
+      {
+        "text": "남: 맞아. 공유하기 전에 사실 여부를 꼭 확인하자.",
+        "reading": "Nam: Maja. Gongyuhagi jeone sasil yeobureul kkok hwaginhaja."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

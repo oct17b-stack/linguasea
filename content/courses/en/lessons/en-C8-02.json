@@ -1,0 +1,71 @@
+{
+  "id": "en-C8-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.look-like",
+      "kind": "phrase",
+      "text": "look like",
+      "reading": "ˈlʊk laɪk"
+    },
+    {
+      "id": "en.curly",
+      "text": "curly",
+      "reading": "ˈkɜːrli"
+    },
+    {
+      "id": "en.beard",
+      "text": "beard",
+      "reading": "bɪrd"
+    },
+    {
+      "id": "en.glasses",
+      "text": "glasses",
+      "reading": "ˈɡlæsɪz"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, can you pick up my brother at the airport tomorrow?",
+      "reading": "ˈnɑːm, kən juː ˈpɪk ˈʌp maɪ ˈbrʌðər ət ði ˈɛrpɔːrt təˈmɑːroʊ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Sure! What does he look like?",
+      "reading": "ˈʃʊr! ˈwʌt dʌz hiː ˈlʊk laɪk?"
+    },
+    {
+      "speaker": "c",
+      "text": "He's tall, and he has curly brown hair.",
+      "reading": "hiːz ˈtɔːl, ənd hiː ˈhæz ˈkɜːrli ˈbraʊn ˈhɛr."
+    },
+    {
+      "speaker": "a",
+      "text": "Does he have a beard?",
+      "reading": "dʌz hiː ˈhæv ə ˈbɪrd?"
+    },
+    {
+      "speaker": "c",
+      "text": "Yes, a short beard. And he wears glasses.",
+      "reading": "ˈjɛs, ə ˈʃɔːrt ˈbɪrd. ənd hiː ˈwɛrz ˈɡlæsɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Does he look like you?",
+      "reading": "oʊˈkeɪ. dʌz hiː ˈlʊk laɪk ˈjuː?"
+    },
+    {
+      "speaker": "c",
+      "text": "A little. People say we have the same eyes.",
+      "reading": "ə ˈlɪtəl. ˈpiːpəl ˈseɪ wiː ˈhæv ðə ˈseɪm ˈaɪz."
+    },
+    {
+      "speaker": "a",
+      "text": "Great. I'll find him!",
+      "reading": "ˈɡreɪt. aɪl ˈfaɪnd hɪm!"
+    }
+  ]
+}

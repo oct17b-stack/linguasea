@@ -1,0 +1,92 @@
+{
+  "id": "ko-D5-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.ganeung-hada",
+      "text": "가능하다",
+      "reading": "ganeunghada"
+    },
+    {
+      "id": "ko.bieo-itda",
+      "text": "비어 있다",
+      "reading": "bieo itda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.dangil",
+      "text": "당일",
+      "reading": "dangil"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "직원: 네, 한빛 병원이에요.",
+        "reading": "Jigwon: Ne, Hanbit byeongwonieyo."
+      },
+      {
+        "text": "남: 안녕하세요. 내일 오전 열 시에 진료 예약을 했는데요.",
+        "reading": "Nam: Annyeonghaseyo. Naeil ojeon yeol sie jillyo yeyageul haenneundeyo."
+      },
+      {
+        "text": "다른 날로 바꿀 수 있어요?",
+        "reading": "Dareun nallo bakkul su isseoyo?"
+      }
+    ],
+    [
+      {
+        "text": "직원: 네, 가능해요. 언제가 좋으세요?",
+        "reading": "Jigwon: Ne, ganeunghaeyo. Eonjega joeuseyo?"
+      },
+      {
+        "text": "남: 목요일 오후는 가능해요?",
+        "reading": "Nam: Mogyoil ohuneun ganeunghaeyo?"
+      },
+      {
+        "text": "직원: 목요일 오후는 비어 있는 시간이 없어요.",
+        "reading": "Jigwon: Mogyoil ohuneun bieo inneun sigani eopseoyo."
+      },
+      {
+        "text": "금요일 오전 열한 시는 비어 있어요.",
+        "reading": "Geumyoil ojeon yeolhan sineun bieo isseoyo."
+      },
+      {
+        "text": "남: 그럼 금요일 열한 시에 갈게요.",
+        "reading": "Nam: Geureom geumyoil yeolhan sie galgeyo."
+      }
+    ],
+    [
+      {
+        "text": "직원: 네, 바꿨어요.",
+        "reading": "Jigwon: Ne, bakkwosseoyo."
+      },
+      {
+        "text": "그리고 당일에는 예약을 취소하면 안 돼요.",
+        "reading": "Geurigo dangireneun yeyageul chwisohamyeon an dwaeyo."
+      },
+      {
+        "text": "당일에 취소하면 다른 환자들이 예약할 수 없거든요.",
+        "reading": "Dangire chwisohamyeon dareun hwanjadeuri yeyakal su eopgeodeunyo."
+      },
+      {
+        "text": "남: 네, 알겠어요. 감사합니다.",
+        "reading": "Nam: Ne, algesseoyo. Gamsahamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

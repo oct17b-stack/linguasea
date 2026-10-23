@@ -1,0 +1,91 @@
+{
+  "id": "ko-E8-03",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.bodo",
+      "text": "보도",
+      "reading": "bodo"
+    },
+    {
+      "id": "ko.seolmun-josa",
+      "kind": "phrase",
+      "text": "설문 조사",
+      "reading": "seolmun josa"
+    },
+    {
+      "id": "ko.eungdap-hada",
+      "text": "응답하다",
+      "reading": "eungdapada"
+    },
+    {
+      "id": "ko.jeungga-hada",
+      "text": "증가하다",
+      "reading": "jeunggahada"
+    },
+    {
+      "id": "ko.tonggye",
+      "text": "통계",
+      "reading": "tonggye"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "오늘은 남 씨가 읽은 기사를 발표해 볼까요?",
+      "reading": "Oneureun Nam ssiga ilgeun gisareul balpyohae bolkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 이 기사는 대학생들의 스마트폰 사용에 대한 보도입니다. 한 설문 조사에 따르면 대학생 열 명 중 여덟 명이 하루에 다섯 시간 이상 스마트폰을 쓴다고 합니다.",
+      "reading": "Ne. I gisaneun daehaksaengdeurui seumateupon sayonge daehan bodoimnida. Han seolmun josae ttareumyeon daehaksaeng yeol myeong jung yeodeol myeongi harue daseot sigan isang seumateuponeul sseundago hamnida."
+    },
+    {
+      "speaker": "c",
+      "text": "와, 많네요. 몇 명이 응답했어요?",
+      "reading": "Wa, manneyo. Myeot myeongi eungdapaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "대학생 천 명이 응답했습니다.",
+      "reading": "Daehaksaeng cheon myeongi eungdapaetseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "작년보다 증가했어요?",
+      "reading": "Jangnyeonboda jeunggahaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 통계에 의하면 작년보다 크게 증가했습니다.",
+      "reading": "Ne, tonggyee uihamyeon jangnyeonboda keuge jeunggahaetseumnida."
+    },
+    {
+      "speaker": "b",
+      "text": "맞는 것 같아요. 저도 하루 종일 휴대폰을 보거든요.",
+      "reading": "Manneun geot gatayo. Jeodo haru jongil hyudaeponeul bogeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "다른 조사에 따르면 스마트폰을 많이 쓸수록 잠을 적게 잔대요.",
+      "reading": "Dareun josae ttareumyeon seumateuponeul mani sseulsurok jameul jeokge jandaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그래서 기사에서는 자기 전에 휴대폰을 보지 말라고 했습니다.",
+      "reading": "Ne, geuraeseo gisaeseoneun jagi jeone hyudaeponeul boji mallago haetseumnida."
+    },
+    {
+      "speaker": "c",
+      "text": "좋은 발표였어요. 그런데 이 기사는 어디에서 읽었어요?",
+      "reading": "Joeun balpyoyeosseoyo. Geureonde i gisaneun eodieseo ilgeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "한국 신문 앱에서 읽었습니다.",
+      "reading": "Hanguk sinmun aebeseo ilgeotseumnida."
+    }
+  ]
+}

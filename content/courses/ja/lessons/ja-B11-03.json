@@ -1,0 +1,55 @@
+{
+  "id": "ja-B11-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.messeeji",
+      "text": "メッセージ",
+      "reading": "messēji"
+    },
+    {
+      "id": "ja.meeru",
+      "text": "メール",
+      "reading": "mēru"
+    },
+    {
+      "id": "ja.okurimasu",
+      "text": "おくります",
+      "reading": "okurimasu"
+    },
+    {
+      "id": "ja.adoresu",
+      "text": "アドレス",
+      "reading": "adoresu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、しゅくだいは せんせいに メールで おくりますか。",
+      "reading": "Namu-san, shukudai wa sensei ni mēru de okurimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、メールで おくります。",
+      "reading": "Hai, mēru de okurimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "せんせいの メールアドレスは なんですか。",
+      "reading": "Sensei no mēru adoresu wa nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あとで ゆきさんに メッセージで おしえます。",
+      "reading": "Atode Yuki-san ni messēji de oshiemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。おねがいします。",
+      "reading": "Arigatō. Onegaishimasu."
+    }
+  ]
+}

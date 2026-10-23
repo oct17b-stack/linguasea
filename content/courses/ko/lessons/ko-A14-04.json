@@ -1,0 +1,52 @@
+{
+  "id": "ko-A14-04",
+  "target": "ko",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "ko.hyudaepon-gage",
+      "kind": "phrase",
+      "text": "휴대폰 가게",
+      "reading": "hyudaepon gage"
+    },
+    {
+      "id": "ko.sajingwan",
+      "text": "사진관",
+      "reading": "sajingwan"
+    },
+    {
+      "id": "ko.pisibang",
+      "text": "피시방",
+      "reading": "pisibang"
+    },
+    {
+      "id": "ko.gwail-gage",
+      "kind": "phrase",
+      "text": "과일 가게",
+      "reading": "gwail gage"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 사진관 찾아요.",
+      "reading": "Minjun ssi, sajingwan chajayo."
+    },
+    {
+      "speaker": "b",
+      "text": "사진관은 휴대폰 가게하고 과일 가게 사이예요.",
+      "reading": "Sajingwaneun hyudaepon gagehago gwail gage saiyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 저거 피시방이에요?",
+      "reading": "A, jeogeo pisibangieyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 피시방이에요. 재미있어요!",
+      "reading": "Ne, pisibangieyo. Jaemiisseoyo!"
+    }
+  ]
+}

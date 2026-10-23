@@ -1,0 +1,96 @@
+{
+  "id": "ko-D7-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.bapsot",
+      "text": "밥솥",
+      "reading": "bapsot"
+    },
+    {
+      "id": "ko.jakdong-hada",
+      "text": "작동하다",
+      "reading": "jakdonghada"
+    },
+    {
+      "id": "ko.jeonwon",
+      "text": "전원",
+      "reading": "jeonwon"
+    },
+    {
+      "id": "ko.beoteun",
+      "text": "버튼",
+      "reading": "beoteun"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "안녕하세요. 저는 사흘 전에 한빛쇼핑에서 밥솥을 산 남이에요.",
+        "reading": "Annyeonghaseyo. Jeoneun saheul jeone Hanbitsyopingeseo bapsoteul san Namieyo."
+      },
+      {
+        "text": "어제 밥솥을 받자마자 밥을 해 봤어요.",
+        "reading": "Eoje bapsoteul batjamaja babeul hae bwasseoyo."
+      },
+      {
+        "text": "그런데 밥솥이 작동하지 않아요.",
+        "reading": "Geureonde bapsochi jakdonghaji anayo."
+      }
+    ],
+    [
+      {
+        "text": "전원 버튼을 눌러도 아무것도 안 돼요.",
+        "reading": "Jeonwon beoteuneul nulleodo amugeotdo an dwaeyo."
+      },
+      {
+        "text": "설명대로 다시 해 봤지만 안 됐어요.",
+        "reading": "Seolmyeongdaero dasi hae bwatjiman an dwaesseoyo."
+      },
+      {
+        "text": "전원을 다시 연결해 봤어요.",
+        "reading": "Jeonwoneul dasi yeongyeolhae bwasseoyo."
+      },
+      {
+        "text": "그래도 작동하지 않았어요.",
+        "reading": "Geuraedo jakdonghaji anasseoyo."
+      }
+    ],
+    [
+      {
+        "text": "불량 제품 같아요.",
+        "reading": "Bullyang jepum gatayo."
+      },
+      {
+        "text": "다른 밥솥으로 교환해 주실 수 있어요?",
+        "reading": "Dareun bapsoteuro gyohwanhae jusil su isseoyo?"
+      },
+      {
+        "text": "교환이 안 되면 환불해 주세요.",
+        "reading": "Gyohwani an doemyeon hwanbulhae juseyo."
+      },
+      {
+        "text": "답변 기다릴게요.",
+        "reading": "Dapbyeon gidarilgeyo."
+      },
+      {
+        "text": "감사합니다.",
+        "reading": "Gamsahamnida."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

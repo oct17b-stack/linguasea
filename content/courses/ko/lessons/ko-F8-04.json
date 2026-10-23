@@ -1,0 +1,100 @@
+{
+  "id": "ko-F8-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.eopchin-de-deopchin-gyeok",
+      "text": "엎친 데 덮친 격",
+      "reading": "eopchin de deopchin gyeok",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.so-ilko-oeyanggan-gochinda",
+      "text": "소 잃고 외양간 고친다",
+      "reading": "so ilko oeyanggan gochinda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.umul-an-gaeguri",
+      "text": "우물 안 개구리",
+      "reading": "umul an gaeguri",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.nuwoseo-tteok-meokgi",
+      "text": "누워서 떡 먹기",
+      "reading": "nuwoseo tteok meokgi",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.ganeun-nari-jangnal",
+      "text": "가는 날이 장날",
+      "reading": "ganeun nari jangnal",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘은 정말 되는 일이 하나도 없어요.",
+      "reading": "Nam ssi, oneureun jeongmal doeneun iri hanado eopseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜요? 무슨 일 있었어요?",
+      "reading": "Waeyo? Museun il isseosseoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아침에 지각해서 혼났는데, 점심때는 휴대폰까지 잃어버렸어요.",
+      "reading": "Achime jigakaeseo honnanneunde, jeomsimttaeneun hyudaeponkkaji ireobeoryeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "엎친 데 덮친 격이네요.",
+      "reading": "Eopchin de deopchin gyeogineyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그래서 오후에 휴대폰 가게에 갔는데 문이 닫혀 있었어요. 오늘만 쉬는 날이었대요.",
+      "reading": "Geuraeseo ohue hyudaepon gagee ganneunde muni datyeo isseosseoyo. Oneulman swineun narieotdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "가는 날이 장날이네요!",
+      "reading": "Ganeun nari jangnarineyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "그래서 집에 와서 휴대폰을 찾는 앱을 컴퓨터에 설치했어요.",
+      "reading": "Geuraeseo jibe waseo hyudaeponeul channeun aebeul keompyuteoe seolchihaesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잃어버린 다음에 설치하는 건 소 잃고 외양간 고치는 격이잖아요.",
+      "reading": "Ireobeorin daeume seolchihaneun geon so ilko oeyanggan gochineun gyeogijanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 맞아요. 다음부터는 미리 준비해야겠어요.",
+      "reading": "Haha, majayo. Daeumbuteoneun miri junbihaeyagesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 휴대폰은 찾을 수 있을까요?",
+      "reading": "Geureonde hyudaeponeun chajeul su isseulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "분실물 센터에 신고하면 누워서 떡 먹기래요. 한국에서는 잃어버린 물건을 금방 찾을 수 있대요.",
+      "reading": "Bunsilmul senteoe singohamyeon nuwoseo tteok meokgiraeyo. Hangugeseoneun ireobeorin mulgeoneul geumbang chajeul su itdaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이네요. 저는 한국에 오기 전에는 우물 안 개구리라서 이런 것도 몰랐어요.",
+      "reading": "Dahaengineyo. Jeoneun Hanguge ogi jeoneneun umul an gaeguriraseo ireon geotdo mollasseoyo."
+    }
+  ]
+}

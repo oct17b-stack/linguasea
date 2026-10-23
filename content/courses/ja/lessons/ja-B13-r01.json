@@ -1,0 +1,70 @@
+{
+  "id": "ja-B13-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.furusato",
+      "text": "ふるさと",
+      "reading": "furusato"
+    },
+    {
+      "id": "ja.jikka",
+      "text": "じっか",
+      "reading": "jikka"
+    },
+    {
+      "id": "ja.komimasu",
+      "text": "こみます",
+      "reading": "komimasu"
+    },
+    {
+      "id": "ja.osechi",
+      "text": "おせち",
+      "reading": "osechi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "にほんの ながい やすみは ゴールデンウィークと おぼんと おしょうがつです。",
+        "reading": "Nihon no nagai yasumi wa Gōruden Wīku to Obon to oshōgatsu desu."
+      },
+      {
+        "text": "おぼんと おしょうがつに、たくさんの ひとが ふるさとへ かえります。",
+        "reading": "Obon to oshōgatsu ni, takusan no hito ga furusato e kaerimasu."
+      },
+      {
+        "text": "じっかで かぞくと ゆっくり します。",
+        "reading": "Jikka de kazoku to yukkuri shimasu."
+      },
+      {
+        "text": "でんしゃと ひこうきは とても こみます。",
+        "reading": "Densha to hikōki wa totemo komimasu."
+      }
+    ],
+    [
+      {
+        "text": "おしょうがつには おせちを たべます。",
+        "reading": "Oshōgatsu ni wa osechi o tabemasu."
+      },
+      {
+        "text": "おせちには いろいろな りょうりが あります。",
+        "reading": "Osechi ni wa iroiro na ryōri ga arimasu."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ja-B12-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kusuri",
+      "text": "くすり",
+      "reading": "kusuri"
+    },
+    {
+      "id": "ja.kusuriya",
+      "text": "くすりや",
+      "reading": "kusuriya"
+    },
+    {
+      "id": "ja.nankai",
+      "text": "なんかい",
+      "reading": "nankai"
+    },
+    {
+      "id": "ja.shokugo",
+      "text": "しょくご",
+      "reading": "shokugo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、くすりやは あそこですよ。",
+      "reading": "Namu-san, kusuriya wa asoko desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、かぜの くすりは ありますか。",
+      "reading": "Sumimasen, kaze no kusuri wa arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、これです。",
+      "reading": "Hai, kore desu."
+    },
+    {
+      "speaker": "a",
+      "text": "1日に なんかい のみますか。",
+      "reading": "Ichinichi ni nankai nomimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "3かいです。しょくごに のみます。",
+      "reading": "Sankai desu. Shokugo ni nomimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "これを ください。",
+      "reading": "Kore o kudasai."
+    }
+  ]
+}

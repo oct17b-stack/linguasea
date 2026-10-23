@@ -1,0 +1,95 @@
+{
+  "id": "ko-F7-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.jipjungnyeok",
+      "text": "집중력",
+      "reading": "jipjungnyeok"
+    },
+    {
+      "id": "ko.jeonjachaek",
+      "text": "전자책",
+      "reading": "jeonjachaek"
+    },
+    {
+      "id": "ko.jongichaek",
+      "text": "종이책",
+      "reading": "jongichaek"
+    },
+    {
+      "id": "ko.neomgida",
+      "text": "넘기다",
+      "reading": "neomgida"
+    },
+    {
+      "id": "ko.chaekjang",
+      "text": "책장",
+      "reading": "chaekjang"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨는 전자책으로 읽어요, 종이책으로 읽어요?",
+      "reading": "Nam ssineun jeonjachaegeuro ilgeoyo, jongichaegeuro ilgeoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 종이책이 좋아요. 책장을 넘기는 느낌이 좋거든요.",
+      "reading": "Jeoneun jongichaegi joayo. Chaekjangeul neomgineun neukkimi jokeodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 요즘 전자책만 읽어요. 가볍고 편하니까요.",
+      "reading": "Jeoneun yojeum jeonjachaengman ilgeoyo. Gabyeopgo pyeonhanikkayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 저는 전자책으로 읽으면 집중력이 떨어져요.",
+      "reading": "Geureonde jeoneun jeonjachaegeuro ilgeumyeon jipjungnyeogi tteoreojyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "왜요?",
+      "reading": "Waeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "스마트폰으로 읽으니까 알림이 자꾸 와서요. 어제는 한 쪽조차 다 못 읽었어요.",
+      "reading": "Seumateuponeuro ilgeunikka allimi jakku waseoyo. Eojeneun han jjokjocha da mot ilgeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 저도 알림 때문에 집중이 잘 안 될 때가 많아요.",
+      "reading": "Majayo. Jeodo allim ttaemune jipjungi jal an doel ttaega manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "요즘은 좋아하는 소설마저 끝까지 못 읽을 때가 있어요.",
+      "reading": "Yojeumeun joahaneun soseolmajeo kkeutkkaji mot ilgeul ttaega isseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 공부할 때는 어때요?",
+      "reading": "Geureom gongbuhal ttaeneun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "시험 기간에는 교재조차 보기 싫을 때가 있어요. 하하.",
+      "reading": "Siheom giganeneun gyojaejocha bogi sireul ttaega isseoyo. Haha."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 저도요. 그래도 종이책은 오래 읽어도 눈이 덜 피곤하대요.",
+      "reading": "Haha, jeodoyo. Geuraedo jongichaegeun orae ilgeodo nuni deol pigonhadaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 이번 주말에는 스마트폰을 끄고 책장을 천천히 넘겨 볼래요.",
+      "reading": "Majayo. Ibeon jumareneun seumateuponeul kkeugo chaekjangeul cheoncheonhi neomgyeo bollaeyo."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "ko-E8-06",
+  "target": "ko",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ko.nollan",
+      "text": "논란",
+      "reading": "nollan"
+    },
+    {
+      "id": "ko.baneung",
+      "text": "반응",
+      "reading": "baneung"
+    },
+    {
+      "id": "ko.gwansimeul-kkeulda",
+      "kind": "phrase",
+      "text": "관심을 끌다",
+      "reading": "gwansimeul kkeulda"
+    },
+    {
+      "id": "ko.bipan-hada",
+      "text": "비판하다",
+      "reading": "bipanhada"
+    },
+    {
+      "id": "ko.gonggam-hada",
+      "text": "공감하다",
+      "reading": "gonggamhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "오늘은 신문 기사를 읽어 볼 거예요. 신문 기사는 보통 '-다'로 끝나요. 남 씨, 제목부터 읽어 볼래요?",
+      "reading": "Oneureun sinmun gisareul ilgeo bol geoyeyo. Sinmun gisaneun botong '-da'ro kkeunnayo. Nam ssi, jemokbuteo ilgeo bollaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "“대학교 카페의 일회용 컵 금지가 논란이 되고 있다.”",
+      "reading": "“Daehakgyo kapeui ilhoeyong keop geumjiga nollani doego itda.”"
+    },
+    {
+      "speaker": "c",
+      "text": "잘 읽었어요. 요즘 이 기사가 많은 관심을 끌고 있어요. 계속 읽어 보세요.",
+      "reading": "Jal ilgeosseoyo. Yojeum i gisaga maneun gwansimeul kkeulgo isseoyo. Gyesok ilgeo boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "“한 대학교는 다음 달부터 학교 카페에서 일회용 컵을 쓰지 않을 것이다. 많은 학생들이 이 소식에 공감했다.”",
+      "reading": "“Han daehakgyoneun daeum dalbuteo hakgyo kapeeseo ilhoeyong keobeul sseuji aneul geosida. Maneun haksaengdeuri i sosige gonggamhaetda.”"
+    },
+    {
+      "speaker": "c",
+      "text": "네, 계속하세요.",
+      "reading": "Ne, gyesokaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "“하지만 컵을 가지고 다니기 힘들다고 비판하는 학생도 있다.”",
+      "reading": "“Hajiman keobeul gajigo danigi himdeuldago bipanhaneun haksaengdo itda.”"
+    },
+    {
+      "speaker": "b",
+      "text": "선생님, '공감했다'는 말로 하면 '공감했어요'예요?",
+      "reading": "Seonsaengnim, 'gonggamhaetda'neun mallo hamyeon 'gonggamhaesseoyo'yeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. '쓰지 않을 것이다'도 말로 하면 '쓰지 않을 거예요'예요.",
+      "reading": "Majayo. 'Sseuji aneul geosida'do mallo hamyeon 'sseuji aneul geoyeyo'yeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 '있다'는 '있어요'예요?",
+      "reading": "Geureom 'itda'neun 'isseoyo'yeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 그럼 이 기사에 대한 여러분의 반응은 어때요?",
+      "reading": "Ne. Geureom i gisae daehan yeoreobunui baneungeun eottaeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 이 기사에 공감해요. 환경을 위해서 텀블러를 쓰는 건 좋은 것 같아요.",
+      "reading": "Jeoneun i gisae gonggamhaeyo. Hwangyeongeul wihaeseo teombeulleoreul sseuneun geon joeun geot gatayo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 학생들의 생각도 먼저 들어 봐야 할 것 같아요.",
+      "reading": "Jeoneun haksaengdeurui saenggakdo meonjeo deureo bwaya hal geot gatayo."
+    }
+  ]
+}

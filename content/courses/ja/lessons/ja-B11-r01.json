@@ -1,0 +1,65 @@
+{
+  "id": "ja-B11-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.guruupu",
+      "text": "グループ",
+      "reading": "gurūpu"
+    },
+    {
+      "id": "ja.aimasu",
+      "text": "あいます",
+      "reading": "aimasu"
+    },
+    {
+      "id": "ja.ookee",
+      "text": "オーケー",
+      "reading": "ōkē"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ゆき：あした 10時に 駅で あいますね。",
+        "reading": "Yuki: Ashita jūji ni eki de aimasu ne."
+      },
+      {
+        "text": "ベル：駅の どこですか。",
+        "reading": "Beru: Eki no doko desu ka."
+      },
+      {
+        "text": "ゆき：北口です。",
+        "reading": "Yuki: Kitaguchi desu."
+      },
+      {
+        "text": "ナム：オーケー！",
+        "reading": "Namu: Ōkē!"
+      }
+    ],
+    [
+      {
+        "text": "ナム：グループに 北口の しゃしんを おくります。",
+        "reading": "Namu: Gurūpu ni kitaguchi no shashin o okurimasu."
+      },
+      {
+        "text": "ベル：ありがとう！",
+        "reading": "Beru: Arigatō!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,5392 @@
+{
+  "target": "zh",
+  "stages": [
+    {
+      "id": "A",
+      "cefr": "pre-A1",
+      "exam": "HSK 1",
+      "minutes": 6,
+      "units": [
+        {
+          "id": "zh-A1",
+          "title_th": "ทักทายและมารยาท",
+          "goal_th": "ทักทาย ขอบคุณ ขอโทษ ถามว่าสบายดีไหม ทักคนที่ไม่ได้เจอกันนาน และใช้คำสุภาพที่ใช้บ่อยได้",
+          "scenario": "After the long semester break Nam bumps into Wang Ming on campus, asks how he has been, says sorry for keeping him waiting and welcomes him into the club room.",
+          "lessons": [
+            {
+              "id": "zh-A1-05",
+              "topic": "Long time no see: how have you been lately?",
+              "grammar": "好久不见！; 你最近好吗？ — 很好 / 不错 / 还好 (from best to so-so); review 你呢？ and 也",
+              "items": [
+                {
+                  "id": "zh.hao-jiu-bu-jian",
+                  "text": "好久不见",
+                  "reading": "hǎojiǔ bù jiàn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.zui-jin",
+                  "text": "最近",
+                  "reading": "zuìjìn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-cuo",
+                  "text": "不错",
+                  "reading": "bùcuò",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-hao",
+                  "text": "还好",
+                  "reading": "hái hǎo",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-A1-06",
+              "topic": "Small polite words: excuse me, welcome, it's nothing, just a moment",
+              "grammar": "不好意思 (small apology, getting attention) vs 对不起 (real apology); 欢迎！; 没什么 as a reply to 谢谢 / 对不起; 等一下 to ask someone to wait",
+              "items": [
+                {
+                  "id": "zh.bu-hao-yi-si",
+                  "text": "不好意思",
+                  "reading": "bù hǎoyìsi",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.huan-ying",
+                  "text": "欢迎",
+                  "reading": "huānyíng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-shen-me",
+                  "text": "没什么",
+                  "reading": "méi shénme",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.deng-yi-xia",
+                  "text": "等一下",
+                  "reading": "děng yīxià",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A2",
+          "title_th": "พินอินและวรรณยุกต์",
+          "goal_th": "อ่านพินอิน แยกวรรณยุกต์ 4 เสียง พยัญชนะและสระผสมที่คล้ายกัน และออกเสียงคำสองพยางค์กับเสียง er ได้",
+          "scenario": "Li laoshi plays a listening game with Nam: pick the right final (ai/ei, ou/uo, ie/üe), then read Chinese and Thai place names with the right tone pair and add the er sound.",
+          "lessons": [
+            {
+              "id": "zh-A2-05",
+              "topic": "Compound finals: ai/ei, ou/uo, ie/üe",
+              "grammar": "minimal pairs mài–mèi, zǒu–zuǒ, xié–xué (listen-text with the pair as the option); ü is written u after j q x y (xué); tone marks go on the main vowel (zuǒ, xiè)",
+              "items": [
+                {
+                  "id": "zh.mai4",
+                  "text": "mài",
+                  "reading": "mài",
+                  "kind": "syllable",
+                  "say": "卖"
+                },
+                {
+                  "id": "zh.mei4",
+                  "text": "mèi",
+                  "reading": "mèi",
+                  "kind": "syllable",
+                  "say": "妹"
+                },
+                {
+                  "id": "zh.zou3",
+                  "text": "zǒu",
+                  "reading": "zǒu",
+                  "kind": "syllable",
+                  "say": "走"
+                },
+                {
+                  "id": "zh.zuo3",
+                  "text": "zuǒ",
+                  "reading": "zuǒ",
+                  "kind": "syllable",
+                  "say": "左"
+                },
+                {
+                  "id": "zh.xie2",
+                  "text": "xié",
+                  "reading": "xié",
+                  "kind": "syllable",
+                  "say": "鞋"
+                },
+                {
+                  "id": "zh.xue2",
+                  "text": "xué",
+                  "reading": "xué",
+                  "kind": "syllable",
+                  "say": "学"
+                }
+              ]
+            },
+            {
+              "id": "zh-A2-06",
+              "topic": "Tone pairs in real place names; er and er-hua",
+              "grammar": "two-syllable tone pairs 4+3 Shànghǎi, 1+3 Xiānggǎng, 1+4 Qīngmài (Chiang Mai), 3+2 Pǔjí (Phuket): a 3rd tone before a non-3rd tone stays low; the er final (ér, èr); -r added to a syllable (huā → huār) as in 哪儿, 这儿, 一点儿",
+              "items": [
+                {
+                  "id": "zh.shang4-hai3",
+                  "text": "Shànghǎi",
+                  "reading": "Shànghǎi",
+                  "kind": "syllable",
+                  "say": "上海"
+                },
+                {
+                  "id": "zh.xiang1-gang3",
+                  "text": "Xiānggǎng",
+                  "reading": "Xiānggǎng",
+                  "kind": "syllable",
+                  "say": "香港"
+                },
+                {
+                  "id": "zh.qing1-mai4",
+                  "text": "Qīngmài",
+                  "reading": "Qīngmài",
+                  "kind": "syllable",
+                  "say": "清迈"
+                },
+                {
+                  "id": "zh.pu3-ji2",
+                  "text": "Pǔjí",
+                  "reading": "Pǔjí",
+                  "kind": "syllable",
+                  "say": "普吉"
+                },
+                {
+                  "id": "zh.er2",
+                  "text": "ér",
+                  "reading": "ér",
+                  "kind": "syllable",
+                  "say": "儿"
+                },
+                {
+                  "id": "zh.huar1",
+                  "text": "huār",
+                  "reading": "huār",
+                  "kind": "syllable",
+                  "say": "花儿"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A3",
+          "title_th": "แนะนำตัว",
+          "goal_th": "บอกชื่อ แซ่ สัญชาติ ถามชื่ออย่างสุภาพ และแนะนำเพื่อนให้คนหลายคนรู้จักได้",
+          "scenario": "At a language-exchange evening Nam asks a teacher's surname politely, says she is a university student and introduces Wang Ming to the whole group.",
+          "lessons": [
+            {
+              "id": "zh-A3-05",
+              "topic": "Surnames, polite name questions and titles",
+              "grammar": "我姓王，叫王明; 您贵姓？ (polite) vs 你叫什么名字？; surname + 先生 / 小姐 (王先生, 李小姐); 我是大学生",
+              "items": [
+                {
+                  "id": "zh.xing",
+                  "text": "姓",
+                  "reading": "xìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nin-gui-xing",
+                  "text": "您贵姓？",
+                  "reading": "nín guì xìng?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.xian-sheng",
+                  "text": "先生",
+                  "reading": "xiānsheng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-jie",
+                  "text": "小姐",
+                  "reading": "xiǎojiě",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-xue-sheng",
+                  "text": "大学生",
+                  "reading": "dàxuéshēng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A3-06",
+              "topic": "Introducing someone to a group",
+              "grammar": "介绍一下：这位是……; verb + 一下 makes a request softer (介绍一下, 等一下); 位 = polite measure word for people; 大家好！; 你们 = plural you",
+              "items": [
+                {
+                  "id": "zh.jie-shao",
+                  "text": "介绍",
+                  "reading": "jièshào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-xia",
+                  "text": "一下",
+                  "reading": "yīxià",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wei-person",
+                  "text": "位",
+                  "reading": "wèi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-jia",
+                  "text": "大家",
+                  "reading": "dàjiā",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ni-men",
+                  "text": "你们",
+                  "reading": "nǐmen",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A4",
+          "title_th": "ตัวเลขและอายุ",
+          "goal_th": "นับเลข 0–99 บอกจำนวนร้อย พัน หมื่น บอกว่ามากหรือน้อย และถามตอบเรื่องอายุได้",
+          "scenario": "Wang Ming and Nam play a number quiz: reading big numbers aloud, then guessing how many students and Thai friends each of them has.",
+          "lessons": [
+            {
+              "id": "zh-A4-05",
+              "topic": "Numbers 11–99; hundreds, thousands, ten thousands",
+              "grammar": "十一 = 10 + 1, 九十九 = 9 × 10 + 9 (same logic as Thai); 一百, 一千, 一万; 两百 / 两千 (两 before 百 千 万); 万 = หมื่น (Chinese counts big numbers in 万, like Thai หมื่น)",
+              "items": [
+                {
+                  "id": "zh.shi-yi",
+                  "text": "十一",
+                  "reading": "shíyī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiu-shi-jiu",
+                  "text": "九十九",
+                  "reading": "jiǔshíjiǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bai",
+                  "text": "百",
+                  "reading": "bǎi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qian-thousand",
+                  "text": "千",
+                  "reading": "qiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wan-ten-thousand",
+                  "text": "万",
+                  "reading": "wàn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A4-06",
+              "topic": "Many or few? Number one",
+              "grammar": "很多 / 不多 / 很少 (人很多); 一些 + noun; 第 + number for order (第一, 第二)",
+              "items": [
+                {
+                  "id": "zh.duo",
+                  "text": "多",
+                  "reading": "duō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shao",
+                  "text": "少",
+                  "reading": "shǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-xie",
+                  "text": "一些",
+                  "reading": "yīxiē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.di-yi",
+                  "text": "第一",
+                  "reading": "dì-yī",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A5",
+          "title_th": "ครอบครัว",
+          "goal_th": "แนะนำคนในครอบครัว รวมถึงสามี ภรรยา ลูก ญาติฝั่งแม่ น้าอา และบอกอาชีพของพวกเขาได้",
+          "scenario": "Nam shows Wang Ming family photos on her phone: her aunt, the aunt's husband and their two children, and her grandparents on her mother's side.",
+          "lessons": [
+            {
+              "id": "zh-A5-05",
+              "topic": "Husband, wife and children",
+              "grammar": "丈夫 / 妻子; 有 + number + 个 + 孩子; 儿子 / 女儿 (她有两个孩子：一个儿子，一个女儿)",
+              "items": [
+                {
+                  "id": "zh.zhang-fu",
+                  "text": "丈夫",
+                  "reading": "zhàngfu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qi-zi",
+                  "text": "妻子",
+                  "reading": "qīzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-zi",
+                  "text": "孩子",
+                  "reading": "háizi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.er-zi",
+                  "text": "儿子",
+                  "reading": "érzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv-er",
+                  "text": "女儿",
+                  "reading": "nǚ'ér",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A5-06",
+              "topic": "Mum's side of the family; uncles and aunties",
+              "grammar": "外公 / 外婆 (mother's parents) vs 爷爷 / 奶奶; 叔叔 / 阿姨 are also how children and young people address adults (like Thai ลุง ป้า น้า อา); 家人 = family members",
+              "items": [
+                {
+                  "id": "zh.wai-gong",
+                  "text": "外公",
+                  "reading": "wàigōng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-po",
+                  "text": "外婆",
+                  "reading": "wàipó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shu-shu",
+                  "text": "叔叔",
+                  "reading": "shūshu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.a-yi",
+                  "text": "阿姨",
+                  "reading": "āyí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jia-ren",
+                  "text": "家人",
+                  "reading": "jiārén",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A6",
+          "title_th": "กินและดื่ม",
+          "goal_th": "บอกว่าอยากกินอยากดื่มอะไร ชอบผลไม้อะไร ไม่กินเนื้อสัตว์อะไร และสั่งอาหารที่ร้านได้",
+          "scenario": "At dinner with Wang Ming's family Nam is asked which fruit she likes and whether there is any meat she does not eat.",
+          "lessons": [
+            {
+              "id": "zh-A6-05",
+              "topic": "Fruit: watermelon, bananas, grapes, oranges",
+              "grammar": "你喜欢吃什么水果？; 我最…… is not yet taught — use 喜欢 / 不喜欢; fruit names with 子 (橙子)",
+              "items": [
+                {
+                  "id": "zh.xi-gua",
+                  "text": "西瓜",
+                  "reading": "xīguā",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiang-jiao",
+                  "text": "香蕉",
+                  "reading": "xiāngjiāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.pu-tao",
+                  "text": "葡萄",
+                  "reading": "pútao",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cheng-zi",
+                  "text": "橙子",
+                  "reading": "chéngzi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A6-06",
+              "topic": "Meat and fish: what don't you eat?",
+              "grammar": "animal + 肉 (猪肉, 牛肉, 鸡肉, 羊肉); 我不吃 + 肉 (many Thai Buddhists avoid beef, Muslims pork); 鱼 as food",
+              "items": [
+                {
+                  "id": "zh.rou",
+                  "text": "肉",
+                  "reading": "ròu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-rou-chicken",
+                  "text": "鸡肉",
+                  "reading": "jīròu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhu-rou",
+                  "text": "猪肉",
+                  "reading": "zhūròu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.niu-rou",
+                  "text": "牛肉",
+                  "reading": "niúròu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yang-rou",
+                  "text": "羊肉",
+                  "reading": "yángròu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yu",
+                  "text": "鱼",
+                  "reading": "yú",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A7",
+          "title_th": "ของใช้ของฉัน",
+          "goal_th": "บอกชื่อของใช้ที่พกติดตัว ถามว่าเป็นของใคร บอกว่าใหม่ สวย หรือเหมือนกัน บอกว่าของอยู่ตรงไหน และให้ของขวัญได้",
+          "scenario": "Nam and Wang Ming empty their bags on a café table: whose phone is this, is that watch new, what is in the bag, and what present should Nam give Fah.",
+          "lessons": [
+            {
+              "id": "zh-A7-01",
+              "topic": "What's this? Phone, computer, bag",
+              "grammar": "这是什么？这是我的手机; 的 for possession (我的, 他的, 老师的)",
+              "items": [
+                {
+                  "id": "zh.shou-ji",
+                  "text": "手机",
+                  "reading": "shǒujī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dian-nao",
+                  "text": "电脑",
+                  "reading": "diànnǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bao",
+                  "text": "包",
+                  "reading": "bāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qian-bao",
+                  "text": "钱包",
+                  "reading": "qiánbāo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A7-02",
+              "topic": "These and those",
+              "grammar": "这些 / 那些 + 是 + noun; things have no plural ending (这些杯子); 这些都是我的",
+              "items": [
+                {
+                  "id": "zh.zhe-xie",
+                  "text": "这些",
+                  "reading": "zhèxiē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.na-xie",
+                  "text": "那些",
+                  "reading": "nàxiē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bei-zi",
+                  "text": "杯子",
+                  "reading": "bēizi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shou-biao",
+                  "text": "手表",
+                  "reading": "shǒubiǎo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A7-03",
+              "topic": "Is it yours?",
+              "grammar": "A-not-A question 是不是 (这是不是你的？); 自己的 = one's own; 不是我的",
+              "items": [
+                {
+                  "id": "zh.shi-bu-shi",
+                  "text": "是不是",
+                  "reading": "shì bù shì",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.zi-ji",
+                  "text": "自己",
+                  "reading": "zìjǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhi-jin-tissue",
+                  "text": "纸巾",
+                  "reading": "zhǐjīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chong-dian-bao",
+                  "text": "充电宝",
+                  "reading": "chōngdiànbǎo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A7-04",
+              "topic": "New, nice-looking, the same",
+              "grammar": "很 + adjective (很新, 很好看); 一样 / 不一样 (我们的手机一样)",
+              "items": [
+                {
+                  "id": "zh.xin",
+                  "text": "新",
+                  "reading": "xīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-kan",
+                  "text": "好看",
+                  "reading": "hǎokàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-yang",
+                  "text": "一样",
+                  "reading": "yīyàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiang-ji",
+                  "text": "相机",
+                  "reading": "xiàngjī",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A7-05",
+              "topic": "In, on, under",
+              "grammar": "noun + 里 / 上边 / 下边; place + 有 + thing (包里有什么？桌子上边有一个手机)",
+              "items": [
+                {
+                  "id": "zh.li",
+                  "text": "里",
+                  "reading": "lǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-bian",
+                  "text": "上边",
+                  "reading": "shàngbian",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xia-bian",
+                  "text": "下边",
+                  "reading": "xiàbian",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhuo-zi",
+                  "text": "桌子",
+                  "reading": "zhuōzi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A7-06",
+              "topic": "A present for my sister",
+              "grammar": "送 + person + thing (送妹妹一个包); 给 + person = for / to (这是给你的); 花 and 卡 as presents",
+              "items": [
+                {
+                  "id": "zh.song",
+                  "text": "送",
+                  "reading": "sòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gei",
+                  "text": "给",
+                  "reading": "gěi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hua",
+                  "text": "花",
+                  "reading": "huā",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ka",
+                  "text": "卡",
+                  "reading": "kǎ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A8",
+          "title_th": "บ้านของฉัน",
+          "goal_th": "บอกว่าอยู่ที่ไหน บ้านมีห้องอะไรบ้าง อยู่ชั้นไหน ชวนเพื่อนมาบ้าน และบอกว่าวางของไว้ตรงไหนได้",
+          "scenario": "Wang Ming visits Nam's flat for the first time: where exactly do you live, how many rooms are there, which floor is the bathroom on, and where can he put his things.",
+          "lessons": [
+            {
+              "id": "zh-A8-01",
+              "topic": "Where do you live?",
+              "grammar": "你住哪里？我住这里 (住 + place); 这里 / 那里 / 哪里 (the Beijing forms 这儿 / 那儿 / 哪儿 come in B3)",
+              "items": [
+                {
+                  "id": "zh.zhu",
+                  "text": "住",
+                  "reading": "zhù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.na-li",
+                  "text": "哪里",
+                  "reading": "nǎlǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhe-li",
+                  "text": "这里",
+                  "reading": "zhèlǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.na-li-there",
+                  "text": "那里",
+                  "reading": "nàlǐ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A8-02",
+              "topic": "House, flat and rooms",
+              "grammar": "房子 (house) vs 公寓 (flat); 几 + 个 / 间 + 房间 (间 = measure word for rooms)",
+              "items": [
+                {
+                  "id": "zh.fang-zi",
+                  "text": "房子",
+                  "reading": "fángzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-jian",
+                  "text": "房间",
+                  "reading": "fángjiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jian-between",
+                  "text": "间",
+                  "reading": "jiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-yu",
+                  "text": "公寓",
+                  "reading": "gōngyù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A8-03",
+              "topic": "Upstairs and downstairs",
+              "grammar": "number + 楼 = floor (三楼; 一楼 = ground floor, as in Thailand); 楼上 / 楼下; 洗手间 = polite word for toilet",
+              "items": [
+                {
+                  "id": "zh.lou",
+                  "text": "楼",
+                  "reading": "lóu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lou-shang",
+                  "text": "楼上",
+                  "reading": "lóushàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lou-xia",
+                  "text": "楼下",
+                  "reading": "lóuxià",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-shou-jian",
+                  "text": "洗手间",
+                  "reading": "xǐshǒujiān",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A8-04",
+              "topic": "Bed, chair, door; outside",
+              "grammar": "房间里有床; 门外边; review 里 / 上边 / 下边 with furniture",
+              "items": [
+                {
+                  "id": "zh.chuang",
+                  "text": "床",
+                  "reading": "chuáng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-zi",
+                  "text": "椅子",
+                  "reading": "yǐzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.men",
+                  "text": "门",
+                  "reading": "mén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-bian",
+                  "text": "外边",
+                  "reading": "wàibian",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A8-05",
+              "topic": "Come to my place!",
+              "grammar": "来 + place (来我家); 请进 / 请坐 / 欢迎 review; 家里很干净",
+              "items": [
+                {
+                  "id": "zh.lai",
+                  "text": "来",
+                  "reading": "lái",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jia-li",
+                  "text": "家里",
+                  "reading": "jiālǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gan-jing",
+                  "text": "干净",
+                  "reading": "gānjìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hua-yuan",
+                  "text": "花园",
+                  "reading": "huāyuán",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A8-06",
+              "topic": "Where shall I put it?",
+              "grammar": "放 + place (放这里 / 放门口); 地上 = on the floor; 衣柜里 (把 comes much later)",
+              "items": [
+                {
+                  "id": "zh.fang",
+                  "text": "放",
+                  "reading": "fàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.di-shang",
+                  "text": "地上",
+                  "reading": "dìshang",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-gui",
+                  "text": "衣柜",
+                  "reading": "yīguì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.men-kou",
+                  "text": "门口",
+                  "reading": "ménkǒu",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A9",
+          "title_th": "ในห้องเรียน",
+          "goal_th": "ใช้คำในห้องเรียน ทั้งของใช้ ฟัง พูด อ่าน เขียน เปิดหนังสือ ถามตอบ และบอกครูว่าไม่เข้าใจได้",
+          "scenario": "In Li laoshi's class: open the book at page ten, listen and read aloud, answer a question, ask what a character means and say you don't understand.",
+          "lessons": [
+            {
+              "id": "zh-A9-01",
+              "topic": "Things for class",
+              "grammar": "我有……; 这是什么？ review; 书包里有本子和笔",
+              "items": [
+                {
+                  "id": "zh.shu-bao",
+                  "text": "书包",
+                  "reading": "shūbāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ben-zi",
+                  "text": "本子",
+                  "reading": "běnzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bi",
+                  "text": "笔",
+                  "reading": "bǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhi-paper",
+                  "text": "纸",
+                  "reading": "zhǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hei-ban",
+                  "text": "黑板",
+                  "reading": "hēibǎn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A9-02",
+              "topic": "Listen, speak, read, write",
+              "grammar": "classroom instructions 请 + verb (请听, 请读, 请写); verb + object (说中文 comes in A10)",
+              "items": [
+                {
+                  "id": "zh.ting",
+                  "text": "听",
+                  "reading": "tīng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shuo",
+                  "text": "说",
+                  "reading": "shuō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.du",
+                  "text": "读",
+                  "reading": "dú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xie",
+                  "text": "写",
+                  "reading": "xiě",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A9-03",
+              "topic": "Open your book at page ten",
+              "grammar": "打开 + 书; 第 + number + 页 (第十页); 本 = measure word for books (一本书, 两本课本)",
+              "items": [
+                {
+                  "id": "zh.ke-ben",
+                  "text": "课本",
+                  "reading": "kèběn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ben",
+                  "text": "本",
+                  "reading": "běn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ye-page",
+                  "text": "页",
+                  "reading": "yè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-kai",
+                  "text": "打开",
+                  "reading": "dǎkāi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A9-04",
+              "topic": "Questions and answers",
+              "grammar": "我问，你回答; 有问题吗？; 对 / 不对; 错了 (as a set phrase)",
+              "items": [
+                {
+                  "id": "zh.wen",
+                  "text": "问",
+                  "reading": "wèn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hui-da",
+                  "text": "回答",
+                  "reading": "huídá",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wen-ti",
+                  "text": "问题",
+                  "reading": "wèntí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dui",
+                  "text": "对",
+                  "reading": "duì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cuo",
+                  "text": "错",
+                  "reading": "cuò",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A9-05",
+              "topic": "What does this character mean?",
+              "grammar": "这个字是什么意思？; 汉字 vs 字; 懂 / 不懂 (我不懂这个字)",
+              "items": [
+                {
+                  "id": "zh.han-zi",
+                  "text": "汉字",
+                  "reading": "Hànzì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zi",
+                  "text": "字",
+                  "reading": "zì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-si",
+                  "text": "意思",
+                  "reading": "yìsi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dong",
+                  "text": "懂",
+                  "reading": "dǒng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A9-06",
+              "topic": "I don't understand — please say it again",
+              "grammar": "我不明白 / 我不知道; 老师，请再说一遍; 教 + person + thing (老师教我们写汉字) vs 学",
+              "items": [
+                {
+                  "id": "zh.ming-bai",
+                  "text": "明白",
+                  "reading": "míngbai",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhi-dao",
+                  "text": "知道",
+                  "reading": "zhīdào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zai-shuo-yi-bian",
+                  "text": "再说一遍",
+                  "reading": "zài shuō yī biàn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.jiao-teach",
+                  "text": "教",
+                  "reading": "jiāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xue",
+                  "text": "学",
+                  "reading": "xué",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A10",
+          "title_th": "ประเทศและภาษา",
+          "goal_th": "บอกชื่อประเทศในอาเซียนและประเทศอื่น ๆ บอกว่ามาจากไหน และพูดภาษาอะไรได้",
+          "scenario": "At the welcome party for international students Nam meets classmates from Vietnam, Laos, Japan, Korea and Canada and asks where they come from and which languages they speak.",
+          "lessons": [
+            {
+              "id": "zh-A10-01",
+              "topic": "Countries around Thailand",
+              "grammar": "国家 = country; country + 人, written apart (Lǎowō rén); 你是哪国人？ review",
+              "items": [
+                {
+                  "id": "zh.guo-jia",
+                  "text": "国家",
+                  "reading": "guójiā",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lao-wo",
+                  "text": "老挝",
+                  "reading": "Lǎowō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jian-pu-zhai",
+                  "text": "柬埔寨",
+                  "reading": "Jiǎnpǔzhài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mian-dian",
+                  "text": "缅甸",
+                  "reading": "Miǎndiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ma-lai-xi-ya",
+                  "text": "马来西亚",
+                  "reading": "Mǎláixīyà",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A10-02",
+              "topic": "More of Southeast Asia",
+              "grammar": "他是越南人; 新加坡人说中文和英语 (preview); long names are read as one word",
+              "items": [
+                {
+                  "id": "zh.yue-nan",
+                  "text": "越南",
+                  "reading": "Yuènán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xin-jia-po",
+                  "text": "新加坡",
+                  "reading": "Xīnjiāpō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yin-du-ni-xi-ya",
+                  "text": "印度尼西亚",
+                  "reading": "Yìndùníxīyà",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fei-lv-bin",
+                  "text": "菲律宾",
+                  "reading": "Fēilǜbīn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A10-03",
+              "topic": "Japan, Korea, the US and the UK",
+              "grammar": "美国 = 'beautiful country' (sound + meaning); 日本人 / 韩国人",
+              "items": [
+                {
+                  "id": "zh.ri-ben",
+                  "text": "日本",
+                  "reading": "Rìběn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.han-guo",
+                  "text": "韩国",
+                  "reading": "Hánguó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-guo",
+                  "text": "美国",
+                  "reading": "Měiguó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ying-guo",
+                  "text": "英国",
+                  "reading": "Yīngguó",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A10-04",
+              "topic": "Languages: Chinese, Thai, English",
+              "grammar": "说 + language (我说泰语); 中文 and 汉语 both mean Chinese; 英语 / 英文 used for the same language",
+              "items": [
+                {
+                  "id": "zh.zhong-wen",
+                  "text": "中文",
+                  "reading": "Zhōngwén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tai-yu",
+                  "text": "泰语",
+                  "reading": "Tàiyǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ying-yu",
+                  "text": "英语",
+                  "reading": "Yīngyǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ying-wen",
+                  "text": "英文",
+                  "reading": "Yīngwén",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A10-05",
+              "topic": "Japanese, Korean, French",
+              "grammar": "country name + 语 = its language (日本 → 日语, 韩国 → 韩语, 法国 → 法语); 你说日语吗？",
+              "items": [
+                {
+                  "id": "zh.ri-yu",
+                  "text": "日语",
+                  "reading": "Rìyǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.han-yu-korean",
+                  "text": "韩语",
+                  "reading": "Hányǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fa-guo",
+                  "text": "法国",
+                  "reading": "Fǎguó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fa-yu",
+                  "text": "法语",
+                  "reading": "Fǎyǔ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A10-06",
+              "topic": "Where are you from? Foreign countries",
+              "grammar": "我来自泰国 (more formal than 我是泰国人); 外国 (foreign country) vs 国外 (abroad): word order changes the meaning",
+              "items": [
+                {
+                  "id": "zh.lai-zi",
+                  "text": "来自",
+                  "reading": "láizì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-guo",
+                  "text": "外国",
+                  "reading": "wàiguó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guo-wai",
+                  "text": "国外",
+                  "reading": "guówài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jia-na-da",
+                  "text": "加拿大",
+                  "reading": "Jiānádà",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A11",
+          "title_th": "ผู้คนรอบตัว",
+          "goal_th": "เรียกผู้ชาย ผู้หญิง เด็ก คนแก่ นักเรียน แฟน และบอกอาชีพง่าย ๆ ของคนรอบตัวได้",
+          "scenario": "Nam and Wang Ming look at photos from a campus open day and talk about the people in them: the tall man, the little girl, the old couple, a classmate's boyfriend and the bus driver.",
+          "lessons": [
+            {
+              "id": "zh-A11-01",
+              "topic": "Men and women",
+              "grammar": "男 / 女 + 的 (男的 = the man, 女的 = the woman); 男人 / 女人",
+              "items": [
+                {
+                  "id": "zh.nan",
+                  "text": "男",
+                  "reading": "nán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv",
+                  "text": "女",
+                  "reading": "nǚ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nan-ren",
+                  "text": "男人",
+                  "reading": "nánrén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv-ren",
+                  "text": "女人",
+                  "reading": "nǚrén",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A11-02",
+              "topic": "Boys, girls and grown-ups",
+              "grammar": "男孩儿 / 女孩儿 (-儿); 小朋友 = kids (also used to talk to children); 大人 = adults",
+              "items": [
+                {
+                  "id": "zh.nan-hair",
+                  "text": "男孩儿",
+                  "reading": "nánháir",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv-hair",
+                  "text": "女孩儿",
+                  "reading": "nǚháir",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-peng-you",
+                  "text": "小朋友",
+                  "reading": "xiǎopéngyou",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-ren",
+                  "text": "大人",
+                  "reading": "dàren",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A11-03",
+              "topic": "Students: boys and girls",
+              "grammar": "男生 / 女生 (male / female students, also 'guys' and 'girls'); 中学生, 小学生 (like 大学生)",
+              "items": [
+                {
+                  "id": "zh.nan-sheng",
+                  "text": "男生",
+                  "reading": "nánshēng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv-sheng",
+                  "text": "女生",
+                  "reading": "nǚshēng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-xue-sheng",
+                  "text": "中学生",
+                  "reading": "zhōngxuéshēng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-xue-sheng",
+                  "text": "小学生",
+                  "reading": "xiǎoxuéshēng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A11-04",
+              "topic": "Old people and little kids; tall",
+              "grammar": "老 / 老人 / 老太太; 小孩儿; 很高 (tall)",
+              "items": [
+                {
+                  "id": "zh.lao",
+                  "text": "老",
+                  "reading": "lǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lao-ren",
+                  "text": "老人",
+                  "reading": "lǎorén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lao-tai-tai",
+                  "text": "老太太",
+                  "reading": "lǎotàitai",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-hair",
+                  "text": "小孩儿",
+                  "reading": "xiǎoháir",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gao",
+                  "text": "高",
+                  "reading": "gāo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A11-05",
+              "topic": "Boyfriend, girlfriend",
+              "grammar": "男朋友 / 女朋友; 爱 (love) vs 喜欢 (like); 别人 = other people",
+              "items": [
+                {
+                  "id": "zh.nan-peng-you",
+                  "text": "男朋友",
+                  "reading": "nánpéngyou",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nv-peng-you",
+                  "text": "女朋友",
+                  "reading": "nǚpéngyou",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ai",
+                  "text": "爱",
+                  "reading": "ài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bie-ren",
+                  "text": "别人",
+                  "reading": "biéren",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A11-06",
+              "topic": "What do they do? Everyday jobs",
+              "grammar": "他是司机 (job + 是, no article); 做什么工作？ review; 公务员 = Thai ข้าราชการ (Nam's parents are teachers)",
+              "items": [
+                {
+                  "id": "zh.si-ji",
+                  "text": "司机",
+                  "reading": "sījī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-ren",
+                  "text": "工人",
+                  "reading": "gōngrén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-wu-yuan",
+                  "text": "公务员",
+                  "reading": "gōngwùyuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kuai-di-yuan",
+                  "text": "快递员",
+                  "reading": "kuàidìyuán",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A12",
+          "title_th": "สัตว์และธรรมชาติ",
+          "goal_th": "บอกชื่อสัตว์ที่พบบ่อย ถามตอบเรื่องปีนักษัตร และบอกชื่อสิ่งต่าง ๆ ในธรรมชาติ เช่น ภูเขา ต้นไม้ ทะเลได้",
+          "scenario": "On a weekend at a farm stay outside Bangkok, Nam and Wang Ming name the animals, find out each other's Chinese zodiac sign and look at the hills, the lake and the night sky.",
+          "lessons": [
+            {
+              "id": "zh-A12-01",
+              "topic": "Dogs, cats, chickens and ducks",
+              "grammar": "你家有狗吗？; 我喜欢猫; 鸡 = the animal, 鸡肉 = the meat (A6)",
+              "items": [
+                {
+                  "id": "zh.gou",
+                  "text": "狗",
+                  "reading": "gǒu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mao",
+                  "text": "猫",
+                  "reading": "māo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-chicken",
+                  "text": "鸡",
+                  "reading": "jī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ya-zi",
+                  "text": "鸭子",
+                  "reading": "yāzi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A12-02",
+              "topic": "On the farm: horses, cows, sheep, pigs",
+              "grammar": "牛 → 牛奶, 牛肉 (word families); 马 mǎ vs 妈 mā (tones change the meaning)",
+              "items": [
+                {
+                  "id": "zh.ma",
+                  "text": "马",
+                  "reading": "mǎ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.niu",
+                  "text": "牛",
+                  "reading": "niú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yang-sheep",
+                  "text": "羊",
+                  "reading": "yáng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhu-pig",
+                  "text": "猪",
+                  "reading": "zhū",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A12-03",
+              "topic": "What's your zodiac sign?",
+              "grammar": "你属什么？我属龙; the 12 生肖 are the same animals as the Thai ปีนักษัตร; 属 shǔ and 鼠 shǔ sound the same",
+              "items": [
+                {
+                  "id": "zh.shu-belong",
+                  "text": "属",
+                  "reading": "shǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shu-rat",
+                  "text": "鼠",
+                  "reading": "shǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.long",
+                  "text": "龙",
+                  "reading": "lóng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.she",
+                  "text": "蛇",
+                  "reading": "shé",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A12-04",
+              "topic": "Lions, bears, mosquitoes and bugs",
+              "grammar": "这里有……吗？; 蚊子很多 (很多 from A4)",
+              "items": [
+                {
+                  "id": "zh.shi-zi",
+                  "text": "狮子",
+                  "reading": "shīzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiong",
+                  "text": "熊",
+                  "reading": "xióng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wen-zi-mosquito",
+                  "text": "蚊子",
+                  "reading": "wénzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chong-zi",
+                  "text": "虫子",
+                  "reading": "chóngzi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A12-05",
+              "topic": "Hills, trees, grass and a lake",
+              "grammar": "place + 有 + thing (山上有很多树); 草 / 湖",
+              "items": [
+                {
+                  "id": "zh.shan",
+                  "text": "山",
+                  "reading": "shān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shu-tree",
+                  "text": "树",
+                  "reading": "shù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cao",
+                  "text": "草",
+                  "reading": "cǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hu",
+                  "text": "湖",
+                  "reading": "hú",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A12-06",
+              "topic": "The sea and the starry sky",
+              "grammar": "海 / 天空 / 星星; 大自然 = nature (我爱大自然)",
+              "items": [
+                {
+                  "id": "zh.hai",
+                  "text": "海",
+                  "reading": "hǎi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tian-kong",
+                  "text": "天空",
+                  "reading": "tiānkōng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xing-xing",
+                  "text": "星星",
+                  "reading": "xīngxing",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-zi-ran",
+                  "text": "大自然",
+                  "reading": "dàzìrán",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A13",
+          "title_th": "ร่างกายและเสื้อผ้า",
+          "goal_th": "บอกชื่ออวัยวะง่าย ๆ เช่น มือ เท้า หน้า และบอกว่าใส่หรือถอดเสื้อผ้าอะไร รวมถึงเสื้อผ้าสำหรับหน้าหนาวในจีนได้",
+          "scenario": "Nam packs for a winter trip to Harbin; she only owns T-shirts and flip-flops, so Wang Ming tells her what to put on: a down jacket, long johns, a scarf and a mask.",
+          "lessons": [
+            {
+              "id": "zh-A13-01",
+              "topic": "Hands, feet and face",
+              "grammar": "我的手 / 你的脸; body words with 的 and 很 + adjective (你的手很干净)",
+              "items": [
+                {
+                  "id": "zh.shou",
+                  "text": "手",
+                  "reading": "shǒu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-foot",
+                  "text": "脚",
+                  "reading": "jiǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lian-face",
+                  "text": "脸",
+                  "reading": "liǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shou-zhi",
+                  "text": "手指",
+                  "reading": "shǒuzhǐ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A13-02",
+              "topic": "Arms, neck, heart — the whole body",
+              "grammar": "身体 = body and health (你身体好吗？); 心 = heart",
+              "items": [
+                {
+                  "id": "zh.shen-ti",
+                  "text": "身体",
+                  "reading": "shēntǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ge-bo",
+                  "text": "胳膊",
+                  "reading": "gēbo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bo-zi",
+                  "text": "脖子",
+                  "reading": "bózi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xin-heart",
+                  "text": "心",
+                  "reading": "xīn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A13-03",
+              "topic": "Put on, take off: tops and coats",
+              "grammar": "穿 + clothes (穿外套); 脱 = take off; 上衣 = top",
+              "items": [
+                {
+                  "id": "zh.chuan",
+                  "text": "穿",
+                  "reading": "chuān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tuo-undress",
+                  "text": "脱",
+                  "reading": "tuō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-yi",
+                  "text": "上衣",
+                  "reading": "shàngyī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-tao",
+                  "text": "外套",
+                  "reading": "wàitào",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A13-04",
+              "topic": "Shirts, jeans, trainers, flip-flops",
+              "grammar": "我喜欢穿牛仔裤; 衬衣 (shirt); 拖鞋 (Thai students' favourite)",
+              "items": [
+                {
+                  "id": "zh.chen-yi",
+                  "text": "衬衣",
+                  "reading": "chènyī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.niu-zai-ku",
+                  "text": "牛仔裤",
+                  "reading": "niúzǎikù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yun-dong-xie",
+                  "text": "运动鞋",
+                  "reading": "yùndòngxié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tuo-xie",
+                  "text": "拖鞋",
+                  "reading": "tuōxié",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A13-05",
+              "topic": "Clothes for winter and rain",
+              "grammar": "羽绒服 (down jacket) and 秋裤 (long johns) for a northern Chinese winter; 雨衣 for the Thai rainy season; 围巾",
+              "items": [
+                {
+                  "id": "zh.yu-rong-fu",
+                  "text": "羽绒服",
+                  "reading": "yǔróngfú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qiu-ku",
+                  "text": "秋裤",
+                  "reading": "qiūkù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wei-jin",
+                  "text": "围巾",
+                  "reading": "wéijīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yu-yi",
+                  "text": "雨衣",
+                  "reading": "yǔyī",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A13-06",
+              "topic": "Masks, sunglasses, swimsuits and rings",
+              "grammar": "口罩 (worn a lot in China); 墨镜; 泳衣; 戒指",
+              "items": [
+                {
+                  "id": "zh.kou-zhao",
+                  "text": "口罩",
+                  "reading": "kǒuzhào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mo-jing",
+                  "text": "墨镜",
+                  "reading": "mòjìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yong-yi",
+                  "text": "泳衣",
+                  "reading": "yǒngyī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jie-zhi-ring",
+                  "text": "戒指",
+                  "reading": "jièzhi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A14",
+          "title_th": "วันสำคัญและเทศกาล",
+          "goal_th": "บอกชื่อวันสำคัญและเทศกาลในปฏิทินจีนและไทย บอกว่ากินหรือทำอะไรในวันนั้น และอวยพรสั้น ๆ ได้",
+          "scenario": "Nam and Wang Ming go through a calendar together and compare special days in China and Thailand: New Year's Day, the Lantern Festival, Mother's Day, Teachers' Day and Christmas.",
+          "lessons": [
+            {
+              "id": "zh-A14-01",
+              "topic": "New Year's Day and the calendar",
+              "grammar": "元旦 = 1 January; X + 快乐 (新年快乐！); 日历",
+              "items": [
+                {
+                  "id": "zh.yuan-dan",
+                  "text": "元旦",
+                  "reading": "Yuándàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xin-nian",
+                  "text": "新年",
+                  "reading": "xīnnián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kuai-le",
+                  "text": "快乐",
+                  "reading": "kuàilè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ri-li",
+                  "text": "日历",
+                  "reading": "rìlì",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A14-02",
+              "topic": "The first month: lanterns and sweet dumplings",
+              "grammar": "正月 = first lunar month; 元宵节 (15th of 正月): 吃汤圆, 看灯笼",
+              "items": [
+                {
+                  "id": "zh.zheng-yue",
+                  "text": "正月",
+                  "reading": "zhēngyuè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yuan-xiao-jie",
+                  "text": "元宵节",
+                  "reading": "Yuánxiāojié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tang-yuan",
+                  "text": "汤圆",
+                  "reading": "tāngyuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.deng-long",
+                  "text": "灯笼",
+                  "reading": "dēnglong",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A14-03",
+              "topic": "Tomb Sweeping Day and the Dragon Boat Festival",
+              "grammar": "清明节, 端午节: 吃粽子, 看龙舟; festival + 吃 + food",
+              "items": [
+                {
+                  "id": "zh.qing-ming-jie",
+                  "text": "清明节",
+                  "reading": "Qīngmíngjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.duan-wu-jie",
+                  "text": "端午节",
+                  "reading": "Duānwǔjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zong-zi",
+                  "text": "粽子",
+                  "reading": "zòngzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.long-zhou",
+                  "text": "龙舟",
+                  "reading": "lóngzhōu",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A14-04",
+              "topic": "Mother's Day, Father's Day, Children's Day, Teachers' Day",
+              "grammar": "X + 节 = X's day; dates differ: Thai Mother's Day 12 August, Teachers' Day 16 January; China's 教师节 10 September",
+              "items": [
+                {
+                  "id": "zh.mu-qin-jie",
+                  "text": "母亲节",
+                  "reading": "Mǔqīnjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fu-qin-jie",
+                  "text": "父亲节",
+                  "reading": "Fùqīnjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.er-tong-jie",
+                  "text": "儿童节",
+                  "reading": "Értóngjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-shi-jie",
+                  "text": "教师节",
+                  "reading": "Jiàoshījié",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A14-05",
+              "topic": "Valentine's Day — Western and Chinese",
+              "grammar": "情人节 (14 February) and 七夕 (Chinese Valentine's Day, 7th day of the 7th lunar month); 送玫瑰 / 送巧克力",
+              "items": [
+                {
+                  "id": "zh.qing-ren-jie",
+                  "text": "情人节",
+                  "reading": "Qíngrénjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qi-xi",
+                  "text": "七夕",
+                  "reading": "Qīxī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-gui",
+                  "text": "玫瑰",
+                  "reading": "méigui",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qiao-ke-li",
+                  "text": "巧克力",
+                  "reading": "qiǎokèlì",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A14-06",
+              "topic": "Christmas, Halloween, Labour Day, Women's Day",
+              "grammar": "圣诞节快乐！; 劳动节 (1 May, a long holiday in China); 妇女节 (8 March)",
+              "items": [
+                {
+                  "id": "zh.sheng-dan-jie",
+                  "text": "圣诞节",
+                  "reading": "Shèngdànjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wan-sheng-jie",
+                  "text": "万圣节",
+                  "reading": "Wànshèngjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lao-dong-jie",
+                  "text": "劳动节",
+                  "reading": "Láodòngjié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fu-nv-jie",
+                  "text": "妇女节",
+                  "reading": "Fùnǚjié",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A15",
+          "title_th": "ทิศและภูมิภาค",
+          "goal_th": "บอกทิศทั้งสี่ บอกว่าเมืองหรือภาคอยู่ทางไหนของประเทศ และบอกว่าตัวเองมาจากภาคไหนได้",
+          "scenario": "Over a map of Thailand and China, Nam shows Wang Ming where Chiang Mai, Isan and Phuket are, and Wang Ming shows her Beijing, Guangzhou, Xi'an and Yunnan.",
+          "lessons": [
+            {
+              "id": "zh-A15-01",
+              "topic": "East, west, south, north",
+              "grammar": "东 西 南 北 (Chinese order: 东南西北); 北京 = northern capital",
+              "items": [
+                {
+                  "id": "zh.dong-east",
+                  "text": "东",
+                  "reading": "dōng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi",
+                  "text": "西",
+                  "reading": "xī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nan-south",
+                  "text": "南",
+                  "reading": "nán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bei-north",
+                  "text": "北",
+                  "reading": "běi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A15-02",
+              "topic": "On the east side, on the north side",
+              "grammar": "东边 / 西边 / 南边 / 北边 (like 左边 / 右边 later in B3); 中国的北边",
+              "items": [
+                {
+                  "id": "zh.dong-bian",
+                  "text": "东边",
+                  "reading": "dōngbian",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-bian",
+                  "text": "西边",
+                  "reading": "xībian",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nan-bian",
+                  "text": "南边",
+                  "reading": "nánbian",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bei-bian",
+                  "text": "北边",
+                  "reading": "běibian",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A15-03",
+              "topic": "Northeast and southwest: Isan and Southeast Asia",
+              "grammar": "东北 (Thai อีสาน = 泰国东北); 西北 / 西南; 东南亚 = Southeast Asia",
+              "items": [
+                {
+                  "id": "zh.dong-bei",
+                  "text": "东北",
+                  "reading": "dōngběi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-bei",
+                  "text": "西北",
+                  "reading": "xīběi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-nan",
+                  "text": "西南",
+                  "reading": "xīnán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dong-nan-ya",
+                  "text": "东南亚",
+                  "reading": "Dōngnányà",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A15-04",
+              "topic": "Regions of a country",
+              "grammar": "中部 / 东部 / 南部 / 西部 (泰国中部 = central Thailand); 你是哪里人？",
+              "items": [
+                {
+                  "id": "zh.zhong-bu",
+                  "text": "中部",
+                  "reading": "zhōngbù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dong-bu",
+                  "text": "东部",
+                  "reading": "dōngbù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nan-bu",
+                  "text": "南部",
+                  "reading": "nánbù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-bu",
+                  "text": "西部",
+                  "reading": "xībù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A15-05",
+              "topic": "Big cities and provinces of China",
+              "grammar": "广州 / 西安 (cities), 云南 (province); 市 = city (广州市)",
+              "items": [
+                {
+                  "id": "zh.guang-zhou",
+                  "text": "广州",
+                  "reading": "Guǎngzhōu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-an",
+                  "text": "西安",
+                  "reading": "Xī'ān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yun-nan",
+                  "text": "云南",
+                  "reading": "Yúnnán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-city",
+                  "text": "市",
+                  "reading": "shì",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A15-06",
+              "topic": "Map, place, centre; locals and out-of-towners",
+              "grammar": "地图; 地方 (什么地方？); 中心 (曼谷在泰国中部); 外地人 vs 本地人",
+              "items": [
+                {
+                  "id": "zh.di-tu",
+                  "text": "地图",
+                  "reading": "dìtú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.di-fang",
+                  "text": "地方",
+                  "reading": "dìfang",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-xin",
+                  "text": "中心",
+                  "reading": "zhōngxīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-di",
+                  "text": "外地",
+                  "reading": "wàidì",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-A16",
+          "title_th": "ตอบสั้น ๆ ในบทสนทนา",
+          "goal_th": "ตอบรับ ปฏิเสธ แสดงความแปลกใจ ดีใจ เสียดาย และถ่อมตัวด้วยคำพูดสั้น ๆ ที่คนจีนใช้บ่อยได้",
+          "scenario": "Nam chats with Wang Ming about weekend plans and news and reacts the way Chinese friends do: OK!, really?, great!, oh no, never mind, not at all.",
+          "lessons": [
+            {
+              "id": "zh-A16-01",
+              "topic": "OK! No way.",
+              "grammar": "行 / 不行 (can / can't, OK / not OK); 好啊 (keen) vs 好吧 (reluctant)",
+              "items": [
+                {
+                  "id": "zh.xing-ok",
+                  "text": "行",
+                  "reading": "xíng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-xing-no",
+                  "text": "不行",
+                  "reading": "bùxíng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-a",
+                  "text": "好啊",
+                  "reading": "hǎo a",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.hao-ba",
+                  "text": "好吧",
+                  "reading": "hǎo ba",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-A16-02",
+              "topic": "Really? That's right.",
+              "grammar": "真的 / 真的吗？; 是吗？ (surprise); 没错 = exactly; 对 review",
+              "items": [
+                {
+                  "id": "zh.zhen-de",
+                  "text": "真的",
+                  "reading": "zhēnde",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-ma",
+                  "text": "是吗？",
+                  "reading": "shì ma?",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.mei-cuo",
+                  "text": "没错",
+                  "reading": "méicuò",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ye-xu",
+                  "text": "也许",
+                  "reading": "yěxǔ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A16-03",
+              "topic": "Great! Oh no! Forget it.",
+              "grammar": "太棒了！ (太……了 review); 糟糕！; 天哪！; 算了",
+              "items": [
+                {
+                  "id": "zh.tai-bang-le",
+                  "text": "太棒了",
+                  "reading": "tài bàng le",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.zao-gao",
+                  "text": "糟糕",
+                  "reading": "zāogāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tian-na",
+                  "text": "天哪",
+                  "reading": "tiān na",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.suan-le",
+                  "text": "算了",
+                  "reading": "suàn le",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-A16-04",
+              "topic": "It doesn't matter; no need",
+              "grammar": "不要紧 (= 没关系); 不用 (不用谢); 不一定 (not necessarily); 小意思 (it's nothing / a small gift)",
+              "items": [
+                {
+                  "id": "zh.bu-yao-jin",
+                  "text": "不要紧",
+                  "reading": "bù yàojǐn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.bu-yong",
+                  "text": "不用",
+                  "reading": "bùyòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-yi-ding",
+                  "text": "不一定",
+                  "reading": "bù yīdìng",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.xiao-yi-si",
+                  "text": "小意思",
+                  "reading": "xiǎoyìsi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A16-05",
+              "topic": "Compliments and modest replies",
+              "grammar": "你的中文真好！— 哪里哪里 / 过奖了; 挺好 (quite good); Chinese modesty vs Thai ขอบคุณ",
+              "items": [
+                {
+                  "id": "zh.na-li-na-li",
+                  "text": "哪里哪里",
+                  "reading": "nǎlǐ nǎlǐ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.guo-jiang",
+                  "text": "过奖",
+                  "reading": "guòjiǎng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ting-hao",
+                  "text": "挺好",
+                  "reading": "tǐng hǎo",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.cong-ming",
+                  "text": "聪明",
+                  "reading": "cōngming",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-A16-06",
+              "topic": "Yes, exactly, it's OK",
+              "grammar": "degrees of agreement: 是的 (yes, a little formal) / 就是 (exactly!) / 还行 (it's OK) / 好极了 (excellent, 极了 = extremely)",
+              "items": [
+                {
+                  "id": "zh.shi-de-yes",
+                  "text": "是的",
+                  "reading": "shì de",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.jiu-shi",
+                  "text": "就是",
+                  "reading": "jiùshì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-xing",
+                  "text": "还行",
+                  "reading": "hái xíng",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.hao-ji-le",
+                  "text": "好极了",
+                  "reading": "hǎo jí le",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "cefr": "A1",
+      "exam": "HSK 1",
+      "minutes": 7,
+      "readerMinutes": 8,
+      "units": [
+        {
+          "id": "zh-B1",
+          "title_th": "เวลา วันที่ และวันในสัปดาห์",
+          "goal_th": "ถามและบอกเวลาอย่างละเอียด (สิบห้านาที อีกกี่นาที) บอกวันที่ ปีที่แล้ว ปีหน้า ถามว่าเมื่อไร และบอกว่าวันหยุดเมื่อไรได้",
+          "scenario": "Nam and Wang Ming plan the New Year holiday: what time exactly the train leaves, when the holiday starts and how many days off each of them has.",
+          "lessons": [
+            {
+              "id": "zh-B1-05",
+              "topic": "A quarter past, five to — early and late",
+              "grammar": "刻 (一刻 = 15 minutes, 三刻 = 45 minutes); 差 + minutes + hour (差五分八点 = five to eight); 早 / 晚 (太早了, 太晚了)",
+              "items": [
+                {
+                  "id": "zh.ke-quarter",
+                  "text": "刻",
+                  "reading": "kè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cha-less",
+                  "text": "差",
+                  "reading": "chà",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zao",
+                  "text": "早",
+                  "reading": "zǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wan-late",
+                  "text": "晚",
+                  "reading": "wǎn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B1-06",
+              "topic": "When? Last year, next year, the day after tomorrow",
+              "grammar": "什么时候 + verb?; 去年 / 今年 / 明年; 前天 / 昨天 / 今天 / 明天 / 后天; 放假 (你们什么时候放假？)",
+              "items": [
+                {
+                  "id": "zh.shen-me-shi-hou",
+                  "text": "什么时候",
+                  "reading": "shénme shíhou",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.qu-nian",
+                  "text": "去年",
+                  "reading": "qùnián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ming-nian",
+                  "text": "明年",
+                  "reading": "míngnián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hou-tian",
+                  "text": "后天",
+                  "reading": "hòutiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-jia",
+                  "text": "放假",
+                  "reading": "fàngjià",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B1-r01",
+              "kind": "reader",
+              "topic": "Message: Wang Ming's New Year text to Nam — his holiday starts the day after tomorrow, he asked for one day off to go home early, and how many days off does Nam get?",
+              "grammar": "text-message genre; number + 天 (放假七天); 前天 / 请假; dates written with 日 (1月1日)",
+              "items": [
+                {
+                  "id": "zh.qian-tian",
+                  "text": "前天",
+                  "reading": "qiántiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tian",
+                  "text": "天",
+                  "reading": "tiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qing-jia",
+                  "text": "请假",
+                  "reading": "qǐngjià",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ri",
+                  "text": "日",
+                  "reading": "rì",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B2",
+          "title_th": "ซื้อของและราคา",
+          "goal_th": "ถามราคา ต่อราคา ซื้อเสื้อผ้า อ่านราคาเป็นหยวน เจียว เหมา ซื้อของเป็นชั่ง และเลือกจ่ายเงินสดหรือรูดบัตรได้",
+          "scenario": "Nam goes to a Chinese street market with Wang Ming: she reads price tags in 元 and 角, buys fruit by the jin and asks whether she can pay by card.",
+          "lessons": [
+            {
+              "id": "zh-B2-05",
+              "topic": "元, 角, 毛 — reading price tags",
+              "grammar": "written 元 / 角 (price tags) vs spoken 块 / 毛; 三块五 (毛) = 3.50 yuan; 泰铢 = Thai baht (一块钱是多少泰铢？)",
+              "items": [
+                {
+                  "id": "zh.yuan-money",
+                  "text": "元",
+                  "reading": "yuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-tenth",
+                  "text": "角",
+                  "reading": "jiǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mao-tenth",
+                  "text": "毛",
+                  "reading": "máo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tai-zhu",
+                  "text": "泰铢",
+                  "reading": "tàizhū",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B2-06",
+              "topic": "By the jin; cash or card?",
+              "grammar": "斤 (= 500 g) and 公斤 (= 1 kg): 苹果多少钱一斤？; A 还是 B? (choice question); 用 + 手机 / 卡 (用手机还是刷卡？)",
+              "items": [
+                {
+                  "id": "zh.jin-catty",
+                  "text": "斤",
+                  "reading": "jīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-jin",
+                  "text": "公斤",
+                  "reading": "gōngjīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-shi",
+                  "text": "还是",
+                  "reading": "háishi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yong",
+                  "text": "用",
+                  "reading": "yòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shua-ka",
+                  "text": "刷卡",
+                  "reading": "shuākǎ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B2-r01",
+              "kind": "reader",
+              "topic": "Notice: a shopping-mall sign — opening hours, credit cards accepted, please ask staff before trying clothes on",
+              "grammar": "notice genre; 可以 + verb; 请 + verb",
+              "items": [
+                {
+                  "id": "zh.shang-chang",
+                  "text": "商场",
+                  "reading": "shāngchǎng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-try",
+                  "text": "试",
+                  "reading": "shì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xin-yong-ka",
+                  "text": "信用卡",
+                  "reading": "xìnyòngkǎ",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B3",
+          "title_th": "สถานที่และทิศทาง",
+          "goal_th": "ถามว่าที่ไหนอยู่ตรงไหน บอกทางตรงไป เลี้ยวซ้ายขวา บอกว่าอยู่ใกล้ ตรงข้าม หรือระหว่างอะไรได้",
+          "scenario": "Nam is looking for a noodle restaurant near campus; a passer-by tells her to go straight, turn left at the crossing, and that it is opposite the bank, between a supermarket and a bookshop.",
+          "lessons": [
+            {
+              "id": "zh-B3-05",
+              "topic": "Go straight, turn left",
+              "grammar": "一直走; 往 + 左 / 右 + 拐 (左 and 右 on their own, from 左边 / 右边); 到路口; 在那儿",
+              "items": [
+                {
+                  "id": "zh.yi-zhi",
+                  "text": "一直",
+                  "reading": "yīzhí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wang-toward",
+                  "text": "往",
+                  "reading": "wǎng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guai-turn",
+                  "text": "拐",
+                  "reading": "guǎi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lu-kou",
+                  "text": "路口",
+                  "reading": "lùkǒu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nar-there",
+                  "text": "那儿",
+                  "reading": "nàr",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B3-06",
+              "topic": "Near, opposite, in between",
+              "grammar": "A 离 B 很近 / 很远; 附近有……吗？; 在 A 和 B 中间; 在……对面",
+              "items": [
+                {
+                  "id": "zh.li-from",
+                  "text": "离",
+                  "reading": "lí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fu-jin",
+                  "text": "附近",
+                  "reading": "fùjìn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dui-mian",
+                  "text": "对面",
+                  "reading": "duìmiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-jian",
+                  "text": "中间",
+                  "reading": "zhōngjiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fan-guan",
+                  "text": "饭馆",
+                  "reading": "fànguǎn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B3-r01",
+              "kind": "reader",
+              "topic": "Short description: \"Around our university\" — a park to the east, a bookshop opposite the main gate and a library next to the bank",
+              "grammar": "description genre; 有 vs 在 (附近有一个公园 / 公园在东边)",
+              "items": [
+                {
+                  "id": "zh.gong-yuan",
+                  "text": "公园",
+                  "reading": "gōngyuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shu-dian",
+                  "text": "书店",
+                  "reading": "shūdiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tu-shu-guan",
+                  "text": "图书馆",
+                  "reading": "túshūguǎn",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B4",
+          "title_th": "กิจวัตรประจำวัน",
+          "goal_th": "เล่ากิจวัตรตั้งแต่อาบน้ำ แปรงฟัน ไปเรียน กลับบ้าน บอกว่าทำอะไรก่อน-หลัง และพูดถึงเวลาทำงานของพ่อแม่ได้",
+          "scenario": "Nam describes her day to Wang Ming: shower and brush teeth, breakfast, classes, home by six; her parents, both teachers, leave for work at seven.",
+          "lessons": [
+            {
+              "id": "zh-B4-05",
+              "topic": "Shower, brush teeth, go home",
+              "grammar": "洗澡 / 刷牙 (verb-object words, written together); 洗 + 手 / 脸 / 衣服; 回 + 家 / 学校; 每 + measure word + noun (每个星期)",
+              "items": [
+                {
+                  "id": "zh.xi-wash",
+                  "text": "洗",
+                  "reading": "xǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-zao",
+                  "text": "洗澡",
+                  "reading": "xǐzǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shua-ya",
+                  "text": "刷牙",
+                  "reading": "shuāyá",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hui-return",
+                  "text": "回",
+                  "reading": "huí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei",
+                  "text": "每",
+                  "reading": "měi",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B4-06",
+              "topic": "First…, then…; before and after",
+              "grammar": "先 + V1，再 + V2 (先洗澡，再吃早饭); ……以前 / ……以后 (下课以后, 睡觉以前); 上班 / 下班",
+              "items": [
+                {
+                  "id": "zh.xian",
+                  "text": "先",
+                  "reading": "xiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zai-again",
+                  "text": "再",
+                  "reading": "zài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-qian",
+                  "text": "以前",
+                  "reading": "yǐqián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-hou",
+                  "text": "以后",
+                  "reading": "yǐhòu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-ban",
+                  "text": "上班",
+                  "reading": "shàngbān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xia-ban",
+                  "text": "下班",
+                  "reading": "xiàbān",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B4-r01",
+              "kind": "reader",
+              "topic": "Diary: a day in the life of Fah (Nam's sister, 17) — up at six, school starts at half past seven, after school she studies, at nine she still hasn't eaten",
+              "grammar": "diary genre; 还没 + verb; 了 for finished actions only in 吃了",
+              "items": [
+                {
+                  "id": "zh.shang-xue",
+                  "text": "上学",
+                  "reading": "shàngxué",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-xue",
+                  "text": "放学",
+                  "reading": "fàngxué",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bai-tian",
+                  "text": "白天",
+                  "reading": "báitiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-still",
+                  "text": "还",
+                  "reading": "hái",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-not",
+                  "text": "没",
+                  "reading": "méi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B5",
+          "title_th": "อากาศและความรู้สึก",
+          "goal_th": "พูดถึงอากาศครึ้ม ฝนตกหนัก ลมแรง บอกความรู้สึก เช่น โกรธ หัวเราะ ร้องไห้ และถามว่าทำไมได้",
+          "scenario": "During the rainy season in Bangkok Wang Ming is grumpy because of the rain; Nam asks him why he is angry and makes him laugh.",
+          "lessons": [
+            {
+              "id": "zh-B5-05",
+              "topic": "Cloudy, rainy, windy",
+              "grammar": "阴天 vs 晴天; 多云; 雨很大 / 风很大 (大 for rain and wind)",
+              "items": [
+                {
+                  "id": "zh.yin-tian",
+                  "text": "阴天",
+                  "reading": "yīntiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.duo-yun",
+                  "text": "多云",
+                  "reading": "duōyún",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yu-rain",
+                  "text": "雨",
+                  "reading": "yǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.feng",
+                  "text": "风",
+                  "reading": "fēng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B5-06",
+              "topic": "Why are you angry?",
+              "grammar": "为什么 + verb phrase? (你为什么生气？); 真 + adjective (真好笑?); 笑 / 哭",
+              "items": [
+                {
+                  "id": "zh.wei-shen-me",
+                  "text": "为什么",
+                  "reading": "wèi shénme",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.sheng-qi",
+                  "text": "生气",
+                  "reading": "shēngqì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-laugh",
+                  "text": "笑",
+                  "reading": "xiào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ku-cry",
+                  "text": "哭",
+                  "reading": "kū",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhen",
+                  "text": "真",
+                  "reading": "zhēn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B5-r01",
+              "kind": "reader",
+              "topic": "Notice on the dorm noticeboard: this week's weather in Bangkok — very hot until Thursday, then heavy rain; drink lots of water, take a raincoat",
+              "grammar": "notice genre; 这么 + adjective; 非常 + adjective; 怕热 / 怕冷",
+              "items": [
+                {
+                  "id": "zh.zhe-me",
+                  "text": "这么",
+                  "reading": "zhème",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fei-chang",
+                  "text": "非常",
+                  "reading": "fēicháng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.pa-afraid",
+                  "text": "怕",
+                  "reading": "pà",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B6",
+          "title_th": "การเดินทาง",
+          "goal_th": "บอกว่าเดินทางด้วยอะไร เรียกแท็กซี่ ขึ้นลงรถ ขึ้นรถเมล์ เรือ รถไฟใต้ดิน และซื้อตั๋วเครื่องบินได้",
+          "scenario": "Nam takes a taxi to the airport in Beijing, then plans with Wang Ming how to get around Bangkok by bus, metro and river boat.",
+          "lessons": [
+            {
+              "id": "zh-B6-05",
+              "topic": "Taking a taxi: get in, get out, walk",
+              "grammar": "打车 = take a taxi (colloquial); 上车 / 下车; 汽车 (car) vs 车 (any vehicle); 走路 + 去",
+              "items": [
+                {
+                  "id": "zh.da-che",
+                  "text": "打车",
+                  "reading": "dǎchē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-che",
+                  "text": "上车",
+                  "reading": "shàngchē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xia-che",
+                  "text": "下车",
+                  "reading": "xiàchē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qi-che",
+                  "text": "汽车",
+                  "reading": "qìchē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zou-lu",
+                  "text": "走路",
+                  "reading": "zǒulù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B6-06",
+              "topic": "Buses, boats and metro stations",
+              "grammar": "公交车 = everyday word for 公共汽车; 车站 / 地铁站; 坐船; 机票 vs 火车票",
+              "items": [
+                {
+                  "id": "zh.gong-jiao-che",
+                  "text": "公交车",
+                  "reading": "gōngjiāochē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.che-zhan",
+                  "text": "车站",
+                  "reading": "chēzhàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.di-tie-zhan",
+                  "text": "地铁站",
+                  "reading": "dìtiězhàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chuan-boat",
+                  "text": "船",
+                  "reading": "chuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-piao",
+                  "text": "机票",
+                  "reading": "jīpiào",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B6-r01",
+              "kind": "reader",
+              "topic": "Travel diary: Nam's first trip on the Chao Phraya express boat with Wang Ming — metro to the pier, boat to the temple, it took forty minutes, the second time will be easier",
+              "grammar": "diary genre; number + 次 (第一次); 多久 = 多长时间; 路上",
+              "items": [
+                {
+                  "id": "zh.ci",
+                  "text": "次",
+                  "reading": "cì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.lu-shang",
+                  "text": "路上",
+                  "reading": "lùshang",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.duo-jiu",
+                  "text": "多久",
+                  "reading": "duō jiǔ",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B7",
+          "title_th": "ร้านกาแฟและร้านสะดวกซื้อ",
+          "goal_th": "สั่งเครื่องดื่มตามขนาดและความหวาน ซื้อขนม อาหารเช้า และของในร้านสะดวกซื้อ และตอบคำถามของพนักงานได้",
+          "scenario": "Nam orders a bubble tea, then buys breakfast at the shop by the dorm: medium or large, less sweet, shall I heat it up, do you need a bag?",
+          "lessons": [
+            {
+              "id": "zh-B7-01",
+              "topic": "Bubble tea: medium or large?",
+              "grammar": "我要一杯奶茶; 中杯 / 大杯; 甜 / 不太甜 (不太 + adjective = not very); 中杯还是大杯？",
+              "items": [
+                {
+                  "id": "zh.nai-cha",
+                  "text": "奶茶",
+                  "reading": "nǎichá",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-bei",
+                  "text": "中杯",
+                  "reading": "zhōngbēi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-bei",
+                  "text": "大杯",
+                  "reading": "dàbēi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tian-sweet",
+                  "text": "甜",
+                  "reading": "tián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-tai",
+                  "text": "不太",
+                  "reading": "bù tài",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-02",
+              "topic": "Juice, water, cola, beer",
+              "grammar": "有……吗？ in a shop; 好喝 (drinks) vs 好吃 (food); 一杯 + drink",
+              "items": [
+                {
+                  "id": "zh.guo-zhi",
+                  "text": "果汁",
+                  "reading": "guǒzhī",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kuang-quan-shui",
+                  "text": "矿泉水",
+                  "reading": "kuàngquánshuǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ke-le",
+                  "text": "可乐",
+                  "reading": "kělè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.pi-jiu",
+                  "text": "啤酒",
+                  "reading": "píjiǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-he",
+                  "text": "好喝",
+                  "reading": "hǎohē",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-03",
+              "topic": "Bread, biscuits, instant noodles, ice cream",
+              "grammar": "snacks; 盒 = box (一盒饼干); 要不要……？",
+              "items": [
+                {
+                  "id": "zh.mian-bao",
+                  "text": "面包",
+                  "reading": "miànbāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bing-gan",
+                  "text": "饼干",
+                  "reading": "bǐnggān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-bian-mian",
+                  "text": "方便面",
+                  "reading": "fāngbiànmiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bing-qi-lin",
+                  "text": "冰淇淋",
+                  "reading": "bīngqílín",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.he",
+                  "text": "盒",
+                  "reading": "hé",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-04",
+              "topic": "A Chinese breakfast",
+              "grammar": "早餐 (written, on signs) = 早饭; 包子 / 饺子 with fillings (白菜猪肉饺子); 鸡蛋",
+              "items": [
+                {
+                  "id": "zh.zao-can",
+                  "text": "早餐",
+                  "reading": "zǎocān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bao-zi",
+                  "text": "包子",
+                  "reading": "bāozi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-zi",
+                  "text": "饺子",
+                  "reading": "jiǎozi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-dan",
+                  "text": "鸡蛋",
+                  "reading": "jīdàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bai-cai",
+                  "text": "白菜",
+                  "reading": "báicài",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-05",
+              "topic": "Food court: fried rice, rice noodles, soup",
+              "grammar": "菜单 = menu; 炒饭 / 米粉 / 汤; 辣 / 不辣 (要辣的吗？)",
+              "items": [
+                {
+                  "id": "zh.cai-dan",
+                  "text": "菜单",
+                  "reading": "càidān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chao-fan",
+                  "text": "炒饭",
+                  "reading": "chǎofàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mi-fen",
+                  "text": "米粉",
+                  "reading": "mǐfěn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tang",
+                  "text": "汤",
+                  "reading": "tāng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.la",
+                  "text": "辣",
+                  "reading": "là",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-06",
+              "topic": "At the convenience store counter",
+              "grammar": "欢迎光临 (shop greeting); 要袋子吗？; 加热 (heat up in the microwave); 还要别的吗？",
+              "items": [
+                {
+                  "id": "zh.huan-ying-guang-lin",
+                  "text": "欢迎光临",
+                  "reading": "huānyíng guānglín",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.dai-zi",
+                  "text": "袋子",
+                  "reading": "dàizi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jia-re",
+                  "text": "加热",
+                  "reading": "jiārè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xi-guan-straw",
+                  "text": "吸管",
+                  "reading": "xīguǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bie-de",
+                  "text": "别的",
+                  "reading": "biéde",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B7-r01",
+              "kind": "reader",
+              "topic": "Menu: the price list of a campus café (teas, juices, snacks), with a note that chopsticks and straws are at the counter",
+              "grammar": "menu genre; prices in 元; 一杯 / 一盒",
+              "items": [
+                {
+                  "id": "zh.lv-cha",
+                  "text": "绿茶",
+                  "reading": "lǜchá",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hong-cha",
+                  "text": "红茶",
+                  "reading": "hóngchá",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cao-mei",
+                  "text": "草莓",
+                  "reading": "cǎoméi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kuai-zi",
+                  "text": "筷子",
+                  "reading": "kuàizi",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B8",
+          "title_th": "โทรศัพท์และมือถือ",
+          "goal_th": "โทรหาเพื่อน ถามว่ากำลังทำอะไร นัดเจอ ฝากข้อความ ซื้อซิมและเติมเงินมือถือได้",
+          "scenario": "Nam calls Wang Ming to meet up, but he is busy; later Nam buys a Chinese SIM card and tops up her data at a phone shop.",
+          "lessons": [
+            {
+              "id": "zh-B8-01",
+              "topic": "Hello? Making a phone call",
+              "grammar": "喂 (wéi, used on the phone); 给 + person + 打电话; 你的号码是多少？ (1 is read yāo in phone numbers)",
+              "items": [
+                {
+                  "id": "zh.dian-hua",
+                  "text": "电话",
+                  "reading": "diànhuà",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-dian-hua",
+                  "text": "打电话",
+                  "reading": "dǎ diànhuà",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.wei",
+                  "text": "喂",
+                  "reading": "wéi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-ma",
+                  "text": "号码",
+                  "reading": "hàomǎ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-02",
+              "topic": "What are you doing right now?",
+              "grammar": "正在 + verb (+ 呢); 有事 / 没事 (事 = something to do); 一会儿 + 回来",
+              "items": [
+                {
+                  "id": "zh.zheng-zai",
+                  "text": "正在",
+                  "reading": "zhèngzài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-matter",
+                  "text": "事",
+                  "reading": "shì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-huir",
+                  "text": "一会儿",
+                  "reading": "yīhuìr",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hui-lai",
+                  "text": "回来",
+                  "reading": "huílái",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-03",
+              "topic": "Wait for me — I'll be right there",
+              "grammar": "等 + person (等我一下); 马上 + verb (我马上来); 快点儿！; 就 = right (就在门口)",
+              "items": [
+                {
+                  "id": "zh.deng",
+                  "text": "等",
+                  "reading": "děng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ma-shang",
+                  "text": "马上",
+                  "reading": "mǎshàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kuai-dianr",
+                  "text": "快点儿",
+                  "reading": "kuài diǎnr",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.jiu-then",
+                  "text": "就",
+                  "reading": "jiù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-04",
+              "topic": "Where shall we meet?",
+              "grammar": "跟 + person + 见面 → 见面 (verb-object); 地点 = meeting place; 告诉 + person + thing; 留言 = leave a message",
+              "items": [
+                {
+                  "id": "zh.jian-mian",
+                  "text": "见面",
+                  "reading": "jiànmiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.di-dian",
+                  "text": "地点",
+                  "reading": "dìdiǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gao-su",
+                  "text": "告诉",
+                  "reading": "gàosu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.liu-yan",
+                  "text": "留言",
+                  "reading": "liúyán",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-05",
+              "topic": "A SIM card and mobile data",
+              "grammar": "手机卡 (SIM card); 充值 = top up; 流量 = mobile data; 上网",
+              "items": [
+                {
+                  "id": "zh.shou-ji-ka",
+                  "text": "手机卡",
+                  "reading": "shǒujīkǎ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chong-zhi",
+                  "text": "充值",
+                  "reading": "chōngzhí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.liu-liang",
+                  "text": "流量",
+                  "reading": "liúliàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-wang",
+                  "text": "上网",
+                  "reading": "shàngwǎng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-06",
+              "topic": "Online friends and emails",
+              "grammar": "网上 = online (在网上认识); 网友; 打字 = type; 邮件 = email",
+              "items": [
+                {
+                  "id": "zh.wang-shang",
+                  "text": "网上",
+                  "reading": "wǎngshang",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wang-you",
+                  "text": "网友",
+                  "reading": "wǎngyǒu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-zi",
+                  "text": "打字",
+                  "reading": "dǎzì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.you-jian",
+                  "text": "邮件",
+                  "reading": "yóujiàn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B8-r01",
+              "kind": "reader",
+              "topic": "Chat log: a group chat in which Nam, Wang Ming and a classmate agree when and where to meet for a film; one of them will be a bit late",
+              "grammar": "chat genre; 咱们 (we, including you) vs 我们; 晚点儿 = a bit later",
+              "items": [
+                {
+                  "id": "zh.zan-men",
+                  "text": "咱们",
+                  "reading": "zánmen",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zheng-tian",
+                  "text": "整天",
+                  "reading": "zhěngtiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wan-dianr",
+                  "text": "晚点儿",
+                  "reading": "wǎn diǎnr",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B9",
+          "title_th": "เวลาว่างและสิ่งที่ชอบ",
+          "goal_th": "บอกงานอดิเรก สิ่งที่ชอบที่สุด ทำบ่อยแค่ไหน และชวนเพื่อนไปเล่นหรือไปดูหนังด้วยกันได้",
+          "scenario": "Nam and Wang Ming compare what they do in their free time — singing, table tennis, comics, kung fu — and plan to go to the cinema together next weekend.",
+          "lessons": [
+            {
+              "id": "zh-B9-01",
+              "topic": "Hobbies: singing",
+              "grammar": "你的爱好是什么？; 爱 + verb (我爱唱歌); 好听 (nice to listen to) like 好看 / 好吃",
+              "items": [
+                {
+                  "id": "zh.ai-hao",
+                  "text": "爱好",
+                  "reading": "àihào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chang-ge",
+                  "text": "唱歌",
+                  "reading": "chànggē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ge-song",
+                  "text": "歌",
+                  "reading": "gē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-ting",
+                  "text": "好听",
+                  "reading": "hǎotīng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-02",
+              "topic": "Playing and having fun",
+              "grammar": "玩 (玩儿 in Beijing speech); 好玩; 打球 (打 + 乒乓球)",
+              "items": [
+                {
+                  "id": "zh.wan-play",
+                  "text": "玩",
+                  "reading": "wán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hao-wan",
+                  "text": "好玩",
+                  "reading": "hǎowán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-qiu",
+                  "text": "打球",
+                  "reading": "dǎqiú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ping-pang-qiu",
+                  "text": "乒乓球",
+                  "reading": "pīngpāngqiú",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-03",
+              "topic": "How often? My favourite",
+              "grammar": "常常 / 有时候 / 平时 (frequency words before the verb); 最 + 喜欢",
+              "items": [
+                {
+                  "id": "zh.chang-chang",
+                  "text": "常常",
+                  "reading": "chángcháng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.you-shi-hou",
+                  "text": "有时候",
+                  "reading": "yǒushíhou",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ping-shi",
+                  "text": "平时",
+                  "reading": "píngshí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zui",
+                  "text": "最",
+                  "reading": "zuì",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-04",
+              "topic": "Going out together",
+              "grammar": "出去 + verb (出去玩); 跟 + person + 一起 / 一块儿; 电影院",
+              "items": [
+                {
+                  "id": "zh.chu-qu",
+                  "text": "出去",
+                  "reading": "chūqù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gen",
+                  "text": "跟",
+                  "reading": "gēn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-kuair",
+                  "text": "一块儿",
+                  "reading": "yīkuàir",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dian-ying-yuan",
+                  "text": "电影院",
+                  "reading": "diànyǐngyuàn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-05",
+              "topic": "Drawing, guitar, comics, martial arts",
+              "grammar": "会 + skill (我会弹……? → 我会画画儿 is avoided; use 喜欢 / 学); 画儿, 吉他, 漫画, 武术",
+              "items": [
+                {
+                  "id": "zh.huar",
+                  "text": "画儿",
+                  "reading": "huàr",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-ta",
+                  "text": "吉他",
+                  "reading": "jítā",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.man-hua",
+                  "text": "漫画",
+                  "reading": "mànhuà",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wu-shu",
+                  "text": "武术",
+                  "reading": "wǔshù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-06",
+              "topic": "Next time! Who plays better?",
+              "grammar": "下次 / 上次 + verb; 干什么 (colloquial 做什么); A 比 B + adjective (他比我好)",
+              "items": [
+                {
+                  "id": "zh.xia-ci",
+                  "text": "下次",
+                  "reading": "xiàcì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shang-ci",
+                  "text": "上次",
+                  "reading": "shàngcì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gan-shen-me",
+                  "text": "干什么",
+                  "reading": "gàn shénme",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.bi-compare",
+                  "text": "比",
+                  "reading": "bǐ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B9-r01",
+              "kind": "reader",
+              "topic": "Notice: the university table-tennis club and music club are looking for new members — times, place, everyone welcome",
+              "grammar": "notice genre; 欢迎 + verb; 每 + 星期",
+              "items": [
+                {
+                  "id": "zh.she-tuan",
+                  "text": "社团",
+                  "reading": "shètuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tiao-jump",
+                  "text": "跳",
+                  "reading": "tiào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yue-dui",
+                  "text": "乐队",
+                  "reading": "yuèduì",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B10",
+          "title_th": "ชีวิตในมหาวิทยาลัย",
+          "goal_th": "บอกสถานที่ในมหาวิทยาลัย พูดถึงวิชา การสอบ วันเปิดเทอม และระดับโรงเรียน และบอกว่าอะไรสำคัญหรือมีประโยชน์ได้",
+          "scenario": "Wang Ming shows Nam round his Beijing campus before term starts: the main gate, the teaching building, the canteen, his class and the exam timetable.",
+          "lessons": [
+            {
+              "id": "zh-B10-01",
+              "topic": "Around the campus",
+              "grammar": "校园 / 大门 / 教学楼 / 食堂; 在 + place + verb (在食堂吃饭)",
+              "items": [
+                {
+                  "id": "zh.xiao-yuan",
+                  "text": "校园",
+                  "reading": "xiàoyuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.da-men",
+                  "text": "大门",
+                  "reading": "dàmén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-xue-lou",
+                  "text": "教学楼",
+                  "reading": "jiàoxuélóu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-tang",
+                  "text": "食堂",
+                  "reading": "shítáng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-02",
+              "topic": "Classes, exams, classmates",
+              "grammar": "课 (上课 / 下课 review); 考试; 班 (我们班); 同学",
+              "items": [
+                {
+                  "id": "zh.ke-lesson",
+                  "text": "课",
+                  "reading": "kè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kao-shi",
+                  "text": "考试",
+                  "reading": "kǎoshì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ban-class",
+                  "text": "班",
+                  "reading": "bān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tong-xue",
+                  "text": "同学",
+                  "reading": "tóngxué",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-03",
+              "topic": "Term starts: get ready!",
+              "grammar": "开学 (term starts) vs 放假; 开始 + verb; 准备 + noun / verb; 认真 (serious, hard-working)",
+              "items": [
+                {
+                  "id": "zh.kai-xue",
+                  "text": "开学",
+                  "reading": "kāixué",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kai-shi",
+                  "text": "开始",
+                  "reading": "kāishǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhun-bei",
+                  "text": "准备",
+                  "reading": "zhǔnbèi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ren-zhen",
+                  "text": "认真",
+                  "reading": "rènzhēn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-04",
+              "topic": "Primary school, secondary school, faculty",
+              "grammar": "小学 / 初中 / 中学 / 大学; 学院 = faculty (我在文学院? keep simple: 汉语学院)",
+              "items": [
+                {
+                  "id": "zh.xiao-xue",
+                  "text": "小学",
+                  "reading": "xiǎoxué",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-xue",
+                  "text": "中学",
+                  "reading": "zhōngxué",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chu-zhong",
+                  "text": "初中",
+                  "reading": "chūzhōng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xue-yuan",
+                  "text": "学院",
+                  "reading": "xuéyuàn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-05",
+              "topic": "Printing, preparing, asking",
+              "grammar": "打印 (print); 预习 = prepare a lesson; 提问 = ask a question (in class); 功课 = schoolwork",
+              "items": [
+                {
+                  "id": "zh.da-yin",
+                  "text": "打印",
+                  "reading": "dǎyìn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yu-xi",
+                  "text": "预习",
+                  "reading": "yùxí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ti-wen",
+                  "text": "提问",
+                  "reading": "tíwèn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-ke",
+                  "text": "功课",
+                  "reading": "gōngkè",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-06",
+              "topic": "Hard, important, useful",
+              "grammar": "难 / 不难; 很重要; 有用 / 没用; 美术 (art class)",
+              "items": [
+                {
+                  "id": "zh.nan-difficult",
+                  "text": "难",
+                  "reading": "nán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong-yao",
+                  "text": "重要",
+                  "reading": "zhòngyào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.you-yong",
+                  "text": "有用",
+                  "reading": "yǒuyòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-yong",
+                  "text": "没用",
+                  "reading": "méiyòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-shu",
+                  "text": "美术",
+                  "reading": "měishù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B10-r01",
+              "kind": "reader",
+              "topic": "Notice: sports day on the campus field — who runs in which race, where to meet, the last race at four",
+              "grammar": "notice genre; 在 + place + 见; 最后",
+              "items": [
+                {
+                  "id": "zh.cao-chang",
+                  "text": "操场",
+                  "reading": "cāochǎng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.pao",
+                  "text": "跑",
+                  "reading": "pǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zui-hou",
+                  "text": "最后",
+                  "reading": "zuìhòu",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B11",
+          "title_th": "เรียนภาษาจีนกับเพื่อน",
+          "goal_th": "ถามว่าคำนี้ภาษาจีนพูดว่าอย่างไร อ่านพินอิน ใช้พจนานุกรม และฝึกพูด อ่าน เขียนกับเพื่อนชาวจีนได้",
+          "scenario": "Nam and Wang Ming do a language exchange in the library: Nam asks how to say things in Chinese, looks words up and reads a short text aloud; Wang Ming learns a little Thai.",
+          "lessons": [
+            {
+              "id": "zh-B11-01",
+              "topic": "How do you say it in Chinese?",
+              "grammar": "……用中文怎么说？; 词 (word) vs 字 (character); 句 = measure word for sentences (一句话); 话 = what someone says",
+              "items": [
+                {
+                  "id": "zh.zen-me-shuo",
+                  "text": "怎么说",
+                  "reading": "zěnme shuō",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.ci-word",
+                  "text": "词",
+                  "reading": "cí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ju-sentence",
+                  "text": "句",
+                  "reading": "jù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hua-speech",
+                  "text": "话",
+                  "reading": "huà",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-02",
+              "topic": "Pinyin and reading aloud",
+              "grammar": "拼音; 读音 = pronunciation of a word; 念 = read aloud; 听写 = dictation",
+              "items": [
+                {
+                  "id": "zh.pin-yin",
+                  "text": "拼音",
+                  "reading": "pīnyīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.du-yin",
+                  "text": "读音",
+                  "reading": "dúyīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.nian-read",
+                  "text": "念",
+                  "reading": "niàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ting-xie",
+                  "text": "听写",
+                  "reading": "tīngxiě",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-03",
+              "topic": "Looking it up",
+              "grammar": "查字典? (查 is later) → 用字典; 外文 = foreign language (text); 清楚 (说清楚); 认得 = recognise (这个字我认得)",
+              "items": [
+                {
+                  "id": "zh.zi-dian",
+                  "text": "字典",
+                  "reading": "zìdiǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-wen",
+                  "text": "外文",
+                  "reading": "wàiwén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qing-chu",
+                  "text": "清楚",
+                  "reading": "qīngchu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ren-de",
+                  "text": "认得",
+                  "reading": "rènde",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-04",
+              "topic": "Notes, texts and dialogues",
+              "grammar": "笔记; 课文 (第三课的课文); 对话; 文章 = article",
+              "items": [
+                {
+                  "id": "zh.bi-ji",
+                  "text": "笔记",
+                  "reading": "bǐjì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ke-wen",
+                  "text": "课文",
+                  "reading": "kèwén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dui-hua",
+                  "text": "对话",
+                  "reading": "duìhuà",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wen-zhang",
+                  "text": "文章",
+                  "reading": "wénzhāng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-05",
+              "topic": "Speaking, writing, reading; remember it!",
+              "grammar": "口语 / 作文 / 阅读; 记住 (verb + 住 = fix in place)",
+              "items": [
+                {
+                  "id": "zh.kou-yu",
+                  "text": "口语",
+                  "reading": "kǒuyǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zuo-wen",
+                  "text": "作文",
+                  "reading": "zuòwén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yue-du",
+                  "text": "阅读",
+                  "reading": "yuèdú",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-zhu",
+                  "text": "记住",
+                  "reading": "jìzhù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-06",
+              "topic": "Learning from a language partner",
+              "grammar": "请教 = ask someone for advice / to teach you; 一边……一边…… (一边听一边写); 一点点; 广东话 (Cantonese)",
+              "items": [
+                {
+                  "id": "zh.qing-jiao",
+                  "text": "请教",
+                  "reading": "qǐngjiào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-bian",
+                  "text": "一边",
+                  "reading": "yībiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-dian-dian",
+                  "text": "一点点",
+                  "reading": "yīdiǎndiǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guang-dong-hua",
+                  "text": "广东话",
+                  "reading": "Guǎngdōnghuà",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B11-r01",
+              "kind": "reader",
+              "topic": "Diary: Nam's Chinese study diary — she learned a lot of new words this week, some are hard, her partner helps her a lot",
+              "grammar": "diary genre; 好多 / 不少 + noun; 有的……有的……",
+              "items": [
+                {
+                  "id": "zh.hao-duo",
+                  "text": "好多",
+                  "reading": "hǎoduō",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-shao",
+                  "text": "不少",
+                  "reading": "bùshǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.you-de",
+                  "text": "有的",
+                  "reading": "yǒude",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B12",
+          "title_th": "กฎและป้ายในที่สาธารณะ",
+          "goal_th": "อ่านป้ายและเข้าใจกฎง่าย ๆ ในห้องสมุด วัด และสถานที่สาธารณะ บอกว่าทำอะไรได้หรือไม่ได้ และขออนุญาตได้",
+          "scenario": "On a visit to a library and a temple, Nam reads the signs and asks Wang Ming what is and isn't allowed: talking, going in, parking a bike, sitting on the grass.",
+          "lessons": [
+            {
+              "id": "zh-B12-01",
+              "topic": "Don't…!",
+              "grammar": "别 + verb (别说话); 不要 + verb (不要大声说话); 大声 / 小声",
+              "items": [
+                {
+                  "id": "zh.bie",
+                  "text": "别",
+                  "reading": "bié",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-yao",
+                  "text": "不要",
+                  "reading": "bù yào",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.da-sheng",
+                  "text": "大声",
+                  "reading": "dàshēng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xiao-sheng",
+                  "text": "小声",
+                  "reading": "xiǎoshēng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-02",
+              "topic": "Can I go in?",
+              "grammar": "能 + verb (这里能进去吗？) vs 可以; directional verbs 进去 / 出来; 说话",
+              "items": [
+                {
+                  "id": "zh.neng",
+                  "text": "能",
+                  "reading": "néng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jin-qu",
+                  "text": "进去",
+                  "reading": "jìnqù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chu-lai",
+                  "text": "出来",
+                  "reading": "chūlái",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shuo-hua",
+                  "text": "说话",
+                  "reading": "shuōhuà",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-03",
+              "topic": "Open and closed",
+              "grammar": "开 / 关 (开门, 关门); 几点开门？; 商店八点关门",
+              "items": [
+                {
+                  "id": "zh.kai",
+                  "text": "开",
+                  "reading": "kāi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guan",
+                  "text": "关",
+                  "reading": "guān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kai-men",
+                  "text": "开门",
+                  "reading": "kāimén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guan-men",
+                  "text": "关门",
+                  "reading": "guānmén",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-04",
+              "topic": "No parking; keep off the grass",
+              "grammar": "sign language: 请勿 + verb (请勿停车); 草地; 交警 = traffic police",
+              "items": [
+                {
+                  "id": "zh.ting-che",
+                  "text": "停车",
+                  "reading": "tíngchē",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qing-wu",
+                  "text": "请勿",
+                  "reading": "qǐngwù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cao-di",
+                  "text": "草地",
+                  "reading": "cǎodì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiao-jing",
+                  "text": "交警",
+                  "reading": "jiāojǐng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-05",
+              "topic": "Stand up, sit down, be quiet",
+              "grammar": "站 / 坐下; 举手; 静 (请安静 → 请静一静 is avoided: keep 静 = quiet)",
+              "items": [
+                {
+                  "id": "zh.zhan",
+                  "text": "站",
+                  "reading": "zhàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zuo-xia",
+                  "text": "坐下",
+                  "reading": "zuòxia",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ju-shou",
+                  "text": "举手",
+                  "reading": "jǔshǒu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jing",
+                  "text": "静",
+                  "reading": "jìng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-06",
+              "topic": "In and out; is it allowed?",
+              "grammar": "sign words 进 / 出; 不必 = no need (formal 不用); 能不能 + verb? (A-not-A with 能)",
+              "items": [
+                {
+                  "id": "zh.jin-enter",
+                  "text": "进",
+                  "reading": "jìn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chu",
+                  "text": "出",
+                  "reading": "chū",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bu-bi",
+                  "text": "不必",
+                  "reading": "bùbì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.neng-bu-neng",
+                  "text": "能不能",
+                  "reading": "néng bù néng",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-B12-r01",
+              "kind": "reader",
+              "topic": "Sign: rules at the entrance of a temple — opening hours, please wait here, no shoes inside, thank you for your cooperation",
+              "grammar": "sign genre; 请 / 请勿; 谢谢合作",
+              "items": [
+                {
+                  "id": "zh.deng-hou",
+                  "text": "等候",
+                  "reading": "děnghòu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-lv",
+                  "text": "一律",
+                  "reading": "yīlǜ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xie-xie-he-zuo",
+                  "text": "谢谢合作",
+                  "reading": "xièxie hézuò",
+                  "kind": "phrase"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B13",
+          "title_th": "ขอความช่วยเหลือ",
+          "goal_th": "ขอให้คนช่วย ถามหาของที่หาย บอกว่าลืมหรือของเสีย และสอบถามทางกับคนแปลกหน้าได้",
+          "scenario": "Nam can't find her wallet after class; she asks Wang Ming and a stranger for help, they look everywhere, and finally someone brings it back.",
+          "lessons": [
+            {
+              "id": "zh-B13-01",
+              "topic": "Can you help me?",
+              "grammar": "帮 + person + verb (帮我拿一下); 帮忙 (verb-object: 帮个忙); 重 = heavy",
+              "items": [
+                {
+                  "id": "zh.bang",
+                  "text": "帮",
+                  "reading": "bāng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bang-mang",
+                  "text": "帮忙",
+                  "reading": "bāngmáng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.na-hold",
+                  "text": "拿",
+                  "reading": "ná",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhong",
+                  "text": "重",
+                  "reading": "zhòng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-02",
+              "topic": "Have you seen my wallet?",
+              "grammar": "找 / 找到 (verb + result); 看见 (你看见我的钱包了吗？); 急 (我很急)",
+              "items": [
+                {
+                  "id": "zh.zhao",
+                  "text": "找",
+                  "reading": "zhǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhao-dao",
+                  "text": "找到",
+                  "reading": "zhǎodào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kan-jian",
+                  "text": "看见",
+                  "reading": "kànjiàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-urgent",
+                  "text": "急",
+                  "reading": "jí",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-03",
+              "topic": "I forgot!",
+              "grammar": "忘 (我忘了); 记得 = remember (我记得……); 别急; 还 huán = give back (还你)",
+              "items": [
+                {
+                  "id": "zh.wang",
+                  "text": "忘",
+                  "reading": "wàng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ji-de",
+                  "text": "记得",
+                  "reading": "jìde",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bie-ji",
+                  "text": "别急",
+                  "reading": "bié jí",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.huan-return",
+                  "text": "还",
+                  "reading": "huán",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-04",
+              "topic": "It's broken — what happened?",
+              "grammar": "坏 (手机坏了); 出事 = something happened; 送回 = bring back; 回去 (go back)",
+              "items": [
+                {
+                  "id": "zh.huai",
+                  "text": "坏",
+                  "reading": "huài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chu-shi-accident",
+                  "text": "出事",
+                  "reading": "chūshì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.song-hui",
+                  "text": "送回",
+                  "reading": "sònghuí",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hui-qu",
+                  "text": "回去",
+                  "reading": "huíqù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-05",
+              "topic": "Asking a stranger",
+              "grammar": "打听 = ask around (我想打听一下); 指 = point (你指一下); 熟人 = someone you know; 过来 (请过来一下)",
+              "items": [
+                {
+                  "id": "zh.da-ting",
+                  "text": "打听",
+                  "reading": "dǎting",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhi-point",
+                  "text": "指",
+                  "reading": "zhǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shu-ren",
+                  "text": "熟人",
+                  "reading": "shúrén",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guo-lai",
+                  "text": "过来",
+                  "reading": "guòlái",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-06",
+              "topic": "Lost passport? Go to the embassy",
+              "grammar": "大使馆 (泰国大使馆); 国内 = in your own country; 起来 (站起来, 想起来 → only 站起来); 零钱 = small change",
+              "items": [
+                {
+                  "id": "zh.da-shi-guan",
+                  "text": "大使馆",
+                  "reading": "dàshǐguǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guo-nei",
+                  "text": "国内",
+                  "reading": "guónèi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qi-lai",
+                  "text": "起来",
+                  "reading": "qǐlái",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ling-qian",
+                  "text": "零钱",
+                  "reading": "língqián",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B13-r01",
+              "kind": "reader",
+              "topic": "Note: a \"found\" note pinned in the canteen — a black leather bag with some coins and a student card was found at noon, ask at the canteen office",
+              "grammar": "notice genre; 有人 + verb; 里面有……",
+              "items": [
+                {
+                  "id": "zh.pi-bao",
+                  "text": "皮包",
+                  "reading": "píbāo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ying-bi",
+                  "text": "硬币",
+                  "reading": "yìngbì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.li-mian",
+                  "text": "里面",
+                  "reading": "lǐmiàn",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B14",
+          "title_th": "พาเพื่อนเที่ยวกรุงเทพฯ",
+          "goal_th": "แนะนำสถานที่ท่องเที่ยวที่มีชื่อเสียง ซื้อตั๋วเข้าชม พาเพื่อนไหว้พระ นั่งเรือ และชวนกินอาหารไทยได้",
+          "scenario": "Wang Ming visits Bangkok and Nam shows him around: a famous temple and the palace, tickets, a boat on the river, Tom Yum Goong for dinner.",
+          "lessons": [
+            {
+              "id": "zh-B14-01",
+              "topic": "Famous places",
+              "grammar": "有名 (很有名的地方); 景点 = tourist sight; 寺 (in temple names: 卧佛寺 = Wat Pho); 宫 = palace",
+              "items": [
+                {
+                  "id": "zh.you-ming",
+                  "text": "有名",
+                  "reading": "yǒumíng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jing-dian-sight",
+                  "text": "景点",
+                  "reading": "jǐngdiǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.si-temple",
+                  "text": "寺",
+                  "reading": "sì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gong-palace",
+                  "text": "宫",
+                  "reading": "gōng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-02",
+              "topic": "Tickets, please",
+              "grammar": "门票多少钱？; 售票处; 一半 (学生半价 → 一半的钱); 古 = old, ancient",
+              "items": [
+                {
+                  "id": "zh.men-piao",
+                  "text": "门票",
+                  "reading": "ménpiào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shou-piao-chu",
+                  "text": "售票处",
+                  "reading": "shòupiàochù",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-ban",
+                  "text": "一半",
+                  "reading": "yībàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gu",
+                  "text": "古",
+                  "reading": "gǔ",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-03",
+              "topic": "Temples and the Buddha",
+              "grammar": "佛 (Buddha); 拜 (拜佛 = pay respect to the Buddha); 金 (gold: 金色的佛); 美丽",
+              "items": [
+                {
+                  "id": "zh.fo",
+                  "text": "佛",
+                  "reading": "fó",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bai-worship",
+                  "text": "拜",
+                  "reading": "bài",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jin-gold",
+                  "text": "金",
+                  "reading": "jīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mei-li",
+                  "text": "美丽",
+                  "reading": "měilì",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-04",
+              "topic": "On the river",
+              "grammar": "湄南河; 划船; 照 (照一张? → 给我照一下 = take a picture of me); 人多 = crowded",
+              "items": [
+                {
+                  "id": "zh.mei-nan-he",
+                  "text": "湄南河",
+                  "reading": "Méinán Hé",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hua-chuan",
+                  "text": "划船",
+                  "reading": "huáchuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhao-photo",
+                  "text": "照",
+                  "reading": "zhào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ren-duo",
+                  "text": "人多",
+                  "reading": "rén duō",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-05",
+              "topic": "Thai food: does it look good?",
+              "grammar": "泰式 = Thai-style (泰式炒河粉); 冬阴功 (Tom Yum); 看起来 + adjective; 饱 (吃饱了)",
+              "items": [
+                {
+                  "id": "zh.tai-shi",
+                  "text": "泰式",
+                  "reading": "Tàishì",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dong-yin-gong",
+                  "text": "冬阴功",
+                  "reading": "dōngyīngōng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kan-qi-lai",
+                  "text": "看起来",
+                  "reading": "kàn qilai",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.bao-full",
+                  "text": "饱",
+                  "reading": "bǎo",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-06",
+              "topic": "Dinner and money",
+              "grammar": "餐厅; 红酒; 换钱 = change money; 取钱 = take out money (at an ATM)",
+              "items": [
+                {
+                  "id": "zh.can-ting",
+                  "text": "餐厅",
+                  "reading": "cāntīng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hong-jiu",
+                  "text": "红酒",
+                  "reading": "hóngjiǔ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.huan-qian",
+                  "text": "换钱",
+                  "reading": "huànqián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.qu-qian",
+                  "text": "取钱",
+                  "reading": "qǔqián",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B14-r01",
+              "kind": "reader",
+              "topic": "Postcard: Wang Ming writes home from Bangkok — the temples are beautiful, the food is spicy, he will come back next year or the year after",
+              "grammar": "postcard genre; 想 + verb; 年底 / 后年",
+              "items": [
+                {
+                  "id": "zh.nian-di",
+                  "text": "年底",
+                  "reading": "niándǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hou-nian",
+                  "text": "后年",
+                  "reading": "hòunián",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.gu-xiang",
+                  "text": "故乡",
+                  "reading": "gùxiāng",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B15",
+          "title_th": "เที่ยวทะเลและที่พัก",
+          "goal_th": "จองและเข้าพักโรงแรมเล็ก ๆ ถามเรื่องห้อง อินเทอร์เน็ต น้ำร้อน และพูดถึงชายหาด ทะเล และการว่ายน้ำได้",
+          "scenario": "Nam and Wang Ming spend a weekend on an island: they check into a small guesthouse, ask about the room and the Wi-Fi, then go to the beach and eat seafood.",
+          "lessons": [
+            {
+              "id": "zh-B15-01",
+              "topic": "A trip away",
+              "grammar": "旅行 (去旅行); 一路顺风 (said to someone leaving); 一晚 = one night (住一晚); 空房 = vacant room",
+              "items": [
+                {
+                  "id": "zh.lv-xing",
+                  "text": "旅行",
+                  "reading": "lǚxíng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yi-lu-shun-feng",
+                  "text": "一路顺风",
+                  "reading": "yīlù shùnfēng",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.yi-wan",
+                  "text": "一晚",
+                  "reading": "yī wǎn",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.kong-fang",
+                  "text": "空房",
+                  "reading": "kōngfáng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-02",
+              "topic": "Checking into a guesthouse",
+              "grammar": "宾馆; 双人间 = twin / double room; 房号 = room number; 服务台 = front desk",
+              "items": [
+                {
+                  "id": "zh.bin-guan",
+                  "text": "宾馆",
+                  "reading": "bīnguǎn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shuang-ren-jian",
+                  "text": "双人间",
+                  "reading": "shuāngrénjiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-hao",
+                  "text": "房号",
+                  "reading": "fánghào",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fu-wu-tai",
+                  "text": "服务台",
+                  "reading": "fúwùtái",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-03",
+              "topic": "Wi-Fi, hot water, pillows",
+              "grammar": "有没有无线网？; 热水 / 凉水 (Chinese drink hot water, Thais iced water); 枕头",
+              "items": [
+                {
+                  "id": "zh.wu-xian-wang",
+                  "text": "无线网",
+                  "reading": "wúxiànwǎng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.re-shui",
+                  "text": "热水",
+                  "reading": "rèshuǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.liang-shui",
+                  "text": "凉水",
+                  "reading": "liángshuǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhen-tou",
+                  "text": "枕头",
+                  "reading": "zhěntou",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-04",
+              "topic": "The beach and the island",
+              "grammar": "沙滩; 岛 (普吉岛, 沙美岛); 海鲜; 防晒霜",
+              "items": [
+                {
+                  "id": "zh.sha-tan",
+                  "text": "沙滩",
+                  "reading": "shātān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dao-island",
+                  "text": "岛",
+                  "reading": "dǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-xian",
+                  "text": "海鲜",
+                  "reading": "hǎixiān",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.fang-shai-shuang",
+                  "text": "防晒霜",
+                  "reading": "fángshàishuāng",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-05",
+              "topic": "Swimming in the sea",
+              "grammar": "游 = swim (游一会儿); 海水; 救生员; 石头",
+              "items": [
+                {
+                  "id": "zh.you-swim",
+                  "text": "游",
+                  "reading": "yóu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hai-shui",
+                  "text": "海水",
+                  "reading": "hǎishuǐ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiu-sheng-yuan",
+                  "text": "救生员",
+                  "reading": "jiùshēngyuán",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shi-tou-stone",
+                  "text": "石头",
+                  "reading": "shítou",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-06",
+              "topic": "Sand, sun and a tan",
+              "grammar": "沙子; 白 / 黑 (你黑了！); 外面 (外面很热)",
+              "items": [
+                {
+                  "id": "zh.sha-zi",
+                  "text": "沙子",
+                  "reading": "shāzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bai-white",
+                  "text": "白",
+                  "reading": "bái",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.hei",
+                  "text": "黑",
+                  "reading": "hēi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wai-mian",
+                  "text": "外面",
+                  "reading": "wàimiàn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B15-r01",
+              "kind": "reader",
+              "topic": "Postcard: Nam writes to Fah from the island — the room is small but clean, the sea is very blue and full of colourful fish",
+              "grammar": "postcard genre; 但 is avoided — use 也; 彩色的鱼",
+              "items": [
+                {
+                  "id": "zh.wu-zi-room",
+                  "text": "屋子",
+                  "reading": "wūzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.cai-se",
+                  "text": "彩色",
+                  "reading": "cǎisè",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shou-yin-ji",
+                  "text": "收音机",
+                  "reading": "shōuyīnjī",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zh-B16",
+          "title_th": "ไม่สบายและเหตุฉุกเฉิน",
+          "goal_th": "บอกว่าไม่สบายหรือเจ็บตรงไหน ไปหาหมอ บอกไข้และอาการง่าย ๆ ลาป่วย และขอความช่วยเหลือในเหตุฉุกเฉินได้",
+          "scenario": "Nam feels ill after the island trip: her stomach hurts and she feels dizzy; Wang Ming takes her to see a doctor, and they talk about what to do in an emergency.",
+          "lessons": [
+            {
+              "id": "zh-B16-01",
+              "topic": "I'm ill — I need a doctor",
+              "grammar": "病 (noun: 我的病); 看病 = see a doctor; 大夫 = doctor (spoken) = 医生; 病人",
+              "items": [
+                {
+                  "id": "zh.bing",
+                  "text": "病",
+                  "reading": "bìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.kan-bing",
+                  "text": "看病",
+                  "reading": "kànbìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.dai-fu",
+                  "text": "大夫",
+                  "reading": "dàifu",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bing-ren",
+                  "text": "病人",
+                  "reading": "bìngrén",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-02",
+              "topic": "Where does it hurt?",
+              "grammar": "body part + 痛 (胃痛); 胃; 嗓子; 晕 (dizzy)",
+              "items": [
+                {
+                  "id": "zh.tong",
+                  "text": "痛",
+                  "reading": "tòng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.wei-stomach",
+                  "text": "胃",
+                  "reading": "wèi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.sang-zi",
+                  "text": "嗓子",
+                  "reading": "sǎngzi",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.yun-dizzy",
+                  "text": "晕",
+                  "reading": "yūn",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-03",
+              "topic": "Temperature, water and rest",
+              "grammar": "体温; 你最好……; 多喝水 (the classic Chinese advice); 好多了 = much better",
+              "items": [
+                {
+                  "id": "zh.ti-wen-temperature",
+                  "text": "体温",
+                  "reading": "tǐwēn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zui-hao",
+                  "text": "最好",
+                  "reading": "zuìhǎo",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.duo-he-shui",
+                  "text": "多喝水",
+                  "reading": "duō hē shuǐ",
+                  "kind": "phrase"
+                },
+                {
+                  "id": "zh.hao-duo-le",
+                  "text": "好多了",
+                  "reading": "hǎo duō le",
+                  "kind": "phrase"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-04",
+              "topic": "Cuts, blood and allergies",
+              "grammar": "伤; 血; 过敏 (我对……过敏); 吐",
+              "items": [
+                {
+                  "id": "zh.shang",
+                  "text": "伤",
+                  "reading": "shāng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.xie-blood",
+                  "text": "血",
+                  "reading": "xiě",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.guo-min",
+                  "text": "过敏",
+                  "reading": "guòmǐn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.tu",
+                  "text": "吐",
+                  "reading": "tù",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-05",
+              "topic": "At the hospital",
+              "grammar": "急诊 = emergency room; 病房; 出院; 牙医",
+              "items": [
+                {
+                  "id": "zh.ji-zhen",
+                  "text": "急诊",
+                  "reading": "jízhěn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.bing-fang",
+                  "text": "病房",
+                  "reading": "bìngfáng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.chu-yuan",
+                  "text": "出院",
+                  "reading": "chūyuàn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.ya-yi",
+                  "text": "牙医",
+                  "reading": "yáyī",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-06",
+              "topic": "Emergency!",
+              "grammar": "救命！; 着火了！; 火; 救护车 (call 120 in China, 1669 in Thailand)",
+              "items": [
+                {
+                  "id": "zh.jiu-ming",
+                  "text": "救命",
+                  "reading": "jiùmìng",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.zhao-huo",
+                  "text": "着火",
+                  "reading": "zháohuǒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.huo",
+                  "text": "火",
+                  "reading": "huǒ",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.jiu-hu-che",
+                  "text": "救护车",
+                  "reading": "jiùhùchē",
+                  "kind": "word"
+                }
+              ]
+            },
+            {
+              "id": "zh-B16-r01",
+              "kind": "reader",
+              "topic": "Message: Nam's note to Li laoshi asking for sick leave — she is ill, the doctor says rest for two days, her mother will look after her",
+              "grammar": "message genre; 请 + 病假; 母亲 (written) = 妈妈",
+              "items": [
+                {
+                  "id": "zh.bing-jia",
+                  "text": "病假",
+                  "reading": "bìngjià",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.mu-qin",
+                  "text": "母亲",
+                  "reading": "mǔqīn",
+                  "kind": "word"
+                },
+                {
+                  "id": "zh.shen-bian",
+                  "text": "身边",
+                  "reading": "shēnbiān",
+                  "kind": "word"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

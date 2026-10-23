@@ -1,0 +1,75 @@
+{
+  "id": "en-C6-r02",
+  "kind": "reader",
+  "target": "en",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "en.hostel",
+      "text": "hostel",
+      "reading": "ˈhɑːstəl"
+    },
+    {
+      "id": "en.location",
+      "text": "location",
+      "reading": "loʊˈkeɪʃən"
+    },
+    {
+      "id": "en.review",
+      "text": "review",
+      "reading": "rɪˈvjuː"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "Emma is planning her trip to Chiang Mai, but she can't decide between two hostels.",
+        "reading": "ˈɛmə ɪz ˈplænɪŋ hɜːr ˈtrɪp tə ˈtʃjɑːŋ ˈmaɪ, bʌt ʃiː ˈkænt dɪˈsaɪd bɪˈtwiːn ˈtuː ˈhɑːstəlz."
+      },
+      {
+        "text": "\"Nam, can you help me?\" she says.",
+        "reading": "ˈnɑːm, kən juː ˈhɛlp miː? ʃiː ˈsɛz."
+      }
+    ],
+    [
+      {
+        "text": "\"The Green House is cheaper, but the River Hostel has a better location,\" Emma says.",
+        "reading": "ðə ˈɡriːn ˌhaʊs ɪz ˈtʃiːpər, bʌt ðə ˈrɪvər ˌhɑːstəl ˈhæz ə ˈbɛtər loʊˈkeɪʃən, ˈɛmə ˈsɛz."
+      },
+      {
+        "text": "Nam reads the reviews on Emma's phone.",
+        "reading": "ˈnɑːm ˈriːdz ðə rɪˈvjuːz ɑːn ˈɛməz ˈfoʊn."
+      },
+      {
+        "text": "\"People say the River Hostel is cleaner and more comfortable,\" she says.",
+        "reading": "ˈpiːpəl ˈseɪ ðə ˈrɪvər ˌhɑːstəl ɪz ˈkliːnər ənd ˈmɔːr ˈkʌmftərbəl, ʃiː ˈsɛz."
+      },
+      {
+        "text": "\"And the reviews for the Green House say it's very noisy at night.\"",
+        "reading": "ənd ðə rɪˈvjuːz fər ðə ˈɡriːn ˌhaʊs ˈseɪ ɪts ˈvɛri ˈnɔɪzi ət ˈnaɪt."
+      }
+    ],
+    [
+      {
+        "text": "\"Then I'll choose the River Hostel,\" Emma says.",
+        "reading": "ˈðɛn aɪl ˈtʃuːz ðə ˈrɪvər ˌhɑːstəl, ˈɛmə ˈsɛz."
+      },
+      {
+        "text": "\"Great! And it's only ten minutes from the old city,\" Nam says.",
+        "reading": "ˈɡreɪt! ənd ɪts ˈoʊnli ˈtɛn ˈmɪnɪts frəm ði ˈoʊld ˈsɪti, ˈnɑːm ˈsɛz."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

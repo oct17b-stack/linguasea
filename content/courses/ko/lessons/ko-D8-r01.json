@@ -1,0 +1,97 @@
+{
+  "id": "ko-D8-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.ipsa",
+      "text": "입사",
+      "reading": "ipsa"
+    },
+    {
+      "id": "ko.orienteisyeon",
+      "text": "오리엔테이션",
+      "reading": "orienteisyeon"
+    },
+    {
+      "id": "ko.chamgo-hada",
+      "text": "참고하다",
+      "reading": "chamgohada"
+    },
+    {
+      "id": "ko.cheot-chulgeun",
+      "text": "첫 출근",
+      "reading": "cheot chulgeun",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "인턴 여러분, 안녕하세요. 팀장 김민수예요.",
+        "reading": "Inteon yeoreobun, annyeonghaseyo. Timjang Gim Minsuyeyo."
+      },
+      {
+        "text": "우리 회사 입사를 축하해요.",
+        "reading": "Uri hoesa ipsareul chukahaeyo."
+      },
+      {
+        "text": "월요일이 여러분의 첫 출근 날이에요.",
+        "reading": "Woryoiri yeoreobunui cheot chulgeun narieyo."
+      }
+    ],
+    [
+      {
+        "text": "첫 출근 날에는 아홉 시까지 회의실로 오세요.",
+        "reading": "Cheot chulgeun nareneun ahop sikkaji hoeuisillo oseyo."
+      },
+      {
+        "text": "월요일하고 화요일에는 오리엔테이션이 있어요.",
+        "reading": "Woryoilhago hwayoireneun orienteisyeoni isseoyo."
+      },
+      {
+        "text": "오리엔테이션에서는 회사 규칙을 설명해 드릴 거예요.",
+        "reading": "Orienteisyeoneseoneun hoesa gyuchigeul seolmyeonghae deuril geoyeyo."
+      },
+      {
+        "text": "수요일부터는 팀에서 같이 일할 거예요.",
+        "reading": "Suyoilbuteoneun timeseo gachi ilhal geoyeyo."
+      },
+      {
+        "text": "금요일 저녁에는 다 같이 저녁을 먹을 거예요.",
+        "reading": "Geumyoil jeonyeogeneun da gachi jeonyeogeul meogeul geoyeyo."
+      }
+    ],
+    [
+      {
+        "text": "일주일 일정은 단톡방에 올렸어요.",
+        "reading": "Iljuil iljeongeun dantokbange ollyeosseoyo."
+      },
+      {
+        "text": "꼭 참고하세요.",
+        "reading": "Kkok chamgohaseyo."
+      },
+      {
+        "text": "질문이 있으면 저한테 연락하세요.",
+        "reading": "Jilmuni isseumyeon jeohante yeollakaseyo."
+      },
+      {
+        "text": "그럼 월요일에 만나요!",
+        "reading": "Geureom woryoire mannayo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

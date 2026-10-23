@@ -1,0 +1,60 @@
+{
+  "id": "ja-B13-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.iroiro",
+      "text": "いろいろ",
+      "reading": "iroiro"
+    },
+    {
+      "id": "ja.dokoka",
+      "text": "どこか",
+      "reading": "dokoka"
+    },
+    {
+      "id": "ja.nanika",
+      "text": "なにか",
+      "reading": "nanika"
+    },
+    {
+      "id": "ja.dareka",
+      "text": "だれか",
+      "reading": "dareka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、なつやすみに どこかへ いきますか。",
+      "reading": "Namu-san, natsuyasumi ni dokoka e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。にほんへ いきたいです。",
+      "reading": "Hai. Nihon e ikitai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。だれかと いきますか。",
+      "reading": "Ii desu ne. Dareka to ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、ひとりで いきます。にほんの いろいろな まちへ いきたいです。",
+      "reading": "Iie, hitori de ikimasu. Nihon no iroiro na machi e ikitai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "なにか たべたいですか。",
+      "reading": "Nanika tabetai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、すしと ラーメンと…。いろいろ たべたいです。",
+      "reading": "Hai, sushi to rāmen to…. Iroiro tabetai desu."
+    }
+  ]
+}

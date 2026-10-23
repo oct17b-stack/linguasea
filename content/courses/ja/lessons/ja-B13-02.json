@@ -1,0 +1,70 @@
+{
+  "id": "ja-B13-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kongetsu",
+      "text": "今月",
+      "reading": "kongetsu"
+    },
+    {
+      "id": "ja.raigetsu",
+      "text": "来月",
+      "reading": "raigetsu"
+    },
+    {
+      "id": "ja.kotoshi",
+      "text": "今年",
+      "reading": "kotoshi"
+    },
+    {
+      "id": "ja.rainen",
+      "text": "来年",
+      "reading": "rainen"
+    },
+    {
+      "id": "ja.kyonen",
+      "text": "きょねん",
+      "reading": "kyonen"
+    },
+    {
+      "id": "ja.sengetsu",
+      "text": "先月",
+      "reading": "sengetsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、来年 にほんへ いきますか。",
+      "reading": "Namu-san, rainen Nihon e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、来年の 8月に いきます。",
+      "reading": "Hai, rainen no hachigatsu ni ikimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですね。にほんごの べんきょうは いつからですか。",
+      "reading": "Ii desu ne. Nihongo no benkyō wa itsu kara desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きょねんからです。",
+      "reading": "Kyonen kara desu."
+    },
+    {
+      "speaker": "b",
+      "text": "今年は いそがしいですか。",
+      "reading": "Kotoshi wa isogashii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。先月は テストでした。今月と 来月も テストです。",
+      "reading": "Hai. Sengetsu wa tesuto deshita. Kongetsu to raigetsu mo tesuto desu."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "ko-D8-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.timjangnim",
+      "text": "팀장님",
+      "reading": "timjangnim"
+    },
+    {
+      "id": "ko.bujangnim",
+      "text": "부장님",
+      "reading": "bujangnim"
+    },
+    {
+      "id": "ko.gwajangnim",
+      "text": "과장님",
+      "reading": "gwajangnim"
+    },
+    {
+      "id": "ko.inteon",
+      "text": "인턴",
+      "reading": "inteon"
+    },
+    {
+      "id": "ko.sinip-sawon",
+      "text": "신입 사원",
+      "reading": "sinip sawon",
+      "kind": "phrase"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 오늘부터 일하는 인턴 남이에요.",
+      "reading": "Annyeonghaseyo. Oneulbuteo ilhaneun inteon Namieyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 남 씨! 반가워요. 저는 박 과장이에요.",
+      "reading": "A, Nam ssi! Bangawoyo. Jeoneun Bak gwajangieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "과장님, 팀장님은 어디 계세요?",
+      "reading": "Gwajangnim, timjangnimeun eodi gyeseyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "팀장님은 지금 회의에 가셨어요. 열한 시에 오세요.",
+      "reading": "Timjangnimeun jigeum hoeuie gasyeosseoyo. Yeolhan sie oseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "부장님도 회의에 가셨어요?",
+      "reading": "Bujangnimdo hoeuie gasyeosseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아니요, 부장님은 오늘 부산에 출장을 가셨어요.",
+      "reading": "Aniyo, bujangnimeun oneul Busane chuljangeul gasyeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그렇군요.",
+      "reading": "A, geureokunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 안녕하세요. 제가 팀장이에요.",
+      "reading": "Nam ssi, annyeonghaseyo. Jega timjangieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요, 팀장님. 인턴 남이에요. 잘 부탁드립니다!",
+      "reading": "Annyeonghaseyo, timjangnim. Inteon Namieyo. Jal butakdeurimnida!"
+    },
+    {
+      "speaker": "b",
+      "text": "반가워요. 옆자리는 우리 팀 신입 사원이에요. 모르는 게 있으면 물어보세요.",
+      "reading": "Bangawoyo. Yeopjarineun uri tim sinip sawonieyo. Moreuneun ge isseumyeon mureoboseyo."
+    }
+  ]
+}

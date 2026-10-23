@@ -1,0 +1,86 @@
+{
+  "id": "ko-D2-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.hanteongnaeda",
+      "text": "한턱내다",
+      "reading": "hanteongnaeda"
+    },
+    {
+      "id": "ko.deochipei",
+      "text": "더치페이",
+      "reading": "deochipei"
+    },
+    {
+      "id": "ko.nanwo-naeda",
+      "text": "나눠 내다",
+      "reading": "nanwo naeda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.gyesanseo",
+      "text": "계산서",
+      "reading": "gyesanseo"
+    },
+    {
+      "id": "ko.jandon",
+      "text": "잔돈",
+      "reading": "jandon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 계산서 좀 주세요.",
+      "reading": "Jeogiyo, gyesanseo jom juseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘은 제가 한턱낼게요. 시험을 잘 봐서 기분이 좋아요.",
+      "reading": "Nam ssi, oneureun jega hanteongnaelgeyo. Siheomeul jal bwaseo gibuni joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "아니에요. 우리 더치페이해요.",
+      "reading": "Anieyo. Uri deochipeihaeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "괜찮아요. 오늘은 제가 낼게요.",
+      "reading": "Gwaenchanayo. Oneureun jega naelgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 반이라도 낼게요.",
+      "reading": "Geureom banirado naelgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "아니에요. 그럼 남 씨는 커피라도 사세요.",
+      "reading": "Anieyo. Geureom Nam ssineun keopirado saseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 커피는 제가 살게요.",
+      "reading": "Joayo! Keopineun jega salgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "모두 삼만 오천 원이에요. 나눠 내세요?",
+      "reading": "Modu samman ocheon wonieyo. Nanwo naeseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 제가 낼게요. 여기 사만 원이요.",
+      "reading": "Aniyo, jega naelgeyo. Yeogi saman woniyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 잔돈 오천 원 여기 있어요. 감사합니다.",
+      "reading": "Ne, jandon ocheon won yeogi isseoyo. Gamsahamnida."
+    }
+  ]
+}

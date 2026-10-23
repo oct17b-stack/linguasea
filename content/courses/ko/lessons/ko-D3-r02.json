@@ -1,0 +1,97 @@
+{
+  "id": "ko-D3-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.cheodinsang",
+      "text": "첫인상",
+      "reading": "cheodinsang"
+    },
+    {
+      "id": "ko.muttukttuk-hada",
+      "text": "무뚝뚝하다",
+      "reading": "muttukttukada"
+    },
+    {
+      "id": "ko.ohae-hada",
+      "text": "오해하다",
+      "reading": "ohaehada"
+    },
+    {
+      "id": "ko.algo-boni",
+      "text": "알고 보니",
+      "reading": "algo boni",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "남 씨가 민준 씨를 처음 만난 날이었어요.",
+        "reading": "Nam ssiga Minjun ssireul cheoeum mannan narieosseoyo."
+      },
+      {
+        "text": "한국어 수업 후에 같이 점심을 먹었어요.",
+        "reading": "Hangugeo sueop hue gachi jeomsimeul meogeosseoyo."
+      },
+      {
+        "text": "그런데 민준 씨는 말을 많이 하지 않았어요.",
+        "reading": "Geureonde Minjun ssineun mareul mani haji anasseoyo."
+      },
+      {
+        "text": "남 씨가 질문하면 “네”, “아니요”만 대답했어요.",
+        "reading": "Nam ssiga jilmunhamyeon “ne”, “aniyo”man daedapaesseoyo."
+      },
+      {
+        "text": "그래서 첫인상이 좀 무뚝뚝했어요.",
+        "reading": "Geuraeseo cheodinsangi jom muttukttukaesseoyo."
+      }
+    ],
+    [
+      {
+        "text": "남 씨는 민준 씨를 좀 오해했어요.",
+        "reading": "Nam ssineun Minjun ssireul jom ohaehaesseoyo."
+      },
+      {
+        "text": "며칠 후에 동아리 모임에서 민준 씨를 또 만났어요.",
+        "reading": "Myeochil hue dongari moimeseo Minjun ssireul tto mannasseoyo."
+      },
+      {
+        "text": "그날 민준 씨는 친구들하고 즐겁게 말을 많이 했어요.",
+        "reading": "Geunal Minjun ssineun chingudeulhago jeulgeopge mareul mani haesseoyo."
+      },
+      {
+        "text": "알고 보니 민준 씨는 처음 만나는 사람 앞에서 부끄러워하는 사람이었어요.",
+        "reading": "Algo boni Minjun ssineun cheoeum mannaneun saram apeseo bukkeureowohaneun saramieosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "지금 두 사람은 아주 좋은 친구예요.",
+        "reading": "Jigeum du sarameun aju joeun chinguyeyo."
+      },
+      {
+        "text": "지금도 그날 생각을 하면 민준 씨는 부끄러워해요.",
+        "reading": "Jigeumdo geunal saenggageul hamyeon Minjun ssineun bukkeureowohaeyo."
+      },
+      {
+        "text": "첫인상이 다가 아니에요.",
+        "reading": "Cheodinsangi daga anieyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

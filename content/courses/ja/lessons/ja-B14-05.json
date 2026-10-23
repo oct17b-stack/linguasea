@@ -1,0 +1,61 @@
+{
+  "id": "ja-B14-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.dou-deshita-ka",
+      "kind": "phrase",
+      "text": "どうでしたか",
+      "reading": "dō deshita ka"
+    },
+    {
+      "id": "ja.saikin",
+      "text": "さいきん",
+      "reading": "saikin"
+    },
+    {
+      "id": "ja.hajimete",
+      "text": "はじめて",
+      "reading": "hajimete"
+    },
+    {
+      "id": "ja.zutto",
+      "text": "ずっと",
+      "reading": "zutto"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、しゅうまつは なにを しましたか。",
+      "reading": "Namu-san, shūmatsu wa nani o shimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "どようびは アルバイトでした。にちようびは すいぞくかんへ いきました。",
+      "reading": "Doyōbi wa arubaito deshita. Nichiyōbi wa suizokukan e ikimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "どうでしたか。",
+      "reading": "Dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしかったです。すいぞくかんは はじめてでした。",
+      "reading": "Tanoshikatta desu. Suizokukan wa hajimete deshita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしは さいきん いそがしいです。しゅうまつも ずっと うちで べんきょうしました。",
+      "reading": "Ii desu ne. Watashi wa saikin isogashii desu. Shūmatsu mo zutto uchi de benkyō shimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "たいへんでしたね。",
+      "reading": "Taihen deshita ne."
+    }
+  ]
+}

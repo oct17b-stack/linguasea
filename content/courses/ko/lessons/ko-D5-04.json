@@ -1,0 +1,83 @@
+{
+  "id": "ko-D5-04",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.tonghwa-jung",
+      "text": "통화 중",
+      "reading": "tonghwa jung",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.bujaejung-jeonhwa",
+      "text": "부재중 전화",
+      "reading": "bujaejung jeonhwa",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.dasi-geolda",
+      "text": "다시 걸다",
+      "reading": "dasi geolda",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yeollakcheo",
+      "text": "연락처",
+      "reading": "yeollakcheo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "여보세요? 남 씨, 저 이 선생님이에요.",
+      "reading": "Yeoboseyo? Nam ssi, jeo I seonsaengnimieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 선생님! 안녕하세요.",
+      "reading": "A, seonsaengnim! Annyeonghaseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨 부재중 전화가 있어서 다시 걸었어요.",
+      "reading": "Nam ssi bujaejung jeonhwaga isseoseo dasi georeosseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 오늘 오전에 선생님한테 전화를 걸었는데 통화 중이었어요.",
+      "reading": "Ne, oneul ojeone seonsaengnimhante jeonhwareul georeonneunde tonghwa jungieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 미안해요. 오전에는 회의가 있었어요. 무슨 일이에요?",
+      "reading": "A, mianhaeyo. Ojeoneneun hoeuiga isseosseoyo. Museun irieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "죄송한데요, 지금 제가 지하철 안이에요. 십 분 후에 다시 걸어 주실 수 있어요?",
+      "reading": "Joesonghandeyo, jigeum jega jihacheol anieyo. Sip bun hue dasi georeo jusil su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그래요. 그런데 이 전화번호가 남 씨 연락처 맞아요?",
+      "reading": "Geuraeyo. Geureonde i jeonhwabeonhoga Nam ssi yeollakcheo majayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 맞아요. 선생님 연락처에 이 번호를 넣어 주실 수 있어요?",
+      "reading": "Ne, majayo. Seonsaengnim yeollakcheoe i beonhoreul neoeo jusil su isseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "그럼요. 십 분 후에 다시 걸게요.",
+      "reading": "Geureomyo. Sip bun hue dasi geolgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "감사합니다, 선생님!",
+      "reading": "Gamsahamnida, seonsaengnim!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ko-D4-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.ppallae-hada",
+      "text": "빨래하다",
+      "reading": "ppallaehada"
+    },
+    {
+      "id": "ko.seje",
+      "text": "세제",
+      "reading": "seje"
+    },
+    {
+      "id": "ko.neolda",
+      "text": "널다",
+      "reading": "neolda"
+    },
+    {
+      "id": "ko.gaeda",
+      "text": "개다",
+      "reading": "gaeda"
+    },
+    {
+      "id": "ko.mareuda",
+      "text": "마르다",
+      "reading": "mareuda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨, 오늘 빨래할 거예요?",
+      "reading": "Minjun ssi, oneul ppallaehal geoyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아니요, 못 해요. 세제가 없거든요.",
+      "reading": "Aniyo, mot haeyo. Sejega eopgeodeunyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 제 세제를 쓰세요. 어제 새로 샀거든요.",
+      "reading": "Geureom je sejereul sseuseyo. Eoje saero satgeodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요. 그럼 남 씨 빨래도 같이 할까요?",
+      "reading": "Gomawoyo. Geureom Nam ssi ppallaedo gachi halkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요! 그런데 이 원피스는 세탁기에 넣지 마세요. 아주 비싸거든요.",
+      "reading": "Joayo! Geureonde i wonpiseuneun setakgie neochi maseyo. Aju bissageodeunyo."
+    },
+    {
+      "speaker": "b",
+      "text": "알겠어요. 빨래는 어디에 널어요?",
+      "reading": "Algesseoyo. Ppallaeneun eodie neoreoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "밖에 널지 마세요. 오후에 비가 오거든요. 방 안에 너세요.",
+      "reading": "Bakke neolji maseyo. Ohue biga ogeodeunyo. Bang ane neoseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "방 안에서 빨래가 잘 말라요?",
+      "reading": "Bang aneseo ppallaega jal mallayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 방이 따뜻해서 금방 말라요.",
+      "reading": "Ne, bangi ttatteutaeseo geumbang mallayo."
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 다 마르면 제가 개서 옷장에 넣을게요.",
+      "reading": "Joayo. Da mareumyeon jega gaeseo otjange neoeulgeyo."
+    }
+  ]
+}

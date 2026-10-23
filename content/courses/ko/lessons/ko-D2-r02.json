@@ -1,0 +1,96 @@
+{
+  "id": "ko-D2-r02",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.byeoljeom",
+      "text": "별점",
+      "reading": "byeoljeom"
+    },
+    {
+      "id": "ko.yang",
+      "text": "양",
+      "reading": "yang"
+    },
+    {
+      "id": "ko.jaebangmun",
+      "text": "재방문",
+      "reading": "jaebangmun"
+    },
+    {
+      "id": "ko.gaseongbi",
+      "text": "가성비",
+      "reading": "gaseongbi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "주말에 친구 남 씨하고 홍대에 있는 태국 식당에 갔어요.",
+        "reading": "Jumare chingu Nam ssihago Hongdaee inneun Taeguk sikdange gasseoyo."
+      },
+      {
+        "text": "남 씨는 태국 사람이에요.",
+        "reading": "Nam ssineun Taeguk saramieyo."
+      },
+      {
+        "text": "그래서 남 씨가 이 식당을 추천했어요.",
+        "reading": "Geuraeseo Nam ssiga i sikdangeul chucheonhaesseoyo."
+      },
+      {
+        "text": "우리는 똠얌꿍하고 팟타이를 시켰어요.",
+        "reading": "Urineun ttomyamkkunghago pattaireul sikyeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "똠얌꿍은 시고 매웠지만 정말 맛있었어요.",
+        "reading": "Ttomyamkkungeun sigo maewotjiman jeongmal masisseosseoyo."
+      },
+      {
+        "text": "남 씨도 아주 좋아했어요.",
+        "reading": "Nam ssido aju joahaesseoyo."
+      },
+      {
+        "text": "팟타이는 양이 정말 많았어요.",
+        "reading": "Pattaineun yangi jeongmal manasseoyo."
+      },
+      {
+        "text": "그런데 조금 느끼해서 다 못 먹었어요.",
+        "reading": "Geureonde jogeum neukkihaeseo da mot meogeosseoyo."
+      }
+    ],
+    [
+      {
+        "text": "두 명이 삼만 원을 냈어요.",
+        "reading": "Du myeongi samman woneul naesseoyo."
+      },
+      {
+        "text": "양도 많고 맛도 좋아서 가성비가 좋아요.",
+        "reading": "Yangdo manko matdo joaseo gaseongbiga joayo."
+      },
+      {
+        "text": "그래서 별점은 다섯 개 중에서 네 개예요.",
+        "reading": "Geuraeseo byeoljeomeun daseot gae jungeseo ne gaeyeyo."
+      },
+      {
+        "text": "저는 꼭 재방문할 거예요!",
+        "reading": "Jeoneun kkok jaebangmunhal geoyeyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

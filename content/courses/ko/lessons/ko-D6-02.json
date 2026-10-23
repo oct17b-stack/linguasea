@@ -1,0 +1,87 @@
+{
+  "id": "ko-D6-02",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.ireobeorida",
+      "text": "잃어버리다",
+      "reading": "ireobeorida"
+    },
+    {
+      "id": "ko.dugo-naerida",
+      "text": "두고 내리다",
+      "reading": "dugo naerida",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.bunsilmul-senteo",
+      "text": "분실물 센터",
+      "reading": "bunsilmul senteo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.sojipum",
+      "text": "소지품",
+      "reading": "sojipum"
+    },
+    {
+      "id": "ko.jolda",
+      "text": "졸다",
+      "reading": "jolda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "어서 오세요. 분실물 센터예요.",
+      "reading": "Eoseo oseyo. Bunsilmul senteoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 지하철에서 가방을 잃어버렸어요.",
+      "reading": "Annyeonghaseyo. Jihacheoreseo gabangeul ireobeoryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어떻게 잃어버렸어요?",
+      "reading": "Eotteoke ireobeoryeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "지하철에서 책을 읽다가 졸았어요.",
+      "reading": "Jihacheoreseo chaegeul ikdaga jorasseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고요?",
+      "reading": "Geurigoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "졸다가 깜짝 놀라서 급하게 내렸어요. 그래서 가방을 두고 내렸어요.",
+      "reading": "Joldaga kkamjjak nollaseo geupage naeryeosseoyo. Geuraeseo gabangeul dugo naeryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "몇 시쯤 어느 역에서 내렸어요?",
+      "reading": "Myeot sijjeum eoneu yeogeseo naeryeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아홉 시 반쯤 서울역에서 내렸어요.",
+      "reading": "Ahop si banjjeum Seoullyeogeseo naeryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "잃어버린 소지품은 가방 하나예요?",
+      "reading": "Ireobeorin sojipumeun gabang hanayeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 가방 하나예요. 꼭 찾으면 좋겠어요.",
+      "reading": "Ne, gabang hanayeyo. Kkok chajeumyeon jokesseoyo."
+    }
+  ]
+}

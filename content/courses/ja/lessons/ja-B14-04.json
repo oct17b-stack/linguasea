@@ -1,0 +1,65 @@
+{
+  "id": "ja-B14-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kaimono",
+      "text": "かいもの",
+      "reading": "kaimono"
+    },
+    {
+      "id": "ja.utaimasu",
+      "text": "うたいます",
+      "reading": "utaimasu"
+    },
+    {
+      "id": "ja.asobimasu",
+      "text": "あそびます",
+      "reading": "asobimasu"
+    },
+    {
+      "id": "ja.suizokukan",
+      "text": "すいぞくかん",
+      "reading": "suizokukan"
+    },
+    {
+      "id": "ja.bouringu",
+      "text": "ボウリング",
+      "reading": "bōringu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あしたは なにを しますか。",
+      "reading": "Namu-san, ashita wa nani o shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ともだちと あそびます。すいぞくかんへ いきます。",
+      "reading": "Tomodachi to asobimasu. Suizokukan e ikimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。わたしは デパートへ かいものに いきます。",
+      "reading": "Ii desu ne. Watashi wa depāto e kaimono ni ikimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "よる、ボウリングにも いきます。ゆきさんも どうですか。",
+      "reading": "Yoru, bōringu ni mo ikimasu. Yuki-san mo dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ボウリングは へたです。でも、うたは すきです。",
+      "reading": "Bōringu wa heta desu. Demo, uta wa suki desu."
+    },
+    {
+      "speaker": "a",
+      "text": "ボウリングの あとで、みんなで うたを うたいます。",
+      "reading": "Bōringu no ato de, minna de uta o utaimasu."
+    }
+  ]
+}

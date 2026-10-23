@@ -1,0 +1,81 @@
+{
+  "id": "ko-D7-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.johoe-hada",
+      "text": "조회하다",
+      "reading": "johoehada"
+    },
+    {
+      "id": "ko.chulgodoeda",
+      "text": "출고되다",
+      "reading": "chulgodoeda"
+    },
+    {
+      "id": "ko.songjang-beonho",
+      "text": "송장 번호",
+      "reading": "songjang beonho",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.yejeong",
+      "text": "예정",
+      "reading": "yejeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 택배 왔어요?",
+      "reading": "Nam ssi, taekbae wasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 안 왔어요. 송장 번호로 조회해 볼게요.",
+      "reading": "Aniyo, an wasseoyo. Songjang beonhoro johoehae bolgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "어디까지 왔어요?",
+      "reading": "Eodikkaji wasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어제 출고됐어요. 오늘 도착 예정이에요.",
+      "reading": "Eoje chulgodwaesseoyo. Oneul dochak yejeongieyo."
+    },
+    {
+      "speaker": "b",
+      "text": "잘됐네요. 상품이 도착하자마자 확인해 보세요.",
+      "reading": "Jaldwaenneyo. Sangpumi dochakajamaja hwaginhae boseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 받자마자 사진을 찍어 놓을게요. 전처럼 흠집이 있을 수도 있잖아요.",
+      "reading": "Ne, batjamaja sajineul jjigeo noeulgeyo. Jeoncheoreom heumjibi isseul sudo itjanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "맞아요. 아, 남 씨, 알림이 왔어요!",
+      "reading": "Majayo. A, Nam ssi, allimi wasseoyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "아, 택배가 지금 문 앞에 도착했어요.",
+      "reading": "A, taekbaega jigeum mun ape dochakaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 수업이 끝나자마자 집에 가요.",
+      "reading": "Geureom sueobi kkeunnajamaja jibe gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 집에 가자마자 상자를 뜯어 볼게요!",
+      "reading": "Ne, jibe gajamaja sangjareul tteudeo bolgeyo!"
+    }
+  ]
+}

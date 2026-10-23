@@ -1,0 +1,89 @@
+{
+  "id": "ko-D7-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.dansun-byeonsim",
+      "text": "단순 변심",
+      "reading": "dansun byeonsim",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.jeoedoeda",
+      "text": "제외되다",
+      "reading": "jeoedoeda"
+    },
+    {
+      "id": "ko.budam-hada",
+      "text": "부담하다",
+      "reading": "budamhada"
+    },
+    {
+      "id": "ko.hweson",
+      "text": "훼손",
+      "reading": "hweson"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "한빛쇼핑의 교환과 반품 규칙이에요.",
+        "reading": "Hanbitsyopingui gyohwangwa banpum gyuchigieyo."
+      },
+      {
+        "text": "상품을 받은 날부터 칠 일 이내에 교환이나 반품을 신청할 수 있어요.",
+        "reading": "Sangpumeul badeun nalbuteo chil il inaee gyohwanina banpumeul sincheonghal su isseoyo."
+      },
+      {
+        "text": "고객 센터에 전화하거나 앱에서 신청해 주세요.",
+        "reading": "Gogaek senteoe jeonhwahageona aebeseo sincheonghae juseyo."
+      }
+    ],
+    [
+      {
+        "text": "단순 변심으로 반품하면 왕복 택배비 육천 원을 부담해야 해요.",
+        "reading": "Dansun byeonsimeuro banpumhamyeon wangbok taekbaebi yukcheon woneul budamhaeya haeyo."
+      },
+      {
+        "text": "상품이 불량이면 택배비는 한빛쇼핑이 부담해요.",
+        "reading": "Sangpumi bullyangimyeon taekbaebineun Hanbitsyopingi budamhaeyo."
+      }
+    ],
+    [
+      {
+        "text": "다음 상품은 교환과 반품이 안 돼요.",
+        "reading": "Daeum sangpumeun gyohwangwa banpumi an dwaeyo."
+      },
+      {
+        "text": "포장을 뜯고 사용한 제품은 제외돼요.",
+        "reading": "Pojangeul tteutgo sayonghan jepumeun jeoedwaeyo."
+      },
+      {
+        "text": "실수로 훼손된 상품도 제외돼요.",
+        "reading": "Silsuro hwesondoen sangpumdo jeoedwaeyo."
+      },
+      {
+        "text": "그리고 음식은 단순 변심으로 반품할 수 없어요.",
+        "reading": "Geurigo eumsigeun dansun byeonsimeuro banpumhal su eopseoyo."
+      },
+      {
+        "text": "질문이 있으면 고객 센터로 문의해 주세요.",
+        "reading": "Jilmuni isseumyeon gogaek senteoro munuihae juseyo."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

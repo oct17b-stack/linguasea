@@ -1,0 +1,85 @@
+{
+  "id": "ko-D5-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.yeui",
+      "text": "예의",
+      "reading": "yeui"
+    },
+    {
+      "id": "ko.jindong",
+      "text": "진동",
+      "reading": "jindong"
+    },
+    {
+      "id": "ko.mueum",
+      "text": "무음",
+      "reading": "mueum"
+    },
+    {
+      "id": "ko.sillye",
+      "text": "실례",
+      "reading": "sillye"
+    },
+    {
+      "id": "ko.gonggongjangso",
+      "text": "공공장소",
+      "reading": "gonggongjangso"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 수업 시간에는 스마트폰을 무음으로 바꿔 주세요.",
+      "reading": "Nam ssi, sueop siganeneun seumateuponeul mueumeuro bakkwo juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "죄송해요, 선생님. 진동이었어요.",
+      "reading": "Joesonghaeyo, seonsaengnim. Jindongieosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "수업 시간에는 진동도 실례예요.",
+      "reading": "Sueop siganeneun jindongdo sillyeyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 어머니 전화는 수업 중이어도 받아야 해요?",
+      "reading": "Ne. Geureonde eomeoni jeonhwaneun sueop jungieodo badaya haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "수업 중에는 어머니 전화가 와도 받지 마세요. 쉬는 시간에 다시 걸면 돼요.",
+      "reading": "Sueop jungeneun eomeoni jeonhwaga wado batji maseyo. Swineun sigane dasi geolmyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 지하철 같은 공공장소에서도 통화하면 안 돼요?",
+      "reading": "Algesseoyo. Jihacheol gateun gonggongjangsoeseodo tonghwahamyeon an dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "통화해도 돼요. 그런데 작은 목소리로 해야 해요.",
+      "reading": "Tonghwahaedo dwaeyo. Geureonde jageun moksoriro haeya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "친구하고 밥을 먹을 때는요?",
+      "reading": "Chinguhago babeul meogeul ttaeneunyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "바빠도 스마트폰을 너무 많이 보지 마세요. 그것도 예의가 아니에요.",
+      "reading": "Bappado seumateuponeul neomu mani boji maseyo. Geugeotdo yeuiga anieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "태국에서도 그래요. 전화 예의는 다 비슷하네요.",
+      "reading": "Taegugeseodo geuraeyo. Jeonhwa yeuineun da biseutaneyo."
+    }
+  ]
+}

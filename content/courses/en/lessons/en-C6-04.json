@@ -1,0 +1,76 @@
+{
+  "id": "en-C6-04",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.famous",
+      "text": "famous",
+      "reading": "ˈfeɪməs"
+    },
+    {
+      "id": "en.attractive",
+      "text": "attractive",
+      "reading": "əˈtræktɪv"
+    },
+    {
+      "id": "en.worst",
+      "text": "worst",
+      "reading": "wɜːrst"
+    },
+    {
+      "id": "en.least",
+      "text": "least",
+      "reading": "liːst"
+    },
+    {
+      "id": "en.in-the-world",
+      "kind": "phrase",
+      "text": "in the world",
+      "reading": "ɪn ðə ˈwɜːrld"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, what's the most famous place in Bangkok?",
+      "reading": "ˈnɑːm, ˈwʌts ðə ˈmoʊst ˈfeɪməs ˈpleɪs ɪn ˈbæŋkɑːk?"
+    },
+    {
+      "speaker": "a",
+      "text": "Wat Arun, I think. It's the most attractive temple in the city.",
+      "reading": "ˈwɑːt əˈruːn, aɪ ˈθɪŋk. ɪts ðə ˈmoʊst əˈtræktɪv ˈtɛmpəl ɪn ðə ˈsɪti."
+    },
+    {
+      "speaker": "c",
+      "text": "When is the best time to go there?",
+      "reading": "ˈwɛn ɪz ðə ˈbɛst ˈtaɪm tə ˈɡoʊ ˈðɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "In the evening. It's beautiful at sunset.",
+      "reading": "ɪn ði ˈiːvnɪŋ. ɪts ˈbjuːtəfəl ət ˈsʌnsɛt."
+    },
+    {
+      "speaker": "c",
+      "text": "And the worst time?",
+      "reading": "ənd ðə ˈwɜːrst ˈtaɪm?"
+    },
+    {
+      "speaker": "a",
+      "text": "The afternoon. It's the hottest and the most crowded time.",
+      "reading": "ði ˌæftərˈnuːn. ɪts ðə ˈhɑːtɪst ənd ðə ˈmoʊst ˈkraʊdɪd ˈtaɪm."
+    },
+    {
+      "speaker": "c",
+      "text": "What's the least expensive way to get there?",
+      "reading": "ˈwʌts ðə ˈliːst ɪkˈspɛnsɪv ˈweɪ tə ˈɡɛt ˈðɛr?"
+    },
+    {
+      "speaker": "a",
+      "text": "By boat. And after that, let's eat Thai food. It's the best food in the world!",
+      "reading": "baɪ ˈboʊt. ənd ˈæftər ˈðæt, ˈlɛts ˈiːt ˈtaɪ ˈfuːd. ɪts ðə ˈbɛst ˈfuːd ɪn ðə ˈwɜːrld!"
+    }
+  ]
+}

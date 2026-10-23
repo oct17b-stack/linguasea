@@ -1,0 +1,60 @@
+{
+  "id": "ja-B14-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kikimasu",
+      "text": "ききます",
+      "reading": "kikimasu"
+    },
+    {
+      "id": "ja.gitaa",
+      "text": "ギター",
+      "reading": "gitā"
+    },
+    {
+      "id": "ja.piano",
+      "text": "ピアノ",
+      "reading": "piano"
+    },
+    {
+      "id": "ja.hikimasu",
+      "text": "ひきます",
+      "reading": "hikimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさんは どんな おんがくを ききますか。",
+      "reading": "Yuki-san wa donna ongaku o kikimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "いろいろ ききます。ナムさんは？",
+      "reading": "Iroiro kikimasu. Namu-san wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "タイの うたを よく ききます。それから、ギターを ひきます。",
+      "reading": "Tai no uta o yoku kikimasu. Sorekara, gitā o hikimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ、ギターですか。わたしは ピアノを ひきます。",
+      "reading": "Hē, gitā desu ka. Watashi wa piano o hikimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいですね。こんど いっしょに ひきたいです。",
+      "reading": "Ii desu ne. Kondo issho ni hikitai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね！",
+      "reading": "Ii desu ne!"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ko-D2-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ko.jeomsim-teukseon",
+      "text": "점심 특선",
+      "reading": "jeomsim teukseon",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.ripil",
+      "text": "리필",
+      "reading": "ripil"
+    },
+    {
+      "id": "ko.beureikeu-taim",
+      "text": "브레이크 타임",
+      "reading": "beureikeu taim",
+      "kind": "phrase"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "안녕하세요! 한강 식당이에요.",
+        "reading": "Annyeonghaseyo! Hangang sikdangieyo."
+      },
+      {
+        "text": "월요일부터 금요일까지 점심 특선이 있어요.",
+        "reading": "Woryoilbuteo geumyoilkkaji jeomsim teukseoni isseoyo."
+      },
+      {
+        "text": "점심 특선은 열한 시 반부터 두 시까지예요.",
+        "reading": "Jeomsim teukseoneun yeolhan si banbuteo du sikkajiyeyo."
+      },
+      {
+        "text": "점심 특선 메뉴는 불고기, 비빔밥, 김치볶음밥이에요.",
+        "reading": "Jeomsim teukseon menyuneun bulgogi, bibimbap, gimchibokkeumbabieyo."
+      },
+      {
+        "text": "모두 8,000원이에요.",
+        "reading": "Modu palcheon wonieyo."
+      }
+    ],
+    [
+      {
+        "text": "밥하고 김치는 리필할 수 있어요.",
+        "reading": "Baphago gimchineun ripilhal su isseoyo."
+      },
+      {
+        "text": "리필할 때는 돈을 더 내지 않아요.",
+        "reading": "Ripilhal ttaeneun doneul deo naeji anayo."
+      },
+      {
+        "text": "리필은 직원에게 말해 주세요.",
+        "reading": "Ripireun jigwonege malhae juseyo."
+      }
+    ],
+    [
+      {
+        "text": "오후 세 시부터 다섯 시까지는 브레이크 타임이에요.",
+        "reading": "Ohu se sibuteo daseot sikkajineun beureikeu taimieyo."
+      },
+      {
+        "text": "브레이크 타임에는 직원들이 쉬어요.",
+        "reading": "Beureikeu taimeneun jigwondeuri swieoyo."
+      },
+      {
+        "text": "저녁은 다섯 시부터 열 시까지예요.",
+        "reading": "Jeonyeogeun daseot sibuteo yeol sikkajiyeyo."
+      },
+      {
+        "text": "감사합니다!",
+        "reading": "Gamsahamnida!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

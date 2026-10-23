@@ -1,0 +1,86 @@
+{
+  "id": "ko-D7-05",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.gogaek-senteo",
+      "text": "고객 센터",
+      "reading": "gogaek senteo",
+      "kind": "phrase"
+    },
+    {
+      "id": "ko.sangdamwon",
+      "text": "상담원",
+      "reading": "sangdamwon"
+    },
+    {
+      "id": "ko.hangui-hada",
+      "text": "항의하다",
+      "reading": "hanguihada"
+    },
+    {
+      "id": "ko.dapbyeon",
+      "text": "답변",
+      "reading": "dapbyeon"
+    },
+    {
+      "id": "ko.neujeojida",
+      "text": "늦어지다",
+      "reading": "neujeojida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "네, 한빛쇼핑 고객 센터 상담원이에요.",
+      "reading": "Ne, Hanbitsyoping gogaek senteo sangdamwonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 열흘 전에 주문한 상품이 안 와요.",
+      "reading": "Annyeonghaseyo. Yeolheul jeone jumunhan sangpumi an wayo."
+    },
+    {
+      "speaker": "b",
+      "text": "죄송합니다. 배송이 좀 늦어지고 있어요.",
+      "reading": "Joesonghamnida. Baesongi jom neujeojigo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 어제가 도착하는 날이었잖아요!",
+      "reading": "Geureonde eojega dochakaneun narieotjanayo!"
+    },
+    {
+      "speaker": "b",
+      "text": "네, 맞아요. 정말 죄송합니다.",
+      "reading": "Ne, majayo. Jeongmal joesonghamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "저는 어제도 고객 센터에 전화했잖아요. 그런데 답변이 없었어요.",
+      "reading": "Jeoneun eojedo gogaek senteoe jeonhwahaetjanayo. Geureonde dapbyeoni eopseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "확인해 보니까 지금 택배가 너무 많아서 늦어지고 있어요.",
+      "reading": "Hwaginhae bonikka jigeum taekbaega neomu manaseo neujeojigo isseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그래도 열흘이나 기다렸잖아요.",
+      "reading": "Geuraedo yeolheurina gidaryeotjanayo."
+    },
+    {
+      "speaker": "b",
+      "text": "네, 죄송합니다. 내일까지 꼭 보내 드릴게요.",
+      "reading": "Ne, joesonghamnida. Naeilkkaji kkok bonae deurilgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 내일도 안 오면 다시 항의할 거예요.",
+      "reading": "Algesseoyo. Naeildo an omyeon dasi hanguihal geoyeyo."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "en-C2-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.pill",
+      "text": "pill",
+      "reading": "pɪl"
+    },
+    {
+      "id": "en.three-times-a-day",
+      "kind": "phrase",
+      "text": "three times a day",
+      "reading": "ˌθriː taɪmz ə ˈdeɪ"
+    },
+    {
+      "id": "en.after-meals",
+      "kind": "phrase",
+      "text": "after meals",
+      "reading": "ˌæftər ˈmiːlz"
+    },
+    {
+      "id": "en.allergic",
+      "text": "allergic",
+      "reading": "əˈlɜːrdʒɪk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, are you allergic to any medicine?",
+      "reading": "ˈnɑːm, ər juː əˈlɜːrdʒɪk tu ˈɛni ˈmɛdəsən?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I'm not.",
+      "reading": "ˈnoʊ, aɪm ˈnɑːt."
+    },
+    {
+      "speaker": "c",
+      "text": "Good. Here's your medicine. Take two pills three times a day.",
+      "reading": "ˈɡʊd. hɪrz jʊr ˈmɛdəsən. ˈteɪk ˈtuː ˈpɪlz ˈθriː taɪmz ə ˈdeɪ."
+    },
+    {
+      "speaker": "a",
+      "text": "Before or after meals?",
+      "reading": "bɪˈfɔːr ɔːr ˈæftər ˈmiːlz?"
+    },
+    {
+      "speaker": "c",
+      "text": "After meals. And take them with water, not coffee.",
+      "reading": "ˈæftər ˈmiːlz. ənd ˈteɪk ðɛm wɪð ˈwɔːtər, ˈnɑːt ˈkɔːfi."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Can I drive?",
+      "reading": "oʊˈkeɪ. kən aɪ ˈdraɪv?"
+    },
+    {
+      "speaker": "c",
+      "text": "No, don't drive. And go to bed early.",
+      "reading": "ˈnoʊ, ˈdoʊnt ˈdraɪv. ənd ˈɡoʊ tə ˈbɛd ˈɜːrli."
+    },
+    {
+      "speaker": "a",
+      "text": "OK. Thank you!",
+      "reading": "oʊˈkeɪ. ˈθæŋk juː!"
+    }
+  ]
+}

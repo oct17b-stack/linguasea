@@ -1,0 +1,60 @@
+{
+  "id": "ja-B11-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kamera",
+      "text": "カメラ",
+      "reading": "kamera"
+    },
+    {
+      "id": "ja.bideo",
+      "text": "ビデオ",
+      "reading": "bideo"
+    },
+    {
+      "id": "ja.intaanetto",
+      "text": "インターネット",
+      "reading": "intānetto"
+    },
+    {
+      "id": "ja.pasokon",
+      "text": "パソコン",
+      "reading": "pasokon"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、あたらしい カメラですね。",
+      "reading": "Yuki-san, atarashii kamera desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。この カメラで しゃしんを とります。",
+      "reading": "Hai. Kono kamera de shashin o torimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "その しゃしんを かぞくに おくりますか。",
+      "reading": "Sono shashin o kazoku ni okurimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、パソコンで おくります。インターネットは べんりですね。",
+      "reading": "Hai, pasokon de okurimasu. Intānetto wa benri desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "かぞくと ビデオで はなしますか。",
+      "reading": "Kazoku to bideo de hanashimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、まいしゅう どようびに はなします。",
+      "reading": "Hai, maishū doyōbi ni hanashimasu."
+    }
+  ]
+}

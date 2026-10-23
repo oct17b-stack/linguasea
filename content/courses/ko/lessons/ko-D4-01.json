@@ -1,0 +1,85 @@
+{
+  "id": "ko-D4-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jibannil",
+      "text": "집안일",
+      "reading": "jibannil"
+    },
+    {
+      "id": "ko.cheongsogi",
+      "text": "청소기",
+      "reading": "cheongsogi"
+    },
+    {
+      "id": "ko.geolle",
+      "text": "걸레",
+      "reading": "geolle"
+    },
+    {
+      "id": "ko.dakda",
+      "text": "닦다",
+      "reading": "dakda"
+    },
+    {
+      "id": "ko.sseulda",
+      "text": "쓸다",
+      "reading": "sseulda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 오늘 같이 집안일을 해요.",
+      "reading": "Nam ssi, oneul gachi jibannireul haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "좋아요. 뭐부터 할까요?",
+      "reading": "Joayo. Mwobuteo halkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "제가 청소기로 방을 청소하는 동안 남 씨는 걸레로 가구를 닦아 주세요.",
+      "reading": "Jega cheongsogiro bangeul cheongsohaneun dongan Nam ssineun geollero gagureul dakka juseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그리고 부엌은 누가 해요?",
+      "reading": "Ne. Geurigo bueokeun nuga haeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "가구를 닦고 나서 부엌도 닦아 주세요. 저는 문 앞을 쓸게요.",
+      "reading": "Gagureul dakgo naseo bueokdo dakka juseyo. Jeoneun mun apeul sseulgeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠어요. 민준 씨가 문 앞을 쓰는 동안 저는 화장실도 청소할게요.",
+      "reading": "Algesseoyo. Minjun ssiga mun apeul sseuneun dongan jeoneun hwajangsildo cheongsohalgeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "와, 고마워요. 그럼 한 시간 후에 다 끝낼 수 있겠어요.",
+      "reading": "Wa, gomawoyo. Geureom han sigan hue da kkeunnael su itgesseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 청소하는 동안 음악을 들을까요?",
+      "reading": "Geureonde cheongsohaneun dongan eumageul deureulkkayo?"
+    },
+    {
+      "speaker": "b",
+      "text": "좋아요. 신나는 음악을 들으면서 해요.",
+      "reading": "Joayo. Sinnaneun eumageul deureumyeonseo haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 시작해요!",
+      "reading": "Ne, sijakaeyo!"
+    }
+  ]
+}

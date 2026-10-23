@@ -1,0 +1,47 @@
+{
+  "lesson": "en-C3-03",
+  "title": "ต้องทำไหม",
+  "intro": "ถามครูเรื่องกฎของวิชาเรียนด้วย Do I have to …? และ Does she have to …?",
+  "items": {
+    "en.on-time": {
+      "meaning": "ตรงเวลา",
+      "translit": "ออน ไทม์"
+    },
+    "en.absent": {
+      "meaning": "ขาด (เรียน, งาน)",
+      "translit": "แอบเซินท์"
+    },
+    "en.attend": {
+      "meaning": "เข้าเรียน, เข้าร่วม",
+      "translit": "อะเทนด์"
+    },
+    "en.assignment": {
+      "meaning": "งานที่ได้รับมอบหมาย, งานส่งอาจารย์",
+      "translit": "อะไซน์เมนท์"
+    }
+  },
+  "dialogue": [
+    "ครูบราวน์ ฉันต้องเข้าเรียนทุกคาบไหม",
+    "ใช่ ต้องเข้า แล้วก็มาให้ตรงเวลาด้วยนะ",
+    "วันนี้พลอยเพื่อนฉันขาดเรียน เขาไม่สบาย",
+    "อ้าว แย่จังเลย",
+    "พลอยต้องทำงานที่สั่งวันนี้ไหม",
+    "ต้องทำ แต่ไม่จำเป็นต้องทำวันนี้",
+    "แล้วต้องทำให้เสร็จเมื่อไร",
+    "ก่อนวันจันทร์หน้า ช่วยบอกเขาด้วยได้ไหม"
+  ],
+  "notes": [
+    {
+      "title": "Do I have to …? / Does she have to …?",
+      "body": "ถามว่าต้องทำไหม: Do I have to attend every class? Does she have to do the assignment? ตอบสั้น ๆ: Yes, you do. / No, she doesn't. ประธาน he, she ใช้ does และหลัง does ใช้ have to เสมอ (ไม่ใช่ Does she has to …?)"
+    },
+    {
+      "title": "absent / attend",
+      "body": "absent = ขาด (เรียน งาน): She's absent today. ส่วน attend = เข้าเรียน เข้าร่วม (ทางการกว่า go to) ไม่ต้องมี to: attend class"
+    },
+    {
+      "title": "on time",
+      "body": "on time = ตรงเวลา ไม่สาย: Please come on time. ส่วน late = สาย"
+    }
+  ]
+}

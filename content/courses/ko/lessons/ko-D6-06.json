@@ -1,0 +1,85 @@
+{
+  "id": "ko-D6-06",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.pachulso",
+      "text": "파출소",
+      "reading": "pachulso"
+    },
+    {
+      "id": "ko.daesagwan",
+      "text": "대사관",
+      "reading": "daesagwan"
+    },
+    {
+      "id": "ko.gingeup",
+      "text": "긴급",
+      "reading": "gingeup"
+    },
+    {
+      "id": "ko.doum",
+      "text": "도움",
+      "reading": "doum"
+    },
+    {
+      "id": "ko.sago",
+      "text": "사고",
+      "reading": "sago"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "무슨 일이에요?",
+      "reading": "Museun irieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여권을 잃어버렸어요. 좀 도와주세요.",
+      "reading": "Yeogwoneul ireobeoryeosseoyo. Jom dowajuseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "언제, 어디에서 잃어버렸어요?",
+      "reading": "Eonje, eodieseo ireobeoryeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "어제 저녁에 명동에 있는 식당에서요. 밥을 먹다가 친구 전화를 받고 급하게 나와 버렸어요.",
+      "reading": "Eoje jeonyeoge Myeongdonge inneun sikdangeseoyo. Babeul meokdaga chingu jeonhwareul batgo geupage nawa beoryeosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그리고요?",
+      "reading": "Geurigoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "여권이 들어 있는 가방을 의자에 두고 와 버렸어요. 다시 갔지만 가방이 없었어요.",
+      "reading": "Yeogwoni deureo inneun gabangeul uijae dugo wa beoryeosseoyo. Dasi gatjiman gabangi eopseosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 여기 파출소에서 먼저 신고하세요. 그리고 대사관에도 가야 해요.",
+      "reading": "Geureom yeogi pachulsoeseo meonjeo singohaseyo. Geurigo daesagwanedo gaya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "대사관이요? 일주일 후에 태국에 가야 하는데요.",
+      "reading": "Daesagwaniyo? Iljuil hue Taeguge gaya haneundeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "걱정하지 마세요. 대사관에서 긴급 여권을 만들 수 있어요. 그리고 사고가 나거나 긴급한 일이 생기면 112로 전화하세요.",
+      "reading": "Geokjeonghaji maseyo. Daesagwaneseo gingeup yeogwoneul mandeul su isseoyo. Geurigo sagoga nageona gingeupan iri saenggimyeon iririro jeonhwahaseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 알겠어요. 도움 정말 감사합니다!",
+      "reading": "Ne, algesseoyo. Doum jeongmal gamsahamnida!"
+    }
+  ]
+}

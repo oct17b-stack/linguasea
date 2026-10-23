@@ -1,0 +1,72 @@
+{
+  "id": "en-C5-05",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.have-fun",
+      "kind": "phrase",
+      "text": "have fun",
+      "reading": "ˌhæv ˈfʌn"
+    },
+    {
+      "id": "en.meet-up",
+      "kind": "phrase",
+      "text": "meet up",
+      "reading": "ˌmiːt ˈʌp"
+    },
+    {
+      "id": "en.musical",
+      "text": "musical",
+      "reading": "ˈmjuːzɪkəl"
+    },
+    {
+      "id": "en.theme-park",
+      "text": "theme park",
+      "reading": "ˈθiːm ˌpɑːrk"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Hi, Nam! Did you have a good weekend?",
+      "reading": "ˈhaɪ, ˈnɑːm! dɪd juː ˈhæv ə ˈɡʊd ˈwiːkɛnd?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I did. I met up with my cousin Bee on Sunday.",
+      "reading": "ˈjɛs, aɪ ˈdɪd. aɪ ˈmɛt ˈʌp wɪð maɪ ˈkʌzən ˈbiː ɑːn ˈsʌndeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "What did you do?",
+      "reading": "ˈwʌt dɪd juː ˈduː?"
+    },
+    {
+      "speaker": "a",
+      "text": "We went to a theme park. We had a lot of fun!",
+      "reading": "wiː ˈwɛnt tu ə ˈθiːm ˌpɑːrk. wiː ˈhæd ə ˈlɑːt əv ˈfʌn!"
+    },
+    {
+      "speaker": "c",
+      "text": "Did you work on Saturday?",
+      "reading": "dɪd juː ˈwɜːrk ɑːn ˈsætərdeɪ?"
+    },
+    {
+      "speaker": "a",
+      "text": "Yes, I did. But on Saturday night, we saw a musical.",
+      "reading": "ˈjɛs, aɪ ˈdɪd. bʌt ɑːn ˈsætərdeɪ ˈnaɪt, wiː ˈsɔː ə ˈmjuːzɪkəl."
+    },
+    {
+      "speaker": "c",
+      "text": "A musical? Did you like it?",
+      "reading": "ə ˈmjuːzɪkəl? dɪd juː ˈlaɪk ɪt?"
+    },
+    {
+      "speaker": "a",
+      "text": "No, I didn't. It was too long!",
+      "reading": "ˈnoʊ, aɪ ˈdɪdənt. ɪt wʌz ˈtuː ˈlɔːŋ!"
+    }
+  ]
+}

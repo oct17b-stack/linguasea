@@ -1,0 +1,85 @@
+{
+  "id": "ko-D6-01",
+  "target": "ko",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ko.jiyeondoeda",
+      "text": "지연되다",
+      "reading": "jiyeondoeda"
+    },
+    {
+      "id": "ko.gyeolhangdoeda",
+      "text": "결항되다",
+      "reading": "gyeolhangdoeda"
+    },
+    {
+      "id": "ko.tapseung-hada",
+      "text": "탑승하다",
+      "reading": "tapseunghada"
+    },
+    {
+      "id": "ko.hanggongsa",
+      "text": "항공사",
+      "reading": "hanggongsa"
+    },
+    {
+      "id": "ko.suhamul",
+      "text": "수하물",
+      "reading": "suhamul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 방콕은 어땠어요? 가족들 잘 만났어요?",
+      "reading": "Nam ssi, Bangkogeun eottaesseoyo? Gajokdeul jal mannasseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 좋았어요. 그런데 올 때 비행기가 지연됐어요.",
+      "reading": "Ne, joasseoyo. Geureonde ol ttae bihaenggiga jiyeondwaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "정말요? 공항에서 얼마나 기다렸어요?",
+      "reading": "Jeongmaryo? Gonghangeseo eolmana gidaryeosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "두 시간이나 기다렸어요!",
+      "reading": "Du siganina gidaryeosseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "와, 두 시간이나요? 왜 지연됐어요?",
+      "reading": "Wa, du siganinayo? Wae jiyeondwaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "날씨 때문에 지연됐어요. 다른 비행기는 결항됐어요.",
+      "reading": "Nalssi ttaemune jiyeondwaesseoyo. Dareun bihaenggineun gyeolhangdwaesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "항공사에서 밥이라도 줬어요?",
+      "reading": "Hanggongsaeseo babirado jwosseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 음료수하고 과자를 줬어요.",
+      "reading": "Ne, eumnyosuhago gwajareul jwosseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "그럼 몇 시에 탑승했어요?",
+      "reading": "Geureom myeot sie tapseunghaesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "밤 열한 시에 탑승했어요. 그리고 도착해서 수하물도 한 시간이나 기다렸어요!",
+      "reading": "Bam yeolhan sie tapseunghaesseoyo. Geurigo dochakaeseo suhamuldo han siganina gidaryeosseoyo!"
+    }
+  ]
+}

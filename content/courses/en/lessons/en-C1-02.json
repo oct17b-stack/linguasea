@@ -1,0 +1,76 @@
+{
+  "id": "en-C1-02",
+  "target": "en",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "en.hate",
+      "text": "hate",
+      "reading": "heɪt"
+    },
+    {
+      "id": "en.dont-mind",
+      "kind": "phrase",
+      "text": "don't mind",
+      "reading": "ˌdoʊnt ˈmaɪnd"
+    },
+    {
+      "id": "en.paint",
+      "text": "paint",
+      "reading": "peɪnt"
+    },
+    {
+      "id": "en.video-game",
+      "text": "video game",
+      "reading": "ˈvɪdioʊ ˌɡeɪm"
+    },
+    {
+      "id": "en.board-game",
+      "text": "board game",
+      "reading": "ˈbɔːrd ˌɡeɪm"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "Nam, let's play video games on Thursday evening!",
+      "reading": "ˈnɑːm, ˈlɛts ˈpleɪ ˈvɪdioʊ ˌɡeɪmz ɑːn ˈθɜːrzdeɪ ˈiːvnɪŋ!"
+    },
+    {
+      "speaker": "a",
+      "text": "Sorry, Emma. I hate playing video games.",
+      "reading": "ˈsɑːri, ˈɛmə. aɪ ˈheɪt ˈpleɪɪŋ ˈvɪdioʊ ˌɡeɪmz."
+    },
+    {
+      "speaker": "c",
+      "text": "Oh! Do you like board games?",
+      "reading": "ˈoʊ! duː juː ˈlaɪk ˈbɔːrd ˌɡeɪmz?"
+    },
+    {
+      "speaker": "a",
+      "text": "I don't mind playing board games. They're OK.",
+      "reading": "aɪ ˈdoʊnt ˈmaɪnd ˈpleɪɪŋ ˈbɔːrd ˌɡeɪmz. ðɛr oʊˈkeɪ."
+    },
+    {
+      "speaker": "c",
+      "text": "Or we can paint together. I love painting!",
+      "reading": "ɔːr wiː kən ˈpeɪnt təˈɡɛðər. aɪ ˈlʌv ˈpeɪntɪŋ!"
+    },
+    {
+      "speaker": "a",
+      "text": "I don't like painting. It's difficult for me.",
+      "reading": "aɪ ˈdoʊnt ˈlaɪk ˈpeɪntɪŋ. ɪts ˈdɪfɪkəlt fər miː."
+    },
+    {
+      "speaker": "c",
+      "text": "OK, board games, then!",
+      "reading": "oʊˈkeɪ, ˈbɔːrd ˌɡeɪmz, ˈðɛn!"
+    },
+    {
+      "speaker": "a",
+      "text": "Great! See you on Thursday!",
+      "reading": "ˈɡreɪt! ˈsiː juː ɑːn ˈθɜːrzdeɪ!"
+    }
+  ]
+}
