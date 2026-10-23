@@ -1,0 +1,65 @@
+{
+  "id": "ja-B16-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.ekiin",
+      "text": "えきいん",
+      "reading": "ekiin"
+    },
+    {
+      "id": "ja.todokemasu",
+      "text": "とどけます",
+      "reading": "todokemasu"
+    },
+    {
+      "id": "ja.azukarimasu",
+      "text": "あずかります",
+      "reading": "azukarimasu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "きのう、ナムさんは でんしゃの 中に かさを わすれました。",
+        "reading": "Kinō, Namu-san wa densha no naka ni kasa o wasuremashita."
+      },
+      {
+        "text": "駅で えきいんに ききましたが、かさは ありませんでした。",
+        "reading": "Eki de ekiin ni kikimashita ga, kasa wa arimasen deshita."
+      }
+    ],
+    [
+      {
+        "text": "きょう、駅から でんわが ありました。",
+        "reading": "Kyō, eki kara denwa ga arimashita."
+      },
+      {
+        "text": "だれかが かさを 駅に とどけました。",
+        "reading": "Dareka ga kasa o eki ni todokemashita."
+      },
+      {
+        "text": "えきいんが かさを あずかりました。",
+        "reading": "Ekiin ga kasa o azukarimashita."
+      },
+      {
+        "text": "ナムさんは 駅へ かさを とりに いきました。",
+        "reading": "Namu-san wa eki e kasa o tori ni ikimashita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

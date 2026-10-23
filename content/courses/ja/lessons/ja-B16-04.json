@@ -1,0 +1,62 @@
+{
+  "id": "ja-B16-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.otoko",
+      "text": "男",
+      "reading": "otoko",
+      "say": "おとこ"
+    },
+    {
+      "id": "ja.onna",
+      "text": "女",
+      "reading": "onna",
+      "say": "おんな"
+    },
+    {
+      "id": "ja.otearai",
+      "text": "おてあらい",
+      "reading": "otearai"
+    },
+    {
+      "id": "ja.iriguchi",
+      "text": "入口",
+      "reading": "iriguchi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆきさん、おてあらいは どこですか。",
+      "reading": "Yuki-san, otearai wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "あそこです。入口の となりですよ。",
+      "reading": "Asoko desu. Iriguchi no tonari desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "あの かんじは なんですか。",
+      "reading": "Ano kanji wa nan desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "男です。おとこの ひとの トイレです。",
+      "reading": "Otoko desu. Otoko no hito no toire desu."
+    },
+    {
+      "speaker": "a",
+      "text": "あかい かんじは 女ですね。",
+      "reading": "Akai kanji wa onna desu ne."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、おんなの ひとの トイレです。",
+      "reading": "Hai, onna no hito no toire desu."
+    }
+  ]
+}

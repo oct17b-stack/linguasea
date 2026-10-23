@@ -1,0 +1,60 @@
+{
+  "id": "ja-B16-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.mayoimashita",
+      "text": "まよいました",
+      "reading": "mayoimashita"
+    },
+    {
+      "id": "ja.okuremashita",
+      "text": "おくれました",
+      "reading": "okuremashita"
+    },
+    {
+      "id": "ja.maniaimasu",
+      "text": "まにあいます",
+      "reading": "maniaimasu"
+    },
+    {
+      "id": "ja.saigo",
+      "text": "さいご",
+      "reading": "saigo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、みちに まよいました。駅は どこですか。",
+      "reading": "Sumimasen, michi ni mayoimashita. Eki wa doko desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "駅ですか。この みちを まっすぐですよ。",
+      "reading": "Eki desu ka. Kono michi o massugu desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "さいごの でんしゃに まにあいますか。",
+      "reading": "Saigo no densha ni maniaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "さいごの でんしゃは 12時です。いま 11時半ですから、まにあいますよ。",
+      "reading": "Saigo no densha wa jūniji desu. Ima jūichiji han desu kara, maniaimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。きのうは でんしゃに おくれました。",
+      "reading": "Yokatta. Kinō wa densha ni okuremashita."
+    },
+    {
+      "speaker": "b",
+      "text": "きを つけて。",
+      "reading": "Ki o tsukete."
+    }
+  ]
+}

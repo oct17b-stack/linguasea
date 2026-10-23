@@ -1,0 +1,60 @@
+{
+  "id": "ja-B16-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kowaremashita",
+      "text": "こわれました",
+      "reading": "kowaremashita"
+    },
+    {
+      "id": "ja.ugokimasen",
+      "text": "うごきません",
+      "reading": "ugokimasen"
+    },
+    {
+      "id": "ja.komarimashita",
+      "text": "こまりました",
+      "reading": "komarimashita"
+    },
+    {
+      "id": "ja.naoshimasu",
+      "text": "なおします",
+      "reading": "naoshimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、カメラが こわれました。",
+      "reading": "Sumimasen, kamera ga kowaremashita."
+    },
+    {
+      "speaker": "b",
+      "text": "どこが こわれましたか。",
+      "reading": "Doko ga kowaremashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりません。まったく うごきません。",
+      "reading": "Wakarimasen. Mattaku ugokimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。なおしますか。",
+      "reading": "Sō desu ka. Naoshimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。あした りょこうに いきますから、こまりました。",
+      "reading": "Hai, onegaishimasu. Ashita ryokō ni ikimasu kara, komarimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "あしたの あさ 9時には なおりますよ。",
+      "reading": "Ashita no asa kuji ni wa naorimasu yo."
+    }
+  ]
+}

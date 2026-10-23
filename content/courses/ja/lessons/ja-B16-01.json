@@ -1,0 +1,61 @@
+{
+  "id": "ja-B16-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.tasukete",
+      "kind": "phrase",
+      "text": "たすけて",
+      "reading": "tasukete"
+    },
+    {
+      "id": "ja.yobimasu",
+      "text": "よびます",
+      "reading": "yobimasu"
+    },
+    {
+      "id": "ja.hyakutooban",
+      "text": "ひゃくとおばん",
+      "reading": "hyakutōban"
+    },
+    {
+      "id": "ja.keisatsukan",
+      "text": "けいさつかん",
+      "reading": "keisatsukan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "たすけて！",
+      "reading": "Tasukete!"
+    },
+    {
+      "speaker": "a",
+      "text": "だいじょうぶですか。",
+      "reading": "Daijōbu desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしの かばんが ありません！",
+      "reading": "Watashi no kaban ga arimasen!"
+    },
+    {
+      "speaker": "a",
+      "text": "けいさつかんを よびます。ひゃくとおばんに でんわを かけます。",
+      "reading": "Keisatsukan o yobimasu. Hyakutōban ni denwa o kakemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、ひゃくとおばんです。",
+      "reading": "Hai, hyakutōban desu."
+    },
+    {
+      "speaker": "a",
+      "text": "もしもし、駅の 北口です。おんなの ひとの かばんが ありません。",
+      "reading": "Moshimoshi, eki no kitaguchi desu. Onna no hito no kaban ga arimasen."
+    }
+  ]
+}

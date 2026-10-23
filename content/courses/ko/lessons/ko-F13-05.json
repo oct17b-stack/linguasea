@@ -1,0 +1,95 @@
+{
+  "id": "ko-F13-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.seukol",
+      "text": "스콜",
+      "reading": "seukol"
+    },
+    {
+      "id": "ko.sonagi",
+      "text": "소나기",
+      "reading": "sonagi"
+    },
+    {
+      "id": "ko.chimsudoeda",
+      "text": "침수되다",
+      "reading": "chimsudoeda"
+    },
+    {
+      "id": "ko.jeongche",
+      "text": "정체",
+      "reading": "jeongche"
+    },
+    {
+      "id": "ko.ubi",
+      "text": "우비",
+      "reading": "ubi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "어머, 갑자기 비가 쏟아지네! 아까까지 맑았잖아.",
+      "reading": "Eomeo, gapjagi biga ssodajine! Akkakkaji malgatjana."
+    },
+    {
+      "speaker": "a",
+      "text": "이게 바로 스콜이에요. 우기에는 오후에 갑자기 비가 오기 일쑤예요.",
+      "reading": "Ige baro seukorieyo. Ugieneun ohue gapjagi biga ogi ilssuyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "한국의 소나기랑 비슷하네. 금방 그치지?",
+      "reading": "Hangugui sonagirang biseutane. Geumbang geuchiji?"
+    },
+    {
+      "speaker": "a",
+      "text": "보통 한 시간쯤이면 그쳐요. 그런데 비가 많이 오면 길이 침수되기 일쑤예요.",
+      "reading": "Botong han siganjjeumimyeon geuchyeoyo. Geureonde biga mani omyeon giri chimsudoegi ilssuyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "길이 침수된다고? 그럼 차도 못 다니겠네.",
+      "reading": "Giri chimsudoendago? Geureom chado mot danigenne."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 그래서 비가 오면 교통 정체가 정말 심해요. 이 시간에는 택시를 타도 길에서 한 시간씩 서 있기 일쑤예요.",
+      "reading": "Ne, geuraeseo biga omyeon gyotong jeongchega jeongmal simhaeyo. I siganeneun taeksireul tado gireseo han siganssik seo itgi ilssuyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그럼 지금은 어떻게 하는 게 좋을까?",
+      "reading": "Geureom jigeumeun eotteoke haneun ge joeulkka?"
+    },
+    {
+      "speaker": "a",
+      "text": "비가 그칠 때까지 여기 카페에서 기다려요. 그리고 제가 편의점에서 우비를 사 올게요.",
+      "reading": "Biga geuchil ttaekkaji yeogi kapeeseo gidaryeoyo. Geurigo jega pyeonuijeomeseo ubireul sa olgeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "우산보다 우비가 나아?",
+      "reading": "Usanboda ubiga naa?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 스콜은 바람도 세서 우산을 써도 옷이 다 젖기 일쑤예요.",
+      "reading": "Ne, seukoreun baramdo seseo usaneul sseodo osi da jeotgi ilssuyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "역시 현지인한테 배워야 해. 그럼 커피 마시면서 기다리자.",
+      "reading": "Yeoksi hyeonjiinhante baewoya hae. Geureom keopi masimyeonseo gidarija."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 비가 그치면 지상철 타고 가요. 지상철은 비가 와도 안 막히거든요.",
+      "reading": "Ne, biga geuchimyeon jisangcheol tago gayo. Jisangcheoreun biga wado an makigeodeunyo."
+    }
+  ]
+}

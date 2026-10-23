@@ -1,0 +1,92 @@
+{
+  "id": "ko-F13-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sinseong-hada",
+      "text": "신성하다",
+      "reading": "sinseonghada"
+    },
+    {
+      "id": "ko.hapjang-hada",
+      "text": "합장하다",
+      "reading": "hapjanghada"
+    },
+    {
+      "id": "ko.meorireul-manjida",
+      "kind": "phrase",
+      "text": "머리를 만지다",
+      "reading": "meorireul manjida"
+    },
+    {
+      "id": "ko.ballo-garikida",
+      "kind": "phrase",
+      "text": "발로 가리키다",
+      "reading": "ballo garikida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 이 여행 책에 '태국에서는 머리를 신성하게 여기니 아이의 머리도 만지지 말 것'이라고 쓰여 있네.",
+      "reading": "Nam ssi, i yeohaeng chaege 'Taegugeseoneun meorireul sinseonghage yeogini aiui meorido manjiji mal geot'irago sseuyeo inne."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 한국에서는 귀여운 아이를 보면 머리를 만지면서 칭찬하잖아요. 그런데 태국에서는 실례가 될 수 있어요.",
+      "reading": "Majayo. Hangugeseoneun gwiyeoun aireul bomyeon meorireul manjimyeonseo chingchanhajanayo. Geureonde Taegugeseoneun sillyega doel su isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇구나. 그럼 발은?",
+      "reading": "Geureokuna. Geureom bareun?"
+    },
+    {
+      "speaker": "a",
+      "text": "발은 몸에서 가장 낮은 곳이라서 발로 가리키면 큰 실례예요. 발로 문을 닫는 것도 안 돼요.",
+      "reading": "Bareun momeseo gajang najeun gosiraseo ballo garikimyeon keun sillyeyeyo. Ballo muneul danneun geotdo an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "책에도 '발은 낮은 것으로 여겨지니 물건을 발로 가리키지 마십시오'라고 나와 있어.",
+      "reading": "Chaegedo 'bareun najeun geoseuro yeogyeojini mulgeoneul ballo garikiji masipsio'rago nawa isseo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 인사할 때는 이렇게 합장하고 고개를 숙여요. 이걸 '와이'라고 해요.",
+      "reading": "Geurigo insahal ttaeneun ireoke hapjanghago gogaereul sugyeoyo. Igeol 'wai'rago haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "손을 높이 올릴수록 더 공손한 거야?",
+      "reading": "Soneul nopi ollilsurok deo gongsonhan geoya?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 스님이나 어른께는 손을 더 높이 올려요. 그리고 스님은 신성한 분으로 여겨지니 여자는 스님 몸을 만지면 안 돼요.",
+      "reading": "Ne, seunimina eoreunkkeneun soneul deo nopi ollyeoyo. Geurigo seunimeun sinseonghan buneuro yeogyeojini yeojaneun seunim momeul manjimyeon an dwaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 그건 꼭 기억해야겠다. 우리 둘 다 조심해야겠네.",
+      "reading": "A, geugeon kkok gieokaeyagetda. Uri dul da josimhaeyagenne."
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그리고 왕실 사진이나 국왕에 대해서도 말을 조심해야 해요.",
+      "reading": "Ne. Geurigo wangsil sajinina gugwange daehaeseodo mareul josimhaeya haeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "알았어. 나라마다 금기가 다르니 미리 알아 두는 게 중요하구나.",
+      "reading": "Arasseo. Naramada geumgiga dareuni miri ara duneun ge jungyohaguna."
+    },
+    {
+      "speaker": "a",
+      "text": "맞아요. 선생님은 벌써 반은 태국 사람이 되셨어요!",
+      "reading": "Majayo. Seonsaengnimeun beolsseo baneun Taeguk sarami doesyeosseoyo!"
+    }
+  ]
+}

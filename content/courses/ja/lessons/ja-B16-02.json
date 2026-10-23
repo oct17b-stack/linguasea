@@ -1,0 +1,60 @@
+{
+  "id": "ja-B16-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.nakushimashita",
+      "text": "なくしました",
+      "reading": "nakushimashita"
+    },
+    {
+      "id": "ja.otoshimashita",
+      "text": "おとしました",
+      "reading": "otoshimashita"
+    },
+    {
+      "id": "ja.wasuremashita",
+      "text": "わすれました",
+      "reading": "wasuremashita"
+    },
+    {
+      "id": "ja.saifu",
+      "text": "さいふ",
+      "reading": "saifu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、さいふを なくしました。",
+      "reading": "Sumimasen, saifu o nakushimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "どこで おとしましたか。",
+      "reading": "Doko de otoshimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "でんしゃの 中に わすれました。",
+      "reading": "Densha no naka ni wasuremashita."
+    },
+    {
+      "speaker": "b",
+      "text": "なんじの でんしゃですか。",
+      "reading": "Nanji no densha desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "10時半ごろの でんしゃです。",
+      "reading": "Jūji han goro no densha desu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。こちらへ どうぞ。",
+      "reading": "Wakarimashita. Kochira e dōzo."
+    }
+  ]
+}

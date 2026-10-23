@@ -1,0 +1,60 @@
+{
+  "id": "ja-B16-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kouban",
+      "text": "こうばん",
+      "reading": "kōban"
+    },
+    {
+      "id": "ja.omawarisan",
+      "text": "おまわりさん",
+      "reading": "omawarisan"
+    },
+    {
+      "id": "ja.arimashita",
+      "text": "ありました",
+      "reading": "arimashita"
+    },
+    {
+      "id": "ja.mitsukarimashita",
+      "text": "みつかりました",
+      "reading": "mitsukarimashita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、こうばんは あそこですよ。",
+      "reading": "Namu-san, kōban wa asoko desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、おまわりさん。さいふを なくしました。",
+      "reading": "Sumimasen, omawarisan. Saifu o nakushimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "どんな さいふですか。",
+      "reading": "Donna saifu desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "くろい さいふです。中に カードと 20,000円が ありました。",
+      "reading": "Kuroi saifu desu. Naka ni kādo to niman en ga arimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "あ、これですか。けさ みつかりました。",
+      "reading": "A, kore desu ka. Kesa mitsukarimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった！ ありがとうございます。",
+      "reading": "Yokatta! Arigatō gozaimasu."
+    }
+  ]
+}

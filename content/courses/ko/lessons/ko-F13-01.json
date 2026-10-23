@@ -1,0 +1,91 @@
+{
+  "id": "ko-F13-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.miso",
+      "text": "미소",
+      "reading": "miso"
+    },
+    {
+      "id": "ko.gwangwanggaek",
+      "text": "관광객",
+      "reading": "gwangwanggaek"
+    },
+    {
+      "id": "ko.hyeonjiin",
+      "text": "현지인",
+      "reading": "hyeonjiin"
+    },
+    {
+      "id": "ko.gilgeori-eumsik",
+      "kind": "phrase",
+      "text": "길거리 음식",
+      "reading": "gilgeori eumsik"
+    },
+    {
+      "id": "ko.chingeun-hada",
+      "text": "친근하다",
+      "reading": "chingeunhada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "선생님, 방콕에 오신 첫날인데 어떠셨어요?",
+      "reading": "Seonsaengnim, Bangkoge osin cheonnarinde eotteosyeosseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "남 씨, 여기서는 수업이 아니니까 나 편하게 말할게. 생각보다 훨씬 좋더라.",
+      "reading": "Nam ssi, yeogiseoneun sueobi aninikka na pyeonhage malhalge. Saenggakboda hwolssin joteora."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 편하게 말씀하세요. 뭐가 제일 인상적이셨어요?",
+      "reading": "Ne, pyeonhage malsseumhaseyo. Mwoga jeil insangjeogisyeosseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "사람들이 정말 잘 웃더라. 처음 보는 나한테도 미소를 지으면서 인사하더라고.",
+      "reading": "Saramdeuri jeongmal jal utdeora. Cheoeum boneun nahantedo misoreul jieumyeonseo insahadeorago."
+    },
+    {
+      "speaker": "a",
+      "text": "그래서 태국을 '미소의 나라'라고 부르잖아요.",
+      "reading": "Geuraeseo Taegugeul 'misoui nara'rago bureujanayo."
+    },
+    {
+      "speaker": "c",
+      "text": "그리고 관광객이 정말 많더라. 시장에 가 보니까 현지인보다 외국 사람이 더 많은 것 같았어.",
+      "reading": "Geurigo gwangwanggaegi jeongmal manteora. Sijange ga bonikka hyeonjiinboda oeguk sarami deo maneun geot gatasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "거기는 관광지라서 그래요. 현지인들이 많이 가는 곳은 따로 있어요.",
+      "reading": "Geogineun gwangwangjiraseo geuraeyo. Hyeonjiindeuri mani ganeun goseun ttaro isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아, 그리고 길거리 음식이 진짜 맛있더라! 어젯밤에 먹은 국수가 아직도 생각나.",
+      "reading": "A, geurigo gilgeori eumsigi jinjja masitdeora! Eojetbame meogeun guksuga ajikdo saenggangna."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 처음 서울에 갔을 때 시장 음식이 정말 맛있더라고요.",
+      "reading": "Jeodo cheoeum Seoure gasseul ttae sijang eumsigi jeongmal masitdeoragoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "사람들도 음식도 다 친근하게 느껴져. 처음 온 곳 같지 않아.",
+      "reading": "Saramdeuldo eumsikdo da chingeunhage neukkyeojyeo. Cheoeum on got gatji ana."
+    },
+    {
+      "speaker": "a",
+      "text": "다행이에요. 내일은 현지인처럼 방콕을 구경시켜 드릴게요.",
+      "reading": "Dahaengieyo. Naeireun hyeonjiincheoreom Bangkogeul gugyeongsikyeo deurilgeyo."
+    }
+  ]
+}

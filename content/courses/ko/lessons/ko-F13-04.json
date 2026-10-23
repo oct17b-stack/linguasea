@@ -1,0 +1,96 @@
+{
+  "id": "ko-F13-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.tuktuk",
+      "text": "툭툭",
+      "reading": "tuktuk"
+    },
+    {
+      "id": "ko.miteogi",
+      "text": "미터기",
+      "reading": "miteogi"
+    },
+    {
+      "id": "ko.sagi",
+      "text": "사기",
+      "reading": "sagi"
+    },
+    {
+      "id": "ko.dang-hada",
+      "text": "당하다",
+      "reading": "danghada"
+    },
+    {
+      "id": "ko.hogaek-haengwi",
+      "kind": "phrase",
+      "text": "호객 행위",
+      "reading": "hogaek haengwi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 아까 왕궁에 가려고 툭툭을 타려다가 그냥 걸어왔어.",
+      "reading": "Nam ssi, akka wanggunge garyeogo tuktugeul taryeodaga geunyang georeowasseo."
+    },
+    {
+      "speaker": "a",
+      "text": "왜요? 무슨 일이 있었어요?",
+      "reading": "Waeyo? Museun iri isseosseoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "툭툭 기사가 오늘은 왕궁이 문을 닫았다면서 다른 곳에 데려다준다고 하더라.",
+      "reading": "Tuktuk gisaga oneureun wanggungi muneul dadatdamyeonseo dareun gose deryeodajundago hadeora."
+    },
+    {
+      "speaker": "a",
+      "text": "그건 유명한 사기예요. 왕궁은 오늘도 문을 열었어요.",
+      "reading": "Geugeon yumyeonghan sagiyeyo. Wanggungeun oneuldo muneul yeoreosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "정말? 하마터면 사기를 당할 뻔했네.",
+      "reading": "Jeongmal? Hamateomyeon sagireul danghal ppeonhaenne."
+    },
+    {
+      "speaker": "a",
+      "text": "관광지 앞에서는 호객 행위가 많아요. 모르는 사람이 먼저 말을 걸면 조심하세요.",
+      "reading": "Gwangwangji apeseoneun hogaek haengwiga manayo. Moreuneun sarami meonjeo mareul geolmyeon josimhaseyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래서 택시를 타려다가 미터기를 안 켜길래 그냥 내렸어.",
+      "reading": "Geuraeseo taeksireul taryeodaga miteogireul an kyeogillae geunyang naeryeosseo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘하셨어요. 택시는 꼭 미터기로 가자고 하세요. 앱으로 부르는 것도 안전해요.",
+      "reading": "Jalhasyeosseoyo. Taeksineun kkok miteogiro gajago haseyo. Aebeuro bureuneun geotdo anjeonhaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "툭툭은 원래 미터기가 없지?",
+      "reading": "Tuktugeun wollae miteogiga eopji?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 툭툭은 타기 전에 가격을 정해야 해요. 그래도 한 번은 타 보세요. 재미있거든요.",
+      "reading": "Ne, tuktugeun tagi jeone gagyeogeul jeonghaeya haeyo. Geuraedo han beoneun ta boseyo. Jaemiitgeodeunyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그래, 다음에는 남 씨랑 같이 탈래. 혼자 탔다가 또 속을까 봐 무서워.",
+      "reading": "Geurae, daeumeneun Nam ssirang gachi tallae. Honja tatdaga tto sogeulkka bwa museowo."
+    },
+    {
+      "speaker": "a",
+      "text": "내일 같이 타요. 제가 가격 흥정도 해 드릴게요.",
+      "reading": "Naeil gachi tayo. Jega gagyeok heungjeongdo hae deurilgeyo."
+    }
+  ]
+}
