@@ -1,0 +1,90 @@
+{
+  "id": "ja-D4-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.noriokureru",
+      "text": "のりおくれる",
+      "reading": "noriokureru"
+    },
+    {
+      "id": "ja.shuuden",
+      "text": "終電",
+      "reading": "shūden"
+    },
+    {
+      "id": "ja.shihatsu",
+      "text": "始発",
+      "reading": "shihatsu"
+    },
+    {
+      "id": "ja.unkyuu",
+      "text": "運休",
+      "reading": "unkyū"
+    },
+    {
+      "id": "ja.chien",
+      "text": "ちえん",
+      "reading": "chien"
+    },
+    {
+      "id": "ja.moshi",
+      "text": "もし",
+      "reading": "moshi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。この 駅の 終電は なんじですか。",
+      "reading": "Sumimasen. Kono eki no shūden wa nanji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "11時 50ぷんです。",
+      "reading": "Jūichiji gojuppun desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いま 11時 40ぷんですね。まにあいますか。",
+      "reading": "Ima jūichiji yonjuppun desu ne. Maniaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いそげば まにあいますよ。3ばんせんです。",
+      "reading": "Isogeba maniaimasu yo. Sanbansen desu."
+    },
+    {
+      "speaker": "a",
+      "text": "もし 終電に のりおくれたら、どう なりますか。",
+      "reading": "Moshi shūden ni noriokuretara, dō narimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "あさの 始発まで でんしゃは ありません。始発は 5時です。",
+      "reading": "Asa no shihatsu made densha wa arimasen. Shihatsu wa goji desu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。あしたは ちえんが ありますか。",
+      "reading": "Wakarimashita. Ashita wa chien ga arimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "台風が くれば、ちえんや 運休が あるかもしれません。",
+      "reading": "Taifū ga kureba, chien ya unkyū ga aru kamoshiremasen."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。ニュースを みれば わかりますか。",
+      "reading": "Sō desu ka. Nyūsu o mireba wakarimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、ニュースか 駅の アプリを みれば わかりますよ。さあ、いそいで ください！",
+      "reading": "Ē, nyūsu ka eki no apuri o mireba wakarimasu yo. Sā, isoide kudasai!"
+    }
+  ]
+}

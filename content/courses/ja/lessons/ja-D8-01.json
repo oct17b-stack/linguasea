@@ -1,0 +1,85 @@
+{
+  "id": "ja-D8-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.uwasa",
+      "text": "うわさ",
+      "reading": "uwasa"
+    },
+    {
+      "id": "ja.heiten",
+      "text": "へいてん",
+      "reading": "heiten"
+    },
+    {
+      "id": "ja.kaiten",
+      "text": "開店",
+      "reading": "kaiten"
+    },
+    {
+      "id": "ja.neage",
+      "text": "ねあげ",
+      "reading": "neage"
+    },
+    {
+      "id": "ja.iten",
+      "text": "いてん",
+      "reading": "iten"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、だいがくの まえの カフェ、へいてんするそうだよ。",
+      "reading": "Yuki, daigaku no mae no kafe, heiten suru sō da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "え、ほんとう？だれに きいたの？",
+      "reading": "E, hontō? Dare ni kiita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "あそこで アルバイトを して いる ともだちに きいたの。でも、へいてんじゃ なくて、いてんすると いう うわさも あるよ。",
+      "reading": "Asoko de arubaito o shite iru tomodachi ni kiita no. Demo, heiten ja nakute, iten suru to iu uwasa mo aru yo."
+    },
+    {
+      "speaker": "c",
+      "text": "いてん？どこに？",
+      "reading": "Iten? Doko ni?"
+    },
+    {
+      "speaker": "a",
+      "text": "駅の ちかくに いてんして、来月 開店するそうだよ。",
+      "reading": "Eki no chikaku ni iten shite, raigetsu kaiten suru sō da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "よかった。あの カフェの ケーキ、だいすきなんだ。",
+      "reading": "Yokatta. Ano kafe no kēki, daisuki na n da."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、ケーキは 50円 ねあげするそうだよ。",
+      "reading": "Demo, kēki wa gojū en neage suru sō da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "えー、ざんねん。でも、うわさだから、ほんとうか どうか わからないね。",
+      "reading": "Ē, zannen. Demo, uwasa da kara, hontō ka dō ka wakaranai ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうだね。あした カフェに いって、きいて みよう。",
+      "reading": "Sō da ne. Ashita kafe ni itte, kiite miyō."
+    },
+    {
+      "speaker": "c",
+      "text": "うん、いっしょに いこう！",
+      "reading": "Un, issho ni ikō!"
+    }
+  ]
+}

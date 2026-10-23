@@ -1,0 +1,85 @@
+{
+  "id": "ja-D6-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.tensaku",
+      "text": "てんさく",
+      "reading": "tensaku"
+    },
+    {
+      "id": "ja.kakunin",
+      "text": "かくにん",
+      "reading": "kakunin"
+    },
+    {
+      "id": "ja.machigai",
+      "text": "まちがい",
+      "reading": "machigai"
+    },
+    {
+      "id": "ja.chekku",
+      "text": "チェック",
+      "reading": "chekku"
+    },
+    {
+      "id": "ja.shuuri",
+      "text": "しゅうり",
+      "reading": "shūri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、それ なに？",
+      "reading": "Namu, sore nani?"
+    },
+    {
+      "speaker": "a",
+      "text": "にほんごの にっきだよ。やまだせんせいに てんさくして もらったんだ。",
+      "reading": "Nihongo no nikki da yo. Yamada-sensei ni tensaku shite moratta n da."
+    },
+    {
+      "speaker": "c",
+      "text": "へえ。せんせいは なにを なおして くれたの？",
+      "reading": "Hē. Sensei wa nani o naoshite kureta no?"
+    },
+    {
+      "speaker": "a",
+      "text": "まちがいを ぜんぶ チェックして もらった。かんじの まちがいが おおかった。",
+      "reading": "Machigai o zenbu chekku shite moratta. Kanji no machigai ga ōkatta."
+    },
+    {
+      "speaker": "c",
+      "text": "いい せんせいだね。わたしも きのう、パソコンを しゅうりして もらったよ。",
+      "reading": "Ii sensei da ne. Watashi mo kinō, pasokon o shūri shite moratta yo."
+    },
+    {
+      "speaker": "a",
+      "text": "え、パソコンが こわれたの？",
+      "reading": "E, pasokon ga kowareta no?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。でも、みせの ひとに 1じかんで しゅうりして もらった。",
+      "reading": "Un. Demo, mise no hito ni ichijikan de shūri shite moratta."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったね。しゅくだいは だいじょうぶ？",
+      "reading": "Yokatta ne. Shukudai wa daijōbu?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん。みせの ひとに なかみも かくにんして もらったから、だいじょうぶ。",
+      "reading": "Un. Mise no hito ni nakami mo kakunin shite moratta kara, daijōbu."
+    },
+    {
+      "speaker": "a",
+      "text": "それなら 安心だね。",
+      "reading": "Sore nara anshin da ne."
+    }
+  ]
+}

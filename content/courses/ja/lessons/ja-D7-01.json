@@ -1,0 +1,85 @@
+{
+  "id": "ja-D7-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.sabishii",
+      "text": "さびしい",
+      "reading": "sabishii"
+    },
+    {
+      "id": "ja.kanashii",
+      "text": "かなしい",
+      "reading": "kanashii"
+    },
+    {
+      "id": "ja.kowai",
+      "text": "こわい",
+      "reading": "kowai"
+    },
+    {
+      "id": "ja.taikutsu",
+      "text": "たいくつ",
+      "reading": "taikutsu"
+    },
+    {
+      "id": "ja.hazukashii",
+      "text": "はずかしい",
+      "reading": "hazukashii"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "ゆき、うれしそうだね。なにか いい こと あった？",
+      "reading": "Yuki, ureshisō da ne. Nanika ii koto atta?"
+    },
+    {
+      "speaker": "c",
+      "text": "うん！めんせつに ごうかくしたの。でも、めんせつで なまえを まちがえて、はずかしかった。",
+      "reading": "Un! Mensetsu ni gōkaku shita no. Demo, mensetsu de namae o machigaete, hazukashikatta."
+    },
+    {
+      "speaker": "a",
+      "text": "ははは。ごうかく、おめでとう！",
+      "reading": "Hahaha. Gōkaku, omedetō!"
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。ナムは ちょっと さびしそうだね。",
+      "reading": "Arigatō. Namu wa chotto sabishisō da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。きのう ファーが タイに かえったから。",
+      "reading": "Un. Kinō Fā ga Tai ni kaetta kara."
+    },
+    {
+      "speaker": "c",
+      "text": "そうか。じゃあ、いっしょに えいがを みない？この えいがは どう？",
+      "reading": "Sō ka. Jā, issho ni eiga o minai? Kono eiga wa dō?"
+    },
+    {
+      "speaker": "a",
+      "text": "かなしそうだね。わたし、泣いて しまうかも。",
+      "reading": "Kanashisō da ne. Watashi, naite shimau kamo."
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、これは？",
+      "reading": "Jā, kore wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "こわそう！こわい えいがは にがてなの。れきしの えいがは たいくつそうだし…。",
+      "reading": "Kowasō! Kowai eiga wa nigate na no. Rekishi no eiga wa taikutsusō da shi…"
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、コメディーに しよう！",
+      "reading": "Jā, komedī ni shiyō!"
+    }
+  ]
+}

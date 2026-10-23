@@ -1,0 +1,85 @@
+{
+  "id": "ja-D2-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.ryokougaisha",
+      "text": "旅行会社",
+      "reading": "ryokōgaisha"
+    },
+    {
+      "id": "ja.tsuaa",
+      "text": "ツアー",
+      "reading": "tsuā"
+    },
+    {
+      "id": "ja.fukumu",
+      "text": "ふくむ",
+      "reading": "fukumu"
+    },
+    {
+      "id": "ja.aki-vacancy",
+      "text": "空き",
+      "reading": "aki"
+    },
+    {
+      "id": "ja.moushikomu",
+      "text": "もうしこむ",
+      "reading": "mōshikomu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "いらっしゃいませ。",
+      "reading": "Irasshaimase."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。ともだちが この 旅行会社の ツアーは いいと いって いたので、きました。",
+      "reading": "Sumimasen. Tomodachi ga kono ryokōgaisha no tsuā wa ii to itte ita node, kimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとうございます。どんな ツアーが いいでしょうか。",
+      "reading": "Arigatō gozaimasu. Donna tsuā ga ii deshō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ほっかいどうの おたるに 日帰りで いく ツアーは ありますか。",
+      "reading": "Hokkaidō no Otaru ni higaeri de iku tsuā wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。この ツアーは いかがでしょうか。",
+      "reading": "Hai. Kono tsuā wa ikaga deshō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "この ねだんは、ひるごはんも ふくんで いるでしょうか。",
+      "reading": "Kono nedan wa, hirugohan mo fukunde iru deshō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、ひるごはんの ひようも ふくんで います。",
+      "reading": "Hai, hirugohan no hiyō mo fukunde imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "2月23日に 空きは あるでしょうか。",
+      "reading": "Nigatsu nijūsannichi ni aki wa aru deshō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "すこし おまちください。はい、空きが ありますよ。",
+      "reading": "Sukoshi omachi kudasai. Hai, aki ga arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。じゃあ、ふたり もうしこみたいんですが。",
+      "reading": "Yokatta. Jā, futari mōshikomitai n desu ga."
+    }
+  ]
+}

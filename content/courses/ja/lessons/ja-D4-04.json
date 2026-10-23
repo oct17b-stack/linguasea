@@ -1,0 +1,85 @@
+{
+  "id": "ja-D4-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kenbaiki",
+      "text": "けんばいき",
+      "reading": "kenbaiki"
+    },
+    {
+      "id": "ja.seisan",
+      "text": "せいさん",
+      "reading": "seisan"
+    },
+    {
+      "id": "ja.hyouji",
+      "text": "ひょうじ",
+      "reading": "hyōji"
+    },
+    {
+      "id": "ja.fusoku",
+      "text": "不足",
+      "reading": "fusoku"
+    },
+    {
+      "id": "ja.zandaka",
+      "text": "ざんだか",
+      "reading": "zandaka"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "あれ？かいさつを でる ことが できません。",
+      "reading": "Are? Kaisatsu o deru koto ga dekimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "カードの ざんだかが 不足して いますね。",
+      "reading": "Kādo no zandaka ga fusoku shite imasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ざんだかが 不足すると、でる ことが できないんですか。",
+      "reading": "Zandaka ga fusoku suru to, deru koto ga dekinai n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。ざんだかが 不足すると、かいさつが しまります。",
+      "reading": "Hai. Zandaka ga fusoku suru to, kaisatsu ga shimarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "せいさんは どこで しますか。",
+      "reading": "Seisan wa doko de shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "この けんばいきで せいさんできますよ。",
+      "reading": "Kono kenbaiki de seisan dekimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "つかいかたを おしえて ください。",
+      "reading": "Tsukaikata o oshiete kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "ここに カードを いれると、がめんに ざんだかの ひょうじが でます。",
+      "reading": "Koko ni kādo o ireru to, gamen ni zandaka no hyōji ga demasu."
+    },
+    {
+      "speaker": "a",
+      "text": "あ、「不足 120円」と でました。",
+      "reading": "A, “fusoku hyakunijū en” to demashita."
+    },
+    {
+      "speaker": "b",
+      "text": "ここに 120円を いれると、せいさんが おわりますよ。",
+      "reading": "Koko ni hyakunijū en o ireru to, seisan ga owarimasu yo."
+    }
+  ]
+}

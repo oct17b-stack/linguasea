@@ -1,0 +1,91 @@
+{
+  "id": "ja-D5-02",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.yomikata",
+      "text": "読み方",
+      "reading": "yomikata"
+    },
+    {
+      "id": "ja.yakusu",
+      "text": "やくす",
+      "reading": "yakusu"
+    },
+    {
+      "id": "ja.honyaku",
+      "text": "ほんやく",
+      "reading": "hon'yaku"
+    },
+    {
+      "id": "ja.anki",
+      "text": "あんき",
+      "reading": "anki"
+    },
+    {
+      "id": "ja.reibun",
+      "text": "れいぶん",
+      "reading": "reibun"
+    },
+    {
+      "id": "ja.yaku-ni-tatsu",
+      "kind": "phrase",
+      "text": "やくにたつ",
+      "reading": "yaku ni tatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、かんじは よめる？",
+      "reading": "Namu, kanji wa yomeru?"
+    },
+    {
+      "speaker": "a",
+      "text": "ひらがなと かたかなは よめる。でも、かんじは まだ あまり よめない。",
+      "reading": "Hiragana to katakana wa yomeru. Demo, kanji wa mada amari yomenai."
+    },
+    {
+      "speaker": "c",
+      "text": "かんじは 読み方が たくさん あるから、むずかしいよね。",
+      "reading": "Kanji wa yomikata ga takusan aru kara, muzukashii yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。それに、かくのも たいへん。かんじは まだ じょうずに かけない。",
+      "reading": "Un. Soreni, kaku no mo taihen. Kanji wa mada jōzu ni kakenai."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは タイごが すこし はなせるよ。「サワッディー」！",
+      "reading": "Watashi wa Taigo ga sukoshi hanaseru yo. “Sawaddī”!"
+    },
+    {
+      "speaker": "a",
+      "text": "すごい！でも、タイごの ほんは よめる？",
+      "reading": "Sugoi! Demo, Taigo no hon wa yomeru?"
+    },
+    {
+      "speaker": "c",
+      "text": "ぜんぜん よめない。だから、タイの うたは アプリで ほんやくして いるよ。",
+      "reading": "Zenzen yomenai. Dakara, Tai no uta wa apuri de hon'yaku shite iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "アプリは べんりだね。でも、ときどき 変に やくすよね。",
+      "reading": "Apuri wa benri da ne. Demo, tokidoki hen ni yakusu yo ne."
+    },
+    {
+      "speaker": "c",
+      "text": "そうそう。だから、わたしは れいぶんを あんきして いるよ。",
+      "reading": "Sō sō. Dakara, watashi wa reibun o anki shite iru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "れいぶんの あんきは やくにたつね。わたしも して みる！",
+      "reading": "Reibun no anki wa yaku ni tatsu ne. Watashi mo shite miru!"
+    }
+  ]
+}

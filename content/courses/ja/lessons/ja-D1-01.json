@@ -1,0 +1,80 @@
+{
+  "id": "ja-D1-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.iken",
+      "text": "意見",
+      "reading": "iken"
+    },
+    {
+      "id": "ja.sansei",
+      "text": "さんせい",
+      "reading": "sansei"
+    },
+    {
+      "id": "ja.hantai",
+      "text": "はんたい",
+      "reading": "hantai"
+    },
+    {
+      "id": "ja.tashika",
+      "text": "たしか",
+      "reading": "tashika"
+    },
+    {
+      "id": "ja.tadashii",
+      "text": "正しい",
+      "reading": "tadashii"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "きょうは みなさんの 意見を ききたいと おもいます。ナムさん、にほんの だいがくは どうですか。",
+      "reading": "Kyō wa minasan no iken o kikitai to omoimasu. Namu-san, Nihon no daigaku wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですね。としょかんが ひろくて、とても べんりだと おもいます。",
+      "reading": "Sō desu ne. Toshokan ga hirokute, totemo benri da to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。じゅぎょうは どうですか。",
+      "reading": "Sō desu ka. Jugyō wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "じゅぎょうは ちょっと むずかしいと おもいます。でも、とても おもしろいです。",
+      "reading": "Jugyō wa chotto muzukashii to omoimasu. Demo, totemo omoshiroi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "では、もう ひとつ しつもんです。だいがくせいが アルバイトを する ことに さんせいですか、はんたいですか。",
+      "reading": "Dewa, mō hitotsu shitsumon desu. Daigakusei ga arubaito o suru koto ni sansei desu ka, hantai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしは さんせいです。いろいろな ひとと はなす ことが できますから。",
+      "reading": "Watashi wa sansei desu. Iroiro na hito to hanasu koto ga dekimasu kara."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしは はんたいです。べんきょうの じかんが すくなく なると おもいますから。",
+      "reading": "Watashi wa hantai desu. Benkyō no jikan ga sukunaku naru to omoimasu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "たしかに そうですね。ゆきさんの 意見も 正しいと おもいます。",
+      "reading": "Tashika ni sō desu ne. Yuki-san no iken mo tadashii to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ふたりの 意見は どちらも おもしろいですね。",
+      "reading": "Futari no iken wa dochira mo omoshiroi desu ne."
+    }
+  ]
+}

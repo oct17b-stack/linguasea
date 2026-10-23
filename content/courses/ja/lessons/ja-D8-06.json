@@ -1,0 +1,85 @@
+{
+  "id": "ja-D8-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.chuushi",
+      "text": "中止",
+      "reading": "chūshi"
+    },
+    {
+      "id": "ja.enki",
+      "text": "えんき",
+      "reading": "enki"
+    },
+    {
+      "id": "ja.shusai",
+      "text": "しゅさい",
+      "reading": "shusai"
+    },
+    {
+      "id": "ja.hassei",
+      "text": "発生",
+      "reading": "hassei"
+    },
+    {
+      "id": "ja.higai",
+      "text": "ひがい",
+      "reading": "higai"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "みなさん、どようびの 花火大会に ついて、知らせが あります。",
+      "reading": "Minasan, doyōbi no hanabi taikai ni tsuite, shirase ga arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "なんですか。",
+      "reading": "Nan desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "おきなわの ちかくで 台風が 発生したと いう ことです。",
+      "reading": "Okinawa no chikaku de taifū ga hassei shita to iu koto desu."
+    },
+    {
+      "speaker": "c",
+      "text": "花火大会は どう なりますか。",
+      "reading": "Hanabi taikai wa dō narimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "しゅさいの はっぴょうに よると、花火大会は 中止に なったと いう ことです。",
+      "reading": "Shusai no happyō ni yoru to, hanabi taikai wa chūshi ni natta to iu koto desu."
+    },
+    {
+      "speaker": "a",
+      "text": "え、中止ですか。えんきじゃ ないんですか。",
+      "reading": "E, chūshi desu ka. Enki ja nai n desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。えんきは しないと いう ことです。",
+      "reading": "Ē. Enki wa shinai to iu koto desu."
+    },
+    {
+      "speaker": "c",
+      "text": "ざんねんです。あたらしい ゆかたを かったんですが…。",
+      "reading": "Zannen desu. Atarashii yukata o katta n desu ga…"
+    },
+    {
+      "speaker": "b",
+      "text": "台風の ひがいが でなければ いいですね。",
+      "reading": "Taifū no higai ga denakereba ii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。みんなで きを つけましょう。",
+      "reading": "Hai. Minna de ki o tsukemashō."
+    }
+  ]
+}

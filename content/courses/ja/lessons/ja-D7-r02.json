@@ -1,0 +1,84 @@
+{
+  "id": "ja-D7-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.hyoujou",
+      "text": "ひょうじょう",
+      "reading": "hyōjō"
+    },
+    {
+      "id": "ja.taido",
+      "text": "たいど",
+      "reading": "taido"
+    },
+    {
+      "id": "ja.sunao",
+      "text": "すなお",
+      "reading": "sunao"
+    },
+    {
+      "id": "ja.honne",
+      "text": "本音",
+      "reading": "honne"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "タイじんは よく わらう。",
+        "reading": "Taijin wa yoku warau."
+      },
+      {
+        "text": "こまった ときや はずかしい ときも、わらう ひとが おおい。",
+        "reading": "Komatta toki ya hazukashii toki mo, warau hito ga ōi."
+      },
+      {
+        "text": "わらって いる ひょうじょうには、「だいじょうぶ」と いう いみが ある ことも ある。",
+        "reading": "Waratte iru hyōjō ni wa, “daijōbu” to iu imi ga aru koto mo aru."
+      }
+    ],
+    [
+      {
+        "text": "にほんじんは、かんじょうが かおに でない ひとが おおい。",
+        "reading": "Nihonjin wa, kanjō ga kao ni denai hito ga ōi."
+      },
+      {
+        "text": "かいぎで なにも いわない ひとも いるが、はんたいだと いう いみでは ない ことも ある。",
+        "reading": "Kaigi de nanimo iwanai hito mo iru ga, hantai da to iu imi de wa nai koto mo aru."
+      },
+      {
+        "text": "本音を ことばで いわない ことも おおい。",
+        "reading": "Honne o kotoba de iwanai koto mo ōi."
+      },
+      {
+        "text": "だから、ひとの たいどを よく みなければ ならない。",
+        "reading": "Dakara, hito no taido o yoku minakereba naranai."
+      }
+    ],
+    [
+      {
+        "text": "でも、わかい ひとの 中には、すなおに 本音を はなす ひとも おおい。",
+        "reading": "Demo, wakai hito no naka ni wa, sunao ni honne o hanasu hito mo ōi."
+      },
+      {
+        "text": "くにが ちがっても、うれしい ときに 泣くのは おなじで ある。",
+        "reading": "Kuni ga chigatte mo, ureshii toki ni naku no wa onaji de aru."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

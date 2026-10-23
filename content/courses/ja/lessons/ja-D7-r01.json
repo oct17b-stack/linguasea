@@ -1,0 +1,88 @@
+{
+  "id": "ja-D7-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.houmushikku",
+      "text": "ホームシック",
+      "reading": "hōmushikku"
+    },
+    {
+      "id": "ja.natsukashii",
+      "text": "なつかしい",
+      "reading": "natsukashii"
+    },
+    {
+      "id": "ja.ki-ga-raku-ni-naru",
+      "kind": "phrase",
+      "text": "気が楽になる",
+      "reading": "ki ga raku ni naru"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "10月15日 どようび くもり",
+        "reading": "Jūgatsu jūgonichi doyōbi kumori"
+      },
+      {
+        "text": "きょうは あさから ずっと ひとりで へやに いた。",
+        "reading": "Kyō wa asa kara zutto hitori de heya ni ita."
+      },
+      {
+        "text": "ゆうがた、タイりょうりの しゃしんを みて、急に かなしく なった。",
+        "reading": "Yūgata, Tai ryōri no shashin o mite, kyū ni kanashiku natta."
+      },
+      {
+        "text": "これが ホームシックだと おもった。",
+        "reading": "Kore ga hōmushikku da to omotta."
+      }
+    ],
+    [
+      {
+        "text": "よる、うちに ビデオで でんわを かけた。",
+        "reading": "Yoru, uchi ni bideo de denwa o kaketa."
+      },
+      {
+        "text": "ちちと ははと ファーの かおを みたら、なみだが でて きた。",
+        "reading": "Chichi to haha to Fā no kao o mitara, namida ga dete kita."
+      },
+      {
+        "text": "ファーは「おねえちゃん、泣かないで」と わらった。",
+        "reading": "Fā wa “onēchan, nakanaide” to waratta."
+      },
+      {
+        "text": "ははの ガパオの はなしを きいて、とても なつかしかった。",
+        "reading": "Haha no gapao no hanashi o kiite, totemo natsukashikatta."
+      }
+    ],
+    [
+      {
+        "text": "1じかん はなしたら、気が楽に なった。",
+        "reading": "Ichijikan hanashitara, ki ga raku ni natta."
+      },
+      {
+        "text": "にほんで がんばって いる ことを はなすと、ちちは「えらいね」と いった。",
+        "reading": "Nihon de ganbatte iru koto o hanasu to, chichi wa “erai ne” to itta."
+      },
+      {
+        "text": "あしたから また がんばろう。",
+        "reading": "Ashita kara mata ganbarō."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

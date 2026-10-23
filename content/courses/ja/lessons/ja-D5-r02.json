@@ -1,0 +1,88 @@
+{
+  "id": "ja-D5-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.hanashikakeru",
+      "text": "話しかける",
+      "reading": "hanashikakeru"
+    },
+    {
+      "id": "ja.yuuki",
+      "text": "ゆうき",
+      "reading": "yūki"
+    },
+    {
+      "id": "ja.hougen",
+      "text": "方言",
+      "reading": "hōgen"
+    },
+    {
+      "id": "ja.kansaiben",
+      "text": "かんさいべん",
+      "reading": "kansaiben"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "先月、ナムは はじめて おおさかへ いった。",
+        "reading": "Sengetsu, Namu wa hajimete Ōsaka e itta."
+      },
+      {
+        "text": "たこやきの 屋台で、おばあさんが ナムに 話しかけた。",
+        "reading": "Takoyaki no yatai de, obāsan ga Namu ni hanashikaketa."
+      },
+      {
+        "text": "「おねえちゃん、どこから きたん？」",
+        "reading": "“Onēchan, doko kara kita n?”"
+      },
+      {
+        "text": "ナムは すこし きんちょうしたが、ゆうきを だして「タイから きました」と こたえた。",
+        "reading": "Namu wa sukoshi kinchō shita ga, yūki o dashite “Tai kara kimashita” to kotaeta."
+      }
+    ],
+    [
+      {
+        "text": "おばあさんは「ほんま？にほんご、じょうずやなあ」と いった。",
+        "reading": "Obāsan wa “honma? Nihongo, jōzu ya nā” to itta."
+      },
+      {
+        "text": "ナムは「ほんま」の いみが わからなかった。",
+        "reading": "Namu wa “honma” no imi ga wakaranakatta."
+      },
+      {
+        "text": "おばあさんは「ほんまは『ほんとう』の ことやで。かんさいべんや」と おしえた。",
+        "reading": "Obāsan wa “honma wa ‘hontō’ no koto ya de. Kansaiben ya” to oshieta."
+      }
+    ],
+    [
+      {
+        "text": "ふたりは 10ぷんぐらい いろいろな はなしを した。",
+        "reading": "Futari wa juppun gurai iroiro na hanashi o shita."
+      },
+      {
+        "text": "はじめて あった ひとと にほんごで こんなに はなしたのは、はじめてだった。",
+        "reading": "Hajimete atta hito to Nihongo de konna ni hanashita no wa, hajimete datta."
+      },
+      {
+        "text": "方言は むずかしかったが、とても たのしかった。",
+        "reading": "Hōgen wa muzukashikatta ga, totemo tanoshikatta."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

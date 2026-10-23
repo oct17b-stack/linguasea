@@ -1,0 +1,85 @@
+{
+  "id": "ja-D3-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kichouhin",
+      "text": "きちょうひん",
+      "reading": "kichōhin"
+    },
+    {
+      "id": "ja.kinko",
+      "text": "きんこ",
+      "reading": "kinko"
+    },
+    {
+      "id": "ja.kamau",
+      "text": "かまう",
+      "reading": "kamau"
+    },
+    {
+      "id": "ja.robii",
+      "text": "ロビー",
+      "reading": "robī"
+    },
+    {
+      "id": "ja.hikidashi",
+      "text": "ひきだし",
+      "reading": "hikidashi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。チェックアウトの あとで、にもつを フロントに あずけても かまいませんか。",
+      "reading": "Sumimasen. Chekkuauto no ato de, nimotsu o furonto ni azukete mo kamaimasen ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、かまいません。",
+      "reading": "Hai, kamaimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "それから、きちょうひんは どこに いれますか。",
+      "reading": "Sorekara, kichōhin wa doko ni iremasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "きちょうひんは おへやの きんこに いれて ください。きんこは テレビの 下の ひきだしの 中に あります。",
+      "reading": "Kichōhin wa oheya no kinko ni irete kudasai. Kinko wa terebi no shita no hikidashi no naka ni arimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。ロビーで パソコンを つかっても かまいませんか。",
+      "reading": "Wakarimashita. Robī de pasokon o tsukatte mo kamaimasen ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ええ、かまいません。ワイファイも つかえますよ。",
+      "reading": "Ē, kamaimasen. Waifai mo tsukaemasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "夜中に だいよくじょうに はいっても かまいませんか。",
+      "reading": "Yonaka ni daiyokujō ni haitte mo kamaimasen ka."
+    },
+    {
+      "speaker": "c",
+      "text": "すみません。だいよくじょうは 夜中の 12時までです。その あとは はいっては いけません。",
+      "reading": "Sumimasen. Daiyokujō wa yonaka no jūniji made desu. Sono ato wa haitte wa ikemasen."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。じゃあ、ろてんぶろで しゃしんを とっても かまいませんか。",
+      "reading": "Sō desu ka. Jā, rotenburo de shashin o totte mo kamaimasen ka."
+    },
+    {
+      "speaker": "c",
+      "text": "おふろの 中では、しゃしんは えんりょして ください。",
+      "reading": "Ofuro no naka de wa, shashin wa enryo shite kudasai."
+    }
+  ]
+}

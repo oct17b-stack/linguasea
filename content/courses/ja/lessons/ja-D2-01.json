@@ -1,0 +1,90 @@
+{
+  "id": "ja-D2-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.keikaku",
+      "text": "計画",
+      "reading": "keikaku"
+    },
+    {
+      "id": "ja.tabi",
+      "text": "旅",
+      "reading": "tabi"
+    },
+    {
+      "id": "ja.higaeri",
+      "text": "日帰り",
+      "reading": "higaeri"
+    },
+    {
+      "id": "ja.ippaku",
+      "text": "いっぱく",
+      "reading": "ippaku"
+    },
+    {
+      "id": "ja.renkyuu",
+      "text": "れんきゅう",
+      "reading": "renkyū"
+    },
+    {
+      "id": "ja.tateru",
+      "text": "立てる",
+      "reading": "tateru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、はるやすみに ふたりで 旅に でようよ。",
+      "reading": "Namu, haruyasumi ni futari de tabi ni deyō yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね！どこに いこうか。",
+      "reading": "Ii ne! Doko ni ikō ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ほっかいどうは どう？ふゆの ほっかいどうは ゆきが きれいだよ。",
+      "reading": "Hokkaidō wa dō? Fuyu no Hokkaidō wa yuki ga kirei da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね。ほっかいどうに しよう！",
+      "reading": "Ii ne. Hokkaidō ni shiyō!"
+    },
+    {
+      "speaker": "c",
+      "text": "じゃあ、計画を 立てよう。なんにちぐらい いく？",
+      "reading": "Jā, keikaku o tateyō. Nannichi gurai iku?"
+    },
+    {
+      "speaker": "a",
+      "text": "とおいから、日帰りは むりだね。いっぱくも ちょっと みじかいかな。",
+      "reading": "Tōi kara, higaeri wa muri da ne. Ippaku mo chotto mijikai kana."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。じゃあ、3ぱくに しよう。でも、2月の れんきゅうは ホテルが たかいよ。",
+      "reading": "Sō da ne. Jā, sanpaku ni shiyō. Demo, nigatsu no renkyū wa hoteru ga takai yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、れんきゅうの あとに いこう。",
+      "reading": "Jā, renkyū no ato ni ikō."
+    },
+    {
+      "speaker": "c",
+      "text": "さんせい！きょう、ひこうきの チケットを しらべよう。",
+      "reading": "Sansei! Kyō, hikōki no chiketto o shirabeyō."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。たのしい 旅に しようね！",
+      "reading": "Un. Tanoshii tabi ni shiyō ne!"
+    }
+  ]
+}

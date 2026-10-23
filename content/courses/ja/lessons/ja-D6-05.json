@@ -1,0 +1,87 @@
+{
+  "id": "ja-D6-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.suisenjou",
+      "text": "すいせんじょう",
+      "reading": "suisenjō"
+    },
+    {
+      "id": "ja.me-o-tousu",
+      "kind": "phrase",
+      "text": "目を通す",
+      "reading": "me o tōsu"
+    },
+    {
+      "id": "ja.shorui",
+      "text": "しょるい",
+      "reading": "shorui"
+    },
+    {
+      "id": "ja.yoroshikereba",
+      "kind": "phrase",
+      "text": "よろしければ",
+      "reading": "yoroshikereba"
+    },
+    {
+      "id": "ja.daigakuin",
+      "text": "大学院",
+      "reading": "daigakuin"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまだせんせい、いま すこし よろしいでしょうか。",
+      "reading": "Yamada-sensei, ima sukoshi yoroshii deshō ka."
+    },
+    {
+      "speaker": "b",
+      "text": "はい、どうぞ。",
+      "reading": "Hai, dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "じつは、タイの だいがくを そつぎょうしたら、にほんの 大学院で べんきょうしたいと おもって います。",
+      "reading": "Jitsu wa, Tai no daigaku o sotsugyō shitara, Nihon no daigakuin de benkyō shitai to omotte imasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それは いいですね。",
+      "reading": "Sore wa ii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "それで、大学院に ていしゅつする しょるいの 中に、すいせんじょうが あるんです。せんせいに すいせんじょうを かいて いただけませんか。",
+      "reading": "Sorede, daigakuin ni teishutsu suru shorui no naka ni, suisenjō ga aru n desu. Sensei ni suisenjō o kaite itadakemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。いつまでに ひつようですか。",
+      "reading": "Ii desu yo. Itsu made ni hitsuyō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "来月の 15日までです。それから、よろしければ、ほかの しょるいにも 目を通して いただけませんか。",
+      "reading": "Raigetsu no jūgonichi made desu. Sorekara, yoroshikereba, hoka no shorui ni mo me o tōshite itadakemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。しょるいは メールで おくって ください。",
+      "reading": "Wakarimashita. Shorui wa mēru de okutte kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。せんせいも おいそがしいと おもいますが、よろしく おねがいします。",
+      "reading": "Arigatō gozaimasu. Sensei mo oisogashii to omoimasu ga, yoroshiku onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "がんばって くださいね。",
+      "reading": "Ganbatte kudasai ne."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "ja-D4-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kakuekiteisha",
+      "text": "かくえきていしゃ",
+      "reading": "kakuekiteisha"
+    },
+    {
+      "id": "ja.kaisoku",
+      "text": "かいそく",
+      "reading": "kaisoku"
+    },
+    {
+      "id": "ja.kyuukou-express",
+      "text": "急行",
+      "reading": "kyūkō"
+    },
+    {
+      "id": "ja.kousokubasu",
+      "text": "こうそくバス",
+      "reading": "kōsokubasu"
+    },
+    {
+      "id": "ja.joushaken",
+      "text": "じょうしゃけん",
+      "reading": "jōshaken"
+    },
+    {
+      "id": "ja.tomaru",
+      "text": "止まる",
+      "reading": "tomaru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、きょうとへ いきたいんですが。",
+      "reading": "Sumimasen, Kyōto e ikitai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "きょうとへ いくなら、急行が べんりですよ。",
+      "reading": "Kyōto e iku nara, kyūkō ga benri desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "急行と かいそくは どう ちがいますか。",
+      "reading": "Kyūkō to kaisoku wa dō chigaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "急行は 止まる 駅が すくないです。かいそくも はやいですが、急行の ほうが はやいです。",
+      "reading": "Kyūkō wa tomaru eki ga sukunai desu. Kaisoku mo hayai desu ga, kyūkō no hō ga hayai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "かくえきていしゃは？",
+      "reading": "Kakuekiteisha wa?"
+    },
+    {
+      "speaker": "b",
+      "text": "かくえきていしゃは ぜんぶの 駅に 止まるので、じかんが かかります。",
+      "reading": "Kakuekiteisha wa zenbu no eki ni tomaru node, jikan ga kakarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "こうそくバスは どうですか。",
+      "reading": "Kōsokubasu wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "やすいのが いいなら、こうそくバスですね。でも、じかんは かかりますよ。",
+      "reading": "Yasui no ga ii nara, kōsokubasu desu ne. Demo, jikan wa kakarimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、急行に します。じょうしゃけんは どこで かいますか。",
+      "reading": "Jā, kyūkō ni shimasu. Jōshaken wa doko de kaimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "じょうしゃけんなら、あそこの まどぐちで かって ください。",
+      "reading": "Jōshaken nara, asoko no madoguchi de katte kudasai."
+    }
+  ]
+}

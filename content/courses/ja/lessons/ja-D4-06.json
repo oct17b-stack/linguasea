@@ -1,0 +1,85 @@
+{
+  "id": "ja-D4-06",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.annaijo",
+      "text": "あんないじょ",
+      "reading": "annaijo"
+    },
+    {
+      "id": "ja.kakariin",
+      "text": "かかりいん",
+      "reading": "kakariin"
+    },
+    {
+      "id": "ja.tetsuzuki",
+      "text": "てつづき",
+      "reading": "tetsuzuki"
+    },
+    {
+      "id": "ja.ochitsuku",
+      "text": "おちつく",
+      "reading": "ochitsuku"
+    },
+    {
+      "id": "ja.soudan",
+      "text": "そうだん",
+      "reading": "sōdan"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません！でんしゃに かばんを わすれて しまいました。どう すれば いいですか。",
+      "reading": "Sumimasen! Densha ni kaban o wasurete shimaimashita. Dō sureba ii desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "おちついて ください。あんないじょで そうだんしたら どうですか。",
+      "reading": "Ochitsuite kudasai. Annaijo de sōdan shitara dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "あんないじょは どこですか。",
+      "reading": "Annaijo wa doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "かいさつの まえです。あそこに かかりいんが いますよ。",
+      "reading": "Kaisatsu no mae desu. Asoko ni kakariin ga imasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、さっきの でんしゃに かばんを わすれました。",
+      "reading": "Sumimasen, sakki no densha ni kaban o wasuremashita."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。なにいろの かばんですか。",
+      "reading": "Wakarimashita. Naniiro no kaban desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "くろい かばんです。中に パスポートが あります。",
+      "reading": "Kuroi kaban desu. Naka ni pasupōto ga arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "では、てつづきを します。おなまえと れんらくさきを おしえて ください。",
+      "reading": "Dewa, tetsuzuki o shimasu. Onamae to renrakusaki o oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "かばんが みつかったら、どう すれば いいですか。",
+      "reading": "Kaban ga mitsukattara, dō sureba ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "みつかったら、でんわします。この 駅に とりに きて ください。",
+      "reading": "Mitsukattara, denwa shimasu. Kono eki ni tori ni kite kudasai."
+    }
+  ]
+}

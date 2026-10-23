@@ -1,0 +1,91 @@
+{
+  "id": "ja-D1-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.taichou",
+      "text": "たいちょう",
+      "reading": "taichō"
+    },
+    {
+      "id": "ja.soutai",
+      "text": "そうたい",
+      "reading": "sōtai"
+    },
+    {
+      "id": "ja.teishutsu",
+      "text": "ていしゅつ",
+      "reading": "teishutsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "やまだせんせい",
+        "reading": "Yamada-sensei"
+      },
+      {
+        "text": "こんにちは、ナムです。",
+        "reading": "Konnichiwa, Namu desu."
+      }
+    ],
+    [
+      {
+        "text": "けさ、ゆきさんから でんわが ありました。",
+        "reading": "Kesa, Yuki-san kara denwa ga arimashita."
+      },
+      {
+        "text": "ゆきさんは きのうの よるから ねつが あって、たいちょうが よくないと いって いました。",
+        "reading": "Yuki-san wa kinō no yoru kara netsu ga atte, taichō ga yokunai to itte imashita."
+      },
+      {
+        "text": "きのうも ごごの じゅぎょうを そうたいしたと いって いました。",
+        "reading": "Kinō mo gogo no jugyō o sōtai shita to itte imashita."
+      },
+      {
+        "text": "それで、きょうの じゅぎょうは けっせきします。",
+        "reading": "Sorede, kyō no jugyō wa kesseki shimasu."
+      },
+      {
+        "text": "しゅくだいは きんようびまでに メールで ていしゅつすると いって いました。",
+        "reading": "Shukudai wa kin'yōbi made ni mēru de teishutsu suru to itte imashita."
+      },
+      {
+        "text": "来週は かならず じゅぎょうに でると いって いました。",
+        "reading": "Raishū wa kanarazu jugyō ni deru to itte imashita."
+      }
+    ],
+    [
+      {
+        "text": "ゆきさんへの でんごんが ありますか。",
+        "reading": "Yuki-san e no dengon ga arimasu ka."
+      },
+      {
+        "text": "わたしから ゆきさんに つたえます。",
+        "reading": "Watashi kara Yuki-san ni tsutaemasu."
+      },
+      {
+        "text": "よろしく おねがいします。",
+        "reading": "Yoroshiku onegaishimasu."
+      },
+      {
+        "text": "ナム",
+        "reading": "Namu"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

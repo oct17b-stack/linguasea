@@ -1,0 +1,88 @@
+{
+  "id": "ja-D8-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.gakushoku",
+      "text": "学食",
+      "reading": "gakushoku"
+    },
+    {
+      "id": "ja.kikan",
+      "text": "きかん",
+      "reading": "kikan"
+    },
+    {
+      "id": "ja.gentei",
+      "text": "げんてい",
+      "reading": "gentei"
+    },
+    {
+      "id": "ja.kouhyou",
+      "text": "こうひょう",
+      "reading": "kōhyō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "今月、学食で タイりょうりが たべられる。",
+        "reading": "Kongetsu, gakushoku de Tai ryōri ga taberareru."
+      },
+      {
+        "text": "きかんは 10月15日から 21日までだ。",
+        "reading": "Kikan wa jūgatsu jūgonichi kara nijūichinichi made da."
+      },
+      {
+        "text": "メニューは トムヤムクンや パッタイなど、5つある。",
+        "reading": "Menyū wa tomuyamukun ya pattai nado, itsutsu aru."
+      },
+      {
+        "text": "トムヤムクンは 1日 100にん げんていだ。",
+        "reading": "Tomuyamukun wa ichinichi hyakunin gentei da."
+      }
+    ],
+    [
+      {
+        "text": "学食の ひとに よると、タイりょうりを たべたいと いう がくせいが おおかったそうだ。",
+        "reading": "Gakushoku no hito ni yoru to, Tai ryōri o tabetai to iu gakusei ga ōkatta sō da."
+      },
+      {
+        "text": "タイからの りゅうがくせいの ナムさんも、味を チェックした。",
+        "reading": "Tai kara no ryūgakusei no Namu-san mo, aji o chekku shita."
+      },
+      {
+        "text": "ナムさんは「タイの 味に ちかいと おもいます」と いって いた。",
+        "reading": "Namu-san wa “Tai no aji ni chikai to omoimasu” to itte ita."
+      }
+    ],
+    [
+      {
+        "text": "1日目から こうひょうで、ひるごはんの じかんには ぎょうれつが できた。",
+        "reading": "Ichinichime kara kōhyō de, hirugohan no jikan ni wa gyōretsu ga dekita."
+      },
+      {
+        "text": "からい りょうりが にがてな ひとには、あまり からくない メニューも ある。",
+        "reading": "Karai ryōri ga nigate na hito ni wa, amari karakunai menyū mo aru."
+      },
+      {
+        "text": "学食は「こうひょうなら、来年も したい」と いって いる。",
+        "reading": "Gakushoku wa “kōhyō nara, rainen mo shitai” to itte iru."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ja-D1-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.shakai",
+      "text": "社会",
+      "reading": "shakai"
+    },
+    {
+      "id": "ja.gakuhi",
+      "text": "がくひ",
+      "reading": "gakuhi"
+    },
+    {
+      "id": "ja.ryouritsu",
+      "text": "りょうりつ",
+      "reading": "ryōritsu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "やまだ：きょうの 話題は「だいがくせいと アルバイト」です。",
+        "reading": "Yamada: Kyō no wadai wa “daigakusei to arubaito” desu."
+      },
+      {
+        "text": "やまだ：みなさんは、だいがくせいが アルバイトを する ことに さんせいですか、はんたいですか。",
+        "reading": "Yamada: Minasan wa, daigakusei ga arubaito o suru koto ni sansei desu ka, hantai desu ka."
+      }
+    ],
+    [
+      {
+        "text": "ゆき：わたしは はんたいです。",
+        "reading": "Yuki: Watashi wa hantai desu."
+      },
+      {
+        "text": "ゆき：アルバイトが いそがしくて、じゅぎょうで ねて いる がくせいが おおいからです。",
+        "reading": "Yuki: Arubaito ga isogashikute, jugyō de nete iru gakusei ga ōi kara desu."
+      },
+      {
+        "text": "ナム：わたしは さんせいです。",
+        "reading": "Namu: Watashi wa sansei desu."
+      },
+      {
+        "text": "ナム：アルバイトで いろいろな ひとと はなして、社会の ことが よく わかりました。",
+        "reading": "Namu: Arubaito de iroiro na hito to hanashite, shakai no koto ga yoku wakarimashita."
+      },
+      {
+        "text": "ナム：それに、がくひが たかいので、アルバイトを しなければ ならない がくせいも います。",
+        "reading": "Namu: Soreni, gakuhi ga takai node, arubaito o shinakereba naranai gakusei mo imasu."
+      }
+    ],
+    [
+      {
+        "text": "やまだ：ふたりの 意見は どちらも 正しいと おもいます。",
+        "reading": "Yamada: Futari no iken wa dochira mo tadashii to omoimasu."
+      },
+      {
+        "text": "やまだ：いちばん むずかしいのは、べんきょうと アルバイトの りょうりつですね。",
+        "reading": "Yamada: Ichiban muzukashii no wa, benkyō to arubaito no ryōritsu desu ne."
+      },
+      {
+        "text": "やまだ：来週は、りょうりつに ついて みんなで 考えましょう。",
+        "reading": "Yamada: Raishū wa, ryōritsu ni tsuite minna de kangaemashō."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

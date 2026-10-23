@@ -1,0 +1,80 @@
+{
+  "id": "ja-D2-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.yakoubasu",
+      "text": "夜行バス",
+      "reading": "yakōbasu"
+    },
+    {
+      "id": "ja.kakuyasu",
+      "text": "かくやす",
+      "reading": "kakuyasu"
+    },
+    {
+      "id": "ja.kimeru",
+      "text": "きめる",
+      "reading": "kimeru"
+    },
+    {
+      "id": "ja.kuraberu",
+      "text": "くらべる",
+      "reading": "kuraberu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、はこだてから さっぽろへの かえりは きめた？",
+      "reading": "Namu, Hakodate kara Sapporo e no kaeri wa kimeta?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。夜行バスで かえる ことに したよ。",
+      "reading": "Un. Yakōbasu de kaeru koto ni shita yo."
+    },
+    {
+      "speaker": "c",
+      "text": "え、夜行バス？特急じゃ ないの？",
+      "reading": "E, yakōbasu? Tokkyū ja nai no?"
+    },
+    {
+      "speaker": "a",
+      "text": "特急と 夜行バスを くらべて みたんだ。夜行バスは かくやすで、4,000円ぐらい。特急は 9,000円ぐらいだよ。",
+      "reading": "Tokkyū to yakōbasu o kurabete mita n da. Yakōbasu wa kakuyasu de, yonsen en gurai. Tokkyū wa kyūsen en gurai da yo."
+    },
+    {
+      "speaker": "c",
+      "text": "たしかに やすいね。でも、夜行バスは つかれない？",
+      "reading": "Tashika ni yasui ne. Demo, yakōbasu wa tsukarenai?"
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと つかれるかもしれない。でも、バスで ねるから、ホテルの ひようが いらないよ。",
+      "reading": "Chotto tsukareru kamoshirenai. Demo, basu de neru kara, hoteru no hiyō ga iranai yo."
+    },
+    {
+      "speaker": "c",
+      "text": "なるほど。それは いいね。わたしも 夜行バスに する！",
+      "reading": "Naruhodo. Sore wa ii ne. Watashi mo yakōbasu ni suru!"
+    },
+    {
+      "speaker": "a",
+      "text": "よかった。じゃあ、きょう バスを よやくするね。",
+      "reading": "Yokatta. Jā, kyō basu o yoyaku suru ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ありがとう。わたしは さっぽろの ホテルを しらべる ことに するね。",
+      "reading": "Arigatō. Watashi wa Sapporo no hoteru o shiraberu koto ni suru ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん、おねがい！",
+      "reading": "Un, onegai!"
+    }
+  ]
+}

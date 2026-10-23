@@ -1,0 +1,90 @@
+{
+  "id": "ja-D5-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.tango",
+      "text": "たんご",
+      "reading": "tango"
+    },
+    {
+      "id": "ja.bunpou",
+      "text": "ぶんぽう",
+      "reading": "bunpō"
+    },
+    {
+      "id": "ja.hatsuon",
+      "text": "発音",
+      "reading": "hatsuon"
+    },
+    {
+      "id": "ja.kaiwa",
+      "text": "会話",
+      "reading": "kaiwa"
+    },
+    {
+      "id": "ja.kikitori",
+      "text": "ききとり",
+      "reading": "kikitori"
+    },
+    {
+      "id": "ja.saisho",
+      "text": "さいしょ",
+      "reading": "saisho"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、にほんごの べんきょうは どうですか。",
+      "reading": "Namu-san, Nihongo no benkyō wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "さいしょは たいへんでしたが、いまは かんたんな 会話が できます。",
+      "reading": "Saisho wa taihen deshita ga, ima wa kantan na kaiwa ga dekimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "それは いいですね。ききとりは どうですか。",
+      "reading": "Sore wa ii desu ne. Kikitori wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆっくりなら 大体 わかります。でも、はやい 会話は まだ むずかしいです。",
+      "reading": "Yukkuri nara daitai wakarimasu. Demo, hayai kaiwa wa mada muzukashii desu."
+    },
+    {
+      "speaker": "b",
+      "text": "発音は じょうずですよ。たんごと ぶんぽうは どうですか。",
+      "reading": "Hatsuon wa jōzu desu yo. Tango to bunpō wa dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たんごは じしょで しらべられますが、ぶんぽうは まだ よく わかりません。",
+      "reading": "Tango wa jisho de shiraberaremasu ga, bunpō wa mada yoku wakarimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、かようびの 5時に 研究室に こられますか。ぶんぽうを いっしょに れんしゅうしましょう。",
+      "reading": "Jā, kayōbi no goji ni kenkyūshitsu ni koraremasu ka. Bunpō o issho ni renshū shimashō."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。かようびは アルバイトが あります。もくようびなら だいじょうぶです。",
+      "reading": "Sumimasen. Kayōbi wa arubaito ga arimasu. Mokuyōbi nara daijōbu desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。それから、まいにち 10ぷんでも 会話の れんしゅうを つづけられますか。",
+      "reading": "Ii desu yo. Sorekara, mainichi juppun demo kaiwa no renshū o tsuzukeraremasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、がんばって つづけます。",
+      "reading": "Hai, ganbatte tsuzukemasu."
+    }
+  ]
+}

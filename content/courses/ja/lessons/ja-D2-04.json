@@ -1,0 +1,85 @@
+{
+  "id": "ja-D2-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.nittei",
+      "text": "にってい",
+      "reading": "nittei"
+    },
+    {
+      "id": "ja.oufuku",
+      "text": "おうふく",
+      "reading": "ōfuku"
+    },
+    {
+      "id": "ja.katamichi",
+      "text": "かたみち",
+      "reading": "katamichi"
+    },
+    {
+      "id": "ja.norikaeru",
+      "text": "のりかえる",
+      "reading": "norikaeru"
+    },
+    {
+      "id": "ja.tokkyuu",
+      "text": "特急",
+      "reading": "tokkyū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、ほっかいどうりょこうの にっていを おしえて ください。",
+      "reading": "Namu-san, Hokkaidō ryokō no nittei o oshiete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。2月20日に ひこうきで さっぽろへ いく よていです。",
+      "reading": "Hai. Nigatsu hatsuka ni hikōki de Sapporo e iku yotei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ひこうきの チケットは おうふくですか、かたみちですか。",
+      "reading": "Hikōki no chiketto wa ōfuku desu ka, katamichi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "おうふくです。かえりも さっぽろから ひこうきに のる よていです。",
+      "reading": "Ōfuku desu. Kaeri mo Sapporo kara hikōki ni noru yotei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "さっぽろの ほかに、どこへ いきますか。",
+      "reading": "Sapporo no hoka ni, doko e ikimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "22日に 特急で はこだてへ いく よていです。",
+      "reading": "Nijūninichi ni tokkyū de Hakodate e iku yotei desu."
+    },
+    {
+      "speaker": "b",
+      "text": "さっぽろから はこだてまで、どこかで のりかえますか。",
+      "reading": "Sapporo kara Hakodate made, dokoka de norikaemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、のりかえなくても いいです。特急で 4じかんぐらいです。",
+      "reading": "Iie, norikaenakute mo ii desu. Tokkyū de yojikan gurai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いい にっていですね。りょうへは いつ かえりますか。",
+      "reading": "Ii nittei desu ne. Ryō e wa itsu kaerimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "24日の よるに かえる よていです。",
+      "reading": "Nijūyokka no yoru ni kaeru yotei desu."
+    }
+  ]
+}

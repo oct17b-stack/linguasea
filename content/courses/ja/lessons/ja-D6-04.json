@@ -1,0 +1,91 @@
+{
+  "id": "ja-D6-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.tanomi",
+      "text": "たのみ",
+      "reading": "tanomi"
+    },
+    {
+      "id": "ja.isogi",
+      "text": "急ぎ",
+      "reading": "isogi"
+    },
+    {
+      "id": "ja.you",
+      "text": "用",
+      "reading": "yō"
+    },
+    {
+      "id": "ja.wazawaza",
+      "text": "わざわざ",
+      "reading": "wazawaza"
+    },
+    {
+      "id": "ja.ki-ni-suru",
+      "kind": "phrase",
+      "text": "気にする",
+      "reading": "ki ni suru"
+    },
+    {
+      "id": "ja.kasu",
+      "text": "かす",
+      "reading": "kasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "あのう、すみません。ひとつ たのみが あるんですが…",
+      "reading": "Anō, sumimasen. Hitotsu tanomi ga aru n desu ga…"
+    },
+    {
+      "speaker": "b",
+      "text": "はい、なんですか。",
+      "reading": "Hai, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "きのうは 用が あって、じゅぎょうを やすみました。きのうの ノートを かして もらえませんか。",
+      "reading": "Kinō wa yō ga atte, jugyō o yasumimashita. Kinō no nōto o kashite moraemasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。どうぞ。",
+      "reading": "Ii desu yo. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。コピーしても いいですか。",
+      "reading": "Arigatō gozaimasu. Kopī shite mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ、どうぞ。急ぎですか。",
+      "reading": "Ē, dōzo. Isogi desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、あした テストが あるので。わざわざ すみません。",
+      "reading": "Hai, ashita tesuto ga aru node. Wazawaza sumimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "気にしないで ください。せんせいの はなしも メモして ありますよ。",
+      "reading": "Ki ni shinaide kudasai. Sensei no hanashi mo memo shite arimasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとうに たすかります。それから、わからない ことが あったら、おしえて くれませんか。",
+      "reading": "Hontō ni tasukarimasu. Sorekara, wakaranai koto ga attara, oshiete kuremasen ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。いつでも きいて ください。",
+      "reading": "Ii desu yo. Itsudemo kiite kudasai."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ja-D5-05",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kokuban",
+      "text": "こくばん",
+      "reading": "kokuban"
+    },
+    {
+      "id": "ja.hakkiri",
+      "text": "はっきり",
+      "reading": "hakkiri"
+    },
+    {
+      "id": "ja.kikoeru",
+      "text": "聞こえる",
+      "reading": "kikoeru"
+    },
+    {
+      "id": "ja.rokuon",
+      "text": "ろくおん",
+      "reading": "rokuon"
+    },
+    {
+      "id": "ja.maiku",
+      "text": "マイク",
+      "reading": "maiku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "うしろの ひと、こくばんが よく みえますか。",
+      "reading": "Ushiro no hito, kokuban ga yoku miemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません。こくばんが ちょっと とおくて、はっきり みえません。",
+      "reading": "Sumimasen. Kokuban ga chotto tōkute, hakkiri miemasen."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、まえの ほうに きて ください。わたしの こえは 聞こえますか。",
+      "reading": "Jā, mae no hō ni kite kudasai. Watashi no koe wa kikoemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、よく 聞こえます。",
+      "reading": "Hai, yoku kikoemasu."
+    },
+    {
+      "speaker": "c",
+      "text": "せんせい、マイクの 音が ちょっと ちいさいです。",
+      "reading": "Sensei, maiku no oto ga chotto chiisai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。これで どうですか。",
+      "reading": "Sō desu ka. Kore de dō desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、はっきり 聞こえます。",
+      "reading": "Hai, hakkiri kikoemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせい、きょうの じゅぎょうを ろくおんしても いいですか。",
+      "reading": "Sensei, kyō no jugyō o rokuon shite mo ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。でも、じゅぎょうの 動画は、あとで だいがくの アプリで みられますよ。",
+      "reading": "Ii desu yo. Demo, jugyō no dōga wa, ato de daigaku no apuri de miraremasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。じゃあ、うちで もう いちど きけますね。",
+      "reading": "Sō desu ka. Jā, uchi de mō ichido kikemasu ne."
+    }
+  ]
+}

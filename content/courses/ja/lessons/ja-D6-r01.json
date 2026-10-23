@@ -1,0 +1,83 @@
+{
+  "id": "ja-D6-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.ongaeshi",
+      "text": "おんがえし",
+      "reading": "ongaeshi"
+    },
+    {
+      "id": "ja.guuzen",
+      "text": "ぐうぜん",
+      "reading": "gūzen"
+    },
+    {
+      "id": "ja.mochinushi",
+      "text": "持ち主",
+      "reading": "mochinushi"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "6月の あめの ひ、ナムは 駅で こまって いる おばあさんを みた。",
+        "reading": "Rokugatsu no ame no hi, Namu wa eki de komatte iru obāsan o mita."
+      },
+      {
+        "text": "おばあさんには かさが なかった。",
+        "reading": "Obāsan ni wa kasa ga nakatta."
+      },
+      {
+        "text": "ナムは「どうぞ」と いって、かさを かして あげた。",
+        "reading": "Namu wa “dōzo” to itte, kasa o kashite ageta."
+      },
+      {
+        "text": "ナムは あめに ぬれて、りょうへ かえった。",
+        "reading": "Namu wa ame ni nurete, ryō e kaetta."
+      }
+    ],
+    [
+      {
+        "text": "7月の はじめ、ナムが コンビニで アルバイトを して いると、ぐうぜん あの おばあさんが きた。",
+        "reading": "Shichigatsu no hajime, Namu ga konbini de arubaito o shite iru to, gūzen ano obāsan ga kita."
+      },
+      {
+        "text": "「あ、あの ときの かさの 持ち主ですね！」",
+        "reading": "“A, ano toki no kasa no mochinushi desu ne!”"
+      },
+      {
+        "text": "おばあさんは、かさと いっしょに、てがみと おかしを くれた。",
+        "reading": "Obāsan wa, kasa to issho ni, tegami to okashi o kureta."
+      }
+    ],
+    [
+      {
+        "text": "てがみには「あの ときは ほんとうに たすかりました。これは ちいさな おんがえしです」と かいて あった。",
+        "reading": "Tegami ni wa “ano toki wa hontō ni tasukarimashita. Kore wa chiisana ongaeshi desu” to kaite atta."
+      },
+      {
+        "text": "ナムは とても うれしかった。",
+        "reading": "Namu wa totemo ureshikatta."
+      },
+      {
+        "text": "そして、こんどは じぶんも だれかに 親切に しようと おもった。",
+        "reading": "Soshite, kondo wa jibun mo dareka ni shinsetsu ni shiyō to omotta."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ja-D1-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.dengon",
+      "text": "でんごん",
+      "reading": "dengon"
+    },
+    {
+      "id": "ja.youken",
+      "text": "ようけん",
+      "reading": "yōken"
+    },
+    {
+      "id": "ja.orikaesu",
+      "text": "おりかえす",
+      "reading": "orikaesu"
+    },
+    {
+      "id": "ja.rusubandenwa",
+      "text": "るすばんでんわ",
+      "reading": "rusubandenwa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "はい、やまだ研究室です。",
+      "reading": "Hai, Yamada kenkyūshitsu desu."
+    },
+    {
+      "speaker": "a",
+      "text": "もしもし、ナムです。やまだせんせいは いますか。",
+      "reading": "Moshimoshi, Namu desu. Yamada-sensei wa imasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "すみません。せんせいは いま じゅぎょうに いって います。",
+      "reading": "Sumimasen. Sensei wa ima jugyō ni itte imasu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。せんせいの けいたいにも でんわしましたが、るすばんでんわでした。",
+      "reading": "Sō desu ka. Sensei no keitai ni mo denwa shimashita ga, rusubandenwa deshita."
+    },
+    {
+      "speaker": "c",
+      "text": "なにか ようけんが ありますか。でんごんを つたえましょうか。",
+      "reading": "Nanika yōken ga arimasu ka. Dengon o tsutaemashō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、おねがいします。ゆきさんが、きょうは かぜで じゅぎょうを やすむと いって いました。",
+      "reading": "Hai, onegaishimasu. Yuki-san ga, kyō wa kaze de jugyō o yasumu to itte imashita."
+    },
+    {
+      "speaker": "c",
+      "text": "そうですか。ほかに なにか いって いましたか。",
+      "reading": "Sō desu ka. Hoka ni nanika itte imashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "しゅくだいは あとで メールで おくると いって いました。",
+      "reading": "Shukudai wa atode mēru de okuru to itte imashita."
+    },
+    {
+      "speaker": "c",
+      "text": "わかりました。せんせいに そう つたえます。",
+      "reading": "Wakarimashita. Sensei ni sō tsutaemasu."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。それから、わたしに おりかえし でんわを くださいと つたえて ください。",
+      "reading": "Arigatō gozaimasu. Sorekara, watashi ni orikaeshi denwa o kudasai to tsutaete kudasai."
+    }
+  ]
+}

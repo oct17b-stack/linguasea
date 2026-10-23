@@ -1,0 +1,90 @@
+{
+  "id": "ja-D5-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.kurou",
+      "text": "くろう",
+      "reading": "kurō"
+    },
+    {
+      "id": "ja.akirameru",
+      "text": "あきらめる",
+      "reading": "akirameru"
+    },
+    {
+      "id": "ja.shuuchuu",
+      "text": "集中",
+      "reading": "shūchū"
+    },
+    {
+      "id": "ja.yaruki",
+      "text": "やる気",
+      "reading": "yaruki"
+    },
+    {
+      "id": "ja.nakanaka",
+      "text": "なかなか",
+      "reading": "nakanaka"
+    },
+    {
+      "id": "ja.hotondo",
+      "text": "ほとんど",
+      "reading": "hotondo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、げんきが ないね。どう したの？",
+      "reading": "Namu, genki ga nai ne. Dō shita no?"
+    },
+    {
+      "speaker": "a",
+      "text": "さいきん、あたらしい たんごが あんき できなく なったんだ。",
+      "reading": "Saikin, atarashii tango ga anki dekinaku natta n da."
+    },
+    {
+      "speaker": "c",
+      "text": "そうなの？まえは まいにち 20こ あんきして いたよね。",
+      "reading": "Sō na no? Mae wa mainichi nijukko anki shite ita yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、いまは なかなか あんき できない。それに、べんきょうに 集中 できなく なった。",
+      "reading": "Un. Demo, ima wa nakanaka anki dekinai. Soreni, benkyō ni shūchū dekinaku natta."
+    },
+    {
+      "speaker": "c",
+      "text": "アルバイトが いそがしくて、つかれて いるんだと おもうよ。",
+      "reading": "Arubaito ga isogashikute, tsukarete iru n da to omou yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうかも。やる気も ぜんぜん なくなった。もう あきらめようかな。",
+      "reading": "Sō kamo. Yaruki mo zenzen nakunatta. Mō akirameyō kana."
+    },
+    {
+      "speaker": "c",
+      "text": "あきらめないで！ナムは ほとんど まいにち べんきょうして いるでしょう？",
+      "reading": "Akiramenaide! Namu wa hotondo mainichi benkyō shite iru deshō?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、くろうが おおくて…",
+      "reading": "Un. Demo, kurō ga ōkute…"
+    },
+    {
+      "speaker": "c",
+      "text": "くろうした ことは かならず やくにたつよ。すこし やすんだら、また やる気が でるよ。",
+      "reading": "Kurō shita koto wa kanarazu yaku ni tatsu yo. Sukoshi yasundara, mata yaruki ga deru yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。今週は すこし やすむ ことに する。",
+      "reading": "Arigatō. Konshū wa sukoshi yasumu koto ni suru."
+    }
+  ]
+}

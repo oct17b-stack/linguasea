@@ -1,0 +1,87 @@
+{
+  "id": "ja-D8-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.kanchigai",
+      "text": "かんちがい",
+      "reading": "kanchigai"
+    },
+    {
+      "id": "ja.tashikameru",
+      "text": "たしかめる",
+      "reading": "tashikameru"
+    },
+    {
+      "id": "ja.gokai",
+      "text": "ごかい",
+      "reading": "gokai"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "あや：ねえ、きいた？やまだせんせいが けっこんするそうだよ！",
+        "reading": "Aya: Nē, kiita? Yamada-sensei ga kekkon suru sō da yo!"
+      },
+      {
+        "text": "ゆき：え、ほんとう？だれに きいたの？",
+        "reading": "Yuki: E, hontō? Dare ni kiita no?"
+      },
+      {
+        "text": "あや：さっき、せんせいが 研究室で「来月、けっこんしきです」と はなして いたみたい。",
+        "reading": "Aya: Sakki, sensei ga kenkyūshitsu de “raigetsu, kekkonshiki desu” to hanashite ita mitai."
+      },
+      {
+        "text": "ナム：みんなで おいわいしよう！",
+        "reading": "Namu: Minna de oiwai shiyō!"
+      }
+    ],
+    [
+      {
+        "text": "ゆき：ちょっと まって。ほんとうか どうか、たしかめた ほうが いいよ。",
+        "reading": "Yuki: Chotto matte. Hontō ka dō ka, tashikameta hō ga ii yo."
+      },
+      {
+        "text": "ナム：じゃあ、わたしが せんせいに きいて みる。",
+        "reading": "Namu: Jā, watashi ga sensei ni kiite miru."
+      },
+      {
+        "text": "ナム：せんせいに きいたら、けっこんするのは せんせいの いもうとさんだそうだよ！",
+        "reading": "Namu: Sensei ni kiitara, kekkon suru no wa sensei no imōtosan da sō da yo!"
+      },
+      {
+        "text": "あや：えー！わたしの かんちがいだった…。",
+        "reading": "Aya: Ē! Watashi no kanchigai datta…"
+      }
+    ],
+    [
+      {
+        "text": "ゆき：ははは。うわさは こわいね。",
+        "reading": "Yuki: Hahaha. Uwasa wa kowai ne."
+      },
+      {
+        "text": "ナム：せんせいは わらって「それは ごかいですよ」と いって いたよ。",
+        "reading": "Namu: Sensei wa waratte “sore wa gokai desu yo” to itte ita yo."
+      },
+      {
+        "text": "あや：ごめんなさい！こんどからは、かならず たしかめる！",
+        "reading": "Aya: Gomennasai! Kondo kara wa, kanarazu tashikameru!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

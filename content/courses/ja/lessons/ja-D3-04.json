@@ -1,0 +1,90 @@
+{
+  "id": "ja-D3-04",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.washitsu",
+      "text": "わしつ",
+      "reading": "washitsu"
+    },
+    {
+      "id": "ja.youshitsu",
+      "text": "洋室",
+      "reading": "yōshitsu"
+    },
+    {
+      "id": "ja.tsuika",
+      "text": "ついか",
+      "reading": "tsuika"
+    },
+    {
+      "id": "ja.shukuhaku",
+      "text": "しゅくはく",
+      "reading": "shukuhaku"
+    },
+    {
+      "id": "ja.kuushitsu",
+      "text": "空室",
+      "reading": "kūshitsu"
+    },
+    {
+      "id": "ja.kimaru",
+      "text": "きまる",
+      "reading": "kimaru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません。しゅくはくを いっぱく ついかしたいんですが。",
+      "reading": "Sumimasen. Shukuhaku o ippaku tsuika shitai n desu ga."
+    },
+    {
+      "speaker": "b",
+      "text": "すこし おまちください。あしたの よるは、わしつの 空室が ありませんね。",
+      "reading": "Sukoshi omachi kudasai. Ashita no yoru wa, washitsu no kūshitsu ga arimasen ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そうですか。ほかの へやは どうですか。",
+      "reading": "Sō desu ka. Hoka no heya wa dō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "洋室は 空室が ひとつ あります。ベッドの へやです。",
+      "reading": "Yōshitsu wa kūshitsu ga hitotsu arimasu. Beddo no heya desu."
+    },
+    {
+      "speaker": "a",
+      "text": "じゃあ、洋室で おねがいします。",
+      "reading": "Jā, yōshitsu de onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。では、あしたの よるは 洋室に とまる ことに なります。",
+      "reading": "Wakarimashita. Dewa, ashita no yoru wa yōshitsu ni tomaru koto ni narimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "ナム、どう だった？",
+      "reading": "Namu, dō datta?"
+    },
+    {
+      "speaker": "a",
+      "text": "しゅくはくの ついかが きまったよ。でも、あしたは 洋室に とまる ことに なった。",
+      "reading": "Shukuhaku no tsuika ga kimatta yo. Demo, ashita wa yōshitsu ni tomaru koto ni natta."
+    },
+    {
+      "speaker": "c",
+      "text": "そう。わしつじゃ ないのは ちょっと ざんねんだね。",
+      "reading": "Sō. Washitsu ja nai no wa chotto zannen da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。でも、もう いっぱく おんせんを 楽しむ ことが できるよ！",
+      "reading": "Un. Demo, mō ippaku onsen o tanoshimu koto ga dekiru yo!"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ja-D3-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.furonto",
+      "text": "フロント",
+      "reading": "furonto"
+    },
+    {
+      "id": "ja.chekkuin",
+      "text": "チェックイン",
+      "reading": "chekkuin"
+    },
+    {
+      "id": "ja.chekkuauto",
+      "text": "チェックアウト",
+      "reading": "chekkuauto"
+    },
+    {
+      "id": "ja.choushoku",
+      "text": "朝食",
+      "reading": "chōshoku"
+    },
+    {
+      "id": "ja.yuushoku",
+      "text": "夕食",
+      "reading": "yūshoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、チェックインを おねがいします。ナムです。",
+      "reading": "Sumimasen, chekkuin o onegaishimasu. Namu desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。ナムさまですね。こちらに おなまえと じゅうしょを かいて ください。",
+      "reading": "Irasshaimase. Namu-sama desu ne. Kochira ni onamae to jūsho o kaite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。これで いいですか。",
+      "reading": "Hai. Kore de ii desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとうございます。おへやは 305です。夕食は 6時から、朝食は 7時からです。",
+      "reading": "Arigatō gozaimasu. Oheya wa sanbyakugo desu. Yūshoku wa rokuji kara, chōshoku wa shichiji kara desu."
+    },
+    {
+      "speaker": "a",
+      "text": "夕食は どこで たべますか。",
+      "reading": "Yūshoku wa doko de tabemasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "おへやで どうぞ。夕食の じゅんびが できたら、でんわします。",
+      "reading": "Oheya de dōzo. Yūshoku no junbi ga dekitara, denwa shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "わかりました。あしたの チェックアウトは なんじですか。",
+      "reading": "Wakarimashita. Ashita no chekkuauto wa nanji desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "10時です。なにか わからない ことが あったら、フロントに でんわして ください。",
+      "reading": "Jūji desu. Nanika wakaranai koto ga attara, furonto ni denwa shite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あのう、そとに でる ときは、かぎは どう しますか。",
+      "reading": "Hai. Anō, soto ni deru toki wa, kagi wa dō shimasu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "そとに でたら、かぎは フロントに あずけて ください。",
+      "reading": "Soto ni detara, kagi wa furonto ni azukete kudasai."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ja-D1-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.tsutaeru",
+      "text": "つたえる",
+      "reading": "tsutaeru"
+    },
+    {
+      "id": "ja.wadai",
+      "text": "話題",
+      "reading": "wadai"
+    },
+    {
+      "id": "ja.joudan",
+      "text": "じょうだん",
+      "reading": "jōdan"
+    },
+    {
+      "id": "ja.honki",
+      "text": "本気",
+      "reading": "honki"
+    },
+    {
+      "id": "ja.ougesa",
+      "text": "大げさ",
+      "reading": "ōgesa"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "やまだせんせい、きのうは じゅぎょうを やすんで、すみませんでした。",
+      "reading": "Yamada-sensei, kinō wa jugyō o yasunde, sumimasen deshita."
+    },
+    {
+      "speaker": "b",
+      "text": "いいえ。かぜは よく なりましたか。",
+      "reading": "Iie. Kaze wa yoku narimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。あのう、ゆきさんが「来週 テストが あるよ」と いいましたが、ほんとうですか。",
+      "reading": "Hai. Anō, Yuki-san ga “raishū tesuto ga aru yo” to iimashita ga, hontō desu ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ゆきさんが ナムさんに つたえたんですね。ええ、本気ですよ。じょうだんじゃ ありません。",
+      "reading": "Yuki-san ga Namu-san ni tsutaeta n desu ne. Ē, honki desu yo. Jōdan ja arimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきさんは、テストは とても むずかしいと いいました。",
+      "reading": "Yuki-san wa, tesuto wa totemo muzukashii to iimashita."
+    },
+    {
+      "speaker": "b",
+      "text": "ははは、ゆきさんは 大げさですね。そんなに むずかしく ありませんよ。",
+      "reading": "Hahaha, Yuki-san wa ōgesa desu ne. Sonna ni muzukashiku arimasen yo."
+    },
+    {
+      "speaker": "a",
+      "text": "よかったです。ほかに なにか いいましたか。",
+      "reading": "Yokatta desu. Hoka ni nanika iimashita ka."
+    },
+    {
+      "speaker": "b",
+      "text": "ええ。みんなに「来週の 話題は アルバイトです。考えて きて ください」と いいました。",
+      "reading": "Ē. Minna ni “raishū no wadai wa arubaito desu. Kangaete kite kudasai” to iimashita."
+    },
+    {
+      "speaker": "a",
+      "text": "アルバイトですか。わかりました。わたしも 考えて きます。",
+      "reading": "Arubaito desu ka. Wakarimashita. Watashi mo kangaete kimasu."
+    }
+  ]
+}

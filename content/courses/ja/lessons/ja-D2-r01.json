@@ -1,0 +1,96 @@
+{
+  "id": "ja-D2-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.iki",
+      "text": "行き",
+      "reading": "iki"
+    },
+    {
+      "id": "ja.shuugou",
+      "text": "しゅうごう",
+      "reading": "shūgō"
+    },
+    {
+      "id": "ja.mochimono",
+      "text": "持ち物",
+      "reading": "mochimono"
+    },
+    {
+      "id": "ja.kaisan",
+      "text": "かいさん",
+      "reading": "kaisan"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ナムへ",
+        "reading": "Namu e"
+      },
+      {
+        "text": "りょこうの 計画が できたよ！",
+        "reading": "Ryokō no keikaku ga dekita yo!"
+      }
+    ],
+    [
+      {
+        "text": "行きは 2月20日の あさ 9時の ひこうきだよ。",
+        "reading": "Iki wa nigatsu hatsuka no asa kuji no hikōki da yo."
+      },
+      {
+        "text": "しゅうごうは 7時半に、くうこうの 入口で。",
+        "reading": "Shūgō wa shichiji han ni, kūkō no iriguchi de."
+      },
+      {
+        "text": "さっぽろに 2はくして、22日に 特急で はこだてへ いくよ。",
+        "reading": "Sapporo ni nihaku shite, nijūninichi ni tokkyū de Hakodate e iku yo."
+      },
+      {
+        "text": "23日の よるは、夜行バスで さっぽろへ いく。",
+        "reading": "Nijūsannichi no yoru wa, yakōbasu de Sapporo e iku."
+      },
+      {
+        "text": "かいさんは 24日の よる、くうこうで。",
+        "reading": "Kaisan wa nijūyokka no yoru, kūkō de."
+      }
+    ],
+    [
+      {
+        "text": "よさんは ひとり 50,000円ぐらいだよ。",
+        "reading": "Yosan wa hitori goman en gurai da yo."
+      },
+      {
+        "text": "持ち物は あたたかい コートと てぶくろ。",
+        "reading": "Mochimono wa atatakai kōto to tebukuro."
+      },
+      {
+        "text": "ほっかいどうは とても さむいからね。",
+        "reading": "Hokkaidō wa totemo samui kara ne."
+      },
+      {
+        "text": "なにか しつもんは ある？",
+        "reading": "Nanika shitsumon wa aru?"
+      },
+      {
+        "text": "ゆき",
+        "reading": "Yuki"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

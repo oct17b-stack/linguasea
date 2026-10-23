@@ -1,0 +1,83 @@
+{
+  "id": "ja-D3-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.nyuuyoku",
+      "text": "にゅうよく",
+      "reading": "nyūyoku"
+    },
+    {
+      "id": "ja.kashikiri",
+      "text": "貸し切り",
+      "reading": "kashikiri"
+    },
+    {
+      "id": "ja.enchou",
+      "text": "えんちょう",
+      "reading": "enchō"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "だいよくじょうの にゅうよくは、ごご 3時から 夜中の 12時までと、あさ 5時から 9時までです。",
+        "reading": "Daiyokujō no nyūyoku wa, gogo sanji kara yonaka no jūniji made to, asa goji kara kuji made desu."
+      },
+      {
+        "text": "ろてんぶろは、40ぷん 貸し切りで つかう ことが できます。",
+        "reading": "Rotenburo wa, yonjuppun kashikiri de tsukau koto ga dekimasu."
+      },
+      {
+        "text": "貸し切りの よやくは フロントで おねがいします。",
+        "reading": "Kashikiri no yoyaku wa furonto de onegaishimasu."
+      }
+    ],
+    [
+      {
+        "text": "夕食は ごご 6時から、おへやで たべる ことが できます。",
+        "reading": "Yūshoku wa gogo rokuji kara, oheya de taberu koto ga dekimasu."
+      },
+      {
+        "text": "朝食は あさ 7時から 9時まで、ロビーの となりの へやで どうぞ。",
+        "reading": "Chōshoku wa asa shichiji kara kuji made, robī no tonari no heya de dōzo."
+      },
+      {
+        "text": "アレルギーが ある おきゃくさまは、フロントに いって ください。",
+        "reading": "Arerugī ga aru okyakusama wa, furonto ni itte kudasai."
+      }
+    ],
+    [
+      {
+        "text": "チェックアウトは あさ 10時です。",
+        "reading": "Chekkuauto wa asa jūji desu."
+      },
+      {
+        "text": "チェックアウトの えんちょうは、1じかん 1,000円です。",
+        "reading": "Chekkuauto no enchō wa, ichijikan sen en desu."
+      },
+      {
+        "text": "チェックアウトの あとも、にもつは フロントで あずかります。",
+        "reading": "Chekkuauto no ato mo, nimotsu wa furonto de azukarimasu."
+      },
+      {
+        "text": "なにか あったら、フロントに でんわして ください。",
+        "reading": "Nanika attara, furonto ni denwa shite kudasai."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

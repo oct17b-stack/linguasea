@@ -1,0 +1,90 @@
+{
+  "id": "ja-D2-03",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.yosan",
+      "text": "よさん",
+      "reading": "yosan"
+    },
+    {
+      "id": "ja.setsuyaku",
+      "text": "せつやく",
+      "reading": "setsuyaku"
+    },
+    {
+      "id": "ja.zeitaku",
+      "text": "ぜいたく",
+      "reading": "zeitaku"
+    },
+    {
+      "id": "ja.anzen",
+      "text": "あんぜん",
+      "reading": "anzen"
+    },
+    {
+      "id": "ja.hiyou",
+      "text": "ひよう",
+      "reading": "hiyō"
+    },
+    {
+      "id": "ja.dekirudake",
+      "text": "できるだけ",
+      "reading": "dekirudake"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、りょこうの よさんは どのぐらい？",
+      "reading": "Namu, ryokō no yosan wa dono gurai?"
+    },
+    {
+      "speaker": "a",
+      "text": "50,000円ぐらいの つもり。できるだけ せつやくしたいな。",
+      "reading": "Goman en gurai no tsumori. Dekirudake setsuyaku shitai na."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしも。ひこうきは やすい チケットを かう つもりだよ。",
+      "reading": "Watashi mo. Hikōki wa yasui chiketto o kau tsumori da yo."
+    },
+    {
+      "speaker": "a",
+      "text": "ホテルは？",
+      "reading": "Hoteru wa?"
+    },
+    {
+      "speaker": "c",
+      "text": "ホテルで ぜいたくする つもりは ないよ。やすい ホテルで いいよ。",
+      "reading": "Hoteru de zeitaku suru tsumori wa nai yo. Yasui hoteru de ii yo."
+    },
+    {
+      "speaker": "a",
+      "text": "でも、あんぜんな ホテルが いいね。やすすぎる ホテルは ちょっと しんぱい。",
+      "reading": "Demo, anzen na hoteru ga ii ne. Yasusugiru hoteru wa chotto shinpai."
+    },
+    {
+      "speaker": "c",
+      "text": "そうだね。あんぜんが いちばんだね。",
+      "reading": "Sō da ne. Anzen ga ichiban da ne."
+    },
+    {
+      "speaker": "a",
+      "text": "たべものの ひようは どう する？",
+      "reading": "Tabemono no hiyō wa dō suru?"
+    },
+    {
+      "speaker": "c",
+      "text": "たべものは ぜいたくする つもり！ほっかいどうの かにが たべたい！",
+      "reading": "Tabemono wa zeitaku suru tsumori! Hokkaidō no kani ga tabetai!"
+    },
+    {
+      "speaker": "a",
+      "text": "いいね！じゃあ、ほかの ひようを できるだけ せつやくしよう。",
+      "reading": "Ii ne! Jā, hoka no hiyō o dekirudake setsuyaku shiyō."
+    }
+  ]
+}

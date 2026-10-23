@@ -1,0 +1,84 @@
+{
+  "id": "ja-D4-r02",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "ja.kyoufuu",
+      "text": "強風",
+      "reading": "kyōfū"
+    },
+    {
+      "id": "ja.miawase",
+      "text": "みあわせ",
+      "reading": "miawase"
+    },
+    {
+      "id": "ja.ressha",
+      "text": "れっしゃ",
+      "reading": "ressha"
+    },
+    {
+      "id": "ja.fukkyuu",
+      "text": "ふっきゅう",
+      "reading": "fukkyū"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "ごあんない",
+        "reading": "Goannai"
+      },
+      {
+        "text": "きょう ごご 3時ごろから、強風で れっしゃの 運転を みあわせて います。",
+        "reading": "Kyō gogo sanji goro kara, kyōfū de ressha no unten o miawasete imasu."
+      },
+      {
+        "text": "特急も 急行も かくえきていしゃも、ぜんぶ 止まって います。",
+        "reading": "Tokkyū mo kyūkō mo kakuekiteisha mo, zenbu tomatte imasu."
+      }
+    ],
+    [
+      {
+        "text": "ふっきゅうは、よる 7時ごろの よていです。",
+        "reading": "Fukkyū wa, yoru shichiji goro no yotei desu."
+      },
+      {
+        "text": "でも、強風が つづくと、ふっきゅうが おくれる ことが あります。",
+        "reading": "Demo, kyōfū ga tsuzuku to, fukkyū ga okureru koto ga arimasu."
+      },
+      {
+        "text": "運転を みあわせて いる あいだ、特急の きっぷは はらいもどしが できます。",
+        "reading": "Unten o miawasete iru aida, tokkyū no kippu wa haraimodoshi ga dekimasu."
+      },
+      {
+        "text": "こうそくバスは 北口から でて います。",
+        "reading": "Kōsokubasu wa kitaguchi kara dete imasu."
+      }
+    ],
+    [
+      {
+        "text": "わからない ことは、あんないじょの かかりいんに きいて ください。",
+        "reading": "Wakaranai koto wa, annaijo no kakariin ni kiite kudasai."
+      },
+      {
+        "text": "ごめいわくを おかけして、もうしわけありません。",
+        "reading": "Gomeiwaku o okake shite, mōshiwake arimasen."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

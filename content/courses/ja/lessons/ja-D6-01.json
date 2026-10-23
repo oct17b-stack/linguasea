@@ -1,0 +1,80 @@
+{
+  "id": "ja-D6-01",
+  "target": "ja",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "ja.mukaeru",
+      "text": "むかえる",
+      "reading": "mukaeru"
+    },
+    {
+      "id": "ja.miokuru",
+      "text": "見送る",
+      "reading": "miokuru"
+    },
+    {
+      "id": "ja.sewa",
+      "text": "世話",
+      "reading": "sewa"
+    },
+    {
+      "id": "ja.shinsetsu",
+      "text": "親切",
+      "reading": "shinsetsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナム、来週 いもうとさんが にほんに くるんだよね。",
+      "reading": "Namu, raishū imōtosan ga Nihon ni kuru n da yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ファーは はじめての にほんだから、くうこうまで むかえに いって あげる つもり。",
+      "reading": "Un. Fā wa hajimete no Nihon da kara, kūkō made mukae ni itte ageru tsumori."
+    },
+    {
+      "speaker": "c",
+      "text": "ファーちゃんは 17さいだよね。わたしも いっしょに むかえに いって あげようか。",
+      "reading": "Fā-chan wa jūnanasai da yo ne. Watashi mo issho ni mukae ni itte ageyō ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ほんとう？ありがとう。ゆきは 親切だね。",
+      "reading": "Hontō? Arigatō. Yuki wa shinsetsu da ne."
+    },
+    {
+      "speaker": "c",
+      "text": "ファーちゃんは にほんごが はなせる？",
+      "reading": "Fā-chan wa Nihongo ga hanaseru?"
+    },
+    {
+      "speaker": "a",
+      "text": "すこしだけ。だから、わたしが ファーの 世話を して あげる。",
+      "reading": "Sukoshi dake. Dakara, watashi ga Fā no sewa o shite ageru."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムは いい おねえさんだね。どこに つれて いって あげるの？",
+      "reading": "Namu wa ii onēsan da ne. Doko ni tsurete itte ageru no?"
+    },
+    {
+      "speaker": "a",
+      "text": "おてらと ふじさんに つれて いって あげたい。",
+      "reading": "Otera to Fujisan ni tsurete itte agetai."
+    },
+    {
+      "speaker": "c",
+      "text": "いいね。かえる ときは、いっしょに くうこうまで 見送って あげよう。",
+      "reading": "Ii ne. Kaeru toki wa, issho ni kūkō made miokutte ageyō."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとう。ファーも よろこぶと おもう。",
+      "reading": "Arigatō. Fā mo yorokobu to omou."
+    }
+  ]
+}
