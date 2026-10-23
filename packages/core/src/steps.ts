@@ -135,14 +135,17 @@ export function chooseStep(
     wrong = ex.options.map((id) => pool.get(id)).filter((x): x is Word => !!x);
   } else {
     // Heard-only questions must not offer an answer that sounds the same as the right one,
-    // and "which word means …?" must not offer another word with the same meaning.
+    // "which word means …?" must not offer another word with the same meaning,
+    // and "what does … mean?" must not offer the meaning of another word written the same way.
     const byEar = ex.type === 'listen-choose' || ex.type === 'listen-text';
     const byMeaning = ex.type === 'choose-text';
+    const bySight = ex.type === 'choose-meaning';
     const fits = (x: Word) =>
       x.id !== w.id &&
       label(x) !== label(w) &&
       !(byEar && soundsAlike(x, w)) &&
-      !(byMeaning && x.meaning === w.meaning);
+      !(byMeaning && x.meaning === w.meaning) &&
+      !(bySight && x.text === w.text);
     // Same-group items in course order: the ones taught up to `upTo` come first. A course has
     // thousands of items, so pick at random from each part instead of shuffling all of them.
     const group = groupOf(pool, w);

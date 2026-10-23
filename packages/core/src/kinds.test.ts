@@ -114,6 +114,24 @@ describe('vocabulary questions', () => {
     }
   });
 
+  it('never offer the meaning of another word written the same way when the word is the prompt', () => {
+    const course = fixture();
+    const entry = course.lessons['ja-A3-01'];
+    // さん "Mr./Ms." and さん "three": two words, one spelling.
+    entry.lesson.items.push(
+      { id: 'ja.san-honorific', kind: 'word', text: 'さん', reading: 'san' },
+      { id: 'ja.san', kind: 'word', text: 'さん', reading: 'san' },
+    );
+    entry.gloss.items['ja.san-honorific'] = { meaning: 'คุณ (ต่อท้ายชื่อ)' };
+    entry.gloss.items['ja.san'] = { meaning: 'สาม' };
+    const pool = coursePool(course);
+    for (let seed = 1; seed <= 30; seed++) {
+      const s = chooseStep(pool, pool.get('ja.san')!, { type: 'choose-meaning' }, 99, seededRandom(seed));
+      if (s.kind !== 'choose') throw new Error('expected a choice');
+      expect(s.choices.map((c) => c.id)).not.toContain('ja.san-honorific');
+    }
+  });
+
   it('use exactly the given options when a lesson lists them', () => {
     const course = fixture();
     course.lessons['ja-A2-01'].lesson.exercises = [{ type: 'listen-text', item: 'ja.mizu', options: ['ja.ocha'] }];
