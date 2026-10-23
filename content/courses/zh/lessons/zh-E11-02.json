@@ -1,0 +1,96 @@
+{
+  "id": "zh-E11-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.xi-jiu",
+      "text": "喜酒",
+      "reading": "xǐjiǔ"
+    },
+    {
+      "id": "zh.yan-hui",
+      "text": "宴会",
+      "reading": "yànhuì"
+    },
+    {
+      "id": "zh.fen-zi-qian",
+      "kind": "phrase",
+      "text": "份子钱",
+      "reading": "fènziqián"
+    },
+    {
+      "id": "zh.jiang-jiu",
+      "text": "讲究",
+      "reading": "jiǎngjiu"
+    },
+    {
+      "id": "zh.dun-meal",
+      "text": "顿",
+      "reading": "dùn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，去参加你表姐的婚礼，我应该送什么礼物？",
+      "reading": "Wáng Míng, qù cānjiā nǐ biǎojiě de hūnlǐ, wǒ yīnggāi sòng shénme lǐwù?"
+    },
+    {
+      "speaker": "b",
+      "text": "中国人参加婚礼一般不送礼物，而是给红包，叫“份子钱”。",
+      "reading": "Zhōngguó rén cānjiā hūnlǐ yībān bù sòng lǐwù, érshì gěi hóngbāo, jiào \"fènziqián\"."
+    },
+    {
+      "speaker": "a",
+      "text": "份子钱要给多少？我怕给少了不好意思。",
+      "reading": "Fènziqián yào gěi duōshao? Wǒ pà gěi shǎo le bù hǎoyìsi."
+    },
+    {
+      "speaker": "b",
+      "text": "没有规定，你想给多少就给多少。不过也有一些讲究。",
+      "reading": "Méiyǒu guīdìng, nǐ xiǎng gěi duōshao jiù gěi duōshao. Bùguò yě yǒu yīxiē jiǎngjiu."
+    },
+    {
+      "speaker": "a",
+      "text": "什么讲究？",
+      "reading": "Shénme jiǎngjiu?"
+    },
+    {
+      "speaker": "b",
+      "text": "最好是六百、八百这样的数字。中国人不太喜欢“四”这个数字。",
+      "reading": "Zuìhǎo shì liùbǎi, bābǎi zhèyàng de shùzì. Zhōngguó rén bù tài xǐhuan \"sì\" zhège shùzì."
+    },
+    {
+      "speaker": "a",
+      "text": "我知道，因为“四”的发音跟一个不好的字很像。",
+      "reading": "Wǒ zhīdào, yīnwèi \"sì\" de fāyīn gēn yī ge bù hǎo de zì hěn xiàng."
+    },
+    {
+      "speaker": "b",
+      "text": "对。好朋友一般给五六百，关系特别好的可以多给一点儿。",
+      "reading": "Duì. Hǎo péngyou yībān gěi wǔ-liùbǎi, guānxi tèbié hǎo de kěyǐ duō gěi yīdiǎnr."
+    },
+    {
+      "speaker": "a",
+      "text": "我还听说，参加婚礼也叫“喝喜酒”，是吗？",
+      "reading": "Wǒ hái tīngshuō, cānjiā hūnlǐ yě jiào \"hē xǐjiǔ\", shì ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "是的。仪式以后有一个很大的宴会，大家一起吃一顿饭，喝喜酒。",
+      "reading": "Shì de. Yíshì yǐhòu yǒu yī ge hěn dà de yànhuì, dàjiā yīqǐ chī yī dùn fàn, hē xǐjiǔ."
+    },
+    {
+      "speaker": "a",
+      "text": "宴会上想吃什么就吃什么吗？",
+      "reading": "Yànhuì shang xiǎng chī shénme jiù chī shénme ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "哈哈，对，菜特别多，你想吃多少就吃多少！",
+      "reading": "Hāhā, duì, cài tèbié duō, nǐ xiǎng chī duōshao jiù chī duōshao!"
+    }
+  ]
+}

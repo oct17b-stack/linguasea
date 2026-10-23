@@ -1,0 +1,100 @@
+{
+  "id": "ja-E10-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.tokai",
+      "text": "都会",
+      "reading": "tokai"
+    },
+    {
+      "id": "ja.shuto",
+      "text": "首都",
+      "reading": "shuto"
+    },
+    {
+      "id": "ja.jinkou",
+      "text": "人口",
+      "reading": "jinkō"
+    },
+    {
+      "id": "ja.juutai",
+      "text": "じゅうたい",
+      "reading": "jūtai"
+    },
+    {
+      "id": "ja.menseki",
+      "text": "面積",
+      "reading": "menseki"
+    },
+    {
+      "id": "ja.kousoubiru",
+      "text": "こうそうビル",
+      "reading": "kōsōbiru"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、じつは、来月からしごとでバンコクに行くことになったんです。3年のよていです。",
+      "reading": "Namu-san, jitsu wa, raigetsu kara shigoto de Bankoku ni iku koto ni natta n desu. Sannen no yotei desu."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんですか。バンコクはタイの首都で、とてもおおきな都会ですよ。",
+      "reading": "Sō na n desu ka. Bankoku wa Tai no shuto de, totemo ōkina tokai desu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "とうきょうに比べて、どうですか。",
+      "reading": "Tōkyō ni kurabete, dō desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "人口は、とうきょうに比べると、すくないです。でも、こうそうビルがたくさんあって、にぎやかですよ。",
+      "reading": "Jinkō wa, Tōkyō ni kuraberu to, sukunai desu. Demo, kōsōbiru ga takusan atte, nigiyaka desu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "タイというくには、どのくらいのおおきさですか。",
+      "reading": "Tai to iu kuni wa, dono kurai no ōkisa desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの面積は、にほんに比べて、すこしおおきいです。でも、人口は、にほんよりずっとすくないです。",
+      "reading": "Tai no menseki wa, Nihon ni kurabete, sukoshi ōkii desu. Demo, jinkō wa, Nihon yori zutto sukunai desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。こうつうはどうですか。じゅうたいがひどいと聞きましたが。",
+      "reading": "Sō desu ka. Kōtsū wa dō desu ka. Jūtai ga hidoi to kikimashita ga."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。特に、あめの日のゆうがたは、くるまがぜんぜんうごきません。",
+      "reading": "Hai. Toku ni, ame no hi no yūgata wa, kuruma ga zenzen ugokimasen."
+    },
+    {
+      "speaker": "b",
+      "text": "でんしゃは、べんりですか。",
+      "reading": "Densha wa, benri desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "でんしゃは、とうきょうに比べると、まだすくないです。でも、じゅうたいがないので、とてもべんりですよ。",
+      "reading": "Densha wa, Tōkyō ni kuraberu to, mada sukunai desu. Demo, jūtai ga nai node, totemo benri desu yo."
+    },
+    {
+      "speaker": "b",
+      "text": "きこうは、とうきょうに比べて、とてもあついでしょうね。",
+      "reading": "Kikō wa, Tōkyō ni kurabete, totemo atsui deshō ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。ふゆがなくて、いつもなつです。でも、どこでもエアコンがあるので、だいじょうぶですよ。",
+      "reading": "Hai. Fuyu ga nakute, itsumo natsu desu. Demo, doko demo eakon ga aru node, daijōbu desu yo."
+    }
+  ]
+}

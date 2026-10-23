@@ -1,0 +1,76 @@
+{
+  "id": "zh-C16-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.pu-bian",
+      "text": "普遍",
+      "reading": "pǔbiàn"
+    },
+    {
+      "id": "zh.wai-mai",
+      "text": "外卖",
+      "reading": "wàimài"
+    },
+    {
+      "id": "zh.sao-ma",
+      "kind": "phrase",
+      "text": "扫码",
+      "reading": "sǎo mǎ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "在中国，用手机付钱非常普遍。",
+        "reading": "Zài Zhōngguó, yòng shǒujī fù qián fēicháng pǔbiàn."
+      },
+      {
+        "text": "买水果、坐公交车、在饭馆吃饭，大家都扫码付钱。",
+        "reading": "Mǎi shuǐguǒ, zuò gōngjiāochē, zài fànguǎn chīfàn, dàjiā dōu sǎo mǎ fù qián."
+      },
+      {
+        "text": "很多人只带手机，不带钱包。",
+        "reading": "Hěn duō rén zhǐ dài shǒujī, bù dài qiánbāo."
+      }
+    ],
+    [
+      {
+        "text": "中国人还常常在手机上订外卖。",
+        "reading": "Zhōngguó rén hái chángcháng zài shǒujī shang dìng wàimài."
+      },
+      {
+        "text": "外卖很快，大概三十分钟就到了。",
+        "reading": "Wàimài hěn kuài, dàgài sānshí fēnzhōng jiù dào le."
+      },
+      {
+        "text": "在手机上，人们还看新闻、聊天、买火车票。",
+        "reading": "Zài shǒujī shang, rénmen hái kàn xīnwén, liáotiān, mǎi huǒchēpiào."
+      }
+    ],
+    [
+      {
+        "text": "有人说，在中国，没有手机很不方便。",
+        "reading": "Yǒu rén shuō, zài Zhōngguó, méiyǒu shǒujī hěn bù fāngbiàn."
+      },
+      {
+        "text": "你在泰国也常常用手机做这些事吗？",
+        "reading": "Nǐ zài Tàiguó yě chángcháng yòng shǒujī zuò zhèxiē shì ma?"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

@@ -28,13 +28,13 @@
   "dialogue": [
     {
       "speaker": "a",
-      "text": "王明，我明天去银行办卡。需要什么证件？",
-      "reading": "Wáng Míng, wǒ míngtiān qù yínháng bàn kǎ. Xūyào shénme zhèngjiàn?"
+      "text": "您好，我想办一张图书馆的卡。需要什么证件？",
+      "reading": "Nín hǎo, wǒ xiǎng bàn yī zhāng túshūguǎn de kǎ. Xūyào shénme zhèngjiàn?"
     },
     {
-      "speaker": "b",
-      "text": "中国人需要身份证，外国人需要护照。",
-      "reading": "Zhōngguó rén xūyào shēnfènzhèng, wàiguó rén xūyào hùzhào."
+      "speaker": "c",
+      "text": "中国学生需要身份证，外国学生需要护照。",
+      "reading": "Zhōngguó xuésheng xūyào shēnfènzhèng, wàiguó xuésheng xūyào hùzhào."
     },
     {
       "speaker": "a",
@@ -42,29 +42,29 @@
       "reading": "Xūyào fùyìn hùzhào ma?"
     },
     {
-      "speaker": "b",
-      "text": "不需要，银行可以复印。你还需要一个中国的手机号码。",
-      "reading": "Bù xūyào, yínháng kěyǐ fùyìn. Nǐ hái xūyào yī ge Zhōngguó de shǒujī hàomǎ."
+      "speaker": "c",
+      "text": "需要，复印一张就行。还需要一张照片。",
+      "reading": "Xūyào, fùyìn yī zhāng jiù xíng. Hái xūyào yī zhāng zhàopiàn."
     },
     {
       "speaker": "a",
-      "text": "我有。还需要别的吗？",
-      "reading": "Wǒ yǒu. Hái xūyào biéde ma?"
+      "text": "我没带照片……",
+      "reading": "Wǒ méi dài zhàopiàn……"
     },
     {
-      "speaker": "b",
-      "text": "可能还需要你的学生证。",
-      "reading": "Kěnéng hái xūyào nǐ de xuéshēngzhèng."
+      "speaker": "c",
+      "text": "没关系，这儿可以照。你还需要学生证。",
+      "reading": "Méi guānxi, zhèr kěyǐ zhào. Nǐ hái xūyào xuéshēngzhèng."
     },
     {
       "speaker": "a",
-      "text": "好，那我都带吧。",
-      "reading": "Hǎo, nà wǒ dōu dài ba."
+      "text": "学生证我带了。今天能办好吗？",
+      "reading": "Xuéshēngzhèng wǒ dài le. Jīntiān néng bànhǎo ma?"
     },
     {
-      "speaker": "b",
-      "text": "别忘了护照，那个最重要！",
-      "reading": "Bié wàng le hùzhào, nàge zuì zhòngyào!"
+      "speaker": "c",
+      "text": "能，十分钟就好。",
+      "reading": "Néng, shí fēnzhōng jiù hǎo."
     }
   ]
 }

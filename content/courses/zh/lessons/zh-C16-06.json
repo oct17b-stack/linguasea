@@ -1,0 +1,70 @@
+{
+  "id": "zh-C16-06",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.wang-gou",
+      "text": "网购",
+      "reading": "wǎnggòu"
+    },
+    {
+      "id": "zh.ding-book",
+      "text": "订",
+      "reading": "dìng"
+    },
+    {
+      "id": "zh.shou-receive",
+      "text": "收",
+      "reading": "shōu"
+    },
+    {
+      "id": "zh.ruan-jian",
+      "text": "软件",
+      "reading": "ruǎnjiàn"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我昨天第一次网购了！",
+      "reading": "Wáng Míng, wǒ zuótiān dì-yī cì wǎnggòu le!"
+    },
+    {
+      "speaker": "b",
+      "text": "真的？你买了什么？",
+      "reading": "Zhēnde? Nǐ mǎi le shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "一双运动鞋，两百多块。还订了两张电影票，五十多块。",
+      "reading": "Yī shuāng yùndòngxié, liǎngbǎi duō kuài. Hái dìng le liǎng zhāng diànyǐngpiào, wǔshí duō kuài."
+    },
+    {
+      "speaker": "b",
+      "text": "不贵！你用什么软件？",
+      "reading": "Bù guì! Nǐ yòng shénme ruǎnjiàn?"
+    },
+    {
+      "speaker": "a",
+      "text": "就是你教我的那个软件，很好用。",
+      "reading": "Jiù shì nǐ jiāo wǒ de nàge ruǎnjiàn, hěn hǎoyòng."
+    },
+    {
+      "speaker": "b",
+      "text": "鞋到了吗？你在哪儿收快递？",
+      "reading": "Xié dào le ma? Nǐ zài nǎr shōu kuàidì?"
+    },
+    {
+      "speaker": "a",
+      "text": "还没到。我在小区门口收，很方便。",
+      "reading": "Hái méi dào. Wǒ zài xiǎoqū ménkǒu shōu, hěn fāngbiàn."
+    },
+    {
+      "speaker": "b",
+      "text": "网购很方便，可是别买太多东西！",
+      "reading": "Wǎnggòu hěn fāngbiàn, kěshì bié mǎi tài duō dōngxi!"
+    }
+  ]
+}

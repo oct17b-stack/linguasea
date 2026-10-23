@@ -1,0 +1,96 @@
+{
+  "id": "zh-E11-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.ti-instead",
+      "text": "替",
+      "reading": "tì"
+    },
+    {
+      "id": "zh.wen-hao",
+      "kind": "phrase",
+      "text": "问好",
+      "reading": "wènhǎo"
+    },
+    {
+      "id": "zh.chang-shou",
+      "text": "长寿",
+      "reading": "chángshòu"
+    },
+    {
+      "id": "zh.qin-zi",
+      "text": "亲自",
+      "reading": "qīnzì"
+    },
+    {
+      "id": "zh.wan-bei",
+      "text": "晚辈",
+      "reading": "wǎnbèi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个周末我要回老家，我奶奶八十岁生日。",
+      "reading": "Xiǎonán, zhège zhōumò wǒ yào huí lǎojiā, wǒ nǎinai bāshí suì shēngrì."
+    },
+    {
+      "speaker": "a",
+      "text": "八十岁！真不容易。你们家怎么给奶奶过生日？",
+      "reading": "Bāshí suì! Zhēn bù róngyì. Nǐmen jiā zěnme gěi nǎinai guò shēngrì?"
+    },
+    {
+      "speaker": "b",
+      "text": "全家人都会回去一起吃饭，晚辈们要一个一个地给奶奶说祝福的话。",
+      "reading": "Quán jiārén dōu huì huíqù yīqǐ chīfàn, wǎnbèimen yào yī ge yī ge de gěi nǎinai shuō zhùfú de huà."
+    },
+    {
+      "speaker": "a",
+      "text": "对老人一般说什么祝福的话？",
+      "reading": "Duì lǎorén yībān shuō shénme zhùfú de huà?"
+    },
+    {
+      "speaker": "b",
+      "text": "一般说“祝您健康长寿”。我们还要吃长寿面。",
+      "reading": "Yībān shuō \"Zhù nín jiànkāng chángshòu\". Wǒmen hái yào chī chángshòumiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么要吃面条？",
+      "reading": "Wèi shénme yào chī miàntiáo?"
+    },
+    {
+      "speaker": "b",
+      "text": "因为面条很长，意思是长寿。我妈妈每年都亲自给奶奶做长寿面。",
+      "reading": "Yīnwèi miàntiáo hěn cháng, yìsi shì chángshòu. Wǒ māma měi nián dōu qīnzì gěi nǎinai zuò chángshòumiàn."
+    },
+    {
+      "speaker": "a",
+      "text": "真好。可惜我这个周末有考试，不能去。你能替我向奶奶问好吗？",
+      "reading": "Zhēn hǎo. Kěxī wǒ zhège zhōumò yǒu kǎoshì, bù néng qù. Nǐ néng tì wǒ xiàng nǎinai wènhǎo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "当然可以，我一定替你问好。奶奶还记得你呢，她说你很有礼貌。",
+      "reading": "Dāngrán kěyǐ, wǒ yīdìng tì nǐ wènhǎo. Nǎinai hái jìde nǐ ne, tā shuō nǐ hěn yǒu lǐmào."
+    },
+    {
+      "speaker": "a",
+      "text": "我准备了一份小礼物，是一盒泰国茶，你替我送给奶奶吧。",
+      "reading": "Wǒ zhǔnbèi le yī fèn xiǎo lǐwù, shì yī hé Tàiguó chá, nǐ tì wǒ sònggěi nǎinai ba."
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢你！奶奶一定会很高兴的。",
+      "reading": "Xièxie nǐ! Nǎinai yīdìng huì hěn gāoxìng de."
+    },
+    {
+      "speaker": "a",
+      "text": "也替我祝奶奶生日快乐、健康长寿！",
+      "reading": "Yě tì wǒ zhù nǎinai shēngrì kuàilè, jiànkāng chángshòu!"
+    }
+  ]
+}
