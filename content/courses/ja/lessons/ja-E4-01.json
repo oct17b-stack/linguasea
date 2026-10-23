@@ -1,0 +1,95 @@
+{
+  "id": "ja-E4-01",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.kyouiku",
+      "text": "教育",
+      "reading": "kyōiku"
+    },
+    {
+      "id": "ja.kouchou",
+      "text": "校長",
+      "reading": "kōchō"
+    },
+    {
+      "id": "ja.tannin",
+      "text": "たんにん",
+      "reading": "tannin"
+    },
+    {
+      "id": "ja.shougakkou",
+      "text": "小学校",
+      "reading": "shōgakkō"
+    },
+    {
+      "id": "ja.koukousei",
+      "text": "高校生",
+      "reading": "kōkōsei"
+    },
+    {
+      "id": "ja.kyuushoku",
+      "text": "給食",
+      "reading": "kyūshoku"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムさん、タイの小学校では、こどもたちにそうじをさせますか。",
+      "reading": "Namu-san, Tai no shōgakkō de wa, kodomotachi ni sōji o sasemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、させます。まいにち、せんせいがこどもたちにきょうしつをそうじさせます。",
+      "reading": "Hai, sasemasu. Mainichi, sensei ga kodomotachi ni kyōshitsu o sōji sasemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんとおなじですね。にほんでは、給食のじゅんびも、こどもたちにさせますよ。",
+      "reading": "Nihon to onaji desu ne. Nihon de wa, kyūshoku no junbi mo, kodomotachi ni sasemasu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "タイの小学校にも給食はありますが、高校生は学食でかうことがおおいです。",
+      "reading": "Tai no shōgakkō ni mo kyūshoku wa arimasu ga, kōkōsei wa gakushoku de kau koto ga ōi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "そうですか。たんにんのせんせいも、こどもたちといっしょにたべますか。",
+      "reading": "Sō desu ka. Tannin no sensei mo, kodomotachi to issho ni tabemasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、べつのへやでたべることがおおいです。",
+      "reading": "Iie, betsu no heya de taberu koto ga ōi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "にほんでは、たんにんもきょうしつで、いっしょにたべるんですよ。",
+      "reading": "Nihon de wa, tannin mo kyōshitsu de, issho ni taberu n desu yo."
+    },
+    {
+      "speaker": "a",
+      "text": "そうなんですか。タイの学校では、まいあさ、こどもたちをそとにならばせて、くにのうたをうたわせます。",
+      "reading": "Sō na n desu ka. Tai no gakkō de wa, maiasa, kodomotachi o soto ni narabasete, kuni no uta o utawasemasu."
+    },
+    {
+      "speaker": "b",
+      "text": "おもしろいですね。校長せんせいも、そこではなしをしますか。",
+      "reading": "Omoshiroi desu ne. Kōchō sensei mo, soko de hanashi o shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい。でも、はなしがながくて、こどもたちをつかれさせることもあります。",
+      "reading": "Hai. Demo, hanashi ga nagakute, kodomotachi o tsukaresaseru koto mo arimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "ははは、それもにほんとおなじですね。教育は、くにがちがっても、にているところがおおいですね。",
+      "reading": "Hahaha, sore mo Nihon to onaji desu ne. Kyōiku wa, kuni ga chigatte mo, nite iru tokoro ga ōi desu ne."
+    }
+  ]
+}

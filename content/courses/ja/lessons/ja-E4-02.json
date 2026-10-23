@@ -1,0 +1,96 @@
+{
+  "id": "ja-E4-02",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.shiryou",
+      "text": "資料",
+      "reading": "shiryō"
+    },
+    {
+      "id": "ja.shikai",
+      "text": "しかい",
+      "reading": "shikai"
+    },
+    {
+      "id": "ja.shinkou",
+      "text": "進行",
+      "reading": "shinkō"
+    },
+    {
+      "id": "ja.te-o-ageru",
+      "kind": "phrase",
+      "text": "てをあげる",
+      "reading": "te o ageru"
+    },
+    {
+      "id": "ja.junban",
+      "text": "じゅんばん",
+      "reading": "junban"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "では、はっぴょうをはじめましょう。じゅんばんは、どうしますか。",
+      "reading": "Dewa, happyō o hajimemashō. Junban wa, dō shimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "せんせい、わたしからはっぴょうさせてください。",
+      "reading": "Sensei, watashi kara happyō sasete kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "いいですよ。しかいは、だれがしますか。",
+      "reading": "Ii desu yo. Shikai wa, dare ga shimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "わたしに、しかいをさせてください。",
+      "reading": "Watashi ni, shikai o sasete kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、ゆきさん、進行をおねがいします。",
+      "reading": "Jā, Yuki-san, shinkō o onegaishimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "はい。はっぴょうのあとで、しつもんがあるひとは、てをあげてください。",
+      "reading": "Hai. Happyō no ato de, shitsumon ga aru hito wa, te o agete kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "すみません、はじめるまえに、資料をくばらせてください。",
+      "reading": "Sumimasen, hajimeru mae ni, shiryō o kubarasete kudasai."
+    },
+    {
+      "speaker": "b",
+      "text": "どうぞ。",
+      "reading": "Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "…いじょうです。なにか、しつもんはありますか。",
+      "reading": "…Ijō desu. Nanika, shitsumon wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "ナムさん、ひとつしつもんさせてください。タイの学校は、なんじにおわりますか。",
+      "reading": "Namu-san, hitotsu shitsumon sasete kudasai. Tai no gakkō wa, nanji ni owarimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "3時半ごろです。そのあと、じゅくにいくこどももおおいです。",
+      "reading": "Sanji han goro desu. Sono ato, juku ni iku kodomo mo ōi desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ありがとう。では、じゅんばんに、つづけましょう。",
+      "reading": "Arigatō. Dewa, junban ni, tsuzukemashō."
+    }
+  ]
+}

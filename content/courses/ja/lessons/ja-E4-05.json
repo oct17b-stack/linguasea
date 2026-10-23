@@ -1,0 +1,100 @@
+{
+  "id": "ja-E4-05",
+  "target": "ja",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ja.doutoku",
+      "text": "どうとく",
+      "reading": "dōtoku"
+    },
+    {
+      "id": "ja.chishiki",
+      "text": "知識",
+      "reading": "chishiki"
+    },
+    {
+      "id": "ja.kosei",
+      "text": "こせい",
+      "reading": "kosei"
+    },
+    {
+      "id": "ja.tsumekomi",
+      "text": "つめこみ",
+      "reading": "tsumekomi"
+    },
+    {
+      "id": "ja.kyouka",
+      "text": "教科",
+      "reading": "kyōka"
+    },
+    {
+      "id": "ja.kangaekata",
+      "text": "考え方",
+      "reading": "kangaekata"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "きょうは「学校はなにをおしえるべきか」について、はなしあいましょう。",
+      "reading": "Kyō wa \"Gakkō wa nani o oshieru beki ka\" ni tsuite, hanashiaimashō."
+    },
+    {
+      "speaker": "c",
+      "text": "知識もひつようですが、わたしは考え方をおしえるべきだと思います。",
+      "reading": "Chishiki mo hitsuyō desu ga, watashi wa kangaekata o oshieru beki da to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "どうしてですか。",
+      "reading": "Dōshite desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "つめこみの教育では、テストがおわったら、すぐにわすれてしまうからです。",
+      "reading": "Tsumekomi no kyōiku de wa, tesuto ga owattara, sugu ni wasurete shimau kara desu."
+    },
+    {
+      "speaker": "b",
+      "text": "ナムさんは、どう思いますか。",
+      "reading": "Namu-san wa, dō omoimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "わたしも、つめこみはよくないと思います。それに、学校はこどもたちのこせいをのばすべきです。",
+      "reading": "Watashi mo, tsumekomi wa yoku nai to omoimasu. Sore ni, gakkō wa kodomotachi no kosei o nobasu beki desu."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。どうとくはどうですか。タイの学校には、どうとくの教科がありますか。",
+      "reading": "Naruhodo. Dōtoku wa dō desu ka. Tai no gakkō ni wa, dōtoku no kyōka ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、あります。でも、どうとくは、じゅぎょうでおしえるより、まいにちの生活のなかでおしえるべきだと思います。",
+      "reading": "Hai, arimasu. Demo, dōtoku wa, jugyō de oshieru yori, mainichi no seikatsu no naka de oshieru beki da to omoimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "それに、せんせいは、こたえをすぐにおしえるべきではないと思います。",
+      "reading": "Sore ni, sensei wa, kotae o sugu ni oshieru beki de wa nai to omoimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "どうしてですか。",
+      "reading": "Dōshite desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "こどもたちが考えるじかんが、なくなるからです。",
+      "reading": "Kodomotachi ga kangaeru jikan ga, nakunaru kara desu."
+    },
+    {
+      "speaker": "b",
+      "text": "いい意見ですね。では、きょうの意見を、ノートにかいておいてください。",
+      "reading": "Ii iken desu ne. Dewa, kyō no iken o, nōto ni kaite oite kudasai."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "zh-B16-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.ji-zhen",
+      "text": "急诊",
+      "reading": "jízhěn"
+    },
+    {
+      "id": "zh.bing-fang",
+      "text": "病房",
+      "reading": "bìngfáng"
+    },
+    {
+      "id": "zh.chu-yuan",
+      "text": "出院",
+      "reading": "chūyuàn"
+    },
+    {
+      "id": "zh.ya-yi",
+      "text": "牙医",
+      "reading": "yáyī"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好，请问王明在哪个病房？",
+      "reading": "Nǐ hǎo, qǐngwèn Wáng Míng zài nǎge bìngfáng?"
+    },
+    {
+      "speaker": "c",
+      "text": "他昨天晚上来急诊，现在在三零二病房。",
+      "reading": "Tā zuótiān wǎnshang lái jízhěn, xiànzài zài sān líng èr bìngfáng."
+    },
+    {
+      "speaker": "a",
+      "text": "他什么时候能出院？",
+      "reading": "Tā shénme shíhou néng chūyuàn?"
+    },
+    {
+      "speaker": "c",
+      "text": "明天上午就能出院。",
+      "reading": "Míngtiān shàngwǔ jiù néng chūyuàn."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！还有，牙医在几楼？",
+      "reading": "Tài hǎo le! Hái yǒu, yáyī zài jǐ lóu?"
+    },
+    {
+      "speaker": "c",
+      "text": "在二楼。",
+      "reading": "Zài èr lóu."
+    }
+  ]
+}
