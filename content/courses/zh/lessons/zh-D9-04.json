@@ -1,0 +1,80 @@
+{
+  "id": "zh-D9-04",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.shang-cai",
+      "text": "上菜",
+      "reading": "shàngcài"
+    },
+    {
+      "id": "zh.deng-dai",
+      "text": "等待",
+      "reading": "děngdài"
+    },
+    {
+      "id": "zh.yi-jian",
+      "text": "意见",
+      "reading": "yìjiàn"
+    },
+    {
+      "id": "zh.tai-du",
+      "text": "态度",
+      "reading": "tàidu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "服务员，我们等了快半个小时了，鸡汤怎么还没上？",
+      "reading": "Fúwùyuán, wǒmen děng le kuài bàn ge xiǎoshí le, jītāng zěnme hái méi shàng?"
+    },
+    {
+      "speaker": "b",
+      "text": "对不起，今天客人特别多，上菜比较慢，请您再等待五分钟。",
+      "reading": "Duìbuqǐ, jīntiān kèrén tèbié duō, shàngcài bǐjiào màn, qǐng nín zài děngdài wǔ fēnzhōng."
+    },
+    {
+      "speaker": "c",
+      "text": "没关系，我们不着急。",
+      "reading": "Méi guānxi, wǒmen bù zháojí."
+    },
+    {
+      "speaker": "b",
+      "text": "来了！这是您要的鱼。",
+      "reading": "Lái le! Zhè shì nín yào de yú."
+    },
+    {
+      "speaker": "a",
+      "text": "不好意思，你上错菜了。我们没点鱼，我们点的是鸡汤。",
+      "reading": "Bù hǎoyìsi, nǐ shàngcuò cài le. Wǒmen méi diǎn yú, wǒmen diǎn de shì jītāng."
+    },
+    {
+      "speaker": "b",
+      "text": "啊，真对不起！是我听错了，我马上给您换。",
+      "reading": "A, zhēn duìbuqǐ! Shì wǒ tīngcuò le, wǒ mǎshàng gěi nín huàn."
+    },
+    {
+      "speaker": "a",
+      "text": "没关系，今天客人这么多，你们也很忙。",
+      "reading": "Méi guānxi, jīntiān kèrén zhème duō, nǐmen yě hěn máng."
+    },
+    {
+      "speaker": "b",
+      "text": "这是您的鸡汤。您对我们的菜有什么意见，请告诉我。",
+      "reading": "Zhè shì nín de jītāng. Nín duì wǒmen de cài yǒu shénme yìjiàn, qǐng gàosu wǒ."
+    },
+    {
+      "speaker": "c",
+      "text": "菜都很好吃，你们的服务态度也很好，就是上菜有点儿慢。",
+      "reading": "Cài dōu hěn hǎochī, nǐmen de fúwù tàidu yě hěn hǎo, jiùshì shàngcài yǒudiǎnr màn."
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢您的意见，我们以后一定注意！",
+      "reading": "Xièxie nín de yìjiàn, wǒmen yǐhòu yīdìng zhùyì!"
+    }
+  ]
+}

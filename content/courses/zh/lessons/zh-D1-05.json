@@ -1,0 +1,85 @@
+{
+  "id": "zh-D1-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.jing-guo",
+      "text": "经过",
+      "reading": "jīngguò"
+    },
+    {
+      "id": "zh.dao-you",
+      "text": "导游",
+      "reading": "dǎoyóu"
+    },
+    {
+      "id": "zh.dao-da",
+      "text": "到达",
+      "reading": "dàodá"
+    },
+    {
+      "id": "zh.zi-you",
+      "text": "自由",
+      "reading": "zìyóu"
+    },
+    {
+      "id": "zh.xing-cheng",
+      "text": "行程",
+      "reading": "xíngchéng"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我们的高铁经过什么地方？",
+      "reading": "Wáng Míng, wǒmen de gāotiě jīngguò shénme dìfang?"
+    },
+    {
+      "speaker": "b",
+      "text": "我们从北京出发，经过郑州和洛阳，下午一点到达西安。",
+      "reading": "Wǒmen cóng Běijīng chūfā, jīngguò Zhèngzhōu hé Luòyáng, xiàwǔ yī diǎn dàodá Xī'ān."
+    },
+    {
+      "speaker": "a",
+      "text": "到了西安以后，我们的行程是什么？",
+      "reading": "Dào le Xī'ān yǐhòu, wǒmen de xíngchéng shì shénme?"
+    },
+    {
+      "speaker": "b",
+      "text": "第一天先去宾馆，晚上去吃当地的面条。",
+      "reading": "Dì-yī tiān xiān qù bīnguǎn, wǎnshang qù chī dāngdì de miàntiáo."
+    },
+    {
+      "speaker": "a",
+      "text": "第二天去博物馆吗？我们要请导游吗？",
+      "reading": "Dì-èr tiān qù bówùguǎn ma? Wǒmen yào qǐng dǎoyóu ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "博物馆里有导游给大家讲历史，别的地方我们自己去。",
+      "reading": "Bówùguǎn li yǒu dǎoyóu gěi dàjiā jiǎng lìshǐ, biéde dìfang wǒmen zìjǐ qù."
+    },
+    {
+      "speaker": "a",
+      "text": "好，自己去更自由。第三天呢？",
+      "reading": "Hǎo, zìjǐ qù gèng zìyóu. Dì-sān tiān ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "去华山爬山。早上从西安出发，坐高铁不到一个小时就到了。",
+      "reading": "Qù Huàshān páshān. Zǎoshang cóng Xī'ān chūfā, zuò gāotiě bù dào yī ge xiǎoshí jiù dào le."
+    },
+    {
+      "speaker": "a",
+      "text": "太好了！最后两天怎么安排？",
+      "reading": "Tài hǎo le! Zuìhòu liǎng tiān zěnme ānpái?"
+    },
+    {
+      "speaker": "b",
+      "text": "最后两天没有安排，我们自由活动！",
+      "reading": "Zuìhòu liǎng tiān méiyǒu ānpái, wǒmen zìyóu huódòng!"
+    }
+  ]
+}

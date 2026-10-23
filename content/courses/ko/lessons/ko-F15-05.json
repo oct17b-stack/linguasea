@@ -1,0 +1,96 @@
+{
+  "id": "ko-F15-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.tti",
+      "text": "띠",
+      "reading": "tti"
+    },
+    {
+      "id": "ko.byeoljari",
+      "text": "별자리",
+      "reading": "byeoljari"
+    },
+    {
+      "id": "ko.hyeoraekhyeong",
+      "text": "혈액형",
+      "reading": "hyeoraekhyeong"
+    },
+    {
+      "id": "ko.jaemiro",
+      "text": "재미로",
+      "reading": "jaemiro"
+    },
+    {
+      "id": "ko.seonggyeok-yuhyeong",
+      "kind": "phrase",
+      "text": "성격 유형",
+      "reading": "seonggyeok yuhyeong"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "남 씨, 혈액형이 뭐예요?",
+      "reading": "Nam ssi, hyeoraekhyeongi mwoyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저는 A형이에요. 왜요?",
+      "reading": "Jeoneun eihyeongieyo. Waeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "이 책에 A형은 꼼꼼하고 조용한 성격이라고 쓰여 있어서요.",
+      "reading": "I chaege eihyeongeun kkomkkomhago joyonghan seonggyeogirago sseuyeo isseoseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "한국 사람들은 정말 혈액형으로 성격을 알 수 있다고 믿어요?",
+      "reading": "Hanguk saramdeureun jeongmal hyeoraekhyeongeuro seonggyeogeul al su itdago mideoyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "그냥 재미로 이야기하는 사람이 많아요. 요즘은 혈액형보다 MBTI 같은 성격 유형 이야기를 더 많이 해요.",
+      "reading": "Geunyang jaemiro iyagihaneun sarami manayo. Yojeumeun hyeoraekhyeongboda embitiai gateun seonggyeok yuhyeong iyagireul deo mani haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도 성격 유형 검사를 해 볼까 말까 하다가 아직 안 했어요.",
+      "reading": "Jeodo seonggyeok yuhyeong geomsareul hae bolkka malkka hadaga ajik an haesseoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "재미로 한번 해 보세요. 그런데 태국에도 띠가 있어요?",
+      "reading": "Jaemiro hanbeon hae boseyo. Geureonde Taegugedo ttiga isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 태국도 열두 띠를 써요. 띠마다 성격이 다르다고들 해요.",
+      "reading": "Ne, Taegukdo yeoldu ttireul sseoyo. Ttimada seonggyeogi dareudagodeul haeyo."
+    },
+    {
+      "speaker": "b",
+      "text": "저는 별자리 운세도 가끔 봐요. 그런데 믿을까 말까 할 때가 많아요.",
+      "reading": "Jeoneun byeoljari unsedo gakkeum bwayo. Geureonde mideulkka malkka hal ttaega manayo."
+    },
+    {
+      "speaker": "a",
+      "text": "저도요. 좋은 말이 나오면 믿고 싶고, 나쁜 말이 나오면 믿고 싶지 않아요.",
+      "reading": "Jeodoyo. Joeun mari naomyeon mitgo sipgo, nappeun mari naomyeon mitgo sipji anayo."
+    },
+    {
+      "speaker": "b",
+      "text": "하하, 다들 그렇죠. 저는 오늘 운세를 볼까 말까 하다가 그냥 안 봤어요.",
+      "reading": "Haha, dadeul geureochyo. Jeoneun oneul unsereul bolkka malkka hadaga geunyang an bwasseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "잘했어요. 혈액형이나 별자리보다 직접 만나서 이야기해 보는 게 제일 정확해요.",
+      "reading": "Jalhaesseoyo. Hyeoraekhyeongina byeoljariboda jikjeop mannaseo iyagihae boneun ge jeil jeonghwakaeyo."
+    }
+  ]
+}

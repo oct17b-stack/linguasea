@@ -1,0 +1,122 @@
+{
+  "id": "ko-F15-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.miyeokguk",
+      "text": "미역국",
+      "reading": "miyeokguk"
+    },
+    {
+      "id": "ko.yeot",
+      "text": "엿",
+      "reading": "yeot"
+    },
+    {
+      "id": "ko.chapssaltteok",
+      "text": "찹쌀떡",
+      "reading": "chapssaltteok"
+    },
+    {
+      "id": "ko.hapgyeok-giwon",
+      "kind": "phrase",
+      "text": "합격 기원",
+      "reading": "hapgyeok giwon"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "해마다 11월이 되면 한국에서는 대학 입학시험인 수능이 열린다.",
+        "reading": "Haemada sibirwori doemyeon Hangugeseoneun daehak iphaksiheomin suneungi yeollinda."
+      },
+      {
+        "text": "이때가 되면 시험에 대한 재미있는 미신도 많이 들을 수 있다.",
+        "reading": "Ittaega doemyeon siheome daehan jaemiinneun misindo mani deureul su itda."
+      }
+    ],
+    [
+      {
+        "text": "가장 유명한 것은 시험 전에 미역국을 먹지 않는 것이다.",
+        "reading": "Gajang yumyeonghan geoseun siheom jeone miyeokgugeul meokji anneun geosida."
+      },
+      {
+        "text": "미역은 미끄럽기 때문에 미역국을 먹으면 시험에서 '미끄러진다'고들 한다.",
+        "reading": "Miyeogeun mikkeureopgi ttaemune miyeokgugeul meogeumyeon siheomeseo 'mikkeureojinda'godeul handa."
+      },
+      {
+        "text": "그래서 생일마다 미역국을 먹는 한국 사람들도 시험 기간에는 미역국을 피한다.",
+        "reading": "Geuraeseo saengilmada miyeokgugeul meongneun Hanguk saramdeuldo siheom giganeneun miyeokgugeul pihanda."
+      },
+      {
+        "text": "시험 날 아침에 머리를 감으면 공부한 내용을 잊어버린다는 말도 있다.",
+        "reading": "Siheom nal achime meorireul gameumyeon gongbuhan naeyongeul ijeobeorindaneun maldo itda."
+      }
+    ],
+    [
+      {
+        "text": "반대로 시험을 보는 사람에게 주는 선물에도 특별한 뜻이 있다.",
+        "reading": "Bandaero siheomeul boneun saramege juneun seonmuredo teukbyeolhan tteusi itda."
+      },
+      {
+        "text": "대표적인 선물은 엿과 찹쌀떡이다.",
+        "reading": "Daepyojeogin seonmureun yeotgwa chapssaltteogida."
+      },
+      {
+        "text": "엿과 찹쌀떡은 손이나 그릇에 잘 붙는다.",
+        "reading": "Yeotgwa chapssaltteogeun sonina geureuse jal bunneunda."
+      },
+      {
+        "text": "그런데 '붙다'에는 '시험에 합격하다'라는 뜻도 있어서 합격을 바라는 선물이 된 것이다.",
+        "reading": "Geureonde 'butda'eneun 'siheome hapgyeokada'raneun tteutdo isseoseo hapgyeogeul baraneun seonmuri doen geosida."
+      },
+      {
+        "text": "또 휴지는 문제를 잘 '풀라'는 뜻으로, 포크는 답을 잘 '찍으라'는 뜻으로 선물한다.",
+        "reading": "Tto hyujineun munjereul jal 'pulla'neun tteuseuro, pokeuneun dabeul jal 'jjigeura'neun tteuseuro seonmulhanda."
+      }
+    ],
+    [
+      {
+        "text": "시험 날 아침 시험장 앞에서는 후배들이 '합격 기원'이라고 쓴 종이를 들고 선배들을 응원한다.",
+        "reading": "Siheom nal achim siheomjang apeseoneun hubaedeuri 'hapgyeok giwon'irago sseun jongireul deulgo seonbaedeureul eungwonhanda."
+      },
+      {
+        "text": "물론 이런 미신을 정말로 믿는 사람은 많지 않다.",
+        "reading": "Mullon ireon misineul jeongmallo minneun sarameun manchi anta."
+      },
+      {
+        "text": "하지만 엿 하나, 찹쌀떡 하나에는 시험을 보는 사람을 응원하는 따뜻한 마음이 들어 있다.",
+        "reading": "Hajiman yeot hana, chapssaltteok hanaeneun siheomeul boneun sarameul eungwonhaneun ttatteutan maeumi deureo itda."
+      },
+      {
+        "text": "미신이 불안한 수험생들에게 작은 위로가 되는 것이다.",
+        "reading": "Misini buranhan suheomsaengdeurege jageun wiroga doeneun geosida."
+      },
+      {
+        "text": "태국에서도 시험 전에 절에 가서 합격을 빌거나 행운의 색 옷을 입는 사람이 많다.",
+        "reading": "Taegugeseodo siheom jeone jeore gaseo hapgyeogeul bilgeona haengunui saek oseul imneun sarami manta."
+      },
+      {
+        "text": "나라는 달라도 합격을 바라는 마음은 모두 같은 것 같다.",
+        "reading": "Naraneun dallado hapgyeogeul baraneun maeumeun modu gateun geot gatda."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 3
+    }
+  ]
+}

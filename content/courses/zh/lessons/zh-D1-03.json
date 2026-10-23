@@ -1,0 +1,80 @@
+{
+  "id": "zh-D1-03",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.yu-ding",
+      "text": "预订",
+      "reading": "yùdìng"
+    },
+    {
+      "id": "zh.que-ren",
+      "text": "确认",
+      "reading": "quèrèn"
+    },
+    {
+      "id": "zh.ban-li",
+      "text": "办理",
+      "reading": "bànlǐ"
+    },
+    {
+      "id": "zh.ti-qian",
+      "text": "提前",
+      "reading": "tíqián"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，高铁票你订好了吗？",
+      "reading": "Xiǎonán, gāotiě piào nǐ dìnghǎo le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "还没呢。国庆节的票很难买，我们得提前预订。",
+      "reading": "Hái méi ne. Guóqìngjié de piào hěn nán mǎi, wǒmen děi tíqián yùdìng."
+    },
+    {
+      "speaker": "b",
+      "text": "我现在就用手机订吧。你的护照号码是多少？",
+      "reading": "Wǒ xiànzài jiù yòng shǒujī dìng ba. Nǐ de hùzhào hàomǎ shì duōshao?"
+    },
+    {
+      "speaker": "a",
+      "text": "我发给你。我们订二号上午的，好吗？",
+      "reading": "Wǒ fā gěi nǐ. Wǒmen dìng èr hào shàngwǔ de, hǎo ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "好……订好了！你看，这是确认短信。",
+      "reading": "Hǎo…… dìnghǎo le! Nǐ kàn, zhè shì quèrèn duǎnxìn."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢！我用微信付钱给你吧。",
+      "reading": "Xièxie! Wǒ yòng Wēixìn fù qián gěi nǐ ba."
+    },
+    {
+      "speaker": "b",
+      "text": "你的微信可以付钱了？",
+      "reading": "Nǐ de Wēixìn kěyǐ fù qián le?"
+    },
+    {
+      "speaker": "a",
+      "text": "可以了。上个月我在银行办理了一张银行卡。",
+      "reading": "Kěyǐ le. Shàng ge yuè wǒ zài yínháng bànlǐ le yī zhāng yínhángkǎ."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了。宾馆你预订好了吗？",
+      "reading": "Tài hǎo le. Bīnguǎn nǐ yùdìng hǎo le ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "预订好了，离西安北站很近。昨天我还打电话确认了。",
+      "reading": "Yùdìng hǎo le, lí Xī'ān Běizhàn hěn jìn. Zuótiān wǒ hái dǎ diànhuà quèrèn le."
+    }
+  ]
+}

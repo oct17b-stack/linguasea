@@ -9,8 +9,13 @@ export type Word = Item & {
   order: number;
 };
 
+// Course bundles are loaded once and never changed, so each one's pool is built only once.
+const pools = new WeakMap<CourseBundle, ReadonlyMap<string, Word>>();
+
 /** Every item in the course in teaching order; first occurrence wins (ids mean the same thing everywhere). */
-export function coursePool(course: CourseBundle): Map<string, Word> {
+export function coursePool(course: CourseBundle): ReadonlyMap<string, Word> {
+  const cached = pools.get(course);
+  if (cached) return cached;
   const pool = new Map<string, Word>();
   let order = 0;
   for (const stage of course.course.stages) {
@@ -26,6 +31,7 @@ export function coursePool(course: CourseBundle): Map<string, Word> {
       }
     }
   }
+  pools.set(course, pool);
   return pool;
 }
 

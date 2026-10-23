@@ -1,0 +1,80 @@
+{
+  "id": "zh-D9-02",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.dian-cai",
+      "text": "点菜",
+      "reading": "diǎncài"
+    },
+    {
+      "id": "zh.te-se",
+      "text": "特色",
+      "reading": "tèsè"
+    },
+    {
+      "id": "zh.fen-portion",
+      "text": "份",
+      "reading": "fèn"
+    },
+    {
+      "id": "zh.dao-measure",
+      "text": "道",
+      "reading": "dào"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "阿姨，您想吃点儿什么？今天我请客！",
+      "reading": "Āyí, nín xiǎng chī diǎnr shénme? Jīntiān wǒ qǐngkè!"
+    },
+    {
+      "speaker": "c",
+      "text": "你点吧，随便点几个菜就行，别太辣。",
+      "reading": "Nǐ diǎn ba, suíbiàn diǎn jǐ ge cài jiù xíng, bié tài là."
+    },
+    {
+      "speaker": "a",
+      "text": "好。服务员，我们点菜！你们这儿有什么特色菜？",
+      "reading": "Hǎo. Fúwùyuán, wǒmen diǎncài! Nǐmen zhèr yǒu shénme tèsè cài?"
+    },
+    {
+      "speaker": "b",
+      "text": "辣子鸡是我们的特色菜，很多客人都点。",
+      "reading": "Làzijī shì wǒmen de tèsè cài, hěn duō kèrén dōu diǎn."
+    },
+    {
+      "speaker": "a",
+      "text": "阿姨不太能吃辣。有没有不辣的？",
+      "reading": "Āyí bù tài néng chī là. Yǒu méiyǒu bù là de?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，这道鸡汤一点儿也不辣。",
+      "reading": "Yǒu, zhè dào jītāng yīdiǎnr yě bù là."
+    },
+    {
+      "speaker": "a",
+      "text": "那我们要一份辣子鸡、一份鸡汤，再要一个西红柿炒鸡蛋。",
+      "reading": "Nà wǒmen yào yī fèn làzijī, yī fèn jītāng, zài yào yī ge xīhóngshì chǎo jīdàn."
+    },
+    {
+      "speaker": "b",
+      "text": "好的。你们要喝点儿什么吗？",
+      "reading": "Hǎo de. Nǐmen yào hē diǎnr shénme ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "我们喝点儿热茶吧。",
+      "reading": "Wǒmen hē diǎnr rè chá ba."
+    },
+    {
+      "speaker": "b",
+      "text": "好的，菜马上就来。",
+      "reading": "Hǎo de, cài mǎshàng jiù lái."
+    }
+  ]
+}

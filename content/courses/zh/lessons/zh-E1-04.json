@@ -1,0 +1,95 @@
+{
+  "id": "zh-E1-04",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.shu-zi",
+      "text": "数字",
+      "reading": "shùzì"
+    },
+    {
+      "id": "zh.ji-li",
+      "text": "吉利",
+      "reading": "jílì"
+    },
+    {
+      "id": "zh.xie-yin",
+      "text": "谐音",
+      "reading": "xiéyīn"
+    },
+    {
+      "id": "zh.chuan-shuo",
+      "text": "传说",
+      "reading": "chuánshuō"
+    },
+    {
+      "id": "zh.dai-biao",
+      "text": "代表",
+      "reading": "dàibiǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，我想换一个手机号码。这两个号码，你觉得哪个好？",
+      "reading": "Wáng Míng, wǒ xiǎng huàn yī ge shǒujī hàomǎ. Zhè liǎng ge hàomǎ, nǐ juéde nǎge hǎo?"
+    },
+    {
+      "speaker": "b",
+      "text": "我看看……这个有三个八，真吉利！",
+      "reading": "Wǒ kànkan…… zhège yǒu sān ge bā, zhēn jílì!"
+    },
+    {
+      "speaker": "a",
+      "text": "为什么八很吉利？",
+      "reading": "Wèi shénme bā hěn jílì?"
+    },
+    {
+      "speaker": "b",
+      "text": "这跟发音有关。“八”和“发”是谐音，“发”代表有钱。",
+      "reading": "Zhè gēn fāyīn yǒuguān. \"Bā\" hé \"fā\" shì xiéyīn, \"fā\" dàibiǎo yǒu qián."
+    },
+    {
+      "speaker": "a",
+      "text": "原来是这样，所以这个号码比那个贵一百块！",
+      "reading": "Yuánlái shì zhèyàng, suǒyǐ zhège hàomǎ bǐ nàge guì yī bǎi kuài!"
+    },
+    {
+      "speaker": "b",
+      "text": "对。还有，你知道很多楼为什么没有四层吗？",
+      "reading": "Duì. Háiyǒu, nǐ zhīdào hěn duō lóu wèi shénme méiyǒu sì céng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "是不是也跟谐音有关？我听说“四”不吉利。",
+      "reading": "Shì bù shì yě gēn xiéyīn yǒuguān? Wǒ tīngshuō \"sì\" bù jílì."
+    },
+    {
+      "speaker": "b",
+      "text": "没错，很多人不喜欢这个数字。",
+      "reading": "Méicuò, hěn duō rén bù xǐhuan zhège shùzì."
+    },
+    {
+      "speaker": "a",
+      "text": "泰国人最喜欢九，因为“九”的泰语发音跟“往前走”差不多。",
+      "reading": "Tàiguó rén zuì xǐhuan jiǔ, yīnwèi \"jiǔ\" de Tàiyǔ fāyīn gēn \"wǎng qián zǒu\" chàbuduō."
+    },
+    {
+      "speaker": "b",
+      "text": "有意思！中国人也喜欢九，“九”和好久不见的“久”是谐音，很多人选九月九号结婚。",
+      "reading": "Yǒu yìsi! Zhōngguó rén yě xǐhuan jiǔ, \"jiǔ\" hé hǎojiǔ bù jiàn de \"jiǔ\" shì xiéyīn, hěn duō rén xuǎn jiǔ yuè jiǔ hào jiéhūn."
+    },
+    {
+      "speaker": "a",
+      "text": "那这些数字的意思跟传说有关吗？",
+      "reading": "Nà zhèxiē shùzì de yìsi gēn chuánshuō yǒuguān ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有的跟传说有关，可是很多只跟谐音有关。好了，你就选有三个八的吧！",
+      "reading": "Yǒude gēn chuánshuō yǒuguān, kěshì hěn duō zhǐ gēn xiéyīn yǒuguān. Hǎo le, nǐ jiù xuǎn yǒu sān ge bā de ba!"
+    }
+  ]
+}

@@ -92,7 +92,7 @@ export function buildSteps(course: CourseBundle, lessonId: string, seed = hashSt
  * otherwise items of the same group, preferring ones already taught (up to `upTo` in course order).
  */
 export function chooseStep(
-  pool: Map<string, Word>,
+  pool: ReadonlyMap<string, Word>,
   w: Word,
   ex: Pick<ChoiceExercise, 'type' | 'options'>,
   upTo: number,
@@ -104,10 +104,17 @@ export function chooseStep(
   if (ex.options) {
     wrong = ex.options.map((id) => pool.get(id)).filter((x): x is Word => !!x);
   } else {
-    // Heard-only questions must not offer an answer that sounds the same as the right one.
+    // Heard-only questions must not offer an answer that sounds the same as the right one,
+    // and "which word means …?" must not offer another word with the same meaning.
     const byEar = ex.type === 'listen-choose' || ex.type === 'listen-text';
+    const byMeaning = ex.type === 'choose-text';
     const candidates = [...pool.values()].filter(
-      (x) => x.id !== w.id && sameGroup(x, w) && label(x) !== label(w) && !(byEar && soundsAlike(x, w)),
+      (x) =>
+        x.id !== w.id &&
+        sameGroup(x, w) &&
+        label(x) !== label(w) &&
+        !(byEar && soundsAlike(x, w)) &&
+        !(byMeaning && x.meaning === w.meaning),
     );
     const known = shuffle(candidates.filter((x) => x.order <= upTo), rand);
     const later = shuffle(candidates.filter((x) => x.order > upTo), rand);

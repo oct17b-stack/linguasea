@@ -1,0 +1,85 @@
+{
+  "id": "zh-D1-06",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.fei-yong",
+      "text": "费用",
+      "reading": "fèiyòng"
+    },
+    {
+      "id": "zh.jiu-dian",
+      "text": "酒店",
+      "reading": "jiǔdiàn"
+    },
+    {
+      "id": "zh.lv-guan",
+      "text": "旅馆",
+      "reading": "lǚguǎn"
+    },
+    {
+      "id": "zh.shou-fei",
+      "text": "收费",
+      "reading": "shōufèi"
+    },
+    {
+      "id": "zh.zhi-shao",
+      "text": "至少",
+      "reading": "zhìshǎo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，我们说一下这次旅行的费用吧。",
+      "reading": "Xiǎonán, wǒmen shuō yīxià zhè cì lǚxíng de fèiyòng ba."
+    },
+    {
+      "speaker": "a",
+      "text": "好。去西安的高铁票六百多块，回来的票也一样。",
+      "reading": "Hǎo. Qù Xī'ān de gāotiě piào liùbǎi duō kuài, huílái de piào yě yīyàng."
+    },
+    {
+      "speaker": "b",
+      "text": "宾馆一个晚上三百块，我们住四个晚上。",
+      "reading": "Bīnguǎn yī ge wǎnshang sānbǎi kuài, wǒmen zhù sì ge wǎnshang."
+    },
+    {
+      "speaker": "a",
+      "text": "第三天晚上，我想住在华山上。山上有一家酒店。",
+      "reading": "Dì-sān tiān wǎnshang, wǒ xiǎng zhù zài Huàshān shang. Shān shang yǒu yī jiā jiǔdiàn."
+    },
+    {
+      "speaker": "b",
+      "text": "我看了，山上的酒店一个晚上两千多，我们住不起。",
+      "reading": "Wǒ kàn le, shān shang de jiǔdiàn yī ge wǎnshang liǎngqiān duō, wǒmen zhù bu qǐ."
+    },
+    {
+      "speaker": "a",
+      "text": "两千多？太贵了！山下有便宜一点儿的旅馆吗？",
+      "reading": "Liǎngqiān duō? Tài guì le! Shān xià yǒu piányi yīdiǎnr de lǚguǎn ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "有，一个晚上两百块左右。爬华山也收费，门票一百六十块。",
+      "reading": "Yǒu, yī ge wǎnshang liǎngbǎi kuài zuǒyòu. Pá Huàshān yě shōufèi, ménpiào yībǎi liùshí kuài."
+    },
+    {
+      "speaker": "a",
+      "text": "那我们每个人至少要准备多少钱？",
+      "reading": "Nà wǒmen měi ge rén zhìshǎo yào zhǔnbèi duōshao qián?"
+    },
+    {
+      "speaker": "b",
+      "text": "至少三千块。你觉得怎么样？",
+      "reading": "Zhìshǎo sānqiān kuài. Nǐ juéde zěnmeyàng?"
+    },
+    {
+      "speaker": "a",
+      "text": "三千块？没问题，我付得起！",
+      "reading": "Sānqiān kuài? Méi wèntí, wǒ fù de qǐ!"
+    }
+  ]
+}

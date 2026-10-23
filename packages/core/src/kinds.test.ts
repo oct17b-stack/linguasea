@@ -2,7 +2,9 @@ import type { CourseBundle, Lesson, LessonGloss } from '@linguasea/contract';
 import { Course } from '@linguasea/contract';
 import { describe, expect, it } from 'vitest';
 
-import { reviewSteps, buildSteps, type Step } from './steps';
+import { coursePool } from './pool';
+import { seededRandom } from './rng';
+import { chooseStep, reviewSteps, buildSteps, type Step } from './steps';
 
 type Row = [id: string, kind: string, text: string, reading: string, meaning: string, say?: string];
 
@@ -23,7 +25,10 @@ function fixture(): CourseBundle {
       ['ja.pan', 'word', 'パン', 'pan', 'ขนมปัง'],
       ['ja.gohan', 'word', 'ごはん', 'gohan', 'ข้าว'],
     ],
-    'ja-A3-01': [['ja.niku', 'word', 'にく', 'niku', 'เนื้อสัตว์']],
+    'ja-A3-01': [
+      ['ja.niku', 'word', 'にく', 'niku', 'เนื้อสัตว์'],
+      ['ja.mizu-polite', 'word', 'おみず', 'omizu', 'น้ำ'],
+    ],
   };
   const course = Course.parse({
     target: 'ja',
@@ -95,6 +100,17 @@ describe('vocabulary questions', () => {
     for (const s of steps) {
       // ja-A2-01 has 4 words, so the 3 wrong answers can all come from it — never from ja-A3-01.
       expect(s.choices.map((c) => c.id)).not.toContain('ja.niku');
+    }
+  });
+
+  it('never offer another word with the same meaning when the meaning is the prompt', () => {
+    const pool = coursePool(fixture());
+    const water = pool.get('ja.mizu')!;
+    for (let seed = 1; seed <= 30; seed++) {
+      const s = chooseStep(pool, water, { type: 'choose-text' }, 99, seededRandom(seed));
+      if (s.kind !== 'choose') throw new Error('expected a choice');
+      expect(s.choices.map((c) => c.id)).not.toContain('ja.mizu-polite');
+      expect(s.choices.filter((c) => c.correct)).toHaveLength(1);
     }
   });
 

@@ -5,6 +5,8 @@
 写作时改动或补充的地方（供终审复核）：
 - [en-B7-06] Of course. 的泰语词义原拟 ได้สิ, แน่นอน，和 [en-A1-06] Sure. 完全相同，改为 แน่นอน, ได้อยู่แล้ว。
 - [en-B9-01] Mr. Brown 打电话到 Nam 家，接电话的是 Nam 的妈妈（c），与"Nam 和家人住在曼谷"一致；[en-B1-05] Nam 说周六上午打工（I work from eight to noon），与"周末在餐厅打工"一致。
+- [en-B5-r01] 大纲是"下雨的星期六 Nam 在家待一整天"，可固定设定里她周末打工，所以日记加了一句 I don't work today.，避免矛盾。
+- 大纲词条都没有发现错误，没有改动，也没有新增词条（npm run dupes：no duplicate words）。
 
 需要母语老师（英语 / 泰语）确认的：
 - [en-B3-r01] 起点：大纲写"从车站走到 Emma 家"，但 station 到 [en-B6-02] 才教（train、bus 也在 B6）。读物改成从 the big supermarket（[en-B3-01] 学过）出发，其余照大纲：经过市场、在红绿灯处过马路、走两个街区、楼在邮局旁边。可以吗？

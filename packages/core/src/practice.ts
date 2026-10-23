@@ -8,7 +8,7 @@ import { chooseStep, recallQuestion, type DialogueLine, type Step } from './step
 /** Share of a unit test to get right to pass it. */
 export const UNIT_TEST_PASS = 0.7;
 
-function questionFor(course: CourseBundle, pool: Map<string, Word>, w: Word, i: number, upTo: number, rand: () => number): Step {
+function questionFor(course: CourseBundle, pool: ReadonlyMap<string, Word>, w: Word, i: number, upTo: number, rand: () => number): Step {
   return chooseStep(pool, w, recallQuestion(course, w, i), upTo, rand);
 }
 

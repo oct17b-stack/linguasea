@@ -1,0 +1,95 @@
+{
+  "id": "zh-E1-02",
+  "target": "zh",
+  "stage": "E",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.zhong-clock",
+      "text": "钟",
+      "reading": "zhōng"
+    },
+    {
+      "id": "zh.li-pear",
+      "text": "梨",
+      "reading": "lí"
+    },
+    {
+      "id": "zh.bi-mian",
+      "text": "避免",
+      "reading": "bìmiǎn"
+    },
+    {
+      "id": "zh.gan-ga",
+      "text": "尴尬",
+      "reading": "gāngà"
+    },
+    {
+      "id": "zh.fou-ze",
+      "text": "否则",
+      "reading": "fǒuzé"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，星期六去你爷爷奶奶家，我带什么礼物好呢？",
+      "reading": "Wáng Míng, xīngqīliù qù nǐ yéye nǎinai jiā, wǒ dài shénme lǐwù hǎo ne?"
+    },
+    {
+      "speaker": "b",
+      "text": "不用带礼物，你人来就好。",
+      "reading": "Bùyòng dài lǐwù, nǐ rén lái jiù hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "第一次去做客，不带礼物不太礼貌吧？他们喜欢吃水果吗？",
+      "reading": "Dì-yī cì qù zuòkè, bù dài lǐwù bù tài lǐmào ba? Tāmen xǐhuan chī shuǐguǒ ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "喜欢。不过你别买梨，否则我奶奶可能会不高兴。",
+      "reading": "Xǐhuan. Bùguò nǐ bié mǎi lí, fǒuzé wǒ nǎinai kěnéng huì bù gāoxìng."
+    },
+    {
+      "speaker": "a",
+      "text": "为什么？梨又甜又好吃啊。",
+      "reading": "Wèi shénme? Lí yòu tián yòu hǎochī a."
+    },
+    {
+      "speaker": "b",
+      "text": "“梨”跟离开的“离”读音一样，所以很多中国人觉得送梨不太好。",
+      "reading": "\"Lí\" gēn líkāi de \"lí\" dúyīn yīyàng, suǒyǐ hěn duō Zhōngguó rén juéde sòng lí bù tài hǎo."
+    },
+    {
+      "speaker": "a",
+      "text": "原来是这样！那送一个钟怎么样？我看见一个很漂亮的。",
+      "reading": "Yuánlái shì zhèyàng! Nà sòng yī ge zhōng zěnmeyàng? Wǒ kànjiàn yī ge hěn piàoliang de."
+    },
+    {
+      "speaker": "b",
+      "text": "千万别送钟！“送钟”的读音也不好，老人听了会很不舒服。",
+      "reading": "Qiānwàn bié sòng zhōng! \"Sòng zhōng\" de dúyīn yě bù hǎo, lǎorén tīng le huì hěn bù shūfu."
+    },
+    {
+      "speaker": "a",
+      "text": "还好我问了你，否则就太尴尬了。",
+      "reading": "Hái hǎo wǒ wèn le nǐ, fǒuzé jiù tài gāngà le."
+    },
+    {
+      "speaker": "b",
+      "text": "是啊，送礼物的时候最好避免这些东西。",
+      "reading": "Shì a, sòng lǐwù de shíhou zuìhǎo bìmiǎn zhèxiē dōngxi."
+    },
+    {
+      "speaker": "a",
+      "text": "那我带妈妈从泰国寄来的茶吧。你爷爷奶奶喝茶吗？",
+      "reading": "Nà wǒ dài māma cóng Tàiguó jì lái de chá ba. Nǐ yéye nǎinai hē chá ma?"
+    },
+    {
+      "speaker": "b",
+      "text": "他们每天都喝！这个礼物一定没问题。",
+      "reading": "Tāmen měitiān dōu hē! Zhège lǐwù yīdìng méi wèntí."
+    }
+  ]
+}
