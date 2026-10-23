@@ -1,0 +1,95 @@
+{
+  "id": "ja-F8-06",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.butsuri",
+      "text": "物理",
+      "reading": "butsuri"
+    },
+    {
+      "id": "ja.kagaku-chemistry",
+      "text": "化学",
+      "reading": "kagaku"
+    },
+    {
+      "id": "ja.suushiki",
+      "text": "数式",
+      "reading": "sūshiki"
+    },
+    {
+      "id": "ja.housoku",
+      "text": "ほうそく",
+      "reading": "hōsoku"
+    },
+    {
+      "id": "ja.genri",
+      "text": "原理",
+      "reading": "genri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムせんせい、レポートをかいてみました。みてください。",
+      "reading": "Namu-sensei, repōto o kaite mimashita. Mite kudasai."
+    },
+    {
+      "speaker": "a",
+      "text": "どれどれ。「ニュートンは、りんごがおちるのをみて、ほうそくを見つけました」。",
+      "reading": "Dore dore. \"Nyūton wa, ringo ga ochiru no o mite, hōsoku o mitsukemashita\"."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。物理のゆうめいなはなしです。",
+      "reading": "Hai. Butsuri no yūmei na hanashi desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね。でも、レポートだから、「である」でかこう。それから、「によって」もつかってみて。",
+      "reading": "Ii ne. Demo, repōto da kara, \"de aru\" de kakō. Sore kara, \"ni yotte\" mo tsukatte mite."
+    },
+    {
+      "speaker": "b",
+      "text": "「このほうそくは、ニュートンによって発見された」ですか。",
+      "reading": "\"Kono hōsoku wa, Nyūton ni yotte hakken sareta\" desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。「〜によって〜された」とかくと、ほうそくのことがよくつたわるよ。",
+      "reading": "Sō. \"~ni yotte ~sareta\" to kaku to, hōsoku no koto ga yoku tsutawaru yo."
+    },
+    {
+      "speaker": "b",
+      "text": "わかりました。化学のことも、かきたいんです。",
+      "reading": "Wakarimashita. Kagaku no koto mo, kakitai n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "化学なら、「あたらしい物質は、実験によって作られる」のようにかけるね。",
+      "reading": "Kagaku nara, \"Atarashii busshitsu wa, jikken ni yotte tsukurareru\" no yō ni kakeru ne."
+    },
+    {
+      "speaker": "b",
+      "text": "数式もいれたほうがいいですか。",
+      "reading": "Sūshiki mo ireta hō ga ii desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。数式があると、原理をきゃっかんてきに説明できるよ。",
+      "reading": "Un. Sūshiki ga aru to, genri o kyakkanteki ni setsumei dekiru yo."
+    },
+    {
+      "speaker": "b",
+      "text": "原理って、なんですか。",
+      "reading": "Genri tte, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "原理とは、ものがうごいたりかわったりするときの、きほんのきまりのことだよ。",
+      "reading": "Genri to wa, mono ga ugoitari kawattari suru toki no, kihon no kimari no koto da yo."
+    }
+  ]
+}

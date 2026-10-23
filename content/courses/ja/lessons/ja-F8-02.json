@@ -1,0 +1,95 @@
+{
+  "id": "ja-F8-02",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.jikken",
+      "text": "実験",
+      "reading": "jikken"
+    },
+    {
+      "id": "ja.kansoku",
+      "text": "かんそく",
+      "reading": "kansoku"
+    },
+    {
+      "id": "ja.kenkyuusha",
+      "text": "研究者",
+      "reading": "kenkyūsha"
+    },
+    {
+      "id": "ja.deeta",
+      "text": "データ",
+      "reading": "dēta"
+    },
+    {
+      "id": "ja.busshitsu",
+      "text": "物質",
+      "reading": "busshitsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムせんせい、研究者は、どうやって発見をするんですか。",
+      "reading": "Namu-sensei, kenkyūsha wa, dō yatte hakken o suru n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "まずかせつを立てて、実験やかんそくをするんだよ。",
+      "reading": "Mazu kasetsu o tatete, jikken ya kansoku o suru n da yo."
+    },
+    {
+      "speaker": "b",
+      "text": "かんそくって、なんですか。",
+      "reading": "Kansoku tte, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ほしやてんきのような、しぜんのようすを、よくみてはかること。",
+      "reading": "Hoshi ya tenki no yō na, shizen no yōsu o, yoku mite hakaru koto."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、実験は？",
+      "reading": "Jā, jikken wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "実験は、じょうけんを変えて、なにがおこるかをしらべること。",
+      "reading": "Jikken wa, jōken o kaete, nani ga okoru ka o shiraberu koto."
+    },
+    {
+      "speaker": "b",
+      "text": "そこから、どうやってけつろんをだすんですか。",
+      "reading": "Soko kara, dō yatte ketsuron o dasu n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "実験でとったデータに基づいて、けつろんをだすんだ。思い込みに基づいてはいけないよ。",
+      "reading": "Jikken de totta dēta ni motozuite, ketsuron o dasu n da. Omoikomi ni motozuite wa ikenai yo."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。データが重要なんですね。",
+      "reading": "Naruhodo. Dēta ga jūyō na n desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。ある研究者は、実験のデータに基づいて、からだにいい物質を見つけたんだって。",
+      "reading": "Un. Aru kenkyūsha wa, jikken no dēta ni motozuite, karada ni ii busshitsu o mitsuketa n datte."
+    },
+    {
+      "speaker": "b",
+      "text": "その物質は、くすりにつかわれているんですか。",
+      "reading": "Sono busshitsu wa, kusuri ni tsukawarete iru n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。データに基づいた研究が、ひとのいのちをたすけることもあるんだよ。",
+      "reading": "Un. Dēta ni motozuita kenkyū ga, hito no inochi o tasukeru koto mo aru n da yo."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ja-F8-01",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.hatsumei",
+      "text": "発明",
+      "reading": "hatsumei"
+    },
+    {
+      "id": "ja.hakken",
+      "text": "発見",
+      "reading": "hakken"
+    },
+    {
+      "id": "ja.meritto",
+      "text": "メリット",
+      "reading": "meritto"
+    },
+    {
+      "id": "ja.ketten",
+      "text": "欠点",
+      "reading": "ketten"
+    },
+    {
+      "id": "ja.fukusayou",
+      "text": "ふくさよう",
+      "reading": "fukusayō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムせんせい、かがくのレポートのテーマがきまりません。",
+      "reading": "Namu-sensei, kagaku no repōto no tēma ga kimarimasen."
+    },
+    {
+      "speaker": "a",
+      "text": "どんなレポート？",
+      "reading": "Donna repōto?"
+    },
+    {
+      "speaker": "b",
+      "text": "「れきしを変えた発明か発見」についてかくんです。",
+      "reading": "\"Rekishi o kaeta hatsumei ka hakken\" ni tsuite kaku n desu."
+    },
+    {
+      "speaker": "a",
+      "text": "発明と発見はちがうよ。発明はあたらしいものを作ること、発見はあるものを見つけること。",
+      "reading": "Hatsumei to hakken wa chigau yo. Hatsumei wa atarashii mono o tsukuru koto, hakken wa aru mono o mitsukeru koto."
+    },
+    {
+      "speaker": "b",
+      "text": "じゃあ、スマホは発明ですね。",
+      "reading": "Jā, sumaho wa hatsumei desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。スマホはべんりな一方で、いぞんの問題もあるよね。",
+      "reading": "Sō. Sumaho wa benri na ippō de, izon no mondai mo aru yo ne."
+    },
+    {
+      "speaker": "b",
+      "text": "メリットも欠点もある、ということですね。",
+      "reading": "Meritto mo ketten mo aru, to iu koto desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。くすりもそうだよ。びょうきをなおす一方で、ふくさようがあるものもある。",
+      "reading": "Un. Kusuri mo sō da yo. Byōki o naosu ippō de, fukusayō ga aru mono mo aru."
+    },
+    {
+      "speaker": "b",
+      "text": "ふくさようって、なんですか。",
+      "reading": "Fukusayō tte, nan desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "くすりの、よくないはたらきのこと。たとえば、ねむくなったりするんだ。",
+      "reading": "Kusuri no, yoku nai hataraki no koto. Tatoeba, nemuku nattari suru n da."
+    },
+    {
+      "speaker": "b",
+      "text": "なるほど。じゃあ、レポートは人工知能にします。べんりな一方で、しごとがへるという欠点もありますから。",
+      "reading": "Naruhodo. Jā, repōto wa jinkōchinō ni shimasu. Benri na ippō de, shigoto ga heru to iu ketten mo arimasu kara."
+    },
+    {
+      "speaker": "a",
+      "text": "いいテーマだね。メリットも欠点も、しらべてみよう。",
+      "reading": "Ii tēma da ne. Meritto mo ketten mo, shirabete miyō."
+    }
+  ]
+}

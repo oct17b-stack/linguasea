@@ -1,0 +1,95 @@
+{
+  "id": "ja-F8-03",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.gakusha",
+      "text": "学者",
+      "reading": "gakusha"
+    },
+    {
+      "id": "ja.hitei",
+      "text": "否定",
+      "reading": "hitei"
+    },
+    {
+      "id": "ja.tensai",
+      "text": "天才",
+      "reading": "tensai"
+    },
+    {
+      "id": "ja.riron",
+      "text": "理論",
+      "reading": "riron"
+    },
+    {
+      "id": "ja.seken",
+      "text": "世間",
+      "reading": "seken"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムせんせい、ガリレオのはなし、しっていますか。",
+      "reading": "Namu-sensei, Garireo no hanashi, shitte imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。イタリアの学者だよね。",
+      "reading": "Un. Itaria no gakusha da yo ne."
+    },
+    {
+      "speaker": "b",
+      "text": "はい。「ちきゅうはうごいている」としゅちょうしたんですよね。",
+      "reading": "Hai. \"Chikyū wa ugoite iru\" to shuchō shita n desu yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。でも、さいしょは、だれもかれの理論をしんじようとしなかったんだ。",
+      "reading": "Sō. Demo, saisho wa, dare mo kare no riron o shinjiyō to shinakatta n da."
+    },
+    {
+      "speaker": "b",
+      "text": "どうしてですか。",
+      "reading": "Dōshite desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "そのころは、みんな「ちきゅうはうごかない」と思っていたから。世間は、かれのはなしをきこうとしなかった。",
+      "reading": "Sono koro wa, minna \"Chikyū wa ugokanai\" to omotte ita kara. Seken wa, kare no hanashi o kikō to shinakatta."
+    },
+    {
+      "speaker": "b",
+      "text": "えらいひとたちも？",
+      "reading": "Erai hito tachi mo?"
+    },
+    {
+      "speaker": "a",
+      "text": "うん。えらいひとたちは、かれの理論を否定したんだ。しらべてみようともしなかった。",
+      "reading": "Un. Erai hito tachi wa, kare no riron o hitei shita n da. Shirabete miyō to mo shinakatta."
+    },
+    {
+      "speaker": "b",
+      "text": "ひどいですね。ガリレオは天才だったのに。",
+      "reading": "Hidoi desu ne. Garireo wa tensai datta noni."
+    },
+    {
+      "speaker": "a",
+      "text": "天才の考えは、その時代のひとには、なかなか理解されないことがあるんだよ。",
+      "reading": "Tensai no kangae wa, sono jidai no hito ni wa, nakanaka rikai sarenai koto ga aru n da yo."
+    },
+    {
+      "speaker": "b",
+      "text": "ぼくも、ひとの意見を、さいしょから否定しないようにします。",
+      "reading": "Boku mo, hito no iken o, saisho kara hitei shinai yō ni shimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいね。しんじられないと思っても、まずきいてみることが重要だよ。",
+      "reading": "Ii ne. Shinjirarenai to omotte mo, mazu kiite miru koto ga jūyō da yo."
+    }
+  ]
+}

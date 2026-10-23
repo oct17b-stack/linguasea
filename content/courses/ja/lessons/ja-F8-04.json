@@ -1,0 +1,95 @@
+{
+  "id": "ja-F8-04",
+  "target": "ja",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ja.igaku",
+      "text": "医学",
+      "reading": "igaku"
+    },
+    {
+      "id": "ja.bunya",
+      "text": "分野",
+      "reading": "bun'ya"
+    },
+    {
+      "id": "ja.gan",
+      "text": "がん",
+      "reading": "gan"
+    },
+    {
+      "id": "ja.idenshi",
+      "text": "いでんし",
+      "reading": "idenshi"
+    },
+    {
+      "id": "ja.kaihatsu",
+      "text": "開発",
+      "reading": "kaihatsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "ナムせんせい、医学の分野で、さいきんどんな発見がありますか。",
+      "reading": "Namu-sensei, igaku no bun'ya de, saikin donna hakken ga arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いろいろあるよ。たとえば、がんのちりょうにおいて、あたらしいくすりが開発されている。",
+      "reading": "Iroiro aru yo. Tatoeba, gan no chiryō ni oite, atarashii kusuri ga kaihatsu sarete iru."
+    },
+    {
+      "speaker": "b",
+      "text": "がんは、なおらないびょうきじゃないんですか。",
+      "reading": "Gan wa, naoranai byōki ja nai n desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "むかしはそうだったけど、いまはなおるがんもふえているんだよ。",
+      "reading": "Mukashi wa sō datta kedo, ima wa naoru gan mo fuete iru n da yo."
+    },
+    {
+      "speaker": "b",
+      "text": "それは、どういう研究のおかげですか。",
+      "reading": "Sore wa, dō iu kenkyū no okage desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いでんしの研究がおおきいね。いでんしに基づいて、ひとりひとりにあうくすりをえらぶんだ。",
+      "reading": "Idenshi no kenkyū ga ōkii ne. Idenshi ni motozuite, hitori hitori ni au kusuri o erabu n da."
+    },
+    {
+      "speaker": "b",
+      "text": "すごい！日本の研究者も、かつやくしていますか。",
+      "reading": "Sugoi! Nihon no kenkyūsha mo, katsuyaku shite imasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "うん。日本は、医学の分野において、世界でもすすんでいるくにのひとつだよ。",
+      "reading": "Un. Nihon wa, igaku no bun'ya ni oite, sekai demo susunde iru kuni no hitotsu da yo."
+    },
+    {
+      "speaker": "b",
+      "text": "ノーベルしょうをもらった日本人もいますよね。",
+      "reading": "Nōberu shō o moratta Nihonjin mo imasu yo ne."
+    },
+    {
+      "speaker": "a",
+      "text": "そう。医学における日本人の発見は、世界のひとのいのちをたすけているんだ。",
+      "reading": "Sō. Igaku ni okeru Nihonjin no hakken wa, sekai no hito no inochi o tasukete iru n da."
+    },
+    {
+      "speaker": "b",
+      "text": "ぼくも、しょうらい、医学の研究者になりたいです。",
+      "reading": "Boku mo, shōrai, igaku no kenkyūsha ni naritai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "いいゆめだね。レポートで、その分野のことをしっかりしらべてみて。",
+      "reading": "Ii yume da ne. Repōto de, sono bun'ya no koto o shikkari shirabete mite."
+    }
+  ]
+}
