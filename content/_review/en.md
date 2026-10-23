@@ -74,6 +74,7 @@ AI 初稿，以下是拿不准、需要母语老师（英语 / 泰语）确认�
 - [en-B4-04] Mr. Brown always works on Saturday.：表示每周的习惯，美式口语 on Saturday 和 on Saturdays 都有人说，复数更清楚。要不要改成复数（星期名的复数还没教）？ ✅ resolved: 保留单数。美式口语 always works on Saturday 表示每周习惯很自然，星期复数以后再教。
 - test 写 เท็สต์（短元音），和 taste เทสต์ 区分（placement test 同理）。
 - into 是虚词，句中写 ɪntə、不标重音；元音前的 to 也写 tə（只有短语末尾写 tuː）。album 用通行写法 อัลบั้ม。
+- 连词、关系代词 that 写 ðæt、不标重音（全课统一，D 阶段原来的 ðət 已改）。better 写 เบตเตอร์。
 
 ## 故事设定（A–B）
 
