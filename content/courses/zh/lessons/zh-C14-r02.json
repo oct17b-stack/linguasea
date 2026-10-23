@@ -1,0 +1,80 @@
+{
+  "id": "zh-C14-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "C",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "zh.bao-an",
+      "text": "保安",
+      "reading": "bǎo'ān"
+    },
+    {
+      "id": "zh.dan-yuan",
+      "text": "单元",
+      "reading": "dānyuán"
+    },
+    {
+      "id": "zh.ji-hao-lou",
+      "kind": "phrase",
+      "text": "几号楼",
+      "reading": "jǐ hào lóu"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "小南，明天来我家，我告诉你怎么走。",
+        "reading": "Xiǎonán, míngtiān lái wǒ jiā, wǒ gàosu nǐ zěnme zǒu."
+      },
+      {
+        "text": "从地铁站东边的出口出去，往北走两百米，就是我们小区的大门。",
+        "reading": "Cóng dìtiězhàn dōngbian de chūkǒu chūqù, wǎng běi zǒu liǎngbǎi mǐ, jiù shì wǒmen xiǎoqū de dàmén."
+      }
+    ],
+    [
+      {
+        "text": "大门那儿有保安，他会问你去几号楼。",
+        "reading": "Dàmén nàr yǒu bǎo'ān, tā huì wèn nǐ qù jǐ hào lóu."
+      },
+      {
+        "text": "你说去五号楼就行。",
+        "reading": "Nǐ shuō qù wǔ hào lóu jiù xíng."
+      },
+      {
+        "text": "进小区以后，一直往前走，第三个楼就是五号楼。",
+        "reading": "Jìn xiǎoqū yǐhòu, yīzhí wǎng qián zǒu, dì-sān ge lóu jiù shì wǔ hào lóu."
+      },
+      {
+        "text": "五号楼有三个单元，我家在二单元十二层。",
+        "reading": "Wǔ hào lóu yǒu sān ge dānyuán, wǒ jiā zài èr dānyuán shí'èr céng."
+      }
+    ],
+    [
+      {
+        "text": "到了楼下给我打电话，我去楼下接你。",
+        "reading": "Dào le lóuxià gěi wǒ dǎ diànhuà, wǒ qù lóuxià jiē nǐ."
+      },
+      {
+        "text": "明天见！",
+        "reading": "Míngtiān jiàn!"
+      },
+      {
+        "text": "王明",
+        "reading": "Wáng Míng"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}
