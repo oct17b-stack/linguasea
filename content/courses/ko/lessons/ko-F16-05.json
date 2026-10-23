@@ -1,0 +1,95 @@
+{
+  "id": "ko-F16-05",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.ilbangjeok",
+      "text": "일방적",
+      "reading": "ilbangjeok"
+    },
+    {
+      "id": "ko.gaekgwanjeok",
+      "text": "객관적",
+      "reading": "gaekgwanjeok"
+    },
+    {
+      "id": "ko.jugwanjeok",
+      "text": "주관적",
+      "reading": "jugwanjeok"
+    },
+    {
+      "id": "ko.ballon",
+      "text": "반론",
+      "reading": "ballon"
+    },
+    {
+      "id": "ko.pyeonhyangdoeda",
+      "text": "편향되다",
+      "reading": "pyeonhyangdoeda"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨 글은 유학의 장점을 너무 많이 써서 좀 일방적이에요.",
+      "reading": "Nam ssi geureun yuhagui jangjeomeul neomu mani sseoseo jom ilbangjeogieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "유학이 좋다고만 쓴 건 아니에요. 비용 문제도 썼어요.",
+      "reading": "Yuhagi jotagoman sseun geon anieyo. Biyong munjedo sseosseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "하지만 단점은 한 문장뿐이에요. 반론도 생각해 봐야 해요.",
+      "reading": "Hajiman danjeomeun han munjangppunieyo. Ballondo saenggakae bwaya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "반론이요? 예를 들면 어떤 거요?",
+      "reading": "Balloniyo? Yereul deulmyeon eotteon geoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "'자기 나라에서도 외국어를 충분히 배울 수 있다' 같은 반론이요.",
+      "reading": "'Jagi naraeseodo oegugeoreul chungbunhi baeul su itda' gateun balloniyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그 말도 맞아요. 하지만 자기 나라에서 배우는 게 나쁜 것은 아니에요. 다만 직접 경험하는 게 더 효과적이라는 거예요.",
+      "reading": "Geu maldo majayo. Hajiman jagi naraeseo baeuneun ge nappeun geoseun anieyo. Daman jikjeop gyeongheomhaneun ge deo hyogwajeogiraneun geoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "좋아요. 그렇게 반론을 먼저 쓰고 자기 의견으로 돌아오면 글이 더 객관적으로 보여요.",
+      "reading": "Joayo. Geureoke balloneul meonjeo sseugo jagi uigyeoneuro doraomyeon geuri deo gaekgwanjeogeuro boyeoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그런데 제 경험을 쓰는 건 너무 주관적이지 않을까요?",
+      "reading": "Geureonde je gyeongheomeul sseuneun geon neomu jugwanjeogiji aneulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "경험을 쓰면 안 되는 것은 아니에요. 다만 통계 같은 객관적인 근거도 함께 쓰는 게 좋아요.",
+      "reading": "Gyeongheomeul sseumyeon an doeneun geoseun anieyo. Daman tonggye gateun gaekgwanjeogin geungeodo hamkke sseuneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "한쪽 의견만 쓰면 글이 편향될 수 있다는 거죠?",
+      "reading": "Hanjjok uigyeonman sseumyeon geuri pyeonhyangdoel su itdaneun geojyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 반대 의견을 모르는 것은 아니라는 걸 보여 주는 게 중요해요.",
+      "reading": "Majayo. Bandae uigyeoneul moreuneun geoseun aniraneun geol boyeo juneun ge jungyohaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 반론하고 통계를 넣어서 다시 써 볼게요.",
+      "reading": "Algetseumnida. Ballonhago tonggyereul neoeoseo dasi sseo bolgeyo."
+    }
+  ]
+}

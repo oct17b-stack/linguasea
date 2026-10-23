@@ -1,0 +1,95 @@
+{
+  "id": "ko-F16-06",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.geureomeuro",
+      "text": "그러므로",
+      "reading": "geureomeuro"
+    },
+    {
+      "id": "ko.yoyak-hada",
+      "text": "요약하다",
+      "reading": "yoyakada"
+    },
+    {
+      "id": "ko.wongoji",
+      "text": "원고지",
+      "reading": "wongoji"
+    },
+    {
+      "id": "ko.ttuieosseugi",
+      "text": "띄어쓰기",
+      "reading": "ttuieosseugi"
+    },
+    {
+      "id": "ko.toego-hada",
+      "text": "퇴고하다",
+      "reading": "toegohada"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 마지막으로 같이 퇴고해 볼까요?",
+      "reading": "Nam ssi, majimageuro gachi toegohae bolkkayo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네. 그런데 원고지 쓰는 법이 아직 헷갈려요.",
+      "reading": "Ne. Geureonde wongoji sseuneun beobi ajik hetgallyeoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "원고지에는 한 칸에 한 글자씩 쓰고, 띄어쓰기를 할 때도 한 칸을 비워야 해요.",
+      "reading": "Wongojieneun han kane han geuljassik sseugo, ttuieosseugireul hal ttaedo han kaneul biwoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 여기 '유학은 좋아요'라고 쓴 부분은요?",
+      "reading": "Geurigo yeogi 'yuhageun joayo'rago sseun bubuneunyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "논술에서는 '-아요/어요' 대신 '-ㄴ다/는다'를 써야 하니까 '유학은 좋다'라고 고쳐야 해요.",
+      "reading": "Nonsureseoneun '-ayo/eoyo' daesin '-nda/neunda'reul sseoya hanikka 'yuhageun jota'rago gochyeoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, '많은 경험을 할 수 있다', '시야가 넓어진다'처럼요?",
+      "reading": "A, 'maneun gyeongheomeul hal su itda', 'siyaga neolbeojinda'cheoreomyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 그리고 두 문장을 '-며'로 연결하면 더 좋아요. '많은 경험을 할 수 있으며 시야가 넓어진다'처럼요.",
+      "reading": "Majayo. Geurigo du munjangeul '-myeo'ro yeongyeolhamyeon deo joayo. 'Maneun gyeongheomeul hal su isseumyeo siyaga neolbeojinda'cheoreomyo."
+    },
+    {
+      "speaker": "a",
+      "text": "이유를 쓸 때는 '-기 때문이다'를 쓰면 되죠?",
+      "reading": "Iyureul sseul ttaeneun '-gi ttaemunida'reul sseumyeon doejyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 그리고 결론은 '따라서'나 '그러므로'로 시작하면 좋아요.",
+      "reading": "Ne. Geurigo gyeolloneun 'ttaraseo'na 'geureomeuro'ro sijakamyeon joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "'그러므로 유학은 신중하게 선택하는 것이 바람직하다.' 이렇게요?",
+      "reading": "'Geureomeuro yuhageun sinjunghage seontaekaneun geosi baramjikada.' Ireokeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "아주 좋아요. 마지막 부분에서 본론의 내용을 한두 문장으로 요약하는 것도 잊지 마세요.",
+      "reading": "Aju joayo. Majimak bubuneseo bollonui naeyongeul handu munjangeuro yoyakaneun geotdo itji maseyo."
+    },
+    {
+      "speaker": "a",
+      "text": "네, 요약하고 다시 한번 퇴고해서 내일 제출하겠습니다.",
+      "reading": "Ne, yoyakago dasi hanbeon toegohaeseo naeil jechulhagetseumnida."
+    }
+  ]
+}

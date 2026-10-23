@@ -1,0 +1,118 @@
+{
+  "id": "ko-F16-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 15,
+  "items": [
+    {
+      "id": "ko.gyeongjaengnyeok",
+      "text": "경쟁력",
+      "reading": "gyeongjaengnyeok"
+    },
+    {
+      "id": "ko.jaripsim",
+      "text": "자립심",
+      "reading": "jaripsim"
+    },
+    {
+      "id": "ko.oeroum",
+      "text": "외로움",
+      "reading": "oeroum"
+    },
+    {
+      "id": "ko.dojeon-jeongsin",
+      "kind": "phrase",
+      "text": "도전 정신",
+      "reading": "dojeon jeongsin"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "해마다 해외로 유학을 떠나는 학생들이 늘어나고 있다.",
+        "reading": "Haemada haeoero yuhageul tteonaneun haksaengdeuri neureonago itda."
+      },
+      {
+        "text": "유학은 많은 것을 배울 수 있는 기회이지만, 비용과 외로움 같은 어려움도 따른다.",
+        "reading": "Yuhageun maneun geoseul baeul su inneun gihoeijiman, biyonggwa oeroum gateun eoryeoumdo ttareunda."
+      },
+      {
+        "text": "그렇다면 유학은 꼭 필요한 경험일까?",
+        "reading": "Geureotamyeon yuhageun kkok piryohan gyeongheomilkka?"
+      },
+      {
+        "text": "나는 몇 가지 어려움에도 불구하고 유학이 충분히 가치 있는 도전이라고 생각한다.",
+        "reading": "Naneun myeot gaji eoryeoumedo bulguhago yuhagi chungbunhi gachi inneun dojeonirago saenggakanda."
+      }
+    ],
+    [
+      {
+        "text": "첫째, 유학을 하면 외국어 실력이 빠르게 늘고 글로벌 경쟁력을 키울 수 있다.",
+        "reading": "Cheotjjae, yuhageul hamyeon oegugeo sillyeogi ppareuge neulgo geullobeol gyeongjaengnyeogeul kiul su itda."
+      },
+      {
+        "text": "매일 그 나라의 언어를 듣고 말해야 하기 때문이다.",
+        "reading": "Maeil geu naraui eoneoreul deutgo malhaeya hagi ttaemunida."
+      },
+      {
+        "text": "둘째, 혼자 생활하면서 자립심을 기를 수 있다.",
+        "reading": "Duljjae, honja saenghwalhamyeonseo jaripsimeul gireul su itda."
+      },
+      {
+        "text": "집을 구하는 일부터 은행 일까지 모든 것을 스스로 해결해야 하기 때문이다.",
+        "reading": "Jibeul guhaneun ilbuteo eunhaeng ilkkaji modeun geoseul seuseuro haegyeolhaeya hagi ttaemunida."
+      },
+      {
+        "text": "또한 다양한 나라의 친구들을 만나며 세상을 보는 시각이 넓어진다.",
+        "reading": "Ttohan dayanghan naraui chingudeureul mannamyeo sesangeul boneun sigagi neolbeojinda."
+      }
+    ],
+    [
+      {
+        "text": "한편 유학에는 어려운 점도 있다.",
+        "reading": "Hanpyeon yuhageneun eoryeoun jeomdo itda."
+      },
+      {
+        "text": "등록금과 생활비가 많이 들어 가족에게 부담이 될 수 있다.",
+        "reading": "Deungnokgeumgwa saenghwalbiga mani deureo gajogege budami doel su itda."
+      },
+      {
+        "text": "또 가족과 친구들을 오랫동안 만나지 못해 외로움을 느끼기 쉽다.",
+        "reading": "Tto gajokgwa chingudeureul oraetdongan mannaji motae oeroumeul neukkigi swipda."
+      },
+      {
+        "text": "그러나 이런 어려움을 이겨 내면서 도전 정신도 함께 자란다.",
+        "reading": "Geureona ireon eoryeoumeul igyeo naemyeonseo dojeon jeongsindo hamkke jaranda."
+      }
+    ],
+    [
+      {
+        "text": "그러므로 유학은 어려움보다 얻는 것이 더 많은 경험이라고 할 수 있다.",
+        "reading": "Geureomeuro yuhageun eoryeoumboda eonneun geosi deo maneun gyeongheomirago hal su itda."
+      },
+      {
+        "text": "다만 모든 사람에게 무조건 맞는 선택은 아니다.",
+        "reading": "Daman modeun saramege mujogeon manneun seontaegeun anida."
+      },
+      {
+        "text": "따라서 유학을 결정하기 전에 자신의 목표와 상황을 신중하게 판단하는 것이 바람직하다.",
+        "reading": "Ttaraseo yuhageul gyeoljeonghagi jeone jasinui mokpyowa sanghwangeul sinjunghage pandanhaneun geosi baramjikada."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 3
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 2
+    }
+  ]
+}

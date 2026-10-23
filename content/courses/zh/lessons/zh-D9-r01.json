@@ -1,0 +1,92 @@
+{
+  "id": "zh-D9-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.la-jiao",
+      "text": "辣椒",
+      "reading": "làjiāo"
+    },
+    {
+      "id": "zh.shou-bu-liao",
+      "text": "受不了",
+      "reading": "shòubuliǎo"
+    },
+    {
+      "id": "zh.chu-han",
+      "text": "出汗",
+      "reading": "chūhàn"
+    },
+    {
+      "id": "zh.hua-jiao",
+      "text": "花椒",
+      "reading": "huājiāo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "王明：小南，这家川菜馆很有名，你能吃辣吗？",
+        "reading": "Wáng Míng: Xiǎonán, zhè jiā Chuāncàiguǎn hěn yǒumíng, nǐ néng chī là ma?"
+      },
+      {
+        "text": "小南：当然能！我是泰国人，每天都吃辣椒。",
+        "reading": "Xiǎonán: Dāngrán néng! Wǒ shì Tàiguó rén, měi tiān dōu chī làjiāo."
+      },
+      {
+        "text": "王明：好，那我们点这儿最辣的辣子鸡吧。",
+        "reading": "Wáng Míng: Hǎo, nà wǒmen diǎn zhèr zuì là de làzijī ba."
+      }
+    ],
+    [
+      {
+        "text": "小南：好香啊！可是……我的嘴怎么这么麻？",
+        "reading": "Xiǎonán: Hǎo xiāng a! Kěshì…… wǒ de zuǐ zěnme zhème má?"
+      },
+      {
+        "text": "王明：哈哈，这是花椒，四川人做菜很喜欢放花椒。",
+        "reading": "Wáng Míng: Hāhā, zhè shì huājiāo, Sìchuān rén zuò cài hěn xǐhuan fàng huājiāo."
+      },
+      {
+        "text": "小南：泰国的辣椒很辣，可是不麻。",
+        "reading": "Xiǎonán: Tàiguó de làjiāo hěn là, kěshì bù má."
+      },
+      {
+        "text": "小南：又麻又辣，我真受不了了！",
+        "reading": "Xiǎonán: Yòu má yòu là, wǒ zhēn shòubuliǎo le!"
+      },
+      {
+        "text": "王明：你看你，头上都出汗了，快喝点儿水吧。",
+        "reading": "Wáng Míng: Nǐ kàn nǐ, tóu shang dōu chūhàn le, kuài hē diǎnr shuǐ ba."
+      },
+      {
+        "text": "小南：喝水也没用，还是很麻！",
+        "reading": "Xiǎonán: Hē shuǐ yě méiyòng, háishi hěn má!"
+      }
+    ],
+    [
+      {
+        "text": "王明：要不要换一个不辣的菜？",
+        "reading": "Wáng Míng: Yào bù yào huàn yī ge bù là de cài?"
+      },
+      {
+        "text": "小南：不用，我越吃越喜欢。下次我们还来这儿吧！",
+        "reading": "Xiǎonán: Bùyòng, wǒ yuè chī yuè xǐhuan. Xiàcì wǒmen hái lái zhèr ba!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

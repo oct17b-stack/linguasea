@@ -1,0 +1,96 @@
+{
+  "id": "ko-F16-04",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.sinjung-hada",
+      "text": "신중하다",
+      "reading": "sinjunghada"
+    },
+    {
+      "id": "ko.pandan-hada",
+      "text": "판단하다",
+      "reading": "pandanhada"
+    },
+    {
+      "id": "ko.seontaek",
+      "text": "선택",
+      "reading": "seontaek"
+    },
+    {
+      "id": "ko.mujogeon",
+      "text": "무조건",
+      "reading": "mujogeon"
+    },
+    {
+      "id": "ko.gyeoljeongeul-naerida",
+      "kind": "phrase",
+      "text": "결정을 내리다",
+      "reading": "gyeoljeongeul naerida"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 결론을 다시 읽어 보니까 조금 아쉬워요.",
+      "reading": "Nam ssi, gyeolloneul dasi ilgeo bonikka jogeum aswiwoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "어떤 부분이 아쉬워요?",
+      "reading": "Eotteon bubuni aswiwoyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "'모든 학생은 무조건 유학을 가야 한다'고 썼는데, 너무 강한 표현이에요.",
+      "reading": "'Modeun haksaengeun mujogeon yuhageul gaya handa'go sseonneunde, neomu ganghan pyohyeonieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 유학을 가기 어려운 사람도 있으니까요.",
+      "reading": "A, yuhageul gagi eoryeoun saramdo isseunikkayo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 사람마다 상황이 다르니까 '무조건'이라는 말은 피하는 게 좋아요.",
+      "reading": "Majayo. Sarammada sanghwangi dareunikka 'mujogeon'iraneun mareun pihaneun ge joayo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 '유학은 자신의 상황을 고려해서 선택하는 것이 바람직하다'라고 쓰면 어때요?",
+      "reading": "Geureom 'yuhageun jasinui sanghwangeul goryeohaeseo seontaekaneun geosi baramjikada'rago sseumyeon eottaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "훨씬 좋아요. 논술의 결론에서는 '-는 것이 바람직하다'를 자주 써요.",
+      "reading": "Hwolssin joayo. Nonsurui gyeolloneseoneun '-neun geosi baramjikada'reul jaju sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그리고 '유학을 가기 전에 신중하게 판단하는 것이 바람직하다'라는 문장도 넣을까요?",
+      "reading": "Geurigo 'yuhageul gagi jeone sinjunghage pandanhaneun geosi baramjikada'raneun munjangdo neoeulkkayo?"
+    },
+    {
+      "speaker": "c",
+      "text": "좋네요. 유학은 큰 결정이니까 정보를 충분히 모은 후에 결정을 내리는 것이 바람직하죠.",
+      "reading": "Jonneyo. Yuhageun keun gyeoljeonginikka jeongboreul chungbunhi moeun hue gyeoljeongeul naerineun geosi baramjikajyo."
+    },
+    {
+      "speaker": "a",
+      "text": "결국 유학은 개인의 선택이라는 걸 보여 주는 거네요.",
+      "reading": "Gyeolguk yuhageun gaeinui seontaegiraneun geol boyeo juneun geoneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "그렇죠. 자기 의견을 분명하게 쓰면서도 다른 사람의 상황을 생각하는 글이 좋은 글이에요.",
+      "reading": "Geureochyo. Jagi uigyeoneul bunmyeonghage sseumyeonseodo dareun saramui sanghwangeul saenggakaneun geuri joeun geurieyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 결론을 다시 고쳐 볼게요.",
+      "reading": "Algetseumnida. Gyeolloneul dasi gochyeo bolgeyo."
+    }
+  ]
+}

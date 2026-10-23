@@ -1,0 +1,95 @@
+{
+  "id": "ko-F16-01",
+  "target": "ko",
+  "stage": "F",
+  "minutes": 11,
+  "items": [
+    {
+      "id": "ko.seoron",
+      "text": "서론",
+      "reading": "seoron"
+    },
+    {
+      "id": "ko.bollon",
+      "text": "본론",
+      "reading": "bollon"
+    },
+    {
+      "id": "ko.gyeollon",
+      "text": "결론",
+      "reading": "gyeollon"
+    },
+    {
+      "id": "ko.juje",
+      "text": "주제",
+      "reading": "juje"
+    },
+    {
+      "id": "ko.nonsul",
+      "text": "논술",
+      "reading": "nonsul"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "남 씨, 이번 주 논술 숙제는 다 했어요?",
+      "reading": "Nam ssi, ibeon ju nonsul sukjeneun da haesseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아직이요. 주제가 '유학의 장단점'인데 어떻게 시작해야 할지 모르겠어요.",
+      "reading": "Ajigiyo. Jujega 'yuhagui jangdanjeom'inde eotteoke sijakaeya halji moreugesseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "토픽 쓰기 시험의 논술은 보통 서론, 본론, 결론으로 써요.",
+      "reading": "Topik sseugi siheomui nonsureun botong seoron, bollon, gyeolloneuro sseoyo."
+    },
+    {
+      "speaker": "a",
+      "text": "서론에는 무엇을 써야 해요?",
+      "reading": "Seoroneneun mueoseul sseoya haeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "서론에서는 주제를 소개하고 자기 의견을 짧게 써야 해요.",
+      "reading": "Seoroneseoneun jujereul sogaehago jagi uigyeoneul jjalge sseoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "그럼 본론에서는 이유를 자세히 쓰면 되죠?",
+      "reading": "Geureom bolloneseoneun iyureul jasehi sseumyeon doejyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "네. 좋은 글을 쓰기 위해서는 본론에서 근거를 분명하게 들어야 해요.",
+      "reading": "Ne. Joeun geureul sseugi wihaeseoneun bolloneseo geungeoreul bunmyeonghage deureoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "결론은 서론하고 비슷하게 써도 돼요?",
+      "reading": "Gyeolloneun seoronhago biseutage sseodo dwaeyo?"
+    },
+    {
+      "speaker": "c",
+      "text": "결론에서는 본론의 내용을 정리하고 자기 의견을 다시 한번 쓰면 돼요.",
+      "reading": "Gyeolloneseoneun bollonui naeyongeul jeongnihago jagi uigyeoneul dasi hanbeon sseumyeon dwaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "시간 안에 다 쓰기 위해서는 먼저 계획을 세워야겠네요.",
+      "reading": "Sigan ane da sseugi wihaeseoneun meonjeo gyehoegeul sewoyagenneyo."
+    },
+    {
+      "speaker": "c",
+      "text": "맞아요. 높은 점수를 받기 위해서는 쓰기 전에 오 분 정도 계획을 세워야 해요.",
+      "reading": "Majayo. Nopeun jeomsureul batgi wihaeseoneun sseugi jeone o bun jeongdo gyehoegeul sewoya haeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "알겠습니다. 오늘 서론부터 써 볼게요.",
+      "reading": "Algetseumnida. Oneul seoronbuteo sseo bolgeyo."
+    }
+  ]
+}
