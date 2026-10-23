@@ -1,0 +1,61 @@
+{
+  "id": "zh-B2-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.shang-chang",
+      "text": "商场",
+      "reading": "shāngchǎng"
+    },
+    {
+      "id": "zh.shi-try",
+      "text": "试",
+      "reading": "shì"
+    },
+    {
+      "id": "zh.xin-yong-ka",
+      "text": "信用卡",
+      "reading": "xìnyòngkǎ"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "商场时间：十点——二十二点。",
+        "reading": "Shāngchǎng shíjiān: shí diǎn — èrshí'èr diǎn."
+      },
+      {
+        "text": "周末也一样。",
+        "reading": "Zhōumò yě yīyàng."
+      }
+    ],
+    [
+      {
+        "text": "买东西可以用信用卡，也可以用手机。",
+        "reading": "Mǎi dōngxi kěyǐ yòng xìnyòngkǎ, yě kěyǐ yòng shǒujī."
+      },
+      {
+        "text": "想试衣服，请和服务员说。",
+        "reading": "Xiǎng shì yīfu, qǐng hé fúwùyuán shuō."
+      },
+      {
+        "text": "谢谢！",
+        "reading": "Xièxie!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

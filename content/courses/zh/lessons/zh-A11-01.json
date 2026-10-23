@@ -1,0 +1,50 @@
+{
+  "id": "zh-A11-01",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.nan",
+      "text": "男",
+      "reading": "nán"
+    },
+    {
+      "id": "zh.nv",
+      "text": "女",
+      "reading": "nǚ"
+    },
+    {
+      "id": "zh.nan-ren",
+      "text": "男人",
+      "reading": "nánrén"
+    },
+    {
+      "id": "zh.nv-ren",
+      "text": "女人",
+      "reading": "nǚrén"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，这个女的是谁？",
+      "reading": "Xiǎonán, zhège nǚ de shì shéi?"
+    },
+    {
+      "speaker": "a",
+      "text": "她是李老师。",
+      "reading": "Tā shì Lǐ lǎoshī."
+    },
+    {
+      "speaker": "b",
+      "text": "那个男的呢？",
+      "reading": "Nàge nán de ne?"
+    },
+    {
+      "speaker": "a",
+      "text": "他是我爸爸。他也是老师。",
+      "reading": "Tā shì wǒ bàba. Tā yě shì lǎoshī."
+    }
+  ]
+}

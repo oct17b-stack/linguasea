@@ -1,0 +1,88 @@
+{
+  "id": "zh-D9-r02",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 12,
+  "items": [
+    {
+      "id": "zh.you-hui",
+      "text": "优惠",
+      "reading": "yōuhuì"
+    },
+    {
+      "id": "zh.hui-yuan",
+      "text": "会员",
+      "reading": "huìyuán"
+    },
+    {
+      "id": "zh.tao-can",
+      "text": "套餐",
+      "reading": "tàocān"
+    },
+    {
+      "id": "zh.zhe-discount",
+      "text": "折",
+      "reading": "zhé"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "四川饭馆周末优惠！",
+        "reading": "Sìchuān fànguǎn zhōumò yōuhuì!"
+      },
+      {
+        "text": "欢迎大家来本店吃饭！",
+        "reading": "Huānyíng dàjiā lái běn diàn chīfàn!"
+      },
+      {
+        "text": "这个周末，本店有特别优惠。",
+        "reading": "Zhège zhōumò, běn diàn yǒu tèbié yōuhuì."
+      }
+    ],
+    [
+      {
+        "text": "两人套餐一百二十八元：两个热菜、一个汤、两碗米饭。",
+        "reading": "Liǎng rén tàocān yībǎi èrshíbā yuán: liǎng ge rè cài, yī ge tāng, liǎng wǎn mǐfàn."
+      },
+      {
+        "text": "四人套餐二百三十八元，还送四杯饮料。",
+        "reading": "Sì rén tàocān èrbǎi sānshíbā yuán, hái sòng sì bēi yǐnliào."
+      },
+      {
+        "text": "会员吃饭打八折，不是会员的客人打九折。",
+        "reading": "Huìyuán chīfàn dǎ bā zhé, bù shì huìyuán de kèrén dǎ jiǔ zhé."
+      },
+      {
+        "text": "办会员卡不要钱，在前台填一张表就可以了。",
+        "reading": "Bàn huìyuán kǎ bù yào qián, zài qiántái tián yī zhāng biǎo jiù kěyǐ le."
+      }
+    ],
+    [
+      {
+        "text": "优惠时间：星期六和星期天，中午十一点到晚上九点。",
+        "reading": "Yōuhuì shíjiān: xīngqīliù hé xīngqītiān, zhōngwǔ shíyī diǎn dào wǎnshang jiǔ diǎn."
+      },
+      {
+        "text": "注意：套餐不打折。",
+        "reading": "Zhùyì: tàocān bù dǎzhé."
+      },
+      {
+        "text": "欢迎大家来尝尝我们的川菜！",
+        "reading": "Huānyíng dàjiā lái chángchang wǒmen de Chuāncài!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

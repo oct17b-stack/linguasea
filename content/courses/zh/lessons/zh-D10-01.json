@@ -1,0 +1,85 @@
+{
+  "id": "zh-D10-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.xia-dan",
+      "text": "下单",
+      "reading": "xiàdān"
+    },
+    {
+      "id": "zh.hou-hui",
+      "text": "后悔",
+      "reading": "hòuhuǐ"
+    },
+    {
+      "id": "zh.shang-pin",
+      "text": "商品",
+      "reading": "shāngpǐn"
+    },
+    {
+      "id": "zh.gou-wu-che",
+      "text": "购物车",
+      "reading": "gòuwùchē"
+    },
+    {
+      "id": "zh.tai-machine",
+      "text": "台",
+      "reading": "tái"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，你在看什么呢？这么认真。",
+      "reading": "Xiǎonán, nǐ zài kàn shénme ne? Zhème rènzhēn."
+    },
+    {
+      "speaker": "a",
+      "text": "我在网上买东西呢，购物车里已经有五件商品了。",
+      "reading": "Wǒ zài wǎngshang mǎi dōngxī ne, gòuwùchē lǐ yǐjīng yǒu wǔ jiàn shāngpǐn le."
+    },
+    {
+      "speaker": "b",
+      "text": "你都买了什么？",
+      "reading": "Nǐ dōu mǎi le shénme?"
+    },
+    {
+      "speaker": "a",
+      "text": "一件羽绒服、一台打印机，还有一些吃的。",
+      "reading": "Yī jiàn yǔróngfú, yī tái dǎyìnjī, hái yǒu yīxiē chī de."
+    },
+    {
+      "speaker": "b",
+      "text": "打印机？学校不是可以打印吗？",
+      "reading": "Dǎyìnjī? Xuéxiào bù shì kěyǐ dǎyìn ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "学校太远了，我想在家打印作业。好，下单！",
+      "reading": "Xuéxiào tài yuǎn le, wǒ xiǎng zàijiā dǎyìn zuòyè. Hǎo, xiàdān!"
+    },
+    {
+      "speaker": "b",
+      "text": "怎么了？出什么问题了？",
+      "reading": "Zěnme le? Chū shénme wèntí le?"
+    },
+    {
+      "speaker": "a",
+      "text": "我刚下单就后悔了。那件羽绒服的颜色好像不太好看。",
+      "reading": "Wǒ gāng xiàdān jiù hòuhuǐ le. Nà jiàn yǔróngfú de yánsè hǎoxiàng bù tài hǎokàn."
+    },
+    {
+      "speaker": "b",
+      "text": "没关系，刚下单的话，可以马上取消。",
+      "reading": "Méi guānxi, gāng xiàdān dehuà, kěyǐ mǎshàng qǔxiāo."
+    },
+    {
+      "speaker": "a",
+      "text": "真的吗？那我先取消，再选一件别的颜色的。",
+      "reading": "Zhēnde ma? Nà wǒ xiān qǔxiāo, zài xuǎn yī jiàn biéde yánsè de."
+    }
+  ]
+}

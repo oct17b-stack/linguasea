@@ -1,0 +1,55 @@
+{
+  "id": "zh-B2-05",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.yuan-money",
+      "text": "元",
+      "reading": "yuán"
+    },
+    {
+      "id": "zh.jiao-tenth",
+      "text": "角",
+      "reading": "jiǎo"
+    },
+    {
+      "id": "zh.mao-tenth",
+      "text": "毛",
+      "reading": "máo"
+    },
+    {
+      "id": "zh.tai-zhu",
+      "text": "泰铢",
+      "reading": "tàizhū"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，八元五角是多少钱？",
+      "reading": "Wáng Míng, bā yuán wǔ jiǎo shì duōshao qián?"
+    },
+    {
+      "speaker": "b",
+      "text": "是八块五毛。元是块，角是毛。",
+      "reading": "Shì bā kuài wǔ máo. Yuán shì kuài, jiǎo shì máo."
+    },
+    {
+      "speaker": "a",
+      "text": "一块钱是多少泰铢？",
+      "reading": "Yī kuài qián shì duōshao tàizhū?"
+    },
+    {
+      "speaker": "b",
+      "text": "五泰铢吧。",
+      "reading": "Wǔ tàizhū ba."
+    },
+    {
+      "speaker": "a",
+      "text": "那这个西瓜不贵！我买这个。",
+      "reading": "Nà zhège xīguā bù guì! Wǒ mǎi zhège."
+    }
+  ]
+}

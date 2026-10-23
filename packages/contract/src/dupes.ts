@@ -85,3 +85,30 @@ export function findDuplicates(loaded: Loaded, contentRoot?: string): Duplicate[
   }
   return out;
 }
+
+/** Vocabulary items explained with the very same text: a "which word means …?" question can't tell them apart. */
+export type SameMeaning = { target: Target; l1: string; meaning: string; ids: { id: string; where: string }[] };
+
+export function findSameMeaning(loaded: Loaded): SameMeaning[] {
+  const out: SameMeaning[] = [];
+  for (const [l1, layer] of loaded.l1s) {
+    for (const [target, course] of layer.courses) {
+      const lessons = loaded.targets.get(target)?.lessons;
+      const byMeaning = new Map<string, Map<string, string>>();
+      for (const [lessonId, gloss] of course.lessons) {
+        const items = lessons?.get(lessonId)?.items ?? [];
+        for (const [id, g] of Object.entries(gloss.items)) {
+          const item = items.find((x) => x.id === id);
+          if (item && kindGroup(item.kind) === 'sound') continue; // sound drills are told apart by ear
+          const ids = byMeaning.get(g.meaning.trim()) ?? new Map<string, string>();
+          if (!ids.has(id)) ids.set(id, lessonId);
+          byMeaning.set(g.meaning.trim(), ids);
+        }
+      }
+      for (const [meaning, ids] of byMeaning) {
+        if (ids.size > 1) out.push({ target, l1, meaning, ids: [...ids].map(([id, where]) => ({ id, where })) });
+      }
+    }
+  }
+  return out;
+}

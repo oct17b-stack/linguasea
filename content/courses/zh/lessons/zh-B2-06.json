@@ -1,0 +1,65 @@
+{
+  "id": "zh-B2-06",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "zh.jin-catty",
+      "text": "斤",
+      "reading": "jīn"
+    },
+    {
+      "id": "zh.gong-jin",
+      "text": "公斤",
+      "reading": "gōngjīn"
+    },
+    {
+      "id": "zh.hai-shi",
+      "text": "还是",
+      "reading": "háishi"
+    },
+    {
+      "id": "zh.yong",
+      "text": "用",
+      "reading": "yòng"
+    },
+    {
+      "id": "zh.shua-ka",
+      "text": "刷卡",
+      "reading": "shuākǎ"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "你好！苹果多少钱一斤？",
+      "reading": "Nǐ hǎo! Píngguǒ duōshao qián yī jīn?"
+    },
+    {
+      "speaker": "c",
+      "text": "六块。你要几斤？",
+      "reading": "Liù kuài. Nǐ yào jǐ jīn?"
+    },
+    {
+      "speaker": "a",
+      "text": "我要一公斤。",
+      "reading": "Wǒ yào yī gōngjīn."
+    },
+    {
+      "speaker": "c",
+      "text": "一公斤是两斤，十二块。你用手机还是刷卡？",
+      "reading": "Yī gōngjīn shì liǎng jīn, shí'èr kuài. Nǐ yòng shǒujī háishi shuākǎ?"
+    },
+    {
+      "speaker": "a",
+      "text": "刷卡，可以吗？",
+      "reading": "Shuākǎ, kěyǐ ma?"
+    },
+    {
+      "speaker": "c",
+      "text": "可以。",
+      "reading": "Kěyǐ."
+    }
+  ]
+}

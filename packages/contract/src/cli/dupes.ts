@@ -1,5 +1,6 @@
 // Words taught under more than one id (in content and in content/_plan): npm run dupes [-- --target zh]
-import { findDuplicates, findRetaught } from '../dupes';
+//   --meanings also lists vocabulary items that share the exact same explanation.
+import { findDuplicates, findRetaught, findSameMeaning } from '../dupes';
 import { loadContent } from '../load';
 import { contentRoot } from './paths';
 
@@ -14,4 +15,10 @@ console.log(dupes.length ? `\n${dupes.length} word(s) with more than one id` : '
 const again = findRetaught(loadContent(contentRoot), contentRoot).filter((r) => !only || r.target === only);
 for (const r of again) console.log(`taught again: ${r.target} ${r.id} in ${r.where.join(', ')}`);
 if (again.length) console.log(`${again.length} item(s) taught in more than one lesson (check they are deliberate)`);
+
+if (process.argv.includes('--meanings')) {
+  const same = findSameMeaning(loadContent(contentRoot)).filter((m) => !only || m.target === only);
+  for (const m of same) console.log(`same meaning: ${m.target} (${m.l1}) "${m.meaning}": ${m.ids.map((x) => `${x.id} [${x.where}]`).join(', ')}`);
+  console.log(same.length ? `${same.length} meaning(s) shared by several items` : 'no shared meanings');
+}
 process.exit(dupes.length ? 1 : 0);

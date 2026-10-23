@@ -1,0 +1,85 @@
+{
+  "id": "zh-D2-01",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.deng-ji",
+      "text": "登记",
+      "reading": "dēngjì"
+    },
+    {
+      "id": "zh.ru-zhu",
+      "text": "入住",
+      "reading": "rùzhù"
+    },
+    {
+      "id": "zh.ma-fan",
+      "text": "麻烦",
+      "reading": "máfan"
+    },
+    {
+      "id": "zh.dan-ren-jian",
+      "text": "单人间",
+      "reading": "dānrénjiān"
+    },
+    {
+      "id": "zh.jie-dai",
+      "text": "接待",
+      "reading": "jiēdài"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "您好！欢迎来西安。请问你们要入住吗？",
+      "reading": "Nín hǎo! Huānyíng lái Xī'ān. Qǐngwèn nǐmen yào rùzhù ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，我在网上预订了两个单人间。",
+      "reading": "Duì, wǒ zài wǎngshang yùdìng le liǎng ge dānrénjiān."
+    },
+    {
+      "speaker": "c",
+      "text": "好的。麻烦您给我看一下你们的证件，我帮你们登记。",
+      "reading": "Hǎo de. Máfan nín gěi wǒ kàn yīxià nǐmen de zhèngjiàn, wǒ bāng nǐmen dēngjì."
+    },
+    {
+      "speaker": "b",
+      "text": "这是我的身份证，这是她的护照。",
+      "reading": "Zhè shì wǒ de shēnfènzhèng, zhè shì tā de hùzhào."
+    },
+    {
+      "speaker": "c",
+      "text": "登记好了。你们的房间在八楼，电梯在那儿。",
+      "reading": "Dēngjì hǎo le. Nǐmen de fángjiān zài bā lóu, diàntī zài nàr."
+    },
+    {
+      "speaker": "a",
+      "text": "谢谢。早上几点可以吃早饭？",
+      "reading": "Xièxie. Zǎoshang jǐ diǎn kěyǐ chī zǎofàn?"
+    },
+    {
+      "speaker": "c",
+      "text": "七点到十点，在二楼。",
+      "reading": "Qī diǎn dào shí diǎn, zài èr lóu."
+    },
+    {
+      "speaker": "a",
+      "text": "我们明天出去玩，晚上可能很晚回来，没问题吧？",
+      "reading": "Wǒmen míngtiān chūqù wán, wǎnshang kěnéng hěn wǎn huílái, méi wèntí ba?"
+    },
+    {
+      "speaker": "c",
+      "text": "没问题，我们二十四小时接待客人。",
+      "reading": "Méi wèntí, wǒmen èrshísì xiǎoshí jiēdài kèrén."
+    },
+    {
+      "speaker": "b",
+      "text": "太好了。麻烦你们了！",
+      "reading": "Tài hǎo le. Máfan nǐmen le!"
+    }
+  ]
+}
