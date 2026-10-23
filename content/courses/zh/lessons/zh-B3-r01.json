@@ -1,0 +1,65 @@
+{
+  "id": "zh-B3-r01",
+  "kind": "reader",
+  "target": "zh",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "zh.gong-yuan",
+      "text": "公园",
+      "reading": "gōngyuán"
+    },
+    {
+      "id": "zh.shu-dian",
+      "text": "书店",
+      "reading": "shūdiàn"
+    },
+    {
+      "id": "zh.tu-shu-guan",
+      "text": "图书馆",
+      "reading": "túshūguǎn"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "我们学校附近有一个公园。",
+        "reading": "Wǒmen xuéxiào fùjìn yǒu yī ge gōngyuán."
+      },
+      {
+        "text": "公园在学校东边，很漂亮。",
+        "reading": "Gōngyuán zài xuéxiào dōngbian, hěn piàoliang."
+      },
+      {
+        "text": "学校对面有一个书店。",
+        "reading": "Xuéxiào duìmiàn yǒu yī ge shūdiàn."
+      }
+    ],
+    [
+      {
+        "text": "学校里有一个银行。",
+        "reading": "Xuéxiào lǐ yǒu yī ge yínháng."
+      },
+      {
+        "text": "图书馆在银行旁边。",
+        "reading": "Túshūguǎn zài yínháng pángbiān."
+      },
+      {
+        "text": "我很喜欢我们学校！",
+        "reading": "Wǒ hěn xǐhuan wǒmen xuéxiào!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

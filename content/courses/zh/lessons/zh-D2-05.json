@@ -1,0 +1,85 @@
+{
+  "id": "zh-D2-05",
+  "target": "zh",
+  "stage": "D",
+  "minutes": 9,
+  "items": [
+    {
+      "id": "zh.tui-fang",
+      "text": "退房",
+      "reading": "tuìfáng"
+    },
+    {
+      "id": "zh.jie-zhang",
+      "text": "结账",
+      "reading": "jiézhàng"
+    },
+    {
+      "id": "zh.fa-piao",
+      "text": "发票",
+      "reading": "fāpiào"
+    },
+    {
+      "id": "zh.shun-li",
+      "text": "顺利",
+      "reading": "shùnlì"
+    },
+    {
+      "id": "zh.gan-xie",
+      "text": "感谢",
+      "reading": "gǎnxiè"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "小南，都十一点半了，你的行李还没收拾好吗？",
+      "reading": "Xiǎonán, dōu shíyī diǎn bàn le, nǐ de xíngli hái méi shōushi hǎo ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "快好了！宾馆几点退房？",
+      "reading": "Kuài hǎo le! Bīnguǎn jǐ diǎn tuìfáng?"
+    },
+    {
+      "speaker": "b",
+      "text": "十二点以前。都这么晚了，我们快走吧！",
+      "reading": "Shí'èr diǎn yǐqián. Dōu zhème wǎn le, wǒmen kuài zǒu ba!"
+    },
+    {
+      "speaker": "c",
+      "text": "您好！你们要退房吗？",
+      "reading": "Nín hǎo! Nǐmen yào tuìfáng ma?"
+    },
+    {
+      "speaker": "a",
+      "text": "对，我们要结账。一共多少钱？",
+      "reading": "Duì, wǒmen yào jiézhàng. Yīgòng duōshao qián?"
+    },
+    {
+      "speaker": "c",
+      "text": "两个房间，四个晚上，一共两千四百块。这是你们的押金。",
+      "reading": "Liǎng ge fángjiān, sì ge wǎnshang, yīgòng liǎngqiān sìbǎi kuài. Zhè shì nǐmen de yājīn."
+    },
+    {
+      "speaker": "b",
+      "text": "麻烦您给我们开一张发票。",
+      "reading": "Máfan nín gěi wǒmen kāi yī zhāng fāpiào."
+    },
+    {
+      "speaker": "c",
+      "text": "好的，这是发票。感谢你们的入住！",
+      "reading": "Hǎo de, zhè shì fāpiào. Gǎnxiè nǐmen de rùzhù!"
+    },
+    {
+      "speaker": "a",
+      "text": "也谢谢你们！这次旅行很顺利，我们很开心。",
+      "reading": "Yě xièxie nǐmen! Zhè cì lǚxíng hěn shùnlì, wǒmen hěn kāixīn."
+    },
+    {
+      "speaker": "c",
+      "text": "祝你们一路平安，欢迎下次再来！",
+      "reading": "Zhù nǐmen yīlù píng'ān, huānyíng xiàcì zài lái!"
+    }
+  ]
+}
