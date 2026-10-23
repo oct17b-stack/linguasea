@@ -1,0 +1,52 @@
+{
+  "id": "zh-A16-04",
+  "target": "zh",
+  "stage": "A",
+  "minutes": 6,
+  "items": [
+    {
+      "id": "zh.bu-yao-jin",
+      "kind": "phrase",
+      "text": "不要紧",
+      "reading": "bù yàojǐn"
+    },
+    {
+      "id": "zh.bu-yong",
+      "text": "不用",
+      "reading": "bùyòng"
+    },
+    {
+      "id": "zh.bu-yi-ding",
+      "kind": "phrase",
+      "text": "不一定",
+      "reading": "bù yīdìng"
+    },
+    {
+      "id": "zh.xiao-yi-si",
+      "text": "小意思",
+      "reading": "xiǎoyìsi"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "王明，这是泰国茶。小意思！",
+      "reading": "Wáng Míng, zhè shì Tàiguó chá. Xiǎoyìsi!"
+    },
+    {
+      "speaker": "b",
+      "text": "谢谢！对不起，我没有……",
+      "reading": "Xièxie! Duìbuqǐ, wǒ méiyǒu……"
+    },
+    {
+      "speaker": "a",
+      "text": "不要紧！你不用给我。",
+      "reading": "Bù yàojǐn! Nǐ bùyòng gěi wǒ."
+    },
+    {
+      "speaker": "b",
+      "text": "太谢谢你了！",
+      "reading": "Tài xièxie nǐ le!"
+    }
+  ]
+}
