@@ -1,0 +1,63 @@
+{
+  "id": "ko-B14-03",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.an-dwaeyo",
+      "kind": "phrase",
+      "text": "안 돼요",
+      "reading": "an dwaeyo"
+    },
+    {
+      "id": "ko.an-yeollyeoyo",
+      "kind": "phrase",
+      "text": "안 열려요",
+      "reading": "an yeollyeoyo"
+    },
+    {
+      "id": "ko.muri-an-nawayo",
+      "kind": "phrase",
+      "text": "물이 안 나와요",
+      "reading": "muri an nawayo"
+    },
+    {
+      "id": "ko.suri",
+      "text": "수리",
+      "reading": "suri"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "안녕하세요. 이백삼 호예요. 문이 안 열려요.",
+      "reading": "Annyeonghaseyo. Ibaeksam hoyeyo. Muni an yeollyeoyo."
+    },
+    {
+      "speaker": "b",
+      "text": "문이요? 열쇠 있어요?",
+      "reading": "Muniyo? Yeolsoe isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네, 있어요. 그런데 안 돼요. 그리고 욕실에서 물이 안 나와요.",
+      "reading": "Ne, isseoyo. Geureonde an dwaeyo. Geurigo yoksireseo muri an nawayo."
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 고장이에요. 오늘 수리해요.",
+      "reading": "Aigo, gojangieyo. Oneul surihaeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "몇 시에 수리해요?",
+      "reading": "Myeot sie surihaeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "오후 세 시쯤 수리해요.",
+      "reading": "Ohu se sijjeum surihaeyo."
+    }
+  ]
+}

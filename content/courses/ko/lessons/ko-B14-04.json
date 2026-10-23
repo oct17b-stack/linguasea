@@ -1,0 +1,67 @@
+{
+  "id": "ko-B14-04",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.yeogiga-eodiyeyo",
+      "kind": "phrase",
+      "text": "여기가 어디예요?",
+      "reading": "yeogiga eodiyeyo?"
+    },
+    {
+      "id": "ko.jido",
+      "text": "지도",
+      "reading": "jido"
+    },
+    {
+      "id": "ko.geuncheo",
+      "text": "근처",
+      "reading": "geuncheo"
+    },
+    {
+      "id": "ko.gyeongchalseo",
+      "text": "경찰서",
+      "reading": "gyeongchalseo"
+    },
+    {
+      "id": "ko.gireul-mollayo",
+      "kind": "phrase",
+      "text": "길을 몰라요",
+      "reading": "gireul mollayo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 여기가 어디예요? 길을 몰라요.",
+      "reading": "Jeogiyo, yeogiga eodiyeyo? Gireul mollayo."
+    },
+    {
+      "speaker": "c",
+      "text": "여기는 동대문 시장 근처예요.",
+      "reading": "Yeogineun Dongdaemun sijang geuncheoyeyo."
+    },
+    {
+      "speaker": "a",
+      "text": "아, 그래요? 제 호텔은 경찰서 근처예요.",
+      "reading": "A, geuraeyo? Je hotereun gyeongchalseo geuncheoyeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "경찰서요? 이 근처에 있어요. 지도 있어요?",
+      "reading": "Gyeongchalseoyo? I geuncheoe isseoyo. Jido isseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "아니요, 없어요.",
+      "reading": "Aniyo, eopseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "괜찮아요. 저기 은행 옆이에요. 같이 가요.",
+      "reading": "Gwaenchanayo. Jeogi eunhaeng yeopieyo. Gachi gayo."
+    }
+  ]
+}

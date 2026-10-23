@@ -1,0 +1,57 @@
+{
+  "id": "ko-B14-06",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.buriya",
+      "kind": "phrase",
+      "text": "불이야",
+      "reading": "buriya"
+    },
+    {
+      "id": "ko.bisangbel",
+      "text": "비상벨",
+      "reading": "bisangbel"
+    },
+    {
+      "id": "ko.gyeongchalgwan",
+      "text": "경찰관",
+      "reading": "gyeongchalgwan"
+    },
+    {
+      "id": "ko.irilgue-jeonhwahaseyo",
+      "kind": "phrase",
+      "text": "일일구에 전화하세요",
+      "reading": "irilgue jeonhwahaseyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "민준 씨! 불이야! 불이야!",
+      "reading": "Minjun ssi! Buriya! Buriya!"
+    },
+    {
+      "speaker": "b",
+      "text": "어디요?",
+      "reading": "Eodiyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "저기 식당이에요! 비상벨 소리가 들려요!",
+      "reading": "Jeogi sikdangieyo! Bisangbel soriga deullyeoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "남 씨, 빨리 일일구에 전화하세요! 저는 경찰관한테 가요.",
+      "reading": "Nam ssi, ppalli irilgue jeonhwahaseyo! Jeoneun gyeongchalgwanhante gayo."
+    },
+    {
+      "speaker": "a",
+      "text": "네! 위험해요. 조심하세요!",
+      "reading": "Ne! Wiheomhaeyo. Josimhaseyo!"
+    }
+  ]
+}

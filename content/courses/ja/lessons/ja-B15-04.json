@@ -1,0 +1,60 @@
+{
+  "id": "ja-B15-04",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.hakubutsukan",
+      "text": "はくぶつかん",
+      "reading": "hakubutsukan"
+    },
+    {
+      "id": "ja.panfuretto",
+      "text": "パンフレット",
+      "reading": "panfuretto"
+    },
+    {
+      "id": "ja.akimasu",
+      "text": "あきます",
+      "reading": "akimasu"
+    },
+    {
+      "id": "ja.shimarimasu",
+      "text": "しまります",
+      "reading": "shimarimasu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "すみません、はくぶつかんは なんじに あきますか。",
+      "reading": "Sumimasen, hakubutsukan wa nanji ni akimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "9時に あきます。5時に しまります。",
+      "reading": "Kuji ni akimasu. Goji ni shimarimasu."
+    },
+    {
+      "speaker": "a",
+      "text": "さむらいの ものを みたいです。どこですか。",
+      "reading": "Samurai no mono o mitai desu. Doko desu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "2かいです。",
+      "reading": "Nikai desu."
+    },
+    {
+      "speaker": "a",
+      "text": "パンフレットは ありますか。",
+      "reading": "Panfuretto wa arimasu ka."
+    },
+    {
+      "speaker": "c",
+      "text": "はい、どうぞ。えいごと にほんごです。",
+      "reading": "Hai, dōzo. Eigo to Nihongo desu."
+    }
+  ]
+}

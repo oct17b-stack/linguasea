@@ -1,0 +1,73 @@
+{
+  "id": "ko-B14-r01",
+  "kind": "reader",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ko.hoksi",
+      "text": "혹시",
+      "reading": "hoksi"
+    },
+    {
+      "id": "ko.yeollak-juseyo",
+      "kind": "phrase",
+      "text": "연락 주세요",
+      "reading": "yeollak juseyo"
+    },
+    {
+      "id": "ko.butakdeuryeoyo",
+      "kind": "phrase",
+      "text": "부탁드려요",
+      "reading": "butakdeuryeoyo"
+    },
+    {
+      "id": "ko.chaja-juseyo",
+      "kind": "phrase",
+      "text": "찾아 주세요",
+      "reading": "chaja juseyo"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "지갑을 찾아 주세요!",
+        "reading": "Jigabeul chaja juseyo!"
+      },
+      {
+        "text": "금요일 저녁부터 갈색 지갑이 없어요.",
+        "reading": "Geumyoil jeonyeokbuteo galsaek jigabi eopseoyo."
+      },
+      {
+        "text": "안에 교통 카드하고 가족 사진이 있어요.",
+        "reading": "Ane gyotong kadeuhago gajok sajini isseoyo."
+      }
+    ],
+    [
+      {
+        "text": "혹시 민박 앞 편의점 근처에서 지갑을 찾았어요?",
+        "reading": "Hoksi minbak ap pyeonuijeom geuncheoeseo jigabeul chajasseoyo?"
+      },
+      {
+        "text": "이백삼 호 남한테 연락 주세요.",
+        "reading": "Ibaeksam ho Namhante yeollak juseyo."
+      },
+      {
+        "text": "정말 부탁드려요!",
+        "reading": "Jeongmal butakdeuryeoyo!"
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 0
+    },
+    {
+      "answer": 1
+    }
+  ]
+}

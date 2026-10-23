@@ -1,0 +1,66 @@
+{
+  "id": "ko-B14-02",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.jigabi-eopseoyo",
+      "kind": "phrase",
+      "text": "지갑이 없어요",
+      "reading": "jigabi eopseoyo"
+    },
+    {
+      "id": "ko.eodiseo",
+      "text": "어디서",
+      "reading": "eodiseo"
+    },
+    {
+      "id": "ko.bunsilmul",
+      "text": "분실물",
+      "reading": "bunsilmul"
+    },
+    {
+      "id": "ko.somaechigi",
+      "text": "소매치기",
+      "reading": "somaechigi"
+    },
+    {
+      "id": "ko.chajasseoyo",
+      "text": "찾았어요",
+      "reading": "chajasseoyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 도와주세요. 지갑이 없어요!",
+      "reading": "Jeogiyo, dowajuseyo. Jigabi eopseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "어디서요? 지하철에서요?",
+      "reading": "Eodiseoyo? Jihacheoreseoyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "네… 소매치기예요?",
+      "reading": "Ne… Somaechigiyeyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "잠깐만요. 여기 분실물이 있어요. 무슨 색이에요?",
+      "reading": "Jamkkanmanyo. Yeogi bunsilmuri isseoyo. Museun saegieyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "까만색이에요. 아, 저거예요! 찾았어요!",
+      "reading": "Kkamansaegieyo. A, jeogeoyeyo! Chajasseoyo!"
+    },
+    {
+      "speaker": "b",
+      "text": "다행이에요. 소매치기 조심하세요!",
+      "reading": "Dahaengieyo. Somaechigi josimhaseyo!"
+    }
+  ]
+}

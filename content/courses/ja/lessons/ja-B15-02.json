@@ -1,0 +1,60 @@
+{
+  "id": "ja-B15-02",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.shinguru",
+      "text": "シングル",
+      "reading": "shinguru"
+    },
+    {
+      "id": "ja.tsuin",
+      "text": "ツイン",
+      "reading": "tsuin"
+    },
+    {
+      "id": "ja.nanpaku",
+      "text": "なんぱく",
+      "reading": "nanpaku"
+    },
+    {
+      "id": "ja.heyabangou",
+      "text": "へやばんごう",
+      "reading": "heyabangō"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "b",
+      "text": "いらっしゃいませ。シングルですか、ツインですか。",
+      "reading": "Irasshaimase. Shinguru desu ka, tsuin desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "シングルを おねがいします。",
+      "reading": "Shinguru o onegaishimasu."
+    },
+    {
+      "speaker": "b",
+      "text": "なんぱくですか。",
+      "reading": "Nanpaku desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "2はくです。",
+      "reading": "Nihaku desu."
+    },
+    {
+      "speaker": "b",
+      "text": "へやばんごうは 305です。どうぞ。",
+      "reading": "Heyabangō wa sanbyakugo desu. Dōzo."
+    },
+    {
+      "speaker": "a",
+      "text": "ありがとうございます。",
+      "reading": "Arigatō gozaimasu."
+    }
+  ]
+}

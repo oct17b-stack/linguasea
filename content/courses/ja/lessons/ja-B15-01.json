@@ -1,0 +1,60 @@
+{
+  "id": "ja-B15-01",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.ryokou",
+      "text": "りょこう",
+      "reading": "ryokō"
+    },
+    {
+      "id": "ja.pasupooto",
+      "text": "パスポート",
+      "reading": "pasupōto"
+    },
+    {
+      "id": "ja.nimotsu",
+      "text": "にもつ",
+      "reading": "nimotsu"
+    },
+    {
+      "id": "ja.suutsukeesu",
+      "text": "スーツケース",
+      "reading": "sūtsukēsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、あした りょこうに いきますね。",
+      "reading": "Namu-san, ashita ryokō ni ikimasu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、きょうとへ いきます。",
+      "reading": "Hai, Kyōto e ikimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "にもつは それですか。",
+      "reading": "Nimotsu wa sore desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、スーツケースと かばんです。",
+      "reading": "Hai, sūtsukēsu to kaban desu."
+    },
+    {
+      "speaker": "c",
+      "text": "パスポートは どこですか。",
+      "reading": "Pasupōto wa doko desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "かばんの 中です。だいじょうぶです。",
+      "reading": "Kaban no naka desu. Daijōbu desu."
+    }
+  ]
+}

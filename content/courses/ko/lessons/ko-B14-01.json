@@ -1,0 +1,67 @@
+{
+  "id": "ko-B14-01",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.dowajuseyo",
+      "kind": "phrase",
+      "text": "도와주세요",
+      "reading": "dowajuseyo"
+    },
+    {
+      "id": "ko.gyeongchal",
+      "text": "경찰",
+      "reading": "gyeongchal"
+    },
+    {
+      "id": "ko.gwaenchaneuseyo",
+      "kind": "phrase",
+      "text": "괜찮으세요?",
+      "reading": "gwaenchaneuseyo?"
+    },
+    {
+      "id": "ko.wiheomhaeyo",
+      "text": "위험해요",
+      "reading": "wiheomhaeyo"
+    },
+    {
+      "id": "ko.ppalli",
+      "text": "빨리",
+      "reading": "ppalli"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "할아버지, 괜찮으세요?",
+      "reading": "Harabeoji, gwaenchaneuseyo?"
+    },
+    {
+      "speaker": "b",
+      "text": "아이고, 좀 어지러워요…",
+      "reading": "Aigo, jom eojireowoyo…"
+    },
+    {
+      "speaker": "a",
+      "text": "도와주세요! 여기요!",
+      "reading": "Dowajuseyo! Yeogiyo!"
+    },
+    {
+      "speaker": "c",
+      "text": "저기 경찰이 있어요! 경찰 아저씨, 빨리 와 주세요!",
+      "reading": "Jeogi gyeongchari isseoyo! Gyeongchal ajeossi, ppalli wa juseyo!"
+    },
+    {
+      "speaker": "a",
+      "text": "할아버지, 여기 위험해요. 저기 의자에서 쉬세요.",
+      "reading": "Harabeoji, yeogi wiheomhaeyo. Jeogi uijaeseo swiseyo."
+    },
+    {
+      "speaker": "b",
+      "text": "고마워요, 학생.",
+      "reading": "Gomawoyo, haksaeng."
+    }
+  ]
+}

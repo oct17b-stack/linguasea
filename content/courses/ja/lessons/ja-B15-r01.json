@@ -1,0 +1,70 @@
+{
+  "id": "ja-B15-r01",
+  "kind": "reader",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 8,
+  "items": [
+    {
+      "id": "ja.kinkakuji",
+      "text": "きんかくじ",
+      "reading": "Kinkakuji"
+    },
+    {
+      "id": "ja.matcha",
+      "text": "まっちゃ",
+      "reading": "matcha"
+    },
+    {
+      "id": "ja.ooi",
+      "text": "おおい",
+      "reading": "ōi"
+    },
+    {
+      "id": "ja.sukunai",
+      "text": "すくない",
+      "reading": "sukunai"
+    }
+  ],
+  "passage": [
+    [
+      {
+        "text": "2日 きょうとを りょこうしました。",
+        "reading": "Futsuka Kyōto o ryokō shimashita."
+      },
+      {
+        "text": "きんかくじは とても きれいでしたが、ひとが おおかったです。",
+        "reading": "Kinkakuji wa totemo kirei deshita ga, hito ga ōkatta desu."
+      },
+      {
+        "text": "それから、まっちゃを のみました。",
+        "reading": "Sorekara, matcha o nomimashita."
+      }
+    ],
+    [
+      {
+        "text": "ゆうがた、ちいさい にわへ いきました。",
+        "reading": "Yūgata, chiisai niwa e ikimashita."
+      },
+      {
+        "text": "にわは ひとが すくなかったです。",
+        "reading": "Niwa wa hito ga sukunakatta desu."
+      },
+      {
+        "text": "とても しずかでした。",
+        "reading": "Totemo shizuka deshita."
+      }
+    ]
+  ],
+  "questions": [
+    {
+      "answer": 1
+    },
+    {
+      "answer": 2
+    },
+    {
+      "answer": 0
+    }
+  ]
+}

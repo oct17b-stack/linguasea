@@ -1,0 +1,60 @@
+{
+  "id": "ja-B15-05",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kiihorudaa",
+      "text": "キーホルダー",
+      "reading": "kīhorudā"
+    },
+    {
+      "id": "ja.ehagaki",
+      "text": "えはがき",
+      "reading": "ehagaki"
+    },
+    {
+      "id": "ja.tenugui",
+      "text": "てぬぐい",
+      "reading": "tenugui"
+    },
+    {
+      "id": "ja.hitotsuzutsu",
+      "text": "ひとつずつ",
+      "reading": "hitotsuzutsu"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、きょうとで なにを かいましたか。",
+      "reading": "Namu-san, Kyōto de nani o kaimashita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ちちと ははに てぬぐいを ひとつずつ かいました。",
+      "reading": "Chichi to haha ni tenugui o hitotsuzutsu kaimashita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。いもうとさんには？",
+      "reading": "Ii desu ne. Imōtosan ni wa?"
+    },
+    {
+      "speaker": "a",
+      "text": "いもうとには ねこの キーホルダーです。",
+      "reading": "Imōto ni wa neko no kīhorudā desu."
+    },
+    {
+      "speaker": "c",
+      "text": "かわいいですね。",
+      "reading": "Kawaii desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "ゆきさんには えはがきを かいました。",
+      "reading": "Yuki-san ni wa ehagaki o kaimashita."
+    }
+  ]
+}

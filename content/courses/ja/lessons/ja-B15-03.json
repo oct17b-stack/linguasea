@@ -1,0 +1,65 @@
+{
+  "id": "ja-B15-03",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.tomarimasu",
+      "text": "とまります",
+      "reading": "tomarimasu"
+    },
+    {
+      "id": "ja.taoru",
+      "text": "タオル",
+      "reading": "taoru"
+    },
+    {
+      "id": "ja.makura",
+      "text": "まくら",
+      "reading": "makura"
+    },
+    {
+      "id": "ja.moufu",
+      "text": "もうふ",
+      "reading": "mōfu"
+    },
+    {
+      "id": "ja.doraiyaa",
+      "text": "ドライヤー",
+      "reading": "doraiyā"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、きょうとでは どこに とまりますか。",
+      "reading": "Namu-san, Kyōto de wa doko ni tomarimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "駅の ちかくの ホテルに とまります。",
+      "reading": "Eki no chikaku no hoteru ni tomarimasu."
+    },
+    {
+      "speaker": "c",
+      "text": "へやは どうですか。ドライヤーは ありますか。",
+      "reading": "Heya wa dō desu ka. Doraiyā wa arimasu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、タオルも ドライヤーも あります。でも、まくらが ちょっと たかいです。",
+      "reading": "Hai, taoru mo doraiyā mo arimasu. Demo, makura ga chotto takai desu."
+    },
+    {
+      "speaker": "c",
+      "text": "さむくないですか。",
+      "reading": "Samukunai desu ka."
+    },
+    {
+      "speaker": "a",
+      "text": "ちょっと さむいです。ホテルの ひとに もうふを もう いちまい おねがいします。",
+      "reading": "Chotto samui desu. Hoteru no hito ni mōfu o mō ichimai onegaishimasu."
+    }
+  ]
+}

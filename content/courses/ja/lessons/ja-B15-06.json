@@ -1,0 +1,60 @@
+{
+  "id": "ja-B15-06",
+  "target": "ja",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ja.kaeri",
+      "text": "かえり",
+      "reading": "kaeri"
+    },
+    {
+      "id": "ja.norimono",
+      "text": "のりもの",
+      "reading": "norimono"
+    },
+    {
+      "id": "ja.ekiben",
+      "text": "えきべん",
+      "reading": "ekiben"
+    },
+    {
+      "id": "ja.tsukaremashita",
+      "text": "つかれました",
+      "reading": "tsukaremashita"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "c",
+      "text": "ナムさん、りょこうは どうでしたか。",
+      "reading": "Namu-san, ryokō wa dō deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "たのしかったです。でも、ちょっと つかれました。",
+      "reading": "Tanoshikatta desu. Demo, chotto tsukaremashita."
+    },
+    {
+      "speaker": "c",
+      "text": "かえりは ひこうきでしたか。",
+      "reading": "Kaeri wa hikōki deshita ka."
+    },
+    {
+      "speaker": "a",
+      "text": "いいえ、でんしゃでした。でんしゃで えきべんを たべました。",
+      "reading": "Iie, densha deshita. Densha de ekiben o tabemashita."
+    },
+    {
+      "speaker": "c",
+      "text": "いいですね。ナムさんは のりものが すきですね。",
+      "reading": "Ii desu ne. Namu-san wa norimono ga suki desu ne."
+    },
+    {
+      "speaker": "a",
+      "text": "はい、でんしゃも ひこうきも だいすきです。",
+      "reading": "Hai, densha mo hikōki mo daisuki desu."
+    }
+  ]
+}

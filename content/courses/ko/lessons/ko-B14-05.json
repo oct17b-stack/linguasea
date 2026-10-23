@@ -1,0 +1,67 @@
+{
+  "id": "ko-B14-05",
+  "target": "ko",
+  "stage": "B",
+  "minutes": 7,
+  "items": [
+    {
+      "id": "ko.naemsae",
+      "text": "냄새",
+      "reading": "naemsae"
+    },
+    {
+      "id": "ko.beolle",
+      "text": "벌레",
+      "reading": "beolle"
+    },
+    {
+      "id": "ko.soeum",
+      "text": "소음",
+      "reading": "soeum"
+    },
+    {
+      "id": "ko.gochyeo-juseyo",
+      "kind": "phrase",
+      "text": "고쳐 주세요",
+      "reading": "gochyeo juseyo"
+    },
+    {
+      "id": "ko.butakaeyo",
+      "kind": "phrase",
+      "text": "부탁해요",
+      "reading": "butakaeyo"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "a",
+      "text": "저기요, 방에 문제가 있어요.",
+      "reading": "Jeogiyo, bange munjega isseoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 무슨 문제예요?",
+      "reading": "Ne, museun munjeyeyo?"
+    },
+    {
+      "speaker": "a",
+      "text": "벌레가 있어요! 그리고 냄새가 너무 싫어요.",
+      "reading": "Beollega isseoyo! Geurigo naemsaega neomu sireoyo."
+    },
+    {
+      "speaker": "c",
+      "text": "아이고, 죄송합니다.",
+      "reading": "Aigo, joesonghamnida."
+    },
+    {
+      "speaker": "a",
+      "text": "옆방 소음도 너무 커요. 창문도 고장이에요. 고쳐 주세요. 부탁해요.",
+      "reading": "Yeopbang soeumdo neomu keoyo. Changmundo gojangieyo. Gochyeo juseyo. Butakaeyo."
+    },
+    {
+      "speaker": "c",
+      "text": "네, 알겠어요. 다른 방 괜찮아요?",
+      "reading": "Ne, algesseoyo. Dareun bang gwaenchanayo?"
+    }
+  ]
+}
