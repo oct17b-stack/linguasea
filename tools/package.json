@@ -8,7 +8,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p .",
     "hours": "tsx src/hours.ts",
-    "plan:apply": "tsx src/plan-apply.ts"
+    "plan:apply": "tsx src/plan-apply.ts",
+    "review:sheet": "tsx src/review-sheet.ts"
   },
   "dependencies": {
     "@linguasea/contract": "0.1.0",

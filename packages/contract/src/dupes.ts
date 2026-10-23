@@ -81,7 +81,10 @@ export function findDuplicates(loaded: Loaded, contentRoot?: string): Duplicate[
   const out: Duplicate[] = [];
   for (const target of loaded.targets.keys()) {
     const entries = entriesOf(loaded, target, contentRoot);
-    out.push(...group(target, entries));
+    // Declared homonyms are different words that happen to be written and read the same.
+    const homonyms = loaded.targets.get(target)?.course.homonyms ?? [];
+    const declared = (d: Duplicate) => homonyms.some((set) => d.ids.every((x) => set.includes(x.id)));
+    out.push(...group(target, entries).filter((d) => !declared(d)));
   }
   return out;
 }

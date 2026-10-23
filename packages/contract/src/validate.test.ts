@@ -73,6 +73,19 @@ describe('validate', () => {
     expect(messages(root).some((m) => m.includes(`${word.id} differs from zh-A1-01`))).toBe(true);
   });
 
+  it('checks that declared homonyms are taught and written and read the same', () => {
+    const root = copy('zh');
+    const a = firstWord(root, 'zh', 'zh-A1-01');
+    const b = firstWord(root, 'zh', 'zh-B1-01');
+    edit(join(root, 'courses/zh/course.json'), (c) => {
+      c.homonyms = [[a.id, b.id], [a.id, 'zh.not-taught']];
+    });
+    expect(messages(root)).toEqual([
+      `courses/zh/course.json: homonyms ${a.id}, ${b.id} are not written and read the same`,
+      'courses/zh/course.json: homonyms: zh.not-taught not taught in any lesson',
+    ]);
+  });
+
   it('catches an exercise on a word the lesson does not teach', () => {
     const root = copy('ja');
     const other = firstWord(root, 'ja', 'ja-B1-01');

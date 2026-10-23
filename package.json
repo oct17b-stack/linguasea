@@ -18,6 +18,7 @@
     "hours": "npm run hours --workspace @linguasea/tools --",
     "dupes": "npm run dupes --workspace @linguasea/contract --",
     "plan:apply": "npm run plan:apply --workspace @linguasea/tools --",
+    "review:sheet": "npm run review:sheet --workspace @linguasea/tools --",
     "e2e": "node tests/e2e/run.mjs"
   },
   "devDependencies": {

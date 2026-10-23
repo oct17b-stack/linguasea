@@ -51,6 +51,11 @@ export const Course = z.object({
   /** Name of the romanization system shown under the text, e.g. "pinyin". */
   reading: z.string(),
   stages: z.array(StageDef).min(1),
+  /**
+   * Different words written and read the same (ja さん "Mr./Ms." and さん "three"), each set listed by
+   * item id, so `npm run dupes` does not take them for one word taught under two ids.
+   */
+  homonyms: z.array(z.array(itemId).min(2)).optional(),
 });
 export type Course = z.infer<typeof Course>;
 

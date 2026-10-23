@@ -11,3 +11,6 @@ node_modules/
 .DS_Store
 dist/
 coverage/
+
+# Review sheets for native-speaker teachers (npm run review:sheet)
+content/_review/sheets/

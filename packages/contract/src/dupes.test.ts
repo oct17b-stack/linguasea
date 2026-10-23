@@ -28,3 +28,20 @@ it('finds one word under two ids across content and the plan', () => {
   expect(ours?.ids.map((x) => x.id)).toEqual([word.id, `${word.id}-again`]);
   expect(ours?.ids[1].where).toBe('plan zh-F17-01');
 });
+
+it('leaves out words the course declares as homonyms', () => {
+  const root = mkdtempSync(join(tmpdir(), 'dupes-'));
+  temps.push(root);
+  cpSync(join(contentRoot, 'courses/zh'), join(root, 'courses/zh'), { recursive: true });
+  const file = join(root, 'courses/zh/lessons/zh-A1-01.json');
+  const lesson = JSON.parse(readFileSync(file, 'utf8'));
+  const word = lesson.items.find((i: { kind?: string }) => !i.kind || i.kind === 'word' || i.kind === 'phrase');
+  lesson.items.push({ ...word, id: `${word.id}-other` });
+  writeFileSync(file, JSON.stringify(lesson));
+  const ours = () => findDuplicates(loadContent(root), root).filter((d) => d.ids.some((x) => x.id === `${word.id}-other`));
+  expect(ours()).toHaveLength(1);
+  const courseFile = join(root, 'courses/zh/course.json');
+  const course = JSON.parse(readFileSync(courseFile, 'utf8'));
+  writeFileSync(courseFile, JSON.stringify({ ...course, homonyms: [[word.id, `${word.id}-other`]] }));
+  expect(ours()).toHaveLength(0);
+});

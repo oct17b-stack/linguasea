@@ -40,6 +40,7 @@ npm run dupes                      # 同一个词被用了两个 id
 npm run plan:apply -- zh-CF        # 把大纲的阶段/单元加进 course.json
 npm run audio -- --dry-run         # 还缺多少配音、估算费用（有 Azure 密钥时去掉 --dry-run 就会生成）
 npm run l10n -- export --to vi     # 导出翻译表
+npm run review:sheet               # 给母语老师的审校表（content/_review/sheets/，说明见 content/_review/README.md）
 cd app && npm start                # 开发服务器
 cd server && npm run dev           # 后端（不配 DATABASE_URL 时用内存存储）
 npm run e2e                        # 端到端测试（网页版 + 真服务器 + 浏览器）
@@ -51,7 +52,7 @@ npm run e2e                        # 端到端测试（网页版 + 真服务器 
 
 1. 规划：大纲写进 `content/_plan/<目标语>-<阶段>.json`，`npm run plan:apply` 生成课程结构。
 2. 写课：按大纲写 `content/courses/...` 和 `content/l1/th/...`，规范见 docs/CONTENT.md。
-3. 审校：另一位审校逐课核对，拿不准的写进 `content/_review/`。
+3. 审校：另一位审校逐课核对，拿不准的写进 `content/_review/`；母语老师终审用 `npm run review:sheet` 导出的表格（见 `content/_review/README.md`）。
 4. 检查：`npm run validate`、`npm run dupes`、`npm run hours`。
 5. 配音：`npm run audio`。
 

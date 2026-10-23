@@ -54,6 +54,14 @@ export function validate(loaded: Loaded): Problem[] {
       }
     }
 
+    for (const ids of course.homonyms ?? []) {
+      const missing = ids.filter((id) => !seen.has(id));
+      if (missing.length) add(cfile, `homonyms: ${missing.join(', ')} not taught in any lesson`);
+      else if (new Set(ids.map((id) => `${seen.get(id)!.text}|${seen.get(id)!.reading}`)).size > 1) {
+        add(cfile, `homonyms ${ids.join(', ')} are not written and read the same`);
+      }
+    }
+
     const groupTexts = (group: string) =>
       new Set([...seen.values()].filter((i) => kindGroup(i.kind) === group).map((i) => i.text)).size;
 
