@@ -111,8 +111,20 @@ export class PgStore implements Store {
            where entitlements.premium_until < excluded.premium_until`,
         [fromId, intoId],
       );
+      // Earlier aliases of the merged account follow it; then it becomes one itself.
+      await tx.query('update account_aliases set account_id = $2 where account_id = $1', [fromId, intoId]);
       await tx.query('delete from accounts where id = $1', [fromId]);
+      await tx.query(
+        `insert into account_aliases (old_id, account_id) values ($1, $2)
+         on conflict (old_id) do update set account_id = excluded.account_id`,
+        [fromId, intoId],
+      );
     });
+  }
+
+  async resolveAccountId(id: string) {
+    const { rows } = await this.db.query<{ account_id: string }>('select account_id from account_aliases where old_id = $1', [id]);
+    return rows[0]?.account_id ?? id;
   }
 
   async saveLoginCode(email: string, codeHash: string, expiresAt: Date) {

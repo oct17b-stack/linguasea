@@ -453,3 +453,45 @@ test('serves the web app under /app/ with SPA fallback and caching', async () =>
   const off = await setup({ webDir: join(dir, 'missing') });
   assert.equal((await off.app.inject({ url: '/app/lesson/x' })).statusCode, 404);
 });
+
+test('RevenueCat events for an account merged on sign-in reach the account it went into', async () => {
+  const { app, signIn, anonymous, me } = await signInSetup();
+  const DAY = 86_400_000;
+  const phone = await signIn('nam@example.com');
+  // The web install bought as an anonymous account, then signed in: it is merged into the phone's account.
+  const web = await anonymous();
+  const hook = (event: Record<string, unknown>) =>
+    app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', headers: { authorization: 'Bearer hook-secret' }, payload: { event } });
+  await hook({ type: 'INITIAL_PURCHASE', app_user_id: web.id, expiration_at_ms: NOW.getTime() + DAY, event_timestamp_ms: NOW.getTime() });
+  await signIn('nam@example.com', web.auth);
+  assert.equal((await me(phone.auth)).json().premiumUntil, new Date(NOW.getTime() + DAY).toISOString());
+
+  const renewal = await hook({ type: 'RENEWAL', app_user_id: web.id, expiration_at_ms: NOW.getTime() + 31 * DAY, event_timestamp_ms: NOW.getTime() + 1 });
+  assert.equal(renewal.json().result, 'applied');
+  assert.equal((await me(phone.auth)).json().premiumUntil, new Date(NOW.getTime() + 31 * DAY).toISOString());
+  assert.equal((await hook({ type: 'RENEWAL', event_timestamp_ms: NOW.getTime() })).statusCode, 400, 'needs app_user_id');
+});
+
+test('RevenueCat TRANSFER moves the subscription to our surviving account', async () => {
+  const { app, anonymous, signIn, me, id: oldId, auth: oldAuth } = await signInSetup();
+  const DAY = 86_400_000;
+  const hook = (event: Record<string, unknown>) =>
+    app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', headers: { authorization: 'Bearer hook-secret' }, payload: { event } });
+  // Bought on an old install, then "restore purchases" on a new install that signed in.
+  await hook({ type: 'INITIAL_PURCHASE', app_user_id: oldId, expiration_at_ms: NOW.getTime() + 30 * DAY, event_timestamp_ms: NOW.getTime() });
+  const fresh = await anonymous();
+  const session = await signIn('nam@example.com', fresh.auth);
+  const res = await hook({ type: 'TRANSFER', transferred_from: [oldId], transferred_to: [fresh.id], event_timestamp_ms: NOW.getTime() + 1 });
+  assert.deepEqual(res.json(), { ok: true, result: 'applied' });
+  const now = (await me(session.auth)).json();
+  assert.equal(now.premium, true);
+  assert.equal(now.premiumUntil, new Date(NOW.getTime() + 30 * DAY).toISOString());
+  assert.equal((await me(oldAuth)).json().premium, false, 'the account it left loses it');
+
+  // Transfers between ids that are now the same account, or to ids we do not know, change nothing.
+  const anon = await anonymous();
+  await signIn('nam@example.com', anon.auth);
+  assert.equal((await hook({ type: 'TRANSFER', transferred_from: [anon.id], transferred_to: [session.id], event_timestamp_ms: NOW.getTime() + 2 })).json().result, 'ignored');
+  assert.equal((await me(session.auth)).json().premium, true);
+  assert.equal((await hook({ type: 'TRANSFER', transferred_from: ['$RCAnonymousID:x'], transferred_to: ['$RCAnonymousID:y'] })).statusCode, 200);
+});

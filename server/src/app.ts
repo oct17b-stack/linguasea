@@ -76,7 +76,10 @@ const ACTIVE_EVENTS = new Set(['INITIAL_PURCHASE', 'RENEWAL', 'UNCANCELLATION', 
 const RevenueCatBody = z.object({
   event: z.looseObject({
     type: z.string(),
-    app_user_id: z.string(),
+    app_user_id: z.string().optional(),
+    // TRANSFER events: the subscription moved from these app user ids to those.
+    transferred_from: z.array(z.string()).optional(),
+    transferred_to: z.array(z.string()).optional(),
     expiration_at_ms: z.number().nullable().optional(),
     event_timestamp_ms: z.number().optional(),
   }),
@@ -344,6 +347,31 @@ export function buildServer({
     return { premium: !!until && until > now(), premiumUntil: until?.toISOString() ?? null };
   });
 
+  /**
+   * RevenueCat TRANSFER (e.g. "restore purchases" under another account): the subscription moves to our
+   * account among transferred_to and ends for the accounts it left. The end date is the event's
+   * expiration when given, else the latest one we have recorded for the accounts it came from.
+   */
+  async function transfer(
+    event: { transferred_from?: string[]; transferred_to?: string[]; expiration_at_ms?: number | null },
+    eventAt: Date,
+  ): Promise<string> {
+    const resolve = async (ids: string[] = []) => [...new Set(await Promise.all(ids.map((id) => store.resolveAccountId(id))))];
+    const to = await resolve(event.transferred_to);
+    const from = (await resolve(event.transferred_from)).filter((id) => !to.includes(id));
+    let until = event.expiration_at_ms ? new Date(event.expiration_at_ms) : undefined;
+    for (const id of from) {
+      const u = await store.getPremiumUntil(id);
+      if (!event.expiration_at_ms && u && (!until || u > until)) until = u;
+    }
+    let result = 'ignored';
+    if (until) {
+      for (const id of to) if ((await store.applyEntitlement(id, until, eventAt)) === 'applied') result = 'applied';
+    }
+    for (const id of from) if (await store.getPremiumUntil(id)) await store.applyEntitlement(id, eventAt, eventAt);
+    return result;
+  }
+
   // RevenueCat is told our account id as its app_user_id (Purchases.logIn).
   app.post('/v1/webhooks/revenuecat', { config: { rateLimit: false } }, async (req, reply) => {
     if (!revenueCatAuth || !sameSecret(req.headers.authorization ?? '', revenueCatAuth)) {
@@ -351,8 +379,12 @@ export function buildServer({
     }
     const body = RevenueCatBody.safeParse(req.body);
     if (!body.success) return reply.code(400).send({ error: 'invalid event' });
-    const { type, app_user_id, expiration_at_ms, event_timestamp_ms } = body.data.event;
+    const { type, expiration_at_ms, event_timestamp_ms } = body.data.event;
     const eventAt = new Date(event_timestamp_ms ?? now().getTime());
+    if (type === 'TRANSFER') return { ok: true, result: await transfer(body.data.event, eventAt) };
+    if (!body.data.event.app_user_id) return reply.code(400).send({ error: 'invalid event' });
+    // An anonymous account merged into another on sign-in keeps receiving events under its old id.
+    const app_user_id = await store.resolveAccountId(body.data.event.app_user_id);
     let result: string = 'ignored';
     if (ACTIVE_EVENTS.has(type) && expiration_at_ms) {
       result = await store.applyEntitlement(app_user_id, new Date(expiration_at_ms), eventAt);

@@ -26,9 +26,12 @@ export interface Store {
   deleteAccount(accountId: string): Promise<void>;
   /**
    * Folds account `fromId` into `intoId` and deletes `fromId`: progress is combined with `merge(from, into)`,
-   * the later subscription end of the two is kept.
+   * the later subscription end of the two is kept. `fromId` stays an alias of `intoId`
+   * (store events can keep arriving for the old id).
    */
   mergeAccounts(fromId: string, intoId: string, merge: (from: Progress, into: Progress | undefined) => Progress): Promise<void>;
+  /** The account an id now stands for: itself, or the account it was merged into. */
+  resolveAccountId(id: string): Promise<string>;
   /** Notes that the account was used (at most one write a day per account). */
   touchAccount(accountId: string, now: Date): Promise<void>;
   /** Deletes accounts not used since `before`; returns how many. */
@@ -69,6 +72,7 @@ export class MemoryStore implements Store {
   private premium = new Map<string, { until: Date; eventAt: Date }>();
   private usage = new Map<string, number>();
   private lastSeen = new Map<string, Date>();
+  private aliases = new Map<string, string>(); // merged account id → surviving account id
 
   async createAccount(a: Account, tokenHash: string) {
     if (this.accounts.has(a.id)) throw new Error('account exists');
@@ -117,6 +121,7 @@ export class MemoryStore implements Store {
       this.codes.delete(a.email);
     }
     for (const [hash, owner] of this.tokens) if (owner === id) this.tokens.delete(hash);
+    for (const [old, owner] of this.aliases) if (owner === id) this.aliases.delete(old);
     this.accounts.delete(id);
     this.progress.delete(id);
     this.premium.delete(id);
@@ -130,7 +135,12 @@ export class MemoryStore implements Store {
     const a = this.premium.get(fromId);
     const b = this.premium.get(intoId);
     if (a && (!b || a.until > b.until)) this.premium.set(intoId, a);
+    for (const [old, owner] of this.aliases) if (owner === fromId) this.aliases.set(old, intoId);
     await this.deleteAccount(fromId);
+    this.aliases.set(fromId, intoId);
+  }
+  async resolveAccountId(id: string) {
+    return this.aliases.get(id) ?? id;
   }
   async saveLoginCode(email: string, codeHash: string, expiresAt: Date) {
     this.codes.set(email, { codeHash, expiresAt, attempts: 0 });

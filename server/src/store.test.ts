@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 
-import { completeLesson, emptyProgress, mergeProgress } from '@linguasea/core';
+import { completeLesson, emptyProgress, mergeProgress, type Progress } from '@linguasea/core';
 
 import { migrate, PgStore } from './pg-store';
 import { MemoryStore, type Store } from './store';
@@ -148,6 +148,22 @@ for (const [name, make] of stores) {
       await store.mergeAccounts('acc-3', 'acc-2', () => assert.fail('nothing to merge'));
       assert.deepEqual(await store.getPremiumUntil('acc-2'), later(30 * 86_400_000));
       assert.equal(await store.accountByTokenHash('hash-3'), undefined);
+    });
+
+    test('a merged account id resolves to the account it went into, also after a second merge', async () => {
+      const store = await withAccount();
+      await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString() }, 'hash-2');
+      await store.createAccount({ id: 'acc-3', createdAt: NOW.toISOString() }, 'hash-3');
+      const merge = (from: Progress, into: Progress | undefined) => mergeProgress(from, into ?? emptyProgress());
+      assert.equal(await store.resolveAccountId('acc-1'), 'acc-1');
+      await store.mergeAccounts('acc-1', 'acc-2', merge);
+      assert.equal(await store.resolveAccountId('acc-1'), 'acc-2');
+      await store.mergeAccounts('acc-2', 'acc-3', merge);
+      assert.equal(await store.resolveAccountId('acc-1'), 'acc-3');
+      assert.equal(await store.resolveAccountId('acc-2'), 'acc-3');
+      await store.deleteAccount('acc-3');
+      assert.equal(await store.resolveAccountId('acc-1'), 'acc-1', 'deleting the account removes its aliases');
+      assert.equal(await store.resolveAccountId('acc-2'), 'acc-2');
     });
   });
 }

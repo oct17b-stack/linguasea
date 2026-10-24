@@ -35,6 +35,13 @@ begin
   end if;
 end $$;
 
+-- Anonymous accounts merged into another on sign-in: store events for the old id go to the survivor.
+create table if not exists account_aliases (
+  old_id      text primary key,
+  account_id  text not null references accounts(id) on delete cascade
+);
+create index if not exists account_aliases_account_id on account_aliases (account_id);
+
 -- Pending email sign-in codes (one per email; a new request replaces the old code).
 create table if not exists login_codes (
   email       text primary key,

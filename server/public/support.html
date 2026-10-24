@@ -49,6 +49,7 @@
         <nav class="topic-nav" aria-label="หัวข้อในหน้านี้">
           <ul>
             <li><a href="#contact"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-mail"/></svg>ติดต่อเรา</a></li>
+            <li><a href="#account"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-repeat"/></svg>เข้าสู่ระบบด้วยอีเมล</a></li>
             <li><a href="#restore"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-restore"/></svg>กู้คืนการซื้อ</a></li>
             <li><a href="#cancel"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-cancel"/></svg>ยกเลิกการสมัครสมาชิก</a></li>
             <li><a href="#delete"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-trash"/></svg>ลบข้อมูลของคุณ</a></li>
@@ -70,14 +71,31 @@
           <li>เวอร์ชันของแอป ดูได้ที่ด้านล่างสุดของหน้า <span class="ui">ตั้งค่า</span> ในแอป</li>
           <li>ภาษาที่กำลังเรียน และบทที่เจอปัญหา</li>
           <li>เล่าสั้น&nbsp;ๆ ว่าเกิดอะไรขึ้น พร้อมภาพหน้าจอถ้ามี</li>
-          <li>ถ้าเป็นเรื่องการชำระเงิน ให้แนบหมายเลขคำสั่งซื้อ (Order ID) จากใบเสร็จของ Apple หรือ Google</li>
+          <li>ถ้าเป็นเรื่องการชำระเงิน ให้แนบหมายเลขคำสั่งซื้อ (Order ID) จากใบเสร็จของ Apple หรือ Google ถ้าสมัครบนเว็บ ให้บอกอีเมลที่ใช้เข้าสู่ระบบ</li>
         </ul>
         <p class="note">เราจะไม่ขอรหัสผ่านหรือข้อมูลบัตรของคุณ อย่าส่งข้อมูลเหล่านี้มาทางอีเมล</p>
       </section>
 
+      <section class="support-section" id="account" aria-labelledby="account-title">
+        <h2 id="account-title"><span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-repeat"/></svg></span>เข้าสู่ระบบด้วยอีเมล</h2>
+        <p>ไม่เข้าสู่ระบบก็เรียนได้ แต่ถ้าเข้าสู่ระบบด้วยอีเมล ความคืบหน้าและการสมัครสมาชิกจะอยู่กับบัญชีของคุณ ใช้ร่วมกันได้ทุกเครื่องที่เข้าสู่ระบบด้วยอีเมลเดียวกัน รวมถึง<a href="/app/">บนเว็บ</a> และไม่หายแม้เปลี่ยนเครื่องหรือล้างข้อมูลเบราว์เซอร์ ถ้าจะสมัครสมาชิกบนเว็บ ต้องเข้าสู่ระบบก่อน</p>
+        <ol class="steps-list">
+          <li>เปิดแอปหรือเวอร์ชันเว็บ แล้วแตะไอคอน <span class="ui">ตั้งค่า</span> (รูปเฟือง) ที่มุมขวาบนของหน้าหลัก</li>
+          <li>ในหัวข้อ <span class="ui">บัญชี</span> กรอกอีเมล แล้วแตะ <span class="ui">ส่งรหัสเข้าสู่ระบบ</span></li>
+          <li>เปิดอีเมล กรอกรหัส 6&nbsp;หลักที่ได้รับภายใน 10&nbsp;นาที แล้วแตะ <span class="ui">ยืนยัน</span></li>
+        </ol>
+        <h3>ควรรู้</h3>
+        <ul>
+          <li>ไม่มีรหัสผ่าน ทุกครั้งที่เข้าสู่ระบบบนเครื่องใหม่ เราจะส่งรหัสใหม่ไปที่อีเมล ถ้าไม่เห็นอีเมล ลองดูในโฟลเดอร์จดหมายขยะ หรือแตะ <span class="ui">ส่งรหัสใหม่</span></li>
+          <li>ถ้าเครื่องนั้นเรียนไว้ก่อนเข้าสู่ระบบ ความคืบหน้าจะถูกรวมเข้ากับบัญชีของคุณ ไม่หาย</li>
+          <li>แตะ <span class="ui">ออกจากระบบ</span> ได้ในหัวข้อ <span class="ui">บัญชี</span> เครื่องอื่นที่เข้าสู่ระบบไว้ยังใช้ต่อได้ตามปกติ</li>
+        </ul>
+      </section>
+
       <section class="support-section" id="restore" aria-labelledby="restore-title">
         <h2 id="restore-title"><span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-restore"/></svg></span>กู้คืนการซื้อ</h2>
-        <p>สมัคร Premium ไว้แล้ว แต่แอปยังไม่ปลดล็อก เช่น หลังเปลี่ยนเครื่อง หรือหลังลบแล้วติดตั้งแอปใหม่ ให้ทำตามนี้</p>
+        <p>สมัคร Premium ไว้แล้ว แต่แอปยังไม่ปลดล็อก เช่น หลังเปลี่ยนเครื่อง หรือหลังลบแล้วติดตั้งแอปใหม่</p>
+        <p>ถ้าสมัครบนเว็บ หรือเคยเข้าสู่ระบบด้วยอีเมลไว้ ไม่ต้องกู้คืน แค่<a href="#account">เข้าสู่ระบบด้วยอีเมลเดิม</a> Premium จะกลับมาเอง ถ้าสมัครผ่าน App Store หรือ Google Play ให้ทำตามนี้</p>
         <ol class="steps-list">
           <li>ตรวจว่าเครื่องลงชื่อเข้าใช้บัญชี Apple หรือบัญชี Google เดียวกับที่ใช้สมัคร</li>
           <li>เปิดแอป แล้วแตะไอคอน <span class="ui">ตั้งค่า</span> (รูปเฟือง) ที่มุมขวาบนของหน้าหลัก</li>
@@ -85,12 +103,12 @@
           <li>รอสักครู่ ถ้าการสมัครยังไม่หมดอายุ Premium จะกลับมาใช้ได้ทันที</li>
         </ol>
         <p>การสมัครผ่าน App Store กู้คืนได้บน iPhone และ iPad ที่ใช้บัญชี Apple เดียวกัน ส่วนการสมัครผ่าน Google Play กู้คืนได้บนเครื่อง Android ที่ใช้บัญชี Google เดียวกัน</p>
-        <p class="note">ยังไม่ได้? ตรวจว่าการสมัครยังไม่หมดอายุ (ดูได้ในหน้าการสมัครของสโตร์ ตามขั้นตอนในหัวข้อ<a href="#cancel">ยกเลิกการสมัครสมาชิก</a>) ต่ออินเทอร์เน็ต <span class="nw">อัปเดต</span>แอปเป็นเวอร์ชันล่าสุด แล้วลองอีกครั้ง ถ้ายังไม่ได้ <a href="#contact">ติดต่อเรา</a>พร้อมหมายเลขคำสั่งซื้อ</p>
+        <p class="note">ยังไม่ได้? ตรวจว่าการสมัครยังไม่หมดอายุ (ดูได้ในหน้าการสมัครของสโตร์ ตามขั้นตอนในหัวข้อ<a href="#cancel">ยกเลิกการสมัครสมาชิก</a>) ต่ออินเทอร์เน็ต <span class="nw">อัปเดต</span>แอปเป็นเวอร์ชันล่าสุด แล้วลองอีกครั้ง ถ้ายังไม่ได้ <a href="#contact">ติดต่อเรา</a>พร้อมหมายเลขคำสั่งซื้อ หรืออีเมลที่ใช้เข้าสู่ระบบ</p>
       </section>
 
       <section class="support-section" id="cancel" aria-labelledby="cancel-title">
         <h2 id="cancel-title"><span class="icon-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-cancel"/></svg></span>ยกเลิกการสมัครสมาชิก</h2>
-        <p>การชำระเงินทั้งหมดทำผ่าน App Store หรือ Google Play จึงต้องยกเลิกในบัญชีสโตร์ที่ใช้สมัคร <strong>การลบแอปไม่ได้เป็นการยกเลิกการสมัคร</strong></p>
+        <p>ยกเลิกได้ในช่องทางเดียวกับที่สมัคร ถ้าสมัครในแอป ให้ยกเลิกในบัญชี App Store หรือ Google Play ที่ใช้สมัคร ถ้าสมัครบนเว็บ ให้ยกเลิกผ่านลิงก์ในอีเมลใบเสร็จ <strong>การลบแอปไม่ได้เป็นการยกเลิกการสมัคร</strong></p>
         <div class="platforms">
           <div class="platform">
             <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-phone"/></svg>iPhone และ iPad</h3>
@@ -115,12 +133,22 @@
             </ol>
             <p class="small">หรือเปิด <a class="break" href="https://play.google.com/store/account/subscriptions">play.google.com/store/account/subscriptions</a> ใน<span class="nw">เบราว์เซอร์</span> แล้วลงชื่อเข้าใช้บัญชี Google ที่ใช้สมัคร · <a href="https://support.google.com/googleplay/answer/7018481?hl=th">วิธีจาก Google</a></p>
           </div>
+          <div class="platform">
+            <h3><svg class="icon" aria-hidden="true" focusable="false"><use href="/assets/icons.svg#i-globe"/></svg>สมัครบนเว็บ</h3>
+            <ol class="steps-list">
+              <li>เปิดอีเมลใบเสร็จที่ได้รับตอนสมัคร (ส่งผ่านผู้ให้บริการชำระเงินของเรา คือ RevenueCat และ Stripe)</li>
+              <li>แตะลิงก์จัดการการสมัครสมาชิก</li>
+              <li>ยกเลิกการสมัครในหน้าที่เปิดขึ้น</li>
+            </ol>
+            <p class="small">การสมัครบนเว็บยกเลิกใน App Store หรือ Google Play ไม่ได้ หาอีเมลใบเสร็จไม่เจอ? <a href="#contact">ติดต่อเรา</a>จากอีเมลที่ใช้เข้าสู่ระบบ แล้วเราจะช่วยยกเลิกให้</p>
+          </div>
         </div>
         <h3>ควรรู้</h3>
         <ul>
           <li>หลังยกเลิก ยังใช้ Premium ได้จนจบรอบที่ชำระเงินไว้แล้ว</li>
-          <li>ถ้าอยู่ในช่วงทดลองใช้ฟรีและไม่อยากใช้ต่อ ให้ยกเลิกก่อนหมดช่วงทดลองอย่างน้อย 24&nbsp;ชั่วโมง จะได้ไม่ถูกเรียกเก็บเงิน</li>
-          <li>การคืนเงินเป็นไปตามนโยบายของสโตร์ บน iPhone ขอคืนเงินได้ที่ <a class="break" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> (<a href="https://support.apple.com/th-th/118223">วิธีจาก Apple</a>) ส่วนบน Android ดู<a href="https://support.google.com/googleplay/answer/15574897?hl=th">วิธีขอคืนเงินใน Google Play</a> หรือติดต่อเรา</li>
+          <li>ถ้าอยู่ในช่วงทดลองใช้ฟรีและไม่อยากใช้ต่อ ให้ยกเลิกก่อนหมดช่วงทดลองอย่างน้อย 24&nbsp;ชั่วโมง จะได้ไม่ถูกเรียกเก็บเงิน (ถ้าสมัครบนเว็บ ยกเลิกก่อนหมดช่วงทดลองก็พอ)</li>
+          <li>การสมัครผ่านสโตร์ การคืนเงินเป็นไปตามนโยบายของสโตร์ บน iPhone ขอคืนเงินได้ที่ <a class="break" href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> (<a href="https://support.apple.com/th-th/118223">วิธีจาก Apple</a>) ส่วนบน Android ดู<a href="https://support.google.com/googleplay/answer/15574897?hl=th">วิธีขอคืนเงินใน Google Play</a> หรือติดต่อเรา</li>
+          <li>การสมัครบนเว็บ เราดูแลเรื่องคืนเงินเอง <a href="#contact">ติดต่อเรา</a>จากอีเมลที่ใช้เข้าสู่ระบบ (ดูข้อ 4.5 ใน<a href="/legal/terms-th.html">ข้อกำหนดการใช้งาน</a>)</li>
         </ul>
       </section>
 
@@ -129,17 +157,17 @@
         <p>คุณลบบัญชีและข้อมูลการเรียนที่เก็บไว้กับเราได้เองทุกเมื่อ</p>
         <h3>ลบในแอป</h3>
         <ol class="steps-list">
-          <li>เปิดแอป แล้วแตะไอคอน <span class="ui">ตั้งค่า</span> (รูปเฟือง) ที่มุมขวาบนของหน้าหลัก</li>
+          <li>เปิดแอปหรือเวอร์ชันเว็บ แล้วแตะไอคอน <span class="ui">ตั้งค่า</span> (รูปเฟือง) ที่มุมขวาบนของหน้าหลัก</li>
           <li>ในหัวข้อ <span class="ui">ข้อมูลของฉัน</span> แตะ <span class="ui">ลบข้อมูลของฉัน</span></li>
           <li>แตะ <span class="ui">ลบ</span> เพื่อยืนยัน</li>
         </ol>
-        <p>แอปจะลบความคืบหน้า XP และสถิติการเรียนทั้งหมดของคุณ รวมถึงข้อมูลที่เก็บไว้บนเซิร์ฟเวอร์ของเรา</p>
+        <p>แอปจะลบความคืบหน้า XP และสถิติการเรียนทั้งหมดของคุณ รวมถึงข้อมูลที่เก็บไว้บนเซิร์ฟเวอร์ของเรา ถ้าเข้าสู่ระบบด้วยอีเมลไว้ จะลบทั้งบัญชีรวมถึงอีเมล และทุกเครื่องที่เข้าสู่ระบบไว้จะออกจากระบบ</p>
         <h3>ลบแอปไปแล้ว หรือเปิดแอปไม่ได้</h3>
         <p>ส่งคำขอได้ที่หน้า<a href="/legal/delete-account-th.html">คำขอลบบัญชีและข้อมูล</a></p>
         <div class="note note-warn">
           <ul>
             <li>ข้อมูลที่ลบแล้ว รวมถึงความคืบหน้าการเรียน จะกู้คืนไม่ได้</li>
-            <li>การลบข้อมูลไม่ได้ยกเลิกการสมัคร Premium ถ้ายังอยากใช้ต่อ แตะ <span class="ui">กู้คืนการซื้อ</span> หลังลบ ถ้าไม่อยากให้ต่ออายุ ให้<a href="#cancel">ยกเลิกในสโตร์</a>ด้วย</li>
+            <li>การลบข้อมูลไม่ได้ยกเลิกการสมัคร Premium ถ้าไม่อยากให้ต่ออายุ ให้<a href="#cancel">ยกเลิกการสมัคร</a>ด้วย ถ้าสมัครผ่านสโตร์และยังอยากใช้ต่อ แตะ <span class="ui">กู้คืนการซื้อ</span> หลังลบ ส่วนการสมัครบนเว็บผูกกับบัญชีที่ถูกลบ ถ้ายังอยากใช้ Premium ต่อ โปรด<a href="#contact">ติดต่อเรา</a></li>
           </ul>
         </div>
         <p>ดูว่าเราเก็บข้อมูลอะไรบ้างและเก็บไว้นานแค่ไหนได้ใน<a href="/legal/privacy-th.html">นโยบายความเป็นส่วนตัว</a></p>
