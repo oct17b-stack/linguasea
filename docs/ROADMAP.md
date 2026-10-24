@@ -23,7 +23,7 @@
 | 2 | 域名、客服邮箱 | 用户 | 开发替换 `support@example.com` 和法律页的 `[TBD]` / `[รอกรอก]` |
 | 3 | Apple Developer、Google Play 开发者账号 | 用户 | 审核要几天到几周，最早办 |
 | 4 | **请母语老师终审四门课** | 用户找人，开发配合 | 开发运行 `npm run review:sheet` 给表格；老师意见回来后开发改内容（content/_review/README.md）。最耗时，最早开始 |
-| 5 | Azure 语音密钥（先用免费层 F0 测试） | 用户 | 开发按阶段跑 `npm run audio -- --stage A --stage B`，测试通过再付费跑完（全部约 US$35），决定 mp3 放 git 还是对象存储（docs/AUDIO.md） |
+| 5 | Azure 语音密钥（先用免费层 F0 测试） | 用户 | 开发按阶段跑 `npm run audio -- --stage A --stage B`，测试通过再付费跑完（全部约 US$35）；mp3 先提交进 git（docs/AUDIO.md） |
 | 5b | Resend（发登录验证码邮件，免费额度够起步）、Stripe 账号（网页收款，在 RevenueCat 里连上） | 用户 | LAUNCH.md 第 7.3、13.1 步；没配时网页版能学、不能买，正式环境不能邮箱登录 |
 | 6 | Anthropic API key | 用户 | AI 口语老师；设每月花费上限 |
 | 7 | 数据库和服务器（新加坡） | 用户开账号，开发部署 | PostgreSQL + Docker（LAUNCH.md 第 7 步） |
