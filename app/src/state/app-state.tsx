@@ -91,6 +91,17 @@ type AppState = {
   setReminder: (reminder: Reminder) => Promise<'ok' | 'denied'>;
   /** Re-reads the server's subscription state (after a restore). */
   refreshPremium: () => void;
+  /** The email this install is signed in with; null when it uses an anonymous account (or none yet). */
+  signedInEmail: string | null;
+  /** Email sign-in, step 1: the server emails a 6-digit code. */
+  requestSignInCode: (email: string) => Promise<api.SignInStart>;
+  /**
+   * Email sign-in, step 2: on success this install uses the email's account from now on, its progress
+   * is synced (the server merged this install's progress into it) and the subscription re-read.
+   */
+  verifySignInCode: (email: string, code: string) => Promise<api.SignInVerify>;
+  /** Back to an anonymous account; the progress on this device stays. */
+  signOut: () => Promise<void>;
   /** __DEV__ only: Premium without a purchase. */
   unlockForTesting: () => void;
   /**
@@ -144,6 +155,7 @@ const Context = createContext<AppState | null>(null);
 export function AppStateProvider({ children }: { children: ReactNode }) {
   const [saved, setSaved] = useState<Saved>(() => fresh());
   const [ready, setReady] = useState(false);
+  const [signedInEmail, setSignedInEmail] = useState<string | null>(null);
   /** Latest committed state, for syncs that run outside a render. */
   const latest = useRef(saved);
   const sync = useRef({
@@ -234,7 +246,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   );
 
   const refreshPremium = useCallback(() => {
-    api
+    return api
       .fetchEntitlements()
       .then((e) => {
         if (!e) return;
@@ -249,11 +261,13 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     let stopPurchases = () => {};
     let closed = false;
     const offAccount = api.onAccountChange((account) => {
+      setSignedInEmail(account?.email ?? null);
       if (account) void identify(account.id);
       else void forgetPurchaser();
     });
     void api.currentAccount().then(async (account) => {
       if (closed) return;
+      setSignedInEmail(account?.email ?? null);
       stopPurchases = startPurchases(account?.id, (store) =>
         setSaved((cur) => (cur.entitlements.store === store ? cur : { ...cur, entitlements: { ...cur.entitlements, store } })),
       );
@@ -327,6 +341,37 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       .catch(() => {});
   }, [ready, on, hour, minute, l1, target]);
 
+  /** Holds syncs back while the account changes, so none goes out with the old token meanwhile. */
+  const withSyncPaused = useCallback(async <T,>(fn: () => Promise<T>): Promise<T> => {
+    const s = sync.current;
+    s.paused = true;
+    clearTimeout(s.timer);
+    await s.running;
+    try {
+      return await fn();
+    } finally {
+      s.paused = false;
+    }
+  }, []);
+
+  const verifySignInCode = useCallback(
+    async (email: string, code: string) => {
+      const result = await withSyncPaused(() => api.verifyEmailCode(email, code));
+      if (result.kind === 'ok') {
+        await runSync();
+        await refreshPremium();
+      }
+      return result;
+    },
+    [withSyncPaused, runSync, refreshPremium],
+  );
+
+  const signOut = useCallback(async () => {
+    await withSyncPaused(() => api.signOut());
+    // The subscription stays with the email account; this device has none until signed in again.
+    setSaved((cur) => ({ ...cur, entitlements: { ...cur.entitlements, server: false, serverUntil: null } }));
+  }, [withSyncPaused]);
+
   const deleteMyData = useCallback(async () => {
     const s = sync.current;
     s.paused = true;
@@ -392,7 +437,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       setSaved((cur) => ({ ...cur, reminder: next }));
       return 'ok';
     },
-    refreshPremium,
+    refreshPremium: () => void refreshPremium(),
+    signedInEmail,
+    requestSignInCode: (email) => api.startEmailSignIn(email, saved.l1),
+    verifySignInCode,
+    signOut,
     unlockForTesting: () => setSaved((cur) => ({ ...cur, entitlements: { ...cur.entitlements, dev: true } })),
     deleteMyData,
   };

@@ -2,6 +2,7 @@ import { buildBundle, loadContent, validate } from '@linguasea/contract/node';
 
 import { buildServer, INACTIVE_ACCOUNT_DAYS } from './app';
 import { readConfig } from './config';
+import { createMailer } from './mail';
 import { pgDb } from './pg';
 import { migrate, PgStore } from './pg-store';
 import { AzureAssessor } from './pronunciation';
@@ -29,6 +30,14 @@ if (!config.tutor) console.warn('ANTHROPIC_API_KEY not set: the AI tutor is off.
 if (!config.azureSpeech) console.warn('AZURE_SPEECH_KEY/AZURE_SPEECH_REGION not set: pronunciation scoring is off.');
 if (!config.revenueCatAuth) console.warn('REVENUECAT_WEBHOOK_AUTH not set: subscription webhooks are refused.');
 
+if (!config.resend) {
+  console.warn(
+    config.production
+      ? 'RESEND_API_KEY/MAIL_FROM not set: email sign-in is off.'
+      : 'RESEND_API_KEY/MAIL_FROM not set: email sign-in codes are printed here as "[mail] login code for …".',
+  );
+}
+
 const speech = config.azureSpeech ? new AzureAssessor(config.azureSpeech) : undefined;
 
 const app = buildServer({
@@ -41,14 +50,17 @@ const app = buildServer({
   quotas: config.quotas,
   audioDir: config.audioDir,
   publicDir: config.publicDir,
+  webDir: config.webDir,
+  mailer: createMailer({ resend: config.resend, production: config.production }),
   logger: true,
 });
 
-// Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS.
+// Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS, and of expired sign-in codes.
 async function purgeInactive() {
   try {
     const removed = await store.deleteInactive(new Date(Date.now() - INACTIVE_ACCOUNT_DAYS * 86_400_000));
     if (removed) app.log.info({ removed }, 'deleted inactive accounts');
+    await store.purgeLoginCodes(new Date());
   } catch (e) {
     app.log.error(e, 'inactive account clean-up failed');
   }

@@ -12,9 +12,15 @@ export type Config = {
   revenueCatAuth?: string;
   /** The AI tutor runs when an Anthropic API key is present (the SDK reads ANTHROPIC_API_KEY itself). */
   tutor?: { model: string };
+  /** Email sign-in codes are sent through Resend when both are set. */
+  resend?: { apiKey: string; from: string };
+  /** NODE_ENV=production: without mail settings email sign-in is off instead of printing codes. */
+  production: boolean;
   contentDir: string;
   audioDir: string;
   publicDir: string;
+  /** Web build of the app, served at /app/ when the folder exists. */
+  webDir: string;
   quotas: Quotas;
 };
 
@@ -28,15 +34,20 @@ function positiveInt(value: string | undefined, fallback: number): number {
 export function readConfig(env: NodeJS.ProcessEnv = process.env): Config {
   const key = env.AZURE_SPEECH_KEY?.trim();
   const region = env.AZURE_SPEECH_REGION?.trim();
+  const resendKey = env.RESEND_API_KEY?.trim();
+  const mailFrom = env.MAIL_FROM?.trim();
   return {
     port: positiveInt(env.PORT, 8080),
     databaseUrl: env.DATABASE_URL?.trim() || undefined,
     azureSpeech: key && region ? { key, region } : undefined,
     revenueCatAuth: env.REVENUECAT_WEBHOOK_AUTH?.trim() || undefined,
     tutor: env.ANTHROPIC_API_KEY?.trim() ? { model: env.TUTOR_MODEL?.trim() || DEFAULT_TUTOR_MODEL } : undefined,
+    resend: resendKey && mailFrom ? { apiKey: resendKey, from: mailFrom } : undefined,
+    production: env.NODE_ENV === 'production',
     contentDir: env.CONTENT_DIR?.trim() || repoPath('content'),
     audioDir: env.AUDIO_DIR?.trim() || repoPath('content/audio'),
     publicDir: env.PUBLIC_DIR?.trim() || repoPath('server/public'),
+    webDir: env.WEB_DIR?.trim() || repoPath('app/dist'),
     quotas: {
       pronunciationFree: positiveInt(env.PRONUNCIATION_FREE_PER_DAY, DEFAULT_QUOTAS.pronunciationFree),
       pronunciationPremium: positiveInt(env.PRONUNCIATION_PREMIUM_PER_DAY, DEFAULT_QUOTAS.pronunciationPremium),

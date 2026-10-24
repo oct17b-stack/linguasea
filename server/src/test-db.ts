@@ -3,13 +3,18 @@ import { PGlite } from '@electric-sql/pglite';
 
 import { migrate, type Db } from './pg-store';
 
-export async function testDb(): Promise<Db> {
+/** An empty database without the schema (for migration tests). */
+export function emptyTestDb(): Db {
   const pg = new PGlite();
-  const db: Db = {
+  return {
     query: (sql, params) => pg.query(sql, params) as never,
     transaction: (work) => pg.transaction((tx) => work({ query: (sql, params) => tx.query(sql, params) as never })),
     exec: (sql) => pg.exec(sql),
   };
+}
+
+export async function testDb(): Promise<Db> {
+  const db = emptyTestDb();
   await migrate(db);
   return db;
 }

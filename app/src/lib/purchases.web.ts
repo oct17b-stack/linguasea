@@ -31,8 +31,16 @@ let rc: Purchases | undefined;
 let report: ((premium: boolean) => void) | undefined;
 const packages: Partial<Record<Plan['id'], Package>> = {};
 
-/** The RevenueCat client, switched to the signed-in account (or an anonymous id before sign-in). */
-async function client(): Promise<{ rc: Purchases; email: string | null } | undefined> {
+type Client = { rc: Purchases; email: string | null };
+let switching: Promise<Client | undefined> = Promise.resolve(undefined);
+
+/** The RevenueCat client, switched to the signed-in account (or an anonymous id before sign-in). One switch at a time. */
+function client(): Promise<Client | undefined> {
+  switching = switching.then(switchUser, switchUser);
+  return switching;
+}
+
+async function switchUser(): Promise<Client | undefined> {
   if (!apiKey) return undefined;
   const acc = await currentAccount();
   const email = acc?.email ? acc.email : null;
@@ -107,11 +115,11 @@ export const loadPlans: typeof Native.loadPlans = async () => {
       const plans: Plan[] = [];
       if (offering?.annual) {
         packages.yearly = offering.annual;
-        plans.push(planOf('yearly', offering.annual.webBillingProduct));
+        plans.push(planOf('yearly', offering.annual.product));
       }
       if (offering?.monthly) {
         packages.monthly = offering.monthly;
-        plans.push(planOf('monthly', offering.monthly.webBillingProduct));
+        plans.push(planOf('monthly', offering.monthly.product));
       }
       if (plans.length) return plans;
     }

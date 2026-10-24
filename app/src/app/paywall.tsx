@@ -1,8 +1,10 @@
 import { router } from 'expo-router';
 import { useEffect, useState } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/button';
+import { Card } from '@/components/card';
+import { EmailSignIn } from '@/components/email-sign-in';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { Spacing } from '@/constants/theme';
@@ -10,14 +12,24 @@ import { useTheme } from '@/hooks/use-theme';
 import { legalUrl } from '@/lib/api';
 import { notify } from '@/lib/dialog';
 import { openPage } from '@/lib/open-page';
-import { loadPlans, PLACEHOLDER_PLANS, purchase, purchasesReady, restore, type Plan } from '@/lib/purchases';
+import {
+  loadPlans,
+  PLACEHOLDER_PLANS,
+  purchase,
+  purchasesNeedSignIn,
+  purchasesReady,
+  restore,
+  type Plan,
+} from '@/lib/purchases';
 import { useApp } from '@/state/app-state';
 
 /** What Premium really includes (keep in step with the store listing). */
 const FEATURES = ['allLevels', 'readers', 'practice', 'speaking'];
 
 export default function Paywall() {
-  const { l1, premium, refreshPremium, unlockForTesting, t } = useApp();
+  const { l1, premium, refreshPremium, unlockForTesting, signedInEmail, t } = useApp();
+  // The web ties a subscription to an email account (browser storage can be cleared), so sign-in comes first.
+  const needsSignIn = purchasesNeedSignIn && !signedInEmail && !premium;
   const c = useTheme();
   // Store prices replace the placeholders once the offering has loaded.
   const [plans, setPlans] = useState<Plan[]>(() => (purchasesReady ? PLACEHOLDER_PLANS.map(({ id }) => ({ id })) : PLACEHOLDER_PLANS));
@@ -40,14 +52,16 @@ export default function Paywall() {
 
   const buy = async () => {
     setBusy('buy');
-    const result = await purchase(plan);
+    const result = await purchase(plan, l1);
     setBusy(undefined);
+    refreshPremium();
     if (result === 'purchased') {
       notify(t('paywall.success'));
       router.back();
     } else if (result === 'pending') notify(t('paywall.pending'));
     else if (result === 'unavailable') notify(t(purchasesReady ? 'paywall.storeUnavailable' : 'paywall.notReady'));
     else if (result === 'failed') notify(t('paywall.failed'));
+    else if (result === 'needs-sign-in') notify(t('paywall.signInFirst'));
   };
 
   const restorePurchases = async () => {
@@ -60,6 +74,7 @@ export default function Paywall() {
       router.back();
     } else if (result === 'nothing') notify(t('paywall.nothingToRestore'));
     else if (result === 'unavailable') notify(t(purchasesReady ? 'paywall.storeUnavailable' : 'paywall.notReady'));
+    else if (result === 'needs-sign-in') notify(t('paywall.signInFirst'));
     else notify(t('paywall.failed'));
   };
 
@@ -73,7 +88,7 @@ export default function Paywall() {
         <View style={styles.gap}>
           {premium ? (
             <Button label={t('common.close')} onPress={() => router.back()} />
-          ) : (
+          ) : needsSignIn ? null : (
             <Button label={t('paywall.subscribe')} busy={busy === 'buy'} disabled={!!busy} onPress={() => void buy()} />
           )}
           <Button
@@ -130,8 +145,14 @@ export default function Paywall() {
           ) : null}
         </Pressable>
       ))}
+      {needsSignIn ? (
+        <Card>
+          <ThemedText type="smallBold">{t('paywall.signInFirst')}</ThemedText>
+          <EmailSignIn />
+        </Card>
+      ) : null}
       <ThemedText type="small" style={{ color: c.textSecondary }}>
-        {t('paywall.terms')}
+        {t(Platform.OS === 'web' ? 'paywall.termsWeb' : 'paywall.terms')}
       </ThemedText>
       {privacy && terms ? (
         <View style={styles.links}>

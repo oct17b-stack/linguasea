@@ -12,12 +12,15 @@ export class MailError extends Error {}
 /** Minutes a code stays valid (the message tells the learner). */
 export const LOGIN_CODE_MINUTES = 10;
 
-const MESSAGES: Record<L1, (code: string) => { subject: string; text: string }> = {
-  th: (code) => ({
-    subject: `รหัสเข้าสู่ระบบ LinguaSEA: ${code}`,
-    text: `รหัสเข้าสู่ระบบของคุณคือ ${code}\nรหัสนี้ใช้ได้ ${LOGIN_CODE_MINUTES} นาที`,
-  }),
-};
+type Message = (code: string) => { subject: string; text: string };
+
+const th: Message = (code) => ({
+  subject: `รหัสเข้าสู่ระบบ LinguaSEA: ${code}`,
+  text: `รหัสเข้าสู่ระบบของคุณคือ ${code}\nรหัสนี้ใช้ได้ ${LOGIN_CODE_MINUTES} นาที`,
+});
+
+/** Per learner language; others fall back to Thai until their text is written. */
+const MESSAGES: Partial<Record<L1, Message>> = { th };
 
 const escapeHtml = (s: string) => s.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
 
@@ -29,7 +32,7 @@ export class ResendMailer implements Mailer {
   ) {}
 
   async sendLoginCode({ to, code, l1 }: LoginCodeMail) {
-    const { subject, text } = (MESSAGES[l1] ?? MESSAGES.th)(code);
+    const { subject, text } = (MESSAGES[l1] ?? th)(code);
     const html = text
       .split('\n')
       .map((line) => `<p>${escapeHtml(line).replace(code, `<strong style="font-size:24px;letter-spacing:4px">${code}</strong>`)}</p>`)

@@ -129,6 +129,24 @@
 - **费用**：约 5–25 美元/月起（估算）。
 - **交给开发者**：托管平台和数据库供应商的名称（要写进隐私政策）、API 网址 `https://api.<域名>`。
 
+### 7.3 网页版（`/app/`）和邮箱登录
+
+同一个 Docker 镜像里已经打包了网页版 App：部署后 `https://api.<域名>/app/` 就是网页版，和手机 App 用同一套账号、进度和订阅。用户在设置里用邮箱登录（收一封 6 位验证码邮件，10 分钟内有效），在 iPhone、安卓、网页上登录同一个邮箱，进度会合并、订阅通用。
+
+- **网页版的打包参数**：托管平台的 **Docker build arguments**（不是运行时的环境变量）里填：
+  - `EXPO_PUBLIC_API_URL` = `https://api.<域名>`（网页版调用的服务器，就是它自己所在的网址）
+  - `EXPO_PUBLIC_REVENUECAT_WEB_KEY` = 第 13.1 步的 Web Billing 公开 key（不填时网页版不能购买，其他功能正常）
+  - 改了这两个值要重新打包镜像才生效。
+- **发验证码邮件（Resend）**：
+  1. 在 resend.com 注册；**Domains** → 添加发信域名（建议用子域名，例如 `mail.<域名>`），按提示把 DNS 记录（SPF、DKIM 等）加到域名服务商，等状态变成 Verified。
+  2. **API Keys** → 新建，权限选 Sending access，只填到托管平台的 `RESEND_API_KEY`。
+  3. 托管平台填 `MAIL_FROM`，例如 `LinguaSEA <login@mail.<域名>>`（域名必须是第 1 步验证过的）。
+  4. 两个都没填时：正式环境（`NODE_ENV=production`，镜像默认如此）邮箱登录会关闭（返回 503）；开发环境把验证码打印在服务器日志里（`[mail] login code for …`）。
+  5. 部署后检查：打开 `https://api.<域名>/app/`，用自己的邮箱登录一次，确认能收到泰语验证码邮件（看一下垃圾邮件箱）。
+- **费用**：Resend 免费档每月几千封（估算，以官网为准），起步够用。
+- **隐私政策**：现在会收集邮箱，并通过 Resend 发邮件、网页版通过 Stripe 收款：上线前按 `docs/legal/README.md` 的"什么时候要更新"把这两家服务商和"邮箱"写进隐私政策。
+- **交给开发者**："Resend 已配好"和发信地址（不是机密）。
+
 ## 8. 法律文件：填占位符 + 律师审阅 ⏳
 
 - **做什么**：
@@ -210,6 +228,18 @@
 - 名字必须和 App 代码一致（`premium`、`default`、上面的商品 ID）。
 - **交给开发者**："RevenueCat 商品已配好"，开发者用沙盒测一遍购买。
 
+### 13.1 网页版收款：Stripe + RevenueCat Web Billing
+
+网页版的订阅也由 RevenueCat 管理（RevenueCat Web Billing，背后用 Stripe 收款），所以网页上买的会员在手机上同样有效，反过来也一样（前提是用户在两边登录同一个邮箱）。这些都要你本人做：
+
+1. **Stripe**（dashboard.stripe.com）：用第 1 步定下的个人或公司身份注册账号，国家选泰国；完成身份验证、填收款银行账户（⏳ 审核可能要几天）。
+2. **RevenueCat → Project → Apps → 新建 Web Billing（RevenueCat Billing）App**：按提示**连接 Stripe 账号**；填公司名、客服邮箱、默认币种 THB 等付款页信息。
+3. **Products**：在这个 Web Billing App 里新建两个订阅商品（月付、年付，泰铢定价，例如 `linguasea_premium_monthly_web`、`linguasea_premium_yearly_web`），挂到 Entitlement **`premium`**，再加到 Offering **`default`** 的 **Monthly** 和 **Annual** 两个 package 里（和第 13 步同一个 Offering）。
+4. **API keys**：复制 Web Billing App 的 **Public API key**（`rcb_` 开头，可以公开），填到第 7.3 步的 Docker build argument `EXPO_PUBLIC_REVENUECAT_WEB_KEY`（不需要加到 EAS）。
+5. 先用 RevenueCat / Stripe 的**沙盒（Sandbox / test mode）**在网页版买一次，确认手机 App 登录同一邮箱后也解锁；再切到正式。
+- **费用**：Stripe 按每笔交易收手续费（泰国卡约 3–4%，估算，以 Stripe 官网为准）；RevenueCat 对 Web Billing 的收费以官网为准。
+- **交给开发者**："Stripe 和 Web Billing 已配好"、两个 web 商品 ID。
+
 ## 14. 商店资料
 
 - 按 `docs/STORE-LISTING.md` 填：名称、副标题、描述、关键词、截图、分类、年龄分级、Apple App Privacy、Google Data safety、目标受众、广告声明、审核备注、隐私政策 / 支持 / 删除数据网址。
@@ -249,6 +279,9 @@
 | `PORT` | 一般不用填 | 很多平台会自动设置；默认 8080 | 否 |
 | `AUDIO_DIR` | 一般不用填 | 默认用镜像里的 `content/audio`；音频放在别处（例如挂载的磁盘）时才填路径 | 否 |
 | `PRONUNCIATION_FREE_PER_DAY`、`PRONUNCIATION_PREMIUM_PER_DAY` | 可选 | 每天的发音打分次数（默认 10 / 200） | 否 |
+| `RESEND_API_KEY` | 是（要邮箱登录） | 第 7.3 步 Resend 的 API key；不填则正式环境的邮箱登录关闭 | 是 |
+| `MAIL_FROM` | 是（要邮箱登录） | 发信地址，例如 `LinguaSEA <login@mail.<域名>>`，域名要在 Resend 验证过 | 否 |
+| `WEB_DIR` | 不用填 | 网页版文件夹；Docker 镜像里已设为 `/srv/web`，本地默认 `app/dist`（文件夹不存在就不提供网页版） | 否 |
 | `CONTENT_DIR`、`PUBLIC_DIR` | 不用填 | 用默认值 | 否 |
 | `ANTHROPIC_API_KEY` | 是 | 第 6.2 步的 API key（不填则 AI 老师关闭） | 是 |
 | `TUTOR_MODEL`、`TUTOR_FREE_PER_DAY`、`TUTOR_PREMIUM_PER_DAY` | 可选 | AI 老师的模型（默认 `claude-opus-5-5`）和每天的对话轮数（默认 6 / 30） | 否 |
@@ -260,6 +293,13 @@
 | `EXPO_PUBLIC_API_URL` | `https://api.<域名>` | 会编进 App，不是机密 |
 | `EXPO_PUBLIC_REVENUECAT_IOS_KEY` | RevenueCat 的 `appl_…` | 公开 key |
 | `EXPO_PUBLIC_REVENUECAT_ANDROID_KEY` | RevenueCat 的 `goog_…` | 公开 key |
+
+**网页版**（托管平台的 Docker build arguments，见第 7.3 步）
+
+| 变量 | 填什么 | 说明 |
+|---|---|---|
+| `EXPO_PUBLIC_API_URL` | `https://api.<域名>` | 网页版所在的服务器本身 |
+| `EXPO_PUBLIC_REVENUECAT_WEB_KEY` | RevenueCat Web Billing 的 `rcb_…` | 公开 key；不填则网页版不能购买 |
 
 ## 费用汇总（估算，付款前核实）
 
@@ -276,6 +316,8 @@
 | Azure 语音 | 发音打分约 1 美元/音频小时；配音一次性约 35 美元（四门课全部）；先设预算提醒 |
 | Anthropic（AI 老师） | 默认模型每轮约 0.01–0.03 美元；先设每月花费上限 |
 | RevenueCat | 月收入 2,500 美元以下免费，超过收 1% |
+| Resend（验证码邮件） | 免费档起步（估算） |
+| Stripe（网页版收款） | 每笔约 3–4%（估算） |
 | 商店佣金 | Apple 小企业计划 15%；Google 订阅 15% |
 | 泰语审校、泰国律师 | 按报价 |
 

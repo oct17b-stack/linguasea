@@ -31,36 +31,41 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <main>
 <div class="bar"><strong>LinguaSEA</strong><a hreflang="th" href="delete-account-th.html">อ่านฉบับภาษาไทย</a></div>
 <h1 id="delete-your-linguasea-data">Delete your LinguaSEA data</h1>
-<p>This page explains how to delete your data from <strong>LinguaSEA</strong>, the language-learning app by <mark class="tbd">[TBD: operator legal name]</mark> — in the app, or by email if you can't use the app.</p>
+<p>This page explains how to delete your data from <strong>LinguaSEA</strong>, the language-learning app by <mark class="tbd">[TBD: operator legal name]</mark> — in the app (on your phone or on the web), or by email if you can't use the app.</p>
 <blockquote>
-<p><strong>Before you delete:</strong> deleting your data does <strong>not</strong> cancel your subscription. If you subscribe, cancel first in your App Store or Google Play settings (see <a href="#cancel-your-subscription">Cancel your subscription</a>), or you will keep being charged.</p>
+<p><strong>Before you delete:</strong> deleting your data does <strong>not</strong> cancel your subscription. If you subscribe, cancel first in your App Store or Google Play settings or, for a subscription bought on the web, with the link in your receipt email (see <a href="#cancel-your-subscription">Cancel your subscription</a>), or you will keep being charged.</p>
 </blockquote>
 <h2 id="delete-in-the-app-fastest">Delete in the app (fastest)</h2>
 <ol type="1">
-<li>Open LinguaSEA.</li>
+<li>Open LinguaSEA (the app, or the web version in your browser).</li>
 <li>Go to <strong>Settings</strong>.</li>
 <li>Tap <strong>Delete my data</strong> and confirm.</li>
 </ol>
 <p>The app needs an internet connection for this. If it cannot reach our server, nothing is deleted and you can try again later. When it succeeds, the deletion happens immediately.</p>
+<p>If you signed in with your email address, this deletes your whole account, not just the data on the device you are using: your email address is removed, every device and browser where you were signed in is signed out, and the account can no longer be used anywhere. You can still sign in again later with the same email address, but you will start with a new, empty account.</p>
 <h2 id="ask-us-by-email">Ask us by email</h2>
 <p>If you can't use the app (for example, you have already deleted it), email <mark class="tbd">[TBD: contact email]</mark> with the subject "Delete my data".</p>
-<p>The app has no sign-in, so your data is linked only to a random account ID, not to your name, email address or phone number. To help us find it, tell us the order number on your Apple or Google receipt if you ever subscribed. If you deleted the app without deleting your data first and never subscribed, we may not be able to tell which data is yours; it stays linked only to that random ID until it is deleted automatically after 24 months without use (see below). We reply within 30 days and confirm when your data has been deleted, or tell you if we couldn't find any.</p>
+<p>If you signed in with your email address, send the request from that address (or tell us which address you used). We may ask you to confirm the request from that address before we delete anything.</p>
+<p>If you never signed in, your data is linked only to a random account ID, not to your name, email address or phone number. To help us find it, tell us the order number on your Apple or Google receipt if you ever subscribed. If you deleted the app without deleting your data first, never signed in and never subscribed, we may not be able to tell which data is yours; it stays linked only to that random ID until it is deleted automatically after 24 months without use (see below). We reply within 30 days and confirm when your data has been deleted, or tell you if we couldn't find any.</p>
 <h2 id="automatic-deletion-after-24-months">Automatic deletion after 24 months</h2>
-<p>If the app has not been used for 24 months, we delete your account and all its data on our server automatically. This does not cancel a subscription: cancel it in your store settings if you no longer want it, or use <strong>Restore purchases</strong> in the app when you come back.</p>
+<p>If the app has not been used for 24 months, we delete your account and all its data on our server automatically. This does not cancel a subscription: cancel it if you no longer want it (see below), or, when you come back, use <strong>Restore purchases</strong> in the app or sign in again with your email address.</p>
 <h2 id="what-is-deleted">What is deleted</h2>
 <p>From our server, immediately:</p>
 <ul>
-<li>your random account ID, the hash of your access token and the date the account was last used;</li>
+<li>your random account ID, the hashes of your access tokens (for every device where you were signed in) and the date the account was last used;</li>
+<li>your email address, if you signed in, and any sign-in code that has not been used yet;</li>
 <li>your learning progress (finished lessons, review schedule, XP and streak);</li>
-<li>your subscription status record (the end date we received from the store);</li>
+<li>your subscription status record (the end date we received from the store or the web checkout);</li>
 <li>your daily usage counts (pronunciation checks and AI tutor turns).</li>
 </ul>
-<p>On your device, the app erases your progress and your learning and reminder settings, cancels the daily reminder and removes its access token, then starts afresh.</p>
+<p>On your device (or in your browser, for the web version), the app erases your progress and your learning and reminder settings, cancels the daily reminder and removes its access token, then starts afresh.</p>
 <h2 id="what-is-kept-and-for-how-long">What is kept, and for how long</h2>
 <ul>
 <li><strong>Server logs</strong> (IP address, time and address of requests): up to 90 days, then deleted.</li>
 <li><strong>Backups:</strong> copies of deleted data disappear from our backups within 30 days.</li>
 <li><strong>Purchase records:</strong> Apple or Google keep your purchase and payment records under their own policies. RevenueCat, which manages subscriptions for us, keeps your purchase history (linked to a random ID, not to your name) so that purchases can be restored. To have it deleted too, email us with the order number from your receipt.</li>
+<li><strong>Web subscription and payment records:</strong> records of web purchases and payments in our RevenueCat and Stripe accounts (such as your email address, the plan, amounts, dates and limited payment details, never the full card number) are kept for as long as we need them to support your subscription and as long as tax, accounting and other laws require. Stripe also keeps payment data under its own policy.</li>
+<li><strong>Sign-in emails:</strong> Resend, which sends our sign-in codes, keeps a record of the emails it sent (including your email address) for a limited period under its terms, and then deletes it.</li>
 <li><strong>Emails you send us, including reports of AI tutor replies:</strong> up to 2 years after we have handled them.</li>
 <li><strong>Recordings:</strong> nothing to delete — pronunciation recordings and spoken answers are never stored.</li>
 <li><strong>AI tutor conversations:</strong> nothing to delete on our server — we never store them. Anthropic, which writes the tutor's replies, keeps the text it received only for a limited period under its terms, without your account ID, and then deletes it.</li>
@@ -69,6 +74,7 @@ footer{margin-top:40px;padding-top:12px;border-top:1px solid var(--line);font-si
 <ul>
 <li><strong>iPhone or iPad:</strong> open <strong>Settings</strong> → tap your name → <strong>Subscriptions</strong> → <strong>LinguaSEA</strong> → <strong>Cancel Subscription</strong>.</li>
 <li><strong>Android:</strong> open the <strong>Google Play Store</strong> app → tap your profile picture → <strong>Payments &amp; subscriptions</strong> → <strong>Subscriptions</strong> → <strong>LinguaSEA</strong> → <strong>Cancel subscription</strong>.</li>
+<li><strong>Web:</strong> open the link to manage your subscription in the receipt email you received when you subscribed, and cancel there. If you can't find the email, contact <mark class="tbd">[TBD: contact email]</mark> from the email address you signed in with and we will help.</li>
 </ul>
 <p>More about how we handle data: <a href="privacy-en.html">Privacy Policy</a> · <a href="terms-en.html">Terms of Service</a></p>
 <footer><a href="privacy-en.html">Privacy Policy</a> · <a href="terms-en.html">Terms of Service</a> · <span>Delete your data</span> · <a href="index.html">All documents</a></footer>

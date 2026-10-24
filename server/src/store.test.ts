@@ -3,9 +3,9 @@ import { describe, test } from 'node:test';
 
 import { completeLesson, emptyProgress, mergeProgress } from '@linguasea/core';
 
-import { PgStore } from './pg-store';
+import { migrate, PgStore } from './pg-store';
 import { MemoryStore, type Store } from './store';
-import { testDb } from './test-db';
+import { emptyTestDb, testDb } from './test-db';
 
 const NOW = new Date('2026-10-22T09:00:00Z');
 const later = (ms: number) => new Date(NOW.getTime() + ms);
@@ -20,7 +20,7 @@ for (const [name, make] of stores) {
   describe(name, () => {
     async function withAccount() {
       const store = await make();
-      await store.createAccount({ id: 'acc-1', tokenHash: 'hash-1', createdAt: NOW.toISOString() });
+      await store.createAccount({ id: 'acc-1', createdAt: NOW.toISOString() }, 'hash-1');
       return store;
     }
 
@@ -60,7 +60,7 @@ for (const [name, make] of stores) {
 
     test('deletes accounts that have not been used for a long time', async () => {
       const store = await withAccount();
-      await store.createAccount({ id: 'acc-2', tokenHash: 'hash-2', createdAt: NOW.toISOString() });
+      await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString() }, 'hash-2');
       await store.touchAccount('acc-2', later(400 * 86_400_000));
       assert.equal(await store.deleteInactive(later(365 * 86_400_000)), 1);
       assert.equal(await store.accountByTokenHash('hash-1'), undefined);
@@ -69,12 +69,100 @@ for (const [name, make] of stores) {
 
     test('deleting an account removes its data', async () => {
       const store = await withAccount();
+      await store.addToken('acc-1', 'hash-1b');
+      assert.equal(await store.setEmail('acc-1', 'nam@example.com'), true);
+      await store.saveLoginCode('nam@example.com', 'code', later(600_000));
       await store.updateProgress('acc-1', () => emptyProgress());
       await store.applyEntitlement('acc-1', later(1000), NOW);
       await store.deleteAccount('acc-1');
       assert.equal(await store.accountByTokenHash('hash-1'), undefined);
+      assert.equal(await store.accountByTokenHash('hash-1b'), undefined);
+      assert.equal(await store.accountByEmail('nam@example.com'), undefined);
+      assert.equal(await store.getLoginCode('nam@example.com'), undefined);
       assert.equal(await store.getProgress('acc-1'), undefined);
       assert.equal(await store.getPremiumUntil('acc-1'), undefined);
+      // The email is free again.
+      await store.createAccount({ id: 'acc-3', createdAt: NOW.toISOString(), email: 'nam@example.com' }, 'hash-3');
+      assert.equal((await store.accountByEmail('nam@example.com'))?.id, 'acc-3');
+    });
+
+    test('an account has a token per device; revoking one keeps the others', async () => {
+      const store = await withAccount();
+      await store.addToken('acc-1', 'hash-1b');
+      assert.equal((await store.accountByTokenHash('hash-1b'))?.id, 'acc-1');
+      await store.revokeToken('hash-1');
+      assert.equal(await store.accountByTokenHash('hash-1'), undefined);
+      assert.equal((await store.accountByTokenHash('hash-1b'))?.id, 'acc-1');
+    });
+
+    test('an email belongs to one account', async () => {
+      const store = await withAccount();
+      assert.equal((await store.accountByTokenHash('hash-1'))?.email, undefined);
+      assert.equal(await store.setEmail('acc-1', 'nam@example.com'), true);
+      assert.deepEqual(await store.accountByTokenHash('hash-1'), { id: 'acc-1', createdAt: NOW.toISOString(), email: 'nam@example.com' });
+      assert.equal((await store.accountByEmail('nam@example.com'))?.id, 'acc-1');
+      assert.equal(await store.setEmail('acc-1', 'other@example.com'), false, 'an account keeps its email');
+      await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString() }, 'hash-2');
+      assert.equal(await store.setEmail('acc-2', 'nam@example.com'), false, 'the email is taken');
+      await assert.rejects(store.createAccount({ id: 'acc-3', createdAt: NOW.toISOString(), email: 'nam@example.com' }, 'hash-3'));
+      assert.equal(await store.accountByEmail('nobody@example.com'), undefined);
+    });
+
+    test('login codes: replaced by a new one, counted wrong guesses, used once, purged when expired', async () => {
+      const store = await make();
+      await store.saveLoginCode('nam@example.com', 'first', later(600_000));
+      assert.equal(await store.failLoginCode('nam@example.com'), 1);
+      assert.equal(await store.failLoginCode('nam@example.com'), 2);
+      await store.saveLoginCode('nam@example.com', 'second', later(600_000));
+      assert.deepEqual(await store.getLoginCode('nam@example.com'), { codeHash: 'second', expiresAt: later(600_000), attempts: 0 });
+      assert.equal(await store.failLoginCode('nobody@example.com'), 0);
+      assert.equal(await store.takeLoginCode('nam@example.com'), true);
+      assert.equal(await store.takeLoginCode('nam@example.com'), false);
+      await store.saveLoginCode('old@example.com', 'x', later(-1));
+      await store.saveLoginCode('new@example.com', 'y', later(600_000));
+      assert.equal(await store.purgeLoginCodes(NOW), 1);
+      assert.equal(await store.getLoginCode('old@example.com'), undefined);
+      assert.ok(await store.getLoginCode('new@example.com'));
+    });
+
+    test('merging folds progress and the later subscription into the other account', async () => {
+      const store = await withAccount();
+      await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString(), email: 'nam@example.com' }, 'hash-2');
+      const a = completeLesson(emptyProgress(), 'zh-A1-01', { 'zh.ni-hao': true }, NOW);
+      const b = completeLesson(emptyProgress(), 'ja-A1-01', { 'ja.konnichiwa': true }, NOW);
+      await store.updateProgress('acc-1', () => a);
+      await store.updateProgress('acc-2', () => b);
+      await store.applyEntitlement('acc-1', later(30 * 86_400_000), NOW);
+      await store.applyEntitlement('acc-2', later(86_400_000), NOW);
+      await store.useQuota('acc-1', '2026-10-22', 'tutor', 5);
+      await store.mergeAccounts('acc-1', 'acc-2', (from, into) => mergeProgress(from, into ?? emptyProgress()));
+      assert.deepEqual(Object.keys((await store.getProgress('acc-2'))!.completed).sort(), ['ja-A1-01', 'zh-A1-01']);
+      assert.deepEqual(await store.getPremiumUntil('acc-2'), later(30 * 86_400_000));
+      assert.equal(await store.accountByTokenHash('hash-1'), undefined);
+      assert.equal(await store.getProgress('acc-1'), undefined);
+      assert.equal((await store.accountByTokenHash('hash-2'))?.id, 'acc-2');
+
+      // An earlier subscription end does not shorten the one already there; no progress leaves it as is.
+      await store.createAccount({ id: 'acc-3', createdAt: NOW.toISOString() }, 'hash-3');
+      await store.applyEntitlement('acc-3', later(1000), NOW);
+      await store.mergeAccounts('acc-3', 'acc-2', () => assert.fail('nothing to merge'));
+      assert.deepEqual(await store.getPremiumUntil('acc-2'), later(30 * 86_400_000));
+      assert.equal(await store.accountByTokenHash('hash-3'), undefined);
     });
   });
 }
+
+test('PgStore schema: moves the single token of older accounts into tokens, and can run again', async () => {
+  const db = emptyTestDb();
+  await db.exec(`
+    create table accounts (id text primary key, token_hash text not null unique, created_at timestamptz not null default now());
+    insert into accounts (id, token_hash) values ('old-1', 'old-hash');
+  `);
+  await migrate(db);
+  await migrate(db);
+  const store = new PgStore(db);
+  assert.equal((await store.accountByTokenHash('old-hash'))?.id, 'old-1');
+  await store.revokeToken('old-hash');
+  await migrate(db);
+  assert.equal(await store.accountByTokenHash('old-hash'), undefined, 'a revoked token stays revoked');
+});

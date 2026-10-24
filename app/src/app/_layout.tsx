@@ -7,6 +7,9 @@ import { AppStateProvider, useApp } from '@/state/app-state';
 
 SplashScreen.preventAutoHideAsync();
 
+/** A deep link or a reload on the web (e.g. /app/settings) still has home underneath to go back to. */
+export const unstable_settings = { initialRouteName: 'index' };
+
 function Routes() {
   const { ready, t } = useApp();
   useEffect(() => {

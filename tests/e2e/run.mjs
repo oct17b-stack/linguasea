@@ -81,7 +81,8 @@ async function until(fn, ms = 8000) {
   return false;
 }
 // The tutor answers 503 without an Anthropic key, and the browser logs failed requests.
-const realErrors = (errors) => errors.filter((e) => !/status of 503/.test(e));
+// A wrong sign-in code is answered with 400 on purpose.
+const realErrors = (errors) => errors.filter((e) => !/status of (503|400)/.test(e));
 
 try {
   // ---------- 1. First visit: choose a course, first lesson, sync, tutor, paywall, review ----------
@@ -284,6 +285,87 @@ try {
     check('finished reader is recorded', reader in (await state(page)).progress.completed);
     check('no console errors (premium)', realErrors(errors).length === 0, realErrors(errors).join(' | '));
     await context.close();
+  }
+
+  // ---------- 4. Email sign-in: same progress on a second device, sign-out ----------
+  {
+    const ko = course('ko');
+    const key = answerKey(ko);
+    const email = `learner-${Date.now()}@example.com`;
+    const me = (token) => fetch(`${api.url}/v1/accounts/me`, { headers: { authorization: `Bearer ${token}` } });
+    /** Settings → account: email → code (read from the server's output) → verify. */
+    async function signIn(page, { wrongFirst = false } = {}) {
+      await page.getByLabel(t('account.email')).fill(email);
+      const from = api.mark();
+      await page.getByRole('button', { name: t('account.sendCode') }).click();
+      const code = await api.loginCode(email, from);
+      if (!code) return { code };
+      await page.getByText(t('account.codeSent', { email })).waitFor();
+      let wrongShown;
+      if (wrongFirst) {
+        await page.getByLabel(t('account.code')).fill(code === '000000' ? '111111' : '000000');
+        await page.getByRole('button', { name: t('account.verify') }).click();
+        wrongShown = await until(async () => (await page.getByText(t('account.error.invalidCode')).count()) > 0);
+      }
+      await page.getByLabel(t('account.code')).fill(code);
+      await page.getByRole('button', { name: t('account.verify') }).click();
+      const shown = await until(async () => (await page.getByText(t('account.signedInAs', { email })).count()) > 0);
+      return { code, shown, wrongShown };
+    }
+
+    // Device 1: a lesson as an anonymous learner, then sign in from settings.
+    const one = await newPage();
+    await one.page.goto(web.url);
+    check('the web app has a page title', /LinguaSEA/.test(await one.page.title()), await one.page.title());
+    await one.page.getByText(ko.gloss.name, { exact: true }).click();
+    await one.page.getByText(t('placement.new'), { exact: true }).click();
+    const first = ko.course.stages[0].units[0].lessons[0];
+    await one.page.getByRole('button', { name: `▶ ${t('home.continue', { title: ko.lessons[first].gloss.title })}` }).click();
+    await play(one.page, key, 'right');
+    await footer(one.page).first().click();
+    await until(() => one.api.some((c) => c === 'PUT /v1/progress 200'));
+    const anonymous = await account(one.page);
+    await one.page.getByRole('button', { name: t('settings.title') }).click();
+    check('settings explain why to sign in', await until(async () => (await one.page.getByText(t('account.why')).count()) === 1));
+    const first1 = await signIn(one.page);
+    check('email sign-in sends a 6-digit code', !!first1.code);
+    check('after the code, settings show the signed-in email', !!first1.shown);
+    const acc1 = await account(one.page);
+    check('the device keeps the new token and the email', !!acc1 && acc1.email === email && acc1.token !== anonymous?.token, JSON.stringify(acc1));
+    const me1 = acc1 ? await me(acc1.token).then((r) => (r.ok ? r.json() : null)) : null;
+    check('the server knows the account by its email', me1?.email === email, JSON.stringify(me1));
+    const remote = acc1 ? await fetch(`${api.url}/v1/progress`, { headers: { authorization: `Bearer ${acc1.token}` } }).then((r) => (r.ok ? r.json() : null)) : null;
+    check('the progress made before signing in is kept in the account', !!remote && first in (remote.completed ?? {}), JSON.stringify(remote)?.slice(0, 200));
+    await one.page.reload();
+    check('a reload on a deep link (/app/settings) stays signed in', await until(async () => (await one.page.getByText(t('account.signedInAs', { email })).count()) > 0), one.page.url());
+    await shot(one.page, '10-signed-in');
+
+    // Device 2: a new browser opens settings directly and signs in to the same email.
+    const two = await newPage();
+    await two.page.goto(`${web.url}settings`);
+    const second = await signIn(two.page, { wrongFirst: true });
+    check('a wrong code is refused with a message', !!second.wrongShown);
+    check('a second device signs in to the same email', !!second.shown);
+    const acc2 = await account(two.page);
+    check('both devices share one account, each with its own token', !!acc2 && acc2.id === acc1?.id && acc2.token !== acc1?.token);
+    check('the second device gets the same progress', await until(async () => first in ((await state(two.page))?.progress?.completed ?? {})));
+
+    // Sign-out on device 2: back to anonymous, local progress stays, device 1 stays signed in.
+    await two.page.getByRole('button', { name: t('account.signOut') }).click();
+    check('sign-out asks first', await until(() => two.dialogs.some((d) => d.startsWith(t('account.signOutTitle')))));
+    check('after sign-out the sign-in form is back', await until(async () => (await two.page.getByLabel(t('account.email')).count()) === 1));
+    check('sign-out tells the server', await until(() => two.api.some((c) => c === 'POST /v1/auth/logout 204')), two.api.join(', '));
+    const after = await account(two.page);
+    check('sign-out forgets the account on the device', !after?.email, JSON.stringify(after));
+    check('the signed-out token no longer works', acc2 ? (await me(acc2.token)).status === 401 : false);
+    check('the progress stays on the device after sign-out', first in ((await state(two.page))?.progress?.completed ?? {}));
+    check('the other device is still signed in', acc1 ? (await me(acc1.token)).status === 200 : false);
+    // Opened straight on /app/settings, the screen still goes back (to home, which asks for a course here).
+    await two.page.getByRole('link', { name: 'Go back' }).click();
+    check('a deep-linked screen goes back to home', await until(async () => (await two.page.getByText(t('languages.title')).count()) > 0));
+    check('no console errors (sign-in)', realErrors([...one.errors, ...two.errors]).length === 0, realErrors([...one.errors, ...two.errors]).join(' | '));
+    await one.context.close();
+    await two.context.close();
   }
 } catch (e) {
   check(`unexpected error: ${e.message.split('\n')[0]}`, false);

@@ -43,16 +43,49 @@ async function waitFor(url, ms = 30_000) {
   }
 }
 
-/** Starts the API server (on `port`, or a free one). Returns { url, stop }. */
+/**
+ * Starts the API server (on `port`, or a free one). Returns { url, stop, mark, loginCode }:
+ * without a mail service the server prints `[mail] login code for <email>: <code>` to stdout;
+ * `loginCode(email, mark())` waits for the first such code printed after the mark.
+ */
 export async function startApi(env = {}, port) {
   port ??= await freePort();
   const child = spawn(process.execPath, ['--import', 'tsx', 'server/src/main.ts'], {
     cwd: root,
-    env: { ...process.env, PORT: String(port), DATABASE_URL: '', ANTHROPIC_API_KEY: '', AZURE_SPEECH_KEY: '', ...env },
-    stdio: ['ignore', 'ignore', 'pipe'],
+    env: {
+      ...process.env,
+      PORT: String(port),
+      DATABASE_URL: '',
+      ANTHROPIC_API_KEY: '',
+      AZURE_SPEECH_KEY: '',
+      RESEND_API_KEY: '',
+      NODE_ENV: 'development',
+      ...env,
+    },
+    stdio: ['ignore', 'pipe', 'pipe'],
   });
   let stderr = '';
   child.stderr.on('data', (d) => (stderr += d));
+  const lines = [];
+  let partial = '';
+  child.stdout.on('data', (d) => {
+    const parts = (partial + d).split('\n');
+    partial = parts.pop();
+    lines.push(...parts);
+  });
+  const mark = () => lines.length;
+  async function loginCode(email, from = 0, ms = 10_000) {
+    const re = /\[mail\] login code for (\S+): (\d{6})/;
+    const until = Date.now() + ms;
+    for (;;) {
+      for (let i = from; i < lines.length; i++) {
+        const m = re.exec(lines[i]);
+        if (m && m[1].toLowerCase() === email.toLowerCase()) return m[2];
+      }
+      if (Date.now() > until) return undefined;
+      await new Promise((r) => setTimeout(r, 100));
+    }
+  }
   const url = `http://127.0.0.1:${port}`;
   try {
     await waitFor(`${url}/health`);
@@ -60,7 +93,7 @@ export async function startApi(env = {}, port) {
     child.kill();
     throw new Error(`${e.message}\n${stderr}`);
   }
-  return { url, stop: () => child.kill() };
+  return { url, stop: () => child.kill(), mark, loginCode };
 }
 
 /** Exports the web app (with the API URL baked in, or offline when apiUrl is empty) into outDir. */
@@ -74,11 +107,20 @@ export function buildWeb(outDir, apiUrl = '') {
 
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.ico': 'image/x-icon', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.mp3': 'audio/mpeg' };
 
-/** Serves a static export with single-page-app fallback. Returns { url, stop }. */
-export async function serveStatic(dir) {
+/**
+ * Serves a static export under `base` (app.json experiments.baseUrl) with single-page-app fallback,
+ * like the API server does in production. Returns { url, origin, stop }; `url` is the app's start page.
+ */
+export async function serveStatic(dir, base = '/app') {
   const port = await freePort();
   const server = createServer(async (req, res) => {
-    const path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^(\.\.[/\\])+/, '');
+    const pathname = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    if (pathname !== base && !pathname.startsWith(`${base}/`)) {
+      res.writeHead(302, { location: `${base}/` });
+      res.end();
+      return;
+    }
+    const path = normalize(pathname.slice(base.length) || '/').replace(/^(\.\.[/\\])+/, '');
     let file = join(dir, path);
     try {
       if (!(await stat(file)).isFile()) throw new Error('dir');
@@ -89,7 +131,8 @@ export async function serveStatic(dir) {
     res.end(await readFile(file));
   });
   await new Promise((r) => server.listen(port, '127.0.0.1', r));
-  return { url: `http://127.0.0.1:${port}`, stop: () => server.close() };
+  const origin = `http://127.0.0.1:${port}`;
+  return { url: `${origin}${base}/`, origin, stop: () => server.close() };
 }
 
 /** A phone-sized page that records console errors and failed requests. */

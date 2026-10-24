@@ -27,7 +27,12 @@
     },
     "web": {
       "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "name": "LinguaSEA · เรียนภาษาจีน อังกฤษ ญี่ปุ่น เกาหลี",
+      "shortName": "LinguaSEA",
+      "lang": "th",
+      "description": "เรียนภาษาจีน อังกฤษ ญี่ปุ่น และเกาหลีด้วยภาษาไทย ทีละบทสั้น ๆ พร้อมฝึกพูดและทบทวนคำศัพท์",
+      "themeColor": "#1F7A5C"
     },
     "plugins": [
       "expo-router",
@@ -63,6 +68,7 @@
       ]
     ],
     "experiments": {
+      "baseUrl": "/app",
       "typedRoutes": true,
       "reactCompiler": true
     }

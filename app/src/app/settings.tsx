@@ -3,17 +3,18 @@ import * as Application from 'expo-application';
 import Constants from 'expo-constants';
 import { router } from 'expo-router';
 import { useState, type ReactNode } from 'react';
-import { Pressable, StyleSheet, Switch, View } from 'react-native';
+import { Platform, Pressable, StyleSheet, Switch, View } from 'react-native';
 
 import { Button } from '@/components/button';
 import { Card } from '@/components/card';
+import { EmailSignIn } from '@/components/email-sign-in';
 import { Screen } from '@/components/screen';
 import { ThemedText } from '@/components/themed-text';
 import { FLAG } from '@/constants/flags';
 import { Spacing } from '@/constants/theme';
 import { contentIndex, courseIndex } from '@/content';
 import { useTheme } from '@/hooks/use-theme';
-import { legalUrl } from '@/lib/api';
+import { apiEnabled, legalUrl } from '@/lib/api';
 import { confirm, notify } from '@/lib/dialog';
 import { openPage } from '@/lib/open-page';
 import { restore } from '@/lib/purchases';
@@ -42,12 +43,15 @@ export default function Settings() {
     deleteMyData,
     tutorConsent,
     setTutorConsent,
+    signedInEmail,
+    signOut,
     t,
   } = useApp();
   const c = useTheme();
   const course = target ? courseIndex(l1, target) : undefined;
   const [restoring, setRestoring] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [signingOut, setSigningOut] = useState(false);
   const [reminderDenied, setReminderDenied] = useState(false);
 
   // Legal pages exist in Thai and English; other interface languages get English for now.
@@ -77,15 +81,31 @@ export default function Settings() {
             ? 'paywall.nothingToRestore'
             : result === 'unavailable'
               ? 'paywall.notReady'
-              : 'paywall.failed',
+              : result === 'needs-sign-in'
+                ? 'paywall.signInFirst'
+                : 'paywall.failed',
       ),
     );
+  };
+
+  const onSignOut = async () => {
+    const sure = await confirm({
+      title: t('account.signOutTitle'),
+      message: t('account.signOutBody'),
+      confirm: t('account.signOut'),
+      cancel: t('common.cancel'),
+    });
+    if (!sure) return;
+    setSigningOut(true);
+    await signOut();
+    setSigningOut(false);
   };
 
   const onDelete = async () => {
     const sure = await confirm({
       title: t('settings.deleteTitle'),
-      message: t('settings.deleteBody'),
+      // The web has no App Store / Google Play: web subscriptions are managed from the receipt email.
+      message: t(Platform.OS === 'web' ? 'settings.deleteBodyWeb' : 'settings.deleteBody'),
       confirm: t('settings.deleteConfirm'),
       cancel: t('common.cancel'),
       destructive: true,
@@ -118,6 +138,33 @@ export default function Settings() {
           />
         ) : null}
       </Section>
+
+      {apiEnabled ? (
+        <Section title={t('account.title')}>
+          {signedInEmail ? (
+            <>
+              <ThemedText type="smallBold">{t('account.signedInAs', { email: signedInEmail })}</ThemedText>
+              <ThemedText type="small" style={{ color: c.textSecondary }}>
+                {t('account.synced')}
+              </ThemedText>
+              <Button
+                variant="secondary"
+                label={t('account.signOut')}
+                busy={signingOut}
+                onPress={() => void onSignOut()}
+                style={{ backgroundColor: c.background }}
+              />
+            </>
+          ) : (
+            <>
+              <ThemedText type="small" style={{ color: c.textSecondary }}>
+                {t('account.why')}
+              </ThemedText>
+              <EmailSignIn />
+            </>
+          )}
+        </Section>
+      ) : null}
 
       {interfaceLanguages.length > 1 ? (
         <Section title={t('settings.interface')}>

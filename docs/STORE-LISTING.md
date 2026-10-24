@@ -270,13 +270,14 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 
 ## 5. Apple App Privacy（App Store Connect → App Privacy）
 
-依据：App 本身、服务器（`server/src/app.ts`、`server/src/tutor.ts`、`server/db/schema.sql`）和 RevenueCat 的官方建议。存在服务器上的数据都挂在随机账号 ID 上，"关联到用户"按保守口径填"是"。
+依据：App 本身、服务器（`server/src/app.ts`、`server/src/tutor.ts`、`server/src/mail.ts`、`server/db/schema.sql`）和 RevenueCat 的官方建议。存在服务器上的数据都挂在随机账号 ID 上；用户选择用邮箱登录后，账号上还会存邮箱。"关联到用户"按保守口径填"是"。
 
 **Do you or your third-party partners collect data from this app?** → Yes
 
 | 数据类型 | 用途 | 关联到用户？ | 用于追踪？ | 说明 |
 |---|---|---|---|---|
-| Identifiers → **User ID** | App Functionality | Yes | No | 每次安装随机生成的账号 ID（RevenueCat 也用它作 App User ID） |
+| Contact Info → **Email Address** | App Functionality | Yes | No | 可选的邮箱登录（6 位验证码，经 Resend 发送）：服务器把邮箱存在账号上，用来登录、多设备同步进度和订阅、识别账号；验证码只存哈希、10 分钟有效。不登录也能用全部功能（网页版购买除外）。不用于营销 |
+| Identifiers → **User ID** | App Functionality | Yes | No | 随机生成的账号 ID（RevenueCat 也用它作 App User ID）；登录后和邮箱关联 |
 | Purchases → **Purchase History** | App Functionality, Analytics | Yes | No | RevenueCat 订阅记录（RevenueCat 要求所有使用者都勾这两个用途）；服务器保存订阅到期日 |
 | Usage Data → **Product Interaction** | App Functionality | Yes | No | 学习进度：完成的课、复习记录、XP、连胜 |
 | User Content → **Other User Content** | App Functionality | No | No | AI 老师对话里学习者的回答：服务器打码后转给 Anthropic 生成回复，服务器不保存，Anthropic 只保留有限时间；发给 Anthropic 的内容不带账号 ID 或设备信息，所以填"不关联"（想更保守也可以填 Yes） |
@@ -284,7 +285,8 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 **不勾**的类型和原因：
 
 - User Content → Audio Data：发音录音和给 AI 老师的语音回答只做实时处理（打分或转成文字），服务器和 Microsoft 都不保存。Apple 的定义里"只为实时处理请求、不超过必要时间保存"的数据不算"收集"。如果你想更保守，也可以勾上：Audio Data → App Functionality → 不关联 → 不追踪。
-- Contact Info（姓名、邮箱、电话）、Location、Contacts、Photos、Health、Financial Info（卡号）、Browsing / Search History、Diagnostics（没有崩溃监控 SDK）、Device ID（没有用 IDFA）：都不收集。
+- Contact Info 里的姓名、电话，以及 Location、Contacts、Photos、Health、Financial Info（卡号）、Browsing / Search History、Diagnostics（没有崩溃监控 SDK）、Device ID（没有用 IDFA）：都不收集。
+- Financial Info：网页版（`/app/`）的订阅通过 RevenueCat Web Billing + Stripe 购买，卡号只由 Stripe / RevenueCat 处理，我们看不到；而且网页版不是这个 iOS App，App 内只用 In-App Purchase，所以这里不勾。
 - 服务器日志里的 IP 只用于安全和限流，不推算位置，不需要单独申报。
 
 **Tracking：No**（没有广告、没有 IDFA、不和其他公司的数据合并），因此不需要 App Tracking Transparency 弹窗。
@@ -293,7 +295,7 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 
 **Does your app collect or share any of the required user data types?** → Yes
 **Is all of the user data collected by your app encrypted in transit?** → Yes（全部走 HTTPS；`EXPO_PUBLIC_API_URL` 必须是 `https://`）
-**Account creation** → 选允许创建账号，方式选 **Other**（说明：首次需要同步、打分或使用 AI 老师时自动创建匿名账号，没有用户名和密码）；删除账号网址填 `https://<域名>/legal/delete-account-th.html`
+**Account creation** → 选允许创建账号，方式选 **Username and other authentication**（用户名就是邮箱，验证方式是发到邮箱的 6 位一次性验证码，没有密码）；如果表单让补充说明，写：首次需要同步、打分或使用 AI 老师时自动创建匿名账号；用户可以选择用邮箱 + 验证码登录，在多台设备和网页版之间同步。删除账号网址填 `https://<域名>/legal/delete-account-th.html`
 **Do you provide a way for users to request that their data be deleted?** → Yes（App 内 + 上面的网址）
 
 | Play 数据类型 | 收集 | 分享 | 临时处理（ephemeral） | 必需 / 可选 | 用途 | 说明 |
@@ -302,10 +304,11 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 | App activity → **Other actions** | Yes | No | No | Required | App functionality | 学习进度（完成的课、复习记录、XP、连胜） |
 | Audio → **Voice or sound recordings** | Yes | No | **Yes** | Optional | App functionality | 发音打分录音和给 AI 老师的语音回答：Azure 实时打分或转文字，不保存；不用麦克风也能上课 |
 | App activity → **Other user-generated content** | Yes | No | No | Optional | App functionality | AI 老师对话里学习者的回答：服务器打码后转给 Anthropic 生成回复，服务器不保存；Anthropic 会保留有限时间，所以"临时处理"填 No。如果审核认为这算聊天内容，改选 Messages → Other in-app messages，其他答案不变 |
-| Device or other IDs | Yes | No | No | Required | App functionality, Account management | 每次安装随机生成的账号 ID |
+| Personal info → **Email address** | Yes | No | No | Optional | App functionality, Account management | 可选的邮箱登录：服务器把邮箱存在账号上，用来登录、多设备同步、识别账号；验证码经 Resend 发送，服务器只存验证码的哈希。不用于营销 |
+| Device or other IDs | Yes | No | No | Required | App functionality, Account management | 随机生成的账号 ID |
 
-- "分享"填 No：Microsoft Azure、Anthropic、RevenueCat、托管商都是替我们处理数据的服务商，按 Google 的定义不算分享。
-- 不收集：Location、Personal info（姓名、邮箱、电话等）、Messages（除非按上表改选）、Photos and videos、Files and docs、Calendar、Contacts、Web browsing、App info and performance（没有崩溃 / 诊断 SDK）。
+- "分享"填 No：Microsoft Azure、Anthropic、RevenueCat、Resend、托管商都是替我们处理数据的服务商，按 Google 的定义不算分享。
+- 不收集：Location、Personal info 里的姓名、电话等（邮箱见上表）、Financial info 里的卡号等付款信息（网页版订阅的付款由 Stripe / RevenueCat 处理，而且不在这个安卓 App 里）、Messages（除非按上表改选）、Photos and videos、Files and docs、Calendar、Contacts、Web browsing、App info and performance（没有崩溃 / 诊断 SDK）。
 - Committed to follow the Play Families Policy：No（不是儿童 App）。
 - Independent security review：No。
 
@@ -316,10 +319,10 @@ AI 老师不是用户之间的聊天，所以"Messaging and Chat"和"User-Genera
 - 出口合规（Export Compliance）：只用标准 HTTPS 加密 → 选豁免（建议开发者在 `app.json` 设 `ITSAppUsesNonExemptEncryption: false`，以后每个版本就不用再问）。
 - 内容版权（Content Rights）：课程内容自有；配音由 Azure 生成，有商用授权。
 - 广告标识符（IDFA）：不使用。
-- App Review Information：不需要登录账号；联系人填你本人的姓名、电话、邮箱。审核备注（英文）：
+- App Review Information：登录是可选的，不需要提供测试账号（审核员可以用自己的邮箱收验证码）；联系人填你本人的姓名、电话、邮箱。审核备注（英文）：
 
 ```
-LinguaSEA teaches Chinese, English, Japanese and Korean to Thai speakers. No sign-in is needed: the app creates an anonymous account automatically when it first syncs progress or scores pronunciation.
+LinguaSEA teaches Chinese, English, Japanese and Korean to Thai speakers. No sign-in is needed: the app creates an anonymous account automatically when it first syncs progress or scores pronunciation. Signing in is optional (with an email address and a 6-digit code we email to it) and only syncs progress and the subscription across devices; every feature can be reviewed without it.
 Level A lessons are free. Levels B to F need the Premium subscription (monthly, or yearly with a 7-day free trial), sold with In-App Purchase. The interface is in Thai. To test: choose a language, answer "ยังไม่เคยเรียน" (not studied before), finish the first lesson, then tap any Level B lesson on the course map (or the "สมัครสมาชิก" button on the home screen) to see the subscription screen ("สมัครสมาชิก" = subscribe) and buy with a Sandbox account. "Restore purchases" ("กู้คืนการซื้อ") is on the same screen.
 Pronunciation scoring: in a speaking exercise, allow microphone access and record. The recording is sent to our server and Microsoft Azure for scoring and is not stored.
 AI tutor (conversation practice): before the first conversation, a consent screen explains that the learner's answers are sent to Anthropic (Claude) to generate the tutor's replies; the learner can type or speak. Free users get a few turns per day, Premium users more. Inappropriate replies can be reported from the conversation screen; reports go to our support email.
@@ -329,7 +332,7 @@ Data deletion: Settings > Delete my data. The Privacy Policy and Terms of Servic
 **Google Play（Policy → App content）**
 
 - Ads：No, my app does not contain ads。
-- App access：All functionality is available without special access（不需要登录；订阅内容审核员可用测试购买）。
+- App access：All functionality is available without special access（邮箱登录是可选的；订阅内容审核员可用测试购买）。
 - Advertising ID：No（请开发者确认最终安装包的 manifest 里没有 `com.google.android.gms.permission.AD_ID` 权限）。
 - Government apps：No；Financial features：None；Health：No；News：No。
 - Content rating、Target audience、Data safety、Privacy policy：见上面第 4–6 节。

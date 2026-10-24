@@ -175,18 +175,19 @@ export function buildServer({
   }
 
   // The web app: hashed bundles under /app/_expo/ never change; index.html must always be fresh.
-  const webIndex = webDir && join(webDir, 'index.html');
-  if (webDir && webIndex && existsSync(webIndex)) {
+  const webIndex = webDir && existsSync(join(webDir, 'index.html')) ? join(webDir, 'index.html') : undefined;
+  if (webDir && webIndex) {
     const webRoot = resolve(webDir);
     app.register(fastifyStatic, {
       root: webRoot,
       prefix: '/app/',
       decorateReply: false,
       cacheControl: false,
-      setHeaders(res, path) {
-        res.setHeader(
+      setHeaders(reply, path) {
+        const hashed = relative(webRoot, path).split(sep)[0] === '_expo';
+        reply.header(
           'cache-control',
-          relative(webRoot, path).split(sep)[0] === '_expo' ? 'public, max-age=31536000, immutable' : path.endsWith('.html') ? 'no-cache' : 'public, max-age=3600',
+          hashed ? 'public, max-age=31536000, immutable' : path.endsWith('.html') ? 'no-cache' : 'public, max-age=3600',
         );
       },
     });
@@ -197,11 +198,8 @@ export function buildServer({
   app.setNotFoundHandler(async (req, reply) => {
     const path = req.url.split('?')[0];
     if (webIndex && (req.method === 'GET' || req.method === 'HEAD') && path.startsWith('/app/') && !path.startsWith('/app/_expo/')) {
-      try {
-        return reply.header('cache-control', 'no-cache').type('text/html; charset=utf-8').send(await readFile(webIndex));
-      } catch {
-        // No web build: fall through to 404.
-      }
+      const html = await readFile(webIndex).catch(() => undefined); // gone while running (rebuilt)
+      if (html) return reply.header('cache-control', 'no-cache').type('text/html; charset=utf-8').send(html);
     }
     return reply.code(404).send({ message: `Route ${req.method}:${req.url} not found`, error: 'Not Found', statusCode: 404 });
   });
