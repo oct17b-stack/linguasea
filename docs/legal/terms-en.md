@@ -24,7 +24,7 @@ These Terms of Service ("Terms") are an agreement between you and [TBD: operator
 ## 3. Free and Premium
 
 - **Free:** the Stage A (beginner) lessons of every language, reviews, and a limited number of pronunciation checks and AI tutor turns per day.
-- **Premium (subscription):** unlocks the lessons of every paid stage in every language (currently Stage B) and higher daily limits for pronunciation checks and the AI tutor.
+- **Premium (subscription):** unlocks the lessons of every paid stage in every language (currently Stages B–F) and higher daily limits for pronunciation checks and the AI tutor.
 - Some features have daily limits so that the Service stays fair and affordable. The current limits and what each plan includes are shown in the app.
 - We may add, change or remove features and content. If we significantly reduce what Premium includes, we will tell you in advance so you can cancel.
 
