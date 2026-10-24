@@ -82,7 +82,16 @@
 - 法律页面和 `app/src/lib/config.ts` 里的 `[TBD]` / `[รอกรอก]`、support@example.com 要换成真实信息。
 - 品牌名 LinguaSEA 只是代号（`app/app.json` 一处可改），上线前要查商标。
 
-## 6. 给下一个 AI 的建议
+## 6. 用户说"跑配音"时
+
+前提：用户已在云端环境设置里加了 `AZURE_SPEECH_KEY`、`AZURE_SPEECH_REGION`（`southeastasia`），并在 Network access 的 Allowed domains 里放行 `southeastasia.tts.speech.microsoft.com`（新会话才生效）。不需要服务器已部署。
+
+1. `curl -sS -o /dev/null -w '%{http_code}' https://southeastasia.tts.speech.microsoft.com/` 确认能连上；连不上就请用户按上面放行域名。
+2. `npm run audio -- --dry-run` 看要生成多少段、估算费用（约 39,400 段、约 US$35），然后 `npm run audio`（中途断了直接重跑，已生成的跳过）。可以 `--target zh` 一门一门跑。
+3. 决定（已定）：mp3 和 `manifest.json` 都提交进 git（`content/audio/<课程>/`，约 400–600 MB），分几次按课程提交、推送，避免一次推送过大。
+4. `npm run content` 把配音编进 App 内容包，`npm run e2e` 确认通过；抽听几段多音字和人名，念错的词条加 `say` 后重跑（只生成改动的）。
+
+## 7. 给下一个 AI 的建议
 
 - 先跑 `npm install`、`npm run check`；改了 App 界面用 `npm run e2e` 实际走一遍（先 `npm run content`）。
 - 改课：两层文件一起改，课号和词条 id 永远不改；改完 `npm run validate -- --target <课程>`、`npm run dupes -- --target <课程> --meanings`，把决定记进 `content/_review/`。
