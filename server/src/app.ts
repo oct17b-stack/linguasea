@@ -1,5 +1,7 @@
-import { createHash, randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
+import { createHash, randomBytes, randomInt, randomUUID, timingSafeEqual } from 'node:crypto';
 import { existsSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
+import { join, relative, resolve, sep } from 'node:path';
 
 import multipart from '@fastify/multipart';
 import rateLimit from '@fastify/rate-limit';
@@ -9,6 +11,7 @@ import { dayKey, emptyProgress, mergeProgress, type Progress } from '@linguasea/
 import Fastify, { type FastifyRequest } from 'fastify';
 import { z } from 'zod';
 
+import { LOGIN_CODE_MINUTES, type Mailer } from './mail';
 import { AssessError, type Assessor, type Transcriber } from './pronunciation';
 import { buildScenario } from './scenarios';
 import type { Account, Store } from './store';
@@ -49,6 +52,10 @@ export type Options = {
   audioDir?: string;
   /** Public website (landing and support pages, /legal/ policies) served at /. */
   publicDir?: string;
+  /** Web build of the app (`expo export --platform web`) served at /app/. */
+  webDir?: string;
+  /** Delivers email sign-in codes; sign-in answers 503 when absent. */
+  mailer?: Mailer;
   now?: () => Date;
   logger?: boolean;
   /** Requests per minute per client IP. */
@@ -87,10 +94,39 @@ const TutorBody = z.object({
     .max(40),
 });
 
+/** Trimmed and lower-cased, so one address is one account however it is typed. */
+const Email = z.string().trim().toLowerCase().max(254).pipe(z.email());
+
+const StartBody = z.object({ email: Email, l1: L1.catch('th') });
+const VerifyBody = z.object({ email: Email, code: z.string().trim().max(20) });
+
+/** Email sign-in limits: codes sent per email and per client IP in an hour, wrong guesses per code. */
+const CODES_PER_EMAIL = 5;
+const CODES_PER_IP = 20;
+const CODE_ATTEMPTS = 5;
+const HOUR = 3_600_000;
+
+/** Counts events per key over a sliding window (in this process). */
+function windowCounter(windowMs: number) {
+  const hits = new Map<string, number[]>();
+  return (key: string, max: number, at: number): boolean => {
+    if (hits.size > 10_000) {
+      for (const [k, times] of hits) if (times.every((t) => t <= at - windowMs)) hits.delete(k);
+    }
+    const recent = (hits.get(key) ?? []).filter((t) => t > at - windowMs);
+    const allowed = recent.length < max;
+    if (allowed) recent.push(at);
+    hits.set(key, recent);
+    return allowed;
+  };
+}
+
 /** Older turns are dropped beyond this; the scenario keeps the conversation on track. */
 const TUTOR_HISTORY = 24;
 
 const sha256 = (s: string) => createHash('sha256').update(s).digest('hex');
+const codeHash = (email: string, code: string) => sha256(`${email}:${code}`);
+const newToken = () => randomBytes(32).toString('base64url');
 
 function sameSecret(a: string, b: string): boolean {
   return timingSafeEqual(Buffer.from(sha256(a)), Buffer.from(sha256(b)));
@@ -106,6 +142,8 @@ export function buildServer({
   quotas = DEFAULT_QUOTAS,
   audioDir,
   publicDir,
+  webDir,
+  mailer,
   now = () => new Date(),
   logger = false,
   rateLimit: perMinute = 300,
@@ -136,8 +174,44 @@ export function buildServer({
     app.register(fastifyStatic, { root: publicDir, prefix: '/', decorateReply: false, maxAge: '1h' });
   }
 
+  // The web app: hashed bundles under /app/_expo/ never change; index.html must always be fresh.
+  const webIndex = webDir && join(webDir, 'index.html');
+  if (webDir && webIndex && existsSync(webIndex)) {
+    const webRoot = resolve(webDir);
+    app.register(fastifyStatic, {
+      root: webRoot,
+      prefix: '/app/',
+      decorateReply: false,
+      cacheControl: false,
+      setHeaders(res, path) {
+        res.setHeader(
+          'cache-control',
+          relative(webRoot, path).split(sep)[0] === '_expo' ? 'public, max-age=31536000, immutable' : path.endsWith('.html') ? 'no-cache' : 'public, max-age=3600',
+        );
+      },
+    });
+    app.get('/app', (_req, reply) => reply.redirect('/app/'));
+  }
+
+  // Routes of the web app (/app/lesson/…) are not files: they get index.html and the app's router takes over.
+  app.setNotFoundHandler(async (req, reply) => {
+    const path = req.url.split('?')[0];
+    if (webIndex && (req.method === 'GET' || req.method === 'HEAD') && path.startsWith('/app/') && !path.startsWith('/app/_expo/')) {
+      try {
+        return reply.header('cache-control', 'no-cache').type('text/html; charset=utf-8').send(await readFile(webIndex));
+      } catch {
+        // No web build: fall through to 404.
+      }
+    }
+    return reply.code(404).send({ message: `Route ${req.method}:${req.url} not found`, error: 'Not Found', statusCode: 404 });
+  });
+
+  function bearer(req: FastifyRequest): string | undefined {
+    return /^Bearer (.+)$/.exec(req.headers.authorization ?? '')?.[1];
+  }
+
   async function account(req: FastifyRequest): Promise<Account | undefined> {
-    const token = /^Bearer (.+)$/.exec(req.headers.authorization ?? '')?.[1];
+    const token = bearer(req);
     const acc = token ? await store.accountByTokenHash(sha256(token)) : undefined;
     if (acc) await store.touchAccount(acc.id, now());
     return acc;
@@ -153,10 +227,91 @@ export function buildServer({
   // Anonymous account per install, so progress syncs before sign-in exists.
   // Apple / Google / LINE sign-in will attach to this account later.
   app.post('/v1/accounts', { config: { rateLimit: { max: 20, timeWindow: '1 hour' } } }, async (_req, reply) => {
-    const token = randomBytes(32).toString('base64url');
-    const acc: Account = { id: randomUUID(), tokenHash: sha256(token), createdAt: now().toISOString() };
-    await store.createAccount(acc);
+    const token = newToken();
+    const acc: Account = { id: randomUUID(), createdAt: now().toISOString() };
+    await store.createAccount(acc, sha256(token));
     return reply.code(201).send({ id: acc.id, token });
+  });
+
+  app.get('/v1/accounts/me', async (req, reply) => {
+    const acc = await account(req);
+    if (!acc) return reply.code(401).send({ error: 'unauthorized' });
+    const until = await store.getPremiumUntil(acc.id);
+    return {
+      id: acc.id,
+      email: acc.email ?? null,
+      premium: !!until && until > now(),
+      premiumUntil: until?.toISOString() ?? null,
+    };
+  });
+
+  // Email sign-in, step 1: a 6-digit code by email. The answer is the same whether or not the
+  // address has an account, so nobody can find out who uses the app.
+  const codesSent = windowCounter(HOUR);
+  app.post('/v1/auth/email/start', async (req, reply) => {
+    const body = StartBody.safeParse(req.body);
+    if (!body.success) return reply.code(400).send({ error: 'invalid email' });
+    if (!mailer) return reply.code(503).send({ error: 'email sign-in is not configured' });
+    const { email, l1 } = body.data;
+    const at = now().getTime();
+    if (!codesSent(`ip:${req.ip}`, CODES_PER_IP, at) || !codesSent(`email:${email}`, CODES_PER_EMAIL, at)) {
+      return reply.code(429).send({ error: 'too many codes requested, try again later' });
+    }
+    const code = String(randomInt(0, 1_000_000)).padStart(6, '0');
+    await store.saveLoginCode(email, codeHash(email, code), new Date(at + LOGIN_CODE_MINUTES * 60_000));
+    try {
+      await mailer.sendLoginCode({ to: email, code, l1 });
+    } catch (e) {
+      req.log.error(e, 'sending the login code failed');
+      return reply.code(502).send({ error: 'could not send the email' });
+    }
+    return reply.code(204).send();
+  });
+
+  // Step 2: the code signs this device in. An anonymous install that signs in keeps its progress:
+  // it becomes the email's account, or is merged into the account that already has the email.
+  app.post('/v1/auth/email/verify', { config: { rateLimit: { max: 60, timeWindow: '1 hour' } } }, async (req, reply) => {
+    const body = VerifyBody.safeParse(req.body);
+    if (!body.success) return reply.code(400).send({ error: 'invalid email' });
+    const { email, code } = body.data;
+    const pending = await store.getLoginCode(email);
+    if (!pending) return reply.code(400).send({ error: 'invalid code' });
+    if (pending.expiresAt <= now()) {
+      await store.takeLoginCode(email);
+      return reply.code(400).send({ error: 'code expired' });
+    }
+    if (!sameSecret(codeHash(email, code), pending.codeHash)) {
+      if ((await store.failLoginCode(email)) >= CODE_ATTEMPTS) await store.takeLoginCode(email);
+      return reply.code(400).send({ error: 'invalid code' });
+    }
+    // Two requests with the same code: only the one that removes it signs in.
+    if (!(await store.takeLoginCode(email))) return reply.code(400).send({ error: 'invalid code' });
+
+    const current = await account(req);
+    let owner = await store.accountByEmail(email);
+    if (!owner && current && !current.email) {
+      // Lost a race for the email to another device: sign in to that account instead.
+      owner = (await store.setEmail(current.id, email)) ? { ...current, email } : await store.accountByEmail(email);
+    }
+    const token = newToken();
+    if (!owner) {
+      owner = { id: randomUUID(), createdAt: now().toISOString(), email };
+      await store.createAccount(owner, sha256(token));
+    } else {
+      if (current && current.id !== owner.id && !current.email) {
+        await store.mergeAccounts(current.id, owner.id, (from, into) => mergeProgress(from, into ?? emptyProgress()));
+      }
+      await store.addToken(owner.id, sha256(token));
+    }
+    await store.touchAccount(owner.id, now());
+    return { id: owner.id, token, email };
+  });
+
+  // Signs this device out; the account's other devices stay signed in.
+  app.post('/v1/auth/logout', async (req, reply) => {
+    const token = bearer(req);
+    if (token) await store.revokeToken(sha256(token));
+    return reply.code(204).send();
   });
 
   // "Delete my data" (PDPA, App Store guideline 5.1.1(v)).

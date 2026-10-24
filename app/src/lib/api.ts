@@ -11,8 +11,11 @@ import { secureStore } from '@/lib/secure-store';
  */
 export const apiEnabled = !!API_URL;
 
-/** Anonymous account made per install (sign-in with Apple / Google / LINE attaches to it later). */
-export type Account = { id: string; token: string };
+/**
+ * The server account this install uses: made anonymously per install, or the one an email
+ * sign-in returned (then `email` is set and the same account is used on every device).
+ */
+export type Account = { id: string; token: string; email?: string | null };
 
 export type Entitlements = { premium: boolean; premiumUntil: string | null };
 
@@ -84,10 +87,24 @@ const accountListeners = new Set<(account: Account | null) => void>();
 
 function isAccount(x: unknown): x is Account {
   const a = x as Account | null;
-  return !!a && typeof a.id === 'string' && !!a.id && typeof a.token === 'string' && !!a.token;
+  return (
+    !!a &&
+    typeof a.id === 'string' &&
+    !!a.id &&
+    typeof a.token === 'string' &&
+    !!a.token &&
+    (a.email === undefined || a.email === null || typeof a.email === 'string')
+  );
 }
 
-/** Called when an account is created or forgotten (purchases log in with our account id). */
+/** Makes `next` the account of this install (stored, and reported to the listeners). */
+async function adopt(next: Account): Promise<void> {
+  account = next;
+  await secureStore.set(ACCOUNT_KEY, JSON.stringify(next)).catch(() => {});
+  accountListeners.forEach((l) => l(next));
+}
+
+/** Called when an account is created, signed in, signed out or forgotten (purchases log in with our account id). */
 export function onAccountChange(listener: (account: Account | null) => void): () => void {
   accountListeners.add(listener);
   return () => accountListeners.delete(listener);
@@ -116,10 +133,8 @@ async function ensureAccount(): Promise<Account> {
       if (res.status !== 201) throw new HttpError(res.status);
       const body: unknown = await res.json();
       if (!isAccount(body)) throw new HttpError(res.status);
-      const created = { id: body.id, token: body.token };
-      account = created;
-      await secureStore.set(ACCOUNT_KEY, JSON.stringify(created)).catch(() => {});
-      accountListeners.forEach((l) => l(created));
+      const created: Account = { id: body.id, token: body.token, email: null };
+      await adopt(created);
       return created;
     } finally {
       creating = undefined;
@@ -198,17 +213,101 @@ export async function syncProgress(local: Progress): Promise<Progress> {
   return body;
 }
 
-/** Subscription state known to the server (RevenueCat webhooks). Undefined while there is no account. */
+/**
+ * Subscription state known to the server (RevenueCat webhooks), from GET /v1/accounts/me, which
+ * also brings the account's email up to date. Undefined while there is no account.
+ */
 export async function fetchEntitlements(): Promise<Entitlements | undefined> {
   if (!apiEnabled) return undefined;
-  const res = await authed('/v1/entitlements', {}, { create: false });
+  let res = await authed('/v1/accounts/me', {}, { create: false });
+  // A server from before email sign-in only has the entitlement route.
+  if (res?.status === 404) res = await authed('/v1/entitlements', {}, { create: false });
   if (!res) return undefined;
   if (!res.ok) throw new HttpError(res.status);
-  const body = (await res.json()) as Partial<Entitlements> | null;
+  const body = (await res.json()) as (Partial<Entitlements> & { id?: unknown; email?: unknown }) | null;
+  const acc = account;
+  if (acc && body && 'email' in body && body.id === acc.id) {
+    const email = typeof body.email === 'string' && body.email ? body.email : null;
+    if ((acc.email ?? null) !== email) await adopt({ ...acc, email });
+  }
   return {
     premium: body?.premium === true,
     premiumUntil: typeof body?.premiumUntil === 'string' ? body.premiumUntil : null,
   };
+}
+
+// ---------- email sign-in ----------
+
+export type SignInStart = 'sent' | 'invalid-email' | 'too-many' | 'unavailable' | 'offline' | 'failed';
+
+export type SignInVerify =
+  | { kind: 'ok'; email: string }
+  | { kind: 'invalid-code' | 'expired' | 'too-many' | 'unavailable' | 'offline' | 'failed' };
+
+const json = (body: unknown, init: RequestInit = {}): RequestInit => ({
+  ...init,
+  method: 'POST',
+  headers: { ...(init.headers as Record<string, string> | undefined), 'content-type': 'application/json' },
+  body: JSON.stringify(body),
+});
+
+const errorOf = async (res: Response) => String(((await res.json().catch(() => null)) as { error?: unknown } | null)?.error ?? '');
+
+/** Emails a 6-digit sign-in code (valid 10 minutes; asking again replaces the previous code). */
+export async function startEmailSignIn(email: string, l1: L1): Promise<SignInStart> {
+  if (!apiEnabled) return 'unavailable';
+  let res: Response;
+  try {
+    res = await send('/v1/auth/email/start', json({ email: email.trim().toLowerCase(), l1 }));
+  } catch {
+    return 'offline';
+  }
+  if (res.ok) return 'sent';
+  if (res.status === 400) return 'invalid-email';
+  if (res.status === 429) return 'too-many';
+  // 503: no mail service on the server; 404: a server from before email sign-in.
+  if (res.status === 503 || res.status === 404) return 'unavailable';
+  return 'failed';
+}
+
+/**
+ * Checks the code. On success this install switches to the email's account (the server has merged
+ * the anonymous account's progress into it); the caller syncs again to get the merged progress.
+ */
+export async function verifyEmailCode(email: string, code: string): Promise<SignInVerify> {
+  if (!apiEnabled) return { kind: 'unavailable' };
+  const body = { email: email.trim().toLowerCase(), code: code.trim() };
+  const current = await currentAccount();
+  let res: Response;
+  try {
+    res = await send('/v1/auth/email/verify', json(body, current ? withToken({}, current.token) : {}));
+    // A token the server no longer knows: sign in without it.
+    if (res.status === 401 && current) res = await send('/v1/auth/email/verify', json(body));
+  } catch {
+    return { kind: 'offline' };
+  }
+  if (res.status === 400) return { kind: /expired/i.test(await errorOf(res)) ? 'expired' : 'invalid-code' };
+  if (res.status === 429) return { kind: 'too-many' };
+  if (res.status === 503 || res.status === 404) return { kind: 'unavailable' };
+  if (!res.ok) return { kind: 'failed' };
+  const got = (await res.json().catch(() => null)) as { id?: unknown; token?: unknown; email?: unknown } | null;
+  const next = { id: got?.id, token: got?.token, email: typeof got?.email === 'string' ? got.email : body.email };
+  if (!isAccount(next)) return { kind: 'failed' };
+  await adopt(next);
+  return { kind: 'ok', email: next.email };
+}
+
+/**
+ * Signs this install out: the server revokes this device's token (other devices stay signed in)
+ * and the install goes back to an anonymous account, made again once there is something to sync.
+ */
+export async function signOut(): Promise<void> {
+  const acc = await currentAccount();
+  if (acc && apiEnabled) {
+    // Offline the token is only forgotten here; the server keeps it until the account is deleted.
+    await send('/v1/auth/logout', withToken({ method: 'POST' }, acc.token)).catch(() => {});
+  }
+  await forgetAccount();
 }
 
 /** "Delete my data": removes the server account with everything stored for it, then the token. */

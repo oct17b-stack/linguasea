@@ -15,6 +15,7 @@ export const PLACEHOLDER_PLANS: Plan[] = [
   { id: 'monthly', price: '฿219' },
 ];
 
-export type PurchaseResult = 'purchased' | 'cancelled' | 'pending' | 'unavailable' | 'failed';
+/** 'needs-sign-in': web only, where a subscription is tied to an email account (browser storage can be cleared). */
+export type PurchaseResult = 'purchased' | 'cancelled' | 'pending' | 'unavailable' | 'failed' | 'needs-sign-in';
 
-export type RestoreResult = 'restored' | 'nothing' | 'unavailable' | 'failed';
+export type RestoreResult = 'restored' | 'nothing' | 'unavailable' | 'failed' | 'needs-sign-in';

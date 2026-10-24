@@ -27,6 +27,9 @@ const apiKey = Platform.select({ ios: REVENUECAT_IOS_KEY, android: REVENUECAT_AN
 /** Store purchases are set up for this platform. */
 export const purchasesReady = !!apiKey;
 
+/** The stores know the learner by their Apple / Google account, so buying needs no email sign-in here (it does on the web). */
+export const purchasesNeedSignIn = false;
+
 let configured = false;
 const packages: Partial<Record<Plan['id'], PurchasesPackage>> = {};
 
@@ -114,7 +117,8 @@ export async function loadPlans(): Promise<Plan[]> {
   return PLACEHOLDER_PLANS.map(({ id }) => ({ id }));
 }
 
-export async function purchase(id: Plan['id']): Promise<PurchaseResult> {
+/** `locale` is for the web checkout; the stores use the device language. */
+export async function purchase(id: Plan['id'], _locale?: string): Promise<PurchaseResult> {
   if (!configured) return 'unavailable';
   if (!packages[id]) await loadPlans();
   const pkg = packages[id];

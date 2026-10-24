@@ -7,9 +7,11 @@
 /** LinguaSEA server, e.g. https://api.example.com. Unset: no account, sync, clips or scoring. */
 export const API_URL = clean(process.env.EXPO_PUBLIC_API_URL)?.replace(/\/+$/, '');
 
-/** RevenueCat public SDK keys. Unset (or on web): purchases are not available yet. */
+/** RevenueCat public SDK keys. Unset: purchases are not available yet on that platform. */
 export const REVENUECAT_IOS_KEY = clean(process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY);
 export const REVENUECAT_ANDROID_KEY = clean(process.env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY);
+/** RevenueCat Web Billing public key (rcb_…) for the web build (purchases.web.ts). */
+export const REVENUECAT_WEB_KEY = clean(process.env.EXPO_PUBLIC_REVENUECAT_WEB_KEY);
 
 function clean(value: string | undefined): string | undefined {
   const v = value?.trim();
