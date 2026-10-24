@@ -473,7 +473,7 @@ test('RevenueCat events for an account merged on sign-in reach the account it we
 });
 
 test('RevenueCat TRANSFER moves the subscription to our surviving account', async () => {
-  const { app, anonymous, signIn, me, id: oldId, auth: oldAuth } = await signInSetup();
+  const { app, anonymous, signIn, me, clock, id: oldId, auth: oldAuth } = await signInSetup();
   const DAY = 86_400_000;
   const hook = (event: Record<string, unknown>) =>
     app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', headers: { authorization: 'Bearer hook-secret' }, payload: { event } });
@@ -483,6 +483,7 @@ test('RevenueCat TRANSFER moves the subscription to our surviving account', asyn
   const session = await signIn('nam@example.com', fresh.auth);
   const res = await hook({ type: 'TRANSFER', transferred_from: [oldId], transferred_to: [fresh.id], event_timestamp_ms: NOW.getTime() + 1 });
   assert.deepEqual(res.json(), { ok: true, result: 'applied' });
+  clock.now = new Date(NOW.getTime() + 60_000);
   const now = (await me(session.auth)).json();
   assert.equal(now.premium, true);
   assert.equal(now.premiumUntil, new Date(NOW.getTime() + 30 * DAY).toISOString());

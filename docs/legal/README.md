@@ -1,6 +1,6 @@
 # 法律文件：隐私政策、服务条款、删除数据页
 
-> 这些文件按 App 和服务器**现在真实的做法**写成（2026-10-22），**不是法律意见**。上线前请一位泰国律师审阅隐私政策和服务条款。
+> 这些文件按 App 和服务器**现在真实的做法**写成（2026-10-22；2026-10-24 加了邮箱登录和网页版订阅），**不是法律意见**。上线前请一位泰国律师审阅隐私政策和服务条款。
 
 ## 文件和网址
 
@@ -44,19 +44,33 @@ node docs/legal/build-html.mjs --check   # 只列出还没填的占位符；有�
 
 | 事实 | 依据 | 写在哪 |
 |---|---|---|
-| 服务器只存：账号 ID、token 的哈希、创建时间、最后使用日期（每次带 token 的请求更新，每天最多写一次）；学习进度；订阅到期日和最近一次订阅事件时间；每天的功能使用次数（发音打分、AI 老师） | `server/db/schema.sql`、`server/src/app.ts`、`server/src/pg-store.ts` | 隐私 §3、§7；删除页 |
+| 服务器只存：账号 ID、token 的哈希（每台登录的设备一个）、创建时间、最后使用日期（每次带 token 的请求更新，每天最多写一次）；登录后的邮箱；待用的登录验证码（邮箱、验证码哈希、过期时间、错误次数）；学习进度；订阅到期日和最近一次订阅事件时间；每天的功能使用次数（发音打分、AI 老师） | `server/db/schema.sql`、`server/src/app.ts`、`server/src/pg-store.ts` | 隐私 §3、§7；删除页 |
+| 邮箱登录（可选）：6 位验证码经 Resend 发送，10 分钟有效，只存哈希；用过、错 5 次或重新申请后作废，过期的每天清理；每封邮箱每小时最多 5 次、每个 IP 每小时最多 20 次（计数只在内存）；每台设备一个 token，退出只撤销本机 token；匿名设备登录到已有邮箱的账号时，进度合并进去、取两者较晚的订阅到期日、删掉匿名账号（服务器保留别名，合并前的订阅续费仍记到登录账号）；删除数据会删邮箱、所有 token 和待用验证码；邮箱不用于营销 | `server/src/app.ts`（`/v1/auth/*`）、`server/src/mail.ts`、`server/src/store.ts` | 隐私摘要、§3.1、§3.2、§3.7、§4、§5、§6、§7、§8、§9；条款 §2；删除页；商店隐私问卷 |
+| 网页版在 `/app/`：token 和进度存在浏览器 local storage；没有提醒；没有广告或分析 cookie | `app/src/lib/*.web.ts` | 隐私 §2、§3.1、§3.9；删除页 |
+| 网页版订阅：必须先登录；RevenueCat Web Billing 收银、Stripe 处理付款，卡号不经过我们的服务器；我们是网页版的卖方；网页价格可以和商店不同；取消走收据邮件里的管理链接（customer portal）；退款由我们处理 | `app/src/lib/purchases.web.ts`、RevenueCat / Stripe 后台 | 隐私 §3.3、§5、§6、§7、§8；条款 §4、§8、§9、§12；删除页；网站 `support.html` |
 | 24 个月（730 天）没用过的账号连同它的全部数据每天自动删除 | `server/src/app.ts` 的 `INACTIVE_ACCOUNT_DAYS`、`server/src/main.ts` | 隐私摘要、§3.1、§7、§8；条款 §2；删除页 |
 | 录音不保存（发音打分和 AI 老师的语音回答）：服务器只在内存和临时文件里处理几秒；App 处理完删掉录音文件；Azure 没开音频日志 | `server/src/app.ts`（`/v1/pronunciation`、`/v1/transcribe`）、`server/src/transcode.ts`、`server/src/pronunciation.ts`、`app/src/lib/recording-file.ts` | 隐私 §3.4；商店隐私问卷 |
 | AI 老师：每一轮 App 把本次对话（学习者的回答和老师之前的回复）、单元、目标语和界面语言发给服务器；服务器把回答里的邮箱和电话打码，把最近最多 24 行连同单元场景和规则发给 Anthropic 的 Claude API；不发账号 ID、IP、设备信息；服务器不保存对话，App 只在本次对话期间保留；第一次使用前有同意界面（写明 Anthropic 和发送内容）；不当回复可举报，举报发到客服邮箱 | `server/src/tutor.ts`、`server/src/scenarios.ts`、`server/src/app.ts`（`/v1/tutor/turn`）、App 的 AI 老师界面 | 隐私摘要、§3.5、§3.8、§3.9、§4、§5、§6、§7、§8、§9；条款 §5、§6、§8；删除页；商店隐私问卷 |
-| 账号在第一次需要同步、打分或用 AI 老师时自动创建，没有登录；token 存在 iOS Keychain / Android Keystore | `app/src/lib/api.ts`、`app/src/lib/secure-store.ts` | 隐私 §3.1；条款 §2 |
+| 账号在第一次需要同步、打分或用 AI 老师时自动创建（匿名），登录是可选的；token 存在 iOS Keychain / Android Keystore（网页版是 local storage） | `app/src/lib/api.ts`、`app/src/lib/secure-store.ts`、`secure-store.web.ts` | 隐私 §3.1；条款 §2 |
 | 每日提醒是本地通知，不用推送服务 | `app/src/lib/reminders.ts` | 隐私 §3.9 |
 | 没有广告、数据分析、崩溃监控 SDK，没有第三方登录 | `app/package.json` | 隐私摘要、§3.10；商店隐私问卷 |
-| 服务器和 Azure Speech 在新加坡（`southeastasia`），RevenueCat 和 Anthropic 在美国 | `docs/LAUNCH.md` 第 6、7 步 | 隐私 §5、§6 |
+| 服务器和 Azure Speech 在新加坡（`southeastasia`），RevenueCat 和 Anthropic 在美国，Resend 和 Stripe 写的是"美国及其运营的其他国家" | `docs/LAUNCH.md` 第 6、7 步 | 隐私 §5、§6 |
 | Anthropic 的 API 数据不用于训练，只保留有限时间（政策里只写概括说法，没写天数） | Anthropic 商业条款（上线前核对，见下一节） | 隐私 §3.5、§7；删除页 |
 | 日志最多 90 天、备份最多 30 天、客服邮件（含 AI 回复举报）最多 2 年 | 托管和数据库的设置（`docs/LAUNCH.md` 第 7 步） | 隐私 §7；删除页 |
-| 免费 = 各语言 A 阶段 + 每天有限次发音打分和 AI 老师；Premium = 付费阶段（现在是 B）+ 更多次数；年付 7 天免费试用 | `packages/core/src/access.ts`、`server/.env.example`（`PRONUNCIATION_*_PER_DAY`、`TUTOR_*_PER_DAY`）、商店商品设置 | 条款 §3、§4；商店文案 |
+| 免费 = 各语言 A 阶段 + 每天有限次发音打分和 AI 老师；Premium = 付费阶段（现在是 B–F）+ 更多次数；年付 7 天免费试用 | `packages/core/src/access.ts`、`server/.env.example`（`PRONUNCIATION_*_PER_DAY`、`TUTOR_*_PER_DAY`）、商店商品设置 | 条款 §3、§4；商店文案 |
 | App 里的入口文字：ตั้งค่า → ลบข้อมูลของฉัน（Settings → Delete my data）、กู้คืนการซื้อ（Restore purchases） | App 设置页和付费墙（`content/l1/th/ui.json`） | 隐私 §9；条款 §2、§4；删除页 |
 | 用户 13 岁以上 | 产品决定 | 隐私 §10；条款 §1；年龄分级 |
+
+## 待确认的决定（请律师 / 店主确认）
+
+加网页版订阅时写进条款的四条承诺，是起草时替你定的，上线前请确认或改掉（改了要同步改条款泰文和英文版）：
+
+1. **网页版由我们自己销售**（我们是卖方，Stripe 替我们收款）——条款 §4.1。
+2. **网页版退款规则**：误扣（重复扣款、按时取消后仍被扣）或 Premium 无法使用且我们修不好的，退还那一笔；其他情况取消后用到当期结束，不退当期剩余部分，法律要求的除外；退回原付款方式——条款 §4.5。
+3. **网页版涨价提前 30 天邮件通知**，从之后的第一次续费开始生效——条款 §4.6。
+4. **停止服务时，网页版订阅退还已付但未用完的部分**——条款 §9。
+
+另外隐私 §7 和删除页写了：网页版付款记录（在 RevenueCat / Stripe 后台）按税务、会计等法律要求保存，删除 App 数据后也不删。具体年限请律师确认。
 
 ## 上线前核对（店主）
 
@@ -81,10 +95,12 @@ node docs/legal/build-html.mjs --check   # 只列出还没填的占位符；有�
 
 ### 加 Apple / Google / LINE 登录
 
-- 隐私政策：§3.1 改成账号绑定登录方式，写明从各家拿到什么：Apple（用户 ID，可选的姓名和邮箱或中转邮箱）、Google（账号 ID、姓名、邮箱、头像）、LINE（用户 ID、显示名、头像；邮箱要另外申请权限）；§5、§6 加 LINE 的运营方（LY Corporation，日本）等；§9 删除账号时也解除登录绑定；删掉摘要里"不需要姓名、邮箱"。
+（邮箱 + 验证码登录已经上线并写进文件；下面是再加第三方登录时要做的。）
+
+- 隐私政策：§3.1 在邮箱登录之外加上这些登录方式，写明从各家拿到什么：Apple（用户 ID，可选的姓名和邮箱或中转邮箱）、Google（账号 ID、姓名、邮箱、头像）、LINE（用户 ID、显示名、头像；邮箱要另外申请权限）；§5、§6 加 LINE 的运营方（LY Corporation，日本）等；§9 删除账号时也解除登录绑定；摘要里"不需要姓名、邮箱也能用"要相应改写。
 - iOS：提供 Google 或 LINE 登录时，必须同时提供"通过 Apple 登录"或同等保护隐私的登录方式（审核指南 4.8）；删除账号时要调用 Apple 的接口撤销 Sign in with Apple 的 token。
-- 条款 §2：进度改为跟账号走，不再只在一台设备上。删除页：说明登录信息也会删除；邮件申请可以用登录邮箱核实身份。
-- 商店：Apple 勾 Contact Info → Name、Email Address；Google 勾 Personal info → Name、Email address、User IDs，账号创建方式改为 OAuth。
+- 条款 §2、删除页：加上新的登录方式（进度跟账号走、邮件申请用登录邮箱核实身份，邮箱登录已经写了）。
+- 商店：Apple 再勾 Contact Info → Name（Email Address 已经勾了）；Google 再勾 Personal info → Name、User IDs，账号创建方式加 OAuth。
 
 ### AI 老师的做法改变时
 
@@ -123,8 +139,8 @@ node docs/legal/build-html.mjs --check   # 只列出还没填的占位符；有�
 ## 收到隐私请求怎么办
 
 1. **记录**：收到日期、对方要求什么、回复日期（记录最多保存 2 年）。
-2. **找到数据**：App 没有登录，数据只和随机账号 ID 关联。对方给了订单号的，在 RevenueCat 后台按订单号 / 交易号搜客户，客户的 App User ID 就是我们的账号 ID（搜不到可以请 RevenueCat 支持协助）。没有任何能定位的信息时，如实告诉对方我们无法确认哪份数据属于他，并建议以后在 App 里用"设置 → 删除我的数据"。
-3. **删除**：请开发者在数据库执行 `delete from accounts where id = '<账号 ID>';`（progress、entitlements、usage 会一起删除）。对方要求的话，在 RevenueCat 后台该客户页面删除客户（Delete customer）。
+2. **找到数据**：用户登录过的，按邮箱找账号（`select id from accounts where email = '<小写邮箱>';`），先请对方从这个邮箱确认请求。没登录过的，数据只和随机账号 ID 关联：对方给了订单号的，在 RevenueCat 后台按订单号 / 交易号搜客户，客户的 App User ID 就是我们的账号 ID（搜不到可以请 RevenueCat 支持协助）。没有任何能定位的信息时，如实告诉对方我们无法确认哪份数据属于他，并建议以后在 App 里用"设置 → 删除我的数据"。
+3. **删除**：请开发者走和 App 里"删除我的数据"同样的删除逻辑（`store.deleteAccount`：token、邮箱和待用验证码、progress、entitlements、usage 一起删除）。对方要求的话，在 RevenueCat 后台该客户页面删除客户（Delete customer）；网页版订阅的付款记录（Stripe）按法律要求保存，删除前先问律师。
 4. **查看 / 导出**：请开发者导出 `progress.data`（JSON）、`entitlements` 和 `usage` 里这个账号的行，发给对方。
 5. **30 天内回复**。不能照办的（例如法律要求保留）要说明理由，并记录。
 6. **AI 回复举报**：看被举报的回复；同类问题反复出现时，请开发者调整 AI 老师的规则（`server/src/tutor.ts`）。举报邮件和其他邮件一样最多保存 2 年。
@@ -137,5 +153,5 @@ node docs/legal/build-html.mjs --check   # 只列出还没填的占位符；有�
 - 保存期限：服务器日志最多 90 天；数据库备份最多 30 天；客服邮件（含 AI 回复举报）最多 2 年；账号数据保留到用户删除、24 个月不用自动删除，或停止服务。
 - 责任上限：过去 12 个月支付的费用和 1,000 泰铢两者中较高者（死亡、人身伤害、欺诈、故意或重大过失不受限制）。
 - 条款重大修改提前 30 天在 App 内通知；停止服务提前 30 天通知。
-- 隐私请求 30 天内回复；App 外的删除申请靠商店订单号来定位数据。
+- 隐私请求 30 天内回复；App 外的删除申请：登录过的用登录邮箱核实，没登录过的靠商店订单号来定位数据。
 - App 设置页里"删除我的数据"的文字用 ตั้งค่า → ลบข้อมูลของฉัน（Settings → Delete my data），开发者做界面时要用同样的文字。
