@@ -1,4 +1,4 @@
-// npm run audio -- [--target zh] [--dry-run] [--prune]   (docs/AUDIO.md)
+// npm run audio -- [--target zh] [--stage A] [--dry-run] [--prune]   (docs/AUDIO.md)
 import { join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -43,5 +43,5 @@ if (args.dryRun) {
   console.log(`Azure AI Speech, region ${name} (key from ${from}).`);
 }
 
-const report = await run({ contentRoot, targets: args.targets, azure, prune: args.prune });
+const report = await run({ contentRoot, targets: args.targets, stages: args.stages, azure, prune: args.prune });
 process.exitCode = report.failures.length || report.aborted ? 1 : 0;

@@ -47,7 +47,12 @@ export function recordingPath(path: string): string | undefined {
  * each dialogue line in its speaker's voice, each reader sentence in the item voice. Items with `audio`
  * are also listed as recordings.
  */
-export function collectClips(loaded: Loaded, targets: readonly Target[] = TARGETS): Collected {
+export function collectClips(
+  loaded: Loaded,
+  targets: readonly Target[] = TARGETS,
+  /** Only lessons whose id passes (e.g. one stage); default all. */
+  include: (lessonId: string) => boolean = () => true,
+): Collected {
   const clips: Clip[] = [];
   const recordings: Recording[] = [];
   const warnings: string[] = [];
@@ -72,6 +77,7 @@ export function collectClips(loaded: Loaded, targets: readonly Target[] = TARGET
     };
 
     for (const lesson of course.lessons.values()) {
+      if (!include(lesson.id)) continue;
       for (const item of lesson.items) {
         const where = `${lesson.id} ${item.id}`;
         const text = spoken(item);

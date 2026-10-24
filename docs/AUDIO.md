@@ -37,6 +37,7 @@
 npm run audio -- --dry-run      # 只统计：缺多少段、多少字符、估计多少钱（没有密钥时默认就是这样）
 npm run audio                   # 生成缺少的音频，并更新 manifest
 npm run audio -- --target zh    # 只处理中文课
+npm run audio -- --stage A      # 只生成 A 阶段用到的（可以写多个 --stage；其余继续用设备 TTS）
 npm run audio -- --prune        # 同时删掉不再用到的旧文件（可以和 --dry-run 一起用，先看会删几个）
 npm run content                 # 把 manifest 打进 App 内容包
 ```
@@ -48,6 +49,10 @@ npm run content                 # 把 manifest 打进 App 内容包
 ## 费用（估算）
 
 Azure 神经网络语音大约 **US$16 / 100 万字符**。这只是估算，以 Azure 官网价格为准。计费时每个汉字（包括日文汉字）算 2 个字符，SSML 里的 `<prosody>` 标记也算钱，`--dry-run` 显示的"billable"已经把这些算进去了。四门课 A–F 全部写完共约 39,400 段、约 213 万计费字符，一次性约 US$35（2026-10 统计）。以后只改了几课时，再跑一次只生成改动的那几段。
+
+### 先用免费层（F0）
+
+F0 每月约 50 万计费字符。四门课各阶段大约需要（2026-10 统计）：A 13 万、B 20 万、C 32 万、D 42 万，E、F 更多，合计约 213 万。所以先用免费层测试时按阶段分月跑：第 1 个月 `--stage A --stage B`，之后每月一个阶段（C、D，E、F 可能要再分课程 `--target`）；测试通过、决定付费后把资源改成 S0，一次跑完剩下的（约 US$30）。每次跑之前先加 `--dry-run` 看本次的计费字符数。
 
 ## 文件放在哪
 

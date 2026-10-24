@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync, rmSync, statSync } from 'node:fs
 import { mkdir, rename, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 
-import { Target, TARGETS } from '@linguasea/contract';
+import { Stage, STAGES, Target, TARGETS } from '@linguasea/contract';
 import { loadContent, validate } from '@linguasea/contract/node';
 
 import { billableChars, synthesize, SynthesisError, Throttle, type AzureConfig, type SynthesizeOptions } from './azure';
@@ -18,11 +18,11 @@ const GENERATED = /^[0-9a-f]{16}\.mp3(\.\d+\.tmp)?$/;
 /** Stop after this many failed clips; finished clips are kept and the next run picks up the rest. */
 const MAX_FAILED = 10;
 
-export const USAGE = 'usage: npm run audio -- [--target zh|en|ja|ko] [--dry-run] [--prune]';
+export const USAGE = 'usage: npm run audio -- [--target zh|en|ja|ko] [--stage A] [--dry-run] [--prune]';
 
 export class UsageError extends Error {}
 
-export type Args = { targets?: Target[]; dryRun: boolean; prune: boolean; help: boolean };
+export type Args = { targets?: Target[]; stages?: Stage[]; dryRun: boolean; prune: boolean; help: boolean };
 
 export function parseArgs(argv: readonly string[]): Args {
   const args: Args = { dryRun: false, prune: false, help: false };
@@ -36,6 +36,11 @@ export function parseArgs(argv: readonly string[]): Args {
       const target = Target.safeParse(value);
       if (!target.success) throw new UsageError(`--target must be one of ${TARGETS.join(', ')}`);
       (args.targets ??= []).push(target.data);
+    } else if (a === '--stage' || a.startsWith('--stage=')) {
+      const value = a === '--stage' ? argv[++i] : a.slice('--stage='.length);
+      const stage = Stage.safeParse(value?.toUpperCase());
+      if (!stage.success) throw new UsageError(`--stage must be one of ${STAGES.join(', ')}`);
+      (args.stages ??= []).push(stage.data);
     } else throw new UsageError(`unknown option ${a}`);
   }
   return args;
@@ -46,6 +51,11 @@ export type RunOptions = {
   /** Default <contentRoot>/audio, which the server serves at /audio/. */
   audioRoot?: string;
   targets?: readonly Target[];
+  /**
+   * Only synthesize clips used in these stages (e.g. stage A first on Azure's free tier);
+   * the manifest still lists every clip that exists, and the rest keep using device TTS.
+   */
+  stages?: readonly Stage[];
   /** Without it this is a dry run: nothing is synthesized, written or deleted. */
   azure?: AzureConfig;
   prune?: boolean;
@@ -131,6 +141,10 @@ export async function run(opts: RunOptions): Promise<RunReport> {
   const problems = validate(loaded);
   const problemsIn = (t: Target) => problems.filter((p) => p.file.startsWith(`courses/${t}/`)).length;
   const { clips, recordings, warnings } = collectClips(loaded, targets);
+  const stages = opts.stages;
+  const inStages = stages
+    ? new Set(collectClips(loaded, targets, (id) => stages.includes(id.split('-')[1][0] as Stage)).clips.map((c) => c.file))
+    : undefined;
   for (const t of wanted) if (!loaded.targets.has(t)) warnings.push(`courses/${t}: no course loaded, skipped`);
 
   // A recording that exists replaces generated speech for its key; until it exists, TTS stays.
@@ -142,8 +156,9 @@ export async function run(opts: RunOptions): Promise<RunReport> {
       else warnings.push(`${r.where}: recording ${r.file} is not in content/audio yet; using generated speech`);
     }
     const tts = clips.filter((c) => c.target === target && !recorded.has(c.key));
-    const missing = tts.filter((c) => !isFile(join(audioRoot, c.file)));
-    return { target, problems: problemsIn(target), tts, recorded, missing };
+    const absent = tts.filter((c) => !isFile(join(audioRoot, c.file)));
+    const missing = inStages ? absent.filter((c) => inStages.has(c.file)) : absent;
+    return { target, problems: problemsIn(target), tts, recorded, absent, missing };
   });
 
   for (const w of warnings) log(`warning: ${w}`);
@@ -228,7 +243,7 @@ export async function run(opts: RunOptions): Promise<RunReport> {
       problems: p.problems,
       clips: p.tts.length + p.recorded.size,
       recorded: p.recorded.size,
-      present: p.tts.length - p.missing.length,
+      present: p.tts.length - p.absent.length,
       missing: p.missing.length,
       chars: sum(p.missing, (c) => [...c.text].length),
       billable: sum(p.missing, (c) => billableChars(c.azure, c.text)),

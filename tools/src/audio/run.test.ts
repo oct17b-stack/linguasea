@@ -235,11 +235,28 @@ describe('run', () => {
   });
 });
 
+describe('stages', () => {
+  it('--stage only synthesizes clips of those stages; the rest stay on device TTS', async () => {
+    const { root } = content();
+    const none = fakeAzure();
+    const b = await runWith(root, { fetch: none.fetch, stages: ['B'] });
+    expect(none.requests).toEqual([]);
+    expect(b.courses.map((c) => [c.missing, c.manifest])).toEqual([
+      [0, 0],
+      [0, 0],
+    ]);
+    const all = fakeAzure();
+    await runWith(root, { fetch: all.fetch, stages: ['A'] });
+    expect(all.requests).toHaveLength(11);
+  });
+});
+
 describe('parseArgs', () => {
   it('reads --target, --dry-run and --prune', () => {
     expect(parseArgs([])).toEqual({ dryRun: false, prune: false, help: false });
     expect(parseArgs(['--target', 'zh', '--dry-run', '--prune'])).toEqual({ targets: ['zh'], dryRun: true, prune: true, help: false });
     expect(parseArgs(['--target=ko']).targets).toEqual(['ko']);
+    expect(parseArgs(['--stage', 'a', '--stage=B']).stages).toEqual(['A', 'B']);
   });
 
   it('rejects unknown courses and options', () => {
