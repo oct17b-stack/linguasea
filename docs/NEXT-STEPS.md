@@ -1,6 +1,6 @@
 # 下一步备忘（给店主和接手的 AI）
 
-> 2026-10-25 写。接手的 AI：先读本文件，再读 docs/HANDOVER.md 和 docs/ROADMAP.md。代码在 GitHub 仓库 `panchitamuangpasi-cell/test` 的分支 `claude/repo-reference-0uxm8x`。
+> 2026-10-25 写。接手的 AI：先读本文件，再读 docs/HANDOVER.md 和 docs/ROADMAP.md。代码在 GitHub 仓库 `oct17b-stack/linguasea` 的 `main` 分支（2026-10-25 从 `panchitamuangpasi-cell/test` 迁来，含全部历史）。
 
 ## 现在的状态（一句话）
 
@@ -59,4 +59,4 @@
 - 用中文回复店主；除了账号、密钥、付款、商店后台，其他决定自己做，不用问。
 - 先 `npm install`、`npm run check`；改了界面跑 `npm run e2e`。约定和命令都在 CLAUDE.md。
 - 跑配音的具体步骤：docs/HANDOVER.md 第 6 节、docs/AUDIO.md「先用免费层」。
-- 每次改完提交并推送到上面的分支。
+- 每次改完提交并推送到上面的仓库和分支。
