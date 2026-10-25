@@ -1,6 +1,6 @@
 # 开发约定（给接手的开发者 / AI）
 
-用户说中文，回复一律用中文。**接手先读 docs/NEXT-STEPS.md（下一步备忘）、docs/HANDOVER.md（交接文档：用户要求、现状、已知问题）和 docs/ROADMAP.md（路线图）。** 产品方案在 docs/PLAN.md，内容规范在 docs/CONTENT.md，上线清单在 docs/LAUNCH.md，用智能体批量写课 / 审校的流水线和提示词在 docs/prompts/。
+用户说中文，回复一律用中文。**接手先读 docs/NEXT-STEPS.md（下一步备忘）、docs/TEST-REPORT.md（最近一次综合测试结果和没修的问题）、docs/HANDOVER.md（交接文档：用户要求、现状、已知问题）和 docs/ROADMAP.md（路线图）。** 产品方案在 docs/PLAN.md，内容规范在 docs/CONTENT.md，上线清单在 docs/LAUNCH.md，用智能体批量写课 / 审校的流水线和提示词在 docs/prompts/。
 
 ## 仓库结构
 
@@ -46,7 +46,7 @@ cd server && npm run dev           # 后端（不配 DATABASE_URL 时用内存�
 npm run e2e                        # 端到端测试（网页版 + 真服务器 + 浏览器）
 ```
 
-改了 App 界面要用网页版实际点一遍：`npm run e2e`（先 `npm run content`）会起真服务器、打包网页版、用 Playwright 把主要流程走一遍（选课、上课、同步、AI 老师、付费墙、分级测试、练习、单元测验、读物、复习、删除数据），逐项打印 PASS/FAIL。打包要几分钟；反复跑时可以先用 `EXPO_PUBLIC_API_URL=http://127.0.0.1:<端口>` 打包一次，再用 `E2E_DIST=<目录> E2E_API_PORT=<端口> npm run e2e`；`E2E_SHOTS=<目录>` 保存截图。工具函数在 `tests/e2e/harness.mjs`。
+改了 App 界面要用网页版实际点一遍：`npm run e2e`（先 `npm run content`）会起真服务器、打包网页版、用 Playwright 把主要流程走一遍（选课、上课、同步、AI 老师、付费墙、分级测试、练习、单元测验、读物、复习、删除数据），逐项打印 PASS/FAIL。打包要几分钟；反复跑时可以先用 `EXPO_PUBLIC_API_URL=http://127.0.0.1:<端口>` 打包一次，再用 `E2E_DIST=<目录> E2E_API_PORT=<端口> npm run e2e`；`E2E_SHOTS=<目录>` 保存截图。工具函数在 `tests/e2e/harness.mjs`。检查分两个文件：`run.mjs`（主要流程）和 `screens.mjs`（四门课、直接输网址、屏幕尺寸、按钮、进度条）。云端容器里 Playwright 要的浏览器版本对不上时会自动用 `/opt/pw-browsers/chromium`，也可以设 `E2E_CHROMIUM=<路径>`。
 
 ## 写内容的流程
 

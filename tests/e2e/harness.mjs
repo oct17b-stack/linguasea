@@ -1,7 +1,7 @@
 // End-to-end harness: the real API server (in-memory store), the web build of the app pointed at it,
 // and a headless Chromium. Used by run.mjs; no test framework needed.
 import { execFileSync, spawn } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { readFile, stat } from 'node:fs/promises';
 import { createServer } from 'node:http';
 import { createServer as createNetServer } from 'node:net';
@@ -135,9 +135,9 @@ export async function serveStatic(dir, base = '/app') {
   return { url: `${origin}${base}/`, origin, stop: () => server.close() };
 }
 
-/** A phone-sized page that records console errors and failed requests. */
-export async function openPage(browser, { colorScheme = 'light' } = {}) {
-  const context = await browser.newContext({ viewport: { width: 390, height: 844 }, colorScheme, locale: 'th-TH' });
+/** A phone-sized page (or `viewport`) that records console errors and failed requests. */
+export async function openPage(browser, { colorScheme = 'light', viewport = { width: 390, height: 844 } } = {}) {
+  const context = await browser.newContext({ viewport, colorScheme, locale: 'th-TH' });
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));
@@ -145,4 +145,12 @@ export async function openPage(browser, { colorScheme = 'light' } = {}) {
   return { context, page, errors };
 }
 
-export const launch = () => chromium.launch();
+/**
+ * Headless Chromium. E2E_CHROMIUM picks a browser binary; otherwise Playwright's own, and when that one
+ * is not installed (a container with a different Playwright's browsers), /opt/pw-browsers/chromium.
+ */
+export function launch() {
+  let executablePath = process.env.E2E_CHROMIUM || undefined;
+  if (!executablePath && !existsSync(chromium.executablePath()) && existsSync('/opt/pw-browsers/chromium')) executablePath = '/opt/pw-browsers/chromium';
+  return chromium.launch(executablePath ? { executablePath } : {});
+}

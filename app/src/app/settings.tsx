@@ -172,7 +172,7 @@ export default function Settings() {
             <Pressable
               key={b.l1}
               accessibilityRole="radio"
-              accessibilityState={{ selected: b.l1 === l1 }}
+              aria-checked={b.l1 === l1}
               onPress={() => setL1(b.l1)}
               style={[styles.row, styles.option, { borderColor: b.l1 === l1 ? c.primary : 'transparent' }]}>
               <ThemedText style={styles.flex}>{b.name}</ThemedText>

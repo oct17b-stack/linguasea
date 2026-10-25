@@ -126,7 +126,7 @@ export default function Paywall() {
         <Pressable
           key={p.id}
           accessibilityRole="radio"
-          accessibilityState={{ selected: plan === p.id }}
+          aria-checked={plan === p.id}
           onPress={() => setPlan(p.id)}
           style={[styles.plan, { borderColor: plan === p.id ? c.primary : c.border }]}>
           <ThemedText type="smallBold">{t(`paywall.${p.id}`)}</ThemedText>

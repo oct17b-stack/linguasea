@@ -10,8 +10,9 @@ import { mkdirSync, mkdtempSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { AUDIO_PROBE, answer, answerKey, footer, play } from './answers.mjs';
+import { AUDIO_PROBE, answer, answerKey, clipPath, footer, play } from './answers.mjs';
 import { buildWeb, launch, openPage, root, serveStatic, startApi, t } from './harness.mjs';
+import { screens } from './screens.mjs';
 
 // ---------- content, as the app sees it ----------
 const generated = join(root, 'app/src/content/generated');
@@ -42,8 +43,8 @@ const web = await serveStatic(dist);
 const browser = await launch();
 
 let current; // the page under test, for a screenshot when something throws
-async function newPage(seed) {
-  const session = await openPage(browser);
+async function newPage(seed, options) {
+  const session = await openPage(browser, options);
   const { page } = session;
   current = page;
   await page.addInitScript(AUDIO_PROBE);
@@ -271,7 +272,8 @@ try {
     const sentence = en.lessons[reader].lesson.passage[0][0];
     check('reader shows the reading under each sentence', (await page.getByText(sentence.reading, { exact: true }).count()) === 1);
     await page.getByRole('button', { name: sentence.text }).click();
-    check('tapping a sentence reads it aloud', await until(() => page.evaluate((s) => (window.__audio ?? []).some((a) => a.text === s), sentence.text)));
+    const heard = async () => (await page.evaluate(() => window.__audio ?? [])).some((a) => (a.kind === 'clip' ? key.clipText.get(clipPath(a.src)) : a.text) === sentence.text);
+    check('tapping a sentence reads it aloud', await until(heard));
     await shot(page, '09-reader');
     let asked = false;
     await play(page, key, 'right', {
@@ -367,6 +369,9 @@ try {
     await one.context.close();
     await two.context.close();
   }
+
+  // ---------- 5–12. Every course, audio, progress bars, deep links, layout, settings, tutor (screens.mjs) ----------
+  await screens({ web, api, newPage, check, shot, state, until, realErrors, course, unitsOf });
 } catch (e) {
   check(`unexpected error: ${e.message.split('\n')[0]}`, false);
   console.error(e);

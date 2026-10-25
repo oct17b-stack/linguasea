@@ -140,7 +140,7 @@ function StageHeader({
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityState={{ expanded: open }}
+      aria-expanded={open}
       onPress={onToggle}
       style={({ pressed }) => [styles.stageHead, { opacity: pressed ? 0.7 : 1 }]}>
       <View style={styles.flex}>

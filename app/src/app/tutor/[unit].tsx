@@ -1,6 +1,6 @@
 import type { CourseBundle, Target } from '@linguasea/contract';
 import Constants from 'expo-constants';
-import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { Redirect, router, Stack, useLocalSearchParams } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import {
   ActivityIndicator,
@@ -44,7 +44,9 @@ const PRIVACY_SECTION = { th: '35-บทสนทนากับครู-ai', e
 export default function TutorScreen() {
   const { unit } = useLocalSearchParams<{ unit: string }>();
   const { target, course, tutorConsent, t } = useApp();
-  if (!course || !target || !course.course.stages.some((s) => s.units.some((u) => u.id === unit))) return null;
+  if (!course || !target) return null;
+  // An unknown unit (a typed or stale URL on the web) has nothing to talk about.
+  if (!course.course.stages.some((s) => s.units.some((u) => u.id === unit))) return <Redirect href="/" />;
   const title = course.gloss.units[unit]?.title ?? unit;
   return (
     <>
@@ -287,7 +289,7 @@ function Chat({ course, target, unitId }: { course: CourseBundle; target: Target
                 <Pressable
                   accessibilityRole="button"
                   accessibilityLabel={t('tutor.hint')}
-                  accessibilityState={{ expanded: hint }}
+                  aria-expanded={hint}
                   onPress={() => setHint((h) => !h)}
                   style={[styles.roundButton, { backgroundColor: c.backgroundElement }]}>
                   <ThemedText style={styles.roundIcon}>💡</ThemedText>

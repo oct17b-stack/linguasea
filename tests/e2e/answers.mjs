@@ -21,7 +21,9 @@ export function answerKey(course) {
       if (g) questionAnswer.set(g.prompt, g.options[q.answer]);
     });
   }
-  return { meaningOf, textsOf, lineMeaning, questionAnswer };
+  // Generated clips (served at /audio/<path>) → the text they speak.
+  const clipText = new Map(Object.entries(course.audio ?? {}).map(([k, path]) => [path, k.slice(k.indexOf('|') + 1)]));
+  return { meaningOf, textsOf, lineMeaning, questionAnswer, clipText };
 }
 
 /** Records speech synthesis and <audio> playback, so tests know what the learner just heard. */
@@ -60,9 +62,17 @@ async function options(page) {
     .filter((o) => o.label && !skip.has(o.label) && !o.label.startsWith('▶'));
 }
 
-async function lastSpoken(page) {
+/** The path under /audio/ of a clip URL ("zh/abc.mp3"), or undefined for other URLs. */
+export const clipPath = (src) => {
+  const m = /\/audio\/(.+)$/.exec(src ? new URL(src).pathname : '');
+  return m ? decodeURIComponent(m[1]) : undefined;
+};
+
+/** What the learner heard last: a TTS text, or the text of the generated clip that played. */
+async function lastSpoken(page, key) {
   const audio = await page.evaluate(() => window.__audio ?? []);
-  return [...audio].reverse().find((a) => a.kind === 'tts')?.text;
+  const last = [...audio].reverse().find((a) => a.kind === 'tts' || a.kind === 'clip');
+  return last?.kind === 'clip' ? key.clipText.get(clipPath(last.src)) : last?.text;
 }
 
 /** Answers the question on screen, right or wrong; returns false when there was none. */
@@ -74,12 +84,12 @@ export async function answer(page, key, mode = 'right') {
   if (await page.getByText(`❓ ${t('step.question')}`).count()) {
     for (const [prompt, label] of key.questionAnswer) if (await shown(prompt)) right = label;
   } else if (await page.getByText(t('step.line'), { exact: true }).count()) {
-    right = key.lineMeaning.get(await lastSpoken(page));
+    right = key.lineMeaning.get(await lastSpoken(page, key));
   } else if (opts.some((o) => key.meaningOf.has(o.label))) {
     // Answers are target-language text: the one whose meaning is the prompt, or the one heard.
     for (const o of opts) if (key.meaningOf.has(o.label) && (await shown(key.meaningOf.get(o.label)))) right = o.label;
     if (!right) {
-      const heard = await lastSpoken(page);
+      const heard = await lastSpoken(page, key);
       if (opts.some((o) => o.label === heard)) right = heard;
     }
   } else {
@@ -87,7 +97,7 @@ export async function answer(page, key, mode = 'right') {
     for (const o of opts) {
       for (const text of key.textsOf.get(o.label) ?? []) if (await shown(text)) right = o.label;
     }
-    right ??= key.meaningOf.get(await lastSpoken(page));
+    right ??= key.meaningOf.get(await lastSpoken(page, key));
   }
   const pick = mode === 'right' ? opts.find((o) => o.label === right) : opts.find((o) => o.label !== right);
   await (pick ?? opts[0]).el.click();

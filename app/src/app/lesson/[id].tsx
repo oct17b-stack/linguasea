@@ -1,6 +1,7 @@
 import type { CourseBundle } from '@linguasea/contract';
 import {
   buildSteps,
+  nodeAccess,
   practiceSteps,
   STUDY_MINUTES,
   UNIT_TEST_PASS,
@@ -11,7 +12,7 @@ import {
   type PathNode,
   type Step,
 } from '@linguasea/core';
-import { router, useLocalSearchParams } from 'expo-router';
+import { Redirect, router, useLocalSearchParams } from 'expo-router';
 import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/button';
@@ -52,12 +53,16 @@ function stepsFor(course: CourseBundle, node: PathNode, t: T): Step[] {
 
 export default function LessonScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { l1, course: current } = useApp();
+  const { l1, course: current, progress, premium } = useApp();
   const course = current?.course.target === targetOf(id) ? current : loadCourse(l1, targetOf(id));
   const node = course ? pathNode(course.course, id) : undefined;
+  // Checked once on arrival (a typed or reloaded URL on the web skips the map): finishing the lesson
+  // or a subscription update meanwhile must not take the learner out of it.
+  const [access] = useState(() => (course && node ? nodeAccess(course.course, node, progress.completed, premium) : undefined));
   // A failed unit test starts over with new questions.
   const [attempt, setAttempt] = useState(0);
-  if (!course || !node) return null;
+  if (!course || !node || access === 'locked') return <Redirect href="/" />;
+  if (access === 'premium') return <Redirect href="/paywall" />;
   return <Activity key={attempt} course={course} node={node} onRetry={() => setAttempt((a) => a + 1)} />;
 }
 
