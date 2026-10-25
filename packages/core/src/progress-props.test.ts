@@ -3,6 +3,7 @@ import { afterEach, describe, expect, it } from 'vitest';
 
 import {
   completeLesson,
+  creditXp,
   currentStreak,
   dayKey,
   dueItems,
@@ -213,6 +214,33 @@ describe('mergeProgress (sync between devices)', () => {
     const a = reviewItem(base, 'zh.a', true, at);
     const b = reviewItem(base, 'zh.a', false, at);
     expect(mergeProgress(a, b).cards['zh.a']).toEqual(mergeProgress(b, a).cards['zh.a']);
+  });
+
+  it('adds up XP two devices earned offline, once', () => {
+    const base = { ...emptyProgress(), xp: 100 };
+    const earn = (p: Progress, device: string, lessonId: string, results: Record<string, boolean>) =>
+      creditXp(p, completeLesson(p, lessonId, results, T0), device);
+    const phone = earn(base, 'phone', 'zh-A1-01', { 'zh.a': true, 'zh.b': true }); // +12
+    const tablet = earn(base, 'tablet', 'zh-A1-02', {}); // +10
+    const m = mergeProgress(phone, tablet);
+    expect(m.xp).toBe(122);
+    expect(mergeProgress(tablet, phone)).toEqual(m);
+    // Syncing again (or with the server's copy of either side) adds nothing.
+    expect(mergeProgress(m, phone).xp).toBe(122);
+    expect(mergeProgress(mergeProgress(m, tablet), m)).toEqual(m);
+    // The phone goes on from the merged state; the tablet's old copy doesn't undo it.
+    const more = earn(m, 'phone', 'zh-A1-03', {});
+    expect(mergeProgress(more, tablet).xp).toBe(132);
+    // Survives storage as JSON.
+    expect(mergeProgress(JSON.parse(JSON.stringify(more)), tablet)).toEqual(mergeProgress(more, tablet));
+  });
+
+  it('keeps the old single-number XP form until a device earns XP', () => {
+    const a = { ...emptyProgress(), xp: 40 };
+    const b = { ...emptyProgress(), xp: 70 };
+    expect(mergeProgress(a, b)).not.toHaveProperty('xpBy');
+    expect(mergeProgress(a, b).xp).toBe(70);
+    expect(creditXp(a, a, 'phone')).toBe(a);
   });
 
   it('joins streaks of days that run on from each other', () => {

@@ -10,6 +10,11 @@ export type Progress = {
   /** itemId → review card. Item ids never change, so cards survive content updates. */
   cards: Record<string, StoredCard>;
   xp: number;
+  /**
+   * XP earned on each device (its install id; "" = earned before this was recorded), so XP two
+   * devices earn offline adds up when they sync instead of one side's gain being lost. `xp` is the sum.
+   */
+  xpBy?: Record<string, number>;
   streak: { count: number; lastDay?: string };
 };
 
@@ -150,9 +155,29 @@ function mergeStreak(a: Progress['streak'], b: Progress['streak']): Progress['st
   return { count, lastDay: hi.lastDay };
 }
 
+/** XP per device, with XP not yet credited to any device under "". */
+function xpParts(p: Progress): Record<string, number> {
+  const by = { ...p.xpBy };
+  const rest = p.xp - Object.values(by).reduce((n, v) => n + v, 0);
+  if (rest > 0) by[''] = (by[''] ?? 0) + rest;
+  return by;
+}
+
+/**
+ * Credits the XP gained between `before` and `after` (e.g. a finished lesson) to this device, so a
+ * later merge with another device's progress counts it once and keeps it.
+ */
+export function creditXp(before: Progress, after: Progress, device: string): Progress {
+  const gained = after.xp - before.xp;
+  if (gained <= 0) return after;
+  const by = xpParts(before);
+  return { ...after, xpBy: { ...by, [device]: (by[device] ?? 0) + gained } };
+}
+
 /**
  * Combines progress from two devices (or device + server) without losing work:
- * lessons stay done, each card keeps its most recent review, XP keeps the higher one and streaks
+ * lessons stay done, each card keeps its most recent review, each device's XP keeps its higher count
+ * and the total is their sum, and streaks
  * of days that run on from each other add up (see mergeStreak).
  */
 export function mergeProgress(a: Progress, b: Progress): Progress {
@@ -165,7 +190,12 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
     const other = cards[id];
     if (!other || newerCard(card, other)) cards[id] = card;
   }
-  return { version: 1, completed, cards, xp: Math.max(a.xp, b.xp), streak: mergeStreak(a.streak, b.streak) };
+  const xpBy = xpParts(b);
+  for (const [device, n] of Object.entries(xpParts(a))) xpBy[device] = Math.max(xpBy[device] ?? 0, n);
+  const xp = Object.values(xpBy).reduce((n, v) => n + v, 0);
+  // Nothing credited to a device yet: keep the plain form (merging it with itself changes nothing).
+  const perDevice = Object.keys(xpBy).some((d) => d !== '') ? { xpBy } : {};
+  return { version: 1, completed, cards, xp, ...perDevice, streak: mergeStreak(a.streak, b.streak) };
 }
 
 /**

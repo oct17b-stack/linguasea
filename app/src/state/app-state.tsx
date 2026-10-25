@@ -1,6 +1,7 @@
 import { courseKey, type CourseBundle, type L1, type Target } from '@linguasea/contract';
 import {
   completeLesson,
+  creditXp,
   emptyProgress,
   mergeProgress,
   recordAnswers,
@@ -50,6 +51,8 @@ type Entitlements = {
 export type TutorConsent = 'agreed' | 'declined';
 
 type Saved = {
+  /** Random id of this install: XP is counted per device so XP earned offline on two devices adds up. */
+  device: string;
   l1: L1;
   target?: Target;
   progress: Progress;
@@ -111,8 +114,11 @@ type AppState = {
   deleteMyData: () => Promise<boolean>;
 };
 
+const newDeviceId = () => `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 10)}`;
+
 function fresh(l1: L1 = deviceL1()): Saved {
   return {
+    device: newDeviceId(),
     l1,
     progress: emptyProgress(),
     reminder: { on: false, hour: 20, minute: 0 },
@@ -130,6 +136,7 @@ function revive(raw: string | null): Saved {
   const ent: Partial<Entitlements> = old.entitlements ?? {};
   const until = typeof ent.serverUntil === 'string' ? ent.serverUntil : null;
   return {
+    device: typeof old.device === 'string' && old.device ? old.device : base.device,
     l1,
     target: old.target && courseIndex(l1, old.target) ? old.target : undefined,
     progress: old.progress?.version === 1 ? old.progress : base.progress,
@@ -412,11 +419,11 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       setSaved((cur) => ({ ...cur, l1: next, target: cur.target && courseIndex(next, cur.target) ? cur.target : undefined })),
     setTarget: (next) => setSaved((cur) => ({ ...cur, target: next })),
     finishLesson: (lessonId, results) => {
-      setSaved((cur) => ({ ...cur, progress: completeLesson(cur.progress, lessonId, results, new Date()) }));
+      setSaved((cur) => ({ ...cur, progress: creditXp(cur.progress, completeLesson(cur.progress, lessonId, results, new Date()), cur.device) }));
       scheduleSync(SYNC_AFTER_LESSON_MS);
     },
     recordTest: (results) => {
-      setSaved((cur) => ({ ...cur, progress: recordAnswers(cur.progress, results, new Date()) }));
+      setSaved((cur) => ({ ...cur, progress: creditXp(cur.progress, recordAnswers(cur.progress, results, new Date()), cur.device) }));
       scheduleSync(SYNC_AFTER_LESSON_MS);
     },
     skipLessons: (lessonIds) => {
@@ -428,7 +435,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     tutorConsent: saved.tutorConsent,
     setTutorConsent: (tutorConsent) => setSaved((cur) => ({ ...cur, tutorConsent })),
     reviewed: (itemId, correct) => {
-      setSaved((cur) => ({ ...cur, progress: reviewItem(cur.progress, itemId, correct, new Date()) }));
+      setSaved((cur) => ({ ...cur, progress: creditXp(cur.progress, reviewItem(cur.progress, itemId, correct, new Date()), cur.device) }));
       scheduleSync(SYNC_AFTER_REVIEW_MS);
     },
     setReminder: async (next) => {

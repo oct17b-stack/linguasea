@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { test } from 'node:test';
 
-import { completeLesson, emptyProgress } from '@linguasea/core';
+import { completeLesson, creditXp, emptyProgress } from '@linguasea/core';
 
 import { buildServer, type Options } from './app';
 import { consoleMailer, createMailer, ResendMailer, type LoginCodeMail, type Mailer } from './mail';
@@ -66,6 +66,22 @@ test('progress from two devices is merged, not overwritten', async () => {
   assert.deepEqual(Object.keys(res.json().completed).sort(), ['ko-A1-01', 'zh-A1-01']);
   const get = await app.inject({ method: 'GET', url: '/v1/progress', headers: auth });
   assert.deepEqual(get.json(), res.json());
+});
+
+test('XP earned on two devices adds up through the server, once', async () => {
+  const { app, auth } = await setup();
+  const earn = (device: string, lessonId: string) => {
+    const before = emptyProgress();
+    return creditXp(before, completeLesson(before, lessonId, {}, NOW), device);
+  };
+  const put = (payload: object) => app.inject({ method: 'PUT', url: '/v1/progress', headers: auth, payload });
+  await put(earn('phone', 'zh-A1-01'));
+  await put(earn('tablet', 'zh-A1-02'));
+  const res = await put(earn('phone', 'zh-A1-01'));
+  assert.equal(res.json().xp, 20);
+  assert.deepEqual(res.json().xpBy, { phone: 10, tablet: 10 });
+  const bad = await put({ ...emptyProgress(), xpBy: { phone: -5 } });
+  assert.equal(bad.statusCode, 400);
 });
 
 test('takes the progress of a learner far into all four courses (over 1 MB)', async () => {

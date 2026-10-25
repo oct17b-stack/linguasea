@@ -73,6 +73,11 @@ const ProgressBody = z.object({
   completed: z.record(z.string(), z.string()),
   cards: z.record(z.string(), z.looseObject({ due: z.string(), reps: z.number() })),
   xp: z.number().int().min(0),
+  // XP per device install id (see Progress.xpBy in @linguasea/core).
+  xpBy: z
+    .record(z.string().max(64), z.number().int().min(0))
+    .refine((r) => Object.keys(r).length <= 200, 'too many devices')
+    .optional(),
   streak: z.object({ count: z.number().int().min(0), lastDay: z.string().optional() }),
 });
 

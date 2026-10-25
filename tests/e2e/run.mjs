@@ -351,6 +351,12 @@ try {
     const acc2 = await account(two.page);
     check('both devices share one account, each with its own token', !!acc2 && acc2.id === acc1?.id && acc2.token !== acc1?.token);
     check('the second device gets the same progress', await until(async () => first in ((await state(two.page))?.progress?.completed ?? {})));
+    {
+      // XP is counted per install (Progress.xpBy) so offline XP on two devices adds up; syncing must not double it.
+      const [s1, s2] = [await state(one.page), await state(two.page)];
+      check('each install has its own device id', !!s1?.device && !!s2?.device && s1.device !== s2.device, `${s1?.device} ${s2?.device}`);
+      check('the second device shows the same XP, not doubled', s1?.progress?.xp > 0 && s2?.progress?.xp === s1?.progress?.xp, `${s1?.progress?.xp} ${s2?.progress?.xp}`);
+    }
 
     // Sign-out on device 2: back to anonymous, local progress stays, device 1 stays signed in.
     await two.page.getByRole('button', { name: t('account.signOut') }).click();
