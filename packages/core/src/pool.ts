@@ -40,6 +40,21 @@ export function sameGroup(a: Item, b: Item): boolean {
   return kindGroup(a.kind) === kindGroup(b.kind);
 }
 
+/**
+ * Two answer labels a learner cannot tell apart: they differ only in case, spacing, punctuation or
+ * symbols ("เยี่ยมเลย! ขอบคุณ" / "เยี่ยมเลย ขอบคุณ!", "ออกไป (ข้างนอก)" / "ออกไปข้างนอก") or in
+ * full-width vs. half-width forms. Letters and their marks (tones, dakuten) still count.
+ */
+export function labelKey(label: string): string {
+  const plain = label.normalize('NFKC').toLowerCase();
+  // A label made only of punctuation (an item teaching "。") keeps its marks.
+  return plain.replace(/[\s\p{P}\p{S}]/gu, '') || plain.replace(/\s/gu, '');
+}
+
+export function sameLabel(a: string, b: string): boolean {
+  return labelKey(a) === labelKey(b);
+}
+
 /** Text to send to TTS for an item. */
 export function spoken(item: Pick<Item, 'text' | 'say'>): string {
   return item.say ?? item.text;

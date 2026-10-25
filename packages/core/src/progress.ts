@@ -34,8 +34,15 @@ function previousDay(day: string): string {
   return dayKey(new Date(y, m - 1, d - 1));
 }
 
+/** Days from 1970-01-01 to a "YYYY-MM-DD" day (calendar arithmetic, no time zone or DST involved). */
+function dayNumber(day: string): number {
+  const [y, m, d] = day.split('-').map(Number);
+  return Date.UTC(y, m - 1, d) / 86_400_000;
+}
+
 export function touchStreak(streak: Progress['streak'], day: string): Progress['streak'] {
-  if (streak.lastDay === day) return streak;
+  // An earlier day than the last one (flew west past midnight, clock set back) neither counts nor resets.
+  if (streak.lastDay && day <= streak.lastDay) return streak;
   const count = streak.lastDay === previousDay(day) ? streak.count + 1 : 1;
   return { count, lastDay: day };
 }
@@ -43,7 +50,7 @@ export function touchStreak(streak: Progress['streak'], day: string): Progress['
 /** Streak as the learner should see it today: it is gone once a whole day was missed. */
 export function currentStreak(streak: Progress['streak'], today: string): number {
   if (!streak.lastDay) return 0;
-  return streak.lastDay === today || streak.lastDay === previousDay(today) ? streak.count : 0;
+  return streak.lastDay >= previousDay(today) ? streak.count : 0;
 }
 
 function store(card: Card): StoredCard {
@@ -56,7 +63,11 @@ function store(card: Card): StoredCard {
 
 function grade(card: StoredCard | undefined, correct: boolean, now: Date): StoredCard {
   const input = card ?? createEmptyCard<Card>(now);
-  return store(scheduler.next(input, now, correct ? Rating.Good : Rating.Again).card);
+  // A card can carry a review time later than this device's clock (another device's clock ran ahead,
+  // or this one is behind); FSRS rejects a negative gap, so such an answer counts as given at that time.
+  const last = card?.last_review ? new Date(card.last_review) : undefined;
+  const at = last && last.getTime() > now.getTime() ? last : now;
+  return store(scheduler.next(input, at, correct ? Rating.Good : Rating.Again).card);
 }
 
 /**
@@ -116,9 +127,33 @@ function later(a: string | null | undefined, b: string | null | undefined): bool
   return (a ?? '') > (b ?? '');
 }
 
+/** Whether card `a` holds a later state than `b`: latest review, then more reviews, then any fixed order. */
+function newerCard(a: StoredCard, b: StoredCard): boolean {
+  if ((a.last_review ?? '') !== (b.last_review ?? '')) return later(a.last_review, b.last_review);
+  if (a.reps !== b.reps) return a.reps > b.reps;
+  if (a.due !== b.due) return a.due > b.due;
+  return JSON.stringify(a) > JSON.stringify(b);
+}
+
+/**
+ * A streak stands for the run of days lastDay-count+1 … lastDay. Two runs that overlap or touch
+ * (one device studied Mon–Wed, the other Thu) make one longer run; otherwise the later run counts.
+ */
+function mergeStreak(a: Progress['streak'], b: Progress['streak']): Progress['streak'] {
+  if (!a.lastDay || a.count <= 0) return b.lastDay && b.count > 0 ? b : a.count >= b.count ? a : b;
+  if (!b.lastDay || b.count <= 0) return a;
+  const [hi, lo] = a.lastDay > b.lastDay || (a.lastDay === b.lastDay && a.count >= b.count) ? [a, b] : [b, a];
+  const end = dayNumber(hi.lastDay!);
+  const loEnd = dayNumber(lo.lastDay!);
+  const touches = end - hi.count + 1 <= loEnd + 1;
+  const count = touches ? Math.max(hi.count, end - (loEnd - lo.count + 1) + 1) : hi.count;
+  return { count, lastDay: hi.lastDay };
+}
+
 /**
  * Combines progress from two devices (or device + server) without losing work:
- * lessons stay done, each card keeps its most recent review, XP and streak keep the higher one.
+ * lessons stay done, each card keeps its most recent review, XP keeps the higher one and streaks
+ * of days that run on from each other add up (see mergeStreak).
  */
 export function mergeProgress(a: Progress, b: Progress): Progress {
   const completed = { ...b.completed };
@@ -128,16 +163,9 @@ export function mergeProgress(a: Progress, b: Progress): Progress {
   const cards = { ...b.cards };
   for (const [id, card] of Object.entries(a.cards)) {
     const other = cards[id];
-    const newer =
-      later(card.last_review, other?.last_review) ||
-      (card.last_review === other?.last_review && card.reps > (other?.reps ?? -1));
-    if (!other || newer) {
-      cards[id] = card;
-    }
+    if (!other || newerCard(card, other)) cards[id] = card;
   }
-  let streak = a.streak.count >= b.streak.count ? a.streak : b.streak;
-  if (a.streak.lastDay !== b.streak.lastDay) streak = later(a.streak.lastDay, b.streak.lastDay) ? a.streak : b.streak;
-  return { version: 1, completed, cards, xp: Math.max(a.xp, b.xp), streak };
+  return { version: 1, completed, cards, xp: Math.max(a.xp, b.xp), streak: mergeStreak(a.streak, b.streak) };
 }
 
 /**

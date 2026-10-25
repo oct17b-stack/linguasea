@@ -1,6 +1,6 @@
 import { kindGroup, lessonExercises, type ChoiceExercise, type CourseBundle } from '@linguasea/contract';
 
-import { coursePool, soundsAlike, type Word } from './pool';
+import { coursePool, labelKey, sameLabel, soundsAlike, type Word } from './pool';
 import { hashString, seededRandom, shuffle } from './rng';
 
 export type Choice = { id: string; label: string; correct: boolean };
@@ -142,16 +142,16 @@ export function chooseStep(
     const bySight = ex.type === 'choose-meaning';
     const fits = (x: Word) =>
       x.id !== w.id &&
-      label(x) !== label(w) &&
+      !sameLabel(label(x), label(w)) &&
       !(byEar && soundsAlike(x, w)) &&
-      !(byMeaning && x.meaning === w.meaning) &&
-      !(bySight && x.text === w.text);
+      !(byMeaning && sameLabel(x.meaning, w.meaning)) &&
+      !(bySight && sameLabel(x.text, w.text));
     // Same-group items in course order: the ones taught up to `upTo` come first. A course has
     // thousands of items, so pick at random from each part instead of shuffling all of them.
     const group = groupOf(pool, w);
     const known = countUpTo(group, upTo);
     wrong = [];
-    const labels = new Set([label(w)]);
+    const labels = new Set([labelKey(label(w))]);
     for (const [from, to] of [[0, known], [known, group.length]]) {
       const tried = new Set<number>();
       while (wrong.length < CHOICES - 1 && tried.size < to - from) {
@@ -159,8 +159,8 @@ export function chooseStep(
         if (tried.has(i)) continue;
         tried.add(i);
         const x = group[i];
-        if (!fits(x) || labels.has(label(x))) continue;
-        labels.add(label(x));
+        if (!fits(x) || labels.has(labelKey(label(x)))) continue;
+        labels.add(labelKey(label(x)));
         wrong.push(x);
       }
     }

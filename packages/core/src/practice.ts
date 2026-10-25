@@ -1,7 +1,8 @@
-import type { CourseBundle } from '@linguasea/contract';
+import { sameReading, type CourseBundle } from '@linguasea/contract';
 
+import { lessonOrder } from './access';
 import { coursePath } from './path';
-import { coursePool, type Word } from './pool';
+import { coursePool, sameLabel, type Word } from './pool';
 import { seededRandom, shuffle } from './rng';
 import { chooseStep, recallQuestion, type DialogueLine, type Step } from './steps';
 
@@ -22,7 +23,15 @@ function linesOf(course: CourseBundle, lessonIds: string[]): DialogueLine[] {
 
 /** "Hear a sentence, pick its meaning" — wrong answers are other sentences from the same lessons. */
 function lineSteps(lines: DialogueLine[], count: number, rand: () => number): Step[] {
-  const distinct = [...new Map(lines.filter((l) => l.meaning).map((l) => [l.meaning, l])).values()];
+  // One line per meaning, and no two lines that sound alike: otherwise two answers would be right.
+  const distinct: DialogueLine[] = [];
+  for (const l of lines) {
+    if (!l.meaning.trim()) continue;
+    const clash = distinct.some(
+      (d) => sameLabel(d.meaning, l.meaning) || sameLabel(d.text, l.text) || sameReading(d.reading, l.reading),
+    );
+    if (!clash) distinct.push(l);
+  }
   if (distinct.length < 4) return [];
   return shuffle(distinct, rand)
     .slice(0, count)
@@ -34,6 +43,16 @@ function lineSteps(lines: DialogueLine[], count: number, rand: () => number): St
       );
       return { kind: 'line' as const, line, choices };
     });
+}
+
+/**
+ * Course positions (as in Word.order) of the first and last of some lessons. Taken from the lessons
+ * themselves, not their new words: lessons that only reuse earlier words must not open the whole course.
+ */
+function span(course: CourseBundle, lessonIds: string[]): { first: number; latest: number } {
+  const order = lessonOrder(course.course);
+  const at = lessonIds.map((id) => order.indexOf(id) + 1).filter((n) => n > 0);
+  return { first: Math.min(...at), latest: Math.max(0, ...at) };
 }
 
 function nodeOf(course: CourseBundle, id: string) {
@@ -51,8 +70,8 @@ export function practiceSteps(course: CourseBundle, id: string, seed = Date.now(
   const rand = seededRandom(seed);
   const pool = coursePool(course);
   const fresh = [...pool.values()].filter((w) => node.covers.includes(w.lesson));
-  const latest = Math.max(0, ...fresh.map((w) => w.order));
-  const earlier = shuffle([...pool.values()].filter((w) => w.order < Math.min(...fresh.map((f) => f.order))), rand).slice(0, 4);
+  const { first, latest } = span(course, node.covers);
+  const earlier = shuffle([...pool.values()].filter((w) => w.order < first), rand).slice(0, 4);
   const words = shuffle([...fresh, ...earlier], rand);
   const steps: Step[] = words.map((w, i) => questionFor(course, pool, w, i, latest, rand));
   steps.push(...lineSteps(linesOf(course, node.covers), 2, rand));
@@ -67,7 +86,7 @@ export function unitTestSteps(course: CourseBundle, id: string, seed = Date.now(
   const rand = seededRandom(seed);
   const pool = coursePool(course);
   const words = shuffle([...pool.values()].filter((w) => node.covers.includes(w.lesson)), rand).slice(0, 15);
-  const latest = Math.max(0, ...words.map((w) => w.order));
+  const { latest } = span(course, node.covers);
   const steps: Step[] = words.map((w, i) => questionFor(course, pool, w, i, latest, rand));
   steps.push(...lineSteps(linesOf(course, node.covers), 3, rand));
   steps.push({ kind: 'done' });
