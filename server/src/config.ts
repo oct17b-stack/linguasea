@@ -22,6 +22,8 @@ export type Config = {
   /** Web build of the app, served at /app/ when the folder exists. */
   webDir: string;
   quotas: Quotas;
+  /** Reverse proxies in front of the server whose X-Forwarded-For entries are trusted (default 1). */
+  trustProxy: number;
 };
 
 const repoPath = (p: string) => fileURLToPath(new URL(`../../${p}`, import.meta.url));
@@ -48,6 +50,7 @@ export function readConfig(env: NodeJS.ProcessEnv = process.env): Config {
     audioDir: env.AUDIO_DIR?.trim() || repoPath('content/audio'),
     publicDir: env.PUBLIC_DIR?.trim() || repoPath('server/public'),
     webDir: env.WEB_DIR?.trim() || repoPath('app/dist'),
+    trustProxy: positiveInt(env.TRUST_PROXY, 1),
     quotas: {
       pronunciationFree: positiveInt(env.PRONUNCIATION_FREE_PER_DAY, DEFAULT_QUOTAS.pronunciationFree),
       pronunciationPremium: positiveInt(env.PRONUNCIATION_PREMIUM_PER_DAY, DEFAULT_QUOTAS.pronunciationPremium),

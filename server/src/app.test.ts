@@ -8,8 +8,10 @@ import { completeLesson, emptyProgress } from '@linguasea/core';
 
 import { buildServer, type Options } from './app';
 import { consoleMailer, createMailer, ResendMailer, type LoginCodeMail, type Mailer } from './mail';
+import { PgStore } from './pg-store';
 import type { Assessor, Score } from './pronunciation';
-import { MemoryStore } from './store';
+import { MemoryStore, type Store } from './store';
+import { testDb } from './test-db';
 
 const NOW = new Date('2026-10-22T09:00:00Z');
 
@@ -495,4 +497,259 @@ test('RevenueCat TRANSFER moves the subscription to our surviving account', asyn
   assert.equal((await hook({ type: 'TRANSFER', transferred_from: [anon.id], transferred_to: [session.id], event_timestamp_ms: NOW.getTime() + 2 })).json().result, 'ignored');
   assert.equal((await me(session.auth)).json().premium, true);
   assert.equal((await hook({ type: 'TRANSFER', transferred_from: ['$RCAnonymousID:x'], transferred_to: ['$RCAnonymousID:y'] })).statusCode, 200);
+});
+
+test('rate limits reach the API, with the client IP taken from the trusted proxy hop only', async () => {
+  const { app } = await setup({ rateLimit: 4 });
+  // Four API requests a minute, then 429 (with CORS, so the web app can read it).
+  for (let i = 0; i < 4; i++) assert.equal((await app.inject({ url: '/v1/entitlements' })).statusCode, 401);
+  const limited = await app.inject({ url: '/v1/entitlements' });
+  assert.equal(limited.statusCode, 429);
+  assert.equal(limited.headers['access-control-allow-origin'], '*');
+  assert.equal((await app.inject({ url: '/health' })).statusCode, 200, 'only /v1/ is limited');
+
+  // New accounts: 20 an hour per client. A client cannot reset its count by writing its own X-Forwarded-For
+  // entries: the platform proxy appends the real address and only that last hop is trusted.
+  const accounts = buildServer({ store: new MemoryStore() });
+  const create = (xff: string) => accounts.inject({ method: 'POST', url: '/v1/accounts', headers: { 'x-forwarded-for': xff } });
+  for (let i = 0; i < 20; i++) assert.equal((await create(`10.0.0.${i}, 198.51.100.7`)).statusCode, 201);
+  assert.equal((await create('10.9.9.9, 198.51.100.7')).statusCode, 429);
+  assert.equal((await create('198.51.100.8')).statusCode, 201, 'another client is counted on its own');
+
+  // With no proxy in front, the header is ignored altogether.
+  const direct = buildServer({ store: new MemoryStore(), trustProxy: 0 });
+  for (let i = 0; i < 20; i++) await direct.inject({ method: 'POST', url: '/v1/accounts', headers: { 'x-forwarded-for': `10.0.1.${i}` } });
+  assert.equal((await direct.inject({ method: 'POST', url: '/v1/accounts', headers: { 'x-forwarded-for': '10.0.2.1' } })).statusCode, 429);
+});
+
+for (const [name, makeStore] of [
+  ['MemoryStore', async () => new MemoryStore()],
+  ['PgStore', async () => new PgStore(await testDb())],
+] as [string, () => Promise<Store>][]) {
+  test(`${name}: a burst of guesses sent at once cannot get past the five-attempt limit`, async () => {
+    // Database answers take a while (as over a network), so the guesses really overlap.
+    const store = await makeStore();
+    const slow = <A extends unknown[], R>(f: (...a: A) => Promise<R>) => async (...a: A) => {
+      const result = await f(...a);
+      await new Promise((r) => setTimeout(r, 30));
+      return result;
+    };
+    store.getLoginCode = slow(store.getLoginCode.bind(store));
+    store.failLoginCode = slow(store.failLoginCode.bind(store));
+    const { start, verify, box } = await signInSetup({ store, rateLimit: 1000 });
+    assert.equal((await start('nam@example.com')).statusCode, 204);
+    const code = box.last();
+    const wrong = [...Array(12).keys()].map((i) => String((Number(code) + 1 + i) % 1_000_000).padStart(6, '0'));
+    // From many addresses so the per-IP limit does not stop them first; the right code comes last.
+    const results = await Promise.all([...wrong, code].map((c, i) => verify('nam@example.com', c, { 'x-forwarded-for': `203.0.113.${i}` })));
+    assert.deepEqual(new Set(results.map((r) => r.statusCode)), new Set([400]));
+    assert.equal((await verify('nam@example.com', code)).statusCode, 400, 'the code is burnt');
+    // Within the limit, the fifth try still signs in.
+    await start('nam@example.com');
+    const fresh = box.last();
+    for (const c of wrong.slice(0, 4)) await verify('nam@example.com', c === fresh ? '999999x' : c);
+    assert.equal((await verify('nam@example.com', fresh)).statusCode, 200);
+  });
+}
+
+test("sign-in: email casing and spaces do not matter; a used code or another email's code does not work", async () => {
+  const { start, verify, box, signIn } = await signInSetup();
+  await start('nam@example.com');
+  const code = box.last();
+  const res = await verify('  NAM@Example.com ', ` ${code} `);
+  assert.equal(res.statusCode, 200);
+  assert.equal(res.json().email, 'nam@example.com');
+  assert.equal((await verify('nam@example.com', code)).statusCode, 400, 'used once');
+  await start('a@example.com');
+  const forA = box.last();
+  await start('b@example.com');
+  if (forA !== box.last()) assert.equal((await verify('b@example.com', forA)).statusCode, 400, "another email's code");
+  // A signed-in device that signs in to a second email moves there without merging the first account.
+  const first = await signIn('first@example.com');
+  const second = await signIn('second@example.com', first.auth);
+  assert.notEqual(second.id, first.id);
+});
+
+test('RevenueCat: refunds end access, extensions and temporary grants extend it, bad timestamps are refused', async () => {
+  const { app, id, auth } = await setup();
+  const DAY = 86_400_000;
+  let at = 0;
+  const hook = (type: string, extra: Record<string, unknown> = {}) =>
+    app.inject({
+      method: 'POST',
+      url: '/v1/webhooks/revenuecat',
+      headers: { authorization: 'Bearer hook-secret' },
+      payload: { event: { type, app_user_id: id, event_timestamp_ms: NOW.getTime() + ++at, ...extra } },
+    });
+  const entitlement = async () => (await app.inject({ url: '/v1/entitlements', headers: auth })).json();
+  const day = (n: number) => new Date(NOW.getTime() + n * DAY).toISOString();
+
+  await hook('INITIAL_PURCHASE', { expiration_at_ms: NOW.getTime() + 30 * DAY });
+  // An unsubscribe keeps the period end.
+  assert.equal((await hook('CANCELLATION', { cancel_reason: 'UNSUBSCRIBE', expiration_at_ms: NOW.getTime() + 30 * DAY })).json().result, 'applied');
+  assert.equal((await entitlement()).premiumUntil, day(30));
+  await hook('UNCANCELLATION', { expiration_at_ms: NOW.getTime() + 30 * DAY });
+  assert.equal((await hook('SUBSCRIPTION_EXTENDED', { expiration_at_ms: NOW.getTime() + 40 * DAY })).json().result, 'applied');
+  assert.equal((await entitlement()).premiumUntil, day(40));
+  // A refund comes as a CANCELLATION whose expiration is the refund time: access ends now.
+  await hook('CANCELLATION', { cancel_reason: 'CUSTOMER_SUPPORT', expiration_at_ms: NOW.getTime() - 1 });
+  assert.equal((await entitlement()).premium, false);
+  await hook('REFUND_REVERSED', { expiration_at_ms: NOW.getTime() + 40 * DAY });
+  assert.equal((await entitlement()).premium, true);
+  await hook('TEMPORARY_ENTITLEMENT_GRANT', { expiration_at_ms: NOW.getTime() + 50 * DAY });
+  assert.equal((await entitlement()).premiumUntil, day(50));
+  // Informational events leave it alone.
+  for (const type of ['BILLING_ISSUE', 'SUBSCRIPTION_PAUSED', 'TEST', 'SOMETHING_NEW']) {
+    assert.equal((await hook(type, { expiration_at_ms: NOW.getTime() })).json().result, 'ignored', type);
+  }
+  assert.equal((await entitlement()).premiumUntil, day(50));
+
+  for (const bad of [{ expiration_at_ms: 1e20 }, { event_timestamp_ms: 1e20 }, { expiration_at_ms: -5 }, { expiration_at_ms: '2026' }]) {
+    assert.equal((await hook('RENEWAL', bad)).statusCode, 400, JSON.stringify(bad));
+  }
+  const noAuth = await app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', payload: { event: { type: 'RENEWAL', app_user_id: id } } });
+  assert.equal(noAuth.statusCode, 401);
+  const unset = await setup({ revenueCatAuth: undefined });
+  const refused = await unset.app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', headers: { authorization: '' }, payload: {} });
+  assert.equal(refused.statusCode, 401, 'webhooks are refused when no secret is configured');
+});
+
+test('transcribe: has a daily allowance and refuses uploads that are not multipart', async () => {
+  const { app, auth } = await setup({
+    transcriber: { transcribe: async () => 'hi' },
+    quotas: { pronunciationFree: 1, pronunciationPremium: 1, tutorFree: 2, tutorPremium: 10 },
+  });
+  const send = () => {
+    const body = multipart({ target: 'en' }, Buffer.from('x'));
+    return app.inject({ method: 'POST', url: '/v1/transcribe', headers: { ...auth, ...body.headers }, payload: body.payload });
+  };
+  for (let i = 0; i < 4; i++) assert.equal((await send()).statusCode, 200, 'two voice answers per tutor turn');
+  const limited = await send();
+  assert.equal(limited.statusCode, 429);
+  assert.equal(limited.json().limit, 4);
+  const json = await app.inject({ method: 'POST', url: '/v1/transcribe', headers: auth, payload: { target: 'en' } });
+  assert.equal(json.statusCode, 400);
+  const big = multipart({ target: 'en' }, Buffer.alloc(2 * 1024 * 1024 + 1));
+  const tooLarge = await app.inject({ method: 'POST', url: '/v1/transcribe', headers: { ...auth, ...big.headers }, payload: big.payload });
+  assert.equal(tooLarge.statusCode, 413);
+});
+
+test('pronunciation: a recording the scorer cannot read answers 502 without internals', async () => {
+  const assessor: Assessor = {
+    assess: async () => {
+      throw new Error('ffmpeg exited 1: /tmp/rec-abc/in: Invalid data found when processing input');
+    },
+  };
+  const { app, auth } = await setup({ assessor });
+  const body = multipart({ target: 'en', text: 'hi' }, Buffer.from('not audio'));
+  const res = await app.inject({ method: 'POST', url: '/v1/pronunciation', headers: { ...auth, ...body.headers }, payload: body.payload });
+  assert.equal(res.statusCode, 502);
+  assert.deepEqual(res.json(), { error: 'scoring failed' });
+});
+
+test('unexpected failures answer 500 without internal details', async () => {
+  const store = new MemoryStore();
+  store.getProgress = async () => {
+    throw new Error('connect ECONNREFUSED db.internal:5432 (password authentication failed for user linguasea)');
+  };
+  const { app, auth } = await setup({ store });
+  const res = await app.inject({ url: '/v1/progress', headers: auth });
+  assert.equal(res.statusCode, 500);
+  assert.deepEqual(res.json(), { error: 'internal error' });
+  const bad = await app.inject({ method: 'PUT', url: '/v1/progress', headers: { ...auth, 'content-type': 'application/json' }, payload: '{nope' });
+  assert.equal(bad.statusCode, 400, 'client errors keep their message');
+});
+
+test("progress: stale writes keep the newer card, accounts never see each other's data, bad shapes are refused", async () => {
+  const { app, auth } = await setup();
+  const other = (await app.inject({ method: 'POST', url: '/v1/accounts' })).json() as { token: string };
+  const otherAuth = { authorization: `Bearer ${other.token}` };
+  const first = completeLesson(emptyProgress(), 'zh-A1-01', { 'zh.ni-hao': false }, NOW);
+  const later = completeLesson(first, 'zh-A1-02', { 'zh.ni-hao': true }, new Date(NOW.getTime() + 86_400_000));
+  await app.inject({ method: 'PUT', url: '/v1/progress', headers: auth, payload: later });
+  // A device that was offline sends its older copy of the card.
+  const res = await app.inject({ method: 'PUT', url: '/v1/progress', headers: auth, payload: first });
+  assert.deepEqual(res.json().cards['zh.ni-hao'], later.cards['zh.ni-hao']);
+  assert.equal(res.json().xp, later.xp);
+  assert.deepEqual((await app.inject({ url: '/v1/progress', headers: otherAuth })).json(), emptyProgress());
+
+  for (const payload of [
+    { ...emptyProgress(), version: 2 },
+    { ...emptyProgress(), xp: 1.5 },
+    { ...emptyProgress(), cards: { 'zh.x': { reps: 1 } } },
+    { ...emptyProgress(), completed: { 'zh-A1-01': 5 } },
+    [],
+  ]) {
+    assert.equal((await app.inject({ method: 'PUT', url: '/v1/progress', headers: auth, payload })).statusCode, 400, JSON.stringify(payload));
+  }
+  const proto = await app.inject({
+    method: 'PUT',
+    url: '/v1/progress',
+    headers: { ...auth, 'content-type': 'application/json' },
+    payload: '{"version":1,"completed":{},"cards":{"__proto__":{"due":"x","reps":1}},"xp":0,"streak":{"count":0}}',
+  });
+  assert.equal(proto.statusCode, 400);
+  const huge = await app.inject({
+    method: 'PUT',
+    url: '/v1/progress',
+    headers: { ...auth, 'content-type': 'application/json' },
+    payload: ' '.repeat(9 * 1024 * 1024),
+  });
+  assert.equal(huge.statusCode, 413);
+});
+
+test('static files: no path traversal, audio content types, JSON 404s', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'static-'));
+  mkdirSync(join(dir, 'public'), { recursive: true });
+  mkdirSync(join(dir, 'audio/zh'), { recursive: true });
+  mkdirSync(join(dir, 'web'), { recursive: true });
+  writeFileSync(join(dir, 'public/index.html'), '<h1>LinguaSEA</h1>');
+  writeFileSync(join(dir, 'audio/zh/abc.mp3'), 'ID3');
+  writeFileSync(join(dir, 'web/index.html'), '<div id="root"></div>');
+  writeFileSync(join(dir, 'secret.txt'), 'TOP-SECRET');
+  const { app } = await setup({ publicDir: join(dir, 'public'), audioDir: join(dir, 'audio'), webDir: join(dir, 'web') });
+
+  assert.equal((await app.inject({ url: '/audio/zh/abc.mp3' })).headers['content-type'], 'audio/mpeg');
+  for (const url of [
+    '/audio/../secret.txt',
+    '/audio/..%2fsecret.txt',
+    '/audio/%2e%2e/secret.txt',
+    '/audio/zh/..%2f..%2fsecret.txt',
+    '/app/..%2fsecret.txt',
+    '/app/%2e%2e/secret.txt',
+    '/..%2fsecret.txt',
+    '//secret.txt',
+  ]) {
+    assert.doesNotMatch((await app.inject({ url })).body, /TOP-SECRET/, url);
+  }
+  const missing = await app.inject({ url: '/audio/zh/missing.mp3' });
+  assert.equal(missing.statusCode, 404);
+  assert.match(String(missing.headers['content-type']), /json/);
+  assert.equal(missing.headers['cache-control'], undefined, 'a 404 is not cached for a year');
+});
+
+test('deleting the account removes it everywhere: tokens, progress, subscription, aliases, pending codes', async () => {
+  const store = new PgStore(await testDb());
+  const { app, signIn, anonymous, start, me } = await signInSetup({ store });
+  const hook = (event: Record<string, unknown>) =>
+    app.inject({ method: 'POST', url: '/v1/webhooks/revenuecat', headers: { authorization: 'Bearer hook-secret' }, payload: { event } });
+  const anon = await anonymous();
+  const progress = completeLesson(emptyProgress(), 'zh-A1-01', { 'zh.ni-hao': true }, NOW);
+  await app.inject({ method: 'PUT', url: '/v1/progress', headers: anon.auth, payload: progress });
+  await hook({ type: 'INITIAL_PURCHASE', app_user_id: anon.id, expiration_at_ms: NOW.getTime() + 86_400_000, event_timestamp_ms: NOW.getTime() });
+  const phone = await signIn('nam@example.com');
+  await signIn('nam@example.com', anon.auth); // merged: anon.id is now an alias
+  await start('nam@example.com'); // a pending code
+  assert.equal((await me(phone.auth)).json().premium, true);
+
+  assert.equal((await app.inject({ method: 'DELETE', url: '/v1/accounts/me', headers: phone.auth })).statusCode, 204);
+  assert.equal((await me(phone.auth)).statusCode, 401);
+  const db = (store as unknown as { db: { query(sql: string): Promise<{ rows: { n: number }[] }> } }).db;
+  for (const table of ['accounts', 'tokens', 'account_aliases', 'login_codes', 'progress', 'entitlements', 'usage']) {
+    // Only the anonymous account setup() made is left.
+    const { rows } = await db.query(`select count(*)::int as n from ${table}`);
+    assert.equal(rows[0].n, table === 'accounts' || table === 'tokens' ? 1 : 0, table);
+  }
+  const late = await hook({ type: 'RENEWAL', app_user_id: anon.id, expiration_at_ms: NOW.getTime() + 9e9, event_timestamp_ms: NOW.getTime() + 5 });
+  assert.equal(late.json().result, 'unknown-account', 'store events for the deleted account recreate nothing');
 });

@@ -102,3 +102,16 @@ test('transcribes speech for tutor answers', async () => {
   });
   assert.equal(await silent.transcribe({ audio: Buffer.from('wav'), target: 'ja' }), '');
 });
+
+test('refuses uploads that are playlists or concat lists instead of audio', { skip: !hasFfmpeg && 'ffmpeg not installed' }, async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'evil-'));
+  const wav = join(dir, 'tone.wav');
+  execFileSync('ffmpeg', ['-loglevel', 'error', '-f', 'lavfi', '-i', 'sine=frequency=440:duration=1', wav]);
+  // Either would make ffmpeg read another file (or a URL) instead of the upload.
+  const uploads = [
+    `ffconcat version 1.0\nfile '${wav}'\n`,
+    `#EXTM3U\n#EXT-X-TARGETDURATION:1\n#EXTINF:1.0,\n${wav}\n#EXT-X-ENDLIST\n`,
+  ];
+  for (const upload of uploads) await assert.rejects(toWav16k(Buffer.from(upload)), upload.split('\n')[0]);
+  assert.equal((await toWav16k(readFileSync(wav))).subarray(0, 4).toString(), 'RIFF', 'plain WAV still converts');
+});

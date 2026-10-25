@@ -40,7 +40,7 @@ export interface Store {
   /** Stores the code for the email, replacing any earlier one (attempts start at 0). */
   saveLoginCode(email: string, codeHash: string, expiresAt: Date): Promise<void>;
   getLoginCode(email: string): Promise<LoginCode | undefined>;
-  /** Counts a wrong guess; returns the attempts so far (0 when there is no code). */
+  /** Counts a guess (atomically, before it is checked); returns the attempts so far (0 when there is no code). */
   failLoginCode(email: string): Promise<number>;
   /** Removes the code; true only for the one caller that removed it (a code works once). */
   takeLoginCode(email: string): Promise<boolean>;

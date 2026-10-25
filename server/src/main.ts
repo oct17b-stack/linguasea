@@ -53,6 +53,7 @@ const app = buildServer({
   webDir: config.webDir,
   mailer: createMailer({ resend: config.resend, production: config.production }),
   logger: true,
+  trustProxy: config.trustProxy,
 });
 
 // Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS, and of expired sign-in codes.
