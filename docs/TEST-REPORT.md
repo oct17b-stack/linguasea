@@ -93,7 +93,7 @@
 | 低 | 限流 `POST /v1/accounts` 每 IP 每小时 20 次，泰国运营商 CGNAT 下很多人共用 IP，可能偏紧 | 上线前评估，必要时调大 |
 | 店主决定 | `NON_RENEWING_PURCHASE` 没有到期时间（终身买断）时不给会员 | 以后卖终身版要处理 |
 | 内容（低） | 英语 en-A2-06、en-A7-01/02/04 的听音题干扰项用了后面才教的词或字母（应该是故意的最小对立） | 母语老师看一下 |
-| 配音 | 中文"长"（cháng / zhǎng）、"只"（zhī / zhǐ）和"还"一样是同字不同音的两个词条，在 C、D 阶段；**跑 C、D 阶段配音前要先给其中一个加 `say`**，否则会共用一段录音 | `content/courses/zh/lessons/zh-C8-05、zh-D6-02、zh-D7-02、zh-C16-03` |
+| 配音（✅ 2026-10-26 已处理） | 中文"长"（cháng / zhǎng）、"只"（zhī / zhǐ）和"还"一样是同字不同音的两个词条；已给 zh.zhang-grow、zh.zhi-measure 加 `say`，另给 C–F 单念易错的 11 个词加了 `say`。还剩 `zh.dei`（得 děi）没有合适的同音字，要人听 | `content/courses/zh/lessons/` |
 | 配音 | 对话句子不能加 `say`；其中的多音字念错只能改句子或以后给对话加 `audio` | docs/AUDIO.md |
 
 ## 7. 怎么再跑一遍

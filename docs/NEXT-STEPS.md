@@ -1,12 +1,19 @@
 # 下一步备忘（给店主和接手的 AI）
 
-> 2026-10-25 写。接手的 AI：先读本文件，再读 docs/TEST-REPORT.md（最近一次综合测试的结果和没修的问题）、docs/HANDOVER.md 和 docs/ROADMAP.md。代码在 GitHub 仓库 `oct17b-stack/linguasea` 的 `main` 分支（2026-10-25 从 `panchitamuangpasi-cell/test` 迁来，含全部历史）。
+> 2026-10-25 写，2026-10-26 更新（会话在店主说"暂停"时停下，停下时的状态见下面「暂停时的状态」）。接手的 AI：先读本文件，再读 docs/TEST-REPORT.md（最近一次综合测试的结果和没修的问题）、docs/HANDOVER.md 和 docs/ROADMAP.md。代码在 GitHub 仓库 `oct17b-stack/linguasea` 的 `main` 分支（2026-10-25 从 `panchitamuangpasi-cell/test` 迁来，含全部历史）。
 
 ## 现在的状态（一句话）
 
-开发全部完成：App（iOS / 安卓 / 网页同一套代码，网页版在 `<域名>/app/`）、服务器、邮箱验证码登录、四门课（中英日韩）A–F 全部内容（每门 720 课、约 230 小时，AI 写 + AI 审两轮）。`npm run check` 和 `npm run e2e`（160 项）全部通过。**剩下的都是要店主本人办的账号、密钥和请人。**
+开发全部完成：App（iOS / 安卓 / 网页同一套代码，网页版在 `<域名>/app/`）、服务器、邮箱验证码登录、四门课（中英日韩）A–F 全部内容（每门 720 课、约 230 小时，AI 写 + AI 审两轮）。`npm run check` 全部通过；`npm run e2e` 最后一次完整通过是修 XP 同步之前（158/158），修完后加到 160 项还没跑完（见下面）。**剩下的都是要店主本人办的账号、密钥和请人。**
 
-**配音进度**：2026-10-25 用 Azure 免费层（F0）跑完 **A、B 阶段**（四门课共 7,800 段、约 33 万计费字符，mp3 和 manifest 已提交）。本月免费额度剩约 17 万字符；下个月跑 `npm run audio -- --stage C`（约 32 万），之后每月一个阶段，或改付费层 S0 一次跑完剩下的（约 US$30）。
+**配音进度**：2026-10-25 用 Azure 免费层（F0）跑完 **A、B 阶段**（四门课共 7,800 段、约 33 万计费字符，mp3 和 manifest 已提交）。2026-10-26 店主决定：**把 Azure 改成付费层 S0，一次跑完 C–F**（约 31,800 段、约 181 万计费字符、约 US$29）。C–F 的多音字准备已做完（见下）。**等店主在 Azure 门户改好 S0 后说"好了"再跑**；没改之前跑会被免费层额度挡住（不扣钱，但跑不完）。
+
+## 暂停时的状态（2026-10-26）
+
+- 仓库干净，所有改动都已提交推送到 `main`。
+- **已完成、已推送**：A、B 配音；综合测试和 27 个修复（docs/TEST-REPORT.md）；XP 按设备记（`Progress.xpBy`、`creditXp`，App 存档 `device`，服务器接受 `xpBy`，core 92 / server 74 项测试通过）；C–F 配音准备：给 13 个单念容易念错的词加了 `say`（zh 弹 量 朝 为 倒 涨(长 zhǎng) 知(只 zhī) 种 地 假，ja 変 表 図），`npm run validate` 通过。
+- **没做完**：修 XP 同步后的 `npm run e2e`（160 项，比之前多了"每台设备有自己的编号""第二台设备 XP 不翻倍"两项）被暂停打断，要重跑确认。
+- **等店主**：Azure 改 S0。
 
 **综合测试**：2026-10-25 把界面、引擎、服务器、内容、配音全部测了一遍，修了 27 个问题（6 个严重：网页直接输网址能绕过付费墙、时钟倒退时复习崩溃、服务器限流没生效、IP 可伪造、验证码可并发猜、中文"还"两个读音共用一段录音），单元测试 contract 23 / core 92 / server 74 / tools 37，端到端 160 项。之后又修了 XP 同步丢失（两台设备离线各自得的 XP 现在会相加）。详情和没修的 12 个问题见 **docs/TEST-REPORT.md**。
 
@@ -15,11 +22,17 @@
 - 先用各服务的**免费额度测试通过，再付费**。
 - 要网页端（已做好）。
 - 配音不等服务器部署，拿到 Azure 密钥就先跑；mp3 提交进 git。
+- A、B 用免费层测试通过后，C–F 改付费层 S0 一次跑完（2026-10-26 定）。
+- 仓库已迁到 `oct17b-stack/linguasea`（Claude GitHub App 已装好，可以推送）；旧仓库 `panchitamuangpasi-cell/test` 不再用。
 - 密钥绝不发在聊天里，只填进云端环境设置。
 
 ## 店主要做的事（按顺序）
 
-### 1. Azure 语音（免费层）→ 先跑配音
+### 0. 现在：Azure 改付费层 S0（C–F 配音要用）
+
+portal.azure.com → 打开你建的 Speech 资源 → 左侧"定价层"（Pricing tier）→ 选 **S0** → 保存。密钥、区域、云端环境设置都不用改。改好后对 AI 说"好了，跑完 C–F 配音"。
+
+### 1. Azure 语音（免费层）→ 先跑配音（✅ 已完成，留作参考）
 
 1. portal.azure.com → 新建资源 → 搜 **Speech** → 区域 **Southeast Asia** → 定价层 **F0（免费）** → 建好后在"密钥和终结点"复制 **KEY 1**。
 2. **用电脑**（手机 App 里环境的 Edit 点不了）打开 https://claude.ai/code → 打开任一会话 → 点顶部标题栏的环境名称 → **Edit**：
@@ -56,7 +69,7 @@
 
 ### 6. 之后
 
-请律师审法律文件（`docs/legal/README.md` 有 4 条待确认的承诺）→ AI 部署服务器 → EAS 打包内测版装手机试用 → 满意后 Azure 改付费层跑完剩下的配音（约 US$30）→ 商店截图和资料 → 提交审核（先泰国）。完整清单：docs/LAUNCH.md、docs/ROADMAP.md。
+请律师审法律文件（`docs/legal/README.md` 有 4 条待确认的承诺）→ AI 部署服务器 → EAS 打包内测版装手机试用 → 商店截图和资料 → 提交审核（先泰国）。完整清单：docs/LAUNCH.md、docs/ROADMAP.md。
 
 ## 给接手 AI 的提示
 
@@ -65,6 +78,8 @@
 - 跑配音的具体步骤：docs/HANDOVER.md 第 6 节、docs/AUDIO.md「先用免费层」。
 - 每次改完提交并推送到上面的仓库和分支。
 - **开发这边下一步（不用等店主）**，按顺序：
-  1. 跑 C 阶段配音前，先给中文"长"（zh.zhang-grow）、"只"（zh.zhi-measure 或 zh.zhi-only）加 `say`，否则同字不同音的两个词会共用一段录音。
-  2. TEST-REPORT 第 6 节"低"的问题，上线部署前处理（验证码计数存数据库、每日配额按曼谷时间、manifest 短缓存、失败不扣次数）。
-  3. 拿到 RevenueCat 沙盒后核对退款、延期事件；拿到 Anthropic / Azure / Resend 密钥后各真测一次。
+  1. 重跑 `npm run e2e`，确认 160/160（失败就修，修完更新 TEST-REPORT 的测试数）。
+  2. 店主说 S0 改好后跑 C–F 配音：先 `NODE_USE_ENV_PROXY=1 npm run audio -- --dry-run` 看计费字符（应约 181 万），再去掉 `--dry-run` 后台运行（`nohup … &`，S0 每分钟约 400 段，约 1.5 小时；中途断了重跑会跳过已生成的）。跑完 `npm run check`，按课程（zh / en / ja / ko）分 4 次提交推送 `content/audio/<课程>/`，每次几十 MB。最后把本文件和 TEST-REPORT 的配音进度改成"全部完成"。
+  3. 配音里还拿不准、要人听的：中文 `zh.dei`（得 děi，zh-C2-04）单念可能被念成 dé，没有合适的同音字所以没加 `say`；对话句子里的多音字没法加 `say`。请店主或母语老师抽听。
+  4. TEST-REPORT 第 6 节"低"的问题，上线部署前处理（验证码计数存数据库、每日配额按曼谷时间、manifest 短缓存、失败不扣次数）。
+  5. 拿到 RevenueCat 沙盒后核对退款、延期事件；拿到 Anthropic / Azure / Resend 密钥后各真测一次。
