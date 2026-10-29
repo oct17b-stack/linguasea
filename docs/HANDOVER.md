@@ -91,7 +91,7 @@
 
 ## 6. 用户说"跑配音"时
 
-前提：用户已在云端环境设置里加了 `AZURE_SPEECH_KEY`、`AZURE_SPEECH_REGION`（`southeastasia`），并在 Network access 的 Allowed domains 里放行 `southeastasia.tts.speech.microsoft.com`（新会话才生效）。不需要服务器已部署。
+前提：会话开在 **linguasea** 环境里（不是 Default，见 docs/NEXT-STEPS.md「开新会话要选 linguasea 环境」）；用户已在云端环境设置里加了 `AZURE_SPEECH_KEY`、`AZURE_SPEECH_REGION`（`southeastasia`），并在 Network access 的 Allowed domains 里放行 `southeastasia.tts.speech.microsoft.com`（新会话才生效）。不需要服务器已部署。
 
 1. `curl -sS -o /dev/null -w '%{http_code}' https://southeastasia.tts.speech.microsoft.com/` 确认能连上；连不上就请用户按上面放行域名。
 2. 用户决定**先用 Azure 免费层（F0）测试通过再付费**：先跑 `npm run audio -- --stage A --stage B --dry-run` 看计费字符（约 33 万，在每月 50 万免费额度内），再去掉 `--dry-run` 生成；以后每月一个阶段，或用户改成付费层后一次跑完（全部约 39,400 段、约 US$35）。中途断了直接重跑，已生成的跳过。分阶段的做法见 docs/AUDIO.md「先用免费层」。
