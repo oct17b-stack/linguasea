@@ -55,14 +55,16 @@ const app = buildServer({
   mailer: createMailer({ resend: config.resend, production: config.production }),
   logger: true,
   trustProxy: config.trustProxy,
+  accountsPerIp: config.accountsPerIp,
 });
 
-// Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS, and of expired sign-in codes.
+// Daily clean-up of accounts nobody has used for INACTIVE_ACCOUNT_DAYS, expired sign-in codes and old rate-limit events.
 async function purgeInactive() {
   try {
     const removed = await store.deleteInactive(new Date(Date.now() - INACTIVE_ACCOUNT_DAYS * 86_400_000));
     if (removed) app.log.info({ removed }, 'deleted inactive accounts');
     await store.purgeLoginCodes(new Date());
+    await store.purgeEvents(new Date(Date.now() - 86_400_000));
   } catch (e) {
     app.log.error(e, 'inactive account clean-up failed');
   }

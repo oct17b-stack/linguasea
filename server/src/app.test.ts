@@ -425,6 +425,16 @@ test('limits sign-in codes per email and per IP each hour', async () => {
   assert.equal((await ip.start('learner20@example.com', from(2))).statusCode, 204);
 });
 
+test('sign-in code limits are kept in the store, so a second server process sees them', async () => {
+  const store = new MemoryStore();
+  const one = await signInSetup({ store });
+  const two = await signInSetup({ store });
+  for (let i = 0; i < 3; i++) assert.equal((await one.start('nam@example.com')).statusCode, 204);
+  for (let i = 0; i < 2; i++) assert.equal((await two.start('nam@example.com')).statusCode, 204);
+  assert.equal((await two.start('nam@example.com')).statusCode, 429);
+  assert.equal((await one.start('nam@example.com')).statusCode, 429);
+});
+
 test('email sign-in answers 503 when mail is not configured (production)', async () => {
   assert.equal(createMailer({ production: true }), undefined);
   assert.equal(createMailer({ production: false }), consoleMailer);
@@ -578,6 +588,14 @@ test('rate limits reach the API, with the client IP taken from the trusted proxy
   const direct = buildServer({ store: new MemoryStore(), trustProxy: 0 });
   for (let i = 0; i < 20; i++) await direct.inject({ method: 'POST', url: '/v1/accounts', headers: { 'x-forwarded-for': `10.0.1.${i}` } });
   assert.equal((await direct.inject({ method: 'POST', url: '/v1/accounts', headers: { 'x-forwarded-for': '10.0.2.1' } })).statusCode, 429);
+
+  // ACCOUNTS_PER_IP_PER_HOUR raises the limit for carriers that put many learners behind one address.
+  const roomy = buildServer({ store: new MemoryStore(), accountsPerIp: 25 });
+  for (let i = 0; i < 25; i++) assert.equal((await roomy.inject({ method: 'POST', url: '/v1/accounts' })).statusCode, 201);
+  assert.equal((await roomy.inject({ method: 'POST', url: '/v1/accounts' })).statusCode, 429);
+  assert.equal(readConfig({}).accountsPerIp, 20);
+  assert.equal(readConfig({ ACCOUNTS_PER_IP_PER_HOUR: '100' }).accountsPerIp, 100);
+  assert.equal(readConfig({ ACCOUNTS_PER_IP_PER_HOUR: '0' }).accountsPerIp, 20, '0 would lock everyone out');
 });
 
 for (const [name, makeStore] of [

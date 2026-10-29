@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url';
 
-import { dayIn, DEFAULT_QUOTA_TIME_ZONE, DEFAULT_QUOTAS, type Quotas } from './app';
+import { dayIn, DEFAULT_ACCOUNTS_PER_IP, DEFAULT_QUOTA_TIME_ZONE, DEFAULT_QUOTAS, type Quotas } from './app';
 import { DEFAULT_TUTOR_MODEL } from './tutor';
 
 /** Everything the server reads from the environment (see .env.example and docs/LAUNCH.md). */
@@ -26,6 +26,8 @@ export type Config = {
   quotaTimeZone: string;
   /** Reverse proxies in front of the server whose X-Forwarded-For entries are trusted (default 1). */
   trustProxy: number;
+  /** New accounts per hour per client IP (ACCOUNTS_PER_IP_PER_HOUR, default 20). */
+  accountsPerIp: number;
 };
 
 const repoPath = (p: string) => fileURLToPath(new URL(`../../${p}`, import.meta.url));
@@ -64,6 +66,7 @@ export function readConfig(env: NodeJS.ProcessEnv = process.env): Config {
     publicDir: env.PUBLIC_DIR?.trim() || repoPath('server/public'),
     webDir: env.WEB_DIR?.trim() || repoPath('app/dist'),
     trustProxy: positiveInt(env.TRUST_PROXY, 1),
+    accountsPerIp: positiveInt(env.ACCOUNTS_PER_IP_PER_HOUR, DEFAULT_ACCOUNTS_PER_IP) || DEFAULT_ACCOUNTS_PER_IP,
     quotaTimeZone: timeZone(env.QUOTA_TIME_ZONE, DEFAULT_QUOTA_TIME_ZONE),
     quotas: {
       pronunciationFree: positiveInt(env.PRONUNCIATION_FREE_PER_DAY, DEFAULT_QUOTAS.pronunciationFree),

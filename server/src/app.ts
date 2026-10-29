@@ -72,6 +72,8 @@ export type Options = {
   logger?: boolean;
   /** API requests per minute per client IP. */
   rateLimit?: number;
+  /** New accounts per hour per client IP (default DEFAULT_ACCOUNTS_PER_IP). */
+  accountsPerIp?: number;
   /**
    * Reverse proxies in front of the server (load balancer, platform router). The client IP that rate
    * limits key on is read from X-Forwarded-For only this many hops deep; anything a client writes into
@@ -147,20 +149,8 @@ const CODES_PER_IP = 20;
 const CODE_ATTEMPTS = 5;
 const HOUR = 3_600_000;
 
-/** Counts events per key over a sliding window (in this process). */
-function windowCounter(windowMs: number) {
-  const hits = new Map<string, number[]>();
-  return (key: string, max: number, at: number): boolean => {
-    if (hits.size > 10_000) {
-      for (const [k, times] of hits) if (times.every((t) => t <= at - windowMs)) hits.delete(k);
-    }
-    const recent = (hits.get(key) ?? []).filter((t) => t > at - windowMs);
-    const allowed = recent.length < max;
-    if (allowed) recent.push(at);
-    hits.set(key, recent);
-    return allowed;
-  };
-}
+/** New anonymous accounts per client IP in an hour (many learners can share one carrier-grade NAT address). */
+export const DEFAULT_ACCOUNTS_PER_IP = 20;
 
 /** Voice answers (speech to text) per tutor turn of the daily allowance, so a learner can re-record. */
 const VOICE_ANSWERS_PER_TURN = 2;
@@ -192,6 +182,7 @@ export function buildServer({
   now = () => new Date(),
   logger = false,
   rateLimit: perMinute = 300,
+  accountsPerIp = DEFAULT_ACCOUNTS_PER_IP,
   trustProxy = 1,
 }: Options) {
   // A hop count, not `true`: trusting every hop would take the left-most X-Forwarded-For entry,
@@ -294,7 +285,7 @@ export function buildServer({
 
     // Anonymous account per install, so progress syncs before sign-in exists.
     // Apple / Google / LINE sign-in will attach to this account later.
-    app.post('/v1/accounts', { config: { rateLimit: { max: 20, timeWindow: '1 hour' } } }, async (_req, reply) => {
+    app.post('/v1/accounts', { config: { rateLimit: { max: accountsPerIp, timeWindow: '1 hour' } } }, async (_req, reply) => {
       const token = newToken();
       const acc: Account = { id: randomUUID(), createdAt: now().toISOString() };
       await store.createAccount(acc, sha256(token));
@@ -315,14 +306,16 @@ export function buildServer({
 
     // Email sign-in, step 1: a 6-digit code by email. The answer is the same whether or not the
     // address has an account, so nobody can find out who uses the app.
-    const codesSent = windowCounter(HOUR);
+    // Counted in the store, so the limits hold across restarts and server processes.
+    const codesSent = (key: string, max: number, at: number) =>
+      store.countEvent(key, max, new Date(at - HOUR), new Date(at));
     app.post('/v1/auth/email/start', async (req, reply) => {
       const body = StartBody.safeParse(req.body);
       if (!body.success) return reply.code(400).send({ error: 'invalid email' });
       if (!mailer) return reply.code(503).send({ error: 'email sign-in is not configured' });
       const { email, l1 } = body.data;
       const at = now().getTime();
-      if (!codesSent(`ip:${req.ip}`, CODES_PER_IP, at) || !codesSent(`email:${email}`, CODES_PER_EMAIL, at)) {
+      if (!(await codesSent(`ip:${req.ip}`, CODES_PER_IP, at)) || !(await codesSent(`email:${email}`, CODES_PER_EMAIL, at))) {
         return reply.code(429).send({ error: 'too many codes requested, try again later' });
       }
       const code = String(randomInt(0, 1_000_000)).padStart(6, '0');

@@ -50,6 +50,13 @@ create table if not exists login_codes (
   attempts    integer not null default 0    -- wrong guesses; the code is burnt after 5
 );
 
+-- Rate-limit events shared by every server process (e.g. sign-in codes sent per email and per IP).
+create table if not exists rate_events (
+  key  text not null,                       -- e.g. "ip:203.0.113.5", "email:nam@example.com"
+  at   timestamptz not null
+);
+create index if not exists rate_events_key_at on rate_events (key, at);
+
 create table if not exists progress (
   account_id  text primary key references accounts(id) on delete cascade,
   data        jsonb not null,               -- @linguasea/core Progress

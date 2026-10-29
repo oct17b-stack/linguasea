@@ -136,6 +136,21 @@ for (const [name, make] of stores) {
       assert.ok(await store.getLoginCode('new@example.com'));
     });
 
+    test('rate-limit events: counted per key within the window, refused at the limit, purged', async () => {
+      const store = await make();
+      const since = later(-3_600_000);
+      assert.equal(await store.countEvent('ip:a', 2, since, NOW), true);
+      assert.equal(await store.countEvent('ip:a', 2, since, later(1)), true);
+      assert.equal(await store.countEvent('ip:a', 2, since, later(2)), false, 'the third is refused');
+      assert.equal(await store.countEvent('ip:b', 2, since, later(2)), true, 'other keys count on their own');
+      assert.equal(await store.countEvent('ip:a', 2, later(1), later(3)), true, 'older events drop out of the window');
+      const together = await Promise.all([1, 2, 3].map((i) => store.countEvent('email:x', 2, since, later(i))));
+      assert.equal(together.filter(Boolean).length, 2, 'requests at the same time cannot all take the last slot');
+      assert.equal(await store.purgeEvents(later(2)), 3);
+      assert.equal(await store.countEvent('ip:a', 2, since, later(4)), true, 'one left after purging');
+      assert.equal(await store.countEvent('ip:a', 2, since, later(5)), false);
+    });
+
     test('merging folds progress and the later subscription into the other account', async () => {
       const store = await withAccount();
       await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString(), email: 'nam@example.com' }, 'hash-2');

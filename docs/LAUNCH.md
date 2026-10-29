@@ -279,6 +279,7 @@
 | `AZURE_SPEECH_REGION` | 是 | `southeastasia` | 否 |
 | `REVENUECAT_WEBHOOK_AUTH` | 是 | 和 RevenueCat webhook 的 Authorization header value 一字不差 | 是 |
 | `TRUST_PROXY` | 一般不用填 | 服务器前面有几层代理（默认 1，适合 Fly / Render / Cloud Run 这类平台）；直接对外不经代理时填 `0`。决定怎么取用户 IP，限流靠它，填多了用户能伪造 IP | 否 |
+| `ACCOUNTS_PER_IP_PER_HOUR` | 一般不用填 | 同一个 IP 每小时最多新建几个账号（默认 20，App 第一次打开就会建匿名账号）。泰国运营商常让很多人共用一个 IP（CGNAT），上线后日志里 `POST /v1/accounts` 出现很多 429 就调大，比如 100 | 否 |
 | `PORT` | 一般不用填 | 很多平台会自动设置；默认 8080 | 否 |
 | `AUDIO_DIR` | 一般不用填 | 默认用镜像里的 `content/audio`；音频放在别处（例如挂载的磁盘）时才填路径 | 否 |
 | `PRONUNCIATION_FREE_PER_DAY`、`PRONUNCIATION_PREMIUM_PER_DAY` | 可选 | 每天的发音打分次数（默认 10 / 200） | 否 |

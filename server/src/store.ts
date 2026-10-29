@@ -46,6 +46,13 @@ export interface Store {
   takeLoginCode(email: string): Promise<boolean>;
   /** Deletes codes that expired before `now`. */
   purgeLoginCodes(now: Date): Promise<number>;
+  /**
+   * Counts one event for `key` (e.g. a sign-in code sent to an IP) unless `max` were counted since
+   * `since`; false (and not counted) then. Shared by every server process using the same store.
+   */
+  countEvent(key: string, max: number, since: Date, at: Date): Promise<boolean>;
+  /** Deletes counted events from before `before`. */
+  purgeEvents(before: Date): Promise<number>;
 
   getProgress(accountId: string): Promise<Progress | undefined>;
   /** Read-modify-write without lost updates when two devices sync at once. */
@@ -75,6 +82,7 @@ export class MemoryStore implements Store {
   private usage = new Map<string, number>();
   private lastSeen = new Map<string, Date>();
   private aliases = new Map<string, string>(); // merged account id → surviving account id
+  private events = new Map<string, number[]>(); // key → times counted (ms)
 
   async createAccount(a: Account, tokenHash: string) {
     if (this.accounts.has(a.id)) throw new Error('account exists');
@@ -159,6 +167,22 @@ export class MemoryStore implements Store {
   }
   async takeLoginCode(email: string) {
     return this.codes.delete(email);
+  }
+  async countEvent(key: string, max: number, since: Date, at: Date) {
+    const times = this.events.get(key) ?? [];
+    if (times.filter((t) => t > since.getTime()).length >= max) return false;
+    this.events.set(key, [...times, at.getTime()]);
+    return true;
+  }
+  async purgeEvents(before: Date) {
+    let removed = 0;
+    for (const [key, times] of this.events) {
+      const kept = times.filter((t) => t >= before.getTime());
+      removed += times.length - kept.length;
+      if (kept.length) this.events.set(key, kept);
+      else this.events.delete(key);
+    }
+    return removed;
   }
   async purgeLoginCodes(now: Date) {
     let removed = 0;

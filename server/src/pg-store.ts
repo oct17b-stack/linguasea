@@ -162,6 +162,25 @@ export class PgStore implements Store {
     return rows.length;
   }
 
+  async countEvent(key: string, max: number, since: Date, at: Date) {
+    return this.db.transaction(async (tx) => {
+      // One counter at a time per key, so two processes cannot both take the last slot.
+      await tx.query('select pg_advisory_xact_lock(hashtext($1))', [key]);
+      const { rows } = await tx.query<{ n: number }>(
+        'select count(*)::int as n from rate_events where key = $1 and at > $2',
+        [key, since.toISOString()],
+      );
+      if ((rows[0]?.n ?? 0) >= max) return false;
+      await tx.query('insert into rate_events (key, at) values ($1, $2)', [key, at.toISOString()]);
+      return true;
+    });
+  }
+
+  async purgeEvents(before: Date) {
+    const { rows } = await this.db.query('delete from rate_events where at < $1 returning 1', [before.toISOString()]);
+    return rows.length;
+  }
+
   async touchAccount(id: string, now: Date) {
     await this.db.query(
       `update accounts set last_seen_at = $2 where id = $1 and last_seen_at < $2::timestamptz - interval '1 day'`,
