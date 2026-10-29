@@ -1,8 +1,11 @@
 # API server image with the web app at /app/. Build from the repo root:
-#   docker build --build-arg EXPO_PUBLIC_API_URL=https://api.<domain> -t linguasea-api .
+#   docker build -t linguasea-api .
+# Ready-made images (amd64 and arm64) are published to ghcr.io/oct17b-stack/linguasea by
+# .github/workflows/docker.yml; deploy/qnap/ runs one on a QNAP NAS (docs/DEPLOY-QNAP.md).
 
 # --- Web build of the app (expo export --platform web) -------------------------------------------
-FROM node:22-bookworm-slim AS web
+# The bundle is plain JavaScript, so it is built once on the build machine for every image platform.
+FROM --platform=$BUILDPLATFORM node:22-bookworm-slim AS web
 WORKDIR /build
 COPY package.json package-lock.json ./
 COPY app/package.json app/
@@ -16,8 +19,8 @@ COPY packages packages
 COPY content content
 COPY app app
 # EXPO_PUBLIC_* values are compiled into the web bundle (public, not secrets).
-# The API origin is normally this same server's origin.
-ARG EXPO_PUBLIC_API_URL=
+# "same-origin": the web app calls the server it is served from, whatever its address.
+ARG EXPO_PUBLIC_API_URL=same-origin
 ARG EXPO_PUBLIC_REVENUECAT_WEB_KEY=
 ENV EXPO_PUBLIC_API_URL=$EXPO_PUBLIC_API_URL \
     EXPO_PUBLIC_REVENUECAT_WEB_KEY=$EXPO_PUBLIC_REVENUECAT_WEB_KEY

@@ -17,7 +17,8 @@
 | `content/_review/` | 给母语老师的审校备注 |
 | `content/audio/` | 生成的配音和清单 |
 | `server/public/` | 官网、客服页、`/legal/` 法律页面 |
-| `tests/e2e/` | 端到端测试工具（真服务器 + 网页版 + 浏览器） |
+| `tests/e2e/` | 端到端测试工具（真服务器 + 网页版 + 浏览器）；`smoke.mjs` 检查已部署的服务器 |
+| `deploy/qnap/` | 威联通 NAS 的 Container Station 部署文件（说明见 docs/DEPLOY-QNAP.md）；镜像由 `.github/workflows/docker.yml` 构建 |
 
 ## 架构要点
 
@@ -44,6 +45,7 @@ npm run review:sheet               # 给母语老师的审校表（content/_revi
 cd app && npm start                # 开发服务器
 cd server && npm run dev           # 后端（不配 DATABASE_URL 时用内存存储）
 npm run e2e                        # 端到端测试（网页版 + 真服务器 + 浏览器）
+npm run smoke -- http://<NAS IP>:8090   # 检查已部署的服务器（先 npm run content）
 ```
 
 改了 App 界面要用网页版实际点一遍：`npm run e2e`（先 `npm run content`）会起真服务器、打包网页版、用 Playwright 把主要流程走一遍（选课、上课、同步、AI 老师、付费墙、分级测试、练习、单元测验、读物、复习、删除数据），逐项打印 PASS/FAIL。打包要几分钟；反复跑时可以先用 `EXPO_PUBLIC_API_URL=http://127.0.0.1:<端口>` 打包一次，再用 `E2E_DIST=<目录> E2E_API_PORT=<端口> npm run e2e`；`E2E_SHOTS=<目录>` 保存截图。工具函数在 `tests/e2e/harness.mjs`。检查分两个文件：`run.mjs`（主要流程）和 `screens.mjs`（四门课、直接输网址、屏幕尺寸、按钮、进度条）。云端容器里 Playwright 要的浏览器版本对不上时会自动用 `/opt/pw-browsers/chromium`，也可以设 `E2E_CHROMIUM=<路径>`。

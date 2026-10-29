@@ -1,0 +1,66 @@
+# LinguaSEA test server for a QNAP NAS (Container Station 3 → Applications → Create).
+# Step-by-step guide: docs/DEPLOY-QNAP.md. After it starts:
+#   http://<NAS IP>:8090/health   → {"ok":true}
+#   http://<NAS IP>:8090/app/     → the web app
+# Change the two passwords marked CHANGE before the first start (they must match).
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: linguasea
+      POSTGRES_PASSWORD: change-this-db-password # CHANGE (same as in DATABASE_URL below)
+      POSTGRES_DB: linguasea
+    volumes:
+      - db:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U linguasea -d linguasea']
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    # Built by GitHub Actions from the main branch (amd64 and arm64). To update: pull the image again and recreate.
+    image: ghcr.io/oct17b-stack/linguasea:latest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      # QTS itself uses 8080, so the server is on 8090 of the NAS.
+      - '8090:8080'
+    environment:
+      DATABASE_URL: postgres://linguasea:change-this-db-password@db:5432/linguasea # CHANGE (same password as above)
+      # Test setting: without Resend, email sign-in codes are printed in this container's log
+      # ("[mail] login code for …"). Use production (and RESEND_API_KEY / MAIL_FROM) when going live.
+      NODE_ENV: development
+      # One proxy in front (the Cloudflare tunnel below, or the QTS reverse proxy). Use 0 when phones
+      # reach port 8090 directly and nothing else is in front.
+      TRUST_PROXY: '1'
+      QUOTA_TIME_ZONE: Asia/Bangkok
+      # Optional services: fill in on the NAS only, never in git (variable list: docs/LAUNCH.md).
+      # AZURE_SPEECH_KEY: ''
+      # AZURE_SPEECH_REGION: southeastasia
+      # ANTHROPIC_API_KEY: ''
+      # RESEND_API_KEY: ''
+      # MAIL_FROM: ''
+      # REVENUECAT_WEBHOOK_AUTH: ''
+    healthcheck:
+      test: ['CMD', 'node', '-e', "fetch('http://127.0.0.1:8080/health').then(r=>process.exit(r.ok?0:1),()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      start_period: 60s
+      retries: 3
+
+  # HTTPS for testing on phones (microphone, iOS and store builds need https). Remove the # on the
+  # lines below: this "quick tunnel" needs no account and prints an address like
+  # https://<random words>.trycloudflare.com in its log. It changes whenever the container restarts;
+  # for a fixed address use a named tunnel on your own domain (docs/DEPLOY-QNAP.md, step 5).
+  # tunnel:
+  #   image: cloudflare/cloudflared:latest
+  #   restart: unless-stopped
+  #   depends_on: [api]
+  #   command: tunnel --no-autoupdate --url http://api:8080
+
+volumes:
+  db:

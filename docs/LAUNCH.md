@@ -119,6 +119,8 @@
 
 ### 7.2 API 服务器（Docker）
 
+> 先在自己的威联通 NAS 上测试：docs/DEPLOY-QNAP.md（GitHub 自动构建的镜像 `ghcr.io/oct17b-stack/linguasea`，Container Station 里粘贴一份 YAML 就能跑）。部署完用 `npm run smoke -- <服务器网址>` 从外面检查一遍。
+
 - **在哪里**：任选一家能跑 Docker、有新加坡区域的平台，例如 Fly.io（sin）、Render（Singapore）、Railway、DigitalOcean App Platform（SGP）、Google Cloud Run（asia-southeast1）。
 - **做什么**：
   1. 连接 GitHub 仓库，用根目录的 `Dockerfile` 部署（镜像里已经装了发音打分要用的 ffmpeg）。内存建议 512 MB 以上。
@@ -134,7 +136,7 @@
 同一个 Docker 镜像里已经打包了网页版 App：部署后 `https://api.<域名>/app/` 就是网页版，和手机 App 用同一套账号、进度和订阅。用户在设置里用邮箱登录（收一封 6 位验证码邮件，10 分钟内有效），在 iPhone、安卓、网页上登录同一个邮箱，进度会合并、订阅通用。
 
 - **网页版的打包参数**：托管平台的 **Docker build arguments**（不是运行时的环境变量）里填：
-  - `EXPO_PUBLIC_API_URL` = `https://api.<域名>`（网页版调用的服务器，就是它自己所在的网址）
+  - `EXPO_PUBLIC_API_URL`：一般不用填。镜像默认是 `same-origin`，网页版调用打开它的那个网址（所以同一个镜像在 NAS、测试隧道、正式域名上都能用）；填 `https://api.<域名>` 也可以
   - `EXPO_PUBLIC_REVENUECAT_WEB_KEY` = 第 13.1 步的 Web Billing 公开 key（不填时网页版不能购买，其他功能正常）
   - 改了这两个值要重新打包镜像才生效。
 - **发验证码邮件（Resend）**：
@@ -300,7 +302,7 @@
 
 | 变量 | 填什么 | 说明 |
 |---|---|---|
-| `EXPO_PUBLIC_API_URL` | `https://api.<域名>` | 网页版所在的服务器本身 |
+| `EXPO_PUBLIC_API_URL` | 一般不用填（默认 `same-origin`） | 网页版调用它所在的服务器本身 |
 | `EXPO_PUBLIC_REVENUECAT_WEB_KEY` | RevenueCat Web Billing 的 `rcb_…` | 公开 key；不填则网页版不能购买 |
 
 ## 费用汇总（估算，付款前核实）

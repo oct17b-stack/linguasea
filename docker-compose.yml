@@ -13,8 +13,8 @@ services:
     build:
       context: .
       args:
-        # The web app calls the API on the same origin.
-        EXPO_PUBLIC_API_URL: http://localhost:8080
+        # The web app calls the server it is served from.
+        EXPO_PUBLIC_API_URL: same-origin
         EXPO_PUBLIC_REVENUECAT_WEB_KEY: ${EXPO_PUBLIC_REVENUECAT_WEB_KEY:-}
     depends_on: [db]
     ports: ['8080:8080']

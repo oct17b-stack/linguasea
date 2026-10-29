@@ -4,8 +4,19 @@
  * self-checked speaking and placeholder subscription plans.
  */
 
-/** LinguaSEA server, e.g. https://api.example.com. Unset: no account, sync, clips or scoring. */
-export const API_URL = clean(process.env.EXPO_PUBLIC_API_URL)?.replace(/\/+$/, '');
+import { Platform } from 'react-native';
+
+/**
+ * LinguaSEA server, e.g. https://api.example.com. Unset: no account, sync, clips or scoring.
+ * "same-origin": the web build served by the server itself (/app/) calls the address it was opened
+ * from, so one Docker image works on any host (a NAS on the LAN, a test tunnel, the real domain).
+ */
+export const API_URL = apiUrl(clean(process.env.EXPO_PUBLIC_API_URL));
+
+function apiUrl(value: string | undefined): string | undefined {
+  if (value !== 'same-origin') return value?.replace(/\/+$/, '');
+  return Platform.OS === 'web' && typeof location !== 'undefined' ? location.origin : undefined;
+}
 
 /** RevenueCat public SDK keys. Unset: purchases are not available yet on that platform. */
 export const REVENUECAT_IOS_KEY = clean(process.env.EXPO_PUBLIC_REVENUECAT_IOS_KEY);
