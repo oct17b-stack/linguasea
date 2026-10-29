@@ -194,7 +194,7 @@ export async function screens({ web, api, newPage, check, shot, state, until, re
     await context.close();
   }
 
-  // ---------- 8. Audio past stage B: device TTS, no clip requests ----------
+  // ---------- 8. Audio past stage B: generated clips (A–F all have audio since 2026-10-29) ----------
   {
     const zh = course('zh');
     const key = answerKey(zh);
@@ -206,8 +206,8 @@ export async function screens({ web, api, newPage, check, shot, state, until, re
     await continueButton(page, zh, stageC).click();
     await play(page, key, 'right');
     const audio = await heard(page);
-    check('a stage C lesson falls back to device TTS in the course voice', audio.some((a) => a.kind === 'tts' && a.lang === zh.course.voice) && !audio.some((a) => a.kind === 'clip'), JSON.stringify(audio.slice(0, 2)));
-    check('…and asks the server for no clips', audioCalls(session).length === 0, audioCalls(session).join(', '));
+    check('a stage C lesson plays generated clips, not device TTS', audio.some((a) => a.kind === 'clip') && !audio.some((a) => a.kind === 'tts'), JSON.stringify(audio.slice(0, 2)));
+    check('…and the server has every clip it asks for', audioCalls(session).length > 0 && audioCalls(session).every((c) => / 20[06]$/.test(c)), audioCalls(session).join(', '));
     check('no console errors (stage C audio)', realErrors(errors).length === 0, realErrors(errors).join(' | '));
     await context.close();
   }

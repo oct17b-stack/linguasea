@@ -6,7 +6,7 @@
 
 开发全部完成：App（iOS / 安卓 / 网页同一套代码，网页版在 `<域名>/app/`）、服务器、邮箱验证码登录、四门课（中英日韩）A–F 全部内容（每门 720 课、约 230 小时，AI 写 + AI 审两轮）。`npm run check` 全部通过；`npm run e2e` 160/160 全部通过（2026-10-29，含修 XP 同步后新加的两项）。**剩下的都是要店主本人办的账号、密钥和请人。** 2026-10-29 起可以先部署到店主的威联通 NAS 上测试（docs/DEPLOY-QNAP.md）。
 
-**配音进度**：2026-10-25 用 Azure 免费层（F0）跑完 **A、B 阶段**（四门课共 7,800 段、约 33 万计费字符，mp3 和 manifest 已提交）。2026-10-26 店主曾决定改付费层 S0 一次跑完 C–F；之后改为**先把免费额度用完**。**2026-10-29 用免费层跑了 C 阶段 zh、ko、ja**：zh 1,567 段（约 7.7 万计费字符）、ko 1,562 段（约 7.1 万）、ja 1,596 段（约 7.6 万），三门课 C 阶段全部有文件，合计 4,725 段、约 22.4 万计费字符，**没有碰到额度上限**（本月合计约 55 万，比估算的 50 万还多，Azure 没有拒绝）；mp3 和 manifest 按课程分 3 次提交推送。`npm run check` 通过。`npm run audio -- --dry-run --stage C` 现在只剩 **en 1,571 段（约 9.6 万计费字符）**，zh / ja / ko 缺 0。**下个月（11 月 Azure 免费额度重置后）**：先跑 `--stage C --target en`，再跑 D 阶段（约 42 万，可能要按 `--target` 分两个月）；每次先 `--dry-run`。如果店主改成 S0，就一次跑完 C en 和 D–F。
+**配音进度**：**四门课 A–F 配音全部生成**（39,565 段，`npm run audio -- --dry-run` 显示四门课 missing 0："Nothing missing: every clip has a file."）。经过：2026-10-25 用 Azure 免费层（F0）跑完 A、B 阶段（7,800 段、约 33 万计费字符）；2026-10-29 先用免费层跑了 C 阶段 zh / ko / ja（4,725 段、约 22.4 万）；同日店主调整了 Azure 额度后一次跑完剩下的 13 步（C en，D、E、F 各四门课），共 27,039 段、约 158.6 万计费字符（按 US$16 / 100 万约 US$25），全程没有 429 / 403，没有被额度挡住。每门课每个阶段跑完后 `npm run check` 通过、没有小于 2 KB 的 mp3（最小约 8 KB），按"配音：<课程> <阶段> 阶段（N 段）"单独提交推送。各步段数：C en 1,571；D zh 1,890、ko 1,987、ja 1,917、en 1,940；E zh 2,178、ko 2,160、ja 2,204、en 2,193；F zh 2,204、ko 2,287、ja 2,263、en 2,245。以后只改了几课时，再跑 `npm run audio`（先 `--dry-run`）只会生成改动的几段。
 
 ## 暂停时的状态（2026-10-26）
 
@@ -14,7 +14,7 @@
 - **已完成、已推送**：A、B 配音；综合测试和 27 个修复（docs/TEST-REPORT.md）；XP 按设备记（`Progress.xpBy`、`creditXp`，App 存档 `device`，服务器接受 `xpBy`，core 92 / server 74 项测试通过）；C–F 配音准备：给 13 个单念容易念错的词加了 `say`（zh 弹 量 朝 为 倒 涨(长 zhǎng) 知(只 zhī) 种 地 假，ja 変 表 図），`npm run validate` 通过。
 - **2026-10-29 补上**：修 XP 同步后的 `npm run e2e` 重跑，160/160 通过；`npm run validate` 新加一条检查：同一门课里配音念的文字（`say`，没有就是 `text`）相同、读音不同的两个词条会报错（它们会共用一段录音，如 还 hái / huán），四门课现在都没有；AUDIO.md / HANDOVER / ROADMAP 里"b 一律男声、要先区分说话人"的过时说法改正（`c` 女声早已在用，A、B 配音也是按 a / b / c 配的）。
 - **2026-10-29 威联通 NAS 部署**：`deploy/qnap/docker-compose.yml`（PostgreSQL + 服务器，NAS 端口 8090，可选 Cloudflare 隧道给 https）、`.github/workflows/docker.yml`（CI 通过后构建 amd64 + arm64 镜像推到 `ghcr.io/oct17b-stack/linguasea`）、网页版默认 `EXPO_PUBLIC_API_URL=same-origin`（调用打开它的那个网址，一个镜像到处能用）、`npm run smoke -- <网址>` 检查已部署的服务器、说明 docs/DEPLOY-QNAP.md。在云端容器里用同一份 YAML 起过整套服务：smoke 9/9、换地址访问也只调用该地址、重建容器后数据还在、验证码出现在 api 日志里（容器里的网络策略不让装 ffmpeg，本地测试镜像没装；GitHub 上构建会装）。
-- **等店主**：Azure 改 S0；按 docs/DEPLOY-QNAP.md 在 NAS 上部署，把网址告诉 AI。
+- **等店主**：按 docs/DEPLOY-QNAP.md 在 NAS 上部署，把网址告诉 AI。
 
 **综合测试**：2026-10-25 把界面、引擎、服务器、内容、配音全部测了一遍，修了 27 个问题（6 个严重：网页直接输网址能绕过付费墙、时钟倒退时复习崩溃、服务器限流没生效、IP 可伪造、验证码可并发猜、中文"还"两个读音共用一段录音），单元测试 contract 24 / core 92 / server 78 / tools 37（2026-10-29），端到端 160 项。之后又修了 XP 同步丢失（两台设备离线各自得的 XP 现在会相加）。详情和没修的 12 个问题见 **docs/TEST-REPORT.md**。
 
@@ -33,9 +33,9 @@
 
 ## 店主要做的事（按顺序）
 
-### 0. 现在：Azure 改付费层 S0（C–F 配音要用）
+### 0. Azure 额度（✅ 2026-10-29 已调整，C–F 配音已全部跑完）
 
-portal.azure.com → 打开你建的 Speech 资源 → 左侧"定价层"（Pricing tier）→ 选 **S0** → 保存。密钥、区域、云端环境设置都不用改。改好后对 AI 说"好了，跑完 C–F 配音"。
+以后如果改了课程内容要补配音，对 AI 说"补配音"就行；密钥、区域、云端环境设置都不用改。
 
 ### 0b. 现在：部署到威联通 NAS 测试（docs/DEPLOY-QNAP.md）
 
@@ -88,7 +88,7 @@ GitHub 会自动构建服务器镜像（`ghcr.io/oct17b-stack/linguasea`，x86 �
 - 每次改完提交并推送到上面的仓库和分支。
 - **开发这边下一步（不用等店主）**，按顺序：
   1. ✅ 重跑 `npm run e2e`：160/160（2026-10-29）。
-  2. 配音（C 阶段 zh / ko / ja 已于 2026-10-29 用免费层跑完，见上面「配音进度」）：免费层下个月先跑 C 阶段 en、再跑 D；店主说 S0 改好后一次跑完剩下的：先 `NODE_USE_ENV_PROXY=1 npm run audio -- --dry-run` 看计费字符（原估约 181 万，现在少了约 22 万），再去掉 `--dry-run` 后台运行（`nohup … &`，S0 每分钟约 400 段，约 1.5 小时；中途断了重跑会跳过已生成的）。跑完 `npm run check`，按课程（zh / en / ja / ko）分 4 次提交推送 `content/audio/<课程>/`，每次几十 MB。最后把本文件和 TEST-REPORT 的配音进度改成"全部完成"。
+  2. 配音：✅ 2026-10-29 四门课 A–F 配音全部生成（见上面「配音进度」，`npm run audio -- --dry-run` 缺 0）。以后改了内容只需再跑 `NODE_USE_ENV_PROXY=1 npm run audio`（先 `--dry-run`），跑完 `npm run check`，提交 `content/audio/<课程>/`。
   3. 配音里还拿不准、要人听的：中文 `zh.dei`（得 děi，zh-C2-04）单念可能被念成 dé，没有合适的同音字所以没加 `say`；对话句子里的多音字没法加 `say`。请店主或母语老师抽听。
   4. TEST-REPORT 第 6 节"低"的问题：✅ 2026-10-29 修了 4 个（调用失败退还次数、每日次数按曼谷午夜重置 `QUOTA_TIME_ZONE`、manifest 和真人录音只缓存 5 分钟、卡片 `due` 必须是 ISO 时间）。还剩验证码计数存数据库（服务器要跑多个实例时再做）、`POST /v1/accounts` 的 IP 限流是否调大（上线前看 CGNAT 情况）。
   5. 拿到 RevenueCat 沙盒后核对退款、延期事件；拿到 Anthropic / Azure / Resend 密钥后各真测一次。
