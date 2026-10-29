@@ -88,4 +88,4 @@ GitHub 会自动构建服务器镜像（`ghcr.io/oct17b-stack/linguasea`，x86 �
   3. 配音里还拿不准、要人听的：中文 `zh.dei`（得 děi，zh-C2-04）单念可能被念成 dé，没有合适的同音字所以没加 `say`；对话句子里的多音字没法加 `say`。请店主或母语老师抽听。
   4. TEST-REPORT 第 6 节"低"的问题：✅ 2026-10-29 修了 4 个（调用失败退还次数、每日次数按曼谷午夜重置 `QUOTA_TIME_ZONE`、manifest 和真人录音只缓存 5 分钟、卡片 `due` 必须是 ISO 时间）。还剩验证码计数存数据库（服务器要跑多个实例时再做）、`POST /v1/accounts` 的 IP 限流是否调大（上线前看 CGNAT 情况）。
   5. 拿到 RevenueCat 沙盒后核对退款、延期事件；拿到 Anthropic / Azure / Resend 密钥后各真测一次。
-  6. 店主在 NAS 上部署好后：`npm run content && npm run smoke -- <NAS 网址>`（局域网 IP 从云端连不到，要用第 5 步的 https 网址）；有了固定 https 网址后，把 EAS preview 的 `EXPO_PUBLIC_API_URL` 设成它，做手机内测版（docs/LAUNCH.md 第 10 步）。第一次推送后看 GitHub Actions 的 **Docker image** 是否成功（第一次构建 arm64 较慢）。
+  6. 店主在 NAS 上部署好后：`npm run content && npm run smoke -- <NAS 网址>`（局域网 IP 从云端连不到，要用第 5 步的 https 网址）；有了固定 https 网址后，把 EAS preview 的 `EXPO_PUBLIC_API_URL` 设成它，做手机内测版（docs/LAUNCH.md 第 10 步）。✅ 2026-10-29 第一次镜像构建成功（amd64 + arm64），不登录就能拉取（镜像已经是公开的）。
