@@ -4,17 +4,18 @@
 
 ## 生成什么
 
-- 词条：念 `spoken(item)`（有 `say` 念 `say`，否则念 `text`），语速 -10%。对话：按说话人 `a` / `b`，正常语速。同一门课里"声音 + 文字"相同的只生成一次。
-- 声音表只在 `tools/src/audio/voices.ts` 一个文件里。词条和 a 用女声，b 用男声：
+- 词条：念 `spoken(item)`（有 `say` 念 `say`，否则念 `text`），语速 -10%。对话：按说话人 `a` / `b` / `c`，正常语速。同一门课里"声音 + 文字"相同的只生成一次。
+- 声音表只在 `tools/src/audio/voices.ts` 一个文件里。词条和 a（学习者 Nam，女生）用同一个女声，b（男性对方）用男声，c（女性对方，如 Emma、ゆき、이 선생님）用另一个女声，好和 Nam 区分：
 
-  | 课程 | 词条、a | b |
-  |---|---|---|
-  | zh | zh-CN-XiaoxiaoNeural | zh-CN-YunxiNeural |
-  | en | en-US-JennyNeural | en-US-GuyNeural |
-  | ja | ja-JP-NanamiNeural | ja-JP-KeitaNeural |
-  | ko | ko-KR-SunHiNeural | ko-KR-InJoonNeural |
+  | 课程 | 词条、a | b（男） | c（女） |
+  |---|---|---|---|
+  | zh | zh-CN-XiaoxiaoNeural | zh-CN-YunxiNeural | zh-CN-XiaohanNeural |
+  | en | en-US-JennyNeural | en-US-GuyNeural | en-US-AriaNeural |
+  | ja | ja-JP-NanamiNeural | ja-JP-KeitaNeural | ja-JP-AoiNeural |
+  | ko | ko-KR-SunHiNeural | ko-KR-InJoonNeural | ko-KR-JiMinNeural |
 
-  注意：b 一律是男声，但英语的 Emma、日语的 Tanaka Yuki 是女性角色。要按角色配声音，得先在内容格式里区分说话人。
+  说话人的性别写在内容里（docs/CONTENT.md：`b` 男、`c` 女），各阶段第二轮审校都核对过。读物句子用词条的声音念。
+- 配音按"声音 + 念的文字"对应文件，所以同一门课里念的文字（`say`，没有就是 `text`）相同、读音不同的两个词条会共用一段录音（如 还 hái / huán）。`npm run validate` 会报出这种情况，给其中一个加 `say` 就行。
 - 文件：`content/audio/<课程>/<哈希>.mp3`，格式 audio-24khz-48kbitrate-mono-mp3。哈希取 sha1(声音名, 语速, 文字, 输出格式) 的前 16 位，所以这四样改了任何一样都会生成新文件。已有的文件直接跳过，不会重复花钱。
 - `content/audio/<课程>/manifest.json`：key 是 `audioKey(声音, 文字)`（如 `item|你好`、`b|不客气。`），值是 `zh/<哈希>.mp3`。key 按顺序排列，只列出文件确实存在的。
 - `npm run content` 把 manifest 放进内容包的 `courses[课程].audio`。服务器在 `/audio/` 下提供 `AUDIO_DIR`（默认 `content/audio`）。App 查 `audio[audioKey('item', spoken(item))]` 或 `audio[audioKey(line.speaker, line.text)]`，再请求 `<服务器>/audio/<路径>`；查不到就用设备 TTS。

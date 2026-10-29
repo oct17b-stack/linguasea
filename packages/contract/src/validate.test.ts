@@ -73,6 +73,19 @@ describe('validate', () => {
     expect(messages(root).some((m) => m.includes(`${word.id} differs from zh-A1-01`))).toBe(true);
   });
 
+  it('catches two items read differently that would share one audio clip', () => {
+    const root = copy('zh');
+    const word = firstWord(root, 'zh', 'zh-A1-01');
+    edit(join(root, 'courses/zh/lessons/zh-B1-01.json'), (l) => {
+      l.items.push({ id: 'zh.homograph', text: word.text, reading: `${word.reading}x` });
+    });
+    expect(messages(root).some((m) => m.includes(`item zh.homograph (${word.reading}x) says "${word.text}" like ${word.id}`))).toBe(true);
+    edit(join(root, 'courses/zh/lessons/zh-B1-01.json'), (l) => {
+      l.items.at(-1).say = '龘';
+    });
+    expect(messages(root).some((m) => m.includes('share one audio clip'))).toBe(false);
+  });
+
   it('checks that declared homonyms are taught and written and read the same', () => {
     const root = copy('zh');
     const a = firstWord(root, 'zh', 'zh-A1-01');

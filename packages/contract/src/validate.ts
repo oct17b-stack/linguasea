@@ -54,6 +54,19 @@ export function validate(loaded: Loaded): Problem[] {
       }
     }
 
+    // Generated audio is keyed by what TTS reads, so items read differently must not say the same
+    // text (还 hái / huán would share one clip): give one of them a `say`, or a recorded `audio`.
+    const said = new Map<string, Item & { lesson: string }>();
+    for (const item of seen.values()) {
+      if (item.audio) continue;
+      const text = item.say ?? item.text;
+      const prev = said.get(text);
+      if (!prev) said.set(text, item);
+      else if (prev.reading !== item.reading) {
+        add(`courses/${target}/lessons/${item.lesson}.json`, `item ${item.id} (${item.reading}) says "${text}" like ${prev.id} (${prev.reading}) in ${prev.lesson}, so they would share one audio clip: add a "say"`);
+      }
+    }
+
     for (const ids of course.homonyms ?? []) {
       const missing = ids.filter((id) => !seen.has(id));
       if (missing.length) add(cfile, `homonyms: ${missing.join(', ')} not taught in any lesson`);
