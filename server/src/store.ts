@@ -61,6 +61,8 @@ export interface Store {
 
   /** Counts one use of `key` today; false (and not counted) once `limit` is reached. */
   useQuota(accountId: string, day: string, key: string, limit: number): Promise<boolean>;
+  /** Gives back one use counted by useQuota, when the call it paid for failed. */
+  refundQuota(accountId: string, day: string, key: string): Promise<void>;
 }
 
 export class MemoryStore implements Store {
@@ -187,5 +189,10 @@ export class MemoryStore implements Store {
     if (used >= limit) return false;
     this.usage.set(k, used + 1);
     return true;
+  }
+  async refundQuota(id: string, day: string, key: string) {
+    const k = `${id}|${day}|${key}`;
+    const used = this.usage.get(k) ?? 0;
+    if (used > 0) this.usage.set(k, used - 1);
   }
 }

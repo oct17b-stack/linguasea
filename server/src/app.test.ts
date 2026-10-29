@@ -6,7 +6,8 @@ import { test } from 'node:test';
 
 import { completeLesson, creditXp, emptyProgress } from '@linguasea/core';
 
-import { buildServer, type Options } from './app';
+import { buildServer, dayIn, type Options } from './app';
+import { readConfig } from './config';
 import { consoleMailer, createMailer, ResendMailer, type LoginCodeMail, type Mailer } from './mail';
 import { PgStore } from './pg-store';
 import type { Assessor, Score } from './pronunciation';
@@ -181,22 +182,63 @@ test('pronunciation: validates input, needs scoring configured, and enforces the
   assert.equal(res.statusCode, 503);
 });
 
+test('a failed paid call gives its use back', async () => {
+  let fail = 2;
+  const assessor: Assessor = {
+    assess: async () => {
+      if (fail-- > 0) throw new Error('speech service down');
+      return SCORE;
+    },
+  };
+  const { app, auth } = await setup({ assessor, quotas: { pronunciationFree: 1, pronunciationPremium: 1, tutorFree: 1, tutorPremium: 1 } });
+  const send = () => {
+    const body = multipart({ target: 'en', text: 'hi' }, Buffer.from('x'));
+    return app.inject({ method: 'POST', url: '/v1/pronunciation', headers: { ...auth, ...body.headers }, payload: body.payload });
+  };
+  assert.deepEqual([(await send()).statusCode, (await send()).statusCode, (await send()).statusCode, (await send()).statusCode], [502, 502, 200, 429]);
+});
+
+test('daily allowances start over at midnight in Bangkok, not UTC', async () => {
+  let clock = new Date('2026-10-22T16:59:00Z'); // 23:59 in Bangkok
+  const assessor: Assessor = { assess: async () => SCORE };
+  const quotas = { pronunciationFree: 1, pronunciationPremium: 1, tutorFree: 1, tutorPremium: 1 };
+  const { app, auth } = await setup({ assessor, quotas, now: () => clock });
+  const send = async () => {
+    const body = multipart({ target: 'en', text: 'hi' }, Buffer.from('x'));
+    return (await app.inject({ method: 'POST', url: '/v1/pronunciation', headers: { ...auth, ...body.headers }, payload: body.payload })).statusCode;
+  };
+  assert.equal(await send(), 200);
+  assert.equal(await send(), 429);
+  clock = new Date('2026-10-22T17:01:00Z'); // 00:01 on the 23rd in Bangkok, still the 22nd in UTC
+  assert.equal(await send(), 200);
+  assert.equal(dayIn('Asia/Bangkok', clock), '2026-10-23');
+  assert.equal(dayIn('UTC', clock), '2026-10-22');
+  assert.equal(readConfig({}).quotaTimeZone, 'Asia/Bangkok');
+  assert.equal(readConfig({ QUOTA_TIME_ZONE: 'Asia/Manila' }).quotaTimeZone, 'Asia/Manila');
+  assert.throws(() => readConfig({ QUOTA_TIME_ZONE: 'Mars/Olympus' }), /unknown time zone/);
+});
+
 test('serves the website, legal pages and generated audio', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'static-'));
   mkdirSync(join(dir, 'public/legal'), { recursive: true });
   mkdirSync(join(dir, 'audio/zh'), { recursive: true });
   writeFileSync(join(dir, 'public/index.html'), '<h1>LinguaSEA</h1>');
   writeFileSync(join(dir, 'public/legal/privacy-th.html'), '<h1>นโยบายความเป็นส่วนตัว</h1>');
-  writeFileSync(join(dir, 'audio/zh/abc.mp3'), 'ID3');
+  writeFileSync(join(dir, 'audio/zh/0123456789abcdef.mp3'), 'ID3');
+  writeFileSync(join(dir, 'audio/zh/manifest.json'), '{}');
   const { app } = await setup({ publicDir: join(dir, 'public'), audioDir: join(dir, 'audio') });
   assert.match((await app.inject({ url: '/' })).body, /LinguaSEA/);
   const page = await app.inject({ url: '/legal/privacy-th.html' });
   assert.equal(page.statusCode, 200);
   assert.match(page.body, /นโยบาย/);
   assert.equal((await app.inject({ url: '/health' })).statusCode, 200);
-  const clip = await app.inject({ url: '/audio/zh/abc.mp3' });
+  const clip = await app.inject({ url: '/audio/zh/0123456789abcdef.mp3' });
   assert.equal(clip.statusCode, 200);
   assert.match(String(clip.headers['cache-control']), /immutable/);
+  // The manifest keeps its name when new clips are added, so it must not be cached for long.
+  const manifest = await app.inject({ url: '/audio/zh/manifest.json' });
+  assert.equal(manifest.statusCode, 200);
+  assert.equal(manifest.headers['cache-control'], 'public, max-age=300');
 });
 
 test('transcribe: turns a voice answer into text', async () => {
@@ -693,6 +735,7 @@ test("progress: stale writes keep the newer card, accounts never see each other'
     { ...emptyProgress(), version: 2 },
     { ...emptyProgress(), xp: 1.5 },
     { ...emptyProgress(), cards: { 'zh.x': { reps: 1 } } },
+    { ...emptyProgress(), cards: { 'zh.x': { due: 'tomorrow', reps: 1 } } },
     { ...emptyProgress(), completed: { 'zh-A1-01': 5 } },
     [],
   ]) {
@@ -702,7 +745,7 @@ test("progress: stale writes keep the newer card, accounts never see each other'
     method: 'PUT',
     url: '/v1/progress',
     headers: { ...auth, 'content-type': 'application/json' },
-    payload: '{"version":1,"completed":{},"cards":{"__proto__":{"due":"x","reps":1}},"xp":0,"streak":{"count":0}}',
+    payload: '{"version":1,"completed":{},"cards":{"__proto__":{"due":"2026-10-22T09:00:00.000Z","reps":1}},"xp":0,"streak":{"count":0}}',
   });
   assert.equal(proto.statusCode, 400);
   const huge = await app.inject({

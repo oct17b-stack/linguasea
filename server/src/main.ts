@@ -48,6 +48,7 @@ const app = buildServer({
   tutor: config.tutor ? new ClaudeTutor(undefined, config.tutor.model) : undefined,
   bundle,
   quotas: config.quotas,
+  quotaTimeZone: config.quotaTimeZone,
   audioDir: config.audioDir,
   publicDir: config.publicDir,
   webDir: config.webDir,

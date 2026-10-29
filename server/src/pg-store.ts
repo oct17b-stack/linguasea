@@ -232,4 +232,11 @@ export class PgStore implements Store {
     );
     return rows.length > 0 && limit > 0;
   }
+
+  async refundQuota(id: string, day: string, key: string) {
+    await this.db.query(
+      'update usage set count = count - 1 where account_id = $1 and day = $2 and key = $3 and count > 0',
+      [id, day, key],
+    );
+  }
 }

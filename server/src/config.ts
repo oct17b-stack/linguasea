@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url';
 
-import { DEFAULT_QUOTAS, type Quotas } from './app';
+import { dayIn, DEFAULT_QUOTA_TIME_ZONE, DEFAULT_QUOTAS, type Quotas } from './app';
 import { DEFAULT_TUTOR_MODEL } from './tutor';
 
 /** Everything the server reads from the environment (see .env.example and docs/LAUNCH.md). */
@@ -22,11 +22,24 @@ export type Config = {
   /** Web build of the app, served at /app/ when the folder exists. */
   webDir: string;
   quotas: Quotas;
+  /** IANA time zone whose midnight resets the daily allowances (QUOTA_TIME_ZONE, default Asia/Bangkok). */
+  quotaTimeZone: string;
   /** Reverse proxies in front of the server whose X-Forwarded-For entries are trusted (default 1). */
   trustProxy: number;
 };
 
 const repoPath = (p: string) => fileURLToPath(new URL(`../../${p}`, import.meta.url));
+
+function timeZone(value: string | undefined, fallback: string): string {
+  const zone = value?.trim();
+  if (!zone) return fallback;
+  try {
+    dayIn(zone, new Date());
+    return zone;
+  } catch {
+    throw new Error(`QUOTA_TIME_ZONE: unknown time zone "${zone}"`);
+  }
+}
 
 function positiveInt(value: string | undefined, fallback: number): number {
   const n = Number(value);
@@ -51,6 +64,7 @@ export function readConfig(env: NodeJS.ProcessEnv = process.env): Config {
     publicDir: env.PUBLIC_DIR?.trim() || repoPath('server/public'),
     webDir: env.WEB_DIR?.trim() || repoPath('app/dist'),
     trustProxy: positiveInt(env.TRUST_PROXY, 1),
+    quotaTimeZone: timeZone(env.QUOTA_TIME_ZONE, DEFAULT_QUOTA_TIME_ZONE),
     quotas: {
       pronunciationFree: positiveInt(env.PRONUNCIATION_FREE_PER_DAY, DEFAULT_QUOTAS.pronunciationFree),
       pronunciationPremium: positiveInt(env.PRONUNCIATION_PREMIUM_PER_DAY, DEFAULT_QUOTAS.pronunciationPremium),

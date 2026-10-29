@@ -280,6 +280,7 @@
 | `PORT` | 一般不用填 | 很多平台会自动设置；默认 8080 | 否 |
 | `AUDIO_DIR` | 一般不用填 | 默认用镜像里的 `content/audio`；音频放在别处（例如挂载的磁盘）时才填路径 | 否 |
 | `PRONUNCIATION_FREE_PER_DAY`、`PRONUNCIATION_PREMIUM_PER_DAY` | 可选 | 每天的发音打分次数（默认 10 / 200） | 否 |
+| `QUOTA_TIME_ZONE` | 一般不用填 | 每天的次数（发音打分、AI 老师、语音输入）在这个时区的午夜重置，默认 `Asia/Bangkok`（泰国、越南、柬埔寨、老挝、印尼西部同一时区）；调用失败不计次数 | 否 |
 | `RESEND_API_KEY` | 是（要邮箱登录） | 第 7.3 步 Resend 的 API key；不填则正式环境的邮箱登录关闭 | 是 |
 | `MAIL_FROM` | 是（要邮箱登录） | 发信地址，例如 `LinguaSEA <login@mail.<域名>>`，域名要在 Resend 验证过 | 否 |
 | `WEB_DIR` | 不用填 | 网页版文件夹；Docker 镜像里已设为 `/srv/web`，本地默认 `app/dist`（文件夹不存在就不提供网页版） | 否 |

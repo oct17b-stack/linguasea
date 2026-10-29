@@ -58,6 +58,17 @@ for (const [name, make] of stores) {
       assert.equal(await store.useQuota('acc-1', '2026-10-23', 'pronunciation', 3), true);
     });
 
+    test('a refunded use can be used again, but never below zero', async () => {
+      const store = await withAccount();
+      assert.equal(await store.useQuota('acc-1', '2026-10-22', 'tutor', 1), true);
+      assert.equal(await store.useQuota('acc-1', '2026-10-22', 'tutor', 1), false);
+      await store.refundQuota('acc-1', '2026-10-22', 'tutor');
+      await store.refundQuota('acc-1', '2026-10-22', 'tutor');
+      await store.refundQuota('acc-1', '2026-10-21', 'tutor');
+      assert.equal(await store.useQuota('acc-1', '2026-10-22', 'tutor', 1), true);
+      assert.equal(await store.useQuota('acc-1', '2026-10-22', 'tutor', 1), false);
+    });
+
     test('deletes accounts that have not been used for a long time', async () => {
       const store = await withAccount();
       await store.createAccount({ id: 'acc-2', createdAt: NOW.toISOString() }, 'hash-2');

@@ -1,13 +1,13 @@
 import { createHash, randomBytes, randomInt, randomUUID, timingSafeEqual } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
-import { join, relative, resolve, sep } from 'node:path';
+import { basename, join, relative, resolve, sep } from 'node:path';
 
 import multipart from '@fastify/multipart';
 import rateLimit from '@fastify/rate-limit';
 import fastifyStatic from '@fastify/static';
 import { L1, Target, type Bundle } from '@linguasea/contract';
-import { dayKey, emptyProgress, mergeProgress, type Progress } from '@linguasea/core';
+import { emptyProgress, mergeProgress, type Progress } from '@linguasea/core';
 import Fastify, { type FastifyReply, type FastifyRequest } from 'fastify';
 import { z } from 'zod';
 
@@ -27,6 +27,16 @@ export type Quotas = {
 
 /** Accounts unused this long are deleted with everything stored for them (privacy policy). */
 export const INACTIVE_ACCOUNT_DAYS = 730;
+
+/** Daily allowances start over at midnight here (UTC+7 covers Thailand, Vietnam, Cambodia, Laos and western Indonesia). */
+export const DEFAULT_QUOTA_TIME_ZONE = 'Asia/Bangkok';
+
+/** The calendar day ("2026-10-22") it is in `timeZone` at `at`. */
+export function dayIn(timeZone: string, at: Date): string {
+  const parts = new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(at);
+  const get = (type: string) => parts.find((p) => p.type === type)!.value;
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
 
 export const DEFAULT_QUOTAS: Quotas = {
   pronunciationFree: 10,
@@ -48,6 +58,8 @@ export type Options = {
   /** Course content, for building tutor scenarios. */
   bundle?: Bundle;
   quotas?: Quotas;
+  /** IANA time zone whose midnight starts a new day of allowances. */
+  quotaTimeZone?: string;
   /** Generated audio (tools/audio) served at /audio/. */
   audioDir?: string;
   /** Public website (landing and support pages, /legal/ policies) served at /. */
@@ -71,7 +83,8 @@ export type Options = {
 const ProgressBody = z.object({
   version: z.literal(1),
   completed: z.record(z.string(), z.string()),
-  cards: z.record(z.string(), z.looseObject({ due: z.string(), reps: z.number() })),
+  // Review order compares `due` as text, so it must be the ISO form toISOString() writes.
+  cards: z.record(z.string(), z.looseObject({ due: z.iso.datetime(), reps: z.number() })),
   xp: z.number().int().min(0),
   // XP per device install id (see Progress.xpBy in @linguasea/core).
   xpBy: z
@@ -171,6 +184,7 @@ export function buildServer({
   tutor,
   bundle,
   quotas = DEFAULT_QUOTAS,
+  quotaTimeZone = DEFAULT_QUOTA_TIME_ZONE,
   audioDir,
   publicDir,
   webDir,
@@ -211,8 +225,17 @@ export function buildServer({
   });
 
   if (audioDir && existsSync(audioDir)) {
-    // File names are content hashes, so clips can be cached forever.
-    app.register(fastifyStatic, { root: audioDir, prefix: '/audio/', immutable: true, maxAge: '365d' });
+    // Generated clips are named by content hash and can be cached forever; manifest.json and recorded
+    // clips (content/audio/<course>/recorded/) keep their names when they change.
+    app.register(fastifyStatic, {
+      root: audioDir,
+      prefix: '/audio/',
+      cacheControl: false,
+      setHeaders(reply, path) {
+        const hashed = /^[0-9a-f]{16}\.mp3$/.test(basename(path));
+        reply.header('cache-control', hashed ? 'public, max-age=31536000, immutable' : 'public, max-age=300');
+      },
+    });
   }
   if (publicDir && existsSync(publicDir)) {
     app.register(fastifyStatic, { root: publicDir, prefix: '/', decorateReply: false, maxAge: '1h' });
@@ -468,15 +491,23 @@ export function buildServer({
       return { fields, audio };
     }
 
-    /** Counts one use against today's allowance (higher for subscribers); the limit when it is used up. */
-    async function overQuota(id: string, key: 'pronunciation' | 'tutor' | 'transcribe'): Promise<number | undefined> {
+    /**
+     * Counts one use against today's allowance (higher for subscribers): the limit when it is used
+     * up, otherwise `refund` to give the use back if the paid service then fails.
+     */
+    async function chargeQuota(
+      id: string,
+      key: 'pronunciation' | 'tutor' | 'transcribe',
+    ): Promise<{ limit: number } | { refund: () => Promise<void> }> {
       const premium = await isPremium(id);
       const tutorLimit = premium ? quotas.tutorPremium : quotas.tutorFree;
       const limit =
         key === 'pronunciation'
           ? premium ? quotas.pronunciationPremium : quotas.pronunciationFree
           : key === 'tutor' ? tutorLimit : tutorLimit * VOICE_ANSWERS_PER_TURN;
-      return (await store.useQuota(id, dayKey(now()), key, limit)) ? undefined : limit;
+      const day = dayIn(quotaTimeZone, now());
+      if (!(await store.useQuota(id, day, key, limit))) return { limit };
+      return { refund: () => store.refundQuota(id, day, key).catch((e) => app.log.error(e, 'quota refund failed')) };
     }
 
     // Multipart: fields `target` and `text` (what the learner was asked to say), then file `audio`.
@@ -493,12 +524,13 @@ export function buildServer({
         return reply.code(400).send({ error: 'need target, text (≤200 chars) and audio' });
       }
 
-      const limit = await overQuota(acc.id, 'pronunciation');
-      if (limit !== undefined) return reply.code(429).send({ error: 'daily limit reached', limit });
+      const charge = await chargeQuota(acc.id, 'pronunciation');
+      if ('limit' in charge) return reply.code(429).send({ error: 'daily limit reached', limit: charge.limit });
       try {
         return await assessor.assess({ audio: upload.audio, text, target: t.data });
       } catch (e) {
         req.log.error(e, 'pronunciation assessment failed');
+        await charge.refund();
         return reply.code(502).send({ error: e instanceof AssessError ? e.message : 'scoring failed' });
       }
     });
@@ -515,12 +547,13 @@ export function buildServer({
       if (!t.success || !upload.audio?.length) return reply.code(400).send({ error: 'need target and audio' });
 
       // Speech recognition is paid per use: it has a daily allowance like the tutor turns it feeds.
-      const limit = await overQuota(acc.id, 'transcribe');
-      if (limit !== undefined) return reply.code(429).send({ error: 'daily limit reached', limit });
+      const charge = await chargeQuota(acc.id, 'transcribe');
+      if ('limit' in charge) return reply.code(429).send({ error: 'daily limit reached', limit: charge.limit });
       try {
         return { text: await transcriber.transcribe({ audio: upload.audio, target: t.data }) };
       } catch (e) {
         req.log.error(e, 'transcription failed');
+        await charge.refund();
         return reply.code(502).send({ error: 'recognition failed' });
       }
     });
@@ -537,8 +570,8 @@ export function buildServer({
       const scenario = buildScenario(bundle, l1, target, unitId);
       if (!scenario) return reply.code(404).send({ error: 'unknown unit' });
 
-      const limit = await overQuota(acc.id, 'tutor');
-      if (limit !== undefined) return reply.code(429).send({ error: 'daily limit reached', limit });
+      const charge = await chargeQuota(acc.id, 'tutor');
+      if ('limit' in charge) return reply.code(429).send({ error: 'daily limit reached', limit: charge.limit });
 
       const history = body.data.history
         .slice(-TUTOR_HISTORY)
@@ -549,6 +582,7 @@ export function buildServer({
         return await tutor.turn(scenario, history);
       } catch (e) {
         req.log.error(e, 'tutor turn failed');
+        await charge.refund();
         const busy = e instanceof Error && 'status' in e && (e as { status?: number }).status === 429;
         return reply
           .code(busy ? 503 : 502)
